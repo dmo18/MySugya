@@ -4720,6 +4720,205 @@
         }
       },
       "certifiedAtCommit": "d2dd9887ebe0083fd496f55def9fc919d20abb93"
+    },
+    "yoma-009a-s01": {
+      "sugyaId": "yoma-009a-s01",
+      "daf": "9a",
+      "state": "CERTIFIED",
+      "firstPass": {
+        "reviewId": "sonnet5-9a-first-20260823a",
+        "sourceFirst": true,
+        "verdict": "REPAIR_REQUIRED",
+        "reviewedSourceFingerprint": "fa8b0e7e2ac86b47c658755800f9ba346301e64cbc6041adb296b22e21a31ba5",
+        "reviewedSemanticFingerprint": "2ba84d137fbbe54dc212693b3466f3edb85071fb990fb032bc15745a7d3356d1",
+        "evidence": {
+          "reviewId": "sonnet5-9a-first-20260823a",
+          "module": "yoma",
+          "daf": "9a",
+          "sugyaId": "yoma-009a-s01",
+          "independentSourceReconstruction": "Read authoritativeHebrewLines 1-8 in full, completing 8b's cut-off 'lefi' citation. Because Yochanan High Priest sent emissaries throughout Israel and saw that only terumah gedolah was being universally separated (Rashi cross-references this decree to Sotah 48a). Maaser rishon and maaser ani are not required from bakers because the burden of proof is on the claimant (matches Rashi's gloss: once separated from tevel status, only a doubt of shortchanging the Levi/poor remains, and the claimant must prove non-tithing - except terumat maaser itself, which carries a death-penalty stringency and must always be given). The general dema'i rule for maaser sheni is to separate it, bring it up, and eat it in Jerusalem (Rashi glosses this as costless to the owner, since he himself eats it). Ulla then explains: since the parhedrin officials already beat the bakers every 12 months demanding cheap sales, the Rabbis did not burden them with this maaser sheni requirement on top of that pressure. A brief etymological gloss follows ('what are parhedrin? cavalry/horsemen').",
+          "verdict": "REPAIR_REQUIRED",
+          "defectsFound": [
+            {
+              "field": "argumentFlow, display.shortSummary, display.whats, learning.resolution, finalRuling, misconceptions",
+              "description": "The enrichment presented a genuine internal self-contradiction: step-01 stated 'maaser sheni: they [bakers] would separate it and ascend to Jerusalem to eat it' (implying bakers ARE required to perform the full maaser sheni procedure), while step-03 (Ulla) stated 'the Rabbis did not further burden them with the requirement to separate dema'i maaser sheni' (implying bakers are NOT required to do this) and finalRuling separately claimed bakers are exempt from maaser sheni entirely. These cannot all be true simultaneously as worded. Cross-checked against 8b's own baraita ('bakers not obligated except terumat maaser and challah' - implying full exemption from maaser sheni) and 8b's own Rashi commentary (already established, protected: bakers need not bring maaser sheni to Jerusalem or redeem it, due to their continuous selling), the correct reading is that 'separate, bring up, eat in Jerusalem' describes the GENERAL dema'i rule (the baseline Yochanan's survey addresses), from which Ulla's parhedrin-pressure explanation exempts bakers specifically - not a description of what bakers themselves do."
+            }
+          ],
+          "validatedAsCorrect": [
+            "Yochanan High Priest's decree and its cross-reference to Sotah 48a - confirmed accurate via Rashi's own gloss on line 1 ('Yochanan the High Priest, who decreed concerning demai; in Sotah, in the chapter Egla Arufa 48a').",
+            "The burden-of-proof reasoning for maaser rishon/maaser ani - confirmed accurate against Rashi's gloss on lines 2-6.",
+            "Ulla's parhedrin-pressure explanation itself, and the etymological gloss on 'parhedrin' - both accurately captured."
+          ],
+          "declaration": "Independently read and reconstructed lines 1-8, cross-checked against the file's own Rashi commentary. Found a genuine internal self-contradiction between step-01 and step-03/finalRuling regarding bakers' maaser sheni obligation, resolved via the already-established 8b Rashi commentary and 8b's own baraita rule. REPAIR_REQUIRED."
+        }
+      },
+      "repairRef": "9f2d66cbd086c903016bf15bf6112fd358683b32",
+      "sourceFingerprint": "fa8b0e7e2ac86b47c658755800f9ba346301e64cbc6041adb296b22e21a31ba5",
+      "semanticFingerprint": "d777eef1053498d37c8273577058a0de4ee3b68f84ab2f8bbc2c5b01c242f73f",
+      "secondPass": {
+        "reviewId": "sonnet5-9a-second-20260823b",
+        "sourceFirst": true,
+        "verdict": "CONFIRMED",
+        "reviewedSourceFingerprint": "fa8b0e7e2ac86b47c658755800f9ba346301e64cbc6041adb296b22e21a31ba5",
+        "reviewedSemanticFingerprint": "d777eef1053498d37c8273577058a0de4ee3b68f84ab2f8bbc2c5b01c242f73f",
+        "evidence": {
+          "reviewId": "sonnet5-9a-second-20260823b",
+          "module": "yoma",
+          "daf": "9a",
+          "independentSourceReconstruction": "Re-derived the daf from authoritativeHebrewLines 1-22 fresh, without consulting first-pass reasoning. Confirmed the same three-part structure: (1) lines 1-8, completing 8b's cut-off baraita on bakers' tithes (Yochanan High Priest's survey explaining terumah gedolah, burden of proof explaining maaser rishon/ani, and the general dema'i maaser sheni rule from which Ulla exempts bakers via the parhedrin-pressure account) - cross-checked against the file's own Rashi commentary, which independently confirms Yochanan's decree (cross-referenced to Sotah 48a), the burden-of-proof mechanics, and glosses 'they did not burden them' as relying on majority-tithing assumption, consistent with bakers being exempted from the general maaser sheni requirement rather than performing it themselves; (2) lines 8-16, the Proverbs-verse-driven First/Second Temple High Priest statistics (410/18 vs 420/300+, with the four-priest subtraction arithmetic), verified exact against the raw numbers; (3) lines 17-22, R. Yochanan ben Torta's two-sins framework for Shiloh's destruction and the opening of R. Shmuel bar Nachmani's rehabilitation of Eli's sons, cut off mid-word at 'because they delayed', with the file's own Rashi commentary on this exact word confirmed to add nothing beyond 'that they delayed'.",
+          "perSugya": [
+            {
+              "sugyaId": "yoma-009a-s01",
+              "verdict": "CONFIRMED",
+              "notes": "Independently re-verified all three argumentFlow steps against lines 1-8. The previously self-contradictory maaser sheni framing (step-01 implying bakers perform the full procedure vs. step-03/finalRuling exempting them) is now resolved consistently: 'separate, bring up, eat in Jerusalem' is the general dema'i rule, and Ulla's account explains bakers' exemption from it. No remaining defects found."
+            },
+            {
+              "sugyaId": "yoma-009a-s02",
+              "verdict": "CONFIRMED",
+              "notes": "Independently re-verified the Temple-statistics content against lines 8-16; accurate and unchanged in substance. Confirmed shortSummary/oneLine/whats/resolution no longer narrate s03's Shiloh content in detail - they now correctly stay within this sugya's own declared line range with only a light forward pointer."
+            },
+            {
+              "sugyaId": "yoma-009a-s03",
+              "verdict": "CONFIRMED",
+              "notes": "Independently re-verified against lines 17-22 and the file's own Rashi commentary. Confirmed the previously fabricated content (kanim/bird-offerings, women kept from husbands, scriptural-attribution-by-effect mechanism) has been fully removed. The repaired content accurately reflects only what is established within 9a's boundary - R. Yochanan ben Torta's two-sins statement and the opening of R. Shmuel bar Nachmani's rehabilitating claim - properly hedged as cut off mid-word, continuing on 9b, consistent with Rashi's own terse comment on the exact cutoff word. No fabricated content remains."
+            }
+          ],
+          "declaration": "Independently re-read the full daf and re-derived every field from scratch, blind to first-pass reasoning, specifically re-checking the maaser sheni internal-consistency fix in s01 and the cut-off boundary in s03 (the daf's most severe originally-found defect). All three sugyot's repaired content is confirmed accurate and fully grounded in the source text and the file's own Rashi commentary, with no remaining fabrication, misattribution, self-contradiction, or boundary-crossing content bleed."
+        }
+      },
+      "certifiedAtCommit": "9f2d66cbd086c903016bf15bf6112fd358683b32"
+    },
+    "yoma-009a-s02": {
+      "sugyaId": "yoma-009a-s02",
+      "daf": "9a",
+      "state": "CERTIFIED",
+      "firstPass": {
+        "reviewId": "sonnet5-9a-first-20260823a",
+        "sourceFirst": true,
+        "verdict": "REPAIR_REQUIRED",
+        "reviewedSourceFingerprint": "e6ed2cba7dc335532c9a0a413e3da32477e2261efa807c82d3e55d4b8a370039",
+        "reviewedSemanticFingerprint": "d8b334f62371b5b5e78c794de3a75c5de2962e702628ece8a4d2a28903da6526",
+        "evidence": {
+          "reviewId": "sonnet5-9a-first-20260823a",
+          "module": "yoma",
+          "daf": "9a",
+          "sugyaId": "yoma-009a-s02",
+          "independentSourceReconstruction": "Read authoritativeHebrewLines 8-16: Rabba bar bar Chana in R. Yochanan's name expounds Proverbs 10:27 ('the fear of the Lord prolongs days, but the years of the wicked shall be shortened') onto Temple history: 'fear of the Lord prolongs days' = the First Temple, which stood 410 years and was served by only 18 High Priests; 'years of the wicked shall be shortened' = the Second Temple, which stood 420 years and was served by more than 300 priests. Subtracting the terms of four long-serving exceptions (Shimon HaTzaddik 40, Yochanan 80, Yishmael ben Pabi 10 or R. Elazar ben Charsom 11), the remaining priests each served less than a year. All figures verified exactly against the raw text.",
+          "verdict": "REPAIR_REQUIRED",
+          "defectsFound": [
+            {
+              "field": "display.title, display.oneLine, display.shortSummary, display.whats, learning.resolution, learning.ahaMoment, learning.learningBlocker, learning.memoryAnchor, topicTags, conceptRefs, quizSeeds, misconceptions",
+              "description": "This sugya's declared line range is 8-16 (the Temple-statistics passage only), but its shortSummary, oneLine, whats, and resolution fields narrate the ENTIRE Shiloh-destruction discussion (R. Yochanan ben Torta's two sins, Eli's sons' rehabilitation, delayed bird-offerings, women kept from husbands) in specific detail - content that belongs to the separate sugya s03 (lines 17-22), and which s03 itself was found to fabricate (see s03's finding). This is the same boundary-crossing content-bleed defect pattern found and repaired on 8b's s02/s03. topicTags/conceptRefs/quizSeeds/misconceptions also included Shiloh/Eli-specific entries not grounded in this sugya's own line range."
+            }
+          ],
+          "validatedAsCorrect": [
+            "The Temple-statistics content itself (410/420 years, 18/300+ High Priests, the four-priest subtraction arithmetic) is accurate and precisely matches the source text."
+          ],
+          "declaration": "Independently read and reconstructed lines 8-16. The Temple-statistics content itself is accurate, but shortSummary/oneLine/whats/resolution and several tag/quiz/misconception fields improperly narrate s03's (separately fabricated) Shiloh content in detail, a boundary-crossing content-bleed defect. REPAIR_REQUIRED."
+        }
+      },
+      "repairRef": "9f2d66cbd086c903016bf15bf6112fd358683b32",
+      "sourceFingerprint": "e6ed2cba7dc335532c9a0a413e3da32477e2261efa807c82d3e55d4b8a370039",
+      "semanticFingerprint": "6dc39659bff908104c922ffea909be9aa77eab6f15342a78a164c950f11f5d98",
+      "secondPass": {
+        "reviewId": "sonnet5-9a-second-20260823b",
+        "sourceFirst": true,
+        "verdict": "CONFIRMED",
+        "reviewedSourceFingerprint": "e6ed2cba7dc335532c9a0a413e3da32477e2261efa807c82d3e55d4b8a370039",
+        "reviewedSemanticFingerprint": "6dc39659bff908104c922ffea909be9aa77eab6f15342a78a164c950f11f5d98",
+        "evidence": {
+          "reviewId": "sonnet5-9a-second-20260823b",
+          "module": "yoma",
+          "daf": "9a",
+          "independentSourceReconstruction": "Re-derived the daf from authoritativeHebrewLines 1-22 fresh, without consulting first-pass reasoning. Confirmed the same three-part structure: (1) lines 1-8, completing 8b's cut-off baraita on bakers' tithes (Yochanan High Priest's survey explaining terumah gedolah, burden of proof explaining maaser rishon/ani, and the general dema'i maaser sheni rule from which Ulla exempts bakers via the parhedrin-pressure account) - cross-checked against the file's own Rashi commentary, which independently confirms Yochanan's decree (cross-referenced to Sotah 48a), the burden-of-proof mechanics, and glosses 'they did not burden them' as relying on majority-tithing assumption, consistent with bakers being exempted from the general maaser sheni requirement rather than performing it themselves; (2) lines 8-16, the Proverbs-verse-driven First/Second Temple High Priest statistics (410/18 vs 420/300+, with the four-priest subtraction arithmetic), verified exact against the raw numbers; (3) lines 17-22, R. Yochanan ben Torta's two-sins framework for Shiloh's destruction and the opening of R. Shmuel bar Nachmani's rehabilitation of Eli's sons, cut off mid-word at 'because they delayed', with the file's own Rashi commentary on this exact word confirmed to add nothing beyond 'that they delayed'.",
+          "perSugya": [
+            {
+              "sugyaId": "yoma-009a-s01",
+              "verdict": "CONFIRMED",
+              "notes": "Independently re-verified all three argumentFlow steps against lines 1-8. The previously self-contradictory maaser sheni framing (step-01 implying bakers perform the full procedure vs. step-03/finalRuling exempting them) is now resolved consistently: 'separate, bring up, eat in Jerusalem' is the general dema'i rule, and Ulla's account explains bakers' exemption from it. No remaining defects found."
+            },
+            {
+              "sugyaId": "yoma-009a-s02",
+              "verdict": "CONFIRMED",
+              "notes": "Independently re-verified the Temple-statistics content against lines 8-16; accurate and unchanged in substance. Confirmed shortSummary/oneLine/whats/resolution no longer narrate s03's Shiloh content in detail - they now correctly stay within this sugya's own declared line range with only a light forward pointer."
+            },
+            {
+              "sugyaId": "yoma-009a-s03",
+              "verdict": "CONFIRMED",
+              "notes": "Independently re-verified against lines 17-22 and the file's own Rashi commentary. Confirmed the previously fabricated content (kanim/bird-offerings, women kept from husbands, scriptural-attribution-by-effect mechanism) has been fully removed. The repaired content accurately reflects only what is established within 9a's boundary - R. Yochanan ben Torta's two-sins statement and the opening of R. Shmuel bar Nachmani's rehabilitating claim - properly hedged as cut off mid-word, continuing on 9b, consistent with Rashi's own terse comment on the exact cutoff word. No fabricated content remains."
+            }
+          ],
+          "declaration": "Independently re-read the full daf and re-derived every field from scratch, blind to first-pass reasoning, specifically re-checking the maaser sheni internal-consistency fix in s01 and the cut-off boundary in s03 (the daf's most severe originally-found defect). All three sugyot's repaired content is confirmed accurate and fully grounded in the source text and the file's own Rashi commentary, with no remaining fabrication, misattribution, self-contradiction, or boundary-crossing content bleed."
+        }
+      },
+      "certifiedAtCommit": "9f2d66cbd086c903016bf15bf6112fd358683b32"
+    },
+    "yoma-009a-s03": {
+      "sugyaId": "yoma-009a-s03",
+      "daf": "9a",
+      "state": "CERTIFIED",
+      "firstPass": {
+        "reviewId": "sonnet5-9a-first-20260823a",
+        "sourceFirst": true,
+        "verdict": "REPAIR_REQUIRED",
+        "reviewedSourceFingerprint": "ce21c65609c8e1b68797401e9693da34f9dd3d838c490f52962e77cdc76cf359",
+        "reviewedSemanticFingerprint": "d065384e6121256018e59f7a4afd3097994885b586b385a887b3e228a4169afa",
+        "evidence": {
+          "reviewId": "sonnet5-9a-first-20260823a",
+          "module": "yoma",
+          "daf": "9a",
+          "sugyaId": "yoma-009a-s03",
+          "independentSourceReconstruction": "Read authoritativeHebrewLines 17-22 in full: R. Yochanan ben Torta asks why Shiloh was destroyed, answering: because of two things practiced there, giluy arayot (sexual immorality) and bizayon kodashim (degradation of sacred offerings). On giluy arayot, the Gemara cites the verse (1 Samuel 2:22, Eli heard of his sons' deeds and how they lay with the women who assembled at the entrance of the Tent of Meeting), then: 'And even though R. Shmuel bar Nachmani said in R. Yochanan's name: whoever says the sons of Eli sinned is merely mistaken - [rather it was] because they delayed...' The daf cuts off mid-word at 'shahu' (delayed). Cross-checked against the file's own Rashi commentary: the only Rashi entry for this passage (vilna line 18 in Rashi's numbering, linked to this exact cutoff) is the single terse phrase 'That they delayed' - with no further elaboration whatsoever. The word 'kanim' (bird-offerings) does not appear anywhere in lines 17-22, nor does any mention of women being kept from their husbands or a 'scriptural attribution by effect' mechanism.",
+          "verdict": "REPAIR_REQUIRED",
+          "defectsFound": [
+            {
+              "field": "display.shortSummary, display.whats, learning.coreTension, learning.coreMove, learning.resolution, learning.ahaMoment, learning.learningBlocker, argumentFlow step-02, visualizableElements, quizSeeds, misconceptions, top-level daf summary, glossary",
+              "description": "The enrichment presents a full, specific explanation of Eli's sons' actual sin (they delayed processing women's bird-offerings/kanim, causing the women to be kept from their husbands, with scripture attributing the delay to them via a 'scriptural attribution by effect' mechanism) as already established within 9a. In fact, the daf's actual text cuts off mid-word at 'because they delayed...' before any of this content appears, and even the file's own Rashi commentary on this exact word adds nothing beyond 'that they delayed.' The word 'kanim' does not appear anywhere in 9a's text. This is content imported from 9b (where the actual explanation must continue) and presented as already resolved on 9a - the same defect class found and repaired on 8b's s03. A glossary entry for 'kanim' compounds the same fabrication."
+            }
+          ],
+          "validatedAsCorrect": [
+            "R. Yochanan ben Torta's two-sins framework (giluy arayot, bizayon kodashim) - accurately stated and correctly attributed.",
+            "The verse citation (1 Samuel 2:22) and R. Shmuel bar Nachmani's rehabilitating claim itself ('whoever says the sons of Eli sinned is mistaken') - accurately stated and correctly attributed.",
+            "The declared line range (17-22) is correct: line 17 contains both the end of the Temple-statistics material and the start of R. Yochanan ben Torta's statement (normal shared-boundary line), and line 22 is where the daf genuinely cuts off mid-word."
+          ],
+          "declaration": "Independently read and reconstructed lines 17-22, cross-checked against the file's own (terse, unelaborated) Rashi commentary on the exact cutoff word. Found severe fabrication: the specific mechanism and content of Eli's sons' actual sin (bird-offerings, women kept from husbands, scriptural attribution by effect) is presented as already established, when the daf's own text and its own Rashi commentary both confirm this is genuinely unresolved within 9a, continuing on 9b. REPAIR_REQUIRED."
+        }
+      },
+      "repairRef": "9f2d66cbd086c903016bf15bf6112fd358683b32",
+      "sourceFingerprint": "ce21c65609c8e1b68797401e9693da34f9dd3d838c490f52962e77cdc76cf359",
+      "semanticFingerprint": "66c579dd636de06674d338f3ff8968049e36b062a22abb226b7f3d346d9db9ac",
+      "secondPass": {
+        "reviewId": "sonnet5-9a-second-20260823b",
+        "sourceFirst": true,
+        "verdict": "CONFIRMED",
+        "reviewedSourceFingerprint": "ce21c65609c8e1b68797401e9693da34f9dd3d838c490f52962e77cdc76cf359",
+        "reviewedSemanticFingerprint": "66c579dd636de06674d338f3ff8968049e36b062a22abb226b7f3d346d9db9ac",
+        "evidence": {
+          "reviewId": "sonnet5-9a-second-20260823b",
+          "module": "yoma",
+          "daf": "9a",
+          "independentSourceReconstruction": "Re-derived the daf from authoritativeHebrewLines 1-22 fresh, without consulting first-pass reasoning. Confirmed the same three-part structure: (1) lines 1-8, completing 8b's cut-off baraita on bakers' tithes (Yochanan High Priest's survey explaining terumah gedolah, burden of proof explaining maaser rishon/ani, and the general dema'i maaser sheni rule from which Ulla exempts bakers via the parhedrin-pressure account) - cross-checked against the file's own Rashi commentary, which independently confirms Yochanan's decree (cross-referenced to Sotah 48a), the burden-of-proof mechanics, and glosses 'they did not burden them' as relying on majority-tithing assumption, consistent with bakers being exempted from the general maaser sheni requirement rather than performing it themselves; (2) lines 8-16, the Proverbs-verse-driven First/Second Temple High Priest statistics (410/18 vs 420/300+, with the four-priest subtraction arithmetic), verified exact against the raw numbers; (3) lines 17-22, R. Yochanan ben Torta's two-sins framework for Shiloh's destruction and the opening of R. Shmuel bar Nachmani's rehabilitation of Eli's sons, cut off mid-word at 'because they delayed', with the file's own Rashi commentary on this exact word confirmed to add nothing beyond 'that they delayed'.",
+          "perSugya": [
+            {
+              "sugyaId": "yoma-009a-s01",
+              "verdict": "CONFIRMED",
+              "notes": "Independently re-verified all three argumentFlow steps against lines 1-8. The previously self-contradictory maaser sheni framing (step-01 implying bakers perform the full procedure vs. step-03/finalRuling exempting them) is now resolved consistently: 'separate, bring up, eat in Jerusalem' is the general dema'i rule, and Ulla's account explains bakers' exemption from it. No remaining defects found."
+            },
+            {
+              "sugyaId": "yoma-009a-s02",
+              "verdict": "CONFIRMED",
+              "notes": "Independently re-verified the Temple-statistics content against lines 8-16; accurate and unchanged in substance. Confirmed shortSummary/oneLine/whats/resolution no longer narrate s03's Shiloh content in detail - they now correctly stay within this sugya's own declared line range with only a light forward pointer."
+            },
+            {
+              "sugyaId": "yoma-009a-s03",
+              "verdict": "CONFIRMED",
+              "notes": "Independently re-verified against lines 17-22 and the file's own Rashi commentary. Confirmed the previously fabricated content (kanim/bird-offerings, women kept from husbands, scriptural-attribution-by-effect mechanism) has been fully removed. The repaired content accurately reflects only what is established within 9a's boundary - R. Yochanan ben Torta's two-sins statement and the opening of R. Shmuel bar Nachmani's rehabilitating claim - properly hedged as cut off mid-word, continuing on 9b, consistent with Rashi's own terse comment on the exact cutoff word. No fabricated content remains."
+            }
+          ],
+          "declaration": "Independently re-read the full daf and re-derived every field from scratch, blind to first-pass reasoning, specifically re-checking the maaser sheni internal-consistency fix in s01 and the cut-off boundary in s03 (the daf's most severe originally-found defect). All three sugyot's repaired content is confirmed accurate and fully grounded in the source text and the file's own Rashi commentary, with no remaining fabrication, misattribution, self-contradiction, or boundary-crossing content bleed."
+        }
+      },
+      "certifiedAtCommit": "9f2d66cbd086c903016bf15bf6112fd358683b32"
     }
   }
 }
