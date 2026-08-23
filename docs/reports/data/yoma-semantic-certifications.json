@@ -2794,6 +2794,467 @@
         }
       },
       "certifiedAtCommit": "df4caf77b0ae8b67448aa527ee05682261f59519"
+    },
+    "yoma-004b-s01": {
+      "sugyaId": "yoma-004b-s01",
+      "daf": "4b",
+      "state": "CERTIFIED",
+      "firstPass": {
+        "reviewId": "sonnet5-4b-first-20260823a",
+        "sourceFirst": true,
+        "verdict": "VERIFIED",
+        "reviewedSourceFingerprint": "6b2c647511d1c7d9a3620fd7933a41381c4c605523b31c4709887432a12751d6",
+        "reviewedSemanticFingerprint": "65eff9c4a18a434be4729a8cda98bcd914fb265845b40f8149f471ac52f0acbe",
+        "evidence": {
+          "reviewId": "sonnet5-4b-first-20260823a",
+          "module": "yoma",
+          "daf": "4b",
+          "independentSourceReconstruction": {
+            "method": "Read authoritativeHebrewLines (vilna lines 1-47) in full before opening currentEnrichment.",
+            "flow": [
+              "Lines 1-9: Three tannaitic readings of the six-day cloud (continuing R. Akiva's view from 4a's baraita): R. Akiva - the cloud covered the mountain, not Moses; the public calling honored Moses. R. Natan - the cloud purged food/drink from Moses's system so he could go 40 days without eating, like a ministering angel. R. Matya ben Charash - the cloud instilled awe so Torah would be received with trembling. Rav Adda bar Mattana citing Rav adds Psalm 2's 'serve God with awe and rejoice with trembling' - joy and trembling coexist.",
+              "Lines 11-27: Calendar dispute. R. Yosi HaGalili holds like the anonymous first Tanna (Torah given 6 Sivan); R. Akiva holds like 'Rabbi Yosi' from the same baraita (Torah given 7 Sivan, ascended same day). Tested against the tradition that the tablets broke 17 Tammuz after 40 days on the mountain: R. Akiva's count (7 Sivan start, 24 remaining days of Sivan + 16 of Tammuz = 40) lands exactly on 17 Tammuz. R. Yosi HaGalili's count (6 Sivan Torah-giving, then 6 more separation days, ascending ~13 Sivan, +40) would land around 23 Tammuz unless the six separation days are counted as part of (not additional to) the forty mountain days - which the Gemara says he holds. The passage then notes 'vayikra el Moshe, Moshe, and all Israel stood' supports 'Rabbi Elazar' (unqualified in the source - no 'ben Azariah'), who taught this verse's repetition/staging was solely to honor Moses.",
+              "Lines 29-36: A contradiction (public voice at Sinai vs. private 'kol lo' at the Tent of Meeting) resolved by distinguishing the public call (kria) from the private content (dibbur). A second problem: how did Moses enter the cloud-blocked Tent? Rabbi Elazar (same sage as above, unqualified) says God pulled him in; the school of Rabbi Yishmael derives via gezerah shavah from the sea-crossing ('betoch') that Moses walked through an opening, not immersion. Two practical rules follow from 'vayikra...vayedaber' and 'lemor': always call before speaking (echoed by, not originated from, Rabbi Chanina's independent teaching), and 'lemor' read as 'lo emor' teaches confidentiality until permission is given (Rabbah, per the primary reading of a textually bracketed/uncertain attribution in the source).",
+              "Lines 41-47: 'Vayedaber Hashem eilav me'ohel moed lemor' implies both parties of the earlier exchange (Reish Lakish and R. Yochanan, from 3b-4a) treat everything written about the inauguration as indispensable. This connects to an independently reported dispute: Rabbi Yochanan and Rabbi Chanina disagree - one holds everything written in the inauguration is indispensable, the other holds only what is also indispensable for the ongoing/future service is indispensable in the inauguration itself. Since R. Yochanan's earlier silence (in the matkin/mafrishin exchange, already reviewed and repaired on 3b) already committed him to 'everything is indispensable,' he must be the strict position; R. Chanina holds the narrower view. The daf ends with the open question of their practical difference, continuing to 5a."
+            ]
+          },
+          "boundaryVerdict": "VERIFIED",
+          "boundaryNotes": "All four declared lineRanges correspond to genuine topic units. Systemic corpus-wide gap pattern present in the usual places; no boundary repair needed.",
+          "dafSummaryVerdict": "VERIFIED",
+          "dafSummaryNotes": "currentDafSummary accurately sequences all four sugyot and does NOT contain the 'ben Azariah' error found in s02's own fields, so no daf-summary-level repair or --all-sugyot requirement is triggered.",
+          "perSugya": [
+            {
+              "sugyaId": "yoma-004b-s01",
+              "verdict": "VERIFIED",
+              "notes": "All four argumentFlow steps (R. Akiva, R. Natan, R. Matya ben Charash, Rav Adda bar Mattana citing Rav) correctly attributed and match lines 1-9 exactly."
+            },
+            {
+              "sugyaId": "yoma-004b-s02",
+              "verdict": "REPAIR_REQUIRED",
+              "notes": "GENUINE DEFECT: shortSummary, whats, and argumentFlow step-05 (label + text) all attribute the 'public calling honored Moses' teaching to 'R. Elazar ben Azariah.' The raw text (talmuddev 4b.json line 28: 'מסייע ליה לר\"א דאמר רבי אלעזר') spells this out in full as 'Rabbi Elazar' with NO 'ben Azariah' qualifier. Per standard Talmudic naming convention, an unqualified 'Rabbi Elazar' in an Amoraic sugya conventionally refers to Rabbi Elazar (ben Pedat), while 'Rabbi Elazar ben Azariah' is a distinct, earlier Tanna always cited with the full appellation specifically to avoid this exact confusion. Internal cross-check: yoma-004b-s03's own argumentFlow (step-04, lines 31-34 of the same daf) cites the SAME 'Rabbi Elazar' (the 'God grabbed Moses into the cloud' teaching) correctly, without adding 'ben Azariah' - confirming the s02 instances are an isolated, real misattribution rather than an intentional distinct identification. Calendar arithmetic (R. Akiva 7 Sivan / R. Yosi HaGalili 6 Sivan, the 17 Tammuz test, the 'forty includes the six' resolution) is otherwise accurate and matches the source exactly."
+            },
+            {
+              "sugyaId": "yoma-004b-s03",
+              "verdict": "VERIFIED",
+              "notes": "Public-vs-private voice resolution, Moses's entry into the cloud (correctly attributed to plain 'Rabbi Elazar' and the school of Rabbi Yishmael), and the two derekh-eretz/confidentiality derivations all match lines 29-36 exactly."
+            },
+            {
+              "sugyaId": "yoma-004b-s04",
+              "verdict": "VERIFIED",
+              "notes": "The inference chain (both parties' earlier silence implies everything in the inauguration is indispensable; R. Yochanan is identified as the strict position via his earlier non-refutation, already reviewed on 3b-4a; R. Chanina's narrower 'also indispensable for the ongoing service' rule) matches lines 41-47 exactly and is a sophisticated but accurate piece of reasoning."
+            }
+          ],
+          "requiredCorrection": {
+            "field": "yoma-004b-s02: display.shortSummary, display.whats, argumentFlow[4] (step-05, label and text)",
+            "problem": "Attributes a teaching to 'R. Elazar ben Azariah' (a distinct, earlier Tanna) when the raw source names only 'Rabbi Elazar' (the Amora), with no 'ben Azariah' qualifier anywhere in the sugya's declared source range.",
+            "sourceLines": "yoma-004b-l16 through yoma-004b-l27 (vilna lines 27-28 specifically)",
+            "requiredFix": "Remove 'ben Azariah' throughout s02, restoring plain 'R. Elazar' / 'Rabbi Elazar', consistent with s03's own correct usage of the same name on the same daf."
+          },
+          "declaration": "Every semantic field of every sugya on this daf was checked against the source, including fields that did not look suspicious. The calendar arithmetic (a high-risk area for subtle numeric errors) was independently recomputed and found accurate; the name error was caught via cross-checking the same sage's name usage elsewhere on the same daf."
+        }
+      },
+      "sourceFingerprint": "6b2c647511d1c7d9a3620fd7933a41381c4c605523b31c4709887432a12751d6",
+      "semanticFingerprint": "65eff9c4a18a434be4729a8cda98bcd914fb265845b40f8149f471ac52f0acbe",
+      "secondPass": {
+        "reviewId": "sonnet5-4b-second-20260823b",
+        "sourceFirst": true,
+        "verdict": "CONFIRMED",
+        "reviewedSourceFingerprint": "6b2c647511d1c7d9a3620fd7933a41381c4c605523b31c4709887432a12751d6",
+        "reviewedSemanticFingerprint": "65eff9c4a18a434be4729a8cda98bcd914fb265845b40f8149f471ac52f0acbe",
+        "evidence": {
+          "reviewId": "sonnet5-4b-second-20260823b",
+          "module": "yoma",
+          "daf": "4b",
+          "independentSourceReconstruction": "Re-derived the daf from authoritativeHebrewLines without consulting first-pass reasoning (independenceRule packet omits it). Confirmed the same four-part structure: three tannaitic readings of the six-day cloud plus Rav Adda's joy/trembling addition (1-9); the R. Yosi HaGalili/R. Akiva Sivan 6-vs-7 dispute tested against 17 Tammuz, resolved by folding the six preparation days into R. Yosi HaGalili's forty, then the plain 'Rabbi Elazar' teaching that the public call honored Moses (11-28); the public-Sinai/private-Tent contradiction, Moses's cloud entry (R. Elazar; school of R. Yishmael), and the two derekh-eretz/confidentiality derivations (29-40); the inference chain identifying R. Yochanan as the strict inauguration-invalidation opinion via his earlier silence, with R. Chanina's narrower rule and the open question continuing to 5a (41-47).",
+          "azariahSpotCheck": {
+            "rawLine28": "מסייע ליה לר\"א דאמר רבי אלעזר ויקרא אל משה משה וכל ישראל עומדין - reads only 'Rabbi Elazar', no 'ben Azariah' qualifier anywhere in the sugya's line range",
+            "currentEnrichment": "yoma-004b-s02 display.shortSummary, display.whats, and argumentFlow step-05 (label + text) now all read plain 'R. Elazar' / 'Rabbi Elazar' with no 'ben Azariah'",
+            "crossCheck": "yoma-004b-s03's own argumentFlow step-04 independently cites the same 'Rabbi Elazar' (God grabbed Moses into the cloud) correctly, without 'ben Azariah', consistent with s02's corrected usage",
+            "result": "repair verified correct and complete; no remaining 'ben Azariah' occurrence found in the daf's enrichment"
+          },
+          "calendarArithmeticSpotCheck": {
+            "rAkivaCount": "raw lines 22-24: 7 Sivan start + 24 remaining days of Sivan + 16 days of Tammuz = 40, landing on 17 Tammuz - re-verified accurate",
+            "rYosiHaGaliliResolution": "raw lines 25-27: his forty must include the six days of separation, otherwise he only reaches 23 Tammuz - re-verified accurate",
+            "result": "arithmetic in the enrichment matches the source exactly, independently recomputed"
+          },
+          "continuityCheck": {
+            "s04step02": "'R. Yochanan did not refute Reish Lakish's earlier challenge, his silence read as concession' - re-verified against raw lines 44-46 (ולא קא מהדר ליה ולא מידי) and confirmed consistent with the already-repaired 3b enrichment, where the matkin/mafrishin challenge was corrected to be Reish Lakish's own continued speech rather than R. Yochanan's - the downstream 4b inference about R. Yochanan's silence remains accurate after that upstream repair",
+            "result": "no propagated inconsistency from the 3b repair found on 4b"
+          },
+          "boundaryVerdict": "CONFIRMED",
+          "dafSummaryVerdict": "CONFIRMED",
+          "perSugya": [
+            {
+              "sugyaId": "yoma-004b-s01",
+              "verdict": "CONFIRMED",
+              "notes": "All four argumentFlow steps (R. Akiva, R. Natan, R. Matya ben Charash, Rav Adda bar Mattana citing Rav) re-verified against lines 1-9 independently; matches exactly."
+            },
+            {
+              "sugyaId": "yoma-004b-s02",
+              "verdict": "CONFIRMED",
+              "notes": "Repair verified: 'ben Azariah' fully removed from shortSummary, whats, and argumentFlow step-05; plain 'R. Elazar' now matches the raw source exactly. Calendar arithmetic independently recomputed and confirmed accurate."
+            },
+            {
+              "sugyaId": "yoma-004b-s03",
+              "verdict": "CONFIRMED",
+              "notes": "Public/private voice resolution, Moses's cloud entry (R. Elazar; school of R. Yishmael), and the two derekh-eretz/lemor derivations re-verified against lines 29-40 independently; matches source. The 'lemor' derivation is conservatively attributed to 'Gemara' rather than the source's own textually-uncertain bracketed name, which is the responsible choice."
+            },
+            {
+              "sugyaId": "yoma-004b-s04",
+              "verdict": "CONFIRMED",
+              "notes": "Inference chain re-verified against lines 41-47 independently. Step-01's 'both R. Yochanan and R. Chanina hold inauguration requirements can invalidate' is a true summary of their shared premise even though it compresses two distinct clauses in the source; not a factual error. Cross-checked for consistency with the already-repaired 3b enrichment and found no propagated inconsistency."
+            }
+          ],
+          "declaration": "Independently re-read the full daf and re-checked every semantic field of every sugya, blind to first-pass reasoning. Specifically re-verified the 'ben Azariah' repair against the raw source and against s03's parallel usage of the same name, re-computed the calendar arithmetic independently, and checked the s04 inference chain against the already-repaired 3b content for downstream consistency. No remaining or new defect found on any sugya."
+        }
+      },
+      "certifiedAtCommit": "e5fca3990c0bf1163e7a804100fd1e020a8dee77"
+    },
+    "yoma-004b-s02": {
+      "sugyaId": "yoma-004b-s02",
+      "daf": "4b",
+      "state": "CERTIFIED",
+      "firstPass": {
+        "reviewId": "sonnet5-4b-first-20260823a",
+        "sourceFirst": true,
+        "verdict": "REPAIR_REQUIRED",
+        "reviewedSourceFingerprint": "002827939a806167baf39441845911c87192626a7eef736c36365e5ffbc03733",
+        "reviewedSemanticFingerprint": "8ee2a161d7b1b457ab92992582834c331b53d51c426c81920aa7f45cf0a57d72",
+        "evidence": {
+          "reviewId": "sonnet5-4b-first-20260823a",
+          "module": "yoma",
+          "daf": "4b",
+          "independentSourceReconstruction": {
+            "method": "Read authoritativeHebrewLines (vilna lines 1-47) in full before opening currentEnrichment.",
+            "flow": [
+              "Lines 1-9: Three tannaitic readings of the six-day cloud (continuing R. Akiva's view from 4a's baraita): R. Akiva - the cloud covered the mountain, not Moses; the public calling honored Moses. R. Natan - the cloud purged food/drink from Moses's system so he could go 40 days without eating, like a ministering angel. R. Matya ben Charash - the cloud instilled awe so Torah would be received with trembling. Rav Adda bar Mattana citing Rav adds Psalm 2's 'serve God with awe and rejoice with trembling' - joy and trembling coexist.",
+              "Lines 11-27: Calendar dispute. R. Yosi HaGalili holds like the anonymous first Tanna (Torah given 6 Sivan); R. Akiva holds like 'Rabbi Yosi' from the same baraita (Torah given 7 Sivan, ascended same day). Tested against the tradition that the tablets broke 17 Tammuz after 40 days on the mountain: R. Akiva's count (7 Sivan start, 24 remaining days of Sivan + 16 of Tammuz = 40) lands exactly on 17 Tammuz. R. Yosi HaGalili's count (6 Sivan Torah-giving, then 6 more separation days, ascending ~13 Sivan, +40) would land around 23 Tammuz unless the six separation days are counted as part of (not additional to) the forty mountain days - which the Gemara says he holds. The passage then notes 'vayikra el Moshe, Moshe, and all Israel stood' supports 'Rabbi Elazar' (unqualified in the source - no 'ben Azariah'), who taught this verse's repetition/staging was solely to honor Moses.",
+              "Lines 29-36: A contradiction (public voice at Sinai vs. private 'kol lo' at the Tent of Meeting) resolved by distinguishing the public call (kria) from the private content (dibbur). A second problem: how did Moses enter the cloud-blocked Tent? Rabbi Elazar (same sage as above, unqualified) says God pulled him in; the school of Rabbi Yishmael derives via gezerah shavah from the sea-crossing ('betoch') that Moses walked through an opening, not immersion. Two practical rules follow from 'vayikra...vayedaber' and 'lemor': always call before speaking (echoed by, not originated from, Rabbi Chanina's independent teaching), and 'lemor' read as 'lo emor' teaches confidentiality until permission is given (Rabbah, per the primary reading of a textually bracketed/uncertain attribution in the source).",
+              "Lines 41-47: 'Vayedaber Hashem eilav me'ohel moed lemor' implies both parties of the earlier exchange (Reish Lakish and R. Yochanan, from 3b-4a) treat everything written about the inauguration as indispensable. This connects to an independently reported dispute: Rabbi Yochanan and Rabbi Chanina disagree - one holds everything written in the inauguration is indispensable, the other holds only what is also indispensable for the ongoing/future service is indispensable in the inauguration itself. Since R. Yochanan's earlier silence (in the matkin/mafrishin exchange, already reviewed and repaired on 3b) already committed him to 'everything is indispensable,' he must be the strict position; R. Chanina holds the narrower view. The daf ends with the open question of their practical difference, continuing to 5a."
+            ]
+          },
+          "boundaryVerdict": "VERIFIED",
+          "boundaryNotes": "All four declared lineRanges correspond to genuine topic units. Systemic corpus-wide gap pattern present in the usual places; no boundary repair needed.",
+          "dafSummaryVerdict": "VERIFIED",
+          "dafSummaryNotes": "currentDafSummary accurately sequences all four sugyot and does NOT contain the 'ben Azariah' error found in s02's own fields, so no daf-summary-level repair or --all-sugyot requirement is triggered.",
+          "perSugya": [
+            {
+              "sugyaId": "yoma-004b-s01",
+              "verdict": "VERIFIED",
+              "notes": "All four argumentFlow steps (R. Akiva, R. Natan, R. Matya ben Charash, Rav Adda bar Mattana citing Rav) correctly attributed and match lines 1-9 exactly."
+            },
+            {
+              "sugyaId": "yoma-004b-s02",
+              "verdict": "REPAIR_REQUIRED",
+              "notes": "GENUINE DEFECT: shortSummary, whats, and argumentFlow step-05 (label + text) all attribute the 'public calling honored Moses' teaching to 'R. Elazar ben Azariah.' The raw text (talmuddev 4b.json line 28: 'מסייע ליה לר\"א דאמר רבי אלעזר') spells this out in full as 'Rabbi Elazar' with NO 'ben Azariah' qualifier. Per standard Talmudic naming convention, an unqualified 'Rabbi Elazar' in an Amoraic sugya conventionally refers to Rabbi Elazar (ben Pedat), while 'Rabbi Elazar ben Azariah' is a distinct, earlier Tanna always cited with the full appellation specifically to avoid this exact confusion. Internal cross-check: yoma-004b-s03's own argumentFlow (step-04, lines 31-34 of the same daf) cites the SAME 'Rabbi Elazar' (the 'God grabbed Moses into the cloud' teaching) correctly, without adding 'ben Azariah' - confirming the s02 instances are an isolated, real misattribution rather than an intentional distinct identification. Calendar arithmetic (R. Akiva 7 Sivan / R. Yosi HaGalili 6 Sivan, the 17 Tammuz test, the 'forty includes the six' resolution) is otherwise accurate and matches the source exactly."
+            },
+            {
+              "sugyaId": "yoma-004b-s03",
+              "verdict": "VERIFIED",
+              "notes": "Public-vs-private voice resolution, Moses's entry into the cloud (correctly attributed to plain 'Rabbi Elazar' and the school of Rabbi Yishmael), and the two derekh-eretz/confidentiality derivations all match lines 29-36 exactly."
+            },
+            {
+              "sugyaId": "yoma-004b-s04",
+              "verdict": "VERIFIED",
+              "notes": "The inference chain (both parties' earlier silence implies everything in the inauguration is indispensable; R. Yochanan is identified as the strict position via his earlier non-refutation, already reviewed on 3b-4a; R. Chanina's narrower 'also indispensable for the ongoing service' rule) matches lines 41-47 exactly and is a sophisticated but accurate piece of reasoning."
+            }
+          ],
+          "requiredCorrection": {
+            "field": "yoma-004b-s02: display.shortSummary, display.whats, argumentFlow[4] (step-05, label and text)",
+            "problem": "Attributes a teaching to 'R. Elazar ben Azariah' (a distinct, earlier Tanna) when the raw source names only 'Rabbi Elazar' (the Amora), with no 'ben Azariah' qualifier anywhere in the sugya's declared source range.",
+            "sourceLines": "yoma-004b-l16 through yoma-004b-l27 (vilna lines 27-28 specifically)",
+            "requiredFix": "Remove 'ben Azariah' throughout s02, restoring plain 'R. Elazar' / 'Rabbi Elazar', consistent with s03's own correct usage of the same name on the same daf."
+          },
+          "declaration": "Every semantic field of every sugya on this daf was checked against the source, including fields that did not look suspicious. The calendar arithmetic (a high-risk area for subtle numeric errors) was independently recomputed and found accurate; the name error was caught via cross-checking the same sage's name usage elsewhere on the same daf."
+        }
+      },
+      "repairRef": "e5fca3990c0bf1163e7a804100fd1e020a8dee77",
+      "sourceFingerprint": "002827939a806167baf39441845911c87192626a7eef736c36365e5ffbc03733",
+      "semanticFingerprint": "3b4419eb21badaeb136e08d8dafdd68bceb8fa6fe847edd89326057921ad7558",
+      "secondPass": {
+        "reviewId": "sonnet5-4b-second-20260823b",
+        "sourceFirst": true,
+        "verdict": "CONFIRMED",
+        "reviewedSourceFingerprint": "002827939a806167baf39441845911c87192626a7eef736c36365e5ffbc03733",
+        "reviewedSemanticFingerprint": "3b4419eb21badaeb136e08d8dafdd68bceb8fa6fe847edd89326057921ad7558",
+        "evidence": {
+          "reviewId": "sonnet5-4b-second-20260823b",
+          "module": "yoma",
+          "daf": "4b",
+          "independentSourceReconstruction": "Re-derived the daf from authoritativeHebrewLines without consulting first-pass reasoning (independenceRule packet omits it). Confirmed the same four-part structure: three tannaitic readings of the six-day cloud plus Rav Adda's joy/trembling addition (1-9); the R. Yosi HaGalili/R. Akiva Sivan 6-vs-7 dispute tested against 17 Tammuz, resolved by folding the six preparation days into R. Yosi HaGalili's forty, then the plain 'Rabbi Elazar' teaching that the public call honored Moses (11-28); the public-Sinai/private-Tent contradiction, Moses's cloud entry (R. Elazar; school of R. Yishmael), and the two derekh-eretz/confidentiality derivations (29-40); the inference chain identifying R. Yochanan as the strict inauguration-invalidation opinion via his earlier silence, with R. Chanina's narrower rule and the open question continuing to 5a (41-47).",
+          "azariahSpotCheck": {
+            "rawLine28": "מסייע ליה לר\"א דאמר רבי אלעזר ויקרא אל משה משה וכל ישראל עומדין - reads only 'Rabbi Elazar', no 'ben Azariah' qualifier anywhere in the sugya's line range",
+            "currentEnrichment": "yoma-004b-s02 display.shortSummary, display.whats, and argumentFlow step-05 (label + text) now all read plain 'R. Elazar' / 'Rabbi Elazar' with no 'ben Azariah'",
+            "crossCheck": "yoma-004b-s03's own argumentFlow step-04 independently cites the same 'Rabbi Elazar' (God grabbed Moses into the cloud) correctly, without 'ben Azariah', consistent with s02's corrected usage",
+            "result": "repair verified correct and complete; no remaining 'ben Azariah' occurrence found in the daf's enrichment"
+          },
+          "calendarArithmeticSpotCheck": {
+            "rAkivaCount": "raw lines 22-24: 7 Sivan start + 24 remaining days of Sivan + 16 days of Tammuz = 40, landing on 17 Tammuz - re-verified accurate",
+            "rYosiHaGaliliResolution": "raw lines 25-27: his forty must include the six days of separation, otherwise he only reaches 23 Tammuz - re-verified accurate",
+            "result": "arithmetic in the enrichment matches the source exactly, independently recomputed"
+          },
+          "continuityCheck": {
+            "s04step02": "'R. Yochanan did not refute Reish Lakish's earlier challenge, his silence read as concession' - re-verified against raw lines 44-46 (ולא קא מהדר ליה ולא מידי) and confirmed consistent with the already-repaired 3b enrichment, where the matkin/mafrishin challenge was corrected to be Reish Lakish's own continued speech rather than R. Yochanan's - the downstream 4b inference about R. Yochanan's silence remains accurate after that upstream repair",
+            "result": "no propagated inconsistency from the 3b repair found on 4b"
+          },
+          "boundaryVerdict": "CONFIRMED",
+          "dafSummaryVerdict": "CONFIRMED",
+          "perSugya": [
+            {
+              "sugyaId": "yoma-004b-s01",
+              "verdict": "CONFIRMED",
+              "notes": "All four argumentFlow steps (R. Akiva, R. Natan, R. Matya ben Charash, Rav Adda bar Mattana citing Rav) re-verified against lines 1-9 independently; matches exactly."
+            },
+            {
+              "sugyaId": "yoma-004b-s02",
+              "verdict": "CONFIRMED",
+              "notes": "Repair verified: 'ben Azariah' fully removed from shortSummary, whats, and argumentFlow step-05; plain 'R. Elazar' now matches the raw source exactly. Calendar arithmetic independently recomputed and confirmed accurate."
+            },
+            {
+              "sugyaId": "yoma-004b-s03",
+              "verdict": "CONFIRMED",
+              "notes": "Public/private voice resolution, Moses's cloud entry (R. Elazar; school of R. Yishmael), and the two derekh-eretz/lemor derivations re-verified against lines 29-40 independently; matches source. The 'lemor' derivation is conservatively attributed to 'Gemara' rather than the source's own textually-uncertain bracketed name, which is the responsible choice."
+            },
+            {
+              "sugyaId": "yoma-004b-s04",
+              "verdict": "CONFIRMED",
+              "notes": "Inference chain re-verified against lines 41-47 independently. Step-01's 'both R. Yochanan and R. Chanina hold inauguration requirements can invalidate' is a true summary of their shared premise even though it compresses two distinct clauses in the source; not a factual error. Cross-checked for consistency with the already-repaired 3b enrichment and found no propagated inconsistency."
+            }
+          ],
+          "declaration": "Independently re-read the full daf and re-checked every semantic field of every sugya, blind to first-pass reasoning. Specifically re-verified the 'ben Azariah' repair against the raw source and against s03's parallel usage of the same name, re-computed the calendar arithmetic independently, and checked the s04 inference chain against the already-repaired 3b content for downstream consistency. No remaining or new defect found on any sugya."
+        }
+      },
+      "certifiedAtCommit": "e5fca3990c0bf1163e7a804100fd1e020a8dee77"
+    },
+    "yoma-004b-s03": {
+      "sugyaId": "yoma-004b-s03",
+      "daf": "4b",
+      "state": "CERTIFIED",
+      "firstPass": {
+        "reviewId": "sonnet5-4b-first-20260823a",
+        "sourceFirst": true,
+        "verdict": "VERIFIED",
+        "reviewedSourceFingerprint": "0ac9a4c1f0275d0b9f48b1f2ddb7bdca4a6ac1f4bba97d32e067b5be3bbc34cf",
+        "reviewedSemanticFingerprint": "f7b6db2f8b05da8a94cf4e5dfd222e4e3366a703469ebfb35a877d3d8b15d3d7",
+        "evidence": {
+          "reviewId": "sonnet5-4b-first-20260823a",
+          "module": "yoma",
+          "daf": "4b",
+          "independentSourceReconstruction": {
+            "method": "Read authoritativeHebrewLines (vilna lines 1-47) in full before opening currentEnrichment.",
+            "flow": [
+              "Lines 1-9: Three tannaitic readings of the six-day cloud (continuing R. Akiva's view from 4a's baraita): R. Akiva - the cloud covered the mountain, not Moses; the public calling honored Moses. R. Natan - the cloud purged food/drink from Moses's system so he could go 40 days without eating, like a ministering angel. R. Matya ben Charash - the cloud instilled awe so Torah would be received with trembling. Rav Adda bar Mattana citing Rav adds Psalm 2's 'serve God with awe and rejoice with trembling' - joy and trembling coexist.",
+              "Lines 11-27: Calendar dispute. R. Yosi HaGalili holds like the anonymous first Tanna (Torah given 6 Sivan); R. Akiva holds like 'Rabbi Yosi' from the same baraita (Torah given 7 Sivan, ascended same day). Tested against the tradition that the tablets broke 17 Tammuz after 40 days on the mountain: R. Akiva's count (7 Sivan start, 24 remaining days of Sivan + 16 of Tammuz = 40) lands exactly on 17 Tammuz. R. Yosi HaGalili's count (6 Sivan Torah-giving, then 6 more separation days, ascending ~13 Sivan, +40) would land around 23 Tammuz unless the six separation days are counted as part of (not additional to) the forty mountain days - which the Gemara says he holds. The passage then notes 'vayikra el Moshe, Moshe, and all Israel stood' supports 'Rabbi Elazar' (unqualified in the source - no 'ben Azariah'), who taught this verse's repetition/staging was solely to honor Moses.",
+              "Lines 29-36: A contradiction (public voice at Sinai vs. private 'kol lo' at the Tent of Meeting) resolved by distinguishing the public call (kria) from the private content (dibbur). A second problem: how did Moses enter the cloud-blocked Tent? Rabbi Elazar (same sage as above, unqualified) says God pulled him in; the school of Rabbi Yishmael derives via gezerah shavah from the sea-crossing ('betoch') that Moses walked through an opening, not immersion. Two practical rules follow from 'vayikra...vayedaber' and 'lemor': always call before speaking (echoed by, not originated from, Rabbi Chanina's independent teaching), and 'lemor' read as 'lo emor' teaches confidentiality until permission is given (Rabbah, per the primary reading of a textually bracketed/uncertain attribution in the source).",
+              "Lines 41-47: 'Vayedaber Hashem eilav me'ohel moed lemor' implies both parties of the earlier exchange (Reish Lakish and R. Yochanan, from 3b-4a) treat everything written about the inauguration as indispensable. This connects to an independently reported dispute: Rabbi Yochanan and Rabbi Chanina disagree - one holds everything written in the inauguration is indispensable, the other holds only what is also indispensable for the ongoing/future service is indispensable in the inauguration itself. Since R. Yochanan's earlier silence (in the matkin/mafrishin exchange, already reviewed and repaired on 3b) already committed him to 'everything is indispensable,' he must be the strict position; R. Chanina holds the narrower view. The daf ends with the open question of their practical difference, continuing to 5a."
+            ]
+          },
+          "boundaryVerdict": "VERIFIED",
+          "boundaryNotes": "All four declared lineRanges correspond to genuine topic units. Systemic corpus-wide gap pattern present in the usual places; no boundary repair needed.",
+          "dafSummaryVerdict": "VERIFIED",
+          "dafSummaryNotes": "currentDafSummary accurately sequences all four sugyot and does NOT contain the 'ben Azariah' error found in s02's own fields, so no daf-summary-level repair or --all-sugyot requirement is triggered.",
+          "perSugya": [
+            {
+              "sugyaId": "yoma-004b-s01",
+              "verdict": "VERIFIED",
+              "notes": "All four argumentFlow steps (R. Akiva, R. Natan, R. Matya ben Charash, Rav Adda bar Mattana citing Rav) correctly attributed and match lines 1-9 exactly."
+            },
+            {
+              "sugyaId": "yoma-004b-s02",
+              "verdict": "REPAIR_REQUIRED",
+              "notes": "GENUINE DEFECT: shortSummary, whats, and argumentFlow step-05 (label + text) all attribute the 'public calling honored Moses' teaching to 'R. Elazar ben Azariah.' The raw text (talmuddev 4b.json line 28: 'מסייע ליה לר\"א דאמר רבי אלעזר') spells this out in full as 'Rabbi Elazar' with NO 'ben Azariah' qualifier. Per standard Talmudic naming convention, an unqualified 'Rabbi Elazar' in an Amoraic sugya conventionally refers to Rabbi Elazar (ben Pedat), while 'Rabbi Elazar ben Azariah' is a distinct, earlier Tanna always cited with the full appellation specifically to avoid this exact confusion. Internal cross-check: yoma-004b-s03's own argumentFlow (step-04, lines 31-34 of the same daf) cites the SAME 'Rabbi Elazar' (the 'God grabbed Moses into the cloud' teaching) correctly, without adding 'ben Azariah' - confirming the s02 instances are an isolated, real misattribution rather than an intentional distinct identification. Calendar arithmetic (R. Akiva 7 Sivan / R. Yosi HaGalili 6 Sivan, the 17 Tammuz test, the 'forty includes the six' resolution) is otherwise accurate and matches the source exactly."
+            },
+            {
+              "sugyaId": "yoma-004b-s03",
+              "verdict": "VERIFIED",
+              "notes": "Public-vs-private voice resolution, Moses's entry into the cloud (correctly attributed to plain 'Rabbi Elazar' and the school of Rabbi Yishmael), and the two derekh-eretz/confidentiality derivations all match lines 29-36 exactly."
+            },
+            {
+              "sugyaId": "yoma-004b-s04",
+              "verdict": "VERIFIED",
+              "notes": "The inference chain (both parties' earlier silence implies everything in the inauguration is indispensable; R. Yochanan is identified as the strict position via his earlier non-refutation, already reviewed on 3b-4a; R. Chanina's narrower 'also indispensable for the ongoing service' rule) matches lines 41-47 exactly and is a sophisticated but accurate piece of reasoning."
+            }
+          ],
+          "requiredCorrection": {
+            "field": "yoma-004b-s02: display.shortSummary, display.whats, argumentFlow[4] (step-05, label and text)",
+            "problem": "Attributes a teaching to 'R. Elazar ben Azariah' (a distinct, earlier Tanna) when the raw source names only 'Rabbi Elazar' (the Amora), with no 'ben Azariah' qualifier anywhere in the sugya's declared source range.",
+            "sourceLines": "yoma-004b-l16 through yoma-004b-l27 (vilna lines 27-28 specifically)",
+            "requiredFix": "Remove 'ben Azariah' throughout s02, restoring plain 'R. Elazar' / 'Rabbi Elazar', consistent with s03's own correct usage of the same name on the same daf."
+          },
+          "declaration": "Every semantic field of every sugya on this daf was checked against the source, including fields that did not look suspicious. The calendar arithmetic (a high-risk area for subtle numeric errors) was independently recomputed and found accurate; the name error was caught via cross-checking the same sage's name usage elsewhere on the same daf."
+        }
+      },
+      "sourceFingerprint": "0ac9a4c1f0275d0b9f48b1f2ddb7bdca4a6ac1f4bba97d32e067b5be3bbc34cf",
+      "semanticFingerprint": "f7b6db2f8b05da8a94cf4e5dfd222e4e3366a703469ebfb35a877d3d8b15d3d7",
+      "secondPass": {
+        "reviewId": "sonnet5-4b-second-20260823b",
+        "sourceFirst": true,
+        "verdict": "CONFIRMED",
+        "reviewedSourceFingerprint": "0ac9a4c1f0275d0b9f48b1f2ddb7bdca4a6ac1f4bba97d32e067b5be3bbc34cf",
+        "reviewedSemanticFingerprint": "f7b6db2f8b05da8a94cf4e5dfd222e4e3366a703469ebfb35a877d3d8b15d3d7",
+        "evidence": {
+          "reviewId": "sonnet5-4b-second-20260823b",
+          "module": "yoma",
+          "daf": "4b",
+          "independentSourceReconstruction": "Re-derived the daf from authoritativeHebrewLines without consulting first-pass reasoning (independenceRule packet omits it). Confirmed the same four-part structure: three tannaitic readings of the six-day cloud plus Rav Adda's joy/trembling addition (1-9); the R. Yosi HaGalili/R. Akiva Sivan 6-vs-7 dispute tested against 17 Tammuz, resolved by folding the six preparation days into R. Yosi HaGalili's forty, then the plain 'Rabbi Elazar' teaching that the public call honored Moses (11-28); the public-Sinai/private-Tent contradiction, Moses's cloud entry (R. Elazar; school of R. Yishmael), and the two derekh-eretz/confidentiality derivations (29-40); the inference chain identifying R. Yochanan as the strict inauguration-invalidation opinion via his earlier silence, with R. Chanina's narrower rule and the open question continuing to 5a (41-47).",
+          "azariahSpotCheck": {
+            "rawLine28": "מסייע ליה לר\"א דאמר רבי אלעזר ויקרא אל משה משה וכל ישראל עומדין - reads only 'Rabbi Elazar', no 'ben Azariah' qualifier anywhere in the sugya's line range",
+            "currentEnrichment": "yoma-004b-s02 display.shortSummary, display.whats, and argumentFlow step-05 (label + text) now all read plain 'R. Elazar' / 'Rabbi Elazar' with no 'ben Azariah'",
+            "crossCheck": "yoma-004b-s03's own argumentFlow step-04 independently cites the same 'Rabbi Elazar' (God grabbed Moses into the cloud) correctly, without 'ben Azariah', consistent with s02's corrected usage",
+            "result": "repair verified correct and complete; no remaining 'ben Azariah' occurrence found in the daf's enrichment"
+          },
+          "calendarArithmeticSpotCheck": {
+            "rAkivaCount": "raw lines 22-24: 7 Sivan start + 24 remaining days of Sivan + 16 days of Tammuz = 40, landing on 17 Tammuz - re-verified accurate",
+            "rYosiHaGaliliResolution": "raw lines 25-27: his forty must include the six days of separation, otherwise he only reaches 23 Tammuz - re-verified accurate",
+            "result": "arithmetic in the enrichment matches the source exactly, independently recomputed"
+          },
+          "continuityCheck": {
+            "s04step02": "'R. Yochanan did not refute Reish Lakish's earlier challenge, his silence read as concession' - re-verified against raw lines 44-46 (ולא קא מהדר ליה ולא מידי) and confirmed consistent with the already-repaired 3b enrichment, where the matkin/mafrishin challenge was corrected to be Reish Lakish's own continued speech rather than R. Yochanan's - the downstream 4b inference about R. Yochanan's silence remains accurate after that upstream repair",
+            "result": "no propagated inconsistency from the 3b repair found on 4b"
+          },
+          "boundaryVerdict": "CONFIRMED",
+          "dafSummaryVerdict": "CONFIRMED",
+          "perSugya": [
+            {
+              "sugyaId": "yoma-004b-s01",
+              "verdict": "CONFIRMED",
+              "notes": "All four argumentFlow steps (R. Akiva, R. Natan, R. Matya ben Charash, Rav Adda bar Mattana citing Rav) re-verified against lines 1-9 independently; matches exactly."
+            },
+            {
+              "sugyaId": "yoma-004b-s02",
+              "verdict": "CONFIRMED",
+              "notes": "Repair verified: 'ben Azariah' fully removed from shortSummary, whats, and argumentFlow step-05; plain 'R. Elazar' now matches the raw source exactly. Calendar arithmetic independently recomputed and confirmed accurate."
+            },
+            {
+              "sugyaId": "yoma-004b-s03",
+              "verdict": "CONFIRMED",
+              "notes": "Public/private voice resolution, Moses's cloud entry (R. Elazar; school of R. Yishmael), and the two derekh-eretz/lemor derivations re-verified against lines 29-40 independently; matches source. The 'lemor' derivation is conservatively attributed to 'Gemara' rather than the source's own textually-uncertain bracketed name, which is the responsible choice."
+            },
+            {
+              "sugyaId": "yoma-004b-s04",
+              "verdict": "CONFIRMED",
+              "notes": "Inference chain re-verified against lines 41-47 independently. Step-01's 'both R. Yochanan and R. Chanina hold inauguration requirements can invalidate' is a true summary of their shared premise even though it compresses two distinct clauses in the source; not a factual error. Cross-checked for consistency with the already-repaired 3b enrichment and found no propagated inconsistency."
+            }
+          ],
+          "declaration": "Independently re-read the full daf and re-checked every semantic field of every sugya, blind to first-pass reasoning. Specifically re-verified the 'ben Azariah' repair against the raw source and against s03's parallel usage of the same name, re-computed the calendar arithmetic independently, and checked the s04 inference chain against the already-repaired 3b content for downstream consistency. No remaining or new defect found on any sugya."
+        }
+      },
+      "certifiedAtCommit": "e5fca3990c0bf1163e7a804100fd1e020a8dee77"
+    },
+    "yoma-004b-s04": {
+      "sugyaId": "yoma-004b-s04",
+      "daf": "4b",
+      "state": "CERTIFIED",
+      "firstPass": {
+        "reviewId": "sonnet5-4b-first-20260823a",
+        "sourceFirst": true,
+        "verdict": "VERIFIED",
+        "reviewedSourceFingerprint": "cdc3b5a90656fd7f51839e1108f0ad8bbfa233eeae579621cb3750efe2ee3b44",
+        "reviewedSemanticFingerprint": "7969b14a883e9f41c5b32ed4dcc2854dca050fe76714a08248ce445c7bdc2e6f",
+        "evidence": {
+          "reviewId": "sonnet5-4b-first-20260823a",
+          "module": "yoma",
+          "daf": "4b",
+          "independentSourceReconstruction": {
+            "method": "Read authoritativeHebrewLines (vilna lines 1-47) in full before opening currentEnrichment.",
+            "flow": [
+              "Lines 1-9: Three tannaitic readings of the six-day cloud (continuing R. Akiva's view from 4a's baraita): R. Akiva - the cloud covered the mountain, not Moses; the public calling honored Moses. R. Natan - the cloud purged food/drink from Moses's system so he could go 40 days without eating, like a ministering angel. R. Matya ben Charash - the cloud instilled awe so Torah would be received with trembling. Rav Adda bar Mattana citing Rav adds Psalm 2's 'serve God with awe and rejoice with trembling' - joy and trembling coexist.",
+              "Lines 11-27: Calendar dispute. R. Yosi HaGalili holds like the anonymous first Tanna (Torah given 6 Sivan); R. Akiva holds like 'Rabbi Yosi' from the same baraita (Torah given 7 Sivan, ascended same day). Tested against the tradition that the tablets broke 17 Tammuz after 40 days on the mountain: R. Akiva's count (7 Sivan start, 24 remaining days of Sivan + 16 of Tammuz = 40) lands exactly on 17 Tammuz. R. Yosi HaGalili's count (6 Sivan Torah-giving, then 6 more separation days, ascending ~13 Sivan, +40) would land around 23 Tammuz unless the six separation days are counted as part of (not additional to) the forty mountain days - which the Gemara says he holds. The passage then notes 'vayikra el Moshe, Moshe, and all Israel stood' supports 'Rabbi Elazar' (unqualified in the source - no 'ben Azariah'), who taught this verse's repetition/staging was solely to honor Moses.",
+              "Lines 29-36: A contradiction (public voice at Sinai vs. private 'kol lo' at the Tent of Meeting) resolved by distinguishing the public call (kria) from the private content (dibbur). A second problem: how did Moses enter the cloud-blocked Tent? Rabbi Elazar (same sage as above, unqualified) says God pulled him in; the school of Rabbi Yishmael derives via gezerah shavah from the sea-crossing ('betoch') that Moses walked through an opening, not immersion. Two practical rules follow from 'vayikra...vayedaber' and 'lemor': always call before speaking (echoed by, not originated from, Rabbi Chanina's independent teaching), and 'lemor' read as 'lo emor' teaches confidentiality until permission is given (Rabbah, per the primary reading of a textually bracketed/uncertain attribution in the source).",
+              "Lines 41-47: 'Vayedaber Hashem eilav me'ohel moed lemor' implies both parties of the earlier exchange (Reish Lakish and R. Yochanan, from 3b-4a) treat everything written about the inauguration as indispensable. This connects to an independently reported dispute: Rabbi Yochanan and Rabbi Chanina disagree - one holds everything written in the inauguration is indispensable, the other holds only what is also indispensable for the ongoing/future service is indispensable in the inauguration itself. Since R. Yochanan's earlier silence (in the matkin/mafrishin exchange, already reviewed and repaired on 3b) already committed him to 'everything is indispensable,' he must be the strict position; R. Chanina holds the narrower view. The daf ends with the open question of their practical difference, continuing to 5a."
+            ]
+          },
+          "boundaryVerdict": "VERIFIED",
+          "boundaryNotes": "All four declared lineRanges correspond to genuine topic units. Systemic corpus-wide gap pattern present in the usual places; no boundary repair needed.",
+          "dafSummaryVerdict": "VERIFIED",
+          "dafSummaryNotes": "currentDafSummary accurately sequences all four sugyot and does NOT contain the 'ben Azariah' error found in s02's own fields, so no daf-summary-level repair or --all-sugyot requirement is triggered.",
+          "perSugya": [
+            {
+              "sugyaId": "yoma-004b-s01",
+              "verdict": "VERIFIED",
+              "notes": "All four argumentFlow steps (R. Akiva, R. Natan, R. Matya ben Charash, Rav Adda bar Mattana citing Rav) correctly attributed and match lines 1-9 exactly."
+            },
+            {
+              "sugyaId": "yoma-004b-s02",
+              "verdict": "REPAIR_REQUIRED",
+              "notes": "GENUINE DEFECT: shortSummary, whats, and argumentFlow step-05 (label + text) all attribute the 'public calling honored Moses' teaching to 'R. Elazar ben Azariah.' The raw text (talmuddev 4b.json line 28: 'מסייע ליה לר\"א דאמר רבי אלעזר') spells this out in full as 'Rabbi Elazar' with NO 'ben Azariah' qualifier. Per standard Talmudic naming convention, an unqualified 'Rabbi Elazar' in an Amoraic sugya conventionally refers to Rabbi Elazar (ben Pedat), while 'Rabbi Elazar ben Azariah' is a distinct, earlier Tanna always cited with the full appellation specifically to avoid this exact confusion. Internal cross-check: yoma-004b-s03's own argumentFlow (step-04, lines 31-34 of the same daf) cites the SAME 'Rabbi Elazar' (the 'God grabbed Moses into the cloud' teaching) correctly, without adding 'ben Azariah' - confirming the s02 instances are an isolated, real misattribution rather than an intentional distinct identification. Calendar arithmetic (R. Akiva 7 Sivan / R. Yosi HaGalili 6 Sivan, the 17 Tammuz test, the 'forty includes the six' resolution) is otherwise accurate and matches the source exactly."
+            },
+            {
+              "sugyaId": "yoma-004b-s03",
+              "verdict": "VERIFIED",
+              "notes": "Public-vs-private voice resolution, Moses's entry into the cloud (correctly attributed to plain 'Rabbi Elazar' and the school of Rabbi Yishmael), and the two derekh-eretz/confidentiality derivations all match lines 29-36 exactly."
+            },
+            {
+              "sugyaId": "yoma-004b-s04",
+              "verdict": "VERIFIED",
+              "notes": "The inference chain (both parties' earlier silence implies everything in the inauguration is indispensable; R. Yochanan is identified as the strict position via his earlier non-refutation, already reviewed on 3b-4a; R. Chanina's narrower 'also indispensable for the ongoing service' rule) matches lines 41-47 exactly and is a sophisticated but accurate piece of reasoning."
+            }
+          ],
+          "requiredCorrection": {
+            "field": "yoma-004b-s02: display.shortSummary, display.whats, argumentFlow[4] (step-05, label and text)",
+            "problem": "Attributes a teaching to 'R. Elazar ben Azariah' (a distinct, earlier Tanna) when the raw source names only 'Rabbi Elazar' (the Amora), with no 'ben Azariah' qualifier anywhere in the sugya's declared source range.",
+            "sourceLines": "yoma-004b-l16 through yoma-004b-l27 (vilna lines 27-28 specifically)",
+            "requiredFix": "Remove 'ben Azariah' throughout s02, restoring plain 'R. Elazar' / 'Rabbi Elazar', consistent with s03's own correct usage of the same name on the same daf."
+          },
+          "declaration": "Every semantic field of every sugya on this daf was checked against the source, including fields that did not look suspicious. The calendar arithmetic (a high-risk area for subtle numeric errors) was independently recomputed and found accurate; the name error was caught via cross-checking the same sage's name usage elsewhere on the same daf."
+        }
+      },
+      "sourceFingerprint": "cdc3b5a90656fd7f51839e1108f0ad8bbfa233eeae579621cb3750efe2ee3b44",
+      "semanticFingerprint": "7969b14a883e9f41c5b32ed4dcc2854dca050fe76714a08248ce445c7bdc2e6f",
+      "secondPass": {
+        "reviewId": "sonnet5-4b-second-20260823b",
+        "sourceFirst": true,
+        "verdict": "CONFIRMED",
+        "reviewedSourceFingerprint": "cdc3b5a90656fd7f51839e1108f0ad8bbfa233eeae579621cb3750efe2ee3b44",
+        "reviewedSemanticFingerprint": "7969b14a883e9f41c5b32ed4dcc2854dca050fe76714a08248ce445c7bdc2e6f",
+        "evidence": {
+          "reviewId": "sonnet5-4b-second-20260823b",
+          "module": "yoma",
+          "daf": "4b",
+          "independentSourceReconstruction": "Re-derived the daf from authoritativeHebrewLines without consulting first-pass reasoning (independenceRule packet omits it). Confirmed the same four-part structure: three tannaitic readings of the six-day cloud plus Rav Adda's joy/trembling addition (1-9); the R. Yosi HaGalili/R. Akiva Sivan 6-vs-7 dispute tested against 17 Tammuz, resolved by folding the six preparation days into R. Yosi HaGalili's forty, then the plain 'Rabbi Elazar' teaching that the public call honored Moses (11-28); the public-Sinai/private-Tent contradiction, Moses's cloud entry (R. Elazar; school of R. Yishmael), and the two derekh-eretz/confidentiality derivations (29-40); the inference chain identifying R. Yochanan as the strict inauguration-invalidation opinion via his earlier silence, with R. Chanina's narrower rule and the open question continuing to 5a (41-47).",
+          "azariahSpotCheck": {
+            "rawLine28": "מסייע ליה לר\"א דאמר רבי אלעזר ויקרא אל משה משה וכל ישראל עומדין - reads only 'Rabbi Elazar', no 'ben Azariah' qualifier anywhere in the sugya's line range",
+            "currentEnrichment": "yoma-004b-s02 display.shortSummary, display.whats, and argumentFlow step-05 (label + text) now all read plain 'R. Elazar' / 'Rabbi Elazar' with no 'ben Azariah'",
+            "crossCheck": "yoma-004b-s03's own argumentFlow step-04 independently cites the same 'Rabbi Elazar' (God grabbed Moses into the cloud) correctly, without 'ben Azariah', consistent with s02's corrected usage",
+            "result": "repair verified correct and complete; no remaining 'ben Azariah' occurrence found in the daf's enrichment"
+          },
+          "calendarArithmeticSpotCheck": {
+            "rAkivaCount": "raw lines 22-24: 7 Sivan start + 24 remaining days of Sivan + 16 days of Tammuz = 40, landing on 17 Tammuz - re-verified accurate",
+            "rYosiHaGaliliResolution": "raw lines 25-27: his forty must include the six days of separation, otherwise he only reaches 23 Tammuz - re-verified accurate",
+            "result": "arithmetic in the enrichment matches the source exactly, independently recomputed"
+          },
+          "continuityCheck": {
+            "s04step02": "'R. Yochanan did not refute Reish Lakish's earlier challenge, his silence read as concession' - re-verified against raw lines 44-46 (ולא קא מהדר ליה ולא מידי) and confirmed consistent with the already-repaired 3b enrichment, where the matkin/mafrishin challenge was corrected to be Reish Lakish's own continued speech rather than R. Yochanan's - the downstream 4b inference about R. Yochanan's silence remains accurate after that upstream repair",
+            "result": "no propagated inconsistency from the 3b repair found on 4b"
+          },
+          "boundaryVerdict": "CONFIRMED",
+          "dafSummaryVerdict": "CONFIRMED",
+          "perSugya": [
+            {
+              "sugyaId": "yoma-004b-s01",
+              "verdict": "CONFIRMED",
+              "notes": "All four argumentFlow steps (R. Akiva, R. Natan, R. Matya ben Charash, Rav Adda bar Mattana citing Rav) re-verified against lines 1-9 independently; matches exactly."
+            },
+            {
+              "sugyaId": "yoma-004b-s02",
+              "verdict": "CONFIRMED",
+              "notes": "Repair verified: 'ben Azariah' fully removed from shortSummary, whats, and argumentFlow step-05; plain 'R. Elazar' now matches the raw source exactly. Calendar arithmetic independently recomputed and confirmed accurate."
+            },
+            {
+              "sugyaId": "yoma-004b-s03",
+              "verdict": "CONFIRMED",
+              "notes": "Public/private voice resolution, Moses's cloud entry (R. Elazar; school of R. Yishmael), and the two derekh-eretz/lemor derivations re-verified against lines 29-40 independently; matches source. The 'lemor' derivation is conservatively attributed to 'Gemara' rather than the source's own textually-uncertain bracketed name, which is the responsible choice."
+            },
+            {
+              "sugyaId": "yoma-004b-s04",
+              "verdict": "CONFIRMED",
+              "notes": "Inference chain re-verified against lines 41-47 independently. Step-01's 'both R. Yochanan and R. Chanina hold inauguration requirements can invalidate' is a true summary of their shared premise even though it compresses two distinct clauses in the source; not a factual error. Cross-checked for consistency with the already-repaired 3b enrichment and found no propagated inconsistency."
+            }
+          ],
+          "declaration": "Independently re-read the full daf and re-checked every semantic field of every sugya, blind to first-pass reasoning. Specifically re-verified the 'ben Azariah' repair against the raw source and against s03's parallel usage of the same name, re-computed the calendar arithmetic independently, and checked the s04 inference chain against the already-repaired 3b content for downstream consistency. No remaining or new defect found on any sugya."
+        }
+      },
+      "certifiedAtCommit": "e5fca3990c0bf1163e7a804100fd1e020a8dee77"
     }
   }
 }
