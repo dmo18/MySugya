@@ -1,0 +1,67 @@
+{
+  "schemaVersion": "1.0",
+  "module": "yoma",
+  "strictMode": false,
+  "policy": {
+    "uncertifiedDefault": "Any sugya absent from records is UNCERTIFIED, regardless of legacy review metadata.",
+    "certification": "CERTIFIED requires fresh sourceFingerprint and semanticFingerprint plus two source-first reviews with different reviewId values.",
+    "invalidation": "Any source or semantic fingerprint change automatically makes the prior certificate STALE.",
+    "bootstrapExit": "Set strictMode true only after validate_semantic_certification.py --strict passes across the full corpus."
+  },
+  "records": {
+    "yoma-024a-s01": {
+      "sugyaId": "yoma-024a-s01",
+      "daf": "24a",
+      "state": "REPAIR_REQUIRED",
+      "firstPass": {
+        "reviewId": "openai-repo-audit-2026-08-22",
+        "sourceFirst": true,
+        "verdict": "REPAIR_REQUIRED",
+        "issues": [
+          {
+            "field": "multiple semantic fields including display, learning and argumentFlow",
+            "sourceLines": "Yoma 24a Vilna lines 1-12",
+            "problem": "The current enrichment invents a one-quarter-size/fabric rule for the worn garments. The source instead discusses worn garments remaining fit, their reuse/genizah, then asks the amount of terumat hadeshen and derives a fistful from 'veherim'.",
+            "requiredCorrection": "Rebuild the sugya from the actual 24a source range before certification."
+          }
+        ]
+      }
+    },
+    "yoma-042a-s01": {
+      "sugyaId": "yoma-042a-s01",
+      "daf": "42a",
+      "state": "REPAIR_REQUIRED",
+      "firstPass": {
+        "reviewId": "openai-repo-audit-2026-08-22",
+        "sourceFirst": true,
+        "verdict": "REPAIR_REQUIRED",
+        "issues": [
+          {
+            "field": "summary, display, learning and argumentFlow",
+            "sourceLines": "Yoma 42a Vilna lines 1-36",
+            "problem": "The source remains in the crimson-thread and parah-adumah slaughter/procedure discussion, but the current enrichment places Jericho customs and ish iti/Azazel impurity inside this range.",
+            "requiredCorrection": "Remove later-daf material and reconstruct every claim from the declared 42a source range."
+          }
+        ]
+      }
+    },
+    "yoma-051a-s02": {
+      "sugyaId": "yoma-051a-s02",
+      "daf": "51a",
+      "state": "REPAIR_REQUIRED",
+      "firstPass": {
+        "reviewId": "openai-repo-audit-2026-08-22",
+        "sourceFirst": true,
+        "verdict": "REPAIR_REQUIRED",
+        "issues": [
+          {
+            "field": "daf summary and sugya semantic fields",
+            "sourceLines": "Yoma 51a",
+            "problem": "The raw 51a source is still discussing firstborn, tithe, Pesach and Pesach Sheni classification/tumah. The current enrichment claims a Mishna in this range has the High Priest receive stirred bull blood and enter the Holy of Holies.",
+            "requiredCorrection": "Rebuild 51a boundaries and semantic content from the actual source before certification."
+          }
+        ]
+      }
+    }
+  }
+}
