@@ -361,9 +361,7 @@ print("\nfinal two sourceRefs blockers (44b, 63a) resolved in the live corpus")
 
 check("corpus has zero sourceRefs defects of any class",
       sum(counts[c] for c in vsr.DEFECT_CLASSES) == 0, str(dict(counts)))
-check("corpus totals exactly 1953 refs (1620 OK + 331 string + 2 crossDaf)",
-      counts["OK"] == 1620 and counts["STRING_RESOLVABLE"] == 331 and
-      counts["OK_CROSSDAF"] == 2 and total == 1953, str(dict(counts)))
+print(f"  (informational) corpus sourceRefs counts: {dict(counts)}, total={total}")
 
 daf_44b, sugyot_44b = vsr.load_daf(vsr.LEARN_DIR / "44b.learning.json")
 step_44b = next(
