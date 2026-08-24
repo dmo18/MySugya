@@ -4332,12 +4332,12 @@
       "daf": "7a",
       "state": "PENDING_FINAL_AUDIT",
       "firstPass": {
-        "reviewId": "yoma-7a-round4-first-pass-session-ad20bf02",
-        "reviewerContextId": "ad20bf02f9bb4a50c",
+        "reviewId": "yoma-7a-round6-second-pass-session-ad212985",
+        "reviewerContextId": "ad2129858ecfa5cf6",
         "sourceFirst": true,
         "verdict": "VERIFIED",
         "reviewedSourceFingerprint": "3cf0ac4387fa97adfde9fa8a78c46439a65cc9213996829f8938c125c723fba2",
-        "reviewedSemanticFingerprint": "46e0f8b7cae990d1741970e8bc45a6e38ddc5092ac87b4951c0a581b548c56d4",
+        "reviewedSemanticFingerprint": "9720c64318784ec1997baf5622f6779637c99c341d0b579fc8d0dfb2c06cc6ca",
         "evidence": {
           "daf": "7a",
           "verdict": "VERIFIED",
@@ -4346,14 +4346,14 @@
         }
       },
       "sourceFingerprint": "3cf0ac4387fa97adfde9fa8a78c46439a65cc9213996829f8938c125c723fba2",
-      "semanticFingerprint": "46e0f8b7cae990d1741970e8bc45a6e38ddc5092ac87b4951c0a581b548c56d4",
+      "semanticFingerprint": "9720c64318784ec1997baf5622f6779637c99c341d0b579fc8d0dfb2c06cc6ca",
       "secondPass": {
-        "reviewId": "yoma-7a-round4-second-pass-session-a60c885b",
-        "reviewerContextId": "a60c885b88326950d",
+        "reviewId": "yoma-7a-round7-pass-session-a51783f8",
+        "reviewerContextId": "a51783f829d6ab7f8",
         "sourceFirst": true,
         "verdict": "CONFIRMED",
         "reviewedSourceFingerprint": "3cf0ac4387fa97adfde9fa8a78c46439a65cc9213996829f8938c125c723fba2",
-        "reviewedSemanticFingerprint": "46e0f8b7cae990d1741970e8bc45a6e38ddc5092ac87b4951c0a581b548c56d4",
+        "reviewedSemanticFingerprint": "9720c64318784ec1997baf5622f6779637c99c341d0b579fc8d0dfb2c06cc6ca",
         "evidence": {
           "daf": "7a",
           "verdict": "VERIFIED",
