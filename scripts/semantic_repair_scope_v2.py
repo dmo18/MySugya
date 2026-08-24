@@ -140,8 +140,6 @@ def main() -> None:
                 errors.append("top-level daf identity changed")
             if old_doc.get("canonicalRef") != new_doc.get("canonicalRef"):
                 errors.append("canonicalRef changed")
-            if old_doc.get("glossary") != new_doc.get("glossary"):
-                errors.append("top-level glossary changed")
             if old_doc.get("rashiTranslations") != new_doc.get("rashiTranslations"):
                 errors.append("rashiTranslations changed in semantic enrichment PR")
 
@@ -163,6 +161,19 @@ def main() -> None:
             if summary_changed and targets != new_ids:
                 errors.append("daf summary changed, so every sugya on the daf must be included in the manifest")
 
+            # Glossary is daf-level authored semantic content (schema 2.0
+            # fingerprints it into every sugya's semanticFingerprint, see
+            # semantic_certification.semantic_payload), so a repair may only
+            # touch it under the same whole-daf scope as the summary: every
+            # sugya on the daf named in the manifest. This replaces an
+            # earlier unconditional "glossary changed" ban that blocked
+            # legitimate same-daf glossary corrections found during the
+            # campaign (e.g. stale 9a glossary content left behind by a
+            # one-sugya-scoped repair).
+            glossary_changed = old_doc.get("glossary") != new_doc.get("glossary")
+            if glossary_changed and targets != new_ids:
+                errors.append("daf glossary changed, so every sugya on the daf must be included in the manifest")
+
             coordinate_keys = ("lineRange", "lines", "sefariaRefs")
             boundary_changed = False
             for sid in targets & old_ids & new_ids:
@@ -174,7 +185,15 @@ def main() -> None:
             if boundary_changed and targets != new_ids:
                 errors.append("source coordinates changed, so every sugya on the daf must be included in the manifest")
 
-            if not any(old_map.get(sid) != new_map.get(sid) for sid in targets):
+            # A repair that changes ONLY a daf-level semantic field (summary
+            # or glossary) legitimately touches no individual sugya body;
+            # summary_changed/glossary_changed already enforced the correct
+            # full-daf scope for that case above, so it is exempted here
+            # rather than forced to also fabricate an unrelated sugya edit.
+            if (
+                not summary_changed and not glossary_changed
+                and not any(old_map.get(sid) != new_map.get(sid) for sid in targets)
+            ):
                 errors.append("repair manifest names no sugya whose authored content changed")
 
     if registry not in files:

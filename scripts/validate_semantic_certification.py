@@ -29,6 +29,7 @@ from pathlib import Path
 from typing import Any, Dict, Tuple
 
 from semantic_certification import (
+    CERT_SCHEMA_VERSION,
     REPO,
     canonical_json,
     certificate_status,
@@ -40,6 +41,54 @@ from semantic_certification import (
     raw_dir,
     semantic_payload,
 )
+
+
+def allowed_schema_migration_downgrade(
+    base_schema: Any,
+    head_schema: Any,
+    old_record: Dict[str, Any],
+    new_record: Any,
+) -> bool:
+    """Narrow, self-disabling ratchet exception for the one-time semantic
+    certification schema 1.0 -> 2.0 migration (see
+    scripts/migrate_certification_schema_v2.py).
+
+    The ordinary ratchet forbids a base-CERTIFIED record from reading as
+    anything but CERTIFIED at head -- that is what stops a real content
+    regression from hiding behind a relabeled certificate. This function
+    carves out exactly one legitimate case: the migration script downgrading
+    a schema-1.0 CERTIFIED record to REVALIDATION_REQUIRED because schema
+    1.0 lacked the mandatory final whole-record audit, with no content
+    change hiding underneath the relabel.
+
+    All of the following must hold, or this returns False and the ordinary
+    ratchet failure stands:
+
+    - the transition is exactly base schema "1.0" -> head schema
+      CERT_SCHEMA_VERSION (today "2.0"); once this migration merges to main,
+      main's schemaVersion is permanently >= 2.0, so base can never again be
+      "1.0" and this condition can never be true again in this repository's
+      history
+    - the head record carries the migration script's own `migration`
+      provenance marker (never hand-authorable through the ordinary review
+      workflow, which only ever writes REPAIR_REQUIRED / PENDING_FINAL_AUDIT
+      / CERTIFIED / BLOCKED)
+    - the head record's sourceFingerprint/semanticFingerprint are byte-
+      identical to what they were at base, proving the underlying candidate
+      did not change -- only its certification label did
+    """
+    if base_schema != "1.0" or head_schema != CERT_SCHEMA_VERSION:
+        return False
+    if not isinstance(new_record, dict) or new_record.get("state") != "REVALIDATION_REQUIRED":
+        return False
+    migration = new_record.get("migration")
+    if not isinstance(migration, dict) or migration.get("fromSchemaVersion") != "1.0":
+        return False
+    if new_record.get("sourceFingerprint") != old_record.get("sourceFingerprint"):
+        return False
+    if new_record.get("semanticFingerprint") != old_record.get("semanticFingerprint"):
+        return False
+    return True
 
 
 def git_show(ref: str, rel: str) -> str | None:
@@ -202,6 +251,13 @@ def main() -> None:
                     args.module, daf, doc, sugya, registry["records"].get(sid)
                 )
                 if effective != "CERTIFIED":
+                    if allowed_schema_migration_downgrade(
+                        base_reg.get("schemaVersion"),
+                        registry.get("schemaVersion"),
+                        old_record,
+                        registry["records"].get(sid),
+                    ):
+                        continue
                     failures.append(
                         f"{sid}: was CERTIFIED at base but is now {effective} "
                         f"({'; '.join(problems)}); certification may only stay fresh or be replaced by a fresh certificate"

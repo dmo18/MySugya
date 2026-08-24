@@ -49,6 +49,8 @@ def action_for(state: str) -> str:
         "INVALID": "AUDIT",
         "REPAIR_REQUIRED": "REPAIR",
         "REPAIRED_PENDING_REVIEW": "INDEPENDENT_REVIEW",
+        "PENDING_FINAL_AUDIT": "FINAL_AUDIT",
+        "REVALIDATION_REQUIRED": "AUDIT",
         "CERTIFIED": "DONE",
         "BLOCKED": "BLOCKED",
         "ORPHANED_RECORD": "CLEAN_REGISTRY",
@@ -139,32 +141,38 @@ def packet(module: str, sid: str, second_pass: bool = False) -> Dict[str, Any]:
     return result
 
 
-def template(module: str, sid: str, review_id: str, second_review_id: str | None, commit_ref: str) -> Dict[str, Any]:
+def template(module: str, sid: str, review_id: str, second_review_id: str | None) -> Dict[str, Any]:
     corpus = load_corpus(module)
     if sid not in corpus:
         raise SystemExit(f"unknown sugya id {sid!r}")
     daf, doc, sugya = corpus[sid]
     source_fp, semantic_fp = fingerprints(module, daf, doc, sugya)
     if second_review_id:
+        # Schema 2.0: a CONFIRMED second pass produces PENDING_FINAL_AUDIT,
+        # not CERTIFIED. Use `semantic_review_state.py final-audit` afterward
+        # to record the mandatory fingerprint-bound final whole-record audit
+        # (dafBoundary, fieldInventory, staleContentSweep) before the record
+        # can become CERTIFIED. See docs/semantic-self-heal.md.
         return {
             "sugyaId": sid,
             "daf": daf,
-            "state": "CERTIFIED",
+            "state": "PENDING_FINAL_AUDIT",
             "sourceFingerprint": source_fp,
             "semanticFingerprint": semantic_fp,
             "firstPass": {
                 "reviewId": review_id,
                 "sourceFirst": True,
+                "reviewerContextId": "REPLACE with a genuinely distinct reviewer/session/context id",
                 "verdict": "VERIFIED_OR_REPAIR_REQUIRED",
                 "evidence": "REPLACE with compact source-based finding, not prior-enrichment agreement",
             },
             "secondPass": {
                 "reviewId": second_review_id,
                 "sourceFirst": True,
+                "reviewerContextId": "REPLACE with a context id that differs from firstPass.reviewerContextId",
                 "verdict": "CONFIRMED",
                 "evidence": "REPLACE with independently re-derived source-based confirmation",
             },
-            "certifiedAtCommit": commit_ref,
         }
     return {
         "sugyaId": sid,
@@ -173,6 +181,7 @@ def template(module: str, sid: str, review_id: str, second_review_id: str | None
         "firstPass": {
             "reviewId": review_id,
             "sourceFirst": True,
+            "reviewerContextId": "REPLACE with a genuinely distinct reviewer/session/context id",
             "verdict": "REPAIR_REQUIRED",
             "issues": [
                 {
@@ -217,7 +226,6 @@ def main() -> None:
     tmpl.add_argument("--sugya", required=True)
     tmpl.add_argument("--review-id", required=True)
     tmpl.add_argument("--second-review-id")
-    tmpl.add_argument("--commit-ref", default="HEAD")
     args = ap.parse_args()
 
     if args.cmd == "status":
@@ -236,7 +244,7 @@ def main() -> None:
         print(json.dumps(packet(args.module, args.sugya, args.second_pass), indent=2, ensure_ascii=False))
         return
     if args.cmd == "template":
-        print(json.dumps(template(args.module, args.sugya, args.review_id, args.second_review_id, args.commit_ref), indent=2, ensure_ascii=False))
+        print(json.dumps(template(args.module, args.sugya, args.review_id, args.second_review_id), indent=2, ensure_ascii=False))
         return
 
 
