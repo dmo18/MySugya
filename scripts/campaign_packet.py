@@ -37,6 +37,26 @@ def _authored(sugya: Dict[str, Any]) -> Dict[str, Any]:
     return {k: v for k, v in sugya.items() if k not in NON_SEMANTIC_KEYS}
 
 
+def _minted_line_ids(module: str, daf: str, sugya: Dict[str, Any]) -> List[str]:
+    """The real, minted sourceRefs.lineId values for this sugya, derived from
+    its own `lines` map (one per Sefaria segment start, NOT one per raw Vilna
+    line -- a segment can span several raw lines).
+
+    A reviewer given only vilnaLine numbers naturally but wrongly infers
+    lineId should equal "l" + vilnaLine for every line; the actual contract
+    (docs/reports/sourcerefs-contract-decision.md) is that lineId identifies
+    the segment, validated against vilnaLine by containment, never equality.
+    Handing over the exact minted set closes that recurring false-positive
+    class instead of relying on prose alone to prevent it."""
+    num, letter = daf[:-1], daf[-1]
+    out = []
+    for entry in sugya.get("lines") or []:
+        vilna = entry.get("vilnaLine")
+        if isinstance(vilna, int):
+            out.append(f"{module}-{int(num):03d}{letter}-l{vilna:02d}")
+    return out
+
+
 def _preceding_context(module: str, daf: str, corpus: Dict[str, Any]) -> Dict[str, Any] | None:
     """Compact anchor from the last sugya of the immediately preceding daf.
 
@@ -85,10 +105,24 @@ def build_candidate_packet(module: str, daf: str) -> Dict[str, Any]:
         "dafSummary": doc.get("summary", ""),
         "dafGlossary": doc.get("glossary") or [],
         "sugyot": [
-            {"id": sid, "sugyaNumber": sugya.get("sugyaNumber"), "lineRange": sugya.get("lineRange"), "authored": _authored(sugya)}
+            {
+                "id": sid,
+                "sugyaNumber": sugya.get("sugyaNumber"),
+                "lineRange": sugya.get("lineRange"),
+                "authored": _authored(sugya),
+                "mintedLineIds": _minted_line_ids(module, daf, sugya),
+            }
             for sid, _, sugya in rows
         ],
         "relevantRashi": _rashi_for_daf(doc),
+        "mintedLineIdsNote": (
+            "mintedLineIds lists the only real sourceRefs.lineId values for each sugya: one per "
+            "Sefaria segment start, not one per raw Vilna line -- a segment can span multiple Vilna "
+            "lines (e.g. lineId l06 can legitimately be the source for content at vilnaLine 7 if the "
+            "segment starting at line 6 extends through line 7). A sourceRefs entry's lineId must be "
+            "one of mintedLineIds; its vilnaLine is separate metadata checked by containment, never "
+            "required to equal the lineId's own number."
+        ),
     }
     preceding = _preceding_context(module, daf, corpus)
     if preceding is not None:
@@ -118,6 +152,15 @@ def build_final_audit_packet(module: str, daf: str, sugya_id: str) -> Dict[str, 
         "dafSummary": doc.get("summary", ""),
         "dafGlossary": doc.get("glossary") or [],
         "authored": _authored(sugya),
+        "mintedLineIds": _minted_line_ids(module, daf, sugya),
+        "mintedLineIdsNote": (
+            "mintedLineIds lists the only real sourceRefs.lineId values for this sugya: one per "
+            "Sefaria segment start, not one per raw Vilna line -- a segment can span multiple Vilna "
+            "lines (e.g. lineId l06 can legitimately be the source for content at vilnaLine 7 if the "
+            "segment starting at line 6 extends through line 7). A sourceRefs entry's lineId must be "
+            "one of mintedLineIds; its vilnaLine is separate metadata checked by containment, never "
+            "required to equal the lineId's own number."
+        ),
         "fieldInventoryRequired": [{"path": p, "class": c} for p, c in paths],
         "dafEndStates": sorted(DAF_END_STATES),
         "staleSweepCategories": list(STALE_SWEEP_CATEGORIES),
