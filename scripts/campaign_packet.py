@@ -18,6 +18,7 @@ from typing import Any, Dict, List
 
 from semantic_certification import (
     NON_SEMANTIC_KEYS,
+    daf_sort_key,
     enumerate_semantic_paths,
     load_corpus,
     raw_dir,
@@ -36,6 +37,35 @@ def _authored(sugya: Dict[str, Any]) -> Dict[str, Any]:
     return {k: v for k, v in sugya.items() if k not in NON_SEMANTIC_KEYS}
 
 
+def _preceding_context(module: str, daf: str, corpus: Dict[str, Any]) -> Dict[str, Any] | None:
+    """Compact anchor from the last sugya of the immediately preceding daf.
+
+    Many sugyot open mid-discussion (a position just stated, a dispute
+    already framed) and a fresh isolated reviewer given only the current
+    daf's raw text can misattribute a first-person claim like "from where
+    do I say this" without knowing what was just established. This is
+    deliberately small -- id, title, and one-line summary only, never the
+    preceding daf's full argumentFlow, raw Hebrew, or Rashi."""
+    dafs = sorted({d for d, _doc, _sugya in corpus.values()}, key=daf_sort_key)
+    if daf not in dafs or dafs.index(daf) == 0:
+        return None
+    prev_daf = dafs[dafs.index(daf) - 1]
+    rows = sorted(
+        ((sid, doc, sugya) for sid, (d, doc, sugya) in corpus.items() if d == prev_daf),
+        key=lambda x: x[2].get("sugyaNumber", 0),
+    )
+    if not rows:
+        return None
+    sid, _doc, sugya = rows[-1]
+    display = sugya.get("display") or {}
+    return {
+        "daf": prev_daf,
+        "sugyaId": sid,
+        "title": display.get("title", ""),
+        "oneLine": display.get("oneLine", ""),
+    }
+
+
 def build_candidate_packet(module: str, daf: str) -> Dict[str, Any]:
     """Source Auditor / Independent Reviewer packet: raw source + current
     candidate only. No fingerprints, no certification state, no prior
@@ -49,7 +79,7 @@ def build_candidate_packet(module: str, daf: str) -> Dict[str, Any]:
         raise SystemExit(f"no sugyot found for {module}/{daf}")
     doc = rows[0][1]
     raw_lines = json.loads((raw_dir(module) / f"{daf}.json").read_text(encoding="utf-8")).get("lines") or []
-    return {
+    packet: Dict[str, Any] = {
         "daf": daf,
         "rawHebrewLines": [{"l": i + 1, "he": t} for i, t in enumerate(raw_lines)],
         "dafSummary": doc.get("summary", ""),
@@ -60,6 +90,10 @@ def build_candidate_packet(module: str, daf: str) -> Dict[str, Any]:
         ],
         "relevantRashi": _rashi_for_daf(doc),
     }
+    preceding = _preceding_context(module, daf, corpus)
+    if preceding is not None:
+        packet["precedingDafContext"] = preceding
+    return packet
 
 
 def build_final_audit_packet(module: str, daf: str, sugya_id: str) -> Dict[str, Any]:
