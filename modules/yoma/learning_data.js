@@ -14635,7 +14635,7 @@ const DAF_CONTENT = {
       },
       {
         he: "הֱוֵי פִּקֵּחַ וּשְׁתוֹק",
-        translit: "Hevei pikeach ushkok",
+        translit: "Hevei pikeach ushtok",
         en: "Be shrewd and keep silent. The pragmatic instruction to proceed with an impure offering when no replacement is available, without announcing the impurity. Rav Sheshet cites the existence of this instruction as proof of dchuya: the default is to seek a replacement, so the prohibition remains operative."
       }
     ],
