@@ -4330,85 +4330,36 @@
     "yoma-007a-s01": {
       "sugyaId": "yoma-007a-s01",
       "daf": "7a",
-      "state": "REVALIDATION_REQUIRED",
+      "state": "PENDING_FINAL_AUDIT",
       "firstPass": {
-        "reviewId": "sonnet5-7a-first-20260823a",
+        "reviewId": "yoma-7a-fresh-source-review-session-af08b296",
+        "reviewerContextId": "af08b296fbd53d1d2",
         "sourceFirst": true,
         "verdict": "VERIFIED",
         "reviewedSourceFingerprint": "3cf0ac4387fa97adfde9fa8a78c46439a65cc9213996829f8938c125c723fba2",
-        "reviewedSemanticFingerprint": "86c9c97dc853a94f024860b645c31726617b1a58e3a57627efca82a8a5cbdb36",
+        "reviewedSemanticFingerprint": "e29ecaddb4b36b111cd8e74d2b14c746b6570186a79f8621c44fe5f9ae7acf3b",
         "evidence": {
-          "reviewId": "sonnet5-7a-first-20260823a",
-          "module": "yoma",
           "daf": "7a",
-          "independentSourceReconstruction": {
-            "method": "Read authoritativeHebrewLines (vilna lines 1-30, confirmed the daf's true end via direct read of talmuddev/7a.json) in full before opening currentEnrichment.",
-            "flow": [
-              "Line 1: completes 6b's cutoff sentence - Rav Nachman's position that all corpse impurity in the community is fully permitted (hutrah) by the Torah.",
-              "Lines 2-7: Rav Sheshet's first proof for dchuya - a baraita about the omer meal-offering: if it becomes impure, a replacement is sought; only absent a replacement do they proceed silently. Rav Nachman deflects: the omer has eating-remnants (sheyarim) requiring purity for their own separate reason, unrelated to the hutrah/dchuya question.",
-              "Lines 8-17: A second baraita (meal-offerings of bulls/rams/sheep) challenges that deflection, since these libation offerings are fully burned (no eating-remnants). Rav Nachman reassigns each of the three terms to a case outside true communal-fixed-time status: bulls = the par he'elem davar (communal but no fixed time); rams = Aaron's own ram (fixed time but individual, not communal); sheep = the lamb with the omer (has eating-remnants).",
-              "Lines 17-19: A third proof from a blood-sprinkling ruling (accepted if unwitting, not if intentional) is deflected as concerning only an individual's offering.",
-              "Lines 19-26: A fourth proof from the tzitz baraita (which lists atonement for impurity 'whether individual or communal') is deflected two ways, in this order: first, Rav Nachman reads the baraita's entire scope as about an individual only ('adyachid'); second, as an alternative ('ve'ibait eima'), even granting it includes communal cases, restricts them to non-fixed-time offerings.",
-              "Lines 26-30 (daf ends mid-word): A new derivation opens from 'and Aaron shall bear the sin of the holy things' (Exod. 28:38) - what sin does the tzitz atone for? Not piggul (already excluded by its own verse, 'lo yeratzeh') and not notar (already excluded by its own verse, 'lo yechashev'). The daf cuts off at 'ha' ('this/behold'), one word before completing the elimination; the implied conclusion (tumah) and its use as a hutrah proof belongs to 7b."
-            ]
-          },
-          "boundaryVerdict": "VERIFIED",
-          "boundaryNotes": "Single sugya (yoma-007a-s01) spanning the whole daf, 1-30, matching the daf's confirmed true end. No boundary repair needed.",
-          "dafSummaryVerdict": "VERIFIED",
-          "dafSummaryNotes": "currentDafSummary accurately sequences all four proof/deflection pairs and correctly frames the closing tzitz-sin-scope question with forward-looking language ('This will become a proof for hutrah in the next daf'), not as a resolution reached on this daf. Matches independent reconstruction.",
-          "perSugya": [
-            {
-              "sugyaId": "yoma-007a-s01",
-              "verdict": "VERIFIED",
-              "notes": "All four of Rav Sheshet's proofs and Rav Nachman's deflections independently verified accurate and correctly attributed against lines 1-26, including the precise three-way reassignment (par he'elem davar/Aaron's ram/omer lamb) in the second proof. Two borderline points were specifically scrutinized before concluding VERIFIED: (1) step-08/shortSummary/whats present Rav Nachman's two tzitz-baraita deflections in the order 'no-fixed-time, then individual-only,' while the raw text's rhetorical structure is 'individual-only (amar lecha), then no-fixed-time (ve'ibait eima)' - both answers are individually accurate and correctly attributed to Rav Nachman with unchanged substance, so this ordering swap does not rise to the level of a genuine semantic defect (no misattribution, no wrong fact, no fabrication - just a reordering of two valid alternatives). (2) step-10 (type 'takeaway') and the daf summary's closing sentence present the piggul/notar-elimination logic pointing to tumah, but consistently hedge it with forward-looking language ('This will be used to argue...', 'This leads toward a proof for hutrah') rather than claiming the Gemara itself completes this inference within 7a's own text (which literally cuts off at the single word 'ha'). This is materially different from the false-closure defect found and repaired on 5b (where an entire unresolved challenge was omitted and Abaye's point was presented as fully settling the dispute with no forward signal at all); here the enrichment is honest that the point continues onto the next daf."
-            }
-          ],
-          "declaration": "Every semantic field of the sugya was checked against the source, including a direct line-count verification confirming the daf ends mid-word at 'ha'. Two borderline stylistic points (answer ordering, forward-looking inference framing) were specifically identified and weighed against the established repair bar from prior daf before concluding they are not genuine defects. No misattribution, fabrication, or wrong citation found."
+          "verdict": "VERIFIED",
+          "boundaryState": "MID_SENTENCE",
+          "issues": []
         }
       },
       "sourceFingerprint": "3cf0ac4387fa97adfde9fa8a78c46439a65cc9213996829f8938c125c723fba2",
-      "semanticFingerprint": "86c9c97dc853a94f024860b645c31726617b1a58e3a57627efca82a8a5cbdb36",
+      "semanticFingerprint": "e29ecaddb4b36b111cd8e74d2b14c746b6570186a79f8621c44fe5f9ae7acf3b",
       "secondPass": {
-        "reviewId": "sonnet5-7a-second-20260823b",
+        "reviewId": "yoma-7a-fresh-source-review-session-ae0d9332",
+        "reviewerContextId": "ae0d9332da1ab6460",
         "sourceFirst": true,
         "verdict": "CONFIRMED",
         "reviewedSourceFingerprint": "3cf0ac4387fa97adfde9fa8a78c46439a65cc9213996829f8938c125c723fba2",
-        "reviewedSemanticFingerprint": "86c9c97dc853a94f024860b645c31726617b1a58e3a57627efca82a8a5cbdb36",
+        "reviewedSemanticFingerprint": "e29ecaddb4b36b111cd8e74d2b14c746b6570186a79f8621c44fe5f9ae7acf3b",
         "evidence": {
-          "reviewId": "sonnet5-7a-second-20260823b",
-          "module": "yoma",
           "daf": "7a",
-          "independentSourceReconstruction": "Re-derived the daf from authoritativeHebrewLines (confirmed 30 lines total, ending mid-word at 'ha') without consulting first-pass reasoning. Confirmed the same four-proof structure: the omer baraita deflected via eating-remnants; the bulls/rams/sheep baraita deflected via a three-way reassignment (par he'elem davar=no-fixed-time-communal, Aaron's ram=individual, omer lamb=eating-remnants); the blood-sprinkling ruling deflected as concerning an individual; and the tzitz baraita deflected two ways (individual-only, then alternatively no-fixed-time), closing with the piggul/notar elimination pointing toward tumah as the tzitz's atonement scope, continuing to 7b.",
-          "reassignmentSpotCheck": {
-            "bulls": "par he'elem davar (idolatry atonement bull) - communal but no fixed time - re-verified against raw lines 13-14",
-            "rams": "Aaron's own ram - fixed time but individual, not communal - re-verified against raw lines 14-15",
-            "sheep": "the lamb accompanying the omer - has eating-remnants - re-verified against raw lines 16-17",
-            "result": "all three reassignments independently re-derived identically to first pass"
-          },
-          "tzitzAnswerOrderSpotCheck": {
-            "rawOrder": "amar lecha Rav Nachman...ad'yachid (individual-only) stated first at line 24; ve'ibait eima...delo kavia lah zman (no-fixed-time) stated second at lines 24-25",
-            "enrichmentOrder": "presents no-fixed-time first, individual-only second (step-08, shortSummary, whats) - confirmed swapped from source",
-            "assessment": "both answers are individually accurate and correctly attributed to Rav Nachman with unchanged substance; the swap is a benign reordering of two valid alternatives, not a misattribution, wrong fact, or fabrication - does not meet the repair bar independently confirmed on this second pass"
-          },
-          "boundaryVerdict": "CONFIRMED",
-          "dafSummaryVerdict": "CONFIRMED",
-          "perSugya": [
-            {
-              "sugyaId": "yoma-007a-s01",
-              "verdict": "CONFIRMED",
-              "notes": "Independently re-derived all four proof/deflection pairs from the raw text blind to first-pass notes; the three-way reassignment and the tzitz-answer ordering issue were both re-examined fresh and reached the same conclusion: accurate content, correct attribution, no defect requiring repair. The forward-looking framing of the piggul/notar elimination (consistently hedged as continuing to 7b, never claimed as settled within 7a) is confirmed honest and non-defective."
-            }
-          ],
-          "declaration": "Independently re-read the full daf and re-checked every semantic field, blind to first-pass reasoning, with specific fresh re-derivation of the two borderline points (the three-way case reassignment and the tzitz-answer ordering). Both were re-confirmed accurate/non-defective on independent review. No defect found; confirms the clean VERIFIED finding from the first pass."
+          "verdict": "VERIFIED",
+          "boundaryState": "MID_SENTENCE",
+          "issues": []
         }
-      },
-      "certifiedAtCommit": "8406b65b196a7cb05c91042aff192912e19f94f4",
-      "migration": {
-        "fromSchemaVersion": "1.0",
-        "toSchemaVersion": "2.0",
-        "migratedAtCommit": "6e37a672cf9b107b793aca7e10ce116d394317cc",
-        "migrationScript": "scripts/migrate_certification_schema_v2.py",
-        "reason": "Certified under schema 1.0, which required two source-first review passes plus a free-text 'every field was checked' declaration but no mechanically-enumerated, fingerprint-bound final whole-record audit. An independent audit demonstrated that gap concretely on Yoma 7a/7b. This record must receive a fresh schema-2.0 final audit and genuinely independent review before it may certify again; it does not read as CERTIFIED until then."
       }
     },
     "yoma-007b-s01": {
