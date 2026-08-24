@@ -4330,7 +4330,7 @@
     "yoma-007a-s01": {
       "sugyaId": "yoma-007a-s01",
       "daf": "7a",
-      "state": "PENDING_FINAL_AUDIT",
+      "state": "CERTIFIED",
       "firstPass": {
         "reviewId": "yoma-7a-round6-second-pass-session-ad212985",
         "reviewerContextId": "ad2129858ecfa5cf6",
@@ -4360,7 +4360,2529 @@
           "boundaryState": "MID_SENTENCE",
           "issues": []
         }
-      }
+      },
+      "finalAudit": {
+        "reviewId": "yoma-7a-final-whole-record-audit-round3-session-a7be856e",
+        "auditorContextId": "a7be856edd3ba95d4",
+        "auditedSourceFingerprint": "3cf0ac4387fa97adfde9fa8a78c46439a65cc9213996829f8938c125c723fba2",
+        "auditedSemanticFingerprint": "9720c64318784ec1997baf5622f6779637c99c341d0b579fc8d0dfb2c06cc6ca",
+        "dafBoundary": {
+          "rawLineCount": 30,
+          "finalRawLine": "הא",
+          "dafEndState": "MID_SENTENCE"
+        },
+        "fieldInventory": [
+          {
+            "path": "lineRange",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "lines",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "dafLevel.glossary[0].en",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "7a",
+                "startVilnaLine": 13,
+                "endVilnaLine": 14
+              }
+            ]
+          },
+          {
+            "path": "dafLevel.glossary[0].he",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "7a",
+                "startVilnaLine": 13,
+                "endVilnaLine": 14
+              }
+            ]
+          },
+          {
+            "path": "dafLevel.glossary[0].translit",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "7a",
+                "startVilnaLine": 13,
+                "endVilnaLine": 14
+              }
+            ]
+          },
+          {
+            "path": "dafLevel.glossary[1].en",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "7a",
+                "startVilnaLine": 19,
+                "endVilnaLine": 29
+              }
+            ]
+          },
+          {
+            "path": "dafLevel.glossary[1].he",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "7a",
+                "startVilnaLine": 19,
+                "endVilnaLine": 29
+              }
+            ]
+          },
+          {
+            "path": "dafLevel.glossary[1].translit",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "7a",
+                "startVilnaLine": 19,
+                "endVilnaLine": 29
+              }
+            ]
+          },
+          {
+            "path": "dafLevel.glossary[2].en",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "7a",
+                "startVilnaLine": 28,
+                "endVilnaLine": 28
+              }
+            ]
+          },
+          {
+            "path": "dafLevel.glossary[2].he",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "7a",
+                "startVilnaLine": 28,
+                "endVilnaLine": 28
+              }
+            ]
+          },
+          {
+            "path": "dafLevel.glossary[2].translit",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "7a",
+                "startVilnaLine": 28,
+                "endVilnaLine": 28
+              }
+            ]
+          },
+          {
+            "path": "dafLevel.glossary[3].en",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "7a",
+                "startVilnaLine": 29,
+                "endVilnaLine": 29
+              }
+            ]
+          },
+          {
+            "path": "dafLevel.glossary[3].he",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "7a",
+                "startVilnaLine": 29,
+                "endVilnaLine": 29
+              }
+            ]
+          },
+          {
+            "path": "dafLevel.glossary[3].translit",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "7a",
+                "startVilnaLine": 29,
+                "endVilnaLine": 29
+              }
+            ]
+          },
+          {
+            "path": "dafLevel.glossary[4].en",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "7a",
+                "startVilnaLine": 5,
+                "endVilnaLine": 11
+              }
+            ]
+          },
+          {
+            "path": "dafLevel.glossary[4].he",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "7a",
+                "startVilnaLine": 5,
+                "endVilnaLine": 11
+              }
+            ]
+          },
+          {
+            "path": "dafLevel.glossary[4].translit",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "7a",
+                "startVilnaLine": 5,
+                "endVilnaLine": 11
+              }
+            ]
+          },
+          {
+            "path": "dafLevel.summary",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "7a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 30
+              }
+            ]
+          },
+          {
+            "path": "alternateAngles[0].angle",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "7a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 30
+              }
+            ]
+          },
+          {
+            "path": "alternateAngles[0].text",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "7a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 30
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-01].id",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-01].label",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "7a",
+                "startVilnaLine": 2,
+                "endVilnaLine": 6
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-01].sourceRefs[0].lineId",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "7a",
+                "startVilnaLine": 2,
+                "endVilnaLine": 2
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-01].sourceRefs[0].note",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "7a",
+                "startVilnaLine": 2,
+                "endVilnaLine": 6
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-01].sourceRefs[0].sourceType",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-01].sourceRefs[0].vilnaLine",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "7a",
+                "startVilnaLine": 2,
+                "endVilnaLine": 2
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-01].speaker",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "7a",
+                "startVilnaLine": 2,
+                "endVilnaLine": 6
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-01].text",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "7a",
+                "startVilnaLine": 2,
+                "endVilnaLine": 6
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-01].type",
+            "verdict": "REVIEWED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "note": "Correctly classified as Rav Sheshet's opening proof-citation for dchuya, matching the baraita introduced at vilnaLine 2."
+          },
+          {
+            "path": "argumentFlow[step-02].id",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-02].label",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "7a",
+                "startVilnaLine": 6,
+                "endVilnaLine": 8
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-02].sourceRefs[0].lineId",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "7a",
+                "startVilnaLine": 6,
+                "endVilnaLine": 7
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-02].sourceRefs[0].note",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "7a",
+                "startVilnaLine": 6,
+                "endVilnaLine": 8
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-02].sourceRefs[0].sourceType",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-02].sourceRefs[0].vilnaLine",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "7a",
+                "startVilnaLine": 7,
+                "endVilnaLine": 7
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-02].speaker",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "7a",
+                "startVilnaLine": 6,
+                "endVilnaLine": 8
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-02].text",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "7a",
+                "startVilnaLine": 6,
+                "endVilnaLine": 8
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-02].type",
+            "verdict": "REVIEWED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "note": "Correctly classified as Rav Nachman's rejection/limitation of the proof via the eating-remnants distinction at vilnaLine 7."
+          },
+          {
+            "path": "argumentFlow[step-03].id",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-03].label",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "7a",
+                "startVilnaLine": 8,
+                "endVilnaLine": 11
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-03].sourceRefs[0].lineId",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "7a",
+                "startVilnaLine": 8,
+                "endVilnaLine": 8
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-03].sourceRefs[0].note",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "7a",
+                "startVilnaLine": 8,
+                "endVilnaLine": 11
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-03].sourceRefs[0].sourceType",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-03].sourceRefs[0].vilnaLine",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "7a",
+                "startVilnaLine": 8,
+                "endVilnaLine": 8
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-03].speaker",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "7a",
+                "startVilnaLine": 8,
+                "endVilnaLine": 11
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-03].text",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "7a",
+                "startVilnaLine": 8,
+                "endVilnaLine": 11
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-03].type",
+            "verdict": "REVIEWED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "note": "Correctly classified as Rav Sheshet's second proof-citation from the meal-offering baraita at vilnaLine 8."
+          },
+          {
+            "path": "argumentFlow[step-04].id",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-04].label",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "7a",
+                "startVilnaLine": 12,
+                "endVilnaLine": 17
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-04].sourceRefs[0].lineId",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "7a",
+                "startVilnaLine": 12,
+                "endVilnaLine": 12
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-04].sourceRefs[0].note",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "7a",
+                "startVilnaLine": 12,
+                "endVilnaLine": 17
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-04].sourceRefs[0].sourceType",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-04].sourceRefs[0].vilnaLine",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "7a",
+                "startVilnaLine": 12,
+                "endVilnaLine": 12
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-04].speaker",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "7a",
+                "startVilnaLine": 12,
+                "endVilnaLine": 17
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-04].text",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "7a",
+                "startVilnaLine": 12,
+                "endVilnaLine": 17
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-04].type",
+            "verdict": "REVIEWED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "note": "Correctly classified as Rav Nachman's rejection via three-way case disaggregation beginning vilnaLine 12."
+          },
+          {
+            "path": "argumentFlow[step-05].id",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-05].label",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "7a",
+                "startVilnaLine": 17,
+                "endVilnaLine": 19
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-05].sourceRefs[0].lineId",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "7a",
+                "startVilnaLine": 17,
+                "endVilnaLine": 17
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-05].sourceRefs[0].note",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "7a",
+                "startVilnaLine": 17,
+                "endVilnaLine": 19
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-05].sourceRefs[0].sourceType",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-05].sourceRefs[0].vilnaLine",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "7a",
+                "startVilnaLine": 17,
+                "endVilnaLine": 17
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-05].speaker",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "7a",
+                "startVilnaLine": 17,
+                "endVilnaLine": 19
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-05].text",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "7a",
+                "startVilnaLine": 17,
+                "endVilnaLine": 19
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-05].type",
+            "verdict": "REVIEWED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "note": "Correctly classified as Rav Sheshet's third proof from the blood-sprinkling baraita at vilnaLine 17."
+          },
+          {
+            "path": "argumentFlow[step-06].id",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-06].label",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "7a",
+                "startVilnaLine": 19,
+                "endVilnaLine": 19
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-06].sourceRefs[0].lineId",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "7a",
+                "startVilnaLine": 19,
+                "endVilnaLine": 19
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-06].sourceRefs[0].note",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "7a",
+                "startVilnaLine": 19,
+                "endVilnaLine": 19
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-06].sourceRefs[0].sourceType",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-06].sourceRefs[0].vilnaLine",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "7a",
+                "startVilnaLine": 19,
+                "endVilnaLine": 19
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-06].speaker",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "7a",
+                "startVilnaLine": 19,
+                "endVilnaLine": 19
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-06].text",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "7a",
+                "startVilnaLine": 19,
+                "endVilnaLine": 19
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-06].type",
+            "verdict": "REVIEWED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "note": "Correctly classified as Rav Nachman's rejection limiting the blood-sprinkling ruling to an individual at vilnaLine 19."
+          },
+          {
+            "path": "argumentFlow[step-07].id",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-07].label",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "7a",
+                "startVilnaLine": 19,
+                "endVilnaLine": 23
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-07].sourceRefs[0].lineId",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "7a",
+                "startVilnaLine": 19,
+                "endVilnaLine": 19
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-07].sourceRefs[0].note",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "7a",
+                "startVilnaLine": 19,
+                "endVilnaLine": 23
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-07].sourceRefs[0].sourceType",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-07].sourceRefs[0].vilnaLine",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "7a",
+                "startVilnaLine": 19,
+                "endVilnaLine": 19
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-07].speaker",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "7a",
+                "startVilnaLine": 19,
+                "endVilnaLine": 23
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-07].text",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "7a",
+                "startVilnaLine": 19,
+                "endVilnaLine": 23
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-07].type",
+            "verdict": "REVIEWED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "note": "Correctly classified as Rav Sheshet's fourth and strongest proof from the tzitz baraita, which explicitly names tzibbur, at vilnaLine 19."
+          },
+          {
+            "path": "argumentFlow[step-08].id",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-08].label",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "7a",
+                "startVilnaLine": 23,
+                "endVilnaLine": 26
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-08].sourceRefs[0].lineId",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "7a",
+                "startVilnaLine": 23,
+                "endVilnaLine": 23
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-08].sourceRefs[0].note",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "7a",
+                "startVilnaLine": 23,
+                "endVilnaLine": 26
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-08].sourceRefs[0].sourceType",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-08].sourceRefs[0].vilnaLine",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "7a",
+                "startVilnaLine": 23,
+                "endVilnaLine": 23
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-08].speaker",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "7a",
+                "startVilnaLine": 23,
+                "endVilnaLine": 26
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-08].text",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "7a",
+                "startVilnaLine": 23,
+                "endVilnaLine": 26
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-08].type",
+            "verdict": "REVIEWED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "note": "Correctly classified as Rav Nachman's two-pronged rejection of the tzitz proof beginning vilnaLine 23."
+          },
+          {
+            "path": "argumentFlow[step-09].id",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-09].label",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "7a",
+                "startVilnaLine": 26,
+                "endVilnaLine": 29
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-09].sourceRefs[0].lineId",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "7a",
+                "startVilnaLine": 26,
+                "endVilnaLine": 26
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-09].sourceRefs[0].note",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "7a",
+                "startVilnaLine": 26,
+                "endVilnaLine": 29
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-09].sourceRefs[0].sourceType",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-09].sourceRefs[0].vilnaLine",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "7a",
+                "startVilnaLine": 26,
+                "endVilnaLine": 26
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-09].speaker",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "7a",
+                "startVilnaLine": 26,
+                "endVilnaLine": 29
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-09].text",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "7a",
+                "startVilnaLine": 26,
+                "endVilnaLine": 29
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-09].type",
+            "verdict": "REVIEWED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "note": "Correctly classified as a new stam-gemara objection from the tzitz atonement verse at vilnaLine 26, distinct from the preceding Sheshet/Nachman proof-rejection pairs."
+          },
+          {
+            "path": "argumentFlow[step-10].id",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-10].label",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "7a",
+                "startVilnaLine": 30,
+                "endVilnaLine": 30
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-10].sourceRefs[0].lineId",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "7a",
+                "startVilnaLine": 30,
+                "endVilnaLine": 30
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-10].sourceRefs[0].note",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "7a",
+                "startVilnaLine": 30,
+                "endVilnaLine": 30
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-10].sourceRefs[0].sourceType",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-10].sourceRefs[0].vilnaLine",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "7a",
+                "startVilnaLine": 30,
+                "endVilnaLine": 30
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-10].speaker",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "7a",
+                "startVilnaLine": 30,
+                "endVilnaLine": 30
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-10].text",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "7a",
+                "startVilnaLine": 30,
+                "endVilnaLine": 30
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-10].type",
+            "verdict": "REVIEWED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "note": "Correctly classified as the open, unresolved question left by the daf's physical mid-sentence cutoff at vilnaLine 30."
+          },
+          {
+            "path": "conceptRefs[0]",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "conceptRefs[1]",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "conceptRefs[2]",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "conceptRefs[3]",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "difficulty",
+            "verdict": "REVIEWED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "note": "advanced is reasonable given the four-round dialectical structure and the taxonomic disaggregation required to follow Rav Nachman's answers."
+          },
+          {
+            "path": "display.hint",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "7a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 30
+              }
+            ]
+          },
+          {
+            "path": "display.oneLine",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "7a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 30
+              }
+            ]
+          },
+          {
+            "path": "display.shortSummary",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "7a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 30
+              }
+            ]
+          },
+          {
+            "path": "display.title",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "7a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 30
+              }
+            ]
+          },
+          {
+            "path": "display.whats",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "7a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 30
+              }
+            ]
+          },
+          {
+            "path": "learning.ahaMoment",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "7a",
+                "startVilnaLine": 12,
+                "endVilnaLine": 17
+              }
+            ]
+          },
+          {
+            "path": "learning.coreMove",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "7a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 30
+              }
+            ]
+          },
+          {
+            "path": "learning.coreTension",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "7a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 30
+              }
+            ]
+          },
+          {
+            "path": "learning.learnerQuestion",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "7a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 30
+              }
+            ]
+          },
+          {
+            "path": "learning.learningBlocker",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "7a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 30
+              }
+            ]
+          },
+          {
+            "path": "learning.memoryAnchor",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "7a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 30
+              }
+            ]
+          },
+          {
+            "path": "learning.reasoningPattern.category",
+            "verdict": "REVIEWED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "note": "dialectical accurately labels the repeated proof/reclassification-answer pattern running through the sugya, rather than expository or halachic."
+          },
+          {
+            "path": "learning.reasoningPattern.id",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "learning.reasoningPattern.notes",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "7a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 30
+              }
+            ]
+          },
+          {
+            "path": "learning.resolution",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "7a",
+                "startVilnaLine": 26,
+                "endVilnaLine": 30
+              }
+            ]
+          },
+          {
+            "path": "learning.takeaway.text",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "7a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 30
+              }
+            ]
+          },
+          {
+            "path": "learning.takeaway.type",
+            "verdict": "REVIEWED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "note": "logical_principle correctly classifies the takeaway as a general reasoning-pattern claim rather than a halachic ruling, consistent with finalRuling being null."
+          },
+          {
+            "path": "misconceptions[0].correction",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "7a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 30
+              }
+            ]
+          },
+          {
+            "path": "misconceptions[0].misconception",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "7a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 30
+              }
+            ]
+          },
+          {
+            "path": "misconceptions[1].correction",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "7a",
+                "startVilnaLine": 2,
+                "endVilnaLine": 6
+              }
+            ]
+          },
+          {
+            "path": "misconceptions[1].misconception",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "7a",
+                "startVilnaLine": 2,
+                "endVilnaLine": 6
+              }
+            ]
+          },
+          {
+            "path": "misconceptions[2].correction",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "7a",
+                "startVilnaLine": 26,
+                "endVilnaLine": 30
+              }
+            ]
+          },
+          {
+            "path": "misconceptions[2].misconception",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "7a",
+                "startVilnaLine": 26,
+                "endVilnaLine": 30
+              }
+            ]
+          },
+          {
+            "path": "prerequisiteKnowledge[0]",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "7a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 30
+              }
+            ]
+          },
+          {
+            "path": "prerequisiteKnowledge[1]",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "7a",
+                "startVilnaLine": 19,
+                "endVilnaLine": 29
+              }
+            ]
+          },
+          {
+            "path": "prerequisiteKnowledge[2]",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "7a",
+                "startVilnaLine": 26,
+                "endVilnaLine": 30
+              }
+            ]
+          },
+          {
+            "path": "quizSeeds[0].answer",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "7a",
+                "startVilnaLine": 6,
+                "endVilnaLine": 8
+              }
+            ]
+          },
+          {
+            "path": "quizSeeds[0].distractors[0]",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "7a",
+                "startVilnaLine": 6,
+                "endVilnaLine": 8
+              }
+            ]
+          },
+          {
+            "path": "quizSeeds[0].distractors[1]",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "7a",
+                "startVilnaLine": 6,
+                "endVilnaLine": 8
+              }
+            ]
+          },
+          {
+            "path": "quizSeeds[0].distractors[2]",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "7a",
+                "startVilnaLine": 6,
+                "endVilnaLine": 8
+              }
+            ]
+          },
+          {
+            "path": "quizSeeds[0].question",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "7a",
+                "startVilnaLine": 6,
+                "endVilnaLine": 8
+              }
+            ]
+          },
+          {
+            "path": "quizSeeds[0].type",
+            "verdict": "REVIEWED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "note": "multiple_choice matches the presence of a populated distractors array."
+          },
+          {
+            "path": "quizSeeds[1].answer",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "7a",
+                "startVilnaLine": 12,
+                "endVilnaLine": 17
+              }
+            ]
+          },
+          {
+            "path": "quizSeeds[1].question",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "7a",
+                "startVilnaLine": 12,
+                "endVilnaLine": 17
+              }
+            ]
+          },
+          {
+            "path": "quizSeeds[1].type",
+            "verdict": "REVIEWED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "note": "short_answer is correct; no distractors array is present, consistent with the declared type."
+          },
+          {
+            "path": "quizSeeds[2].answer",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "7a",
+                "startVilnaLine": 26,
+                "endVilnaLine": 30
+              }
+            ]
+          },
+          {
+            "path": "quizSeeds[2].distractors[0]",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "7a",
+                "startVilnaLine": 26,
+                "endVilnaLine": 30
+              }
+            ]
+          },
+          {
+            "path": "quizSeeds[2].distractors[1]",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "7a",
+                "startVilnaLine": 26,
+                "endVilnaLine": 30
+              }
+            ]
+          },
+          {
+            "path": "quizSeeds[2].distractors[2]",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "7a",
+                "startVilnaLine": 26,
+                "endVilnaLine": 30
+              }
+            ]
+          },
+          {
+            "path": "quizSeeds[2].question",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "7a",
+                "startVilnaLine": 26,
+                "endVilnaLine": 30
+              }
+            ]
+          },
+          {
+            "path": "quizSeeds[2].type",
+            "verdict": "REVIEWED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "note": "multiple_choice matches the presence of a populated distractors array."
+          },
+          {
+            "path": "requiresUnderstanding[0]",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": true
+          },
+          {
+            "path": "topicTags[0]",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "topicTags[1]",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "topicTags[2]",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "topicTags[3]",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "topicTags[4]",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "topicTags[5]",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "topicTags[6]",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "topicTags[7]",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "topicTags[8]",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "visualizableElements[0].item",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "7a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 30
+              }
+            ]
+          },
+          {
+            "path": "visualizableElements[0].type",
+            "verdict": "REVIEWED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "note": "contrast correctly matches the described four-round proof-vs-answer diagram."
+          },
+          {
+            "path": "visualizableElements[1].item",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "7a",
+                "startVilnaLine": 12,
+                "endVilnaLine": 17
+              }
+            ]
+          },
+          {
+            "path": "visualizableElements[1].type",
+            "verdict": "REVIEWED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "note": "sequence correctly matches the described three-step bulls/rams/sheep disaggregation."
+          },
+          {
+            "path": "visualizableElements[2].item",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "7a",
+                "startVilnaLine": 26,
+                "endVilnaLine": 30
+              }
+            ]
+          },
+          {
+            "path": "visualizableElements[2].type",
+            "verdict": "REVIEWED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "note": "text correctly matches the described verse-with-annotations display element."
+          }
+        ],
+        "boundaryLeakageSweep": [
+          {
+            "path": "dafLevel.glossary[0].en",
+            "importsNextDafConclusion": false,
+            "note": "Defines par avodah zarah from lines 13-14 only; makes no claim about 7b."
+          },
+          {
+            "path": "dafLevel.glossary[0].he",
+            "importsNextDafConclusion": false,
+            "note": "Hebrew term form only, no forward claim."
+          },
+          {
+            "path": "dafLevel.glossary[0].translit",
+            "importsNextDafConclusion": false,
+            "note": "Transliteration form only, no forward claim."
+          },
+          {
+            "path": "dafLevel.glossary[1].en",
+            "importsNextDafConclusion": false,
+            "note": "States that Rashi's comment completes on 7b but withholds what that completion says, so it does not import a 7b conclusion."
+          },
+          {
+            "path": "dafLevel.glossary[1].he",
+            "importsNextDafConclusion": false,
+            "note": "Hebrew term form only, no forward claim."
+          },
+          {
+            "path": "dafLevel.glossary[1].translit",
+            "importsNextDafConclusion": false,
+            "note": "Transliteration form only, no forward claim."
+          },
+          {
+            "path": "dafLevel.glossary[2].en",
+            "importsNextDafConclusion": false,
+            "note": "Defines piggul from its own pasuk on line 28 only."
+          },
+          {
+            "path": "dafLevel.glossary[2].he",
+            "importsNextDafConclusion": false,
+            "note": "Hebrew term form only, no forward claim."
+          },
+          {
+            "path": "dafLevel.glossary[2].translit",
+            "importsNextDafConclusion": false,
+            "note": "Transliteration form only, no forward claim."
+          },
+          {
+            "path": "dafLevel.glossary[3].en",
+            "importsNextDafConclusion": false,
+            "note": "Defines notar from its own pasuk on line 29 only."
+          },
+          {
+            "path": "dafLevel.glossary[3].he",
+            "importsNextDafConclusion": false,
+            "note": "Hebrew term form only, no forward claim."
+          },
+          {
+            "path": "dafLevel.glossary[3].translit",
+            "importsNextDafConclusion": false,
+            "note": "Transliteration form only, no forward claim."
+          },
+          {
+            "path": "dafLevel.glossary[4].en",
+            "importsNextDafConclusion": false,
+            "note": "Defines hevei pikeach ushtok from lines 5 and 11 only."
+          },
+          {
+            "path": "dafLevel.glossary[4].he",
+            "importsNextDafConclusion": false,
+            "note": "Hebrew term form only, no forward claim."
+          },
+          {
+            "path": "dafLevel.glossary[4].translit",
+            "importsNextDafConclusion": false,
+            "note": "Transliteration form only, no forward claim."
+          },
+          {
+            "path": "dafLevel.summary",
+            "importsNextDafConclusion": false,
+            "note": "Explicitly states the text breaks off mid-sentence before naming the remaining sin and that Rashi's comment completes on 7b, without stating that completion's content."
+          },
+          {
+            "path": "alternateAngles[0].angle",
+            "importsNextDafConclusion": false,
+            "note": "Frames a question about the cumulative effect of Rav Nachman's own 7a concessions, no reference to 7b."
+          },
+          {
+            "path": "alternateAngles[0].text",
+            "importsNextDafConclusion": false,
+            "note": "Stays within 7a's argument, does not state or presuppose a 7b outcome."
+          },
+          {
+            "path": "argumentFlow[step-01].label",
+            "importsNextDafConclusion": false,
+            "note": "Describes only Rav Sheshet's opening proof at lines 2-6."
+          },
+          {
+            "path": "argumentFlow[step-01].sourceRefs[0].note",
+            "importsNextDafConclusion": false,
+            "note": "Anchoring note is local to line 2, no forward content."
+          },
+          {
+            "path": "argumentFlow[step-01].speaker",
+            "importsNextDafConclusion": false,
+            "note": "Attribution is local to lines 2-6."
+          },
+          {
+            "path": "argumentFlow[step-01].text",
+            "importsNextDafConclusion": false,
+            "note": "Restates only the omer baraita's content at lines 2-6."
+          },
+          {
+            "path": "argumentFlow[step-02].label",
+            "importsNextDafConclusion": false,
+            "note": "Describes only Rav Nachman's eating-remnants answer at lines 6-8."
+          },
+          {
+            "path": "argumentFlow[step-02].sourceRefs[0].note",
+            "importsNextDafConclusion": false,
+            "note": "Anchoring note is local to lines 6-8, no forward content."
+          },
+          {
+            "path": "argumentFlow[step-02].speaker",
+            "importsNextDafConclusion": false,
+            "note": "Attribution is local to lines 6-8."
+          },
+          {
+            "path": "argumentFlow[step-02].text",
+            "importsNextDafConclusion": false,
+            "note": "Restates only Rav Nachman's stated concession at lines 6-8."
+          },
+          {
+            "path": "argumentFlow[step-03].label",
+            "importsNextDafConclusion": false,
+            "note": "Describes only the second baraita at lines 8-11."
+          },
+          {
+            "path": "argumentFlow[step-03].sourceRefs[0].note",
+            "importsNextDafConclusion": false,
+            "note": "Anchoring note is local to line 8, no forward content."
+          },
+          {
+            "path": "argumentFlow[step-03].speaker",
+            "importsNextDafConclusion": false,
+            "note": "Attribution is local to lines 8-11."
+          },
+          {
+            "path": "argumentFlow[step-03].text",
+            "importsNextDafConclusion": false,
+            "note": "Restates only the meal-offering baraita's content at lines 8-11."
+          },
+          {
+            "path": "argumentFlow[step-04].label",
+            "importsNextDafConclusion": false,
+            "note": "Describes only Rav Nachman's disaggregation at lines 12-17."
+          },
+          {
+            "path": "argumentFlow[step-04].sourceRefs[0].note",
+            "importsNextDafConclusion": false,
+            "note": "Anchoring note is local to lines 12-17, no forward content."
+          },
+          {
+            "path": "argumentFlow[step-04].speaker",
+            "importsNextDafConclusion": false,
+            "note": "Attribution is local to lines 12-17."
+          },
+          {
+            "path": "argumentFlow[step-04].text",
+            "importsNextDafConclusion": false,
+            "note": "Restates only the three-way case split at lines 12-17."
+          },
+          {
+            "path": "argumentFlow[step-05].label",
+            "importsNextDafConclusion": false,
+            "note": "Describes only the blood-sprinkling proof at lines 17-19."
+          },
+          {
+            "path": "argumentFlow[step-05].sourceRefs[0].note",
+            "importsNextDafConclusion": false,
+            "note": "Anchoring note is local to line 17, no forward content."
+          },
+          {
+            "path": "argumentFlow[step-05].speaker",
+            "importsNextDafConclusion": false,
+            "note": "Attribution is local to lines 17-19."
+          },
+          {
+            "path": "argumentFlow[step-05].text",
+            "importsNextDafConclusion": false,
+            "note": "Restates only the shogeg/mezid blood ruling at lines 17-19."
+          },
+          {
+            "path": "argumentFlow[step-06].label",
+            "importsNextDafConclusion": false,
+            "note": "Describes only Rav Nachman's individual-offering limitation at line 19."
+          },
+          {
+            "path": "argumentFlow[step-06].sourceRefs[0].note",
+            "importsNextDafConclusion": false,
+            "note": "Anchoring note is local to line 19, no forward content."
+          },
+          {
+            "path": "argumentFlow[step-06].speaker",
+            "importsNextDafConclusion": false,
+            "note": "Attribution is local to line 19."
+          },
+          {
+            "path": "argumentFlow[step-06].text",
+            "importsNextDafConclusion": false,
+            "note": "Restates only the 'that was taught about an individual' answer at line 19."
+          },
+          {
+            "path": "argumentFlow[step-07].label",
+            "importsNextDafConclusion": false,
+            "note": "Describes only the tzitz proof at lines 19-23."
+          },
+          {
+            "path": "argumentFlow[step-07].sourceRefs[0].note",
+            "importsNextDafConclusion": false,
+            "note": "Anchoring note is local to line 19, no forward content."
+          },
+          {
+            "path": "argumentFlow[step-07].speaker",
+            "importsNextDafConclusion": false,
+            "note": "Attribution is local to lines 19-23."
+          },
+          {
+            "path": "argumentFlow[step-07].text",
+            "importsNextDafConclusion": false,
+            "note": "Restates only the tzitz baraita's content at lines 19-23."
+          },
+          {
+            "path": "argumentFlow[step-08].label",
+            "importsNextDafConclusion": false,
+            "note": "Describes only Rav Nachman's two-stage answer at lines 23-26."
+          },
+          {
+            "path": "argumentFlow[step-08].sourceRefs[0].note",
+            "importsNextDafConclusion": false,
+            "note": "Anchoring note is local to lines 23-26, no forward content."
+          },
+          {
+            "path": "argumentFlow[step-08].speaker",
+            "importsNextDafConclusion": false,
+            "note": "Attribution is local to lines 23-26."
+          },
+          {
+            "path": "argumentFlow[step-08].text",
+            "importsNextDafConclusion": false,
+            "note": "Restates only the two-pronged answer at lines 23-26."
+          },
+          {
+            "path": "argumentFlow[step-09].label",
+            "importsNextDafConclusion": false,
+            "note": "Describes only the tzitz atonement-verse objection at lines 26-29."
+          },
+          {
+            "path": "argumentFlow[step-09].sourceRefs[0].note",
+            "importsNextDafConclusion": false,
+            "note": "Anchoring note is local to line 26, no forward content."
+          },
+          {
+            "path": "argumentFlow[step-09].speaker",
+            "importsNextDafConclusion": false,
+            "note": "Attribution is local to lines 26-29."
+          },
+          {
+            "path": "argumentFlow[step-09].text",
+            "importsNextDafConclusion": false,
+            "note": "Restates only the piggul/notar elimination at lines 26-29, does not name the remaining sin."
+          },
+          {
+            "path": "argumentFlow[step-10].label",
+            "importsNextDafConclusion": false,
+            "note": "States only that the daf ends before naming the remaining sin; does not supply a 7b answer."
+          },
+          {
+            "path": "argumentFlow[step-10].sourceRefs[0].note",
+            "importsNextDafConclusion": false,
+            "note": "Notes the physical cutoff and that Rashi completes the comment on 7b, without stating that completion's content."
+          },
+          {
+            "path": "argumentFlow[step-10].speaker",
+            "importsNextDafConclusion": false,
+            "note": "Attribution is local to line 30."
+          },
+          {
+            "path": "argumentFlow[step-10].text",
+            "importsNextDafConclusion": false,
+            "note": "States the cutoff and that Rashi's comment is completed on 7b, but withholds what that comment concludes."
+          },
+          {
+            "path": "display.hint",
+            "importsNextDafConclusion": false,
+            "note": "Poses a question about 7a's own structure, asserts no resolution."
+          },
+          {
+            "path": "display.oneLine",
+            "importsNextDafConclusion": false,
+            "note": "Describes the sugya as opening an unresolved objection, no forward claim."
+          },
+          {
+            "path": "display.shortSummary",
+            "importsNextDafConclusion": false,
+            "note": "Notes the mid-sentence break and that Rashi's comment completes on 7b without stating its content."
+          },
+          {
+            "path": "display.title",
+            "importsNextDafConclusion": false,
+            "note": "Title names the open objection, not a resolution."
+          },
+          {
+            "path": "display.whats",
+            "importsNextDafConclusion": false,
+            "note": "Ends by stating the daf ends before the Gemara says what sin remains; imports no 7b content."
+          },
+          {
+            "path": "learning.ahaMoment",
+            "importsNextDafConclusion": false,
+            "note": "Confined to the lines 12-17 disaggregation, no forward claim."
+          },
+          {
+            "path": "learning.coreMove",
+            "importsNextDafConclusion": false,
+            "note": "Summarizes Rav Nachman's four 7a concessions only."
+          },
+          {
+            "path": "learning.coreTension",
+            "importsNextDafConclusion": false,
+            "note": "States the tension as open, not resolved by any later content."
+          },
+          {
+            "path": "learning.learnerQuestion",
+            "importsNextDafConclusion": false,
+            "note": "Poses a question about the 7a debate's outcome without answering it."
+          },
+          {
+            "path": "learning.learningBlocker",
+            "importsNextDafConclusion": false,
+            "note": "Clarifies the 6b-set-up roles; does not draw on any 7b content."
+          },
+          {
+            "path": "learning.memoryAnchor",
+            "importsNextDafConclusion": false,
+            "note": "Summarizes 7a's four proof/answer pairs and notes continuation on 7b without stating what continues."
+          },
+          {
+            "path": "learning.reasoningPattern.notes",
+            "importsNextDafConclusion": false,
+            "note": "States the open questions carry into 7b without asserting what 7b resolves."
+          },
+          {
+            "path": "learning.resolution",
+            "importsNextDafConclusion": false,
+            "note": "Explicitly states the daf breaks off before naming the remaining sin and that Rashi's comment is completed on 7b, without disclosing that completion."
+          },
+          {
+            "path": "learning.takeaway.text",
+            "importsNextDafConclusion": false,
+            "note": "States a general reasoning principle about the whole 7a debate; no forward claim."
+          },
+          {
+            "path": "misconceptions[0].correction",
+            "importsNextDafConclusion": false,
+            "note": "Corrects a misreading of the 6b-set roles; does not import 7b content."
+          },
+          {
+            "path": "misconceptions[0].misconception",
+            "importsNextDafConclusion": false,
+            "note": "States the misconception itself, no forward claim."
+          },
+          {
+            "path": "misconceptions[1].correction",
+            "importsNextDafConclusion": false,
+            "note": "Confined to the omer baraita at lines 2-6."
+          },
+          {
+            "path": "misconceptions[1].misconception",
+            "importsNextDafConclusion": false,
+            "note": "States the misconception itself, confined to lines 2-6."
+          },
+          {
+            "path": "misconceptions[2].correction",
+            "importsNextDafConclusion": false,
+            "note": "Explicitly denies that the daf concludes the tzitz atones only for tumah, and notes completion is on 7b without stating it."
+          },
+          {
+            "path": "misconceptions[2].misconception",
+            "importsNextDafConclusion": false,
+            "note": "States the misconception itself; the correction (not this field) is what guards the boundary."
+          },
+          {
+            "path": "prerequisiteKnowledge[0]",
+            "importsNextDafConclusion": false,
+            "note": "General conceptual prerequisite, not a forward-looking factual claim."
+          },
+          {
+            "path": "prerequisiteKnowledge[1]",
+            "importsNextDafConclusion": false,
+            "note": "General conceptual prerequisite about the tzitz, confined to 7a's own material."
+          },
+          {
+            "path": "prerequisiteKnowledge[2]",
+            "importsNextDafConclusion": false,
+            "note": "General logical-structure prerequisite, not a factual claim about 7b."
+          },
+          {
+            "path": "quizSeeds[0].answer",
+            "importsNextDafConclusion": false,
+            "note": "Confined to the eating-remnants reasoning at lines 6-8."
+          },
+          {
+            "path": "quizSeeds[0].distractors[0]",
+            "importsNextDafConclusion": false,
+            "note": "Wrong-answer option grounded in 7a's own individual/communal distinction, no forward claim."
+          },
+          {
+            "path": "quizSeeds[0].distractors[1]",
+            "importsNextDafConclusion": false,
+            "note": "Wrong-answer option grounded in 7a's own fixed-time distinction, no forward claim."
+          },
+          {
+            "path": "quizSeeds[0].distractors[2]",
+            "importsNextDafConclusion": false,
+            "note": "Wrong-answer option is a plausible-but-invented distractor, not a 7b claim."
+          },
+          {
+            "path": "quizSeeds[0].question",
+            "importsNextDafConclusion": false,
+            "note": "Question is scoped to the omer case at lines 6-8."
+          },
+          {
+            "path": "quizSeeds[1].answer",
+            "importsNextDafConclusion": false,
+            "note": "Confined to the three-way disaggregation at lines 12-17."
+          },
+          {
+            "path": "quizSeeds[1].question",
+            "importsNextDafConclusion": false,
+            "note": "Question is scoped to lines 12-17."
+          },
+          {
+            "path": "quizSeeds[2].answer",
+            "importsNextDafConclusion": false,
+            "note": "States the piggul/notar elimination and that the remaining sin is not named on 7a, correctly withholding any 7b answer."
+          },
+          {
+            "path": "quizSeeds[2].distractors[0]",
+            "importsNextDafConclusion": false,
+            "note": "Wrong-answer option, invented, does not assert a 7b fact."
+          },
+          {
+            "path": "quizSeeds[2].distractors[1]",
+            "importsNextDafConclusion": false,
+            "note": "Wrong-answer option, invented, does not assert a 7b fact."
+          },
+          {
+            "path": "quizSeeds[2].distractors[2]",
+            "importsNextDafConclusion": false,
+            "note": "Wrong-answer option states the daf resolves in Rav Nachman's name, which the correct answer explicitly denies."
+          },
+          {
+            "path": "quizSeeds[2].question",
+            "importsNextDafConclusion": false,
+            "note": "Question is scoped to what the elimination rules out on 7a, not what 7b concludes."
+          },
+          {
+            "path": "visualizableElements[0].item",
+            "importsNextDafConclusion": false,
+            "note": "Diagrams the four 7a rounds only."
+          },
+          {
+            "path": "visualizableElements[1].item",
+            "importsNextDafConclusion": false,
+            "note": "Diagrams the three-way 7a disaggregation only, lines 12-17."
+          },
+          {
+            "path": "visualizableElements[2].item",
+            "importsNextDafConclusion": false,
+            "note": "Displays the verse and notes exclusions actually stated on 7a; does not display an unstated 7b conclusion."
+          },
+          {
+            "path": "argumentFlow[step-01].type",
+            "importsNextDafConclusion": false,
+            "note": "Type label only, confined to step-01's own content."
+          },
+          {
+            "path": "argumentFlow[step-02].type",
+            "importsNextDafConclusion": false,
+            "note": "Type label only, confined to step-02's own content."
+          },
+          {
+            "path": "argumentFlow[step-03].type",
+            "importsNextDafConclusion": false,
+            "note": "Type label only, confined to step-03's own content."
+          },
+          {
+            "path": "argumentFlow[step-04].type",
+            "importsNextDafConclusion": false,
+            "note": "Type label only, confined to step-04's own content."
+          },
+          {
+            "path": "argumentFlow[step-05].type",
+            "importsNextDafConclusion": false,
+            "note": "Type label only, confined to step-05's own content."
+          },
+          {
+            "path": "argumentFlow[step-06].type",
+            "importsNextDafConclusion": false,
+            "note": "Type label only, confined to step-06's own content."
+          },
+          {
+            "path": "argumentFlow[step-07].type",
+            "importsNextDafConclusion": false,
+            "note": "Type label only, confined to step-07's own content."
+          },
+          {
+            "path": "argumentFlow[step-08].type",
+            "importsNextDafConclusion": false,
+            "note": "Type label only, confined to step-08's own content."
+          },
+          {
+            "path": "argumentFlow[step-09].type",
+            "importsNextDafConclusion": false,
+            "note": "Type label only, confined to step-09's own content, correctly stops at the objection without resolving it."
+          },
+          {
+            "path": "argumentFlow[step-10].type",
+            "importsNextDafConclusion": false,
+            "note": "Classified as an open question, not a resolved conclusion; correctly reflects the mid-sentence cutoff."
+          },
+          {
+            "path": "difficulty",
+            "importsNextDafConclusion": false,
+            "note": "A generic difficulty label, no forward-looking factual content."
+          },
+          {
+            "path": "learning.reasoningPattern.category",
+            "importsNextDafConclusion": false,
+            "note": "A generic category label, no forward-looking factual content."
+          },
+          {
+            "path": "learning.takeaway.type",
+            "importsNextDafConclusion": false,
+            "note": "A generic type label; consistent with the null finalRuling and unresolved ending."
+          },
+          {
+            "path": "quizSeeds[0].type",
+            "importsNextDafConclusion": false,
+            "note": "A generic type label, no forward-looking factual content."
+          },
+          {
+            "path": "quizSeeds[1].type",
+            "importsNextDafConclusion": false,
+            "note": "A generic type label, no forward-looking factual content."
+          },
+          {
+            "path": "quizSeeds[2].type",
+            "importsNextDafConclusion": false,
+            "note": "A generic type label; the quiz item it labels correctly withholds any 7b answer."
+          },
+          {
+            "path": "visualizableElements[0].type",
+            "importsNextDafConclusion": false,
+            "note": "A generic type label, no forward-looking factual content."
+          },
+          {
+            "path": "visualizableElements[1].type",
+            "importsNextDafConclusion": false,
+            "note": "A generic type label, no forward-looking factual content."
+          },
+          {
+            "path": "visualizableElements[2].type",
+            "importsNextDafConclusion": false,
+            "note": "A generic type label, no forward-looking factual content."
+          }
+        ],
+        "staleContentSweep": {
+          "entries": [
+            {
+              "category": "stale_original_error",
+              "found": false
+            },
+            {
+              "category": "stale_speaker_or_attribution",
+              "found": false
+            },
+            {
+              "category": "contradictory_speaker_attribution",
+              "found": false
+            },
+            {
+              "category": "old_conclusion_in_secondary_field",
+              "found": false
+            },
+            {
+              "category": "false_closure",
+              "found": false
+            },
+            {
+              "category": "next_daf_content_leaked_backward",
+              "found": false
+            },
+            {
+              "category": "claim_unsupported_by_physical_daf",
+              "found": false
+            },
+            {
+              "category": "stale_quiz_question_or_answer",
+              "found": false
+            },
+            {
+              "category": "stale_final_ruling",
+              "found": false
+            },
+            {
+              "category": "stale_summary",
+              "found": false
+            },
+            {
+              "category": "stale_learning_field",
+              "found": false
+            },
+            {
+              "category": "stale_misconception",
+              "found": false
+            },
+            {
+              "category": "stale_related_sugya_description",
+              "found": false
+            },
+            {
+              "category": "stale_visualizable_element_prose",
+              "found": false
+            },
+            {
+              "category": "source_refs_no_longer_supporting_claim",
+              "found": false
+            },
+            {
+              "category": "reference_outside_declared_line_range",
+              "found": false
+            }
+          ]
+        }
+      },
+      "certifiedAtCommit": "e22517385762f2af275448dd4df4c34d4aaf7bde"
     },
     "yoma-007b-s01": {
       "sugyaId": "yoma-007b-s01",
