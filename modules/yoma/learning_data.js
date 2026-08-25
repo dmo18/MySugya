@@ -14290,7 +14290,7 @@ const DAF_CONTENT = {
   "7a": {
     canonicalRef: "Yoma 7a",
     daf: "7a",
-    summary: "7a continues the hutrah/dchuya dispute framed on 6b (Rav Nachman: hutrah; Rav Sheshet: dchuya). Rav Sheshet brings four proofs for dchuya from baraitot about the omer, the meal-offering accompanying communal sacrifices, the blood-sprinkling rule, and the tzitz atonement list. Rav Nachman answers each proof by identifying a distinct technical factor unrelated to hutrah/dchuya. The omer case: there are eating-remnants, a separate concern that always requires purity regardless of hutrah/dchuya. The meal-offering case: Rav Nachman reassigns each listed sacrifice to a different explaining factor - the par avodah zarah has no fixed time, Aaron's ram is an individual's offering, and the omer lamb has eating-remnants like the first case. The blood-sprinkling ruling: concerns an individual, not a communal offering. The tzitz case: Rav Nachman answers that the tzitz clause means an individual's offering (a communal one needs no tzitz at all, since impurity is simply permitted for it), or, if it does mean a communal offering, one without a fixed time. The page closes with a new objection from the tzitz's own atonement verse: what sin does it address? Not piggul and not notar, both already excluded by their own pesukim. The Gemara's text breaks off mid-sentence after the complete word 'הא', before naming the remaining sin; Rashi notes the comment is completed on 7b.",
+    summary: "7a continues the hutrah/dchuya dispute framed on 6b (Rav Nachman: hutrah; Rav Sheshet: dchuya). Rav Sheshet opens with a proof for dchuya from the omer baraita; three further anonymous objections (מיתיבי / ת״ש) then press the same direction, from the meal-offering baraita, the blood-sprinkling rule, and the tzitz atonement list. Rav Nachman answers Rav Sheshet's proof and two of the objections by identifying a distinct technical factor unrelated to hutrah/dchuya, and the anonymous Gemara answers the blood-sprinkling objection the same way, on his behalf. The omer case: there are eating-remnants, a separate concern that always requires purity regardless of hutrah/dchuya. The meal-offering objection: Rav Nachman reassigns each listed sacrifice to a different explaining factor - the par avodah zarah has no fixed time, Aaron's ram is an individual's offering, and the omer lamb has eating-remnants like the first case. The blood-sprinkling ruling: the anonymous Gemara answers that it concerns an individual, not a communal offering. The tzitz objection: Rav Nachman answers that the clause means an individual's offering (a communal one needs no tzitz at all, since impurity is simply permitted for it), or, if it does mean a communal offering, one without a fixed time. The page closes with a new objection from the tzitz's own atonement verse: what sin does it address? Not piggul and not notar, both already excluded by their own pesukim. The Gemara's text breaks off mid-sentence after the complete word 'הא', before naming the remaining sin; Rashi notes the comment is completed on 7b.",
     sugyot: [
       {
         id: "yoma-007a-s01",
@@ -14304,16 +14304,16 @@ const DAF_CONTENT = {
           endVilnaLine: 30
         },
         display: {
-          title: "Rav Sheshet's four proofs for dchuya; Rav Nachman answers each; tzitz sin-scope opens",
-          oneLine: "Rav Sheshet brings four baraitot proving dchuya; Rav Nachman answers each case-by-case; the tzitz atonement list then opens a new, unresolved objection against Rav Nachman's hutrah position.",
+          title: "Rav Sheshet's proof and three anonymous objections press dchuya; Rav Nachman answers each; tzitz sin-scope opens",
+          oneLine: "Rav Sheshet's proof and three further anonymous objections press dchuya from four baraitot; Rav Nachman answers each case-by-case; the tzitz atonement list then opens a new, unresolved objection against Rav Nachman's hutrah position.",
           shortSummary: "Rav Sheshet's proof from the omer baraita: the priest searches for a replacement when possible, suggesting dchuya (prohibition still exists, minimize it). Rav Nachman's answer: the omer has eating-remnants, which is a separate reason to seek purity regardless of the tumas meit rule. Second proof from the meal-offering baraita (bulls, rams, sheep): same structure. Rav Nachman assigns each of the three categories to a case outside the true communal-fixed-time class: the par avodah zarah (bull for communal idol worship) has no fixed time; Aaron's ram is an individual's offering; the lamb with the omer has eating-remnants. Third proof from the blood-sprinkling ruling: sprinkling impure blood on the altar is accepted beshogeg (unwittingly) but not bmezid (intentionally) - if hutrah, why the distinction? That ruling concerns an individual's offering, not communal - unattributed in the raw text, falling outside the communal hutrah/dchuya dispute either way. Fourth proof from the tzitz baraita: the frontplate effects acceptance 'whether individual or communal' - if hutrah for the tzibbur, why would the tzitz be needed at all for communal impurity? Rav Nachman answers in two stages: (1) the tzitz clause is about an individual - a communal offering needs no tzitz, since impurity is simply a permission (heter) for it; (2) or, granting it does mean a communal offering, it is limited to offerings without a fixed time. The page closes with a new objection: the tzitz verse says Aaron 'shall bear the sin' of the sacred things - which sin? Not piggul (the Torah already says it 'will not be accepted') and not notar (the Torah already says it 'will not be credited'). The daf's text breaks off mid-sentence after the complete word 'הא', before naming what remains; Rashi notes the comment is completed on 7b.",
-          whats: "The debate continues as a point-by-point contest, continuing the dispute stated on 6b: Rav Nachman holds tumas meit btzibur is hutrah (fully permitted); Rav Sheshet holds it is dchuya (overridden by necessity, minimized wherever possible). Rav Sheshet's strategy here: cite baraitot that show the system treats tumas meit as if a prohibition still exists (finding replacements, conditional acceptance, a needed atonement). Rav Nachman's strategy: in each case, identify a technical factor that explains the ruling without conceding dchuya. The final proof - the tzitz baraita - is the most direct challenge, because it explicitly includes 'tzibbur' among the cases the tzitz's acceptance covers; if tumas meit in tzibbur were simply permitted, the tzitz should have nothing to do for it. Rav Nachman answers that the clause either means an individual, or a communal offering without a fixed time. The tzitz-sin-scope objection that follows presses further: the verse frames the tzitz's function as bearing a sin - by elimination, not piggul, not notar - but the daf ends before the Gemara says what sin remains or what that implies for hutrah versus dchuya.",
+          whats: "The debate continues as a point-by-point contest, continuing the dispute stated on 6b: Rav Nachman holds tumas meit btzibur is hutrah (fully permitted); Rav Sheshet holds it is dchuya (overridden by necessity, minimized wherever possible). Rav Sheshet opens with a proof from the omer baraita; three further anonymous objections then press the same direction, citing baraitot that show the system treats tumas meit as if a prohibition still exists (finding replacements, conditional acceptance, a needed atonement). Rav Nachman's strategy: in each case, identify a technical factor that explains the ruling without conceding dchuya; the anonymous Gemara answers the blood-sprinkling objection the same way, on his behalf. The final objection - from the tzitz baraita - is the most direct challenge, because it explicitly includes 'tzibbur' among the cases the tzitz's acceptance covers; if tumas meit in tzibbur were simply permitted, the tzitz should have nothing to do for it. Rav Nachman answers that the clause either means an individual, or a communal offering without a fixed time. The tzitz-sin-scope objection that follows presses further: the verse frames the tzitz's function as bearing a sin - by elimination, not piggul, not notar - but the daf ends before the Gemara says what sin remains or what that implies for hutrah versus dchuya.",
           hint: "If Rav Nachman answers every objection, why does the sugya still end on an open, unresolved challenge instead of a resolution?"
         },
         learning: {
-          learnerQuestion: "Rav Sheshet has four proofs for dchuya. Rav Nachman answers all four. Who is winning this debate?",
+          learnerQuestion: "Rav Sheshet's proof, plus three further anonymous objections, all press dchuya. Rav Nachman answers every one. Who is winning this debate?",
           coreTension: "Rav Sheshet's proofs all point the same direction: the system treats tumas meit in tzibbur as a prohibited act that must be minimized wherever possible, not simply ignored. Rav Nachman's answers are individually valid but each one narrows what his hutrah position still covers - he concedes cases where purity is required for unrelated reasons (eating-remnants), cases that are not really communal (individual offerings), and cases that are not really fixed-time. The question is whether the combination of concessions still leaves a coherent hutrah position, or amounts in practice to dchuya.",
-          coreMove: "Track what happens to each of Rav Sheshet's four proofs: (1) eating-remnants cases (the omer) - Rav Nachman concedes purity is required, but for an unrelated reason. (2) the blood-sprinkling case - that baraita concerns an individual's offering, so it falls outside the communal hutrah/dchuya dispute entirely; it neither proves nor disproves either position. (3) communal offerings without a fixed time - the tzitz may still be needed for them. After all four answers, hutrah applies, in Rav Nachman's account, only to: true communal offerings with a fixed time, where there are no eating-remnants.",
+          coreMove: "Track the three grounds Rav Nachman uses to push each challenge outside the disputed class: (1) eating-remnants (the omer, and the omer's lamb in the meal-offering baraita) - purity is required, but for a reason unrelated to hutrah/dchuya. (2) individual offerings (Aaron's ram; the blood-sprinkling baraita) - these fall outside the communal hutrah/dchuya dispute entirely, proving nothing either way. (3) communal offerings without a fixed time (the par avodah zarah; the tzitz's residual case) - the tzitz may still be needed for them. After all four challenges are answered, hutrah applies, in Rav Nachman's account, only to: true communal offerings with a fixed time, where there are no eating-remnants.",
           resolution: "The debate is unresolved on this daf. A new objection opens from the tzitz's own atonement verse: 'Aaron shall bear the sin of the sacred things.' Which sin does the tzitz address? Not piggul - already excluded by its own pasuk ('it will not be accepted'). Not notar - already excluded by its own pasuk ('it will not be credited'). By elimination the Gemara appears to be narrowing toward tumah, but the text breaks off mid-sentence after the complete word 'הא', before saying so, and Rashi notes explicitly that this comment is completed on 7b. What the answer implies for hutrah versus dchuya is not stated here.",
           takeaway: {
             type: "logical_principle",
@@ -14325,8 +14325,8 @@ const DAF_CONTENT = {
             notes: "After each of Rav Sheshet's proofs, Rav Nachman narrows which cases still count as a genuine test of hutrah, until only true communal fixed-time offerings with no eating-remnants remain covered. Whether such a case is common in practice, and whether the final, unresolved tzitz-atonement objection undoes even that narrow residue, are the questions the sugya leaves open into 7b."
           },
           ahaMoment: "Rav Nachman's answer to the meal-offering baraita is the most instructive: he disaggregates 'bulls, rams, sheep' into three completely different sacrificial categories - par avodah zarah, Aaron's ram, and the omer lamb - each of which falls outside the true communal-fixed-time class for a different reason. This is not evasion; it is precise taxonomic work showing the baraita was never describing the case hutrah and dchuya actually dispute.",
-          learningBlocker: "Students may think that because Rav Nachman keeps having to answer new proofs, his answers are gradually conceding ground to dchuya. Rav Nachman genuinely is being challenged - Rav Sheshet brings four real proofs - but each of Rav Nachman's answers is a successful defense that keeps hutrah intact for the true case, not a concession that dchuya is correct.",
-          memoryAnchor: "Nachman = hutrah, Sheshet = dchuya (from 6b). Four proofs, four answers: (1) omer - eating-remnants, unrelated to hutrah/dchuya. (2) par/ram/lamb - no fixed time, individual, and eating-remnants respectively, none a genuine test case. (3) blood shogeg/mezid - about an individual. (4) tzitz lists tzibbur - Nachman answers it means an individual, or (if communal) only offerings without a fixed time. New objection: tzitz 'bears a sin' - not piggul, not notar - daf ends before naming what remains; continues on 7b."
+          learningBlocker: "Students may think that because Rav Nachman keeps having to answer new challenges, his answers are gradually conceding ground to dchuya. Rav Nachman genuinely is being challenged - four real proofs and objections are raised against him - but each of Rav Nachman's answers is a successful defense that keeps hutrah intact for the true case, not a concession that dchuya is correct.",
+          memoryAnchor: "Nachman = hutrah, Sheshet = dchuya (from 6b). One proof, three anonymous objections, four answers: (1) omer - eating-remnants, unrelated to hutrah/dchuya. (2) par/ram/lamb - no fixed time, individual, and eating-remnants respectively, none a genuine test case. (3) blood shogeg/mezid - about an individual. (4) tzitz lists tzibbur - Nachman answers it means an individual, or (if communal) only offerings without a fixed time. New objection: tzitz 'bears a sin' - not piggul, not notar - daf ends before naming what remains; continues on 7b."
         },
         lines: [
           { id: "yoma-007a-l01", kind: "gemara", he: "דְּכֹל טוּמְאַת מֵת בְּצִיבּוּר רַחֲמָנָא שַׁרְיַיהּ.",
@@ -14397,15 +14397,15 @@ const DAF_CONTENT = {
           {
             id: "step-03",
             type: "proof",
-            label: "Rav Sheshet: meal-offering of bulls/rams/sheep proves dchuya",
-            speaker: "Rav Sheshet",
+            label: "Anonymous objection: meal-offering of bulls/rams/sheep proves dchuya",
+            speaker: "Gemara",
             text: "A second baraita: if the meal-offering accompanying bulls, rams, or sheep became impure, the same rule applies - bring a replacement if available.",
             sourceRefs: [
               {
                 sourceType: "gemara",
                 lineId: "yoma-007a-l08",
                 vilnaLine: 8,
-                note: "Rav Sheshet's second proof"
+                note: "Anonymous objection (מיתיבי) from the meal-offering baraita, continuing the dchuya challenge"
               }
             ]
           },
@@ -14427,15 +14427,15 @@ const DAF_CONTENT = {
           {
             id: "step-05",
             type: "proof",
-            label: "Rav Sheshet: blood-sprinkling ruling proves dchuya",
-            speaker: "Rav Sheshet",
+            label: "Anonymous objection: blood-sprinkling ruling proves dchuya",
+            speaker: "Gemara",
             text: "A third proof: blood that became impure and was sprinkled - if done beshogeg (unwittingly), the service is accepted; if bmezid (intentionally), it is not accepted. If hutrah, why would intentional sprinkling of impure blood not be accepted?",
             sourceRefs: [
               {
                 sourceType: "gemara",
                 lineId: "yoma-007a-l17",
                 vilnaLine: 17,
-                note: "Rav Sheshet's third proof, from the blood-sprinkling baraita"
+                note: "Anonymous objection (מיתיבי) from the blood-sprinkling baraita"
               }
             ]
           },
@@ -14457,15 +14457,15 @@ const DAF_CONTENT = {
           {
             id: "step-07",
             type: "proof",
-            label: "Rav Sheshet: tzitz baraita explicitly includes tzibbur",
-            speaker: "Rav Sheshet",
+            label: "Anonymous objection: tzitz baraita explicitly includes tzibbur",
+            speaker: "Gemara",
             text: "A fourth proof: the tzitz effects acceptance 'for blood, flesh, and fat that became impure - whether unwittingly or intentionally, whether under compulsion or willfully, whether for an individual or a communal offering.' If tumas meit in tzibbur were simply permitted, the tzitz would have nothing to do for communal impurity - why is it listed?",
             sourceRefs: [
               {
                 sourceType: "gemara",
                 lineId: "yoma-007a-l19",
                 vilnaLine: 19,
-                note: "Rav Sheshet's fourth and strongest proof"
+                note: "Anonymous objection (ת״ש) from the tzitz baraita; the strongest challenge on the daf"
               }
             ]
           },
@@ -14532,7 +14532,7 @@ const DAF_CONTENT = {
         misconceptions: [
           {
             misconception: "Rav Nachman is losing this debate - each answer is a step toward conceding dchuya.",
-            correction: "Rav Nachman holds hutrah (per the dispute stated on 6b) and Rav Sheshet holds dchuya; Rav Sheshet is the one bringing baraitot to challenge Rav Nachman's position. Rav Nachman's answers narrow the scope of what still counts as a genuine test of hutrah, but each one is a defense of his position, not a concession to dchuya."
+            correction: "Rav Nachman holds hutrah (per the dispute stated on 6b) and Rav Sheshet holds dchuya; Rav Sheshet opens the challenge with the omer baraita, and three further anonymous objections continue pressing the same direction. Rav Nachman's answers narrow the scope of what still counts as a genuine test of hutrah, but each one is a defense of his position, not a concession to dchuya."
           },
           {
             misconception: "The 'be shrewd and keep silent' instruction supports hutrah, since the impure offering can proceed.",
@@ -14547,7 +14547,7 @@ const DAF_CONTENT = {
         visualizableElements: [
           {
             type: "contrast",
-            item: "Four-round debate diagram: each row shows Rav Sheshet's proof, the claimed implication (dchuya), and Rav Nachman's specific answer"
+            item: "Four-round debate diagram: each row shows the proof or objection (Rav Sheshet's first, then three anonymous), the claimed implication (dchuya), and Rav Nachman's specific answer"
           },
           {
             type: "sequence",
@@ -14564,7 +14564,7 @@ const DAF_CONTENT = {
             question: "Why does Rav Nachman concede that the omer offering must be performed in purity, without that concession counting against his hutrah position?",
             answer: "The omer has eating-remnants (the leftover minhah is eaten by priests). The requirement for purity derives from the obligation to eat the remnants in purity - not from the tumas meit rule for communal service.",
             distractors: [
-              "The omer is an individual's offering, so dchuya applies",
+              "The omer is an individual's offering, so the communal rule never applies to it",
               "The omer has no fixed time, so it is not covered by hutrah",
               "The omer is performed before the opening of the Temple service"
             ]
@@ -14590,7 +14590,7 @@ const DAF_CONTENT = {
         alternateAngles: [
           {
             angle: "Cumulative concessions and the erosion of hutrah",
-            text: "Tracking all of Rav Nachman's concessions reveals a hutrah position that applies in a surprisingly narrow domain: only true communal sacrifices with a fixed time and no eating-remnants. One can ask whether any practical case actually fits this narrow description, or whether Rav Nachman has effectively conceded dchuya in all relevant scenarios."
+            text: "Tracking Rav Nachman's answers reveals how sharply he delimits which cases genuinely test hutrah: only true communal sacrifices with a fixed time and no eating-remnants. That class is not marginal - the tamid and the festival musafim sit squarely inside it, and line 11's מאי לאו … דחג assumes as much. The angle worth pressing is not whether the class is empty, but whether needing four separate reclassifications to keep the disputed baraitot out of it is itself a strain on the position."
           }
         ],
         topicTags: [
@@ -14626,7 +14626,7 @@ const DAF_CONTENT = {
       {
         he: "פִּגּוּל",
         translit: "Piggul",
-        en: "An offering disqualified for a reason the Gemara treats as already fully excluded by its own verse: 'lo yeiratzeh' (it will not be accepted). Because that exclusion is already stated, the tzitz has nothing left to atone for regarding piggul, so it cannot be the sin the tzitz addresses."
+        en: "An offering disqualified for a reason the Gemara treats as already fully excluded by its own verse: 'lo yeiratzeh' (it will not be accepted). Because the Torah has already foreclosed acceptance for this reason, the tzitz - whose function is to effect acceptance - cannot be operating on piggul, so piggul cannot be the sin the tzitz addresses."
       },
       {
         he: "נוֹתָר",
