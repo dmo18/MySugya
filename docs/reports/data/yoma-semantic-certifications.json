@@ -4330,7 +4330,7 @@
     "yoma-007a-s01": {
       "sugyaId": "yoma-007a-s01",
       "daf": "7a",
-      "state": "PENDING_FINAL_AUDIT",
+      "state": "CERTIFIED",
       "firstPass": {
         "reviewId": "campaign-7a-recert-first-a56f62d2",
         "reviewerContextId": "a56f62d27410fa780",
@@ -4360,7 +4360,2389 @@
           "verdict": "CONFIRMED",
           "summary": "Mutually-blind independent reconstruction of raw Hebrew lines 1-30, with sourceRefs re-verified against actual per-segment text extracted from learning_data.js (not the packet's map alone), confirming all ten steps including the three spanning-segment cases (l06, l12, l17) where a numeric-only check would misassign content. Explicitly confirmed the step-06 fix (yoma-007a-l17/vilnaLine 18) is correct and correct for the right reason. Speaker attribution, external citations, and the honest mid-sentence-cutoff handling all verified clean. Five non-blocking advisory notes recorded, no defect found."
         }
-      }
+      },
+      "finalAudit": {
+        "reviewId": "campaign-7a-recert-final-a47c12cb",
+        "auditorContextId": "a47c12cb4708652a8",
+        "auditedSourceFingerprint": "3cf0ac4387fa97adfde9fa8a78c46439a65cc9213996829f8938c125c723fba2",
+        "auditedSemanticFingerprint": "fa3703eee5f8fbe285f8d07be4cb42c9128689874130be4dbc4c16d2c97c4c52",
+        "dafBoundary": {
+          "rawLineCount": 30,
+          "finalRawLine": "הא",
+          "dafEndState": "MID_SENTENCE"
+        },
+        "fieldInventory": [
+          {
+            "path": "lineRange",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "lines",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "dafLevel.glossary[0].en",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "7a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 30
+              }
+            ]
+          },
+          {
+            "path": "dafLevel.glossary[0].he",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "7a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 30
+              }
+            ]
+          },
+          {
+            "path": "dafLevel.glossary[0].translit",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "7a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 30
+              }
+            ]
+          },
+          {
+            "path": "dafLevel.glossary[1].en",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "7a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 30
+              }
+            ]
+          },
+          {
+            "path": "dafLevel.glossary[1].he",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "7a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 30
+              }
+            ]
+          },
+          {
+            "path": "dafLevel.glossary[1].translit",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "7a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 30
+              }
+            ]
+          },
+          {
+            "path": "dafLevel.glossary[2].en",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "7a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 30
+              }
+            ]
+          },
+          {
+            "path": "dafLevel.glossary[2].he",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "7a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 30
+              }
+            ]
+          },
+          {
+            "path": "dafLevel.glossary[2].translit",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "7a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 30
+              }
+            ]
+          },
+          {
+            "path": "dafLevel.glossary[3].en",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "7a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 30
+              }
+            ]
+          },
+          {
+            "path": "dafLevel.glossary[3].he",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "7a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 30
+              }
+            ]
+          },
+          {
+            "path": "dafLevel.glossary[3].translit",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "7a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 30
+              }
+            ]
+          },
+          {
+            "path": "dafLevel.glossary[4].en",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "7a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 30
+              }
+            ]
+          },
+          {
+            "path": "dafLevel.glossary[4].he",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "7a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 30
+              }
+            ]
+          },
+          {
+            "path": "dafLevel.glossary[4].translit",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "7a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 30
+              }
+            ]
+          },
+          {
+            "path": "dafLevel.summary",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "7a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 30
+              }
+            ]
+          },
+          {
+            "path": "alternateAngles[0].angle",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "7a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 30
+              }
+            ]
+          },
+          {
+            "path": "alternateAngles[0].text",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "7a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 30
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-01].id",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-01].label",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "7a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 30
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-01].sourceRefs[0].lineId",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-01].sourceRefs[0].note",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "7a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 30
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-01].sourceRefs[0].sourceType",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-01].sourceRefs[0].vilnaLine",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-01].speaker",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "7a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 30
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-01].text",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "7a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 30
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-01].type",
+            "verdict": "REVIEWED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "note": "proof: L2-6 is Rav Sheshet's own dchuya proof from the omer baraita (מנא אמינא לה), a positive argument, not a rejection of one."
+          },
+          {
+            "path": "argumentFlow[step-02].id",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-02].label",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "7a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 30
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-02].sourceRefs[0].lineId",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-02].sourceRefs[0].note",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "7a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 30
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-02].sourceRefs[0].sourceType",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-02].sourceRefs[0].vilnaLine",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-02].speaker",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "7a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 30
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-02].text",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "7a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 30
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-02].type",
+            "verdict": "REVIEWED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "note": "rejection: L7 (מודינא) is Rav Nachman conceding/narrowing the omer case, rejecting its force as a test of hutrah/dchuya."
+          },
+          {
+            "path": "argumentFlow[step-03].id",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-03].label",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "7a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 30
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-03].sourceRefs[0].lineId",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-03].sourceRefs[0].note",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "7a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 30
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-03].sourceRefs[0].sourceType",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-03].sourceRefs[0].vilnaLine",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-03].speaker",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "7a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 30
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-03].text",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "7a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 30
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-03].type",
+            "verdict": "REVIEWED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "note": "proof: L8-11 (מיתיבי) advances a further dchuya proof from the meal-offering baraita, parallel in structure to step-01."
+          },
+          {
+            "path": "argumentFlow[step-04].id",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-04].label",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "7a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 30
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-04].sourceRefs[0].lineId",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-04].sourceRefs[0].note",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "7a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 30
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-04].sourceRefs[0].sourceType",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-04].sourceRefs[0].vilnaLine",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-04].speaker",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "7a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 30
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-04].text",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "7a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 30
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-04].type",
+            "verdict": "REVIEWED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "note": "rejection: L12-17 (אמר לך רב נחמן) rejects the proof's force by disaggregating the three cases."
+          },
+          {
+            "path": "argumentFlow[step-05].id",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-05].label",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "7a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 30
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-05].sourceRefs[0].lineId",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-05].sourceRefs[0].note",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "7a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 30
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-05].sourceRefs[0].sourceType",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-05].sourceRefs[0].vilnaLine",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-05].speaker",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "7a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 30
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-05].text",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "7a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 30
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-05].type",
+            "verdict": "REVIEWED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "note": "proof: L17-18 (מיתיבי) advances a further dchuya proof from the blood-sprinkling baraita."
+          },
+          {
+            "path": "argumentFlow[step-06].id",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-06].label",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "7a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 30
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-06].sourceRefs[0].lineId",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-06].sourceRefs[0].note",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "7a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 30
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-06].sourceRefs[0].sourceType",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-06].sourceRefs[0].vilnaLine",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-06].speaker",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "7a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 30
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-06].text",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "7a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 30
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-06].type",
+            "verdict": "REVIEWED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "note": "rejection: L19 (כי תניא ההיא דיחיד) rejects the proof's force by confining the baraita to an individual's offering; classified rejection despite the unattributed speaker, consistent with its function in the exchange."
+          },
+          {
+            "path": "argumentFlow[step-07].id",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-07].label",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "7a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 30
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-07].sourceRefs[0].lineId",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-07].sourceRefs[0].note",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "7a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 30
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-07].sourceRefs[0].sourceType",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-07].sourceRefs[0].vilnaLine",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-07].speaker",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "7a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 30
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-07].text",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "7a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 30
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-07].type",
+            "verdict": "REVIEWED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "note": "proof: L19-23 (ת\"ש) advances the strongest dchuya proof, from the tzitz baraita's explicit inclusion of tzibbur."
+          },
+          {
+            "path": "argumentFlow[step-08].id",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-08].label",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "7a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 30
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-08].sourceRefs[0].lineId",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-08].sourceRefs[0].note",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "7a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 30
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-08].sourceRefs[0].sourceType",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-08].sourceRefs[0].vilnaLine",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-08].speaker",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "7a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 30
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-08].text",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "7a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 30
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-08].type",
+            "verdict": "REVIEWED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "note": "rejection: L23-25 (אמר לך רב נחמן) rejects the proof's force via the two-stage answer (individual; or non-fixed-time communal)."
+          },
+          {
+            "path": "argumentFlow[step-09].id",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-09].label",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "7a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 30
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-09].sourceRefs[0].lineId",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-09].sourceRefs[0].note",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "7a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 30
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-09].sourceRefs[0].sourceType",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-09].sourceRefs[0].vilnaLine",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-09].speaker",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "7a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 30
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-09].text",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "7a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 30
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-09].type",
+            "verdict": "REVIEWED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "note": "objection: L26-29 (מיתיבי) raises a new line of attack from the tzitz's own atonement verse rather than rejecting a prior move."
+          },
+          {
+            "path": "argumentFlow[step-10].id",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-10].label",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "7a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 30
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-10].sourceRefs[0].lineId",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-10].sourceRefs[0].note",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "7a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 30
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-10].sourceRefs[0].sourceType",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-10].sourceRefs[0].vilnaLine",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-10].speaker",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "7a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 30
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-10].text",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "7a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 30
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-10].type",
+            "verdict": "REVIEWED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "note": "question: L30 poses the open, unresolved question of what sin remains, consistent with the daf's physical mid-sentence cutoff at 'הא'."
+          },
+          {
+            "path": "conceptRefs[0]",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "conceptRefs[1]",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "conceptRefs[2]",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "conceptRefs[3]",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "difficulty",
+            "verdict": "REVIEWED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "note": "advanced: the sugya requires tracking a four-round technical dispute across multiple sacrificial categories (par avodah zarah, Aaron's ram, the omer lamb) and a chained two-stage answer, appropriate for an advanced rating."
+          },
+          {
+            "path": "display.hint",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "7a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 30
+              }
+            ]
+          },
+          {
+            "path": "display.oneLine",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "7a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 30
+              }
+            ]
+          },
+          {
+            "path": "display.shortSummary",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "7a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 30
+              }
+            ]
+          },
+          {
+            "path": "display.title",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "7a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 30
+              }
+            ]
+          },
+          {
+            "path": "display.whats",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "7a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 30
+              }
+            ]
+          },
+          {
+            "path": "learning.ahaMoment",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "7a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 30
+              }
+            ]
+          },
+          {
+            "path": "learning.coreMove",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "7a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 30
+              }
+            ]
+          },
+          {
+            "path": "learning.coreTension",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "7a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 30
+              }
+            ]
+          },
+          {
+            "path": "learning.learnerQuestion",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "7a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 30
+              }
+            ]
+          },
+          {
+            "path": "learning.learningBlocker",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "7a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 30
+              }
+            ]
+          },
+          {
+            "path": "learning.memoryAnchor",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "7a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 30
+              }
+            ]
+          },
+          {
+            "path": "learning.reasoningPattern.category",
+            "verdict": "REVIEWED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "note": "dialectical: the sugya's structure is a back-and-forth proof/rejection exchange between two positions (hutrah vs dchuya), the defining shape of a dialectical reasoning pattern."
+          },
+          {
+            "path": "learning.reasoningPattern.id",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "learning.reasoningPattern.notes",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "7a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 30
+              }
+            ]
+          },
+          {
+            "path": "learning.resolution",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "7a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 30
+              }
+            ]
+          },
+          {
+            "path": "learning.takeaway.text",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "7a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 30
+              }
+            ]
+          },
+          {
+            "path": "learning.takeaway.type",
+            "verdict": "REVIEWED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "note": "logical_principle: the takeaway states a general principle about argumentative strain from repeated reclassification, not a fact, halachic ruling, or terminology point."
+          },
+          {
+            "path": "misconceptions[0].correction",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "7a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 30
+              }
+            ]
+          },
+          {
+            "path": "misconceptions[0].misconception",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "7a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 30
+              }
+            ]
+          },
+          {
+            "path": "misconceptions[1].correction",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "7a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 30
+              }
+            ]
+          },
+          {
+            "path": "misconceptions[1].misconception",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "7a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 30
+              }
+            ]
+          },
+          {
+            "path": "misconceptions[2].correction",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "7a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 30
+              }
+            ]
+          },
+          {
+            "path": "misconceptions[2].misconception",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "7a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 30
+              }
+            ]
+          },
+          {
+            "path": "prerequisiteKnowledge[0]",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "7a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 30
+              }
+            ]
+          },
+          {
+            "path": "prerequisiteKnowledge[1]",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "7a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 30
+              }
+            ]
+          },
+          {
+            "path": "prerequisiteKnowledge[2]",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "7a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 30
+              }
+            ]
+          },
+          {
+            "path": "quizSeeds[0].answer",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "7a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 30
+              }
+            ]
+          },
+          {
+            "path": "quizSeeds[0].distractors[0]",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "7a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 30
+              }
+            ]
+          },
+          {
+            "path": "quizSeeds[0].distractors[1]",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "7a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 30
+              }
+            ]
+          },
+          {
+            "path": "quizSeeds[0].distractors[2]",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "7a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 30
+              }
+            ]
+          },
+          {
+            "path": "quizSeeds[0].question",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "7a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 30
+              }
+            ]
+          },
+          {
+            "path": "quizSeeds[0].type",
+            "verdict": "REVIEWED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "note": "multiple_choice: the quiz item supplies a question, one correct answer, and distractors, matching the multiple_choice contract."
+          },
+          {
+            "path": "quizSeeds[1].answer",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "7a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 30
+              }
+            ]
+          },
+          {
+            "path": "quizSeeds[1].question",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "7a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 30
+              }
+            ]
+          },
+          {
+            "path": "quizSeeds[1].type",
+            "verdict": "REVIEWED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "note": "short_answer: the quiz item supplies a question and answer with no distractors array, matching the short_answer contract."
+          },
+          {
+            "path": "quizSeeds[2].answer",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "7a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 30
+              }
+            ]
+          },
+          {
+            "path": "quizSeeds[2].distractors[0]",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "7a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 30
+              }
+            ]
+          },
+          {
+            "path": "quizSeeds[2].distractors[1]",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "7a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 30
+              }
+            ]
+          },
+          {
+            "path": "quizSeeds[2].distractors[2]",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "7a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 30
+              }
+            ]
+          },
+          {
+            "path": "quizSeeds[2].question",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "7a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 30
+              }
+            ]
+          },
+          {
+            "path": "quizSeeds[2].type",
+            "verdict": "REVIEWED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "note": "multiple_choice: the quiz item supplies a question, one correct answer, and distractors, matching the multiple_choice contract."
+          },
+          {
+            "path": "requiresUnderstanding[0]",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "topicTags[0]",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "topicTags[1]",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "topicTags[2]",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "topicTags[3]",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "topicTags[4]",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "topicTags[5]",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "topicTags[6]",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "topicTags[7]",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "topicTags[8]",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "visualizableElements[0].item",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "7a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 30
+              }
+            ]
+          },
+          {
+            "path": "visualizableElements[0].type",
+            "verdict": "REVIEWED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "note": "contrast: the item is a four-round comparison table (proof vs. answer per round), a contrast structure."
+          },
+          {
+            "path": "visualizableElements[1].item",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "7a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 30
+              }
+            ]
+          },
+          {
+            "path": "visualizableElements[1].type",
+            "verdict": "REVIEWED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "note": "sequence: the item is an ordered three-step disaggregation (bulls/rams/sheep into three cases), a sequence structure."
+          },
+          {
+            "path": "visualizableElements[2].item",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "7a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 30
+              }
+            ]
+          },
+          {
+            "path": "visualizableElements[2].type",
+            "verdict": "REVIEWED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "note": "text: the item is an annotated verse quotation, a text-type visualization."
+          }
+        ],
+        "boundaryLeakageSweep": [
+          {
+            "path": "dafLevel.glossary[0].en",
+            "importsNextDafConclusion": false,
+            "note": "Daf breaks off mid-sentence after the complete word 'הא' (L30); the field's own text either states no conclusion beyond what lines 1-30 establish, or (where it references 7b) only the mechanical fact that Rashi's comment continues there, never importing 7b's actual content or resolving which side of the hutrah/dchuya dispute the final objection favors."
+          },
+          {
+            "path": "dafLevel.glossary[0].he",
+            "importsNextDafConclusion": false,
+            "note": "Daf breaks off mid-sentence after the complete word 'הא' (L30); the field's own text either states no conclusion beyond what lines 1-30 establish, or (where it references 7b) only the mechanical fact that Rashi's comment continues there, never importing 7b's actual content or resolving which side of the hutrah/dchuya dispute the final objection favors."
+          },
+          {
+            "path": "dafLevel.glossary[0].translit",
+            "importsNextDafConclusion": false,
+            "note": "Daf breaks off mid-sentence after the complete word 'הא' (L30); the field's own text either states no conclusion beyond what lines 1-30 establish, or (where it references 7b) only the mechanical fact that Rashi's comment continues there, never importing 7b's actual content or resolving which side of the hutrah/dchuya dispute the final objection favors."
+          },
+          {
+            "path": "dafLevel.glossary[1].en",
+            "importsNextDafConclusion": false,
+            "note": "Daf breaks off mid-sentence after the complete word 'הא' (L30); the field's own text either states no conclusion beyond what lines 1-30 establish, or (where it references 7b) only the mechanical fact that Rashi's comment continues there, never importing 7b's actual content or resolving which side of the hutrah/dchuya dispute the final objection favors."
+          },
+          {
+            "path": "dafLevel.glossary[1].he",
+            "importsNextDafConclusion": false,
+            "note": "Daf breaks off mid-sentence after the complete word 'הא' (L30); the field's own text either states no conclusion beyond what lines 1-30 establish, or (where it references 7b) only the mechanical fact that Rashi's comment continues there, never importing 7b's actual content or resolving which side of the hutrah/dchuya dispute the final objection favors."
+          },
+          {
+            "path": "dafLevel.glossary[1].translit",
+            "importsNextDafConclusion": false,
+            "note": "Daf breaks off mid-sentence after the complete word 'הא' (L30); the field's own text either states no conclusion beyond what lines 1-30 establish, or (where it references 7b) only the mechanical fact that Rashi's comment continues there, never importing 7b's actual content or resolving which side of the hutrah/dchuya dispute the final objection favors."
+          },
+          {
+            "path": "dafLevel.glossary[2].en",
+            "importsNextDafConclusion": false,
+            "note": "Daf breaks off mid-sentence after the complete word 'הא' (L30); the field's own text either states no conclusion beyond what lines 1-30 establish, or (where it references 7b) only the mechanical fact that Rashi's comment continues there, never importing 7b's actual content or resolving which side of the hutrah/dchuya dispute the final objection favors."
+          },
+          {
+            "path": "dafLevel.glossary[2].he",
+            "importsNextDafConclusion": false,
+            "note": "Daf breaks off mid-sentence after the complete word 'הא' (L30); the field's own text either states no conclusion beyond what lines 1-30 establish, or (where it references 7b) only the mechanical fact that Rashi's comment continues there, never importing 7b's actual content or resolving which side of the hutrah/dchuya dispute the final objection favors."
+          },
+          {
+            "path": "dafLevel.glossary[2].translit",
+            "importsNextDafConclusion": false,
+            "note": "Daf breaks off mid-sentence after the complete word 'הא' (L30); the field's own text either states no conclusion beyond what lines 1-30 establish, or (where it references 7b) only the mechanical fact that Rashi's comment continues there, never importing 7b's actual content or resolving which side of the hutrah/dchuya dispute the final objection favors."
+          },
+          {
+            "path": "dafLevel.glossary[3].en",
+            "importsNextDafConclusion": false,
+            "note": "Daf breaks off mid-sentence after the complete word 'הא' (L30); the field's own text either states no conclusion beyond what lines 1-30 establish, or (where it references 7b) only the mechanical fact that Rashi's comment continues there, never importing 7b's actual content or resolving which side of the hutrah/dchuya dispute the final objection favors."
+          },
+          {
+            "path": "dafLevel.glossary[3].he",
+            "importsNextDafConclusion": false,
+            "note": "Daf breaks off mid-sentence after the complete word 'הא' (L30); the field's own text either states no conclusion beyond what lines 1-30 establish, or (where it references 7b) only the mechanical fact that Rashi's comment continues there, never importing 7b's actual content or resolving which side of the hutrah/dchuya dispute the final objection favors."
+          },
+          {
+            "path": "dafLevel.glossary[3].translit",
+            "importsNextDafConclusion": false,
+            "note": "Daf breaks off mid-sentence after the complete word 'הא' (L30); the field's own text either states no conclusion beyond what lines 1-30 establish, or (where it references 7b) only the mechanical fact that Rashi's comment continues there, never importing 7b's actual content or resolving which side of the hutrah/dchuya dispute the final objection favors."
+          },
+          {
+            "path": "dafLevel.glossary[4].en",
+            "importsNextDafConclusion": false,
+            "note": "Daf breaks off mid-sentence after the complete word 'הא' (L30); the field's own text either states no conclusion beyond what lines 1-30 establish, or (where it references 7b) only the mechanical fact that Rashi's comment continues there, never importing 7b's actual content or resolving which side of the hutrah/dchuya dispute the final objection favors."
+          },
+          {
+            "path": "dafLevel.glossary[4].he",
+            "importsNextDafConclusion": false,
+            "note": "Daf breaks off mid-sentence after the complete word 'הא' (L30); the field's own text either states no conclusion beyond what lines 1-30 establish, or (where it references 7b) only the mechanical fact that Rashi's comment continues there, never importing 7b's actual content or resolving which side of the hutrah/dchuya dispute the final objection favors."
+          },
+          {
+            "path": "dafLevel.glossary[4].translit",
+            "importsNextDafConclusion": false,
+            "note": "Daf breaks off mid-sentence after the complete word 'הא' (L30); the field's own text either states no conclusion beyond what lines 1-30 establish, or (where it references 7b) only the mechanical fact that Rashi's comment continues there, never importing 7b's actual content or resolving which side of the hutrah/dchuya dispute the final objection favors."
+          },
+          {
+            "path": "dafLevel.summary",
+            "importsNextDafConclusion": false,
+            "note": "Daf breaks off mid-sentence after the complete word 'הא' (L30); the field's own text either states no conclusion beyond what lines 1-30 establish, or (where it references 7b) only the mechanical fact that Rashi's comment continues there, never importing 7b's actual content or resolving which side of the hutrah/dchuya dispute the final objection favors."
+          },
+          {
+            "path": "alternateAngles[0].angle",
+            "importsNextDafConclusion": false,
+            "note": "Daf breaks off mid-sentence after the complete word 'הא' (L30); the field's own text either states no conclusion beyond what lines 1-30 establish, or (where it references 7b) only the mechanical fact that Rashi's comment continues there, never importing 7b's actual content or resolving which side of the hutrah/dchuya dispute the final objection favors."
+          },
+          {
+            "path": "alternateAngles[0].text",
+            "importsNextDafConclusion": false,
+            "note": "Daf breaks off mid-sentence after the complete word 'הא' (L30); the field's own text either states no conclusion beyond what lines 1-30 establish, or (where it references 7b) only the mechanical fact that Rashi's comment continues there, never importing 7b's actual content or resolving which side of the hutrah/dchuya dispute the final objection favors."
+          },
+          {
+            "path": "argumentFlow[step-01].label",
+            "importsNextDafConclusion": false,
+            "note": "Daf breaks off mid-sentence after the complete word 'הא' (L30); the field's own text either states no conclusion beyond what lines 1-30 establish, or (where it references 7b) only the mechanical fact that Rashi's comment continues there, never importing 7b's actual content or resolving which side of the hutrah/dchuya dispute the final objection favors."
+          },
+          {
+            "path": "argumentFlow[step-01].sourceRefs[0].note",
+            "importsNextDafConclusion": false,
+            "note": "Daf breaks off mid-sentence after the complete word 'הא' (L30); the field's own text either states no conclusion beyond what lines 1-30 establish, or (where it references 7b) only the mechanical fact that Rashi's comment continues there, never importing 7b's actual content or resolving which side of the hutrah/dchuya dispute the final objection favors."
+          },
+          {
+            "path": "argumentFlow[step-01].speaker",
+            "importsNextDafConclusion": false,
+            "note": "Daf breaks off mid-sentence after the complete word 'הא' (L30); the field's own text either states no conclusion beyond what lines 1-30 establish, or (where it references 7b) only the mechanical fact that Rashi's comment continues there, never importing 7b's actual content or resolving which side of the hutrah/dchuya dispute the final objection favors."
+          },
+          {
+            "path": "argumentFlow[step-01].text",
+            "importsNextDafConclusion": false,
+            "note": "Daf breaks off mid-sentence after the complete word 'הא' (L30); the field's own text either states no conclusion beyond what lines 1-30 establish, or (where it references 7b) only the mechanical fact that Rashi's comment continues there, never importing 7b's actual content or resolving which side of the hutrah/dchuya dispute the final objection favors."
+          },
+          {
+            "path": "argumentFlow[step-01].type",
+            "importsNextDafConclusion": false,
+            "note": "Daf breaks off mid-sentence after the complete word 'הא' (L30); the field's own text either states no conclusion beyond what lines 1-30 establish, or (where it references 7b) only the mechanical fact that Rashi's comment continues there, never importing 7b's actual content or resolving which side of the hutrah/dchuya dispute the final objection favors."
+          },
+          {
+            "path": "argumentFlow[step-02].label",
+            "importsNextDafConclusion": false,
+            "note": "Daf breaks off mid-sentence after the complete word 'הא' (L30); the field's own text either states no conclusion beyond what lines 1-30 establish, or (where it references 7b) only the mechanical fact that Rashi's comment continues there, never importing 7b's actual content or resolving which side of the hutrah/dchuya dispute the final objection favors."
+          },
+          {
+            "path": "argumentFlow[step-02].sourceRefs[0].note",
+            "importsNextDafConclusion": false,
+            "note": "Daf breaks off mid-sentence after the complete word 'הא' (L30); the field's own text either states no conclusion beyond what lines 1-30 establish, or (where it references 7b) only the mechanical fact that Rashi's comment continues there, never importing 7b's actual content or resolving which side of the hutrah/dchuya dispute the final objection favors."
+          },
+          {
+            "path": "argumentFlow[step-02].speaker",
+            "importsNextDafConclusion": false,
+            "note": "Daf breaks off mid-sentence after the complete word 'הא' (L30); the field's own text either states no conclusion beyond what lines 1-30 establish, or (where it references 7b) only the mechanical fact that Rashi's comment continues there, never importing 7b's actual content or resolving which side of the hutrah/dchuya dispute the final objection favors."
+          },
+          {
+            "path": "argumentFlow[step-02].text",
+            "importsNextDafConclusion": false,
+            "note": "Daf breaks off mid-sentence after the complete word 'הא' (L30); the field's own text either states no conclusion beyond what lines 1-30 establish, or (where it references 7b) only the mechanical fact that Rashi's comment continues there, never importing 7b's actual content or resolving which side of the hutrah/dchuya dispute the final objection favors."
+          },
+          {
+            "path": "argumentFlow[step-02].type",
+            "importsNextDafConclusion": false,
+            "note": "Daf breaks off mid-sentence after the complete word 'הא' (L30); the field's own text either states no conclusion beyond what lines 1-30 establish, or (where it references 7b) only the mechanical fact that Rashi's comment continues there, never importing 7b's actual content or resolving which side of the hutrah/dchuya dispute the final objection favors."
+          },
+          {
+            "path": "argumentFlow[step-03].label",
+            "importsNextDafConclusion": false,
+            "note": "Daf breaks off mid-sentence after the complete word 'הא' (L30); the field's own text either states no conclusion beyond what lines 1-30 establish, or (where it references 7b) only the mechanical fact that Rashi's comment continues there, never importing 7b's actual content or resolving which side of the hutrah/dchuya dispute the final objection favors."
+          },
+          {
+            "path": "argumentFlow[step-03].sourceRefs[0].note",
+            "importsNextDafConclusion": false,
+            "note": "Daf breaks off mid-sentence after the complete word 'הא' (L30); the field's own text either states no conclusion beyond what lines 1-30 establish, or (where it references 7b) only the mechanical fact that Rashi's comment continues there, never importing 7b's actual content or resolving which side of the hutrah/dchuya dispute the final objection favors."
+          },
+          {
+            "path": "argumentFlow[step-03].speaker",
+            "importsNextDafConclusion": false,
+            "note": "Daf breaks off mid-sentence after the complete word 'הא' (L30); the field's own text either states no conclusion beyond what lines 1-30 establish, or (where it references 7b) only the mechanical fact that Rashi's comment continues there, never importing 7b's actual content or resolving which side of the hutrah/dchuya dispute the final objection favors."
+          },
+          {
+            "path": "argumentFlow[step-03].text",
+            "importsNextDafConclusion": false,
+            "note": "Daf breaks off mid-sentence after the complete word 'הא' (L30); the field's own text either states no conclusion beyond what lines 1-30 establish, or (where it references 7b) only the mechanical fact that Rashi's comment continues there, never importing 7b's actual content or resolving which side of the hutrah/dchuya dispute the final objection favors."
+          },
+          {
+            "path": "argumentFlow[step-03].type",
+            "importsNextDafConclusion": false,
+            "note": "Daf breaks off mid-sentence after the complete word 'הא' (L30); the field's own text either states no conclusion beyond what lines 1-30 establish, or (where it references 7b) only the mechanical fact that Rashi's comment continues there, never importing 7b's actual content or resolving which side of the hutrah/dchuya dispute the final objection favors."
+          },
+          {
+            "path": "argumentFlow[step-04].label",
+            "importsNextDafConclusion": false,
+            "note": "Daf breaks off mid-sentence after the complete word 'הא' (L30); the field's own text either states no conclusion beyond what lines 1-30 establish, or (where it references 7b) only the mechanical fact that Rashi's comment continues there, never importing 7b's actual content or resolving which side of the hutrah/dchuya dispute the final objection favors."
+          },
+          {
+            "path": "argumentFlow[step-04].sourceRefs[0].note",
+            "importsNextDafConclusion": false,
+            "note": "Daf breaks off mid-sentence after the complete word 'הא' (L30); the field's own text either states no conclusion beyond what lines 1-30 establish, or (where it references 7b) only the mechanical fact that Rashi's comment continues there, never importing 7b's actual content or resolving which side of the hutrah/dchuya dispute the final objection favors."
+          },
+          {
+            "path": "argumentFlow[step-04].speaker",
+            "importsNextDafConclusion": false,
+            "note": "Daf breaks off mid-sentence after the complete word 'הא' (L30); the field's own text either states no conclusion beyond what lines 1-30 establish, or (where it references 7b) only the mechanical fact that Rashi's comment continues there, never importing 7b's actual content or resolving which side of the hutrah/dchuya dispute the final objection favors."
+          },
+          {
+            "path": "argumentFlow[step-04].text",
+            "importsNextDafConclusion": false,
+            "note": "Daf breaks off mid-sentence after the complete word 'הא' (L30); the field's own text either states no conclusion beyond what lines 1-30 establish, or (where it references 7b) only the mechanical fact that Rashi's comment continues there, never importing 7b's actual content or resolving which side of the hutrah/dchuya dispute the final objection favors."
+          },
+          {
+            "path": "argumentFlow[step-04].type",
+            "importsNextDafConclusion": false,
+            "note": "Daf breaks off mid-sentence after the complete word 'הא' (L30); the field's own text either states no conclusion beyond what lines 1-30 establish, or (where it references 7b) only the mechanical fact that Rashi's comment continues there, never importing 7b's actual content or resolving which side of the hutrah/dchuya dispute the final objection favors."
+          },
+          {
+            "path": "argumentFlow[step-05].label",
+            "importsNextDafConclusion": false,
+            "note": "Daf breaks off mid-sentence after the complete word 'הא' (L30); the field's own text either states no conclusion beyond what lines 1-30 establish, or (where it references 7b) only the mechanical fact that Rashi's comment continues there, never importing 7b's actual content or resolving which side of the hutrah/dchuya dispute the final objection favors."
+          },
+          {
+            "path": "argumentFlow[step-05].sourceRefs[0].note",
+            "importsNextDafConclusion": false,
+            "note": "Daf breaks off mid-sentence after the complete word 'הא' (L30); the field's own text either states no conclusion beyond what lines 1-30 establish, or (where it references 7b) only the mechanical fact that Rashi's comment continues there, never importing 7b's actual content or resolving which side of the hutrah/dchuya dispute the final objection favors."
+          },
+          {
+            "path": "argumentFlow[step-05].speaker",
+            "importsNextDafConclusion": false,
+            "note": "Daf breaks off mid-sentence after the complete word 'הא' (L30); the field's own text either states no conclusion beyond what lines 1-30 establish, or (where it references 7b) only the mechanical fact that Rashi's comment continues there, never importing 7b's actual content or resolving which side of the hutrah/dchuya dispute the final objection favors."
+          },
+          {
+            "path": "argumentFlow[step-05].text",
+            "importsNextDafConclusion": false,
+            "note": "Daf breaks off mid-sentence after the complete word 'הא' (L30); the field's own text either states no conclusion beyond what lines 1-30 establish, or (where it references 7b) only the mechanical fact that Rashi's comment continues there, never importing 7b's actual content or resolving which side of the hutrah/dchuya dispute the final objection favors."
+          },
+          {
+            "path": "argumentFlow[step-05].type",
+            "importsNextDafConclusion": false,
+            "note": "Daf breaks off mid-sentence after the complete word 'הא' (L30); the field's own text either states no conclusion beyond what lines 1-30 establish, or (where it references 7b) only the mechanical fact that Rashi's comment continues there, never importing 7b's actual content or resolving which side of the hutrah/dchuya dispute the final objection favors."
+          },
+          {
+            "path": "argumentFlow[step-06].label",
+            "importsNextDafConclusion": false,
+            "note": "Daf breaks off mid-sentence after the complete word 'הא' (L30); the field's own text either states no conclusion beyond what lines 1-30 establish, or (where it references 7b) only the mechanical fact that Rashi's comment continues there, never importing 7b's actual content or resolving which side of the hutrah/dchuya dispute the final objection favors."
+          },
+          {
+            "path": "argumentFlow[step-06].sourceRefs[0].note",
+            "importsNextDafConclusion": false,
+            "note": "Daf breaks off mid-sentence after the complete word 'הא' (L30); the field's own text either states no conclusion beyond what lines 1-30 establish, or (where it references 7b) only the mechanical fact that Rashi's comment continues there, never importing 7b's actual content or resolving which side of the hutrah/dchuya dispute the final objection favors."
+          },
+          {
+            "path": "argumentFlow[step-06].speaker",
+            "importsNextDafConclusion": false,
+            "note": "Daf breaks off mid-sentence after the complete word 'הא' (L30); the field's own text either states no conclusion beyond what lines 1-30 establish, or (where it references 7b) only the mechanical fact that Rashi's comment continues there, never importing 7b's actual content or resolving which side of the hutrah/dchuya dispute the final objection favors."
+          },
+          {
+            "path": "argumentFlow[step-06].text",
+            "importsNextDafConclusion": false,
+            "note": "Daf breaks off mid-sentence after the complete word 'הא' (L30); the field's own text either states no conclusion beyond what lines 1-30 establish, or (where it references 7b) only the mechanical fact that Rashi's comment continues there, never importing 7b's actual content or resolving which side of the hutrah/dchuya dispute the final objection favors."
+          },
+          {
+            "path": "argumentFlow[step-06].type",
+            "importsNextDafConclusion": false,
+            "note": "Daf breaks off mid-sentence after the complete word 'הא' (L30); the field's own text either states no conclusion beyond what lines 1-30 establish, or (where it references 7b) only the mechanical fact that Rashi's comment continues there, never importing 7b's actual content or resolving which side of the hutrah/dchuya dispute the final objection favors."
+          },
+          {
+            "path": "argumentFlow[step-07].label",
+            "importsNextDafConclusion": false,
+            "note": "Daf breaks off mid-sentence after the complete word 'הא' (L30); the field's own text either states no conclusion beyond what lines 1-30 establish, or (where it references 7b) only the mechanical fact that Rashi's comment continues there, never importing 7b's actual content or resolving which side of the hutrah/dchuya dispute the final objection favors."
+          },
+          {
+            "path": "argumentFlow[step-07].sourceRefs[0].note",
+            "importsNextDafConclusion": false,
+            "note": "Daf breaks off mid-sentence after the complete word 'הא' (L30); the field's own text either states no conclusion beyond what lines 1-30 establish, or (where it references 7b) only the mechanical fact that Rashi's comment continues there, never importing 7b's actual content or resolving which side of the hutrah/dchuya dispute the final objection favors."
+          },
+          {
+            "path": "argumentFlow[step-07].speaker",
+            "importsNextDafConclusion": false,
+            "note": "Daf breaks off mid-sentence after the complete word 'הא' (L30); the field's own text either states no conclusion beyond what lines 1-30 establish, or (where it references 7b) only the mechanical fact that Rashi's comment continues there, never importing 7b's actual content or resolving which side of the hutrah/dchuya dispute the final objection favors."
+          },
+          {
+            "path": "argumentFlow[step-07].text",
+            "importsNextDafConclusion": false,
+            "note": "Daf breaks off mid-sentence after the complete word 'הא' (L30); the field's own text either states no conclusion beyond what lines 1-30 establish, or (where it references 7b) only the mechanical fact that Rashi's comment continues there, never importing 7b's actual content or resolving which side of the hutrah/dchuya dispute the final objection favors."
+          },
+          {
+            "path": "argumentFlow[step-07].type",
+            "importsNextDafConclusion": false,
+            "note": "Daf breaks off mid-sentence after the complete word 'הא' (L30); the field's own text either states no conclusion beyond what lines 1-30 establish, or (where it references 7b) only the mechanical fact that Rashi's comment continues there, never importing 7b's actual content or resolving which side of the hutrah/dchuya dispute the final objection favors."
+          },
+          {
+            "path": "argumentFlow[step-08].label",
+            "importsNextDafConclusion": false,
+            "note": "Daf breaks off mid-sentence after the complete word 'הא' (L30); the field's own text either states no conclusion beyond what lines 1-30 establish, or (where it references 7b) only the mechanical fact that Rashi's comment continues there, never importing 7b's actual content or resolving which side of the hutrah/dchuya dispute the final objection favors."
+          },
+          {
+            "path": "argumentFlow[step-08].sourceRefs[0].note",
+            "importsNextDafConclusion": false,
+            "note": "Daf breaks off mid-sentence after the complete word 'הא' (L30); the field's own text either states no conclusion beyond what lines 1-30 establish, or (where it references 7b) only the mechanical fact that Rashi's comment continues there, never importing 7b's actual content or resolving which side of the hutrah/dchuya dispute the final objection favors."
+          },
+          {
+            "path": "argumentFlow[step-08].speaker",
+            "importsNextDafConclusion": false,
+            "note": "Daf breaks off mid-sentence after the complete word 'הא' (L30); the field's own text either states no conclusion beyond what lines 1-30 establish, or (where it references 7b) only the mechanical fact that Rashi's comment continues there, never importing 7b's actual content or resolving which side of the hutrah/dchuya dispute the final objection favors."
+          },
+          {
+            "path": "argumentFlow[step-08].text",
+            "importsNextDafConclusion": false,
+            "note": "Daf breaks off mid-sentence after the complete word 'הא' (L30); the field's own text either states no conclusion beyond what lines 1-30 establish, or (where it references 7b) only the mechanical fact that Rashi's comment continues there, never importing 7b's actual content or resolving which side of the hutrah/dchuya dispute the final objection favors."
+          },
+          {
+            "path": "argumentFlow[step-08].type",
+            "importsNextDafConclusion": false,
+            "note": "Daf breaks off mid-sentence after the complete word 'הא' (L30); the field's own text either states no conclusion beyond what lines 1-30 establish, or (where it references 7b) only the mechanical fact that Rashi's comment continues there, never importing 7b's actual content or resolving which side of the hutrah/dchuya dispute the final objection favors."
+          },
+          {
+            "path": "argumentFlow[step-09].label",
+            "importsNextDafConclusion": false,
+            "note": "Daf breaks off mid-sentence after the complete word 'הא' (L30); the field's own text either states no conclusion beyond what lines 1-30 establish, or (where it references 7b) only the mechanical fact that Rashi's comment continues there, never importing 7b's actual content or resolving which side of the hutrah/dchuya dispute the final objection favors."
+          },
+          {
+            "path": "argumentFlow[step-09].sourceRefs[0].note",
+            "importsNextDafConclusion": false,
+            "note": "Daf breaks off mid-sentence after the complete word 'הא' (L30); the field's own text either states no conclusion beyond what lines 1-30 establish, or (where it references 7b) only the mechanical fact that Rashi's comment continues there, never importing 7b's actual content or resolving which side of the hutrah/dchuya dispute the final objection favors."
+          },
+          {
+            "path": "argumentFlow[step-09].speaker",
+            "importsNextDafConclusion": false,
+            "note": "Daf breaks off mid-sentence after the complete word 'הא' (L30); the field's own text either states no conclusion beyond what lines 1-30 establish, or (where it references 7b) only the mechanical fact that Rashi's comment continues there, never importing 7b's actual content or resolving which side of the hutrah/dchuya dispute the final objection favors."
+          },
+          {
+            "path": "argumentFlow[step-09].text",
+            "importsNextDafConclusion": false,
+            "note": "Daf breaks off mid-sentence after the complete word 'הא' (L30); the field's own text either states no conclusion beyond what lines 1-30 establish, or (where it references 7b) only the mechanical fact that Rashi's comment continues there, never importing 7b's actual content or resolving which side of the hutrah/dchuya dispute the final objection favors."
+          },
+          {
+            "path": "argumentFlow[step-09].type",
+            "importsNextDafConclusion": false,
+            "note": "Daf breaks off mid-sentence after the complete word 'הא' (L30); the field's own text either states no conclusion beyond what lines 1-30 establish, or (where it references 7b) only the mechanical fact that Rashi's comment continues there, never importing 7b's actual content or resolving which side of the hutrah/dchuya dispute the final objection favors."
+          },
+          {
+            "path": "argumentFlow[step-10].label",
+            "importsNextDafConclusion": false,
+            "note": "Daf breaks off mid-sentence after the complete word 'הא' (L30); the field's own text either states no conclusion beyond what lines 1-30 establish, or (where it references 7b) only the mechanical fact that Rashi's comment continues there, never importing 7b's actual content or resolving which side of the hutrah/dchuya dispute the final objection favors."
+          },
+          {
+            "path": "argumentFlow[step-10].sourceRefs[0].note",
+            "importsNextDafConclusion": false,
+            "note": "Daf breaks off mid-sentence after the complete word 'הא' (L30); the field's own text either states no conclusion beyond what lines 1-30 establish, or (where it references 7b) only the mechanical fact that Rashi's comment continues there, never importing 7b's actual content or resolving which side of the hutrah/dchuya dispute the final objection favors."
+          },
+          {
+            "path": "argumentFlow[step-10].speaker",
+            "importsNextDafConclusion": false,
+            "note": "Daf breaks off mid-sentence after the complete word 'הא' (L30); the field's own text either states no conclusion beyond what lines 1-30 establish, or (where it references 7b) only the mechanical fact that Rashi's comment continues there, never importing 7b's actual content or resolving which side of the hutrah/dchuya dispute the final objection favors."
+          },
+          {
+            "path": "argumentFlow[step-10].text",
+            "importsNextDafConclusion": false,
+            "note": "Daf breaks off mid-sentence after the complete word 'הא' (L30); the field's own text either states no conclusion beyond what lines 1-30 establish, or (where it references 7b) only the mechanical fact that Rashi's comment continues there, never importing 7b's actual content or resolving which side of the hutrah/dchuya dispute the final objection favors."
+          },
+          {
+            "path": "argumentFlow[step-10].type",
+            "importsNextDafConclusion": false,
+            "note": "Daf breaks off mid-sentence after the complete word 'הא' (L30); the field's own text either states no conclusion beyond what lines 1-30 establish, or (where it references 7b) only the mechanical fact that Rashi's comment continues there, never importing 7b's actual content or resolving which side of the hutrah/dchuya dispute the final objection favors."
+          },
+          {
+            "path": "difficulty",
+            "importsNextDafConclusion": false,
+            "note": "Daf breaks off mid-sentence after the complete word 'הא' (L30); the field's own text either states no conclusion beyond what lines 1-30 establish, or (where it references 7b) only the mechanical fact that Rashi's comment continues there, never importing 7b's actual content or resolving which side of the hutrah/dchuya dispute the final objection favors."
+          },
+          {
+            "path": "display.hint",
+            "importsNextDafConclusion": false,
+            "note": "Daf breaks off mid-sentence after the complete word 'הא' (L30); the field's own text either states no conclusion beyond what lines 1-30 establish, or (where it references 7b) only the mechanical fact that Rashi's comment continues there, never importing 7b's actual content or resolving which side of the hutrah/dchuya dispute the final objection favors."
+          },
+          {
+            "path": "display.oneLine",
+            "importsNextDafConclusion": false,
+            "note": "Daf breaks off mid-sentence after the complete word 'הא' (L30); the field's own text either states no conclusion beyond what lines 1-30 establish, or (where it references 7b) only the mechanical fact that Rashi's comment continues there, never importing 7b's actual content or resolving which side of the hutrah/dchuya dispute the final objection favors."
+          },
+          {
+            "path": "display.shortSummary",
+            "importsNextDafConclusion": false,
+            "note": "Daf breaks off mid-sentence after the complete word 'הא' (L30); the field's own text either states no conclusion beyond what lines 1-30 establish, or (where it references 7b) only the mechanical fact that Rashi's comment continues there, never importing 7b's actual content or resolving which side of the hutrah/dchuya dispute the final objection favors."
+          },
+          {
+            "path": "display.title",
+            "importsNextDafConclusion": false,
+            "note": "Daf breaks off mid-sentence after the complete word 'הא' (L30); the field's own text either states no conclusion beyond what lines 1-30 establish, or (where it references 7b) only the mechanical fact that Rashi's comment continues there, never importing 7b's actual content or resolving which side of the hutrah/dchuya dispute the final objection favors."
+          },
+          {
+            "path": "display.whats",
+            "importsNextDafConclusion": false,
+            "note": "Daf breaks off mid-sentence after the complete word 'הא' (L30); the field's own text either states no conclusion beyond what lines 1-30 establish, or (where it references 7b) only the mechanical fact that Rashi's comment continues there, never importing 7b's actual content or resolving which side of the hutrah/dchuya dispute the final objection favors."
+          },
+          {
+            "path": "learning.ahaMoment",
+            "importsNextDafConclusion": false,
+            "note": "Daf breaks off mid-sentence after the complete word 'הא' (L30); the field's own text either states no conclusion beyond what lines 1-30 establish, or (where it references 7b) only the mechanical fact that Rashi's comment continues there, never importing 7b's actual content or resolving which side of the hutrah/dchuya dispute the final objection favors."
+          },
+          {
+            "path": "learning.coreMove",
+            "importsNextDafConclusion": false,
+            "note": "Daf breaks off mid-sentence after the complete word 'הא' (L30); the field's own text either states no conclusion beyond what lines 1-30 establish, or (where it references 7b) only the mechanical fact that Rashi's comment continues there, never importing 7b's actual content or resolving which side of the hutrah/dchuya dispute the final objection favors."
+          },
+          {
+            "path": "learning.coreTension",
+            "importsNextDafConclusion": false,
+            "note": "Daf breaks off mid-sentence after the complete word 'הא' (L30); the field's own text either states no conclusion beyond what lines 1-30 establish, or (where it references 7b) only the mechanical fact that Rashi's comment continues there, never importing 7b's actual content or resolving which side of the hutrah/dchuya dispute the final objection favors."
+          },
+          {
+            "path": "learning.learnerQuestion",
+            "importsNextDafConclusion": false,
+            "note": "Daf breaks off mid-sentence after the complete word 'הא' (L30); the field's own text either states no conclusion beyond what lines 1-30 establish, or (where it references 7b) only the mechanical fact that Rashi's comment continues there, never importing 7b's actual content or resolving which side of the hutrah/dchuya dispute the final objection favors."
+          },
+          {
+            "path": "learning.learningBlocker",
+            "importsNextDafConclusion": false,
+            "note": "Daf breaks off mid-sentence after the complete word 'הא' (L30); the field's own text either states no conclusion beyond what lines 1-30 establish, or (where it references 7b) only the mechanical fact that Rashi's comment continues there, never importing 7b's actual content or resolving which side of the hutrah/dchuya dispute the final objection favors."
+          },
+          {
+            "path": "learning.memoryAnchor",
+            "importsNextDafConclusion": false,
+            "note": "Daf breaks off mid-sentence after the complete word 'הא' (L30); the field's own text either states no conclusion beyond what lines 1-30 establish, or (where it references 7b) only the mechanical fact that Rashi's comment continues there, never importing 7b's actual content or resolving which side of the hutrah/dchuya dispute the final objection favors."
+          },
+          {
+            "path": "learning.reasoningPattern.category",
+            "importsNextDafConclusion": false,
+            "note": "Daf breaks off mid-sentence after the complete word 'הא' (L30); the field's own text either states no conclusion beyond what lines 1-30 establish, or (where it references 7b) only the mechanical fact that Rashi's comment continues there, never importing 7b's actual content or resolving which side of the hutrah/dchuya dispute the final objection favors."
+          },
+          {
+            "path": "learning.reasoningPattern.notes",
+            "importsNextDafConclusion": false,
+            "note": "Daf breaks off mid-sentence after the complete word 'הא' (L30); the field's own text either states no conclusion beyond what lines 1-30 establish, or (where it references 7b) only the mechanical fact that Rashi's comment continues there, never importing 7b's actual content or resolving which side of the hutrah/dchuya dispute the final objection favors."
+          },
+          {
+            "path": "learning.resolution",
+            "importsNextDafConclusion": false,
+            "note": "Daf breaks off mid-sentence after the complete word 'הא' (L30); the field's own text either states no conclusion beyond what lines 1-30 establish, or (where it references 7b) only the mechanical fact that Rashi's comment continues there, never importing 7b's actual content or resolving which side of the hutrah/dchuya dispute the final objection favors."
+          },
+          {
+            "path": "learning.takeaway.text",
+            "importsNextDafConclusion": false,
+            "note": "Daf breaks off mid-sentence after the complete word 'הא' (L30); the field's own text either states no conclusion beyond what lines 1-30 establish, or (where it references 7b) only the mechanical fact that Rashi's comment continues there, never importing 7b's actual content or resolving which side of the hutrah/dchuya dispute the final objection favors."
+          },
+          {
+            "path": "learning.takeaway.type",
+            "importsNextDafConclusion": false,
+            "note": "Daf breaks off mid-sentence after the complete word 'הא' (L30); the field's own text either states no conclusion beyond what lines 1-30 establish, or (where it references 7b) only the mechanical fact that Rashi's comment continues there, never importing 7b's actual content or resolving which side of the hutrah/dchuya dispute the final objection favors."
+          },
+          {
+            "path": "misconceptions[0].correction",
+            "importsNextDafConclusion": false,
+            "note": "Daf breaks off mid-sentence after the complete word 'הא' (L30); the field's own text either states no conclusion beyond what lines 1-30 establish, or (where it references 7b) only the mechanical fact that Rashi's comment continues there, never importing 7b's actual content or resolving which side of the hutrah/dchuya dispute the final objection favors."
+          },
+          {
+            "path": "misconceptions[0].misconception",
+            "importsNextDafConclusion": false,
+            "note": "Daf breaks off mid-sentence after the complete word 'הא' (L30); the field's own text either states no conclusion beyond what lines 1-30 establish, or (where it references 7b) only the mechanical fact that Rashi's comment continues there, never importing 7b's actual content or resolving which side of the hutrah/dchuya dispute the final objection favors."
+          },
+          {
+            "path": "misconceptions[1].correction",
+            "importsNextDafConclusion": false,
+            "note": "Daf breaks off mid-sentence after the complete word 'הא' (L30); the field's own text either states no conclusion beyond what lines 1-30 establish, or (where it references 7b) only the mechanical fact that Rashi's comment continues there, never importing 7b's actual content or resolving which side of the hutrah/dchuya dispute the final objection favors."
+          },
+          {
+            "path": "misconceptions[1].misconception",
+            "importsNextDafConclusion": false,
+            "note": "Daf breaks off mid-sentence after the complete word 'הא' (L30); the field's own text either states no conclusion beyond what lines 1-30 establish, or (where it references 7b) only the mechanical fact that Rashi's comment continues there, never importing 7b's actual content or resolving which side of the hutrah/dchuya dispute the final objection favors."
+          },
+          {
+            "path": "misconceptions[2].correction",
+            "importsNextDafConclusion": false,
+            "note": "Daf breaks off mid-sentence after the complete word 'הא' (L30); the field's own text either states no conclusion beyond what lines 1-30 establish, or (where it references 7b) only the mechanical fact that Rashi's comment continues there, never importing 7b's actual content or resolving which side of the hutrah/dchuya dispute the final objection favors."
+          },
+          {
+            "path": "misconceptions[2].misconception",
+            "importsNextDafConclusion": false,
+            "note": "Daf breaks off mid-sentence after the complete word 'הא' (L30); the field's own text either states no conclusion beyond what lines 1-30 establish, or (where it references 7b) only the mechanical fact that Rashi's comment continues there, never importing 7b's actual content or resolving which side of the hutrah/dchuya dispute the final objection favors."
+          },
+          {
+            "path": "prerequisiteKnowledge[0]",
+            "importsNextDafConclusion": false,
+            "note": "Daf breaks off mid-sentence after the complete word 'הא' (L30); the field's own text either states no conclusion beyond what lines 1-30 establish, or (where it references 7b) only the mechanical fact that Rashi's comment continues there, never importing 7b's actual content or resolving which side of the hutrah/dchuya dispute the final objection favors."
+          },
+          {
+            "path": "prerequisiteKnowledge[1]",
+            "importsNextDafConclusion": false,
+            "note": "Daf breaks off mid-sentence after the complete word 'הא' (L30); the field's own text either states no conclusion beyond what lines 1-30 establish, or (where it references 7b) only the mechanical fact that Rashi's comment continues there, never importing 7b's actual content or resolving which side of the hutrah/dchuya dispute the final objection favors."
+          },
+          {
+            "path": "prerequisiteKnowledge[2]",
+            "importsNextDafConclusion": false,
+            "note": "Daf breaks off mid-sentence after the complete word 'הא' (L30); the field's own text either states no conclusion beyond what lines 1-30 establish, or (where it references 7b) only the mechanical fact that Rashi's comment continues there, never importing 7b's actual content or resolving which side of the hutrah/dchuya dispute the final objection favors."
+          },
+          {
+            "path": "quizSeeds[0].answer",
+            "importsNextDafConclusion": false,
+            "note": "Daf breaks off mid-sentence after the complete word 'הא' (L30); the field's own text either states no conclusion beyond what lines 1-30 establish, or (where it references 7b) only the mechanical fact that Rashi's comment continues there, never importing 7b's actual content or resolving which side of the hutrah/dchuya dispute the final objection favors."
+          },
+          {
+            "path": "quizSeeds[0].distractors[0]",
+            "importsNextDafConclusion": false,
+            "note": "Daf breaks off mid-sentence after the complete word 'הא' (L30); the field's own text either states no conclusion beyond what lines 1-30 establish, or (where it references 7b) only the mechanical fact that Rashi's comment continues there, never importing 7b's actual content or resolving which side of the hutrah/dchuya dispute the final objection favors."
+          },
+          {
+            "path": "quizSeeds[0].distractors[1]",
+            "importsNextDafConclusion": false,
+            "note": "Daf breaks off mid-sentence after the complete word 'הא' (L30); the field's own text either states no conclusion beyond what lines 1-30 establish, or (where it references 7b) only the mechanical fact that Rashi's comment continues there, never importing 7b's actual content or resolving which side of the hutrah/dchuya dispute the final objection favors."
+          },
+          {
+            "path": "quizSeeds[0].distractors[2]",
+            "importsNextDafConclusion": false,
+            "note": "Daf breaks off mid-sentence after the complete word 'הא' (L30); the field's own text either states no conclusion beyond what lines 1-30 establish, or (where it references 7b) only the mechanical fact that Rashi's comment continues there, never importing 7b's actual content or resolving which side of the hutrah/dchuya dispute the final objection favors."
+          },
+          {
+            "path": "quizSeeds[0].question",
+            "importsNextDafConclusion": false,
+            "note": "Daf breaks off mid-sentence after the complete word 'הא' (L30); the field's own text either states no conclusion beyond what lines 1-30 establish, or (where it references 7b) only the mechanical fact that Rashi's comment continues there, never importing 7b's actual content or resolving which side of the hutrah/dchuya dispute the final objection favors."
+          },
+          {
+            "path": "quizSeeds[0].type",
+            "importsNextDafConclusion": false,
+            "note": "Daf breaks off mid-sentence after the complete word 'הא' (L30); the field's own text either states no conclusion beyond what lines 1-30 establish, or (where it references 7b) only the mechanical fact that Rashi's comment continues there, never importing 7b's actual content or resolving which side of the hutrah/dchuya dispute the final objection favors."
+          },
+          {
+            "path": "quizSeeds[1].answer",
+            "importsNextDafConclusion": false,
+            "note": "Daf breaks off mid-sentence after the complete word 'הא' (L30); the field's own text either states no conclusion beyond what lines 1-30 establish, or (where it references 7b) only the mechanical fact that Rashi's comment continues there, never importing 7b's actual content or resolving which side of the hutrah/dchuya dispute the final objection favors."
+          },
+          {
+            "path": "quizSeeds[1].question",
+            "importsNextDafConclusion": false,
+            "note": "Daf breaks off mid-sentence after the complete word 'הא' (L30); the field's own text either states no conclusion beyond what lines 1-30 establish, or (where it references 7b) only the mechanical fact that Rashi's comment continues there, never importing 7b's actual content or resolving which side of the hutrah/dchuya dispute the final objection favors."
+          },
+          {
+            "path": "quizSeeds[1].type",
+            "importsNextDafConclusion": false,
+            "note": "Daf breaks off mid-sentence after the complete word 'הא' (L30); the field's own text either states no conclusion beyond what lines 1-30 establish, or (where it references 7b) only the mechanical fact that Rashi's comment continues there, never importing 7b's actual content or resolving which side of the hutrah/dchuya dispute the final objection favors."
+          },
+          {
+            "path": "quizSeeds[2].answer",
+            "importsNextDafConclusion": false,
+            "note": "Daf breaks off mid-sentence after the complete word 'הא' (L30); the field's own text either states no conclusion beyond what lines 1-30 establish, or (where it references 7b) only the mechanical fact that Rashi's comment continues there, never importing 7b's actual content or resolving which side of the hutrah/dchuya dispute the final objection favors."
+          },
+          {
+            "path": "quizSeeds[2].distractors[0]",
+            "importsNextDafConclusion": false,
+            "note": "Daf breaks off mid-sentence after the complete word 'הא' (L30); the field's own text either states no conclusion beyond what lines 1-30 establish, or (where it references 7b) only the mechanical fact that Rashi's comment continues there, never importing 7b's actual content or resolving which side of the hutrah/dchuya dispute the final objection favors."
+          },
+          {
+            "path": "quizSeeds[2].distractors[1]",
+            "importsNextDafConclusion": false,
+            "note": "Daf breaks off mid-sentence after the complete word 'הא' (L30); the field's own text either states no conclusion beyond what lines 1-30 establish, or (where it references 7b) only the mechanical fact that Rashi's comment continues there, never importing 7b's actual content or resolving which side of the hutrah/dchuya dispute the final objection favors."
+          },
+          {
+            "path": "quizSeeds[2].distractors[2]",
+            "importsNextDafConclusion": false,
+            "note": "Daf breaks off mid-sentence after the complete word 'הא' (L30); the field's own text either states no conclusion beyond what lines 1-30 establish, or (where it references 7b) only the mechanical fact that Rashi's comment continues there, never importing 7b's actual content or resolving which side of the hutrah/dchuya dispute the final objection favors."
+          },
+          {
+            "path": "quizSeeds[2].question",
+            "importsNextDafConclusion": false,
+            "note": "Daf breaks off mid-sentence after the complete word 'הא' (L30); the field's own text either states no conclusion beyond what lines 1-30 establish, or (where it references 7b) only the mechanical fact that Rashi's comment continues there, never importing 7b's actual content or resolving which side of the hutrah/dchuya dispute the final objection favors."
+          },
+          {
+            "path": "quizSeeds[2].type",
+            "importsNextDafConclusion": false,
+            "note": "Daf breaks off mid-sentence after the complete word 'הא' (L30); the field's own text either states no conclusion beyond what lines 1-30 establish, or (where it references 7b) only the mechanical fact that Rashi's comment continues there, never importing 7b's actual content or resolving which side of the hutrah/dchuya dispute the final objection favors."
+          },
+          {
+            "path": "visualizableElements[0].item",
+            "importsNextDafConclusion": false,
+            "note": "Daf breaks off mid-sentence after the complete word 'הא' (L30); the field's own text either states no conclusion beyond what lines 1-30 establish, or (where it references 7b) only the mechanical fact that Rashi's comment continues there, never importing 7b's actual content or resolving which side of the hutrah/dchuya dispute the final objection favors."
+          },
+          {
+            "path": "visualizableElements[0].type",
+            "importsNextDafConclusion": false,
+            "note": "Daf breaks off mid-sentence after the complete word 'הא' (L30); the field's own text either states no conclusion beyond what lines 1-30 establish, or (where it references 7b) only the mechanical fact that Rashi's comment continues there, never importing 7b's actual content or resolving which side of the hutrah/dchuya dispute the final objection favors."
+          },
+          {
+            "path": "visualizableElements[1].item",
+            "importsNextDafConclusion": false,
+            "note": "Daf breaks off mid-sentence after the complete word 'הא' (L30); the field's own text either states no conclusion beyond what lines 1-30 establish, or (where it references 7b) only the mechanical fact that Rashi's comment continues there, never importing 7b's actual content or resolving which side of the hutrah/dchuya dispute the final objection favors."
+          },
+          {
+            "path": "visualizableElements[1].type",
+            "importsNextDafConclusion": false,
+            "note": "Daf breaks off mid-sentence after the complete word 'הא' (L30); the field's own text either states no conclusion beyond what lines 1-30 establish, or (where it references 7b) only the mechanical fact that Rashi's comment continues there, never importing 7b's actual content or resolving which side of the hutrah/dchuya dispute the final objection favors."
+          },
+          {
+            "path": "visualizableElements[2].item",
+            "importsNextDafConclusion": false,
+            "note": "Daf breaks off mid-sentence after the complete word 'הא' (L30); the field's own text either states no conclusion beyond what lines 1-30 establish, or (where it references 7b) only the mechanical fact that Rashi's comment continues there, never importing 7b's actual content or resolving which side of the hutrah/dchuya dispute the final objection favors."
+          },
+          {
+            "path": "visualizableElements[2].type",
+            "importsNextDafConclusion": false,
+            "note": "Daf breaks off mid-sentence after the complete word 'הא' (L30); the field's own text either states no conclusion beyond what lines 1-30 establish, or (where it references 7b) only the mechanical fact that Rashi's comment continues there, never importing 7b's actual content or resolving which side of the hutrah/dchuya dispute the final objection favors."
+          }
+        ],
+        "staleContentSweep": {
+          "entries": [
+            {
+              "category": "stale_original_error",
+              "found": false
+            },
+            {
+              "category": "stale_speaker_or_attribution",
+              "found": false
+            },
+            {
+              "category": "contradictory_speaker_attribution",
+              "found": false
+            },
+            {
+              "category": "old_conclusion_in_secondary_field",
+              "found": false
+            },
+            {
+              "category": "false_closure",
+              "found": false
+            },
+            {
+              "category": "next_daf_content_leaked_backward",
+              "found": false
+            },
+            {
+              "category": "claim_unsupported_by_physical_daf",
+              "found": false
+            },
+            {
+              "category": "stale_quiz_question_or_answer",
+              "found": false
+            },
+            {
+              "category": "stale_final_ruling",
+              "found": false
+            },
+            {
+              "category": "stale_summary",
+              "found": false
+            },
+            {
+              "category": "stale_learning_field",
+              "found": false
+            },
+            {
+              "category": "stale_misconception",
+              "found": false
+            },
+            {
+              "category": "stale_related_sugya_description",
+              "found": false
+            },
+            {
+              "category": "stale_visualizable_element_prose",
+              "found": false
+            },
+            {
+              "category": "source_refs_no_longer_supporting_claim",
+              "found": false
+            },
+            {
+              "category": "reference_outside_declared_line_range",
+              "found": false
+            }
+          ]
+        }
+      },
+      "certifiedAtCommit": "6b6acbb721146cc9a0eab65db9030aab8cf471fc"
     },
     "yoma-007b-s01": {
       "sugyaId": "yoma-007b-s01",
