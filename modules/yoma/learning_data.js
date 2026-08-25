@@ -14448,8 +14448,8 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-007a-l19",
-                vilnaLine: 19,
+                lineId: "yoma-007a-l17",
+                vilnaLine: 18,
                 note: "The Gemara's answer to the blood-sprinkling proof; unattributed in the raw text"
               }
             ]
