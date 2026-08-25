@@ -60,5 +60,5 @@
  "repetitionDrain": null,
  "auditRecordIds": [],
  "migrationKinds": [],
- "note": "Semantic certification schema 2.0 hardening: mandatory fingerprint-bound final whole-record audit, one-time v1.0->v2.0 registry migration, and CI wiring for the new regression tests."
+ "note": "campaign_packet.py hardening: canonical sourceRefs.lineId derivation reused from validate_source_refs.py (with a/b/c suffixing computed whole-daf, not per-sugya), a raw-Hebrew-only preceding-daf anchor replacing untrusted authored enrichment, exhaustive daf-level field coverage via semantic_payload's own exclusion list, and new campaign_packet regression tests wired into CI."
 }
