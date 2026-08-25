@@ -194,7 +194,14 @@ def build_candidate_packet(module: str, daf: str) -> Dict[str, Any]:
 def build_final_audit_packet(module: str, daf: str, sugya_id: str) -> Dict[str, Any]:
     """Final Whole-Record Auditor packet: raw source + exact final candidate
     + machine-generated field inventory (paths + classification) the agent
-    must produce a verdict for, plus the fixed sweep category lists."""
+    must produce a verdict for, plus the fixed sweep category lists.
+
+    Carries the same source context a candidate-packet reviewer sees
+    (precedingDafContext, relevantRashi) -- the final auditor must be able
+    to independently verify a candidate's opening contextual claims and
+    inspect the auxiliary Rashi evidence the finished candidate rests on,
+    not trust that an earlier review pass already checked them. Never
+    prior semantic-review reasoning, evidence, or certification state."""
     from semantic_certification import STALE_SWEEP_CATEGORIES, DAF_END_STATES
 
     corpus = load_corpus(module)
@@ -206,7 +213,7 @@ def build_final_audit_packet(module: str, daf: str, sugya_id: str) -> Dict[str, 
     raw_lines = json.loads((raw_dir(module) / f"{daf}.json").read_text(encoding="utf-8")).get("lines") or []
     paths = enumerate_semantic_paths(module, doc, sugya)
     daf_segment_map = _daf_segment_map(module, daf, corpus)
-    return {
+    packet: Dict[str, Any] = {
         "daf": daf,
         "sugyaId": sugya_id,
         "lineRange": sugya.get("lineRange"),
@@ -215,10 +222,15 @@ def build_final_audit_packet(module: str, daf: str, sugya_id: str) -> Dict[str, 
         "authored": _authored(sugya),
         "sourceSegmentMap": _source_segment_map_for_sugya(daf_segment_map, sugya_id),
         "sourceSegmentMapNote": SOURCE_SEGMENT_MAP_NOTE,
+        "relevantRashi": _rashi_for_daf(doc),
         "fieldInventoryRequired": [{"path": p, "class": c} for p, c in paths],
         "dafEndStates": sorted(DAF_END_STATES),
         "staleSweepCategories": list(STALE_SWEEP_CATEGORIES),
     }
+    preceding = _preceding_daf_raw_tail(module, daf, corpus)
+    if preceding is not None:
+        packet["precedingDafContext"] = preceding
+    return packet
 
 
 def main() -> None:

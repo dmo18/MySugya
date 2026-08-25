@@ -154,6 +154,44 @@ def test_8_final_audit_packet_contains_no_review_evidence():
         assert forbidden not in blob, f"final-audit packet leaked review/certification state: {forbidden!r}"
 
 
+def test_9_final_audit_packet_has_same_source_context_as_candidate():
+    # The Final Whole-Record Auditor must not receive strictly less source
+    # context than a candidate-packet reviewer: it must be able to
+    # independently verify a candidate's opening contextual claims
+    # (precedingDafContext) and inspect the auxiliary Rashi evidence the
+    # finished candidate rests on (relevantRashi), not just trust that an
+    # earlier review pass already checked them.
+    packet = build_final_audit_packet(MODULE, "7a", "yoma-007a-s01")
+
+    preceding = packet.get("precedingDafContext")
+    assert preceding is not None, "7a has a preceding daf (6b); final-audit packet must carry it"
+    assert set(preceding.keys()) == {"daf", "precedingDafRawTail"}, preceding.keys()
+    assert preceding["daf"] == "6b", preceding["daf"]
+    tail = preceding["precedingDafRawTail"]
+    assert 1 <= len(tail) <= 5, tail
+    for entry in tail:
+        assert set(entry.keys()) == {"l", "he"}, entry
+        assert isinstance(entry["he"], str) and entry["he"], entry
+    preceding_blob = json.dumps(preceding)
+    for forbidden in ("title", "oneLine", "summary", "argumentFlow", "display", "learning"):
+        assert forbidden not in preceding_blob, f"final-audit precedingDafContext leaked authored enrichment: {forbidden!r}"
+
+    rashi = packet.get("relevantRashi")
+    assert rashi, "final-audit packet must carry relevantRashi (candidate packets do)"
+    assert isinstance(rashi, list) and len(rashi) > 0
+    for entry in rashi:
+        assert set(entry.keys()) == {"linkedGemaraLineIds", "en"}, entry.keys()
+
+    # Still no prior review evidence or certification state of any kind,
+    # despite the added source context.
+    blob = json.dumps(packet)
+    for forbidden in ("firstPass", "secondPass", "finalAudit", "reviewId",
+                       "reviewerContextId", "auditorContextId",
+                       "CERTIFIED", "REVALIDATION_REQUIRED", "PENDING_FINAL_AUDIT",
+                       "sourceFingerprint", "semanticFingerprint", "certifiedAtCommit"):
+        assert forbidden not in blob, f"final-audit packet leaked review/certification state: {forbidden!r}"
+
+
 def main() -> None:
     tests = [v for k, v in sorted(globals().items()) if k.startswith("test_") and callable(v)]
     for t in tests:
