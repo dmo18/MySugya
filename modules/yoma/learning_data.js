@@ -14626,7 +14626,7 @@ const DAF_CONTENT = {
       {
         he: "פִּגּוּל",
         translit: "Piggul",
-        en: "An offering invalidated by the intention to eat or sacrifice it outside the permitted time/place. The Torah declares it 'will not be accepted' (lo yeiratzeh) - so the tzitz cannot override this disqualification."
+        en: "An offering invalidated by the intention, at the time of slaughter, to sacrifice it outside its permitted place (as Rashi explains here, citing Zevachim 28a: this classification of piggul is established there as intent outside its place). The Torah declares it 'will not be accepted' (lo yeiratzeh) - so the tzitz cannot override this disqualification."
       },
       {
         he: "נוֹתָר",
