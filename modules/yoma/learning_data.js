@@ -15401,7 +15401,7 @@ const DAF_CONTENT = {
   "7b": {
     canonicalRef: "Yoma 7b",
     daf: "7b",
-    summary: "7b continues the tzitz analysis from 7a's closing objection. The Gemara first notes a difficulty: the baraita implies tumah was hutrah for the community, which is difficult for Rav Sheshet's dchuya position; it resolves this by treating it as a tannaitic dispute (tannai hi). The baraita: R. Shimon holds the tzitz effects acceptance whether or not it is on the Kohen Gadol's forehead; R. Yehuda holds it does so only while it is on his forehead. R. Shimon cites the Kohen Gadol's Yom Kippur inner service (performed without the tzitz on his forehead) as proof; R. Yehuda deflects that on Yom Kippur tumah is itself hutrah for the community, so the tzitz plays no role there at all - from which the Gemara infers R. Shimon holds tumah is generally dchuya (so the tzitz is ordinarily needed) and R. Yehuda holds it hutrah. Abaye then localizes the dispute: both agree a broken tzitz never atones and an intact one worn on the forehead always does; they disagree only when it hangs, intact, on a peg. The word 'tamid' (always) in the tzitz verse is then read differently by each side, and Rabba bar Rav Huna's teaching that one must touch tefillin every hour, a fortiori from the tzitz, is cited - but the Gemara's own comparison justifying that inference breaks off after the single word 'u'mah' ('and what...'); it continues on 8a.",
+    summary: "7b continues the tzitz analysis from 7a's closing objection. The Gemara first notes a difficulty: the baraita implies tumah was hutrah for the community, which is difficult for Rav Sheshet's dchuya position; it resolves this by treating it as a tannaitic dispute (tannai hi). The baraita: R. Shimon holds the tzitz effects acceptance whether or not it is on the Kohen Gadol's forehead; R. Yehuda holds it does so only while it is on his forehead. R. Shimon cites the Kohen Gadol's Yom Kippur inner service (performed without the tzitz on his forehead) as proof; R. Yehuda deflects that on Yom Kippur tumah is itself hutrah for the community, so the tzitz plays no role there at all - from which the Gemara infers R. Shimon holds tumah is generally dchuya (so the tzitz is ordinarily needed) - R. Yehuda's hutrah he has already stated in his own words. Abaye then localizes the dispute: both agree a broken tzitz never atones and an intact one worn on the forehead always does; they disagree only when it hangs, intact, on a peg. The word 'tamid' (always) in the tzitz verse is then read differently by each side, and Rabba bar Rav Huna's teaching that one must touch tefillin every hour, a fortiori from the tzitz, is cited - but the Gemara's own comparison justifying that inference breaks off after the single word 'u'mah' ('and what...'); it continues on 8a.",
     sugyot: [
       {
         id: "yoma-007b-s01",
@@ -15522,13 +15522,13 @@ const DAF_CONTENT = {
             type: "inference",
             label: "R. Shimon = dchuya; R. Yehuda = hutrah",
             speaker: "Gemara",
-            text: "We infer: R. Shimon holds dchuya - he treats the tzitz as ordinarily necessary for communal tumah, which is why he expected the YK case to be an unremarkable instance of it. R. Yehuda holds hutrah - tumah is fully permitted for the community there, so the tzitz need only be evaluated when it is actually worn.",
+            text: "We infer about R. Shimon: he treats the tzitz as ordinarily necessary for communal tumah, which is why he expected the YK case to be an unremarkable instance of it - so he holds dchuya. R. Yehuda's hutrah he has already stated himself: tumah is fully permitted for the community there, so the tzitz need only be evaluated when it is actually worn.",
             sourceRefs: [
               {
                 sourceType: "gemara",
                 lineId: "yoma-007b-l08",
                 vilnaLine: 10,
-                note: "Dchuya/hutrah positions inferred from the exchange"
+                note: "The dchuya position inferred from R. Shimon's proof-choice; R. Yehuda's hutrah is his own stated position"
               }
             ]
           }
@@ -15565,8 +15565,8 @@ const DAF_CONTENT = {
         ],
         visualizableElements: [
           {
-            type: "person",
-            item: "The kohein gadol wearing full golden vestments (with tzitz on forehead, outer service) contrasted with white linen (inner YK service, no tzitz): the gold vestments including the tzitz are not worn during the inner service, which is why R. Shimon's proof fails to persuade R. Yehuda."
+            type: "contrast",
+            item: "The kohein gadol wearing full golden vestments (with tzitz on forehead, outer service) contrasted with white linen (inner YK service, no tzitz): the gold vestments including the tzitz are not worn during the inner service, which is the factual basis of R. Shimon's proof. R. Yehuda's rebuttal is not about the vestments at all - it is that on Yom Kippur tumah is itself hutrah for the community, so the tzitz's atonement is not operating there."
           }
         ],
         quizSeeds: [
