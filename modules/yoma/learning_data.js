@@ -15415,10 +15415,10 @@ const DAF_CONTENT = {
           endVilnaLine: 10
         },
         display: {
-          title: "R. Shimon vs. R. Yehuda on tzitz off-forehead; YK proof backfires; dchuya inferred",
+          title: "R. Shimon vs. R. Yehuda on tzitz off-forehead; YK proof deflected; dchuya inferred",
           oneLine: "The tannaitic dispute: R. Shimon holds the tzitz atones whether on the forehead or not; R. Shimon's own proof from the YK kohein gadol is deflected by R. Yehuda; inference establishes R. Shimon holds dchuya.",
           shortSummary: "The page opens completing the 7a exchange: the tzitz atones only for tumah that was hutrah for the community - a difficulty for Rav Sheshet's dchuya position. The Gemara resolves this as a tannaitic dispute (tannai hi) and introduces a baraita: R. Shimon holds the tzitz atones whether or not it is on the forehead; R. Yehuda holds it atones only when on the forehead. R. Shimon then cites support for his own view: the YK kohein gadol serves during the inner Yom Kippur service without the tzitz on his forehead (since he wears white linen garments, not the golden ones that include the tzitz) - yet it still effects atonement. This should prove off-forehead atonement works. R. Yehuda deflects: leave the YK case - there, tumah is itself hutrah for the community, so the tzitz plays no role there at all. Implication: R. Shimon holds dchuya (he expects the tzitz to be ordinarily operative even in a communal-tumah case like this one); R. Yehuda holds hutrah (no tzitz role needed at all in Yom Kippur's communal tumah).",
-          whats: "R. Shimon's proof for his own position turns out not to persuade R. Yehuda: he says 'look, the YK kohein gadol doesn't wear the tzitz on his forehead and the service works' - citing this to prove off-forehead atonement is real. But R. Yehuda responds: that case doesn't involve the tzitz at all. The proof fails because R. Shimon chose a case where, on R. Yehuda's view, the entire mechanism is inapplicable.",
+          whats: "R. Shimon's proof for his own position turns out not to persuade R. Yehuda: he says 'look, the YK kohein gadol doesn't wear the tzitz on his forehead, and it still effects atonement' - citing this to prove off-forehead atonement is real. But R. Yehuda responds: that case doesn't involve the tzitz at all. The proof fails because R. Shimon chose a case where, on R. Yehuda's view, the entire mechanism is inapplicable.",
           hint: "R. Shimon's proof from the YK kohein gadol seems compelling at first - so why is R. Yehuda able to dismiss it entirely?"
         },
         learning: {
@@ -15519,7 +15519,7 @@ const DAF_CONTENT = {
           },
           {
             id: "step-05",
-            type: "objection",
+            type: "inference",
             label: "R. Shimon = dchuya; R. Yehuda = hutrah",
             speaker: "Gemara",
             text: "We infer: R. Shimon holds dchuya - he treats the tzitz as ordinarily necessary for communal tumah, which is why he expected the YK case to be an unremarkable instance of it. R. Yehuda holds hutrah - tumah is fully permitted for the community there, so the tzitz need only be evaluated when it is actually worn.",
@@ -15542,7 +15542,7 @@ const DAF_CONTENT = {
           "yoma-007a-s01"
         ],
         prerequisiteKnowledge: [
-          "The tzitz forehead-location dispute framed on 7a between R. Yehuda and R. Shimon.",
+          "The tzitz's scope of atonement and the Rav Sheshet/Rav Nachman dchuya-vs-hutrah dispute framed on 7a; the tannaitic forehead-location dispute itself is introduced fresh on 7b.",
           "What 'dchuya' and 'hutrah' mean for tumah affecting public/communal offerings."
         ],
         misconceptions: [
@@ -15585,8 +15585,8 @@ const DAF_CONTENT = {
         topicTags: [
           "tzitz",
           "dchuya-vs-hutrah",
-          "rav-yehuda",
-          "rav-shimon",
+          "rabbi-yehuda",
+          "rabbi-shimon",
           "yom-kippur-kohen-gadol",
           "tannaitic-dispute"
         ],
@@ -15627,7 +15627,7 @@ const DAF_CONTENT = {
           reasoningPattern: {
             id: "dispute-localization",
             category: "analytical",
-            notes: "Abaye's 'binshavar d'kulei alma lo plugi' technique: find the case both agree on, then the dispute is everything except that. Here: broken = both agree (no atonement), so dispute = peg case."
+            notes: "Abaye's technique: identify the cases both sides already agree on (broken - never atones; on the forehead - always atones), so the real dispute is narrowed to what remains - the peg case."
           },
           ahaMoment: "'Tamid' cannot mean always-literally-on-forehead - the kohein has to go to the bathroom and sleep! This seemingly obvious observation forces both positions to give 'tamid' a different meaning, revealing the actual dispute is about what 'tamid' teaches, not about forehead physics.",
           learningBlocker: "Students may think Abaye's localization means R. Yehuda and R. Shimon no longer disagree about any physical scenario. They still do - specifically the peg case (intact tzitz, not on the forehead). What Abaye's move does is narrow which physical scenario is actually disputed, from 'every off-forehead case' down to just that one.",
@@ -15650,31 +15650,37 @@ const DAF_CONTENT = {
         argumentFlow: [
           {
             id: "step-01",
-            type: "rejection",
+            type: "distinction",
             label: "Abaye: broken tzitz unanimous; peg case is the actual dispute",
             speaker: "Abaye",
-            text: "When the tzitz is broken, everyone agrees it does not effect acceptance. The dispute is only when the tzitz is hanging on a peg - intact but not on the forehead. R. Yehuda reads the verse 'al mitzcho (on his forehead) ... v'nasa (and he shall bear)' as requiring the tzitz to actually be on the forehead for it to atone.",
+            text: "When the tzitz is broken, everyone agrees it does not effect acceptance. The dispute is only when the tzitz is hanging on a peg - intact but not on the forehead. R. Yehuda reads the verse 'al mitzcho (on his forehead) ... v'nasa (and he shall bear)' as requiring the tzitz to actually be on the forehead for it to atone. R. Shimon reads a different clause of the same verse, 'tamid l'ratzon lifnei Hashem' (it shall be always for acceptance before the Lord), as teaching that the tzitz always effects acceptance.",
             sourceRefs: [
               {
                 sourceType: "gemara",
                 lineId: "yoma-007b-l11",
                 vilnaLine: 11,
-                note: "Abaye localizes the tannaitic dispute to the peg case; R. Yehuda's verse-based position"
+                note: "Abaye localizes the dispute to the peg case; R. Yehuda's verse-based position"
+              },
+              {
+                sourceType: "gemara",
+                lineId: "yoma-007b-l13",
+                vilnaLine: 13,
+                note: "Abaye continues, in the same statement: R. Shimon's verse-based position"
               }
             ]
           },
           {
             id: "step-02",
             type: "proof",
-            label: "'Tamid' for R. Shimon: cannot mean always-literally-on-forehead",
+            label: "'Tamid' analyzed: cannot mean always-literally-on-forehead",
             speaker: "Gemara",
-            text: "R. Shimon reads 'tamid l'ratzon lifnei Hashem' (it shall be always for acceptance before the Lord) as his source: the tzitz always effects acceptance. What does 'tamid' (always) mean here? It cannot mean the tzitz is literally always on the Kohen Gadol's forehead - he must use a restroom and must sleep. So it must mean: the tzitz always effects acceptance, on the forehead or not.",
+            text: "What does 'tamid' (always) mean here? It cannot mean the tzitz is literally always on the Kohen Gadol's forehead - he must use a restroom and must sleep. So it must mean: the tzitz always effects acceptance, on the forehead or not.",
             sourceRefs: [
               {
                 sourceType: "gemara",
                 lineId: "yoma-007b-l13",
-                vilnaLine: 13,
-                note: "R. Shimon's 'tamid' derivation and its resolution"
+                vilnaLine: 14,
+                note: "The Gemara's own elaboration of R. Shimon's 'tamid' reading (Abaye's own statement ends before this point)"
               }
             ]
           },
@@ -15695,7 +15701,7 @@ const DAF_CONTENT = {
           },
           {
             id: "step-04",
-            type: "question",
+            type: "transition",
             label: "Physical cutoff: the kal vachomer's own comparison is on 8a",
             speaker: "Gemara",
             text: "The Gemara's own text then begins to spell out why this a fortiori inference holds, opening with the word 'u'mah' ('and what...') - but the daf's text breaks off after this single word. The comparison (how many times God's name appears on the tzitz versus on tefillin) and its conclusion are given only on 8a.",
