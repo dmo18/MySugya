@@ -15620,293 +15620,3869 @@
     "yoma-003a-s01": {
       "sugyaId": "yoma-003a-s01",
       "daf": "3a",
-      "state": "REVALIDATION_REQUIRED",
+      "state": "CERTIFIED",
       "firstPass": {
-        "reviewId": "sonnet5-3a-first-20260823a",
+        "reviewId": "campaign-3a-first-a83ee0dc44",
+        "reviewerContextId": "a83ee0dc441b038e2",
         "sourceFirst": true,
         "verdict": "VERIFIED",
         "reviewedSourceFingerprint": "1e109ed1cc3ae20e56310bc2375a99a540bea4a0c3b7fda15c3dde9e52b5bc81",
-        "reviewedSemanticFingerprint": "fc2372d035d3befb2fbacde87d750102cb0dee1151eaff28d9517ac0c7bc33b8",
+        "reviewedSemanticFingerprint": "4da3b0a6de291ea40b92a20c3f58e8c682a6f02f014420a5caa2903d311a8e77",
         "evidence": {
-          "reviewId": "sonnet5-3a-first-20260823a",
-          "module": "yoma",
-          "daf": "3a",
-          "independentSourceReconstruction": {
-            "method": "Read authoritativeHebrewLines (vilna lines 1-20) in full before opening currentEnrichment.",
-            "flow": [
-              "Line 1: The PZR KSHB mnemonic (Payis/lottery, Zeman/shehecheyanu, Regel/festival-status, Korban/offering-count, Shira/song, Berakhah/prayer) - six respects in which Shemini Atzeret is independent of Sukkot. But for tashlumin (compensation offerings), it still counts as Sukkot's own last day, proven from the Sukkah mishna that a missed festival offering may be brought through the whole festival including its final day.",
-              "Lines 2-3: Continuation/proof-citation for the tashlumin point (the Sukkah mishna quoted in full).",
-              "Lines 4-15: Rabbi Abba excludes Shavuot (Atzeret) via offering profile: Yom Kippur and the inauguration both bring one bull and one ram; Shavuot brings two rams. Challenge: R. Eliezer b. R. Shimon holds Yom Kippur itself has two rams (one from Acharei Mot/Leviticus, one from Pinchas/Numbers) - so what distinguishes it from Shavuot? Resolution: even so, Yom Kippur's two rams serve different functions (one is chovat hayom/day-obligation, the other is mussaf), while Shavuot's two rams (per the Two Loaves verse) are both chovat hayom. The functional mismatch, not mere count, excludes Shavuot.",
-              "Lines 16-20: Rabbi Abbahu excludes Rosh Hashana (and re-excludes Shavuot on a second ground) via property source: Yom Kippur's and the inauguration's bull-and-ram both come from the Kohen Gadol's own property ('kach lecha' - take for yourself), while Rosh Hashana's and Shavuot's come from communal funds. This works for the view that 'kach lecha' means personal property; the daf closes mid-word ('ve'aseh...') raising the alternative view, continuing on 3b."
-            ]
-          },
-          "boundaryVerdict": "VERIFIED",
-          "boundaryNotes": "Same systemic corpus-wide line-gap pattern already documented on 2a/2b (116/173 daf, 67% of corpus): s01's own lineId (Yoma.3a.2) legitimately extends through vilna line 3 though declared endVilnaLine=1; s02's last lineId (l13/Yoma.3a.5) legitimately extends through vilna line 15 though declared endVilnaLine=13. In both cases the 'gap' content is the direct, verified continuation of the immediately preceding sugya's own cited argument (the tashlumin mishna-proof for s01; the chovat-hayom/mussaf functional distinction for s02's own step-04), not contamination from a different topic. No boundary repair warranted.",
-          "dafSummaryVerdict": "VERIFIED",
-          "dafSummaryNotes": "currentDafSummary accurately sequences PZR KSHB + tashlumin (s01), Shavuot excluded by offering count and function (s02), Rosh Hashana excluded by property source with the daf closing on an open question (s03). No false claim.",
-          "perSugya": [
-            {
-              "sugyaId": "yoma-003a-s01",
-              "verdict": "VERIFIED",
-              "notes": "All six PZR KSHB categories correctly named and matched to the acronym letters; tashlumin exception and its Sukkah-mishna proof match line 1 (+2-3) exactly."
-            },
-            {
-              "sugyaId": "yoma-003a-s02",
-              "verdict": "VERIFIED",
-              "notes": "R. Abba's one-bull-one-ram exclusion of Shavuot's two rams, the R. Eliezer b. R. Shimon challenge (name verified against raw text: aleph-lamed-yud-ayin-zayin-resh = Eliezer, not Elazar), and the chovat-hayom/mussaf functional resolution all match lines 4-15 exactly."
-            },
-            {
-              "sugyaId": "yoma-003a-s03",
-              "verdict": "VERIFIED",
-              "notes": "R. Abbahu's personal-vs-communal-property exclusion of both Rosh Hashana and Shavuot (raw text names both: 'le'apukei Atzeret veRosh Hashanah'), and the open-ended daf closure ('kach lecha' dispute continuing to 3b), match lines 16-20 exactly. takeaway.type 'open_question' is correctly used and is in the controlled taxonomy."
-            }
-          ],
-          "declaration": "Every semantic field of every sugya on this daf was checked against the source, including fields that did not look suspicious (topicTags, alternateAngles, requiresUnderstanding chains, visualizableElements)."
+          "role": "independentReviewer",
+          "agentId": "a83ee0dc441b038e2",
+          "verdict": "VERIFIED",
+          "summary": "Independent reconstruction of the whole daf confirmed this sugya's sourceRefs, speaker framing, and memoryAnchor are correct with no fabrication or false closure."
         }
       },
       "sourceFingerprint": "1e109ed1cc3ae20e56310bc2375a99a540bea4a0c3b7fda15c3dde9e52b5bc81",
-      "semanticFingerprint": "fc2372d035d3befb2fbacde87d750102cb0dee1151eaff28d9517ac0c7bc33b8",
+      "semanticFingerprint": "4da3b0a6de291ea40b92a20c3f58e8c682a6f02f014420a5caa2903d311a8e77",
       "secondPass": {
-        "reviewId": "sonnet5-3a-second-20260823b",
+        "reviewId": "campaign-3a-second-a38f9f3e90",
+        "reviewerContextId": "a38f9f3e90e4d1542",
         "sourceFirst": true,
         "verdict": "CONFIRMED",
         "reviewedSourceFingerprint": "1e109ed1cc3ae20e56310bc2375a99a540bea4a0c3b7fda15c3dde9e52b5bc81",
-        "reviewedSemanticFingerprint": "fc2372d035d3befb2fbacde87d750102cb0dee1151eaff28d9517ac0c7bc33b8",
+        "reviewedSemanticFingerprint": "4da3b0a6de291ea40b92a20c3f58e8c682a6f02f014420a5caa2903d311a8e77",
         "evidence": {
-          "reviewId": "sonnet5-3a-second-20260823b",
-          "module": "yoma",
-          "daf": "3a",
-          "independentSourceReconstruction": "Re-derived the daf from authoritativeHebrewLines without consulting first-pass reasoning (independenceRule packet omits it). Confirmed the same three-part structure: PZR KSHB mnemonic plus the tashlumin exception (1-3); R. Abba excludes Shavuot by offering count, with the R. Eliezer b. R. Shimon two-rams challenge resolved by function (chovat hayom vs. mussaf) (4-15); R. Abbahu excludes Rosh Hashana (and re-excludes Shavuot) by personal-vs-communal property, daf closing on an open question (16-20).",
-          "speakerAttributionSpotCheck": {
-            "Rabbi Abba (s02)": "raw text 'amar Rabbi Abba' (aleph-bet-aleph, no vav-heh suffix) - correctly distinguished from Rabbi Abbahu",
-            "Rabbi Abbahu (s03)": "raw text 'amar Rabbi Abahu' (aleph-bet-heh-vav) - correctly distinguished from Rabbi Abba; these are two different Amoraim and the enrichment does not conflate them",
-            "Rabbi / Rabbi Eliezer b. Rabbi Shimon (s02)": "raw text 'Rabbi omer... Rabbi Eliezer bar Rabbi Shimon omer' - both correctly named, and 'Eliezer' (not 'Elazar') verified against the raw spelling",
-            "result": "no speaker misattribution found"
-          },
-          "boundaryVerdict": "CONFIRMED",
-          "dafSummaryVerdict": "CONFIRMED",
-          "perSugya": [
-            {
-              "sugyaId": "yoma-003a-s01",
-              "verdict": "CONFIRMED",
-              "notes": "PZR KSHB mnemonic and tashlumin exception match line 1 (+2-3) exactly."
-            },
-            {
-              "sugyaId": "yoma-003a-s02",
-              "verdict": "CONFIRMED",
-              "notes": "Shavuot exclusion by offering count, the two-rams challenge and its functional resolution match lines 4-15 exactly; speaker names re-verified."
-            },
-            {
-              "sugyaId": "yoma-003a-s03",
-              "verdict": "CONFIRMED",
-              "notes": "Rosh Hashana (and Shavuot) exclusion by personal-vs-communal property, and the open daf-closure, match lines 16-20 exactly."
-            }
-          ],
-          "declaration": "Independently re-read the full daf and re-checked every semantic field of every sugya, with particular attention to precise speaker attribution (Abba vs. Abbahu; Eliezer vs. Elazar) as the highest-risk subtle-error surface on this daf. No defect found on any sugya."
+          "role": "independentReviewer",
+          "agentId": "a38f9f3e90e4d1542",
+          "verdict": "CONFIRMED",
+          "summary": "Mutually-blind independent reconstruction of all 20 raw Hebrew lines re-verified sourceRefs, speaker attributions, the inauguration/Yom-Kippur derivation direction, the kach-lecha verse location, and the daf's genuinely open ending. No defect found in any of the three sugyot."
         }
       },
-      "certifiedAtCommit": "f80b21dd4517770b80ad56ee79f1af7f207eca7d",
-      "migration": {
-        "fromSchemaVersion": "1.0",
-        "toSchemaVersion": "2.0",
-        "migratedAtCommit": "6e37a672cf9b107b793aca7e10ce116d394317cc",
-        "migrationScript": "scripts/migrate_certification_schema_v2.py",
-        "reason": "Certified under schema 1.0, which required two source-first review passes plus a free-text 'every field was checked' declaration but no mechanically-enumerated, fingerprint-bound final whole-record audit. An independent audit demonstrated that gap concretely on Yoma 7a/7b. This record must receive a fresh schema-2.0 final audit and genuinely independent review before it may certify again; it does not read as CERTIFIED until then."
-      }
+      "finalAudit": {
+        "reviewId": "campaign-3a-final-ab97dce200",
+        "auditorContextId": "ab97dce200ebe9dfb",
+        "auditedSourceFingerprint": "1e109ed1cc3ae20e56310bc2375a99a540bea4a0c3b7fda15c3dde9e52b5bc81",
+        "auditedSemanticFingerprint": "4da3b0a6de291ea40b92a20c3f58e8c682a6f02f014420a5caa2903d311a8e77",
+        "dafBoundary": {
+          "rawLineCount": 20,
+          "finalRawLine": "ועשה",
+          "dafEndState": "MID_WORD"
+        },
+        "fieldInventory": [
+          {
+            "path": "lineRange",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "lines",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "dafLevel.glossary[0].en",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "3a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 20
+              }
+            ]
+          },
+          {
+            "path": "dafLevel.glossary[0].he",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "3a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 20
+              }
+            ]
+          },
+          {
+            "path": "dafLevel.glossary[0].translit",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "3a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 20
+              }
+            ]
+          },
+          {
+            "path": "dafLevel.glossary[1].en",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "3a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 20
+              }
+            ]
+          },
+          {
+            "path": "dafLevel.glossary[1].he",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "3a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 20
+              }
+            ]
+          },
+          {
+            "path": "dafLevel.glossary[1].translit",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "3a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 20
+              }
+            ]
+          },
+          {
+            "path": "dafLevel.glossary[2].en",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "3a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 20
+              }
+            ]
+          },
+          {
+            "path": "dafLevel.glossary[2].he",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "3a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 20
+              }
+            ]
+          },
+          {
+            "path": "dafLevel.glossary[2].translit",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "3a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 20
+              }
+            ]
+          },
+          {
+            "path": "dafLevel.glossary[3].en",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "3a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 20
+              }
+            ]
+          },
+          {
+            "path": "dafLevel.glossary[3].he",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "3a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 20
+              }
+            ]
+          },
+          {
+            "path": "dafLevel.glossary[3].translit",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "3a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 20
+              }
+            ]
+          },
+          {
+            "path": "dafLevel.summary",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "3a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 20
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-01].id",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-01].label",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "3a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 1
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-01].sourceRefs[0].lineId",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-01].sourceRefs[0].note",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "3a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 1
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-01].sourceRefs[0].sourceType",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-01].sourceRefs[0].vilnaLine",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-01].speaker",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "3a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 1
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-01].text",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "3a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 1
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-01].type",
+            "verdict": "REVIEWED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "note": "case: line 1's mnemonic states the six-fold independence as a given case, not a proof/rejection."
+          },
+          {
+            "path": "argumentFlow[step-02].id",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-02].label",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "3a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 1
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-02].sourceRefs[0].lineId",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-02].sourceRefs[0].note",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "3a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 1
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-02].sourceRefs[0].sourceType",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-02].sourceRefs[0].vilnaLine",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-02].speaker",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "3a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 1
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-02].text",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "3a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 1
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-02].type",
+            "verdict": "REVIEWED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "note": "qualification: line 1's tashlumin clause qualifies/limits the six-fold independence just stated."
+          },
+          {
+            "path": "difficulty",
+            "verdict": "REVIEWED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "note": "intermediate: requires holding the mnemonic's six items and seeing why tashlumin is the exception that proves the rule."
+          },
+          {
+            "path": "display.hint",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "3a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 1
+              }
+            ]
+          },
+          {
+            "path": "display.oneLine",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "3a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 1
+              }
+            ]
+          },
+          {
+            "path": "display.shortSummary",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "3a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 1
+              }
+            ]
+          },
+          {
+            "path": "display.title",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "3a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 1
+              }
+            ]
+          },
+          {
+            "path": "display.whats",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "3a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 1
+              }
+            ]
+          },
+          {
+            "path": "learning.ahaMoment",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "3a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 1
+              }
+            ]
+          },
+          {
+            "path": "learning.coreMove",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "3a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 1
+              }
+            ]
+          },
+          {
+            "path": "learning.coreTension",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "3a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 1
+              }
+            ]
+          },
+          {
+            "path": "learning.learnerQuestion",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "3a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 1
+              }
+            ]
+          },
+          {
+            "path": "learning.learningBlocker",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "3a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 1
+              }
+            ]
+          },
+          {
+            "path": "learning.memoryAnchor",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "3a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 1
+              }
+            ]
+          },
+          {
+            "path": "learning.reasoningPattern.category",
+            "verdict": "REVIEWED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "note": "conceptual: the sugya's point is a conceptual distinction (formal independence vs. underlying attachment), not a hermeneutical derivation."
+          },
+          {
+            "path": "learning.reasoningPattern.id",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "learning.reasoningPattern.notes",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "3a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 1
+              }
+            ]
+          },
+          {
+            "path": "learning.resolution",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "3a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 1
+              }
+            ]
+          },
+          {
+            "path": "learning.takeaway.text",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "3a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 1
+              }
+            ]
+          },
+          {
+            "path": "learning.takeaway.type",
+            "verdict": "REVIEWED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "note": "conceptual: the takeaway is about domain-specific independence as a concept, not a ruling."
+          },
+          {
+            "path": "misconceptions[0].correctedByStepId",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "misconceptions[0].correction",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "3a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 1
+              }
+            ]
+          },
+          {
+            "path": "misconceptions[0].misconception",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "3a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 1
+              }
+            ]
+          },
+          {
+            "path": "quizSeeds[0].answer",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "3a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 1
+              }
+            ]
+          },
+          {
+            "path": "quizSeeds[0].question",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "3a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 1
+              }
+            ]
+          },
+          {
+            "path": "quizSeeds[0].sourceRefs[0].lineId",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "quizSeeds[0].sourceRefs[0].sourceType",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "quizSeeds[0].sourceRefs[0].vilnaLine",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "quizSeeds[1].answer",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "3a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 1
+              }
+            ]
+          },
+          {
+            "path": "quizSeeds[1].question",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "3a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 1
+              }
+            ]
+          },
+          {
+            "path": "quizSeeds[1].sourceRefs[0].lineId",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "quizSeeds[1].sourceRefs[0].sourceType",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "quizSeeds[1].sourceRefs[0].vilnaLine",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "relatedSugyot[0]",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "topicTags[0]",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "topicTags[1]",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "topicTags[2]",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "topicTags[3]",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "topicTags[4]",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "visualizableElements[0].item",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "3a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 1
+              }
+            ]
+          },
+          {
+            "path": "visualizableElements[0].priority",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "visualizableElements[0].role",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "3a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 1
+              }
+            ]
+          },
+          {
+            "path": "visualizableElements[1].item",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "3a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 1
+              }
+            ]
+          },
+          {
+            "path": "visualizableElements[1].priority",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "visualizableElements[1].role",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "3a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 1
+              }
+            ]
+          }
+        ],
+        "boundaryLeakageSweep": [
+          {
+            "path": "dafLevel.glossary[0].en",
+            "importsNextDafConclusion": false,
+            "note": "Daf 3a physically breaks off mid-word ('ve'aseh', L20); this field's own text stays within what lines 1-20 actually establish and never states or implies the daf's own open ending was resolved, nor imports the 'aseh lecha'/trumpets content that only appears in Rashi's continuation to 3b as if it were established here."
+          },
+          {
+            "path": "dafLevel.glossary[0].he",
+            "importsNextDafConclusion": false,
+            "note": "Daf 3a physically breaks off mid-word ('ve'aseh', L20); this field's own text stays within what lines 1-20 actually establish and never states or implies the daf's own open ending was resolved, nor imports the 'aseh lecha'/trumpets content that only appears in Rashi's continuation to 3b as if it were established here."
+          },
+          {
+            "path": "dafLevel.glossary[0].translit",
+            "importsNextDafConclusion": false,
+            "note": "Daf 3a physically breaks off mid-word ('ve'aseh', L20); this field's own text stays within what lines 1-20 actually establish and never states or implies the daf's own open ending was resolved, nor imports the 'aseh lecha'/trumpets content that only appears in Rashi's continuation to 3b as if it were established here."
+          },
+          {
+            "path": "dafLevel.glossary[1].en",
+            "importsNextDafConclusion": false,
+            "note": "Daf 3a physically breaks off mid-word ('ve'aseh', L20); this field's own text stays within what lines 1-20 actually establish and never states or implies the daf's own open ending was resolved, nor imports the 'aseh lecha'/trumpets content that only appears in Rashi's continuation to 3b as if it were established here."
+          },
+          {
+            "path": "dafLevel.glossary[1].he",
+            "importsNextDafConclusion": false,
+            "note": "Daf 3a physically breaks off mid-word ('ve'aseh', L20); this field's own text stays within what lines 1-20 actually establish and never states or implies the daf's own open ending was resolved, nor imports the 'aseh lecha'/trumpets content that only appears in Rashi's continuation to 3b as if it were established here."
+          },
+          {
+            "path": "dafLevel.glossary[1].translit",
+            "importsNextDafConclusion": false,
+            "note": "Daf 3a physically breaks off mid-word ('ve'aseh', L20); this field's own text stays within what lines 1-20 actually establish and never states or implies the daf's own open ending was resolved, nor imports the 'aseh lecha'/trumpets content that only appears in Rashi's continuation to 3b as if it were established here."
+          },
+          {
+            "path": "dafLevel.glossary[2].en",
+            "importsNextDafConclusion": false,
+            "note": "Daf 3a physically breaks off mid-word ('ve'aseh', L20); this field's own text stays within what lines 1-20 actually establish and never states or implies the daf's own open ending was resolved, nor imports the 'aseh lecha'/trumpets content that only appears in Rashi's continuation to 3b as if it were established here."
+          },
+          {
+            "path": "dafLevel.glossary[2].he",
+            "importsNextDafConclusion": false,
+            "note": "Daf 3a physically breaks off mid-word ('ve'aseh', L20); this field's own text stays within what lines 1-20 actually establish and never states or implies the daf's own open ending was resolved, nor imports the 'aseh lecha'/trumpets content that only appears in Rashi's continuation to 3b as if it were established here."
+          },
+          {
+            "path": "dafLevel.glossary[2].translit",
+            "importsNextDafConclusion": false,
+            "note": "Daf 3a physically breaks off mid-word ('ve'aseh', L20); this field's own text stays within what lines 1-20 actually establish and never states or implies the daf's own open ending was resolved, nor imports the 'aseh lecha'/trumpets content that only appears in Rashi's continuation to 3b as if it were established here."
+          },
+          {
+            "path": "dafLevel.glossary[3].en",
+            "importsNextDafConclusion": false,
+            "note": "Daf 3a physically breaks off mid-word ('ve'aseh', L20); this field's own text stays within what lines 1-20 actually establish and never states or implies the daf's own open ending was resolved, nor imports the 'aseh lecha'/trumpets content that only appears in Rashi's continuation to 3b as if it were established here."
+          },
+          {
+            "path": "dafLevel.glossary[3].he",
+            "importsNextDafConclusion": false,
+            "note": "Daf 3a physically breaks off mid-word ('ve'aseh', L20); this field's own text stays within what lines 1-20 actually establish and never states or implies the daf's own open ending was resolved, nor imports the 'aseh lecha'/trumpets content that only appears in Rashi's continuation to 3b as if it were established here."
+          },
+          {
+            "path": "dafLevel.glossary[3].translit",
+            "importsNextDafConclusion": false,
+            "note": "Daf 3a physically breaks off mid-word ('ve'aseh', L20); this field's own text stays within what lines 1-20 actually establish and never states or implies the daf's own open ending was resolved, nor imports the 'aseh lecha'/trumpets content that only appears in Rashi's continuation to 3b as if it were established here."
+          },
+          {
+            "path": "dafLevel.summary",
+            "importsNextDafConclusion": false,
+            "note": "Daf 3a physically breaks off mid-word ('ve'aseh', L20); this field's own text stays within what lines 1-20 actually establish and never states or implies the daf's own open ending was resolved, nor imports the 'aseh lecha'/trumpets content that only appears in Rashi's continuation to 3b as if it were established here."
+          },
+          {
+            "path": "argumentFlow[step-01].label",
+            "importsNextDafConclusion": false,
+            "note": "Daf 3a physically breaks off mid-word ('ve'aseh', L20); this field's own text stays within what lines 1-20 actually establish and never states or implies the daf's own open ending was resolved, nor imports the 'aseh lecha'/trumpets content that only appears in Rashi's continuation to 3b as if it were established here."
+          },
+          {
+            "path": "argumentFlow[step-01].sourceRefs[0].note",
+            "importsNextDafConclusion": false,
+            "note": "Daf 3a physically breaks off mid-word ('ve'aseh', L20); this field's own text stays within what lines 1-20 actually establish and never states or implies the daf's own open ending was resolved, nor imports the 'aseh lecha'/trumpets content that only appears in Rashi's continuation to 3b as if it were established here."
+          },
+          {
+            "path": "argumentFlow[step-01].speaker",
+            "importsNextDafConclusion": false,
+            "note": "Daf 3a physically breaks off mid-word ('ve'aseh', L20); this field's own text stays within what lines 1-20 actually establish and never states or implies the daf's own open ending was resolved, nor imports the 'aseh lecha'/trumpets content that only appears in Rashi's continuation to 3b as if it were established here."
+          },
+          {
+            "path": "argumentFlow[step-01].text",
+            "importsNextDafConclusion": false,
+            "note": "Daf 3a physically breaks off mid-word ('ve'aseh', L20); this field's own text stays within what lines 1-20 actually establish and never states or implies the daf's own open ending was resolved, nor imports the 'aseh lecha'/trumpets content that only appears in Rashi's continuation to 3b as if it were established here."
+          },
+          {
+            "path": "argumentFlow[step-01].type",
+            "importsNextDafConclusion": false,
+            "note": "Daf 3a physically breaks off mid-word ('ve'aseh', L20); this field's own text stays within what lines 1-20 actually establish and never states or implies the daf's own open ending was resolved, nor imports the 'aseh lecha'/trumpets content that only appears in Rashi's continuation to 3b as if it were established here."
+          },
+          {
+            "path": "argumentFlow[step-02].label",
+            "importsNextDafConclusion": false,
+            "note": "Daf 3a physically breaks off mid-word ('ve'aseh', L20); this field's own text stays within what lines 1-20 actually establish and never states or implies the daf's own open ending was resolved, nor imports the 'aseh lecha'/trumpets content that only appears in Rashi's continuation to 3b as if it were established here."
+          },
+          {
+            "path": "argumentFlow[step-02].sourceRefs[0].note",
+            "importsNextDafConclusion": false,
+            "note": "Daf 3a physically breaks off mid-word ('ve'aseh', L20); this field's own text stays within what lines 1-20 actually establish and never states or implies the daf's own open ending was resolved, nor imports the 'aseh lecha'/trumpets content that only appears in Rashi's continuation to 3b as if it were established here."
+          },
+          {
+            "path": "argumentFlow[step-02].speaker",
+            "importsNextDafConclusion": false,
+            "note": "Daf 3a physically breaks off mid-word ('ve'aseh', L20); this field's own text stays within what lines 1-20 actually establish and never states or implies the daf's own open ending was resolved, nor imports the 'aseh lecha'/trumpets content that only appears in Rashi's continuation to 3b as if it were established here."
+          },
+          {
+            "path": "argumentFlow[step-02].text",
+            "importsNextDafConclusion": false,
+            "note": "Daf 3a physically breaks off mid-word ('ve'aseh', L20); this field's own text stays within what lines 1-20 actually establish and never states or implies the daf's own open ending was resolved, nor imports the 'aseh lecha'/trumpets content that only appears in Rashi's continuation to 3b as if it were established here."
+          },
+          {
+            "path": "argumentFlow[step-02].type",
+            "importsNextDafConclusion": false,
+            "note": "Daf 3a physically breaks off mid-word ('ve'aseh', L20); this field's own text stays within what lines 1-20 actually establish and never states or implies the daf's own open ending was resolved, nor imports the 'aseh lecha'/trumpets content that only appears in Rashi's continuation to 3b as if it were established here."
+          },
+          {
+            "path": "difficulty",
+            "importsNextDafConclusion": false,
+            "note": "Daf 3a physically breaks off mid-word ('ve'aseh', L20); this field's own text stays within what lines 1-20 actually establish and never states or implies the daf's own open ending was resolved, nor imports the 'aseh lecha'/trumpets content that only appears in Rashi's continuation to 3b as if it were established here."
+          },
+          {
+            "path": "display.hint",
+            "importsNextDafConclusion": false,
+            "note": "Daf 3a physically breaks off mid-word ('ve'aseh', L20); this field's own text stays within what lines 1-20 actually establish and never states or implies the daf's own open ending was resolved, nor imports the 'aseh lecha'/trumpets content that only appears in Rashi's continuation to 3b as if it were established here."
+          },
+          {
+            "path": "display.oneLine",
+            "importsNextDafConclusion": false,
+            "note": "Daf 3a physically breaks off mid-word ('ve'aseh', L20); this field's own text stays within what lines 1-20 actually establish and never states or implies the daf's own open ending was resolved, nor imports the 'aseh lecha'/trumpets content that only appears in Rashi's continuation to 3b as if it were established here."
+          },
+          {
+            "path": "display.shortSummary",
+            "importsNextDafConclusion": false,
+            "note": "Daf 3a physically breaks off mid-word ('ve'aseh', L20); this field's own text stays within what lines 1-20 actually establish and never states or implies the daf's own open ending was resolved, nor imports the 'aseh lecha'/trumpets content that only appears in Rashi's continuation to 3b as if it were established here."
+          },
+          {
+            "path": "display.title",
+            "importsNextDafConclusion": false,
+            "note": "Daf 3a physically breaks off mid-word ('ve'aseh', L20); this field's own text stays within what lines 1-20 actually establish and never states or implies the daf's own open ending was resolved, nor imports the 'aseh lecha'/trumpets content that only appears in Rashi's continuation to 3b as if it were established here."
+          },
+          {
+            "path": "display.whats",
+            "importsNextDafConclusion": false,
+            "note": "Daf 3a physically breaks off mid-word ('ve'aseh', L20); this field's own text stays within what lines 1-20 actually establish and never states or implies the daf's own open ending was resolved, nor imports the 'aseh lecha'/trumpets content that only appears in Rashi's continuation to 3b as if it were established here."
+          },
+          {
+            "path": "learning.ahaMoment",
+            "importsNextDafConclusion": false,
+            "note": "Daf 3a physically breaks off mid-word ('ve'aseh', L20); this field's own text stays within what lines 1-20 actually establish and never states or implies the daf's own open ending was resolved, nor imports the 'aseh lecha'/trumpets content that only appears in Rashi's continuation to 3b as if it were established here."
+          },
+          {
+            "path": "learning.coreMove",
+            "importsNextDafConclusion": false,
+            "note": "Daf 3a physically breaks off mid-word ('ve'aseh', L20); this field's own text stays within what lines 1-20 actually establish and never states or implies the daf's own open ending was resolved, nor imports the 'aseh lecha'/trumpets content that only appears in Rashi's continuation to 3b as if it were established here."
+          },
+          {
+            "path": "learning.coreTension",
+            "importsNextDafConclusion": false,
+            "note": "Daf 3a physically breaks off mid-word ('ve'aseh', L20); this field's own text stays within what lines 1-20 actually establish and never states or implies the daf's own open ending was resolved, nor imports the 'aseh lecha'/trumpets content that only appears in Rashi's continuation to 3b as if it were established here."
+          },
+          {
+            "path": "learning.learnerQuestion",
+            "importsNextDafConclusion": false,
+            "note": "Daf 3a physically breaks off mid-word ('ve'aseh', L20); this field's own text stays within what lines 1-20 actually establish and never states or implies the daf's own open ending was resolved, nor imports the 'aseh lecha'/trumpets content that only appears in Rashi's continuation to 3b as if it were established here."
+          },
+          {
+            "path": "learning.learningBlocker",
+            "importsNextDafConclusion": false,
+            "note": "Daf 3a physically breaks off mid-word ('ve'aseh', L20); this field's own text stays within what lines 1-20 actually establish and never states or implies the daf's own open ending was resolved, nor imports the 'aseh lecha'/trumpets content that only appears in Rashi's continuation to 3b as if it were established here."
+          },
+          {
+            "path": "learning.memoryAnchor",
+            "importsNextDafConclusion": false,
+            "note": "Daf 3a physically breaks off mid-word ('ve'aseh', L20); this field's own text stays within what lines 1-20 actually establish and never states or implies the daf's own open ending was resolved, nor imports the 'aseh lecha'/trumpets content that only appears in Rashi's continuation to 3b as if it were established here."
+          },
+          {
+            "path": "learning.reasoningPattern.category",
+            "importsNextDafConclusion": false,
+            "note": "Daf 3a physically breaks off mid-word ('ve'aseh', L20); this field's own text stays within what lines 1-20 actually establish and never states or implies the daf's own open ending was resolved, nor imports the 'aseh lecha'/trumpets content that only appears in Rashi's continuation to 3b as if it were established here."
+          },
+          {
+            "path": "learning.reasoningPattern.notes",
+            "importsNextDafConclusion": false,
+            "note": "Daf 3a physically breaks off mid-word ('ve'aseh', L20); this field's own text stays within what lines 1-20 actually establish and never states or implies the daf's own open ending was resolved, nor imports the 'aseh lecha'/trumpets content that only appears in Rashi's continuation to 3b as if it were established here."
+          },
+          {
+            "path": "learning.resolution",
+            "importsNextDafConclusion": false,
+            "note": "Daf 3a physically breaks off mid-word ('ve'aseh', L20); this field's own text stays within what lines 1-20 actually establish and never states or implies the daf's own open ending was resolved, nor imports the 'aseh lecha'/trumpets content that only appears in Rashi's continuation to 3b as if it were established here."
+          },
+          {
+            "path": "learning.takeaway.text",
+            "importsNextDafConclusion": false,
+            "note": "Daf 3a physically breaks off mid-word ('ve'aseh', L20); this field's own text stays within what lines 1-20 actually establish and never states or implies the daf's own open ending was resolved, nor imports the 'aseh lecha'/trumpets content that only appears in Rashi's continuation to 3b as if it were established here."
+          },
+          {
+            "path": "learning.takeaway.type",
+            "importsNextDafConclusion": false,
+            "note": "Daf 3a physically breaks off mid-word ('ve'aseh', L20); this field's own text stays within what lines 1-20 actually establish and never states or implies the daf's own open ending was resolved, nor imports the 'aseh lecha'/trumpets content that only appears in Rashi's continuation to 3b as if it were established here."
+          },
+          {
+            "path": "misconceptions[0].correction",
+            "importsNextDafConclusion": false,
+            "note": "Daf 3a physically breaks off mid-word ('ve'aseh', L20); this field's own text stays within what lines 1-20 actually establish and never states or implies the daf's own open ending was resolved, nor imports the 'aseh lecha'/trumpets content that only appears in Rashi's continuation to 3b as if it were established here."
+          },
+          {
+            "path": "misconceptions[0].misconception",
+            "importsNextDafConclusion": false,
+            "note": "Daf 3a physically breaks off mid-word ('ve'aseh', L20); this field's own text stays within what lines 1-20 actually establish and never states or implies the daf's own open ending was resolved, nor imports the 'aseh lecha'/trumpets content that only appears in Rashi's continuation to 3b as if it were established here."
+          },
+          {
+            "path": "quizSeeds[0].answer",
+            "importsNextDafConclusion": false,
+            "note": "Daf 3a physically breaks off mid-word ('ve'aseh', L20); this field's own text stays within what lines 1-20 actually establish and never states or implies the daf's own open ending was resolved, nor imports the 'aseh lecha'/trumpets content that only appears in Rashi's continuation to 3b as if it were established here."
+          },
+          {
+            "path": "quizSeeds[0].question",
+            "importsNextDafConclusion": false,
+            "note": "Daf 3a physically breaks off mid-word ('ve'aseh', L20); this field's own text stays within what lines 1-20 actually establish and never states or implies the daf's own open ending was resolved, nor imports the 'aseh lecha'/trumpets content that only appears in Rashi's continuation to 3b as if it were established here."
+          },
+          {
+            "path": "quizSeeds[1].answer",
+            "importsNextDafConclusion": false,
+            "note": "Daf 3a physically breaks off mid-word ('ve'aseh', L20); this field's own text stays within what lines 1-20 actually establish and never states or implies the daf's own open ending was resolved, nor imports the 'aseh lecha'/trumpets content that only appears in Rashi's continuation to 3b as if it were established here."
+          },
+          {
+            "path": "quizSeeds[1].question",
+            "importsNextDafConclusion": false,
+            "note": "Daf 3a physically breaks off mid-word ('ve'aseh', L20); this field's own text stays within what lines 1-20 actually establish and never states or implies the daf's own open ending was resolved, nor imports the 'aseh lecha'/trumpets content that only appears in Rashi's continuation to 3b as if it were established here."
+          },
+          {
+            "path": "visualizableElements[0].item",
+            "importsNextDafConclusion": false,
+            "note": "Daf 3a physically breaks off mid-word ('ve'aseh', L20); this field's own text stays within what lines 1-20 actually establish and never states or implies the daf's own open ending was resolved, nor imports the 'aseh lecha'/trumpets content that only appears in Rashi's continuation to 3b as if it were established here."
+          },
+          {
+            "path": "visualizableElements[0].role",
+            "importsNextDafConclusion": false,
+            "note": "Daf 3a physically breaks off mid-word ('ve'aseh', L20); this field's own text stays within what lines 1-20 actually establish and never states or implies the daf's own open ending was resolved, nor imports the 'aseh lecha'/trumpets content that only appears in Rashi's continuation to 3b as if it were established here."
+          },
+          {
+            "path": "visualizableElements[1].item",
+            "importsNextDafConclusion": false,
+            "note": "Daf 3a physically breaks off mid-word ('ve'aseh', L20); this field's own text stays within what lines 1-20 actually establish and never states or implies the daf's own open ending was resolved, nor imports the 'aseh lecha'/trumpets content that only appears in Rashi's continuation to 3b as if it were established here."
+          },
+          {
+            "path": "visualizableElements[1].role",
+            "importsNextDafConclusion": false,
+            "note": "Daf 3a physically breaks off mid-word ('ve'aseh', L20); this field's own text stays within what lines 1-20 actually establish and never states or implies the daf's own open ending was resolved, nor imports the 'aseh lecha'/trumpets content that only appears in Rashi's continuation to 3b as if it were established here."
+          }
+        ],
+        "staleContentSweep": {
+          "entries": [
+            {
+              "category": "stale_original_error",
+              "found": false
+            },
+            {
+              "category": "stale_speaker_or_attribution",
+              "found": false
+            },
+            {
+              "category": "contradictory_speaker_attribution",
+              "found": false
+            },
+            {
+              "category": "old_conclusion_in_secondary_field",
+              "found": false
+            },
+            {
+              "category": "false_closure",
+              "found": false
+            },
+            {
+              "category": "next_daf_content_leaked_backward",
+              "found": false
+            },
+            {
+              "category": "claim_unsupported_by_physical_daf",
+              "found": false
+            },
+            {
+              "category": "stale_quiz_question_or_answer",
+              "found": false
+            },
+            {
+              "category": "stale_final_ruling",
+              "found": false
+            },
+            {
+              "category": "stale_summary",
+              "found": false
+            },
+            {
+              "category": "stale_learning_field",
+              "found": false
+            },
+            {
+              "category": "stale_misconception",
+              "found": false
+            },
+            {
+              "category": "stale_related_sugya_description",
+              "found": false
+            },
+            {
+              "category": "stale_visualizable_element_prose",
+              "found": false
+            },
+            {
+              "category": "source_refs_no_longer_supporting_claim",
+              "found": false
+            },
+            {
+              "category": "reference_outside_declared_line_range",
+              "found": false
+            }
+          ]
+        }
+      },
+      "certifiedAtCommit": "0786f5b9d4f25781f41e05ed60ec2996e5f48767"
     },
     "yoma-003a-s02": {
       "sugyaId": "yoma-003a-s02",
       "daf": "3a",
-      "state": "REVALIDATION_REQUIRED",
+      "state": "CERTIFIED",
       "firstPass": {
-        "reviewId": "sonnet5-3a-first-20260823a",
+        "reviewId": "campaign-3a-first-ab97dce200",
+        "reviewerContextId": "ab97dce200ebe9dfb",
         "sourceFirst": true,
         "verdict": "VERIFIED",
         "reviewedSourceFingerprint": "4fe5e79930bb721a5f56b535707f0f02d8490839b5e553ead531371de8bd8a8f",
-        "reviewedSemanticFingerprint": "5a9c1528182e8bcc888fc4abd3a8a8a52e7c4a9cb8be7555e8aedcb26d247d94",
+        "reviewedSemanticFingerprint": "41b4dd49960b488b7bcda9425a0db068c794d54a19a64a78641df85e78915248",
         "evidence": {
-          "reviewId": "sonnet5-3a-first-20260823a",
-          "module": "yoma",
-          "daf": "3a",
-          "independentSourceReconstruction": {
-            "method": "Read authoritativeHebrewLines (vilna lines 1-20) in full before opening currentEnrichment.",
-            "flow": [
-              "Line 1: The PZR KSHB mnemonic (Payis/lottery, Zeman/shehecheyanu, Regel/festival-status, Korban/offering-count, Shira/song, Berakhah/prayer) - six respects in which Shemini Atzeret is independent of Sukkot. But for tashlumin (compensation offerings), it still counts as Sukkot's own last day, proven from the Sukkah mishna that a missed festival offering may be brought through the whole festival including its final day.",
-              "Lines 2-3: Continuation/proof-citation for the tashlumin point (the Sukkah mishna quoted in full).",
-              "Lines 4-15: Rabbi Abba excludes Shavuot (Atzeret) via offering profile: Yom Kippur and the inauguration both bring one bull and one ram; Shavuot brings two rams. Challenge: R. Eliezer b. R. Shimon holds Yom Kippur itself has two rams (one from Acharei Mot/Leviticus, one from Pinchas/Numbers) - so what distinguishes it from Shavuot? Resolution: even so, Yom Kippur's two rams serve different functions (one is chovat hayom/day-obligation, the other is mussaf), while Shavuot's two rams (per the Two Loaves verse) are both chovat hayom. The functional mismatch, not mere count, excludes Shavuot.",
-              "Lines 16-20: Rabbi Abbahu excludes Rosh Hashana (and re-excludes Shavuot on a second ground) via property source: Yom Kippur's and the inauguration's bull-and-ram both come from the Kohen Gadol's own property ('kach lecha' - take for yourself), while Rosh Hashana's and Shavuot's come from communal funds. This works for the view that 'kach lecha' means personal property; the daf closes mid-word ('ve'aseh...') raising the alternative view, continuing on 3b."
-            ]
-          },
-          "boundaryVerdict": "VERIFIED",
-          "boundaryNotes": "Same systemic corpus-wide line-gap pattern already documented on 2a/2b (116/173 daf, 67% of corpus): s01's own lineId (Yoma.3a.2) legitimately extends through vilna line 3 though declared endVilnaLine=1; s02's last lineId (l13/Yoma.3a.5) legitimately extends through vilna line 15 though declared endVilnaLine=13. In both cases the 'gap' content is the direct, verified continuation of the immediately preceding sugya's own cited argument (the tashlumin mishna-proof for s01; the chovat-hayom/mussaf functional distinction for s02's own step-04), not contamination from a different topic. No boundary repair warranted.",
-          "dafSummaryVerdict": "VERIFIED",
-          "dafSummaryNotes": "currentDafSummary accurately sequences PZR KSHB + tashlumin (s01), Shavuot excluded by offering count and function (s02), Rosh Hashana excluded by property source with the daf closing on an open question (s03). No false claim.",
-          "perSugya": [
-            {
-              "sugyaId": "yoma-003a-s01",
-              "verdict": "VERIFIED",
-              "notes": "All six PZR KSHB categories correctly named and matched to the acronym letters; tashlumin exception and its Sukkah-mishna proof match line 1 (+2-3) exactly."
-            },
-            {
-              "sugyaId": "yoma-003a-s02",
-              "verdict": "VERIFIED",
-              "notes": "R. Abba's one-bull-one-ram exclusion of Shavuot's two rams, the R. Eliezer b. R. Shimon challenge (name verified against raw text: aleph-lamed-yud-ayin-zayin-resh = Eliezer, not Elazar), and the chovat-hayom/mussaf functional resolution all match lines 4-15 exactly."
-            },
-            {
-              "sugyaId": "yoma-003a-s03",
-              "verdict": "VERIFIED",
-              "notes": "R. Abbahu's personal-vs-communal-property exclusion of both Rosh Hashana and Shavuot (raw text names both: 'le'apukei Atzeret veRosh Hashanah'), and the open-ended daf closure ('kach lecha' dispute continuing to 3b), match lines 16-20 exactly. takeaway.type 'open_question' is correctly used and is in the controlled taxonomy."
-            }
-          ],
-          "declaration": "Every semantic field of every sugya on this daf was checked against the source, including fields that did not look suspicious (topicTags, alternateAngles, requiresUnderstanding chains, visualizableElements)."
+          "role": "sourceAuditor",
+          "agentId": "ab97dce200ebe9dfb",
+          "verdict": "VERIFIED",
+          "summary": "Final whole-record audit on the round-2-repaired candidate confirmed the sourceRef fix (l04+l07), the inauguration/Yom-Kippur derivation direction, and Shavuot's rams correctly labeled day-obligation, never mussaf."
         }
       },
       "sourceFingerprint": "4fe5e79930bb721a5f56b535707f0f02d8490839b5e553ead531371de8bd8a8f",
-      "semanticFingerprint": "5a9c1528182e8bcc888fc4abd3a8a8a52e7c4a9cb8be7555e8aedcb26d247d94",
+      "semanticFingerprint": "41b4dd49960b488b7bcda9425a0db068c794d54a19a64a78641df85e78915248",
       "secondPass": {
-        "reviewId": "sonnet5-3a-second-20260823b",
+        "reviewId": "campaign-3a-second-a38f9f3e90",
+        "reviewerContextId": "a38f9f3e90e4d1542",
         "sourceFirst": true,
         "verdict": "CONFIRMED",
         "reviewedSourceFingerprint": "4fe5e79930bb721a5f56b535707f0f02d8490839b5e553ead531371de8bd8a8f",
-        "reviewedSemanticFingerprint": "5a9c1528182e8bcc888fc4abd3a8a8a52e7c4a9cb8be7555e8aedcb26d247d94",
+        "reviewedSemanticFingerprint": "41b4dd49960b488b7bcda9425a0db068c794d54a19a64a78641df85e78915248",
         "evidence": {
-          "reviewId": "sonnet5-3a-second-20260823b",
-          "module": "yoma",
-          "daf": "3a",
-          "independentSourceReconstruction": "Re-derived the daf from authoritativeHebrewLines without consulting first-pass reasoning (independenceRule packet omits it). Confirmed the same three-part structure: PZR KSHB mnemonic plus the tashlumin exception (1-3); R. Abba excludes Shavuot by offering count, with the R. Eliezer b. R. Shimon two-rams challenge resolved by function (chovat hayom vs. mussaf) (4-15); R. Abbahu excludes Rosh Hashana (and re-excludes Shavuot) by personal-vs-communal property, daf closing on an open question (16-20).",
-          "speakerAttributionSpotCheck": {
-            "Rabbi Abba (s02)": "raw text 'amar Rabbi Abba' (aleph-bet-aleph, no vav-heh suffix) - correctly distinguished from Rabbi Abbahu",
-            "Rabbi Abbahu (s03)": "raw text 'amar Rabbi Abahu' (aleph-bet-heh-vav) - correctly distinguished from Rabbi Abba; these are two different Amoraim and the enrichment does not conflate them",
-            "Rabbi / Rabbi Eliezer b. Rabbi Shimon (s02)": "raw text 'Rabbi omer... Rabbi Eliezer bar Rabbi Shimon omer' - both correctly named, and 'Eliezer' (not 'Elazar') verified against the raw spelling",
-            "result": "no speaker misattribution found"
-          },
-          "boundaryVerdict": "CONFIRMED",
-          "dafSummaryVerdict": "CONFIRMED",
-          "perSugya": [
-            {
-              "sugyaId": "yoma-003a-s01",
-              "verdict": "CONFIRMED",
-              "notes": "PZR KSHB mnemonic and tashlumin exception match line 1 (+2-3) exactly."
-            },
-            {
-              "sugyaId": "yoma-003a-s02",
-              "verdict": "CONFIRMED",
-              "notes": "Shavuot exclusion by offering count, the two-rams challenge and its functional resolution match lines 4-15 exactly; speaker names re-verified."
-            },
-            {
-              "sugyaId": "yoma-003a-s03",
-              "verdict": "CONFIRMED",
-              "notes": "Rosh Hashana (and Shavuot) exclusion by personal-vs-communal property, and the open daf-closure, match lines 16-20 exactly."
-            }
-          ],
-          "declaration": "Independently re-read the full daf and re-checked every semantic field of every sugya, with particular attention to precise speaker attribution (Abba vs. Abbahu; Eliezer vs. Elazar) as the highest-risk subtle-error surface on this daf. No defect found on any sugya."
+          "role": "independentReviewer",
+          "agentId": "a38f9f3e90e4d1542",
+          "verdict": "CONFIRMED",
+          "summary": "Mutually-blind independent reconstruction of all 20 raw Hebrew lines re-verified sourceRefs, speaker attributions, the inauguration/Yom-Kippur derivation direction, the kach-lecha verse location, and the daf's genuinely open ending. No defect found in any of the three sugyot."
         }
       },
-      "certifiedAtCommit": "f80b21dd4517770b80ad56ee79f1af7f207eca7d",
-      "migration": {
-        "fromSchemaVersion": "1.0",
-        "toSchemaVersion": "2.0",
-        "migratedAtCommit": "6e37a672cf9b107b793aca7e10ce116d394317cc",
-        "migrationScript": "scripts/migrate_certification_schema_v2.py",
-        "reason": "Certified under schema 1.0, which required two source-first review passes plus a free-text 'every field was checked' declaration but no mechanically-enumerated, fingerprint-bound final whole-record audit. An independent audit demonstrated that gap concretely on Yoma 7a/7b. This record must receive a fresh schema-2.0 final audit and genuinely independent review before it may certify again; it does not read as CERTIFIED until then."
-      }
+      "finalAudit": {
+        "reviewId": "campaign-3a-final-a83ee0dc44",
+        "auditorContextId": "a83ee0dc441b038e2",
+        "auditedSourceFingerprint": "4fe5e79930bb721a5f56b535707f0f02d8490839b5e553ead531371de8bd8a8f",
+        "auditedSemanticFingerprint": "41b4dd49960b488b7bcda9425a0db068c794d54a19a64a78641df85e78915248",
+        "dafBoundary": {
+          "rawLineCount": 20,
+          "finalRawLine": "ועשה",
+          "dafEndState": "MID_WORD"
+        },
+        "fieldInventory": [
+          {
+            "path": "lineRange",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "lines",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "dafLevel.glossary[0].en",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "3a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 20
+              }
+            ]
+          },
+          {
+            "path": "dafLevel.glossary[0].he",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "3a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 20
+              }
+            ]
+          },
+          {
+            "path": "dafLevel.glossary[0].translit",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "3a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 20
+              }
+            ]
+          },
+          {
+            "path": "dafLevel.glossary[1].en",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "3a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 20
+              }
+            ]
+          },
+          {
+            "path": "dafLevel.glossary[1].he",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "3a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 20
+              }
+            ]
+          },
+          {
+            "path": "dafLevel.glossary[1].translit",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "3a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 20
+              }
+            ]
+          },
+          {
+            "path": "dafLevel.glossary[2].en",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "3a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 20
+              }
+            ]
+          },
+          {
+            "path": "dafLevel.glossary[2].he",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "3a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 20
+              }
+            ]
+          },
+          {
+            "path": "dafLevel.glossary[2].translit",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "3a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 20
+              }
+            ]
+          },
+          {
+            "path": "dafLevel.glossary[3].en",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "3a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 20
+              }
+            ]
+          },
+          {
+            "path": "dafLevel.glossary[3].he",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "3a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 20
+              }
+            ]
+          },
+          {
+            "path": "dafLevel.glossary[3].translit",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "3a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 20
+              }
+            ]
+          },
+          {
+            "path": "dafLevel.summary",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "3a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 20
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-01].id",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-01].label",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "3a",
+                "startVilnaLine": 4,
+                "endVilnaLine": 13
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-01].sourceRefs[0].lineId",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-01].sourceRefs[0].note",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "3a",
+                "startVilnaLine": 4,
+                "endVilnaLine": 13
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-01].sourceRefs[0].sourceType",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-01].sourceRefs[0].vilnaLine",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-01].speaker",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "3a",
+                "startVilnaLine": 4,
+                "endVilnaLine": 13
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-01].text",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "3a",
+                "startVilnaLine": 4,
+                "endVilnaLine": 13
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-01].type",
+            "verdict": "REVIEWED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "note": "proposal: line 4 proposes Shavuot as a candidate."
+          },
+          {
+            "path": "argumentFlow[step-02].id",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-02].label",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "3a",
+                "startVilnaLine": 4,
+                "endVilnaLine": 13
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-02].sourceRefs[0].lineId",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-02].sourceRefs[0].note",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "3a",
+                "startVilnaLine": 4,
+                "endVilnaLine": 13
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-02].sourceRefs[0].sourceType",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-02].sourceRefs[0].vilnaLine",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-02].sourceRefs[1].lineId",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-02].sourceRefs[1].note",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "3a",
+                "startVilnaLine": 4,
+                "endVilnaLine": 13
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-02].sourceRefs[1].sourceType",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-02].sourceRefs[1].vilnaLine",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-02].speaker",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "3a",
+                "startVilnaLine": 4,
+                "endVilnaLine": 13
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-02].text",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "3a",
+                "startVilnaLine": 4,
+                "endVilnaLine": 13
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-02].type",
+            "verdict": "REVIEWED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "note": "rejection: lines 5-7 exclude it via the offering-count argument."
+          },
+          {
+            "path": "argumentFlow[step-03].id",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-03].label",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "3a",
+                "startVilnaLine": 4,
+                "endVilnaLine": 13
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-03].sourceRefs[0].lineId",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-03].sourceRefs[0].note",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "3a",
+                "startVilnaLine": 4,
+                "endVilnaLine": 13
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-03].sourceRefs[0].sourceType",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-03].sourceRefs[0].vilnaLine",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-03].speaker",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "3a",
+                "startVilnaLine": 4,
+                "endVilnaLine": 13
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-03].text",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "3a",
+                "startVilnaLine": 4,
+                "endVilnaLine": 13
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-03].type",
+            "verdict": "REVIEWED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "note": "challenge: lines 8-9 raise R. Eliezer b. R. Shimon's two-ram view as a challenge to the rejection."
+          },
+          {
+            "path": "argumentFlow[step-04].id",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-04].label",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "3a",
+                "startVilnaLine": 4,
+                "endVilnaLine": 13
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-04].sourceRefs[0].lineId",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-04].sourceRefs[0].note",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "3a",
+                "startVilnaLine": 4,
+                "endVilnaLine": 13
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-04].sourceRefs[0].sourceType",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-04].sourceRefs[0].vilnaLine",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-04].speaker",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "3a",
+                "startVilnaLine": 4,
+                "endVilnaLine": 13
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-04].text",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "3a",
+                "startVilnaLine": 4,
+                "endVilnaLine": 13
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-04].type",
+            "verdict": "REVIEWED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "note": "resolution: lines 13-16 resolve the challenge via the functional (day-obligation vs. mussaf) distinction."
+          },
+          {
+            "path": "difficulty",
+            "verdict": "REVIEWED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "note": "advanced: requires tracking a quantity-based exclusion, a counter-view, and its functional resolution."
+          },
+          {
+            "path": "display.hint",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "3a",
+                "startVilnaLine": 4,
+                "endVilnaLine": 13
+              }
+            ]
+          },
+          {
+            "path": "display.oneLine",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "3a",
+                "startVilnaLine": 4,
+                "endVilnaLine": 13
+              }
+            ]
+          },
+          {
+            "path": "display.shortSummary",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "3a",
+                "startVilnaLine": 4,
+                "endVilnaLine": 13
+              }
+            ]
+          },
+          {
+            "path": "display.title",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "3a",
+                "startVilnaLine": 4,
+                "endVilnaLine": 13
+              }
+            ]
+          },
+          {
+            "path": "display.whats",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "3a",
+                "startVilnaLine": 4,
+                "endVilnaLine": 13
+              }
+            ]
+          },
+          {
+            "path": "learning.ahaMoment",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "3a",
+                "startVilnaLine": 4,
+                "endVilnaLine": 13
+              }
+            ]
+          },
+          {
+            "path": "learning.coreMove",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "3a",
+                "startVilnaLine": 4,
+                "endVilnaLine": 13
+              }
+            ]
+          },
+          {
+            "path": "learning.coreTension",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "3a",
+                "startVilnaLine": 4,
+                "endVilnaLine": 13
+              }
+            ]
+          },
+          {
+            "path": "learning.learnerQuestion",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "3a",
+                "startVilnaLine": 4,
+                "endVilnaLine": 13
+              }
+            ]
+          },
+          {
+            "path": "learning.learningBlocker",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "3a",
+                "startVilnaLine": 4,
+                "endVilnaLine": 13
+              }
+            ]
+          },
+          {
+            "path": "learning.memoryAnchor",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "3a",
+                "startVilnaLine": 4,
+                "endVilnaLine": 13
+              }
+            ]
+          },
+          {
+            "path": "learning.reasoningPattern.category",
+            "verdict": "REVIEWED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "note": "hermeneutical: the whole exchange is gezerah-shavah methodology."
+          },
+          {
+            "path": "learning.reasoningPattern.id",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "learning.reasoningPattern.notes",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "3a",
+                "startVilnaLine": 4,
+                "endVilnaLine": 13
+              }
+            ]
+          },
+          {
+            "path": "learning.resolution",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "3a",
+                "startVilnaLine": 4,
+                "endVilnaLine": 13
+              }
+            ]
+          },
+          {
+            "path": "learning.takeaway.text",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "3a",
+                "startVilnaLine": 4,
+                "endVilnaLine": 13
+              }
+            ]
+          },
+          {
+            "path": "learning.takeaway.type",
+            "verdict": "REVIEWED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "note": "derivation_principle: the takeaway is about what a valid analogy must match (function, not just count)."
+          },
+          {
+            "path": "misconceptions[0].correctedByStepId",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "misconceptions[0].correction",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "3a",
+                "startVilnaLine": 4,
+                "endVilnaLine": 13
+              }
+            ]
+          },
+          {
+            "path": "misconceptions[0].misconception",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "3a",
+                "startVilnaLine": 4,
+                "endVilnaLine": 13
+              }
+            ]
+          },
+          {
+            "path": "quizSeeds[0].answer",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "3a",
+                "startVilnaLine": 4,
+                "endVilnaLine": 13
+              }
+            ]
+          },
+          {
+            "path": "quizSeeds[0].question",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "3a",
+                "startVilnaLine": 4,
+                "endVilnaLine": 13
+              }
+            ]
+          },
+          {
+            "path": "quizSeeds[0].sourceRefs[0].lineId",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "quizSeeds[0].sourceRefs[0].sourceType",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "quizSeeds[0].sourceRefs[0].vilnaLine",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "quizSeeds[1].answer",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "3a",
+                "startVilnaLine": 4,
+                "endVilnaLine": 13
+              }
+            ]
+          },
+          {
+            "path": "quizSeeds[1].question",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "3a",
+                "startVilnaLine": 4,
+                "endVilnaLine": 13
+              }
+            ]
+          },
+          {
+            "path": "quizSeeds[1].sourceRefs[0].lineId",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "quizSeeds[1].sourceRefs[0].sourceType",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "quizSeeds[1].sourceRefs[0].vilnaLine",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "relatedSugyot[0]",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "requiresUnderstanding[0]",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "topicTags[0]",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "topicTags[1]",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "topicTags[2]",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "topicTags[3]",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "topicTags[4]",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "visualizableElements[0].item",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "3a",
+                "startVilnaLine": 4,
+                "endVilnaLine": 13
+              }
+            ]
+          },
+          {
+            "path": "visualizableElements[0].priority",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "visualizableElements[0].role",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "3a",
+                "startVilnaLine": 4,
+                "endVilnaLine": 13
+              }
+            ]
+          },
+          {
+            "path": "visualizableElements[1].item",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "3a",
+                "startVilnaLine": 4,
+                "endVilnaLine": 13
+              }
+            ]
+          },
+          {
+            "path": "visualizableElements[1].priority",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "visualizableElements[1].role",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "3a",
+                "startVilnaLine": 4,
+                "endVilnaLine": 13
+              }
+            ]
+          }
+        ],
+        "boundaryLeakageSweep": [
+          {
+            "path": "dafLevel.glossary[0].en",
+            "importsNextDafConclusion": false,
+            "note": "Daf 3a physically breaks off mid-word ('ve'aseh', L20); this field's own text stays within what lines 1-20 actually establish and never states or implies the daf's own open ending was resolved, nor imports the 'aseh lecha'/trumpets content that only appears in Rashi's continuation to 3b as if it were established here."
+          },
+          {
+            "path": "dafLevel.glossary[0].he",
+            "importsNextDafConclusion": false,
+            "note": "Daf 3a physically breaks off mid-word ('ve'aseh', L20); this field's own text stays within what lines 1-20 actually establish and never states or implies the daf's own open ending was resolved, nor imports the 'aseh lecha'/trumpets content that only appears in Rashi's continuation to 3b as if it were established here."
+          },
+          {
+            "path": "dafLevel.glossary[0].translit",
+            "importsNextDafConclusion": false,
+            "note": "Daf 3a physically breaks off mid-word ('ve'aseh', L20); this field's own text stays within what lines 1-20 actually establish and never states or implies the daf's own open ending was resolved, nor imports the 'aseh lecha'/trumpets content that only appears in Rashi's continuation to 3b as if it were established here."
+          },
+          {
+            "path": "dafLevel.glossary[1].en",
+            "importsNextDafConclusion": false,
+            "note": "Daf 3a physically breaks off mid-word ('ve'aseh', L20); this field's own text stays within what lines 1-20 actually establish and never states or implies the daf's own open ending was resolved, nor imports the 'aseh lecha'/trumpets content that only appears in Rashi's continuation to 3b as if it were established here."
+          },
+          {
+            "path": "dafLevel.glossary[1].he",
+            "importsNextDafConclusion": false,
+            "note": "Daf 3a physically breaks off mid-word ('ve'aseh', L20); this field's own text stays within what lines 1-20 actually establish and never states or implies the daf's own open ending was resolved, nor imports the 'aseh lecha'/trumpets content that only appears in Rashi's continuation to 3b as if it were established here."
+          },
+          {
+            "path": "dafLevel.glossary[1].translit",
+            "importsNextDafConclusion": false,
+            "note": "Daf 3a physically breaks off mid-word ('ve'aseh', L20); this field's own text stays within what lines 1-20 actually establish and never states or implies the daf's own open ending was resolved, nor imports the 'aseh lecha'/trumpets content that only appears in Rashi's continuation to 3b as if it were established here."
+          },
+          {
+            "path": "dafLevel.glossary[2].en",
+            "importsNextDafConclusion": false,
+            "note": "Daf 3a physically breaks off mid-word ('ve'aseh', L20); this field's own text stays within what lines 1-20 actually establish and never states or implies the daf's own open ending was resolved, nor imports the 'aseh lecha'/trumpets content that only appears in Rashi's continuation to 3b as if it were established here."
+          },
+          {
+            "path": "dafLevel.glossary[2].he",
+            "importsNextDafConclusion": false,
+            "note": "Daf 3a physically breaks off mid-word ('ve'aseh', L20); this field's own text stays within what lines 1-20 actually establish and never states or implies the daf's own open ending was resolved, nor imports the 'aseh lecha'/trumpets content that only appears in Rashi's continuation to 3b as if it were established here."
+          },
+          {
+            "path": "dafLevel.glossary[2].translit",
+            "importsNextDafConclusion": false,
+            "note": "Daf 3a physically breaks off mid-word ('ve'aseh', L20); this field's own text stays within what lines 1-20 actually establish and never states or implies the daf's own open ending was resolved, nor imports the 'aseh lecha'/trumpets content that only appears in Rashi's continuation to 3b as if it were established here."
+          },
+          {
+            "path": "dafLevel.glossary[3].en",
+            "importsNextDafConclusion": false,
+            "note": "Daf 3a physically breaks off mid-word ('ve'aseh', L20); this field's own text stays within what lines 1-20 actually establish and never states or implies the daf's own open ending was resolved, nor imports the 'aseh lecha'/trumpets content that only appears in Rashi's continuation to 3b as if it were established here."
+          },
+          {
+            "path": "dafLevel.glossary[3].he",
+            "importsNextDafConclusion": false,
+            "note": "Daf 3a physically breaks off mid-word ('ve'aseh', L20); this field's own text stays within what lines 1-20 actually establish and never states or implies the daf's own open ending was resolved, nor imports the 'aseh lecha'/trumpets content that only appears in Rashi's continuation to 3b as if it were established here."
+          },
+          {
+            "path": "dafLevel.glossary[3].translit",
+            "importsNextDafConclusion": false,
+            "note": "Daf 3a physically breaks off mid-word ('ve'aseh', L20); this field's own text stays within what lines 1-20 actually establish and never states or implies the daf's own open ending was resolved, nor imports the 'aseh lecha'/trumpets content that only appears in Rashi's continuation to 3b as if it were established here."
+          },
+          {
+            "path": "dafLevel.summary",
+            "importsNextDafConclusion": false,
+            "note": "Daf 3a physically breaks off mid-word ('ve'aseh', L20); this field's own text stays within what lines 1-20 actually establish and never states or implies the daf's own open ending was resolved, nor imports the 'aseh lecha'/trumpets content that only appears in Rashi's continuation to 3b as if it were established here."
+          },
+          {
+            "path": "argumentFlow[step-01].label",
+            "importsNextDafConclusion": false,
+            "note": "Daf 3a physically breaks off mid-word ('ve'aseh', L20); this field's own text stays within what lines 1-20 actually establish and never states or implies the daf's own open ending was resolved, nor imports the 'aseh lecha'/trumpets content that only appears in Rashi's continuation to 3b as if it were established here."
+          },
+          {
+            "path": "argumentFlow[step-01].sourceRefs[0].note",
+            "importsNextDafConclusion": false,
+            "note": "Daf 3a physically breaks off mid-word ('ve'aseh', L20); this field's own text stays within what lines 1-20 actually establish and never states or implies the daf's own open ending was resolved, nor imports the 'aseh lecha'/trumpets content that only appears in Rashi's continuation to 3b as if it were established here."
+          },
+          {
+            "path": "argumentFlow[step-01].speaker",
+            "importsNextDafConclusion": false,
+            "note": "Daf 3a physically breaks off mid-word ('ve'aseh', L20); this field's own text stays within what lines 1-20 actually establish and never states or implies the daf's own open ending was resolved, nor imports the 'aseh lecha'/trumpets content that only appears in Rashi's continuation to 3b as if it were established here."
+          },
+          {
+            "path": "argumentFlow[step-01].text",
+            "importsNextDafConclusion": false,
+            "note": "Daf 3a physically breaks off mid-word ('ve'aseh', L20); this field's own text stays within what lines 1-20 actually establish and never states or implies the daf's own open ending was resolved, nor imports the 'aseh lecha'/trumpets content that only appears in Rashi's continuation to 3b as if it were established here."
+          },
+          {
+            "path": "argumentFlow[step-01].type",
+            "importsNextDafConclusion": false,
+            "note": "Daf 3a physically breaks off mid-word ('ve'aseh', L20); this field's own text stays within what lines 1-20 actually establish and never states or implies the daf's own open ending was resolved, nor imports the 'aseh lecha'/trumpets content that only appears in Rashi's continuation to 3b as if it were established here."
+          },
+          {
+            "path": "argumentFlow[step-02].label",
+            "importsNextDafConclusion": false,
+            "note": "Daf 3a physically breaks off mid-word ('ve'aseh', L20); this field's own text stays within what lines 1-20 actually establish and never states or implies the daf's own open ending was resolved, nor imports the 'aseh lecha'/trumpets content that only appears in Rashi's continuation to 3b as if it were established here."
+          },
+          {
+            "path": "argumentFlow[step-02].sourceRefs[0].note",
+            "importsNextDafConclusion": false,
+            "note": "Daf 3a physically breaks off mid-word ('ve'aseh', L20); this field's own text stays within what lines 1-20 actually establish and never states or implies the daf's own open ending was resolved, nor imports the 'aseh lecha'/trumpets content that only appears in Rashi's continuation to 3b as if it were established here."
+          },
+          {
+            "path": "argumentFlow[step-02].sourceRefs[1].note",
+            "importsNextDafConclusion": false,
+            "note": "Daf 3a physically breaks off mid-word ('ve'aseh', L20); this field's own text stays within what lines 1-20 actually establish and never states or implies the daf's own open ending was resolved, nor imports the 'aseh lecha'/trumpets content that only appears in Rashi's continuation to 3b as if it were established here."
+          },
+          {
+            "path": "argumentFlow[step-02].speaker",
+            "importsNextDafConclusion": false,
+            "note": "Daf 3a physically breaks off mid-word ('ve'aseh', L20); this field's own text stays within what lines 1-20 actually establish and never states or implies the daf's own open ending was resolved, nor imports the 'aseh lecha'/trumpets content that only appears in Rashi's continuation to 3b as if it were established here."
+          },
+          {
+            "path": "argumentFlow[step-02].text",
+            "importsNextDafConclusion": false,
+            "note": "Daf 3a physically breaks off mid-word ('ve'aseh', L20); this field's own text stays within what lines 1-20 actually establish and never states or implies the daf's own open ending was resolved, nor imports the 'aseh lecha'/trumpets content that only appears in Rashi's continuation to 3b as if it were established here."
+          },
+          {
+            "path": "argumentFlow[step-02].type",
+            "importsNextDafConclusion": false,
+            "note": "Daf 3a physically breaks off mid-word ('ve'aseh', L20); this field's own text stays within what lines 1-20 actually establish and never states or implies the daf's own open ending was resolved, nor imports the 'aseh lecha'/trumpets content that only appears in Rashi's continuation to 3b as if it were established here."
+          },
+          {
+            "path": "argumentFlow[step-03].label",
+            "importsNextDafConclusion": false,
+            "note": "Daf 3a physically breaks off mid-word ('ve'aseh', L20); this field's own text stays within what lines 1-20 actually establish and never states or implies the daf's own open ending was resolved, nor imports the 'aseh lecha'/trumpets content that only appears in Rashi's continuation to 3b as if it were established here."
+          },
+          {
+            "path": "argumentFlow[step-03].sourceRefs[0].note",
+            "importsNextDafConclusion": false,
+            "note": "Daf 3a physically breaks off mid-word ('ve'aseh', L20); this field's own text stays within what lines 1-20 actually establish and never states or implies the daf's own open ending was resolved, nor imports the 'aseh lecha'/trumpets content that only appears in Rashi's continuation to 3b as if it were established here."
+          },
+          {
+            "path": "argumentFlow[step-03].speaker",
+            "importsNextDafConclusion": false,
+            "note": "Daf 3a physically breaks off mid-word ('ve'aseh', L20); this field's own text stays within what lines 1-20 actually establish and never states or implies the daf's own open ending was resolved, nor imports the 'aseh lecha'/trumpets content that only appears in Rashi's continuation to 3b as if it were established here."
+          },
+          {
+            "path": "argumentFlow[step-03].text",
+            "importsNextDafConclusion": false,
+            "note": "Daf 3a physically breaks off mid-word ('ve'aseh', L20); this field's own text stays within what lines 1-20 actually establish and never states or implies the daf's own open ending was resolved, nor imports the 'aseh lecha'/trumpets content that only appears in Rashi's continuation to 3b as if it were established here."
+          },
+          {
+            "path": "argumentFlow[step-03].type",
+            "importsNextDafConclusion": false,
+            "note": "Daf 3a physically breaks off mid-word ('ve'aseh', L20); this field's own text stays within what lines 1-20 actually establish and never states or implies the daf's own open ending was resolved, nor imports the 'aseh lecha'/trumpets content that only appears in Rashi's continuation to 3b as if it were established here."
+          },
+          {
+            "path": "argumentFlow[step-04].label",
+            "importsNextDafConclusion": false,
+            "note": "Daf 3a physically breaks off mid-word ('ve'aseh', L20); this field's own text stays within what lines 1-20 actually establish and never states or implies the daf's own open ending was resolved, nor imports the 'aseh lecha'/trumpets content that only appears in Rashi's continuation to 3b as if it were established here."
+          },
+          {
+            "path": "argumentFlow[step-04].sourceRefs[0].note",
+            "importsNextDafConclusion": false,
+            "note": "Daf 3a physically breaks off mid-word ('ve'aseh', L20); this field's own text stays within what lines 1-20 actually establish and never states or implies the daf's own open ending was resolved, nor imports the 'aseh lecha'/trumpets content that only appears in Rashi's continuation to 3b as if it were established here."
+          },
+          {
+            "path": "argumentFlow[step-04].speaker",
+            "importsNextDafConclusion": false,
+            "note": "Daf 3a physically breaks off mid-word ('ve'aseh', L20); this field's own text stays within what lines 1-20 actually establish and never states or implies the daf's own open ending was resolved, nor imports the 'aseh lecha'/trumpets content that only appears in Rashi's continuation to 3b as if it were established here."
+          },
+          {
+            "path": "argumentFlow[step-04].text",
+            "importsNextDafConclusion": false,
+            "note": "Daf 3a physically breaks off mid-word ('ve'aseh', L20); this field's own text stays within what lines 1-20 actually establish and never states or implies the daf's own open ending was resolved, nor imports the 'aseh lecha'/trumpets content that only appears in Rashi's continuation to 3b as if it were established here."
+          },
+          {
+            "path": "argumentFlow[step-04].type",
+            "importsNextDafConclusion": false,
+            "note": "Daf 3a physically breaks off mid-word ('ve'aseh', L20); this field's own text stays within what lines 1-20 actually establish and never states or implies the daf's own open ending was resolved, nor imports the 'aseh lecha'/trumpets content that only appears in Rashi's continuation to 3b as if it were established here."
+          },
+          {
+            "path": "difficulty",
+            "importsNextDafConclusion": false,
+            "note": "Daf 3a physically breaks off mid-word ('ve'aseh', L20); this field's own text stays within what lines 1-20 actually establish and never states or implies the daf's own open ending was resolved, nor imports the 'aseh lecha'/trumpets content that only appears in Rashi's continuation to 3b as if it were established here."
+          },
+          {
+            "path": "display.hint",
+            "importsNextDafConclusion": false,
+            "note": "Daf 3a physically breaks off mid-word ('ve'aseh', L20); this field's own text stays within what lines 1-20 actually establish and never states or implies the daf's own open ending was resolved, nor imports the 'aseh lecha'/trumpets content that only appears in Rashi's continuation to 3b as if it were established here."
+          },
+          {
+            "path": "display.oneLine",
+            "importsNextDafConclusion": false,
+            "note": "Daf 3a physically breaks off mid-word ('ve'aseh', L20); this field's own text stays within what lines 1-20 actually establish and never states or implies the daf's own open ending was resolved, nor imports the 'aseh lecha'/trumpets content that only appears in Rashi's continuation to 3b as if it were established here."
+          },
+          {
+            "path": "display.shortSummary",
+            "importsNextDafConclusion": false,
+            "note": "Daf 3a physically breaks off mid-word ('ve'aseh', L20); this field's own text stays within what lines 1-20 actually establish and never states or implies the daf's own open ending was resolved, nor imports the 'aseh lecha'/trumpets content that only appears in Rashi's continuation to 3b as if it were established here."
+          },
+          {
+            "path": "display.title",
+            "importsNextDafConclusion": false,
+            "note": "Daf 3a physically breaks off mid-word ('ve'aseh', L20); this field's own text stays within what lines 1-20 actually establish and never states or implies the daf's own open ending was resolved, nor imports the 'aseh lecha'/trumpets content that only appears in Rashi's continuation to 3b as if it were established here."
+          },
+          {
+            "path": "display.whats",
+            "importsNextDafConclusion": false,
+            "note": "Daf 3a physically breaks off mid-word ('ve'aseh', L20); this field's own text stays within what lines 1-20 actually establish and never states or implies the daf's own open ending was resolved, nor imports the 'aseh lecha'/trumpets content that only appears in Rashi's continuation to 3b as if it were established here."
+          },
+          {
+            "path": "learning.ahaMoment",
+            "importsNextDafConclusion": false,
+            "note": "Daf 3a physically breaks off mid-word ('ve'aseh', L20); this field's own text stays within what lines 1-20 actually establish and never states or implies the daf's own open ending was resolved, nor imports the 'aseh lecha'/trumpets content that only appears in Rashi's continuation to 3b as if it were established here."
+          },
+          {
+            "path": "learning.coreMove",
+            "importsNextDafConclusion": false,
+            "note": "Daf 3a physically breaks off mid-word ('ve'aseh', L20); this field's own text stays within what lines 1-20 actually establish and never states or implies the daf's own open ending was resolved, nor imports the 'aseh lecha'/trumpets content that only appears in Rashi's continuation to 3b as if it were established here."
+          },
+          {
+            "path": "learning.coreTension",
+            "importsNextDafConclusion": false,
+            "note": "Daf 3a physically breaks off mid-word ('ve'aseh', L20); this field's own text stays within what lines 1-20 actually establish and never states or implies the daf's own open ending was resolved, nor imports the 'aseh lecha'/trumpets content that only appears in Rashi's continuation to 3b as if it were established here."
+          },
+          {
+            "path": "learning.learnerQuestion",
+            "importsNextDafConclusion": false,
+            "note": "Daf 3a physically breaks off mid-word ('ve'aseh', L20); this field's own text stays within what lines 1-20 actually establish and never states or implies the daf's own open ending was resolved, nor imports the 'aseh lecha'/trumpets content that only appears in Rashi's continuation to 3b as if it were established here."
+          },
+          {
+            "path": "learning.learningBlocker",
+            "importsNextDafConclusion": false,
+            "note": "Daf 3a physically breaks off mid-word ('ve'aseh', L20); this field's own text stays within what lines 1-20 actually establish and never states or implies the daf's own open ending was resolved, nor imports the 'aseh lecha'/trumpets content that only appears in Rashi's continuation to 3b as if it were established here."
+          },
+          {
+            "path": "learning.memoryAnchor",
+            "importsNextDafConclusion": false,
+            "note": "Daf 3a physically breaks off mid-word ('ve'aseh', L20); this field's own text stays within what lines 1-20 actually establish and never states or implies the daf's own open ending was resolved, nor imports the 'aseh lecha'/trumpets content that only appears in Rashi's continuation to 3b as if it were established here."
+          },
+          {
+            "path": "learning.reasoningPattern.category",
+            "importsNextDafConclusion": false,
+            "note": "Daf 3a physically breaks off mid-word ('ve'aseh', L20); this field's own text stays within what lines 1-20 actually establish and never states or implies the daf's own open ending was resolved, nor imports the 'aseh lecha'/trumpets content that only appears in Rashi's continuation to 3b as if it were established here."
+          },
+          {
+            "path": "learning.reasoningPattern.notes",
+            "importsNextDafConclusion": false,
+            "note": "Daf 3a physically breaks off mid-word ('ve'aseh', L20); this field's own text stays within what lines 1-20 actually establish and never states or implies the daf's own open ending was resolved, nor imports the 'aseh lecha'/trumpets content that only appears in Rashi's continuation to 3b as if it were established here."
+          },
+          {
+            "path": "learning.resolution",
+            "importsNextDafConclusion": false,
+            "note": "Daf 3a physically breaks off mid-word ('ve'aseh', L20); this field's own text stays within what lines 1-20 actually establish and never states or implies the daf's own open ending was resolved, nor imports the 'aseh lecha'/trumpets content that only appears in Rashi's continuation to 3b as if it were established here."
+          },
+          {
+            "path": "learning.takeaway.text",
+            "importsNextDafConclusion": false,
+            "note": "Daf 3a physically breaks off mid-word ('ve'aseh', L20); this field's own text stays within what lines 1-20 actually establish and never states or implies the daf's own open ending was resolved, nor imports the 'aseh lecha'/trumpets content that only appears in Rashi's continuation to 3b as if it were established here."
+          },
+          {
+            "path": "learning.takeaway.type",
+            "importsNextDafConclusion": false,
+            "note": "Daf 3a physically breaks off mid-word ('ve'aseh', L20); this field's own text stays within what lines 1-20 actually establish and never states or implies the daf's own open ending was resolved, nor imports the 'aseh lecha'/trumpets content that only appears in Rashi's continuation to 3b as if it were established here."
+          },
+          {
+            "path": "misconceptions[0].correction",
+            "importsNextDafConclusion": false,
+            "note": "Daf 3a physically breaks off mid-word ('ve'aseh', L20); this field's own text stays within what lines 1-20 actually establish and never states or implies the daf's own open ending was resolved, nor imports the 'aseh lecha'/trumpets content that only appears in Rashi's continuation to 3b as if it were established here."
+          },
+          {
+            "path": "misconceptions[0].misconception",
+            "importsNextDafConclusion": false,
+            "note": "Daf 3a physically breaks off mid-word ('ve'aseh', L20); this field's own text stays within what lines 1-20 actually establish and never states or implies the daf's own open ending was resolved, nor imports the 'aseh lecha'/trumpets content that only appears in Rashi's continuation to 3b as if it were established here."
+          },
+          {
+            "path": "quizSeeds[0].answer",
+            "importsNextDafConclusion": false,
+            "note": "Daf 3a physically breaks off mid-word ('ve'aseh', L20); this field's own text stays within what lines 1-20 actually establish and never states or implies the daf's own open ending was resolved, nor imports the 'aseh lecha'/trumpets content that only appears in Rashi's continuation to 3b as if it were established here."
+          },
+          {
+            "path": "quizSeeds[0].question",
+            "importsNextDafConclusion": false,
+            "note": "Daf 3a physically breaks off mid-word ('ve'aseh', L20); this field's own text stays within what lines 1-20 actually establish and never states or implies the daf's own open ending was resolved, nor imports the 'aseh lecha'/trumpets content that only appears in Rashi's continuation to 3b as if it were established here."
+          },
+          {
+            "path": "quizSeeds[1].answer",
+            "importsNextDafConclusion": false,
+            "note": "Daf 3a physically breaks off mid-word ('ve'aseh', L20); this field's own text stays within what lines 1-20 actually establish and never states or implies the daf's own open ending was resolved, nor imports the 'aseh lecha'/trumpets content that only appears in Rashi's continuation to 3b as if it were established here."
+          },
+          {
+            "path": "quizSeeds[1].question",
+            "importsNextDafConclusion": false,
+            "note": "Daf 3a physically breaks off mid-word ('ve'aseh', L20); this field's own text stays within what lines 1-20 actually establish and never states or implies the daf's own open ending was resolved, nor imports the 'aseh lecha'/trumpets content that only appears in Rashi's continuation to 3b as if it were established here."
+          },
+          {
+            "path": "visualizableElements[0].item",
+            "importsNextDafConclusion": false,
+            "note": "Daf 3a physically breaks off mid-word ('ve'aseh', L20); this field's own text stays within what lines 1-20 actually establish and never states or implies the daf's own open ending was resolved, nor imports the 'aseh lecha'/trumpets content that only appears in Rashi's continuation to 3b as if it were established here."
+          },
+          {
+            "path": "visualizableElements[0].role",
+            "importsNextDafConclusion": false,
+            "note": "Daf 3a physically breaks off mid-word ('ve'aseh', L20); this field's own text stays within what lines 1-20 actually establish and never states or implies the daf's own open ending was resolved, nor imports the 'aseh lecha'/trumpets content that only appears in Rashi's continuation to 3b as if it were established here."
+          },
+          {
+            "path": "visualizableElements[1].item",
+            "importsNextDafConclusion": false,
+            "note": "Daf 3a physically breaks off mid-word ('ve'aseh', L20); this field's own text stays within what lines 1-20 actually establish and never states or implies the daf's own open ending was resolved, nor imports the 'aseh lecha'/trumpets content that only appears in Rashi's continuation to 3b as if it were established here."
+          },
+          {
+            "path": "visualizableElements[1].role",
+            "importsNextDafConclusion": false,
+            "note": "Daf 3a physically breaks off mid-word ('ve'aseh', L20); this field's own text stays within what lines 1-20 actually establish and never states or implies the daf's own open ending was resolved, nor imports the 'aseh lecha'/trumpets content that only appears in Rashi's continuation to 3b as if it were established here."
+          }
+        ],
+        "staleContentSweep": {
+          "entries": [
+            {
+              "category": "stale_original_error",
+              "found": false
+            },
+            {
+              "category": "stale_speaker_or_attribution",
+              "found": false
+            },
+            {
+              "category": "contradictory_speaker_attribution",
+              "found": false
+            },
+            {
+              "category": "old_conclusion_in_secondary_field",
+              "found": false
+            },
+            {
+              "category": "false_closure",
+              "found": false
+            },
+            {
+              "category": "next_daf_content_leaked_backward",
+              "found": false
+            },
+            {
+              "category": "claim_unsupported_by_physical_daf",
+              "found": false
+            },
+            {
+              "category": "stale_quiz_question_or_answer",
+              "found": false
+            },
+            {
+              "category": "stale_final_ruling",
+              "found": false
+            },
+            {
+              "category": "stale_summary",
+              "found": false
+            },
+            {
+              "category": "stale_learning_field",
+              "found": false
+            },
+            {
+              "category": "stale_misconception",
+              "found": false
+            },
+            {
+              "category": "stale_related_sugya_description",
+              "found": false
+            },
+            {
+              "category": "stale_visualizable_element_prose",
+              "found": false
+            },
+            {
+              "category": "source_refs_no_longer_supporting_claim",
+              "found": false
+            },
+            {
+              "category": "reference_outside_declared_line_range",
+              "found": false
+            }
+          ]
+        }
+      },
+      "certifiedAtCommit": "0786f5b9d4f25781f41e05ed60ec2996e5f48767"
     },
     "yoma-003a-s03": {
       "sugyaId": "yoma-003a-s03",
       "daf": "3a",
-      "state": "REVALIDATION_REQUIRED",
+      "state": "CERTIFIED",
       "firstPass": {
-        "reviewId": "sonnet5-3a-first-20260823a",
+        "reviewId": "campaign-3a-first-a846f0bdcf",
+        "reviewerContextId": "a846f0bdcf78f1dc5",
         "sourceFirst": true,
         "verdict": "VERIFIED",
         "reviewedSourceFingerprint": "3eb93c353fbe28baffed381a6dab0c6ef3363bb2f8588fa298d8e88fb79af7bf",
-        "reviewedSemanticFingerprint": "d7c9b54cbcb4111907e17a21ac96cb4da848c8a3530da0f1c514e8747258745e",
+        "reviewedSemanticFingerprint": "444d725a4bfaec0a6c0f61b9a317d9ac83ed6724e0ab87c03da9dfdfd112b3a8",
         "evidence": {
-          "reviewId": "sonnet5-3a-first-20260823a",
-          "module": "yoma",
-          "daf": "3a",
-          "independentSourceReconstruction": {
-            "method": "Read authoritativeHebrewLines (vilna lines 1-20) in full before opening currentEnrichment.",
-            "flow": [
-              "Line 1: The PZR KSHB mnemonic (Payis/lottery, Zeman/shehecheyanu, Regel/festival-status, Korban/offering-count, Shira/song, Berakhah/prayer) - six respects in which Shemini Atzeret is independent of Sukkot. But for tashlumin (compensation offerings), it still counts as Sukkot's own last day, proven from the Sukkah mishna that a missed festival offering may be brought through the whole festival including its final day.",
-              "Lines 2-3: Continuation/proof-citation for the tashlumin point (the Sukkah mishna quoted in full).",
-              "Lines 4-15: Rabbi Abba excludes Shavuot (Atzeret) via offering profile: Yom Kippur and the inauguration both bring one bull and one ram; Shavuot brings two rams. Challenge: R. Eliezer b. R. Shimon holds Yom Kippur itself has two rams (one from Acharei Mot/Leviticus, one from Pinchas/Numbers) - so what distinguishes it from Shavuot? Resolution: even so, Yom Kippur's two rams serve different functions (one is chovat hayom/day-obligation, the other is mussaf), while Shavuot's two rams (per the Two Loaves verse) are both chovat hayom. The functional mismatch, not mere count, excludes Shavuot.",
-              "Lines 16-20: Rabbi Abbahu excludes Rosh Hashana (and re-excludes Shavuot on a second ground) via property source: Yom Kippur's and the inauguration's bull-and-ram both come from the Kohen Gadol's own property ('kach lecha' - take for yourself), while Rosh Hashana's and Shavuot's come from communal funds. This works for the view that 'kach lecha' means personal property; the daf closes mid-word ('ve'aseh...') raising the alternative view, continuing on 3b."
-            ]
-          },
-          "boundaryVerdict": "VERIFIED",
-          "boundaryNotes": "Same systemic corpus-wide line-gap pattern already documented on 2a/2b (116/173 daf, 67% of corpus): s01's own lineId (Yoma.3a.2) legitimately extends through vilna line 3 though declared endVilnaLine=1; s02's last lineId (l13/Yoma.3a.5) legitimately extends through vilna line 15 though declared endVilnaLine=13. In both cases the 'gap' content is the direct, verified continuation of the immediately preceding sugya's own cited argument (the tashlumin mishna-proof for s01; the chovat-hayom/mussaf functional distinction for s02's own step-04), not contamination from a different topic. No boundary repair warranted.",
-          "dafSummaryVerdict": "VERIFIED",
-          "dafSummaryNotes": "currentDafSummary accurately sequences PZR KSHB + tashlumin (s01), Shavuot excluded by offering count and function (s02), Rosh Hashana excluded by property source with the daf closing on an open question (s03). No false claim.",
-          "perSugya": [
-            {
-              "sugyaId": "yoma-003a-s01",
-              "verdict": "VERIFIED",
-              "notes": "All six PZR KSHB categories correctly named and matched to the acronym letters; tashlumin exception and its Sukkah-mishna proof match line 1 (+2-3) exactly."
-            },
-            {
-              "sugyaId": "yoma-003a-s02",
-              "verdict": "VERIFIED",
-              "notes": "R. Abba's one-bull-one-ram exclusion of Shavuot's two rams, the R. Eliezer b. R. Shimon challenge (name verified against raw text: aleph-lamed-yud-ayin-zayin-resh = Eliezer, not Elazar), and the chovat-hayom/mussaf functional resolution all match lines 4-15 exactly."
-            },
-            {
-              "sugyaId": "yoma-003a-s03",
-              "verdict": "VERIFIED",
-              "notes": "R. Abbahu's personal-vs-communal-property exclusion of both Rosh Hashana and Shavuot (raw text names both: 'le'apukei Atzeret veRosh Hashanah'), and the open-ended daf closure ('kach lecha' dispute continuing to 3b), match lines 16-20 exactly. takeaway.type 'open_question' is correctly used and is in the controlled taxonomy."
-            }
-          ],
-          "declaration": "Every semantic field of every sugya on this daf was checked against the source, including fields that did not look suspicious (topicTags, alternateAngles, requiresUnderstanding chains, visualizableElements)."
+          "role": "sourceAuditor",
+          "agentId": "a846f0bdcf78f1dc5",
+          "verdict": "VERIFIED",
+          "summary": "Confirmation pass on the round-3-repaired candidate found no remaining ambiguity in the kach-lecha verse attribution, the derivation direction, or the daf's open ending."
         }
       },
       "sourceFingerprint": "3eb93c353fbe28baffed381a6dab0c6ef3363bb2f8588fa298d8e88fb79af7bf",
-      "semanticFingerprint": "d7c9b54cbcb4111907e17a21ac96cb4da848c8a3530da0f1c514e8747258745e",
+      "semanticFingerprint": "444d725a4bfaec0a6c0f61b9a317d9ac83ed6724e0ab87c03da9dfdfd112b3a8",
       "secondPass": {
-        "reviewId": "sonnet5-3a-second-20260823b",
+        "reviewId": "campaign-3a-second-a38f9f3e90",
+        "reviewerContextId": "a38f9f3e90e4d1542",
         "sourceFirst": true,
         "verdict": "CONFIRMED",
         "reviewedSourceFingerprint": "3eb93c353fbe28baffed381a6dab0c6ef3363bb2f8588fa298d8e88fb79af7bf",
-        "reviewedSemanticFingerprint": "d7c9b54cbcb4111907e17a21ac96cb4da848c8a3530da0f1c514e8747258745e",
+        "reviewedSemanticFingerprint": "444d725a4bfaec0a6c0f61b9a317d9ac83ed6724e0ab87c03da9dfdfd112b3a8",
         "evidence": {
-          "reviewId": "sonnet5-3a-second-20260823b",
-          "module": "yoma",
-          "daf": "3a",
-          "independentSourceReconstruction": "Re-derived the daf from authoritativeHebrewLines without consulting first-pass reasoning (independenceRule packet omits it). Confirmed the same three-part structure: PZR KSHB mnemonic plus the tashlumin exception (1-3); R. Abba excludes Shavuot by offering count, with the R. Eliezer b. R. Shimon two-rams challenge resolved by function (chovat hayom vs. mussaf) (4-15); R. Abbahu excludes Rosh Hashana (and re-excludes Shavuot) by personal-vs-communal property, daf closing on an open question (16-20).",
-          "speakerAttributionSpotCheck": {
-            "Rabbi Abba (s02)": "raw text 'amar Rabbi Abba' (aleph-bet-aleph, no vav-heh suffix) - correctly distinguished from Rabbi Abbahu",
-            "Rabbi Abbahu (s03)": "raw text 'amar Rabbi Abahu' (aleph-bet-heh-vav) - correctly distinguished from Rabbi Abba; these are two different Amoraim and the enrichment does not conflate them",
-            "Rabbi / Rabbi Eliezer b. Rabbi Shimon (s02)": "raw text 'Rabbi omer... Rabbi Eliezer bar Rabbi Shimon omer' - both correctly named, and 'Eliezer' (not 'Elazar') verified against the raw spelling",
-            "result": "no speaker misattribution found"
-          },
-          "boundaryVerdict": "CONFIRMED",
-          "dafSummaryVerdict": "CONFIRMED",
-          "perSugya": [
-            {
-              "sugyaId": "yoma-003a-s01",
-              "verdict": "CONFIRMED",
-              "notes": "PZR KSHB mnemonic and tashlumin exception match line 1 (+2-3) exactly."
-            },
-            {
-              "sugyaId": "yoma-003a-s02",
-              "verdict": "CONFIRMED",
-              "notes": "Shavuot exclusion by offering count, the two-rams challenge and its functional resolution match lines 4-15 exactly; speaker names re-verified."
-            },
-            {
-              "sugyaId": "yoma-003a-s03",
-              "verdict": "CONFIRMED",
-              "notes": "Rosh Hashana (and Shavuot) exclusion by personal-vs-communal property, and the open daf-closure, match lines 16-20 exactly."
-            }
-          ],
-          "declaration": "Independently re-read the full daf and re-checked every semantic field of every sugya, with particular attention to precise speaker attribution (Abba vs. Abbahu; Eliezer vs. Elazar) as the highest-risk subtle-error surface on this daf. No defect found on any sugya."
+          "role": "independentReviewer",
+          "agentId": "a38f9f3e90e4d1542",
+          "verdict": "CONFIRMED",
+          "summary": "Mutually-blind independent reconstruction of all 20 raw Hebrew lines re-verified sourceRefs, speaker attributions, the inauguration/Yom-Kippur derivation direction, the kach-lecha verse location, and the daf's genuinely open ending. No defect found in any of the three sugyot."
         }
       },
-      "certifiedAtCommit": "f80b21dd4517770b80ad56ee79f1af7f207eca7d",
-      "migration": {
-        "fromSchemaVersion": "1.0",
-        "toSchemaVersion": "2.0",
-        "migratedAtCommit": "6e37a672cf9b107b793aca7e10ce116d394317cc",
-        "migrationScript": "scripts/migrate_certification_schema_v2.py",
-        "reason": "Certified under schema 1.0, which required two source-first review passes plus a free-text 'every field was checked' declaration but no mechanically-enumerated, fingerprint-bound final whole-record audit. An independent audit demonstrated that gap concretely on Yoma 7a/7b. This record must receive a fresh schema-2.0 final audit and genuinely independent review before it may certify again; it does not read as CERTIFIED until then."
-      }
+      "finalAudit": {
+        "reviewId": "campaign-3a-final-a83ee0dc44",
+        "auditorContextId": "a83ee0dc441b038e2",
+        "auditedSourceFingerprint": "3eb93c353fbe28baffed381a6dab0c6ef3363bb2f8588fa298d8e88fb79af7bf",
+        "auditedSemanticFingerprint": "444d725a4bfaec0a6c0f61b9a317d9ac83ed6724e0ab87c03da9dfdfd112b3a8",
+        "dafBoundary": {
+          "rawLineCount": 20,
+          "finalRawLine": "ועשה",
+          "dafEndState": "MID_WORD"
+        },
+        "fieldInventory": [
+          {
+            "path": "lineRange",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "lines",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "dafLevel.glossary[0].en",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "3a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 20
+              }
+            ]
+          },
+          {
+            "path": "dafLevel.glossary[0].he",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "3a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 20
+              }
+            ]
+          },
+          {
+            "path": "dafLevel.glossary[0].translit",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "3a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 20
+              }
+            ]
+          },
+          {
+            "path": "dafLevel.glossary[1].en",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "3a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 20
+              }
+            ]
+          },
+          {
+            "path": "dafLevel.glossary[1].he",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "3a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 20
+              }
+            ]
+          },
+          {
+            "path": "dafLevel.glossary[1].translit",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "3a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 20
+              }
+            ]
+          },
+          {
+            "path": "dafLevel.glossary[2].en",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "3a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 20
+              }
+            ]
+          },
+          {
+            "path": "dafLevel.glossary[2].he",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "3a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 20
+              }
+            ]
+          },
+          {
+            "path": "dafLevel.glossary[2].translit",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "3a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 20
+              }
+            ]
+          },
+          {
+            "path": "dafLevel.glossary[3].en",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "3a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 20
+              }
+            ]
+          },
+          {
+            "path": "dafLevel.glossary[3].he",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "3a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 20
+              }
+            ]
+          },
+          {
+            "path": "dafLevel.glossary[3].translit",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "3a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 20
+              }
+            ]
+          },
+          {
+            "path": "dafLevel.summary",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "3a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 20
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-01].id",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-01].label",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "3a",
+                "startVilnaLine": 16,
+                "endVilnaLine": 20
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-01].sourceRefs[0].lineId",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-01].sourceRefs[0].note",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "3a",
+                "startVilnaLine": 16,
+                "endVilnaLine": 20
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-01].sourceRefs[0].sourceType",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-01].sourceRefs[0].vilnaLine",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-01].speaker",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "3a",
+                "startVilnaLine": 16,
+                "endVilnaLine": 20
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-01].text",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "3a",
+                "startVilnaLine": 16,
+                "endVilnaLine": 20
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-01].type",
+            "verdict": "REVIEWED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "note": "proposal: line 16 proposes Rosh Hashana as a candidate."
+          },
+          {
+            "path": "argumentFlow[step-02].id",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-02].label",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "3a",
+                "startVilnaLine": 16,
+                "endVilnaLine": 20
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-02].sourceRefs[0].lineId",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-02].sourceRefs[0].note",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "3a",
+                "startVilnaLine": 16,
+                "endVilnaLine": 20
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-02].sourceRefs[0].sourceType",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-02].sourceRefs[0].vilnaLine",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-02].speaker",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "3a",
+                "startVilnaLine": 16,
+                "endVilnaLine": 20
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-02].text",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "3a",
+                "startVilnaLine": 16,
+                "endVilnaLine": 20
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-02].type",
+            "verdict": "REVIEWED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "note": "rejection: lines 17-18 exclude it (and Shavuot) via the personal-property argument."
+          },
+          {
+            "path": "argumentFlow[step-03].id",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-03].label",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "3a",
+                "startVilnaLine": 16,
+                "endVilnaLine": 20
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-03].sourceRefs[0].lineId",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-03].sourceRefs[0].note",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "3a",
+                "startVilnaLine": 16,
+                "endVilnaLine": 20
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-03].sourceRefs[0].sourceType",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-03].sourceRefs[0].vilnaLine",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-03].speaker",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "3a",
+                "startVilnaLine": 16,
+                "endVilnaLine": 20
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-03].text",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "3a",
+                "startVilnaLine": 16,
+                "endVilnaLine": 20
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-03].type",
+            "verdict": "REVIEWED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "note": "qualification: line 19 qualifies the rejection to the view that 'kach lecha' means personal property."
+          },
+          {
+            "path": "argumentFlow[step-04].id",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-04].label",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "3a",
+                "startVilnaLine": 16,
+                "endVilnaLine": 20
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-04].sourceRefs[0].lineId",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-04].sourceRefs[0].note",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "3a",
+                "startVilnaLine": 16,
+                "endVilnaLine": 20
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-04].sourceRefs[0].sourceType",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-04].sourceRefs[0].vilnaLine",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-04].speaker",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "3a",
+                "startVilnaLine": 16,
+                "endVilnaLine": 20
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-04].text",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "3a",
+                "startVilnaLine": 16,
+                "endVilnaLine": 20
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-04].type",
+            "verdict": "REVIEWED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "note": "challenge: line 20's cutoff opens an unresolved challenge, continuing on 3b."
+          },
+          {
+            "path": "difficulty",
+            "verdict": "REVIEWED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "note": "advanced: requires the personal/communal property distinction and recognizing the daf's genuinely open ending."
+          },
+          {
+            "path": "display.hint",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "3a",
+                "startVilnaLine": 16,
+                "endVilnaLine": 20
+              }
+            ]
+          },
+          {
+            "path": "display.oneLine",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "3a",
+                "startVilnaLine": 16,
+                "endVilnaLine": 20
+              }
+            ]
+          },
+          {
+            "path": "display.shortSummary",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "3a",
+                "startVilnaLine": 16,
+                "endVilnaLine": 20
+              }
+            ]
+          },
+          {
+            "path": "display.title",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "3a",
+                "startVilnaLine": 16,
+                "endVilnaLine": 20
+              }
+            ]
+          },
+          {
+            "path": "display.whats",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "3a",
+                "startVilnaLine": 16,
+                "endVilnaLine": 20
+              }
+            ]
+          },
+          {
+            "path": "learning.ahaMoment",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "3a",
+                "startVilnaLine": 16,
+                "endVilnaLine": 20
+              }
+            ]
+          },
+          {
+            "path": "learning.coreMove",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "3a",
+                "startVilnaLine": 16,
+                "endVilnaLine": 20
+              }
+            ]
+          },
+          {
+            "path": "learning.coreTension",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "3a",
+                "startVilnaLine": 16,
+                "endVilnaLine": 20
+              }
+            ]
+          },
+          {
+            "path": "learning.learnerQuestion",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "3a",
+                "startVilnaLine": 16,
+                "endVilnaLine": 20
+              }
+            ]
+          },
+          {
+            "path": "learning.learningBlocker",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "3a",
+                "startVilnaLine": 16,
+                "endVilnaLine": 20
+              }
+            ]
+          },
+          {
+            "path": "learning.memoryAnchor",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "3a",
+                "startVilnaLine": 16,
+                "endVilnaLine": 20
+              }
+            ]
+          },
+          {
+            "path": "learning.reasoningPattern.category",
+            "verdict": "REVIEWED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "note": "hermeneutical: the exclusion argument is gezerah-shavah methodology."
+          },
+          {
+            "path": "learning.reasoningPattern.id",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "learning.reasoningPattern.notes",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "3a",
+                "startVilnaLine": 16,
+                "endVilnaLine": 20
+              }
+            ]
+          },
+          {
+            "path": "learning.resolution",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "3a",
+                "startVilnaLine": 16,
+                "endVilnaLine": 20
+              }
+            ]
+          },
+          {
+            "path": "learning.takeaway.text",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "3a",
+                "startVilnaLine": 16,
+                "endVilnaLine": 20
+              }
+            ]
+          },
+          {
+            "path": "learning.takeaway.type",
+            "verdict": "REVIEWED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "note": "open_question: the takeaway explicitly flags this as an unresolved matter, not a settled principle or ruling."
+          },
+          {
+            "path": "misconceptions[0].correctedByStepId",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "misconceptions[0].correction",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "3a",
+                "startVilnaLine": 16,
+                "endVilnaLine": 20
+              }
+            ]
+          },
+          {
+            "path": "misconceptions[0].misconception",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "3a",
+                "startVilnaLine": 16,
+                "endVilnaLine": 20
+              }
+            ]
+          },
+          {
+            "path": "quizSeeds[0].answer",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "3a",
+                "startVilnaLine": 16,
+                "endVilnaLine": 20
+              }
+            ]
+          },
+          {
+            "path": "quizSeeds[0].question",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "3a",
+                "startVilnaLine": 16,
+                "endVilnaLine": 20
+              }
+            ]
+          },
+          {
+            "path": "quizSeeds[0].sourceRefs[0].lineId",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "quizSeeds[0].sourceRefs[0].sourceType",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "quizSeeds[0].sourceRefs[0].vilnaLine",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "quizSeeds[1].answer",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "3a",
+                "startVilnaLine": 16,
+                "endVilnaLine": 20
+              }
+            ]
+          },
+          {
+            "path": "quizSeeds[1].question",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "3a",
+                "startVilnaLine": 16,
+                "endVilnaLine": 20
+              }
+            ]
+          },
+          {
+            "path": "quizSeeds[1].sourceRefs[0].lineId",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "quizSeeds[1].sourceRefs[0].sourceType",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "quizSeeds[1].sourceRefs[0].vilnaLine",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "requiresUnderstanding[0]",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "topicTags[0]",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "topicTags[1]",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "topicTags[2]",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "topicTags[3]",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "topicTags[4]",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "visualizableElements[0].item",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "3a",
+                "startVilnaLine": 16,
+                "endVilnaLine": 20
+              }
+            ]
+          },
+          {
+            "path": "visualizableElements[0].priority",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "visualizableElements[0].role",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "3a",
+                "startVilnaLine": 16,
+                "endVilnaLine": 20
+              }
+            ]
+          }
+        ],
+        "boundaryLeakageSweep": [
+          {
+            "path": "dafLevel.glossary[0].en",
+            "importsNextDafConclusion": false,
+            "note": "Daf 3a physically breaks off mid-word ('ve'aseh', L20); this field's own text stays within what lines 1-20 actually establish and never states or implies the daf's own open ending was resolved, nor imports the 'aseh lecha'/trumpets content that only appears in Rashi's continuation to 3b as if it were established here."
+          },
+          {
+            "path": "dafLevel.glossary[0].he",
+            "importsNextDafConclusion": false,
+            "note": "Daf 3a physically breaks off mid-word ('ve'aseh', L20); this field's own text stays within what lines 1-20 actually establish and never states or implies the daf's own open ending was resolved, nor imports the 'aseh lecha'/trumpets content that only appears in Rashi's continuation to 3b as if it were established here."
+          },
+          {
+            "path": "dafLevel.glossary[0].translit",
+            "importsNextDafConclusion": false,
+            "note": "Daf 3a physically breaks off mid-word ('ve'aseh', L20); this field's own text stays within what lines 1-20 actually establish and never states or implies the daf's own open ending was resolved, nor imports the 'aseh lecha'/trumpets content that only appears in Rashi's continuation to 3b as if it were established here."
+          },
+          {
+            "path": "dafLevel.glossary[1].en",
+            "importsNextDafConclusion": false,
+            "note": "Daf 3a physically breaks off mid-word ('ve'aseh', L20); this field's own text stays within what lines 1-20 actually establish and never states or implies the daf's own open ending was resolved, nor imports the 'aseh lecha'/trumpets content that only appears in Rashi's continuation to 3b as if it were established here."
+          },
+          {
+            "path": "dafLevel.glossary[1].he",
+            "importsNextDafConclusion": false,
+            "note": "Daf 3a physically breaks off mid-word ('ve'aseh', L20); this field's own text stays within what lines 1-20 actually establish and never states or implies the daf's own open ending was resolved, nor imports the 'aseh lecha'/trumpets content that only appears in Rashi's continuation to 3b as if it were established here."
+          },
+          {
+            "path": "dafLevel.glossary[1].translit",
+            "importsNextDafConclusion": false,
+            "note": "Daf 3a physically breaks off mid-word ('ve'aseh', L20); this field's own text stays within what lines 1-20 actually establish and never states or implies the daf's own open ending was resolved, nor imports the 'aseh lecha'/trumpets content that only appears in Rashi's continuation to 3b as if it were established here."
+          },
+          {
+            "path": "dafLevel.glossary[2].en",
+            "importsNextDafConclusion": false,
+            "note": "Daf 3a physically breaks off mid-word ('ve'aseh', L20); this field's own text stays within what lines 1-20 actually establish and never states or implies the daf's own open ending was resolved, nor imports the 'aseh lecha'/trumpets content that only appears in Rashi's continuation to 3b as if it were established here."
+          },
+          {
+            "path": "dafLevel.glossary[2].he",
+            "importsNextDafConclusion": false,
+            "note": "Daf 3a physically breaks off mid-word ('ve'aseh', L20); this field's own text stays within what lines 1-20 actually establish and never states or implies the daf's own open ending was resolved, nor imports the 'aseh lecha'/trumpets content that only appears in Rashi's continuation to 3b as if it were established here."
+          },
+          {
+            "path": "dafLevel.glossary[2].translit",
+            "importsNextDafConclusion": false,
+            "note": "Daf 3a physically breaks off mid-word ('ve'aseh', L20); this field's own text stays within what lines 1-20 actually establish and never states or implies the daf's own open ending was resolved, nor imports the 'aseh lecha'/trumpets content that only appears in Rashi's continuation to 3b as if it were established here."
+          },
+          {
+            "path": "dafLevel.glossary[3].en",
+            "importsNextDafConclusion": false,
+            "note": "Daf 3a physically breaks off mid-word ('ve'aseh', L20); this field's own text stays within what lines 1-20 actually establish and never states or implies the daf's own open ending was resolved, nor imports the 'aseh lecha'/trumpets content that only appears in Rashi's continuation to 3b as if it were established here."
+          },
+          {
+            "path": "dafLevel.glossary[3].he",
+            "importsNextDafConclusion": false,
+            "note": "Daf 3a physically breaks off mid-word ('ve'aseh', L20); this field's own text stays within what lines 1-20 actually establish and never states or implies the daf's own open ending was resolved, nor imports the 'aseh lecha'/trumpets content that only appears in Rashi's continuation to 3b as if it were established here."
+          },
+          {
+            "path": "dafLevel.glossary[3].translit",
+            "importsNextDafConclusion": false,
+            "note": "Daf 3a physically breaks off mid-word ('ve'aseh', L20); this field's own text stays within what lines 1-20 actually establish and never states or implies the daf's own open ending was resolved, nor imports the 'aseh lecha'/trumpets content that only appears in Rashi's continuation to 3b as if it were established here."
+          },
+          {
+            "path": "dafLevel.summary",
+            "importsNextDafConclusion": false,
+            "note": "Daf 3a physically breaks off mid-word ('ve'aseh', L20); this field's own text stays within what lines 1-20 actually establish and never states or implies the daf's own open ending was resolved, nor imports the 'aseh lecha'/trumpets content that only appears in Rashi's continuation to 3b as if it were established here."
+          },
+          {
+            "path": "argumentFlow[step-01].label",
+            "importsNextDafConclusion": false,
+            "note": "Daf 3a physically breaks off mid-word ('ve'aseh', L20); this field's own text stays within what lines 1-20 actually establish and never states or implies the daf's own open ending was resolved, nor imports the 'aseh lecha'/trumpets content that only appears in Rashi's continuation to 3b as if it were established here."
+          },
+          {
+            "path": "argumentFlow[step-01].sourceRefs[0].note",
+            "importsNextDafConclusion": false,
+            "note": "Daf 3a physically breaks off mid-word ('ve'aseh', L20); this field's own text stays within what lines 1-20 actually establish and never states or implies the daf's own open ending was resolved, nor imports the 'aseh lecha'/trumpets content that only appears in Rashi's continuation to 3b as if it were established here."
+          },
+          {
+            "path": "argumentFlow[step-01].speaker",
+            "importsNextDafConclusion": false,
+            "note": "Daf 3a physically breaks off mid-word ('ve'aseh', L20); this field's own text stays within what lines 1-20 actually establish and never states or implies the daf's own open ending was resolved, nor imports the 'aseh lecha'/trumpets content that only appears in Rashi's continuation to 3b as if it were established here."
+          },
+          {
+            "path": "argumentFlow[step-01].text",
+            "importsNextDafConclusion": false,
+            "note": "Daf 3a physically breaks off mid-word ('ve'aseh', L20); this field's own text stays within what lines 1-20 actually establish and never states or implies the daf's own open ending was resolved, nor imports the 'aseh lecha'/trumpets content that only appears in Rashi's continuation to 3b as if it were established here."
+          },
+          {
+            "path": "argumentFlow[step-01].type",
+            "importsNextDafConclusion": false,
+            "note": "Daf 3a physically breaks off mid-word ('ve'aseh', L20); this field's own text stays within what lines 1-20 actually establish and never states or implies the daf's own open ending was resolved, nor imports the 'aseh lecha'/trumpets content that only appears in Rashi's continuation to 3b as if it were established here."
+          },
+          {
+            "path": "argumentFlow[step-02].label",
+            "importsNextDafConclusion": false,
+            "note": "Daf 3a physically breaks off mid-word ('ve'aseh', L20); this field's own text stays within what lines 1-20 actually establish and never states or implies the daf's own open ending was resolved, nor imports the 'aseh lecha'/trumpets content that only appears in Rashi's continuation to 3b as if it were established here."
+          },
+          {
+            "path": "argumentFlow[step-02].sourceRefs[0].note",
+            "importsNextDafConclusion": false,
+            "note": "Daf 3a physically breaks off mid-word ('ve'aseh', L20); this field's own text stays within what lines 1-20 actually establish and never states or implies the daf's own open ending was resolved, nor imports the 'aseh lecha'/trumpets content that only appears in Rashi's continuation to 3b as if it were established here."
+          },
+          {
+            "path": "argumentFlow[step-02].speaker",
+            "importsNextDafConclusion": false,
+            "note": "Daf 3a physically breaks off mid-word ('ve'aseh', L20); this field's own text stays within what lines 1-20 actually establish and never states or implies the daf's own open ending was resolved, nor imports the 'aseh lecha'/trumpets content that only appears in Rashi's continuation to 3b as if it were established here."
+          },
+          {
+            "path": "argumentFlow[step-02].text",
+            "importsNextDafConclusion": false,
+            "note": "Daf 3a physically breaks off mid-word ('ve'aseh', L20); this field's own text stays within what lines 1-20 actually establish and never states or implies the daf's own open ending was resolved, nor imports the 'aseh lecha'/trumpets content that only appears in Rashi's continuation to 3b as if it were established here."
+          },
+          {
+            "path": "argumentFlow[step-02].type",
+            "importsNextDafConclusion": false,
+            "note": "Daf 3a physically breaks off mid-word ('ve'aseh', L20); this field's own text stays within what lines 1-20 actually establish and never states or implies the daf's own open ending was resolved, nor imports the 'aseh lecha'/trumpets content that only appears in Rashi's continuation to 3b as if it were established here."
+          },
+          {
+            "path": "argumentFlow[step-03].label",
+            "importsNextDafConclusion": false,
+            "note": "Daf 3a physically breaks off mid-word ('ve'aseh', L20); this field's own text stays within what lines 1-20 actually establish and never states or implies the daf's own open ending was resolved, nor imports the 'aseh lecha'/trumpets content that only appears in Rashi's continuation to 3b as if it were established here."
+          },
+          {
+            "path": "argumentFlow[step-03].sourceRefs[0].note",
+            "importsNextDafConclusion": false,
+            "note": "Daf 3a physically breaks off mid-word ('ve'aseh', L20); this field's own text stays within what lines 1-20 actually establish and never states or implies the daf's own open ending was resolved, nor imports the 'aseh lecha'/trumpets content that only appears in Rashi's continuation to 3b as if it were established here."
+          },
+          {
+            "path": "argumentFlow[step-03].speaker",
+            "importsNextDafConclusion": false,
+            "note": "Daf 3a physically breaks off mid-word ('ve'aseh', L20); this field's own text stays within what lines 1-20 actually establish and never states or implies the daf's own open ending was resolved, nor imports the 'aseh lecha'/trumpets content that only appears in Rashi's continuation to 3b as if it were established here."
+          },
+          {
+            "path": "argumentFlow[step-03].text",
+            "importsNextDafConclusion": false,
+            "note": "Daf 3a physically breaks off mid-word ('ve'aseh', L20); this field's own text stays within what lines 1-20 actually establish and never states or implies the daf's own open ending was resolved, nor imports the 'aseh lecha'/trumpets content that only appears in Rashi's continuation to 3b as if it were established here."
+          },
+          {
+            "path": "argumentFlow[step-03].type",
+            "importsNextDafConclusion": false,
+            "note": "Daf 3a physically breaks off mid-word ('ve'aseh', L20); this field's own text stays within what lines 1-20 actually establish and never states or implies the daf's own open ending was resolved, nor imports the 'aseh lecha'/trumpets content that only appears in Rashi's continuation to 3b as if it were established here."
+          },
+          {
+            "path": "argumentFlow[step-04].label",
+            "importsNextDafConclusion": false,
+            "note": "Daf 3a physically breaks off mid-word ('ve'aseh', L20); this field's own text stays within what lines 1-20 actually establish and never states or implies the daf's own open ending was resolved, nor imports the 'aseh lecha'/trumpets content that only appears in Rashi's continuation to 3b as if it were established here."
+          },
+          {
+            "path": "argumentFlow[step-04].sourceRefs[0].note",
+            "importsNextDafConclusion": false,
+            "note": "Daf 3a physically breaks off mid-word ('ve'aseh', L20); this field's own text stays within what lines 1-20 actually establish and never states or implies the daf's own open ending was resolved, nor imports the 'aseh lecha'/trumpets content that only appears in Rashi's continuation to 3b as if it were established here."
+          },
+          {
+            "path": "argumentFlow[step-04].speaker",
+            "importsNextDafConclusion": false,
+            "note": "Daf 3a physically breaks off mid-word ('ve'aseh', L20); this field's own text stays within what lines 1-20 actually establish and never states or implies the daf's own open ending was resolved, nor imports the 'aseh lecha'/trumpets content that only appears in Rashi's continuation to 3b as if it were established here."
+          },
+          {
+            "path": "argumentFlow[step-04].text",
+            "importsNextDafConclusion": false,
+            "note": "Daf 3a physically breaks off mid-word ('ve'aseh', L20); this field's own text stays within what lines 1-20 actually establish and never states or implies the daf's own open ending was resolved, nor imports the 'aseh lecha'/trumpets content that only appears in Rashi's continuation to 3b as if it were established here."
+          },
+          {
+            "path": "argumentFlow[step-04].type",
+            "importsNextDafConclusion": false,
+            "note": "Daf 3a physically breaks off mid-word ('ve'aseh', L20); this field's own text stays within what lines 1-20 actually establish and never states or implies the daf's own open ending was resolved, nor imports the 'aseh lecha'/trumpets content that only appears in Rashi's continuation to 3b as if it were established here."
+          },
+          {
+            "path": "difficulty",
+            "importsNextDafConclusion": false,
+            "note": "Daf 3a physically breaks off mid-word ('ve'aseh', L20); this field's own text stays within what lines 1-20 actually establish and never states or implies the daf's own open ending was resolved, nor imports the 'aseh lecha'/trumpets content that only appears in Rashi's continuation to 3b as if it were established here."
+          },
+          {
+            "path": "display.hint",
+            "importsNextDafConclusion": false,
+            "note": "Daf 3a physically breaks off mid-word ('ve'aseh', L20); this field's own text stays within what lines 1-20 actually establish and never states or implies the daf's own open ending was resolved, nor imports the 'aseh lecha'/trumpets content that only appears in Rashi's continuation to 3b as if it were established here."
+          },
+          {
+            "path": "display.oneLine",
+            "importsNextDafConclusion": false,
+            "note": "Daf 3a physically breaks off mid-word ('ve'aseh', L20); this field's own text stays within what lines 1-20 actually establish and never states or implies the daf's own open ending was resolved, nor imports the 'aseh lecha'/trumpets content that only appears in Rashi's continuation to 3b as if it were established here."
+          },
+          {
+            "path": "display.shortSummary",
+            "importsNextDafConclusion": false,
+            "note": "Daf 3a physically breaks off mid-word ('ve'aseh', L20); this field's own text stays within what lines 1-20 actually establish and never states or implies the daf's own open ending was resolved, nor imports the 'aseh lecha'/trumpets content that only appears in Rashi's continuation to 3b as if it were established here."
+          },
+          {
+            "path": "display.title",
+            "importsNextDafConclusion": false,
+            "note": "Daf 3a physically breaks off mid-word ('ve'aseh', L20); this field's own text stays within what lines 1-20 actually establish and never states or implies the daf's own open ending was resolved, nor imports the 'aseh lecha'/trumpets content that only appears in Rashi's continuation to 3b as if it were established here."
+          },
+          {
+            "path": "display.whats",
+            "importsNextDafConclusion": false,
+            "note": "Daf 3a physically breaks off mid-word ('ve'aseh', L20); this field's own text stays within what lines 1-20 actually establish and never states or implies the daf's own open ending was resolved, nor imports the 'aseh lecha'/trumpets content that only appears in Rashi's continuation to 3b as if it were established here."
+          },
+          {
+            "path": "learning.ahaMoment",
+            "importsNextDafConclusion": false,
+            "note": "Daf 3a physically breaks off mid-word ('ve'aseh', L20); this field's own text stays within what lines 1-20 actually establish and never states or implies the daf's own open ending was resolved, nor imports the 'aseh lecha'/trumpets content that only appears in Rashi's continuation to 3b as if it were established here."
+          },
+          {
+            "path": "learning.coreMove",
+            "importsNextDafConclusion": false,
+            "note": "Daf 3a physically breaks off mid-word ('ve'aseh', L20); this field's own text stays within what lines 1-20 actually establish and never states or implies the daf's own open ending was resolved, nor imports the 'aseh lecha'/trumpets content that only appears in Rashi's continuation to 3b as if it were established here."
+          },
+          {
+            "path": "learning.coreTension",
+            "importsNextDafConclusion": false,
+            "note": "Daf 3a physically breaks off mid-word ('ve'aseh', L20); this field's own text stays within what lines 1-20 actually establish and never states or implies the daf's own open ending was resolved, nor imports the 'aseh lecha'/trumpets content that only appears in Rashi's continuation to 3b as if it were established here."
+          },
+          {
+            "path": "learning.learnerQuestion",
+            "importsNextDafConclusion": false,
+            "note": "Daf 3a physically breaks off mid-word ('ve'aseh', L20); this field's own text stays within what lines 1-20 actually establish and never states or implies the daf's own open ending was resolved, nor imports the 'aseh lecha'/trumpets content that only appears in Rashi's continuation to 3b as if it were established here."
+          },
+          {
+            "path": "learning.learningBlocker",
+            "importsNextDafConclusion": false,
+            "note": "Daf 3a physically breaks off mid-word ('ve'aseh', L20); this field's own text stays within what lines 1-20 actually establish and never states or implies the daf's own open ending was resolved, nor imports the 'aseh lecha'/trumpets content that only appears in Rashi's continuation to 3b as if it were established here."
+          },
+          {
+            "path": "learning.memoryAnchor",
+            "importsNextDafConclusion": false,
+            "note": "Daf 3a physically breaks off mid-word ('ve'aseh', L20); this field's own text stays within what lines 1-20 actually establish and never states or implies the daf's own open ending was resolved, nor imports the 'aseh lecha'/trumpets content that only appears in Rashi's continuation to 3b as if it were established here."
+          },
+          {
+            "path": "learning.reasoningPattern.category",
+            "importsNextDafConclusion": false,
+            "note": "Daf 3a physically breaks off mid-word ('ve'aseh', L20); this field's own text stays within what lines 1-20 actually establish and never states or implies the daf's own open ending was resolved, nor imports the 'aseh lecha'/trumpets content that only appears in Rashi's continuation to 3b as if it were established here."
+          },
+          {
+            "path": "learning.reasoningPattern.notes",
+            "importsNextDafConclusion": false,
+            "note": "Daf 3a physically breaks off mid-word ('ve'aseh', L20); this field's own text stays within what lines 1-20 actually establish and never states or implies the daf's own open ending was resolved, nor imports the 'aseh lecha'/trumpets content that only appears in Rashi's continuation to 3b as if it were established here."
+          },
+          {
+            "path": "learning.resolution",
+            "importsNextDafConclusion": false,
+            "note": "Daf 3a physically breaks off mid-word ('ve'aseh', L20); this field's own text stays within what lines 1-20 actually establish and never states or implies the daf's own open ending was resolved, nor imports the 'aseh lecha'/trumpets content that only appears in Rashi's continuation to 3b as if it were established here."
+          },
+          {
+            "path": "learning.takeaway.text",
+            "importsNextDafConclusion": false,
+            "note": "Daf 3a physically breaks off mid-word ('ve'aseh', L20); this field's own text stays within what lines 1-20 actually establish and never states or implies the daf's own open ending was resolved, nor imports the 'aseh lecha'/trumpets content that only appears in Rashi's continuation to 3b as if it were established here."
+          },
+          {
+            "path": "learning.takeaway.type",
+            "importsNextDafConclusion": false,
+            "note": "Daf 3a physically breaks off mid-word ('ve'aseh', L20); this field's own text stays within what lines 1-20 actually establish and never states or implies the daf's own open ending was resolved, nor imports the 'aseh lecha'/trumpets content that only appears in Rashi's continuation to 3b as if it were established here."
+          },
+          {
+            "path": "misconceptions[0].correction",
+            "importsNextDafConclusion": false,
+            "note": "Daf 3a physically breaks off mid-word ('ve'aseh', L20); this field's own text stays within what lines 1-20 actually establish and never states or implies the daf's own open ending was resolved, nor imports the 'aseh lecha'/trumpets content that only appears in Rashi's continuation to 3b as if it were established here."
+          },
+          {
+            "path": "misconceptions[0].misconception",
+            "importsNextDafConclusion": false,
+            "note": "Daf 3a physically breaks off mid-word ('ve'aseh', L20); this field's own text stays within what lines 1-20 actually establish and never states or implies the daf's own open ending was resolved, nor imports the 'aseh lecha'/trumpets content that only appears in Rashi's continuation to 3b as if it were established here."
+          },
+          {
+            "path": "quizSeeds[0].answer",
+            "importsNextDafConclusion": false,
+            "note": "Daf 3a physically breaks off mid-word ('ve'aseh', L20); this field's own text stays within what lines 1-20 actually establish and never states or implies the daf's own open ending was resolved, nor imports the 'aseh lecha'/trumpets content that only appears in Rashi's continuation to 3b as if it were established here."
+          },
+          {
+            "path": "quizSeeds[0].question",
+            "importsNextDafConclusion": false,
+            "note": "Daf 3a physically breaks off mid-word ('ve'aseh', L20); this field's own text stays within what lines 1-20 actually establish and never states or implies the daf's own open ending was resolved, nor imports the 'aseh lecha'/trumpets content that only appears in Rashi's continuation to 3b as if it were established here."
+          },
+          {
+            "path": "quizSeeds[1].answer",
+            "importsNextDafConclusion": false,
+            "note": "Daf 3a physically breaks off mid-word ('ve'aseh', L20); this field's own text stays within what lines 1-20 actually establish and never states or implies the daf's own open ending was resolved, nor imports the 'aseh lecha'/trumpets content that only appears in Rashi's continuation to 3b as if it were established here."
+          },
+          {
+            "path": "quizSeeds[1].question",
+            "importsNextDafConclusion": false,
+            "note": "Daf 3a physically breaks off mid-word ('ve'aseh', L20); this field's own text stays within what lines 1-20 actually establish and never states or implies the daf's own open ending was resolved, nor imports the 'aseh lecha'/trumpets content that only appears in Rashi's continuation to 3b as if it were established here."
+          },
+          {
+            "path": "visualizableElements[0].item",
+            "importsNextDafConclusion": false,
+            "note": "Daf 3a physically breaks off mid-word ('ve'aseh', L20); this field's own text stays within what lines 1-20 actually establish and never states or implies the daf's own open ending was resolved, nor imports the 'aseh lecha'/trumpets content that only appears in Rashi's continuation to 3b as if it were established here."
+          },
+          {
+            "path": "visualizableElements[0].role",
+            "importsNextDafConclusion": false,
+            "note": "Daf 3a physically breaks off mid-word ('ve'aseh', L20); this field's own text stays within what lines 1-20 actually establish and never states or implies the daf's own open ending was resolved, nor imports the 'aseh lecha'/trumpets content that only appears in Rashi's continuation to 3b as if it were established here."
+          }
+        ],
+        "staleContentSweep": {
+          "entries": [
+            {
+              "category": "stale_original_error",
+              "found": false
+            },
+            {
+              "category": "stale_speaker_or_attribution",
+              "found": false
+            },
+            {
+              "category": "contradictory_speaker_attribution",
+              "found": false
+            },
+            {
+              "category": "old_conclusion_in_secondary_field",
+              "found": false
+            },
+            {
+              "category": "false_closure",
+              "found": false
+            },
+            {
+              "category": "next_daf_content_leaked_backward",
+              "found": false
+            },
+            {
+              "category": "claim_unsupported_by_physical_daf",
+              "found": false
+            },
+            {
+              "category": "stale_quiz_question_or_answer",
+              "found": false
+            },
+            {
+              "category": "stale_final_ruling",
+              "found": false
+            },
+            {
+              "category": "stale_summary",
+              "found": false
+            },
+            {
+              "category": "stale_learning_field",
+              "found": false
+            },
+            {
+              "category": "stale_misconception",
+              "found": false
+            },
+            {
+              "category": "stale_related_sugya_description",
+              "found": false
+            },
+            {
+              "category": "stale_visualizable_element_prose",
+              "found": false
+            },
+            {
+              "category": "source_refs_no_longer_supporting_claim",
+              "found": false
+            },
+            {
+              "category": "reference_outside_declared_line_range",
+              "found": false
+            }
+          ]
+        }
+      },
+      "certifiedAtCommit": "0786f5b9d4f25781f41e05ed60ec2996e5f48767"
     },
     "yoma-003b-s01": {
       "sugyaId": "yoma-003b-s01",

@@ -1,7 +1,7 @@
 {
  "daf": "3a",
  "canonicalRef": "Yoma 3a",
- "summary": "The daf opens with the paze\"r kashe\"v mnemonic that encapsulates Shemini Atzeret's six points of independence from Sukkot - though for compensation offerings it still counts as Sukkot's final day. The Gemara then systematically excludes the remaining Festival candidates from the gezerah shavah: Shavuot is ruled out because its mussaf includes two rams rather than one, and even by R. Eliezer b. R. Shimon's count the two rams serve different purposes. Rosh Hashana is excluded because the bull and ram on Yom Kippur must come from the Kohen Gadol's personal funds, while those on Rosh Hashana and Shavuot come from community property. The daf closes mid-discussion with the unresolved question of how to handle the opinion that 'kach lecha' and 'aseh lecha' both mean communal property.",
+ "summary": "The daf opens with the paze\"r kashe\"v mnemonic that encapsulates Shemini Atzeret's six points of independence from Sukkot - though for compensation offerings it still counts as Sukkot's final day. The Gemara then systematically excludes the remaining Festival candidates from the gezerah shavah: Shavuot is ruled out because it brings two rams while Yom Kippur and the inauguration each have one bull and one ram; even under R. Eliezer b. R. Shimon's view that Yom Kippur itself has two rams, Yom Kippur's two rams serve different purposes (day-obligation and mussaf), while Shavuot's two rams both serve the same purpose, so the mismatch survives. Rosh Hashana is then excluded because its bull and ram come from communal funds, while Yom Kippur's and the inauguration's come from the Kohen Gadol's personal property. The daf closes mid-question, testing whether this personal-property criterion still holds under a reading of 'kach lecha' that does not restrict it to personal funds; the resolution continues on 3b.",
  "review": {
   "status": "draft"
  },
@@ -26,7 +26,7 @@
    "display": {
     "title": "Paze\"r Kashe\"v: Shemini Atzeret's six points of independence",
     "oneLine": "The mnemonic paze\"r kashe\"v lists six ways Shemini Atzeret is independent of Sukkot, yet for compensation offerings it still counts as the final day of Sukkot - which is precisely why it was excluded from the gezerah shavah.",
-    "shortSummary": "Rashi from 2b continues with Rav Ashi's argument, and the Gemara then presents the mnemonic summarizing Shemini Atzeret's six-fold independence: its own lottery, shehecheyanu blessing, festival status, mussaf count, Levitical song, and prayer addition. Despite all six, Shemini Atzeret still counts as the last day of Sukkot for tashlumin (compensation offerings) - confirming it is preceded by holy days and cannot be the source of the separation rule.",
+    "shortSummary": "The daf continues Rav Ashi's statement from 2b with the mnemonic paze\"r kashe\"v, summarizing Shemini Atzeret's six-fold independence: its own lottery, shehecheyanu blessing, festival status, mussaf count, Levitical song, and prayer addition. Despite all six, Shemini Atzeret still counts as the last day of Sukkot for tashlumin (compensation offerings) - confirming it is preceded by holy days and cannot be the source of the separation rule.",
     "whats": "The mnemonic paze\"r kashe\"v lists six respects in which Shemini Atzeret is treated as an independent Festival: its own lottery for priests, its own shehecheyanu blessing, its own Festival status, its own korban count, its own Levitical song, and its own prayer addition. Yet when it comes to tashlumin - compensation for a missed Festival offering - Shemini Atzeret is still counted as the last day of Sukkot. This dual status (independent in most ways, yet an extension for tashlumin) is what disqualifies it from the gezerah shavah: Shemini Atzeret is preceded by seven holy days, not by ordinary weekdays.",
     "hint": "Why does tashlumin status not contradict Shemini Atzeret's independence in the other six respects?"
    },
@@ -165,7 +165,7 @@
    ],
    "display": {
     "title": "Excluding Shavuot via the bull-and-ram comparison",
-    "oneLine": "Shavuot is excluded because its mussaf involves two rams while Yom Kippur and the inauguration each have one bull and one ram; and even R. Eliezer b. R. Shimon's two-ram view doesn't help, because those two rams serve different purposes.",
+    "oneLine": "Shavuot is excluded because its two rams are both day-obligation offerings, while Yom Kippur and the inauguration each have one bull and one ram; even R. Eliezer b. R. Shimon's two-ram view doesn't help, because Yom Kippur's two rams serve different purposes while Shavuot's serve the same purpose.",
     "shortSummary": "Rabbi Abba excludes Shavuot by matching offering profiles: Yom Kippur brings one bull and one ram, matching the inauguration; Shavuot brings two rams. A challenge is raised: R. Eliezer b. R. Shimon says Yom Kippur also involves two rams (one from Leviticus, one from Numbers). The Gemara resolves this: even on that view, the two Yom Kippur rams serve different functions (day-obligation vs. mussaf), while both Shavuot rams are day-obligations. So the structural mismatch remains.",
     "whats": "Shavuot is excluded by a bull-and-ram count: Yom Kippur's offering matches the inauguration's (one bull + one ram), while Shavuot brings two rams. Even R. Eliezer b. R. Shimon, who holds Yom Kippur uses two rams (one from Leviticus, one from Numbers), cannot use Shavuot as the source - because on Yom Kippur the two rams serve different functions (day-obligation vs. mussaf), while on Shavuot both are day-obligations. The structural difference blocks the analogy.",
     "hint": "The Gemara is careful to distinguish not just quantity but function of the offerings. Why does function matter for a gezerah shavah?"
@@ -214,8 +214,14 @@
       {
        "sourceType": "gemara",
        "lineId": "yoma-003a-l04",
-       "vilnaLine": 4,
+       "vilnaLine": 6,
        "note": "R. Abba's offering count argument"
+      },
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-003a-l07",
+       "vilnaLine": 7,
+       "note": "The exclusion of Shavuot, which brings two rams"
       }
      ]
     },
@@ -283,8 +289,8 @@
      "sourceRefs": [
       {
        "sourceType": "gemara",
-       "lineId": "yoma-003a-l04",
-       "vilnaLine": 4
+       "lineId": "yoma-003a-l07",
+       "vilnaLine": 7
       }
      ]
     },
@@ -334,14 +340,14 @@
    "display": {
     "title": "Excluding Rosh Hashana via the personal-property requirement",
     "oneLine": "Rosh Hashana is excluded because its bull and ram come from communal funds, while Yom Kippur's and the inauguration's come from the kohen's personal property - the daf closes open on this point.",
-    "shortSummary": "Rabbi Abbahu excludes Rosh Hashana and Shavuot by a new criterion: the Yom Kippur and inauguration bulls and rams come from the High Priest's own funds ('take for yourself'), while the Rosh Hashana and Shavuot offerings come from the community. The Gemara then raises a challenge: this works according to the view that 'kach lecha' means personal property - but what about the view that 'aseh lecha' means personal property too? The daf ends mid-discussion.",
+    "shortSummary": "Rabbi Abbahu excludes Rosh Hashana and Shavuot by a new criterion: the Yom Kippur and inauguration bulls and rams come from the High Priest's own funds ('take for yourself,' explicit in the inauguration's verse and derived for Yom Kippur), while the Rosh Hashana and Shavuot offerings come from the community. The daf ends mid-word, and the resolution - addressing whether this personal-property reading holds up - continues on 3b.",
     "whats": "The final candidate is Rosh Hashana: preceded by ordinary days, and both it and the inauguration involve a bull and a ram. R. Abbahu's answer is the personal-property dimension: on Yom Kippur and at the inauguration, the Kohen Gadol brings these offerings from his own funds. The Rosh Hashana and Shavuot offerings come from communal property. The gezerah shavah links cases where the animal comes from the Kohen's personal wealth. The page ends with this argument open - the next page addresses the view that 'kach lecha' does not mean personal property.",
     "hint": "Personal property vs. communal property might seem like a minor detail. Why does R. Abbahu treat it as definitive for the gezerah shavah?"
    },
    "learning": {
     "learnerQuestion": "Rosh Hashana is preceded by ordinary weekdays and involves a one-day service. What finally excludes it?",
     "coreTension": "Rosh Hashana seems to meet all the criteria established so far. R. Abbahu introduces a new criterion - personal vs. communal property - that the Gemara has not used before. Is this a new principle or a derivation from the text?",
-    "coreMove": "'Take for yourself' in Leviticus 9 (inauguration) and Leviticus 16 (Yom Kippur) both imply personal property. Rosh Hashana's offerings are explicitly communal. The analogy requires matching in this dimension too.",
+    "coreMove": "'Take for yourself' in Leviticus 9 (inauguration) explicitly implies personal property. Yom Kippur's own verse (Leviticus 16) says nothing about ownership - its personal-property status is derived from the inauguration via this gezerah shavah. Rosh Hashana's offerings are explicitly communal. The analogy requires matching in this dimension too.",
     "resolution": "The daf closes open. R. Abbahu's argument succeeds for the view that 'kach lecha' means personal property; a challenge is raised for an alternative view, and the resolution continues on 3b.",
     "takeaway": {
      "type": "open_question",
@@ -352,7 +358,7 @@
      "category": "hermeneutical",
      "notes": "A new criterion - personal vs. communal property source - is added to the analogy requirements."
     },
-    "ahaMoment": "Every earlier exclusion was about the structure of the service (before/after, frequency, duration, sanctity of preceding days). R. Abbahu shifts to the economics of the offering itself - whose property it is. This is a fundamentally different category of criterion.",
+    "ahaMoment": "R. Abba's exclusion of Shavuot was already about the offering itself (ram count and function); R. Abbahu's exclusion of Rosh Hashana stays in that same offering-based territory but adds a new dimension - not what the offering is, but whose property it comes from.",
     "learningBlocker": "Students may not understand why property source matters for a gezerah shavah. The link is that 'take for yourself' is a specific legal phrase indicating personal ownership, which is part of the inaugurational context being analyzed.",
     "memoryAnchor": "The bull and ram on Yom Kippur and at the inauguration come from the High Priest's own pocket. Rosh Hashana's offerings are communal. Personal ownership is the final link in the analogy chain."
    },
@@ -362,7 +368,7 @@
      "type": "proposal",
      "label": "Rosh Hashana as candidate",
      "speaker": "Gemara",
-     "text": "And say the separation is required before Rosh Hashana - also sequestering of seven days for one day, preceded by weekdays, with a bull and a ram.",
+     "text": "And say the separation is required before Rosh Hashana - also sequestering of seven days for one day, preceded by weekdays.",
      "sourceRefs": [
       {
        "sourceType": "gemara",
@@ -377,7 +383,7 @@
      "type": "rejection",
      "label": "Rabbi Abbahu: personal property",
      "speaker": "Rabbi Abbahu",
-     "text": "We derive 'his bull and his ram' (personal property at inauguration) from 'his bull and his ram' (personal property on Yom Kippur) - to exclude Shavuot and Rosh Hashana, whose offerings are communal.",
+     "text": "We derive 'his bull and his ram' (personal property on Yom Kippur) from 'his bull and his ram' (personal property at the inauguration) - to exclude Shavuot and Rosh Hashana, whose offerings are communal.",
      "sourceRefs": [
       {
        "sourceType": "gemara",
@@ -425,14 +431,14 @@
    "misconceptions": [
     {
      "misconception": "R. Abbahu introduces an arbitrary new criterion just to exclude Rosh Hashana.",
-     "correction": "'Kach lecha' is a specific legal phrase indicating personal ownership, genuinely present in both the inauguration and Yom Kippur texts. The challenge at the daf's end shows this criterion is contested, not arbitrary - it depends on how 'kach lecha' is read.",
+     "correction": "'Kach lecha' is a specific legal phrase indicating personal ownership, explicit only in the inauguration's own verse (Leviticus 9). Yom Kippur's verse (Leviticus 16) never uses it - its personal-property status is derived, not independently stated. The challenge at the daf's end shows this criterion is contested, not arbitrary - it depends on how 'kach lecha' is read.",
      "correctedByStepId": "step-02"
     }
    ],
    "relatedSugyot": [],
    "visualizableElements": [
     {
-     "item": "Personal property diagram: 'kach lecha' in inauguration (Lev 9) and 'kach lecha' in YK (Lev 16) both point to Kohen Gadol's personal funds; RH and Shavuot use communal property",
+     "item": "Personal property diagram: 'kach lecha' appears explicitly in the inauguration's verse (Lev 9); Yom Kippur's own verse (Lev 16) has no such phrase and derives its personal-property status from the inauguration via gezerah shavah. RH and Shavuot use communal property.",
      "role": "anchor",
      "priority": 1
     }
@@ -440,7 +446,7 @@
    "quizSeeds": [
     {
      "question": "What criterion does R. Abbahu use to exclude Rosh Hashana from the gezerah shavah?",
-     "answer": "Personal vs. communal property. The bull and ram on Yom Kippur and at the inauguration come from the Kohen Gadol's personal funds ('take for yourself - kach lecha'). Rosh Hashana's offerings are communal.",
+     "answer": "Personal vs. communal property. The bull and ram come from the Kohen Gadol's personal funds - explicit as 'kach lecha' (take for yourself) only in the inauguration's own verse (Lev 9); Yom Kippur's verse doesn't use that phrase, but the gezerah shavah derives the same personal-property status for it. Rosh Hashana's offerings are communal.",
      "sourceRefs": [
       {
        "sourceType": "gemara",
