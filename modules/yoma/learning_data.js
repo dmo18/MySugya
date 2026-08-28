@@ -2718,7 +2718,7 @@ const DAF_CONTENT = {
             type: "rejection",
             label: "Fixed time principle",
             speaker: "Gemara",
-            text: "We derive a time-fixed matter (the inauguration) from another time-fixed matter (Yom Kippur). Daily offerings occur every day - they have no fixed annual time.",
+            text: "We derive a time-fixed matter (Yom Kippur) from another time-fixed matter (the inauguration). Daily offerings occur every day - they have no fixed annual time.",
             sourceRefs: [
               {
                 sourceType: "gemara",
@@ -2754,7 +2754,7 @@ const DAF_CONTENT = {
             type: "rejection",
             label: "Once-a-year principle",
             speaker: "Gemara",
-            text: "We derive what occurs once a year (the inauguration) from what occurs once a year (Yom Kippur). Festivals occur three times a year.",
+            text: "We derive what occurs once a year (Yom Kippur) from what occurs once a year (the inauguration). Festivals occur three times a year.",
             sourceRefs: [
               {
                 sourceType: "gemara",
@@ -2907,6 +2907,12 @@ const DAF_CONTENT = {
                 lineId: "yoma-002b-l22",
                 vilnaLine: 22,
                 note: "Seven-for-one principle"
+              },
+              {
+                sourceType: "gemara",
+                lineId: "yoma-002b-l23",
+                vilnaLine: 23,
+                note: "The exclusion's determinative clause, completing the seven-for-one/seven-for-seven contrast"
               }
             ]
           }
@@ -3038,7 +3044,7 @@ const DAF_CONTENT = {
             type: "rejection",
             label: "Sanctity of preceding days",
             speaker: "Gemara",
-            text: "We derive a case not preceded by sanctity (inauguration) from a case not preceded by sanctity (Yom Kippur). Shemini Atzeret is preceded by seven holy days of Sukkot.",
+            text: "We derive a case not preceded by sanctity (Yom Kippur) from a case not preceded by sanctity (the inauguration). Shemini Atzeret is preceded by seven holy days of Sukkot.",
             sourceRefs: [
               {
                 sourceType: "gemara",
