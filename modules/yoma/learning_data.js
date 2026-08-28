@@ -6201,16 +6201,16 @@ const DAF_CONTENT = {
         },
         display: {
           title: "R. Yochanan Challenges Reish Lakish on Sprinkling; RL Concedes",
-          oneLine: "R. Yochanan: if you derive from Sinai, there was no sprinkling at Sinai - so why do we sprinkle? RL counters that inauguration had blood not water. R. Yochanan invokes R. Chiyya ('water replaced blood'). RL has no parallel bridge and concedes: sprinkling is just a maaleh.",
-          shortSummary: "The debate over the source of seven-day sequestering (inauguration vs. Sinai) hits a critical asymmetry: the inauguration included sprinkling, so R. Yochanan's derivation naturally accounts for today's practice. Reish Lakish's Sinai source had no sprinkling at all, so he cannot derive that practice from his source. A principle from R. Chiyya ('water replaced blood') resolves R. Yochanan's blood-vs-water problem, but RL has no analogous principle for 'no sprinkling vs. sprinkling.' He concedes that the sprinkling is a maaleh - a rabbinic enhancement without a derivational source.",
-          whats: "R. Yochanan presses Reish Lakish: if the seven-day separation derives from Sinai, there was no sprinkling at Sinai - so why do we sprinkle the sequestered priest today? RL counters that the inauguration derivation has its own problem: inauguration sprinkling was with blood, but today we use water. R. Yochanan invokes R. Chiyya's principle that water replaced blood as equivalent ritual media, bridging the medium shift cleanly. RL has no parallel bridge for Sinai (which had no sprinkling in any medium) and concedes: for him, the sprinkling practice is a maaleh - a higher standard the Sages voluntarily adopted, not derivable from his source.",
+          oneLine: "R. Yochanan: if you derive from Sinai, there was no sprinkling at Sinai - so why do we sprinkle? RL counters that inauguration had blood not water. R. Yochanan invokes R. Chiyya ('water replaced blood'), leaving RL with no way to answer for Sinai's total absence of sprinkling.",
+          shortSummary: "The debate over the source of seven-day sequestering (inauguration vs. Sinai) hits a critical asymmetry: the inauguration included sprinkling, so R. Yochanan's derivation naturally accounts for today's practice. Reish Lakish's Sinai source had no sprinkling at all, so he cannot derive that practice from his source. A principle from R. Chiyya ('water replaced blood') resolves R. Yochanan's blood-vs-water problem, but RL has no analogous principle for 'no sprinkling vs. sprinkling.' He is left with no way to derive the sprinkling practice from Sinai - his concession, that it is a maaleh, opens the next passage.",
+          whats: "R. Yochanan presses Reish Lakish: if the seven-day separation derives from Sinai, there was no sprinkling at Sinai - so why do we sprinkle the sequestered priest today? RL counters that the inauguration derivation has its own problem: inauguration sprinkling was with blood, but today we use water. R. Yochanan invokes R. Chiyya's principle that water replaced blood as equivalent ritual media, bridging the medium shift cleanly. RL has no parallel bridge for Sinai (which had no sprinkling in any medium) - the exchange leaves him with nothing left to derive the sprinkling from, and his concession that it is a maaleh (a higher standard the Sages voluntarily adopted, not derivable from his source) opens the next passage.",
           hint: "R. Chiyya's 'water replaced blood' resolves R. Yochanan's problem cleanly but leaves RL with no equivalent. What does this tell us about how halacha handles changes in ritual medium vs. complete absence of a practice?"
         },
         learning: {
           learnerQuestion: "Both R. Yochanan and RL seem to have problems with sprinkling - why does RL end up conceding while R. Yochanan does not?",
           coreTension: "R. Yochanan's inauguration source had sprinkling (with blood); today we sprinkle with water. RL's Sinai source had no sprinkling at all. One is a medium-change problem; the other is a presence-vs-absence problem.",
           coreMove: "R. Chiyya's principle ('water replaced blood') resolves medium substitution but cannot conjure a practice that was never present. The asymmetry is fatal to RL's position on sprinkling.",
-          resolution: "RL concedes that the sprinkling cannot be derived from Sinai and calls it a maaleh. His underlying sequestering derivation from Sinai remains live - only the sprinkling is ungrounded for him.",
+          resolution: "R. Yochanan's argument leaves Reish Lakish with no way to derive the sprinkling practice from Sinai. His concession that it is a maaleh, and that his underlying sequestering derivation from Sinai remains live, opens the next passage.",
           takeaway: {
             type: "logical_principle",
             text: "Having the right bridging principle in reserve determines who wins a derivational argument. R. Yochanan wins not by generating a new argument but by citing R. Chiyya's established principle."
@@ -6301,28 +6301,13 @@ const DAF_CONTENT = {
             type: "challenge",
             label: "But at Sinai there was no sprinkling in any medium",
             speaker: "R. Yochanan",
-            text: "R. Chiyya's principle handles a medium change but cannot create a practice where none existed. At Sinai there was no sprinkling at all - not with blood, not with water. The problem for your derivation is not the medium but the complete absence.",
+            text: "R. Chiyya's principle handles a medium change but cannot create a practice where none existed. At Sinai there was no sprinkling at all - not with blood, not with water. This leaves Reish Lakish with no way to derive today's sprinkling practice from his own source.",
             sourceRefs: [
               {
                 sourceType: "gemara",
                 lineId: "yoma-004a-l06",
                 vilnaLine: 6,
                 note: "R. Yochanan presses: Sinai had no sprinkling in any form"
-              }
-            ]
-          },
-          {
-            id: "step-06",
-            type: "resolution",
-            label: "RL concedes: sprinkling is a maaleh",
-            speaker: "Reish Lakish",
-            text: "The Sages merely adopted sprinkling as a higher standard (maaleh). It is not derived from the Sinai source - it is a rabbinic enhancement, real and observed, but without derivational grounding from his source.",
-            sourceRefs: [
-              {
-                sourceType: "gemara",
-                lineId: "yoma-004a-l06",
-                vilnaLine: 6,
-                note: "RL's concession: maaleh b'alma"
               }
             ]
           }
@@ -6360,8 +6345,8 @@ const DAF_CONTENT = {
         misconceptions: [
           {
             misconception: "Reish Lakish's concession means his Sinai derivation for sequestering is rejected.",
-            correction: "RL only concedes that the sprinkling cannot be derived from Sinai. His core position - that the seven-day sequestering derives from Sinai - remains live and will be supported by a baraita in the next sugya.",
-            correctedByStepId: "step-06"
+            correction: "The exchange only leaves Reish Lakish unable to derive the sprinkling from Sinai; his core position - that the seven-day sequestering derives from Sinai - remains live and will be supported by a baraita in the next sugya.",
+            correctedByStepId: "step-05"
           },
           {
             misconception: "R. Chiyya's 'water replaced blood' was invented by R. Yochanan specifically for this argument.",
@@ -6388,7 +6373,7 @@ const DAF_CONTENT = {
         quizSeeds: [
           {
             question: "Why is R. Yochanan's position stronger than Reish Lakish's when it comes to explaining the water sprinkling of the sequestered priest?",
-            answer: "R. Yochanan derives from the inauguration, which included sprinkling. The medium shift (blood to water) is bridged by R. Chiyya's existing principle that water replaced blood. RL's Sinai source had no sprinkling in any medium, so he cannot derive the practice at all and must call it a maaleh.",
+            answer: "R. Yochanan derives from the inauguration, which included sprinkling. The medium shift (blood to water) is bridged by R. Chiyya's existing principle that water replaced blood. RL's Sinai source had no sprinkling in any medium, so he is left with no way to derive the practice at all.",
             sourceRefs: [
               {
                 sourceType: "gemara",
@@ -6404,7 +6389,7 @@ const DAF_CONTENT = {
           },
           {
             question: "What is the halakhic category of 'maaleh b'alma' and how does it differ from a derived obligation?",
-            answer: "A maaleh is an enhancement of holiness that the Sages voluntarily adopted beyond what is derivationally required. It is real and observed but cannot be extended by analogy in the same way as a derived obligation, and its mandatory force may differ in certain edge cases.",
+            answer: "A maaleh is an enhancement of holiness that the Sages voluntarily adopted beyond what is derivationally required. It is real and observed but cannot be extended by analogy in the same way as a derived obligation.",
             sourceRefs: [
               {
                 sourceType: "gemara",
@@ -6414,7 +6399,7 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        finalRuling: "No final ruling between inauguration and Sinai as the sequestering source is reached here. Reish Lakish concedes only that the sprinkling is a maaleh for him - his Sinai derivation for the sequestering itself continues into the next sugya. Practically, the sprinkling of both the KG and heifer priest throughout all seven days is an undisputed practice.",
+        finalRuling: "No final ruling between inauguration and Sinai as the sequestering source is reached here. Reish Lakish is left with no way to derive the sprinkling from Sinai - his own Sinai derivation for the sequestering itself continues into the next sugya. Practically, the sprinkling of both the KG and heifer priest throughout all seven days is an undisputed practice.",
         difficulty: "intermediate",
         alternateAngles: [],
         topicTags: [
@@ -6443,10 +6428,10 @@ const DAF_CONTENT = {
           endVilnaLine: 42
         },
         display: {
-          title: "Baraitot for Both Opinions; Bezot's Double Meaning; Moses in the Cloud",
-          oneLine: "A baraita for R. Yochanan: bezot points to inauguration; Aaron withdrew seven, Moses trained him; two Oral Torah scholars (not Sadducees) do the same annually. Bezot is feminine - derives both offerings and sequestering. Second verse extends to all generations. A baraita for RL: Moses in the cloud, sanctified to receive Torah. R. Yosi HaGalili: after Ten Commandments. R. Akiva: from Rosh Chodesh Sivan.",
-          shortSummary: "Both the inauguration and Sinai positions receive explicit baraita support. For R. Yochanan: the word bezot in Leviticus 16:3 ('with this Aaron will come') is grammatically feminine, but bull and ram (the nearby offerings) are both masculine - so the feminine signals it teaches something beyond the offerings: the inauguration context, where Aaron withdrew seven days and Moses taught him. Two Torah scholars transmit the service to the KG each year, explicitly excluding Sadducees whose incense procedure differed. A second verse ('as done this day') extends the obligation to all future generations. For Reish Lakish: a baraita confirms Moses was covered in cloud for six days at Sinai - a sanctification before receiving Torah. R. Yosi HaGalili says this was after the Ten Commandments; R. Akiva says it was before.",
-          whats: "The Gemara presents two baraitot, one supporting each position in the running dispute over the source of seven-day sequestering. The baraita for R. Yochanan derives everything from the word bezot ('with this') in Leviticus 16:3. The word is grammatically feminine, yet bull and ram (the following offerings) are both masculine nouns. This mismatch signals that bezot refers to something else - the inauguration context. In that context, Aaron withdrew for seven days and Moses trained him daily in the service. By parallel, two Torah scholars who follow Oral Torah tradition (explicitly not Sadducees, who followed a different incense procedure) transmit the Yom Kippur service to the KG each year. The feminine bezot therefore teaches two things at once: the specific offerings AND the seven-day sequestering requirement. A second verse is then needed: one might think the obligation only applied to Aaron's inaugural Yom Kippur. The verse 'as done this day, so God commanded to do, to make atonement' extends it to all future generations. A baraita for Reish Lakish: Moses ascended in the cloud, was covered by cloud, and was sanctified in cloud before receiving Torah. R. Yosi HaGalili places this after the Ten Commandments (the start of the forty-day Torah-receiving period); R. Akiva places it before the Commandments, beginning from Rosh Chodesh Sivan.",
+          title: "RL Concedes on Sprinkling; Baraitot for Both Opinions; Bezot's Double Meaning; Moses in the Cloud",
+          oneLine: "Reish Lakish concedes the sprinkling practice is a maaleh, not derivable from Sinai. A baraita for R. Yochanan: bezot points to inauguration; Aaron withdrew seven, Moses trained him; two Oral Torah scholars (not Sadducees) do the same annually. Bezot is feminine - derives both offerings and sequestering. Second verse extends to all generations. A baraita for RL: Moses in the cloud, sanctified to receive Torah. R. Yosi HaGalili: after Ten Commandments. R. Akiva: from Rosh Chodesh Sivan.",
+          shortSummary: "The passage opens with Reish Lakish's concession, closing the prior sugya's exchange: the sprinkling practice cannot be derived from Sinai and is a maaleh. Both the inauguration and Sinai positions then receive explicit baraita support. For R. Yochanan: the word bezot in Leviticus 16:3 ('with this Aaron will come') is grammatically feminine, but bull and ram (the nearby offerings) are both masculine - so the feminine signals it teaches something beyond the offerings: the inauguration context, where Aaron withdrew seven days and Moses taught him. Two Torah scholars transmit the service to the KG each year, explicitly excluding Sadducees whose incense procedure differed. A second verse ('as done this day') extends the obligation to all future generations. For Reish Lakish: a baraita confirms Moses was covered in cloud for six days at Sinai - a sanctification before receiving Torah. R. Yosi HaGalili says this was after the Ten Commandments; R. Akiva says it was before.",
+          whats: "The passage opens by closing the prior sugya's exchange: pressed that Sinai had no sprinkling in any medium, Reish Lakish concedes the sprinkling practice is a maaleh, not derivable from his source. The Gemara then presents two baraitot, one supporting each position in the running dispute over the source of seven-day sequestering. The baraita for R. Yochanan derives everything from the word bezot ('with this') in Leviticus 16:3. The word is grammatically feminine, yet bull and ram (the following offerings) are both masculine nouns. This mismatch signals that bezot refers to something else - the inauguration context. In that context, Aaron withdrew for seven days and Moses trained him daily in the service. By parallel, two Torah scholars who follow Oral Torah tradition (explicitly not Sadducees, who followed a different incense procedure) transmit the Yom Kippur service to the KG each year. The feminine bezot therefore teaches two things at once: the specific offerings AND the seven-day sequestering requirement. A second verse is then needed: one might think the obligation only applied to Aaron's inaugural Yom Kippur. The verse 'as done this day, so God commanded to do, to make atonement' - come and hear, the verse itself - extends it to all future generations. A baraita for Reish Lakish: Moses ascended in the cloud, was covered by cloud, and was sanctified in cloud before receiving Torah. R. Yosi HaGalili places this after the Ten Commandments (the start of the forty-day Torah-receiving period); R. Akiva places it before the Commandments, beginning from Rosh Chodesh Sivan.",
           hint: "Why does the baraita specify that the two scholars who train the KG must be 'students of Moses' and explicitly not Sadducees? What specific dispute required this exclusion?"
         },
         learning: {
@@ -6499,6 +6484,21 @@ const DAF_CONTENT = {
         argumentFlow: [
           {
             id: "step-01",
+            type: "answer",
+            label: "Reish Lakish concedes: sprinkling is a maaleh",
+            speaker: "Reish Lakish",
+            text: "Pressed that Sinai had no sprinkling in any medium, Reish Lakish concedes: the Sages merely adopted sprinkling as a higher standard (maaleh). It is not derived from the Sinai source - it is a rabbinic enhancement, real and observed, but without derivational grounding from his source.",
+            sourceRefs: [
+              {
+                sourceType: "gemara",
+                lineId: "yoma-004a-l09",
+                vilnaLine: 9,
+                note: "RL's concession: maaleh be'alma, concluding the exchange from the prior sugya"
+              }
+            ]
+          },
+          {
+            id: "step-02",
             type: "proof",
             label: "Baraita for R. Yochanan: bezot points to inauguration context",
             speaker: "Baraita",
@@ -6513,7 +6513,7 @@ const DAF_CONTENT = {
             ]
           },
           {
-            id: "step-02",
+            id: "step-03",
             type: "proof",
             label: "Two Torah scholars (not Sadducees) transmit to the KG annually",
             speaker: "Baraita",
@@ -6528,7 +6528,7 @@ const DAF_CONTENT = {
             ]
           },
           {
-            id: "step-03",
+            id: "step-04",
             type: "proof",
             label: "All mishna practices derive from here; water-for-blood applies",
             speaker: "Baraita",
@@ -6549,7 +6549,7 @@ const DAF_CONTENT = {
             ]
           },
           {
-            id: "step-04",
+            id: "step-05",
             type: "question",
             label: "Objection: bezot is needed for its face-value meaning (offerings)",
             speaker: "Gemara",
@@ -6564,7 +6564,7 @@ const DAF_CONTENT = {
             ]
           },
           {
-            id: "step-05",
+            id: "step-06",
             type: "answer",
             label: "Bezot is feminine - bull and ram are masculine; surplus signals double teaching",
             speaker: "Sages",
@@ -6579,10 +6579,10 @@ const DAF_CONTENT = {
             ]
           },
           {
-            id: "step-06",
+            id: "step-07",
             type: "answer",
             label: "Second verse extends obligation to all generations",
-            speaker: "Baraita",
+            speaker: "Gemara",
             text: "One might think: only Aaron's first Yom Kippur requires this preparation (since inauguration was Aaron's one-time consecration). The verse 'as done this day, so God commanded to do, to make atonement for you' extends the requirement forward to all generations and all future High Priests.",
             sourceRefs: [
               {
@@ -6590,11 +6590,17 @@ const DAF_CONTENT = {
                 lineId: "yoma-004a-l31",
                 vilnaLine: 31,
                 note: "'As done this day' - obligation for all generations"
+              },
+              {
+                sourceType: "gemara",
+                lineId: "yoma-004a-l35",
+                vilnaLine: 35,
+                note: "The resolving proof-text, 'come and hear: as he did'"
               }
             ]
           },
           {
-            id: "step-07",
+            id: "step-08",
             type: "proof",
             label: "Baraita for RL: Moses in cloud, covered, sanctified; R. Yosi HaGalili's dating",
             speaker: "Baraita",
@@ -6609,7 +6615,7 @@ const DAF_CONTENT = {
             ]
           },
           {
-            id: "step-08",
+            id: "step-09",
             type: "objection",
             label: "R. Akiva: cloud was from Rosh Chodesh Sivan, before the Ten Commandments",
             speaker: "R. Akiva",
@@ -6663,12 +6669,12 @@ const DAF_CONTENT = {
           {
             misconception: "The two baraitot resolve the dispute in favor of R. Yochanan since his baraita is more detailed.",
             correction: "Both baraitot provide support for their respective positions without refuting the other. The Gemara explicitly presents them in parallel ('a baraita for R. Yochanan; a baraita for RL'). More detail in R. Yochanan's baraita reflects more exposition, not a verdict.",
-            correctedByStepId: "step-01"
+            correctedByStepId: "step-02"
           },
           {
             misconception: "The R. Yosi HaGalili vs. R. Akiva dispute about when the cloud appeared is a tangential detail.",
             correction: "The timing of Moses' cloud-entry directly affects how RL's Sinai derivation functions. If it was after the Ten Commandments (RYGH), it is a pre-service sanctification. R. Akiva's view, which will be continued on 4b, reshapes the character of the Sinai preparation.",
-            correctedByStepId: "step-08"
+            correctedByStepId: "step-09"
           }
         ],
         relatedSugyot: [
@@ -6724,7 +6730,7 @@ const DAF_CONTENT = {
         finalRuling: "No final ruling between inauguration and Sinai is reached on this daf. Both positions receive baraita support. The practical halakha of seven-day sequestering with two Oral Torah scholar-guides (excluding Sadducees) is established by R. Yochanan's baraita and is undisputed in practice. The dispute about the source (and its implications) continues on 4b.",
         difficulty: "advanced",
         alternateAngles: [
-          "The 'exclusion of Sadducees' language in the baraita is not merely polemical - it defines who is qualified to transmit authoritative YK practice. Only those who stand in the Oral Torah chain can be trusted to teach the procedure correctly. This became a template for later disputes about halachic transmission authority."
+          "The 'exclusion of Sadducees' language in the baraita is not merely polemical - it defines who is qualified to transmit authoritative YK practice. Only those who stand in the Oral Torah chain can be trusted to teach the procedure correctly."
         ],
         topicTags: [
           "bezot-feminine",
