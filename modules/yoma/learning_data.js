@@ -4652,7 +4652,7 @@ const DAF_CONTENT = {
   "3b": {
     canonicalRef: "Yoma 3b",
     daf: "3b",
-    summary: "3b completes the 'kach lecha'/'aseh lecha' dispute over personal vs. communal property. R. Yoshiya holds both phrases mean personal property; R. Yonatan holds both are communal but God expresses a preference for Moses's personal contribution. Abba Chanan resolves the Ark contradiction not by grammar but by context - when Israel obeys God, the work is credited to them. The Gemara then shows that regardless of the general rule, the specific inauguration and YK passages contain explicit textual contrasts that prove personal property. Rav Ashi adds an independent exclusion: derive 'bull-chatat + ram-olah' from 'bull-chatat + ram-olah,' excluding RH and Shavuot where both offerings are olot. Ravina provides the most elegant solution: derive High Priest service from High Priest service. Rav Dimi reports that R. Yochanan derived only one case (YK) from the inauguration, while R. Yehoshua b. Levi derived two (heifer + YK). R. Yochanan treats heifer sequestering as purely rabbinic (a maaleh). Reish Lakish challenges the inauguration derivation - if YK is derived from inauguration, all inauguration details should be binding, yet the mishna uses 'matkin' (designate) not 'mafrishin' (remove) for the backup priest, showing sequestering is not indispensable. Reish Lakish reveals his own source: Sinai - the six days Moses was covered by cloud. The page ends with the obvious challenge: our mishna requires seven days, not six.",
+    summary: "3b completes the 'kach lecha'/'aseh lecha' dispute over personal vs. communal property. R. Yoshiya holds both phrases mean personal property; R. Yonatan holds both are communal but God expresses a preference for Moses's personal contribution. Abba Chanan resolves the Ark contradiction not by grammar but by context - when Israel obeys God, the work is credited to them. The Gemara then shows that regardless of the general rule, the specific inauguration and YK passages contain explicit textual contrasts that prove personal property. Rav Ashi adds an independent exclusion: derive 'bull-chatat + ram-olah' from 'bull-chatat + ram-olah,' excluding RH and Shavuot where both offerings are olot. A teaching of Ravina reaches the Gemara in two alternate transmitted versions ('ika de'amri'): derive High Priest service from High Priest service, or initial service in the place from initial service in the place - only one version is what Ravina actually said. Rav Dimi reports that R. Yochanan derived only one case (YK) from the inauguration, while R. Yehoshua b. Levi derived two (heifer + YK). R. Yochanan treats heifer sequestering as purely rabbinic (a maaleh). Reish Lakish challenges the inauguration derivation - if YK is derived from inauguration, all inauguration details should be binding, yet the mishna uses 'matkin' (designate) not 'mafrishin' (remove) for the backup priest, showing sequestering is not indispensable. Reish Lakish reveals his own source: Sinai - the six days Moses was covered by cloud. The page ends with the obvious challenge: our mishna requires seven days, not six.",
     sugyot: [
       {
         id: "yoma-003b-s01",
@@ -4688,7 +4688,7 @@ const DAF_CONTENT = {
           },
           ahaMoment: "The whole 'kach lecha' dispute becomes irrelevant because the verse in each case creates its own contrast: 'tell Israel to take a goat kid... and tell Aaron: take for yourself a calf.' The contrast is the proof - no general rule needed.",
           learningBlocker: "Students may think the Gemara must resolve the tannaitic dispute before proceeding. Instead it shows the dispute does not apply to these passages.",
-          memoryAnchor: "Both passages contrast a communal command with a personal one within the same verse. The contrast is the argument - it works even for the view that 'kach lecha' generally means communal.",
+          memoryAnchor: "Two different proof-patterns, neither within a single verse: Abba Chanan's ark texts (Deuteronomy 10:1 vs. Exodus 25:10) are far-apart verses; the inauguration's animal verses (Leviticus 9:2 to Aaron, 9:3 to Israel) are adjacent, in the same speech. Both contrast a personal command with a communal one - the contrast itself is the argument, working even for the view that 'kach lecha' generally means communal.",
           alternateAngles: [
             "Abba Chanan's contextual reading of the Ark contradiction is actually a different approach entirely - he abandons the grammatical question and asks: when does God credit Israel with shared work? Answer: when they are obeying. This is a theology of collaborative merit, not a property rule."
           ]
@@ -4836,7 +4836,7 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        finalRuling: "The bull and ram on Yom Kippur and at the inauguration must come from the Kohen Gadol's personal funds - proven by explicit textual contrast within each passage, independent of the disputed 'kach lecha' rule.",
+        finalRuling: "The bull (chatat) on Yom Kippur and at the inauguration must come from the Kohen Gadol's personal funds - proven by explicit textual contrast within each passage, independent of the disputed 'kach lecha' rule. The ram's personal-property status is not proven this way; it rests on a separate, structural argument (Rav Ashi, sugya 2).",
         difficulty: "advanced",
         alternateAngles: [],
         topicTags: [
@@ -4865,29 +4865,29 @@ const DAF_CONTENT = {
           endVilnaLine: 30
         },
         display: {
-          title: "Explicit derivation for Yom Kippur; Rav Ashi and Ravina's independent exclusions",
-          oneLine: "For YK, 'his bull' in the same verse as 'from the community' proves personal property. Rav Ashi adds: derive bull-chatat + ram-olah from bull-chatat + ram-olah. Ravina: derive High Priest service from High Priest service. Ravina's alternative: initial service in the holy place from initial service in the holy place.",
-          shortSummary: "Yom Kippur's explicit proof: Leviticus 16 mentions the community's goats and then adds 'his bull' (the contrast implies personal). Rav Ashi offers a structural exclusion: the inauguration and YK share a bull-chatat + ram-olah pair; RH and Shavuot don't - excluding them. Ravina's first version: only High Priest-restricted service can derive from inauguration-level service. Ravina's second version: initial service in the sanctuary from initial service in the sanctuary.",
-          whats: "Yom Kippur's proof: Leviticus 16 commands the KG to take two goats 'from the community' (for the people) and then says 'he shall bring his bull' - the word 'his' in the same verse as 'from the community' proves personal ownership. Rav Ashi offers another approach: derive from the structural matching of offering types: inauguration and YK both involve a bull-chatat + ram-olah combination. Rosh Hashana and Shavuot bring only olot (no chatat) - so they cannot be derived from the inauguration's chatat-olah pattern. Ravina (version 1): derive KG-restricted service from KG-restricted service. Since RH and Shavuot are not KG-exclusive services, none of the questions raised apply. Ravina (version 2): 'initial service in the place' - the Holy of Holies was entered for the first time on the eighth day and on Yom Kippur. This is the deepest criterion: it filters to these exact two occasions.",
-          hint: "Rav Ashi and Ravina offer independent arguments that work even without the personal-property derivation. What does the Gemara's preservation of all three approaches tell us?"
+          title: "Explicit derivation for Yom Kippur; Rav Ashi's exclusion and Ravina's teaching (two transmissions)",
+          oneLine: "For YK, 'his bull' in the same verse as 'from the community' proves personal property. Rav Ashi adds: derive bull-chatat + ram-olah from bull-chatat + ram-olah. A teaching of Ravina is transmitted in two versions - one holds he derived High-Priest service from High-Priest service; the other, that he derived initial service in the place from initial service in the place.",
+          shortSummary: "Yom Kippur's explicit proof: Leviticus 16 mentions the community's goats and then adds 'his bull' (the contrast implies personal). Rav Ashi offers a structural exclusion: the inauguration and YK share a bull-chatat + ram-olah pair; RH and Shavuot don't - excluding them. A teaching of Ravina reaches the Gemara in two alternate versions ('ika de'amri' - some say instead): one has him deriving High-Priest-restricted service from High-Priest-restricted service; the other has him deriving initial service in the sanctuary from initial service in the sanctuary. Only one of these is what Ravina actually said.",
+          whats: "Yom Kippur's proof: Leviticus 16 commands the KG to take two goats 'from the community' (for the people) and then says 'he shall bring his bull' - the word 'his' in the same verse as 'from the community' proves personal ownership. Rav Ashi offers another approach: derive from the structural matching of offering types: inauguration and YK both involve a bull-chatat + ram-olah combination. Rosh Hashana and Shavuot bring only olot (no chatat) - so they cannot be derived from the inauguration's chatat-olah pattern. A teaching of Ravina is then transmitted in two alternate versions, introduced by the standard 'ika de'amri' (some say instead) formula - a marker for a competing report of what one authority actually said, not a second teaching alongside the first. Version 1: derive KG-restricted service from KG-restricted service. Version 2: 'initial service in the place' - the Holy of Holies was entered for the first time on the eighth day and on Yom Kippur.",
+          hint: "Rav Ashi's argument and Ravina's teaching work even without the personal-property derivation. Why does the Gemara transmit Ravina's own teaching in two alternate versions instead of settling on one?"
         },
         learning: {
           learnerQuestion: "Why does the Gemara need three independent arguments (personal property, offering profile, High Priest service) when one would suffice?",
           coreTension: "Each argument has its own scope of exclusion - they don't all exclude exactly the same set of candidates. The question is whether they converge on the same correct answer by different paths.",
-          coreMove: "Each authority closes a different remaining loophole. The three arguments form a converging system: any calendar candidate that survives one criterion is caught by another.",
-          resolution: "All three approaches independently converge on the same answer: only Yom Kippur derives from the inauguration (for the Torah-level seven-day separation). They are preserved because each reveals a distinct dimension of why only YK qualifies.",
+          coreMove: "The personal-property proof and Rav Ashi's offering-profile argument are two independent lines of reasoning; Ravina's teaching is a third, but reaches the Gemara as two alternate reports of what he actually said, not two additional arguments stacked on top.",
+          resolution: "The personal-property proof and Rav Ashi's offering-profile argument each independently support excluding Rosh Hashana and Shavuot. Ravina's own teaching adds a third angle, but is preserved as two competing transmissions ('ika de'amri') of a single position - only one candidate version is what he actually held, not both simultaneously.",
           takeaway: {
             type: "logical_principle",
-            text: "Multiple independent derivations pointing to the same conclusion strengthen the ruling without requiring each one to be individually decisive. The convergence itself is evidence."
+            text: "Independent derivations from different authorities can reinforce the same conclusion without needing to be individually decisive - but a single teaching transmitted in two alternate versions ('ika de'amri') is not the same thing as two independent arguments; only one version is what the authority actually said."
           },
           reasoningPattern: {
             id: "converging_arguments",
             category: "logical",
-            notes: "Three independent authorities each derive the same exclusion through different hermeneutical lenses. The convergence validates the ruling."
+            notes: "Two independent authorities (the anonymous YK-verse proof and Rav Ashi) each derive the exclusion through a different hermeneutical lens; a third teaching from Ravina survives only as two alternate transmissions of one position, not a confirmed third independent derivation."
           },
           ahaMoment: "Ravina's 'initial service in the place' is the most precise criterion: it captures the uniqueness of both the eighth day and Yom Kippur (first services ever performed at their respective locations) without relying on offering profiles or priestly rank.",
           learningBlocker: "Students may wonder why three arguments are needed if one works. The Gemara preserves all three because each excludes different hypothetical extensions of the rule, and each illuminates a different dimension of what makes YK analogous to the inauguration.",
-          memoryAnchor: "Three lenses on the same exclusion: (1) personal property - the bull is 'his'; (2) offering profile - bull-chatat + ram-olah, not two olot; (3) High Priest only service - KG from KG, or inaugural service from inaugural service."
+          memoryAnchor: "Two independent lenses on the exclusion - personal property (the bull is 'his') and offering profile (bull-chatat + ram-olah, not two olot) - plus a third from Ravina, transmitted in two competing versions ('ika de'amri'): High-Priest-only service, or initial service in the place. Only one version is what Ravina actually said."
         },
         lines: [
           { id: "yoma-003b-l20", kind: "gemara", he: "בְּיוֹם הַכִּפּוּרִים מִכְּדֵי כְּתִיב:\n״בְּזֹאת יָבֹא אַהֲרֹן אֶל הַקֹּדֶשׁ בְּפַר בֶּן בָּקָר\nלְחַטָּאת וְגוֹ׳ ... וּמֵאֵת עֲדַת בְּנֵי יִשְׂרָאֵל יִקַּח\nשְׁנֵי שְׂעִירֵי עִזִּים לְחַטָּאת״. ״וְהִקְרִיב אֶת פַּר\nהַחַטָּאת אֲשֶׁר לוֹ״ לְמָה לִי? שְׁמַע מִינַּהּ: הַאי ״לוֹ״\n— מִשֶּׁלּוֹ הוּא.",
@@ -4937,9 +4937,9 @@ const DAF_CONTENT = {
           {
             id: "step-03",
             type: "proof",
-            label: "Ravina v.1: High Priest service from High Priest service",
+            label: "Ravina (one version): High Priest service from High Priest service",
             speaker: "Ravina",
-            text: "Derive High Priest-restricted service (YK) from High Priest-restricted service (inauguration) - excluding all the other candidates, whose service may be performed by any kohen.",
+            text: "One transmission of Ravina's teaching: derive High Priest-restricted service (YK) from High Priest-restricted service (inauguration) - excluding all the other candidates, whose service may be performed by any kohen.",
             sourceRefs: [
               {
                 sourceType: "gemara",
@@ -4952,9 +4952,9 @@ const DAF_CONTENT = {
           {
             id: "step-04",
             type: "proof",
-            label: "Ravina v.2: initial service in the place",
+            label: "Ravina (alternate version, 'ika de'amri'): initial service in the place",
             speaker: "Ravina (alternate version)",
-            text: "Derive initial service in the sacred place (first entry into the Holy of Holies on YK) from initial service in the sacred place (first service at the Tabernacle on the eighth day) - the most precise criterion.",
+            text: "The alternate transmission ('ika de'amri' - some say instead) of Ravina's teaching: derive initial service in the sacred place (first entry into the Holy of Holies on YK) from initial service in the sacred place (first service at the Tabernacle on the eighth day).",
             sourceRefs: [
               {
                 sourceType: "gemara",
@@ -4982,8 +4982,8 @@ const DAF_CONTENT = {
         ],
         misconceptions: [
           {
-            misconception: "The Gemara is being repetitive by giving three independent answers to the same question.",
-            correction: "Each argument excludes a slightly different set of hypothetical extensions. Rav Ashi's offering-profile argument would not have worked to exclude Shemini Atzeret (which has a similar offering); Ravina's 'KG service' and 'initial service in the place' arguments close different remaining gaps.",
+            misconception: "The Gemara gives three independent, simultaneously-held arguments for the same exclusion.",
+            correction: "Two are independent (the personal-property contrast and Rav Ashi's offering-profile argument). The third, from Ravina, is transmitted in two alternate versions via the 'ika de'amri' formula - a marker for competing reports of a single position, not two additional proofs. Only one version is what Ravina actually held.",
             correctedByStepId: "step-04"
           }
         ],
@@ -5027,7 +5027,7 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        finalRuling: "Yom Kippur is the sole calendar event whose seven-day separation requirement derives from the inauguration at Torah level, established by three independent arguments: personal property contrast, offering-profile matching, and High Priest/inaugural service restriction.",
+        finalRuling: "Yom Kippur is the sole calendar event whose seven-day separation requirement derives from the inauguration at Torah level, established by the personal-property contrast, Rav Ashi's offering-profile argument, and a teaching of Ravina transmitted in two alternate versions.",
         difficulty: "advanced",
         alternateAngles: [],
         topicTags: [
@@ -5131,8 +5131,8 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-003b-l40",
-                vilnaLine: 40,
+                lineId: "yoma-003b-l41",
+                vilnaLine: 41,
                 note: "R. Yochanan: 'maaleh be'alma'"
               }
             ]
@@ -5157,7 +5157,7 @@ const DAF_CONTENT = {
             type: "resolution",
             label: "That was his teacher R. Yishmael's view",
             speaker: "Gemara",
-            text: "That transmission was his teacher's opinion - R. Yishmael. When Ravin came from Israel, he clarified that R. Yochanan personally taught one case, in the name of R. Yishmael.",
+            text: "The two-case ruling cited in R. Yochanan's name was really his teacher R. Yishmael's view. Ravin later clarified: R. Yochanan personally held one case; the two-case teaching he had transmitted was in the name of R. Yishmael.",
             sourceRefs: [
               {
                 sourceType: "gemara",
@@ -5215,8 +5215,8 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-003b-l40",
-                vilnaLine: 40
+                lineId: "yoma-003b-l41",
+                vilnaLine: 41
               }
             ]
           },
