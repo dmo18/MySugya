@@ -49,23 +49,11 @@ def test_prerequisite_knowledge_passthrough():
     B.LEARN_DIR = dest / "assets" / "learning" / "yoma"
     B.TALMUDDEV_DIR = dest / "assets" / "talmuddev"
 
-    # Establish a known-absent precondition on the disposable copy rather than
-    # assuming the real corpus's current daf 2a sugyot happen to lack this
-    # optional field -- that assumption is fragile against ordinary content
-    # edits (e.g. a semantic repair legitimately adding prerequisiteKnowledge
-    # to daf 2a sugyot) and is not itself part of what this test proves. The
-    # whole-daf entry concatenates every sugya, so every sugya's field must be
-    # cleared, not just the targeted sugya[0].
-    learn_path = B.LEARN_DIR / "2a.learning.json"
-    doc = json.loads(learn_path.read_text())
-    for s in doc["sugyot"]:
-        s.pop("prerequisiteKnowledge", None)
-    learn_path.write_text(json.dumps(doc, ensure_ascii=False, indent=2))
-
     entry_before = B.build_daf_entry("2a")
     check("absent prerequisiteKnowledge stays absent (not fabricated)",
           "prerequisiteKnowledge" not in entry_before)
 
+    learn_path = B.LEARN_DIR / "2a.learning.json"
     doc = json.loads(learn_path.read_text())
     synthetic = ["Familiarity with the seven-day Parhedrin separation rule.",
                  "Basic structure of the Yom Kippur Kohen Gadol service."]
