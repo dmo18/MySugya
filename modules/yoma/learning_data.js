@@ -2680,8 +2680,8 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-002b-l11",
-                vilnaLine: 11,
+                lineId: "yoma-002b-l12",
+                vilnaLine: 12,
                 note: "Practical objection"
               }
             ]
@@ -2725,8 +2725,8 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-002b-l12",
-                vilnaLine: 12,
+                lineId: "yoma-002b-l16",
+                vilnaLine: 16,
                 note: "Proposal: Festival service"
               }
             ]
@@ -2763,7 +2763,7 @@ const DAF_CONTENT = {
         ],
         visualizableElements: [
           {
-            item: "Elimination flowchart: atonement offerings (no fixed annual date, excluded) -> Festivals (three times a year, excluded) -> only Yom Kippur remains",
+            item: "Elimination flowchart: atonement offerings (no fixed annual date, excluded) -> Festivals (three times a year, excluded)",
             role: "sequence",
             priority: 1
           },
@@ -2780,8 +2780,8 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-002b-l11",
-                vilnaLine: 11
+                lineId: "yoma-002b-l12",
+                vilnaLine: 12
               }
             ]
           },
@@ -2823,7 +2823,7 @@ const DAF_CONTENT = {
           endVilnaLine: 22
         },
         display: {
-          title: "Excluding one Festival and Shemini Atzeret: the decisive principle",
+          title: "Excluding a single Festival: seven-for-one cannot become seven-for-seven",
           oneLine: "Even a single Festival is excluded - Festivals span seven days while the inauguration was preparation for a single culminating day. Seven-for-one cannot derive seven-for-seven.",
           shortSummary: "What if one Festival qualifies - perhaps Passover (listed first in the Torah) or Sukkot (most offerings)? The Gemara cuts this off with a structural principle: the inauguration involved seven days of preparation for one culminating day. But Festival service itself spans seven days. You cannot derive a 'seven days for one day' rule and apply it to a 'seven days for seven days' situation.",
           whats: "What if one Festival qualifies - perhaps Passover (listed first in the Torah) or Sukkot (most offerings)? The Gemara cuts this off with a structural principle: the milu'im involved seven days of preparation for a single culminating day of service. Yom Kippur matches that exactly. But the Festivals themselves span seven days - you cannot derive a 'seven for one' rule and apply it to a 'seven for seven' situation.",
@@ -2868,6 +2868,12 @@ const DAF_CONTENT = {
                 lineId: "yoma-002b-l19",
                 vilnaLine: 19,
                 note: "Proposal: one Festival"
+              },
+              {
+                sourceType: "gemara",
+                lineId: "yoma-002b-l22",
+                vilnaLine: 22,
+                note: "Sukkot's 'most commandments' clause"
               }
             ]
           },
