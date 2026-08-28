@@ -2372,6 +2372,12 @@ const DAF_CONTENT = {
                 lineId: "yoma-002b-l01",
                 vilnaLine: 1,
                 note: "Rejection: before vs. after"
+              },
+              {
+                sourceType: "gemara",
+                lineId: "yoma-002b-l04",
+                vilnaLine: 4,
+                note: "The determinative 'tzivah after performance' contrast"
               }
             ]
           },
@@ -2630,7 +2636,7 @@ const DAF_CONTENT = {
           learnerQuestion: "Why can't the separation rule apply to all atonement offerings, or at least to Festival service?",
           coreTension: "The 'to atone' phrase in the inauguration is broad - how to limit it without an explicit verse? Two different principles are needed for two different candidate categories.",
           coreMove: "Daily offerings are excluded by 'fixed time'; Festivals are excluded by 'once a year.' The criteria are distinct because the failure modes differ.",
-          resolution: "The inauguration was a unique, once-a-year event with a fixed date. Only Yom Kippur shares both features simultaneously.",
+          resolution: "The inauguration was a unique, once-a-year event with a fixed annual date - general atonement offerings fail on the first count (no fixed date), Festivals collectively fail on the second (three times a year, not once). Which specific candidate or candidates share both features is narrowed further in the sugyot that follow.",
           takeaway: {
             type: "legal_principle",
             text: "When deriving rules by analogy, every feature of the source case must be matched. The inauguration was both time-fixed and once-a-year; daily offerings fail on the first, Festivals on the second."
@@ -2668,6 +2674,12 @@ const DAF_CONTENT = {
                 lineId: "yoma-002b-l11",
                 vilnaLine: 11,
                 note: "Proposal: all atonement offerings"
+              },
+              {
+                sourceType: "gemara",
+                lineId: "yoma-002b-l12",
+                vilnaLine: 12,
+                note: "The proposal's actual content, 'atonement of the offerings'"
               }
             ]
           },
@@ -2713,6 +2725,12 @@ const DAF_CONTENT = {
                 lineId: "yoma-002b-l12",
                 vilnaLine: 12,
                 note: "Fixed-time principle"
+              },
+              {
+                sourceType: "gemara",
+                lineId: "yoma-002b-l16",
+                vilnaLine: 16,
+                note: "The exclusion's determinative clause, 'offerings occur every day'"
               }
             ]
           },
@@ -2833,7 +2851,7 @@ const DAF_CONTENT = {
           learnerQuestion: "What's wrong with requiring separation before just one Festival, say Passover?",
           coreTension: "A Festival occurs only once a year, matching that criterion - but the structural shape of Festival service is fundamentally different from Yom Kippur.",
           coreMove: "The analogy requires not just temporal frequency but structural matching: seven days of preparation for a single-day service.",
-          resolution: "Festival service spans seven days; the inauguration's eight-day sequence culminated in one day of service. Only Yom Kippur, a single day of service, matches the structural model.",
+          resolution: "Festival service spans seven days; the inauguration's eight-day sequence culminated in one day of service, so a single Festival cannot match that structural model. Shemini Atzeret shares this same seven-for-one shape and is excluded only later, on a different ground (the sanctity of its preceding days).",
           takeaway: {
             type: "derivation_principle",
             text: "A gezerah shavah or hekkesh must match not only the temporal frequency of the source case but its structural shape. Preparation for a seven-day service is categorically different from preparation for a one-day service."
