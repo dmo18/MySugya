@@ -318,18 +318,18 @@
           ]
         },
         {
-          "question": "Why were only stone, dung, and earth vessels used for the parah adumah service?",
-          "answer": "These materials cannot become ritually impure under Torah law - not to prevent the ritual from being invalidated (a tvul yom is valid regardless), but so that the deliberate use of a tvul yom would not breed contempt for the parah's purity standards.",
+          "question": "What second 'seven-day separation before a Temple service' rule does the Gemara cite from the Mishnah in Parah, and how does it parallel our Mishnah's rule?",
+          "answer": "The kohen who burns the parah adumah is also separated seven days beforehand, to a chamber called Lishkat Beit HaEven, facing the Bira to the northeast - paralleling the Kohen Gadol's Parhedrin separation. The Gemara sets both cases side by side before deriving both from a single verse later in the daf.",
           "sourceRefs": [
             {
               "sourceType": "gemara",
               "lineId": "yoma-002a-l08",
-              "vilnaLine": 13
+              "vilnaLine": 8
             }
           ]
         }
       ],
-      "finalRuling": "The parah adumah priest was sequestered for seven days in the northeast Stone House chamber, using only vessels that cannot become tamei.",
+      "finalRuling": "The parah kohen is separated seven days beforehand to the Lishkat Beit HaEven, named for its dung, stone, and earth vessels.",
       "difficulty": "intro",
       "alternateAngles": [],
       "review": {
@@ -745,7 +745,7 @@
           "type": "proposal",
           "label": "Rabbi Yohanan: specific named place",
           "speaker": "Rabbi Yohanan (via Rabba bar bar Chana)",
-          "text": "There was a specific place on the Temple Mount called 'bira'; the Stone House was adjacent to it.",
+          "text": "There was a specific place on the Temple Mount called 'bira'.",
           "sourceRefs": [
             {
               "sourceType": "gemara",
