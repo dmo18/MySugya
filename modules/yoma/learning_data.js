@@ -2900,19 +2900,13 @@ const DAF_CONTENT = {
             type: "rejection",
             label: "Seven-for-one principle",
             speaker: "Gemara",
-            text: "We derive sequestering for seven days prior to a one-day service from sequestering for seven days prior to a one-day service. We do not derive sequestering before a seven-day service from sequestering before a one-day service.",
+            text: "We derive sequestering seven days for a one-day service from sequestering seven days for a one-day service - the inauguration's model requires an exact match. A Festival's own service spans seven days, not one, so it cannot be derived from this model.",
             sourceRefs: [
               {
                 sourceType: "gemara",
                 lineId: "yoma-002b-l22",
                 vilnaLine: 22,
                 note: "Seven-for-one principle"
-              },
-              {
-                sourceType: "gemara",
-                lineId: "yoma-002b-l23",
-                vilnaLine: 23,
-                note: "The exclusion's determinative clause, completing the seven-for-one/seven-for-seven contrast"
               }
             ]
           }
@@ -3010,7 +3004,7 @@ const DAF_CONTENT = {
           },
           ahaMoment: "Rav Ashi's argument is elegant: he sidesteps the dispute about whether Shemini Atzeret is independent or an extension. Either way, Sukkot needs no separation - and that makes Shemini Atzeret's claim to require separation untenable on any reading.",
           learningBlocker: "Students may find the kal va-chomer compelling and wonder why 'like this day' overrides it. The Gemara is applying a rule that explicit verse-based limitations trump inference.",
-          memoryAnchor: "Rav Ashi's rule: if the main Festival needs no preparation, the day appended to it cannot require preparation. The less cannot be stricter than the more. The verse 'as on this day' then closes the door on the kal va-chomer entirely."
+          memoryAnchor: "Two independent rejections of the kal va-chomer: Rav Mesharshiya reads the verse's 'kazeh' (like this day), not 'hazeh' (this day), as limiting the rule to a case exactly like the inauguration - more sanctity does not extend it. Separately, Rav Ashi argues the primary Festival itself needs no separation, so its appendage cannot be stricter - the less cannot be stricter than the more."
         },
         lines: [
           { id: "yoma-002b-l23", kind: "gemara", he: "וְאֵימָא\nשְׁמִינִי, דִּפְרִישַׁת שִׁבְעָה לְיוֹם אֶחָד הוּא! דָּנִין דָּבָר שֶׁאֵין קְדוּשָּׁה לְפָנָיו מִדָּבָר\nשֶׁאֵין קְדוּשָּׁה לְפָנָיו, וְאֵין דָּנִין דָּבָר שֶׁיֵּשׁ קְדוּשָּׁה לְפָנָיו מִדָּבָר שֶׁאֵין קְדוּשָּׁה\nלְפָנָיו.",
