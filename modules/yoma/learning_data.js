@@ -6582,7 +6582,7 @@ const DAF_CONTENT = {
             id: "step-07",
             type: "answer",
             label: "Second verse extends obligation to all generations",
-            speaker: "Baraita",
+            speaker: "Gemara",
             text: "One might think: only Aaron's first Yom Kippur requires this preparation (since inauguration was Aaron's one-time consecration). The verse 'as done this day, so God commanded to do, to make atonement for you' extends the requirement forward to all generations and all future High Priests.",
             sourceRefs: [
               {
