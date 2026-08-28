@@ -2,16 +2,15 @@
   "schemaVersion": "1.0",
   "type": "semantic-daf-repair",
   "module": "yoma",
-  "daf": "2a",
+  "daf": "2b",
   "sugyaIds": [
-    "yoma-002a-s01",
-    "yoma-002a-s02",
-    "yoma-002a-s03",
-    "yoma-002a-s04",
-    "yoma-002a-s05",
-    "yoma-002a-s06"
+    "yoma-002b-s01",
+    "yoma-002b-s02",
+    "yoma-002b-s03",
+    "yoma-002b-s04",
+    "yoma-002b-s05"
   ],
-  "firstReviewId": "campaign-2a-final-aac7cf87b4",
+  "firstReviewId": "campaign-2b-final-a2036be518",
   "policy": {
     "sourceFirst": true,
     "independentSecondPassRequired": true,
