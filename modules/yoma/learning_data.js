@@ -3601,7 +3601,7 @@ const DAF_CONTENT = {
   "3a": {
     canonicalRef: "Yoma 3a",
     daf: "3a",
-    summary: "The daf opens with the paze\"r kashe\"v mnemonic that encapsulates Shemini Atzeret's six points of independence from Sukkot - though for compensation offerings it still counts as Sukkot's final day. The Gemara then systematically excludes the remaining Festival candidates from the gezerah shavah: Shavuot is ruled out because its mussaf includes two rams rather than one, and even by R. Eliezer b. R. Shimon's count the two rams serve different purposes. Rosh Hashana is excluded because the bull and ram on Yom Kippur must come from the Kohen Gadol's personal funds, while those on Rosh Hashana and Shavuot come from community property. The daf closes mid-discussion with the unresolved question of how to handle the opinion that 'kach lecha' and 'aseh lecha' both mean communal property.",
+    summary: "The daf opens with the paze\"r kashe\"v mnemonic that encapsulates Shemini Atzeret's six points of independence from Sukkot - though for compensation offerings it still counts as Sukkot's final day. The Gemara then systematically excludes the remaining Festival candidates from the gezerah shavah: Shavuot is ruled out because it brings two rams while Yom Kippur and the inauguration each have one bull and one ram; even under R. Eliezer b. R. Shimon's view that Yom Kippur itself has two rams, Yom Kippur's two rams serve different purposes (day-obligation and mussaf), while Shavuot's two rams both serve the same purpose, so the mismatch survives. Rosh Hashana is then excluded because its bull and ram come from communal funds, while Yom Kippur's and the inauguration's come from the Kohen Gadol's personal property. The daf closes mid-question, testing whether this personal-property criterion still holds under a reading of 'kach lecha' that does not restrict it to personal funds; the resolution continues on 3b.",
     sugyot: [
       {
         id: "yoma-003a-s01",
@@ -3617,7 +3617,7 @@ const DAF_CONTENT = {
         display: {
           title: "Paze\"r Kashe\"v: Shemini Atzeret's six points of independence",
           oneLine: "The mnemonic paze\"r kashe\"v lists six ways Shemini Atzeret is independent of Sukkot, yet for compensation offerings it still counts as the final day of Sukkot - which is precisely why it was excluded from the gezerah shavah.",
-          shortSummary: "Rashi from 2b continues with Rav Ashi's argument, and the Gemara then presents the mnemonic summarizing Shemini Atzeret's six-fold independence: its own lottery, shehecheyanu blessing, festival status, mussaf count, Levitical song, and prayer addition. Despite all six, Shemini Atzeret still counts as the last day of Sukkot for tashlumin (compensation offerings) - confirming it is preceded by holy days and cannot be the source of the separation rule.",
+          shortSummary: "The daf continues Rav Ashi's statement from 2b with the mnemonic paze\"r kashe\"v, summarizing Shemini Atzeret's six-fold independence: its own lottery, shehecheyanu blessing, festival status, mussaf count, Levitical song, and prayer addition. Despite all six, Shemini Atzeret still counts as the last day of Sukkot for tashlumin (compensation offerings) - confirming it is preceded by holy days and cannot be the source of the separation rule.",
           whats: "The mnemonic paze\"r kashe\"v lists six respects in which Shemini Atzeret is treated as an independent Festival: its own lottery for priests, its own shehecheyanu blessing, its own Festival status, its own korban count, its own Levitical song, and its own prayer addition. Yet when it comes to tashlumin - compensation for a missed Festival offering - Shemini Atzeret is still counted as the last day of Sukkot. This dual status (independent in most ways, yet an extension for tashlumin) is what disqualifies it from the gezerah shavah: Shemini Atzeret is preceded by seven holy days, not by ordinary weekdays.",
           hint: "Why does tashlumin status not contradict Shemini Atzeret's independence in the other six respects?"
         },
@@ -3813,8 +3813,8 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-003a-l04",
-                vilnaLine: 4,
+                lineId: "yoma-003a-l07",
+                vilnaLine: 7,
                 note: "R. Abba's offering count argument"
               }
             ]
@@ -3883,8 +3883,8 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-003a-l04",
-                vilnaLine: 4
+                lineId: "yoma-003a-l07",
+                vilnaLine: 7
               }
             ]
           },
@@ -3946,7 +3946,7 @@ const DAF_CONTENT = {
             category: "hermeneutical",
             notes: "A new criterion - personal vs. communal property source - is added to the analogy requirements."
           },
-          ahaMoment: "Every earlier exclusion was about the structure of the service (before/after, frequency, duration, sanctity of preceding days). R. Abbahu shifts to the economics of the offering itself - whose property it is. This is a fundamentally different category of criterion.",
+          ahaMoment: "R. Abba's exclusion of Shavuot was already about the offering itself (ram count and function); R. Abbahu's exclusion of Rosh Hashana stays in that same offering-based territory but adds a new dimension - not what the offering is, but whose property it comes from.",
           learningBlocker: "Students may not understand why property source matters for a gezerah shavah. The link is that 'take for yourself' is a specific legal phrase indicating personal ownership, which is part of the inaugurational context being analyzed.",
           memoryAnchor: "The bull and ram on Yom Kippur and at the inauguration come from the High Priest's own pocket. Rosh Hashana's offerings are communal. Personal ownership is the final link in the analogy chain."
         },
@@ -3964,7 +3964,7 @@ const DAF_CONTENT = {
             type: "proposal",
             label: "Rosh Hashana as candidate",
             speaker: "Gemara",
-            text: "And say the separation is required before Rosh Hashana - also sequestering of seven days for one day, preceded by weekdays, with a bull and a ram.",
+            text: "And say the separation is required before Rosh Hashana - also sequestering of seven days for one day, preceded by weekdays.",
             sourceRefs: [
               {
                 sourceType: "gemara",
