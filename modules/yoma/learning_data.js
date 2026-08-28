@@ -673,17 +673,10 @@ const DAF_CONTENT = {
             id: "place.lishkat_beit_ha_even",
             label: "Chamber of the Stone House",
             scope: "tractate"
-          },
-          {
-            id: "concept.tumat_kelim",
-            label: "Ritual impurity of vessels",
-            scope: "global"
           }
         ],
         requiresUnderstanding: [],
-        prerequisiteKnowledge: [
-          "Stone, earth, and dung vessels cannot become tamei under Torah law (they are not considered 'kli' for purity purposes)."
-        ],
+        prerequisiteKnowledge: [],
         misconceptions: [
           {
             misconception: "The parah adumah case is a digression before the main topic.",
@@ -732,7 +725,6 @@ const DAF_CONTENT = {
           "parah-adumah",
           "stone-house-chamber",
           "temple-geography",
-          "ritual-purity",
           "seven-day-separation"
         ],
         review: {
@@ -1100,8 +1092,8 @@ const DAF_CONTENT = {
           title: "What does 'bira' mean? Rabbi Yohanan vs. Reish Lakish",
           oneLine: "Rabbi Yohanan says 'bira' was a specific named spot on the Temple Mount; Reish Lakish says it means the entire Temple complex, citing David's prayer in Chronicles.",
           shortSummary: "A brief lexical debate about the word 'bira' from the Para mishna. Rabbi Yohanan holds it was a specific named location on the Temple Mount. Reish Lakish holds it means the whole Temple, citing David's description of the future Temple as 'the bira I have prepared.'",
-          whats: "The Gemara pauses to clarify the word 'bira' from the Para mishna. Rabbi Yohanan: it was a specific location on the Temple Mount with that name, used as a geographic landmark. Reish Lakish: 'bira' means the entire Temple compound, citing David's prayer in Chronicles where he calls the future Temple 'the bira I have prepared.' The practical difference is how one reads 'bira' each time it appears elsewhere in Mishnaic and Talmudic geography - as a proper name or as a category.",
-          hint: "This looks like a minor geography dispute. What does each position imply about how the Sages understood the Temple's layout?"
+          whats: "The Gemara pauses to clarify the word 'bira' from the Para mishna, which spoke of the chamber as 'facing the bira.' Rabbi Yohanan: it was a specific location on the Temple Mount with that name, used as a geographic landmark. Reish Lakish: 'bira' means the entire Temple compound, citing David's prayer in Chronicles where he calls the future Temple 'the bira I have prepared.' The dispute is left as an open definitional question, with no stated practical consequence.",
+          hint: "This looks like a minor geography dispute. Is 'bira' a landmark's proper name, or a general term for the whole Temple?"
         },
         learning: {
           learnerQuestion: "Does it matter whether 'bira' was a specific spot or the whole Temple? What turns on this lexical question?",
