@@ -76,6 +76,12 @@
        "lineId": "yoma-002b-l01",
        "vilnaLine": 1,
        "note": "Rejection: before vs. after"
+      },
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-002b-l04",
+       "vilnaLine": 4,
+       "note": "The determinative 'tzivah after performance' contrast"
       }
      ]
     },
@@ -342,7 +348,7 @@
     "learnerQuestion": "Why can't the separation rule apply to all atonement offerings, or at least to Festival service?",
     "coreTension": "The 'to atone' phrase in the inauguration is broad - how to limit it without an explicit verse? Two different principles are needed for two different candidate categories.",
     "coreMove": "Daily offerings are excluded by 'fixed time'; Festivals are excluded by 'once a year.' The criteria are distinct because the failure modes differ.",
-    "resolution": "The inauguration was a unique, once-a-year event with a fixed date. Only Yom Kippur shares both features simultaneously.",
+    "resolution": "The inauguration was a unique, once-a-year event with a fixed annual date - general atonement offerings fail on the first count (no fixed date), Festivals collectively fail on the second (three times a year, not once). Which specific candidate or candidates share both features is narrowed further in the sugyot that follow.",
     "takeaway": {
      "type": "legal_principle",
      "text": "When deriving rules by analogy, every feature of the source case must be matched. The inauguration was both time-fixed and once-a-year; daily offerings fail on the first, Festivals on the second."
@@ -369,6 +375,12 @@
        "lineId": "yoma-002b-l11",
        "vilnaLine": 11,
        "note": "Proposal: all atonement offerings"
+      },
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-002b-l12",
+       "vilnaLine": 12,
+       "note": "The proposal's actual content, 'atonement of the offerings'"
       }
      ]
     },
@@ -381,8 +393,8 @@
      "sourceRefs": [
       {
        "sourceType": "gemara",
-       "lineId": "yoma-002b-l11",
-       "vilnaLine": 11,
+       "lineId": "yoma-002b-l12",
+       "vilnaLine": 12,
        "note": "Practical objection"
       }
      ]
@@ -407,13 +419,19 @@
      "type": "rejection",
      "label": "Fixed time principle",
      "speaker": "Gemara",
-     "text": "We derive a time-fixed matter (the inauguration) from another time-fixed matter (Yom Kippur). Daily offerings occur every day - they have no fixed annual time.",
+     "text": "We derive a time-fixed matter (Yom Kippur) from another time-fixed matter (the inauguration). Daily offerings occur every day - they have no fixed annual time.",
      "sourceRefs": [
       {
        "sourceType": "gemara",
        "lineId": "yoma-002b-l12",
        "vilnaLine": 12,
        "note": "Fixed-time principle"
+      },
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-002b-l16",
+       "vilnaLine": 16,
+       "note": "The exclusion's determinative clause, 'offerings occur every day'"
       }
      ]
     },
@@ -426,8 +444,8 @@
      "sourceRefs": [
       {
        "sourceType": "gemara",
-       "lineId": "yoma-002b-l12",
-       "vilnaLine": 12,
+       "lineId": "yoma-002b-l16",
+       "vilnaLine": 16,
        "note": "Proposal: Festival service"
       }
      ]
@@ -437,7 +455,7 @@
      "type": "rejection",
      "label": "Once-a-year principle",
      "speaker": "Gemara",
-     "text": "We derive what occurs once a year (the inauguration) from what occurs once a year (Yom Kippur). Festivals occur three times a year.",
+     "text": "We derive what occurs once a year (Yom Kippur) from what occurs once a year (the inauguration). Festivals occur three times a year.",
      "sourceRefs": [
       {
        "sourceType": "gemara",
@@ -464,7 +482,7 @@
    ],
    "visualizableElements": [
     {
-     "item": "Elimination flowchart: atonement offerings (no fixed annual date, excluded) -> Festivals (three times a year, excluded) -> only Yom Kippur remains",
+     "item": "Elimination flowchart: atonement offerings (no fixed annual date, excluded) -> Festivals (three times a year, excluded)",
      "role": "sequence",
      "priority": 1
     },
@@ -481,8 +499,8 @@
      "sourceRefs": [
       {
        "sourceType": "gemara",
-       "lineId": "yoma-002b-l11",
-       "vilnaLine": 11
+       "lineId": "yoma-002b-l12",
+       "vilnaLine": 12
       }
      ]
     },
@@ -530,7 +548,7 @@
     }
    ],
    "display": {
-    "title": "Excluding one Festival and Shemini Atzeret: the decisive principle",
+    "title": "Excluding a single Festival: seven-for-one cannot become seven-for-seven",
     "oneLine": "Even a single Festival is excluded - Festivals span seven days while the inauguration was preparation for a single culminating day. Seven-for-one cannot derive seven-for-seven.",
     "shortSummary": "What if one Festival qualifies - perhaps Passover (listed first in the Torah) or Sukkot (most offerings)? The Gemara cuts this off with a structural principle: the inauguration involved seven days of preparation for one culminating day. But Festival service itself spans seven days. You cannot derive a 'seven days for one day' rule and apply it to a 'seven days for seven days' situation.",
     "whats": "What if one Festival qualifies - perhaps Passover (listed first in the Torah) or Sukkot (most offerings)? The Gemara cuts this off with a structural principle: the milu'im involved seven days of preparation for a single culminating day of service. Yom Kippur matches that exactly. But the Festivals themselves span seven days - you cannot derive a 'seven for one' rule and apply it to a 'seven for seven' situation.",
@@ -540,7 +558,7 @@
     "learnerQuestion": "What's wrong with requiring separation before just one Festival, say Passover?",
     "coreTension": "A Festival occurs only once a year, matching that criterion - but the structural shape of Festival service is fundamentally different from Yom Kippur.",
     "coreMove": "The analogy requires not just temporal frequency but structural matching: seven days of preparation for a single-day service.",
-    "resolution": "Festival service spans seven days; the inauguration's eight-day sequence culminated in one day of service. Only Yom Kippur, a single day of service, matches the structural model.",
+    "resolution": "Festival service spans seven days; the inauguration's eight-day sequence culminated in one day of service, so a single Festival cannot match that structural model. Shemini Atzeret shares this same seven-for-one shape and is excluded only later, on a different ground (the sanctity of its preceding days).",
     "takeaway": {
      "type": "derivation_principle",
      "text": "A gezerah shavah or hekkesh must match not only the temporal frequency of the source case but its structural shape. Preparation for a seven-day service is categorically different from preparation for a one-day service."
@@ -567,6 +585,12 @@
        "lineId": "yoma-002b-l19",
        "vilnaLine": 19,
        "note": "Proposal: one Festival"
+      },
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-002b-l22",
+       "vilnaLine": 22,
+       "note": "Sukkot's 'most commandments' clause"
       }
      ]
     },
@@ -575,7 +599,7 @@
      "type": "rejection",
      "label": "Seven-for-one principle",
      "speaker": "Gemara",
-     "text": "We derive sequestering for seven days prior to a one-day service from sequestering for seven days prior to a one-day service. We do not derive sequestering before a seven-day service from sequestering before a one-day service.",
+     "text": "We derive sequestering seven days for a one-day service from sequestering seven days for a one-day service - the inauguration's model requires an exact match. A Festival's own service spans seven days, not one, so it cannot be derived from this model.",
      "sourceRefs": [
       {
        "sourceType": "gemara",
@@ -689,7 +713,7 @@
     },
     "ahaMoment": "Rav Ashi's argument is elegant: he sidesteps the dispute about whether Shemini Atzeret is independent or an extension. Either way, Sukkot needs no separation - and that makes Shemini Atzeret's claim to require separation untenable on any reading.",
     "learningBlocker": "Students may find the kal va-chomer compelling and wonder why 'like this day' overrides it. The Gemara is applying a rule that explicit verse-based limitations trump inference.",
-    "memoryAnchor": "Rav Ashi's rule: if the main Festival needs no preparation, the day appended to it cannot require preparation. The less cannot be stricter than the more. The verse 'as on this day' then closes the door on the kal va-chomer entirely."
+    "memoryAnchor": "Two independent rejections of the kal va-chomer: Rav Mesharshiya reads the verse's 'kazeh' (like this day), not 'hazeh' (this day), as limiting the rule to a case exactly like the inauguration - more sanctity does not extend it. Separately, Rav Ashi argues the primary Festival itself needs no separation, so its appendage cannot be stricter - the less cannot be stricter than the more."
    },
    "argumentFlow": [
     {
@@ -712,7 +736,7 @@
      "type": "rejection",
      "label": "Sanctity of preceding days",
      "speaker": "Gemara",
-     "text": "We derive a case not preceded by sanctity (inauguration) from a case not preceded by sanctity (Yom Kippur). Shemini Atzeret is preceded by seven holy days of Sukkot.",
+     "text": "We derive a case not preceded by sanctity (Yom Kippur) from a case not preceded by sanctity (the inauguration). Shemini Atzeret is preceded by seven holy days of Sukkot.",
      "sourceRefs": [
       {
        "sourceType": "gemara",
