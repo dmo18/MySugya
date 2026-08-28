@@ -215,9 +215,9 @@
       ],
       "display": {
         "title": "Gemara: The parah adumah parallel and the Stone House chamber",
-        "oneLine": "Before sourcing the KG's seven-day rule, the Gemara notes that the parah adumah priest was also sequestered for seven days in the northeast Stone House, using only vessels that cannot become tamei.",
-        "shortSummary": "The Gemara opens by drawing a parallel to the red heifer priest, who was also separated for seven days and housed in the northeast Stone House chamber. The chamber's name comes from the requirement to use only stone, dung, and earth vessels - materials that cannot become ritually impure.",
-        "whats": "Before asking where the seven-day rule comes from, the Gemara notes that the parah adumah priest was also separated from his home for seven days and housed in the northeast Stone House chamber. The chamber got its name from the requirement to use only stone, dung, and earth vessels - materials that cannot become tamei. This parallel isn't coincidental; it is the key to the Gemara's later derivation.",
+        "oneLine": "Before sourcing the KG's seven-day rule, the Gemara notes that the parah adumah priest was also sequestered for seven days in the northeast Stone House, using only dung, stone, and earth vessels.",
+        "shortSummary": "The Gemara opens by drawing a parallel to the red heifer priest, who was also separated for seven days and housed in the northeast Stone House chamber. The chamber's name comes from the requirement to use only stone, dung, and earth vessels in its service.",
+        "whats": "Before asking where the seven-day rule comes from, the Gemara notes that the parah adumah priest was also separated from his home for seven days and housed in the northeast Stone House chamber. The chamber got its name from the requirement to use only stone, dung, and earth vessels in its service. This parallel isn't coincidental; it is the key to the Gemara's later derivation.",
         "hint": "Why does the Gemara introduce the parah adumah case right here, before sourcing the law for the Kohen Gadol?"
       },
       "learning": {
@@ -259,7 +259,7 @@
           "type": "question",
           "label": "Why 'Stone House'?",
           "speaker": "Gemara",
-          "text": "The chamber was called the Stone House because all actions with the heifer used dung, stone, and earth vessels - materials that cannot become tamei.",
+          "text": "The chamber was called the Stone House because all actions with the heifer used dung, stone, and earth vessels.",
           "sourceRefs": [
             {
               "sourceType": "gemara",
@@ -308,7 +308,7 @@
       "quizSeeds": [
         {
           "question": "Where did the parah adumah's Stone House chamber get its name from?",
-          "answer": "From the requirement to use only dung, stone, and earth vessels in its service - materials that cannot become ritually impure.",
+          "answer": "From the requirement to use only dung, stone, and earth vessels in its service.",
           "sourceRefs": [
             {
               "sourceType": "gemara",
@@ -704,12 +704,12 @@
         "title": "What does 'bira' mean? Rabbi Yohanan vs. Reish Lakish",
         "oneLine": "Rabbi Yohanan says 'bira' was a specific named spot on the Temple Mount; Reish Lakish says it means the entire Temple complex, citing David's prayer in Chronicles.",
         "shortSummary": "A brief lexical debate about the word 'bira' from the Para mishna. Rabbi Yohanan holds it was a specific named location on the Temple Mount. Reish Lakish holds it means the whole Temple, citing David's description of the future Temple as 'the bira I have prepared.'",
-        "whats": "The Gemara pauses to clarify the word 'bira' from the Para mishna. Rabbi Yohanan: it was a specific location on the Temple Mount with that name, used as a geographic landmark. Reish Lakish: 'bira' means the entire Temple compound, citing David's prayer in Chronicles where he calls the future Temple 'the bira I have prepared.' The practical difference is whether the chamber was near a named spot or simply on the edge of the Temple precinct.",
+        "whats": "The Gemara pauses to clarify the word 'bira' from the Para mishna. Rabbi Yohanan: it was a specific location on the Temple Mount with that name, used as a geographic landmark. Reish Lakish: 'bira' means the entire Temple compound, citing David's prayer in Chronicles where he calls the future Temple 'the bira I have prepared.' The practical difference is how one reads 'bira' each time it appears elsewhere in Mishnaic and Talmudic geography - as a proper name or as a category.",
         "hint": "This looks like a minor geography dispute. What does each position imply about how the Sages understood the Temple's layout?"
       },
       "learning": {
         "learnerQuestion": "Does it matter whether 'bira' was a specific spot or the whole Temple? What turns on this lexical question?",
-        "coreTension": "Rabbi Yohanan treats 'bira' as a proper noun (a named place); Reish Lakish treats it as a common noun (a category - palace/citadel - applied to the whole Temple). The difference shapes how you locate the Stone House chamber.",
+        "coreTension": "Rabbi Yohanan treats 'bira' as a proper noun (a named place); Reish Lakish treats it as a common noun (a category - palace/citadel - applied to the whole Temple).",
         "coreMove": "Verse-based definition: Reish Lakish derives the broader meaning from David's use of 'bira' in Chronicles for the entire future Temple.",
         "resolution": "The dispute is left unresolved here; both views are preserved. Context-dependent: the Para mishna's meaning is established by whichever reading the reader accepts.",
         "takeaway": {
@@ -790,7 +790,7 @@
       "misconceptions": [
         {
           "misconception": "The dispute between R. Yohanan and Reish Lakish is trivial Temple geography.",
-          "correction": "It is a methodological dispute about how to read Mishnaic geographic terms: specific toponym (proper name) vs. common noun (category). The reading affects how we understand the Stone House chamber's location.",
+          "correction": "It is a methodological dispute about how to read Mishnaic geographic terms: specific toponym (proper name) vs. common noun (category).",
           "correctedByStepId": "step-02"
         }
       ],
