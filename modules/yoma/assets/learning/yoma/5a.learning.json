@@ -1,7 +1,7 @@
 {
  "daf": "5a",
  "canonicalRef": "Yoma 5a",
- "summary": "5a resolves Reish Lakish's challenge from 3b: if we derive YK from the inauguration, all inauguration requirements should invalidate the YK service. Four Amoraim name practical differences between R. Yochanan (who holds that all inauguration requirements invalidate) and R. Chanina (who holds only those that would invalidate ongoing service also invalidate the inauguration). Rav Yosef names semikha (laying hands on the offering); Rav Nachman bar Yitzchak names tenufah (waving); Rav Pappa names prisha (seven-day sequestering). In the second sugya, Ravina adds rivui shiva (wearing multiple garments for seven days) and meshicha shiva (anointing for seven days). The Gemara then provides sources from Lev. 16:32 for why any combination of anointing and garment-wearing over seven days suffices. R. Yitzchak bar Bisna identifies the word 'kachah' (thus/so) as the source for R. Yochanan's invalidation principle, and the daf ends with a stub question: where do we derive that inauguration requirements not explicitly written in the inauguration passage but written elsewhere also invalidate?",
+ "summary": "5a resolves Reish Lakish's challenge to R. Yochanan (from the preceding discussion): if we derive YK from the inauguration, all inauguration requirements should invalidate the YK service. Four Amoraim name practical differences between R. Yochanan (who holds that all inauguration requirements invalidate) and R. Chanina (who holds only those that would invalidate ongoing service also invalidate the inauguration). Rav Yosef names semikha (laying hands on the offering); Rav Nachman bar Yitzchak names tenufah (waving); Rav Pappa names prisha (seven-day sequestering). In the second sugya, Ravina adds rivui shiva (wearing multiple garments for seven days) and meshicha shiva (anointing for seven days). The Gemara then provides sources from Lev. 16:32 for why any combination of anointing and garment-wearing over seven days suffices. R. Yitzchak bar Bisna identifies the word 'kachah' (thus/so) as the source for R. Yochanan's invalidation principle, and the daf ends with a stub question: where do we derive that inauguration requirements not explicitly written in the inauguration passage but written elsewhere also invalidate?",
  "review": {
   "status": "draft"
  },
@@ -47,7 +47,7 @@
     "title": "R. Yochanan vs. R. Chanina: semikha, tenufah, and prisha as practical differences",
     "oneLine": "Three authorities list practical differences between R. Yochanan (all inauguration requirements invalidate) and R. Chanina (only those that invalidate ongoing service invalidate the inauguration): semikha, tenufah, and prisha each do not invalidate ongoing service and thus diverge.",
     "shortSummary": "Rav Yosef identifies semikha (laying hands on the offering) as a point of divergence: R. Yochanan would say failure to perform semikha at the inauguration invalidates, while R. Chanina says it does not, because semikha does not invalidate ongoing service. A baraita proves semikha does not invalidate ongoing service: Lev. 1:4 says laying hands causes the offering 'to be accepted' - but does waving hands atone? No, only blood atones. The verse must be teaching that if you treat semikha as optional (a 'shirei mitzva'), the Torah credits you as if you did not achieve full atonement - even though you did atone. The same structure applies to tenufah (Rav Nachman bar Yitzchak). For prisha, Rav Pappa notes that the mishna uses 'matkin' (designate) not 'mafrishin' (separate), proving the backup priest does not need to be sequestered - which means sequestering does not invalidate ongoing service.",
-    "whats": "The Gemara now resolves Reish Lakish's challenge from 3b. R. Yochanan held that all inauguration requirements invalidate because of the word 'kachah' - do exactly as written. R. Chanina had a narrower principle: only those requirements that would invalidate ordinary ongoing service also invalidate the inauguration. Three authorities name items where these views diverge. Rav Yosef: semikha. At the inauguration, the Kohen laid hands on the offering (a requirement written there). Does failure to do semikha invalidate? R. Yochanan says yes. R. Chanina says no - because semikha does not invalidate ongoing sacrificial service. Proof from Lev. 1:4: 'he shall lay his hand on the head of the burnt offering and it shall be accepted for him to atone' - does hand-laying atone? Only blood atones (Lev. 17:11)! So why say 'to atone'? Because if a person omits semikha, treating it as a secondary mitzva (shirei mitzva), the Torah considers it as if he did not achieve the ideal atonement, even though he still atones. This proves semikha is a shirei mitzva, not indispensable. Tenufah (Rav Nachman bar Yitzchak) follows the same pattern from its verse. Prisha (Rav Pappa): the mishna says 'matkin' (they prepare a backup) not 'mafrishin' (they also separate the backup), showing sequestering is not indispensable for ongoing service.",
+    "whats": "The Gemara now resolves Reish Lakish's challenge to R. Yochanan from the preceding discussion. R. Yochanan held that all inauguration requirements invalidate because of the word 'kachah' - do exactly as written. R. Chanina had a narrower principle: only those requirements that would invalidate ordinary ongoing service also invalidate the inauguration. Three authorities name items where these views diverge. Rav Yosef: semikha. At the inauguration, the Kohen laid hands on the offering (a requirement written there). Does failure to do semikha invalidate? R. Yochanan says yes. R. Chanina says no - because semikha does not invalidate ongoing sacrificial service. Proof from Lev. 1:4: 'he shall lay his hand on the head of the burnt offering and it shall be accepted for him to atone' - does hand-laying atone? Only blood atones (Lev. 17:11)! So why say 'to atone'? Because if a person omits semikha, treating it as a secondary mitzva (shirei mitzva), the Torah considers it as if he did not achieve the ideal atonement, even though he still atones. This proves semikha is a shirei mitzva, not indispensable. Tenufah (Rav Nachman bar Yitzchak) follows the same pattern from its verse. Prisha (Rav Pappa): the mishna says 'matkin' (they prepare a backup) not 'mafrishin' (they also separate the backup), showing sequestering is not indispensable for ongoing service.",
     "hint": "The concept of 'shirei mitzva' (residual mitzva) is key: why does the Torah say 'to atone' in connection with an act that does not actually accomplish atonement? What does this category reveal about how mitzvot work?"
    },
    "learning": {
@@ -134,22 +134,22 @@
      "type": "case",
      "label": "Rav Pappa: prisha diverges",
      "speaker": "Rav Pappa",
-     "text": "Prisha (sequestering) is a third difference. The proof that it does not invalidate ongoing service: the mishna says 'matkin' (they designate a backup priest), not 'mafrishin' (they also separate the backup). If sequestering were indispensable, the backup would also need separation - the word choice proves it is not.",
+     "text": "Prisha (sequestering) is a third difference. R. Yochanan holds omitting it invalidates the inauguration; R. Chanina holds it does not, since (per the same test used for semikha and tenufah) it does not invalidate ongoing service. The proof for this follows.",
      "sourceRefs": [
       {
        "sourceType": "gemara",
        "lineId": "yoma-005a-l18",
        "vilnaLine": 18,
-       "note": "Rav Pappa names prisha; matkin vs. mafrishin proof"
+       "note": "Rav Pappa names prisha as the third difference"
       }
      ]
     },
     {
      "id": "step-06",
-     "type": "distinction",
+     "type": "proof",
      "label": "Prisha proof: matkin not mafrishin",
      "speaker": "Gemara",
-     "text": "The mishna's use of 'matkin' instead of 'mafrishin' for the backup priest proves that the backup serves validly without prior separation. Since sequestering does not invalidate ongoing service, R. Chanina holds it does not invalidate the inauguration either.",
+     "text": "The mishna's use of 'matkin' (they designate a backup priest) instead of 'mafrishin' (they also separate the backup) proves that the backup serves validly without prior separation. If sequestering were indispensable, the backup would need separation too - the word choice proves it is not. Since sequestering does not invalidate ongoing service, R. Chanina holds it does not invalidate the inauguration either.",
      "sourceRefs": [
       {
        "sourceType": "gemara",
@@ -243,7 +243,7 @@
      ]
     }
    ],
-   "finalRuling": "Semikha, tenufah, and prisha are all shirei mitzva - real but optional components of the sacrifice that do not invalidate the service if omitted. R. Chanina therefore holds they do not invalidate the inauguration service either, since only requirements that would invalidate ongoing service can invalidate the inauguration.",
+   "finalRuling": "",
    "difficulty": "intermediate",
    "alternateAngles": [
     "The Gemara's shirei mitzva category reveals a theology of mitzva performance: there is a difference between 'you atoned' (valid service, blood accepted) and 'you atoned optimally' (full performance of all mitzva components). The Torah cares about both, even if only the latter is legally indispensable."
@@ -301,28 +301,28 @@
    ],
    "display": {
     "title": "Ravina adds rivui and meshicha; R. Yitzchak bar Bisna gives the source for R. Yochanan's principle",
-    "oneLine": "Ravina adds wearing priestly garments for seven days (rivui shiva) and anointing for seven days (meshicha shiva) to the list of divergences; a baraita proves any combination of these suffices; R. Yitzchak bar Bisna derives R. Yochanan's invalidation principle from 'kachah'; the daf ends open on where non-inauguration-passage requirements derive from.",
-    "shortSummary": "Ravina identifies two more practical differences: rivui shiva (wearing the full set of priestly garments across seven days) and meshicha shiva (anointing across seven days). A baraita on Lev. 16:32 ('the priest who shall be anointed and who shall be consecrated') proves that any combination of anointing and garment-wearing over seven days suffices. The need for anointing over seven days is derived from a juxtaposition: since garment-wearing requires seven days, and anointing is juxtaposed to garment-wearing, anointing also requires seven days. R. Yitzchak bar Bisna then gives the source for R. Yochanan's broad invalidation principle: the word 'kachah' (thus/so) in 'do thus to Aaron and his sons' means exact replication is required, making all explicitly written inauguration details indispensable. The daf ends with an open question: from where do we derive that inauguration requirements written elsewhere (not in the inauguration passage itself) also invalidate?",
-    "whats": "Ravina adds two more items to the list: rivui shiva (the Kohen Gadol wearing the full priestly garments on each of the seven days) and meshicha shiva (anointing him on each of the seven days). R. Yochanan holds omitting either invalidates; R. Chanina holds neither does, because neither invalidates ongoing service. A baraita on Lev. 16:32 establishes that any combination of anointing and garment-wearing over seven days makes a valid Kohen Gadol: Exod. 29:30 says 'seven days shall the son wear them,' implying that wearing garments for seven days - or anointing for seven days - or both - all suffice. The source that anointing requires seven days ab initio: it is juxtaposed to garment-wearing in a verse ('the sacred garments of Aaron shall be for his sons to be anointed in them and consecrated in them'), and since garment-wearing requires seven days, anointing does too. R. Yitzchak bar Bisna then derives R. Yochanan's principle: the word 'kachah' in 'do thus to Aaron and his sons' means exact replication, so every detail written in the inauguration passage must be observed exactly - and failure to do so invalidates. But 'kachah' only covers things explicitly written in the inauguration context. The final stub question: how do we derive that requirements written elsewhere (outside the inauguration passage) also invalidate? The daf ends here.",
-    "hint": "The word 'kachah' (thus) in a Torah command signals exact replication. What does this imply about inauguration requirements written in other contexts - like the priestly garment rules in Exodus 28?"
+    "oneLine": "Ravina adds wearing priestly garments for seven days (rivui shiva) and anointing for seven days (meshicha shiva) to the list of divergences; a baraita proves any combination of these suffices; R. Yitzchak bar Bisna derives R. Yochanan's invalidation principle from 'kachah' - and the daf cuts off mid-thought right after affirming it works for what is explicitly written.",
+    "shortSummary": "Ravina identifies two more practical differences: rivui shiva (wearing the full set of priestly garments across seven days) and meshicha shiva (anointing across seven days). A baraita on Lev. 16:32 ('the priest who shall be anointed and who shall be consecrated') proves that any combination of anointing and garment-wearing over seven days suffices. The need for anointing over seven days is derived from a juxtaposition: since garment-wearing requires seven days, and anointing is juxtaposed to garment-wearing, anointing also requires seven days. R. Yitzchak bar Bisna then gives the source for R. Yochanan's broad invalidation principle: the word 'kachah' (thus/so) in 'do thus to Aaron and his sons' means exact replication is required, making all explicitly written inauguration details indispensable. The daf affirms this works for what is explicitly stated ('tinach kol milta') and then cuts off mid-sentence, ending on the single dangling word 'milta.'",
+    "whats": "Ravina adds two more items to the list: rivui shiva (the Kohen Gadol wearing the full priestly garments on each of the seven days) and meshicha shiva (anointing him on each of the seven days). R. Yochanan holds omitting either invalidates; R. Chanina holds neither does, because neither invalidates ongoing service. A baraita on Lev. 16:32 establishes that any combination of anointing and garment-wearing over seven days makes a valid Kohen Gadol: Exod. 29:30 says 'seven days shall the son wear them,' implying that wearing garments for seven days - or anointing for seven days - or both - all suffice. The source that anointing requires seven days ab initio: it is juxtaposed to garment-wearing in a verse ('the sacred garments of Aaron shall be for his sons to be anointed in them and consecrated in them'), and since garment-wearing requires seven days, anointing does too. R. Yitzchak bar Bisna then derives R. Yochanan's principle: the word 'kachah' in 'do thus to Aaron and his sons' means exact replication, so every detail written in the inauguration passage must be observed exactly - and failure to do so invalidates. The Gemara affirms this works well for anything explicitly stated ('tinach kol milta') - and the sentence cuts off there, ending the daf on the single word 'milta.' Per Rashi's own note on this word, the anticipated continuation on the next page asks about requirements written elsewhere in the Torah, though that question is not itself stated within 5a's own text.",
+    "hint": "The word 'kachah' (thus) in a Torah command signals exact replication of what's explicitly written at that point - but the daf's sentence affirming this cuts off mid-thought. What might the missing continuation ask?"
    },
    "learning": {
-    "learnerQuestion": "R. Yitzchak bar Bisna derives that 'kachah' makes inauguration requirements obligatory. But that only applies to things written in the inauguration passage itself. How do we know that requirements written elsewhere also apply?",
-    "coreTension": "The word 'kachah' is in the inauguration passage, so it can only make mandatory the things explicitly listed in that same passage. But many inauguration requirements - like the details of priestly garments - are written in other Torah sections. 'Kachah' cannot reach those.",
-    "coreMove": "The daf ends without answering. This is an open stub - 'milta' - signaling the discussion continues on the next page. The question is deliberately left dangling to invite the learner to ask: what verse would extend the principle?",
-    "resolution": "The resolution is left for the next section. The stub question shows that R. Yitzchak bar Bisna's kachah derivation is not complete - it covers only the inauguration text itself. Some further derivation is needed to include outside requirements.",
+    "learnerQuestion": "R. Yitzchak bar Bisna derives that 'kachah' makes explicitly-written inauguration requirements indispensable. The daf affirms this works - and then stops mid-sentence. What was it about to say?",
+    "coreTension": "The word 'kachah' finally supplies R. Yochanan's missing proof-text. The Gemara begins to state that this works for anything explicitly written ('tinach kol milta') - but the sentence is cut off there, ending the daf on a single dangling word.",
+    "coreMove": "The daf ends without completing its own sentence. This is a genuine mid-thought stub - 'tinach kol milta' - with the single word 'milta' left dangling. Per Rashi's note on this word, the anticipated continuation (on the next page) will ask about requirements written outside the inauguration passage - but that is Rashi's own anticipation, not text stated on this page.",
+    "resolution": "The resolution is left for the next page. 5a's own text stops after affirming that 'kachah' works for what is explicitly written; nothing on this page yet raises or answers the further question about requirements written elsewhere.",
     "takeaway": {
      "type": "logical_principle",
-     "text": "A word like 'kachah' creates an obligation of exact replication only within the scope of its context. Requirements written elsewhere require their own derivation. The Gemara is transparent about this gap - it ends the page with an open question rather than papering over it."
+     "text": "R. Yitzchak bar Bisna's 'kachah' derivation supplies R. Yochanan's proof-text for explicitly-written inauguration requirements. The daf itself stops mid-sentence right after affirming this works - it does not yet raise the further question of requirements written elsewhere, which per Rashi's note is answered only on the next page."
     },
     "reasoningPattern": {
      "id": "scope_of_kachah",
      "category": "hermeneutical",
-     "notes": "The word 'kachah' (thus/so) in a command signals exact replication of whatever is listed at that point in the text. Requirements written in separate Torah sections are not automatically included under the same kachah."
+     "notes": "The word 'kachah' (thus/so) in a command signals exact replication of whatever is listed at that point in the text. 5a's own text affirms this scope holds ('tinach kol milta') and then cuts off before addressing anything beyond it."
     },
-    "ahaMoment": "R. Yitzchak bar Bisna's answer solves one problem and opens another: 'kachah' finally supplies the missing source for R. Yochanan's whole position, but the word only reaches what is written inside the inauguration passage itself. Requirements written elsewhere in the Torah, like the priestly garments, fall outside its reach, so the daf ends on the very question 'kachah' cannot answer.",
-    "learningBlocker": "Students may think 'kachah' is a blanket rule covering everything in the inauguration. The Gemara limits it precisely: it covers only what is written in the inauguration passage at that point. That limitation creates the stub question that ends the daf.",
-    "memoryAnchor": "Rivui and meshicha: two more inauguration details that do not invalidate ongoing service. Any combination of seven-day garments and seven-day anointing works. R. Yitzchak bar Bisna finds the source for R. Yochanan's whole position - the word 'kachah' - but then immediately hits the boundary: what about requirements written outside the inauguration text?"
+    "ahaMoment": "R. Yitzchak bar Bisna's answer finally supplies the missing source for R. Yochanan's whole position: the word 'kachah.' The Gemara begins to affirm that this works for anything explicitly written - and the sentence is cut off there, ending the daf on the single word 'milta.' Rashi's own note reveals what the continuation will ask, but that question is not yet on this page.",
+    "learningBlocker": "Students may read the daf as already raising and even answering the 'what about elsewhere' question, since Rashi's note previews it. 5a's own text does not get that far - it stops mid-sentence after affirming 'kachah' works for what is explicitly written.",
+    "memoryAnchor": "Rivui and meshicha: two more inauguration details that do not invalidate ongoing service. Any combination of seven-day garments and seven-day anointing works. R. Yitzchak bar Bisna finds the source for R. Yochanan's whole position - the word 'kachah' - and the daf cuts off right after affirming it works, on the single dangling word 'milta.'"
    },
    "argumentFlow": [
     {
@@ -364,8 +364,8 @@
      "sourceRefs": [
       {
        "sourceType": "gemara",
-       "lineId": "yoma-005a-l30",
-       "vilnaLine": 30,
+       "lineId": "yoma-005a-l35",
+       "vilnaLine": 35,
        "note": "Juxtaposition proof: anointing requires seven days like garment-wearing"
       }
      ]
@@ -379,39 +379,30 @@
      "sourceRefs": [
       {
        "sourceType": "gemara",
-       "lineId": "yoma-005a-l34",
-       "vilnaLine": 34,
+       "lineId": "yoma-005a-l38",
+       "vilnaLine": 38,
        "note": "R. Yitzchak bar Bisna identifies 'kachah' as R. Yochanan's proof-text"
       }
      ]
     },
     {
      "id": "step-05",
-     "type": "challenge",
-     "label": "Limit of kachah: only covers the inauguration passage",
+     "type": "stub",
+     "label": "Open stub: 'this works for what is written' - daf cuts off mid-thought",
      "speaker": "Gemara",
-     "text": "'Kachah' only covers what is explicitly written in the inauguration context. But many inauguration requirements are written elsewhere in the Torah - priestly garment rules are in Exodus 28, for example. Where do we derive that those extra-textual requirements also invalidate?",
+     "text": "The Gemara affirms that 'kachah' works well for anything explicitly written in the inauguration passage ('tinach kol milta') - and the sentence cuts off there, mid-thought, at the end of the daf. Per Rashi's own note on this line, the anticipated continuation (on the next page) asks where we derive that requirements written elsewhere in the Torah, outside the inauguration passage, also invalidate - but that question is not itself stated within 5a's own text, only anticipated by Rashi.",
      "sourceRefs": [
       {
        "sourceType": "gemara",
-       "lineId": "yoma-005a-l35",
-       "vilnaLine": 35,
-       "note": "Challenge: scope of kachah is limited to the inauguration passage"
-      }
-     ]
-    },
-    {
-     "id": "step-06",
-     "type": "stub",
-     "label": "Open question: milta",
-     "speaker": "Gemara",
-     "text": "The daf ends with an open stub question - from where do we derive that requirements not written in the inauguration passage but written elsewhere also invalidate? This is left unresolved at the end of 5a.",
-     "sourceRefs": [
+       "lineId": "yoma-005a-l38",
+       "vilnaLine": 39,
+       "note": "'Tinach kol' - the phrase this stub affirms, immediately before the cutoff"
+      },
       {
        "sourceType": "gemara",
        "lineId": "yoma-005a-l40",
        "vilnaLine": 40,
-       "note": "Stub ending - question continues on next page"
+       "note": "'Milta' - the daf's final word before the mid-thought cutoff"
       }
      ]
     }
@@ -438,13 +429,13 @@
    ],
    "misconceptions": [
     {
-     "misconception": "'Kachah' creates a blanket rule requiring exact replication of all inauguration conditions, wherever written in the Torah.",
-     "correction": "'Kachah' only applies to requirements explicitly written in the inauguration passage at that point. Requirements written in other Torah sections (such as the priestly garment details in Exodus 28) are not automatically covered by this word. The Gemara flags this limitation explicitly.",
+     "misconception": "The daf itself explicitly limits 'kachah' to requirements written in the inauguration passage and asks about requirements written elsewhere.",
+     "correction": "5a's own text only affirms that 'kachah' works for what is explicitly written ('tinach kol milta') and then cuts off mid-thought. The question of requirements written elsewhere in the Torah (such as the priestly garment details in Exodus 28) is anticipated by Rashi's note on the final word, but is not itself stated within 5a's own text - it is answered only on the next page.",
      "correctedByStepId": "step-05"
     },
     {
      "misconception": "For the Kohen Gadol's inauguration to be valid, he must both wear the garments and be anointed on all seven days.",
-     "correction": "The baraita derives from Lev. 16:32 that any combination of seven days of garment-wearing and seven days of anointing suffices. Even seven days of only one of these without the other is valid. The verse's redundancy teaches 'michal mikol makom' - validity in any case.",
+     "correction": "The baraita derives from Lev. 16:32 that any combination of seven days of garment-wearing and seven days of anointing suffices. Even seven days of only one of these without the other is valid. The verse's redundancy teaches 'mikol makom' - validity in any case.",
      "correctedByStepId": "step-02"
     }
    ],
@@ -454,12 +445,12 @@
    ],
    "visualizableElements": [
     {
-     "item": "Matrix showing three columns (garments x7, anointing x7, both x7) all marked 'valid' based on the baraita's 'michal mikol makom' ruling",
+     "item": "Matrix showing three columns (garments x7, anointing x7, both x7) all marked 'valid' based on the baraita's 'mikol makom' ruling",
      "role": "anchor",
      "priority": 1
     },
     {
-     "item": "Boundary diagram: 'kachah' arrow pointing only at requirements listed inside the inauguration passage (Exodus 29), while requirements from Exod. 28/29 sit outside with a question mark - the stub question made visual",
+     "item": "Stub diagram: the phrase 'tinach kol milta' cut off mid-thought at the end of the daf, with a question mark bridging to the next page - the open stub made visual",
      "role": "aha",
      "priority": 2
     }
@@ -467,7 +458,7 @@
    "quizSeeds": [
     {
      "question": "Does the Kohen Gadol need to both wear the priestly garments AND be anointed for all seven inauguration days in order for the inauguration to be valid?",
-     "answer": "No. The baraita derived from Lev. 16:32 teaches 'michal mikol makom' - in any case. If he was anointed for seven days but did not wear the garments for seven days, or wore them for seven days without anointing, the inauguration is still valid. Any combination of the two requirements over seven days suffices.",
+     "answer": "No. The baraita derived from Lev. 16:32 teaches 'mikol makom' - in any case. If he was anointed for seven days but did not wear the garments for seven days, or wore them for seven days without anointing, the inauguration is still valid. Any combination of the two requirements over seven days suffices.",
      "sourceRefs": [
       {
        "sourceType": "gemara",
@@ -482,14 +473,14 @@
      "sourceRefs": [
       {
        "sourceType": "gemara",
-       "lineId": "yoma-005a-l34",
-       "vilnaLine": 34
+       "lineId": "yoma-005a-l38",
+       "vilnaLine": 38
       }
      ]
     },
     {
      "question": "Why does the daf end with an open question?",
-     "answer": "Because 'kachah' only covers requirements explicitly written in the inauguration passage in Exodus 29. Many inauguration requirements are written elsewhere - for example, the priestly garment details in Exod. 28. 'Kachah' alone cannot make those requirements invalidating conditions. The Gemara ends with a stub ('milta') noting this gap, which the discussion on the next page continues to address.",
+     "answer": "The Gemara affirms that 'kachah' works for what is explicitly written in the inauguration passage ('tinach kol milta'), then cuts off mid-thought at the very end of the daf. Rashi's own note on the final word anticipates that the next page will ask about requirements written elsewhere in the Torah (such as the priestly garment details in Exod. 28) - but that question itself is not stated within 5a's own text.",
      "sourceRefs": [
       {
        "sourceType": "gemara",
