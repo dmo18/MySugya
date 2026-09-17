@@ -29951,7 +29951,7 @@
     "yoma-004b-s01": {
       "sugyaId": "yoma-004b-s01",
       "daf": "4b",
-      "state": "REPAIRED_PENDING_REVIEW",
+      "state": "PENDING_FINAL_AUDIT",
       "firstPass": {
         "reviewId": "sonnet5-4b-followup-20260917a",
         "reviewerContextId": "a85bc168dc09a2a50",
@@ -29968,7 +29968,26 @@
           }
         }
       },
-      "repairRef": "b19efa3e69b89b7deb27b904605c8ea2f0b092de"
+      "repairRef": "b19efa3e69b89b7deb27b904605c8ea2f0b092de",
+      "sourceFingerprint": "288843d0183d9e1400d20b45d4f4fa1beb69df69d1fa197b7554a9214c9091df",
+      "semanticFingerprint": "0fcab4fbe335fc9ea0e87616b2def5196856da1588dae1d93723b4dd5fd509f6",
+      "secondPass": {
+        "reviewId": "sonnet5-4b-followup-20260917b",
+        "reviewerContextId": "a562d420db5d8e217",
+        "sourceFirst": true,
+        "verdict": "CONFIRMED",
+        "reviewedSourceFingerprint": "288843d0183d9e1400d20b45d4f4fa1beb69df69d1fa197b7554a9214c9091df",
+        "reviewedSemanticFingerprint": "0fcab4fbe335fc9ea0e87616b2def5196856da1588dae1d93723b4dd5fd509f6",
+        "evidence": {
+          "reviewMethod": "Independent reviewer verified both targeted fixes against raw Vilna lines and the sourceSegmentMap, plus a light sanity pass over the rest of s01/s03.",
+          "verdict": "CONFIRMED - both fixes correct and schema-valid",
+          "specificChecks": [
+            "s03 quizSeeds[1] vilnaLine 39 confirmed to actually contain the lemor derivation's context, matching argumentFlow step-06's own sourceRef; segment l36 confirmed to span lines 36-40 (before s04's l41 starts), so l36/vilnaLine 39 is schema-valid.",
+            "s01 R. Akiva attribution independently reconfirmed via precedingDafContext (4a's raw tail): 'R. Akiva says' continues uninterrupted into 4b line 1's 'cloud covered the mountain... honor to Moses' teaching, corroborated by Rashi's comment on the same line.",
+            "Two pre-existing, non-blocking coarse-citation observations noted for awareness (s01 step-02's vilnaLine 1 vs R. Natan's text starting at line 3; s03 step-02's single sourceRef for a two-clause resolution) - both schema-valid, not defects, not acted on."
+          ]
+        }
+      }
     },
     "yoma-004b-s02": {
       "sugyaId": "yoma-004b-s02",
@@ -31560,7 +31579,7 @@
     "yoma-004b-s03": {
       "sugyaId": "yoma-004b-s03",
       "daf": "4b",
-      "state": "REPAIRED_PENDING_REVIEW",
+      "state": "PENDING_FINAL_AUDIT",
       "firstPass": {
         "reviewId": "sonnet5-4b-followup-20260917a",
         "reviewerContextId": "a85bc168dc09a2a50",
@@ -31577,7 +31596,26 @@
           }
         }
       },
-      "repairRef": "b19efa3e69b89b7deb27b904605c8ea2f0b092de"
+      "repairRef": "b19efa3e69b89b7deb27b904605c8ea2f0b092de",
+      "sourceFingerprint": "fddd5423ff2b6152710eab0a123dec76a9fce27e883666d892a3d4e3a69fd139",
+      "semanticFingerprint": "2766535140b24d9346bc9d9f38dcc216f33dc70ef284c774ca933c01b721dd3b",
+      "secondPass": {
+        "reviewId": "sonnet5-4b-followup-20260917b",
+        "reviewerContextId": "a562d420db5d8e217",
+        "sourceFirst": true,
+        "verdict": "CONFIRMED",
+        "reviewedSourceFingerprint": "fddd5423ff2b6152710eab0a123dec76a9fce27e883666d892a3d4e3a69fd139",
+        "reviewedSemanticFingerprint": "2766535140b24d9346bc9d9f38dcc216f33dc70ef284c774ca933c01b721dd3b",
+        "evidence": {
+          "reviewMethod": "Independent reviewer verified both targeted fixes against raw Vilna lines and the sourceSegmentMap, plus a light sanity pass over the rest of s01/s03.",
+          "verdict": "CONFIRMED - both fixes correct and schema-valid",
+          "specificChecks": [
+            "s03 quizSeeds[1] vilnaLine 39 confirmed to actually contain the lemor derivation's context, matching argumentFlow step-06's own sourceRef; segment l36 confirmed to span lines 36-40 (before s04's l41 starts), so l36/vilnaLine 39 is schema-valid.",
+            "s01 R. Akiva attribution independently reconfirmed via precedingDafContext (4a's raw tail): 'R. Akiva says' continues uninterrupted into 4b line 1's 'cloud covered the mountain... honor to Moses' teaching, corroborated by Rashi's comment on the same line.",
+            "Two pre-existing, non-blocking coarse-citation observations noted for awareness (s01 step-02's vilnaLine 1 vs R. Natan's text starting at line 3; s03 step-02's single sourceRef for a two-clause resolution) - both schema-valid, not defects, not acted on."
+          ]
+        }
+      }
     },
     "yoma-004b-s04": {
       "sugyaId": "yoma-004b-s04",
