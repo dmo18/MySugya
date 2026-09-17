@@ -9316,7 +9316,7 @@ const DAF_CONTENT = {
   "5a": {
     canonicalRef: "Yoma 5a",
     daf: "5a",
-    summary: "5a resolves Reish Lakish's challenge to R. Yochanan (from the preceding discussion): if we derive YK from the inauguration, all inauguration requirements should invalidate the YK service. Four Amoraim name practical differences between R. Yochanan (who holds that all inauguration requirements invalidate) and R. Chanina (who holds only those that would invalidate ongoing service also invalidate the inauguration). Rav Yosef names semikha (laying hands on the offering); Rav Nachman bar Yitzchak names tenufah (waving); Rav Pappa names prisha (seven-day sequestering). In the second sugya, Ravina adds rivui shiva (wearing multiple garments for seven days) and meshicha shiva (anointing for seven days). The Gemara then provides sources from Lev. 16:32 for why any combination of anointing and garment-wearing over seven days suffices. R. Yitzchak bar Bisna identifies the word 'kachah' (thus/so) as the source for R. Yochanan's invalidation principle, and the daf ends with a stub question: where do we derive that inauguration requirements not explicitly written in the inauguration passage but written elsewhere also invalidate?",
+    summary: "5a resolves Reish Lakish's challenge to R. Yochanan (from the preceding discussion): if we derive YK from the inauguration, all inauguration requirements should invalidate the YK service. Four Amoraim name practical differences between R. Yochanan (who holds that all inauguration requirements invalidate) and R. Chanina (who holds only those that would invalidate ongoing service also invalidate the inauguration). Rav Yosef names semikha (laying hands on the offering); Rav Nachman bar Yitzchak names tenufah (waving); Rav Pappa names prisha (seven-day sequestering). In the second sugya, Ravina adds rivui shiva (wearing multiple garments for seven days) and meshicha shiva (anointing for seven days). The Gemara then provides sources from Lev. 16:32 for why any combination of anointing and garment-wearing over seven days suffices. R. Yitzchak bar Bisna identifies the word 'kachah' (thus/so) as the source for R. Yochanan's invalidation principle, and the daf's own text cuts off mid-sentence immediately after affirming this works for what is explicitly written ('tinach kol milta'); per Rashi's note on the final word, the anticipated continuation on the next page asks about requirements written elsewhere in the Torah.",
     sugyot: [
       {
         id: "yoma-005a-s01",
@@ -9402,6 +9402,12 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
+                lineId: "yoma-005a-l04",
+                vilnaLine: 6,
+                note: "The baraita's own question, 'does semikha atone?'"
+              },
+              {
+                sourceType: "gemara",
                 lineId: "yoma-005a-l07",
                 vilnaLine: 7,
                 note: "Baraita proving semikha is a shirei mitzva, not an invalidation condition"
@@ -9456,15 +9462,15 @@ const DAF_CONTENT = {
           {
             id: "step-06",
             type: "proof",
-            label: "Prisha proof: matkin not mafrishin",
-            speaker: "Gemara",
-            text: "The mishna's use of 'matkin' (they designate a backup priest) instead of 'mafrishin' (they also separate the backup) proves that the backup serves validly without prior separation. If sequestering were indispensable, the backup would need separation too - the word choice proves it is not. Since sequestering does not invalidate ongoing service, R. Chanina holds it does not invalidate the inauguration either.",
+            label: "Prisha proof: word choice for the backup priest",
+            speaker: "Rav Pappa",
+            text: "Rav Pappa asks: for future generations, how do we know sequestering does not invalidate? The proof lies in the mishna's own wording for the backup priest: its language designates him without requiring that he already be kept separate in advance. If sequestering were indispensable, the backup would need advance separation too - the word choice proves it is not. Since sequestering does not invalidate ongoing service, R. Chanina holds it does not invalidate the inauguration either.",
             sourceRefs: [
               {
                 sourceType: "gemara",
                 lineId: "yoma-005a-l22",
                 vilnaLine: 22,
-                note: "Word-choice proof for prisha's non-indispensability"
+                note: "Rav Pappa's question introducing the word-choice proof; the proof's own wording completes in the sentence that opens the next sugya's own segment"
               }
             ]
           }
@@ -9535,6 +9541,11 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
+                lineId: "yoma-005a-l04",
+                vilnaLine: 6
+              },
+              {
+                sourceType: "gemara",
                 lineId: "yoma-005a-l07",
                 vilnaLine: 7
               }
@@ -9542,7 +9553,7 @@ const DAF_CONTENT = {
           },
           {
             question: "How does Rav Pappa prove that prisha does not invalidate ongoing sacrificial service?",
-            answer: "From the mishna's word choice: it says 'matkin' (they prepare/designate a backup priest) rather than 'mafrishin' (they also separate the backup). If sequestering were indispensable, the backup would also need formal separation. The fact that the mishna only designates but does not separate the backup proves sequestering is not an invalidation condition.",
+            answer: "From the mishna's own word choice for the backup priest: its language designates him without requiring he already be kept separate in advance. If sequestering were indispensable, the backup would also need formal advance separation. The mishna's wording proves sequestering is not an invalidation condition.",
             sourceRefs: [
               {
                 sourceType: "gemara",
@@ -9747,7 +9758,7 @@ const DAF_CONTENT = {
         ],
         relatedSugyot: [
           "yoma-005a-s01",
-          "yoma-006a-s01"
+          "yoma-005b-s01"
         ],
         visualizableElements: [
           {
