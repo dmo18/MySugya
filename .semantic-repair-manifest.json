@@ -9,7 +9,7 @@
     "yoma-004b-s03",
     "yoma-004b-s04"
   ],
-  "firstReviewId": "sonnet5-4b-finalaudit-20260917a",
+  "firstReviewId": "sonnet5-4b-repairaudit-20260917a",
   "policy": {
     "sourceFirst": true,
     "independentSecondPassRequired": true,
