@@ -44099,7 +44099,7 @@
     "yoma-006a-s01": {
       "sugyaId": "yoma-006a-s01",
       "daf": "6a",
-      "state": "REPAIR_REQUIRED",
+      "state": "REPAIRED_PENDING_REVIEW",
       "firstPass": {
         "reviewId": "sonnet5-6a-round1-20260917",
         "reviewerContextId": "af029103bba769ccf",
@@ -44132,12 +44132,13 @@
             "s03's baraita-2 deflection (step-09, 'the comparison is about duration, not timing') IS explicitly supported by the raw text ('lo le-tumatan') and correctly left open at step-10 pending 6b, consistent with Rashi's own note."
           ]
         }
-      }
+      },
+      "repairRef": "02710d22099d4995adba962735a7e1c4029f5d29"
     },
     "yoma-006a-s02": {
       "sugyaId": "yoma-006a-s02",
       "daf": "6a",
-      "state": "REPAIR_REQUIRED",
+      "state": "REPAIRED_PENDING_REVIEW",
       "firstPass": {
         "reviewId": "sonnet5-6a-round1-20260917",
         "reviewerContextId": "af029103bba769ccf",
@@ -44170,12 +44171,13 @@
             "s03's baraita-2 deflection (step-09, 'the comparison is about duration, not timing') IS explicitly supported by the raw text ('lo le-tumatan') and correctly left open at step-10 pending 6b, consistent with Rashi's own note."
           ]
         }
-      }
+      },
+      "repairRef": "02710d22099d4995adba962735a7e1c4029f5d29"
     },
     "yoma-006a-s03": {
       "sugyaId": "yoma-006a-s03",
       "daf": "6a",
-      "state": "REPAIR_REQUIRED",
+      "state": "REPAIRED_PENDING_REVIEW",
       "firstPass": {
         "reviewId": "sonnet5-6a-round1-20260917",
         "reviewerContextId": "af029103bba769ccf",
@@ -44208,7 +44210,8 @@
             "s03's baraita-2 deflection (step-09, 'the comparison is about duration, not timing') IS explicitly supported by the raw text ('lo le-tumatan') and correctly left open at step-10 pending 6b, consistent with Rashi's own note."
           ]
         }
-      }
+      },
+      "repairRef": "02710d22099d4995adba962735a7e1c4029f5d29"
     },
     "yoma-006b-s01": {
       "sugyaId": "yoma-006b-s01",
