@@ -1,7 +1,7 @@
 {
  "daf": "4b",
  "canonicalRef": "Yoma 4b",
- "summary": "4b opens with three tannaitic explanations of what Moses's six-day cloud period at Sinai accomplished: R. Akiva says the cloud covered the mountain (not Moses), and the public calling honored Moses; R. Natan says the cloud purged Moses's food and drink from his system so he could endure 40 days without eating like a ministering angel; R. Matya ben Charash says the cloud intimidated Moses so Torah would be received with awe and trembling. Rav Adda bar Mattana adds a Psalm verse teaching that joy and trembling coexist in divine service. The daf then works through the calendar arithmetic: R. Yosi HaGalili and R. Akiva disagree whether the Torah was given on the 6th or 7th of Sivan, and only R. Akiva's count produces 40 complete days ending on 17 Tammuz when the tablets were shattered. The sugya then addresses the contradiction between the voice being public at Sinai and private at the Tent of Meeting, resolves how Moses entered the cloud when he could not enter the Tent, and derives two practical rules: call someone's attention before speaking to them, and the word 'lemor' signals confidentiality until the sharer gives permission to transmit. The page closes with R. Yochanan being identified as the strict opinion on inauguration invalidation, and leaves open the question of practical differences between him and R. Chanina.",
+ "summary": "4b opens with three tannaitic explanations of what Moses's six-day cloud period at Sinai accomplished: R. Akiva says the cloud covered the mountain (not Moses), and the public calling honored Moses; R. Natan says the cloud purged Moses's food and drink from his system so he could endure 40 days without eating like a ministering angel; R. Matya ben Charash says the cloud intimidated Moses so Torah would be received with awe and trembling, citing a verse that Rav Adda bar Mattana then reads as also teaching that joy and trembling coexist in divine service. The daf then works through the calendar arithmetic: R. Yosi HaGalili and R. Akiva disagree whether the Torah was given on the 6th or 7th of Sivan; R. Akiva's count reaches exactly 40 days ending on 17 Tammuz directly, while R. Yosi HaGalili's reaches the same date only by folding the six days of separation into the 40 rather than adding them beforehand. The sugya then addresses the contradiction between the voice being public at Sinai and private at the Tent of Meeting, resolves how Moses entered the cloud when he could not enter the Tent, and derives two practical rules: call someone's attention before speaking to them, and the word 'lemor' signals that what one is told may not be repeated until the teller gives explicit permission. The page closes with R. Yochanan being identified as the strict opinion on inauguration invalidation, and leaves open the question of practical differences between him and R. Chanina.",
  "review": {
   "learning": "ai_generated",
   "concepts": "ai_generated",
@@ -30,14 +30,14 @@
     "title": "Three readings of the six-day cloud: purification, intimidation, and public honor",
     "oneLine": "R. Akiva: the cloud covered the mountain, not Moses - the public calling was to honor Moses. R. Natan: the cloud purged Moses's system to render him angelic for 40 days. R. Matya ben Charash: the cloud intimidated Moses so Torah would be received with awe. Rav Adda: joy and trembling are meant to coexist.",
     "shortSummary": "Three tannaitic readings address why Moses waited six days in the cloud before God called him. R. Akiva says the cloud covered the mountain so the public could witness the call - an honor to Moses. R. Natan focuses on Moses's body: the cloud cleansed food and drink from his system so he could function for 40 days without eating, like a ministering angel. R. Matya ben Charash focuses on Moses's spirit: the cloud created awe and trembling so Torah would be received in fear. Rav Adda bar Mattana adds a Psalm teaching that joy and trembling must coexist in divine encounter.",
-    "whats": "The page opens continuing from 4a's debate over what the six-day cloud period accomplished. R. Akiva (whose view was mentioned on 4a) holds the cloud covered the mountain, not Moses - the purpose was public visibility, so Israel saw the call and it honored Moses. R. Natan disagrees: Moses himself was covered. The purpose was physical - to purge the food and drink from his digestive system so he could ascend the mountain and go 40 days without eating, 'like the ministering angels.' R. Matya ben Charash adds a spiritual reading: the cloud was meant to intimidate Moses, filling him with awe and trembling so he would receive Torah with the proper reverence. Rav Adda bar Mattana, citing Rav, brings a Psalm verse ('serve God with awe and rejoice with trembling') to show that joy and trembling are not opposites - where there is joy, there must also be trembling. These are meant to coexist in the divine encounter.",
+    "whats": "The page opens continuing from 4a's debate over what the six-day cloud period accomplished. R. Akiva (whose view was mentioned on 4a) holds the cloud covered the mountain, not Moses - the purpose was public visibility, so Israel saw the call and it honored Moses. R. Natan disagrees: Moses himself was covered. The purpose was physical - to purge the food and drink from his digestive system so he could ascend the mountain and go 40 days without eating, 'like the ministering angels.' R. Matya ben Charash adds a spiritual reading: the cloud was meant to intimidate Moses, filling him with awe and trembling so he would receive Torah with the proper reverence, and he cites a Psalm verse for this ('serve God with awe and rejoice with trembling'). The Gemara then asks what 'rejoice with trembling' in that same verse means, and Rav Adda bar Mattana, citing Rav, answers: where there is joy, there must also be trembling - the two are not opposites but are meant to coexist in the divine encounter.",
     "hint": "Three sages read the same six days through three different lenses: honor, physiology, and psychology. Which reading do you find most compelling, and what does each say about what Torah-receiving requires?"
    },
    "learning": {
     "learnerQuestion": "Why does the Torah record that Moses waited six days before God called him? What was happening during those days?",
     "coreTension": "The cloud-period before God's call seems like a delay - but the Gemara insists it served a purpose. Three different purposes are proposed, each reflecting a different view of what Moses needed to be ready.",
-    "coreMove": "Each tanna identifies a different dimension of preparation: R. Akiva focuses on honor (public witness), R. Natan on physical transformation (like an angel), R. Matya on spiritual preparation (awe). They do not contradict each other - they address different layers of readiness.",
-    "resolution": "The three readings are complementary, not competing. Moses needed public recognition (R. Akiva), physical purification (R. Natan), and psychological awe (R. Matya). Rav Adda's addition integrates joy and trembling as the emotional tone of any genuine divine encounter.",
+    "coreMove": "Each tanna identifies a different dimension of preparation: R. Akiva focuses on honor (public witness), R. Natan on physical transformation (like an angel), R. Matya on spiritual preparation (awe). The Gemara presents them side by side without adjudicating between them here. Rashi identifies R. Natan's and R. Matya's readings as following R. Yosi HaGalili's view that there was a real six-day separation before Sinai, and R. Akiva's reading as following his own, opposing view (no separation) - the same dating dispute the next sugya works out explicitly.",
+    "resolution": "The three readings are presented together rather than one being chosen. Moses needed public recognition (R. Akiva), physical purification (R. Natan), or psychological awe (R. Matya). Per Rashi, R. Natan and R. Matya's readings track R. Yosi HaGalili's chronology while R. Akiva's tracks his own opposing chronology. Rav Adda's addition, answering a follow-up question on R. Matya's own proof-verse, adds that joy and trembling coexist as the emotional tone of divine encounter.",
     "takeaway": {
      "type": "conceptual",
      "text": "Preparation for encountering the Divine involves multiple dimensions: public legitimacy, physical readiness, and interior awe. The Psalm adds that joy and trembling are not opposites - they must coexist in genuine religious experience."
@@ -45,10 +45,10 @@
     "reasoningPattern": {
      "id": "multi_layer_preparation",
      "category": "interpretive",
-     "notes": "Three tannaim read the same cloud-period through honor, physiology, and psychology. These views are complementary rather than mutually exclusive."
+     "notes": "Three tannaim read the same cloud-period through honor, physiology, and psychology. R. Natan and R. Matya's readings are tied by Rashi to R. Yosi HaGalili's chronology (a real six-day separation), while R. Akiva's reading is tied to his own, opposing chronology (no separation) - so the three views are not freely interchangeable regardless of dating, even though the Gemara presents them side by side without adjudicating here."
     },
     "ahaMoment": "R. Natan's reading is strikingly physical: the cloud didn't just cover Moses, it transformed his body. Six days of cloud-immersion cleansed him so thoroughly he could go 40 days without food - literally becoming angelic. This is preparation at the cellular level, not just spiritual.",
-    "learningBlocker": "Students may expect one reading to 'win.' The Gemara presents all three without adjudicating - they are complementary angles on the same question.",
+    "learningBlocker": "Students may expect one reading to 'win,' or may assume all three are freely combinable regardless of dating. The Gemara presents all three without adjudicating here, but R. Natan's and R. Matya's readings presuppose R. Yosi HaGalili's chronology while R. Akiva's presupposes his own opposing chronology - a tension the next sugya's calendar dispute makes explicit.",
     "memoryAnchor": "Three preps, three layers: (1) public call = honor; (2) cloud cleanses food = angel-body; (3) cloud intimidates = awe. Plus: joy and trembling belong together."
    },
    "argumentFlow": [
@@ -99,16 +99,16 @@
     },
     {
      "id": "step-04",
-     "type": "proof",
-     "label": "Rav Adda: joy and trembling coexist",
+     "type": "answer",
+     "label": "Rav Adda answers what 'rejoice with trembling' means in R. Matya's own verse",
      "speaker": "Rav Adda bar Mattana citing Rav",
-     "text": "Psalm 2 says 'serve God with awe and rejoice with trembling.' Where there is joy, there must also be trembling. These are not opposing states - genuine divine encounter combines both.",
+     "text": "R. Matya already cited the verse 'serve God with awe and rejoice with trembling' as his proof-text. The Gemara asks what 'rejoice with trembling' itself means, and Rav Adda bar Mattana, citing Rav, answers: where there is joy, there must also be trembling. These are not opposing states - genuine divine encounter combines both.",
      "sourceRefs": [
       {
        "sourceType": "gemara",
        "lineId": "yoma-004b-l05",
-       "vilnaLine": 5,
-       "note": "Rav Adda: Psalm 2 teaches joy and trembling coexist"
+       "vilnaLine": 9,
+       "note": "Rav Adda answers a clarifying question on R. Matya's already-cited verse"
       }
      ]
     }
@@ -135,9 +135,9 @@
    ],
    "misconceptions": [
     {
-     "misconception": "Only one of the three readings about the cloud's purpose can be correct.",
-     "correction": "The Gemara presents all three without choosing between them. They address different dimensions - public honor, physical purification, and interior awe - and are complementary rather than mutually exclusive.",
-     "correctedByStepId": "step-04"
+     "misconception": "The three readings about the cloud's purpose are freely combinable regardless of dating.",
+     "correction": "The Gemara presents all three side by side without choosing between them here, but they are not simply interchangeable: Rashi ties R. Natan's and R. Matya's readings to R. Yosi HaGalili's chronology (a real separation period), while R. Akiva's reading is tied to his own opposing chronology (no separation period) - the same dating dispute the next sugya works out explicitly.",
+     "correctedByStepId": "step-03"
     }
    ],
    "relatedSugyot": [
@@ -230,9 +230,9 @@
    ],
    "display": {
     "title": "Calendar arithmetic: 6th vs. 7th Sivan and the 17 Tammuz check",
-    "oneLine": "R. Yosi HaGalili says Torah was given on 6 Sivan; R. Akiva says 7 Sivan. Only R. Akiva's count produces exactly 40 days ending on 17 Tammuz when the tablets were shattered. R. Yosi HaGalili must include the sequestering days in his 40-day count.",
-    "shortSummary": "The dispute between R. Yosi HaGalili and R. Akiva about whether Torah was given on 6 or 7 Sivan has an arithmetic consequence: only R. Akiva's reckoning yields exactly 40 full days ending on 17 Tammuz, the traditional date the tablets were shattered. R. Yosi HaGalili can only reach 17 Tammuz by counting the six preparatory days as part of the 40. The sugya ends by confirming R. Elazar's reading: the public call ('vayikra el Moshe') means all Israel heard - an honor to Moses.",
-    "whats": "The Gemara asks which position - R. Yosi HaGalili's 6th Sivan or R. Akiva's 7th Sivan - is consistent with the tradition that Moses shattered the tablets on 17 Tammuz. R. Akiva: Torah was given on 7 Sivan. Moses ascended the same day. Remaining days in Sivan: 24 (days 8-30). Plus 16 days in Tammuz (1-16) = 40 days. He descends into the 17th = 17 Tammuz. This works perfectly. R. Yosi HaGalili: Torah was given on 6 Sivan, then Moses sequestered for 6 more days (7-12 Sivan), ascended on 13 Sivan. Remaining in Sivan: 17 days (13-29, plus the 30th = 18 days), plus 16 in Tammuz = only 34-36 days, not 40. His count only reaches 17 Tammuz if he includes the 6 sequestering days within the 40. The final point: 'vayikra el Moshe vayedaber' - all Israel heard the calling (kol lo = to him, but the voice reached everyone), fulfilling R. Elazar's view that the public nature honored Moses.",
+    "oneLine": "R. Yosi HaGalili says Torah was given on 6 Sivan; R. Akiva says 7 Sivan. R. Akiva's count reaches exactly 40 days ending on 17 Tammuz directly; R. Yosi HaGalili's reaches the same date only by folding the six sequestering days into the 40 rather than counting them beforehand.",
+    "shortSummary": "The dispute between R. Yosi HaGalili and R. Akiva about whether Torah was given on 6 or 7 Sivan has an arithmetic consequence: R. Akiva's reckoning yields exactly 40 full days ending on 17 Tammuz, the traditional date the tablets were shattered, directly. R. Yosi HaGalili reaches 17 Tammuz too, but only by counting the six preparatory days as part of the 40 rather than in addition to them. The sugya then cites the doubled name and Israel's presence in 'vayikra el Moshe, Moshe... ve-chol Yisrael omdin' as support for R. Elazar's reading that the public call was meant to honor Moses.",
+    "whats": "The Gemara asks which position - R. Yosi HaGalili's 6th Sivan or R. Akiva's 7th Sivan - is consistent with the tradition that Moses shattered the tablets on 17 Tammuz. R. Akiva: Torah was given on 7 Sivan. Moses ascended the same day. Remaining days in Sivan: 24 (days 8-30). Plus 16 days in Tammuz (1-16) = 40 days. He descends into the 17th = 17 Tammuz. This works perfectly. R. Yosi HaGalili: Torah was given on 6 Sivan, then Moses sequestered for 6 more days, ascending later in Sivan. Counted straightforwardly, his sequence would not reach the tablets' breaking until 23 Tammuz - past the 40-day mark relative to 17 Tammuz. R. Yosi HaGalili resolves this by folding the six sequestering days into the 40 (rather than adding them beforehand), which brings his count to 17 Tammuz as well. The sugya then cites the verse's doubled name and 'all Israel were standing' as support for R. Elazar's reading that the public call was meant to honor Moses - not that all Israel heard the voice itself.",
     "hint": "The calendar arithmetic is not just a puzzle - it functions as evidence. Which opinion does the 17 Tammuz tradition support, and how does the Gemara handle the loser's arithmetic?"
    },
    "learning": {
@@ -257,15 +257,15 @@
     {
      "id": "step-01",
      "type": "question",
-     "label": "Which opinion is consistent with 17 Tammuz?",
+     "label": "What do R. Yosi HaGalili and R. Akiva disagree about?",
      "speaker": "Gemara",
-     "text": "The tablets were shattered on 17 Tammuz. Moses was on the mountain for 40 days. Counting backward from 17 Tammuz, which opinion - R. Yosi HaGalili (6 Sivan) or R. Akiva (7 Sivan) - produces exactly 40 days?",
+     "text": "The Gemara asks what R. Yosi HaGalili and R. Akiva actually disagree about: a baraita teaches that Torah was given on the 6th of Sivan by one view; R. Yosi HaGalili holds that view, while R. Akiva holds Torah was given on the 7th. The sugya will test this one-day difference against the fixed tradition that the tablets were shattered on 17 Tammuz, 40 days later.",
      "sourceRefs": [
       {
        "sourceType": "gemara",
        "lineId": "yoma-004b-l10",
        "vilnaLine": 10,
-       "note": "The arithmetic test using 17 Tammuz"
+       "note": "Introduces the 6th-vs-7th-Sivan dispute that the 17 Tammuz check will test"
       }
      ]
     },
@@ -289,7 +289,7 @@
      "type": "challenge",
      "label": "R. Yosi HaGalili's count doesn't reach 17 Tammuz",
      "speaker": "Gemara",
-     "text": "According to R. Yosi HaGalili: Torah was given on 6 Sivan. Moses sequestered 6 more days, ascending on 13 Sivan. The remaining days do not add up to 40 ending on 17 Tammuz without including the 6 preparation days in the count.",
+     "text": "According to R. Yosi HaGalili: Torah was given on 6 Sivan. Moses sequestered 6 more days, ascending on 13 Sivan. Counted straightforwardly, this reaches only 23 Tammuz for the 40th day - not 17 Tammuz - unless the 6 preparation days are folded into the count.",
      "sourceRefs": [
       {
        "sourceType": "gemara",
@@ -319,7 +319,7 @@
      "type": "proof",
      "label": "Public calling honored Moses - R. Elazar's view confirmed",
      "speaker": "Gemara",
-     "text": "'Vayikra el Moshe vayedaber' - all Israel heard the voice call to Moses. This supports R. Elazar's reading: the public nature of the call was meant to honor Moses before Israel.",
+     "text": "The master recalls: 'Vayikra el Moshe, Moshe, ve-chol Yisrael omdin' - the verse doubles Moses's name and notes that all Israel were standing by. This supports R. Elazar's reading: the doubled name and Israel's presence show the verse's purpose was only to give Moses public honor, not that Israel heard the content of what was said.",
      "sourceRefs": [
       {
        "sourceType": "gemara",
@@ -436,28 +436,28 @@
    ],
    "display": {
     "title": "Public vs. private voice; Moses enters the cloud; calling before speaking; 'lemor' as confidentiality",
-    "oneLine": "Sinai's call was public, the Tent's was private. Moses entered the cloud via God pulling him in or a gezerah shavah from sea-parting. The verse 'vayikra vayedaber' teaches: always announce yourself before speaking. 'Lemor' teaches: what you hear is confidential until you are given permission to transmit it.",
-    "shortSummary": "A contradiction between Sinai (public voice) and the Tent of Meeting (private voice only Moses heard) is resolved: at Sinai the call was public; at the Tent the speaking was private. How did Moses enter the Tent when blocked by the cloud? R. Elazar: God grabbed him in. The school of R. Yishmael: a gezerah shavah from the sea-parting ('betoch' = passage through, not immersion). Two practical rules: 'vayikra el Moshe vayedaber' teaches you should always call before speaking; 'lemor' is read as 'lo emor' - do not transmit this information until the speaker permits.",
-    "whats": "The Gemara faces a textual contradiction: at Sinai the call was public, but at the Tent of Meeting the verse says the voice was heard 'by him alone' (kol lo). Resolution: at Sinai the call was public (honoring Moses), but the actual speaking was private. Or: at Sinai the calling was public, at the Tent both were private. A second problem: Moses could not enter the Tent of Meeting (blocked by the cloud per Exodus 40), yet the opening verse of Leviticus has God speaking to Moses from the Tent. How did Moses get in? R. Elazar: God reached out and pulled Moses into the Tent. The school of R. Yishmael: a gezerah shavah from the sea crossing - 'betoch' means a path through (as Israel walked betoch the sea, through a dry channel), not literal immersion. Moses walked through an opening in the cloud. The verse 'vayikra el Moshe vayedaber Hashem' teaches derekh eretz: one should always call someone to attention before speaking to them. Finally, the word 'lemor' at the end of God's communications is read midrashically as 'lo emor' - information received from someone is confidential until the sharer gives explicit permission to transmit it.",
-    "hint": "The 'lemor' reading as confidentiality is a midrashic move - but the Gemara treats it as deriving a real behavioral norm. What does this say about the relationship between peshat and derash in practical halacha?"
+    "oneLine": "Two independent answers resolve Sinai's public voice vs. the Tent's private voice: either the difference is Sinai vs. the Tent (location), or between the call and the speech itself (content) - not a single combined answer. Moses entered the cloud either because God pulled him in (R. Elazar) or, per a gezerah shavah from the sea-parting, by walking through an opening. The verse 'vayikra vayedaber' teaches: always announce yourself before speaking. The word 'lemor' teaches that what you are told may not be repeated until you are given permission.",
+    "shortSummary": "A contradiction between Sinai (public voice) and the Tent of Meeting (private voice only Moses heard) is resolved two independent ways: either the difference is Sinai vs. the Tent, or the difference is between the call and the speech itself. How did Moses enter the Tent when blocked by the cloud? Two independent answers: R. Elazar says God grabbed him in; the school of R. Yishmael derives via a gezerah shavah from the sea-parting that 'betoch' means passage through, not immersion. Two practical rules follow from the opening verse: 'vayikra el Moshe vayedaber' teaches you should always call before speaking; the word 'lemor' teaches that what is told to you may not be repeated until the teller gives permission.",
+    "whats": "The Gemara faces a textual contradiction: at Sinai the call was public, but at the Tent of Meeting the verse says the voice was heard 'by him alone' (kol lo, Moses heard but Israel did not). The Gemara gives two independent resolutions, either of which removes the contradiction: (1) the difference is between the two settings - at Sinai it was public, at the Tent it was private; or (2) if you prefer, the difference is between the call and the speech - the calling itself, not just the content, is what differs. A second problem: Moses could not enter the Tent of Meeting (blocked by the cloud per Exodus 40), yet the opening verse of Leviticus has God speaking to Moses from the Tent. How did Moses get in? Two independent answers: R. Elazar (via R. Zerika) says God reached out and pulled Moses into the cloud. The school of R. Yishmael instead derives from a gezerah shavah with the sea crossing - 'betoch' means a path through (as Israel walked betoch the sea, through a dry channel), not literal immersion - that Moses likewise walked through an opening in the cloud. The verse 'vayikra el Moshe vayedaber Hashem' teaches derekh eretz: one should always call someone to attention before speaking to them. Finally, the word 'lemor' at the end of this communication is read to mean that a person who tells you something puts you under a prohibition to repeat it until they explicitly tell you 'go and say it.'",
+    "hint": "The Gemara resolves the same contradiction two independent ways rather than picking one - what does that tell you about how the sugya treats 'lo kashya, ha... ha...' answers? And the 'lemor' derivation yields a real behavioral norm from what looks like a technical closing word - what does that say about the relationship between a verse's plain sense and its legal derivation?"
    },
    "learning": {
     "learnerQuestion": "How can the same voice be both public (at Sinai) and private (at the Tent)? Weren't both cases God speaking to Moses?",
     "coreTension": "The Torah says the voice at the Tent was heard only by Moses - but at Sinai the call was public. Both involve God speaking to Moses. How can the same divine communication function differently?",
-    "coreMove": "Distinguish between the call (kria) and the speech (dibbur). At Sinai the call was public but the speaking was private. At the Tent both were private. Context determines which parts of a divine communication are public and which are not.",
-    "resolution": "Public vs. private depends on the setting and purpose: Sinai required public witness to honor Moses and authenticate the revelation. The ongoing Tent of Meeting communications were private by design. The contradiction is resolved by differentiating calling from speaking.",
+    "coreMove": "The Gemara offers two independent, alternative resolutions rather than one combined answer: either the difference is the setting (Sinai vs. the Tent), or the difference is which part of the communication is meant (the call vs. the speech). Either alone removes the contradiction.",
+    "resolution": "Two independent answers are given. First: Sinai required public witness to honor Moses, while the ongoing Tent of Meeting communications were private by design - a setting-based distinction. Second (an alternative, not an addition): the calling itself differed in publicity from the speaking that followed - a content-based distinction. The Gemara does not combine these into one claim.",
     "takeaway": {
      "type": "legal_principle",
-     "text": "Two practical norms are derived from the Leviticus verse: (1) always call someone's attention before speaking to them (derekh eretz, from 'vayikra vayedaber'); (2) information shared with you is confidential until you are given permission to share it (from 'lemor' read as 'lo emor')."
+     "text": "Two practical norms are derived from the Leviticus verse: (1) always call someone's attention before speaking to them (derekh eretz, from 'vayikra vayedaber'); (2) a person who tells you something puts you under a prohibition to repeat it until they explicitly permit it (from the word 'lemor')."
     },
     "reasoningPattern": {
      "id": "distinction_and_derivation",
      "category": "hermeneutical",
-     "notes": "The sugya resolves a contradiction by distinguishing two elements of communication (call vs. speech), then derives two independent behavioral norms from close reading of the same verse."
+     "notes": "The sugya resolves a contradiction with two independent 'lo kashya' answers (setting-based and content-based), then separately derives two independent behavioral norms from close reading of the same verse."
     },
-    "ahaMoment": "The 'lemor' reading flips the word's function: instead of 'say (this to Israel),' it becomes 'do not say (without permission).' This transforms a technical transmission marker into a principle of information ethics - you are the temporary custodian of what you hear, not its owner.",
-    "learningBlocker": "Students may read 'lemor' as simply 'say it to Israel' (its plain meaning). The Gemara's midrashic reading as 'lo emor' requires seeing the word as encoding a permission structure, not just a transmission command.",
-    "memoryAnchor": "Vayikra then vayedaber: call first, speak second. Always announce yourself. And 'lemor' = 'lo emor': what you heard belongs to the teller until they say you can pass it on."
+    "ahaMoment": "The 'lemor' derivation flips the word's apparent function: rather than a plain instruction to transmit the message, the Gemara reads it as establishing that transmission requires explicit permission first. This transforms a routine closing word into a principle of information ethics - you are the temporary custodian of what you hear, not its owner.",
+    "learningBlocker": "Students may read 'lemor' as simply 'say it' (its plain sense) and miss that the Gemara derives a permission-based restriction from it, or may assume the Gemara's two answers to the public/private contradiction combine into one claim when they are independent alternatives.",
+    "memoryAnchor": "Vayikra then vayedaber: call first, speak second. Always announce yourself. And 'lemor': what you heard belongs to the teller until they say 'go and say it.'"
    },
    "argumentFlow": [
     {
@@ -478,15 +478,15 @@
     {
      "id": "step-02",
      "type": "resolution",
-     "label": "Resolution: calling was public, speaking was private",
+     "label": "Two independent resolutions: setting-based, or call-vs-speech-based",
      "speaker": "Gemara",
-     "text": "At Sinai the kria (the call by name) was public - Israel heard God call Moses. But the dibbur (the actual content of what was communicated) was private. At the Tent, both were private. The two cases address different aspects of communication.",
+     "text": "The Gemara gives two independent answers, either of which removes the contradiction on its own. First: this (private) is at the Tent, this (public) is at Sinai - a setting-based distinction. Alternatively (the Gemara's own 've-i ba'it eima'): this is about the calling (kria), this is about the speaking (dibbur) - at Sinai the call itself was public even though speech content could still be private. These are two separate ways to resolve the difficulty, not two parts of one combined claim.",
      "sourceRefs": [
       {
        "sourceType": "gemara",
        "lineId": "yoma-004b-l29",
-       "vilnaLine": 29,
-       "note": "Resolution: distinguish public call from private speech"
+       "vilnaLine": 30,
+       "note": "Two independent 'lo kashya' resolutions: location-based and call/speech-based"
       }
      ]
     },
@@ -508,9 +508,9 @@
     {
      "id": "step-04",
      "type": "answer",
-     "label": "R. Elazar: God grabbed Moses in. School of R. Yishmael: gezerah shavah from sea",
+     "label": "Two independent answers: R. Elazar's forcible entry vs. the school of R. Yishmael's gezerah shavah",
      "speaker": "R. Elazar / School of R. Yishmael",
-     "text": "R. Elazar: God reached out and pulled Moses into the cloud and into the Tent. School of R. Yishmael: gezerah shavah - just as Israel walked 'betoch' the sea through a dry path (not submerged in water), 'betoch' the cloud means Moses walked through an opening in it, not immersed within it.",
+     "text": "Two independent answers are given. R. Elazar (via R. Zerika): God reached out and pulled Moses into the cloud and into the Tent. Separately, the school of R. Yishmael derives via a gezerah shavah: just as Israel walked 'betoch' the sea through a dry path (not submerged in water), 'betoch' the cloud means Moses walked through an opening in it, not immersed within it.",
      "sourceRefs": [
       {
        "sourceType": "gemara",
@@ -538,9 +538,9 @@
     {
      "id": "step-06",
      "type": "derivation",
-     "label": "'Lemor' = confidentiality until permission granted",
+     "label": "'Lemor' teaches: a hearer may not repeat what he was told until given explicit permission",
      "speaker": "Gemara",
-     "text": "'Lemor' at the end of divine speeches is read as 'lo emor' - do not say. Information shared with you is confidential until the person who shared it gives you permission to transmit it. This is derived from the word 'lemor' throughout God's communications with Moses.",
+     "text": "Rabba (or, some say, Rav Mesharshiya) asks: from where do we know that someone who tells another something puts him under a prohibition to repeat it, until he is told 'go and say it'? From the verse: 'And God spoke to him from the Tent of Meeting, lemor' - the word 'lemor' here is read to establish that permission to transmit is required, not assumed.",
      "sourceRefs": [
       {
        "sourceType": "gemara",
@@ -569,7 +569,7 @@
    "misconceptions": [
     {
      "misconception": "'Lemor' simply means 'say it' - a command to transmit the message to Israel.",
-     "correction": "The Gemara reads 'lemor' as 'lo emor' - do not say - turning it into a confidentiality clause. The midrashic reading derives a behavioral principle: what you hear from another is theirs to share, not yours, until they explicitly give permission.",
+     "correction": "The Gemara derives from the word 'lemor' in this verse that a person who is told something is under a prohibition to repeat it until he is explicitly told 'go and say it.' What you hear from another is theirs to share, not yours, until they give permission.",
      "correctedByStepId": "step-06"
     }
    ],
@@ -579,12 +579,12 @@
    ],
    "visualizableElements": [
     {
-     "item": "Split scene: left panel shows Sinai with crowd witnessing God call Moses by name (public); right panel shows Tent of Meeting with Moses alone receiving private communication (private) - illustrating the call/speech distinction",
+     "item": "Two-path diagram: the same public/private contradiction resolved two independent ways - path A (Sinai vs. Tent, setting-based) and path B (calling vs. speaking, content-based) - shown as alternatives, not combined",
      "role": "contrast",
      "priority": 1
     },
     {
-     "item": "Word study: 'lemor' with an arrow splitting into 'le-emor' (to say) and 'lo-emor' (do not say) - showing the midrashic reading that generates the confidentiality norm",
+     "item": "Word study: the closing word 'lemor' with an arrow to the derived rule 'do not repeat what you were told until given explicit permission' - showing how the derivation works from the word's role in the verse",
      "role": "aha",
      "priority": 2
     }
@@ -592,7 +592,7 @@
    "quizSeeds": [
     {
      "question": "How does the Gemara resolve the contradiction between the voice being public at Sinai and private at the Tent of Meeting?",
-     "answer": "It distinguishes between the kria (call) and the dibbur (speech). At Sinai the call was public - all Israel heard God call Moses by name - but the speaking was private. At the Tent, both were private. The different settings had different purposes: Sinai required public witness, the Tent did not.",
+     "answer": "It gives two independent answers. First: the difference is the setting - at Sinai it was public, at the Tent it was private. Alternatively: the difference is between the kria (call) and the dibbur (speech) - the calling itself, not just the content, is what differed. These are two separate resolutions, not one combined claim.",
      "sourceRefs": [
       {
        "sourceType": "gemara",
@@ -603,7 +603,7 @@
     },
     {
      "question": "What behavioral principle is derived from 'lemor' in God's communications with Moses?",
-     "answer": "'Lemor' is read as 'lo emor' - do not say. The principle is that information someone shares with you is confidential - you may not transmit it until the person who shared it with you gives you explicit permission to do so.",
+     "answer": "From the word 'lemor,' the Gemara derives that a person who tells you something puts you under a prohibition to repeat it until they explicitly tell you 'go and say it.' Information someone shares with you is not yours to transmit until they give permission.",
      "sourceRefs": [
       {
        "sourceType": "gemara",
@@ -659,16 +659,16 @@
    ],
    "display": {
     "title": "R. Yochanan identified as the strict position on inauguration invalidation",
-    "oneLine": "By inference from Reish Lakish's challenge (which R. Yochanan didn't refute), both R. Yochanan and R. Chanina agree that inauguration requirements invalidate - but R. Yochanan is identified as the strict opinion. The page closes with an open question about their practical differences.",
-    "shortSummary": "The Gemara notes that the earlier exchange between Reish Lakish and R. Yochanan reveals that both R. Yochanan and R. Chanina hold that inauguration requirements can invalidate the service. R. Yochanan's silence when Reish Lakish assumed he holds the strict position (all written requirements invalidate) is treated as concession. R. Chanina's position is narrower: only requirements that also apply to ongoing ordinary service invalidate the inauguration. The sugya closes by asking what their practical disagreements actually are - a question that continues into 5a.",
-    "whats": "The Gemara recaps: Reish Lakish's earlier challenge assumed that deriving from the inauguration would make all inauguration requirements indispensable. R. Yochanan did not refute this assumption - his silence amounts to acceptance. By contrast, R. Chanina holds a narrower rule: inauguration requirements only invalidate if those same requirements also invalidate ongoing ordinary service. This creates a common ground (both agree inauguration requirements can invalidate) but different scopes. R. Yochanan is the strict one: every written requirement in the inauguration passage invalidates. R. Chanina limits invalidation to requirements that appear in the ongoing-service rules as well. The page ends with the question: in concrete cases, what exactly do they disagree about?",
-    "hint": "R. Yochanan's silence in the earlier exchange is treated as a concession. What does this teach about how the Talmud reads silences and non-responses in legal debate?"
+    "oneLine": "An earlier exchange between Reish Lakish and R. Yochanan (unrefuted, so treated as conceded) established that inauguration requirements can invalidate. The Gemara then cites a separately-transmitted R. Yochanan/R. Chanina dispute over the scope of that rule, and uses the earlier exchange to identify R. Yochanan as the strict opinion - so, by elimination, R. Chanina holds the narrower one. The page closes with an open question about their practical differences.",
+    "shortSummary": "The Gemara recalls that an earlier exchange - Reish Lakish's challenge to R. Yochanan, which R. Yochanan did not refute - already established that inauguration requirements can invalidate the service. Separately, a dispute is cited between R. Yochanan and R. Chanina: one holds all written inauguration requirements invalidate; the other holds only requirements that also invalidate ongoing service invalidate. Because R. Yochanan's earlier silence matches the strict view, the Gemara concludes he holds it - and, by elimination, R. Chanina holds the narrower one. The sugya closes by asking what their practical disagreements actually are - a question left open, continuing into 5a.",
+    "whats": "The Gemara opens by recalling that 'it follows that both of them' - Reish Lakish and R. Yochanan, from an earlier exchange - hold that the inauguration passage's written requirements can invalidate the service; this follows because Reish Lakish's challenge assumed it and R. Yochanan did not object. Separately, the Gemara cites a transmitted dispute: R. Yochanan and R. Chanina disagreed about this same question - one held that everything written concerning the inauguration invalidates; the other held that only something that also invalidates ongoing service in later generations invalidates the inauguration. The two positions are not yet attributed by name. The Gemara then concludes: it must be R. Yochanan who holds the strict view, since that is exactly the position Reish Lakish assumed he held earlier, and R. Yochanan did not respond to challenge it at all. By elimination, R. Chanina holds the narrower position. The page ends with the question: in concrete cases, what exactly do they disagree about? - left open, continuing to 5a.",
+    "hint": "The word 'both of them' at the start of this passage refers back to an earlier exchange - not to R. Yochanan and R. Chanina. Once you separate that recap from the actual R. Yochanan/R. Chanina dispute, how does the Gemara use the first to solve the second?"
    },
    "learning": {
-    "learnerQuestion": "How do we know which of R. Yochanan and R. Chanina is the strict opinion, when neither one explicitly stated their position in these terms?",
-    "coreTension": "Neither R. Yochanan nor R. Chanina stated the full scope of their positions directly. The Gemara must infer who holds which view from the structure of earlier challenges and from silences.",
-    "coreMove": "Reish Lakish's challenge to R. Yochanan assumed he holds that all written inauguration requirements invalidate. R. Yochanan did not object to this characterization - his silence confirms it. The Gemara reads non-refutation as implicit acceptance.",
-    "resolution": "R. Yochanan is identified as the strict position: all written inauguration requirements invalidate. R. Chanina is more limited: only requirements shared with ongoing service invalidate. Both agree inauguration requirements can invalidate - they disagree on the scope.",
+    "learnerQuestion": "How do we know which of R. Yochanan and R. Chanina is the strict opinion, when the dispute itself doesn't say which sage held which side?",
+    "coreTension": "A transmitted dispute states two positions on inauguration invalidation without saying which sage holds which. The Gemara must infer who holds which view from an earlier, separate exchange and from a silence in it.",
+    "coreMove": "An earlier exchange already established (via Reish Lakish's unrefuted challenge to R. Yochanan) that the strict view - all written inauguration requirements invalidate - is out there and unrefuted. When the Gemara cites the actual R. Yochanan/R. Chanina dispute, it matches that earlier, already-established strict view to R. Yochanan, and assigns R. Chanina the remaining, narrower position by elimination.",
+    "resolution": "R. Yochanan is identified as the strict position: all written inauguration requirements invalidate. R. Chanina, by elimination, holds the narrower position: only requirements shared with ongoing service invalidate. The identification rests on matching an earlier unrefuted assumption to one side of a separately-cited dispute.",
     "takeaway": {
      "type": "derivation_principle",
      "text": "In Talmudic debate, silence in the face of an accusation or characterization is treated as concession. When R. Yochanan did not refute Reish Lakish's assumption about his position, the Gemara takes that as confirmation of the strict reading."
@@ -676,55 +676,67 @@
     "reasoningPattern": {
      "id": "silence_as_concession",
      "category": "logical",
-     "notes": "The Gemara reads R. Yochanan's non-refutation of Reish Lakish's challenge as an implicit acceptance of the characterization. This is a standard Talmudic inference pattern."
+     "notes": "The Gemara reads R. Yochanan's earlier non-refutation of Reish Lakish's challenge as an implicit acceptance of that characterization, then uses that already-settled fact to resolve which side of a separately-cited dispute he is on. This is a standard Talmudic inference pattern."
     },
-    "ahaMoment": "The Gemara is doing detective work: it wasn't told who holds which view. It reconstructs the positions from the shape of the earlier dialogue - specifically from what R. Yochanan chose not to deny. Silence is evidence.",
-    "learningBlocker": "Students may look for an explicit statement of R. Yochanan's position and miss that the Gemara infers it from structure (his silence = acceptance of RL's characterization).",
-    "memoryAnchor": "Reish Lakish accused R. Yochanan of holding the strict view. R. Yochanan said nothing. In the Talmud, nothing = yes. R. Yochanan is the strict one: all written inauguration requirements invalidate."
+    "ahaMoment": "The Gemara is doing detective work: a transmitted dispute doesn't say who holds which view. It solves this not from anything in the dispute itself, but by reaching back to an earlier, separate exchange where R. Yochanan's silence in the face of an accusation already revealed his position.",
+    "learningBlocker": "Students may assume 'both of them' at the start refers to R. Yochanan and R. Chanina - it actually refers back to Reish Lakish and R. Yochanan from an earlier exchange. Keeping that recap separate from the actual R. Yochanan/R. Chanina dispute is essential to following the identification.",
+    "memoryAnchor": "First: Reish Lakish accused R. Yochanan of holding the strict view, and R. Yochanan said nothing - nothing = yes. Then: a separate, unattributed dispute between R. Yochanan and R. Chanina is cited. Matching the two: R. Yochanan is the strict one; R. Chanina, by elimination, is the narrower one."
    },
    "argumentFlow": [
     {
      "id": "step-01",
-     "type": "inference",
-     "label": "Both R. Yochanan and R. Chanina agree inauguration requirements invalidate",
+     "type": "case",
+     "label": "Recap: an earlier exchange already established that 'both of them' hold inauguration requirements can invalidate",
      "speaker": "Gemara",
-     "text": "From the prior discussion, it is clear that both R. Yochanan and R. Chanina hold that the inauguration passage can generate invalidating requirements for the service. This is common ground between them.",
+     "text": "'It follows that both of them hold...' - this refers back to an earlier exchange between Reish Lakish and R. Yochanan (not to R. Yochanan and R. Chanina): Reish Lakish's challenge assumed that, just as with the inauguration, everything written concerning it invalidates, and R. Yochanan conceded. From this it follows that both Reish Lakish and R. Yochanan hold that inauguration requirements can invalidate the service.",
      "sourceRefs": [
       {
        "sourceType": "gemara",
        "lineId": "yoma-004b-l41",
        "vilnaLine": 41,
-       "note": "Common ground: both hold inauguration requirements can invalidate"
+       "note": "Recap of an earlier Reish Lakish / R. Yochanan exchange, not a R. Yochanan/R. Chanina statement"
       }
      ]
     },
     {
      "id": "step-02",
-     "type": "identification",
-     "label": "R. Yochanan is the strict opinion by inference from his silence",
+     "type": "case",
+     "label": "A separate, unattributed dispute: R. Yochanan and R. Chanina on the scope of invalidation",
      "speaker": "Gemara",
-     "text": "Reish Lakish's earlier challenge presupposed that R. Yochanan holds all written inauguration requirements invalidate. R. Yochanan did not refute this framing. His non-refutation is treated as implicit acceptance: he holds the strict position.",
+     "text": "As it was stated: regarding the inauguration, R. Yochanan and R. Chanina disagreed. One said: everything written concerning them invalidates. The other said: something that invalidates for future generations [i.e. also applies to ongoing service] invalidates here; something that does not invalidate for future generations does not invalidate here. At this point neither position is yet attributed by name to either sage.",
      "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-004b-l41",
+       "vilnaLine": 42,
+       "note": "Introduces the actual R. Yochanan/R. Chanina dispute, unattributed"
+      },
       {
        "sourceType": "gemara",
        "lineId": "yoma-004b-l44",
        "vilnaLine": 44,
-       "note": "R. Yochanan identified via his silence as strict opinion"
+       "note": "The narrower position's wording continues into this segment"
       }
      ]
     },
     {
      "id": "step-03",
-     "type": "distinction",
-     "label": "R. Chanina's narrower rule: only requirements shared with ongoing service",
-     "speaker": "R. Chanina",
-     "text": "R. Chanina limits the invalidation: only requirements that also apply to and invalidate ordinary ongoing service can invalidate the inauguration. This is a narrower scope than R. Yochanan's 'all written requirements.'",
+     "type": "identification",
+     "label": "R. Yochanan is the strict opinion by inference from his earlier silence; R. Chanina holds the narrower view by elimination",
+     "speaker": "Gemara",
+     "text": "Let it be concluded that R. Yochanan is the one who holds the strict view: Reish Lakish had said to R. Yochanan, 'if so, just as with the inauguration, everything written concerning them [invalidates] ...' and R. Yochanan did not respond to challenge it at all. Since that earlier, unrefuted assumption matches the strict side of the dispute just cited, R. Yochanan is identified as holding it - and, by elimination, R. Chanina holds the narrower position (only requirements shared with ongoing service invalidate).",
      "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-004b-l44",
+       "vilnaLine": 44,
+       "note": "The silence-based identification of R. Yochanan as the strict opinion"
+      },
       {
        "sourceType": "gemara",
        "lineId": "yoma-004b-l46",
        "vilnaLine": 46,
-       "note": "R. Chanina's limiting criterion"
+       "note": "Identification concludes just before the open question"
       }
      ]
     },
@@ -733,13 +745,19 @@
      "type": "question",
      "label": "What practical differences follow?",
      "speaker": "Gemara",
-     "text": "Given these two positions, what are the concrete cases where R. Yochanan and R. Chanina would rule differently? This question is left open and continues into 5a.",
+     "text": "Given these two positions, what are the concrete cases where R. Yochanan and R. Chanina would rule differently? The question is posed, and the daf cuts off mid-word at the start of the answer, continuing into 5a.",
      "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-004b-l46",
+       "vilnaLine": 46,
+       "note": "Open question: practical differences between R. Yochanan and R. Chanina"
+      },
       {
        "sourceType": "gemara",
        "lineId": "yoma-004b-l47",
        "vilnaLine": 47,
-       "note": "Open question: practical differences between R. Yochanan and R. Chanina (continues on 5a)"
+       "note": "Daf cuts off mid-word at the start of the answer (continues on 5a)"
       }
      ]
     }
@@ -761,9 +779,9 @@
    ],
    "misconceptions": [
     {
-     "misconception": "The Gemara needs an explicit statement to determine which opinion R. Yochanan holds.",
-     "correction": "The Gemara infers R. Yochanan's position from his silence: Reish Lakish's challenge assumed the strict view, and R. Yochanan did not object. Non-refutation functions as implicit acceptance in Talmudic reasoning.",
-     "correctedByStepId": "step-02"
+     "misconception": "'It follows that both of them...' at the start of this passage refers to R. Yochanan and R. Chanina.",
+     "correction": "It actually refers back to an earlier, separate exchange between Reish Lakish and R. Yochanan. The Gemara only later cites the actual R. Yochanan/R. Chanina dispute, and uses that earlier exchange to determine which side of it R. Yochanan is on.",
+     "correctedByStepId": "step-01"
     }
    ],
    "relatedSugyot": [
@@ -772,20 +790,20 @@
    ],
    "visualizableElements": [
     {
-     "item": "Diagram of the two positions side by side: R. Yochanan (all written inauguration requirements invalidate) vs. R. Chanina (only requirements also found in ongoing service) with an overlap zone showing their common ground",
-     "role": "contrast",
+     "item": "Two-panel flow: panel 1 shows the earlier Reish Lakish/R. Yochanan exchange (challenge + silence) as background; panel 2 shows the separately-cited, unattributed R. Yochanan/R. Chanina dispute, with an arrow from panel 1 matching R. Yochanan to the strict side",
+     "role": "sequence",
      "priority": 1
     },
     {
-     "item": "Dialogue reconstruction: Reish Lakish's challenge arrow pointing at R. Yochanan with an empty response bubble - the silence that became evidence",
+     "item": "Dialogue reconstruction: Reish Lakish's challenge arrow pointing at R. Yochanan with an empty response bubble - the silence that became evidence used later to solve a different, unattributed dispute",
      "role": "aha",
      "priority": 2
     }
    ],
    "quizSeeds": [
     {
-     "question": "How does the Gemara determine that R. Yochanan holds the strict position on inauguration invalidation?",
-     "answer": "Reish Lakish's challenge to R. Yochanan assumed he holds that all written inauguration requirements invalidate. R. Yochanan did not refute this framing. The Gemara treats his silence as acceptance - non-refutation is implicit concession.",
+     "question": "How does the Gemara determine that R. Yochanan holds the strict position on inauguration invalidation, given that the dispute itself doesn't name who holds which side?",
+     "answer": "A separate, earlier exchange already showed that Reish Lakish's challenge to R. Yochanan assumed he holds that all written inauguration requirements invalidate, and R. Yochanan did not refute it. The Gemara matches that earlier, unrefuted assumption to the strict side of the newly-cited dispute, identifying it as R. Yochanan's.",
      "sourceRefs": [
       {
        "sourceType": "gemara",
@@ -795,13 +813,18 @@
      ]
     },
     {
-     "question": "What is R. Chanina's limiting principle on inauguration invalidation?",
-     "answer": "R. Chanina holds that only requirements which also invalidate ongoing ordinary service can invalidate the inauguration. This is narrower than R. Yochanan's view that all written inauguration requirements invalidate.",
+     "question": "How does the Gemara determine R. Chanina's position, since he is never named as holding the narrower view?",
+     "answer": "By elimination: once R. Yochanan is identified as holding the strict view (everything written invalidates), the remaining, narrower position in the same dispute - only requirements shared with ongoing service invalidate - must be R. Chanina's.",
      "sourceRefs": [
       {
        "sourceType": "gemara",
-       "lineId": "yoma-004b-l46",
-       "vilnaLine": 46
+       "lineId": "yoma-004b-l41",
+       "vilnaLine": 42
+      },
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-004b-l44",
+       "vilnaLine": 44
       }
      ]
     }
@@ -838,7 +861,7 @@
   {
    "he": "לֵאמֹר",
    "translit": "Lemor",
-   "en": "Literally 'to say,' the particle signaling Moses should transmit the message to Israel. Read midrashically as 'lo emor' (do not say), it becomes a principle of information confidentiality: one must not transmit what was shared with them until explicitly given permission to do so."
+   "en": "Literally 'to say.' From this closing word in 'and God spoke to him from the Tent of Meeting, lemor,' the Gemara derives a principle of information confidentiality: a person who tells you something puts you under a prohibition to repeat it until they explicitly tell you 'go and say it.'"
   },
   {
    "he": "עִכּוּב",
