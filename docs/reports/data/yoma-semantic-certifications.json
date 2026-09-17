@@ -36405,7 +36405,7 @@
     "yoma-005a-s01": {
       "sugyaId": "yoma-005a-s01",
       "daf": "5a",
-      "state": "REPAIRED_PENDING_REVIEW",
+      "state": "PENDING_FINAL_AUDIT",
       "firstPass": {
         "reviewId": "sonnet5-5a-second-20260917a",
         "reviewerContextId": "a8fefe0d6385b1c0d",
@@ -36435,42 +36435,60 @@
           }
         }
       },
-      "repairRef": "a279bf4a3a0e84c4a86288d0933dd4df77f2acaf"
+      "repairRef": "a279bf4a3a0e84c4a86288d0933dd4df77f2acaf",
+      "sourceFingerprint": "c2d8adb3ff0997cb177db82b2c1865594bc1b613ae2277a586563d689b63a013",
+      "semanticFingerprint": "4578a59e83ae7c389e34233b7cb3dd2a81c9efadab82527d0252d441647eb05c",
+      "secondPass": {
+        "reviewId": "sonnet5-5a-second-20260917b",
+        "reviewerContextId": "a0e22d722e74025c1",
+        "sourceFirst": true,
+        "verdict": "CONFIRMED",
+        "reviewedSourceFingerprint": "c2d8adb3ff0997cb177db82b2c1865594bc1b613ae2277a586563d689b63a013",
+        "reviewedSemanticFingerprint": "4578a59e83ae7c389e34233b7cb3dd2a81c9efadab82527d0252d441647eb05c",
+        "evidence": {
+          "reviewMethod": "Genuinely fresh third-context independent reviewer (no access to any prior reviewer's findings) reconstructed daf 5a from raw Hebrew/Aramaic and bundled Rashi from scratch, then evaluated the round-2-repaired enrichment.",
+          "verdict": "s01 CLEAN/CONFIRMED; s02 REJECTED - one confirmed sourceRef under-citation",
+          "confirmedDefects": {
+            "yoma-005a-s02 argumentFlow step-02 and matching quizSeed": "sourceRef cited only l27 (vilna 27-29, the Lev 16:32 verse-quote and opening question) for the full claim including the 'mikol makom / any combination suffices' conclusion, but that conclusion's actual derivation and payload live in segments l30 (30-33) and l34 (34), neither cited. Added l30 and l34 to step-02's sourceRefs; added l34 to the matching quizSeed's sourceRefs."
+          },
+          "verifiedClean": [
+            "yoma-005a-s01: fully clean across all fields, including the l22 boundary-case handling (step-06) which was independently re-verified as correctly disclosed, not fabricated.",
+            "yoma-005a-s02: all other sourceRefs (step-01, step-03, step-04, step-05, other quizSeeds) confirmed correct; the daf's mid-sentence cutoff handling (correctly attributing the 'requirements written elsewhere' continuation to Rashi's own note, never to 5a's own Gemara text) verified across every field.",
+            "dafLevel.summary: clean.",
+            "No cross-sugya sourceRef violations found anywhere on the daf."
+          ]
+        }
+      }
     },
     "yoma-005a-s02": {
       "sugyaId": "yoma-005a-s02",
       "daf": "5a",
       "state": "REPAIRED_PENDING_REVIEW",
       "firstPass": {
-        "reviewId": "sonnet5-5a-second-20260917a",
-        "reviewerContextId": "a8fefe0d6385b1c0d",
+        "reviewId": "sonnet5-5a-second-20260917b",
+        "reviewerContextId": "a0e22d722e74025c1",
         "sourceFirst": true,
         "verdict": "REPAIR_REQUIRED",
         "reviewedSourceFingerprint": "923cfada46e98693d0e35d08c73fc0f2e2861e1665df84ab75145475c61f783f",
-        "reviewedSemanticFingerprint": "45ae34b7f994d8ddf8f3e16345cfecec62ecd8562dd50890f3791cbd9daa1ee2",
+        "reviewedSemanticFingerprint": "fcb6ab08055b58792436eb9fc97e59793ebc4139055a8c2d646c123361ad1c2f",
         "evidence": {
           "origin": "independent-second-pass-rejection",
           "reviewEvidence": {
-            "reviewMethod": "Genuinely fresh second-context independent reviewer (no access to Source Auditor's findings) reconstructed daf 5a from raw Hebrew/Aramaic and bundled Rashi from scratch, then evaluated the round-1-repaired enrichment.",
-            "verdict": "REJECTED - confirmed defects found in both sugyot and dafLevel.summary",
+            "reviewMethod": "Genuinely fresh third-context independent reviewer (no access to any prior reviewer's findings) reconstructed daf 5a from raw Hebrew/Aramaic and bundled Rashi from scratch, then evaluated the round-2-repaired enrichment.",
+            "verdict": "s01 CLEAN/CONFIRMED; s02 REJECTED - one confirmed sourceRef under-citation",
             "confirmedDefects": {
-              "dafLevel.summary": "Still stated 'the daf ends with a stub question: [specific Rashi-sourced question]' as if 5a's own text poses this question, when the daf actually cuts off mid-sentence after 'tinach kol milta' - inconsistent with s02's own carefully-hedged fields. Fixed to match s02's honest framing (Rashi's note anticipates the continuation; not itself stated in 5a's text).",
-              "yoma-005a-s01 argumentFlow[5] (step-06) and quizSeeds[2]": "sourceRef lineId l22/vilnaLine 22 does not contain the 'matkin'/'mafrishin' words the claim depends on - segment l22 covers only vilna line 22 (a dangling 'from the fact that it teaches...' clause); the actual proof words are on vilna line 23, which belongs entirely to s02's own segment map. Reworded step-06 and quizSeeds[2] to describe the word-choice proof without asserting the specific Hebrew terms are contained within s01's own cited line, and corrected the speaker from 'Gemara' to 'Rav Pappa' (the proof is still grammatically part of his own statement, not a separate baraita).",
-              "yoma-005a-s02 relatedSugyot": "cited 'yoma-006a-s01' as the continuing sugya, inconsistent with the packet's own bundled Rashi note (which explicitly says the continuation is on 5b, not 6a). Corrected to 'yoma-005b-s01', confirmed as the actual continuing sugya (opens with the bridging discussion that completes 5a's dangling stub)."
+              "yoma-005a-s02 argumentFlow step-02 and matching quizSeed": "sourceRef cited only l27 (vilna 27-29, the Lev 16:32 verse-quote and opening question) for the full claim including the 'mikol makom / any combination suffices' conclusion, but that conclusion's actual derivation and payload live in segments l30 (30-33) and l34 (34), neither cited. Added l30 and l34 to step-02's sourceRefs; added l34 to the matching quizSeed's sourceRefs."
             },
-            "minorFixesApplied": [
-              "s01 step-02 and its matching quizSeed were missing a sourceRef for l04 (vilna line 6, 'does semikha atone?' - the baraita's own question, within-sugya, same sugya's own adjacent segment); added alongside the existing l07 citation."
-            ],
             "verifiedClean": [
-              "s01 steps 1-5 core content and speaker attributions.",
-              "s02 all sourceRef segment containments (step-01 through step-05, all quizSeeds) - confirmed correct.",
-              "s02's careful, accurate handling of the premature-closure risk (correctly attributing the anticipated 'requirements written elsewhere' question to Rashi's own note, not to 5a's own Gemara text) - this was the model the dafLevel.summary fix was brought into line with.",
-              "finalRuling correctly empty in both sugyot."
+              "yoma-005a-s01: fully clean across all fields, including the l22 boundary-case handling (step-06) which was independently re-verified as correctly disclosed, not fabricated.",
+              "yoma-005a-s02: all other sourceRefs (step-01, step-03, step-04, step-05, other quizSeeds) confirmed correct; the daf's mid-sentence cutoff handling (correctly attributing the 'requirements written elsewhere' continuation to Rashi's own note, never to 5a's own Gemara text) verified across every field.",
+              "dafLevel.summary: clean.",
+              "No cross-sugya sourceRef violations found anywhere on the daf."
             ]
           }
         }
       },
-      "repairRef": "a279bf4a3a0e84c4a86288d0933dd4df77f2acaf"
+      "repairRef": "334d69756db5c36d6ddd7093ab05a78c16c0b563"
     },
     "yoma-005b-s01": {
       "sugyaId": "yoma-005b-s01",

@@ -9668,7 +9668,19 @@ const DAF_CONTENT = {
                 sourceType: "gemara",
                 lineId: "yoma-005a-l27",
                 vilnaLine: 27,
-                note: "Baraita on Lev. 16:32 proving any combination suffices"
+                note: "Baraita on Lev. 16:32, opening question"
+              },
+              {
+                sourceType: "gemara",
+                lineId: "yoma-005a-l30",
+                vilnaLine: 30,
+                note: "Derivation working through the combinations of rivui/meshicha"
+              },
+              {
+                sourceType: "gemara",
+                lineId: "yoma-005a-l34",
+                vilnaLine: 34,
+                note: "'Mikol makom' conclusion: any combination suffices"
               }
             ]
           },
@@ -9781,6 +9793,11 @@ const DAF_CONTENT = {
                 sourceType: "gemara",
                 lineId: "yoma-005a-l27",
                 vilnaLine: 27
+              },
+              {
+                sourceType: "gemara",
+                lineId: "yoma-005a-l34",
+                vilnaLine: 34
               }
             ]
           },
