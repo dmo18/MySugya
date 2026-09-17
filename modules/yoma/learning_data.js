@@ -11915,7 +11915,7 @@ const DAF_CONTENT = {
   "6a": {
     canonicalRef: "Yoma 6a",
     daf: "6a",
-    summary: "6a opens by completing the belt dispute: the positions explained; two verses reconciled. The Gemara then returns to the mishna: why does the Kohen Gadol leave his home (not just enter the Parhedrin chamber)? R. Yehuda ben Beteira: to prevent accidental safek niddah relations. The Gemara corrects the phrasing - the concern is that blood will be found after relations, not that he will knowingly approach a safek niddah. Rav Chisda clarifies that even the Rabbis (who normally exempt safek niddah from retroactive impurity) agree when blood is found immediately. R. Zeira then draws a broader legal conclusion: bo'el niddah must immerse by day (not night) - proven by the Yom Kippur scenario: if he had to wait for nightfall he could never serve. Rav Shimi's counter: we separate him slightly before sunset, giving eight full days with the seventh completing before Yom Kippur night. Two baraitot challenge the daytime-immersion position and are both deflected.",
+    summary: "6a opens by completing the belt dispute: the positions explained; two verses reconciled. The Gemara then returns to the mishna: why does the Kohen Gadol leave his home (not just enter the Parhedrin chamber)? R. Yehuda ben Beteira: to prevent accidental safek niddah relations. The Gemara corrects the phrasing - the concern is that blood will be found after relations, not that he will knowingly approach a safek niddah. Rav Chisda clarifies that even the Rabbis (who normally exempt safek niddah from retroactive impurity) agree when blood is found immediately. R. Zeira then draws a broader legal conclusion: bo'el niddah must immerse by day (not night) - proven by the Yom Kippur scenario: if he had to wait for nightfall he could never serve. Rav Shimi's counter: separate him slightly before sunset, eight days before Yom Kippur; since that small sliver of the eighth day isn't counted as a full day, the count is still seven, completing before Yom Kippur night. Two baraitot then challenge the daytime-immersion position: the first, based on reading 'niddah' as extending by ribbuy to bo'el niddah, is left unanswered as the text turns straight to a second baraita; the second is deflected on its immersion-timing reading but immediately reopens a new question about what it actually teaches, cutting off mid-word before the answer, which continues on 6b.",
     sugyot: [
       {
         id: "yoma-006a-s01",
@@ -11974,9 +11974,9 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-006a-l01",
-                vilnaLine: 1,
-                note: "Together-position's explanation of the two implementation verses"
+                lineId: "yoma-006a-l02",
+                vilnaLine: 2,
+                note: "Together-position's 'not the same' conclusion, completed at this line; the specific materials (kilaim vs. plain linen) are Rashi's own supplied elaboration on Exodus 39:29, not stated explicitly in the bare Gemara text"
               }
             ]
           },
@@ -12031,6 +12031,9 @@ const DAF_CONTENT = {
           "bvat-achat"
         ],
         requiresUnderstanding: [
+          "yoma-005b-s02"
+        ],
+        prerequisiteKnowledge: [
           "The 5b belt dispute: two positions and their textual sources",
           "What kilaim is and why the Torah normally forbids it but requires it for certain priestly garments",
           "Tsivui-vs-asiyah as the pattern: command and implementation sometimes diverge for didactic reasons"
@@ -12049,15 +12052,15 @@ const DAF_CONTENT = {
         visualizableElements: [
           {
             type: "contrast",
-            description: "Two belts side-by-side: the High Priest's belt (labeled kilaim: blue, purple, fine linen intertwined) vs. the ordinary priest's belt (labeled plain linen / disputed)"
+            item: "Two belts side-by-side: the High Priest's belt (labeled kilaim: blue, purple, fine linen intertwined) vs. the ordinary priest's belt (labeled plain linen / disputed)"
           },
           {
             type: "sequence",
-            description: "Moses dressing Aaron step-by-step: tunic, mitre, robe, ephod, choshen - then turning to sons for the same sequence - then returning to gird Aaron with the belt, then each son"
+            item: "Moses dressing Aaron step-by-step: tunic, mitre, robe, ephod, choshen - then turning to sons for the same sequence - then returning to gird Aaron with the belt, then each son"
           },
           {
             type: "text",
-            description: "The two belt verses from Lev. 8 displayed side-by-side: 'va-yachgor oto ba-avnet' (him, singular) vs. 'va-yachgor otam avnet' (them, plural) with arrows showing each disputant's interpretation"
+            item: "The two belt verses from Lev. 8 displayed side-by-side: 'va-yachgor oto ba-avnet' (him, singular) vs. 'va-yachgor otam avnet' (them, plural) with arrows showing each disputant's interpretation"
           }
         ],
         quizSeeds: [
@@ -12208,7 +12211,8 @@ const DAF_CONTENT = {
           "safek-niddah",
           "mafrish-bayit"
         ],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "The difference between knowing impurity and retroactive legal impurity",
           "The mechanism of bo'el niddah: seven-day impurity from relations with a niddah",
           "Why prophylactic separation is a valid rabbinic tool: prevents triggering events rather than managing consequences"
@@ -12227,15 +12231,15 @@ const DAF_CONTENT = {
         visualizableElements: [
           {
             type: "people",
-            description: "The Kohen Gadol departing from his home in the days before Yom Kippur, wife remaining behind"
+            item: "The Kohen Gadol departing from his home in the days before Yom Kippur, wife remaining behind"
           },
           {
             type: "timeline",
-            description: "Scenario diagram: evening relations - morning discovery of blood - retroactive impurity starting from the relations - seven-day count that would overlap with Yom Kippur"
+            item: "Scenario diagram: evening relations - morning discovery of blood - retroactive impurity starting from the relations - seven-day count that would overlap with Yom Kippur"
           },
           {
             type: "contrast",
-            description: "Two framings: 'lest she be a safek niddah and he approaches' (wrong: implies intent) vs. 'lest he approach and she be found afterward' (correct: innocent action, retroactive legal consequence)"
+            item: "Two framings: 'lest she be a safek niddah and he approaches' (wrong: implies intent) vs. 'lest he approach and she be found afterward' (correct: innocent action, retroactive legal consequence)"
           }
         ],
         quizSeeds: [
@@ -12260,8 +12264,8 @@ const DAF_CONTENT = {
         alternateAngles: [],
         topicTags: [
           "safek-niddah",
-          "Kohen-Gadol",
-          "Yom-Kippur",
+          "kohen-gadol",
+          "yom-kippur",
           "ritual-purity",
           "prophylactic-separation",
           "retroactive-impurity"
@@ -12286,16 +12290,16 @@ const DAF_CONTENT = {
         },
         display: {
           title: "Bo'el niddah: does he immerse by day or by night?",
-          oneLine: "R. Zeira proves from the Yom Kippur scenario that bo'el niddah must immerse by day; Rav Shimi offers an alternative; two baraitot challenge the daytime ruling and are both deflected.",
-          shortSummary: "The Sages assume the safek niddah ruling requires R. Akiva's position (retroactive impurity even for safek). Rav Chisda corrects: even the Rabbis agree when blood is found immediately after relations ('chad achar'); their leniency applies only when found much later ('achar achar'). R. Zeira then uses the Yom Kippur scenario to establish a general rule: bo'el niddah immerses by day. Proof: if he had to wait until nightfall (like the niddah herself), then on the seventh day (which falls on Yom Kippur eve), he would immerse that night - but that is Yom Kippur night, and by the time sunset passes he could not serve. Therefore he must be able to immerse during the day on the seventh day. Rav Shimi's counter: even if we say he is like the niddah (nighttime), we separate him eight days before Yom Kippur (slightly before sunset the eighth day), so the seventh day ends before Yom Kippur night. Two baraitot challenge the daytime-immersion conclusion; both are deflected. The page ends mid-discussion.",
-          whats: "Three distinct legal developments on this page. First, Rav Chisda clarifies the Rabbinic position on safek niddah: the Rabbis hold that retroactive impurity from safek niddah applies only when blood is found 'chad achar' (one 'afterward' - immediately after, within the time she could get up and wash her face). When found 'achar achar' (long afterward), the Rabbis dispute R. Akiva. The mishna's safek niddah concern works even for the Rabbis. Second, R. Zeira establishes the bo'el niddah immersion rule. Unlike a regular niddah or yoledet (childbirth) who must immerse at night, a bo'el niddah immerse by day (like a tamei met). The proof is from the Yom Kippur scenario itself: if bo'el niddah must wait for night, and the seventh day of impurity falls on Yom Kippur eve, then he immerses Yom Kippur night - but he then needs sunset to complete purification ('he'erev hashemesh'), and that is Yom Kippur night, too late to serve. This proves daytime immersion is the rule. Third, Rav Shimi proposes an alternative: even if bo'el niddah were like the niddah (nighttime), we could simply separate the Kohen Gadol slightly before sunset eight days before Yom Kippur, giving eight full days with the seventh completing before Yom Kippur night. Two baraitot challenge R. Zeira's daytime ruling; both are deflected.",
+          oneLine: "R. Zeira proves from the Yom Kippur scenario that bo'el niddah must immerse by day; Rav Shimi offers an alternative; two baraitot challenge the daytime ruling, and the daf cuts off before either challenge is fully answered.",
+          shortSummary: "The Sages assume the safek niddah ruling requires R. Akiva's position (retroactive impurity even for safek). Rav Chisda corrects: even the Rabbis agree when blood is found immediately after relations ('chad achar'); their leniency applies only when found much later ('achar achar'). R. Zeira then uses the Yom Kippur scenario to establish a general rule: bo'el niddah immerses by day. Proof: if he had to wait until nightfall (like the niddah herself), then on the seventh day (which falls on Yom Kippur eve), he would immerse that night - but that is Yom Kippur night, and by the time sunset passes he could not serve. Therefore he must be able to immerse during the day on the seventh day. Rav Shimi's counter: even if we say he is like the niddah (nighttime), we separate him slightly before sunset eight days before Yom Kippur - since that small sliver of the eighth day isn't counted as a full day, the count is still seven, completing before Yom Kippur night. Two baraitot then challenge the daytime-immersion conclusion: the first, arguing 'niddah' extends by ribbuy to include bo'el niddah, gets no visible answer before the text turns to a second baraita; the second is deflected on its immersion-timing reading but immediately reopens a new question, and the page ends mid-discussion.",
+          whats: "Three distinct legal developments on this page. First, Rav Chisda clarifies the Rabbinic position on safek niddah: the Rabbis hold that retroactive impurity from safek niddah applies only when blood is found 'chad achar' (one 'afterward' - immediately after, within the time she could get up and wash her face). When found 'achar achar' (long afterward), the Rabbis dispute R. Akiva. The mishna's safek niddah concern works even for the Rabbis. Second, R. Zeira establishes the bo'el niddah immersion rule. Unlike a regular niddah or yoledet (childbirth) who must immerse at night, a bo'el niddah immerses by day (like a tamei met). The proof is from the Yom Kippur scenario itself: if bo'el niddah must wait for night, and the seventh day of impurity falls on Yom Kippur eve, then he immerses Yom Kippur night - but he then needs sunset to complete purification ('he'erev hashemesh'), and that is Yom Kippur night, too late to serve. This proves daytime immersion is the rule. Third, Rav Shimi proposes an alternative: even if bo'el niddah were like the niddah (nighttime), we could simply separate the Kohen Gadol slightly before sunset, eight days before Yom Kippur. Because that small sliver of the eighth day isn't counted as a full day, the count is still seven, completing before Yom Kippur night. Two baraitot then challenge R. Zeira's daytime ruling. The first argues that bo'el niddah's own impurity is itself an extension (ribbuy) of the niddah's impurity, so the baraita's 'niddah' exception might include him too - the Gemara's text does not visibly answer this before moving straight to a second baraita. The second compares bo'el niddah to one impure by corpse-contact; the Gemara deflects the reading that this is about immersion timing (it's only about duration), but immediately asks why the comparison was needed at all if both durations are already explicit in the Torah - and the page cuts off mid-word before answering, continuing on 6b.",
           hint: "R. Zeira proves a general rule about bo'el niddah from a scheduling problem specific to the Kohen Gadol and Yom Kippur. Is this a valid derivation? What does it mean to derive a universal halakha from a limiting case?"
         },
         learning: {
           learnerQuestion: "Why does it matter whether bo'el niddah immerses by day or by night? And why does the Yom Kippur case prove the general rule?",
           coreTension: "A niddah herself immerses at night (after her seven-day count ends). Does a man who had relations with her share her immersion timing, or does he follow a different track? If he must wait for night like her, there is a scheduling impossibility on Yom Kippur.",
           coreMove: "Use the impossibility proof: if the nighttime rule applied to bo'el niddah, the Kohen Gadol who accidentally became impure before sequestering could never serve on Yom Kippur (he would need an extra day beyond his seventh). Since the halakha does allow him to serve, the daytime rule must be correct.",
-          resolution: "R. Zeira's conclusion: bo'el niddah is like tamei met (corpse impurity), not like niddah - he immerses by day on his seventh day. This allows the Yom Kippur service to proceed. Rav Shimi proposes an alternative escape route (separate him slightly earlier), but R. Zeira's ruling stands as the more elegant resolution.",
+          resolution: "R. Zeira's conclusion: bo'el niddah is like tamei met (corpse impurity), not like niddah - he immerses by day on his seventh day. This allows the Yom Kippur service to proceed. Rav Shimi proposes an alternative escape route (separate him slightly before sunset, eight days out, so the count still finishes in seven), which would work independently of whether R. Zeira's daytime rule is correct. The daf's own closing challenges to R. Zeira's rule are not fully closed here: the first baraita's ribbuy-based objection goes unanswered before a second baraita is cited, and the second baraita's initial reading is deflected but immediately reopens a further question, carried over to 6b.",
           takeaway: {
             type: "derivation_principle",
             text: "Impossibility proofs are powerful in Talmudic reasoning: if a legal rule would make a legitimate Torah obligation impossible to fulfill in a known scenario, the rule must be modified. R. Zeira uses the Yom Kippur impossibility to prove the bo'el niddah daytime rule."
@@ -12434,16 +12438,16 @@ const DAF_CONTENT = {
           },
           {
             id: "step-07",
-            type: "rejection",
-            label: "Baraita 1 deflected: 'niddah' includes those who derive their impurity from her",
+            type: "challenge",
+            label: "The objection sharpens: 'niddah' may extend to bo'el niddah via ribbuy",
             speaker: "Gemara",
-            text: "The baraita's 'niddah' category includes 'all those whose impurity derives from her' - meaning bo'el niddah takes his impurity from the niddah and is included in the nighttime exception. The inference against him fails.",
+            text: "The objection is pressed further: since bo'el niddah's own impurity is itself an extension (ribbuy) of the niddah's impurity, perhaps the baraita's 'niddah' exception should be read to include him too - undermining R. Zeira's daytime rule. The text supplies no explicit resolution to this specific point before turning straight to a second baraita.",
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-006a-l30",
-                vilnaLine: 30,
-                note: "Deflection of baraita 1"
+                lineId: "yoma-006a-l31",
+                vilnaLine: 31,
+                note: "The ribbuy-extension clause; the text moves directly to 'meitivei' (a second baraita) with no visible answer to this specific challenge"
               }
             ]
           },
@@ -12498,7 +12502,8 @@ const DAF_CONTENT = {
           "chad-achar-vs-achar-achar",
           "heerev-hashemesh"
         ],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "The mechanism of bo'el niddah: seven-day impurity, counts like tamei met",
           "Tvul yom: one who immersed that day must still wait for sunset",
           "The R. Akiva vs. Rabbis dispute on safek niddah retroactive impurity",
@@ -12522,15 +12527,15 @@ const DAF_CONTENT = {
         visualizableElements: [
           {
             type: "timeline",
-            description: "Calendar diagram: Day 0 (relations) through Day 7 (Yom Kippur eve) showing immersion timing options - nighttime immersion making service impossible, daytime immersion permitting it"
+            item: "Calendar diagram: Day 0 (relations) through Day 7 (Yom Kippur eve) showing immersion timing options - nighttime immersion making service impossible, daytime immersion permitting it"
           },
           {
             type: "contrast",
-            description: "Two immersion tracks: niddah/yoledet (nighttime, after count ends) vs. tamei met/bo'el niddah (daytime on seventh day)"
+            item: "Two immersion tracks: niddah/yoledet (nighttime, after count ends) vs. tamei met/bo'el niddah (daytime on seventh day)"
           },
           {
             type: "sequence",
-            description: "Rav Shimi's alternative timeline: separation slightly before sunset on day -8 from Yom Kippur, counting seven days, immersing on erev Yom Kippur afternoon"
+            item: "Rav Shimi's alternative timeline: separation slightly before sunset on day -8 from Yom Kippur, counting seven days, immersing on erev Yom Kippur afternoon"
           }
         ],
         quizSeeds: [
@@ -12560,21 +12565,18 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        finalRuling: {
-          ruling: "Bo'el niddah immerses by day (R. Zeira's conclusion). The Yom Kippur scenario proves this as a general rule. Two baraitot challenge the ruling but are both deflected.",
-          basis: "Impossibility proof: nighttime immersion would make Yom Kippur service impossible if the seventh day falls on erev Yom Kippur."
-        },
+        finalRuling: "R. Zeira concludes bo'el niddah immerses by day, proven via the Yom Kippur scheduling impossibility; Rav Shimi separately offers a workaround that would resolve the same scheduling problem even under the nighttime rule. The daf's own closing baraita challenges to R. Zeira's rule are not fully resolved before the page cuts off, continuing on 6b.",
         difficulty: "advanced",
         alternateAngles: [],
         topicTags: [
-          "bo'el-niddah",
+          "boel-niddah",
           "ritual-purity",
           "immersion",
-          "Yom-Kippur",
+          "yom-kippur",
           "niddah",
           "tamei-met",
-          "Rav-Chisda",
-          "R-Zeira",
+          "rav-chisda",
+          "rabbi-zeira",
           "safek-niddah"
         ],
         review: {
