@@ -5,11 +5,9 @@
   "daf": "4b",
   "sugyaIds": [
     "yoma-004b-s01",
-    "yoma-004b-s02",
-    "yoma-004b-s03",
-    "yoma-004b-s04"
+    "yoma-004b-s03"
   ],
-  "firstReviewId": "sonnet5-4b-repairaudit-20260917a",
+  "firstReviewId": "sonnet5-4b-followup-20260917a",
   "policy": {
     "sourceFirst": true,
     "independentSecondPassRequired": true,
