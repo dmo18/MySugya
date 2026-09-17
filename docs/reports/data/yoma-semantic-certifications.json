@@ -40167,7 +40167,7 @@
     "yoma-005b-s01": {
       "sugyaId": "yoma-005b-s01",
       "daf": "5b",
-      "state": "REPAIR_REQUIRED",
+      "state": "REPAIRED_PENDING_REVIEW",
       "firstPass": {
         "reviewId": "sonnet5-5b-round1-20260917",
         "reviewerContextId": "a6749807a314bfcfe",
@@ -40198,12 +40198,13 @@
             "Verse attributions in s02 step-05 (Lev. 8:7/8:13, Exod. 29:9) match Rashi's citations exactly."
           ]
         }
-      }
+      },
+      "repairRef": "cf8f489ba1402799bf3f86ca30bf99cdba26713d"
     },
     "yoma-005b-s02": {
       "sugyaId": "yoma-005b-s02",
       "daf": "5b",
-      "state": "REPAIR_REQUIRED",
+      "state": "REPAIRED_PENDING_REVIEW",
       "firstPass": {
         "reviewId": "sonnet5-5b-round1-20260917",
         "reviewerContextId": "a6749807a314bfcfe",
@@ -40234,7 +40235,8 @@
             "Verse attributions in s02 step-05 (Lev. 8:7/8:13, Exod. 29:9) match Rashi's citations exactly."
           ]
         }
-      }
+      },
+      "repairRef": "cf8f489ba1402799bf3f86ca30bf99cdba26713d"
     },
     "yoma-006a-s01": {
       "sugyaId": "yoma-006a-s01",
