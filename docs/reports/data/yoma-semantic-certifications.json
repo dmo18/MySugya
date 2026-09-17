@@ -29986,33 +29986,32 @@
       "daf": "4b",
       "state": "REPAIRED_PENDING_REVIEW",
       "firstPass": {
-        "reviewId": "sonnet5-4b-second-20260917a",
-        "reviewerContextId": "a9b00f21257a02e4b",
+        "reviewId": "sonnet5-4b-second-20260917b",
+        "reviewerContextId": "a067143963bfba91f",
         "sourceFirst": true,
         "verdict": "REPAIR_REQUIRED",
         "reviewedSourceFingerprint": "002827939a806167baf39441845911c87192626a7eef736c36365e5ffbc03733",
-        "reviewedSemanticFingerprint": "84d144b52e0077299523914718def53b360792769045ed17dd6f68c0fda89c3f",
+        "reviewedSemanticFingerprint": "384c6f2102ce47b65fec6ee644c8463af16dc7c3c242c292eb630d832da7de14",
         "evidence": {
           "origin": "independent-second-pass-rejection",
           "reviewEvidence": {
-            "reviewMethod": "Independent, mutually-blind reviewer (no access to Source Auditor's findings) reconstructed daf 4b from raw Hebrew/Aramaic and bundled Rashi from scratch, then evaluated the round-1-repaired enrichment.",
-            "verdict": "REJECTED - three confirmed defects found, two of which were errors introduced by the round-1 repair itself",
+            "reviewMethod": "Genuinely fresh third-context independent reviewer (no access to any prior reviewer's findings) reconstructed daf 4b from raw Hebrew/Aramaic and bundled Rashi from scratch, then evaluated the round-2-repaired enrichment.",
+            "verdict": "REJECTED - one confirmed pre-existing numerical defect found (predates this repair round; not introduced by round-1 or round-2 fixes)",
             "confirmedDefects": {
-              "dafLevel.summary / yoma-004b-s02": "The baraita's 'given on the 7th' position is authored by a sage named plain 'Rabbi Yosi' (line 13, distinct from 'Rabbi Yosi HaGalili'); R. Akiva's alignment with that view is a separate, later Gemara statement (line 21, 'R. Akiva holds like Rabbi Yosi'). Round-1 wording glossed over this, risking the impression the baraita itself names R. Akiva for the 7th-day view.",
-              "yoma-004b-s02 step-05 (round-1 repair error)": "Round-1 repair introduced an unsupported claim that 'the verse doubles Moses's name' as the derash mechanism for R. Elazar's honor-reading. The bracketed '[Moshe]' in line 1 and the repeated 'Moshe Moshe' in line 27 are the Gemara's own citation/paraphrase style, not a Torah-text name-doubling derash; Rashi's comment on this point (lines 4-5) grounds the honor-derash in the public context (Israel standing by), never in name-repetition. No name-doubling derash (of the classic 'Avraham Avraham' type) is attested in the source or Rashi for this line.",
-              "yoma-004b-s03 step-06 (round-1 repair error)": "Round-1 repair introduced an attribution to 'Rav Mesharshiya' as an alternate name for this teaching's author. This name does not appear anywhere in this daf's raw text or bundled Rashi. The source's actual bracketed alternate attribution (line 39) is a different, genuinely obscure name ('R. Musia the son of the son of R. Msia, in the name of R. Musia'); 'Rav Mesharshiya' appears to have been mistakenly carried over from an unrelated attribution on daf 2b."
+              "yoma-004b-s02 (display.whats, argumentFlow step-02, quizSeeds[0].answer)": "Stated the Sivan day-count for R. Akiva's arithmetic as 'days 8-30' (23 days) plus an inconsistent patch to reach 24. Rashi's own gloss on line 23 ('עשרין וארבעה דסיון... שהרי ששה ימים עברו ממנו ובשביעי עלה') is explicit: six days of Sivan had passed (1-6), and Moses ascended on the 7th, counted as the first of the forty. The correct range is days 7-30 (24 days), not 8-30."
             },
             "verifiedClean": [
-              "yoma-004b-s01: fully clean, including the Rashi-grounded R. Yosi HaGalili/R. Akiva chronology-tie claims added in round 1.",
-              "yoma-004b-s04: fully clean, including the correct reattribution of 'both of them' to Reish Lakish/R. Yochanan (not R. Yochanan/R. Chanina) and the silence-based elimination identification.",
-              "yoma-004b-s02: the calendar arithmetic itself (24+16=40 for R. Akiva; folding six separation days for R. Yosi HaGalili reaching 23 Tammuz otherwise) verified fully accurate.",
-              "yoma-004b-s03: the two independent public/private resolutions, the two independent cloud-entry answers, and the 'call before speaking'/'lemor' derivations (other than the misattributed alternate name) all verified accurate and correctly presented as independent alternatives, not fused.",
-              "No cross-sugya sourceRef violations found anywhere on the daf; no misquoted line citations found."
+              "yoma-004b-s01: fully clean, no defects.",
+              "yoma-004b-s02: attribution logic (Rabbi Yosi vs Rabbi Yosi HaGalili vs R. Akiva) verified correct; only the day-range defect above found.",
+              "yoma-004b-s03: fully clean, including correct non-fabrication of the obscure line-39 bracketed alternate attribution.",
+              "yoma-004b-s04: fully clean, including correct 'both of them' = Reish Lakish/R. Yochanan reattribution.",
+              "dafLevel.summary: clean.",
+              "No cross-sugya sourceRef violations found anywhere on the daf."
             ]
           }
         }
       },
-      "repairRef": "abd3dd4635b1d09b217fb2f24752f340d5aa62fe"
+      "repairRef": "e833a027e36ab00d316124a427c78fc793497c46"
     },
     "yoma-004b-s03": {
       "sugyaId": "yoma-004b-s03",
