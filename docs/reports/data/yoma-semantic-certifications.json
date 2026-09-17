@@ -44135,74 +44135,49 @@
       },
       "repairRef": "02710d22099d4995adba962735a7e1c4029f5d29",
       "sourceFingerprint": "2fee0a1fe0441c9d2fc5f0e0d3ab83af5308f5568ebad80f9e5657577682ccd1",
-      "semanticFingerprint": "3937017e50401dcfd5dfc49230c45b89f90e70596318955d1963794fb39de37c",
+      "semanticFingerprint": "945f2b0121475af5f81c5543b2df0923341fb7f3a500c068b808b1f436c65814",
       "secondPass": {
-        "reviewId": "sonnet5-6a-secondpass-round1-20260917",
-        "reviewerContextId": "a2a396697d1b460c3",
+        "reviewId": "sonnet5-6a-s01-reconfirm-20260917",
+        "reviewerContextId": "a9e7562d3f5d8e3bf",
         "sourceFirst": true,
         "verdict": "CONFIRMED",
         "reviewedSourceFingerprint": "2fee0a1fe0441c9d2fc5f0e0d3ab83af5308f5568ebad80f9e5657577682ccd1",
-        "reviewedSemanticFingerprint": "3937017e50401dcfd5dfc49230c45b89f90e70596318955d1963794fb39de37c",
+        "reviewedSemanticFingerprint": "945f2b0121475af5f81c5543b2df0923341fb7f3a500c068b808b1f436c65814",
         "evidence": {
           "verdict": "CLEAN",
-          "reviewerContextId": "a2a396697d1b460c3",
-          "summary": "Independent second-pass review, mutually-blind from the round-1 repair context (af029103bba769ccf). Independently re-verified round-1's specific checkpoints for these sugyot: s01 step-01's sourceRef correctly completes at vilnaLine 2 (line 1 ends mid-word 'lo', the conclusion completes at line 2). No defects found in s01 or s02 -- all Rashi attributions, argumentFlow content, and sugya boundaries traced cleanly to the raw text and bundled Rashi. The one defect found this pass (a sourceRef mis-citation in s03 step-09) is unrelated to s01/s02 and registered separately against yoma-006a-s03."
+          "reviewerContextId": "a9e7562d3f5d8e3bf",
+          "summary": "Fresh independent re-review after dafLevel.summary's mid-word->mid-sentence wording fix (a s03-local content change that shares the dafLevel.summary field with s01/s02, staling their prior CONFIRMED second pass). Independently reconstructed s01 (belt-material/dressing-sequence dispute, lines 1-6) from raw Hebrew and Rashi. Specifically re-verified step-01's sourceRef (lineId l02, vilnaLine 2): the 'High Priest's belt is not the same as the ordinary priest's belt' conclusion only completes at vilnaLine 2 -- line 1 alone ends mid-clause at 'lo' with no comparison target yet stated. Confirmed correct. No fabricated argumentFlow, no generic quiz/misconception stubs, finalRuling correctly null, topicTags clean slugs, requiresUnderstanding holds one valid sugya id. dafLevel.summary's statements about s01's content are factually accurate."
         }
       }
     },
     "yoma-006a-s02": {
       "sugyaId": "yoma-006a-s02",
       "daf": "6a",
-      "state": "PENDING_FINAL_AUDIT",
+      "state": "REPAIRED_PENDING_REVIEW",
       "firstPass": {
-        "reviewId": "sonnet5-6a-round1-20260917",
-        "reviewerContextId": "af029103bba769ccf",
+        "reviewId": "sonnet5-6a-s02-reconfirm-20260917",
+        "reviewerContextId": "a9e7562d3f5d8e3bf",
         "sourceFirst": true,
         "verdict": "REPAIR_REQUIRED",
         "reviewedSourceFingerprint": "69d6926d620b847f2f648959f87cf5c40917bae0e28deed20bd754eccf61ec07",
-        "reviewedSemanticFingerprint": "438d792f57cdd5f6b3afd3b2daac981837a2bcfa007586219e981a91c6422082",
+        "reviewedSemanticFingerprint": "4473642718a4a14c37d411dd2e15282208b5a2cd6eea1eb61849e7ad192ec087",
         "evidence": {
-          "verdict": "REPAIR_REQUIRED",
-          "auditorContextId": "af029103bba769ccf",
-          "summary": "Fresh, isolated Source Auditor first-pass audit of Yoma 6a (yoma-006a-s01, s02, s03), independently reconstructed from rawHebrewLines and relevantRashi without trusting existing enrichment.",
-          "majorFindings": "s03 argumentFlow step-07 claimed the first baraita's objection ('the inference against him fails') was deflected, but neither the raw text (lines 29-31) nor the bundled Rashi supports this: the text reads 'niddah - yes; bo'el niddah - no [explicit], and anything that comes via ribbuy [extension]...' and then moves straight to 'meitivei' (a second baraita) with no visible resolution marker ('ela', 'hachi ka'amar', etc.) in between. Independently re-verified against the raw text: this is a genuine ribbuy-based challenge to R. Zeira's day-position that the daf's own text leaves unanswered, not a resolved objection. The claimed 'deflection' was unsupported fabrication of closure. Propagated correction across step-07, learning.resolution, finalRuling, dafLevel.summary, and s03 display.oneLine/shortSummary/whats.",
-          "mediumFindings": [
-            "dafLevel.summary and s03 display fields stated Rav Shimi's alternative gives 'eight full days,' contradicting Rashi's own stated reasoning on line 26 that the small sliver of the eighth day is NOT counted as a full day, which is precisely why the separation is still called 'seven' days.",
-            "s01 argumentFlow step-01 sourceRef cited lineId l01/vilnaLine 1, but the 'not the same' conclusion it describes only completes at line 2 (segment l02); within-sugya mis-citation, fixed to cite l02/vilnaLine 2.",
-            "s03 argumentFlow step-07 sourceRef cited lineId l30/vilnaLine 30, but the ribbuy-extension clause it describes ('vechol de'atei miribuya') is on line 31 (segment l31); within-sugya mis-citation, fixed to cite l31/vilnaLine 31.",
-            "s03 finalRuling overstated closure ('both deflected') not supported once step-07's fabricated deflection is corrected; reworded to accurately state the daf leaves R. Zeira's rule facing an unanswered challenge, continuing on 6b."
-          ],
-          "minorFindings": [
-            "s02 topicTags contained capitalized non-slug values ('Kohen-Gadol', 'Yom-Kippur') violating the lowercase-hyphen-ASCII-slug contract.",
-            "s03 topicTags contained capitalized/non-ASCII values ('Yom-Kippur', 'Rav-Chisda', 'R-Zeira', \"bo'el-niddah\" with apostrophe) violating the same contract; corrected to match established corpus convention (rav-chisda, rabbi-zeira, boel-niddah).",
-            "s01/s02/s03 requiresUnderstanding held prose sentences instead of sugya ids, violating the contract (prose belongs in prerequisiteKnowledge, which was absent from all three records). s01's prose 'the 5b belt dispute' resolved to a genuine sugya id, yoma-005b-s02.",
-            "s01/s02/s03 visualizableElements used the legacy 'description' key instead of the canonical required 'item' field across all 9 entries on the daf.",
-            "s03 finalRuling was stored as an object ({ruling, basis}) rather than the contract-required plain string; converted to a compliant string as part of the same fix."
-          ],
-          "noDefectsConfirmed": [
-            "No cross-sugya lineId citations found anywhere on the daf; every sourceRefs.lineId resolves to its own sugya's segment map.",
-            "The belt-material/dressing-sequence dual resolution in s01 is accurately presented and matches Rashi precisely.",
-            "s02's safek-niddah phrasing-correction content is accurate and well-bounded; no defects found.",
-            "s03's baraita-2 deflection (step-09, 'the comparison is about duration, not timing') IS explicitly supported by the raw text ('lo le-tumatan') and correctly left open at step-10 pending 6b, consistent with Rashi's own note."
-          ]
+          "origin": "independent-second-pass-rejection",
+          "reviewEvidence": {
+            "verdict": "REJECTED",
+            "reviewerContextId": "a9e7562d3f5d8e3bf",
+            "summary": "Fresh independent re-review after dafLevel.summary's mid-word->mid-sentence wording fix staled s02's prior CONFIRMED second pass. Independently reconstructed s02 (why the Kohen Gadol leaves his home, lines 8-13) from raw Hebrew and Rashi. Found one defect.",
+            "defectFound": {
+              "field": "yoma-006a-s02.argumentFlow[step-01].sourceRefs[0]",
+              "before": "lineId yoma-006a-l08, vilnaLine 8",
+              "problem": "Segment l08 spans vilnaLine 8-10, covering only the general sequestering question and its R. Yochanan/Reish Lakish cross-reference answer. The specific sub-question this step describes ('why leave home specifically') first appears at vilnaLine 11 ('mibeito lama peirash'), matching Rashi's own comment explicitly linked to l11 ('From his home, why did he separate - from his wife, why did he separate?'), not l08.",
+              "fix": "sourceRef corrected to lineId yoma-006a-l11, vilnaLine 11."
+            },
+            "otherChecksConfirmedClean": "misconceptions, topicTags, finalRuling=null, requiresUnderstanding=[] all accurate and properly contracted. dafLevel.summary's statements about s02's content are factually accurate. A lower-confidence boundary observation (step-04's corrected-phrasing sentence completes one word into s03's own segment, l15) was independently re-examined: the paraphrase itself is not factually wrong and matches the established precedent from 5a/5b of a sentence mechanically splitting across a segment/daf boundary without being a defect -- not actioned."
+          }
         }
       },
-      "repairRef": "02710d22099d4995adba962735a7e1c4029f5d29",
-      "sourceFingerprint": "69d6926d620b847f2f648959f87cf5c40917bae0e28deed20bd754eccf61ec07",
-      "semanticFingerprint": "f81d14ec64f7f254f6e1b975b70565e44693eb275bf44f2d171658403744584d",
-      "secondPass": {
-        "reviewId": "sonnet5-6a-secondpass-round1-20260917",
-        "reviewerContextId": "a2a396697d1b460c3",
-        "sourceFirst": true,
-        "verdict": "CONFIRMED",
-        "reviewedSourceFingerprint": "69d6926d620b847f2f648959f87cf5c40917bae0e28deed20bd754eccf61ec07",
-        "reviewedSemanticFingerprint": "f81d14ec64f7f254f6e1b975b70565e44693eb275bf44f2d171658403744584d",
-        "evidence": {
-          "verdict": "CLEAN",
-          "reviewerContextId": "a2a396697d1b460c3",
-          "summary": "Independent second-pass review, mutually-blind from the round-1 repair context (af029103bba769ccf). Independently re-verified round-1's specific checkpoints for these sugyot: s01 step-01's sourceRef correctly completes at vilnaLine 2 (line 1 ends mid-word 'lo', the conclusion completes at line 2). No defects found in s01 or s02 -- all Rashi attributions, argumentFlow content, and sugya boundaries traced cleanly to the raw text and bundled Rashi. The one defect found this pass (a sourceRef mis-citation in s03 step-09) is unrelated to s01/s02 and registered separately against yoma-006a-s03."
-        }
-      }
+      "repairRef": "80dc7b16b9066df0f3aded321a5ef5890da1cc3b"
     },
     "yoma-006a-s03": {
       "sugyaId": "yoma-006a-s03",

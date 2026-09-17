@@ -12155,9 +12155,9 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-006a-l08",
-                vilnaLine: 8,
-                note: "Sub-question about leaving the home specifically"
+                lineId: "yoma-006a-l11",
+                vilnaLine: 11,
+                note: "The specific sub-question (\"mibeito lama peirash\"); segment l08 (lines 8-10) only covers the general sequestering question and its R. Yochanan/Reish Lakish cross-reference"
               }
             ]
           },
