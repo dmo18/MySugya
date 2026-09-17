@@ -7588,7 +7588,7 @@ const DAF_CONTENT = {
           startLineId: "yoma-004b-l01",
           endLineId: "yoma-004b-l05",
           startVilnaLine: 1,
-          endVilnaLine: 5
+          endVilnaLine: 9
         },
         display: {
           title: "Three readings of the six-day cloud: purification, intimidation, and public honor",
@@ -7989,7 +7989,7 @@ const DAF_CONTENT = {
           startLineId: "yoma-004b-l29",
           endLineId: "yoma-004b-l36",
           startVilnaLine: 29,
-          endVilnaLine: 36
+          endVilnaLine: 40
         },
         display: {
           title: "Public vs. private voice; Moses enters the cloud; calling before speaking; 'lemor' as confidentiality",
@@ -8116,8 +8116,8 @@ const DAF_CONTENT = {
               {
                 sourceType: "gemara",
                 lineId: "yoma-004b-l36",
-                vilnaLine: 36,
-                note: "'Lemor' as 'lo emor' - confidentiality norm"
+                vilnaLine: 39,
+                note: "The source's bracketed alternate attribution and the 'lemor' confidentiality norm"
               }
             ]
           }

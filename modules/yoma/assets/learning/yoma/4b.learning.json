@@ -14,7 +14,7 @@
    "id": "yoma-004b-s01",
    "lineRange": {
     "startVilnaLine": 1,
-    "endVilnaLine": 5
+    "endVilnaLine": 9
    },
    "lines": [
     {
@@ -414,7 +414,7 @@
    "id": "yoma-004b-s03",
    "lineRange": {
     "startVilnaLine": 29,
-    "endVilnaLine": 36
+    "endVilnaLine": 40
    },
    "lines": [
     {
@@ -545,8 +545,8 @@
       {
        "sourceType": "gemara",
        "lineId": "yoma-004b-l36",
-       "vilnaLine": 36,
-       "note": "'Lemor' as 'lo emor' - confidentiality norm"
+       "vilnaLine": 39,
+       "note": "The source's bracketed alternate attribution and the 'lemor' confidentiality norm"
       }
      ]
     }
