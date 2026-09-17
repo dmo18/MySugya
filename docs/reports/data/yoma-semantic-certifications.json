@@ -44099,7 +44099,7 @@
     "yoma-006a-s01": {
       "sugyaId": "yoma-006a-s01",
       "daf": "6a",
-      "state": "REPAIRED_PENDING_REVIEW",
+      "state": "PENDING_FINAL_AUDIT",
       "firstPass": {
         "reviewId": "sonnet5-6a-round1-20260917",
         "reviewerContextId": "af029103bba769ccf",
@@ -44133,12 +44133,27 @@
           ]
         }
       },
-      "repairRef": "02710d22099d4995adba962735a7e1c4029f5d29"
+      "repairRef": "02710d22099d4995adba962735a7e1c4029f5d29",
+      "sourceFingerprint": "2fee0a1fe0441c9d2fc5f0e0d3ab83af5308f5568ebad80f9e5657577682ccd1",
+      "semanticFingerprint": "3937017e50401dcfd5dfc49230c45b89f90e70596318955d1963794fb39de37c",
+      "secondPass": {
+        "reviewId": "sonnet5-6a-secondpass-round1-20260917",
+        "reviewerContextId": "a2a396697d1b460c3",
+        "sourceFirst": true,
+        "verdict": "CONFIRMED",
+        "reviewedSourceFingerprint": "2fee0a1fe0441c9d2fc5f0e0d3ab83af5308f5568ebad80f9e5657577682ccd1",
+        "reviewedSemanticFingerprint": "3937017e50401dcfd5dfc49230c45b89f90e70596318955d1963794fb39de37c",
+        "evidence": {
+          "verdict": "CLEAN",
+          "reviewerContextId": "a2a396697d1b460c3",
+          "summary": "Independent second-pass review, mutually-blind from the round-1 repair context (af029103bba769ccf). Independently re-verified round-1's specific checkpoints for these sugyot: s01 step-01's sourceRef correctly completes at vilnaLine 2 (line 1 ends mid-word 'lo', the conclusion completes at line 2). No defects found in s01 or s02 -- all Rashi attributions, argumentFlow content, and sugya boundaries traced cleanly to the raw text and bundled Rashi. The one defect found this pass (a sourceRef mis-citation in s03 step-09) is unrelated to s01/s02 and registered separately against yoma-006a-s03."
+        }
+      }
     },
     "yoma-006a-s02": {
       "sugyaId": "yoma-006a-s02",
       "daf": "6a",
-      "state": "REPAIRED_PENDING_REVIEW",
+      "state": "PENDING_FINAL_AUDIT",
       "firstPass": {
         "reviewId": "sonnet5-6a-round1-20260917",
         "reviewerContextId": "af029103bba769ccf",
@@ -44172,46 +44187,51 @@
           ]
         }
       },
-      "repairRef": "02710d22099d4995adba962735a7e1c4029f5d29"
+      "repairRef": "02710d22099d4995adba962735a7e1c4029f5d29",
+      "sourceFingerprint": "69d6926d620b847f2f648959f87cf5c40917bae0e28deed20bd754eccf61ec07",
+      "semanticFingerprint": "f81d14ec64f7f254f6e1b975b70565e44693eb275bf44f2d171658403744584d",
+      "secondPass": {
+        "reviewId": "sonnet5-6a-secondpass-round1-20260917",
+        "reviewerContextId": "a2a396697d1b460c3",
+        "sourceFirst": true,
+        "verdict": "CONFIRMED",
+        "reviewedSourceFingerprint": "69d6926d620b847f2f648959f87cf5c40917bae0e28deed20bd754eccf61ec07",
+        "reviewedSemanticFingerprint": "f81d14ec64f7f254f6e1b975b70565e44693eb275bf44f2d171658403744584d",
+        "evidence": {
+          "verdict": "CLEAN",
+          "reviewerContextId": "a2a396697d1b460c3",
+          "summary": "Independent second-pass review, mutually-blind from the round-1 repair context (af029103bba769ccf). Independently re-verified round-1's specific checkpoints for these sugyot: s01 step-01's sourceRef correctly completes at vilnaLine 2 (line 1 ends mid-word 'lo', the conclusion completes at line 2). No defects found in s01 or s02 -- all Rashi attributions, argumentFlow content, and sugya boundaries traced cleanly to the raw text and bundled Rashi. The one defect found this pass (a sourceRef mis-citation in s03 step-09) is unrelated to s01/s02 and registered separately against yoma-006a-s03."
+        }
+      }
     },
     "yoma-006a-s03": {
       "sugyaId": "yoma-006a-s03",
       "daf": "6a",
       "state": "REPAIRED_PENDING_REVIEW",
       "firstPass": {
-        "reviewId": "sonnet5-6a-round1-20260917",
-        "reviewerContextId": "af029103bba769ccf",
+        "reviewId": "sonnet5-6a-secondpass-round1-20260917",
+        "reviewerContextId": "a2a396697d1b460c3",
         "sourceFirst": true,
         "verdict": "REPAIR_REQUIRED",
         "reviewedSourceFingerprint": "5f0d054602d895f6d9aa64c3b1d90f91e37a7fbf85cf276045a5a07c13510ee3",
-        "reviewedSemanticFingerprint": "5707353d37d61fa8a6f7702619dc18cb9d0d2f297700be08b1434edd690e1f76",
+        "reviewedSemanticFingerprint": "20207f2a74f4159ef052b170d822c47392b2eb5bd6a1d76d2ee5e9b74644d618",
         "evidence": {
-          "verdict": "REPAIR_REQUIRED",
-          "auditorContextId": "af029103bba769ccf",
-          "summary": "Fresh, isolated Source Auditor first-pass audit of Yoma 6a (yoma-006a-s01, s02, s03), independently reconstructed from rawHebrewLines and relevantRashi without trusting existing enrichment.",
-          "majorFindings": "s03 argumentFlow step-07 claimed the first baraita's objection ('the inference against him fails') was deflected, but neither the raw text (lines 29-31) nor the bundled Rashi supports this: the text reads 'niddah - yes; bo'el niddah - no [explicit], and anything that comes via ribbuy [extension]...' and then moves straight to 'meitivei' (a second baraita) with no visible resolution marker ('ela', 'hachi ka'amar', etc.) in between. Independently re-verified against the raw text: this is a genuine ribbuy-based challenge to R. Zeira's day-position that the daf's own text leaves unanswered, not a resolved objection. The claimed 'deflection' was unsupported fabrication of closure. Propagated correction across step-07, learning.resolution, finalRuling, dafLevel.summary, and s03 display.oneLine/shortSummary/whats.",
-          "mediumFindings": [
-            "dafLevel.summary and s03 display fields stated Rav Shimi's alternative gives 'eight full days,' contradicting Rashi's own stated reasoning on line 26 that the small sliver of the eighth day is NOT counted as a full day, which is precisely why the separation is still called 'seven' days.",
-            "s01 argumentFlow step-01 sourceRef cited lineId l01/vilnaLine 1, but the 'not the same' conclusion it describes only completes at line 2 (segment l02); within-sugya mis-citation, fixed to cite l02/vilnaLine 2.",
-            "s03 argumentFlow step-07 sourceRef cited lineId l30/vilnaLine 30, but the ribbuy-extension clause it describes ('vechol de'atei miribuya') is on line 31 (segment l31); within-sugya mis-citation, fixed to cite l31/vilnaLine 31.",
-            "s03 finalRuling overstated closure ('both deflected') not supported once step-07's fabricated deflection is corrected; reworded to accurately state the daf leaves R. Zeira's rule facing an unanswered challenge, continuing on 6b."
-          ],
-          "minorFindings": [
-            "s02 topicTags contained capitalized non-slug values ('Kohen-Gadol', 'Yom-Kippur') violating the lowercase-hyphen-ASCII-slug contract.",
-            "s03 topicTags contained capitalized/non-ASCII values ('Yom-Kippur', 'Rav-Chisda', 'R-Zeira', \"bo'el-niddah\" with apostrophe) violating the same contract; corrected to match established corpus convention (rav-chisda, rabbi-zeira, boel-niddah).",
-            "s01/s02/s03 requiresUnderstanding held prose sentences instead of sugya ids, violating the contract (prose belongs in prerequisiteKnowledge, which was absent from all three records). s01's prose 'the 5b belt dispute' resolved to a genuine sugya id, yoma-005b-s02.",
-            "s01/s02/s03 visualizableElements used the legacy 'description' key instead of the canonical required 'item' field across all 9 entries on the daf.",
-            "s03 finalRuling was stored as an object ({ruling, basis}) rather than the contract-required plain string; converted to a compliant string as part of the same fix."
-          ],
-          "noDefectsConfirmed": [
-            "No cross-sugya lineId citations found anywhere on the daf; every sourceRefs.lineId resolves to its own sugya's segment map.",
-            "The belt-material/dressing-sequence dual resolution in s01 is accurately presented and matches Rashi precisely.",
-            "s02's safek-niddah phrasing-correction content is accurate and well-bounded; no defects found.",
-            "s03's baraita-2 deflection (step-09, 'the comparison is about duration, not timing') IS explicitly supported by the raw text ('lo le-tumatan') and correctly left open at step-10 pending 6b, consistent with Rashi's own note."
-          ]
+          "origin": "independent-second-pass-rejection",
+          "reviewEvidence": {
+            "verdict": "REJECTED",
+            "reviewerContextId": "a2a396697d1b460c3",
+            "summary": "Independent second-pass review, mutually-blind from the round-1 repair context (af029103bba769ccf). Independently re-verified all four checkpoints from round-1's repair (s03 step-07's unresolved-challenge framing; Rav Shimi's 'sliver not counted' mechanism; s01 step-01's vilnaLine 2; s03 step-07's vilnaLine 31) -- all confirmed accurate against the raw text and Rashi. Found one new, previously-unflagged defect.",
+            "defectFound": {
+              "field": "yoma-006a-s03.argumentFlow[step-09].sourceRefs[0]",
+              "before": "lineId yoma-006a-l31, vilnaLine 31",
+              "problem": "Step-09's text (the comparison is about impurity duration, not immersion timing; the Torah explicitly states both durations) corresponds word-for-word to raw line 33 ('lo le-tumatan, tumatan be-hedya ktiv behu'). This text does not appear in lines 31-32 (segment l31's actual span) -- those lines contain only the baraita's opening statement (baal keri/tamei met comparison). The deflection sits entirely on line 33, covered by the distinct segment yoma-006a-l33.",
+              "fix": "sourceRef corrected to lineId yoma-006a-l33, vilnaLine 33."
+            },
+            "otherChecksConfirmedClean": "No other fabricated argumentFlow steps, no generic quiz/misconception stubs, no cross-daf content bleed from 5b or 6b, no false resolution claims. Rashi attributions, Rav Chisda's chad-achar/achar-achar distinction, R. Zeira's impossibility proof, and sugya boundaries all traced cleanly to the raw text and bundled Rashi."
+          }
         }
       },
-      "repairRef": "02710d22099d4995adba962735a7e1c4029f5d29"
+      "repairRef": "1d37d72085cefb8149c7e22fa8e5851b1d820bba"
     },
     "yoma-006b-s01": {
       "sugyaId": "yoma-006b-s01",

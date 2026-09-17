@@ -12475,9 +12475,9 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-006a-l31",
-                vilnaLine: 31,
-                note: "Deflection of baraita 2"
+                lineId: "yoma-006a-l33",
+                vilnaLine: 33,
+                note: "Deflection of baraita 2: the comparison is about impurity duration, not immersion timing"
               }
             ]
           },
