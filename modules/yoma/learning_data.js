@@ -9724,8 +9724,8 @@ const DAF_CONTENT = {
               {
                 sourceType: "gemara",
                 lineId: "yoma-005a-l38",
-                vilnaLine: 38,
-                note: "'Tinach kol' - the phrase this stub affirms, immediately before the cutoff"
+                vilnaLine: 39,
+                note: "The phrase this stub affirms, immediately before the cutoff"
               },
               {
                 sourceType: "gemara",
