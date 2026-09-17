@@ -12490,9 +12490,9 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-006a-l33",
-                vilnaLine: 33,
-                note: "Open question carrying into 6b"
+                lineId: "yoma-006a-l35",
+                vilnaLine: 35,
+                note: "The daf cuts off mid-word here (\"ela\"); Rashi confirms the resolution of what the baraita actually teaches continues on 6b"
               }
             ]
           }

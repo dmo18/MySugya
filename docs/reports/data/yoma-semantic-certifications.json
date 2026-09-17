@@ -44209,29 +44209,29 @@
       "daf": "6a",
       "state": "REPAIRED_PENDING_REVIEW",
       "firstPass": {
-        "reviewId": "sonnet5-6a-secondpass-round1-20260917",
-        "reviewerContextId": "a2a396697d1b460c3",
+        "reviewId": "sonnet5-6a-secondpass-round2-20260917",
+        "reviewerContextId": "a93c19320297a5422",
         "sourceFirst": true,
         "verdict": "REPAIR_REQUIRED",
         "reviewedSourceFingerprint": "5f0d054602d895f6d9aa64c3b1d90f91e37a7fbf85cf276045a5a07c13510ee3",
-        "reviewedSemanticFingerprint": "20207f2a74f4159ef052b170d822c47392b2eb5bd6a1d76d2ee5e9b74644d618",
+        "reviewedSemanticFingerprint": "b09ab014dbcd97e47dd103172c1b89338e596a9d334d62f506c75b8b473a4cd6",
         "evidence": {
           "origin": "independent-second-pass-rejection",
           "reviewEvidence": {
             "verdict": "REJECTED",
-            "reviewerContextId": "a2a396697d1b460c3",
-            "summary": "Independent second-pass review, mutually-blind from the round-1 repair context (af029103bba769ccf). Independently re-verified all four checkpoints from round-1's repair (s03 step-07's unresolved-challenge framing; Rav Shimi's 'sliver not counted' mechanism; s01 step-01's vilnaLine 2; s03 step-07's vilnaLine 31) -- all confirmed accurate against the raw text and Rashi. Found one new, previously-unflagged defect.",
+            "reviewerContextId": "a93c19320297a5422",
+            "summary": "Fresh independent second-pass review (genuinely different context from both the round-1 repair a6749807a314bfcfe... [n/a for 6a] and the round-2 review a2a396697d1b460c3). Independently re-verified all four checkpoints from prior rounds (step-07's open-challenge framing; Rav Shimi's sliver-not-counted mechanism; step-09's l33/33 citation; finalRuling's hedged framing) -- all confirmed accurate. Found one new defect.",
             "defectFound": {
-              "field": "yoma-006a-s03.argumentFlow[step-09].sourceRefs[0]",
-              "before": "lineId yoma-006a-l31, vilnaLine 31",
-              "problem": "Step-09's text (the comparison is about impurity duration, not immersion timing; the Torah explicitly states both durations) corresponds word-for-word to raw line 33 ('lo le-tumatan, tumatan be-hedya ktiv behu'). This text does not appear in lines 31-32 (segment l31's actual span) -- those lines contain only the baraita's opening statement (baal keri/tamei met comparison). The deflection sits entirely on line 33, covered by the distinct segment yoma-006a-l33.",
-              "fix": "sourceRef corrected to lineId yoma-006a-l33, vilnaLine 33."
+              "field": "yoma-006a-s03.argumentFlow[step-10].sourceRefs[0]",
+              "before": "lineId yoma-006a-l33, vilnaLine 33",
+              "problem": "l33's actual content (Vilna 33-34) is the deflection itself, already correctly cited by step-09. Step-10 describes the daf's own cutoff moment ('the answer continues on the next daf'), which corresponds to raw line 35 -- the single word 'ela' where the text physically stops, covered by the distinct segment yoma-006a-l35 that exists in sourceSegmentMap for exactly this purpose. Rashi's own comment on that line confirms the resolution continues on 6b.",
+              "fix": "sourceRef corrected to lineId yoma-006a-l35, vilnaLine 35."
             },
-            "otherChecksConfirmedClean": "No other fabricated argumentFlow steps, no generic quiz/misconception stubs, no cross-daf content bleed from 5b or 6b, no false resolution claims. Rashi attributions, Rav Chisda's chad-achar/achar-achar distinction, R. Zeira's impossibility proof, and sugya boundaries all traced cleanly to the raw text and bundled Rashi."
+            "otherChecksConfirmedClean": "Misconceptions, quizSeeds, topicTags, visualizableElements, requiresUnderstanding, and the glossary's chad-achar/achar-achar framing all matched the raw source and Rashi with no fabrication, no scope bleed from 6b, and no invented mechanisms."
           }
         }
       },
-      "repairRef": "1d37d72085cefb8149c7e22fa8e5851b1d820bba"
+      "repairRef": "f5a100ea796d476dac19893095060f992e551cb0"
     },
     "yoma-006b-s01": {
       "sugyaId": "yoma-006b-s01",
