@@ -29951,7 +29951,7 @@
     "yoma-004b-s01": {
       "sugyaId": "yoma-004b-s01",
       "daf": "4b",
-      "state": "PENDING_FINAL_AUDIT",
+      "state": "REPAIRED_PENDING_REVIEW",
       "firstPass": {
         "reviewId": "sonnet5-4b-second-20260917c",
         "reviewerContextId": "aa2ee4368c2ade367",
@@ -29979,36 +29979,12 @@
           }
         }
       },
-      "repairRef": "67e9c8f058af72403d8a00457c0318748d67d32c",
-      "sourceFingerprint": "6b2c647511d1c7d9a3620fd7933a41381c4c605523b31c4709887432a12751d6",
-      "semanticFingerprint": "88824b84fff40420ee26a1e151e7fbd8238829a5794b069068eb72abf790878f",
-      "secondPass": {
-        "reviewId": "sonnet5-4b-second-20260917d",
-        "reviewerContextId": "a15e6fa96ce5791e9",
-        "sourceFirst": true,
-        "verdict": "CONFIRMED",
-        "reviewedSourceFingerprint": "6b2c647511d1c7d9a3620fd7933a41381c4c605523b31c4709887432a12751d6",
-        "reviewedSemanticFingerprint": "88824b84fff40420ee26a1e151e7fbd8238829a5794b069068eb72abf790878f",
-        "evidence": {
-          "reviewMethod": "Genuinely fresh fifth-context independent reviewer (no access to any prior reviewer's findings) reconstructed daf 4b from raw Hebrew/Aramaic and bundled Rashi from scratch, independently re-derived all arithmetic, traced every sourceRef against each sugya's own sourceSegmentMap, then evaluated the round-4-repaired enrichment.",
-          "verdict": "ALL CLEAN - ready to certify. No defects found in any of the four sugyot or dafLevel.summary.",
-          "specificChecks": [
-            "R. Akiva's opening honor-reading (s01) confirmed as a direct grammatical continuation of his statement from 4a (verified via precedingDafContext).",
-            "Both arithmetic counts in s02 independently re-derived via direct date arithmetic (not just the Gemara's own stated totals) and confirmed correct.",
-            "Rabbi Yosi (baraita, 7 Sivan) correctly kept distinct from Rabbi Yosi HaGalili throughout.",
-            "s03's two independent public/private resolutions and two independent cloud-entry answers confirmed non-fused.",
-            "s04's 'both of them' correctly traced to the earlier Reish Lakish/R. Yochanan exchange (confirmed via Rashi's line-41 gloss), not R. Yochanan/R. Chanina.",
-            "No cross-sugya sourceRef violations anywhere; every lineId citation verified against its own sugya's sourceSegmentMap.",
-            "No fabricated steps, no reversed derivation direction, no premature closure of open questions.",
-            "finalRuling correctly empty on all four sugyot; display.hint fields are genuine questions on all four."
-          ]
-        }
-      }
+      "repairRef": "b07275fafa68fe19d014bf35b002e18872cc975d"
     },
     "yoma-004b-s02": {
       "sugyaId": "yoma-004b-s02",
       "daf": "4b",
-      "state": "PENDING_FINAL_AUDIT",
+      "state": "CERTIFIED",
       "firstPass": {
         "reviewId": "sonnet5-4b-second-20260917c",
         "reviewerContextId": "aa2ee4368c2ade367",
@@ -30060,12 +30036,1542 @@
             "finalRuling correctly empty on all four sugyot; display.hint fields are genuine questions on all four."
           ]
         }
-      }
+      },
+      "finalAudit": {
+        "reviewId": "codex-pr614-final-audit-20260917-s02",
+        "auditorContextId": "codex-pr614-final-auditor-20260917",
+        "auditedSourceFingerprint": "002827939a806167baf39441845911c87192626a7eef736c36365e5ffbc03733",
+        "auditedSemanticFingerprint": "637b960e16ce53ccf289e684088e2d90123e63a6b44874f25743272eeac98849",
+        "dafBoundary": {
+          "rawLineCount": 47,
+          "finalRawLine": "אמר",
+          "dafEndState": "MID_WORD"
+        },
+        "fieldInventory": [
+          {
+            "path": "lineRange",
+            "boundarySafe": true,
+            "crossReference": false,
+            "verdict": "NONFACTUAL"
+          },
+          {
+            "path": "lines",
+            "boundarySafe": true,
+            "crossReference": false,
+            "verdict": "NONFACTUAL"
+          },
+          {
+            "path": "dafLevel.glossary[0].en",
+            "boundarySafe": true,
+            "crossReference": false,
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "4b",
+                "startVilnaLine": 1,
+                "endVilnaLine": 47
+              }
+            ]
+          },
+          {
+            "path": "dafLevel.glossary[0].he",
+            "boundarySafe": true,
+            "crossReference": false,
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "4b",
+                "startVilnaLine": 1,
+                "endVilnaLine": 47
+              }
+            ]
+          },
+          {
+            "path": "dafLevel.glossary[0].translit",
+            "boundarySafe": true,
+            "crossReference": false,
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "4b",
+                "startVilnaLine": 1,
+                "endVilnaLine": 47
+              }
+            ]
+          },
+          {
+            "path": "dafLevel.glossary[1].en",
+            "boundarySafe": true,
+            "crossReference": false,
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "4b",
+                "startVilnaLine": 1,
+                "endVilnaLine": 47
+              }
+            ]
+          },
+          {
+            "path": "dafLevel.glossary[1].he",
+            "boundarySafe": true,
+            "crossReference": false,
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "4b",
+                "startVilnaLine": 1,
+                "endVilnaLine": 47
+              }
+            ]
+          },
+          {
+            "path": "dafLevel.glossary[1].translit",
+            "boundarySafe": true,
+            "crossReference": false,
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "4b",
+                "startVilnaLine": 1,
+                "endVilnaLine": 47
+              }
+            ]
+          },
+          {
+            "path": "dafLevel.glossary[2].en",
+            "boundarySafe": true,
+            "crossReference": false,
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "4b",
+                "startVilnaLine": 1,
+                "endVilnaLine": 47
+              }
+            ]
+          },
+          {
+            "path": "dafLevel.glossary[2].he",
+            "boundarySafe": true,
+            "crossReference": false,
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "4b",
+                "startVilnaLine": 1,
+                "endVilnaLine": 47
+              }
+            ]
+          },
+          {
+            "path": "dafLevel.glossary[2].translit",
+            "boundarySafe": true,
+            "crossReference": false,
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "4b",
+                "startVilnaLine": 1,
+                "endVilnaLine": 47
+              }
+            ]
+          },
+          {
+            "path": "dafLevel.glossary[3].en",
+            "boundarySafe": true,
+            "crossReference": false,
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "4b",
+                "startVilnaLine": 1,
+                "endVilnaLine": 47
+              }
+            ]
+          },
+          {
+            "path": "dafLevel.glossary[3].he",
+            "boundarySafe": true,
+            "crossReference": false,
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "4b",
+                "startVilnaLine": 1,
+                "endVilnaLine": 47
+              }
+            ]
+          },
+          {
+            "path": "dafLevel.glossary[3].translit",
+            "boundarySafe": true,
+            "crossReference": false,
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "4b",
+                "startVilnaLine": 1,
+                "endVilnaLine": 47
+              }
+            ]
+          },
+          {
+            "path": "dafLevel.summary",
+            "boundarySafe": true,
+            "crossReference": false,
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "4b",
+                "startVilnaLine": 1,
+                "endVilnaLine": 47
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-01].id",
+            "boundarySafe": true,
+            "crossReference": false,
+            "verdict": "NONFACTUAL"
+          },
+          {
+            "path": "argumentFlow[step-01].label",
+            "boundarySafe": true,
+            "crossReference": false,
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "4b",
+                "startVilnaLine": 10,
+                "endVilnaLine": 27
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-01].sourceRefs[0].lineId",
+            "boundarySafe": true,
+            "crossReference": false,
+            "verdict": "NONFACTUAL"
+          },
+          {
+            "path": "argumentFlow[step-01].sourceRefs[0].note",
+            "boundarySafe": true,
+            "crossReference": false,
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "4b",
+                "startVilnaLine": 10,
+                "endVilnaLine": 27
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-01].sourceRefs[0].sourceType",
+            "boundarySafe": true,
+            "crossReference": false,
+            "verdict": "NONFACTUAL"
+          },
+          {
+            "path": "argumentFlow[step-01].sourceRefs[0].vilnaLine",
+            "boundarySafe": true,
+            "crossReference": false,
+            "verdict": "NONFACTUAL"
+          },
+          {
+            "path": "argumentFlow[step-01].speaker",
+            "boundarySafe": true,
+            "crossReference": false,
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "4b",
+                "startVilnaLine": 10,
+                "endVilnaLine": 27
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-01].text",
+            "boundarySafe": true,
+            "crossReference": false,
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "4b",
+                "startVilnaLine": 10,
+                "endVilnaLine": 27
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-01].type",
+            "boundarySafe": true,
+            "crossReference": false,
+            "verdict": "REVIEWED",
+            "note": "Final whole-record audit: this editorial classification was checked against the source-supported argument sequence and does not assert a next-daf conclusion."
+          },
+          {
+            "path": "argumentFlow[step-02].id",
+            "boundarySafe": true,
+            "crossReference": false,
+            "verdict": "NONFACTUAL"
+          },
+          {
+            "path": "argumentFlow[step-02].label",
+            "boundarySafe": true,
+            "crossReference": false,
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "4b",
+                "startVilnaLine": 10,
+                "endVilnaLine": 27
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-02].sourceRefs[0].lineId",
+            "boundarySafe": true,
+            "crossReference": false,
+            "verdict": "NONFACTUAL"
+          },
+          {
+            "path": "argumentFlow[step-02].sourceRefs[0].note",
+            "boundarySafe": true,
+            "crossReference": false,
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "4b",
+                "startVilnaLine": 10,
+                "endVilnaLine": 27
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-02].sourceRefs[0].sourceType",
+            "boundarySafe": true,
+            "crossReference": false,
+            "verdict": "NONFACTUAL"
+          },
+          {
+            "path": "argumentFlow[step-02].sourceRefs[0].vilnaLine",
+            "boundarySafe": true,
+            "crossReference": false,
+            "verdict": "NONFACTUAL"
+          },
+          {
+            "path": "argumentFlow[step-02].speaker",
+            "boundarySafe": true,
+            "crossReference": false,
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "4b",
+                "startVilnaLine": 10,
+                "endVilnaLine": 27
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-02].text",
+            "boundarySafe": true,
+            "crossReference": false,
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "4b",
+                "startVilnaLine": 10,
+                "endVilnaLine": 27
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-02].type",
+            "boundarySafe": true,
+            "crossReference": false,
+            "verdict": "REVIEWED",
+            "note": "Final whole-record audit: this editorial classification was checked against the source-supported argument sequence and does not assert a next-daf conclusion."
+          },
+          {
+            "path": "argumentFlow[step-03].id",
+            "boundarySafe": true,
+            "crossReference": false,
+            "verdict": "NONFACTUAL"
+          },
+          {
+            "path": "argumentFlow[step-03].label",
+            "boundarySafe": true,
+            "crossReference": false,
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "4b",
+                "startVilnaLine": 10,
+                "endVilnaLine": 27
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-03].sourceRefs[0].lineId",
+            "boundarySafe": true,
+            "crossReference": false,
+            "verdict": "NONFACTUAL"
+          },
+          {
+            "path": "argumentFlow[step-03].sourceRefs[0].note",
+            "boundarySafe": true,
+            "crossReference": false,
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "4b",
+                "startVilnaLine": 10,
+                "endVilnaLine": 27
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-03].sourceRefs[0].sourceType",
+            "boundarySafe": true,
+            "crossReference": false,
+            "verdict": "NONFACTUAL"
+          },
+          {
+            "path": "argumentFlow[step-03].sourceRefs[0].vilnaLine",
+            "boundarySafe": true,
+            "crossReference": false,
+            "verdict": "NONFACTUAL"
+          },
+          {
+            "path": "argumentFlow[step-03].speaker",
+            "boundarySafe": true,
+            "crossReference": false,
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "4b",
+                "startVilnaLine": 10,
+                "endVilnaLine": 27
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-03].text",
+            "boundarySafe": true,
+            "crossReference": false,
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "4b",
+                "startVilnaLine": 10,
+                "endVilnaLine": 27
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-03].type",
+            "boundarySafe": true,
+            "crossReference": false,
+            "verdict": "REVIEWED",
+            "note": "Final whole-record audit: this editorial classification was checked against the source-supported argument sequence and does not assert a next-daf conclusion."
+          },
+          {
+            "path": "argumentFlow[step-04].id",
+            "boundarySafe": true,
+            "crossReference": false,
+            "verdict": "NONFACTUAL"
+          },
+          {
+            "path": "argumentFlow[step-04].label",
+            "boundarySafe": true,
+            "crossReference": false,
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "4b",
+                "startVilnaLine": 10,
+                "endVilnaLine": 27
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-04].sourceRefs[0].lineId",
+            "boundarySafe": true,
+            "crossReference": false,
+            "verdict": "NONFACTUAL"
+          },
+          {
+            "path": "argumentFlow[step-04].sourceRefs[0].note",
+            "boundarySafe": true,
+            "crossReference": false,
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "4b",
+                "startVilnaLine": 10,
+                "endVilnaLine": 27
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-04].sourceRefs[0].sourceType",
+            "boundarySafe": true,
+            "crossReference": false,
+            "verdict": "NONFACTUAL"
+          },
+          {
+            "path": "argumentFlow[step-04].sourceRefs[0].vilnaLine",
+            "boundarySafe": true,
+            "crossReference": false,
+            "verdict": "NONFACTUAL"
+          },
+          {
+            "path": "argumentFlow[step-04].speaker",
+            "boundarySafe": true,
+            "crossReference": false,
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "4b",
+                "startVilnaLine": 10,
+                "endVilnaLine": 27
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-04].text",
+            "boundarySafe": true,
+            "crossReference": false,
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "4b",
+                "startVilnaLine": 10,
+                "endVilnaLine": 27
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-04].type",
+            "boundarySafe": true,
+            "crossReference": false,
+            "verdict": "REVIEWED",
+            "note": "Final whole-record audit: this editorial classification was checked against the source-supported argument sequence and does not assert a next-daf conclusion."
+          },
+          {
+            "path": "argumentFlow[step-05].id",
+            "boundarySafe": true,
+            "crossReference": false,
+            "verdict": "NONFACTUAL"
+          },
+          {
+            "path": "argumentFlow[step-05].label",
+            "boundarySafe": true,
+            "crossReference": false,
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "4b",
+                "startVilnaLine": 10,
+                "endVilnaLine": 27
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-05].sourceRefs[0].lineId",
+            "boundarySafe": true,
+            "crossReference": false,
+            "verdict": "NONFACTUAL"
+          },
+          {
+            "path": "argumentFlow[step-05].sourceRefs[0].note",
+            "boundarySafe": true,
+            "crossReference": false,
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "4b",
+                "startVilnaLine": 10,
+                "endVilnaLine": 27
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-05].sourceRefs[0].sourceType",
+            "boundarySafe": true,
+            "crossReference": false,
+            "verdict": "NONFACTUAL"
+          },
+          {
+            "path": "argumentFlow[step-05].sourceRefs[0].vilnaLine",
+            "boundarySafe": true,
+            "crossReference": false,
+            "verdict": "NONFACTUAL"
+          },
+          {
+            "path": "argumentFlow[step-05].speaker",
+            "boundarySafe": true,
+            "crossReference": false,
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "4b",
+                "startVilnaLine": 10,
+                "endVilnaLine": 27
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-05].text",
+            "boundarySafe": true,
+            "crossReference": false,
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "4b",
+                "startVilnaLine": 10,
+                "endVilnaLine": 27
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-05].type",
+            "boundarySafe": true,
+            "crossReference": false,
+            "verdict": "REVIEWED",
+            "note": "Final whole-record audit: this editorial classification was checked against the source-supported argument sequence and does not assert a next-daf conclusion."
+          },
+          {
+            "path": "conceptRefs[person.rabbi_yosi_hagalili].id",
+            "boundarySafe": true,
+            "crossReference": false,
+            "verdict": "NONFACTUAL"
+          },
+          {
+            "path": "conceptRefs[person.rabbi_yosi_hagalili].label",
+            "boundarySafe": true,
+            "crossReference": false,
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "4b",
+                "startVilnaLine": 10,
+                "endVilnaLine": 27
+              }
+            ]
+          },
+          {
+            "path": "conceptRefs[person.rabbi_yosi_hagalili].scope",
+            "boundarySafe": true,
+            "crossReference": false,
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "4b",
+                "startVilnaLine": 10,
+                "endVilnaLine": 27
+              }
+            ]
+          },
+          {
+            "path": "conceptRefs[concept.calendar_arithmetic].id",
+            "boundarySafe": true,
+            "crossReference": false,
+            "verdict": "NONFACTUAL"
+          },
+          {
+            "path": "conceptRefs[concept.calendar_arithmetic].label",
+            "boundarySafe": true,
+            "crossReference": false,
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "4b",
+                "startVilnaLine": 10,
+                "endVilnaLine": 27
+              }
+            ]
+          },
+          {
+            "path": "conceptRefs[concept.calendar_arithmetic].scope",
+            "boundarySafe": true,
+            "crossReference": false,
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "4b",
+                "startVilnaLine": 10,
+                "endVilnaLine": 27
+              }
+            ]
+          },
+          {
+            "path": "difficulty",
+            "boundarySafe": true,
+            "crossReference": false,
+            "verdict": "REVIEWED",
+            "note": "Final whole-record audit: this editorial classification was checked against the source-supported argument sequence and does not assert a next-daf conclusion."
+          },
+          {
+            "path": "display.hint",
+            "boundarySafe": true,
+            "crossReference": false,
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "4b",
+                "startVilnaLine": 10,
+                "endVilnaLine": 27
+              }
+            ]
+          },
+          {
+            "path": "display.oneLine",
+            "boundarySafe": true,
+            "crossReference": false,
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "4b",
+                "startVilnaLine": 10,
+                "endVilnaLine": 27
+              }
+            ]
+          },
+          {
+            "path": "display.shortSummary",
+            "boundarySafe": true,
+            "crossReference": false,
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "4b",
+                "startVilnaLine": 10,
+                "endVilnaLine": 27
+              }
+            ]
+          },
+          {
+            "path": "display.title",
+            "boundarySafe": true,
+            "crossReference": false,
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "4b",
+                "startVilnaLine": 10,
+                "endVilnaLine": 27
+              }
+            ]
+          },
+          {
+            "path": "display.whats",
+            "boundarySafe": true,
+            "crossReference": false,
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "4b",
+                "startVilnaLine": 10,
+                "endVilnaLine": 27
+              }
+            ]
+          },
+          {
+            "path": "learning.ahaMoment",
+            "boundarySafe": true,
+            "crossReference": false,
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "4b",
+                "startVilnaLine": 10,
+                "endVilnaLine": 27
+              }
+            ]
+          },
+          {
+            "path": "learning.coreMove",
+            "boundarySafe": true,
+            "crossReference": false,
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "4b",
+                "startVilnaLine": 10,
+                "endVilnaLine": 27
+              }
+            ]
+          },
+          {
+            "path": "learning.coreTension",
+            "boundarySafe": true,
+            "crossReference": false,
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "4b",
+                "startVilnaLine": 10,
+                "endVilnaLine": 27
+              }
+            ]
+          },
+          {
+            "path": "learning.learnerQuestion",
+            "boundarySafe": true,
+            "crossReference": false,
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "4b",
+                "startVilnaLine": 10,
+                "endVilnaLine": 27
+              }
+            ]
+          },
+          {
+            "path": "learning.learningBlocker",
+            "boundarySafe": true,
+            "crossReference": false,
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "4b",
+                "startVilnaLine": 10,
+                "endVilnaLine": 27
+              }
+            ]
+          },
+          {
+            "path": "learning.memoryAnchor",
+            "boundarySafe": true,
+            "crossReference": false,
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "4b",
+                "startVilnaLine": 10,
+                "endVilnaLine": 27
+              }
+            ]
+          },
+          {
+            "path": "learning.reasoningPattern.category",
+            "boundarySafe": true,
+            "crossReference": false,
+            "verdict": "REVIEWED",
+            "note": "Final whole-record audit: this editorial classification was checked against the source-supported argument sequence and does not assert a next-daf conclusion."
+          },
+          {
+            "path": "learning.reasoningPattern.id",
+            "boundarySafe": true,
+            "crossReference": false,
+            "verdict": "NONFACTUAL"
+          },
+          {
+            "path": "learning.reasoningPattern.notes",
+            "boundarySafe": true,
+            "crossReference": false,
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "4b",
+                "startVilnaLine": 10,
+                "endVilnaLine": 27
+              }
+            ]
+          },
+          {
+            "path": "learning.resolution",
+            "boundarySafe": true,
+            "crossReference": false,
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "4b",
+                "startVilnaLine": 10,
+                "endVilnaLine": 27
+              }
+            ]
+          },
+          {
+            "path": "learning.takeaway.text",
+            "boundarySafe": true,
+            "crossReference": false,
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "4b",
+                "startVilnaLine": 10,
+                "endVilnaLine": 27
+              }
+            ]
+          },
+          {
+            "path": "learning.takeaway.type",
+            "boundarySafe": true,
+            "crossReference": false,
+            "verdict": "REVIEWED",
+            "note": "Final whole-record audit: this editorial classification was checked against the source-supported argument sequence and does not assert a next-daf conclusion."
+          },
+          {
+            "path": "misconceptions[0].correctedByStepId",
+            "boundarySafe": true,
+            "crossReference": false,
+            "verdict": "NONFACTUAL"
+          },
+          {
+            "path": "misconceptions[0].correction",
+            "boundarySafe": true,
+            "crossReference": false,
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "4b",
+                "startVilnaLine": 10,
+                "endVilnaLine": 27
+              }
+            ]
+          },
+          {
+            "path": "misconceptions[0].misconception",
+            "boundarySafe": true,
+            "crossReference": false,
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "4b",
+                "startVilnaLine": 10,
+                "endVilnaLine": 27
+              }
+            ]
+          },
+          {
+            "path": "quizSeeds[0].answer",
+            "boundarySafe": true,
+            "crossReference": false,
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "4b",
+                "startVilnaLine": 10,
+                "endVilnaLine": 27
+              }
+            ]
+          },
+          {
+            "path": "quizSeeds[0].question",
+            "boundarySafe": true,
+            "crossReference": false,
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "4b",
+                "startVilnaLine": 10,
+                "endVilnaLine": 27
+              }
+            ]
+          },
+          {
+            "path": "quizSeeds[0].sourceRefs[0].lineId",
+            "boundarySafe": true,
+            "crossReference": false,
+            "verdict": "NONFACTUAL"
+          },
+          {
+            "path": "quizSeeds[0].sourceRefs[0].sourceType",
+            "boundarySafe": true,
+            "crossReference": false,
+            "verdict": "NONFACTUAL"
+          },
+          {
+            "path": "quizSeeds[0].sourceRefs[0].vilnaLine",
+            "boundarySafe": true,
+            "crossReference": false,
+            "verdict": "NONFACTUAL"
+          },
+          {
+            "path": "quizSeeds[1].answer",
+            "boundarySafe": true,
+            "crossReference": false,
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "4b",
+                "startVilnaLine": 10,
+                "endVilnaLine": 27
+              }
+            ]
+          },
+          {
+            "path": "quizSeeds[1].question",
+            "boundarySafe": true,
+            "crossReference": false,
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "4b",
+                "startVilnaLine": 10,
+                "endVilnaLine": 27
+              }
+            ]
+          },
+          {
+            "path": "quizSeeds[1].sourceRefs[0].lineId",
+            "boundarySafe": true,
+            "crossReference": false,
+            "verdict": "NONFACTUAL"
+          },
+          {
+            "path": "quizSeeds[1].sourceRefs[0].sourceType",
+            "boundarySafe": true,
+            "crossReference": false,
+            "verdict": "NONFACTUAL"
+          },
+          {
+            "path": "quizSeeds[1].sourceRefs[0].vilnaLine",
+            "boundarySafe": true,
+            "crossReference": false,
+            "verdict": "NONFACTUAL"
+          },
+          {
+            "path": "relatedSugyot[0]",
+            "boundarySafe": true,
+            "crossReference": false,
+            "verdict": "NONFACTUAL"
+          },
+          {
+            "path": "relatedSugyot[1]",
+            "boundarySafe": true,
+            "crossReference": false,
+            "verdict": "NONFACTUAL"
+          },
+          {
+            "path": "requiresUnderstanding[0]",
+            "boundarySafe": true,
+            "crossReference": false,
+            "verdict": "NONFACTUAL"
+          },
+          {
+            "path": "topicTags[0]",
+            "boundarySafe": true,
+            "crossReference": false,
+            "verdict": "NONFACTUAL"
+          },
+          {
+            "path": "topicTags[1]",
+            "boundarySafe": true,
+            "crossReference": false,
+            "verdict": "NONFACTUAL"
+          },
+          {
+            "path": "topicTags[2]",
+            "boundarySafe": true,
+            "crossReference": false,
+            "verdict": "NONFACTUAL"
+          },
+          {
+            "path": "topicTags[3]",
+            "boundarySafe": true,
+            "crossReference": false,
+            "verdict": "NONFACTUAL"
+          },
+          {
+            "path": "topicTags[4]",
+            "boundarySafe": true,
+            "crossReference": false,
+            "verdict": "NONFACTUAL"
+          },
+          {
+            "path": "visualizableElements[0].item",
+            "boundarySafe": true,
+            "crossReference": false,
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "4b",
+                "startVilnaLine": 10,
+                "endVilnaLine": 27
+              }
+            ]
+          },
+          {
+            "path": "visualizableElements[0].priority",
+            "boundarySafe": true,
+            "crossReference": false,
+            "verdict": "NONFACTUAL"
+          },
+          {
+            "path": "visualizableElements[0].role",
+            "boundarySafe": true,
+            "crossReference": false,
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "4b",
+                "startVilnaLine": 10,
+                "endVilnaLine": 27
+              }
+            ]
+          },
+          {
+            "path": "visualizableElements[1].item",
+            "boundarySafe": true,
+            "crossReference": false,
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "4b",
+                "startVilnaLine": 10,
+                "endVilnaLine": 27
+              }
+            ]
+          },
+          {
+            "path": "visualizableElements[1].priority",
+            "boundarySafe": true,
+            "crossReference": false,
+            "verdict": "NONFACTUAL"
+          },
+          {
+            "path": "visualizableElements[1].role",
+            "boundarySafe": true,
+            "crossReference": false,
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "4b",
+                "startVilnaLine": 10,
+                "endVilnaLine": 27
+              }
+            ]
+          }
+        ],
+        "boundaryLeakageSweep": [
+          {
+            "path": "dafLevel.glossary[0].en",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 4b endpoint; this field does not import the next daf conclusion."
+          },
+          {
+            "path": "dafLevel.glossary[0].he",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 4b endpoint; this field does not import the next daf conclusion."
+          },
+          {
+            "path": "dafLevel.glossary[0].translit",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 4b endpoint; this field does not import the next daf conclusion."
+          },
+          {
+            "path": "dafLevel.glossary[1].en",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 4b endpoint; this field does not import the next daf conclusion."
+          },
+          {
+            "path": "dafLevel.glossary[1].he",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 4b endpoint; this field does not import the next daf conclusion."
+          },
+          {
+            "path": "dafLevel.glossary[1].translit",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 4b endpoint; this field does not import the next daf conclusion."
+          },
+          {
+            "path": "dafLevel.glossary[2].en",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 4b endpoint; this field does not import the next daf conclusion."
+          },
+          {
+            "path": "dafLevel.glossary[2].he",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 4b endpoint; this field does not import the next daf conclusion."
+          },
+          {
+            "path": "dafLevel.glossary[2].translit",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 4b endpoint; this field does not import the next daf conclusion."
+          },
+          {
+            "path": "dafLevel.glossary[3].en",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 4b endpoint; this field does not import the next daf conclusion."
+          },
+          {
+            "path": "dafLevel.glossary[3].he",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 4b endpoint; this field does not import the next daf conclusion."
+          },
+          {
+            "path": "dafLevel.glossary[3].translit",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 4b endpoint; this field does not import the next daf conclusion."
+          },
+          {
+            "path": "dafLevel.summary",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 4b endpoint; this field does not import the next daf conclusion."
+          },
+          {
+            "path": "argumentFlow[step-01].label",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 4b endpoint; this field does not import the next daf conclusion."
+          },
+          {
+            "path": "argumentFlow[step-01].sourceRefs[0].note",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 4b endpoint; this field does not import the next daf conclusion."
+          },
+          {
+            "path": "argumentFlow[step-01].speaker",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 4b endpoint; this field does not import the next daf conclusion."
+          },
+          {
+            "path": "argumentFlow[step-01].text",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 4b endpoint; this field does not import the next daf conclusion."
+          },
+          {
+            "path": "argumentFlow[step-01].type",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 4b endpoint; this field does not import the next daf conclusion."
+          },
+          {
+            "path": "argumentFlow[step-02].label",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 4b endpoint; this field does not import the next daf conclusion."
+          },
+          {
+            "path": "argumentFlow[step-02].sourceRefs[0].note",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 4b endpoint; this field does not import the next daf conclusion."
+          },
+          {
+            "path": "argumentFlow[step-02].speaker",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 4b endpoint; this field does not import the next daf conclusion."
+          },
+          {
+            "path": "argumentFlow[step-02].text",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 4b endpoint; this field does not import the next daf conclusion."
+          },
+          {
+            "path": "argumentFlow[step-02].type",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 4b endpoint; this field does not import the next daf conclusion."
+          },
+          {
+            "path": "argumentFlow[step-03].label",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 4b endpoint; this field does not import the next daf conclusion."
+          },
+          {
+            "path": "argumentFlow[step-03].sourceRefs[0].note",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 4b endpoint; this field does not import the next daf conclusion."
+          },
+          {
+            "path": "argumentFlow[step-03].speaker",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 4b endpoint; this field does not import the next daf conclusion."
+          },
+          {
+            "path": "argumentFlow[step-03].text",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 4b endpoint; this field does not import the next daf conclusion."
+          },
+          {
+            "path": "argumentFlow[step-03].type",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 4b endpoint; this field does not import the next daf conclusion."
+          },
+          {
+            "path": "argumentFlow[step-04].label",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 4b endpoint; this field does not import the next daf conclusion."
+          },
+          {
+            "path": "argumentFlow[step-04].sourceRefs[0].note",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 4b endpoint; this field does not import the next daf conclusion."
+          },
+          {
+            "path": "argumentFlow[step-04].speaker",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 4b endpoint; this field does not import the next daf conclusion."
+          },
+          {
+            "path": "argumentFlow[step-04].text",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 4b endpoint; this field does not import the next daf conclusion."
+          },
+          {
+            "path": "argumentFlow[step-04].type",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 4b endpoint; this field does not import the next daf conclusion."
+          },
+          {
+            "path": "argumentFlow[step-05].label",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 4b endpoint; this field does not import the next daf conclusion."
+          },
+          {
+            "path": "argumentFlow[step-05].sourceRefs[0].note",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 4b endpoint; this field does not import the next daf conclusion."
+          },
+          {
+            "path": "argumentFlow[step-05].speaker",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 4b endpoint; this field does not import the next daf conclusion."
+          },
+          {
+            "path": "argumentFlow[step-05].text",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 4b endpoint; this field does not import the next daf conclusion."
+          },
+          {
+            "path": "argumentFlow[step-05].type",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 4b endpoint; this field does not import the next daf conclusion."
+          },
+          {
+            "path": "conceptRefs[person.rabbi_yosi_hagalili].label",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 4b endpoint; this field does not import the next daf conclusion."
+          },
+          {
+            "path": "conceptRefs[person.rabbi_yosi_hagalili].scope",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 4b endpoint; this field does not import the next daf conclusion."
+          },
+          {
+            "path": "conceptRefs[concept.calendar_arithmetic].label",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 4b endpoint; this field does not import the next daf conclusion."
+          },
+          {
+            "path": "conceptRefs[concept.calendar_arithmetic].scope",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 4b endpoint; this field does not import the next daf conclusion."
+          },
+          {
+            "path": "difficulty",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 4b endpoint; this field does not import the next daf conclusion."
+          },
+          {
+            "path": "display.hint",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 4b endpoint; this field does not import the next daf conclusion."
+          },
+          {
+            "path": "display.oneLine",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 4b endpoint; this field does not import the next daf conclusion."
+          },
+          {
+            "path": "display.shortSummary",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 4b endpoint; this field does not import the next daf conclusion."
+          },
+          {
+            "path": "display.title",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 4b endpoint; this field does not import the next daf conclusion."
+          },
+          {
+            "path": "display.whats",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 4b endpoint; this field does not import the next daf conclusion."
+          },
+          {
+            "path": "learning.ahaMoment",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 4b endpoint; this field does not import the next daf conclusion."
+          },
+          {
+            "path": "learning.coreMove",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 4b endpoint; this field does not import the next daf conclusion."
+          },
+          {
+            "path": "learning.coreTension",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 4b endpoint; this field does not import the next daf conclusion."
+          },
+          {
+            "path": "learning.learnerQuestion",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 4b endpoint; this field does not import the next daf conclusion."
+          },
+          {
+            "path": "learning.learningBlocker",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 4b endpoint; this field does not import the next daf conclusion."
+          },
+          {
+            "path": "learning.memoryAnchor",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 4b endpoint; this field does not import the next daf conclusion."
+          },
+          {
+            "path": "learning.reasoningPattern.category",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 4b endpoint; this field does not import the next daf conclusion."
+          },
+          {
+            "path": "learning.reasoningPattern.notes",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 4b endpoint; this field does not import the next daf conclusion."
+          },
+          {
+            "path": "learning.resolution",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 4b endpoint; this field does not import the next daf conclusion."
+          },
+          {
+            "path": "learning.takeaway.text",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 4b endpoint; this field does not import the next daf conclusion."
+          },
+          {
+            "path": "learning.takeaway.type",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 4b endpoint; this field does not import the next daf conclusion."
+          },
+          {
+            "path": "misconceptions[0].correction",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 4b endpoint; this field does not import the next daf conclusion."
+          },
+          {
+            "path": "misconceptions[0].misconception",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 4b endpoint; this field does not import the next daf conclusion."
+          },
+          {
+            "path": "quizSeeds[0].answer",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 4b endpoint; this field does not import the next daf conclusion."
+          },
+          {
+            "path": "quizSeeds[0].question",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 4b endpoint; this field does not import the next daf conclusion."
+          },
+          {
+            "path": "quizSeeds[1].answer",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 4b endpoint; this field does not import the next daf conclusion."
+          },
+          {
+            "path": "quizSeeds[1].question",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 4b endpoint; this field does not import the next daf conclusion."
+          },
+          {
+            "path": "visualizableElements[0].item",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 4b endpoint; this field does not import the next daf conclusion."
+          },
+          {
+            "path": "visualizableElements[0].role",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 4b endpoint; this field does not import the next daf conclusion."
+          },
+          {
+            "path": "visualizableElements[1].item",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 4b endpoint; this field does not import the next daf conclusion."
+          },
+          {
+            "path": "visualizableElements[1].role",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 4b endpoint; this field does not import the next daf conclusion."
+          }
+        ],
+        "staleContentSweep": {
+          "entries": [
+            {
+              "category": "stale_original_error",
+              "found": false
+            },
+            {
+              "category": "stale_speaker_or_attribution",
+              "found": false
+            },
+            {
+              "category": "contradictory_speaker_attribution",
+              "found": false
+            },
+            {
+              "category": "old_conclusion_in_secondary_field",
+              "found": false
+            },
+            {
+              "category": "false_closure",
+              "found": false
+            },
+            {
+              "category": "next_daf_content_leaked_backward",
+              "found": false
+            },
+            {
+              "category": "claim_unsupported_by_physical_daf",
+              "found": false
+            },
+            {
+              "category": "stale_quiz_question_or_answer",
+              "found": false
+            },
+            {
+              "category": "stale_final_ruling",
+              "found": false
+            },
+            {
+              "category": "stale_summary",
+              "found": false
+            },
+            {
+              "category": "stale_learning_field",
+              "found": false
+            },
+            {
+              "category": "stale_misconception",
+              "found": false
+            },
+            {
+              "category": "stale_related_sugya_description",
+              "found": false
+            },
+            {
+              "category": "stale_visualizable_element_prose",
+              "found": false
+            },
+            {
+              "category": "source_refs_no_longer_supporting_claim",
+              "found": false
+            },
+            {
+              "category": "reference_outside_declared_line_range",
+              "found": false
+            }
+          ]
+        }
+      },
+      "certifiedAtCommit": "b07275fafa68fe19d014bf35b002e18872cc975d"
     },
     "yoma-004b-s03": {
       "sugyaId": "yoma-004b-s03",
       "daf": "4b",
-      "state": "PENDING_FINAL_AUDIT",
+      "state": "REPAIRED_PENDING_REVIEW",
       "firstPass": {
         "reviewId": "sonnet5-4b-second-20260917a",
         "reviewerContextId": "a9b00f21257a02e4b",
@@ -30093,36 +31599,12 @@
           }
         }
       },
-      "repairRef": "6ad9035f7c04fa01b4150f7462bf55e9d7a63034",
-      "sourceFingerprint": "0ac9a4c1f0275d0b9f48b1f2ddb7bdca4a6ac1f4bba97d32e067b5be3bbc34cf",
-      "semanticFingerprint": "143aeddd16feb75afa4490058e48ac843b063c13729693ed68af763d94e8e295",
-      "secondPass": {
-        "reviewId": "sonnet5-4b-second-20260917d",
-        "reviewerContextId": "a15e6fa96ce5791e9",
-        "sourceFirst": true,
-        "verdict": "CONFIRMED",
-        "reviewedSourceFingerprint": "0ac9a4c1f0275d0b9f48b1f2ddb7bdca4a6ac1f4bba97d32e067b5be3bbc34cf",
-        "reviewedSemanticFingerprint": "143aeddd16feb75afa4490058e48ac843b063c13729693ed68af763d94e8e295",
-        "evidence": {
-          "reviewMethod": "Genuinely fresh fifth-context independent reviewer (no access to any prior reviewer's findings) reconstructed daf 4b from raw Hebrew/Aramaic and bundled Rashi from scratch, independently re-derived all arithmetic, traced every sourceRef against each sugya's own sourceSegmentMap, then evaluated the round-4-repaired enrichment.",
-          "verdict": "ALL CLEAN - ready to certify. No defects found in any of the four sugyot or dafLevel.summary.",
-          "specificChecks": [
-            "R. Akiva's opening honor-reading (s01) confirmed as a direct grammatical continuation of his statement from 4a (verified via precedingDafContext).",
-            "Both arithmetic counts in s02 independently re-derived via direct date arithmetic (not just the Gemara's own stated totals) and confirmed correct.",
-            "Rabbi Yosi (baraita, 7 Sivan) correctly kept distinct from Rabbi Yosi HaGalili throughout.",
-            "s03's two independent public/private resolutions and two independent cloud-entry answers confirmed non-fused.",
-            "s04's 'both of them' correctly traced to the earlier Reish Lakish/R. Yochanan exchange (confirmed via Rashi's line-41 gloss), not R. Yochanan/R. Chanina.",
-            "No cross-sugya sourceRef violations anywhere; every lineId citation verified against its own sugya's sourceSegmentMap.",
-            "No fabricated steps, no reversed derivation direction, no premature closure of open questions.",
-            "finalRuling correctly empty on all four sugyot; display.hint fields are genuine questions on all four."
-          ]
-        }
-      }
+      "repairRef": "b07275fafa68fe19d014bf35b002e18872cc975d"
     },
     "yoma-004b-s04": {
       "sugyaId": "yoma-004b-s04",
       "daf": "4b",
-      "state": "PENDING_FINAL_AUDIT",
+      "state": "CERTIFIED",
       "firstPass": {
         "reviewId": "sonnet5-4b-second-20260917a",
         "reviewerContextId": "a9b00f21257a02e4b",
@@ -30174,7 +31656,1555 @@
             "finalRuling correctly empty on all four sugyot; display.hint fields are genuine questions on all four."
           ]
         }
-      }
+      },
+      "finalAudit": {
+        "reviewId": "codex-pr614-final-audit-20260917-s04",
+        "auditorContextId": "codex-pr614-final-auditor-20260917",
+        "auditedSourceFingerprint": "cdc3b5a90656fd7f51839e1108f0ad8bbfa233eeae579621cb3750efe2ee3b44",
+        "auditedSemanticFingerprint": "81f378a6562d846f43a2ebb5319ae5dbad22bb3e852a37c0314621d1639a63ec",
+        "dafBoundary": {
+          "rawLineCount": 47,
+          "finalRawLine": "אמר",
+          "dafEndState": "MID_WORD"
+        },
+        "fieldInventory": [
+          {
+            "path": "lineRange",
+            "boundarySafe": true,
+            "crossReference": false,
+            "verdict": "NONFACTUAL"
+          },
+          {
+            "path": "lines",
+            "boundarySafe": true,
+            "crossReference": false,
+            "verdict": "NONFACTUAL"
+          },
+          {
+            "path": "dafLevel.glossary[0].en",
+            "boundarySafe": true,
+            "crossReference": false,
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "4b",
+                "startVilnaLine": 1,
+                "endVilnaLine": 47
+              }
+            ]
+          },
+          {
+            "path": "dafLevel.glossary[0].he",
+            "boundarySafe": true,
+            "crossReference": false,
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "4b",
+                "startVilnaLine": 1,
+                "endVilnaLine": 47
+              }
+            ]
+          },
+          {
+            "path": "dafLevel.glossary[0].translit",
+            "boundarySafe": true,
+            "crossReference": false,
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "4b",
+                "startVilnaLine": 1,
+                "endVilnaLine": 47
+              }
+            ]
+          },
+          {
+            "path": "dafLevel.glossary[1].en",
+            "boundarySafe": true,
+            "crossReference": false,
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "4b",
+                "startVilnaLine": 1,
+                "endVilnaLine": 47
+              }
+            ]
+          },
+          {
+            "path": "dafLevel.glossary[1].he",
+            "boundarySafe": true,
+            "crossReference": false,
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "4b",
+                "startVilnaLine": 1,
+                "endVilnaLine": 47
+              }
+            ]
+          },
+          {
+            "path": "dafLevel.glossary[1].translit",
+            "boundarySafe": true,
+            "crossReference": false,
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "4b",
+                "startVilnaLine": 1,
+                "endVilnaLine": 47
+              }
+            ]
+          },
+          {
+            "path": "dafLevel.glossary[2].en",
+            "boundarySafe": true,
+            "crossReference": false,
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "4b",
+                "startVilnaLine": 1,
+                "endVilnaLine": 47
+              }
+            ]
+          },
+          {
+            "path": "dafLevel.glossary[2].he",
+            "boundarySafe": true,
+            "crossReference": false,
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "4b",
+                "startVilnaLine": 1,
+                "endVilnaLine": 47
+              }
+            ]
+          },
+          {
+            "path": "dafLevel.glossary[2].translit",
+            "boundarySafe": true,
+            "crossReference": false,
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "4b",
+                "startVilnaLine": 1,
+                "endVilnaLine": 47
+              }
+            ]
+          },
+          {
+            "path": "dafLevel.glossary[3].en",
+            "boundarySafe": true,
+            "crossReference": false,
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "4b",
+                "startVilnaLine": 1,
+                "endVilnaLine": 47
+              }
+            ]
+          },
+          {
+            "path": "dafLevel.glossary[3].he",
+            "boundarySafe": true,
+            "crossReference": false,
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "4b",
+                "startVilnaLine": 1,
+                "endVilnaLine": 47
+              }
+            ]
+          },
+          {
+            "path": "dafLevel.glossary[3].translit",
+            "boundarySafe": true,
+            "crossReference": false,
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "4b",
+                "startVilnaLine": 1,
+                "endVilnaLine": 47
+              }
+            ]
+          },
+          {
+            "path": "dafLevel.summary",
+            "boundarySafe": true,
+            "crossReference": false,
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "4b",
+                "startVilnaLine": 1,
+                "endVilnaLine": 47
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-01].id",
+            "boundarySafe": true,
+            "crossReference": false,
+            "verdict": "NONFACTUAL"
+          },
+          {
+            "path": "argumentFlow[step-01].label",
+            "boundarySafe": true,
+            "crossReference": false,
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "4b",
+                "startVilnaLine": 41,
+                "endVilnaLine": 47
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-01].sourceRefs[0].lineId",
+            "boundarySafe": true,
+            "crossReference": false,
+            "verdict": "NONFACTUAL"
+          },
+          {
+            "path": "argumentFlow[step-01].sourceRefs[0].note",
+            "boundarySafe": true,
+            "crossReference": false,
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "4b",
+                "startVilnaLine": 41,
+                "endVilnaLine": 47
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-01].sourceRefs[0].sourceType",
+            "boundarySafe": true,
+            "crossReference": false,
+            "verdict": "NONFACTUAL"
+          },
+          {
+            "path": "argumentFlow[step-01].sourceRefs[0].vilnaLine",
+            "boundarySafe": true,
+            "crossReference": false,
+            "verdict": "NONFACTUAL"
+          },
+          {
+            "path": "argumentFlow[step-01].speaker",
+            "boundarySafe": true,
+            "crossReference": false,
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "4b",
+                "startVilnaLine": 41,
+                "endVilnaLine": 47
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-01].text",
+            "boundarySafe": true,
+            "crossReference": false,
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "4b",
+                "startVilnaLine": 41,
+                "endVilnaLine": 47
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-01].type",
+            "boundarySafe": true,
+            "crossReference": false,
+            "verdict": "REVIEWED",
+            "note": "Final whole-record audit: this editorial classification was checked against the source-supported argument sequence and does not assert a next-daf conclusion."
+          },
+          {
+            "path": "argumentFlow[step-02].id",
+            "boundarySafe": true,
+            "crossReference": false,
+            "verdict": "NONFACTUAL"
+          },
+          {
+            "path": "argumentFlow[step-02].label",
+            "boundarySafe": true,
+            "crossReference": false,
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "4b",
+                "startVilnaLine": 41,
+                "endVilnaLine": 47
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-02].sourceRefs[0].lineId",
+            "boundarySafe": true,
+            "crossReference": false,
+            "verdict": "NONFACTUAL"
+          },
+          {
+            "path": "argumentFlow[step-02].sourceRefs[0].note",
+            "boundarySafe": true,
+            "crossReference": false,
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "4b",
+                "startVilnaLine": 41,
+                "endVilnaLine": 47
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-02].sourceRefs[0].sourceType",
+            "boundarySafe": true,
+            "crossReference": false,
+            "verdict": "NONFACTUAL"
+          },
+          {
+            "path": "argumentFlow[step-02].sourceRefs[0].vilnaLine",
+            "boundarySafe": true,
+            "crossReference": false,
+            "verdict": "NONFACTUAL"
+          },
+          {
+            "path": "argumentFlow[step-02].sourceRefs[1].lineId",
+            "boundarySafe": true,
+            "crossReference": false,
+            "verdict": "NONFACTUAL"
+          },
+          {
+            "path": "argumentFlow[step-02].sourceRefs[1].note",
+            "boundarySafe": true,
+            "crossReference": false,
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "4b",
+                "startVilnaLine": 41,
+                "endVilnaLine": 47
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-02].sourceRefs[1].sourceType",
+            "boundarySafe": true,
+            "crossReference": false,
+            "verdict": "NONFACTUAL"
+          },
+          {
+            "path": "argumentFlow[step-02].sourceRefs[1].vilnaLine",
+            "boundarySafe": true,
+            "crossReference": false,
+            "verdict": "NONFACTUAL"
+          },
+          {
+            "path": "argumentFlow[step-02].speaker",
+            "boundarySafe": true,
+            "crossReference": false,
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "4b",
+                "startVilnaLine": 41,
+                "endVilnaLine": 47
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-02].text",
+            "boundarySafe": true,
+            "crossReference": false,
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "4b",
+                "startVilnaLine": 41,
+                "endVilnaLine": 47
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-02].type",
+            "boundarySafe": true,
+            "crossReference": false,
+            "verdict": "REVIEWED",
+            "note": "Final whole-record audit: this editorial classification was checked against the source-supported argument sequence and does not assert a next-daf conclusion."
+          },
+          {
+            "path": "argumentFlow[step-03].id",
+            "boundarySafe": true,
+            "crossReference": false,
+            "verdict": "NONFACTUAL"
+          },
+          {
+            "path": "argumentFlow[step-03].label",
+            "boundarySafe": true,
+            "crossReference": false,
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "4b",
+                "startVilnaLine": 41,
+                "endVilnaLine": 47
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-03].sourceRefs[0].lineId",
+            "boundarySafe": true,
+            "crossReference": false,
+            "verdict": "NONFACTUAL"
+          },
+          {
+            "path": "argumentFlow[step-03].sourceRefs[0].note",
+            "boundarySafe": true,
+            "crossReference": false,
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "4b",
+                "startVilnaLine": 41,
+                "endVilnaLine": 47
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-03].sourceRefs[0].sourceType",
+            "boundarySafe": true,
+            "crossReference": false,
+            "verdict": "NONFACTUAL"
+          },
+          {
+            "path": "argumentFlow[step-03].sourceRefs[0].vilnaLine",
+            "boundarySafe": true,
+            "crossReference": false,
+            "verdict": "NONFACTUAL"
+          },
+          {
+            "path": "argumentFlow[step-03].sourceRefs[1].lineId",
+            "boundarySafe": true,
+            "crossReference": false,
+            "verdict": "NONFACTUAL"
+          },
+          {
+            "path": "argumentFlow[step-03].sourceRefs[1].note",
+            "boundarySafe": true,
+            "crossReference": false,
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "4b",
+                "startVilnaLine": 41,
+                "endVilnaLine": 47
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-03].sourceRefs[1].sourceType",
+            "boundarySafe": true,
+            "crossReference": false,
+            "verdict": "NONFACTUAL"
+          },
+          {
+            "path": "argumentFlow[step-03].sourceRefs[1].vilnaLine",
+            "boundarySafe": true,
+            "crossReference": false,
+            "verdict": "NONFACTUAL"
+          },
+          {
+            "path": "argumentFlow[step-03].speaker",
+            "boundarySafe": true,
+            "crossReference": false,
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "4b",
+                "startVilnaLine": 41,
+                "endVilnaLine": 47
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-03].text",
+            "boundarySafe": true,
+            "crossReference": false,
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "4b",
+                "startVilnaLine": 41,
+                "endVilnaLine": 47
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-03].type",
+            "boundarySafe": true,
+            "crossReference": false,
+            "verdict": "REVIEWED",
+            "note": "Final whole-record audit: this editorial classification was checked against the source-supported argument sequence and does not assert a next-daf conclusion."
+          },
+          {
+            "path": "argumentFlow[step-04].id",
+            "boundarySafe": true,
+            "crossReference": false,
+            "verdict": "NONFACTUAL"
+          },
+          {
+            "path": "argumentFlow[step-04].label",
+            "boundarySafe": true,
+            "crossReference": false,
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "4b",
+                "startVilnaLine": 41,
+                "endVilnaLine": 47
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-04].sourceRefs[0].lineId",
+            "boundarySafe": true,
+            "crossReference": false,
+            "verdict": "NONFACTUAL"
+          },
+          {
+            "path": "argumentFlow[step-04].sourceRefs[0].note",
+            "boundarySafe": true,
+            "crossReference": false,
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "4b",
+                "startVilnaLine": 41,
+                "endVilnaLine": 47
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-04].sourceRefs[0].sourceType",
+            "boundarySafe": true,
+            "crossReference": false,
+            "verdict": "NONFACTUAL"
+          },
+          {
+            "path": "argumentFlow[step-04].sourceRefs[0].vilnaLine",
+            "boundarySafe": true,
+            "crossReference": false,
+            "verdict": "NONFACTUAL"
+          },
+          {
+            "path": "argumentFlow[step-04].sourceRefs[1].lineId",
+            "boundarySafe": true,
+            "crossReference": false,
+            "verdict": "NONFACTUAL"
+          },
+          {
+            "path": "argumentFlow[step-04].sourceRefs[1].note",
+            "boundarySafe": true,
+            "crossReference": false,
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "4b",
+                "startVilnaLine": 41,
+                "endVilnaLine": 47
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-04].sourceRefs[1].sourceType",
+            "boundarySafe": true,
+            "crossReference": false,
+            "verdict": "NONFACTUAL"
+          },
+          {
+            "path": "argumentFlow[step-04].sourceRefs[1].vilnaLine",
+            "boundarySafe": true,
+            "crossReference": false,
+            "verdict": "NONFACTUAL"
+          },
+          {
+            "path": "argumentFlow[step-04].speaker",
+            "boundarySafe": true,
+            "crossReference": false,
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "4b",
+                "startVilnaLine": 41,
+                "endVilnaLine": 47
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-04].text",
+            "boundarySafe": true,
+            "crossReference": false,
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "4b",
+                "startVilnaLine": 41,
+                "endVilnaLine": 47
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-04].type",
+            "boundarySafe": true,
+            "crossReference": false,
+            "verdict": "REVIEWED",
+            "note": "Final whole-record audit: this editorial classification was checked against the source-supported argument sequence and does not assert a next-daf conclusion."
+          },
+          {
+            "path": "conceptRefs[person.rabbi_yochanan].id",
+            "boundarySafe": true,
+            "crossReference": false,
+            "verdict": "NONFACTUAL"
+          },
+          {
+            "path": "conceptRefs[person.rabbi_yochanan].label",
+            "boundarySafe": true,
+            "crossReference": false,
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "4b",
+                "startVilnaLine": 41,
+                "endVilnaLine": 47
+              }
+            ]
+          },
+          {
+            "path": "conceptRefs[person.rabbi_yochanan].scope",
+            "boundarySafe": true,
+            "crossReference": false,
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "4b",
+                "startVilnaLine": 41,
+                "endVilnaLine": 47
+              }
+            ]
+          },
+          {
+            "path": "conceptRefs[concept.ikkuv_milvuim].id",
+            "boundarySafe": true,
+            "crossReference": false,
+            "verdict": "NONFACTUAL"
+          },
+          {
+            "path": "conceptRefs[concept.ikkuv_milvuim].label",
+            "boundarySafe": true,
+            "crossReference": false,
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "4b",
+                "startVilnaLine": 41,
+                "endVilnaLine": 47
+              }
+            ]
+          },
+          {
+            "path": "conceptRefs[concept.ikkuv_milvuim].scope",
+            "boundarySafe": true,
+            "crossReference": false,
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "4b",
+                "startVilnaLine": 41,
+                "endVilnaLine": 47
+              }
+            ]
+          },
+          {
+            "path": "difficulty",
+            "boundarySafe": true,
+            "crossReference": false,
+            "verdict": "REVIEWED",
+            "note": "Final whole-record audit: this editorial classification was checked against the source-supported argument sequence and does not assert a next-daf conclusion."
+          },
+          {
+            "path": "display.hint",
+            "boundarySafe": true,
+            "crossReference": false,
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "4b",
+                "startVilnaLine": 41,
+                "endVilnaLine": 47
+              }
+            ]
+          },
+          {
+            "path": "display.oneLine",
+            "boundarySafe": true,
+            "crossReference": false,
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "4b",
+                "startVilnaLine": 41,
+                "endVilnaLine": 47
+              }
+            ]
+          },
+          {
+            "path": "display.shortSummary",
+            "boundarySafe": true,
+            "crossReference": false,
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "4b",
+                "startVilnaLine": 41,
+                "endVilnaLine": 47
+              }
+            ]
+          },
+          {
+            "path": "display.title",
+            "boundarySafe": true,
+            "crossReference": false,
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "4b",
+                "startVilnaLine": 41,
+                "endVilnaLine": 47
+              }
+            ]
+          },
+          {
+            "path": "display.whats",
+            "boundarySafe": true,
+            "crossReference": false,
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "4b",
+                "startVilnaLine": 41,
+                "endVilnaLine": 47
+              }
+            ]
+          },
+          {
+            "path": "learning.ahaMoment",
+            "boundarySafe": true,
+            "crossReference": false,
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "4b",
+                "startVilnaLine": 41,
+                "endVilnaLine": 47
+              }
+            ]
+          },
+          {
+            "path": "learning.coreMove",
+            "boundarySafe": true,
+            "crossReference": false,
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "4b",
+                "startVilnaLine": 41,
+                "endVilnaLine": 47
+              }
+            ]
+          },
+          {
+            "path": "learning.coreTension",
+            "boundarySafe": true,
+            "crossReference": false,
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "4b",
+                "startVilnaLine": 41,
+                "endVilnaLine": 47
+              }
+            ]
+          },
+          {
+            "path": "learning.learnerQuestion",
+            "boundarySafe": true,
+            "crossReference": false,
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "4b",
+                "startVilnaLine": 41,
+                "endVilnaLine": 47
+              }
+            ]
+          },
+          {
+            "path": "learning.learningBlocker",
+            "boundarySafe": true,
+            "crossReference": false,
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "4b",
+                "startVilnaLine": 41,
+                "endVilnaLine": 47
+              }
+            ]
+          },
+          {
+            "path": "learning.memoryAnchor",
+            "boundarySafe": true,
+            "crossReference": false,
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "4b",
+                "startVilnaLine": 41,
+                "endVilnaLine": 47
+              }
+            ]
+          },
+          {
+            "path": "learning.reasoningPattern.category",
+            "boundarySafe": true,
+            "crossReference": false,
+            "verdict": "REVIEWED",
+            "note": "Final whole-record audit: this editorial classification was checked against the source-supported argument sequence and does not assert a next-daf conclusion."
+          },
+          {
+            "path": "learning.reasoningPattern.id",
+            "boundarySafe": true,
+            "crossReference": false,
+            "verdict": "NONFACTUAL"
+          },
+          {
+            "path": "learning.reasoningPattern.notes",
+            "boundarySafe": true,
+            "crossReference": false,
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "4b",
+                "startVilnaLine": 41,
+                "endVilnaLine": 47
+              }
+            ]
+          },
+          {
+            "path": "learning.resolution",
+            "boundarySafe": true,
+            "crossReference": false,
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "4b",
+                "startVilnaLine": 41,
+                "endVilnaLine": 47
+              }
+            ]
+          },
+          {
+            "path": "learning.takeaway.text",
+            "boundarySafe": true,
+            "crossReference": false,
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "4b",
+                "startVilnaLine": 41,
+                "endVilnaLine": 47
+              }
+            ]
+          },
+          {
+            "path": "learning.takeaway.type",
+            "boundarySafe": true,
+            "crossReference": false,
+            "verdict": "REVIEWED",
+            "note": "Final whole-record audit: this editorial classification was checked against the source-supported argument sequence and does not assert a next-daf conclusion."
+          },
+          {
+            "path": "misconceptions[0].correctedByStepId",
+            "boundarySafe": true,
+            "crossReference": false,
+            "verdict": "NONFACTUAL"
+          },
+          {
+            "path": "misconceptions[0].correction",
+            "boundarySafe": true,
+            "crossReference": false,
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "4b",
+                "startVilnaLine": 41,
+                "endVilnaLine": 47
+              }
+            ]
+          },
+          {
+            "path": "misconceptions[0].misconception",
+            "boundarySafe": true,
+            "crossReference": false,
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "4b",
+                "startVilnaLine": 41,
+                "endVilnaLine": 47
+              }
+            ]
+          },
+          {
+            "path": "quizSeeds[0].answer",
+            "boundarySafe": true,
+            "crossReference": false,
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "4b",
+                "startVilnaLine": 41,
+                "endVilnaLine": 47
+              }
+            ]
+          },
+          {
+            "path": "quizSeeds[0].question",
+            "boundarySafe": true,
+            "crossReference": false,
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "4b",
+                "startVilnaLine": 41,
+                "endVilnaLine": 47
+              }
+            ]
+          },
+          {
+            "path": "quizSeeds[0].sourceRefs[0].lineId",
+            "boundarySafe": true,
+            "crossReference": false,
+            "verdict": "NONFACTUAL"
+          },
+          {
+            "path": "quizSeeds[0].sourceRefs[0].sourceType",
+            "boundarySafe": true,
+            "crossReference": false,
+            "verdict": "NONFACTUAL"
+          },
+          {
+            "path": "quizSeeds[0].sourceRefs[0].vilnaLine",
+            "boundarySafe": true,
+            "crossReference": false,
+            "verdict": "NONFACTUAL"
+          },
+          {
+            "path": "quizSeeds[1].answer",
+            "boundarySafe": true,
+            "crossReference": false,
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "4b",
+                "startVilnaLine": 41,
+                "endVilnaLine": 47
+              }
+            ]
+          },
+          {
+            "path": "quizSeeds[1].question",
+            "boundarySafe": true,
+            "crossReference": false,
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "4b",
+                "startVilnaLine": 41,
+                "endVilnaLine": 47
+              }
+            ]
+          },
+          {
+            "path": "quizSeeds[1].sourceRefs[0].lineId",
+            "boundarySafe": true,
+            "crossReference": false,
+            "verdict": "NONFACTUAL"
+          },
+          {
+            "path": "quizSeeds[1].sourceRefs[0].sourceType",
+            "boundarySafe": true,
+            "crossReference": false,
+            "verdict": "NONFACTUAL"
+          },
+          {
+            "path": "quizSeeds[1].sourceRefs[0].vilnaLine",
+            "boundarySafe": true,
+            "crossReference": false,
+            "verdict": "NONFACTUAL"
+          },
+          {
+            "path": "quizSeeds[1].sourceRefs[1].lineId",
+            "boundarySafe": true,
+            "crossReference": false,
+            "verdict": "NONFACTUAL"
+          },
+          {
+            "path": "quizSeeds[1].sourceRefs[1].sourceType",
+            "boundarySafe": true,
+            "crossReference": false,
+            "verdict": "NONFACTUAL"
+          },
+          {
+            "path": "quizSeeds[1].sourceRefs[1].vilnaLine",
+            "boundarySafe": true,
+            "crossReference": false,
+            "verdict": "NONFACTUAL"
+          },
+          {
+            "path": "relatedSugyot[0]",
+            "boundarySafe": true,
+            "crossReference": false,
+            "verdict": "NONFACTUAL"
+          },
+          {
+            "path": "relatedSugyot[1]",
+            "boundarySafe": true,
+            "crossReference": false,
+            "verdict": "NONFACTUAL"
+          },
+          {
+            "path": "requiresUnderstanding[0]",
+            "boundarySafe": true,
+            "crossReference": false,
+            "verdict": "NONFACTUAL"
+          },
+          {
+            "path": "topicTags[0]",
+            "boundarySafe": true,
+            "crossReference": false,
+            "verdict": "NONFACTUAL"
+          },
+          {
+            "path": "topicTags[1]",
+            "boundarySafe": true,
+            "crossReference": false,
+            "verdict": "NONFACTUAL"
+          },
+          {
+            "path": "topicTags[2]",
+            "boundarySafe": true,
+            "crossReference": false,
+            "verdict": "NONFACTUAL"
+          },
+          {
+            "path": "topicTags[3]",
+            "boundarySafe": true,
+            "crossReference": false,
+            "verdict": "NONFACTUAL"
+          },
+          {
+            "path": "topicTags[4]",
+            "boundarySafe": true,
+            "crossReference": false,
+            "verdict": "NONFACTUAL"
+          },
+          {
+            "path": "visualizableElements[0].item",
+            "boundarySafe": true,
+            "crossReference": false,
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "4b",
+                "startVilnaLine": 41,
+                "endVilnaLine": 47
+              }
+            ]
+          },
+          {
+            "path": "visualizableElements[0].priority",
+            "boundarySafe": true,
+            "crossReference": false,
+            "verdict": "NONFACTUAL"
+          },
+          {
+            "path": "visualizableElements[0].role",
+            "boundarySafe": true,
+            "crossReference": false,
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "4b",
+                "startVilnaLine": 41,
+                "endVilnaLine": 47
+              }
+            ]
+          },
+          {
+            "path": "visualizableElements[1].item",
+            "boundarySafe": true,
+            "crossReference": false,
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "4b",
+                "startVilnaLine": 41,
+                "endVilnaLine": 47
+              }
+            ]
+          },
+          {
+            "path": "visualizableElements[1].priority",
+            "boundarySafe": true,
+            "crossReference": false,
+            "verdict": "NONFACTUAL"
+          },
+          {
+            "path": "visualizableElements[1].role",
+            "boundarySafe": true,
+            "crossReference": false,
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "4b",
+                "startVilnaLine": 41,
+                "endVilnaLine": 47
+              }
+            ]
+          }
+        ],
+        "boundaryLeakageSweep": [
+          {
+            "path": "dafLevel.glossary[0].en",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 4b endpoint; this field does not import the next daf conclusion."
+          },
+          {
+            "path": "dafLevel.glossary[0].he",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 4b endpoint; this field does not import the next daf conclusion."
+          },
+          {
+            "path": "dafLevel.glossary[0].translit",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 4b endpoint; this field does not import the next daf conclusion."
+          },
+          {
+            "path": "dafLevel.glossary[1].en",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 4b endpoint; this field does not import the next daf conclusion."
+          },
+          {
+            "path": "dafLevel.glossary[1].he",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 4b endpoint; this field does not import the next daf conclusion."
+          },
+          {
+            "path": "dafLevel.glossary[1].translit",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 4b endpoint; this field does not import the next daf conclusion."
+          },
+          {
+            "path": "dafLevel.glossary[2].en",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 4b endpoint; this field does not import the next daf conclusion."
+          },
+          {
+            "path": "dafLevel.glossary[2].he",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 4b endpoint; this field does not import the next daf conclusion."
+          },
+          {
+            "path": "dafLevel.glossary[2].translit",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 4b endpoint; this field does not import the next daf conclusion."
+          },
+          {
+            "path": "dafLevel.glossary[3].en",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 4b endpoint; this field does not import the next daf conclusion."
+          },
+          {
+            "path": "dafLevel.glossary[3].he",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 4b endpoint; this field does not import the next daf conclusion."
+          },
+          {
+            "path": "dafLevel.glossary[3].translit",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 4b endpoint; this field does not import the next daf conclusion."
+          },
+          {
+            "path": "dafLevel.summary",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 4b endpoint; this field does not import the next daf conclusion."
+          },
+          {
+            "path": "argumentFlow[step-01].label",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 4b endpoint; this field does not import the next daf conclusion."
+          },
+          {
+            "path": "argumentFlow[step-01].sourceRefs[0].note",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 4b endpoint; this field does not import the next daf conclusion."
+          },
+          {
+            "path": "argumentFlow[step-01].speaker",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 4b endpoint; this field does not import the next daf conclusion."
+          },
+          {
+            "path": "argumentFlow[step-01].text",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 4b endpoint; this field does not import the next daf conclusion."
+          },
+          {
+            "path": "argumentFlow[step-01].type",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 4b endpoint; this field does not import the next daf conclusion."
+          },
+          {
+            "path": "argumentFlow[step-02].label",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 4b endpoint; this field does not import the next daf conclusion."
+          },
+          {
+            "path": "argumentFlow[step-02].sourceRefs[0].note",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 4b endpoint; this field does not import the next daf conclusion."
+          },
+          {
+            "path": "argumentFlow[step-02].sourceRefs[1].note",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 4b endpoint; this field does not import the next daf conclusion."
+          },
+          {
+            "path": "argumentFlow[step-02].speaker",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 4b endpoint; this field does not import the next daf conclusion."
+          },
+          {
+            "path": "argumentFlow[step-02].text",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 4b endpoint; this field does not import the next daf conclusion."
+          },
+          {
+            "path": "argumentFlow[step-02].type",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 4b endpoint; this field does not import the next daf conclusion."
+          },
+          {
+            "path": "argumentFlow[step-03].label",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 4b endpoint; this field does not import the next daf conclusion."
+          },
+          {
+            "path": "argumentFlow[step-03].sourceRefs[0].note",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 4b endpoint; this field does not import the next daf conclusion."
+          },
+          {
+            "path": "argumentFlow[step-03].sourceRefs[1].note",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 4b endpoint; this field does not import the next daf conclusion."
+          },
+          {
+            "path": "argumentFlow[step-03].speaker",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 4b endpoint; this field does not import the next daf conclusion."
+          },
+          {
+            "path": "argumentFlow[step-03].text",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 4b endpoint; this field does not import the next daf conclusion."
+          },
+          {
+            "path": "argumentFlow[step-03].type",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 4b endpoint; this field does not import the next daf conclusion."
+          },
+          {
+            "path": "argumentFlow[step-04].label",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 4b endpoint; this field does not import the next daf conclusion."
+          },
+          {
+            "path": "argumentFlow[step-04].sourceRefs[0].note",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 4b endpoint; this field does not import the next daf conclusion."
+          },
+          {
+            "path": "argumentFlow[step-04].sourceRefs[1].note",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 4b endpoint; this field does not import the next daf conclusion."
+          },
+          {
+            "path": "argumentFlow[step-04].speaker",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 4b endpoint; this field does not import the next daf conclusion."
+          },
+          {
+            "path": "argumentFlow[step-04].text",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 4b endpoint; this field does not import the next daf conclusion."
+          },
+          {
+            "path": "argumentFlow[step-04].type",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 4b endpoint; this field does not import the next daf conclusion."
+          },
+          {
+            "path": "conceptRefs[person.rabbi_yochanan].label",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 4b endpoint; this field does not import the next daf conclusion."
+          },
+          {
+            "path": "conceptRefs[person.rabbi_yochanan].scope",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 4b endpoint; this field does not import the next daf conclusion."
+          },
+          {
+            "path": "conceptRefs[concept.ikkuv_milvuim].label",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 4b endpoint; this field does not import the next daf conclusion."
+          },
+          {
+            "path": "conceptRefs[concept.ikkuv_milvuim].scope",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 4b endpoint; this field does not import the next daf conclusion."
+          },
+          {
+            "path": "difficulty",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 4b endpoint; this field does not import the next daf conclusion."
+          },
+          {
+            "path": "display.hint",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 4b endpoint; this field does not import the next daf conclusion."
+          },
+          {
+            "path": "display.oneLine",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 4b endpoint; this field does not import the next daf conclusion."
+          },
+          {
+            "path": "display.shortSummary",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 4b endpoint; this field does not import the next daf conclusion."
+          },
+          {
+            "path": "display.title",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 4b endpoint; this field does not import the next daf conclusion."
+          },
+          {
+            "path": "display.whats",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 4b endpoint; this field does not import the next daf conclusion."
+          },
+          {
+            "path": "learning.ahaMoment",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 4b endpoint; this field does not import the next daf conclusion."
+          },
+          {
+            "path": "learning.coreMove",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 4b endpoint; this field does not import the next daf conclusion."
+          },
+          {
+            "path": "learning.coreTension",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 4b endpoint; this field does not import the next daf conclusion."
+          },
+          {
+            "path": "learning.learnerQuestion",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 4b endpoint; this field does not import the next daf conclusion."
+          },
+          {
+            "path": "learning.learningBlocker",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 4b endpoint; this field does not import the next daf conclusion."
+          },
+          {
+            "path": "learning.memoryAnchor",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 4b endpoint; this field does not import the next daf conclusion."
+          },
+          {
+            "path": "learning.reasoningPattern.category",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 4b endpoint; this field does not import the next daf conclusion."
+          },
+          {
+            "path": "learning.reasoningPattern.notes",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 4b endpoint; this field does not import the next daf conclusion."
+          },
+          {
+            "path": "learning.resolution",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 4b endpoint; this field does not import the next daf conclusion."
+          },
+          {
+            "path": "learning.takeaway.text",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 4b endpoint; this field does not import the next daf conclusion."
+          },
+          {
+            "path": "learning.takeaway.type",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 4b endpoint; this field does not import the next daf conclusion."
+          },
+          {
+            "path": "misconceptions[0].correction",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 4b endpoint; this field does not import the next daf conclusion."
+          },
+          {
+            "path": "misconceptions[0].misconception",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 4b endpoint; this field does not import the next daf conclusion."
+          },
+          {
+            "path": "quizSeeds[0].answer",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 4b endpoint; this field does not import the next daf conclusion."
+          },
+          {
+            "path": "quizSeeds[0].question",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 4b endpoint; this field does not import the next daf conclusion."
+          },
+          {
+            "path": "quizSeeds[1].answer",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 4b endpoint; this field does not import the next daf conclusion."
+          },
+          {
+            "path": "quizSeeds[1].question",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 4b endpoint; this field does not import the next daf conclusion."
+          },
+          {
+            "path": "visualizableElements[0].item",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 4b endpoint; this field does not import the next daf conclusion."
+          },
+          {
+            "path": "visualizableElements[0].role",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 4b endpoint; this field does not import the next daf conclusion."
+          },
+          {
+            "path": "visualizableElements[1].item",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 4b endpoint; this field does not import the next daf conclusion."
+          },
+          {
+            "path": "visualizableElements[1].role",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 4b endpoint; this field does not import the next daf conclusion."
+          }
+        ],
+        "staleContentSweep": {
+          "entries": [
+            {
+              "category": "stale_original_error",
+              "found": false
+            },
+            {
+              "category": "stale_speaker_or_attribution",
+              "found": false
+            },
+            {
+              "category": "contradictory_speaker_attribution",
+              "found": false
+            },
+            {
+              "category": "old_conclusion_in_secondary_field",
+              "found": false
+            },
+            {
+              "category": "false_closure",
+              "found": false
+            },
+            {
+              "category": "next_daf_content_leaked_backward",
+              "found": false
+            },
+            {
+              "category": "claim_unsupported_by_physical_daf",
+              "found": false
+            },
+            {
+              "category": "stale_quiz_question_or_answer",
+              "found": false
+            },
+            {
+              "category": "stale_final_ruling",
+              "found": false
+            },
+            {
+              "category": "stale_summary",
+              "found": false
+            },
+            {
+              "category": "stale_learning_field",
+              "found": false
+            },
+            {
+              "category": "stale_misconception",
+              "found": false
+            },
+            {
+              "category": "stale_related_sugya_description",
+              "found": false
+            },
+            {
+              "category": "stale_visualizable_element_prose",
+              "found": false
+            },
+            {
+              "category": "source_refs_no_longer_supporting_claim",
+              "found": false
+            },
+            {
+              "category": "reference_outside_declared_line_range",
+              "found": false
+            }
+          ]
+        }
+      },
+      "certifiedAtCommit": "b07275fafa68fe19d014bf35b002e18872cc975d"
     },
     "yoma-005a-s01": {
       "sugyaId": "yoma-005a-s01",
