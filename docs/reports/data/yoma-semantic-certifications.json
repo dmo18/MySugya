@@ -40167,7 +40167,7 @@
     "yoma-005b-s01": {
       "sugyaId": "yoma-005b-s01",
       "daf": "5b",
-      "state": "REPAIRED_PENDING_REVIEW",
+      "state": "PENDING_FINAL_AUDIT",
       "firstPass": {
         "reviewId": "sonnet5-5b-round1-20260917",
         "reviewerContextId": "a6749807a314bfcfe",
@@ -40199,12 +40199,33 @@
           ]
         }
       },
-      "repairRef": "cf8f489ba1402799bf3f86ca30bf99cdba26713d"
+      "repairRef": "cf8f489ba1402799bf3f86ca30bf99cdba26713d",
+      "sourceFingerprint": "1acbe33a923c4e0963a9e7c00f3d6678c61685598ed7e0b661e845dc1ec04c38",
+      "semanticFingerprint": "ff03e8020709b7120f11b269e321ecbf1cdace70db94d43d859d2eb5a29285e6",
+      "secondPass": {
+        "reviewId": "sonnet5-5b-secondpass-20260917",
+        "reviewerContextId": "a7a18d43aaa0964f9",
+        "sourceFirst": true,
+        "verdict": "CONFIRMED",
+        "reviewedSourceFingerprint": "1acbe33a923c4e0963a9e7c00f3d6678c61685598ed7e0b661e845dc1ec04c38",
+        "reviewedSemanticFingerprint": "ff03e8020709b7120f11b269e321ecbf1cdace70db94d43d859d2eb5a29285e6",
+        "evidence": {
+          "verdict": "CLEAN",
+          "reviewerContextId": "a7a18d43aaa0964f9",
+          "reconstruction": "Independent second-pass review, mutually-blind from the round-1 repair context (a6749807a314bfcfe). Reconstructed the whole daf from rawHebrewLines and relevantRashi: (1-4) three Amoraic bridges from Exodus-inauguration kachah to Leviticus requirements (petach-petach gezerah shavah, mishmeret-Hashem inclusivity, ki-chen-tzuviti warrant); (5-9) the eighth-day baraita distinguishing three near-identical phrases; (9-15) trousers and tenth-of-ephah derivations plus R. Yochanan's mikra-parasha point; (19-34) the dressing-order question, Abaye's belt-only narrowing, verse-proofs, and the unresolved challenge cut off mid-word at line 34.",
+          "attributionCheck": "Verified against Rashi line by line: petach redundancy, mishmeret-Hashem inclusivity, the three ki-chen phrases' distinct referents, trousers/tenth-of-ephah sourcing, Abaye's belt-only narrowing, the verse-proofs and the reversed challenge. All match.",
+          "boundaryAndSourceRefCheck": "Every argumentFlow step's lineId is one of its own sugya's sourceSegmentMap mintedLineIds, and every vilnaLine falls within that segment's declared containment range. No cross-sugya or cross-daf leakage; nothing from 6a is imported.",
+          "fabricationCheck": "No fabrication found. The davar/dibbur gloss for R. Yochanan's derivation is directly supported by the Gemara's own adjacent wording (apilu dibbur me'akev), not invented.",
+          "closureCheck": "finalRuling is null for both sugyot; s02's learning.resolution explicitly states the resolution is left for 6a. No misattributed closure.",
+          "majorFindingReverification": "The line 5-9 baraita is correctly framed throughout (dafLevel.summary, s01 shortSummary/whats, step-05, note field) as belonging to the eighth-day/Nadav-Avihu passage (Lev. 10), appended only for shared ki-chen-tzuviti wording with Rav Ashi's proof, matching Rashi's own comment on line 5 verbatim. Trousers and tenth-of-ephah are correctly presented as two distinct mechanisms, matching Rashi's bishlama/ela structure. s02 step-03 describes the initial dispute with no premature mention of the belt; step-04 (Abaye) is where the belt-only scope is first introduced.",
+          "overallVerdict": "No defects found in display, learning, argumentFlow, misconceptions, quizSeeds, glossary, or topicTags fields for either sugya."
+        }
+      }
     },
     "yoma-005b-s02": {
       "sugyaId": "yoma-005b-s02",
       "daf": "5b",
-      "state": "REPAIRED_PENDING_REVIEW",
+      "state": "PENDING_FINAL_AUDIT",
       "firstPass": {
         "reviewId": "sonnet5-5b-round1-20260917",
         "reviewerContextId": "a6749807a314bfcfe",
@@ -40236,7 +40257,28 @@
           ]
         }
       },
-      "repairRef": "cf8f489ba1402799bf3f86ca30bf99cdba26713d"
+      "repairRef": "cf8f489ba1402799bf3f86ca30bf99cdba26713d",
+      "sourceFingerprint": "96a78d21127c070261e938f5d4e8ac75037218887035e660f0932e738dcbb9dd",
+      "semanticFingerprint": "eda501ea5fdbce285e0896aa3c902dac625402e5ca97afafc8fa03ee8a2ce606",
+      "secondPass": {
+        "reviewId": "sonnet5-5b-secondpass-20260917",
+        "reviewerContextId": "a7a18d43aaa0964f9",
+        "sourceFirst": true,
+        "verdict": "CONFIRMED",
+        "reviewedSourceFingerprint": "96a78d21127c070261e938f5d4e8ac75037218887035e660f0932e738dcbb9dd",
+        "reviewedSemanticFingerprint": "eda501ea5fdbce285e0896aa3c902dac625402e5ca97afafc8fa03ee8a2ce606",
+        "evidence": {
+          "verdict": "CLEAN",
+          "reviewerContextId": "a7a18d43aaa0964f9",
+          "reconstruction": "Independent second-pass review, mutually-blind from the round-1 repair context (a6749807a314bfcfe). Reconstructed the whole daf from rawHebrewLines and relevantRashi: (1-4) three Amoraic bridges from Exodus-inauguration kachah to Leviticus requirements (petach-petach gezerah shavah, mishmeret-Hashem inclusivity, ki-chen-tzuviti warrant); (5-9) the eighth-day baraita distinguishing three near-identical phrases; (9-15) trousers and tenth-of-ephah derivations plus R. Yochanan's mikra-parasha point; (19-34) the dressing-order question, Abaye's belt-only narrowing, verse-proofs, and the unresolved challenge cut off mid-word at line 34.",
+          "attributionCheck": "Verified against Rashi line by line: petach redundancy, mishmeret-Hashem inclusivity, the three ki-chen phrases' distinct referents, trousers/tenth-of-ephah sourcing, Abaye's belt-only narrowing, the verse-proofs and the reversed challenge. All match.",
+          "boundaryAndSourceRefCheck": "Every argumentFlow step's lineId is one of its own sugya's sourceSegmentMap mintedLineIds, and every vilnaLine falls within that segment's declared containment range. No cross-sugya or cross-daf leakage; nothing from 6a is imported.",
+          "fabricationCheck": "No fabrication found. The davar/dibbur gloss for R. Yochanan's derivation is directly supported by the Gemara's own adjacent wording (apilu dibbur me'akev), not invented.",
+          "closureCheck": "finalRuling is null for both sugyot; s02's learning.resolution explicitly states the resolution is left for 6a. No misattributed closure.",
+          "majorFindingReverification": "The line 5-9 baraita is correctly framed throughout (dafLevel.summary, s01 shortSummary/whats, step-05, note field) as belonging to the eighth-day/Nadav-Avihu passage (Lev. 10), appended only for shared ki-chen-tzuviti wording with Rav Ashi's proof, matching Rashi's own comment on line 5 verbatim. Trousers and tenth-of-ephah are correctly presented as two distinct mechanisms, matching Rashi's bishlama/ela structure. s02 step-03 describes the initial dispute with no premature mention of the belt; step-04 (Abaye) is where the belt-only scope is first introduced.",
+          "overallVerdict": "No defects found in display, learning, argumentFlow, misconceptions, quizSeeds, glossary, or topicTags fields for either sugya."
+        }
+      }
     },
     "yoma-006a-s01": {
       "sugyaId": "yoma-006a-s01",
