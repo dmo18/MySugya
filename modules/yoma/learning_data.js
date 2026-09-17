@@ -10441,7 +10441,7 @@ const DAF_CONTENT = {
   "5b": {
     canonicalRef: "Yoma 5b",
     daf: "5b",
-    summary: "5b continues the inauguration analysis. The kachah principle covers only requirements written in the Exodus inauguration passage; three Amoraim supply bridges to Leviticus requirements: Rav Nachman bar Yitzchak via gezerah shavah on 'petach' (opening); Rav Mesharshiyya from 'keep the charge of God'; Rav Ashi from 'ki chen tzuviti.' A baraita then distinguishes three nearly identical phrases - 'ki chen tzuviti,' 'ka'asher tziviti,' 'ka'asher tzivah Hashem' - each teaching a different dimension of Moses's authority. R. Yosei bar Chanina derives that trousers and the tenth of an ephah are inauguration requirements despite not being written in the passage itself. R. Yochanan adds that even reading the Torah portion aloud was indispensable. The daf closes by reframing the question of how Moses dressed the priests: not historical curiosity but textual harmonization. Abaye narrows the dispute to the belt alone (tunic and mitre are universally Aaron-before-sons), and the Gemara cites explicit verse-proofs for each position - but then challenges the 'together' reading with the same sequential verses used to support 'Aaron first,' and the daf ends mid-word before the answer, continuing on 6a.",
+    summary: "5b continues the inauguration analysis. The kachah principle covers only requirements written in the Exodus inauguration passage; three Amoraim supply bridges to Leviticus requirements: Rav Nachman bar Yitzchak via gezerah shavah on 'petach' (opening); Rav Mesharshiyya from 'keep the charge of God'; Rav Ashi from 'ki chen tzuviti.' Because Rav Ashi's proof-phrase happens to recur in a baraita about a different matter, the Gemara appends that baraita here: it distinguishes three similarly-worded phrases from the eighth-day/Nadav-and-Avihu passage (Lev. 10) - 'ki chen tzuviti,' 'ka'asher tziviti,' 'ka'asher tzivah Hashem' - each showing that whatever Moses told the people, he attributed to direct divine command. This is a shared-language digression, not a continuation of the inauguration bridge-building. R. Yosei bar Chanina then derives, from the inclusive 've-zeh hadavar,' that trousers count as an inauguration requirement despite not being written in the passage; a separate gezerah shavah on 'zeh' (linking to Lev. 6:13) independently brings in the tenth of an ephah. R. Yochanan adds that even reading the Torah portion aloud was indispensable. The daf closes by reframing the question of how Moses dressed the priests: not historical curiosity but textual harmonization. Abaye narrows the dispute to the belt alone (tunic and mitre are universally Aaron-before-sons), and the Gemara cites explicit verse-proofs for each position - but then challenges the 'together' reading with the same sequential verses used to support 'Aaron first,' and the daf ends mid-word before the answer, continuing on 6a.",
     sugyot: [
       {
         id: "yoma-005b-s01",
@@ -10452,20 +10452,20 @@ const DAF_CONTENT = {
           startLineId: "yoma-005b-l01",
           endLineId: "yoma-005b-l15",
           startVilnaLine: 1,
-          endVilnaLine: 15
+          endVilnaLine: 18
         },
         display: {
           title: "Bridging sources for non-explicit inauguration requirements; the three ki-chen phrases",
           oneLine: "Three Amoraim bridge the Exodus-to-Leviticus gap left by 'kachah'; a baraita then distinguishes three nearly identical phrases, each teaching a separate dimension of Moses's halakhic authority and obligation.",
-          shortSummary: "Once kachah is established as the Exodus-only invalidation trigger, what about Leviticus inauguration requirements? Three separate answers: Rav Nachman bar Yitzchak draws a gezerah shavah from the word 'petach' (opening), which appears identically in both the command and implementation portions - failure in either section invalidates. Rav Mesharshiyya reads 'keep the charge of God' as a blanket instruction covering all Leviticus details. Rav Ashi reads 'ki chen tzuviti' as an all-inclusive warrant. A baraita then dissects three similar phrases: 'ki chen tzuviti' means eat the offering even in acute mourning (Nadav and Avihu just died); 'ka'asher tziviti' was said at the moment of the incident, explaining Moses's mid-crisis instruction; 'ka'asher tzivah Hashem' establishes Moses was relaying God's command, not improvising. Two additional inauguration requirements not spelled out in the passage are then derived: trousers via the inclusive 've-zeh hadavar,' and the tenth of an ephah via gezerah shavah on 'zeh.' R. Yochanan adds that even the oral reading of the Torah portion was indispensable.",
-          whats: "The kachah principle from the previous page covered requirements written in Exodus's inauguration passage. But the Leviticus inauguration passage (Lev. 8) also contains unique requirements - are those equally invalidating? Three Amoraim supply bridges. Rav Nachman bar Yitzchak: 'petach' (opening of the Tent of Meeting) appears in both the Exodus command and the Leviticus implementation - a verbal analogy (gezerah shavah) that ties the two portions together, making both equally binding and invalidating. Rav Mesharshiyya: the phrase 'u-shmartem et mishmeret Hashem' (you shall keep the charge of God, Lev. 8:35) already covers all the Leviticus details without need for a verbal analogy. Rav Ashi: 'ki chen tzuviti' (for so I was commanded) is itself a blanket warrant. Then the baraita makes a delicate distinction between three phrases that seem redundant: 'ki chen tzuviti' teaches Aaron must eat even while an onen (acute mourner); 'ka'asher tziviti' was said in the middle of the Nadav/Avihu incident, explaining why Moses gave a mid-crisis command; 'ka'asher tzivah Hashem' establishes this was God's directive, not Moses's own ruling. R. Yosei bar Chanina derives trousers from the inclusive 've-zeh hadavar' prefix. The tenth of an ephah is derived by gezerah shavah on 'zeh' from Lev. 6:13. R. Yochanan (quoting R. Shimon ben Yochai) adds: even reading the Torah portion aloud is indispensable - derived from 'zeh hadavar' where 'davar' echoes 'dibbur' (speech/recitation).",
+          shortSummary: "Once kachah is established as the Exodus-only invalidation trigger, what about Leviticus inauguration requirements? Three separate answers: Rav Nachman bar Yitzchak draws a gezerah shavah from the word 'petach' (opening), redundant in both the command and implementation portions - failure in either section invalidates. Rav Mesharshiyya reads 'keep the charge of God' as a blanket instruction covering all Leviticus details. Rav Ashi reads 'ki chen tzuviti' as an all-inclusive warrant. Because that same phrase also opens a baraita about the eighth day (the Nadav-and-Avihu aftermath, Lev. 10), the Gemara appends it here as a shared-language digression, not a continuation of the inauguration bridge: 'ki chen tzuviti' there means eat the meal-offering even in acute mourning; 'ka'asher tziviti' was said mid-incident, about the burned sin-offering; 'ka'asher tzivah Hashem' shows Moses relaying, not improvising, when telling the people the thigh/breast law. Two additional inauguration requirements not spelled out in the Exodus passage are then derived, independently of each other: trousers via the inclusive 've-zeh hadavar,' and the tenth of an ephah via a separate gezerah shavah on 'zeh.' R. Yochanan adds that even the oral reading of the Torah portion was indispensable.",
+          whats: "The kachah principle from the previous page covered requirements written in Exodus's inauguration passage. But the Leviticus inauguration passage (Lev. 8) also contains unique requirements - are those equally invalidating? Three Amoraim supply bridges. Rav Nachman bar Yitzchak: 'petach' (opening of the Tent of Meeting) appears redundantly in both the Exodus command and the Leviticus implementation - a verbal analogy (gezerah shavah) that ties the two portions together, making both equally binding and invalidating. Rav Mesharshiyya: the phrase 'u-shmartem et mishmeret Hashem' (you shall keep the charge of God, Lev. 8:35) already covers all the Leviticus details without need for a verbal analogy. Rav Ashi: 'ki chen tzuviti' (for so I was commanded) is itself a blanket warrant. That exact phrase also happens to open a baraita about a completely different matter - the eighth day, after Nadav and Avihu died - so the Gemara appends it here purely because the wording matches, not because it continues the inauguration bridge. In that baraita: 'ki chen tzuviti' teaches Aaron must eat the meal-offering even while an onen (acute mourner); 'ka'asher tziviti' was said in the middle of the Nadav/Avihu incident, about the burned sin-offering goat; 'ka'asher tzivah Hashem' establishes this was God's directive, relayed by Moses about the thigh and breast, not his own ruling. R. Yosei bar Chanina separately derives trousers from the inclusive 've-zeh hadavar' prefix. The tenth of an ephah has its own separate derivation, a gezerah shavah on 'zeh' from Lev. 6:13. R. Yochanan (quoting R. Shimon ben Yochai) adds: even reading the Torah portion aloud is indispensable - derived from 'zeh hadavar' where 'davar' echoes 'dibbur' (speech/recitation).",
           hint: "Three phrases look nearly identical. The Gemara insists each one teaches something completely different. What does this mode of reading tell us about how the Sages approach apparent redundancy in the Torah?"
         },
         learning: {
           learnerQuestion: "If 'kachah' already captures everything in Exodus, why do we need a separate bridge to the Leviticus passage? Aren't they both just 'the inauguration'?",
           coreTension: "Kachah signals exact replication of the Exodus inauguration passage. But the Leviticus passage (Lev. 8) also details inauguration procedures. Without a link, those Leviticus requirements might not be covered by the kachah mandate.",
-          coreMove: "Three independent bridges are offered - gezerah shavah on 'petach,' the all-inclusive 'keep God's charge,' and the phrase 'ki chen tzuviti.' Each provides a different jurisprudential basis. The baraita then shows that phrases that look redundant are actually doing distinct legal-narrative work.",
-          resolution: "The Leviticus requirements are brought under the same invalidation umbrella as the Exodus ones, either via verbal analogy or via independent inclusive phrases. A baraita then parses three near-identical phrases to show each targets a unique halakhic or contextual point.",
+          coreMove: "Three independent bridges are offered - gezerah shavah on 'petach,' the all-inclusive 'keep God's charge,' and the phrase 'ki chen tzuviti.' Each provides a different jurisprudential basis. Because Rav Ashi's phrase happens to recur in an unrelated eighth-day baraita, the sugya digresses to show that phrases that look redundant across the two contexts are actually doing distinct legal-narrative work.",
+          resolution: "The Leviticus requirements are brought under the same invalidation umbrella as the Exodus ones, either via verbal analogy or via independent inclusive phrases. A shared-language digression into a separate eighth-day baraita then parses three near-identical phrases from that other context, showing each targets a unique halakhic or contextual point.",
           takeaway: {
             type: "logical_principle",
             text: "When the Torah uses nearly identical language in adjacent verses, the Gemara's default is not redundancy but specificity: each occurrence targets a different audience, moment, or legal question. Recognizing which phrase addresses which concern is a core exegetical skill."
@@ -10475,7 +10475,7 @@ const DAF_CONTENT = {
             category: "textual",
             notes: "Two different methods bridge the Exodus-Leviticus gap: (1) gezerah shavah - verbal analogy on a repeated word; (2) an inclusive phrase that directly covers all Leviticus requirements without analogy. The Gemara presents both as valid and treats them as alternatives, not contradictions."
           },
-          ahaMoment: "The baraita's three-phrase analysis: what looks like three identical expressions of 'Moses did what God said' actually encodes three different messages - an obligation in unusual circumstances, a mid-crisis instruction, and an attribution of divine authority. The Torah rarely repeats for emphasis; it usually repeats to teach something new.",
+          ahaMoment: "The baraita's three-phrase analysis (from a separate eighth-day passage, appended here only because Rav Ashi's proof-phrase matches its wording): what looks like three identical expressions of 'Moses did what God said' actually encodes three different messages - an obligation in unusual circumstances, a mid-crisis instruction, and an attribution of divine authority. The Torah rarely repeats for emphasis; it usually repeats to teach something new.",
           learningBlocker: "Students may assume that once kachah is established it covers everything automatically. The Gemara's concern is precise: kachah explicitly covers the Exodus passage only. The Leviticus passage needs its own anchor - and the Gemara offers three candidates.",
           memoryAnchor: "Three bridges for Leviticus, three phrases that look alike but aren't: the double-triple structure of 5b's first sugya."
         },
@@ -10565,13 +10565,13 @@ const DAF_CONTENT = {
             type: "proof",
             label: "Baraita: three near-identical phrases, three distinct teachings",
             speaker: "Tanna (baraita)",
-            text: "'Ki chen tzuviti' = eat even in acute mourning (Nadav/Avihu just died). 'Ka'asher tziviti' = Moses spoke mid-incident. 'Ka'asher tzivah Hashem' = Moses was relaying God's command, not his own.",
+            text: "The Gemara appends a baraita from the eighth-day (Nadav/Avihu) passage (Lev. 10), included here only because it uses the same 'ki chen tzuviti' phrase as Rav Ashi's proof - not because it continues the inauguration bridge. In that baraita: 'ki chen tzuviti' = eat the meal-offering even in acute mourning (Nadav/Avihu just died); 'ka'asher tziviti' = said mid-incident, about the burned sin-offering goat; 'ka'asher tzivah Hashem' = Moses relaying God's word about the thigh/breast, not ruling on his own.",
             sourceRefs: [
               {
                 sourceType: "gemara",
                 lineId: "yoma-005b-l05",
                 vilnaLine: 5,
-                note: "Baraita distinguishing the three phrases"
+                note: "Baraita from the eighth-day passage (Lev. 10), appended here for shared phrasing with Rav Ashi's proof, not a continuation of the inauguration bridge"
               }
             ]
           },
@@ -10580,7 +10580,7 @@ const DAF_CONTENT = {
             type: "proof",
             label: "Trousers derived from 've-zeh hadavar'",
             speaker: "Rabbi Yosei bar Chanina",
-            text: "Trousers are not written in the inauguration passage. The prefix 've-zeh hadavar' (and this is the matter) is inclusive - it adds trousers and the tenth of an ephah.",
+            text: "Trousers are not written in the inauguration passage. The prefix 've-zeh hadavar' (and this is the matter) is inclusive - it adds trousers to the requirement set. (The tenth of an ephah, also missing from the passage, has its own separate derivation - see the next step.)",
             sourceRefs: [
               {
                 sourceType: "gemara",
@@ -10627,6 +10627,9 @@ const DAF_CONTENT = {
           "miqra-parasha"
         ],
         requiresUnderstanding: [
+          "yoma-005a-s02"
+        ],
+        prerequisiteKnowledge: [
           "The kachah principle from 5a: what it covers and why it stops at the Exodus passage",
           "Gezerah shavah as a hermeneutical technique: what qualifies, why it creates a legal bridge",
           "Why Moses's three phrases sound identical but are parsed as distinct"
@@ -10638,22 +10641,22 @@ const DAF_CONTENT = {
           },
           {
             misconception: "'Ki chen tzuviti,' 'ka'asher tziviti,' and 'ka'asher tzivah Hashem' are three ways of saying the same thing.",
-            correction: "The baraita distinguishes them precisely: the first addresses the obligation in acute mourning; the second marks a mid-crisis statement; the third attributes the command to God, not Moses."
+            correction: "The baraita's phrases come from a separate eighth-day passage (Lev. 10), appended here only because 'ki chen tzuviti' happens to match Rav Ashi's inauguration proof-phrase. Within that baraita the three phrases are distinguished precisely: the first addresses the obligation in acute mourning; the second marks a mid-crisis statement; the third attributes the command to God, not Moses."
           }
         ],
         relatedSugyot: [],
         visualizableElements: [
           {
             type: "contrast",
-            description: "Two Torah portions - Exodus 29 vs. Leviticus 8 - and the three bridges between them drawn as three parallel arrows"
+            item: "Two Torah portions - Exodus 29 vs. Leviticus 8 - and the three bridges between them drawn as three parallel arrows"
           },
           {
             type: "sequence",
-            description: "Three near-identical phrases displayed side-by-side with their distinct teachings labeled beneath each"
+            item: "Three near-identical phrases displayed side-by-side with their distinct teachings labeled beneath each"
           },
           {
             type: "timeline",
-            description: "The Nadav-and-Avihu crisis moment, showing when 'ka'asher tziviti' was spoken and why mid-crisis context matters"
+            item: "The Nadav-and-Avihu crisis moment, showing when 'ka'asher tziviti' was spoken and why mid-crisis context matters"
           }
         ],
         quizSeeds: [
@@ -10690,8 +10693,8 @@ const DAF_CONTENT = {
           "inauguration",
           "gezerah-shavah",
           "hermeneutics",
-          "Leviticus",
-          "Moses",
+          "leviticus",
+          "moses",
           "priestly-vestments",
           "aninus"
         ],
@@ -10785,7 +10788,7 @@ const DAF_CONTENT = {
             type: "resolution",
             label: "Real purpose: resolving contradictory verses",
             speaker: "Gemara",
-            text: "The question is actually about how to reconcile the verses: the command portion and the implementation portion describe the belt differently. Sons of R. Chiyya and R. Yochanan disagree: one holds Aaron first then sons; one holds Aaron and sons together (for the belt).",
+            text: "The question is actually about how to reconcile the verses: the command portion and the implementation portion describe the dressing order differently. Sons of R. Chiyya and R. Yochanan disagree: one holds Aaron first then sons; one holds Aaron and sons together.",
             sourceRefs: [
               {
                 sourceType: "gemara",
@@ -10845,7 +10848,8 @@ const DAF_CONTENT = {
           "tsivui-asiyah",
           "avnet"
         ],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "The tsivui/asiyah pattern: command portion vs. implementation portion as two separate texts",
           "Why 'what was, was' is a dismissal of the wrong framing, not the correct answer",
           "Abaye's role as a clarifier who reduces scope rather than introducing a new position"
@@ -10864,15 +10868,15 @@ const DAF_CONTENT = {
         visualizableElements: [
           {
             type: "contrast",
-            description: "Side-by-side: the command verse (Exodus 29:9, 'gird them together') vs. the implementation verse (Lev. 8:7+13, 'girded him' then 'girded them')"
+            item: "Side-by-side: the command verse (Exodus 29:9, 'gird them together') vs. the implementation verse (Lev. 8:7+13, 'girded him' then 'girded them')"
           },
           {
             type: "people",
-            description: "Moses girding Aaron in white linen vestments, then turning to the four sons in sequence"
+            item: "Moses girding Aaron in white linen vestments, then turning to the four sons in sequence"
           },
           {
             type: "text",
-            description: "Three garments labeled: tunic, mitre (both undisputed), belt (disputed) - highlighting which garment generates the entire controversy"
+            item: "Three garments labeled: tunic, mitre (both undisputed), belt (disputed) - highlighting which garment generates the entire controversy"
           }
         ],
         quizSeeds: [
@@ -10900,7 +10904,7 @@ const DAF_CONTENT = {
           "priestly-vestments",
           "avnet",
           "verse-reconciliation",
-          "Abaye",
+          "abaye",
           "tsivui-asiyah"
         ],
         review: {
@@ -10925,7 +10929,7 @@ const DAF_CONTENT = {
       {
         he: "אֲנִינוּת",
         translit: "Aninus",
-        en: "Acute mourning on the day a close relative dies. Normally prohibits eating sacrificial food. The inauguration occurred while Nadav and Avihu had just died - 'ki chen tzuviti' authorized Aaron to eat the minhah offering even in this state."
+        en: "Acute mourning on the day a close relative dies. Normally prohibits eating sacrificial food. Nadav and Avihu died on the eighth day, immediately after the seven-day inauguration concluded; the phrase 'ki chen tzuviti,' in a baraita appended here only for its shared wording with Rav Ashi's inauguration proof, authorized Aaron to eat the meal-offering even in that acute-mourning state."
       },
       {
         he: "אַבְנֵט",
@@ -10935,7 +10939,7 @@ const DAF_CONTENT = {
       {
         he: "גְּזֵרָה שָׁוָה",
         translit: "Gezerah shavah",
-        en: "A hermeneutical verbal analogy: the same word in two different Torah passages creates a legal bridge between them. Used here to link 'petach' in Exodus 29 to 'petach' in Leviticus 8, and 'zeh' in Exodus 29 to 'zeh' in Leviticus 6."
+        en: "A hermeneutical verbal analogy: a word that is redundant (yeteira) in at least one of its two occurrences across different Torah passages creates a legal bridge between them. Used here to link the redundant 'petach' in Exodus 29 to 'petach' in Leviticus 8, and 'zeh' in Exodus 29 to 'zeh' in Leviticus 6."
       }
     ],
     rashiLines: [
