@@ -7593,7 +7593,7 @@ const DAF_CONTENT = {
         display: {
           title: "Three readings of the six-day cloud: purification, intimidation, and public honor",
           oneLine: "R. Akiva: the cloud covered the mountain, not Moses - the public calling was to honor Moses. R. Natan: the cloud purged Moses's system to render him angelic for 40 days. R. Matya ben Charash: the cloud intimidated Moses so Torah would be received with awe. Rav Adda: joy and trembling are meant to coexist.",
-          shortSummary: "Three tannaitic readings address why Moses waited six days in the cloud before God called him. R. Akiva says the cloud covered the mountain so the public could witness the call - an honor to Moses. R. Natan focuses on Moses's body: the cloud cleansed food and drink from his system so he could function for 40 days without eating, like a ministering angel. R. Matya ben Charash focuses on Moses's spirit: the cloud created awe and trembling so Torah would be received in fear. Rav Adda bar Mattana adds a Psalm teaching that joy and trembling must coexist in divine encounter.",
+          shortSummary: "Three tannaitic readings address why Moses waited six days in the cloud before God called him. R. Akiva says the cloud covered the mountain so the public could witness the call - an honor to Moses. R. Natan focuses on Moses's body: the cloud cleansed food and drink from his system so he could function for 40 days without eating, like a ministering angel. R. Matya ben Charash focuses on Moses's spirit: the cloud created awe and trembling so Torah would be received in fear, citing a Psalm verse. Rav Adda bar Mattana explains that verse: joy and trembling must coexist in divine encounter.",
           whats: "The page opens continuing from 4a's debate over what the six-day cloud period accomplished. R. Akiva (whose view was mentioned on 4a) holds the cloud covered the mountain, not Moses - the purpose was public visibility, so Israel saw the call and it honored Moses. R. Natan disagrees: Moses himself was covered. The purpose was physical - to purge the food and drink from his digestive system so he could ascend the mountain and go 40 days without eating, 'like the ministering angels.' R. Matya ben Charash adds a spiritual reading: the cloud was meant to intimidate Moses, filling him with awe and trembling so he would receive Torah with the proper reverence, and he cites a Psalm verse for this ('serve God with awe and rejoice with trembling'). The Gemara then asks what 'rejoice with trembling' in that same verse means, and Rav Adda bar Mattana, citing Rav, answers: where there is joy, there must also be trembling - the two are not opposites but are meant to coexist in the divine encounter.",
           hint: "Three sages read the same six days through three different lenses: honor, physiology, and psychology. Which reading do you find most compelling, and what does each say about what Torah-receiving requires?"
         },
@@ -7742,12 +7742,12 @@ const DAF_CONTENT = {
           },
           {
             question: "What does Rav Adda bar Mattana add to the discussion of joy and trembling?",
-            answer: "He cites Psalm 2 - 'serve God with awe and rejoice with trembling' - to show that joy and trembling must coexist. Where there is joy in divine service, there must also be trembling. They are not opposites but simultaneous.",
+            answer: "R. Matya ben Charash had cited the verse 'serve God with awe and rejoice with trembling.' Rav Adda explains its phrase 'rejoice with trembling': where there is joy in divine service, there must also be trembling. They are not opposites but simultaneous.",
             sourceRefs: [
               {
                 sourceType: "gemara",
                 lineId: "yoma-004b-l05",
-                vilnaLine: 5
+                vilnaLine: 9
               }
             ]
           }
@@ -7786,24 +7786,24 @@ const DAF_CONTENT = {
           title: "Calendar arithmetic: 6th vs. 7th Sivan and the 17 Tammuz check",
           oneLine: "R. Yosi HaGalili says Torah was given on 6 Sivan; R. Akiva says 7 Sivan. R. Akiva's count reaches exactly 40 days ending on 17 Tammuz directly; R. Yosi HaGalili's reaches the same date only by folding the six sequestering days into the 40 rather than counting them beforehand.",
           shortSummary: "The dispute between R. Yosi HaGalili and R. Akiva about whether Torah was given on 6 or 7 Sivan has an arithmetic consequence: R. Akiva's reckoning yields exactly 40 full days ending on 17 Tammuz, the traditional date the tablets were shattered, directly. R. Yosi HaGalili reaches 17 Tammuz too, but only by counting the six preparatory days as part of the 40 rather than in addition to them. The sugya then cites the doubled name and Israel's presence in 'vayikra el Moshe, Moshe... ve-chol Yisrael omdin' as support for R. Elazar's reading that the public call was meant to honor Moses.",
-          whats: "The Gemara asks which position - R. Yosi HaGalili's 6th Sivan or R. Akiva's 7th Sivan - is consistent with the tradition that Moses shattered the tablets on 17 Tammuz. R. Akiva: Torah was given on 7 Sivan. Moses ascended the same day. Remaining days in Sivan: 24 (days 8-30). Plus 16 days in Tammuz (1-16) = 40 days. He descends into the 17th = 17 Tammuz. This works perfectly. R. Yosi HaGalili: Torah was given on 6 Sivan, then Moses sequestered for 6 more days, ascending later in Sivan. Counted straightforwardly, his sequence would not reach the tablets' breaking until 23 Tammuz - past the 40-day mark relative to 17 Tammuz. R. Yosi HaGalili resolves this by folding the six sequestering days into the 40 (rather than adding them beforehand), which brings his count to 17 Tammuz as well. The sugya then cites the verse's doubled name and 'all Israel were standing' as support for R. Elazar's reading that the public call was meant to honor Moses - not that all Israel heard the voice itself.",
-          hint: "The calendar arithmetic is not just a puzzle - it functions as evidence. Which opinion does the 17 Tammuz tradition support, and how does the Gemara handle the loser's arithmetic?"
+          whats: "The Gemara tests R. Yosi HaGalili's 6th Sivan and R. Akiva's 7th Sivan positions against the tradition that Moses shattered the tablets on 17 Tammuz. R. Akiva's count works directly: Torah was given on 7 Sivan, Moses ascended that day, and 24 remaining days in Sivan plus 16 in Tammuz make 40, with his descent on 17 Tammuz. R. Yosi HaGalili's position is reconciled by including the six sequestering days within the forty rather than adding them beforehand; this also reaches 17 Tammuz. The sugya then cites the verse's doubled name and 'all Israel were standing' as support for R. Elazar's reading that the public call was meant to honor Moses - not that all Israel heard the voice itself.",
+          hint: "The calendar arithmetic is not just a puzzle - it shows how each position reaches the fixed date of 17 Tammuz. How does R. Akiva's count work directly, and how are R. Yosi HaGalili's six preparation days counted?"
         },
         learning: {
           learnerQuestion: "Why does the Gemara use the 17 Tammuz tablet-shattering date as a test for the Sinai calendar dispute?",
           coreTension: "R. Yosi HaGalili and R. Akiva disagree by one day on when Torah was given. The dispute seems trivial - until you realize the 40-day count on the mountain must end on 17 Tammuz. That external fixed point turns the calendar dispute into a testable claim.",
-          coreMove: "Use the 17 Tammuz tradition (when the tablets were shattered - a fixed and well-known date) as a calendar check. Count backward 40 days. Whichever opinion produces 40 days ending exactly on 17 Tammuz wins the arithmetic argument.",
+          coreMove: "Use the 17 Tammuz tradition (when the tablets were shattered - a fixed and well-known date) as a calendar check. R. Akiva's count reaches it directly; R. Yosi HaGalili's position is reconciled by counting the six separation days within the forty.",
           resolution: "R. Akiva's count works: 7 Sivan + 24 days remaining in Sivan + 16 days of Tammuz = exactly 40 days, arriving at 17 Tammuz. R. Yosi HaGalili's count only works if the 6 preparation days are included within the 40.",
           takeaway: {
             type: "derivation_principle",
-            text: "A tannaitic dispute can be tested against a fixed historical date. If only one opinion is arithmetically consistent with a known tradition (17 Tammuz), that is evidence - though not proof - in its favor. The losing opinion must then account for the discrepancy."
+            text: "A tannaitic dispute can be tested against a fixed historical date. Here R. Akiva's count reaches 17 Tammuz directly, while R. Yosi HaGalili's is reconciled by including the six separation days within the forty."
           },
           reasoningPattern: {
             id: "calendar_arithmetic_proof",
             category: "logical",
-            notes: "Use a fixed external date as a constraint on an otherwise underdetermined dispute. The arithmetic eliminates one reading or forces it into an awkward accounting."
+            notes: "Use a fixed external date as a constraint on an otherwise underdetermined dispute. One count reaches it directly, while the other is reconciled by specifying which days belong within the forty."
           },
-          ahaMoment: "The 40-day count is not just a nice round number - it is a constraint that the calendar must satisfy. R. Akiva's 7 Sivan starting point produces 24 + 16 = 40 exactly. R. Yosi HaGalili's 6 Sivan starting point overshoots or undershoots unless he folds the preparation days into the count.",
+          ahaMoment: "The 40-day count is not just a nice round number - it is a constraint that the calendar must satisfy. R. Akiva's 7 Sivan starting point produces 24 + 16 = 40 directly. R. Yosi HaGalili's position reaches the same date by folding the preparation days into the count.",
           learningBlocker: "Students may not see why the 17 Tammuz date matters. It functions like carbon dating: an external fixed point against which competing chronologies are tested.",
           memoryAnchor: "R. Akiva's math: 7 Sivan up + 24 days left in Sivan + 16 in Tammuz = 40 on the dot, landing on 17 Tammuz when the tablets broke. R. Yosi HaGalili's math only works if he borrows from the preparation days."
         },
@@ -7858,15 +7858,15 @@ const DAF_CONTENT = {
           {
             id: "step-03",
             type: "challenge",
-            label: "R. Yosi HaGalili's count doesn't reach 17 Tammuz",
+            label: "R. Yosi HaGalili's count requires placing the separation days within the forty",
             speaker: "Gemara",
-            text: "According to R. Yosi HaGalili: Torah was given on 6 Sivan. Moses sequestered 6 more days, ascending on 13 Sivan. Counted straightforwardly, this reaches only 23 Tammuz for the 40th day - not 17 Tammuz - unless the 6 preparation days are folded into the count.",
+            text: "According to R. Yosi HaGalili: Torah was given on 6 Sivan, with six days of separation. His position reaches 17 Tammuz when those six sequestering days are included within the forty rather than added before it.",
             sourceRefs: [
               {
                 sourceType: "gemara",
                 lineId: "yoma-004b-l21",
                 vilnaLine: 21,
-                note: "R. Yosi HaGalili's arithmetic problem"
+                note: "R. Yosi HaGalili's count places the separation days within the forty"
               }
             ]
           },
@@ -7919,7 +7919,7 @@ const DAF_CONTENT = {
         misconceptions: [
           {
             misconception: "The 6th vs. 7th Sivan dispute is a minor detail with no consequences.",
-            correction: "The one-day difference determines whether a 40-day count lands on 17 Tammuz (when tablets were shattered). Only R. Akiva's 7 Sivan count produces 40 days ending exactly on that date. The dispute has a testable arithmetic consequence.",
+            correction: "The one-day difference determines how the 40-day count lands on 17 Tammuz (when tablets were shattered). R. Akiva's 7 Sivan count works directly; R. Yosi HaGalili's position is reconciled by including the six separation days within the forty. The dispute has a testable arithmetic consequence.",
             correctedByStepId: "step-02"
           }
         ],
@@ -7929,7 +7929,7 @@ const DAF_CONTENT = {
         ],
         visualizableElements: [
           {
-            item: "Calendar timeline: Sivan 1-30 and Tammuz 1-17, with R. Akiva's count marked (day 7 start, 24 remaining, +16 = 40, hits 17 Tammuz) vs. R. Yosi HaGalili's count (day 6 start, different endpoint)",
+            item: "Calendar timeline: Sivan 1-30 and Tammuz 1-17, with R. Akiva's count marked (day 7 start, 24 remaining, +16 = 40, hits 17 Tammuz) and R. Yosi HaGalili's six separation days shown within the forty, also reaching 17 Tammuz",
             role: "anchor",
             priority: 1
           },
@@ -7993,14 +7993,14 @@ const DAF_CONTENT = {
         },
         display: {
           title: "Public vs. private voice; Moses enters the cloud; calling before speaking; 'lemor' as confidentiality",
-          oneLine: "Two independent answers resolve Sinai's public voice vs. the Tent's private voice: either the difference is Sinai vs. the Tent (location), or between the call and the speech itself (content) - not a single combined answer. Moses entered the cloud either because God pulled him in (R. Elazar) or, per a gezerah shavah from the sea-parting, by walking through an opening. The verse 'vayikra vayedaber' teaches: always announce yourself before speaking. The word 'lemor' teaches that what you are told may not be repeated until you are given permission.",
-          shortSummary: "A contradiction between Sinai (public voice) and the Tent of Meeting (private voice only Moses heard) is resolved two independent ways: either the difference is Sinai vs. the Tent, or the difference is between the call and the speech itself. How did Moses enter the Tent when blocked by the cloud? Two independent answers: R. Elazar says God grabbed him in; the school of R. Yishmael derives via a gezerah shavah from the sea-parting that 'betoch' means passage through, not immersion. Two practical rules follow from the opening verse: 'vayikra el Moshe vayedaber' teaches you should always call before speaking; the word 'lemor' teaches that what is told to you may not be repeated until the teller gives permission.",
-          whats: "The Gemara faces a textual contradiction: at Sinai the call was public, but at the Tent of Meeting the verse says the voice was heard 'by him alone' (kol lo, Moses heard but Israel did not). The Gemara gives two independent resolutions, either of which removes the contradiction: (1) the difference is between the two settings - at Sinai it was public, at the Tent it was private; or (2) if you prefer, the difference is between the call and the speech - the calling itself, not just the content, is what differs. A second problem: Moses could not enter the Tent of Meeting (blocked by the cloud per Exodus 40), yet the opening verse of Leviticus has God speaking to Moses from the Tent. How did Moses get in? Two independent answers: R. Elazar (via R. Zerika) says God reached out and pulled Moses into the cloud. The school of R. Yishmael instead derives from a gezerah shavah with the sea crossing - 'betoch' means a path through (as Israel walked betoch the sea, through a dry channel), not literal immersion - that Moses likewise walked through an opening in the cloud. The verse 'vayikra el Moshe vayedaber Hashem' teaches derekh eretz: one should always call someone to attention before speaking to them. Finally, the word 'lemor' at the end of this communication is read to mean that a person who tells you something puts you under a prohibition to repeat it until they explicitly tell you 'go and say it.'",
+          oneLine: "Two independent answers resolve Sinai's public calling while Israel stood present vs. the Tent's private voice: either the difference is Sinai vs. the Tent (location), or between the call and the speech itself (content) - not a single combined answer. Moses entered the cloud either because God brought him into it (R. Elazar) or, per a gezerah shavah from the sea-parting, by walking through an opening. The verse 'vayikra vayedaber' teaches: always announce yourself before speaking. The word 'lemor' teaches that what you are told may not be repeated until you are given permission.",
+          shortSummary: "A contradiction between Sinai's public calling while Israel stood present and the Tent of Meeting's private voice only Moses heard is resolved two independent ways: either the difference is Sinai vs. the Tent, or the difference is between the call and the speech itself. How did Moses enter the Tent when blocked by the cloud? Two independent answers: R. Elazar says God brought him into the cloud; the school of R. Yishmael derives via a gezerah shavah from the sea-parting that 'betoch' means passage through, not immersion. Two practical rules follow from the opening verse: 'vayikra el Moshe vayedaber' teaches you should always call before speaking; the word 'lemor' teaches that what is told to you may not be repeated until the teller gives permission.",
+          whats: "The Gemara faces a textual contradiction: at Sinai Moses was called publicly while all Israel stood present, but at the Tent of Meeting the verse says the voice was heard 'by him alone' (kol lo, Moses heard but Israel did not). The Gemara gives two independent resolutions, either of which removes the contradiction: (1) the difference is between the two settings - at Sinai it was public, at the Tent it was private; or (2) if you prefer, the difference is between the call and the speech - the calling itself, not just the content, is what differs. A second problem: Moses could not enter the Tent of Meeting (blocked by the cloud per Exodus 40), yet the opening verse of Leviticus has God speaking to Moses from the Tent. How did Moses get in? Two independent answers: R. Elazar (via R. Zerika) says God brought Moses into the cloud. The school of R. Yishmael instead derives from a gezerah shavah with the sea crossing - 'betoch' means a path through (as Israel walked betoch the sea, through a dry channel), not literal immersion - that Moses likewise walked through an opening in the cloud. The verse 'vayikra el Moshe vayedaber Hashem' teaches derekh eretz: one should always call someone to attention before speaking to them. Finally, the word 'lemor' at the end of this communication is read to mean that a person who tells you something puts you under a prohibition to repeat it until they explicitly tell you 'go and say it.'",
           hint: "The Gemara resolves the same contradiction two independent ways rather than picking one - what does that tell you about how the sugya treats 'lo kashya, ha... ha...' answers? And the 'lemor' derivation yields a real behavioral norm from what looks like a technical closing word - what does that say about the relationship between a verse's plain sense and its legal derivation?"
         },
         learning: {
-          learnerQuestion: "How can the same voice be both public (at Sinai) and private (at the Tent)? Weren't both cases God speaking to Moses?",
-          coreTension: "The Torah says the voice at the Tent was heard only by Moses - but at Sinai the call was public. Both involve God speaking to Moses. How can the same divine communication function differently?",
+          learnerQuestion: "How can Moses be called publicly at Sinai while all Israel stood present, yet the voice at the Tent be heard only by him?",
+          coreTension: "The Torah says the voice at the Tent was heard only by Moses, while at Sinai Moses was called publicly as all Israel stood present. Both involve God speaking to Moses. How can the same divine communication function differently?",
           coreMove: "The Gemara offers two independent, alternative resolutions rather than one combined answer: either the difference is the setting (Sinai vs. the Tent), or the difference is which part of the communication is meant (the call vs. the speech). Either alone removes the contradiction.",
           resolution: "Two independent answers are given. First: Sinai required public witness to honor Moses, while the ongoing Tent of Meeting communications were private by design - a setting-based distinction. Second (an alternative, not an addition): the calling itself differed in publicity from the speaking that followed - a content-based distinction. The Gemara does not combine these into one claim.",
           takeaway: {
@@ -8036,7 +8036,7 @@ const DAF_CONTENT = {
             type: "challenge",
             label: "Contradiction: public at Sinai, private at the Tent",
             speaker: "Gemara",
-            text: "'Vayikra el Moshe vayedaber' - all Israel heard the call at Sinai. But at the Tent the verse says 'kol lo' - the voice went to him alone, not heard by Israel. How can the same divine voice be public in one place and private in another?",
+            text: "'Vayikra el Moshe, Moshe, ve-khol Yisrael omdin' - Moses was called publicly at Sinai while all Israel stood present. But at the Tent the verse says 'kol lo' - the voice went to him alone, not heard by Israel. How can the same divine voice be public in one place and private in another?",
             sourceRefs: [
               {
                 sourceType: "gemara",
@@ -8079,9 +8079,9 @@ const DAF_CONTENT = {
           {
             id: "step-04",
             type: "answer",
-            label: "Two independent answers: R. Elazar's forcible entry vs. the school of R. Yishmael's gezerah shavah",
+            label: "Two independent answers: R. Elazar brings Moses into the cloud vs. the school of R. Yishmael's gezerah shavah",
             speaker: "R. Elazar / School of R. Yishmael",
-            text: "Two independent answers are given. R. Elazar (via R. Zerika): God reached out and pulled Moses into the cloud and into the Tent. Separately, the school of R. Yishmael derives via a gezerah shavah: just as Israel walked 'betoch' the sea through a dry path (not submerged in water), 'betoch' the cloud means Moses walked through an opening in it, not immersed within it.",
+            text: "Two independent answers are given. R. Elazar (via R. Zerika): God brought Moses into the cloud. Separately, the school of R. Yishmael derives via a gezerah shavah: just as Israel walked 'betoch' the sea through a dry path (not submerged in water), 'betoch' the cloud means Moses walked through an opening in it, not immersed within it.",
             sourceRefs: [
               {
                 sourceType: "gemara",
