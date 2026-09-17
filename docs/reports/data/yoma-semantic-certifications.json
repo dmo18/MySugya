@@ -29953,59 +29953,46 @@
       "daf": "4b",
       "state": "CERTIFIED",
       "firstPass": {
-        "reviewId": "sonnet5-4b-second-20260917c",
-        "reviewerContextId": "aa2ee4368c2ade367",
+        "reviewId": "sonnet5-4b-followup-20260917a",
+        "reviewerContextId": "a85bc168dc09a2a50",
         "sourceFirst": true,
         "verdict": "REPAIR_REQUIRED",
-        "reviewedSourceFingerprint": "6b2c647511d1c7d9a3620fd7933a41381c4c605523b31c4709887432a12751d6",
-        "reviewedSemanticFingerprint": "88e5e937d3fcaa03a3b10f2238eb5418df10c17a6e52ec65b7ff27b00e0c4889",
-        "evidence": {
-          "origin": "independent-second-pass-rejection",
-          "reviewEvidence": {
-            "reviewMethod": "Genuinely fresh fourth-context independent reviewer (no access to any prior reviewer's findings) reconstructed daf 4b from raw Hebrew/Aramaic and bundled Rashi from scratch, then evaluated the round-3-repaired enrichment (reviewed before a concurrent session's parallel refinement pass was merged in).",
-            "verdict": "REJECTED for s01 and s02 - confirmed defects found; s03 and s04 independently confirmed clean by this same pass",
-            "confirmedDefects": {
-              "yoma-004b-s01 quizSeeds[1]": "Misattributed a verse-citation to Rav Adda bar Mattana that was actually made earlier by R. Matya ben Charash (line 8); Rav Adda only answers a follow-up question about a phrase within that already-cited verse (line 9). (Independently, a concurrent session's parallel refinement, merged into this branch, already fixed this exact defect the same way.)",
-              "yoma-004b-s02 argumentFlow step-02 + quizSeeds[0]": "sourceRef cited segment l16 (lines 16-20, R. Yosi HaGalili's position-identification and a refutation about the seventh-day calling) instead of the correct l21 (lines 21-24, which contains R. Akiva's own position-identification AND his arithmetic, per the sourceSegmentMap boundaries).",
-              "yoma-004b-s02 argumentFlow step-03": "sourceRef cited segment l21 (R. Akiva's material) instead of the correct l25 (lines 25-26, R. Yosi HaGalili's arithmetic problem statement)."
-            },
-            "verifiedClean": [
-              "yoma-004b-s01: dafLevel-adjacent claims, R. Akiva/R. Natan/R. Matya readings, Rashi-grounded chronology-tie claims all verified accurate; only the quizSeed misattribution (defect above) found.",
-              "yoma-004b-s02: both arithmetic counts (R. Akiva 24+16=40; R. Yosi HaGalili overshoot to 23 Tammuz resolved by folding separation days) independently re-derived and verified correct; only the two sourceRef segment mismatches above found, not arithmetic errors.",
-              "yoma-004b-s03: fully clean, including correct non-fabrication of the obscure line-39 bracketed attribution and correct segment containment on every sourceRef.",
-              "yoma-004b-s04: fully clean, including correct 'both of them' = Reish Lakish/R. Yochanan reattribution and correct segment containment on every sourceRef.",
-              "dafLevel.summary: clean."
-            ]
-          }
-        }
-      },
-      "repairRef": "b07275fafa68fe19d014bf35b002e18872cc975d",
-      "sourceFingerprint": "288843d0183d9e1400d20b45d4f4fa1beb69df69d1fa197b7554a9214c9091df",
-      "semanticFingerprint": "88824b84fff40420ee26a1e151e7fbd8238829a5794b069068eb72abf790878f",
-      "secondPass": {
-        "reviewId": "sonnet5-4b-second-20260917e",
-        "reviewerContextId": "a4292fb094ab02b18",
-        "sourceFirst": true,
-        "verdict": "CONFIRMED",
         "reviewedSourceFingerprint": "288843d0183d9e1400d20b45d4f4fa1beb69df69d1fa197b7554a9214c9091df",
         "reviewedSemanticFingerprint": "88824b84fff40420ee26a1e151e7fbd8238829a5794b069068eb72abf790878f",
         "evidence": {
-          "reviewMethod": "Genuinely fresh sixth-context independent reviewer verified a concurrent session's lineRange boundary correction (s01 endVilnaLine 5->9; s03 endVilnaLine 36->40) directly against sourceSegmentMap and raw Vilna lines, then performed a full fresh source-first review of s01 and s03's entire enrichment content.",
-          "verdict": "BOTH CLEAN - boundary correction confirmed accurate; no content defects found",
+          "reviewMethod": "Identified during this session's own final whole-record audit round for yoma-004b-s01/s03 (auditor context a85bc168dc09a2a50), confirmed and fixed, but the merged PR #614 landed via a concurrent session's parallel certification path before this specific fix was included.",
+          "verdict": "REPAIR_REQUIRED",
+          "confirmedDefects": {
+            "yoma-004b-s03 quizSeeds[1]": "sourceRef vilnaLine cited 36 (where the earlier, separate 'call before speaking' teaching begins) instead of 39 (where the actual 'lemor' derivation and its bracketed alternate attribution appear), inconsistent with argumentFlow step-06's own sourceRef for the same teaching.",
+            "yoma-004b-s01 conceptRefs": "missing a person.rabbi_akiva entry despite R. Akiva being argumentFlow step-01's named speaker (quality completeness, not a required field, but an internal inconsistency worth fixing)."
+          }
+        }
+      },
+      "repairRef": "b19efa3e69b89b7deb27b904605c8ea2f0b092de",
+      "sourceFingerprint": "288843d0183d9e1400d20b45d4f4fa1beb69df69d1fa197b7554a9214c9091df",
+      "semanticFingerprint": "0fcab4fbe335fc9ea0e87616b2def5196856da1588dae1d93723b4dd5fd509f6",
+      "secondPass": {
+        "reviewId": "sonnet5-4b-followup-20260917b",
+        "reviewerContextId": "a562d420db5d8e217",
+        "sourceFirst": true,
+        "verdict": "CONFIRMED",
+        "reviewedSourceFingerprint": "288843d0183d9e1400d20b45d4f4fa1beb69df69d1fa197b7554a9214c9091df",
+        "reviewedSemanticFingerprint": "0fcab4fbe335fc9ea0e87616b2def5196856da1588dae1d93723b4dd5fd509f6",
+        "evidence": {
+          "reviewMethod": "Independent reviewer verified both targeted fixes against raw Vilna lines and the sourceSegmentMap, plus a light sanity pass over the rest of s01/s03.",
+          "verdict": "CONFIRMED - both fixes correct and schema-valid",
           "specificChecks": [
-            "s01: segment l05 mechanically spans vilna lines 5-9 (before s02's first segment l10 starts at 10); endVilnaLine 9 confirmed correct.",
-            "s03: segment l36 mechanically spans vilna lines 36-40 (before s04's first segment l41 starts at 41); endVilnaLine 40 confirmed correct.",
-            "s01: all four argumentFlow steps, Rashi-grounded chronology-tie claims, and sourceRefs re-verified clean.",
-            "s03: all six argumentFlow steps re-verified clean, including the two independent public/private resolutions, two independent cloud-entry answers, and the lemor derivation's correctly-hedged obscure bracketed alternate attribution (vilnaLine 39 confirmed accurate).",
-            "Enrichment-contract compliance (display.hint as questions, finalRuling policy, topicTags format) checked for both sugyot."
+            "s03 quizSeeds[1] vilnaLine 39 confirmed to actually contain the lemor derivation's context, matching argumentFlow step-06's own sourceRef; segment l36 confirmed to span lines 36-40 (before s04's l41 starts), so l36/vilnaLine 39 is schema-valid.",
+            "s01 R. Akiva attribution independently reconfirmed via precedingDafContext (4a's raw tail): 'R. Akiva says' continues uninterrupted into 4b line 1's 'cloud covered the mountain... honor to Moses' teaching, corroborated by Rashi's comment on the same line.",
+            "Two pre-existing, non-blocking coarse-citation observations noted for awareness (s01 step-02's vilnaLine 1 vs R. Natan's text starting at line 3; s03 step-02's single sourceRef for a two-clause resolution) - both schema-valid, not defects, not acted on."
           ]
         }
       },
       "finalAudit": {
-        "reviewId": "sonnet5-4b-finalaudit-20260917b",
-        "auditorContextId": "a061aa2b0250b966f",
+        "reviewId": "sonnet5-4b-followup-finalaudit-20260917a",
+        "auditorContextId": "ab8cea505cb5d667b",
         "auditedSourceFingerprint": "288843d0183d9e1400d20b45d4f4fa1beb69df69d1fa197b7554a9214c9091df",
-        "auditedSemanticFingerprint": "88824b84fff40420ee26a1e151e7fbd8238829a5794b069068eb72abf790878f",
+        "auditedSemanticFingerprint": "0fcab4fbe335fc9ea0e87616b2def5196856da1588dae1d93723b4dd5fd509f6",
         "dafBoundary": {
           "rawLineCount": 47,
           "finalRawLine": "אמר",
@@ -30202,7 +30189,7 @@
               {
                 "daf": "4b",
                 "startVilnaLine": 1,
-                "endVilnaLine": 5
+                "endVilnaLine": 9
               }
             ]
           },
@@ -30221,7 +30208,7 @@
               {
                 "daf": "4b",
                 "startVilnaLine": 1,
-                "endVilnaLine": 5
+                "endVilnaLine": 9
               }
             ]
           },
@@ -30240,7 +30227,7 @@
               {
                 "daf": "4b",
                 "startVilnaLine": 1,
-                "endVilnaLine": 5
+                "endVilnaLine": 9
               }
             ]
           },
@@ -30265,7 +30252,7 @@
               {
                 "daf": "4b",
                 "startVilnaLine": 1,
-                "endVilnaLine": 5
+                "endVilnaLine": 9
               }
             ]
           },
@@ -30278,7 +30265,7 @@
               {
                 "daf": "4b",
                 "startVilnaLine": 1,
-                "endVilnaLine": 5
+                "endVilnaLine": 9
               }
             ]
           },
@@ -30304,7 +30291,7 @@
               {
                 "daf": "4b",
                 "startVilnaLine": 1,
-                "endVilnaLine": 5
+                "endVilnaLine": 9
               }
             ]
           },
@@ -30323,7 +30310,7 @@
               {
                 "daf": "4b",
                 "startVilnaLine": 1,
-                "endVilnaLine": 5
+                "endVilnaLine": 9
               }
             ]
           },
@@ -30348,7 +30335,7 @@
               {
                 "daf": "4b",
                 "startVilnaLine": 1,
-                "endVilnaLine": 5
+                "endVilnaLine": 9
               }
             ]
           },
@@ -30361,7 +30348,7 @@
               {
                 "daf": "4b",
                 "startVilnaLine": 1,
-                "endVilnaLine": 5
+                "endVilnaLine": 9
               }
             ]
           },
@@ -30387,7 +30374,7 @@
               {
                 "daf": "4b",
                 "startVilnaLine": 1,
-                "endVilnaLine": 5
+                "endVilnaLine": 9
               }
             ]
           },
@@ -30406,7 +30393,7 @@
               {
                 "daf": "4b",
                 "startVilnaLine": 1,
-                "endVilnaLine": 5
+                "endVilnaLine": 9
               }
             ]
           },
@@ -30431,7 +30418,7 @@
               {
                 "daf": "4b",
                 "startVilnaLine": 1,
-                "endVilnaLine": 5
+                "endVilnaLine": 9
               }
             ]
           },
@@ -30444,7 +30431,7 @@
               {
                 "daf": "4b",
                 "startVilnaLine": 1,
-                "endVilnaLine": 5
+                "endVilnaLine": 9
               }
             ]
           },
@@ -30470,7 +30457,7 @@
               {
                 "daf": "4b",
                 "startVilnaLine": 1,
-                "endVilnaLine": 5
+                "endVilnaLine": 9
               }
             ]
           },
@@ -30489,7 +30476,7 @@
               {
                 "daf": "4b",
                 "startVilnaLine": 1,
-                "endVilnaLine": 5
+                "endVilnaLine": 9
               }
             ]
           },
@@ -30514,7 +30501,7 @@
               {
                 "daf": "4b",
                 "startVilnaLine": 1,
-                "endVilnaLine": 5
+                "endVilnaLine": 9
               }
             ]
           },
@@ -30527,7 +30514,7 @@
               {
                 "daf": "4b",
                 "startVilnaLine": 1,
-                "endVilnaLine": 5
+                "endVilnaLine": 9
               }
             ]
           },
@@ -30537,6 +30524,38 @@
             "boundarySafe": true,
             "crossReference": false,
             "note": "answer: line 9 answers the Gemara's own clarifying question about a phrase within R. Matya's already-cited verse."
+          },
+          {
+            "path": "conceptRefs[person.rabbi_akiva].id",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "conceptRefs[person.rabbi_akiva].label",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "4b",
+                "startVilnaLine": 1,
+                "endVilnaLine": 9
+              }
+            ]
+          },
+          {
+            "path": "conceptRefs[person.rabbi_akiva].scope",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "4b",
+                "startVilnaLine": 1,
+                "endVilnaLine": 9
+              }
+            ]
           },
           {
             "path": "conceptRefs[person.rabbi_natan].id",
@@ -30553,7 +30572,7 @@
               {
                 "daf": "4b",
                 "startVilnaLine": 1,
-                "endVilnaLine": 5
+                "endVilnaLine": 9
               }
             ]
           },
@@ -30566,7 +30585,7 @@
               {
                 "daf": "4b",
                 "startVilnaLine": 1,
-                "endVilnaLine": 5
+                "endVilnaLine": 9
               }
             ]
           },
@@ -30585,7 +30604,7 @@
               {
                 "daf": "4b",
                 "startVilnaLine": 1,
-                "endVilnaLine": 5
+                "endVilnaLine": 9
               }
             ]
           },
@@ -30598,7 +30617,7 @@
               {
                 "daf": "4b",
                 "startVilnaLine": 1,
-                "endVilnaLine": 5
+                "endVilnaLine": 9
               }
             ]
           },
@@ -30617,7 +30636,7 @@
               {
                 "daf": "4b",
                 "startVilnaLine": 1,
-                "endVilnaLine": 5
+                "endVilnaLine": 9
               }
             ]
           },
@@ -30630,7 +30649,7 @@
               {
                 "daf": "4b",
                 "startVilnaLine": 1,
-                "endVilnaLine": 5
+                "endVilnaLine": 9
               }
             ]
           },
@@ -30650,7 +30669,7 @@
               {
                 "daf": "4b",
                 "startVilnaLine": 1,
-                "endVilnaLine": 5
+                "endVilnaLine": 9
               }
             ]
           },
@@ -30663,7 +30682,7 @@
               {
                 "daf": "4b",
                 "startVilnaLine": 1,
-                "endVilnaLine": 5
+                "endVilnaLine": 9
               }
             ]
           },
@@ -30676,7 +30695,7 @@
               {
                 "daf": "4b",
                 "startVilnaLine": 1,
-                "endVilnaLine": 5
+                "endVilnaLine": 9
               }
             ]
           },
@@ -30689,7 +30708,7 @@
               {
                 "daf": "4b",
                 "startVilnaLine": 1,
-                "endVilnaLine": 5
+                "endVilnaLine": 9
               }
             ]
           },
@@ -30702,7 +30721,7 @@
               {
                 "daf": "4b",
                 "startVilnaLine": 1,
-                "endVilnaLine": 5
+                "endVilnaLine": 9
               }
             ]
           },
@@ -30715,7 +30734,7 @@
               {
                 "daf": "4b",
                 "startVilnaLine": 1,
-                "endVilnaLine": 5
+                "endVilnaLine": 9
               }
             ]
           },
@@ -30728,7 +30747,7 @@
               {
                 "daf": "4b",
                 "startVilnaLine": 1,
-                "endVilnaLine": 5
+                "endVilnaLine": 9
               }
             ]
           },
@@ -30741,7 +30760,7 @@
               {
                 "daf": "4b",
                 "startVilnaLine": 1,
-                "endVilnaLine": 5
+                "endVilnaLine": 9
               }
             ]
           },
@@ -30754,7 +30773,7 @@
               {
                 "daf": "4b",
                 "startVilnaLine": 1,
-                "endVilnaLine": 5
+                "endVilnaLine": 9
               }
             ]
           },
@@ -30767,7 +30786,7 @@
               {
                 "daf": "4b",
                 "startVilnaLine": 1,
-                "endVilnaLine": 5
+                "endVilnaLine": 9
               }
             ]
           },
@@ -30780,7 +30799,7 @@
               {
                 "daf": "4b",
                 "startVilnaLine": 1,
-                "endVilnaLine": 5
+                "endVilnaLine": 9
               }
             ]
           },
@@ -30806,7 +30825,7 @@
               {
                 "daf": "4b",
                 "startVilnaLine": 1,
-                "endVilnaLine": 5
+                "endVilnaLine": 9
               }
             ]
           },
@@ -30819,7 +30838,7 @@
               {
                 "daf": "4b",
                 "startVilnaLine": 1,
-                "endVilnaLine": 5
+                "endVilnaLine": 9
               }
             ]
           },
@@ -30832,7 +30851,7 @@
               {
                 "daf": "4b",
                 "startVilnaLine": 1,
-                "endVilnaLine": 5
+                "endVilnaLine": 9
               }
             ]
           },
@@ -30858,7 +30877,7 @@
               {
                 "daf": "4b",
                 "startVilnaLine": 1,
-                "endVilnaLine": 5
+                "endVilnaLine": 9
               }
             ]
           },
@@ -30871,7 +30890,7 @@
               {
                 "daf": "4b",
                 "startVilnaLine": 1,
-                "endVilnaLine": 5
+                "endVilnaLine": 9
               }
             ]
           },
@@ -30884,7 +30903,7 @@
               {
                 "daf": "4b",
                 "startVilnaLine": 1,
-                "endVilnaLine": 5
+                "endVilnaLine": 9
               }
             ]
           },
@@ -30897,7 +30916,7 @@
               {
                 "daf": "4b",
                 "startVilnaLine": 1,
-                "endVilnaLine": 5
+                "endVilnaLine": 9
               }
             ]
           },
@@ -30928,7 +30947,7 @@
               {
                 "daf": "4b",
                 "startVilnaLine": 1,
-                "endVilnaLine": 5
+                "endVilnaLine": 9
               }
             ]
           },
@@ -30941,7 +30960,7 @@
               {
                 "daf": "4b",
                 "startVilnaLine": 1,
-                "endVilnaLine": 5
+                "endVilnaLine": 9
               }
             ]
           },
@@ -31020,7 +31039,7 @@
               {
                 "daf": "4b",
                 "startVilnaLine": 1,
-                "endVilnaLine": 5
+                "endVilnaLine": 9
               }
             ]
           },
@@ -31039,7 +31058,7 @@
               {
                 "daf": "4b",
                 "startVilnaLine": 1,
-                "endVilnaLine": 5
+                "endVilnaLine": 9
               }
             ]
           },
@@ -31052,7 +31071,7 @@
               {
                 "daf": "4b",
                 "startVilnaLine": 1,
-                "endVilnaLine": 5
+                "endVilnaLine": 9
               }
             ]
           },
@@ -31071,7 +31090,7 @@
               {
                 "daf": "4b",
                 "startVilnaLine": 1,
-                "endVilnaLine": 5
+                "endVilnaLine": 9
               }
             ]
           }
@@ -31080,337 +31099,347 @@
           {
             "path": "dafLevel.glossary[0].en",
             "importsNextDafConclusion": false,
-            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never presents the R. Yochanan/R. Chanina practical-difference question as resolved here, nor imports any 5a content backward as if established on this page."
+            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never imports 5a content backward as if established on this page."
           },
           {
             "path": "dafLevel.glossary[0].he",
             "importsNextDafConclusion": false,
-            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never presents the R. Yochanan/R. Chanina practical-difference question as resolved here, nor imports any 5a content backward as if established on this page."
+            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never imports 5a content backward as if established on this page."
           },
           {
             "path": "dafLevel.glossary[0].translit",
             "importsNextDafConclusion": false,
-            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never presents the R. Yochanan/R. Chanina practical-difference question as resolved here, nor imports any 5a content backward as if established on this page."
+            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never imports 5a content backward as if established on this page."
           },
           {
             "path": "dafLevel.glossary[1].en",
             "importsNextDafConclusion": false,
-            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never presents the R. Yochanan/R. Chanina practical-difference question as resolved here, nor imports any 5a content backward as if established on this page."
+            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never imports 5a content backward as if established on this page."
           },
           {
             "path": "dafLevel.glossary[1].he",
             "importsNextDafConclusion": false,
-            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never presents the R. Yochanan/R. Chanina practical-difference question as resolved here, nor imports any 5a content backward as if established on this page."
+            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never imports 5a content backward as if established on this page."
           },
           {
             "path": "dafLevel.glossary[1].translit",
             "importsNextDafConclusion": false,
-            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never presents the R. Yochanan/R. Chanina practical-difference question as resolved here, nor imports any 5a content backward as if established on this page."
+            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never imports 5a content backward as if established on this page."
           },
           {
             "path": "dafLevel.glossary[2].en",
             "importsNextDafConclusion": false,
-            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never presents the R. Yochanan/R. Chanina practical-difference question as resolved here, nor imports any 5a content backward as if established on this page."
+            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never imports 5a content backward as if established on this page."
           },
           {
             "path": "dafLevel.glossary[2].he",
             "importsNextDafConclusion": false,
-            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never presents the R. Yochanan/R. Chanina practical-difference question as resolved here, nor imports any 5a content backward as if established on this page."
+            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never imports 5a content backward as if established on this page."
           },
           {
             "path": "dafLevel.glossary[2].translit",
             "importsNextDafConclusion": false,
-            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never presents the R. Yochanan/R. Chanina practical-difference question as resolved here, nor imports any 5a content backward as if established on this page."
+            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never imports 5a content backward as if established on this page."
           },
           {
             "path": "dafLevel.glossary[3].en",
             "importsNextDafConclusion": false,
-            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never presents the R. Yochanan/R. Chanina practical-difference question as resolved here, nor imports any 5a content backward as if established on this page."
+            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never imports 5a content backward as if established on this page."
           },
           {
             "path": "dafLevel.glossary[3].he",
             "importsNextDafConclusion": false,
-            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never presents the R. Yochanan/R. Chanina practical-difference question as resolved here, nor imports any 5a content backward as if established on this page."
+            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never imports 5a content backward as if established on this page."
           },
           {
             "path": "dafLevel.glossary[3].translit",
             "importsNextDafConclusion": false,
-            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never presents the R. Yochanan/R. Chanina practical-difference question as resolved here, nor imports any 5a content backward as if established on this page."
+            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never imports 5a content backward as if established on this page."
           },
           {
             "path": "dafLevel.summary",
             "importsNextDafConclusion": false,
-            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never presents the R. Yochanan/R. Chanina practical-difference question as resolved here, nor imports any 5a content backward as if established on this page."
+            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never imports 5a content backward as if established on this page."
           },
           {
             "path": "alternateAngles[0]",
             "importsNextDafConclusion": false,
-            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never presents the R. Yochanan/R. Chanina practical-difference question as resolved here, nor imports any 5a content backward as if established on this page."
+            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never imports 5a content backward as if established on this page."
           },
           {
             "path": "argumentFlow[step-01].label",
             "importsNextDafConclusion": false,
-            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never presents the R. Yochanan/R. Chanina practical-difference question as resolved here, nor imports any 5a content backward as if established on this page."
+            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never imports 5a content backward as if established on this page."
           },
           {
             "path": "argumentFlow[step-01].sourceRefs[0].note",
             "importsNextDafConclusion": false,
-            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never presents the R. Yochanan/R. Chanina practical-difference question as resolved here, nor imports any 5a content backward as if established on this page."
+            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never imports 5a content backward as if established on this page."
           },
           {
             "path": "argumentFlow[step-01].speaker",
             "importsNextDafConclusion": false,
-            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never presents the R. Yochanan/R. Chanina practical-difference question as resolved here, nor imports any 5a content backward as if established on this page."
+            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never imports 5a content backward as if established on this page."
           },
           {
             "path": "argumentFlow[step-01].text",
             "importsNextDafConclusion": false,
-            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never presents the R. Yochanan/R. Chanina practical-difference question as resolved here, nor imports any 5a content backward as if established on this page."
+            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never imports 5a content backward as if established on this page."
           },
           {
             "path": "argumentFlow[step-01].type",
             "importsNextDafConclusion": false,
-            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never presents the R. Yochanan/R. Chanina practical-difference question as resolved here, nor imports any 5a content backward as if established on this page."
+            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never imports 5a content backward as if established on this page."
           },
           {
             "path": "argumentFlow[step-02].label",
             "importsNextDafConclusion": false,
-            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never presents the R. Yochanan/R. Chanina practical-difference question as resolved here, nor imports any 5a content backward as if established on this page."
+            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never imports 5a content backward as if established on this page."
           },
           {
             "path": "argumentFlow[step-02].sourceRefs[0].note",
             "importsNextDafConclusion": false,
-            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never presents the R. Yochanan/R. Chanina practical-difference question as resolved here, nor imports any 5a content backward as if established on this page."
+            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never imports 5a content backward as if established on this page."
           },
           {
             "path": "argumentFlow[step-02].speaker",
             "importsNextDafConclusion": false,
-            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never presents the R. Yochanan/R. Chanina practical-difference question as resolved here, nor imports any 5a content backward as if established on this page."
+            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never imports 5a content backward as if established on this page."
           },
           {
             "path": "argumentFlow[step-02].text",
             "importsNextDafConclusion": false,
-            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never presents the R. Yochanan/R. Chanina practical-difference question as resolved here, nor imports any 5a content backward as if established on this page."
+            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never imports 5a content backward as if established on this page."
           },
           {
             "path": "argumentFlow[step-02].type",
             "importsNextDafConclusion": false,
-            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never presents the R. Yochanan/R. Chanina practical-difference question as resolved here, nor imports any 5a content backward as if established on this page."
+            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never imports 5a content backward as if established on this page."
           },
           {
             "path": "argumentFlow[step-03].label",
             "importsNextDafConclusion": false,
-            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never presents the R. Yochanan/R. Chanina practical-difference question as resolved here, nor imports any 5a content backward as if established on this page."
+            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never imports 5a content backward as if established on this page."
           },
           {
             "path": "argumentFlow[step-03].sourceRefs[0].note",
             "importsNextDafConclusion": false,
-            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never presents the R. Yochanan/R. Chanina practical-difference question as resolved here, nor imports any 5a content backward as if established on this page."
+            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never imports 5a content backward as if established on this page."
           },
           {
             "path": "argumentFlow[step-03].speaker",
             "importsNextDafConclusion": false,
-            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never presents the R. Yochanan/R. Chanina practical-difference question as resolved here, nor imports any 5a content backward as if established on this page."
+            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never imports 5a content backward as if established on this page."
           },
           {
             "path": "argumentFlow[step-03].text",
             "importsNextDafConclusion": false,
-            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never presents the R. Yochanan/R. Chanina practical-difference question as resolved here, nor imports any 5a content backward as if established on this page."
+            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never imports 5a content backward as if established on this page."
           },
           {
             "path": "argumentFlow[step-03].type",
             "importsNextDafConclusion": false,
-            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never presents the R. Yochanan/R. Chanina practical-difference question as resolved here, nor imports any 5a content backward as if established on this page."
+            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never imports 5a content backward as if established on this page."
           },
           {
             "path": "argumentFlow[step-04].label",
             "importsNextDafConclusion": false,
-            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never presents the R. Yochanan/R. Chanina practical-difference question as resolved here, nor imports any 5a content backward as if established on this page."
+            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never imports 5a content backward as if established on this page."
           },
           {
             "path": "argumentFlow[step-04].sourceRefs[0].note",
             "importsNextDafConclusion": false,
-            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never presents the R. Yochanan/R. Chanina practical-difference question as resolved here, nor imports any 5a content backward as if established on this page."
+            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never imports 5a content backward as if established on this page."
           },
           {
             "path": "argumentFlow[step-04].speaker",
             "importsNextDafConclusion": false,
-            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never presents the R. Yochanan/R. Chanina practical-difference question as resolved here, nor imports any 5a content backward as if established on this page."
+            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never imports 5a content backward as if established on this page."
           },
           {
             "path": "argumentFlow[step-04].text",
             "importsNextDafConclusion": false,
-            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never presents the R. Yochanan/R. Chanina practical-difference question as resolved here, nor imports any 5a content backward as if established on this page."
+            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never imports 5a content backward as if established on this page."
           },
           {
             "path": "argumentFlow[step-04].type",
             "importsNextDafConclusion": false,
-            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never presents the R. Yochanan/R. Chanina practical-difference question as resolved here, nor imports any 5a content backward as if established on this page."
+            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never imports 5a content backward as if established on this page."
+          },
+          {
+            "path": "conceptRefs[person.rabbi_akiva].label",
+            "importsNextDafConclusion": false,
+            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never imports 5a content backward as if established on this page."
+          },
+          {
+            "path": "conceptRefs[person.rabbi_akiva].scope",
+            "importsNextDafConclusion": false,
+            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never imports 5a content backward as if established on this page."
           },
           {
             "path": "conceptRefs[person.rabbi_natan].label",
             "importsNextDafConclusion": false,
-            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never presents the R. Yochanan/R. Chanina practical-difference question as resolved here, nor imports any 5a content backward as if established on this page."
+            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never imports 5a content backward as if established on this page."
           },
           {
             "path": "conceptRefs[person.rabbi_natan].scope",
             "importsNextDafConclusion": false,
-            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never presents the R. Yochanan/R. Chanina practical-difference question as resolved here, nor imports any 5a content backward as if established on this page."
+            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never imports 5a content backward as if established on this page."
           },
           {
             "path": "conceptRefs[person.rabbi_matya_ben_charash].label",
             "importsNextDafConclusion": false,
-            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never presents the R. Yochanan/R. Chanina practical-difference question as resolved here, nor imports any 5a content backward as if established on this page."
+            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never imports 5a content backward as if established on this page."
           },
           {
             "path": "conceptRefs[person.rabbi_matya_ben_charash].scope",
             "importsNextDafConclusion": false,
-            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never presents the R. Yochanan/R. Chanina practical-difference question as resolved here, nor imports any 5a content backward as if established on this page."
+            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never imports 5a content backward as if established on this page."
           },
           {
             "path": "conceptRefs[concept.preparation_for_divine_encounter].label",
             "importsNextDafConclusion": false,
-            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never presents the R. Yochanan/R. Chanina practical-difference question as resolved here, nor imports any 5a content backward as if established on this page."
+            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never imports 5a content backward as if established on this page."
           },
           {
             "path": "conceptRefs[concept.preparation_for_divine_encounter].scope",
             "importsNextDafConclusion": false,
-            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never presents the R. Yochanan/R. Chanina practical-difference question as resolved here, nor imports any 5a content backward as if established on this page."
+            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never imports 5a content backward as if established on this page."
           },
           {
             "path": "difficulty",
             "importsNextDafConclusion": false,
-            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never presents the R. Yochanan/R. Chanina practical-difference question as resolved here, nor imports any 5a content backward as if established on this page."
+            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never imports 5a content backward as if established on this page."
           },
           {
             "path": "display.hint",
             "importsNextDafConclusion": false,
-            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never presents the R. Yochanan/R. Chanina practical-difference question as resolved here, nor imports any 5a content backward as if established on this page."
+            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never imports 5a content backward as if established on this page."
           },
           {
             "path": "display.oneLine",
             "importsNextDafConclusion": false,
-            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never presents the R. Yochanan/R. Chanina practical-difference question as resolved here, nor imports any 5a content backward as if established on this page."
+            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never imports 5a content backward as if established on this page."
           },
           {
             "path": "display.shortSummary",
             "importsNextDafConclusion": false,
-            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never presents the R. Yochanan/R. Chanina practical-difference question as resolved here, nor imports any 5a content backward as if established on this page."
+            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never imports 5a content backward as if established on this page."
           },
           {
             "path": "display.title",
             "importsNextDafConclusion": false,
-            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never presents the R. Yochanan/R. Chanina practical-difference question as resolved here, nor imports any 5a content backward as if established on this page."
+            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never imports 5a content backward as if established on this page."
           },
           {
             "path": "display.whats",
             "importsNextDafConclusion": false,
-            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never presents the R. Yochanan/R. Chanina practical-difference question as resolved here, nor imports any 5a content backward as if established on this page."
+            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never imports 5a content backward as if established on this page."
           },
           {
             "path": "learning.ahaMoment",
             "importsNextDafConclusion": false,
-            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never presents the R. Yochanan/R. Chanina practical-difference question as resolved here, nor imports any 5a content backward as if established on this page."
+            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never imports 5a content backward as if established on this page."
           },
           {
             "path": "learning.coreMove",
             "importsNextDafConclusion": false,
-            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never presents the R. Yochanan/R. Chanina practical-difference question as resolved here, nor imports any 5a content backward as if established on this page."
+            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never imports 5a content backward as if established on this page."
           },
           {
             "path": "learning.coreTension",
             "importsNextDafConclusion": false,
-            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never presents the R. Yochanan/R. Chanina practical-difference question as resolved here, nor imports any 5a content backward as if established on this page."
+            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never imports 5a content backward as if established on this page."
           },
           {
             "path": "learning.learnerQuestion",
             "importsNextDafConclusion": false,
-            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never presents the R. Yochanan/R. Chanina practical-difference question as resolved here, nor imports any 5a content backward as if established on this page."
+            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never imports 5a content backward as if established on this page."
           },
           {
             "path": "learning.learningBlocker",
             "importsNextDafConclusion": false,
-            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never presents the R. Yochanan/R. Chanina practical-difference question as resolved here, nor imports any 5a content backward as if established on this page."
+            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never imports 5a content backward as if established on this page."
           },
           {
             "path": "learning.memoryAnchor",
             "importsNextDafConclusion": false,
-            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never presents the R. Yochanan/R. Chanina practical-difference question as resolved here, nor imports any 5a content backward as if established on this page."
+            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never imports 5a content backward as if established on this page."
           },
           {
             "path": "learning.reasoningPattern.category",
             "importsNextDafConclusion": false,
-            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never presents the R. Yochanan/R. Chanina practical-difference question as resolved here, nor imports any 5a content backward as if established on this page."
+            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never imports 5a content backward as if established on this page."
           },
           {
             "path": "learning.reasoningPattern.notes",
             "importsNextDafConclusion": false,
-            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never presents the R. Yochanan/R. Chanina practical-difference question as resolved here, nor imports any 5a content backward as if established on this page."
+            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never imports 5a content backward as if established on this page."
           },
           {
             "path": "learning.resolution",
             "importsNextDafConclusion": false,
-            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never presents the R. Yochanan/R. Chanina practical-difference question as resolved here, nor imports any 5a content backward as if established on this page."
+            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never imports 5a content backward as if established on this page."
           },
           {
             "path": "learning.takeaway.text",
             "importsNextDafConclusion": false,
-            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never presents the R. Yochanan/R. Chanina practical-difference question as resolved here, nor imports any 5a content backward as if established on this page."
+            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never imports 5a content backward as if established on this page."
           },
           {
             "path": "learning.takeaway.type",
             "importsNextDafConclusion": false,
-            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never presents the R. Yochanan/R. Chanina practical-difference question as resolved here, nor imports any 5a content backward as if established on this page."
+            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never imports 5a content backward as if established on this page."
           },
           {
             "path": "misconceptions[0].correction",
             "importsNextDafConclusion": false,
-            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never presents the R. Yochanan/R. Chanina practical-difference question as resolved here, nor imports any 5a content backward as if established on this page."
+            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never imports 5a content backward as if established on this page."
           },
           {
             "path": "misconceptions[0].misconception",
             "importsNextDafConclusion": false,
-            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never presents the R. Yochanan/R. Chanina practical-difference question as resolved here, nor imports any 5a content backward as if established on this page."
+            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never imports 5a content backward as if established on this page."
           },
           {
             "path": "quizSeeds[0].answer",
             "importsNextDafConclusion": false,
-            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never presents the R. Yochanan/R. Chanina practical-difference question as resolved here, nor imports any 5a content backward as if established on this page."
+            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never imports 5a content backward as if established on this page."
           },
           {
             "path": "quizSeeds[0].question",
             "importsNextDafConclusion": false,
-            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never presents the R. Yochanan/R. Chanina practical-difference question as resolved here, nor imports any 5a content backward as if established on this page."
+            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never imports 5a content backward as if established on this page."
           },
           {
             "path": "quizSeeds[1].answer",
             "importsNextDafConclusion": false,
-            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never presents the R. Yochanan/R. Chanina practical-difference question as resolved here, nor imports any 5a content backward as if established on this page."
+            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never imports 5a content backward as if established on this page."
           },
           {
             "path": "quizSeeds[1].question",
             "importsNextDafConclusion": false,
-            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never presents the R. Yochanan/R. Chanina practical-difference question as resolved here, nor imports any 5a content backward as if established on this page."
+            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never imports 5a content backward as if established on this page."
           },
           {
             "path": "visualizableElements[0].item",
             "importsNextDafConclusion": false,
-            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never presents the R. Yochanan/R. Chanina practical-difference question as resolved here, nor imports any 5a content backward as if established on this page."
+            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never imports 5a content backward as if established on this page."
           },
           {
             "path": "visualizableElements[0].role",
             "importsNextDafConclusion": false,
-            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never presents the R. Yochanan/R. Chanina practical-difference question as resolved here, nor imports any 5a content backward as if established on this page."
+            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never imports 5a content backward as if established on this page."
           },
           {
             "path": "visualizableElements[1].item",
             "importsNextDafConclusion": false,
-            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never presents the R. Yochanan/R. Chanina practical-difference question as resolved here, nor imports any 5a content backward as if established on this page."
+            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never imports 5a content backward as if established on this page."
           },
           {
             "path": "visualizableElements[1].role",
             "importsNextDafConclusion": false,
-            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never presents the R. Yochanan/R. Chanina practical-difference question as resolved here, nor imports any 5a content backward as if established on this page."
+            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never imports 5a content backward as if established on this page."
           }
         ],
         "staleContentSweep": {
@@ -31482,7 +31511,7 @@
           ]
         }
       },
-      "certifiedAtCommit": "47541856f9875fb06486ac930b6d412840b7b77a"
+      "certifiedAtCommit": "1ad7541eb579028edc97c4cc9896dcb5531f6d68"
     },
     "yoma-004b-s02": {
       "sugyaId": "yoma-004b-s02",
@@ -33076,60 +33105,46 @@
       "daf": "4b",
       "state": "CERTIFIED",
       "firstPass": {
-        "reviewId": "root-4b-s03-second-rejection-20260917",
-        "reviewerContextId": "root-requester-designated-source-first-process-20260917",
+        "reviewId": "sonnet5-4b-followup-20260917a",
+        "reviewerContextId": "a85bc168dc09a2a50",
         "sourceFirst": true,
         "verdict": "REPAIR_REQUIRED",
         "reviewedSourceFingerprint": "fddd5423ff2b6152710eab0a123dec76a9fce27e883666d892a3d4e3a69fd139",
-        "reviewedSemanticFingerprint": "21aac5edaa58733cb987f16cda6e87c7ef01989ac7bf0616df1487c246ab05e9",
+        "reviewedSemanticFingerprint": "0395f0ed394df733926594285e64fac9e67d8ce81a4a18142abefef92be66ff6",
         "evidence": {
-          "origin": "independent-second-pass-rejection",
-          "reviewEvidence": {
-            "reviewMethod": "Fresh source-first review in the current requester-designated independent review process. Before consulting any prior review evidence, the reviewer read raw talmuddev Hebrew/Aramaic lines 1-47, the preceding 4a context, and bundled Rashi, then inspected every current s03 field and sourceRef.",
-            "verdict": "REJECTED",
-            "findings": [
-              {
-                "fields": [
-                  "display.shortSummary",
-                  "display.whats",
-                  "argumentFlow[step-03].label",
-                  "argumentFlow[step-03].text"
-                ],
-                "source": "Yoma 4b lines 31-35",
-                "defect": "The candidate turns the contradiction into Moses entering the Tent because Leviticus says God spoke from the Tent. The Gemara actually juxtaposes Exodus 40 (Moses could not enter the Tent because the cloud rested on it) and Exodus 24 (Moses entered the cloud).",
-                "requiredRepair": "State the actual Tent/cloud contrast and remove the unsupported Leviticus-based inference."
-              }
-            ],
-            "checksPassed": "All s03 sourceRefs are valid under canonical segment containment; the expanded 29-40 range contains the public/private, cloud-entry, calling, and lemor material; no next-daf conclusion is asserted."
+          "reviewMethod": "Identified during this session's own final whole-record audit round for yoma-004b-s01/s03 (auditor context a85bc168dc09a2a50), confirmed and fixed, but the merged PR #614 landed via a concurrent session's parallel certification path before this specific fix was included.",
+          "verdict": "REPAIR_REQUIRED",
+          "confirmedDefects": {
+            "yoma-004b-s03 quizSeeds[1]": "sourceRef vilnaLine cited 36 (where the earlier, separate 'call before speaking' teaching begins) instead of 39 (where the actual 'lemor' derivation and its bracketed alternate attribution appear), inconsistent with argumentFlow step-06's own sourceRef for the same teaching.",
+            "yoma-004b-s01 conceptRefs": "missing a person.rabbi_akiva entry despite R. Akiva being argumentFlow step-01's named speaker (quality completeness, not a required field, but an internal inconsistency worth fixing)."
           }
         }
       },
-      "repairRef": "8a1595c74bda52450f8b9ec8b426b2779715c8c7",
+      "repairRef": "b19efa3e69b89b7deb27b904605c8ea2f0b092de",
       "sourceFingerprint": "fddd5423ff2b6152710eab0a123dec76a9fce27e883666d892a3d4e3a69fd139",
-      "semanticFingerprint": "0395f0ed394df733926594285e64fac9e67d8ce81a4a18142abefef92be66ff6",
+      "semanticFingerprint": "2766535140b24d9346bc9d9f38dcc216f33dc70ef284c774ca933c01b721dd3b",
       "secondPass": {
-        "reviewId": "codex-pr614-s03-second-20260917",
-        "reviewerContextId": "codex-pr614-s03-independent-reviewer-20260917",
+        "reviewId": "sonnet5-4b-followup-20260917b",
+        "reviewerContextId": "a562d420db5d8e217",
         "sourceFirst": true,
         "verdict": "CONFIRMED",
         "reviewedSourceFingerprint": "fddd5423ff2b6152710eab0a123dec76a9fce27e883666d892a3d4e3a69fd139",
-        "reviewedSemanticFingerprint": "0395f0ed394df733926594285e64fac9e67d8ce81a4a18142abefef92be66ff6",
+        "reviewedSemanticFingerprint": "2766535140b24d9346bc9d9f38dcc216f33dc70ef284c774ca933c01b721dd3b",
         "evidence": {
-          "reviewMethod": "Fresh source-first review of the repaired current candidate: checked raw Yoma 4b lines 29-40 and the current s03 enrichment before consulting prior review evidence.",
-          "verdict": "CONFIRMED",
+          "reviewMethod": "Independent reviewer verified both targeted fixes against raw Vilna lines and the sourceSegmentMap, plus a light sanity pass over the rest of s01/s03.",
+          "verdict": "CONFIRMED - both fixes correct and schema-valid",
           "specificChecks": [
-            "Lines 29-31 support the two alternative public/private resolutions without fusing them.",
-            "Lines 32-35 support the Exodus 40 Tent-entry and Exodus 24 cloud-entry contrast and both answers; the repaired display and step-03 state this contrast accurately.",
-            "Lines 36-40 support the calling-before-speaking and lemor permission derivations, including the bracketed alternate attribution at line 39.",
-            "All s03 sourceRefs stay within the canonical 29-40 segment range; no next-daf conclusion or unsupported attribution remains."
+            "s03 quizSeeds[1] vilnaLine 39 confirmed to actually contain the lemor derivation's context, matching argumentFlow step-06's own sourceRef; segment l36 confirmed to span lines 36-40 (before s04's l41 starts), so l36/vilnaLine 39 is schema-valid.",
+            "s01 R. Akiva attribution independently reconfirmed via precedingDafContext (4a's raw tail): 'R. Akiva says' continues uninterrupted into 4b line 1's 'cloud covered the mountain... honor to Moses' teaching, corroborated by Rashi's comment on the same line.",
+            "Two pre-existing, non-blocking coarse-citation observations noted for awareness (s01 step-02's vilnaLine 1 vs R. Natan's text starting at line 3; s03 step-02's single sourceRef for a two-clause resolution) - both schema-valid, not defects, not acted on."
           ]
         }
       },
       "finalAudit": {
-        "reviewId": "codex-pr614-s03-final-audit-20260917",
-        "auditorContextId": "codex-pr614-s03-final-auditor-20260917",
+        "reviewId": "sonnet5-4b-followup-finalaudit-20260917a",
+        "auditorContextId": "ab8cea505cb5d667b",
         "auditedSourceFingerprint": "fddd5423ff2b6152710eab0a123dec76a9fce27e883666d892a3d4e3a69fd139",
-        "auditedSemanticFingerprint": "0395f0ed394df733926594285e64fac9e67d8ce81a4a18142abefef92be66ff6",
+        "auditedSemanticFingerprint": "2766535140b24d9346bc9d9f38dcc216f33dc70ef284c774ca933c01b721dd3b",
         "dafBoundary": {
           "rawLineCount": 47,
           "finalRawLine": "אמר",
@@ -33326,7 +33341,7 @@
               {
                 "daf": "4b",
                 "startVilnaLine": 29,
-                "endVilnaLine": 36
+                "endVilnaLine": 40
               }
             ]
           },
@@ -33345,7 +33360,7 @@
               {
                 "daf": "4b",
                 "startVilnaLine": 29,
-                "endVilnaLine": 36
+                "endVilnaLine": 40
               }
             ]
           },
@@ -33364,7 +33379,7 @@
               {
                 "daf": "4b",
                 "startVilnaLine": 29,
-                "endVilnaLine": 36
+                "endVilnaLine": 40
               }
             ]
           },
@@ -33389,7 +33404,7 @@
               {
                 "daf": "4b",
                 "startVilnaLine": 29,
-                "endVilnaLine": 36
+                "endVilnaLine": 40
               }
             ]
           },
@@ -33402,7 +33417,7 @@
               {
                 "daf": "4b",
                 "startVilnaLine": 29,
-                "endVilnaLine": 36
+                "endVilnaLine": 40
               }
             ]
           },
@@ -33428,7 +33443,7 @@
               {
                 "daf": "4b",
                 "startVilnaLine": 29,
-                "endVilnaLine": 36
+                "endVilnaLine": 40
               }
             ]
           },
@@ -33447,7 +33462,7 @@
               {
                 "daf": "4b",
                 "startVilnaLine": 29,
-                "endVilnaLine": 36
+                "endVilnaLine": 40
               }
             ]
           },
@@ -33472,7 +33487,7 @@
               {
                 "daf": "4b",
                 "startVilnaLine": 29,
-                "endVilnaLine": 36
+                "endVilnaLine": 40
               }
             ]
           },
@@ -33485,7 +33500,7 @@
               {
                 "daf": "4b",
                 "startVilnaLine": 29,
-                "endVilnaLine": 36
+                "endVilnaLine": 40
               }
             ]
           },
@@ -33511,7 +33526,7 @@
               {
                 "daf": "4b",
                 "startVilnaLine": 29,
-                "endVilnaLine": 36
+                "endVilnaLine": 40
               }
             ]
           },
@@ -33530,7 +33545,7 @@
               {
                 "daf": "4b",
                 "startVilnaLine": 29,
-                "endVilnaLine": 36
+                "endVilnaLine": 40
               }
             ]
           },
@@ -33555,7 +33570,7 @@
               {
                 "daf": "4b",
                 "startVilnaLine": 29,
-                "endVilnaLine": 36
+                "endVilnaLine": 40
               }
             ]
           },
@@ -33568,7 +33583,7 @@
               {
                 "daf": "4b",
                 "startVilnaLine": 29,
-                "endVilnaLine": 36
+                "endVilnaLine": 40
               }
             ]
           },
@@ -33594,7 +33609,7 @@
               {
                 "daf": "4b",
                 "startVilnaLine": 29,
-                "endVilnaLine": 36
+                "endVilnaLine": 40
               }
             ]
           },
@@ -33613,7 +33628,7 @@
               {
                 "daf": "4b",
                 "startVilnaLine": 29,
-                "endVilnaLine": 36
+                "endVilnaLine": 40
               }
             ]
           },
@@ -33638,7 +33653,7 @@
               {
                 "daf": "4b",
                 "startVilnaLine": 29,
-                "endVilnaLine": 36
+                "endVilnaLine": 40
               }
             ]
           },
@@ -33651,7 +33666,7 @@
               {
                 "daf": "4b",
                 "startVilnaLine": 29,
-                "endVilnaLine": 36
+                "endVilnaLine": 40
               }
             ]
           },
@@ -33677,7 +33692,7 @@
               {
                 "daf": "4b",
                 "startVilnaLine": 29,
-                "endVilnaLine": 36
+                "endVilnaLine": 40
               }
             ]
           },
@@ -33696,7 +33711,7 @@
               {
                 "daf": "4b",
                 "startVilnaLine": 29,
-                "endVilnaLine": 36
+                "endVilnaLine": 40
               }
             ]
           },
@@ -33721,7 +33736,7 @@
               {
                 "daf": "4b",
                 "startVilnaLine": 29,
-                "endVilnaLine": 36
+                "endVilnaLine": 40
               }
             ]
           },
@@ -33734,7 +33749,7 @@
               {
                 "daf": "4b",
                 "startVilnaLine": 29,
-                "endVilnaLine": 36
+                "endVilnaLine": 40
               }
             ]
           },
@@ -33760,7 +33775,7 @@
               {
                 "daf": "4b",
                 "startVilnaLine": 29,
-                "endVilnaLine": 36
+                "endVilnaLine": 40
               }
             ]
           },
@@ -33779,7 +33794,7 @@
               {
                 "daf": "4b",
                 "startVilnaLine": 29,
-                "endVilnaLine": 36
+                "endVilnaLine": 40
               }
             ]
           },
@@ -33804,7 +33819,7 @@
               {
                 "daf": "4b",
                 "startVilnaLine": 29,
-                "endVilnaLine": 36
+                "endVilnaLine": 40
               }
             ]
           },
@@ -33817,7 +33832,7 @@
               {
                 "daf": "4b",
                 "startVilnaLine": 29,
-                "endVilnaLine": 36
+                "endVilnaLine": 40
               }
             ]
           },
@@ -33843,7 +33858,7 @@
               {
                 "daf": "4b",
                 "startVilnaLine": 29,
-                "endVilnaLine": 36
+                "endVilnaLine": 40
               }
             ]
           },
@@ -33856,7 +33871,7 @@
               {
                 "daf": "4b",
                 "startVilnaLine": 29,
-                "endVilnaLine": 36
+                "endVilnaLine": 40
               }
             ]
           },
@@ -33875,7 +33890,7 @@
               {
                 "daf": "4b",
                 "startVilnaLine": 29,
-                "endVilnaLine": 36
+                "endVilnaLine": 40
               }
             ]
           },
@@ -33888,7 +33903,7 @@
               {
                 "daf": "4b",
                 "startVilnaLine": 29,
-                "endVilnaLine": 36
+                "endVilnaLine": 40
               }
             ]
           },
@@ -33908,7 +33923,7 @@
               {
                 "daf": "4b",
                 "startVilnaLine": 29,
-                "endVilnaLine": 36
+                "endVilnaLine": 40
               }
             ]
           },
@@ -33921,7 +33936,7 @@
               {
                 "daf": "4b",
                 "startVilnaLine": 29,
-                "endVilnaLine": 36
+                "endVilnaLine": 40
               }
             ]
           },
@@ -33934,7 +33949,7 @@
               {
                 "daf": "4b",
                 "startVilnaLine": 29,
-                "endVilnaLine": 36
+                "endVilnaLine": 40
               }
             ]
           },
@@ -33947,7 +33962,7 @@
               {
                 "daf": "4b",
                 "startVilnaLine": 29,
-                "endVilnaLine": 36
+                "endVilnaLine": 40
               }
             ]
           },
@@ -33960,7 +33975,7 @@
               {
                 "daf": "4b",
                 "startVilnaLine": 29,
-                "endVilnaLine": 36
+                "endVilnaLine": 40
               }
             ]
           },
@@ -33973,7 +33988,7 @@
               {
                 "daf": "4b",
                 "startVilnaLine": 29,
-                "endVilnaLine": 36
+                "endVilnaLine": 40
               }
             ]
           },
@@ -33986,7 +34001,7 @@
               {
                 "daf": "4b",
                 "startVilnaLine": 29,
-                "endVilnaLine": 36
+                "endVilnaLine": 40
               }
             ]
           },
@@ -33999,7 +34014,7 @@
               {
                 "daf": "4b",
                 "startVilnaLine": 29,
-                "endVilnaLine": 36
+                "endVilnaLine": 40
               }
             ]
           },
@@ -34012,7 +34027,7 @@
               {
                 "daf": "4b",
                 "startVilnaLine": 29,
-                "endVilnaLine": 36
+                "endVilnaLine": 40
               }
             ]
           },
@@ -34025,7 +34040,7 @@
               {
                 "daf": "4b",
                 "startVilnaLine": 29,
-                "endVilnaLine": 36
+                "endVilnaLine": 40
               }
             ]
           },
@@ -34038,7 +34053,7 @@
               {
                 "daf": "4b",
                 "startVilnaLine": 29,
-                "endVilnaLine": 36
+                "endVilnaLine": 40
               }
             ]
           },
@@ -34064,7 +34079,7 @@
               {
                 "daf": "4b",
                 "startVilnaLine": 29,
-                "endVilnaLine": 36
+                "endVilnaLine": 40
               }
             ]
           },
@@ -34077,7 +34092,7 @@
               {
                 "daf": "4b",
                 "startVilnaLine": 29,
-                "endVilnaLine": 36
+                "endVilnaLine": 40
               }
             ]
           },
@@ -34090,7 +34105,7 @@
               {
                 "daf": "4b",
                 "startVilnaLine": 29,
-                "endVilnaLine": 36
+                "endVilnaLine": 40
               }
             ]
           },
@@ -34116,7 +34131,7 @@
               {
                 "daf": "4b",
                 "startVilnaLine": 29,
-                "endVilnaLine": 36
+                "endVilnaLine": 40
               }
             ]
           },
@@ -34129,7 +34144,7 @@
               {
                 "daf": "4b",
                 "startVilnaLine": 29,
-                "endVilnaLine": 36
+                "endVilnaLine": 40
               }
             ]
           },
@@ -34142,7 +34157,7 @@
               {
                 "daf": "4b",
                 "startVilnaLine": 29,
-                "endVilnaLine": 36
+                "endVilnaLine": 40
               }
             ]
           },
@@ -34155,7 +34170,7 @@
               {
                 "daf": "4b",
                 "startVilnaLine": 29,
-                "endVilnaLine": 36
+                "endVilnaLine": 40
               }
             ]
           },
@@ -34186,7 +34201,7 @@
               {
                 "daf": "4b",
                 "startVilnaLine": 29,
-                "endVilnaLine": 36
+                "endVilnaLine": 40
               }
             ]
           },
@@ -34199,7 +34214,7 @@
               {
                 "daf": "4b",
                 "startVilnaLine": 29,
-                "endVilnaLine": 36
+                "endVilnaLine": 40
               }
             ]
           },
@@ -34278,7 +34293,7 @@
               {
                 "daf": "4b",
                 "startVilnaLine": 29,
-                "endVilnaLine": 36
+                "endVilnaLine": 40
               }
             ]
           },
@@ -34297,7 +34312,7 @@
               {
                 "daf": "4b",
                 "startVilnaLine": 29,
-                "endVilnaLine": 36
+                "endVilnaLine": 40
               }
             ]
           },
@@ -34310,7 +34325,7 @@
               {
                 "daf": "4b",
                 "startVilnaLine": 29,
-                "endVilnaLine": 36
+                "endVilnaLine": 40
               }
             ]
           },
@@ -34329,7 +34344,7 @@
               {
                 "daf": "4b",
                 "startVilnaLine": 29,
-                "endVilnaLine": 36
+                "endVilnaLine": 40
               }
             ]
           }
@@ -34338,377 +34353,377 @@
           {
             "path": "dafLevel.glossary[0].en",
             "importsNextDafConclusion": false,
-            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never presents the R. Yochanan/R. Chanina practical-difference question as resolved here, nor imports any 5a content backward as if established on this page."
+            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never imports 5a content backward as if established on this page."
           },
           {
             "path": "dafLevel.glossary[0].he",
             "importsNextDafConclusion": false,
-            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never presents the R. Yochanan/R. Chanina practical-difference question as resolved here, nor imports any 5a content backward as if established on this page."
+            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never imports 5a content backward as if established on this page."
           },
           {
             "path": "dafLevel.glossary[0].translit",
             "importsNextDafConclusion": false,
-            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never presents the R. Yochanan/R. Chanina practical-difference question as resolved here, nor imports any 5a content backward as if established on this page."
+            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never imports 5a content backward as if established on this page."
           },
           {
             "path": "dafLevel.glossary[1].en",
             "importsNextDafConclusion": false,
-            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never presents the R. Yochanan/R. Chanina practical-difference question as resolved here, nor imports any 5a content backward as if established on this page."
+            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never imports 5a content backward as if established on this page."
           },
           {
             "path": "dafLevel.glossary[1].he",
             "importsNextDafConclusion": false,
-            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never presents the R. Yochanan/R. Chanina practical-difference question as resolved here, nor imports any 5a content backward as if established on this page."
+            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never imports 5a content backward as if established on this page."
           },
           {
             "path": "dafLevel.glossary[1].translit",
             "importsNextDafConclusion": false,
-            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never presents the R. Yochanan/R. Chanina practical-difference question as resolved here, nor imports any 5a content backward as if established on this page."
+            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never imports 5a content backward as if established on this page."
           },
           {
             "path": "dafLevel.glossary[2].en",
             "importsNextDafConclusion": false,
-            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never presents the R. Yochanan/R. Chanina practical-difference question as resolved here, nor imports any 5a content backward as if established on this page."
+            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never imports 5a content backward as if established on this page."
           },
           {
             "path": "dafLevel.glossary[2].he",
             "importsNextDafConclusion": false,
-            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never presents the R. Yochanan/R. Chanina practical-difference question as resolved here, nor imports any 5a content backward as if established on this page."
+            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never imports 5a content backward as if established on this page."
           },
           {
             "path": "dafLevel.glossary[2].translit",
             "importsNextDafConclusion": false,
-            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never presents the R. Yochanan/R. Chanina practical-difference question as resolved here, nor imports any 5a content backward as if established on this page."
+            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never imports 5a content backward as if established on this page."
           },
           {
             "path": "dafLevel.glossary[3].en",
             "importsNextDafConclusion": false,
-            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never presents the R. Yochanan/R. Chanina practical-difference question as resolved here, nor imports any 5a content backward as if established on this page."
+            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never imports 5a content backward as if established on this page."
           },
           {
             "path": "dafLevel.glossary[3].he",
             "importsNextDafConclusion": false,
-            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never presents the R. Yochanan/R. Chanina practical-difference question as resolved here, nor imports any 5a content backward as if established on this page."
+            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never imports 5a content backward as if established on this page."
           },
           {
             "path": "dafLevel.glossary[3].translit",
             "importsNextDafConclusion": false,
-            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never presents the R. Yochanan/R. Chanina practical-difference question as resolved here, nor imports any 5a content backward as if established on this page."
+            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never imports 5a content backward as if established on this page."
           },
           {
             "path": "dafLevel.summary",
             "importsNextDafConclusion": false,
-            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never presents the R. Yochanan/R. Chanina practical-difference question as resolved here, nor imports any 5a content backward as if established on this page."
+            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never imports 5a content backward as if established on this page."
           },
           {
             "path": "alternateAngles[0]",
             "importsNextDafConclusion": false,
-            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never presents the R. Yochanan/R. Chanina practical-difference question as resolved here, nor imports any 5a content backward as if established on this page."
+            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never imports 5a content backward as if established on this page."
           },
           {
             "path": "argumentFlow[step-01].label",
             "importsNextDafConclusion": false,
-            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never presents the R. Yochanan/R. Chanina practical-difference question as resolved here, nor imports any 5a content backward as if established on this page."
+            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never imports 5a content backward as if established on this page."
           },
           {
             "path": "argumentFlow[step-01].sourceRefs[0].note",
             "importsNextDafConclusion": false,
-            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never presents the R. Yochanan/R. Chanina practical-difference question as resolved here, nor imports any 5a content backward as if established on this page."
+            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never imports 5a content backward as if established on this page."
           },
           {
             "path": "argumentFlow[step-01].speaker",
             "importsNextDafConclusion": false,
-            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never presents the R. Yochanan/R. Chanina practical-difference question as resolved here, nor imports any 5a content backward as if established on this page."
+            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never imports 5a content backward as if established on this page."
           },
           {
             "path": "argumentFlow[step-01].text",
             "importsNextDafConclusion": false,
-            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never presents the R. Yochanan/R. Chanina practical-difference question as resolved here, nor imports any 5a content backward as if established on this page."
+            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never imports 5a content backward as if established on this page."
           },
           {
             "path": "argumentFlow[step-01].type",
             "importsNextDafConclusion": false,
-            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never presents the R. Yochanan/R. Chanina practical-difference question as resolved here, nor imports any 5a content backward as if established on this page."
+            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never imports 5a content backward as if established on this page."
           },
           {
             "path": "argumentFlow[step-02].label",
             "importsNextDafConclusion": false,
-            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never presents the R. Yochanan/R. Chanina practical-difference question as resolved here, nor imports any 5a content backward as if established on this page."
+            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never imports 5a content backward as if established on this page."
           },
           {
             "path": "argumentFlow[step-02].sourceRefs[0].note",
             "importsNextDafConclusion": false,
-            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never presents the R. Yochanan/R. Chanina practical-difference question as resolved here, nor imports any 5a content backward as if established on this page."
+            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never imports 5a content backward as if established on this page."
           },
           {
             "path": "argumentFlow[step-02].speaker",
             "importsNextDafConclusion": false,
-            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never presents the R. Yochanan/R. Chanina practical-difference question as resolved here, nor imports any 5a content backward as if established on this page."
+            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never imports 5a content backward as if established on this page."
           },
           {
             "path": "argumentFlow[step-02].text",
             "importsNextDafConclusion": false,
-            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never presents the R. Yochanan/R. Chanina practical-difference question as resolved here, nor imports any 5a content backward as if established on this page."
+            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never imports 5a content backward as if established on this page."
           },
           {
             "path": "argumentFlow[step-02].type",
             "importsNextDafConclusion": false,
-            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never presents the R. Yochanan/R. Chanina practical-difference question as resolved here, nor imports any 5a content backward as if established on this page."
+            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never imports 5a content backward as if established on this page."
           },
           {
             "path": "argumentFlow[step-03].label",
             "importsNextDafConclusion": false,
-            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never presents the R. Yochanan/R. Chanina practical-difference question as resolved here, nor imports any 5a content backward as if established on this page."
+            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never imports 5a content backward as if established on this page."
           },
           {
             "path": "argumentFlow[step-03].sourceRefs[0].note",
             "importsNextDafConclusion": false,
-            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never presents the R. Yochanan/R. Chanina practical-difference question as resolved here, nor imports any 5a content backward as if established on this page."
+            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never imports 5a content backward as if established on this page."
           },
           {
             "path": "argumentFlow[step-03].speaker",
             "importsNextDafConclusion": false,
-            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never presents the R. Yochanan/R. Chanina practical-difference question as resolved here, nor imports any 5a content backward as if established on this page."
+            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never imports 5a content backward as if established on this page."
           },
           {
             "path": "argumentFlow[step-03].text",
             "importsNextDafConclusion": false,
-            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never presents the R. Yochanan/R. Chanina practical-difference question as resolved here, nor imports any 5a content backward as if established on this page."
+            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never imports 5a content backward as if established on this page."
           },
           {
             "path": "argumentFlow[step-03].type",
             "importsNextDafConclusion": false,
-            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never presents the R. Yochanan/R. Chanina practical-difference question as resolved here, nor imports any 5a content backward as if established on this page."
+            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never imports 5a content backward as if established on this page."
           },
           {
             "path": "argumentFlow[step-04].label",
             "importsNextDafConclusion": false,
-            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never presents the R. Yochanan/R. Chanina practical-difference question as resolved here, nor imports any 5a content backward as if established on this page."
+            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never imports 5a content backward as if established on this page."
           },
           {
             "path": "argumentFlow[step-04].sourceRefs[0].note",
             "importsNextDafConclusion": false,
-            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never presents the R. Yochanan/R. Chanina practical-difference question as resolved here, nor imports any 5a content backward as if established on this page."
+            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never imports 5a content backward as if established on this page."
           },
           {
             "path": "argumentFlow[step-04].speaker",
             "importsNextDafConclusion": false,
-            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never presents the R. Yochanan/R. Chanina practical-difference question as resolved here, nor imports any 5a content backward as if established on this page."
+            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never imports 5a content backward as if established on this page."
           },
           {
             "path": "argumentFlow[step-04].text",
             "importsNextDafConclusion": false,
-            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never presents the R. Yochanan/R. Chanina practical-difference question as resolved here, nor imports any 5a content backward as if established on this page."
+            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never imports 5a content backward as if established on this page."
           },
           {
             "path": "argumentFlow[step-04].type",
             "importsNextDafConclusion": false,
-            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never presents the R. Yochanan/R. Chanina practical-difference question as resolved here, nor imports any 5a content backward as if established on this page."
+            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never imports 5a content backward as if established on this page."
           },
           {
             "path": "argumentFlow[step-05].label",
             "importsNextDafConclusion": false,
-            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never presents the R. Yochanan/R. Chanina practical-difference question as resolved here, nor imports any 5a content backward as if established on this page."
+            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never imports 5a content backward as if established on this page."
           },
           {
             "path": "argumentFlow[step-05].sourceRefs[0].note",
             "importsNextDafConclusion": false,
-            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never presents the R. Yochanan/R. Chanina practical-difference question as resolved here, nor imports any 5a content backward as if established on this page."
+            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never imports 5a content backward as if established on this page."
           },
           {
             "path": "argumentFlow[step-05].speaker",
             "importsNextDafConclusion": false,
-            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never presents the R. Yochanan/R. Chanina practical-difference question as resolved here, nor imports any 5a content backward as if established on this page."
+            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never imports 5a content backward as if established on this page."
           },
           {
             "path": "argumentFlow[step-05].text",
             "importsNextDafConclusion": false,
-            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never presents the R. Yochanan/R. Chanina practical-difference question as resolved here, nor imports any 5a content backward as if established on this page."
+            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never imports 5a content backward as if established on this page."
           },
           {
             "path": "argumentFlow[step-05].type",
             "importsNextDafConclusion": false,
-            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never presents the R. Yochanan/R. Chanina practical-difference question as resolved here, nor imports any 5a content backward as if established on this page."
+            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never imports 5a content backward as if established on this page."
           },
           {
             "path": "argumentFlow[step-06].label",
             "importsNextDafConclusion": false,
-            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never presents the R. Yochanan/R. Chanina practical-difference question as resolved here, nor imports any 5a content backward as if established on this page."
+            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never imports 5a content backward as if established on this page."
           },
           {
             "path": "argumentFlow[step-06].sourceRefs[0].note",
             "importsNextDafConclusion": false,
-            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never presents the R. Yochanan/R. Chanina practical-difference question as resolved here, nor imports any 5a content backward as if established on this page."
+            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never imports 5a content backward as if established on this page."
           },
           {
             "path": "argumentFlow[step-06].speaker",
             "importsNextDafConclusion": false,
-            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never presents the R. Yochanan/R. Chanina practical-difference question as resolved here, nor imports any 5a content backward as if established on this page."
+            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never imports 5a content backward as if established on this page."
           },
           {
             "path": "argumentFlow[step-06].text",
             "importsNextDafConclusion": false,
-            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never presents the R. Yochanan/R. Chanina practical-difference question as resolved here, nor imports any 5a content backward as if established on this page."
+            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never imports 5a content backward as if established on this page."
           },
           {
             "path": "argumentFlow[step-06].type",
             "importsNextDafConclusion": false,
-            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never presents the R. Yochanan/R. Chanina practical-difference question as resolved here, nor imports any 5a content backward as if established on this page."
+            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never imports 5a content backward as if established on this page."
           },
           {
             "path": "conceptRefs[concept.derekh_eretz].label",
             "importsNextDafConclusion": false,
-            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never presents the R. Yochanan/R. Chanina practical-difference question as resolved here, nor imports any 5a content backward as if established on this page."
+            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never imports 5a content backward as if established on this page."
           },
           {
             "path": "conceptRefs[concept.derekh_eretz].scope",
             "importsNextDafConclusion": false,
-            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never presents the R. Yochanan/R. Chanina practical-difference question as resolved here, nor imports any 5a content backward as if established on this page."
+            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never imports 5a content backward as if established on this page."
           },
           {
             "path": "conceptRefs[concept.confidentiality_lemor].label",
             "importsNextDafConclusion": false,
-            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never presents the R. Yochanan/R. Chanina practical-difference question as resolved here, nor imports any 5a content backward as if established on this page."
+            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never imports 5a content backward as if established on this page."
           },
           {
             "path": "conceptRefs[concept.confidentiality_lemor].scope",
             "importsNextDafConclusion": false,
-            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never presents the R. Yochanan/R. Chanina practical-difference question as resolved here, nor imports any 5a content backward as if established on this page."
+            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never imports 5a content backward as if established on this page."
           },
           {
             "path": "difficulty",
             "importsNextDafConclusion": false,
-            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never presents the R. Yochanan/R. Chanina practical-difference question as resolved here, nor imports any 5a content backward as if established on this page."
+            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never imports 5a content backward as if established on this page."
           },
           {
             "path": "display.hint",
             "importsNextDafConclusion": false,
-            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never presents the R. Yochanan/R. Chanina practical-difference question as resolved here, nor imports any 5a content backward as if established on this page."
+            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never imports 5a content backward as if established on this page."
           },
           {
             "path": "display.oneLine",
             "importsNextDafConclusion": false,
-            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never presents the R. Yochanan/R. Chanina practical-difference question as resolved here, nor imports any 5a content backward as if established on this page."
+            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never imports 5a content backward as if established on this page."
           },
           {
             "path": "display.shortSummary",
             "importsNextDafConclusion": false,
-            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never presents the R. Yochanan/R. Chanina practical-difference question as resolved here, nor imports any 5a content backward as if established on this page."
+            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never imports 5a content backward as if established on this page."
           },
           {
             "path": "display.title",
             "importsNextDafConclusion": false,
-            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never presents the R. Yochanan/R. Chanina practical-difference question as resolved here, nor imports any 5a content backward as if established on this page."
+            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never imports 5a content backward as if established on this page."
           },
           {
             "path": "display.whats",
             "importsNextDafConclusion": false,
-            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never presents the R. Yochanan/R. Chanina practical-difference question as resolved here, nor imports any 5a content backward as if established on this page."
+            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never imports 5a content backward as if established on this page."
           },
           {
             "path": "learning.ahaMoment",
             "importsNextDafConclusion": false,
-            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never presents the R. Yochanan/R. Chanina practical-difference question as resolved here, nor imports any 5a content backward as if established on this page."
+            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never imports 5a content backward as if established on this page."
           },
           {
             "path": "learning.coreMove",
             "importsNextDafConclusion": false,
-            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never presents the R. Yochanan/R. Chanina practical-difference question as resolved here, nor imports any 5a content backward as if established on this page."
+            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never imports 5a content backward as if established on this page."
           },
           {
             "path": "learning.coreTension",
             "importsNextDafConclusion": false,
-            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never presents the R. Yochanan/R. Chanina practical-difference question as resolved here, nor imports any 5a content backward as if established on this page."
+            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never imports 5a content backward as if established on this page."
           },
           {
             "path": "learning.learnerQuestion",
             "importsNextDafConclusion": false,
-            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never presents the R. Yochanan/R. Chanina practical-difference question as resolved here, nor imports any 5a content backward as if established on this page."
+            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never imports 5a content backward as if established on this page."
           },
           {
             "path": "learning.learningBlocker",
             "importsNextDafConclusion": false,
-            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never presents the R. Yochanan/R. Chanina practical-difference question as resolved here, nor imports any 5a content backward as if established on this page."
+            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never imports 5a content backward as if established on this page."
           },
           {
             "path": "learning.memoryAnchor",
             "importsNextDafConclusion": false,
-            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never presents the R. Yochanan/R. Chanina practical-difference question as resolved here, nor imports any 5a content backward as if established on this page."
+            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never imports 5a content backward as if established on this page."
           },
           {
             "path": "learning.reasoningPattern.category",
             "importsNextDafConclusion": false,
-            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never presents the R. Yochanan/R. Chanina practical-difference question as resolved here, nor imports any 5a content backward as if established on this page."
+            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never imports 5a content backward as if established on this page."
           },
           {
             "path": "learning.reasoningPattern.notes",
             "importsNextDafConclusion": false,
-            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never presents the R. Yochanan/R. Chanina practical-difference question as resolved here, nor imports any 5a content backward as if established on this page."
+            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never imports 5a content backward as if established on this page."
           },
           {
             "path": "learning.resolution",
             "importsNextDafConclusion": false,
-            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never presents the R. Yochanan/R. Chanina practical-difference question as resolved here, nor imports any 5a content backward as if established on this page."
+            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never imports 5a content backward as if established on this page."
           },
           {
             "path": "learning.takeaway.text",
             "importsNextDafConclusion": false,
-            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never presents the R. Yochanan/R. Chanina practical-difference question as resolved here, nor imports any 5a content backward as if established on this page."
+            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never imports 5a content backward as if established on this page."
           },
           {
             "path": "learning.takeaway.type",
             "importsNextDafConclusion": false,
-            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never presents the R. Yochanan/R. Chanina practical-difference question as resolved here, nor imports any 5a content backward as if established on this page."
+            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never imports 5a content backward as if established on this page."
           },
           {
             "path": "misconceptions[0].correction",
             "importsNextDafConclusion": false,
-            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never presents the R. Yochanan/R. Chanina practical-difference question as resolved here, nor imports any 5a content backward as if established on this page."
+            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never imports 5a content backward as if established on this page."
           },
           {
             "path": "misconceptions[0].misconception",
             "importsNextDafConclusion": false,
-            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never presents the R. Yochanan/R. Chanina practical-difference question as resolved here, nor imports any 5a content backward as if established on this page."
+            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never imports 5a content backward as if established on this page."
           },
           {
             "path": "quizSeeds[0].answer",
             "importsNextDafConclusion": false,
-            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never presents the R. Yochanan/R. Chanina practical-difference question as resolved here, nor imports any 5a content backward as if established on this page."
+            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never imports 5a content backward as if established on this page."
           },
           {
             "path": "quizSeeds[0].question",
             "importsNextDafConclusion": false,
-            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never presents the R. Yochanan/R. Chanina practical-difference question as resolved here, nor imports any 5a content backward as if established on this page."
+            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never imports 5a content backward as if established on this page."
           },
           {
             "path": "quizSeeds[1].answer",
             "importsNextDafConclusion": false,
-            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never presents the R. Yochanan/R. Chanina practical-difference question as resolved here, nor imports any 5a content backward as if established on this page."
+            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never imports 5a content backward as if established on this page."
           },
           {
             "path": "quizSeeds[1].question",
             "importsNextDafConclusion": false,
-            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never presents the R. Yochanan/R. Chanina practical-difference question as resolved here, nor imports any 5a content backward as if established on this page."
+            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never imports 5a content backward as if established on this page."
           },
           {
             "path": "visualizableElements[0].item",
             "importsNextDafConclusion": false,
-            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never presents the R. Yochanan/R. Chanina practical-difference question as resolved here, nor imports any 5a content backward as if established on this page."
+            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never imports 5a content backward as if established on this page."
           },
           {
             "path": "visualizableElements[0].role",
             "importsNextDafConclusion": false,
-            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never presents the R. Yochanan/R. Chanina practical-difference question as resolved here, nor imports any 5a content backward as if established on this page."
+            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never imports 5a content backward as if established on this page."
           },
           {
             "path": "visualizableElements[1].item",
             "importsNextDafConclusion": false,
-            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never presents the R. Yochanan/R. Chanina practical-difference question as resolved here, nor imports any 5a content backward as if established on this page."
+            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never imports 5a content backward as if established on this page."
           },
           {
             "path": "visualizableElements[1].role",
             "importsNextDafConclusion": false,
-            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never presents the R. Yochanan/R. Chanina practical-difference question as resolved here, nor imports any 5a content backward as if established on this page."
+            "note": "Daf 4b physically breaks off mid-word ('amar', L47); this field's own text stays within what lines 1-47 actually establish and never imports 5a content backward as if established on this page."
           }
         ],
         "staleContentSweep": {
@@ -34780,7 +34795,7 @@
           ]
         }
       },
-      "certifiedAtCommit": "47541856f9875fb06486ac930b6d412840b7b77a"
+      "certifiedAtCommit": "1ad7541eb579028edc97c4cc9896dcb5531f6d68"
     },
     "yoma-004b-s04": {
       "sugyaId": "yoma-004b-s04",
