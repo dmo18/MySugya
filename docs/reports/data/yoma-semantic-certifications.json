@@ -44209,29 +44209,33 @@
       "daf": "6a",
       "state": "REPAIRED_PENDING_REVIEW",
       "firstPass": {
-        "reviewId": "sonnet5-6a-secondpass-round2-20260917",
-        "reviewerContextId": "a93c19320297a5422",
+        "reviewId": "sonnet5-6a-secondpass-round3-20260917",
+        "reviewerContextId": "a6da63cb284e9c89b",
         "sourceFirst": true,
         "verdict": "REPAIR_REQUIRED",
         "reviewedSourceFingerprint": "5f0d054602d895f6d9aa64c3b1d90f91e37a7fbf85cf276045a5a07c13510ee3",
-        "reviewedSemanticFingerprint": "b09ab014dbcd97e47dd103172c1b89338e596a9d334d62f506c75b8b473a4cd6",
+        "reviewedSemanticFingerprint": "2ee286ecc188ff8d8a8accf1962c9ae43f93974034345194a9187ef22d2c03b9",
         "evidence": {
           "origin": "independent-second-pass-rejection",
           "reviewEvidence": {
             "verdict": "REJECTED",
-            "reviewerContextId": "a93c19320297a5422",
-            "summary": "Fresh independent second-pass review (genuinely different context from both the round-1 repair a6749807a314bfcfe... [n/a for 6a] and the round-2 review a2a396697d1b460c3). Independently re-verified all four checkpoints from prior rounds (step-07's open-challenge framing; Rav Shimi's sliver-not-counted mechanism; step-09's l33/33 citation; finalRuling's hedged framing) -- all confirmed accurate. Found one new defect.",
+            "reviewerContextId": "a6da63cb284e9c89b",
+            "summary": "Fourth fresh reviewer context, checked all 10 argumentFlow sourceRefs individually against sourceSegmentMap containment ranges. All 10 lineId/vilnaLine citations confirmed structurally sound this round (the mis-citation defect class from rounds 1-3 is resolved). Found one new, previously-unflagged wording defect.",
             "defectFound": {
-              "field": "yoma-006a-s03.argumentFlow[step-10].sourceRefs[0]",
-              "before": "lineId yoma-006a-l33, vilnaLine 33",
-              "problem": "l33's actual content (Vilna 33-34) is the deflection itself, already correctly cited by step-09. Step-10 describes the daf's own cutoff moment ('the answer continues on the next daf'), which corresponds to raw line 35 -- the single word 'ela' where the text physically stops, covered by the distinct segment yoma-006a-l35 that exists in sourceSegmentMap for exactly this purpose. Rashi's own comment on that line confirms the resolution continues on 6b.",
-              "fix": "sourceRef corrected to lineId yoma-006a-l35, vilnaLine 35."
+              "fields": [
+                "dafLevel.summary",
+                "yoma-006a-s03.display.whats",
+                "yoma-006a-s03.argumentFlow[step-10].sourceRefs[0].note"
+              ],
+              "problem": "All three fields described the daf's line-35 cutoff as 'mid-word', but raw line 35 is the single complete word 'ela' ('rather/but') - the sentence is unfinished, not the word itself. Same MID_WORD-vs-MID_SENTENCE distinction already corrected for Yoma 5a/5b in this campaign.",
+              "fix": "Reworded all three to 'mid-sentence at the complete word ela', matching the established convention."
             },
-            "otherChecksConfirmedClean": "Misconceptions, quizSeeds, topicTags, visualizableElements, requiresUnderstanding, and the glossary's chad-achar/achar-achar framing all matched the raw source and Rashi with no fabrication, no scope bleed from 6b, and no invented mechanisms."
+            "consideredNotActionable": "A second point raised (raw line 34's 'this one...that one, both seven-day impurity' possibly misreading baal keri as having seven-day duration) was independently re-examined: the more natural referent for 'hai...vehai' is the bo'el-niddah/tamei-met pair (both genuinely have explicit 7-day duration in their own verses), not baal keri, which resolves the apparent inconsistency without needing to touch the raw source text. The current enrichment (step-09/step-10) already stays appropriately general ('both impurity durations') without committing to a specific pair, so no enrichment change was needed here. Raw source text is protected and was not edited.",
+            "otherChecksConfirmedClean": "finalRuling, topicTags, requiresUnderstanding, misconceptions, quizSeeds all pass contract and factual checks; no fabricated argumentFlow steps; no 6b or s02 content bleed."
           }
         }
       },
-      "repairRef": "f5a100ea796d476dac19893095060f992e551cb0"
+      "repairRef": "3796cac0ab3bf9aca5473fa382fe7bb81475dfb9"
     },
     "yoma-006b-s01": {
       "sugyaId": "yoma-006b-s01",
