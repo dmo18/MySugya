@@ -36465,8 +36465,8 @@
       "daf": "5a",
       "state": "REPAIRED_PENDING_REVIEW",
       "firstPass": {
-        "reviewId": "sonnet5-5a-second-20260917b",
-        "reviewerContextId": "a0e22d722e74025c1",
+        "reviewId": "sonnet5-5a-second-20260917d",
+        "reviewerContextId": "a20ffdc1d9515d917",
         "sourceFirst": true,
         "verdict": "REPAIR_REQUIRED",
         "reviewedSourceFingerprint": "923cfada46e98693d0e35d08c73fc0f2e2861e1665df84ab75145475c61f783f",
@@ -36474,21 +36474,20 @@
         "evidence": {
           "origin": "independent-second-pass-rejection",
           "reviewEvidence": {
-            "reviewMethod": "Genuinely fresh third-context independent reviewer (no access to any prior reviewer's findings) reconstructed daf 5a from raw Hebrew/Aramaic and bundled Rashi from scratch, then evaluated the round-2-repaired enrichment.",
-            "verdict": "s01 CLEAN/CONFIRMED; s02 REJECTED - one confirmed sourceRef under-citation",
+            "reviewMethod": "Genuinely fresh fourth-context independent reviewer (no access to any prior reviewer's findings) reconstructed daf 5a sugya yoma-005a-s02 from raw Hebrew/Aramaic and bundled Rashi from scratch, verified step-02's l27/l30/l34 sourceRefs are correct, then checked every other field for internal consistency.",
+            "verdict": "REJECTED - one confirmed sourceRef metadata inconsistency",
             "confirmedDefects": {
-              "yoma-005a-s02 argumentFlow step-02 and matching quizSeed": "sourceRef cited only l27 (vilna 27-29, the Lev 16:32 verse-quote and opening question) for the full claim including the 'mikol makom / any combination suffices' conclusion, but that conclusion's actual derivation and payload live in segments l30 (30-33) and l34 (34), neither cited. Added l30 and l34 to step-02's sourceRefs; added l34 to the matching quizSeed's sourceRefs."
+              "yoma-005a-s02 argumentFlow step-05, first sourceRefs entry": "lineId 'yoma-005a-l38' paired with vilnaLine 39, inconsistent with every other sourceRef in this sugya (which pair each lineId with its own segment-start vilnaLine value). Fixed to vilnaLine 38, with the note clarifying the actual referenced phrase sits at vilna line 39 within that segment's span."
             },
             "verifiedClean": [
-              "yoma-005a-s01: fully clean across all fields, including the l22 boundary-case handling (step-06) which was independently re-verified as correctly disclosed, not fabricated.",
-              "yoma-005a-s02: all other sourceRefs (step-01, step-03, step-04, step-05, other quizSeeds) confirmed correct; the daf's mid-sentence cutoff handling (correctly attributing the 'requirements written elsewhere' continuation to Rashi's own note, never to 5a's own Gemara text) verified across every field.",
-              "dafLevel.summary: clean.",
-              "No cross-sugya sourceRef violations found anywhere on the daf."
+              "step-02's l27/l30/l34 sourceRefs (added in round 3) fully and correctly support the 'mikol makom' conclusion across that range - independently re-verified against raw source and the bundled Sefaria/Steinsaltz translation.",
+              "All other fields (display, learning, remaining argumentFlow steps, conceptRefs, misconceptions, relatedSugyot, visualizableElements, quizSeeds, finalRuling, topicTags, glossary) verified clean.",
+              "No fabrication, misattribution, reversed logic, premature closure, or cross-sugya sourceRef violations found."
             ]
           }
         }
       },
-      "repairRef": "334d69756db5c36d6ddd7093ab05a78c16c0b563"
+      "repairRef": "9ff3d6ac565b80df939e02754b66a8267fc7e9f8"
     },
     "yoma-005b-s01": {
       "sugyaId": "yoma-005b-s01",
