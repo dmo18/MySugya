@@ -29951,56 +29951,27 @@
     "yoma-004b-s01": {
       "sugyaId": "yoma-004b-s01",
       "daf": "4b",
-      "state": "PENDING_FINAL_AUDIT",
+      "state": "REPAIRED_PENDING_REVIEW",
       "firstPass": {
-        "reviewId": "sonnet5-4b-second-20260917c",
-        "reviewerContextId": "aa2ee4368c2ade367",
+        "reviewId": "sonnet5-4b-round5audit-20260917a",
+        "reviewerContextId": "a85bc168dc09a2a50",
         "sourceFirst": true,
         "verdict": "REPAIR_REQUIRED",
-        "reviewedSourceFingerprint": "6b2c647511d1c7d9a3620fd7933a41381c4c605523b31c4709887432a12751d6",
-        "reviewedSemanticFingerprint": "88e5e937d3fcaa03a3b10f2238eb5418df10c17a6e52ec65b7ff27b00e0c4889",
-        "evidence": {
-          "origin": "independent-second-pass-rejection",
-          "reviewEvidence": {
-            "reviewMethod": "Genuinely fresh fourth-context independent reviewer (no access to any prior reviewer's findings) reconstructed daf 4b from raw Hebrew/Aramaic and bundled Rashi from scratch, then evaluated the round-3-repaired enrichment (reviewed before a concurrent session's parallel refinement pass was merged in).",
-            "verdict": "REJECTED for s01 and s02 - confirmed defects found; s03 and s04 independently confirmed clean by this same pass",
-            "confirmedDefects": {
-              "yoma-004b-s01 quizSeeds[1]": "Misattributed a verse-citation to Rav Adda bar Mattana that was actually made earlier by R. Matya ben Charash (line 8); Rav Adda only answers a follow-up question about a phrase within that already-cited verse (line 9). (Independently, a concurrent session's parallel refinement, merged into this branch, already fixed this exact defect the same way.)",
-              "yoma-004b-s02 argumentFlow step-02 + quizSeeds[0]": "sourceRef cited segment l16 (lines 16-20, R. Yosi HaGalili's position-identification and a refutation about the seventh-day calling) instead of the correct l21 (lines 21-24, which contains R. Akiva's own position-identification AND his arithmetic, per the sourceSegmentMap boundaries).",
-              "yoma-004b-s02 argumentFlow step-03": "sourceRef cited segment l21 (R. Akiva's material) instead of the correct l25 (lines 25-26, R. Yosi HaGalili's arithmetic problem statement)."
-            },
-            "verifiedClean": [
-              "yoma-004b-s01: dafLevel-adjacent claims, R. Akiva/R. Natan/R. Matya readings, Rashi-grounded chronology-tie claims all verified accurate; only the quizSeed misattribution (defect above) found.",
-              "yoma-004b-s02: both arithmetic counts (R. Akiva 24+16=40; R. Yosi HaGalili overshoot to 23 Tammuz resolved by folding separation days) independently re-derived and verified correct; only the two sourceRef segment mismatches above found, not arithmetic errors.",
-              "yoma-004b-s03: fully clean, including correct non-fabrication of the obscure line-39 bracketed attribution and correct segment containment on every sourceRef.",
-              "yoma-004b-s04: fully clean, including correct 'both of them' = Reish Lakish/R. Yochanan reattribution and correct segment containment on every sourceRef.",
-              "dafLevel.summary: clean."
-            ]
-          }
-        }
-      },
-      "repairRef": "b07275fafa68fe19d014bf35b002e18872cc975d",
-      "sourceFingerprint": "288843d0183d9e1400d20b45d4f4fa1beb69df69d1fa197b7554a9214c9091df",
-      "semanticFingerprint": "88824b84fff40420ee26a1e151e7fbd8238829a5794b069068eb72abf790878f",
-      "secondPass": {
-        "reviewId": "sonnet5-4b-second-20260917e",
-        "reviewerContextId": "a4292fb094ab02b18",
-        "sourceFirst": true,
-        "verdict": "CONFIRMED",
         "reviewedSourceFingerprint": "288843d0183d9e1400d20b45d4f4fa1beb69df69d1fa197b7554a9214c9091df",
         "reviewedSemanticFingerprint": "88824b84fff40420ee26a1e151e7fbd8238829a5794b069068eb72abf790878f",
         "evidence": {
-          "reviewMethod": "Genuinely fresh sixth-context independent reviewer verified a concurrent session's lineRange boundary correction (s01 endVilnaLine 5->9; s03 endVilnaLine 36->40) directly against sourceSegmentMap and raw Vilna lines, then performed a full fresh source-first review of s01 and s03's entire enrichment content.",
-          "verdict": "BOTH CLEAN - boundary correction confirmed accurate; no content defects found",
-          "specificChecks": [
-            "s01: segment l05 mechanically spans vilna lines 5-9 (before s02's first segment l10 starts at 10); endVilnaLine 9 confirmed correct.",
-            "s03: segment l36 mechanically spans vilna lines 36-40 (before s04's first segment l41 starts at 41); endVilnaLine 40 confirmed correct.",
-            "s01: all four argumentFlow steps, Rashi-grounded chronology-tie claims, and sourceRefs re-verified clean.",
-            "s03: all six argumentFlow steps re-verified clean, including the two independent public/private resolutions, two independent cloud-entry answers, and the lemor derivation's correctly-hedged obscure bracketed alternate attribution (vilnaLine 39 confirmed accurate).",
-            "Enrichment-contract compliance (display.hint as questions, finalRuling policy, topicTags format) checked for both sugyot."
+          "reviewMethod": "Genuinely fresh sixth-context Final Whole-Record Auditor (targeted at s01/s03) reconstructed both sugyot from raw Hebrew/Aramaic and the raw text of 5a, then performed the mandatory boundary-leakage and stale-content sweeps.",
+          "verdict": "REPAIR_REQUIRED - one confirmed stale-content finding (an unrelated attribution concern raised by this same auditor was independently re-verified against 4a's raw tail and rejected: the 'cloud covered the mountain... honor to Moses' teaching is unambiguously R. Akiva's own statement, a direct grammatical continuation from his explicitly-marked 'R. Akiva says' on 4a's last line; the later line-28 citation of the same conclusion in R. Elazar's name is a standard independent-corroboration ('mesaya leih') citation, not a reattribution of authorship)",
+          "confirmedDefects": {
+            "yoma-004b-s03 quizSeeds[1]": "sourceRef vilnaLine cited 36 (where the earlier, separate 'call before speaking' teaching begins) instead of 39 (where the actual 'lemor' derivation and its bracketed alternate attribution appear, matching argumentFlow step-06's own already-corrected sourceRef)."
+          },
+          "minorNonBlockingObservations": [
+            "s01's conceptRefs list did not include a person entry for R. Akiva despite being step-01's named speaker; added for completeness (not a required field per the campaign's field-inventory rules, but improves quality).",
+            "s01 step-04 and s03 step-06 each ground their final teaching's exact quoted content one Vilna line past their own sugya's last segment's containment range (line 10 for s01, belonging to s02's own first segment; line 41 for s03, belonging to s04's own first segment). Both already-certified adjacent sugyot (s02, s04) correctly own those lines per the sourceSegmentMap. The vilnaLine metadata on both affected sourceRefs is schema-compliant (within their own segment's containment range); this is a minor cross-paragraph traceability note, not a fabrication, misattribution, or schema violation, and does not warrant touching the already-certified adjacent sugyot."
           ]
         }
-      }
+      },
+      "repairRef": "ed277a8a7e9a3d7f39f789a24a94239a5e0bfb0d"
     },
     "yoma-004b-s02": {
       "sugyaId": "yoma-004b-s02",
@@ -31592,56 +31563,27 @@
     "yoma-004b-s03": {
       "sugyaId": "yoma-004b-s03",
       "daf": "4b",
-      "state": "PENDING_FINAL_AUDIT",
+      "state": "REPAIRED_PENDING_REVIEW",
       "firstPass": {
-        "reviewId": "sonnet5-4b-second-20260917a",
-        "reviewerContextId": "a9b00f21257a02e4b",
+        "reviewId": "sonnet5-4b-round5audit-20260917a",
+        "reviewerContextId": "a85bc168dc09a2a50",
         "sourceFirst": true,
         "verdict": "REPAIR_REQUIRED",
-        "reviewedSourceFingerprint": "0ac9a4c1f0275d0b9f48b1f2ddb7bdca4a6ac1f4bba97d32e067b5be3bbc34cf",
-        "reviewedSemanticFingerprint": "b104d7728d7fc38f89a55b46764a7ea043ae0020d2eba36b04f69af78fa4773b",
-        "evidence": {
-          "origin": "independent-second-pass-rejection",
-          "reviewEvidence": {
-            "reviewMethod": "Independent, mutually-blind reviewer (no access to Source Auditor's findings) reconstructed daf 4b from raw Hebrew/Aramaic and bundled Rashi from scratch, then evaluated the round-1-repaired enrichment.",
-            "verdict": "REJECTED - three confirmed defects found, two of which were errors introduced by the round-1 repair itself",
-            "confirmedDefects": {
-              "dafLevel.summary / yoma-004b-s02": "The baraita's 'given on the 7th' position is authored by a sage named plain 'Rabbi Yosi' (line 13, distinct from 'Rabbi Yosi HaGalili'); R. Akiva's alignment with that view is a separate, later Gemara statement (line 21, 'R. Akiva holds like Rabbi Yosi'). Round-1 wording glossed over this, risking the impression the baraita itself names R. Akiva for the 7th-day view.",
-              "yoma-004b-s02 step-05 (round-1 repair error)": "Round-1 repair introduced an unsupported claim that 'the verse doubles Moses's name' as the derash mechanism for R. Elazar's honor-reading. The bracketed '[Moshe]' in line 1 and the repeated 'Moshe Moshe' in line 27 are the Gemara's own citation/paraphrase style, not a Torah-text name-doubling derash; Rashi's comment on this point (lines 4-5) grounds the honor-derash in the public context (Israel standing by), never in name-repetition. No name-doubling derash (of the classic 'Avraham Avraham' type) is attested in the source or Rashi for this line.",
-              "yoma-004b-s03 step-06 (round-1 repair error)": "Round-1 repair introduced an attribution to 'Rav Mesharshiya' as an alternate name for this teaching's author. This name does not appear anywhere in this daf's raw text or bundled Rashi. The source's actual bracketed alternate attribution (line 39) is a different, genuinely obscure name ('R. Musia the son of the son of R. Msia, in the name of R. Musia'); 'Rav Mesharshiya' appears to have been mistakenly carried over from an unrelated attribution on daf 2b."
-            },
-            "verifiedClean": [
-              "yoma-004b-s01: fully clean, including the Rashi-grounded R. Yosi HaGalili/R. Akiva chronology-tie claims added in round 1.",
-              "yoma-004b-s04: fully clean, including the correct reattribution of 'both of them' to Reish Lakish/R. Yochanan (not R. Yochanan/R. Chanina) and the silence-based elimination identification.",
-              "yoma-004b-s02: the calendar arithmetic itself (24+16=40 for R. Akiva; folding six separation days for R. Yosi HaGalili reaching 23 Tammuz otherwise) verified fully accurate.",
-              "yoma-004b-s03: the two independent public/private resolutions, the two independent cloud-entry answers, and the 'call before speaking'/'lemor' derivations (other than the misattributed alternate name) all verified accurate and correctly presented as independent alternatives, not fused.",
-              "No cross-sugya sourceRef violations found anywhere on the daf; no misquoted line citations found."
-            ]
-          }
-        }
-      },
-      "repairRef": "b07275fafa68fe19d014bf35b002e18872cc975d",
-      "sourceFingerprint": "fddd5423ff2b6152710eab0a123dec76a9fce27e883666d892a3d4e3a69fd139",
-      "semanticFingerprint": "21aac5edaa58733cb987f16cda6e87c7ef01989ac7bf0616df1487c246ab05e9",
-      "secondPass": {
-        "reviewId": "sonnet5-4b-second-20260917e",
-        "reviewerContextId": "a4292fb094ab02b18",
-        "sourceFirst": true,
-        "verdict": "CONFIRMED",
         "reviewedSourceFingerprint": "fddd5423ff2b6152710eab0a123dec76a9fce27e883666d892a3d4e3a69fd139",
         "reviewedSemanticFingerprint": "21aac5edaa58733cb987f16cda6e87c7ef01989ac7bf0616df1487c246ab05e9",
         "evidence": {
-          "reviewMethod": "Genuinely fresh sixth-context independent reviewer verified a concurrent session's lineRange boundary correction (s01 endVilnaLine 5->9; s03 endVilnaLine 36->40) directly against sourceSegmentMap and raw Vilna lines, then performed a full fresh source-first review of s01 and s03's entire enrichment content.",
-          "verdict": "BOTH CLEAN - boundary correction confirmed accurate; no content defects found",
-          "specificChecks": [
-            "s01: segment l05 mechanically spans vilna lines 5-9 (before s02's first segment l10 starts at 10); endVilnaLine 9 confirmed correct.",
-            "s03: segment l36 mechanically spans vilna lines 36-40 (before s04's first segment l41 starts at 41); endVilnaLine 40 confirmed correct.",
-            "s01: all four argumentFlow steps, Rashi-grounded chronology-tie claims, and sourceRefs re-verified clean.",
-            "s03: all six argumentFlow steps re-verified clean, including the two independent public/private resolutions, two independent cloud-entry answers, and the lemor derivation's correctly-hedged obscure bracketed alternate attribution (vilnaLine 39 confirmed accurate).",
-            "Enrichment-contract compliance (display.hint as questions, finalRuling policy, topicTags format) checked for both sugyot."
+          "reviewMethod": "Genuinely fresh sixth-context Final Whole-Record Auditor (targeted at s01/s03) reconstructed both sugyot from raw Hebrew/Aramaic and the raw text of 5a, then performed the mandatory boundary-leakage and stale-content sweeps.",
+          "verdict": "REPAIR_REQUIRED - one confirmed stale-content finding (an unrelated attribution concern raised by this same auditor was independently re-verified against 4a's raw tail and rejected: the 'cloud covered the mountain... honor to Moses' teaching is unambiguously R. Akiva's own statement, a direct grammatical continuation from his explicitly-marked 'R. Akiva says' on 4a's last line; the later line-28 citation of the same conclusion in R. Elazar's name is a standard independent-corroboration ('mesaya leih') citation, not a reattribution of authorship)",
+          "confirmedDefects": {
+            "yoma-004b-s03 quizSeeds[1]": "sourceRef vilnaLine cited 36 (where the earlier, separate 'call before speaking' teaching begins) instead of 39 (where the actual 'lemor' derivation and its bracketed alternate attribution appear, matching argumentFlow step-06's own already-corrected sourceRef)."
+          },
+          "minorNonBlockingObservations": [
+            "s01's conceptRefs list did not include a person entry for R. Akiva despite being step-01's named speaker; added for completeness (not a required field per the campaign's field-inventory rules, but improves quality).",
+            "s01 step-04 and s03 step-06 each ground their final teaching's exact quoted content one Vilna line past their own sugya's last segment's containment range (line 10 for s01, belonging to s02's own first segment; line 41 for s03, belonging to s04's own first segment). Both already-certified adjacent sugyot (s02, s04) correctly own those lines per the sourceSegmentMap. The vilnaLine metadata on both affected sourceRefs is schema-compliant (within their own segment's containment range); this is a minor cross-paragraph traceability note, not a fabrication, misattribution, or schema violation, and does not warrant touching the already-certified adjacent sugyot."
           ]
         }
-      }
+      },
+      "repairRef": "ed277a8a7e9a3d7f39f789a24a94239a5e0bfb0d"
     },
     "yoma-004b-s04": {
       "sugyaId": "yoma-004b-s04",

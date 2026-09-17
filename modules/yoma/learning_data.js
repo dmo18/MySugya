@@ -7687,6 +7687,11 @@ const DAF_CONTENT = {
         ],
         conceptRefs: [
           {
+            id: "person.rabbi_akiva",
+            label: "R. Akiva",
+            scope: "global"
+          },
+          {
             id: "person.rabbi_natan",
             label: "Rabbi Natan",
             scope: "global"
@@ -8179,7 +8184,7 @@ const DAF_CONTENT = {
               {
                 sourceType: "gemara",
                 lineId: "yoma-004b-l36",
-                vilnaLine: 36
+                vilnaLine: 39
               }
             ]
           }
