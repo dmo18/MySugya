@@ -29951,7 +29951,7 @@
     "yoma-004b-s01": {
       "sugyaId": "yoma-004b-s01",
       "daf": "4b",
-      "state": "REPAIRED_PENDING_REVIEW",
+      "state": "PENDING_FINAL_AUDIT",
       "firstPass": {
         "reviewId": "sonnet5-4b-second-20260917c",
         "reviewerContextId": "aa2ee4368c2ade367",
@@ -29979,7 +29979,28 @@
           }
         }
       },
-      "repairRef": "b07275fafa68fe19d014bf35b002e18872cc975d"
+      "repairRef": "b07275fafa68fe19d014bf35b002e18872cc975d",
+      "sourceFingerprint": "288843d0183d9e1400d20b45d4f4fa1beb69df69d1fa197b7554a9214c9091df",
+      "semanticFingerprint": "88824b84fff40420ee26a1e151e7fbd8238829a5794b069068eb72abf790878f",
+      "secondPass": {
+        "reviewId": "sonnet5-4b-second-20260917e",
+        "reviewerContextId": "a4292fb094ab02b18",
+        "sourceFirst": true,
+        "verdict": "CONFIRMED",
+        "reviewedSourceFingerprint": "288843d0183d9e1400d20b45d4f4fa1beb69df69d1fa197b7554a9214c9091df",
+        "reviewedSemanticFingerprint": "88824b84fff40420ee26a1e151e7fbd8238829a5794b069068eb72abf790878f",
+        "evidence": {
+          "reviewMethod": "Genuinely fresh sixth-context independent reviewer verified a concurrent session's lineRange boundary correction (s01 endVilnaLine 5->9; s03 endVilnaLine 36->40) directly against sourceSegmentMap and raw Vilna lines, then performed a full fresh source-first review of s01 and s03's entire enrichment content.",
+          "verdict": "BOTH CLEAN - boundary correction confirmed accurate; no content defects found",
+          "specificChecks": [
+            "s01: segment l05 mechanically spans vilna lines 5-9 (before s02's first segment l10 starts at 10); endVilnaLine 9 confirmed correct.",
+            "s03: segment l36 mechanically spans vilna lines 36-40 (before s04's first segment l41 starts at 41); endVilnaLine 40 confirmed correct.",
+            "s01: all four argumentFlow steps, Rashi-grounded chronology-tie claims, and sourceRefs re-verified clean.",
+            "s03: all six argumentFlow steps re-verified clean, including the two independent public/private resolutions, two independent cloud-entry answers, and the lemor derivation's correctly-hedged obscure bracketed alternate attribution (vilnaLine 39 confirmed accurate).",
+            "Enrichment-contract compliance (display.hint as questions, finalRuling policy, topicTags format) checked for both sugyot."
+          ]
+        }
+      }
     },
     "yoma-004b-s02": {
       "sugyaId": "yoma-004b-s02",
@@ -31571,7 +31592,7 @@
     "yoma-004b-s03": {
       "sugyaId": "yoma-004b-s03",
       "daf": "4b",
-      "state": "REPAIRED_PENDING_REVIEW",
+      "state": "PENDING_FINAL_AUDIT",
       "firstPass": {
         "reviewId": "sonnet5-4b-second-20260917a",
         "reviewerContextId": "a9b00f21257a02e4b",
@@ -31599,7 +31620,28 @@
           }
         }
       },
-      "repairRef": "b07275fafa68fe19d014bf35b002e18872cc975d"
+      "repairRef": "b07275fafa68fe19d014bf35b002e18872cc975d",
+      "sourceFingerprint": "fddd5423ff2b6152710eab0a123dec76a9fce27e883666d892a3d4e3a69fd139",
+      "semanticFingerprint": "21aac5edaa58733cb987f16cda6e87c7ef01989ac7bf0616df1487c246ab05e9",
+      "secondPass": {
+        "reviewId": "sonnet5-4b-second-20260917e",
+        "reviewerContextId": "a4292fb094ab02b18",
+        "sourceFirst": true,
+        "verdict": "CONFIRMED",
+        "reviewedSourceFingerprint": "fddd5423ff2b6152710eab0a123dec76a9fce27e883666d892a3d4e3a69fd139",
+        "reviewedSemanticFingerprint": "21aac5edaa58733cb987f16cda6e87c7ef01989ac7bf0616df1487c246ab05e9",
+        "evidence": {
+          "reviewMethod": "Genuinely fresh sixth-context independent reviewer verified a concurrent session's lineRange boundary correction (s01 endVilnaLine 5->9; s03 endVilnaLine 36->40) directly against sourceSegmentMap and raw Vilna lines, then performed a full fresh source-first review of s01 and s03's entire enrichment content.",
+          "verdict": "BOTH CLEAN - boundary correction confirmed accurate; no content defects found",
+          "specificChecks": [
+            "s01: segment l05 mechanically spans vilna lines 5-9 (before s02's first segment l10 starts at 10); endVilnaLine 9 confirmed correct.",
+            "s03: segment l36 mechanically spans vilna lines 36-40 (before s04's first segment l41 starts at 41); endVilnaLine 40 confirmed correct.",
+            "s01: all four argumentFlow steps, Rashi-grounded chronology-tie claims, and sourceRefs re-verified clean.",
+            "s03: all six argumentFlow steps re-verified clean, including the two independent public/private resolutions, two independent cloud-entry answers, and the lemor derivation's correctly-hedged obscure bracketed alternate attribution (vilnaLine 39 confirmed accurate).",
+            "Enrichment-contract compliance (display.hint as questions, finalRuling policy, topicTags format) checked for both sugyot."
+          ]
+        }
+      }
     },
     "yoma-004b-s04": {
       "sugyaId": "yoma-004b-s04",
