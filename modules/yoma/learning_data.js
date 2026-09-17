@@ -7849,8 +7849,8 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-004b-l16",
-                vilnaLine: 16,
+                lineId: "yoma-004b-l21",
+                vilnaLine: 22,
                 note: "R. Akiva's arithmetic: 24 + 16 = 40, ending 17 Tammuz"
               }
             ]
@@ -7864,8 +7864,8 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-004b-l21",
-                vilnaLine: 21,
+                lineId: "yoma-004b-l25",
+                vilnaLine: 25,
                 note: "R. Yosi HaGalili's arithmetic problem"
               }
             ]
@@ -7946,8 +7946,8 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-004b-l16",
-                vilnaLine: 16
+                lineId: "yoma-004b-l21",
+                vilnaLine: 22
               }
             ]
           },
