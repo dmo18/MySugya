@@ -98,6 +98,12 @@
               "lineId": "yoma-008a-l04",
               "vilnaLine": 4,
               "note": "R. Shimon's verse derivations"
+            },
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-008a-l06",
+              "vilnaLine": 6,
+              "note": "Explicit confirmation: R. Shimon too derives location from bare 'al mitzcho'"
             }
           ]
         },
@@ -399,12 +405,6 @@
               "lineId": "yoma-008a-l26",
               "vilnaLine": 26,
               "note": "Second hypothesis opened: R. Meir's tevila-bizmana-mitzva position"
-            },
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-008a-l28",
-              "vilnaLine": 28,
-              "note": "R. Yosei's opposing position stated"
             }
           ]
         },
@@ -413,7 +413,7 @@
           "type": "rejection",
           "label": "Second hypothesis rejected: R. Yosei elsewhere holds tevila bizmana IS a mitzva",
           "speaker": "Gemara",
-          "text": "From another context (a person with God's name tattooed who wraps reed to immerse on Yom Kippur without rubbing), we know R. Yosei holds that immersion on time IS a mitzva. So R. Yosei cannot be disputing this.",
+          "text": "From another context (a person with God's name tattooed who wraps a reed to immerse without rubbing), we know R. Yosei holds that immersion on time IS a mitzva. So R. Yosei cannot be disputing this.",
           "sourceRefs": [
             {
               "sourceType": "gemara",
