@@ -58605,7 +58605,7 @@
     "yoma-008a-s02": {
       "sugyaId": "yoma-008a-s02",
       "daf": "8a",
-      "state": "REPAIRED_PENDING_REVIEW",
+      "state": "PENDING_FINAL_AUDIT",
       "firstPass": {
         "reviewId": "yoma-8a-finalaudit-r1-first",
         "reviewerContextId": "a0cc41facdfa1a802",
@@ -58624,7 +58624,23 @@
           }
         }
       },
-      "repairRef": "a2f5f5f19e4057e19c04a175fed4b9a3fc27d474"
+      "repairRef": "a2f5f5f19e4057e19c04a175fed4b9a3fc27d474",
+      "sourceFingerprint": "727ec2af6d12419ad7ba3697ded524bf9ea032f51550b019104cdc8e4e3221c8",
+      "semanticFingerprint": "464c671beb01b852cd2d2588f8a4314a89b51338c1877123356fa1d5cfe68126",
+      "secondPass": {
+        "reviewId": "yoma-8a-r7-second",
+        "reviewerContextId": "a9fb77380582dcf40",
+        "sourceFirst": true,
+        "verdict": "CONFIRMED",
+        "reviewedSourceFingerprint": "727ec2af6d12419ad7ba3697ded524bf9ea032f51550b019104cdc8e4e3221c8",
+        "reviewedSemanticFingerprint": "464c671beb01b852cd2d2588f8a4314a89b51338c1877123356fa1d5cfe68126",
+        "evidence": {
+          "verdict": "CONFIRMED",
+          "reviewerContextId": "a9fb77380582dcf40",
+          "summary": "Independent second-pass review, mutually-blind from the round-7 repair context, doing a genuinely full fresh audit of every field in s02. Independently reconstructed s02 cold from raw Hebrew before reading any enrichment field, then verified all 8 argumentFlow steps against live Sefaria segments (Yoma.8a.6-8a.15, Hebrew+English) with exact matches and no regressions (including the round-4 reed/R.-Yosei attribution fix, re-confirmed correct). Verified the round-7 fix directly: read yoma-006a-s02's full live content and confirmed it discusses only the safek-niddah/tumah concern, no immersion whatsoever -- the corrected reason string is accurate, not an overcorrection. Also independently double-checked relatedSugyot[0] (target yoma-008b-s01) against that sugya's own live content and confirmed its reason string is factually supported (non-blocking wording-precision note only, not a defect). Confirmed dafSummaryVerdict VERIFIED, boundaryVerdict VERIFIED including the genuine MID_SENTENCE ending (Sefaria has no Yoma.8a.16 segment; nothing cites it). All enrichment-contract fields (hint, finalRuling, topicTags, requiresUnderstanding, prerequisiteKnowledge, visualizableElements) confirmed compliant. No defect found anywhere in yoma-008a-s02.",
+          "declaration": "Independently re-read the full sugya and re-derived every claim from scratch, blind to prior-round reasoning, with a different review id from the round-6 second pass and the Final Whole-Record Auditor. No defect found; confirms this record is ready for certification."
+        }
+      }
     },
     "yoma-008b-s01": {
       "sugyaId": "yoma-008b-s01",
