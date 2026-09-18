@@ -58605,7 +58605,7 @@
     "yoma-008a-s02": {
       "sugyaId": "yoma-008a-s02",
       "daf": "8a",
-      "state": "REPAIRED_PENDING_REVIEW",
+      "state": "PENDING_FINAL_AUDIT",
       "firstPass": {
         "reviewId": "yoma-8a-finalaudit4-r1-second",
         "reviewerContextId": "a7bca34da16e53771",
@@ -58625,7 +58625,23 @@
           }
         }
       },
-      "repairRef": "05dfb81f07e5bd636e47914152a326a2047d620c"
+      "repairRef": "05dfb81f07e5bd636e47914152a326a2047d620c",
+      "sourceFingerprint": "727ec2af6d12419ad7ba3697ded524bf9ea032f51550b019104cdc8e4e3221c8",
+      "semanticFingerprint": "ae8ca205965e7fb7134c88af94ccc0c8e3098be7b83b443fb8d60688e6c81571",
+      "secondPass": {
+        "reviewId": "yoma-8a-r12-second",
+        "reviewerContextId": "a23fb24dc6c5a90e0",
+        "sourceFirst": true,
+        "verdict": "CONFIRMED",
+        "reviewedSourceFingerprint": "727ec2af6d12419ad7ba3697ded524bf9ea032f51550b019104cdc8e4e3221c8",
+        "reviewedSemanticFingerprint": "ae8ca205965e7fb7134c88af94ccc0c8e3098be7b83b443fb8d60688e6c81571",
+        "evidence": {
+          "verdict": "CONFIRMED",
+          "reviewerContextId": "a23fb24dc6c5a90e0",
+          "summary": "Independent second-pass review, mutually-blind from the round-12 repair context. Confirmed both round-12 changes accurate: (1) 'Kohen Gadol' -> 'kohein gadol' spelling fully propagated, zero remaining instances of the old spelling anywhere in s02, verified by grep; (2) relatedSugyot[1].reason (target yoma-006a-s02) verified accurate and a genuine precision improvement, correctly distinguishing the safek-niddah concern from 8a's own corpse-impurity concern, confirmed by reading yoma-006a-s02's live content directly. All 8 argumentFlow steps re-verified against live Sefaria with exact, correctly-scoped citations. Enrichment-contract compliance confirmed. relatedSugyot[0] (target yoma-008b-s01) also re-checked and confirmed accurate.",
+          "declaration": "The reviewer raised one additional finding (declaredLineRange.endVilnaLine=41 and the lineMap's sefariaRef for vilna line 41 don't correspond to a live Sefaria segment, since Sefaria's digital text has no separate segment for the print catchword) but this was independently investigated and found NOT to be a defect: the repo's own protected source (modules/yoma/assets/talmuddev/8a.json) was directly verified by the orchestrating session to genuinely contain 41 gemara lines, with the word 'she-zeh' as the authoritative final line of 8a -- a classic Vilna Shas catchword (reklamante), already established and documented as such in an earlier round of this campaign (the word appears twice in the protected source: once as 8a's own printed catchword, once again as 8b's genuine opening word). Sefaria's digital segmentation simply does not represent print catchwords as separate segments; this does not make the protected source's line count wrong. The reviewer's live-Sefaria-only check could not see this because it never consulted the protected talmuddev source. No argumentFlow step cites a 'Yoma.8a.16' sefariaRef directly (step-08 cites l39/Yoma.8a.15 only), so no semantic claim is affected either way. The reviewer's second, explicitly non-blocking finding (cross-sugya topicTags 'kohen-gadol' vs 'kohein-gadol' spelling drift across 6a-s02/8a-s02/8b-s01) is a corpus-wide convention question, out of scope for this daf's repair, consistent with the advisory findings already logged and left unactioned in rounds 9 and 10. No defect requiring repair found anywhere in yoma-008a-s02."
+        }
+      }
     },
     "yoma-008b-s01": {
       "sugyaId": "yoma-008b-s01",
