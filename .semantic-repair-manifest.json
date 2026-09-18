@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "type": "semantic-daf-certify",
+  "type": "semantic-daf-repair",
   "module": "yoma",
   "daf": "8a",
   "sugyaIds": [
