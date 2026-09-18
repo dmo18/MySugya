@@ -49680,7 +49680,7 @@
     "yoma-006b-s01": {
       "sugyaId": "yoma-006b-s01",
       "daf": "6b",
-      "state": "REPAIRED_PENDING_REVIEW",
+      "state": "PENDING_FINAL_AUDIT",
       "firstPass": {
         "reviewId": "sonnet5-6b-round1-20260918b",
         "reviewerContextId": "a2dc186e2f7440258",
@@ -49713,45 +49713,51 @@
           ]
         }
       },
-      "repairRef": "dec9447f5dcd59481b3cbbb64f5a8bbf6c2761ad"
+      "repairRef": "dec9447f5dcd59481b3cbbb64f5a8bbf6c2761ad",
+      "sourceFingerprint": "bab2cee2e55ca1d4ee68382859ffd4f4eb0f5846e257d173d467d0760d0dee2f",
+      "semanticFingerprint": "4314010677d0d430d59f11837dd7412ee9ab72ea23685a90b83543b475bc38fc",
+      "secondPass": {
+        "reviewId": "sonnet5-6b-secondpass-20260918",
+        "reviewerContextId": "a9d6d3d0c10fdd742",
+        "sourceFirst": true,
+        "verdict": "CONFIRMED",
+        "reviewedSourceFingerprint": "bab2cee2e55ca1d4ee68382859ffd4f4eb0f5846e257d173d467d0760d0dee2f",
+        "reviewedSemanticFingerprint": "4314010677d0d430d59f11837dd7412ee9ab72ea23685a90b83543b475bc38fc",
+        "evidence": {
+          "verdict": "CLEAN",
+          "reviewerContextId": "a9d6d3d0c10fdd742",
+          "summary": "Independent second-pass review, mutually-blind from the round-1 repair context (a2dc186e2f7440258). Cross-checked every objection/rejection/resolution step against Sefaria's live API. Confirmed: bo'el niddah's mishkav/moshav transmission is correctly described as the mild rishon-le-tumah form (Sefaria Yoma.6b.2), not av hatumah; 6a's dangling immersion-timing question is correctly resolved on 6b, not claimed resolved on 6a; all sourceRefs lineId/vilnaLine pairs resolve correctly within their declared segment ranges; finalRuling, topicTags, and requiresUnderstanding all contract-compliant. No defects found in s01."
+        }
+      }
     },
     "yoma-006b-s02": {
       "sugyaId": "yoma-006b-s02",
       "daf": "6b",
       "state": "REPAIRED_PENDING_REVIEW",
       "firstPass": {
-        "reviewId": "sonnet5-6b-round1-20260918b",
-        "reviewerContextId": "a2dc186e2f7440258",
+        "reviewId": "sonnet5-6b-secondpass-20260918",
+        "reviewerContextId": "a9d6d3d0c10fdd742",
         "sourceFirst": true,
         "verdict": "REPAIR_REQUIRED",
         "reviewedSourceFingerprint": "a17ad93b19e637df9ed7bdb3b77a74e0c26f8e6d795e790895b5136142b73d6b",
-        "reviewedSemanticFingerprint": "30d31f6cb33c790692f59d8cce6ff6aee775c839f90b905326bc9f5bd1f33ebc",
+        "reviewedSemanticFingerprint": "c40f7bf02125a8f4904a72c99309c46891fcc9c996f4d2309bb9a2991e76e934",
         "evidence": {
-          "verdict": "REPAIR_REQUIRED",
-          "auditorContextId": "a2dc186e2f7440258",
-          "summary": "Fresh, isolated Source Auditor first-pass audit of Yoma 6b (yoma-006b-s01, yoma-006b-s02), independently reconstructed from rawHebrewLines and relevantRashi, with every objection/resolution step cross-checked against Sefaria's live API. Confirmed defects, now repaired.",
-          "majorFindings": [
-            "dafLevel.summary's final sentence misstated the beit-av dispute's scope: verified against Sefaria Yoma.6b.7 that everyone agrees a MIXED beit av (some pure, some impure) simply uses its pure priests -- no dispute there. The dispute is narrower: whether to summon from a DIFFERENT beit av when the entire on-duty unit is impure. dafLevel's own glossary and s02's own shortSummary already had this right, making the summary's own final sentence an internal inconsistency. Corrected.",
-            "s01 argumentFlow step-01 fabricated 'bo'el niddah is an av hatumah like tamei meit', inverting the actual teaching: verified against Sefaria Yoma.6b.2, bo'el niddah's mishkav/moshav transmission is explicitly the MILD (rishon le-tumah, food/drink only) form, contrasted with tamei meit's more severe direct-contact transmission -- the opposite of 'av hatumah'. Step-01 also cited lineId l01a (Sefaria Yoma.6b.1, confirmed to be only the reopened question, not a resolution) for content that is actually the resolution (Sefaria Yoma.6b.2, l01b, already correctly used by step-02), and mislabeled itself as resolving 6a's dangling immersion-timing question when the actual resolution is step-03 (R. Chiyya's baraita). Rewrote step-01 to accurately state the duration-not-timing resolution with correct dual sourceRefs (l01a for the reopened question, l01b for the answer), removing the redundant/fabricated mishkav-moshav restatement now that step-02 already covers it accurately. Also removed the same 'av hatumah' fabrication from visualizableElements[1]'s description."
-          ],
-          "mediumFindings": [
-            "s01 display.shortSummary/whats causally mislinked the mishkav/moshav teaching to R. Chiyya's baraita ('this also confirms, incidentally...' / 'the baraita also triggers...'), when in the actual text the mishkav/moshav point is established BEFORE R. Chiyya's baraita is even cited, via a separate exegetical passage. Reworded to present the two proofs (duration/mishkav-moshav resolution, then R. Chiyya's separate immersion-timing refutation) as sequential and independent.",
-            "Neither dafLevel.summary nor any s01 field named whose position R. Chiyya's baraita refutes: verified against Sefaria Yoma.6b.3 ('a conclusive refutation of the opinion of Rav Shimi from Neharde'a'). Added explicit naming of Rav Shimi across dafLevel.summary, display fields, and learning.ahaMoment.",
-            "s01.lineRange.endVilnaLine (11) left Ravina's own core reasoning (lines 12-13, already correctly covered by step-06's existing l11 segment citation per the containment convention) outside the sugya's declared boundary. Widened to 13."
-          ],
-          "minorFindings": [
-            "s01/s02 topicTags contained capitalized non-slug values (Kohen-Gadol, Yom-Kippur, Temple-service, Rav-Nachman, Rav-Sheshet) violating the lowercase-hyphen-ASCII-slug contract.",
-            "s01/s02 requiresUnderstanding held prose instead of sugya ids, with no prerequisiteKnowledge field present anywhere to receive it. s01's 'bo'el niddah immersion timing established in 6a' resolved to a genuine sugya id, yoma-006a-s03.",
-            "s01/s02 visualizableElements used the legacy 'description' key across all 5 entries instead of the canonical required 'item' field."
-          ],
-          "noDefectsConfirmed": [
-            "s02's full argumentFlow (formal dispute statement, same-beit-av scope restriction, Rav Nachman's ruling, Rav Sheshet's ruling, the ikka de'amrei second version) checked line-by-line against Sefaria and found accurate.",
-            "No cross-sugya lineId citations found anywhere on the daf.",
-            "s02's daf-boundary handling of the genuine mid-word cutoff at line 24 (confirmed by Rashi's own note) is correctly left open with no false closure."
-          ]
+          "origin": "independent-second-pass-rejection",
+          "reviewEvidence": {
+            "verdict": "REJECTED",
+            "reviewerContextId": "a9d6d3d0c10fdd742",
+            "summary": "Independent second-pass review, mutually-blind from the round-1 repair context (a2dc186e2f7440258). All semantic content confirmed accurate (dispute scope correctly restricted to a fully-impure beit av, per Sefaria Yoma.6b.7; finalRuling/topicTags/requiresUnderstanding contract-compliant). Found one data-integrity defect.",
+            "defectFound": {
+              "field": "yoma-006b-s02.lines[] entry for vilnaLine 24",
+              "before": "sefariaRef 'Yoma.6b.10'",
+              "problem": "Confirmed live via Sefaria API: 'Yoma.6b.10' does not exist (6b has exactly 9 segments). The raw Vilna line 24 word 'dechol' is the daf's own genuine mid-word cutoff -- confirmed to be the literal opening of Sefaria segment Yoma.7a.1 ('as in all situations of impurity imparted by corpses in cases involving the public, the Merciful One permits...'). The bundled Rashi note attached to this line already correctly says 'the comment continues on 7a', but the lines[] entry's sefariaRef contradicted that with a fabricated same-daf reference. Cross-checked against modules/yoma/source_store.js's own canonical '6b-2' sugya entry: its vilna_line:24 entry has an empty en field by design, consistent with this being the acknowledged cutoff point with no available same-daf translation.",
+              "impact": "Not currently exploited by any argumentFlow sourceRefs citation (l24 is only used for Rashi linkage), so no semantic claim was mis-sourced by it -- but a fabricated/inaccurate provenance record nonetheless.",
+              "fix": "sefariaRef corrected to 'Yoma.7a.1', matching the confirmed live Sefaria structure and the sugya's own Rashi note."
+            }
+          }
         }
       },
-      "repairRef": "dec9447f5dcd59481b3cbbb64f5a8bbf6c2761ad"
+      "repairRef": "410c3a5993b61680cbec6b35de8a37d592fd8ef4"
     },
     "yoma-007a-s01": {
       "sugyaId": "yoma-007a-s01",

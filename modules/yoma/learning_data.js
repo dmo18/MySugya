@@ -13804,8 +13804,8 @@ const DAF_CONTENT = {
             vilna_line: 22, en: "<b>Some say</b> that the dispute is slightly different: <b>Even</b> in a case <b>where there are</b> both <b>ritually pure and ritually impure</b> priests in <b>that patrilineal family, Rav Naḥman disagreed</b> with Rav Sheshet <b>and said</b> that the priests serve <b>even</b> when they are <b>impure,</b>", en_lit: "Some say Even where there are ritually pure and ritually impure that patrilineal family, Rav Naḥman disagreed and said even impure,",
             sefaria_ref: "Yoma.6b.9", commentaries: { rashi: [], tosafot: [] } },
           { id: "yoma-006b-l24", kind: "gemara", he: "דְּכׇל",
-            vilna_line: 24, en: "",
-            sefaria_ref: "Yoma.6b.10", commentaries: { rashi: [], tosafot: [] } }
+            vilna_line: 24, en: "", en_lit: "as all of impurity by corpses the public, the Merciful One permits",
+            sefaria_ref: "Yoma.7a.1", commentaries: { rashi: [], tosafot: [] } }
         ],
         argumentFlow: [
           {
