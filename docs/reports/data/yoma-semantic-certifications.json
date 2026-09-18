@@ -49733,7 +49733,7 @@
     "yoma-006b-s02": {
       "sugyaId": "yoma-006b-s02",
       "daf": "6b",
-      "state": "REPAIRED_PENDING_REVIEW",
+      "state": "PENDING_FINAL_AUDIT",
       "firstPass": {
         "reviewId": "sonnet5-6b-secondpass-20260918",
         "reviewerContextId": "a9d6d3d0c10fdd742",
@@ -49757,7 +49757,22 @@
           }
         }
       },
-      "repairRef": "4df99594a7366238fd6dcc66bc76e566776e5823"
+      "repairRef": "4df99594a7366238fd6dcc66bc76e566776e5823",
+      "sourceFingerprint": "2d5c9bf74e725ffe228e2fbb4241d95a96466be1428fea05b364e37a77702d49",
+      "semanticFingerprint": "c40f7bf02125a8f4904a72c99309c46891fcc9c996f4d2309bb9a2991e76e934",
+      "secondPass": {
+        "reviewId": "sonnet5-6b-secondpass-round2-20260918",
+        "reviewerContextId": "acfaeb125d0e8d815",
+        "sourceFirst": true,
+        "verdict": "CONFIRMED",
+        "reviewedSourceFingerprint": "2d5c9bf74e725ffe228e2fbb4241d95a96466be1428fea05b364e37a77702d49",
+        "reviewedSemanticFingerprint": "c40f7bf02125a8f4904a72c99309c46891fcc9c996f4d2309bb9a2991e76e934",
+        "evidence": {
+          "verdict": "CLEAN",
+          "reviewerContextId": "acfaeb125d0e8d815",
+          "summary": "Independent second-pass review, mutually-blind from the round-1 repair context. Cross-checked the hutrah/dchuya dispute, its entire-beit-av scope restriction, and the ikka-de'amrei second version against Sefaria's live API (Yoma.6b.6/6b.7/6b.9), all confirmed accurate. Verified all sourceRefs resolve correctly within their segment ranges. Specifically re-verified the round-2 fix: vilnaLine 24's sefariaRef 'Yoma.7a.1' confirmed genuine and correct (6b has exactly 9 segments; 7a.1 is the literal continuation matching the bundled Rashi note). finalRuling, topicTags, and requiresUnderstanding all contract-compliant. No defects found."
+        }
+      }
     },
     "yoma-007a-s01": {
       "sugyaId": "yoma-007a-s01",
