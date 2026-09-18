@@ -16199,7 +16199,7 @@ const DAF_CONTENT = {
         learning: {
           learnerQuestion: "Why does the Gemara spend so much effort tracing each opinion's source derivation?",
           coreTension: "Both R. Yehuda and R. Shimon agree on the basic verse 'al mitzcho v'nasa.' Their dispute about off-forehead atonement must therefore come from different readings of specific words. The Gemara works backward from the known positions to find which word carries which reading - a kind of reverse-engineering of the tannaitic hermeneutics.",
-          coreMove: "The principle 'ראוי למצח' (fit for the forehead) is R. Shimon's solution to the broken-tzitz case without needing an extra derivation. R. Yehuda needs an additional derivation (doubled 'mitzcho') for the same conclusion.",
+          coreMove: "The principle 'ראוי למצח' (fit for the forehead) is R. Shimon's solution to the broken-tzitz case without needing an extra derivation. R. Yehuda needs an additional derivation (doubled 'metzach'/'mitzcho') for the same conclusion.",
           resolution: "Both R. Yehuda and R. Shimon agree: broken tzitz does not atone. They derive this shared conclusion from different parts of the verse. This sourcing exercise does not reopen 7b's peg-case dispute (tzitz intact but hanging off the forehead) - that dispute stands on its own.",
           takeaway: {
             type: "logical_principle",
@@ -16212,7 +16212,7 @@ const DAF_CONTENT = {
           },
           ahaMoment: "'ראוי למצח' - fit for the forehead - is a general principle that elegantly explains the broken-tzitz ruling without needing an additional verse. If something is not fit to occupy its halakhically designated location, it cannot perform its halakhic function from elsewhere.",
           learningBlocker: "Students may think this sourcing exercise reopens 7b's peg-case dispute (tzitz intact but hanging off the forehead). It does not - both tanaim already agree there that a broken tzitz does not atone; s01 only traces where each tanna derives that shared conclusion from.",
-          memoryAnchor: "R. Yehuda: two 'mitzcho' mentions = broken tzitz rule. R. Shimon: 'ראוי למצח' already implies it. The difference: R. Yehuda needs two words; R. Shimon derives it logically from one."
+          memoryAnchor: "R. Yehuda: 'metzach'/'mitzcho' doubling = broken tzitz rule. R. Shimon: 'ראוי למצח' already implies it. The difference: R. Yehuda needs two word-forms; R. Shimon derives it logically from one."
         },
         lines: [
           { id: "yoma-008a-l01", kind: "gemara", he: "וּמָה צִיץ, שֶׁאֵין בּוֹ אֶלָּא אַזְכָּרָה אַחַת, אָמְרָה\nתּוֹרָה: ״עַל מִצְחוֹ תָּמִיד״ — שֶׁלֹּא יַסִּיחַ דַּעְתּוֹ מִמֶּנּוּ.\nתְּפִילִּין שֶׁיֵּשׁ בָּהֶן אַזְכָּרוֹת הַרְבֵּה — עַל אַחַת\nכַּמָּה וְכַמָּה.",
@@ -16339,7 +16339,7 @@ const DAF_CONTENT = {
                 sourceType: "gemara",
                 lineId: "yoma-008a-l11",
                 vilnaLine: 12,
-                note: "R. Yehuda's 'mitzcho/mitzcho' doubling derivation, within Exodus 28:38"
+                note: "R. Yehuda's 'metzach/mitzcho' doubling derivation, within Exodus 28:38"
               }
             ]
           }
@@ -16395,7 +16395,7 @@ const DAF_CONTENT = {
           },
           {
             question: "If both R. Yehuda and R. Shimon derive the forehead-location requirement from 'al mitzcho,' what are they disagreeing about?",
-            answer: "What the other words in the verse teach: R. Shimon reads 'tamid liratzon' as perpetual atonement; R. Yehuda reads 'tamid' as mindfulness. And for the broken-tzitz ruling: R. Shimon uses 'ראוי למצח'; R. Yehuda uses doubled 'mitzcho.'"
+            answer: "What the other words in the verse teach: R. Shimon reads 'tamid liratzon' as perpetual atonement; R. Yehuda reads 'tamid' as mindfulness. And for the broken-tzitz ruling: R. Shimon uses 'ראוי למצח'; R. Yehuda uses the doubled 'metzach'/'mitzcho' forms."
           }
         ],
         finalRuling: "",
