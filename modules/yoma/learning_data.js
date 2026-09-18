@@ -13518,7 +13518,7 @@ const DAF_CONTENT = {
   "6b": {
     canonicalRef: "Yoma 6b",
     daf: "6b",
-    summary: "6b resolves the bo'el niddah debate: R. Chiyya's baraita explicitly lists bo'el niddah alongside zav, zava, metzora, and tamei meit as daytime immersers - a conclusive refutation. The page then pivots: if we guard the Kohen Gadol against niddah impurity, why not also guard him against corpse impurity? Rav Tachilifa: this proves tumas meit is fully permitted (hutrah) for the tzibbur. Ravina's counter: even if dchuya, corpse impurity is rare while niddah impurity is common - hence only the latter requires precaution. This opens the central amoraic dispute: Rav Nachman says tumas meit in tzibbur is hutrah (no need to seek pure replacements); Rav Sheshet says it is dchuya (must seek purity where possible). The practical question: if some priests in the same mishmar division are pure and others are impure, must the congregation delay service to summon pure priests from another beit av?",
+    summary: "6b resolves the bo'el niddah debate: R. Chiyya's baraita explicitly lists bo'el niddah alongside zav, zava, metzora, and tamei meit as daytime immersers - a conclusive refutation of Rav Shimi's nighttime reading from 6a. The page then pivots: if we guard the Kohen Gadol against niddah impurity, why not also guard him against corpse impurity? Rav Tachilifa: this proves tumas meit is fully permitted (hutrah) for the tzibbur. Ravina's counter: even if dchuya, corpse impurity is rare while niddah impurity is common - hence only the latter requires precaution. This opens the central amoraic dispute: Rav Nachman says tumas meit in tzibbur is hutrah (no need to seek pure replacements); Rav Sheshet says it is dchuya (must seek purity where possible). Everyone agrees that when the on-duty beit av itself has both pure and impure priests, the pure ones serve and the impure ones don't - no dispute there. The dispute is narrower: when the entire on-duty beit av is impure, must the congregation delay service to summon pure priests from a different beit av in the same mishmar?",
     sugyot: [
       {
         id: "yoma-006b-s01",
@@ -13529,13 +13529,13 @@ const DAF_CONTENT = {
           startLineId: "yoma-006b-l01a",
           endLineId: "yoma-006b-l11",
           startVilnaLine: 1,
-          endVilnaLine: 11
+          endVilnaLine: 13
         },
         display: {
           title: "Bo'el niddah immersion settled; corpse impurity question opens hutrah/dchuya",
           oneLine: "R. Chiyya's baraita conclusively resolves bo'el niddah immersion as daytime; a new question then opens whether tumas meit in tzibbur is fully permitted (hutrah) or merely overridden (dchuya).",
-          shortSummary: "The 6a debate is settled when the Gemara cites R. Chiyya's baraita: zav, zava, metzora, metzora'at, bo'el niddah, and tamei meit all immerse by day. A menstruating woman and a woman after childbirth immerse at night. The list explicitly includes bo'el niddah as a daytime immerser - a conclusive refutation (teyvuta). This also confirms, incidentally, that bo'el niddah is more stringent than tamei meit in one respect: he transmits mishkav umoshav impurity (the mild impurity that renders foods and liquids impure), while tamei meit does not. The discussion then turns: if we separate the Kohen Gadol from potential niddah impurity, why not also guard him against corpse impurity? Any visitor might die in his chamber! Rav Tachilifa answers: the omission proves tumas meit is completely hutrah (permitted) for the tzibbur - it needs no special precaution. Ravina's alternative: even if dchuya, corpse impurity is uncommon, whereas niddah impurity can arise at any moment from his wife.",
-          whats: "R. Chiyya's baraita is the decisive proof the Gemara has been building toward since 6a. It explicitly categorizes bo'el niddah with the daytime immersers, closing the question. But the baraita also triggers a new observation: bo'el niddah is listed as more stringent than tamei meit because he transmits mishkav/moshav impurity (sitting or lying on a surface makes it a rishon le-tumah, capable of rendering food and liquids impure). The argument now pivots to tumas meit. The Kohen Gadol is separated from his wife to avoid niddah impurity. But visitors present a risk of corpse impurity - arguably more severe. Why no protective ordinance there? Two answers emerge: (1) Rav Tachilifa: the omission proves tumas meit simply does not apply in the tzibbur context - it is hutrah. (2) Ravina: even if only dchuya, the practical frequency of the risk justifies treating niddah differently. This sets up the major amoraic dispute in the second sugya.",
+          shortSummary: "6a's dangling question is answered first: the baal-keri/bo'el-niddah comparison from the second baraita is not about immersion timing at all - it concerns impurity duration, which is already explicit in the Torah for both. That comparison was still needed, though, to establish something else: bo'el niddah is more stringent than tamei meit in one respect - he transmits mishkav u-moshav impurity (the mild impurity that renders foods and liquids impure), while tamei meit does not. Separately, R. Chiyya's baraita settles the actual immersion-timing question that Rav Shimi's night-reading (from 6a) had left open: zav, zava, metzora, metzora'at, bo'el niddah, and tamei meit all immerse by day; a menstruating woman and a woman after childbirth immerse at night. The list explicitly includes bo'el niddah as a daytime immerser - a conclusive refutation (teyvuta) of Rav Shimi's position. The discussion then turns: if we separate the Kohen Gadol from potential niddah impurity, why not also guard him against corpse impurity? Any visitor might die in his chamber! Rav Tachilifa answers: the omission proves tumas meit is completely hutrah (permitted) for the tzibbur - it needs no special precaution. Ravina's alternative: even if dchuya, corpse impurity is uncommon, whereas niddah impurity can arise at any moment from his wife.",
+          whats: "Two separate proofs settle loose threads from 6a before the daf moves on. First, the baal-keri/bo'el-niddah comparison the Gemara raised on 6a is resolved: it was never about immersion timing, only about impurity duration - and even though both durations are already explicit in the Torah, the comparison was needed to establish that bo'el niddah is more stringent than tamei meit in one respect: he transmits mishkav/moshav impurity (sitting or lying on a surface makes it a rishon le-tumah, capable of rendering food and liquids impure), which tamei meit does not. Second, and independently, R. Chiyya's baraita is the decisive proof the Gemara has been building toward since 6a: it explicitly categorizes bo'el niddah with the daytime immersers, conclusively refuting Rav Shimi's position (from 6a) that bo'el niddah could be governed by the nighttime rule. The argument now pivots to tumas meit. The Kohen Gadol is separated from his wife to avoid niddah impurity. But visitors present a risk of corpse impurity - arguably more severe. Why no protective ordinance there? Two answers emerge: (1) Rav Tachilifa: the omission proves tumas meit simply does not apply in the tzibbur context - it is hutrah. (2) Ravina: even if only dchuya, the practical frequency of the risk justifies treating niddah differently. This sets up the major amoraic dispute in the second sugya.",
           hint: "The Gemara uses an argument from silence: 'if you were worried about X, why not also worry about Y?' What does this prove about the underlying legal category of Y?"
         },
         learning: {
@@ -13552,7 +13552,7 @@ const DAF_CONTENT = {
             category: "logical",
             notes: "The absence of an ordinance is used to infer a legal status. This is a standard Talmudic move: if the Sages would have enacted a precaution had the danger been legally relevant, the absence of the precaution implies the danger is not legally relevant (hutrah). The counter-argument is that pragmatic factors - frequency, feasibility - also shape rabbinic legislation, so the omission need not reflect a legal conclusion."
           },
-          ahaMoment: "R. Chiyya's baraita resolves months of Talmudic debate with a single enumerated list. The deliberate ordering (zav, zava, metzora, metzora'at, bo'el niddah, tamei meit / niddah, yoledet) tells you exactly who immerses by day and who by night - no ambiguity. But the very clarity of the resolution opens the next problem: if bo'el niddah is daytime like tamei meit, and tamei meit is not guarded against in the KG's chamber, something must differentiate them.",
+          ahaMoment: "R. Chiyya's baraita resolves months of Talmudic debate with a single enumerated list, conclusively refuting Rav Shimi's nighttime reading from 6a. The deliberate ordering (zav, zava, metzora, metzora'at, bo'el niddah, tamei meit / niddah, yoledet) tells you exactly who immerses by day and who by night - no ambiguity. But the very clarity of the resolution opens the next problem: if bo'el niddah is daytime like tamei meit, and tamei meit is not guarded against in the KG's chamber, something must differentiate them.",
           learningBlocker: "Students may assume tumas meit is always more serious than niddah impurity. The Gemara reveals that bo'el niddah has one stringency over tamei meit: mishkav/moshav transmission. The hierarchy of impurity is context-dependent.",
           memoryAnchor: "R. Chiyya's list of six daytime immersers - zav, zava, metzora, metzora'at, bo'el niddah, tamei meit. Two nighttime: niddah, yoledet. This list is the whole answer."
         },
@@ -13577,15 +13577,21 @@ const DAF_CONTENT = {
           {
             id: "step-01",
             type: "proof",
-            label: "6a's objection resolved: baraita 2 teaches impurity, not immersion",
+            label: "6a's reopened question answered: about impurity duration, not immersion",
             speaker: "Gemara",
-            text: "Baraita 2 was comparing baal keri to sherets and bo'el niddah to tamei meit only for impurity duration, not immersion timing. Both durations are written explicitly in the Torah so the comparison must teach something else - the severity level (bo'el niddah is an av hatumah like tamei meit).",
+            text: "The reopened question from 6a - was the baal-keri/bo'el-niddah comparison about immersion timing? - is answered here: no, the comparison concerns the duration of their impurity, not immersion timing. Though both durations are already explicit in the Torah, teaching the comparison was still necessary for what follows.",
             sourceRefs: [
               {
                 sourceType: "gemara",
                 lineId: "yoma-006b-l01a",
                 vilnaLine: 1,
-                note: "Resolution of 6a's open objection"
+                note: "The reopened question from 6a (is this about immersion?)"
+              },
+              {
+                sourceType: "gemara",
+                lineId: "yoma-006b-l01b",
+                vilnaLine: 1,
+                note: "The Gemara's rejection: about duration, not timing"
               }
             ]
           },
@@ -13671,7 +13677,9 @@ const DAF_CONTENT = {
           "hutrah-dchuya"
         ],
         requiresUnderstanding: [
-          "Bo'el niddah immersion timing established in 6a (R. Zeira's impossibility proof)",
+          "yoma-006a-s03"
+        ],
+        prerequisiteKnowledge: [
           "The severity levels of different impurities: av hatumah, rishon, etc.",
           "Why tumas meit from a dying visitor is a plausible practical concern for the KG during his seven-day sequestering"
         ],
@@ -13689,15 +13697,15 @@ const DAF_CONTENT = {
         visualizableElements: [
           {
             type: "sequence",
-            description: "R. Chiyya's baraita as a two-column table: left column (daytime immersers): zav, zava, metzora, metzora'at, bo'el niddah, tamei meit; right column (nighttime immersers): niddah, yoledet"
+            item: "R. Chiyya's baraita as a two-column table: left column (daytime immersers): zav, zava, metzora, metzora'at, bo'el niddah, tamei meit; right column (nighttime immersers): niddah, yoledet"
           },
           {
             type: "contrast",
-            description: "Bo'el niddah vs. tamei meit: both are av hatumah with seven-day impurity and daytime immersion, but bo'el niddah alone transmits mishkav/moshav"
+            item: "Bo'el niddah vs. tamei meit: both have seven-day impurity and daytime immersion, but bo'el niddah alone transmits mishkav/moshav (a mild, rishon-le-tumah surface effect that tamei meit's more severe, direct-contact transmission does not include)"
           },
           {
             type: "people",
-            description: "The Kohen Gadol in the Parhedrin chamber with visitors present - one of whom might die - illustrating the corpse-impurity concern that triggers the hutrah/dchuya question"
+            item: "The Kohen Gadol in the Parhedrin chamber with visitors present - one of whom might die - illustrating the corpse-impurity concern that triggers the hutrah/dchuya question"
           }
         ],
         quizSeeds: [
@@ -13731,12 +13739,12 @@ const DAF_CONTENT = {
         difficulty: "intermediate",
         alternateAngles: [],
         topicTags: [
-          "bo'el-niddah",
+          "boel-niddah",
           "immersion",
           "tumas-meit",
           "hutrah-dchuya",
-          "Kohen-Gadol",
-          "Yom-Kippur",
+          "kohen-gadol",
+          "yom-kippur",
           "mishkav-umoshav"
         ],
         review: {
@@ -13880,7 +13888,8 @@ const DAF_CONTENT = {
           "beit-av",
           "hutrah-dchuya-practical"
         ],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "The mishmar/beit av structure of Temple service scheduling",
           "Why 'overriding' a prohibition creates a residual minimization obligation while 'permitting' does not",
           "The two versions of the dispute and their different threshold points"
@@ -13899,11 +13908,11 @@ const DAF_CONTENT = {
         visualizableElements: [
           {
             type: "contrast",
-            description: "Two-panel diagram: hutrah (beit av impure - they proceed, no search) vs. dchuya (beit av impure - summon pure priests from another beit av before proceeding)"
+            item: "Two-panel diagram: hutrah (beit av impure - they proceed, no search) vs. dchuya (beit av impure - summon pure priests from another beit av before proceeding)"
           },
           {
             type: "relationships",
-            description: "The mishmar/beit av hierarchy: one weekly watch divided into daily beit avot, with arrows showing who substitutes for whom under hutrah vs. dchuya"
+            item: "The mishmar/beit av hierarchy: one weekly watch divided into daily beit avot, with arrows showing who substitutes for whom under hutrah vs. dchuya"
           }
         ],
         quizSeeds: [
@@ -13935,10 +13944,10 @@ const DAF_CONTENT = {
           "hutrah-dchuya",
           "tumas-meit",
           "tzibbur",
-          "Temple-service",
+          "temple-service",
           "beit-av",
-          "Rav-Nachman",
-          "Rav-Sheshet"
+          "rav-nachman",
+          "rav-sheshet"
         ],
         review: {
           learning: "ai_generated",
