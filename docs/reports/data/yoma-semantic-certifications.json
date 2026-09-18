@@ -58566,8 +58566,8 @@
       "daf": "8a",
       "state": "REPAIRED_PENDING_REVIEW",
       "firstPass": {
-        "reviewId": "yoma-8a-r2-second",
-        "reviewerContextId": "a8650e82927de2250",
+        "reviewId": "yoma-8a-r3-second",
+        "reviewerContextId": "a9941f11abc4db39e",
         "sourceFirst": true,
         "verdict": "REPAIR_REQUIRED",
         "reviewedSourceFingerprint": "79426e24e8b001c7900dcd80d329d98cf2ddd429fdb6802a5ad7fbb5e3ce5173",
@@ -58576,40 +58576,40 @@
           "origin": "independent-second-pass-rejection",
           "reviewEvidence": {
             "verdict": "REJECTED",
-            "reviewerContextId": "a8650e82927de2250",
-            "summary": "Independent second-pass review, mutually-blind from the round-2 repair context. Independently reconstructed the whole daf from raw Hebrew cold, then verified every argumentFlow citation against LIVE Sefaria SEGMENT text (not just raw Vilna print-line concatenation) via https://www.sefaria.org/api/v3/texts/Yoma.8a.<n>?version=hebrew for every segment 8a.1-8a.16, plus 8b.1 for the daf-boundary catchword question. Confirmed D1 (both hints are now complete questions) and D2 (s01.finalRuling is now the empty string) genuinely fixed. s01's full argumentFlow (all 7 steps) and s02 steps 01-05 independently re-verified accurate and correctly cited. However found that round-2's own citation fix for s02 step-06/step-07 (itself a response to round-1's D3/D4 findings) was based on a methodological error: conflating where a Sefaria segment's words visually wrap across Vilna PRINT lines with where the segment's actual sefariaRef-tagged CONTENT boundary falls. Live-verified: Yoma.8a.12 (lineId l35) alone contains BOTH R. Meir's 'equate' and R. Yosei's 'don't equate' clauses in full -- l36 (Yoma.8a.13, the Chanina Segan dilemma setup: 'if he equates... if he doesn't equate...') does not belong to step-06's claim at all. Yoma.8a.14 (lineId l38) alone contains the complete 'elevated stringency' resolution including the exact phrase 'מעלה בעלמא' -- l39 (Yoma.8a.15, the start of the unrelated new baraita-question that is step-08's own content) does not belong to step-07's claim. Root cause: raw Vilna print-line 38/39 in the daf packet splits the words 'לעולם לא | מקיש וכהן... מעלה בעלמא' across the print-line boundary, but Sefaria's own segment 8a.14 treats the whole clause as one unit regardless of where it happens to wrap in print. No fabrication, misattribution, or boundary leakage found anywhere else in either sugya.",
+            "reviewerContextId": "a9941f11abc4db39e",
+            "summary": "Independent second-pass review, mutually-blind from the round-3 repair context. Independently reconstructed the whole daf from raw Hebrew cold and re-verified all three round-3-targeted citation fixes (step-06 -> l35 alone; step-07 -> l36+l38; step-08 -> l39 only) against live Sefaria segment fetches: all three CONFIRMED CORRECT, no regression from round 3's fix of the round-2 print-line-vs-segment error. Also independently verified dafSummaryVerdict VERIFIED, boundaryVerdict VERIFIED, the MID_SENTENCE ending classification, both sugyot' display.hint (complete questions), both finalRuling values (empty string, correct for this unresolved/analytical daf), requiresUnderstanding/prerequisiteKnowledge/topicTags/visualizableElements contract compliance, and the Rashi bundle's consistency -- all clean. On its own from-scratch pass (not limited to the round-3 checklist) found three further issues: (1) s02 step-05's text asserts the tattooed-name/reed-immersion baraita involves immersion 'on Yom Kippur' -- confirmed via live Sefaria (Yoma.8a.10) and the bundled Rashi (linked to l28, vilnaLines 20-25) that the baraita and its Rashi gloss describe a generic mitzva immersion with no Yom Kippur reference anywhere; the sugya's own learning.ahaMoment field (describing the same baraita) correctly omits it, confirming this is an inserted unsupported detail. (2) s02 step-04's second citation (l28) overlaps with step-05's citation of the same lineId and is unnecessary: Yoma.8a.9 (l26) alone already states both R. Meir's and R. Yosei's positions on hypothesis 2 in full, matching the same 'single sufficient segment' pattern round 3 established for step-06. (3) s01 step-02 cites only l04 (Yoma.8a.2), which only raises the question and answers generally that the phrase establishes a location, without yet isolating the bare 'al mitzcho' phrase; the explicit confirmation that R. Shimon (like R. Yehuda) derives location specifically from bare 'al mitzcho' is at Yoma.8a.3 (l06, 've-Rabbi Shimon nami... in hachi nami'), already cited by the parallel step-03 for R. Yehuda's identical point.",
             "defectFound": {
-              "summary": "D-A: s02 step-06's citation to lineId l36 is wrong -- l36's content (the Chanina Segan dilemma) is unrelated to step-06's claim (the R. Meir/R. Yosei equate/don't-equate resolution), which is already fully supported by l35 alone. D-B: s02 step-07's citation to lineId l39 is wrong -- l39's content (the new unresolved baraita-question) is unrelated to step-07's claim (Chanina Segan's elevated-stringency resolution); the correct supporting citations are l36 (the dilemma this resolves) and l38 (the resolution itself, confirmed via live Sefaria to contain the complete phrase including 'elevated stringency')."
+              "summary": "Defect 1 (s02 step-05.text asserts an unsupported 'on Yom Kippur' detail not present in the baraita or its Rashi gloss), Defect 2 (s02 step-04's citation to l28 overlaps with step-05's use of the same lineId; l26 alone already supports step-04's full claim), Defect 3 (s01 step-02 is missing a citation to l06, which is where R. Shimon's location-from-bare-'al mitzcho' derivation is made explicit, matching step-03's existing citation for the parallel R. Yehuda point)."
             }
           }
         }
       },
-      "repairRef": "3a4443dfc1eac2a861c0e8cbe2eddf4730bfd0b5"
+      "repairRef": "d65d4f3bf789013459d9196de70bf5587f1bfdc9"
     },
     "yoma-008a-s02": {
       "sugyaId": "yoma-008a-s02",
       "daf": "8a",
       "state": "REPAIRED_PENDING_REVIEW",
       "firstPass": {
-        "reviewId": "yoma-8a-r2-second",
-        "reviewerContextId": "a8650e82927de2250",
+        "reviewId": "yoma-8a-r3-second",
+        "reviewerContextId": "a9941f11abc4db39e",
         "sourceFirst": true,
         "verdict": "REPAIR_REQUIRED",
         "reviewedSourceFingerprint": "727ec2af6d12419ad7ba3697ded524bf9ea032f51550b019104cdc8e4e3221c8",
-        "reviewedSemanticFingerprint": "5d8a9ca708ec9dd7f59f81726c841eb6e145058573c12bcc41f0effb8efcc164",
+        "reviewedSemanticFingerprint": "ca120737115efff1b77424f3c90a3a8ab55fba8fd04f7106c0b0efbf81f0a578",
         "evidence": {
           "origin": "independent-second-pass-rejection",
           "reviewEvidence": {
             "verdict": "REJECTED",
-            "reviewerContextId": "a8650e82927de2250",
-            "summary": "Independent second-pass review, mutually-blind from the round-2 repair context. Independently reconstructed the whole daf from raw Hebrew cold, then verified every argumentFlow citation against LIVE Sefaria SEGMENT text (not just raw Vilna print-line concatenation) via https://www.sefaria.org/api/v3/texts/Yoma.8a.<n>?version=hebrew for every segment 8a.1-8a.16, plus 8b.1 for the daf-boundary catchword question. Confirmed D1 (both hints are now complete questions) and D2 (s01.finalRuling is now the empty string) genuinely fixed. s01's full argumentFlow (all 7 steps) and s02 steps 01-05 independently re-verified accurate and correctly cited. However found that round-2's own citation fix for s02 step-06/step-07 (itself a response to round-1's D3/D4 findings) was based on a methodological error: conflating where a Sefaria segment's words visually wrap across Vilna PRINT lines with where the segment's actual sefariaRef-tagged CONTENT boundary falls. Live-verified: Yoma.8a.12 (lineId l35) alone contains BOTH R. Meir's 'equate' and R. Yosei's 'don't equate' clauses in full -- l36 (Yoma.8a.13, the Chanina Segan dilemma setup: 'if he equates... if he doesn't equate...') does not belong to step-06's claim at all. Yoma.8a.14 (lineId l38) alone contains the complete 'elevated stringency' resolution including the exact phrase 'מעלה בעלמא' -- l39 (Yoma.8a.15, the start of the unrelated new baraita-question that is step-08's own content) does not belong to step-07's claim. Root cause: raw Vilna print-line 38/39 in the daf packet splits the words 'לעולם לא | מקיש וכהן... מעלה בעלמא' across the print-line boundary, but Sefaria's own segment 8a.14 treats the whole clause as one unit regardless of where it happens to wrap in print. No fabrication, misattribution, or boundary leakage found anywhere else in either sugya.",
+            "reviewerContextId": "a9941f11abc4db39e",
+            "summary": "Independent second-pass review, mutually-blind from the round-3 repair context. Independently reconstructed the whole daf from raw Hebrew cold and re-verified all three round-3-targeted citation fixes (step-06 -> l35 alone; step-07 -> l36+l38; step-08 -> l39 only) against live Sefaria segment fetches: all three CONFIRMED CORRECT, no regression from round 3's fix of the round-2 print-line-vs-segment error. Also independently verified dafSummaryVerdict VERIFIED, boundaryVerdict VERIFIED, the MID_SENTENCE ending classification, both sugyot' display.hint (complete questions), both finalRuling values (empty string, correct for this unresolved/analytical daf), requiresUnderstanding/prerequisiteKnowledge/topicTags/visualizableElements contract compliance, and the Rashi bundle's consistency -- all clean. On its own from-scratch pass (not limited to the round-3 checklist) found three further issues: (1) s02 step-05's text asserts the tattooed-name/reed-immersion baraita involves immersion 'on Yom Kippur' -- confirmed via live Sefaria (Yoma.8a.10) and the bundled Rashi (linked to l28, vilnaLines 20-25) that the baraita and its Rashi gloss describe a generic mitzva immersion with no Yom Kippur reference anywhere; the sugya's own learning.ahaMoment field (describing the same baraita) correctly omits it, confirming this is an inserted unsupported detail. (2) s02 step-04's second citation (l28) overlaps with step-05's citation of the same lineId and is unnecessary: Yoma.8a.9 (l26) alone already states both R. Meir's and R. Yosei's positions on hypothesis 2 in full, matching the same 'single sufficient segment' pattern round 3 established for step-06. (3) s01 step-02 cites only l04 (Yoma.8a.2), which only raises the question and answers generally that the phrase establishes a location, without yet isolating the bare 'al mitzcho' phrase; the explicit confirmation that R. Shimon (like R. Yehuda) derives location specifically from bare 'al mitzcho' is at Yoma.8a.3 (l06, 've-Rabbi Shimon nami... in hachi nami'), already cited by the parallel step-03 for R. Yehuda's identical point.",
             "defectFound": {
-              "summary": "D-A: s02 step-06's citation to lineId l36 is wrong -- l36's content (the Chanina Segan dilemma) is unrelated to step-06's claim (the R. Meir/R. Yosei equate/don't-equate resolution), which is already fully supported by l35 alone. D-B: s02 step-07's citation to lineId l39 is wrong -- l39's content (the new unresolved baraita-question) is unrelated to step-07's claim (Chanina Segan's elevated-stringency resolution); the correct supporting citations are l36 (the dilemma this resolves) and l38 (the resolution itself, confirmed via live Sefaria to contain the complete phrase including 'elevated stringency')."
+              "summary": "Defect 1 (s02 step-05.text asserts an unsupported 'on Yom Kippur' detail not present in the baraita or its Rashi gloss), Defect 2 (s02 step-04's citation to l28 overlaps with step-05's use of the same lineId; l26 alone already supports step-04's full claim), Defect 3 (s01 step-02 is missing a citation to l06, which is where R. Shimon's location-from-bare-'al mitzcho' derivation is made explicit, matching step-03's existing citation for the parallel R. Yehuda point)."
             }
           }
         }
       },
-      "repairRef": "3a4443dfc1eac2a861c0e8cbe2eddf4730bfd0b5"
+      "repairRef": "d65d4f3bf789013459d9196de70bf5587f1bfdc9"
     },
     "yoma-008b-s01": {
       "sugyaId": "yoma-008b-s01",
