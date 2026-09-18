@@ -16176,7 +16176,7 @@ const DAF_CONTENT = {
   "8a": {
     canonicalRef: "Yoma 8a",
     daf: "8a",
-    summary: "8a has two distinct sections. First, the kal v'chomer from tzitz to tefillin is completed, and then R. Yehuda and R. Shimon's source derivations for their positions on the tzitz are traced verse by verse: where each derives the forehead-location requirement, where each derives what happens with a broken tzitz. Second, a new tannaitic dispute about sprinkling (hazaah) for the High Priest on Yom Kippur and the priest who burns the Red Heifer (para aduma): R. Meir says both get sprinkled all seven days; R. Yosei says only day 3 and day 7; R. Chanina Segan says para priest gets all 7, YK kohein gadol gets only day 3 and 7. The Gemara investigates whether this dispute maps onto the hutrah/dchuya debate - initially seems so, but ultimately concludes both later tanaim accept dchuya; their dispute is whether hazaah timing follows the same 'mitzva at its proper time' rule as tevila. Multiple resolution attempts are made before the correct one is identified.",
+    summary: "8a has two distinct sections. First, the kal v'chomer from tzitz to tefillin is completed, and then R. Yehuda and R. Shimon's source derivations for their positions on the tzitz are traced verse by verse: where each derives the forehead-location requirement, and where each derives that a broken tzitz does not atone (this is a sourcing exercise for the shared conclusion, not a reopening of 7b's peg-case dispute). Second, a new tannaitic dispute about sprinkling (hazaah) for the High Priest on Yom Kippur and the priest who burns the Red Heifer (para aduma): R. Meir says both get sprinkled all seven days; R. Yosei says only day 3 and day 7; R. Chanina Segan says the para priest gets all 7, the YK kohein gadol gets only day 3 and 7. The Gemara investigates whether this dispute maps onto the hutrah/dchuya debate - initially seems so, but this is rejected, and then a second hypothesis (about tevila bizmana mitzva) is also rejected, before the Gemara settles on the correct resolution: both tanaim accept dchuya and both accept tevila bizmana mitzva; their actual dispute is whether hazaah is equated to tevila for that timing rule. R. Chanina Segan's split is then explained as not equating hazaah to tevila at all - the para priest's all-7-day sprinkling is merely an elevated stringency. The daf then opens a brand-new, unresolved question - which tanna a baraita comparing the para priest to the YK kohein gadol follows - and breaks off mid-sentence partway into listing their differences.",
     sugyot: [
       {
         id: "yoma-008a-s01",
@@ -16200,7 +16200,7 @@ const DAF_CONTENT = {
           learnerQuestion: "Why does the Gemara spend so much effort tracing each opinion's source derivation?",
           coreTension: "Both R. Yehuda and R. Shimon agree on the basic verse 'al mitzcho v'nasa.' Their dispute about off-forehead atonement must therefore come from different readings of specific words. The Gemara works backward from the known positions to find which word carries which reading - a kind of reverse-engineering of the tannaitic hermeneutics.",
           coreMove: "The principle 'ראוי למצח' (fit for the forehead) is R. Shimon's solution to the broken-tzitz case without needing an extra derivation. R. Yehuda needs an additional derivation (doubled 'mitzcho') for the same conclusion.",
-          resolution: "Both R. Yehuda and R. Shimon agree: broken tzitz does not atone. They derive this from different parts of the verses. Both agree: tzitz on the forehead definitely atones. Their dispute is only about the peg case.",
+          resolution: "Both R. Yehuda and R. Shimon agree: broken tzitz does not atone. They derive this shared conclusion from different parts of the verse. This sourcing exercise does not reopen 7b's peg-case dispute (tzitz intact but hanging off the forehead) - that dispute stands on its own.",
           takeaway: {
             type: "logical_principle",
             text: "When two tanaim reach the same conclusion (broken tzitz does not atone) but from different sources, that tells you something about how they read the verses - and by extension, what other conclusions they might draw differently from the same texts."
@@ -16211,7 +16211,7 @@ const DAF_CONTENT = {
             notes: "The Gemara often works: position known -> find the verse -> explain how each side reads it. This is not circular - the verses are there to be read, and the positions are the outputs of reading them."
           },
           ahaMoment: "'ראוי למצח' - fit for the forehead - is a general principle that elegantly explains the broken-tzitz ruling without needing an additional verse. If something is not fit to occupy its halakhically designated location, it cannot perform its halakhic function from elsewhere.",
-          learningBlocker: "Students may think R. Yehuda and R. Shimon are arguing about different things in s01 vs. s02. They are not - the verse-analysis in s01 explains the same dispute identified by Abaye in 7b.",
+          learningBlocker: "Students may think this sourcing exercise reopens 7b's peg-case dispute (tzitz intact but hanging off the forehead). It does not - both tanaim already agree there that a broken tzitz does not atone; s01 only traces where each tanna derives that shared conclusion from.",
           memoryAnchor: "R. Yehuda: two 'mitzcho' mentions = broken tzitz rule. R. Shimon: 'ראוי למצח' already implies it. The difference: R. Yehuda needs two words; R. Shimon derives it logically from one."
         },
         lines: [
@@ -16273,7 +16273,7 @@ const DAF_CONTENT = {
                 sourceType: "gemara",
                 lineId: "yoma-008a-l06",
                 vilnaLine: 6,
-                note: "R. Yehuda's verse derivations"
+                note: "R. Yehuda's location derivation from 'al mitzcho'; the 'tamid = mindfulness' reading itself was already established on 7b"
               }
             ]
           },
@@ -16325,15 +16325,15 @@ const DAF_CONTENT = {
           {
             id: "step-07",
             type: "answer",
-            label: "R. Yehuda: doubled 'mitzcho/mitzcho' in two verses",
+            label: "R. Yehuda: doubled 'mitzcho/mitzcho' within one verse",
             speaker: "Gemara (R. Yehuda)",
-            text: "R. Yehuda derives it from the double mention of 'mitzcho' across two verses (Exodus 28 and 29), which teaches that the tzitz must be whole and actually on the forehead. R. Shimon: that doubling does not convey the broken-tzitz rule.",
+            text: "R. Yehuda derives it from the doubled form within a single verse (Exodus 28:38, which contains both the bare 'mitzcho' and the suffixed 'mitzcho'): the Torah did not need to say 'forehead' twice, so the repetition teaches that the tzitz must be whole and actually on the forehead. R. Shimon: that doubling does not convey the broken-tzitz rule.",
             sourceRefs: [
               {
                 sourceType: "gemara",
                 lineId: "yoma-008a-l11",
                 vilnaLine: 12,
-                note: "R. Yehuda's 'mitzcho/mitzcho' doubling derivation"
+                note: "R. Yehuda's 'mitzcho/mitzcho' doubling derivation, within Exodus 28:38"
               }
             ]
           }
@@ -16345,6 +16345,10 @@ const DAF_CONTENT = {
           "tefillin"
         ],
         requiresUnderstanding: [
+          "yoma-007b-s01",
+          "yoma-007b-s02"
+        ],
+        prerequisiteKnowledge: [
           "The tzitz verse and both tanaim's positions from 7b",
           "How kal v'chomer works as a logical form"
         ],
@@ -16368,14 +16372,14 @@ const DAF_CONTENT = {
         ],
         visualizableElements: [
           {
+            item: "The full tzitz verse annotated: 'al mitzcho' (location) | 'v'nasa' (rauy principle) | 'tamid liratzon' (R. Shimon: perpetual atonement; R. Yehuda: mindfulness requirement), color-coded by which tana reads which phrase as which rule.",
             type: "text",
-            label: "Verse dissection diagram",
-            description: "The full tzitz verse annotated: 'al mitzcho' (location) | 'v'nasa' (rauy principle or extra verse) | 'tamid liratzon' (R. Shimon: perpetual atonement; R. Yehuda: mindfulness requirement). Color-coded by which tana reads which phrase as which rule."
+            label: "Verse dissection diagram"
           },
           {
+            item: "Two-column table: R. Yehuda's derivation sources vs. R. Shimon's. Both derive location from 'al mitzcho.' They differ on 'v'nasa' (rauy vs. unused) and 'tamid' (mindfulness vs. perpetual atonement).",
             type: "contrast",
-            label: "R. Yehuda vs. R. Shimon derivation table",
-            description: "Two-column table: R. Yehuda's derivation sources vs. R. Shimon's. Both derive location from 'al mitzcho.' They differ on 'v'nasa' (ראוי vs. unused) and 'tamid' (mindfulness vs. perpetual atonement)."
+            label: "R. Yehuda vs. R. Shimon derivation table"
           }
         ],
         quizSeeds: [
@@ -16394,11 +16398,11 @@ const DAF_CONTENT = {
         topicTags: [
           "tzitz",
           "verse-analysis",
-          "kal-v'chomer",
+          "kal-vachomer",
           "tefillin",
-          "R. Yehuda",
-          "R. Shimon",
-          "rauy-l'mitzcho"
+          "r-yehuda",
+          "r-shimon",
+          "rauy-lamitzach"
         ],
         review: {
           learning: "ai_generated",
@@ -16429,7 +16433,7 @@ const DAF_CONTENT = {
           learnerQuestion: "Why does the Gemara need three attempts to explain the tannaitic dispute? What went wrong with the first two?",
           coreTension: "The first hypothesis (dchuya vs. hutrah) fails because R. Yosei's position is too weak if he held hutrah - he would say no hazaah at all. The second hypothesis (tevila bizmana mitzva) fails because R. Yosei is documented elsewhere to hold the opposite. The correct resolution must explain R. Yosei's position using something he can consistently hold.",
           coreMove: "The correct resolution distinguishes two questions: (1) Is tevila bizmana a mitzva? Both agree: yes. (2) Do we equate hazaah to tevila for the timing-mitzva rule? R. Meir: yes. R. Yosei: no. These are separate questions, so R. Yosei can hold 'yes' to (1) and 'no' to (2) without contradiction.",
-          resolution: "The halakha follows R. Yosei's position (hazaah only on day 3 and day 7) for the YK kohein gadol, and R. Chanina Segan's ruling for the para priest distinction. The practical implications are worked out in 8b.",
+          resolution: "The Gemara resolves the three-way tannaitic dispute: both R. Meir and R. Yosei accept dchuya and both accept tevila bizmana mitzva; their actual dispute is whether hazaah is equated to tevila for that timing rule. R. Chanina Segan does not equate hazaah to tevila at all - the para priest's all-7-day sprinkling is explained as an unrelated elevated stringency. No halachic ruling is stated on this daf; the Gemara then opens a new, unresolved question about a baraita comparing the para priest and the YK kohein gadol, breaking off mid-sentence.",
           takeaway: {
             type: "logical_principle",
             text: "When the Gemara rejects a hypothesis, look carefully at WHY it was rejected. Each rejection adds a constraint on what the correct resolution must look like. By the time all false resolutions are eliminated, the remaining answer is often precise and surprising."
@@ -16439,7 +16443,7 @@ const DAF_CONTENT = {
             category: "dialectical",
             notes: "Classic Talmudic triple-hypothesis structure: (1) broad claim (dchuya/hutrah) rejected by consequence; (2) narrower claim (tevila mitzva) rejected by external source; (3) correct resolution (equating hazaah to tevila) that avoids both previous problems."
           },
-          ahaMoment: "R. Yosei is shown to hold 'tevila bizmana mitzva' from a completely different context (Tractate Kiddushin: a person with God's name tattooed on his skin, who wraps reed to immerse). This cross-tractate citation is what forces the Gemara to abandon its second hypothesis and find the real dispute.",
+          ahaMoment: "R. Yosei is shown to hold 'tevila bizmana mitzva' from a completely different context (Tractate Shabbat 120b: a person with God's name tattooed on his skin, who wraps reed to immerse). This cross-tractate citation is what forces the Gemara to abandon its second hypothesis and find the real dispute.",
           learningBlocker: "Students often think 'tevila bizmana mitzva' is the whole dispute. It is not - that's the rejected second hypothesis. The actual dispute is one level more subtle: whether hazaah is equated to tevila for timing purposes.",
           memoryAnchor: "Three tanaim, three positions: R. Meir (all 7 days, both), R. Yosei (day 3 and 7, both), R. Chanina Segan (split: para = all 7, YK = day 3 and 7). Resolution: both R. Meir and R. Yosei accept dchuya; they dispute whether hazaah inherits tevila's timing-mitzva rule."
         },
@@ -16533,9 +16537,9 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-008a-l23",
-                vilnaLine: 25,
-                note: "Second hypothesis: tevila bizmana mitzva"
+                lineId: "yoma-008a-l26",
+                vilnaLine: 26,
+                note: "Second hypothesis stated: tevila bizmana mitzva"
               }
             ]
           },
@@ -16563,9 +16567,9 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-008a-l32",
-                vilnaLine: 34,
-                note: "Correct resolution: equating hazaah to tevila"
+                lineId: "yoma-008a-l35",
+                vilnaLine: 35,
+                note: "Correct resolution stated: equating hazaah to tevila"
               }
             ]
           },
@@ -16578,9 +16582,24 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
+                lineId: "yoma-008a-l38",
+                vilnaLine: 38,
+                note: "R. Chanina Segan's position explained"
+              }
+            ]
+          },
+          {
+            id: "step-08",
+            type: "question",
+            label: "New, unresolved question: whose view does the para-priest/KG comparison baraita follow?",
+            speaker: "Gemara",
+            text: "The Gemara opens a new question: in accordance with whose opinion is a baraita that states 'there is no difference between the priest who burns the Red Heifer and the Kohen Gadol on Yom Kippur except for...' - and the text breaks off mid-sentence, its list of differences never stated.",
+            sourceRefs: [
+              {
+                sourceType: "gemara",
                 lineId: "yoma-008a-l39",
                 vilnaLine: 39,
-                note: "R. Chanina Segan's position explained"
+                note: "New question opened; daf physically ends mid-sentence at line 41"
               }
             ]
           }
@@ -16591,7 +16610,8 @@ const DAF_CONTENT = {
           "tevila-bizmana-mitzva",
           "dchuya-vs-hutrah"
         ],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "The dchuya vs. hutrah framework for tum'ah in public offerings",
           "What hazaah (sprinkling) is and when it is required",
           "What tevila bizmana means"
@@ -16620,14 +16640,14 @@ const DAF_CONTENT = {
         ],
         visualizableElements: [
           {
+            item: "Horizontal timeline of 7 days. R. Meir: sprinkle every day. R. Yosei: sprinkle only day 3 and day 7. R. Chanina Segan: split depending on which priest.",
             type: "timeline",
-            label: "7-day separation with sprinkling days",
-            description: "Horizontal timeline of 7 days. R. Meir: sprinkle every day. R. Yosei: sprinkle only day 3 and day 7. R. Chanina Segan: split depending on which priest. Show why day 4 is problematic (not possibly day 3 or day 7 of tumah)."
+            label: "7-day separation with sprinkling days"
           },
           {
+            item: "Three-column table: R. Meir (all 7, both), R. Yosei (day 3+7, both), R. Chanina Segan (split) - each with their underlying rationale as resolved by the Gemara.",
             type: "comparison",
-            label: "Three-way tannaitic dispute table",
-            description: "Three-column table: R. Meir (all 7, both), R. Yosei (day 3+7, both), R. Chanina Segan (split). Below each: their underlying rationale as resolved by the Gemara."
+            label: "Three-way tannaitic dispute table"
           }
         ],
         quizSeeds: [
@@ -16644,18 +16664,18 @@ const DAF_CONTENT = {
             answer: "R. Chanina Segan does not equate hazaah to tevila at all. He assigns the all-7-day sprinkling to the para priest as an elevated stringency, while the YK kohein gadol gets only the Torah's minimum (day 3 and 7)."
           }
         ],
-        finalRuling: "Halakha follows the three-way dispute's correct reading: dchuya is accepted; hazaah for the para priest and for the YK kohein gadol are governed by their respective rules as worked out in 8b.",
+        finalRuling: "",
         difficulty: "advanced",
         alternateAngles: [],
         topicTags: [
           "hazaah",
           "para-aduma",
-          "kohein-gadol",
+          "kohen-gadol",
           "dchuya-vs-hutrah",
           "tevila-bizmana",
-          "R. Meir",
-          "R. Yosei",
-          "R. Chanina Segan"
+          "r-meir",
+          "r-yosei",
+          "r-chanina-segan"
         ],
         review: {
           learning: "ai_generated",
@@ -16667,8 +16687,8 @@ const DAF_CONTENT = {
     ],
     glossary: [
       {
-        he: "רָאוּי לְמִצְחוֹ",
-        translit: "Rauy l'mitzcho",
+        he: "רָאוּי לְמִצַּח",
+        translit: "Rauy la-mitzach",
         en: "Fit for the forehead - the principle that the tzitz must be in a condition suitable for being worn on the forehead to effect atonement."
       },
       {
