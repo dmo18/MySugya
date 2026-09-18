@@ -58566,24 +58566,25 @@
       "daf": "8a",
       "state": "REPAIRED_PENDING_REVIEW",
       "firstPass": {
-        "reviewId": "yoma-8a-finalaudit2-r1-first",
-        "reviewerContextId": "a373888a73d0646af",
+        "reviewId": "yoma-8a-r8-second",
+        "reviewerContextId": "affcf0b6d23ea112d",
         "sourceFirst": true,
         "verdict": "REPAIR_REQUIRED",
         "reviewedSourceFingerprint": "79426e24e8b001c7900dcd80d329d98cf2ddd429fdb6802a5ad7fbb5e3ce5173",
-        "reviewedSemanticFingerprint": "cc849a3c44e3ebb26ad85bb580656929dd75ba668ce400a5f58c5e897bb1d57d",
+        "reviewedSemanticFingerprint": "7212b61846c87fd0742735938bb544464cd078316cef47d1e5c9ddc0a08780ef",
         "evidence": {
-          "verdict": "REPAIR_REQUIRED",
-          "reviewerContextId": "a373888a73d0646af",
-          "summary": "Finding surfaced by the second mandatory Final Whole-Record Auditor pass on yoma-008a-s01 (whose dafEndState=MID_SENTENCE confirmation, boundary leakage sweep, and stale-content sweep were otherwise all clean, and yoma-008a-s02 was fully clean with no findings this round). One field-level defect survived all prior rounds and reviews because none had checked relatedSugyot[0].sugyaId against its own reason string plus the actual live target content: relatedSugyot[0] read {daf:'7b', sugyaId:'yoma-007b-s01', reason:\"Abaye's framework from 7b is the basis for the verse-analysis here\"}. Independently re-verified by the orchestrating session (matching this session's own earlier direct reading of both 7b sugya titles): yoma-007b-s01 is about R. Shimon/R. Yehuda's dchuya/hutrah inference from a deflected Yom Kippur proof and never mentions Abaye; yoma-007b-s02 ('Abaye: peg case is the real dispute; tamid analyzed; kal v'chomer to tefillin') is the sugya that actually contains Abaye's peg-case localization and the kal v'chomer to tefillin whose completion opens 8a-s01's own first line. The reason text is accurate; the sugyaId pointed to the wrong sibling sugya on the same daf.",
-          "defectFound": {
-            "field": "yoma-008a-s01.relatedSugyot[0].sugyaId",
-            "problem": "Named yoma-007b-s01 (a different 7b sugya with no Abaye content) instead of yoma-007b-s02 (the sugya the reason string actually describes).",
-            "fix": "Changed sugyaId from 'yoma-007b-s01' to 'yoma-007b-s02'. The reason text needed no change once the id was corrected."
+          "origin": "independent-second-pass-rejection",
+          "reviewEvidence": {
+            "verdict": "REJECTED",
+            "reviewerContextId": "affcf0b6d23ea112d",
+            "summary": "Independent second-pass review, mutually-blind from the round-8 repair context. Confirmed the round-8 fix correct: relatedSugyot[0].sugyaId now points to yoma-007b-s02 (verified via direct reading of both 7b sugyot -- 007b-s01's Abaye mentions are forward-references, not its own content; 007b-s02 is the actual source of the peg-case/tamid framework). Also re-verified relatedSugyot[1] (same-daf target) accurate. Full-field audit of s01 against live Sefaria (Yoma.8a.1-5, Hebrew+English): all 7 argumentFlow steps and their citations accurate, dafLevel.summary and boundary clean, enrichment-contract fields compliant. Found one substantive defect repeated across four fields: the doubling derivation is correctly described in argumentFlow step-07.text and display.shortSummary (both fixed in round 5) as 'metzach'/'mitzcho' -- two distinct forms of the word within Exodus 28:38 -- but four other fields still described it as the same word 'mitzcho' appearing twice, which the round-5 fix never propagated to.",
+            "defectFound": {
+              "summary": "argumentFlow[step-07].sourceRefs[0].note, learning.coreMove, learning.memoryAnchor, and quizSeeds[1].answer all still used the imprecise 'doubled mitzcho'/'two mitzcho mentions' phrasing, contradicting the already-correct argumentFlow step-07.text and display.shortSummary within the same record. Fix: reword all four to 'metzach'/'mitzcho' (two distinct word-forms), matching the already-fixed fields."
+            }
           }
         }
       },
-      "repairRef": "6ff6d38915eca86b87fa6a711193b413ff0476b6"
+      "repairRef": "4d3903c87f1e46179f19827f237337909f7f339d"
     },
     "yoma-008a-s02": {
       "sugyaId": "yoma-008a-s02",
