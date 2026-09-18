@@ -49680,7 +49680,7 @@
     "yoma-006b-s01": {
       "sugyaId": "yoma-006b-s01",
       "daf": "6b",
-      "state": "PENDING_FINAL_AUDIT",
+      "state": "CERTIFIED",
       "firstPass": {
         "reviewId": "sonnet5-6b-round1-20260918b",
         "reviewerContextId": "a2dc186e2f7440258",
@@ -49728,12 +49728,1836 @@
           "reviewerContextId": "a9d6d3d0c10fdd742",
           "summary": "Independent second-pass review, mutually-blind from the round-1 repair context (a2dc186e2f7440258). Cross-checked every objection/rejection/resolution step against Sefaria's live API. Confirmed: bo'el niddah's mishkav/moshav transmission is correctly described as the mild rishon-le-tumah form (Sefaria Yoma.6b.2), not av hatumah; 6a's dangling immersion-timing question is correctly resolved on 6b, not claimed resolved on 6a; all sourceRefs lineId/vilnaLine pairs resolve correctly within their declared segment ranges; finalRuling, topicTags, and requiresUnderstanding all contract-compliant. No defects found in s01."
         }
-      }
+      },
+      "finalAudit": {
+        "reviewId": "sonnet5-6b-finalaudit-20260918",
+        "auditorContextId": "a4287ceaf4ff3c1ca",
+        "auditedSourceFingerprint": "bab2cee2e55ca1d4ee68382859ffd4f4eb0f5846e257d173d467d0760d0dee2f",
+        "auditedSemanticFingerprint": "4314010677d0d430d59f11837dd7412ee9ab72ea23685a90b83543b475bc38fc",
+        "dafBoundary": {
+          "rawLineCount": 24,
+          "finalRawLine": "דכל",
+          "dafEndState": "MID_SENTENCE"
+        },
+        "fieldInventory": [
+          {
+            "path": "lineRange",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "lines",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "dafLevel.glossary[0].en",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "6b",
+                "startVilnaLine": 1,
+                "endVilnaLine": 24
+              }
+            ]
+          },
+          {
+            "path": "dafLevel.glossary[0].he",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "6b",
+                "startVilnaLine": 1,
+                "endVilnaLine": 24
+              }
+            ]
+          },
+          {
+            "path": "dafLevel.glossary[0].translit",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "6b",
+                "startVilnaLine": 1,
+                "endVilnaLine": 24
+              }
+            ]
+          },
+          {
+            "path": "dafLevel.glossary[1].en",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "6b",
+                "startVilnaLine": 1,
+                "endVilnaLine": 24
+              }
+            ]
+          },
+          {
+            "path": "dafLevel.glossary[1].he",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "6b",
+                "startVilnaLine": 1,
+                "endVilnaLine": 24
+              }
+            ]
+          },
+          {
+            "path": "dafLevel.glossary[1].translit",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "6b",
+                "startVilnaLine": 1,
+                "endVilnaLine": 24
+              }
+            ]
+          },
+          {
+            "path": "dafLevel.glossary[2].en",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "6b",
+                "startVilnaLine": 1,
+                "endVilnaLine": 24
+              }
+            ]
+          },
+          {
+            "path": "dafLevel.glossary[2].he",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "6b",
+                "startVilnaLine": 1,
+                "endVilnaLine": 24
+              }
+            ]
+          },
+          {
+            "path": "dafLevel.glossary[2].translit",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "6b",
+                "startVilnaLine": 1,
+                "endVilnaLine": 24
+              }
+            ]
+          },
+          {
+            "path": "dafLevel.glossary[3].en",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "6b",
+                "startVilnaLine": 1,
+                "endVilnaLine": 24
+              }
+            ]
+          },
+          {
+            "path": "dafLevel.glossary[3].he",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "6b",
+                "startVilnaLine": 1,
+                "endVilnaLine": 24
+              }
+            ]
+          },
+          {
+            "path": "dafLevel.glossary[3].translit",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "6b",
+                "startVilnaLine": 1,
+                "endVilnaLine": 24
+              }
+            ]
+          },
+          {
+            "path": "dafLevel.summary",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "6b",
+                "startVilnaLine": 1,
+                "endVilnaLine": 24
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-01].id",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-01].label",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "6b",
+                "startVilnaLine": 1,
+                "endVilnaLine": 13
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-01].sourceRefs[0].lineId",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-01].sourceRefs[0].note",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "6b",
+                "startVilnaLine": 1,
+                "endVilnaLine": 13
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-01].sourceRefs[0].sourceType",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-01].sourceRefs[0].vilnaLine",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-01].sourceRefs[1].lineId",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-01].sourceRefs[1].note",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "6b",
+                "startVilnaLine": 1,
+                "endVilnaLine": 13
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-01].sourceRefs[1].sourceType",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-01].sourceRefs[1].vilnaLine",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-01].speaker",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "6b",
+                "startVilnaLine": 1,
+                "endVilnaLine": 13
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-01].text",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "6b",
+                "startVilnaLine": 1,
+                "endVilnaLine": 13
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-01].type",
+            "verdict": "REVIEWED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "note": "proof: line 1 answers 6a's reopened question - the comparison is about duration, not immersion timing."
+          },
+          {
+            "path": "argumentFlow[step-02].id",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-02].label",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "6b",
+                "startVilnaLine": 1,
+                "endVilnaLine": 13
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-02].sourceRefs[0].lineId",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-02].sourceRefs[0].note",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "6b",
+                "startVilnaLine": 1,
+                "endVilnaLine": 13
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-02].sourceRefs[0].sourceType",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-02].sourceRefs[0].vilnaLine",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-02].speaker",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "6b",
+                "startVilnaLine": 1,
+                "endVilnaLine": 13
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-02].text",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "6b",
+                "startVilnaLine": 1,
+                "endVilnaLine": 13
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-02].type",
+            "verdict": "REVIEWED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "note": "proof: line 1 (same segment) proves bo'el niddah's mishkav/moshav stringency over tamei meit."
+          },
+          {
+            "path": "argumentFlow[step-03].id",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-03].label",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "6b",
+                "startVilnaLine": 1,
+                "endVilnaLine": 13
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-03].sourceRefs[0].lineId",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-03].sourceRefs[0].note",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "6b",
+                "startVilnaLine": 1,
+                "endVilnaLine": 13
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-03].sourceRefs[0].sourceType",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-03].sourceRefs[0].vilnaLine",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-03].speaker",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "6b",
+                "startVilnaLine": 1,
+                "endVilnaLine": 13
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-03].text",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "6b",
+                "startVilnaLine": 1,
+                "endVilnaLine": 13
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-03].type",
+            "verdict": "REVIEWED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "note": "proof: lines 4-6 (R. Chiyya's baraita) conclusively refutes Rav Shimi's nighttime reading from 6a."
+          },
+          {
+            "path": "argumentFlow[step-04].id",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-04].label",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "6b",
+                "startVilnaLine": 1,
+                "endVilnaLine": 13
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-04].sourceRefs[0].lineId",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-04].sourceRefs[0].note",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "6b",
+                "startVilnaLine": 1,
+                "endVilnaLine": 13
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-04].sourceRefs[0].sourceType",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-04].sourceRefs[0].vilnaLine",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-04].speaker",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "6b",
+                "startVilnaLine": 1,
+                "endVilnaLine": 13
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-04].text",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "6b",
+                "startVilnaLine": 1,
+                "endVilnaLine": 13
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-04].type",
+            "verdict": "REVIEWED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "note": "question: line 7 raises why no ordinance guards against visitor-borne tumas meit."
+          },
+          {
+            "path": "argumentFlow[step-05].id",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-05].label",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "6b",
+                "startVilnaLine": 1,
+                "endVilnaLine": 13
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-05].sourceRefs[0].lineId",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-05].sourceRefs[0].note",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "6b",
+                "startVilnaLine": 1,
+                "endVilnaLine": 13
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-05].sourceRefs[0].sourceType",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-05].sourceRefs[0].vilnaLine",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-05].speaker",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "6b",
+                "startVilnaLine": 1,
+                "endVilnaLine": 13
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-05].text",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "6b",
+                "startVilnaLine": 1,
+                "endVilnaLine": 13
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-05].type",
+            "verdict": "REVIEWED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "note": "answer: line 7 (Rav Tachilifa) answers that the omission proves tumas meit is hutrah."
+          },
+          {
+            "path": "argumentFlow[step-06].id",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-06].label",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "6b",
+                "startVilnaLine": 1,
+                "endVilnaLine": 13
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-06].sourceRefs[0].lineId",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-06].sourceRefs[0].note",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "6b",
+                "startVilnaLine": 1,
+                "endVilnaLine": 13
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-06].sourceRefs[0].sourceType",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-06].sourceRefs[0].vilnaLine",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-06].speaker",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "6b",
+                "startVilnaLine": 1,
+                "endVilnaLine": 13
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-06].text",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "6b",
+                "startVilnaLine": 1,
+                "endVilnaLine": 13
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-06].type",
+            "verdict": "REVIEWED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "note": "counter_objection: line 11 (Ravina) offers a pragmatic alternative to the hutrah inference."
+          },
+          {
+            "path": "conceptRefs[0]",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "conceptRefs[1]",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "conceptRefs[2]",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "difficulty",
+            "verdict": "REVIEWED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "note": "intermediate: requires tracking two independent proofs (duration/mishkav-moshav, then R. Chiyya's baraita) before pivoting to a new omission-argument dispute."
+          },
+          {
+            "path": "display.hint",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "6b",
+                "startVilnaLine": 1,
+                "endVilnaLine": 13
+              }
+            ]
+          },
+          {
+            "path": "display.oneLine",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "6b",
+                "startVilnaLine": 1,
+                "endVilnaLine": 13
+              }
+            ]
+          },
+          {
+            "path": "display.shortSummary",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "6b",
+                "startVilnaLine": 1,
+                "endVilnaLine": 13
+              }
+            ]
+          },
+          {
+            "path": "display.title",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "6b",
+                "startVilnaLine": 1,
+                "endVilnaLine": 13
+              }
+            ]
+          },
+          {
+            "path": "display.whats",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "6b",
+                "startVilnaLine": 1,
+                "endVilnaLine": 13
+              }
+            ]
+          },
+          {
+            "path": "learning.ahaMoment",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "6b",
+                "startVilnaLine": 1,
+                "endVilnaLine": 13
+              }
+            ]
+          },
+          {
+            "path": "learning.coreMove",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "6b",
+                "startVilnaLine": 1,
+                "endVilnaLine": 13
+              }
+            ]
+          },
+          {
+            "path": "learning.coreTension",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "6b",
+                "startVilnaLine": 1,
+                "endVilnaLine": 13
+              }
+            ]
+          },
+          {
+            "path": "learning.learnerQuestion",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "6b",
+                "startVilnaLine": 1,
+                "endVilnaLine": 13
+              }
+            ]
+          },
+          {
+            "path": "learning.learningBlocker",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "6b",
+                "startVilnaLine": 1,
+                "endVilnaLine": 13
+              }
+            ]
+          },
+          {
+            "path": "learning.memoryAnchor",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "6b",
+                "startVilnaLine": 1,
+                "endVilnaLine": 13
+              }
+            ]
+          },
+          {
+            "path": "learning.reasoningPattern.category",
+            "verdict": "REVIEWED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "note": "logical: the argument-from-omission pattern is a logical/evidentiary move."
+          },
+          {
+            "path": "learning.reasoningPattern.id",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "learning.reasoningPattern.notes",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "6b",
+                "startVilnaLine": 1,
+                "endVilnaLine": 13
+              }
+            ]
+          },
+          {
+            "path": "learning.resolution",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "6b",
+                "startVilnaLine": 1,
+                "endVilnaLine": 13
+              }
+            ]
+          },
+          {
+            "path": "learning.takeaway.text",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "6b",
+                "startVilnaLine": 1,
+                "endVilnaLine": 13
+              }
+            ]
+          },
+          {
+            "path": "learning.takeaway.type",
+            "verdict": "REVIEWED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "note": "logical_principle: the takeaway concerns how legislative omission can support either a legal or pragmatic conclusion."
+          },
+          {
+            "path": "misconceptions[0].correction",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "6b",
+                "startVilnaLine": 1,
+                "endVilnaLine": 13
+              }
+            ]
+          },
+          {
+            "path": "misconceptions[0].misconception",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "6b",
+                "startVilnaLine": 1,
+                "endVilnaLine": 13
+              }
+            ]
+          },
+          {
+            "path": "misconceptions[1].correction",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "6b",
+                "startVilnaLine": 1,
+                "endVilnaLine": 13
+              }
+            ]
+          },
+          {
+            "path": "misconceptions[1].misconception",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "6b",
+                "startVilnaLine": 1,
+                "endVilnaLine": 13
+              }
+            ]
+          },
+          {
+            "path": "prerequisiteKnowledge[0]",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "6b",
+                "startVilnaLine": 1,
+                "endVilnaLine": 13
+              }
+            ]
+          },
+          {
+            "path": "prerequisiteKnowledge[1]",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "6b",
+                "startVilnaLine": 1,
+                "endVilnaLine": 13
+              }
+            ]
+          },
+          {
+            "path": "quizSeeds[0].answer",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "6b",
+                "startVilnaLine": 1,
+                "endVilnaLine": 13
+              }
+            ]
+          },
+          {
+            "path": "quizSeeds[0].distractors[0]",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "6b",
+                "startVilnaLine": 1,
+                "endVilnaLine": 13
+              }
+            ]
+          },
+          {
+            "path": "quizSeeds[0].distractors[1]",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "6b",
+                "startVilnaLine": 1,
+                "endVilnaLine": 13
+              }
+            ]
+          },
+          {
+            "path": "quizSeeds[0].distractors[2]",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "6b",
+                "startVilnaLine": 1,
+                "endVilnaLine": 13
+              }
+            ]
+          },
+          {
+            "path": "quizSeeds[0].question",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "6b",
+                "startVilnaLine": 1,
+                "endVilnaLine": 13
+              }
+            ]
+          },
+          {
+            "path": "quizSeeds[0].type",
+            "verdict": "REVIEWED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "note": "multiple_choice: the quiz item presents one question with labeled distractors, matching the multiple_choice format."
+          },
+          {
+            "path": "quizSeeds[1].answer",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "6b",
+                "startVilnaLine": 1,
+                "endVilnaLine": 13
+              }
+            ]
+          },
+          {
+            "path": "quizSeeds[1].question",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "6b",
+                "startVilnaLine": 1,
+                "endVilnaLine": 13
+              }
+            ]
+          },
+          {
+            "path": "quizSeeds[1].type",
+            "verdict": "REVIEWED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "note": "short_answer: the quiz item asks for a free-text explanation with no distractor list, matching the short_answer format."
+          },
+          {
+            "path": "quizSeeds[2].answer",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "6b",
+                "startVilnaLine": 1,
+                "endVilnaLine": 13
+              }
+            ]
+          },
+          {
+            "path": "quizSeeds[2].distractors[0]",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "6b",
+                "startVilnaLine": 1,
+                "endVilnaLine": 13
+              }
+            ]
+          },
+          {
+            "path": "quizSeeds[2].distractors[1]",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "6b",
+                "startVilnaLine": 1,
+                "endVilnaLine": 13
+              }
+            ]
+          },
+          {
+            "path": "quizSeeds[2].distractors[2]",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "6b",
+                "startVilnaLine": 1,
+                "endVilnaLine": 13
+              }
+            ]
+          },
+          {
+            "path": "quizSeeds[2].question",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "6b",
+                "startVilnaLine": 1,
+                "endVilnaLine": 13
+              }
+            ]
+          },
+          {
+            "path": "quizSeeds[2].type",
+            "verdict": "REVIEWED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "note": "multiple_choice: the quiz item presents one question with labeled distractors, matching the multiple_choice format."
+          },
+          {
+            "path": "requiresUnderstanding[0]",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "topicTags[0]",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "topicTags[1]",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "topicTags[2]",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "topicTags[3]",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "topicTags[4]",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "topicTags[5]",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "topicTags[6]",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "visualizableElements[0].item",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "6b",
+                "startVilnaLine": 1,
+                "endVilnaLine": 13
+              }
+            ]
+          },
+          {
+            "path": "visualizableElements[0].type",
+            "verdict": "REVIEWED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "note": "sequence: the element displays R. Chiyya's baraita as an ordered two-column list, matching the sequence category."
+          },
+          {
+            "path": "visualizableElements[1].item",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "6b",
+                "startVilnaLine": 1,
+                "endVilnaLine": 13
+              }
+            ]
+          },
+          {
+            "path": "visualizableElements[1].type",
+            "verdict": "REVIEWED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "note": "contrast: the element juxtaposes bo'el niddah and tamei meit's differing mishkav/moshav capacity, matching the contrast category."
+          },
+          {
+            "path": "visualizableElements[2].item",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "6b",
+                "startVilnaLine": 1,
+                "endVilnaLine": 13
+              }
+            ]
+          },
+          {
+            "path": "visualizableElements[2].type",
+            "verdict": "REVIEWED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "note": "people: the element depicts the Kohen Gadol and visitors in the chamber, matching the people category."
+          }
+        ],
+        "boundaryLeakageSweep": [
+          {
+            "path": "dafLevel.glossary[0].en",
+            "importsNextDafConclusion": false,
+            "note": "Daf 6b opens by resolving 6a's own dangling baraita question (never presented as if resolved on 6a) and physically breaks off mid-sentence at the complete word 'dechol' (L24, the sentence itself unfinished, not the word); this field's own text stays within what lines 1-24 actually establish, correctly attributes the immersion-timing refutation to R. Chiyya's baraita against Rav Shimi's 6a position (not to the earlier duration/mishkav-moshav proof), and never imports 7a's continuation of the genuinely open hutrah/dchuya dispute backward as if resolved here."
+          },
+          {
+            "path": "dafLevel.glossary[0].he",
+            "importsNextDafConclusion": false,
+            "note": "Daf 6b opens by resolving 6a's own dangling baraita question (never presented as if resolved on 6a) and physically breaks off mid-sentence at the complete word 'dechol' (L24, the sentence itself unfinished, not the word); this field's own text stays within what lines 1-24 actually establish, correctly attributes the immersion-timing refutation to R. Chiyya's baraita against Rav Shimi's 6a position (not to the earlier duration/mishkav-moshav proof), and never imports 7a's continuation of the genuinely open hutrah/dchuya dispute backward as if resolved here."
+          },
+          {
+            "path": "dafLevel.glossary[0].translit",
+            "importsNextDafConclusion": false,
+            "note": "Daf 6b opens by resolving 6a's own dangling baraita question (never presented as if resolved on 6a) and physically breaks off mid-sentence at the complete word 'dechol' (L24, the sentence itself unfinished, not the word); this field's own text stays within what lines 1-24 actually establish, correctly attributes the immersion-timing refutation to R. Chiyya's baraita against Rav Shimi's 6a position (not to the earlier duration/mishkav-moshav proof), and never imports 7a's continuation of the genuinely open hutrah/dchuya dispute backward as if resolved here."
+          },
+          {
+            "path": "dafLevel.glossary[1].en",
+            "importsNextDafConclusion": false,
+            "note": "Daf 6b opens by resolving 6a's own dangling baraita question (never presented as if resolved on 6a) and physically breaks off mid-sentence at the complete word 'dechol' (L24, the sentence itself unfinished, not the word); this field's own text stays within what lines 1-24 actually establish, correctly attributes the immersion-timing refutation to R. Chiyya's baraita against Rav Shimi's 6a position (not to the earlier duration/mishkav-moshav proof), and never imports 7a's continuation of the genuinely open hutrah/dchuya dispute backward as if resolved here."
+          },
+          {
+            "path": "dafLevel.glossary[1].he",
+            "importsNextDafConclusion": false,
+            "note": "Daf 6b opens by resolving 6a's own dangling baraita question (never presented as if resolved on 6a) and physically breaks off mid-sentence at the complete word 'dechol' (L24, the sentence itself unfinished, not the word); this field's own text stays within what lines 1-24 actually establish, correctly attributes the immersion-timing refutation to R. Chiyya's baraita against Rav Shimi's 6a position (not to the earlier duration/mishkav-moshav proof), and never imports 7a's continuation of the genuinely open hutrah/dchuya dispute backward as if resolved here."
+          },
+          {
+            "path": "dafLevel.glossary[1].translit",
+            "importsNextDafConclusion": false,
+            "note": "Daf 6b opens by resolving 6a's own dangling baraita question (never presented as if resolved on 6a) and physically breaks off mid-sentence at the complete word 'dechol' (L24, the sentence itself unfinished, not the word); this field's own text stays within what lines 1-24 actually establish, correctly attributes the immersion-timing refutation to R. Chiyya's baraita against Rav Shimi's 6a position (not to the earlier duration/mishkav-moshav proof), and never imports 7a's continuation of the genuinely open hutrah/dchuya dispute backward as if resolved here."
+          },
+          {
+            "path": "dafLevel.glossary[2].en",
+            "importsNextDafConclusion": false,
+            "note": "Daf 6b opens by resolving 6a's own dangling baraita question (never presented as if resolved on 6a) and physically breaks off mid-sentence at the complete word 'dechol' (L24, the sentence itself unfinished, not the word); this field's own text stays within what lines 1-24 actually establish, correctly attributes the immersion-timing refutation to R. Chiyya's baraita against Rav Shimi's 6a position (not to the earlier duration/mishkav-moshav proof), and never imports 7a's continuation of the genuinely open hutrah/dchuya dispute backward as if resolved here."
+          },
+          {
+            "path": "dafLevel.glossary[2].he",
+            "importsNextDafConclusion": false,
+            "note": "Daf 6b opens by resolving 6a's own dangling baraita question (never presented as if resolved on 6a) and physically breaks off mid-sentence at the complete word 'dechol' (L24, the sentence itself unfinished, not the word); this field's own text stays within what lines 1-24 actually establish, correctly attributes the immersion-timing refutation to R. Chiyya's baraita against Rav Shimi's 6a position (not to the earlier duration/mishkav-moshav proof), and never imports 7a's continuation of the genuinely open hutrah/dchuya dispute backward as if resolved here."
+          },
+          {
+            "path": "dafLevel.glossary[2].translit",
+            "importsNextDafConclusion": false,
+            "note": "Daf 6b opens by resolving 6a's own dangling baraita question (never presented as if resolved on 6a) and physically breaks off mid-sentence at the complete word 'dechol' (L24, the sentence itself unfinished, not the word); this field's own text stays within what lines 1-24 actually establish, correctly attributes the immersion-timing refutation to R. Chiyya's baraita against Rav Shimi's 6a position (not to the earlier duration/mishkav-moshav proof), and never imports 7a's continuation of the genuinely open hutrah/dchuya dispute backward as if resolved here."
+          },
+          {
+            "path": "dafLevel.glossary[3].en",
+            "importsNextDafConclusion": false,
+            "note": "Daf 6b opens by resolving 6a's own dangling baraita question (never presented as if resolved on 6a) and physically breaks off mid-sentence at the complete word 'dechol' (L24, the sentence itself unfinished, not the word); this field's own text stays within what lines 1-24 actually establish, correctly attributes the immersion-timing refutation to R. Chiyya's baraita against Rav Shimi's 6a position (not to the earlier duration/mishkav-moshav proof), and never imports 7a's continuation of the genuinely open hutrah/dchuya dispute backward as if resolved here."
+          },
+          {
+            "path": "dafLevel.glossary[3].he",
+            "importsNextDafConclusion": false,
+            "note": "Daf 6b opens by resolving 6a's own dangling baraita question (never presented as if resolved on 6a) and physically breaks off mid-sentence at the complete word 'dechol' (L24, the sentence itself unfinished, not the word); this field's own text stays within what lines 1-24 actually establish, correctly attributes the immersion-timing refutation to R. Chiyya's baraita against Rav Shimi's 6a position (not to the earlier duration/mishkav-moshav proof), and never imports 7a's continuation of the genuinely open hutrah/dchuya dispute backward as if resolved here."
+          },
+          {
+            "path": "dafLevel.glossary[3].translit",
+            "importsNextDafConclusion": false,
+            "note": "Daf 6b opens by resolving 6a's own dangling baraita question (never presented as if resolved on 6a) and physically breaks off mid-sentence at the complete word 'dechol' (L24, the sentence itself unfinished, not the word); this field's own text stays within what lines 1-24 actually establish, correctly attributes the immersion-timing refutation to R. Chiyya's baraita against Rav Shimi's 6a position (not to the earlier duration/mishkav-moshav proof), and never imports 7a's continuation of the genuinely open hutrah/dchuya dispute backward as if resolved here."
+          },
+          {
+            "path": "dafLevel.summary",
+            "importsNextDafConclusion": false,
+            "note": "Daf 6b opens by resolving 6a's own dangling baraita question (never presented as if resolved on 6a) and physically breaks off mid-sentence at the complete word 'dechol' (L24, the sentence itself unfinished, not the word); this field's own text stays within what lines 1-24 actually establish, correctly attributes the immersion-timing refutation to R. Chiyya's baraita against Rav Shimi's 6a position (not to the earlier duration/mishkav-moshav proof), and never imports 7a's continuation of the genuinely open hutrah/dchuya dispute backward as if resolved here."
+          },
+          {
+            "path": "argumentFlow[step-01].label",
+            "importsNextDafConclusion": false,
+            "note": "Daf 6b opens by resolving 6a's own dangling baraita question (never presented as if resolved on 6a) and physically breaks off mid-sentence at the complete word 'dechol' (L24, the sentence itself unfinished, not the word); this field's own text stays within what lines 1-24 actually establish, correctly attributes the immersion-timing refutation to R. Chiyya's baraita against Rav Shimi's 6a position (not to the earlier duration/mishkav-moshav proof), and never imports 7a's continuation of the genuinely open hutrah/dchuya dispute backward as if resolved here."
+          },
+          {
+            "path": "argumentFlow[step-01].sourceRefs[0].note",
+            "importsNextDafConclusion": false,
+            "note": "Daf 6b opens by resolving 6a's own dangling baraita question (never presented as if resolved on 6a) and physically breaks off mid-sentence at the complete word 'dechol' (L24, the sentence itself unfinished, not the word); this field's own text stays within what lines 1-24 actually establish, correctly attributes the immersion-timing refutation to R. Chiyya's baraita against Rav Shimi's 6a position (not to the earlier duration/mishkav-moshav proof), and never imports 7a's continuation of the genuinely open hutrah/dchuya dispute backward as if resolved here."
+          },
+          {
+            "path": "argumentFlow[step-01].sourceRefs[1].note",
+            "importsNextDafConclusion": false,
+            "note": "Daf 6b opens by resolving 6a's own dangling baraita question (never presented as if resolved on 6a) and physically breaks off mid-sentence at the complete word 'dechol' (L24, the sentence itself unfinished, not the word); this field's own text stays within what lines 1-24 actually establish, correctly attributes the immersion-timing refutation to R. Chiyya's baraita against Rav Shimi's 6a position (not to the earlier duration/mishkav-moshav proof), and never imports 7a's continuation of the genuinely open hutrah/dchuya dispute backward as if resolved here."
+          },
+          {
+            "path": "argumentFlow[step-01].speaker",
+            "importsNextDafConclusion": false,
+            "note": "Daf 6b opens by resolving 6a's own dangling baraita question (never presented as if resolved on 6a) and physically breaks off mid-sentence at the complete word 'dechol' (L24, the sentence itself unfinished, not the word); this field's own text stays within what lines 1-24 actually establish, correctly attributes the immersion-timing refutation to R. Chiyya's baraita against Rav Shimi's 6a position (not to the earlier duration/mishkav-moshav proof), and never imports 7a's continuation of the genuinely open hutrah/dchuya dispute backward as if resolved here."
+          },
+          {
+            "path": "argumentFlow[step-01].text",
+            "importsNextDafConclusion": false,
+            "note": "Daf 6b opens by resolving 6a's own dangling baraita question (never presented as if resolved on 6a) and physically breaks off mid-sentence at the complete word 'dechol' (L24, the sentence itself unfinished, not the word); this field's own text stays within what lines 1-24 actually establish, correctly attributes the immersion-timing refutation to R. Chiyya's baraita against Rav Shimi's 6a position (not to the earlier duration/mishkav-moshav proof), and never imports 7a's continuation of the genuinely open hutrah/dchuya dispute backward as if resolved here."
+          },
+          {
+            "path": "argumentFlow[step-01].type",
+            "importsNextDafConclusion": false,
+            "note": "Daf 6b opens by resolving 6a's own dangling baraita question (never presented as if resolved on 6a) and physically breaks off mid-sentence at the complete word 'dechol' (L24, the sentence itself unfinished, not the word); this field's own text stays within what lines 1-24 actually establish, correctly attributes the immersion-timing refutation to R. Chiyya's baraita against Rav Shimi's 6a position (not to the earlier duration/mishkav-moshav proof), and never imports 7a's continuation of the genuinely open hutrah/dchuya dispute backward as if resolved here."
+          },
+          {
+            "path": "argumentFlow[step-02].label",
+            "importsNextDafConclusion": false,
+            "note": "Daf 6b opens by resolving 6a's own dangling baraita question (never presented as if resolved on 6a) and physically breaks off mid-sentence at the complete word 'dechol' (L24, the sentence itself unfinished, not the word); this field's own text stays within what lines 1-24 actually establish, correctly attributes the immersion-timing refutation to R. Chiyya's baraita against Rav Shimi's 6a position (not to the earlier duration/mishkav-moshav proof), and never imports 7a's continuation of the genuinely open hutrah/dchuya dispute backward as if resolved here."
+          },
+          {
+            "path": "argumentFlow[step-02].sourceRefs[0].note",
+            "importsNextDafConclusion": false,
+            "note": "Daf 6b opens by resolving 6a's own dangling baraita question (never presented as if resolved on 6a) and physically breaks off mid-sentence at the complete word 'dechol' (L24, the sentence itself unfinished, not the word); this field's own text stays within what lines 1-24 actually establish, correctly attributes the immersion-timing refutation to R. Chiyya's baraita against Rav Shimi's 6a position (not to the earlier duration/mishkav-moshav proof), and never imports 7a's continuation of the genuinely open hutrah/dchuya dispute backward as if resolved here."
+          },
+          {
+            "path": "argumentFlow[step-02].speaker",
+            "importsNextDafConclusion": false,
+            "note": "Daf 6b opens by resolving 6a's own dangling baraita question (never presented as if resolved on 6a) and physically breaks off mid-sentence at the complete word 'dechol' (L24, the sentence itself unfinished, not the word); this field's own text stays within what lines 1-24 actually establish, correctly attributes the immersion-timing refutation to R. Chiyya's baraita against Rav Shimi's 6a position (not to the earlier duration/mishkav-moshav proof), and never imports 7a's continuation of the genuinely open hutrah/dchuya dispute backward as if resolved here."
+          },
+          {
+            "path": "argumentFlow[step-02].text",
+            "importsNextDafConclusion": false,
+            "note": "Daf 6b opens by resolving 6a's own dangling baraita question (never presented as if resolved on 6a) and physically breaks off mid-sentence at the complete word 'dechol' (L24, the sentence itself unfinished, not the word); this field's own text stays within what lines 1-24 actually establish, correctly attributes the immersion-timing refutation to R. Chiyya's baraita against Rav Shimi's 6a position (not to the earlier duration/mishkav-moshav proof), and never imports 7a's continuation of the genuinely open hutrah/dchuya dispute backward as if resolved here."
+          },
+          {
+            "path": "argumentFlow[step-02].type",
+            "importsNextDafConclusion": false,
+            "note": "Daf 6b opens by resolving 6a's own dangling baraita question (never presented as if resolved on 6a) and physically breaks off mid-sentence at the complete word 'dechol' (L24, the sentence itself unfinished, not the word); this field's own text stays within what lines 1-24 actually establish, correctly attributes the immersion-timing refutation to R. Chiyya's baraita against Rav Shimi's 6a position (not to the earlier duration/mishkav-moshav proof), and never imports 7a's continuation of the genuinely open hutrah/dchuya dispute backward as if resolved here."
+          },
+          {
+            "path": "argumentFlow[step-03].label",
+            "importsNextDafConclusion": false,
+            "note": "Daf 6b opens by resolving 6a's own dangling baraita question (never presented as if resolved on 6a) and physically breaks off mid-sentence at the complete word 'dechol' (L24, the sentence itself unfinished, not the word); this field's own text stays within what lines 1-24 actually establish, correctly attributes the immersion-timing refutation to R. Chiyya's baraita against Rav Shimi's 6a position (not to the earlier duration/mishkav-moshav proof), and never imports 7a's continuation of the genuinely open hutrah/dchuya dispute backward as if resolved here."
+          },
+          {
+            "path": "argumentFlow[step-03].sourceRefs[0].note",
+            "importsNextDafConclusion": false,
+            "note": "Daf 6b opens by resolving 6a's own dangling baraita question (never presented as if resolved on 6a) and physically breaks off mid-sentence at the complete word 'dechol' (L24, the sentence itself unfinished, not the word); this field's own text stays within what lines 1-24 actually establish, correctly attributes the immersion-timing refutation to R. Chiyya's baraita against Rav Shimi's 6a position (not to the earlier duration/mishkav-moshav proof), and never imports 7a's continuation of the genuinely open hutrah/dchuya dispute backward as if resolved here."
+          },
+          {
+            "path": "argumentFlow[step-03].speaker",
+            "importsNextDafConclusion": false,
+            "note": "Daf 6b opens by resolving 6a's own dangling baraita question (never presented as if resolved on 6a) and physically breaks off mid-sentence at the complete word 'dechol' (L24, the sentence itself unfinished, not the word); this field's own text stays within what lines 1-24 actually establish, correctly attributes the immersion-timing refutation to R. Chiyya's baraita against Rav Shimi's 6a position (not to the earlier duration/mishkav-moshav proof), and never imports 7a's continuation of the genuinely open hutrah/dchuya dispute backward as if resolved here."
+          },
+          {
+            "path": "argumentFlow[step-03].text",
+            "importsNextDafConclusion": false,
+            "note": "Daf 6b opens by resolving 6a's own dangling baraita question (never presented as if resolved on 6a) and physically breaks off mid-sentence at the complete word 'dechol' (L24, the sentence itself unfinished, not the word); this field's own text stays within what lines 1-24 actually establish, correctly attributes the immersion-timing refutation to R. Chiyya's baraita against Rav Shimi's 6a position (not to the earlier duration/mishkav-moshav proof), and never imports 7a's continuation of the genuinely open hutrah/dchuya dispute backward as if resolved here."
+          },
+          {
+            "path": "argumentFlow[step-03].type",
+            "importsNextDafConclusion": false,
+            "note": "Daf 6b opens by resolving 6a's own dangling baraita question (never presented as if resolved on 6a) and physically breaks off mid-sentence at the complete word 'dechol' (L24, the sentence itself unfinished, not the word); this field's own text stays within what lines 1-24 actually establish, correctly attributes the immersion-timing refutation to R. Chiyya's baraita against Rav Shimi's 6a position (not to the earlier duration/mishkav-moshav proof), and never imports 7a's continuation of the genuinely open hutrah/dchuya dispute backward as if resolved here."
+          },
+          {
+            "path": "argumentFlow[step-04].label",
+            "importsNextDafConclusion": false,
+            "note": "Daf 6b opens by resolving 6a's own dangling baraita question (never presented as if resolved on 6a) and physically breaks off mid-sentence at the complete word 'dechol' (L24, the sentence itself unfinished, not the word); this field's own text stays within what lines 1-24 actually establish, correctly attributes the immersion-timing refutation to R. Chiyya's baraita against Rav Shimi's 6a position (not to the earlier duration/mishkav-moshav proof), and never imports 7a's continuation of the genuinely open hutrah/dchuya dispute backward as if resolved here."
+          },
+          {
+            "path": "argumentFlow[step-04].sourceRefs[0].note",
+            "importsNextDafConclusion": false,
+            "note": "Daf 6b opens by resolving 6a's own dangling baraita question (never presented as if resolved on 6a) and physically breaks off mid-sentence at the complete word 'dechol' (L24, the sentence itself unfinished, not the word); this field's own text stays within what lines 1-24 actually establish, correctly attributes the immersion-timing refutation to R. Chiyya's baraita against Rav Shimi's 6a position (not to the earlier duration/mishkav-moshav proof), and never imports 7a's continuation of the genuinely open hutrah/dchuya dispute backward as if resolved here."
+          },
+          {
+            "path": "argumentFlow[step-04].speaker",
+            "importsNextDafConclusion": false,
+            "note": "Daf 6b opens by resolving 6a's own dangling baraita question (never presented as if resolved on 6a) and physically breaks off mid-sentence at the complete word 'dechol' (L24, the sentence itself unfinished, not the word); this field's own text stays within what lines 1-24 actually establish, correctly attributes the immersion-timing refutation to R. Chiyya's baraita against Rav Shimi's 6a position (not to the earlier duration/mishkav-moshav proof), and never imports 7a's continuation of the genuinely open hutrah/dchuya dispute backward as if resolved here."
+          },
+          {
+            "path": "argumentFlow[step-04].text",
+            "importsNextDafConclusion": false,
+            "note": "Daf 6b opens by resolving 6a's own dangling baraita question (never presented as if resolved on 6a) and physically breaks off mid-sentence at the complete word 'dechol' (L24, the sentence itself unfinished, not the word); this field's own text stays within what lines 1-24 actually establish, correctly attributes the immersion-timing refutation to R. Chiyya's baraita against Rav Shimi's 6a position (not to the earlier duration/mishkav-moshav proof), and never imports 7a's continuation of the genuinely open hutrah/dchuya dispute backward as if resolved here."
+          },
+          {
+            "path": "argumentFlow[step-04].type",
+            "importsNextDafConclusion": false,
+            "note": "Daf 6b opens by resolving 6a's own dangling baraita question (never presented as if resolved on 6a) and physically breaks off mid-sentence at the complete word 'dechol' (L24, the sentence itself unfinished, not the word); this field's own text stays within what lines 1-24 actually establish, correctly attributes the immersion-timing refutation to R. Chiyya's baraita against Rav Shimi's 6a position (not to the earlier duration/mishkav-moshav proof), and never imports 7a's continuation of the genuinely open hutrah/dchuya dispute backward as if resolved here."
+          },
+          {
+            "path": "argumentFlow[step-05].label",
+            "importsNextDafConclusion": false,
+            "note": "Daf 6b opens by resolving 6a's own dangling baraita question (never presented as if resolved on 6a) and physically breaks off mid-sentence at the complete word 'dechol' (L24, the sentence itself unfinished, not the word); this field's own text stays within what lines 1-24 actually establish, correctly attributes the immersion-timing refutation to R. Chiyya's baraita against Rav Shimi's 6a position (not to the earlier duration/mishkav-moshav proof), and never imports 7a's continuation of the genuinely open hutrah/dchuya dispute backward as if resolved here."
+          },
+          {
+            "path": "argumentFlow[step-05].sourceRefs[0].note",
+            "importsNextDafConclusion": false,
+            "note": "Daf 6b opens by resolving 6a's own dangling baraita question (never presented as if resolved on 6a) and physically breaks off mid-sentence at the complete word 'dechol' (L24, the sentence itself unfinished, not the word); this field's own text stays within what lines 1-24 actually establish, correctly attributes the immersion-timing refutation to R. Chiyya's baraita against Rav Shimi's 6a position (not to the earlier duration/mishkav-moshav proof), and never imports 7a's continuation of the genuinely open hutrah/dchuya dispute backward as if resolved here."
+          },
+          {
+            "path": "argumentFlow[step-05].speaker",
+            "importsNextDafConclusion": false,
+            "note": "Daf 6b opens by resolving 6a's own dangling baraita question (never presented as if resolved on 6a) and physically breaks off mid-sentence at the complete word 'dechol' (L24, the sentence itself unfinished, not the word); this field's own text stays within what lines 1-24 actually establish, correctly attributes the immersion-timing refutation to R. Chiyya's baraita against Rav Shimi's 6a position (not to the earlier duration/mishkav-moshav proof), and never imports 7a's continuation of the genuinely open hutrah/dchuya dispute backward as if resolved here."
+          },
+          {
+            "path": "argumentFlow[step-05].text",
+            "importsNextDafConclusion": false,
+            "note": "Daf 6b opens by resolving 6a's own dangling baraita question (never presented as if resolved on 6a) and physically breaks off mid-sentence at the complete word 'dechol' (L24, the sentence itself unfinished, not the word); this field's own text stays within what lines 1-24 actually establish, correctly attributes the immersion-timing refutation to R. Chiyya's baraita against Rav Shimi's 6a position (not to the earlier duration/mishkav-moshav proof), and never imports 7a's continuation of the genuinely open hutrah/dchuya dispute backward as if resolved here."
+          },
+          {
+            "path": "argumentFlow[step-05].type",
+            "importsNextDafConclusion": false,
+            "note": "Daf 6b opens by resolving 6a's own dangling baraita question (never presented as if resolved on 6a) and physically breaks off mid-sentence at the complete word 'dechol' (L24, the sentence itself unfinished, not the word); this field's own text stays within what lines 1-24 actually establish, correctly attributes the immersion-timing refutation to R. Chiyya's baraita against Rav Shimi's 6a position (not to the earlier duration/mishkav-moshav proof), and never imports 7a's continuation of the genuinely open hutrah/dchuya dispute backward as if resolved here."
+          },
+          {
+            "path": "argumentFlow[step-06].label",
+            "importsNextDafConclusion": false,
+            "note": "Daf 6b opens by resolving 6a's own dangling baraita question (never presented as if resolved on 6a) and physically breaks off mid-sentence at the complete word 'dechol' (L24, the sentence itself unfinished, not the word); this field's own text stays within what lines 1-24 actually establish, correctly attributes the immersion-timing refutation to R. Chiyya's baraita against Rav Shimi's 6a position (not to the earlier duration/mishkav-moshav proof), and never imports 7a's continuation of the genuinely open hutrah/dchuya dispute backward as if resolved here."
+          },
+          {
+            "path": "argumentFlow[step-06].sourceRefs[0].note",
+            "importsNextDafConclusion": false,
+            "note": "Daf 6b opens by resolving 6a's own dangling baraita question (never presented as if resolved on 6a) and physically breaks off mid-sentence at the complete word 'dechol' (L24, the sentence itself unfinished, not the word); this field's own text stays within what lines 1-24 actually establish, correctly attributes the immersion-timing refutation to R. Chiyya's baraita against Rav Shimi's 6a position (not to the earlier duration/mishkav-moshav proof), and never imports 7a's continuation of the genuinely open hutrah/dchuya dispute backward as if resolved here."
+          },
+          {
+            "path": "argumentFlow[step-06].speaker",
+            "importsNextDafConclusion": false,
+            "note": "Daf 6b opens by resolving 6a's own dangling baraita question (never presented as if resolved on 6a) and physically breaks off mid-sentence at the complete word 'dechol' (L24, the sentence itself unfinished, not the word); this field's own text stays within what lines 1-24 actually establish, correctly attributes the immersion-timing refutation to R. Chiyya's baraita against Rav Shimi's 6a position (not to the earlier duration/mishkav-moshav proof), and never imports 7a's continuation of the genuinely open hutrah/dchuya dispute backward as if resolved here."
+          },
+          {
+            "path": "argumentFlow[step-06].text",
+            "importsNextDafConclusion": false,
+            "note": "Daf 6b opens by resolving 6a's own dangling baraita question (never presented as if resolved on 6a) and physically breaks off mid-sentence at the complete word 'dechol' (L24, the sentence itself unfinished, not the word); this field's own text stays within what lines 1-24 actually establish, correctly attributes the immersion-timing refutation to R. Chiyya's baraita against Rav Shimi's 6a position (not to the earlier duration/mishkav-moshav proof), and never imports 7a's continuation of the genuinely open hutrah/dchuya dispute backward as if resolved here."
+          },
+          {
+            "path": "argumentFlow[step-06].type",
+            "importsNextDafConclusion": false,
+            "note": "Daf 6b opens by resolving 6a's own dangling baraita question (never presented as if resolved on 6a) and physically breaks off mid-sentence at the complete word 'dechol' (L24, the sentence itself unfinished, not the word); this field's own text stays within what lines 1-24 actually establish, correctly attributes the immersion-timing refutation to R. Chiyya's baraita against Rav Shimi's 6a position (not to the earlier duration/mishkav-moshav proof), and never imports 7a's continuation of the genuinely open hutrah/dchuya dispute backward as if resolved here."
+          },
+          {
+            "path": "difficulty",
+            "importsNextDafConclusion": false,
+            "note": "Daf 6b opens by resolving 6a's own dangling baraita question (never presented as if resolved on 6a) and physically breaks off mid-sentence at the complete word 'dechol' (L24, the sentence itself unfinished, not the word); this field's own text stays within what lines 1-24 actually establish, correctly attributes the immersion-timing refutation to R. Chiyya's baraita against Rav Shimi's 6a position (not to the earlier duration/mishkav-moshav proof), and never imports 7a's continuation of the genuinely open hutrah/dchuya dispute backward as if resolved here."
+          },
+          {
+            "path": "display.hint",
+            "importsNextDafConclusion": false,
+            "note": "Daf 6b opens by resolving 6a's own dangling baraita question (never presented as if resolved on 6a) and physically breaks off mid-sentence at the complete word 'dechol' (L24, the sentence itself unfinished, not the word); this field's own text stays within what lines 1-24 actually establish, correctly attributes the immersion-timing refutation to R. Chiyya's baraita against Rav Shimi's 6a position (not to the earlier duration/mishkav-moshav proof), and never imports 7a's continuation of the genuinely open hutrah/dchuya dispute backward as if resolved here."
+          },
+          {
+            "path": "display.oneLine",
+            "importsNextDafConclusion": false,
+            "note": "Daf 6b opens by resolving 6a's own dangling baraita question (never presented as if resolved on 6a) and physically breaks off mid-sentence at the complete word 'dechol' (L24, the sentence itself unfinished, not the word); this field's own text stays within what lines 1-24 actually establish, correctly attributes the immersion-timing refutation to R. Chiyya's baraita against Rav Shimi's 6a position (not to the earlier duration/mishkav-moshav proof), and never imports 7a's continuation of the genuinely open hutrah/dchuya dispute backward as if resolved here."
+          },
+          {
+            "path": "display.shortSummary",
+            "importsNextDafConclusion": false,
+            "note": "Daf 6b opens by resolving 6a's own dangling baraita question (never presented as if resolved on 6a) and physically breaks off mid-sentence at the complete word 'dechol' (L24, the sentence itself unfinished, not the word); this field's own text stays within what lines 1-24 actually establish, correctly attributes the immersion-timing refutation to R. Chiyya's baraita against Rav Shimi's 6a position (not to the earlier duration/mishkav-moshav proof), and never imports 7a's continuation of the genuinely open hutrah/dchuya dispute backward as if resolved here."
+          },
+          {
+            "path": "display.title",
+            "importsNextDafConclusion": false,
+            "note": "Daf 6b opens by resolving 6a's own dangling baraita question (never presented as if resolved on 6a) and physically breaks off mid-sentence at the complete word 'dechol' (L24, the sentence itself unfinished, not the word); this field's own text stays within what lines 1-24 actually establish, correctly attributes the immersion-timing refutation to R. Chiyya's baraita against Rav Shimi's 6a position (not to the earlier duration/mishkav-moshav proof), and never imports 7a's continuation of the genuinely open hutrah/dchuya dispute backward as if resolved here."
+          },
+          {
+            "path": "display.whats",
+            "importsNextDafConclusion": false,
+            "note": "Daf 6b opens by resolving 6a's own dangling baraita question (never presented as if resolved on 6a) and physically breaks off mid-sentence at the complete word 'dechol' (L24, the sentence itself unfinished, not the word); this field's own text stays within what lines 1-24 actually establish, correctly attributes the immersion-timing refutation to R. Chiyya's baraita against Rav Shimi's 6a position (not to the earlier duration/mishkav-moshav proof), and never imports 7a's continuation of the genuinely open hutrah/dchuya dispute backward as if resolved here."
+          },
+          {
+            "path": "learning.ahaMoment",
+            "importsNextDafConclusion": false,
+            "note": "Daf 6b opens by resolving 6a's own dangling baraita question (never presented as if resolved on 6a) and physically breaks off mid-sentence at the complete word 'dechol' (L24, the sentence itself unfinished, not the word); this field's own text stays within what lines 1-24 actually establish, correctly attributes the immersion-timing refutation to R. Chiyya's baraita against Rav Shimi's 6a position (not to the earlier duration/mishkav-moshav proof), and never imports 7a's continuation of the genuinely open hutrah/dchuya dispute backward as if resolved here."
+          },
+          {
+            "path": "learning.coreMove",
+            "importsNextDafConclusion": false,
+            "note": "Daf 6b opens by resolving 6a's own dangling baraita question (never presented as if resolved on 6a) and physically breaks off mid-sentence at the complete word 'dechol' (L24, the sentence itself unfinished, not the word); this field's own text stays within what lines 1-24 actually establish, correctly attributes the immersion-timing refutation to R. Chiyya's baraita against Rav Shimi's 6a position (not to the earlier duration/mishkav-moshav proof), and never imports 7a's continuation of the genuinely open hutrah/dchuya dispute backward as if resolved here."
+          },
+          {
+            "path": "learning.coreTension",
+            "importsNextDafConclusion": false,
+            "note": "Daf 6b opens by resolving 6a's own dangling baraita question (never presented as if resolved on 6a) and physically breaks off mid-sentence at the complete word 'dechol' (L24, the sentence itself unfinished, not the word); this field's own text stays within what lines 1-24 actually establish, correctly attributes the immersion-timing refutation to R. Chiyya's baraita against Rav Shimi's 6a position (not to the earlier duration/mishkav-moshav proof), and never imports 7a's continuation of the genuinely open hutrah/dchuya dispute backward as if resolved here."
+          },
+          {
+            "path": "learning.learnerQuestion",
+            "importsNextDafConclusion": false,
+            "note": "Daf 6b opens by resolving 6a's own dangling baraita question (never presented as if resolved on 6a) and physically breaks off mid-sentence at the complete word 'dechol' (L24, the sentence itself unfinished, not the word); this field's own text stays within what lines 1-24 actually establish, correctly attributes the immersion-timing refutation to R. Chiyya's baraita against Rav Shimi's 6a position (not to the earlier duration/mishkav-moshav proof), and never imports 7a's continuation of the genuinely open hutrah/dchuya dispute backward as if resolved here."
+          },
+          {
+            "path": "learning.learningBlocker",
+            "importsNextDafConclusion": false,
+            "note": "Daf 6b opens by resolving 6a's own dangling baraita question (never presented as if resolved on 6a) and physically breaks off mid-sentence at the complete word 'dechol' (L24, the sentence itself unfinished, not the word); this field's own text stays within what lines 1-24 actually establish, correctly attributes the immersion-timing refutation to R. Chiyya's baraita against Rav Shimi's 6a position (not to the earlier duration/mishkav-moshav proof), and never imports 7a's continuation of the genuinely open hutrah/dchuya dispute backward as if resolved here."
+          },
+          {
+            "path": "learning.memoryAnchor",
+            "importsNextDafConclusion": false,
+            "note": "Daf 6b opens by resolving 6a's own dangling baraita question (never presented as if resolved on 6a) and physically breaks off mid-sentence at the complete word 'dechol' (L24, the sentence itself unfinished, not the word); this field's own text stays within what lines 1-24 actually establish, correctly attributes the immersion-timing refutation to R. Chiyya's baraita against Rav Shimi's 6a position (not to the earlier duration/mishkav-moshav proof), and never imports 7a's continuation of the genuinely open hutrah/dchuya dispute backward as if resolved here."
+          },
+          {
+            "path": "learning.reasoningPattern.category",
+            "importsNextDafConclusion": false,
+            "note": "Daf 6b opens by resolving 6a's own dangling baraita question (never presented as if resolved on 6a) and physically breaks off mid-sentence at the complete word 'dechol' (L24, the sentence itself unfinished, not the word); this field's own text stays within what lines 1-24 actually establish, correctly attributes the immersion-timing refutation to R. Chiyya's baraita against Rav Shimi's 6a position (not to the earlier duration/mishkav-moshav proof), and never imports 7a's continuation of the genuinely open hutrah/dchuya dispute backward as if resolved here."
+          },
+          {
+            "path": "learning.reasoningPattern.notes",
+            "importsNextDafConclusion": false,
+            "note": "Daf 6b opens by resolving 6a's own dangling baraita question (never presented as if resolved on 6a) and physically breaks off mid-sentence at the complete word 'dechol' (L24, the sentence itself unfinished, not the word); this field's own text stays within what lines 1-24 actually establish, correctly attributes the immersion-timing refutation to R. Chiyya's baraita against Rav Shimi's 6a position (not to the earlier duration/mishkav-moshav proof), and never imports 7a's continuation of the genuinely open hutrah/dchuya dispute backward as if resolved here."
+          },
+          {
+            "path": "learning.resolution",
+            "importsNextDafConclusion": false,
+            "note": "Daf 6b opens by resolving 6a's own dangling baraita question (never presented as if resolved on 6a) and physically breaks off mid-sentence at the complete word 'dechol' (L24, the sentence itself unfinished, not the word); this field's own text stays within what lines 1-24 actually establish, correctly attributes the immersion-timing refutation to R. Chiyya's baraita against Rav Shimi's 6a position (not to the earlier duration/mishkav-moshav proof), and never imports 7a's continuation of the genuinely open hutrah/dchuya dispute backward as if resolved here."
+          },
+          {
+            "path": "learning.takeaway.text",
+            "importsNextDafConclusion": false,
+            "note": "Daf 6b opens by resolving 6a's own dangling baraita question (never presented as if resolved on 6a) and physically breaks off mid-sentence at the complete word 'dechol' (L24, the sentence itself unfinished, not the word); this field's own text stays within what lines 1-24 actually establish, correctly attributes the immersion-timing refutation to R. Chiyya's baraita against Rav Shimi's 6a position (not to the earlier duration/mishkav-moshav proof), and never imports 7a's continuation of the genuinely open hutrah/dchuya dispute backward as if resolved here."
+          },
+          {
+            "path": "learning.takeaway.type",
+            "importsNextDafConclusion": false,
+            "note": "Daf 6b opens by resolving 6a's own dangling baraita question (never presented as if resolved on 6a) and physically breaks off mid-sentence at the complete word 'dechol' (L24, the sentence itself unfinished, not the word); this field's own text stays within what lines 1-24 actually establish, correctly attributes the immersion-timing refutation to R. Chiyya's baraita against Rav Shimi's 6a position (not to the earlier duration/mishkav-moshav proof), and never imports 7a's continuation of the genuinely open hutrah/dchuya dispute backward as if resolved here."
+          },
+          {
+            "path": "misconceptions[0].correction",
+            "importsNextDafConclusion": false,
+            "note": "Daf 6b opens by resolving 6a's own dangling baraita question (never presented as if resolved on 6a) and physically breaks off mid-sentence at the complete word 'dechol' (L24, the sentence itself unfinished, not the word); this field's own text stays within what lines 1-24 actually establish, correctly attributes the immersion-timing refutation to R. Chiyya's baraita against Rav Shimi's 6a position (not to the earlier duration/mishkav-moshav proof), and never imports 7a's continuation of the genuinely open hutrah/dchuya dispute backward as if resolved here."
+          },
+          {
+            "path": "misconceptions[0].misconception",
+            "importsNextDafConclusion": false,
+            "note": "Daf 6b opens by resolving 6a's own dangling baraita question (never presented as if resolved on 6a) and physically breaks off mid-sentence at the complete word 'dechol' (L24, the sentence itself unfinished, not the word); this field's own text stays within what lines 1-24 actually establish, correctly attributes the immersion-timing refutation to R. Chiyya's baraita against Rav Shimi's 6a position (not to the earlier duration/mishkav-moshav proof), and never imports 7a's continuation of the genuinely open hutrah/dchuya dispute backward as if resolved here."
+          },
+          {
+            "path": "misconceptions[1].correction",
+            "importsNextDafConclusion": false,
+            "note": "Daf 6b opens by resolving 6a's own dangling baraita question (never presented as if resolved on 6a) and physically breaks off mid-sentence at the complete word 'dechol' (L24, the sentence itself unfinished, not the word); this field's own text stays within what lines 1-24 actually establish, correctly attributes the immersion-timing refutation to R. Chiyya's baraita against Rav Shimi's 6a position (not to the earlier duration/mishkav-moshav proof), and never imports 7a's continuation of the genuinely open hutrah/dchuya dispute backward as if resolved here."
+          },
+          {
+            "path": "misconceptions[1].misconception",
+            "importsNextDafConclusion": false,
+            "note": "Daf 6b opens by resolving 6a's own dangling baraita question (never presented as if resolved on 6a) and physically breaks off mid-sentence at the complete word 'dechol' (L24, the sentence itself unfinished, not the word); this field's own text stays within what lines 1-24 actually establish, correctly attributes the immersion-timing refutation to R. Chiyya's baraita against Rav Shimi's 6a position (not to the earlier duration/mishkav-moshav proof), and never imports 7a's continuation of the genuinely open hutrah/dchuya dispute backward as if resolved here."
+          },
+          {
+            "path": "prerequisiteKnowledge[0]",
+            "importsNextDafConclusion": false,
+            "note": "Daf 6b opens by resolving 6a's own dangling baraita question (never presented as if resolved on 6a) and physically breaks off mid-sentence at the complete word 'dechol' (L24, the sentence itself unfinished, not the word); this field's own text stays within what lines 1-24 actually establish, correctly attributes the immersion-timing refutation to R. Chiyya's baraita against Rav Shimi's 6a position (not to the earlier duration/mishkav-moshav proof), and never imports 7a's continuation of the genuinely open hutrah/dchuya dispute backward as if resolved here."
+          },
+          {
+            "path": "prerequisiteKnowledge[1]",
+            "importsNextDafConclusion": false,
+            "note": "Daf 6b opens by resolving 6a's own dangling baraita question (never presented as if resolved on 6a) and physically breaks off mid-sentence at the complete word 'dechol' (L24, the sentence itself unfinished, not the word); this field's own text stays within what lines 1-24 actually establish, correctly attributes the immersion-timing refutation to R. Chiyya's baraita against Rav Shimi's 6a position (not to the earlier duration/mishkav-moshav proof), and never imports 7a's continuation of the genuinely open hutrah/dchuya dispute backward as if resolved here."
+          },
+          {
+            "path": "quizSeeds[0].answer",
+            "importsNextDafConclusion": false,
+            "note": "Daf 6b opens by resolving 6a's own dangling baraita question (never presented as if resolved on 6a) and physically breaks off mid-sentence at the complete word 'dechol' (L24, the sentence itself unfinished, not the word); this field's own text stays within what lines 1-24 actually establish, correctly attributes the immersion-timing refutation to R. Chiyya's baraita against Rav Shimi's 6a position (not to the earlier duration/mishkav-moshav proof), and never imports 7a's continuation of the genuinely open hutrah/dchuya dispute backward as if resolved here."
+          },
+          {
+            "path": "quizSeeds[0].distractors[0]",
+            "importsNextDafConclusion": false,
+            "note": "Daf 6b opens by resolving 6a's own dangling baraita question (never presented as if resolved on 6a) and physically breaks off mid-sentence at the complete word 'dechol' (L24, the sentence itself unfinished, not the word); this field's own text stays within what lines 1-24 actually establish, correctly attributes the immersion-timing refutation to R. Chiyya's baraita against Rav Shimi's 6a position (not to the earlier duration/mishkav-moshav proof), and never imports 7a's continuation of the genuinely open hutrah/dchuya dispute backward as if resolved here."
+          },
+          {
+            "path": "quizSeeds[0].distractors[1]",
+            "importsNextDafConclusion": false,
+            "note": "Daf 6b opens by resolving 6a's own dangling baraita question (never presented as if resolved on 6a) and physically breaks off mid-sentence at the complete word 'dechol' (L24, the sentence itself unfinished, not the word); this field's own text stays within what lines 1-24 actually establish, correctly attributes the immersion-timing refutation to R. Chiyya's baraita against Rav Shimi's 6a position (not to the earlier duration/mishkav-moshav proof), and never imports 7a's continuation of the genuinely open hutrah/dchuya dispute backward as if resolved here."
+          },
+          {
+            "path": "quizSeeds[0].distractors[2]",
+            "importsNextDafConclusion": false,
+            "note": "Daf 6b opens by resolving 6a's own dangling baraita question (never presented as if resolved on 6a) and physically breaks off mid-sentence at the complete word 'dechol' (L24, the sentence itself unfinished, not the word); this field's own text stays within what lines 1-24 actually establish, correctly attributes the immersion-timing refutation to R. Chiyya's baraita against Rav Shimi's 6a position (not to the earlier duration/mishkav-moshav proof), and never imports 7a's continuation of the genuinely open hutrah/dchuya dispute backward as if resolved here."
+          },
+          {
+            "path": "quizSeeds[0].question",
+            "importsNextDafConclusion": false,
+            "note": "Daf 6b opens by resolving 6a's own dangling baraita question (never presented as if resolved on 6a) and physically breaks off mid-sentence at the complete word 'dechol' (L24, the sentence itself unfinished, not the word); this field's own text stays within what lines 1-24 actually establish, correctly attributes the immersion-timing refutation to R. Chiyya's baraita against Rav Shimi's 6a position (not to the earlier duration/mishkav-moshav proof), and never imports 7a's continuation of the genuinely open hutrah/dchuya dispute backward as if resolved here."
+          },
+          {
+            "path": "quizSeeds[0].type",
+            "importsNextDafConclusion": false,
+            "note": "Daf 6b opens by resolving 6a's own dangling baraita question (never presented as if resolved on 6a) and physically breaks off mid-sentence at the complete word 'dechol' (L24, the sentence itself unfinished, not the word); this field's own text stays within what lines 1-24 actually establish, correctly attributes the immersion-timing refutation to R. Chiyya's baraita against Rav Shimi's 6a position (not to the earlier duration/mishkav-moshav proof), and never imports 7a's continuation of the genuinely open hutrah/dchuya dispute backward as if resolved here."
+          },
+          {
+            "path": "quizSeeds[1].answer",
+            "importsNextDafConclusion": false,
+            "note": "Daf 6b opens by resolving 6a's own dangling baraita question (never presented as if resolved on 6a) and physically breaks off mid-sentence at the complete word 'dechol' (L24, the sentence itself unfinished, not the word); this field's own text stays within what lines 1-24 actually establish, correctly attributes the immersion-timing refutation to R. Chiyya's baraita against Rav Shimi's 6a position (not to the earlier duration/mishkav-moshav proof), and never imports 7a's continuation of the genuinely open hutrah/dchuya dispute backward as if resolved here."
+          },
+          {
+            "path": "quizSeeds[1].question",
+            "importsNextDafConclusion": false,
+            "note": "Daf 6b opens by resolving 6a's own dangling baraita question (never presented as if resolved on 6a) and physically breaks off mid-sentence at the complete word 'dechol' (L24, the sentence itself unfinished, not the word); this field's own text stays within what lines 1-24 actually establish, correctly attributes the immersion-timing refutation to R. Chiyya's baraita against Rav Shimi's 6a position (not to the earlier duration/mishkav-moshav proof), and never imports 7a's continuation of the genuinely open hutrah/dchuya dispute backward as if resolved here."
+          },
+          {
+            "path": "quizSeeds[1].type",
+            "importsNextDafConclusion": false,
+            "note": "Daf 6b opens by resolving 6a's own dangling baraita question (never presented as if resolved on 6a) and physically breaks off mid-sentence at the complete word 'dechol' (L24, the sentence itself unfinished, not the word); this field's own text stays within what lines 1-24 actually establish, correctly attributes the immersion-timing refutation to R. Chiyya's baraita against Rav Shimi's 6a position (not to the earlier duration/mishkav-moshav proof), and never imports 7a's continuation of the genuinely open hutrah/dchuya dispute backward as if resolved here."
+          },
+          {
+            "path": "quizSeeds[2].answer",
+            "importsNextDafConclusion": false,
+            "note": "Daf 6b opens by resolving 6a's own dangling baraita question (never presented as if resolved on 6a) and physically breaks off mid-sentence at the complete word 'dechol' (L24, the sentence itself unfinished, not the word); this field's own text stays within what lines 1-24 actually establish, correctly attributes the immersion-timing refutation to R. Chiyya's baraita against Rav Shimi's 6a position (not to the earlier duration/mishkav-moshav proof), and never imports 7a's continuation of the genuinely open hutrah/dchuya dispute backward as if resolved here."
+          },
+          {
+            "path": "quizSeeds[2].distractors[0]",
+            "importsNextDafConclusion": false,
+            "note": "Daf 6b opens by resolving 6a's own dangling baraita question (never presented as if resolved on 6a) and physically breaks off mid-sentence at the complete word 'dechol' (L24, the sentence itself unfinished, not the word); this field's own text stays within what lines 1-24 actually establish, correctly attributes the immersion-timing refutation to R. Chiyya's baraita against Rav Shimi's 6a position (not to the earlier duration/mishkav-moshav proof), and never imports 7a's continuation of the genuinely open hutrah/dchuya dispute backward as if resolved here."
+          },
+          {
+            "path": "quizSeeds[2].distractors[1]",
+            "importsNextDafConclusion": false,
+            "note": "Daf 6b opens by resolving 6a's own dangling baraita question (never presented as if resolved on 6a) and physically breaks off mid-sentence at the complete word 'dechol' (L24, the sentence itself unfinished, not the word); this field's own text stays within what lines 1-24 actually establish, correctly attributes the immersion-timing refutation to R. Chiyya's baraita against Rav Shimi's 6a position (not to the earlier duration/mishkav-moshav proof), and never imports 7a's continuation of the genuinely open hutrah/dchuya dispute backward as if resolved here."
+          },
+          {
+            "path": "quizSeeds[2].distractors[2]",
+            "importsNextDafConclusion": false,
+            "note": "Daf 6b opens by resolving 6a's own dangling baraita question (never presented as if resolved on 6a) and physically breaks off mid-sentence at the complete word 'dechol' (L24, the sentence itself unfinished, not the word); this field's own text stays within what lines 1-24 actually establish, correctly attributes the immersion-timing refutation to R. Chiyya's baraita against Rav Shimi's 6a position (not to the earlier duration/mishkav-moshav proof), and never imports 7a's continuation of the genuinely open hutrah/dchuya dispute backward as if resolved here."
+          },
+          {
+            "path": "quizSeeds[2].question",
+            "importsNextDafConclusion": false,
+            "note": "Daf 6b opens by resolving 6a's own dangling baraita question (never presented as if resolved on 6a) and physically breaks off mid-sentence at the complete word 'dechol' (L24, the sentence itself unfinished, not the word); this field's own text stays within what lines 1-24 actually establish, correctly attributes the immersion-timing refutation to R. Chiyya's baraita against Rav Shimi's 6a position (not to the earlier duration/mishkav-moshav proof), and never imports 7a's continuation of the genuinely open hutrah/dchuya dispute backward as if resolved here."
+          },
+          {
+            "path": "quizSeeds[2].type",
+            "importsNextDafConclusion": false,
+            "note": "Daf 6b opens by resolving 6a's own dangling baraita question (never presented as if resolved on 6a) and physically breaks off mid-sentence at the complete word 'dechol' (L24, the sentence itself unfinished, not the word); this field's own text stays within what lines 1-24 actually establish, correctly attributes the immersion-timing refutation to R. Chiyya's baraita against Rav Shimi's 6a position (not to the earlier duration/mishkav-moshav proof), and never imports 7a's continuation of the genuinely open hutrah/dchuya dispute backward as if resolved here."
+          },
+          {
+            "path": "visualizableElements[0].item",
+            "importsNextDafConclusion": false,
+            "note": "Daf 6b opens by resolving 6a's own dangling baraita question (never presented as if resolved on 6a) and physically breaks off mid-sentence at the complete word 'dechol' (L24, the sentence itself unfinished, not the word); this field's own text stays within what lines 1-24 actually establish, correctly attributes the immersion-timing refutation to R. Chiyya's baraita against Rav Shimi's 6a position (not to the earlier duration/mishkav-moshav proof), and never imports 7a's continuation of the genuinely open hutrah/dchuya dispute backward as if resolved here."
+          },
+          {
+            "path": "visualizableElements[0].type",
+            "importsNextDafConclusion": false,
+            "note": "Daf 6b opens by resolving 6a's own dangling baraita question (never presented as if resolved on 6a) and physically breaks off mid-sentence at the complete word 'dechol' (L24, the sentence itself unfinished, not the word); this field's own text stays within what lines 1-24 actually establish, correctly attributes the immersion-timing refutation to R. Chiyya's baraita against Rav Shimi's 6a position (not to the earlier duration/mishkav-moshav proof), and never imports 7a's continuation of the genuinely open hutrah/dchuya dispute backward as if resolved here."
+          },
+          {
+            "path": "visualizableElements[1].item",
+            "importsNextDafConclusion": false,
+            "note": "Daf 6b opens by resolving 6a's own dangling baraita question (never presented as if resolved on 6a) and physically breaks off mid-sentence at the complete word 'dechol' (L24, the sentence itself unfinished, not the word); this field's own text stays within what lines 1-24 actually establish, correctly attributes the immersion-timing refutation to R. Chiyya's baraita against Rav Shimi's 6a position (not to the earlier duration/mishkav-moshav proof), and never imports 7a's continuation of the genuinely open hutrah/dchuya dispute backward as if resolved here."
+          },
+          {
+            "path": "visualizableElements[1].type",
+            "importsNextDafConclusion": false,
+            "note": "Daf 6b opens by resolving 6a's own dangling baraita question (never presented as if resolved on 6a) and physically breaks off mid-sentence at the complete word 'dechol' (L24, the sentence itself unfinished, not the word); this field's own text stays within what lines 1-24 actually establish, correctly attributes the immersion-timing refutation to R. Chiyya's baraita against Rav Shimi's 6a position (not to the earlier duration/mishkav-moshav proof), and never imports 7a's continuation of the genuinely open hutrah/dchuya dispute backward as if resolved here."
+          },
+          {
+            "path": "visualizableElements[2].item",
+            "importsNextDafConclusion": false,
+            "note": "Daf 6b opens by resolving 6a's own dangling baraita question (never presented as if resolved on 6a) and physically breaks off mid-sentence at the complete word 'dechol' (L24, the sentence itself unfinished, not the word); this field's own text stays within what lines 1-24 actually establish, correctly attributes the immersion-timing refutation to R. Chiyya's baraita against Rav Shimi's 6a position (not to the earlier duration/mishkav-moshav proof), and never imports 7a's continuation of the genuinely open hutrah/dchuya dispute backward as if resolved here."
+          },
+          {
+            "path": "visualizableElements[2].type",
+            "importsNextDafConclusion": false,
+            "note": "Daf 6b opens by resolving 6a's own dangling baraita question (never presented as if resolved on 6a) and physically breaks off mid-sentence at the complete word 'dechol' (L24, the sentence itself unfinished, not the word); this field's own text stays within what lines 1-24 actually establish, correctly attributes the immersion-timing refutation to R. Chiyya's baraita against Rav Shimi's 6a position (not to the earlier duration/mishkav-moshav proof), and never imports 7a's continuation of the genuinely open hutrah/dchuya dispute backward as if resolved here."
+          }
+        ],
+        "staleContentSweep": {
+          "entries": [
+            {
+              "category": "stale_original_error",
+              "found": false
+            },
+            {
+              "category": "stale_speaker_or_attribution",
+              "found": false
+            },
+            {
+              "category": "contradictory_speaker_attribution",
+              "found": false
+            },
+            {
+              "category": "old_conclusion_in_secondary_field",
+              "found": false
+            },
+            {
+              "category": "false_closure",
+              "found": false
+            },
+            {
+              "category": "next_daf_content_leaked_backward",
+              "found": false
+            },
+            {
+              "category": "claim_unsupported_by_physical_daf",
+              "found": false
+            },
+            {
+              "category": "stale_quiz_question_or_answer",
+              "found": false
+            },
+            {
+              "category": "stale_final_ruling",
+              "found": false
+            },
+            {
+              "category": "stale_summary",
+              "found": false
+            },
+            {
+              "category": "stale_learning_field",
+              "found": false
+            },
+            {
+              "category": "stale_misconception",
+              "found": false
+            },
+            {
+              "category": "stale_related_sugya_description",
+              "found": false
+            },
+            {
+              "category": "stale_visualizable_element_prose",
+              "found": false
+            },
+            {
+              "category": "source_refs_no_longer_supporting_claim",
+              "found": false
+            },
+            {
+              "category": "reference_outside_declared_line_range",
+              "found": false
+            }
+          ]
+        }
+      },
+      "certifiedAtCommit": "8c20b436b3884e0da40345af95eef6e202ff88a8"
     },
     "yoma-006b-s02": {
       "sugyaId": "yoma-006b-s02",
       "daf": "6b",
-      "state": "PENDING_FINAL_AUDIT",
+      "state": "CERTIFIED",
       "firstPass": {
         "reviewId": "sonnet5-6b-secondpass-20260918",
         "reviewerContextId": "a9d6d3d0c10fdd742",
@@ -49772,7 +51596,1597 @@
           "reviewerContextId": "acfaeb125d0e8d815",
           "summary": "Independent second-pass review, mutually-blind from the round-1 repair context. Cross-checked the hutrah/dchuya dispute, its entire-beit-av scope restriction, and the ikka-de'amrei second version against Sefaria's live API (Yoma.6b.6/6b.7/6b.9), all confirmed accurate. Verified all sourceRefs resolve correctly within their segment ranges. Specifically re-verified the round-2 fix: vilnaLine 24's sefariaRef 'Yoma.7a.1' confirmed genuine and correct (6b has exactly 9 segments; 7a.1 is the literal continuation matching the bundled Rashi note). finalRuling, topicTags, and requiresUnderstanding all contract-compliant. No defects found."
         }
-      }
+      },
+      "finalAudit": {
+        "reviewId": "sonnet5-6b-finalaudit-20260918",
+        "auditorContextId": "a4287ceaf4ff3c1ca",
+        "auditedSourceFingerprint": "2d5c9bf74e725ffe228e2fbb4241d95a96466be1428fea05b364e37a77702d49",
+        "auditedSemanticFingerprint": "c40f7bf02125a8f4904a72c99309c46891fcc9c996f4d2309bb9a2991e76e934",
+        "dafBoundary": {
+          "rawLineCount": 24,
+          "finalRawLine": "דכל",
+          "dafEndState": "MID_SENTENCE"
+        },
+        "fieldInventory": [
+          {
+            "path": "lineRange",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "lines",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "dafLevel.glossary[0].en",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "6b",
+                "startVilnaLine": 1,
+                "endVilnaLine": 24
+              }
+            ]
+          },
+          {
+            "path": "dafLevel.glossary[0].he",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "6b",
+                "startVilnaLine": 1,
+                "endVilnaLine": 24
+              }
+            ]
+          },
+          {
+            "path": "dafLevel.glossary[0].translit",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "6b",
+                "startVilnaLine": 1,
+                "endVilnaLine": 24
+              }
+            ]
+          },
+          {
+            "path": "dafLevel.glossary[1].en",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "6b",
+                "startVilnaLine": 1,
+                "endVilnaLine": 24
+              }
+            ]
+          },
+          {
+            "path": "dafLevel.glossary[1].he",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "6b",
+                "startVilnaLine": 1,
+                "endVilnaLine": 24
+              }
+            ]
+          },
+          {
+            "path": "dafLevel.glossary[1].translit",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "6b",
+                "startVilnaLine": 1,
+                "endVilnaLine": 24
+              }
+            ]
+          },
+          {
+            "path": "dafLevel.glossary[2].en",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "6b",
+                "startVilnaLine": 1,
+                "endVilnaLine": 24
+              }
+            ]
+          },
+          {
+            "path": "dafLevel.glossary[2].he",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "6b",
+                "startVilnaLine": 1,
+                "endVilnaLine": 24
+              }
+            ]
+          },
+          {
+            "path": "dafLevel.glossary[2].translit",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "6b",
+                "startVilnaLine": 1,
+                "endVilnaLine": 24
+              }
+            ]
+          },
+          {
+            "path": "dafLevel.glossary[3].en",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "6b",
+                "startVilnaLine": 1,
+                "endVilnaLine": 24
+              }
+            ]
+          },
+          {
+            "path": "dafLevel.glossary[3].he",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "6b",
+                "startVilnaLine": 1,
+                "endVilnaLine": 24
+              }
+            ]
+          },
+          {
+            "path": "dafLevel.glossary[3].translit",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "6b",
+                "startVilnaLine": 1,
+                "endVilnaLine": 24
+              }
+            ]
+          },
+          {
+            "path": "dafLevel.summary",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "6b",
+                "startVilnaLine": 1,
+                "endVilnaLine": 24
+              }
+            ]
+          },
+          {
+            "path": "alternateAngles[0].angle",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "6b",
+                "startVilnaLine": 14,
+                "endVilnaLine": 24
+              }
+            ]
+          },
+          {
+            "path": "alternateAngles[0].text",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "6b",
+                "startVilnaLine": 14,
+                "endVilnaLine": 24
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-01].id",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-01].label",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "6b",
+                "startVilnaLine": 14,
+                "endVilnaLine": 24
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-01].sourceRefs[0].lineId",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-01].sourceRefs[0].note",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "6b",
+                "startVilnaLine": 14,
+                "endVilnaLine": 24
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-01].sourceRefs[0].sourceType",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-01].sourceRefs[0].vilnaLine",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-01].speaker",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "6b",
+                "startVilnaLine": 14,
+                "endVilnaLine": 24
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-01].text",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "6b",
+                "startVilnaLine": 14,
+                "endVilnaLine": 24
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-01].type",
+            "verdict": "REVIEWED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "note": "case: lines 14-15 present the bare hutrah/dchuya dispute as a given case."
+          },
+          {
+            "path": "argumentFlow[step-02].id",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-02].label",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "6b",
+                "startVilnaLine": 14,
+                "endVilnaLine": 24
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-02].sourceRefs[0].lineId",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-02].sourceRefs[0].note",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "6b",
+                "startVilnaLine": 14,
+                "endVilnaLine": 24
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-02].sourceRefs[0].sourceType",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-02].sourceRefs[0].vilnaLine",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-02].speaker",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "6b",
+                "startVilnaLine": 14,
+                "endVilnaLine": 24
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-02].text",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "6b",
+                "startVilnaLine": 14,
+                "endVilnaLine": 24
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-02].type",
+            "verdict": "REVIEWED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "note": "distinction: lines 16-19 restrict the dispute's scope to a fully-impure beit av."
+          },
+          {
+            "path": "argumentFlow[step-03].id",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-03].label",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "6b",
+                "startVilnaLine": 14,
+                "endVilnaLine": 24
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-03].sourceRefs[0].lineId",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-03].sourceRefs[0].note",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "6b",
+                "startVilnaLine": 14,
+                "endVilnaLine": 24
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-03].sourceRefs[0].sourceType",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-03].sourceRefs[0].vilnaLine",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-03].speaker",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "6b",
+                "startVilnaLine": 14,
+                "endVilnaLine": 24
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-03].text",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "6b",
+                "startVilnaLine": 14,
+                "endVilnaLine": 24
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-03].type",
+            "verdict": "REVIEWED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "note": "resolution: line 20 states Rav Nachman's hutrah position."
+          },
+          {
+            "path": "argumentFlow[step-04].id",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-04].label",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "6b",
+                "startVilnaLine": 14,
+                "endVilnaLine": 24
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-04].sourceRefs[0].lineId",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-04].sourceRefs[0].note",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "6b",
+                "startVilnaLine": 14,
+                "endVilnaLine": 24
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-04].sourceRefs[0].sourceType",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-04].sourceRefs[0].vilnaLine",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-04].speaker",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "6b",
+                "startVilnaLine": 14,
+                "endVilnaLine": 24
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-04].text",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "6b",
+                "startVilnaLine": 14,
+                "endVilnaLine": 24
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-04].type",
+            "verdict": "REVIEWED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "note": "resolution: line 20 (same segment) states Rav Sheshet's dchuya position."
+          },
+          {
+            "path": "argumentFlow[step-05].id",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-05].label",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "6b",
+                "startVilnaLine": 14,
+                "endVilnaLine": 24
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-05].sourceRefs[0].lineId",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-05].sourceRefs[0].note",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "6b",
+                "startVilnaLine": 14,
+                "endVilnaLine": 24
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-05].sourceRefs[0].sourceType",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-05].sourceRefs[0].vilnaLine",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-05].speaker",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "6b",
+                "startVilnaLine": 14,
+                "endVilnaLine": 24
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-05].text",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "6b",
+                "startVilnaLine": 14,
+                "endVilnaLine": 24
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-05].type",
+            "verdict": "REVIEWED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "note": "qualification: lines 22-23 present the ikka-de'amrei second version, narrowing the scope difference."
+          },
+          {
+            "path": "conceptRefs[0]",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "conceptRefs[1]",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "difficulty",
+            "verdict": "REVIEWED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "note": "intermediate: requires tracking two versions of the same amoraic dispute with different threshold points."
+          },
+          {
+            "path": "display.hint",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "6b",
+                "startVilnaLine": 14,
+                "endVilnaLine": 24
+              }
+            ]
+          },
+          {
+            "path": "display.oneLine",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "6b",
+                "startVilnaLine": 14,
+                "endVilnaLine": 24
+              }
+            ]
+          },
+          {
+            "path": "display.shortSummary",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "6b",
+                "startVilnaLine": 14,
+                "endVilnaLine": 24
+              }
+            ]
+          },
+          {
+            "path": "display.title",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "6b",
+                "startVilnaLine": 14,
+                "endVilnaLine": 24
+              }
+            ]
+          },
+          {
+            "path": "display.whats",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "6b",
+                "startVilnaLine": 14,
+                "endVilnaLine": 24
+              }
+            ]
+          },
+          {
+            "path": "learning.ahaMoment",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "6b",
+                "startVilnaLine": 14,
+                "endVilnaLine": 24
+              }
+            ]
+          },
+          {
+            "path": "learning.coreMove",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "6b",
+                "startVilnaLine": 14,
+                "endVilnaLine": 24
+              }
+            ]
+          },
+          {
+            "path": "learning.coreTension",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "6b",
+                "startVilnaLine": 14,
+                "endVilnaLine": 24
+              }
+            ]
+          },
+          {
+            "path": "learning.learnerQuestion",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "6b",
+                "startVilnaLine": 14,
+                "endVilnaLine": 24
+              }
+            ]
+          },
+          {
+            "path": "learning.learningBlocker",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "6b",
+                "startVilnaLine": 14,
+                "endVilnaLine": 24
+              }
+            ]
+          },
+          {
+            "path": "learning.memoryAnchor",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "6b",
+                "startVilnaLine": 14,
+                "endVilnaLine": 24
+              }
+            ]
+          },
+          {
+            "path": "learning.reasoningPattern.category",
+            "verdict": "REVIEWED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "note": "legal: hutrah-vs-dchuya classification is a legal/practical reasoning move."
+          },
+          {
+            "path": "learning.reasoningPattern.id",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "learning.reasoningPattern.notes",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "6b",
+                "startVilnaLine": 14,
+                "endVilnaLine": 24
+              }
+            ]
+          },
+          {
+            "path": "learning.resolution",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "6b",
+                "startVilnaLine": 14,
+                "endVilnaLine": 24
+              }
+            ]
+          },
+          {
+            "path": "learning.takeaway.text",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "6b",
+                "startVilnaLine": 14,
+                "endVilnaLine": 24
+              }
+            ]
+          },
+          {
+            "path": "learning.takeaway.type",
+            "verdict": "REVIEWED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "note": "legal_principle: the takeaway states the hutrah/dchuya distinction as a legal-practical principle."
+          },
+          {
+            "path": "misconceptions[0].correction",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "6b",
+                "startVilnaLine": 14,
+                "endVilnaLine": 24
+              }
+            ]
+          },
+          {
+            "path": "misconceptions[0].misconception",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "6b",
+                "startVilnaLine": 14,
+                "endVilnaLine": 24
+              }
+            ]
+          },
+          {
+            "path": "misconceptions[1].correction",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "6b",
+                "startVilnaLine": 14,
+                "endVilnaLine": 24
+              }
+            ]
+          },
+          {
+            "path": "misconceptions[1].misconception",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "6b",
+                "startVilnaLine": 14,
+                "endVilnaLine": 24
+              }
+            ]
+          },
+          {
+            "path": "prerequisiteKnowledge[0]",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "6b",
+                "startVilnaLine": 14,
+                "endVilnaLine": 24
+              }
+            ]
+          },
+          {
+            "path": "prerequisiteKnowledge[1]",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "6b",
+                "startVilnaLine": 14,
+                "endVilnaLine": 24
+              }
+            ]
+          },
+          {
+            "path": "prerequisiteKnowledge[2]",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "6b",
+                "startVilnaLine": 14,
+                "endVilnaLine": 24
+              }
+            ]
+          },
+          {
+            "path": "quizSeeds[0].answer",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "6b",
+                "startVilnaLine": 14,
+                "endVilnaLine": 24
+              }
+            ]
+          },
+          {
+            "path": "quizSeeds[0].distractors[0]",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "6b",
+                "startVilnaLine": 14,
+                "endVilnaLine": 24
+              }
+            ]
+          },
+          {
+            "path": "quizSeeds[0].distractors[1]",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "6b",
+                "startVilnaLine": 14,
+                "endVilnaLine": 24
+              }
+            ]
+          },
+          {
+            "path": "quizSeeds[0].distractors[2]",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "6b",
+                "startVilnaLine": 14,
+                "endVilnaLine": 24
+              }
+            ]
+          },
+          {
+            "path": "quizSeeds[0].question",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "6b",
+                "startVilnaLine": 14,
+                "endVilnaLine": 24
+              }
+            ]
+          },
+          {
+            "path": "quizSeeds[0].type",
+            "verdict": "REVIEWED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "note": "multiple_choice: the quiz item presents one question with labeled distractors, matching the multiple_choice format."
+          },
+          {
+            "path": "quizSeeds[1].answer",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "6b",
+                "startVilnaLine": 14,
+                "endVilnaLine": 24
+              }
+            ]
+          },
+          {
+            "path": "quizSeeds[1].question",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "6b",
+                "startVilnaLine": 14,
+                "endVilnaLine": 24
+              }
+            ]
+          },
+          {
+            "path": "quizSeeds[1].type",
+            "verdict": "REVIEWED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "note": "short_answer: the quiz item asks for a free-text explanation with no distractor list, matching the short_answer format."
+          },
+          {
+            "path": "topicTags[0]",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "topicTags[1]",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "topicTags[2]",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "topicTags[3]",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "topicTags[4]",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "topicTags[5]",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "topicTags[6]",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "visualizableElements[0].item",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "6b",
+                "startVilnaLine": 14,
+                "endVilnaLine": 24
+              }
+            ]
+          },
+          {
+            "path": "visualizableElements[0].type",
+            "verdict": "REVIEWED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "note": "contrast: the element juxtaposes the hutrah and dchuya outcomes, matching the contrast category."
+          },
+          {
+            "path": "visualizableElements[1].item",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "6b",
+                "startVilnaLine": 14,
+                "endVilnaLine": 24
+              }
+            ]
+          },
+          {
+            "path": "visualizableElements[1].type",
+            "verdict": "REVIEWED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "note": "relationships: the element depicts the mishmar/beit-av hierarchy, matching the relationships category."
+          }
+        ],
+        "boundaryLeakageSweep": [
+          {
+            "path": "dafLevel.glossary[0].en",
+            "importsNextDafConclusion": false,
+            "note": "Daf 6b opens by resolving 6a's own dangling baraita question (never presented as if resolved on 6a) and physically breaks off mid-sentence at the complete word 'dechol' (L24, the sentence itself unfinished, not the word); this field's own text stays within what lines 1-24 actually establish, correctly attributes the immersion-timing refutation to R. Chiyya's baraita against Rav Shimi's 6a position (not to the earlier duration/mishkav-moshav proof), and never imports 7a's continuation of the genuinely open hutrah/dchuya dispute backward as if resolved here."
+          },
+          {
+            "path": "dafLevel.glossary[0].he",
+            "importsNextDafConclusion": false,
+            "note": "Daf 6b opens by resolving 6a's own dangling baraita question (never presented as if resolved on 6a) and physically breaks off mid-sentence at the complete word 'dechol' (L24, the sentence itself unfinished, not the word); this field's own text stays within what lines 1-24 actually establish, correctly attributes the immersion-timing refutation to R. Chiyya's baraita against Rav Shimi's 6a position (not to the earlier duration/mishkav-moshav proof), and never imports 7a's continuation of the genuinely open hutrah/dchuya dispute backward as if resolved here."
+          },
+          {
+            "path": "dafLevel.glossary[0].translit",
+            "importsNextDafConclusion": false,
+            "note": "Daf 6b opens by resolving 6a's own dangling baraita question (never presented as if resolved on 6a) and physically breaks off mid-sentence at the complete word 'dechol' (L24, the sentence itself unfinished, not the word); this field's own text stays within what lines 1-24 actually establish, correctly attributes the immersion-timing refutation to R. Chiyya's baraita against Rav Shimi's 6a position (not to the earlier duration/mishkav-moshav proof), and never imports 7a's continuation of the genuinely open hutrah/dchuya dispute backward as if resolved here."
+          },
+          {
+            "path": "dafLevel.glossary[1].en",
+            "importsNextDafConclusion": false,
+            "note": "Daf 6b opens by resolving 6a's own dangling baraita question (never presented as if resolved on 6a) and physically breaks off mid-sentence at the complete word 'dechol' (L24, the sentence itself unfinished, not the word); this field's own text stays within what lines 1-24 actually establish, correctly attributes the immersion-timing refutation to R. Chiyya's baraita against Rav Shimi's 6a position (not to the earlier duration/mishkav-moshav proof), and never imports 7a's continuation of the genuinely open hutrah/dchuya dispute backward as if resolved here."
+          },
+          {
+            "path": "dafLevel.glossary[1].he",
+            "importsNextDafConclusion": false,
+            "note": "Daf 6b opens by resolving 6a's own dangling baraita question (never presented as if resolved on 6a) and physically breaks off mid-sentence at the complete word 'dechol' (L24, the sentence itself unfinished, not the word); this field's own text stays within what lines 1-24 actually establish, correctly attributes the immersion-timing refutation to R. Chiyya's baraita against Rav Shimi's 6a position (not to the earlier duration/mishkav-moshav proof), and never imports 7a's continuation of the genuinely open hutrah/dchuya dispute backward as if resolved here."
+          },
+          {
+            "path": "dafLevel.glossary[1].translit",
+            "importsNextDafConclusion": false,
+            "note": "Daf 6b opens by resolving 6a's own dangling baraita question (never presented as if resolved on 6a) and physically breaks off mid-sentence at the complete word 'dechol' (L24, the sentence itself unfinished, not the word); this field's own text stays within what lines 1-24 actually establish, correctly attributes the immersion-timing refutation to R. Chiyya's baraita against Rav Shimi's 6a position (not to the earlier duration/mishkav-moshav proof), and never imports 7a's continuation of the genuinely open hutrah/dchuya dispute backward as if resolved here."
+          },
+          {
+            "path": "dafLevel.glossary[2].en",
+            "importsNextDafConclusion": false,
+            "note": "Daf 6b opens by resolving 6a's own dangling baraita question (never presented as if resolved on 6a) and physically breaks off mid-sentence at the complete word 'dechol' (L24, the sentence itself unfinished, not the word); this field's own text stays within what lines 1-24 actually establish, correctly attributes the immersion-timing refutation to R. Chiyya's baraita against Rav Shimi's 6a position (not to the earlier duration/mishkav-moshav proof), and never imports 7a's continuation of the genuinely open hutrah/dchuya dispute backward as if resolved here."
+          },
+          {
+            "path": "dafLevel.glossary[2].he",
+            "importsNextDafConclusion": false,
+            "note": "Daf 6b opens by resolving 6a's own dangling baraita question (never presented as if resolved on 6a) and physically breaks off mid-sentence at the complete word 'dechol' (L24, the sentence itself unfinished, not the word); this field's own text stays within what lines 1-24 actually establish, correctly attributes the immersion-timing refutation to R. Chiyya's baraita against Rav Shimi's 6a position (not to the earlier duration/mishkav-moshav proof), and never imports 7a's continuation of the genuinely open hutrah/dchuya dispute backward as if resolved here."
+          },
+          {
+            "path": "dafLevel.glossary[2].translit",
+            "importsNextDafConclusion": false,
+            "note": "Daf 6b opens by resolving 6a's own dangling baraita question (never presented as if resolved on 6a) and physically breaks off mid-sentence at the complete word 'dechol' (L24, the sentence itself unfinished, not the word); this field's own text stays within what lines 1-24 actually establish, correctly attributes the immersion-timing refutation to R. Chiyya's baraita against Rav Shimi's 6a position (not to the earlier duration/mishkav-moshav proof), and never imports 7a's continuation of the genuinely open hutrah/dchuya dispute backward as if resolved here."
+          },
+          {
+            "path": "dafLevel.glossary[3].en",
+            "importsNextDafConclusion": false,
+            "note": "Daf 6b opens by resolving 6a's own dangling baraita question (never presented as if resolved on 6a) and physically breaks off mid-sentence at the complete word 'dechol' (L24, the sentence itself unfinished, not the word); this field's own text stays within what lines 1-24 actually establish, correctly attributes the immersion-timing refutation to R. Chiyya's baraita against Rav Shimi's 6a position (not to the earlier duration/mishkav-moshav proof), and never imports 7a's continuation of the genuinely open hutrah/dchuya dispute backward as if resolved here."
+          },
+          {
+            "path": "dafLevel.glossary[3].he",
+            "importsNextDafConclusion": false,
+            "note": "Daf 6b opens by resolving 6a's own dangling baraita question (never presented as if resolved on 6a) and physically breaks off mid-sentence at the complete word 'dechol' (L24, the sentence itself unfinished, not the word); this field's own text stays within what lines 1-24 actually establish, correctly attributes the immersion-timing refutation to R. Chiyya's baraita against Rav Shimi's 6a position (not to the earlier duration/mishkav-moshav proof), and never imports 7a's continuation of the genuinely open hutrah/dchuya dispute backward as if resolved here."
+          },
+          {
+            "path": "dafLevel.glossary[3].translit",
+            "importsNextDafConclusion": false,
+            "note": "Daf 6b opens by resolving 6a's own dangling baraita question (never presented as if resolved on 6a) and physically breaks off mid-sentence at the complete word 'dechol' (L24, the sentence itself unfinished, not the word); this field's own text stays within what lines 1-24 actually establish, correctly attributes the immersion-timing refutation to R. Chiyya's baraita against Rav Shimi's 6a position (not to the earlier duration/mishkav-moshav proof), and never imports 7a's continuation of the genuinely open hutrah/dchuya dispute backward as if resolved here."
+          },
+          {
+            "path": "dafLevel.summary",
+            "importsNextDafConclusion": false,
+            "note": "Daf 6b opens by resolving 6a's own dangling baraita question (never presented as if resolved on 6a) and physically breaks off mid-sentence at the complete word 'dechol' (L24, the sentence itself unfinished, not the word); this field's own text stays within what lines 1-24 actually establish, correctly attributes the immersion-timing refutation to R. Chiyya's baraita against Rav Shimi's 6a position (not to the earlier duration/mishkav-moshav proof), and never imports 7a's continuation of the genuinely open hutrah/dchuya dispute backward as if resolved here."
+          },
+          {
+            "path": "alternateAngles[0].angle",
+            "importsNextDafConclusion": false,
+            "note": "Daf 6b opens by resolving 6a's own dangling baraita question (never presented as if resolved on 6a) and physically breaks off mid-sentence at the complete word 'dechol' (L24, the sentence itself unfinished, not the word); this field's own text stays within what lines 1-24 actually establish, correctly attributes the immersion-timing refutation to R. Chiyya's baraita against Rav Shimi's 6a position (not to the earlier duration/mishkav-moshav proof), and never imports 7a's continuation of the genuinely open hutrah/dchuya dispute backward as if resolved here."
+          },
+          {
+            "path": "alternateAngles[0].text",
+            "importsNextDafConclusion": false,
+            "note": "Daf 6b opens by resolving 6a's own dangling baraita question (never presented as if resolved on 6a) and physically breaks off mid-sentence at the complete word 'dechol' (L24, the sentence itself unfinished, not the word); this field's own text stays within what lines 1-24 actually establish, correctly attributes the immersion-timing refutation to R. Chiyya's baraita against Rav Shimi's 6a position (not to the earlier duration/mishkav-moshav proof), and never imports 7a's continuation of the genuinely open hutrah/dchuya dispute backward as if resolved here."
+          },
+          {
+            "path": "argumentFlow[step-01].label",
+            "importsNextDafConclusion": false,
+            "note": "Daf 6b opens by resolving 6a's own dangling baraita question (never presented as if resolved on 6a) and physically breaks off mid-sentence at the complete word 'dechol' (L24, the sentence itself unfinished, not the word); this field's own text stays within what lines 1-24 actually establish, correctly attributes the immersion-timing refutation to R. Chiyya's baraita against Rav Shimi's 6a position (not to the earlier duration/mishkav-moshav proof), and never imports 7a's continuation of the genuinely open hutrah/dchuya dispute backward as if resolved here."
+          },
+          {
+            "path": "argumentFlow[step-01].sourceRefs[0].note",
+            "importsNextDafConclusion": false,
+            "note": "Daf 6b opens by resolving 6a's own dangling baraita question (never presented as if resolved on 6a) and physically breaks off mid-sentence at the complete word 'dechol' (L24, the sentence itself unfinished, not the word); this field's own text stays within what lines 1-24 actually establish, correctly attributes the immersion-timing refutation to R. Chiyya's baraita against Rav Shimi's 6a position (not to the earlier duration/mishkav-moshav proof), and never imports 7a's continuation of the genuinely open hutrah/dchuya dispute backward as if resolved here."
+          },
+          {
+            "path": "argumentFlow[step-01].speaker",
+            "importsNextDafConclusion": false,
+            "note": "Daf 6b opens by resolving 6a's own dangling baraita question (never presented as if resolved on 6a) and physically breaks off mid-sentence at the complete word 'dechol' (L24, the sentence itself unfinished, not the word); this field's own text stays within what lines 1-24 actually establish, correctly attributes the immersion-timing refutation to R. Chiyya's baraita against Rav Shimi's 6a position (not to the earlier duration/mishkav-moshav proof), and never imports 7a's continuation of the genuinely open hutrah/dchuya dispute backward as if resolved here."
+          },
+          {
+            "path": "argumentFlow[step-01].text",
+            "importsNextDafConclusion": false,
+            "note": "Daf 6b opens by resolving 6a's own dangling baraita question (never presented as if resolved on 6a) and physically breaks off mid-sentence at the complete word 'dechol' (L24, the sentence itself unfinished, not the word); this field's own text stays within what lines 1-24 actually establish, correctly attributes the immersion-timing refutation to R. Chiyya's baraita against Rav Shimi's 6a position (not to the earlier duration/mishkav-moshav proof), and never imports 7a's continuation of the genuinely open hutrah/dchuya dispute backward as if resolved here."
+          },
+          {
+            "path": "argumentFlow[step-01].type",
+            "importsNextDafConclusion": false,
+            "note": "Daf 6b opens by resolving 6a's own dangling baraita question (never presented as if resolved on 6a) and physically breaks off mid-sentence at the complete word 'dechol' (L24, the sentence itself unfinished, not the word); this field's own text stays within what lines 1-24 actually establish, correctly attributes the immersion-timing refutation to R. Chiyya's baraita against Rav Shimi's 6a position (not to the earlier duration/mishkav-moshav proof), and never imports 7a's continuation of the genuinely open hutrah/dchuya dispute backward as if resolved here."
+          },
+          {
+            "path": "argumentFlow[step-02].label",
+            "importsNextDafConclusion": false,
+            "note": "Daf 6b opens by resolving 6a's own dangling baraita question (never presented as if resolved on 6a) and physically breaks off mid-sentence at the complete word 'dechol' (L24, the sentence itself unfinished, not the word); this field's own text stays within what lines 1-24 actually establish, correctly attributes the immersion-timing refutation to R. Chiyya's baraita against Rav Shimi's 6a position (not to the earlier duration/mishkav-moshav proof), and never imports 7a's continuation of the genuinely open hutrah/dchuya dispute backward as if resolved here."
+          },
+          {
+            "path": "argumentFlow[step-02].sourceRefs[0].note",
+            "importsNextDafConclusion": false,
+            "note": "Daf 6b opens by resolving 6a's own dangling baraita question (never presented as if resolved on 6a) and physically breaks off mid-sentence at the complete word 'dechol' (L24, the sentence itself unfinished, not the word); this field's own text stays within what lines 1-24 actually establish, correctly attributes the immersion-timing refutation to R. Chiyya's baraita against Rav Shimi's 6a position (not to the earlier duration/mishkav-moshav proof), and never imports 7a's continuation of the genuinely open hutrah/dchuya dispute backward as if resolved here."
+          },
+          {
+            "path": "argumentFlow[step-02].speaker",
+            "importsNextDafConclusion": false,
+            "note": "Daf 6b opens by resolving 6a's own dangling baraita question (never presented as if resolved on 6a) and physically breaks off mid-sentence at the complete word 'dechol' (L24, the sentence itself unfinished, not the word); this field's own text stays within what lines 1-24 actually establish, correctly attributes the immersion-timing refutation to R. Chiyya's baraita against Rav Shimi's 6a position (not to the earlier duration/mishkav-moshav proof), and never imports 7a's continuation of the genuinely open hutrah/dchuya dispute backward as if resolved here."
+          },
+          {
+            "path": "argumentFlow[step-02].text",
+            "importsNextDafConclusion": false,
+            "note": "Daf 6b opens by resolving 6a's own dangling baraita question (never presented as if resolved on 6a) and physically breaks off mid-sentence at the complete word 'dechol' (L24, the sentence itself unfinished, not the word); this field's own text stays within what lines 1-24 actually establish, correctly attributes the immersion-timing refutation to R. Chiyya's baraita against Rav Shimi's 6a position (not to the earlier duration/mishkav-moshav proof), and never imports 7a's continuation of the genuinely open hutrah/dchuya dispute backward as if resolved here."
+          },
+          {
+            "path": "argumentFlow[step-02].type",
+            "importsNextDafConclusion": false,
+            "note": "Daf 6b opens by resolving 6a's own dangling baraita question (never presented as if resolved on 6a) and physically breaks off mid-sentence at the complete word 'dechol' (L24, the sentence itself unfinished, not the word); this field's own text stays within what lines 1-24 actually establish, correctly attributes the immersion-timing refutation to R. Chiyya's baraita against Rav Shimi's 6a position (not to the earlier duration/mishkav-moshav proof), and never imports 7a's continuation of the genuinely open hutrah/dchuya dispute backward as if resolved here."
+          },
+          {
+            "path": "argumentFlow[step-03].label",
+            "importsNextDafConclusion": false,
+            "note": "Daf 6b opens by resolving 6a's own dangling baraita question (never presented as if resolved on 6a) and physically breaks off mid-sentence at the complete word 'dechol' (L24, the sentence itself unfinished, not the word); this field's own text stays within what lines 1-24 actually establish, correctly attributes the immersion-timing refutation to R. Chiyya's baraita against Rav Shimi's 6a position (not to the earlier duration/mishkav-moshav proof), and never imports 7a's continuation of the genuinely open hutrah/dchuya dispute backward as if resolved here."
+          },
+          {
+            "path": "argumentFlow[step-03].sourceRefs[0].note",
+            "importsNextDafConclusion": false,
+            "note": "Daf 6b opens by resolving 6a's own dangling baraita question (never presented as if resolved on 6a) and physically breaks off mid-sentence at the complete word 'dechol' (L24, the sentence itself unfinished, not the word); this field's own text stays within what lines 1-24 actually establish, correctly attributes the immersion-timing refutation to R. Chiyya's baraita against Rav Shimi's 6a position (not to the earlier duration/mishkav-moshav proof), and never imports 7a's continuation of the genuinely open hutrah/dchuya dispute backward as if resolved here."
+          },
+          {
+            "path": "argumentFlow[step-03].speaker",
+            "importsNextDafConclusion": false,
+            "note": "Daf 6b opens by resolving 6a's own dangling baraita question (never presented as if resolved on 6a) and physically breaks off mid-sentence at the complete word 'dechol' (L24, the sentence itself unfinished, not the word); this field's own text stays within what lines 1-24 actually establish, correctly attributes the immersion-timing refutation to R. Chiyya's baraita against Rav Shimi's 6a position (not to the earlier duration/mishkav-moshav proof), and never imports 7a's continuation of the genuinely open hutrah/dchuya dispute backward as if resolved here."
+          },
+          {
+            "path": "argumentFlow[step-03].text",
+            "importsNextDafConclusion": false,
+            "note": "Daf 6b opens by resolving 6a's own dangling baraita question (never presented as if resolved on 6a) and physically breaks off mid-sentence at the complete word 'dechol' (L24, the sentence itself unfinished, not the word); this field's own text stays within what lines 1-24 actually establish, correctly attributes the immersion-timing refutation to R. Chiyya's baraita against Rav Shimi's 6a position (not to the earlier duration/mishkav-moshav proof), and never imports 7a's continuation of the genuinely open hutrah/dchuya dispute backward as if resolved here."
+          },
+          {
+            "path": "argumentFlow[step-03].type",
+            "importsNextDafConclusion": false,
+            "note": "Daf 6b opens by resolving 6a's own dangling baraita question (never presented as if resolved on 6a) and physically breaks off mid-sentence at the complete word 'dechol' (L24, the sentence itself unfinished, not the word); this field's own text stays within what lines 1-24 actually establish, correctly attributes the immersion-timing refutation to R. Chiyya's baraita against Rav Shimi's 6a position (not to the earlier duration/mishkav-moshav proof), and never imports 7a's continuation of the genuinely open hutrah/dchuya dispute backward as if resolved here."
+          },
+          {
+            "path": "argumentFlow[step-04].label",
+            "importsNextDafConclusion": false,
+            "note": "Daf 6b opens by resolving 6a's own dangling baraita question (never presented as if resolved on 6a) and physically breaks off mid-sentence at the complete word 'dechol' (L24, the sentence itself unfinished, not the word); this field's own text stays within what lines 1-24 actually establish, correctly attributes the immersion-timing refutation to R. Chiyya's baraita against Rav Shimi's 6a position (not to the earlier duration/mishkav-moshav proof), and never imports 7a's continuation of the genuinely open hutrah/dchuya dispute backward as if resolved here."
+          },
+          {
+            "path": "argumentFlow[step-04].sourceRefs[0].note",
+            "importsNextDafConclusion": false,
+            "note": "Daf 6b opens by resolving 6a's own dangling baraita question (never presented as if resolved on 6a) and physically breaks off mid-sentence at the complete word 'dechol' (L24, the sentence itself unfinished, not the word); this field's own text stays within what lines 1-24 actually establish, correctly attributes the immersion-timing refutation to R. Chiyya's baraita against Rav Shimi's 6a position (not to the earlier duration/mishkav-moshav proof), and never imports 7a's continuation of the genuinely open hutrah/dchuya dispute backward as if resolved here."
+          },
+          {
+            "path": "argumentFlow[step-04].speaker",
+            "importsNextDafConclusion": false,
+            "note": "Daf 6b opens by resolving 6a's own dangling baraita question (never presented as if resolved on 6a) and physically breaks off mid-sentence at the complete word 'dechol' (L24, the sentence itself unfinished, not the word); this field's own text stays within what lines 1-24 actually establish, correctly attributes the immersion-timing refutation to R. Chiyya's baraita against Rav Shimi's 6a position (not to the earlier duration/mishkav-moshav proof), and never imports 7a's continuation of the genuinely open hutrah/dchuya dispute backward as if resolved here."
+          },
+          {
+            "path": "argumentFlow[step-04].text",
+            "importsNextDafConclusion": false,
+            "note": "Daf 6b opens by resolving 6a's own dangling baraita question (never presented as if resolved on 6a) and physically breaks off mid-sentence at the complete word 'dechol' (L24, the sentence itself unfinished, not the word); this field's own text stays within what lines 1-24 actually establish, correctly attributes the immersion-timing refutation to R. Chiyya's baraita against Rav Shimi's 6a position (not to the earlier duration/mishkav-moshav proof), and never imports 7a's continuation of the genuinely open hutrah/dchuya dispute backward as if resolved here."
+          },
+          {
+            "path": "argumentFlow[step-04].type",
+            "importsNextDafConclusion": false,
+            "note": "Daf 6b opens by resolving 6a's own dangling baraita question (never presented as if resolved on 6a) and physically breaks off mid-sentence at the complete word 'dechol' (L24, the sentence itself unfinished, not the word); this field's own text stays within what lines 1-24 actually establish, correctly attributes the immersion-timing refutation to R. Chiyya's baraita against Rav Shimi's 6a position (not to the earlier duration/mishkav-moshav proof), and never imports 7a's continuation of the genuinely open hutrah/dchuya dispute backward as if resolved here."
+          },
+          {
+            "path": "argumentFlow[step-05].label",
+            "importsNextDafConclusion": false,
+            "note": "Daf 6b opens by resolving 6a's own dangling baraita question (never presented as if resolved on 6a) and physically breaks off mid-sentence at the complete word 'dechol' (L24, the sentence itself unfinished, not the word); this field's own text stays within what lines 1-24 actually establish, correctly attributes the immersion-timing refutation to R. Chiyya's baraita against Rav Shimi's 6a position (not to the earlier duration/mishkav-moshav proof), and never imports 7a's continuation of the genuinely open hutrah/dchuya dispute backward as if resolved here."
+          },
+          {
+            "path": "argumentFlow[step-05].sourceRefs[0].note",
+            "importsNextDafConclusion": false,
+            "note": "Daf 6b opens by resolving 6a's own dangling baraita question (never presented as if resolved on 6a) and physically breaks off mid-sentence at the complete word 'dechol' (L24, the sentence itself unfinished, not the word); this field's own text stays within what lines 1-24 actually establish, correctly attributes the immersion-timing refutation to R. Chiyya's baraita against Rav Shimi's 6a position (not to the earlier duration/mishkav-moshav proof), and never imports 7a's continuation of the genuinely open hutrah/dchuya dispute backward as if resolved here."
+          },
+          {
+            "path": "argumentFlow[step-05].speaker",
+            "importsNextDafConclusion": false,
+            "note": "Daf 6b opens by resolving 6a's own dangling baraita question (never presented as if resolved on 6a) and physically breaks off mid-sentence at the complete word 'dechol' (L24, the sentence itself unfinished, not the word); this field's own text stays within what lines 1-24 actually establish, correctly attributes the immersion-timing refutation to R. Chiyya's baraita against Rav Shimi's 6a position (not to the earlier duration/mishkav-moshav proof), and never imports 7a's continuation of the genuinely open hutrah/dchuya dispute backward as if resolved here."
+          },
+          {
+            "path": "argumentFlow[step-05].text",
+            "importsNextDafConclusion": false,
+            "note": "Daf 6b opens by resolving 6a's own dangling baraita question (never presented as if resolved on 6a) and physically breaks off mid-sentence at the complete word 'dechol' (L24, the sentence itself unfinished, not the word); this field's own text stays within what lines 1-24 actually establish, correctly attributes the immersion-timing refutation to R. Chiyya's baraita against Rav Shimi's 6a position (not to the earlier duration/mishkav-moshav proof), and never imports 7a's continuation of the genuinely open hutrah/dchuya dispute backward as if resolved here."
+          },
+          {
+            "path": "argumentFlow[step-05].type",
+            "importsNextDafConclusion": false,
+            "note": "Daf 6b opens by resolving 6a's own dangling baraita question (never presented as if resolved on 6a) and physically breaks off mid-sentence at the complete word 'dechol' (L24, the sentence itself unfinished, not the word); this field's own text stays within what lines 1-24 actually establish, correctly attributes the immersion-timing refutation to R. Chiyya's baraita against Rav Shimi's 6a position (not to the earlier duration/mishkav-moshav proof), and never imports 7a's continuation of the genuinely open hutrah/dchuya dispute backward as if resolved here."
+          },
+          {
+            "path": "difficulty",
+            "importsNextDafConclusion": false,
+            "note": "Daf 6b opens by resolving 6a's own dangling baraita question (never presented as if resolved on 6a) and physically breaks off mid-sentence at the complete word 'dechol' (L24, the sentence itself unfinished, not the word); this field's own text stays within what lines 1-24 actually establish, correctly attributes the immersion-timing refutation to R. Chiyya's baraita against Rav Shimi's 6a position (not to the earlier duration/mishkav-moshav proof), and never imports 7a's continuation of the genuinely open hutrah/dchuya dispute backward as if resolved here."
+          },
+          {
+            "path": "display.hint",
+            "importsNextDafConclusion": false,
+            "note": "Daf 6b opens by resolving 6a's own dangling baraita question (never presented as if resolved on 6a) and physically breaks off mid-sentence at the complete word 'dechol' (L24, the sentence itself unfinished, not the word); this field's own text stays within what lines 1-24 actually establish, correctly attributes the immersion-timing refutation to R. Chiyya's baraita against Rav Shimi's 6a position (not to the earlier duration/mishkav-moshav proof), and never imports 7a's continuation of the genuinely open hutrah/dchuya dispute backward as if resolved here."
+          },
+          {
+            "path": "display.oneLine",
+            "importsNextDafConclusion": false,
+            "note": "Daf 6b opens by resolving 6a's own dangling baraita question (never presented as if resolved on 6a) and physically breaks off mid-sentence at the complete word 'dechol' (L24, the sentence itself unfinished, not the word); this field's own text stays within what lines 1-24 actually establish, correctly attributes the immersion-timing refutation to R. Chiyya's baraita against Rav Shimi's 6a position (not to the earlier duration/mishkav-moshav proof), and never imports 7a's continuation of the genuinely open hutrah/dchuya dispute backward as if resolved here."
+          },
+          {
+            "path": "display.shortSummary",
+            "importsNextDafConclusion": false,
+            "note": "Daf 6b opens by resolving 6a's own dangling baraita question (never presented as if resolved on 6a) and physically breaks off mid-sentence at the complete word 'dechol' (L24, the sentence itself unfinished, not the word); this field's own text stays within what lines 1-24 actually establish, correctly attributes the immersion-timing refutation to R. Chiyya's baraita against Rav Shimi's 6a position (not to the earlier duration/mishkav-moshav proof), and never imports 7a's continuation of the genuinely open hutrah/dchuya dispute backward as if resolved here."
+          },
+          {
+            "path": "display.title",
+            "importsNextDafConclusion": false,
+            "note": "Daf 6b opens by resolving 6a's own dangling baraita question (never presented as if resolved on 6a) and physically breaks off mid-sentence at the complete word 'dechol' (L24, the sentence itself unfinished, not the word); this field's own text stays within what lines 1-24 actually establish, correctly attributes the immersion-timing refutation to R. Chiyya's baraita against Rav Shimi's 6a position (not to the earlier duration/mishkav-moshav proof), and never imports 7a's continuation of the genuinely open hutrah/dchuya dispute backward as if resolved here."
+          },
+          {
+            "path": "display.whats",
+            "importsNextDafConclusion": false,
+            "note": "Daf 6b opens by resolving 6a's own dangling baraita question (never presented as if resolved on 6a) and physically breaks off mid-sentence at the complete word 'dechol' (L24, the sentence itself unfinished, not the word); this field's own text stays within what lines 1-24 actually establish, correctly attributes the immersion-timing refutation to R. Chiyya's baraita against Rav Shimi's 6a position (not to the earlier duration/mishkav-moshav proof), and never imports 7a's continuation of the genuinely open hutrah/dchuya dispute backward as if resolved here."
+          },
+          {
+            "path": "learning.ahaMoment",
+            "importsNextDafConclusion": false,
+            "note": "Daf 6b opens by resolving 6a's own dangling baraita question (never presented as if resolved on 6a) and physically breaks off mid-sentence at the complete word 'dechol' (L24, the sentence itself unfinished, not the word); this field's own text stays within what lines 1-24 actually establish, correctly attributes the immersion-timing refutation to R. Chiyya's baraita against Rav Shimi's 6a position (not to the earlier duration/mishkav-moshav proof), and never imports 7a's continuation of the genuinely open hutrah/dchuya dispute backward as if resolved here."
+          },
+          {
+            "path": "learning.coreMove",
+            "importsNextDafConclusion": false,
+            "note": "Daf 6b opens by resolving 6a's own dangling baraita question (never presented as if resolved on 6a) and physically breaks off mid-sentence at the complete word 'dechol' (L24, the sentence itself unfinished, not the word); this field's own text stays within what lines 1-24 actually establish, correctly attributes the immersion-timing refutation to R. Chiyya's baraita against Rav Shimi's 6a position (not to the earlier duration/mishkav-moshav proof), and never imports 7a's continuation of the genuinely open hutrah/dchuya dispute backward as if resolved here."
+          },
+          {
+            "path": "learning.coreTension",
+            "importsNextDafConclusion": false,
+            "note": "Daf 6b opens by resolving 6a's own dangling baraita question (never presented as if resolved on 6a) and physically breaks off mid-sentence at the complete word 'dechol' (L24, the sentence itself unfinished, not the word); this field's own text stays within what lines 1-24 actually establish, correctly attributes the immersion-timing refutation to R. Chiyya's baraita against Rav Shimi's 6a position (not to the earlier duration/mishkav-moshav proof), and never imports 7a's continuation of the genuinely open hutrah/dchuya dispute backward as if resolved here."
+          },
+          {
+            "path": "learning.learnerQuestion",
+            "importsNextDafConclusion": false,
+            "note": "Daf 6b opens by resolving 6a's own dangling baraita question (never presented as if resolved on 6a) and physically breaks off mid-sentence at the complete word 'dechol' (L24, the sentence itself unfinished, not the word); this field's own text stays within what lines 1-24 actually establish, correctly attributes the immersion-timing refutation to R. Chiyya's baraita against Rav Shimi's 6a position (not to the earlier duration/mishkav-moshav proof), and never imports 7a's continuation of the genuinely open hutrah/dchuya dispute backward as if resolved here."
+          },
+          {
+            "path": "learning.learningBlocker",
+            "importsNextDafConclusion": false,
+            "note": "Daf 6b opens by resolving 6a's own dangling baraita question (never presented as if resolved on 6a) and physically breaks off mid-sentence at the complete word 'dechol' (L24, the sentence itself unfinished, not the word); this field's own text stays within what lines 1-24 actually establish, correctly attributes the immersion-timing refutation to R. Chiyya's baraita against Rav Shimi's 6a position (not to the earlier duration/mishkav-moshav proof), and never imports 7a's continuation of the genuinely open hutrah/dchuya dispute backward as if resolved here."
+          },
+          {
+            "path": "learning.memoryAnchor",
+            "importsNextDafConclusion": false,
+            "note": "Daf 6b opens by resolving 6a's own dangling baraita question (never presented as if resolved on 6a) and physically breaks off mid-sentence at the complete word 'dechol' (L24, the sentence itself unfinished, not the word); this field's own text stays within what lines 1-24 actually establish, correctly attributes the immersion-timing refutation to R. Chiyya's baraita against Rav Shimi's 6a position (not to the earlier duration/mishkav-moshav proof), and never imports 7a's continuation of the genuinely open hutrah/dchuya dispute backward as if resolved here."
+          },
+          {
+            "path": "learning.reasoningPattern.category",
+            "importsNextDafConclusion": false,
+            "note": "Daf 6b opens by resolving 6a's own dangling baraita question (never presented as if resolved on 6a) and physically breaks off mid-sentence at the complete word 'dechol' (L24, the sentence itself unfinished, not the word); this field's own text stays within what lines 1-24 actually establish, correctly attributes the immersion-timing refutation to R. Chiyya's baraita against Rav Shimi's 6a position (not to the earlier duration/mishkav-moshav proof), and never imports 7a's continuation of the genuinely open hutrah/dchuya dispute backward as if resolved here."
+          },
+          {
+            "path": "learning.reasoningPattern.notes",
+            "importsNextDafConclusion": false,
+            "note": "Daf 6b opens by resolving 6a's own dangling baraita question (never presented as if resolved on 6a) and physically breaks off mid-sentence at the complete word 'dechol' (L24, the sentence itself unfinished, not the word); this field's own text stays within what lines 1-24 actually establish, correctly attributes the immersion-timing refutation to R. Chiyya's baraita against Rav Shimi's 6a position (not to the earlier duration/mishkav-moshav proof), and never imports 7a's continuation of the genuinely open hutrah/dchuya dispute backward as if resolved here."
+          },
+          {
+            "path": "learning.resolution",
+            "importsNextDafConclusion": false,
+            "note": "Daf 6b opens by resolving 6a's own dangling baraita question (never presented as if resolved on 6a) and physically breaks off mid-sentence at the complete word 'dechol' (L24, the sentence itself unfinished, not the word); this field's own text stays within what lines 1-24 actually establish, correctly attributes the immersion-timing refutation to R. Chiyya's baraita against Rav Shimi's 6a position (not to the earlier duration/mishkav-moshav proof), and never imports 7a's continuation of the genuinely open hutrah/dchuya dispute backward as if resolved here."
+          },
+          {
+            "path": "learning.takeaway.text",
+            "importsNextDafConclusion": false,
+            "note": "Daf 6b opens by resolving 6a's own dangling baraita question (never presented as if resolved on 6a) and physically breaks off mid-sentence at the complete word 'dechol' (L24, the sentence itself unfinished, not the word); this field's own text stays within what lines 1-24 actually establish, correctly attributes the immersion-timing refutation to R. Chiyya's baraita against Rav Shimi's 6a position (not to the earlier duration/mishkav-moshav proof), and never imports 7a's continuation of the genuinely open hutrah/dchuya dispute backward as if resolved here."
+          },
+          {
+            "path": "learning.takeaway.type",
+            "importsNextDafConclusion": false,
+            "note": "Daf 6b opens by resolving 6a's own dangling baraita question (never presented as if resolved on 6a) and physically breaks off mid-sentence at the complete word 'dechol' (L24, the sentence itself unfinished, not the word); this field's own text stays within what lines 1-24 actually establish, correctly attributes the immersion-timing refutation to R. Chiyya's baraita against Rav Shimi's 6a position (not to the earlier duration/mishkav-moshav proof), and never imports 7a's continuation of the genuinely open hutrah/dchuya dispute backward as if resolved here."
+          },
+          {
+            "path": "misconceptions[0].correction",
+            "importsNextDafConclusion": false,
+            "note": "Daf 6b opens by resolving 6a's own dangling baraita question (never presented as if resolved on 6a) and physically breaks off mid-sentence at the complete word 'dechol' (L24, the sentence itself unfinished, not the word); this field's own text stays within what lines 1-24 actually establish, correctly attributes the immersion-timing refutation to R. Chiyya's baraita against Rav Shimi's 6a position (not to the earlier duration/mishkav-moshav proof), and never imports 7a's continuation of the genuinely open hutrah/dchuya dispute backward as if resolved here."
+          },
+          {
+            "path": "misconceptions[0].misconception",
+            "importsNextDafConclusion": false,
+            "note": "Daf 6b opens by resolving 6a's own dangling baraita question (never presented as if resolved on 6a) and physically breaks off mid-sentence at the complete word 'dechol' (L24, the sentence itself unfinished, not the word); this field's own text stays within what lines 1-24 actually establish, correctly attributes the immersion-timing refutation to R. Chiyya's baraita against Rav Shimi's 6a position (not to the earlier duration/mishkav-moshav proof), and never imports 7a's continuation of the genuinely open hutrah/dchuya dispute backward as if resolved here."
+          },
+          {
+            "path": "misconceptions[1].correction",
+            "importsNextDafConclusion": false,
+            "note": "Daf 6b opens by resolving 6a's own dangling baraita question (never presented as if resolved on 6a) and physically breaks off mid-sentence at the complete word 'dechol' (L24, the sentence itself unfinished, not the word); this field's own text stays within what lines 1-24 actually establish, correctly attributes the immersion-timing refutation to R. Chiyya's baraita against Rav Shimi's 6a position (not to the earlier duration/mishkav-moshav proof), and never imports 7a's continuation of the genuinely open hutrah/dchuya dispute backward as if resolved here."
+          },
+          {
+            "path": "misconceptions[1].misconception",
+            "importsNextDafConclusion": false,
+            "note": "Daf 6b opens by resolving 6a's own dangling baraita question (never presented as if resolved on 6a) and physically breaks off mid-sentence at the complete word 'dechol' (L24, the sentence itself unfinished, not the word); this field's own text stays within what lines 1-24 actually establish, correctly attributes the immersion-timing refutation to R. Chiyya's baraita against Rav Shimi's 6a position (not to the earlier duration/mishkav-moshav proof), and never imports 7a's continuation of the genuinely open hutrah/dchuya dispute backward as if resolved here."
+          },
+          {
+            "path": "prerequisiteKnowledge[0]",
+            "importsNextDafConclusion": false,
+            "note": "Daf 6b opens by resolving 6a's own dangling baraita question (never presented as if resolved on 6a) and physically breaks off mid-sentence at the complete word 'dechol' (L24, the sentence itself unfinished, not the word); this field's own text stays within what lines 1-24 actually establish, correctly attributes the immersion-timing refutation to R. Chiyya's baraita against Rav Shimi's 6a position (not to the earlier duration/mishkav-moshav proof), and never imports 7a's continuation of the genuinely open hutrah/dchuya dispute backward as if resolved here."
+          },
+          {
+            "path": "prerequisiteKnowledge[1]",
+            "importsNextDafConclusion": false,
+            "note": "Daf 6b opens by resolving 6a's own dangling baraita question (never presented as if resolved on 6a) and physically breaks off mid-sentence at the complete word 'dechol' (L24, the sentence itself unfinished, not the word); this field's own text stays within what lines 1-24 actually establish, correctly attributes the immersion-timing refutation to R. Chiyya's baraita against Rav Shimi's 6a position (not to the earlier duration/mishkav-moshav proof), and never imports 7a's continuation of the genuinely open hutrah/dchuya dispute backward as if resolved here."
+          },
+          {
+            "path": "prerequisiteKnowledge[2]",
+            "importsNextDafConclusion": false,
+            "note": "Daf 6b opens by resolving 6a's own dangling baraita question (never presented as if resolved on 6a) and physically breaks off mid-sentence at the complete word 'dechol' (L24, the sentence itself unfinished, not the word); this field's own text stays within what lines 1-24 actually establish, correctly attributes the immersion-timing refutation to R. Chiyya's baraita against Rav Shimi's 6a position (not to the earlier duration/mishkav-moshav proof), and never imports 7a's continuation of the genuinely open hutrah/dchuya dispute backward as if resolved here."
+          },
+          {
+            "path": "quizSeeds[0].answer",
+            "importsNextDafConclusion": false,
+            "note": "Daf 6b opens by resolving 6a's own dangling baraita question (never presented as if resolved on 6a) and physically breaks off mid-sentence at the complete word 'dechol' (L24, the sentence itself unfinished, not the word); this field's own text stays within what lines 1-24 actually establish, correctly attributes the immersion-timing refutation to R. Chiyya's baraita against Rav Shimi's 6a position (not to the earlier duration/mishkav-moshav proof), and never imports 7a's continuation of the genuinely open hutrah/dchuya dispute backward as if resolved here."
+          },
+          {
+            "path": "quizSeeds[0].distractors[0]",
+            "importsNextDafConclusion": false,
+            "note": "Daf 6b opens by resolving 6a's own dangling baraita question (never presented as if resolved on 6a) and physically breaks off mid-sentence at the complete word 'dechol' (L24, the sentence itself unfinished, not the word); this field's own text stays within what lines 1-24 actually establish, correctly attributes the immersion-timing refutation to R. Chiyya's baraita against Rav Shimi's 6a position (not to the earlier duration/mishkav-moshav proof), and never imports 7a's continuation of the genuinely open hutrah/dchuya dispute backward as if resolved here."
+          },
+          {
+            "path": "quizSeeds[0].distractors[1]",
+            "importsNextDafConclusion": false,
+            "note": "Daf 6b opens by resolving 6a's own dangling baraita question (never presented as if resolved on 6a) and physically breaks off mid-sentence at the complete word 'dechol' (L24, the sentence itself unfinished, not the word); this field's own text stays within what lines 1-24 actually establish, correctly attributes the immersion-timing refutation to R. Chiyya's baraita against Rav Shimi's 6a position (not to the earlier duration/mishkav-moshav proof), and never imports 7a's continuation of the genuinely open hutrah/dchuya dispute backward as if resolved here."
+          },
+          {
+            "path": "quizSeeds[0].distractors[2]",
+            "importsNextDafConclusion": false,
+            "note": "Daf 6b opens by resolving 6a's own dangling baraita question (never presented as if resolved on 6a) and physically breaks off mid-sentence at the complete word 'dechol' (L24, the sentence itself unfinished, not the word); this field's own text stays within what lines 1-24 actually establish, correctly attributes the immersion-timing refutation to R. Chiyya's baraita against Rav Shimi's 6a position (not to the earlier duration/mishkav-moshav proof), and never imports 7a's continuation of the genuinely open hutrah/dchuya dispute backward as if resolved here."
+          },
+          {
+            "path": "quizSeeds[0].question",
+            "importsNextDafConclusion": false,
+            "note": "Daf 6b opens by resolving 6a's own dangling baraita question (never presented as if resolved on 6a) and physically breaks off mid-sentence at the complete word 'dechol' (L24, the sentence itself unfinished, not the word); this field's own text stays within what lines 1-24 actually establish, correctly attributes the immersion-timing refutation to R. Chiyya's baraita against Rav Shimi's 6a position (not to the earlier duration/mishkav-moshav proof), and never imports 7a's continuation of the genuinely open hutrah/dchuya dispute backward as if resolved here."
+          },
+          {
+            "path": "quizSeeds[0].type",
+            "importsNextDafConclusion": false,
+            "note": "Daf 6b opens by resolving 6a's own dangling baraita question (never presented as if resolved on 6a) and physically breaks off mid-sentence at the complete word 'dechol' (L24, the sentence itself unfinished, not the word); this field's own text stays within what lines 1-24 actually establish, correctly attributes the immersion-timing refutation to R. Chiyya's baraita against Rav Shimi's 6a position (not to the earlier duration/mishkav-moshav proof), and never imports 7a's continuation of the genuinely open hutrah/dchuya dispute backward as if resolved here."
+          },
+          {
+            "path": "quizSeeds[1].answer",
+            "importsNextDafConclusion": false,
+            "note": "Daf 6b opens by resolving 6a's own dangling baraita question (never presented as if resolved on 6a) and physically breaks off mid-sentence at the complete word 'dechol' (L24, the sentence itself unfinished, not the word); this field's own text stays within what lines 1-24 actually establish, correctly attributes the immersion-timing refutation to R. Chiyya's baraita against Rav Shimi's 6a position (not to the earlier duration/mishkav-moshav proof), and never imports 7a's continuation of the genuinely open hutrah/dchuya dispute backward as if resolved here."
+          },
+          {
+            "path": "quizSeeds[1].question",
+            "importsNextDafConclusion": false,
+            "note": "Daf 6b opens by resolving 6a's own dangling baraita question (never presented as if resolved on 6a) and physically breaks off mid-sentence at the complete word 'dechol' (L24, the sentence itself unfinished, not the word); this field's own text stays within what lines 1-24 actually establish, correctly attributes the immersion-timing refutation to R. Chiyya's baraita against Rav Shimi's 6a position (not to the earlier duration/mishkav-moshav proof), and never imports 7a's continuation of the genuinely open hutrah/dchuya dispute backward as if resolved here."
+          },
+          {
+            "path": "quizSeeds[1].type",
+            "importsNextDafConclusion": false,
+            "note": "Daf 6b opens by resolving 6a's own dangling baraita question (never presented as if resolved on 6a) and physically breaks off mid-sentence at the complete word 'dechol' (L24, the sentence itself unfinished, not the word); this field's own text stays within what lines 1-24 actually establish, correctly attributes the immersion-timing refutation to R. Chiyya's baraita against Rav Shimi's 6a position (not to the earlier duration/mishkav-moshav proof), and never imports 7a's continuation of the genuinely open hutrah/dchuya dispute backward as if resolved here."
+          },
+          {
+            "path": "visualizableElements[0].item",
+            "importsNextDafConclusion": false,
+            "note": "Daf 6b opens by resolving 6a's own dangling baraita question (never presented as if resolved on 6a) and physically breaks off mid-sentence at the complete word 'dechol' (L24, the sentence itself unfinished, not the word); this field's own text stays within what lines 1-24 actually establish, correctly attributes the immersion-timing refutation to R. Chiyya's baraita against Rav Shimi's 6a position (not to the earlier duration/mishkav-moshav proof), and never imports 7a's continuation of the genuinely open hutrah/dchuya dispute backward as if resolved here."
+          },
+          {
+            "path": "visualizableElements[0].type",
+            "importsNextDafConclusion": false,
+            "note": "Daf 6b opens by resolving 6a's own dangling baraita question (never presented as if resolved on 6a) and physically breaks off mid-sentence at the complete word 'dechol' (L24, the sentence itself unfinished, not the word); this field's own text stays within what lines 1-24 actually establish, correctly attributes the immersion-timing refutation to R. Chiyya's baraita against Rav Shimi's 6a position (not to the earlier duration/mishkav-moshav proof), and never imports 7a's continuation of the genuinely open hutrah/dchuya dispute backward as if resolved here."
+          },
+          {
+            "path": "visualizableElements[1].item",
+            "importsNextDafConclusion": false,
+            "note": "Daf 6b opens by resolving 6a's own dangling baraita question (never presented as if resolved on 6a) and physically breaks off mid-sentence at the complete word 'dechol' (L24, the sentence itself unfinished, not the word); this field's own text stays within what lines 1-24 actually establish, correctly attributes the immersion-timing refutation to R. Chiyya's baraita against Rav Shimi's 6a position (not to the earlier duration/mishkav-moshav proof), and never imports 7a's continuation of the genuinely open hutrah/dchuya dispute backward as if resolved here."
+          },
+          {
+            "path": "visualizableElements[1].type",
+            "importsNextDafConclusion": false,
+            "note": "Daf 6b opens by resolving 6a's own dangling baraita question (never presented as if resolved on 6a) and physically breaks off mid-sentence at the complete word 'dechol' (L24, the sentence itself unfinished, not the word); this field's own text stays within what lines 1-24 actually establish, correctly attributes the immersion-timing refutation to R. Chiyya's baraita against Rav Shimi's 6a position (not to the earlier duration/mishkav-moshav proof), and never imports 7a's continuation of the genuinely open hutrah/dchuya dispute backward as if resolved here."
+          }
+        ],
+        "staleContentSweep": {
+          "entries": [
+            {
+              "category": "stale_original_error",
+              "found": false
+            },
+            {
+              "category": "stale_speaker_or_attribution",
+              "found": false
+            },
+            {
+              "category": "contradictory_speaker_attribution",
+              "found": false
+            },
+            {
+              "category": "old_conclusion_in_secondary_field",
+              "found": false
+            },
+            {
+              "category": "false_closure",
+              "found": false
+            },
+            {
+              "category": "next_daf_content_leaked_backward",
+              "found": false
+            },
+            {
+              "category": "claim_unsupported_by_physical_daf",
+              "found": false
+            },
+            {
+              "category": "stale_quiz_question_or_answer",
+              "found": false
+            },
+            {
+              "category": "stale_final_ruling",
+              "found": false
+            },
+            {
+              "category": "stale_summary",
+              "found": false
+            },
+            {
+              "category": "stale_learning_field",
+              "found": false
+            },
+            {
+              "category": "stale_misconception",
+              "found": false
+            },
+            {
+              "category": "stale_related_sugya_description",
+              "found": false
+            },
+            {
+              "category": "stale_visualizable_element_prose",
+              "found": false
+            },
+            {
+              "category": "source_refs_no_longer_supporting_claim",
+              "found": false
+            },
+            {
+              "category": "reference_outside_declared_line_range",
+              "found": false
+            }
+          ]
+        }
+      },
+      "certifiedAtCommit": "8c20b436b3884e0da40345af95eef6e202ff88a8"
     },
     "yoma-007a-s01": {
       "sugyaId": "yoma-007a-s01",
