@@ -16331,7 +16331,7 @@ const DAF_CONTENT = {
           {
             id: "step-07",
             type: "answer",
-            label: "R. Yehuda: doubled 'mitzcho/mitzcho' within one verse",
+            label: "R. Yehuda: doubled 'metzach/mitzcho' within one verse",
             speaker: "Gemara (R. Yehuda)",
             text: "R. Yehuda derives it from the doubled form within a single verse (Exodus 28:38, which contains both the bare 'metzach' and the suffixed 'mitzcho'): the Torah did not need to say 'forehead' twice, so the repetition teaches that the tzitz must be whole and actually on the forehead. R. Shimon: that doubling does not convey the broken-tzitz rule.",
             sourceRefs: [
@@ -16346,7 +16346,7 @@ const DAF_CONTENT = {
         ],
         conceptRefs: [
           "tzitz",
-          "rauy-l'mitzcho",
+          "rauy-lametzach",
           "kal-v'chomer",
           "tefillin"
         ],
@@ -16408,7 +16408,7 @@ const DAF_CONTENT = {
           "tefillin",
           "r-yehuda",
           "r-shimon",
-          "rauy-lamitzach"
+          "rauy-lametzach"
         ],
         review: {
           learning: "ai_generated",
