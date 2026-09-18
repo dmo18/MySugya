@@ -4,9 +4,10 @@
   "module": "yoma",
   "daf": "8a",
   "sugyaIds": [
-    "yoma-008a-s01"
+    "yoma-008a-s01",
+    "yoma-008a-s02"
   ],
-  "firstReviewId": "yoma-8a-r9-first",
+  "firstReviewId": "yoma-8a-finalaudit3-r1-first",
   "policy": {
     "sourceFirst": true,
     "independentSecondPassRequired": true,

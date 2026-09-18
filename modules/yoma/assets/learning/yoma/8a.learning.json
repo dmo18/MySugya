@@ -48,7 +48,7 @@
       "display": {
         "title": "Kal v'chomer to tefillin; source derivations for R. Yehuda and R. Shimon",
         "oneLine": "The tefillin kal v'chomer from 7b is completed; then R. Yehuda and R. Shimon each explain where they derive the forehead-location rule and what to do with a broken tzitz.",
-        "shortSummary": "The kal v'chomer: just as the tzitz - which has only one divine name - requires constant mindfulness (not diverting attention), tefillin - which have many divine names - certainly require constant mindfulness. Then the Gemara traces how each side derives its proof-texts. R. Shimon: 'al mitzcho' establishes the required location; 'tamid liratzon' means perpetual atonement even off-forehead. R. Yehuda: 'al mitzcho' likewise establishes location; but 'tamid' means mindfulness. Question: if R. Shimon already derives location from 'al mitzcho,' what does 'al mitzcho v'nasa' add? Answer: 'ravui la-mitzach' - only what is fit for the forehead atones; a broken tzitz is not fit. Question: where does R. Yehuda derive that a broken tzitz does not atone? From the doubling of 'metzach'/'mitzcho' within one verse (two forms of the same word = two requirements). R. Shimon: the doubling does not convey that teaching.",
+        "shortSummary": "The kal v'chomer: just as the tzitz - which has only one divine name - requires constant mindfulness (not diverting attention), tefillin - which have many divine names - certainly require constant mindfulness. Then the Gemara traces how each side derives its proof-texts. R. Shimon: 'al mitzcho' establishes the required location; 'tamid liratzon' means perpetual atonement even off-forehead. R. Yehuda: 'al mitzcho' likewise establishes location; but 'tamid' means mindfulness. Question: if R. Shimon already derives location from 'al mitzcho,' what does 'al mitzcho v'nasa' add? Answer: 'rauy la-metzach' - only what is fit for the forehead atones; a broken tzitz is not fit. Question: where does R. Yehuda derive that a broken tzitz does not atone? From the doubling of 'metzach'/'mitzcho' within one verse (two forms of the same word = two requirements). R. Shimon: the doubling does not convey that teaching.",
         "whats": "This section is source-analysis (limud): once two positions are established in 7b, the Gemara asks 'where does each derive this from?' It is not a new dispute but a derivational audit. The key technical concept is 'ראוי למצח' - the principle that atonement requires the object to be fit for its designated location, even if not currently there.",
         "hint": "If R. Shimon and R. Yehuda both derive the forehead-location requirement from the same words 'al mitzcho,' what exactly are they disagreeing about?"
       },
@@ -814,8 +814,8 @@
   ],
   "glossary": [
     {
-      "he": "רָאוּי לְמִצַּח",
-      "translit": "Rauy la-mitzach",
+      "he": "רָאוּי לַמֵּצַח",
+      "translit": "Rauy la-metzach",
       "en": "Fit for the forehead - the principle that the tzitz must be in a condition suitable for being worn on the forehead to effect atonement."
     },
     {
