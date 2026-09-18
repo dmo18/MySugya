@@ -44099,61 +44099,35 @@
     "yoma-006a-s01": {
       "sugyaId": "yoma-006a-s01",
       "daf": "6a",
-      "state": "PENDING_FINAL_AUDIT",
+      "state": "REPAIRED_PENDING_REVIEW",
       "firstPass": {
-        "reviewId": "sonnet5-6a-round1-20260917",
-        "reviewerContextId": "af029103bba769ccf",
+        "reviewId": "sonnet5-6a-secondpass-round5-20260918",
+        "reviewerContextId": "a03b4e983cf0d9075",
         "sourceFirst": true,
         "verdict": "REPAIR_REQUIRED",
         "reviewedSourceFingerprint": "2fee0a1fe0441c9d2fc5f0e0d3ab83af5308f5568ebad80f9e5657577682ccd1",
-        "reviewedSemanticFingerprint": "37384b9c129cb1ccfcff57a9ce168c7f07ba3be09f2202fdde4739a7630fa6dc",
+        "reviewedSemanticFingerprint": "af2314467c21407a58c310c45869c9ce86498230e3ec4828d7e88d08fbb634d6",
         "evidence": {
-          "verdict": "REPAIR_REQUIRED",
-          "auditorContextId": "af029103bba769ccf",
-          "summary": "Fresh, isolated Source Auditor first-pass audit of Yoma 6a (yoma-006a-s01, s02, s03), independently reconstructed from rawHebrewLines and relevantRashi without trusting existing enrichment.",
-          "majorFindings": "s03 argumentFlow step-07 claimed the first baraita's objection ('the inference against him fails') was deflected, but neither the raw text (lines 29-31) nor the bundled Rashi supports this: the text reads 'niddah - yes; bo'el niddah - no [explicit], and anything that comes via ribbuy [extension]...' and then moves straight to 'meitivei' (a second baraita) with no visible resolution marker ('ela', 'hachi ka'amar', etc.) in between. Independently re-verified against the raw text: this is a genuine ribbuy-based challenge to R. Zeira's day-position that the daf's own text leaves unanswered, not a resolved objection. The claimed 'deflection' was unsupported fabrication of closure. Propagated correction across step-07, learning.resolution, finalRuling, dafLevel.summary, and s03 display.oneLine/shortSummary/whats.",
-          "mediumFindings": [
-            "dafLevel.summary and s03 display fields stated Rav Shimi's alternative gives 'eight full days,' contradicting Rashi's own stated reasoning on line 26 that the small sliver of the eighth day is NOT counted as a full day, which is precisely why the separation is still called 'seven' days.",
-            "s01 argumentFlow step-01 sourceRef cited lineId l01/vilnaLine 1, but the 'not the same' conclusion it describes only completes at line 2 (segment l02); within-sugya mis-citation, fixed to cite l02/vilnaLine 2.",
-            "s03 argumentFlow step-07 sourceRef cited lineId l30/vilnaLine 30, but the ribbuy-extension clause it describes ('vechol de'atei miribuya') is on line 31 (segment l31); within-sugya mis-citation, fixed to cite l31/vilnaLine 31.",
-            "s03 finalRuling overstated closure ('both deflected') not supported once step-07's fabricated deflection is corrected; reworded to accurately state the daf leaves R. Zeira's rule facing an unanswered challenge, continuing on 6b."
-          ],
-          "minorFindings": [
-            "s02 topicTags contained capitalized non-slug values ('Kohen-Gadol', 'Yom-Kippur') violating the lowercase-hyphen-ASCII-slug contract.",
-            "s03 topicTags contained capitalized/non-ASCII values ('Yom-Kippur', 'Rav-Chisda', 'R-Zeira', \"bo'el-niddah\" with apostrophe) violating the same contract; corrected to match established corpus convention (rav-chisda, rabbi-zeira, boel-niddah).",
-            "s01/s02/s03 requiresUnderstanding held prose sentences instead of sugya ids, violating the contract (prose belongs in prerequisiteKnowledge, which was absent from all three records). s01's prose 'the 5b belt dispute' resolved to a genuine sugya id, yoma-005b-s02.",
-            "s01/s02/s03 visualizableElements used the legacy 'description' key instead of the canonical required 'item' field across all 9 entries on the daf.",
-            "s03 finalRuling was stored as an object ({ruling, basis}) rather than the contract-required plain string; converted to a compliant string as part of the same fix."
-          ],
-          "noDefectsConfirmed": [
-            "No cross-sugya lineId citations found anywhere on the daf; every sourceRefs.lineId resolves to its own sugya's segment map.",
-            "The belt-material/dressing-sequence dual resolution in s01 is accurately presented and matches Rashi precisely.",
-            "s02's safek-niddah phrasing-correction content is accurate and well-bounded; no defects found.",
-            "s03's baraita-2 deflection (step-09, 'the comparison is about duration, not timing') IS explicitly supported by the raw text ('lo le-tumatan') and correctly left open at step-10 pending 6b, consistent with Rashi's own note."
-          ]
+          "origin": "independent-second-pass-rejection",
+          "reviewEvidence": {
+            "verdict": "REJECTED",
+            "reviewerContextId": "a03b4e983cf0d9075",
+            "summary": "Comprehensive fresh reviewer cross-checked s01 against Sefaria's William Davidson Edition (fetched live, segments Yoma.6a.1-3). Found one sourceRef mis-citation.",
+            "defectFound": {
+              "field": "yoma-006a-s01.argumentFlow[step-01].sourceRefs[0]",
+              "before": "lineId yoma-006a-l02, vilnaLine 2",
+              "problem": "Per the sugya's own lines[] segment map, l01 (vilnaLine 1) maps to Sefaria Yoma.6a.1, and l02 (vilnaLine 2) maps to Yoma.6a.2. Step-01's content (Position 1/'together's full answer: the belts are not the same, kilaim vs. plain linen, per Exodus 39:29) is entirely Sefaria segment Yoma.6a.1 -- which the Davidson translation confirms runs as one continuous paragraph including the material specifics, ending 'And still one can say that Aaron and his sons were dressed simultaneously.' Yoma.6a.2 is a DIFFERENT exchange (the challenge to Position 2 plus Position 2's own answer, already correctly cited by step-02). A prior round had moved this citation from l01 to l02 based on a naive reading of where the Vilna print's 'lo...zeh hu' sentence break falls, but the authoritative Sefaria-segment-to-lines[]-entry mapping this whole corpus is built on shows the full material-difference content belongs to segment 1 (l01), not segment 2 (l02).",
+              "fix": "sourceRef corrected to lineId yoma-006a-l01, vilnaLine 1."
+            }
+          }
         }
       },
-      "repairRef": "02710d22099d4995adba962735a7e1c4029f5d29",
-      "sourceFingerprint": "2fee0a1fe0441c9d2fc5f0e0d3ab83af5308f5568ebad80f9e5657577682ccd1",
-      "semanticFingerprint": "945f2b0121475af5f81c5543b2df0923341fb7f3a500c068b808b1f436c65814",
-      "secondPass": {
-        "reviewId": "sonnet5-6a-s01-reconfirm-20260917",
-        "reviewerContextId": "a9e7562d3f5d8e3bf",
-        "sourceFirst": true,
-        "verdict": "CONFIRMED",
-        "reviewedSourceFingerprint": "2fee0a1fe0441c9d2fc5f0e0d3ab83af5308f5568ebad80f9e5657577682ccd1",
-        "reviewedSemanticFingerprint": "945f2b0121475af5f81c5543b2df0923341fb7f3a500c068b808b1f436c65814",
-        "evidence": {
-          "verdict": "CLEAN",
-          "reviewerContextId": "a9e7562d3f5d8e3bf",
-          "summary": "Fresh independent re-review after dafLevel.summary's mid-word->mid-sentence wording fix (a s03-local content change that shares the dafLevel.summary field with s01/s02, staling their prior CONFIRMED second pass). Independently reconstructed s01 (belt-material/dressing-sequence dispute, lines 1-6) from raw Hebrew and Rashi. Specifically re-verified step-01's sourceRef (lineId l02, vilnaLine 2): the 'High Priest's belt is not the same as the ordinary priest's belt' conclusion only completes at vilnaLine 2 -- line 1 alone ends mid-clause at 'lo' with no comparison target yet stated. Confirmed correct. No fabricated argumentFlow, no generic quiz/misconception stubs, finalRuling correctly null, topicTags clean slugs, requiresUnderstanding holds one valid sugya id. dafLevel.summary's statements about s01's content are factually accurate."
-        }
-      }
+      "repairRef": "5cc269c8e4b7ea8c223927aebe44174a36535b7b"
     },
     "yoma-006a-s02": {
       "sugyaId": "yoma-006a-s02",
       "daf": "6a",
-      "state": "REPAIRED_PENDING_REVIEW",
+      "state": "PENDING_FINAL_AUDIT",
       "firstPass": {
         "reviewId": "sonnet5-6a-s02-reconfirm-20260917",
         "reviewerContextId": "a9e7562d3f5d8e3bf",
@@ -44177,45 +44151,65 @@
           }
         }
       },
-      "repairRef": "80dc7b16b9066df0f3aded321a5ef5890da1cc3b"
+      "repairRef": "80dc7b16b9066df0f3aded321a5ef5890da1cc3b",
+      "sourceFingerprint": "69d6926d620b847f2f648959f87cf5c40917bae0e28deed20bd754eccf61ec07",
+      "semanticFingerprint": "458fe76c4ddd7324b4345bb24a68f30402fe27207bd9d617c838246476ce6d74",
+      "secondPass": {
+        "reviewId": "sonnet5-6a-secondpass-round5-20260918",
+        "reviewerContextId": "a03b4e983cf0d9075",
+        "sourceFirst": true,
+        "verdict": "CONFIRMED",
+        "reviewedSourceFingerprint": "69d6926d620b847f2f648959f87cf5c40917bae0e28deed20bd754eccf61ec07",
+        "reviewedSemanticFingerprint": "458fe76c4ddd7324b4345bb24a68f30402fe27207bd9d617c838246476ce6d74",
+        "evidence": {
+          "verdict": "CLEAN",
+          "reviewerContextId": "a03b4e983cf0d9075",
+          "summary": "Comprehensive fresh reviewer, cross-checking against Sefaria's William Davidson Edition (fetched live, segments Yoma.6a.4-6). s02's full arc (why the Kohen Gadol leaves home, the safek niddah concern, the corrected phrasing) confirmed accurate. No defects found."
+        }
+      }
     },
     "yoma-006a-s03": {
       "sugyaId": "yoma-006a-s03",
       "daf": "6a",
       "state": "REPAIRED_PENDING_REVIEW",
       "firstPass": {
-        "reviewId": "sonnet5-6a-secondpass-round4-20260917",
-        "reviewerContextId": "a3a207d34457aafcf",
+        "reviewId": "sonnet5-6a-secondpass-round5-20260918",
+        "reviewerContextId": "a03b4e983cf0d9075",
         "sourceFirst": true,
         "verdict": "REPAIR_REQUIRED",
         "reviewedSourceFingerprint": "5f0d054602d895f6d9aa64c3b1d90f91e37a7fbf85cf276045a5a07c13510ee3",
-        "reviewedSemanticFingerprint": "64566ed5e9bb7c8fdd2993ca1bc55dc6eba72cbab7e00b1689636d5afd6dc5a4",
+        "reviewedSemanticFingerprint": "c5267fe5fd8118c7cd53d2c64bff1e2798349f1dc84643ef591241fe20c25ce7",
         "evidence": {
           "origin": "independent-second-pass-rejection",
           "reviewEvidence": {
             "verdict": "REJECTED",
-            "reviewerContextId": "a3a207d34457aafcf",
-            "summary": "Fifth fresh reviewer context. Found a major structural defect that all four prior reviewers (including three independent audits and my own primary-source verification) had missed: step-07 and cascading fields fundamentally mischaracterized the Gemara's own resolution of baraita 1.",
-            "defectFound": {
-              "fields": [
-                "yoma-006a-s03.argumentFlow[step-06]",
-                "yoma-006a-s03.argumentFlow[step-07]",
-                "dafLevel.summary",
-                "yoma-006a-s03.display.oneLine",
-                "yoma-006a-s03.display.shortSummary",
-                "yoma-006a-s03.display.whats",
-                "yoma-006a-s03.learning.resolution",
-                "yoma-006a-s03.finalRuling"
-              ],
-              "problem": "Independently re-verified against Sefaria's William Davidson Edition (fetched live via the Sefaria API, Yoma.6a.11-15): the baraita 1 sequence is explicitly introduced as 'an objection to the opinion that one who is impure because he had relations with a menstruating woman immerses at night' -- i.e., an objection to Rav Shimi's immediately-preceding 'even if he's like niddah, night' hypothesis (step-05), not to R. Zeira's day-conclusion. And critically, the ribbuy clause is NOT an unanswered further extension of the objection -- it IS the Gemara's own explicit REJECTION of the objection: 'The Gemara rejects that proof because the term menstruating woman in that baraita includes...everyone whose inclusion in the impurity is derived from her status.' All four prior reviewer passes (including two of my own) misread the terse, unvocalized Aramaic as an unresolved objection against R. Zeira; the correct reading, confirmed against the authoritative published translation, is that the Gemara explicitly defeats the naive 'bo'el niddah is definitely day' inference from the baraita, keeping Rav Shimi's night-hypothesis textually viable.",
-              "fix": "Reframed step-06 as testing Rav Shimi's night-hypothesis (not objecting to R. Zeira's day-rule); reframed step-07 (type challenge->rejection) as the Gemara's actual rejection of the naive inference via ribbuy, not an unanswered extension. Propagated the correction through dafLevel.summary, s03 display.oneLine/shortSummary/whats, learning.resolution, and finalRuling, all of which previously repeated the wrong 'unanswered/left open' framing for baraita 1. R. Zeira's own day-conclusion (independently proven via the Yom Kippur impossibility) is unaffected by this correction -- it was never actually in doubt from this baraita exchange."
-            },
-            "lessonForFutureReviewers": "This is a case where terse, unvocalized Aramaic (netiva shel lashon hatalmud) genuinely admits of two readings, and multiple independent source-first reconstructions converged on the wrong one. The authoritative published English translation (Sefaria/William Davidson Edition) was decisive and should be consulted directly for genuinely ambiguous dialectical-structure questions like this, not just the raw Hebrew/Aramaic and bundled Rashi alone.",
-            "otherChecksConfirmedClean": "All 10 argumentFlow sourceRefs (lineId/vilnaLine containment), Rav Chisda's distinction, R. Zeira's proof, Rav Shimi's seven-vs-eight-days mechanism, baraita 2's step-09/step-10 split, the mid-sentence daf ending, and contract compliance (topicTags, requiresUnderstanding, finalRuling shape) all independently reconfirmed accurate this round."
+            "reviewerContextId": "a03b4e983cf0d9075",
+            "summary": "Comprehensive fresh reviewer cross-checked s03 against Sefaria's William Davidson Edition (fetched live, segments Yoma.6a.12-16 and 6b.1). Confirmed round 4's content correction (baraita 1 rejected via ribbuy, not left open) as substantively accurate -- 'Good repair.' Found three sourceRef/segment-map citation defects, all mechanical, none semantic.",
+            "defectsFound": [
+              {
+                "field": "yoma-006a-s03.argumentFlow[step-07].sourceRefs[0]",
+                "before": "lineId yoma-006a-l31, vilnaLine 31",
+                "problem": "Per the sugya's own lines[] map, l31 -> Sefaria Yoma.6a.14 (baraita 2's citation, already correctly used by step-08), not the ribbuy-rejection content. The ribbuy-rejection (verified live: 'The Gemara rejects that proof because the term menstruating woman in that baraita includes...everyone whose inclusion...is derived from her status') is Sefaria Yoma.6a.13, which the lines[] map assigns to l30.",
+                "fix": "sourceRef corrected to lineId yoma-006a-l30, vilnaLine 30."
+              },
+              {
+                "field": "yoma-006a-s03.argumentFlow[step-09]",
+                "before": "sourceRef lineId yoma-006a-l33, vilnaLine 33; text conflated content from two distinct Sefaria segments",
+                "problem": "Step-09's 'duration, not timing' deflection is part of Sefaria Yoma.6a.14 (the same long segment as step-08's baraita-2 citation), which maps to l31, not l33. Step-09's text had also absorbed a clause ('the Torah explicitly states both impurity durations') that actually belongs to the DIFFERENT, later Sefaria segment 6a.15 (step-10's rightful content), creating redundancy between step-09 and step-10.",
+                "fix": "sourceRef corrected to lineId yoma-006a-l31, vilnaLine 31 (same segment as step-08). Text trimmed to only the duration-vs-timing deflection with its baal-keri/bo'el-niddah examples, removing the misplaced 'Torah explicitly states' clause."
+              },
+              {
+                "field": "yoma-006a-s03.argumentFlow[step-10].sourceRefs[0], and s03.lines[] entry for vilnaLine 35",
+                "before": "step-10 cited lineId yoma-006a-l35, vilnaLine 35; s03.lines[] listed vilnaLine 35 -> sefariaRef 'Yoma.6a.16'",
+                "problem": "Confirmed live via the Sefaria API: 'Yoma.6a.16' does not exist (daf 6a has only 15 segments; querying it returns 'We have no text for Yoma 6a:16'). The word at vilnaLine 35 ('ela') is actually the opening word of Sefaria Yoma.6b.1 ('Rather, must it not be that the baraita is equating them with regard to their immersion...'), confirmed live. Step-10's own content (the 'why teach duration if explicit' follow-up question) is Sefaria Yoma.6a.15, which the lines[] map correctly assigns to l33 (vilnaLine 33) -- a prior round had moved step-10's citation away from this correct value to the erroneous l35.",
+                "fix": "step-10's sourceRef corrected back to lineId yoma-006a-l33, vilnaLine 33. The sugya's own lines[] entry for vilnaLine 35 corrected from the invalid 'Yoma.6a.16' to 'Yoma.6b.1', matching the confirmed live Sefaria structure."
+              }
+            ],
+            "confirmedAccurate": "The substantive content correction from round 4 (baraita 1's ribbuy clause is the Gemara's REJECTION of the naive day-only inference, testing Rav Shimi's night-hypothesis, not an unanswered objection to R. Zeira) is confirmed correct against the live Davidson translation and required no further change. R. Zeira's day-conclusion, Rav Shimi's seven-vs-eight-days mechanism, and the daf's mid-sentence ending are all independently reconfirmed accurate."
           }
         }
       },
-      "repairRef": "927033852fbc4512dea102d04b918c759f39e2d9"
+      "repairRef": "5cc269c8e4b7ea8c223927aebe44174a36535b7b"
     },
     "yoma-006b-s01": {
       "sugyaId": "yoma-006b-s01",

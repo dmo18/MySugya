@@ -65,9 +65,9 @@
      "sourceRefs": [
       {
        "sourceType": "gemara",
-       "lineId": "yoma-006a-l02",
-       "vilnaLine": 2,
-       "note": "Together-position's 'not the same' conclusion, completed at this line; the specific materials (kilaim vs. plain linen) are Rashi's own supplied elaboration on Exodus 39:29, not stated explicitly in the bare Gemara text"
+       "lineId": "yoma-006a-l01",
+       "vilnaLine": 1,
+       "note": "Together-position's full answer (Sefaria Yoma.6a.1): the belts are not the same, with the material specifics (kilaim vs. plain linen) from Exodus 39:29"
       }
      ]
     },
@@ -413,7 +413,7 @@
     },
     {
      "vilnaLine": 35,
-     "sefariaRef": "Yoma.6a.16"
+     "sefariaRef": "Yoma.6b.1"
     }
    ],
    "display": {
@@ -541,9 +541,9 @@
      "sourceRefs": [
       {
        "sourceType": "gemara",
-       "lineId": "yoma-006a-l31",
-       "vilnaLine": 31,
-       "note": "The Gemara's rejection of the day-only inference: 'niddah' extends via ribbuy to include bo'el niddah"
+       "lineId": "yoma-006a-l30",
+       "vilnaLine": 30,
+       "note": "The Gemara's rejection of the day-only inference (Sefaria Yoma.6a.13): 'niddah' extends via ribbuy to include bo'el niddah"
       }
      ]
     },
@@ -567,13 +567,13 @@
      "type": "rejection",
      "label": "Baraita 2 deflected: the comparison is about duration, not immersion timing",
      "speaker": "Gemara",
-     "text": "The baraita compares bo'el niddah to tamei met only for the duration of impurity (seven days), not for immersion timing. The Torah explicitly states both impurity durations - the baraita is teaching something else entirely.",
+     "text": "The baraita compares bo'el niddah to tamei met only for the duration of impurity, not for immersion timing: one who experiences a seminal emission is impure for one day, like one who touched a creeping animal; one who has relations with a menstruating woman is impure for seven days, like one impure by corpse-contact.",
      "sourceRefs": [
       {
        "sourceType": "gemara",
-       "lineId": "yoma-006a-l33",
-       "vilnaLine": 33,
-       "note": "Deflection of baraita 2: the comparison is about impurity duration, not immersion timing"
+       "lineId": "yoma-006a-l31",
+       "vilnaLine": 31,
+       "note": "Deflection of baraita 2 (Sefaria Yoma.6a.14, same segment as step-08's citation): the comparison is about impurity duration, not immersion timing"
       }
      ]
     },
@@ -586,9 +586,9 @@
      "sourceRefs": [
       {
        "sourceType": "gemara",
-       "lineId": "yoma-006a-l35",
-       "vilnaLine": 35,
-       "note": "The daf cuts off mid-sentence here, at the complete word \"ela\" (not a truncated word); Rashi confirms the resolution of what the baraita actually teaches continues on 6b"
+       "lineId": "yoma-006a-l33",
+       "vilnaLine": 33,
+       "note": "The follow-up question (Sefaria Yoma.6a.15): why would the baraita need to derive impurity duration through comparison when the Torah explicitly writes both durations already; the daf cuts off mid-sentence at the complete word 'ela' (confirmed to open Sefaria Yoma.6b.1) before answering, continuing on 6b"
       }
      ]
     }
