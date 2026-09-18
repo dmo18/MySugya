@@ -58566,50 +58566,50 @@
       "daf": "8a",
       "state": "REPAIRED_PENDING_REVIEW",
       "firstPass": {
-        "reviewId": "yoma-8a-r1-second",
-        "reviewerContextId": "a01d719b64dbf6fb3",
+        "reviewId": "yoma-8a-r2-second",
+        "reviewerContextId": "a8650e82927de2250",
         "sourceFirst": true,
         "verdict": "REPAIR_REQUIRED",
         "reviewedSourceFingerprint": "79426e24e8b001c7900dcd80d329d98cf2ddd429fdb6802a5ad7fbb5e3ce5173",
-        "reviewedSemanticFingerprint": "d3170893c65500b99c71c446f23b089e20f16b871674803be5c3afd2dfaf7a80",
+        "reviewedSemanticFingerprint": "a0c0f1cf59eef848ebea7ce1e9296f5a6ef1ac55282fad480ac40da7596a0bea",
         "evidence": {
           "origin": "independent-second-pass-rejection",
           "reviewEvidence": {
             "verdict": "REJECTED",
-            "reviewerContextId": "a01d719b64dbf6fb3",
-            "summary": "Independent second-pass review, mutually-blind from the round-1 repair context. Independently reconstructed the whole daf from raw Hebrew cold, then cross-checked every objection/rejection/resolution in s02 against Sefaria's William Davidson Edition (live fetch), and independently re-verified the round-1 repair's 7 specific claims against primary sources: (1) Exodus 28:38 confirmed to contain both mitzcho mentions in one verse; (2) 7b's Abaye peg-case teaching confirmed and s01's callback framing confirmed accurate; (3) Shabbat 120b confirmed as the correct citation for the tattooed-name/reed-immersion baraita (not Kiddushin); (5) daf genuinely ends mid-sentence at vilna line 41 'she-zeh', confirmed MID_SENTENCE; (6) s02.finalRuling correctly empty, no unsupported ruling asserted; (7) topicTags/requiresUnderstanding format-compliant. dafSummaryVerdict and boundaryVerdict both VERIFIED. All 7 checklist items independently confirmed accurate -- the round-1 repair's substantive semantic content holds up. However found 3 new defects not previously caught: (D1) s01.display.hint and s02.display.hint are both declarative paragraphs, violating the enrichment contract's unconditional requirement that hint always be a complete question ending in '?'; (D2) s01.finalRuling is null (a type violation) while the contract requires it always be a string ('' for unresolved/analytical sugyot, matching what s02 already correctly has); (D3) s02 argumentFlow step-07 ('R. Chanina Segan's position explained') cites lineId yoma-008a-l38 only, but the specific term the step's text asserts ('elevated stringency'/ma'alah b'alma) is verified (via raw Hebrew and Sefaria Yoma.8a.14-15) to fall on vilna line 39 (lineId yoma-008a-l39), not within l38's text -- a citation-precision defect, not a content/attribution error. No fabrication, no misattribution, no mis-sourced halachic claim, and no 7b/8b boundary leakage found anywhere in either sugya.",
+            "reviewerContextId": "a8650e82927de2250",
+            "summary": "Independent second-pass review, mutually-blind from the round-2 repair context. Independently reconstructed the whole daf from raw Hebrew cold, then verified every argumentFlow citation against LIVE Sefaria SEGMENT text (not just raw Vilna print-line concatenation) via https://www.sefaria.org/api/v3/texts/Yoma.8a.<n>?version=hebrew for every segment 8a.1-8a.16, plus 8b.1 for the daf-boundary catchword question. Confirmed D1 (both hints are now complete questions) and D2 (s01.finalRuling is now the empty string) genuinely fixed. s01's full argumentFlow (all 7 steps) and s02 steps 01-05 independently re-verified accurate and correctly cited. However found that round-2's own citation fix for s02 step-06/step-07 (itself a response to round-1's D3/D4 findings) was based on a methodological error: conflating where a Sefaria segment's words visually wrap across Vilna PRINT lines with where the segment's actual sefariaRef-tagged CONTENT boundary falls. Live-verified: Yoma.8a.12 (lineId l35) alone contains BOTH R. Meir's 'equate' and R. Yosei's 'don't equate' clauses in full -- l36 (Yoma.8a.13, the Chanina Segan dilemma setup: 'if he equates... if he doesn't equate...') does not belong to step-06's claim at all. Yoma.8a.14 (lineId l38) alone contains the complete 'elevated stringency' resolution including the exact phrase 'מעלה בעלמא' -- l39 (Yoma.8a.15, the start of the unrelated new baraita-question that is step-08's own content) does not belong to step-07's claim. Root cause: raw Vilna print-line 38/39 in the daf packet splits the words 'לעולם לא | מקיש וכהן... מעלה בעלמא' across the print-line boundary, but Sefaria's own segment 8a.14 treats the whole clause as one unit regardless of where it happens to wrap in print. No fabrication, misattribution, or boundary leakage found anywhere else in either sugya.",
             "defectFound": {
-              "summary": "D1 (both sugyot' display.hint not phrased as questions), D2 (s01.finalRuling null instead of empty string), D3 (s02 step-07 citation incomplete -- omits lineId l39 which contains the 'elevated stringency' phrase the step describes). On closer self-directed inspection while repairing D3, the orchestrating session also found the identical citation-completeness gap in s02 steps 04/05/06 (each cites only the opening lineId of a multi-line Vilna segment while its own text asserts content, including an explicit R. Yosei position, that only appears in a later lineId within the same segment span) and fixed all four for consistency."
+              "summary": "D-A: s02 step-06's citation to lineId l36 is wrong -- l36's content (the Chanina Segan dilemma) is unrelated to step-06's claim (the R. Meir/R. Yosei equate/don't-equate resolution), which is already fully supported by l35 alone. D-B: s02 step-07's citation to lineId l39 is wrong -- l39's content (the new unresolved baraita-question) is unrelated to step-07's claim (Chanina Segan's elevated-stringency resolution); the correct supporting citations are l36 (the dilemma this resolves) and l38 (the resolution itself, confirmed via live Sefaria to contain the complete phrase including 'elevated stringency')."
             }
           }
         }
       },
-      "repairRef": "47207340caac1b3ecf9df4efefa2539d6f8a341e"
+      "repairRef": "3a4443dfc1eac2a861c0e8cbe2eddf4730bfd0b5"
     },
     "yoma-008a-s02": {
       "sugyaId": "yoma-008a-s02",
       "daf": "8a",
       "state": "REPAIRED_PENDING_REVIEW",
       "firstPass": {
-        "reviewId": "yoma-8a-r1-second",
-        "reviewerContextId": "a01d719b64dbf6fb3",
+        "reviewId": "yoma-8a-r2-second",
+        "reviewerContextId": "a8650e82927de2250",
         "sourceFirst": true,
         "verdict": "REPAIR_REQUIRED",
         "reviewedSourceFingerprint": "727ec2af6d12419ad7ba3697ded524bf9ea032f51550b019104cdc8e4e3221c8",
-        "reviewedSemanticFingerprint": "3595273656fd8c22fe165b5d1532e296aa35bfb46b9859d141778dca6d9207c8",
+        "reviewedSemanticFingerprint": "5d8a9ca708ec9dd7f59f81726c841eb6e145058573c12bcc41f0effb8efcc164",
         "evidence": {
           "origin": "independent-second-pass-rejection",
           "reviewEvidence": {
             "verdict": "REJECTED",
-            "reviewerContextId": "a01d719b64dbf6fb3",
-            "summary": "Independent second-pass review, mutually-blind from the round-1 repair context. Independently reconstructed the whole daf from raw Hebrew cold, then cross-checked every objection/rejection/resolution in s02 against Sefaria's William Davidson Edition (live fetch), and independently re-verified the round-1 repair's 7 specific claims against primary sources: (1) Exodus 28:38 confirmed to contain both mitzcho mentions in one verse; (2) 7b's Abaye peg-case teaching confirmed and s01's callback framing confirmed accurate; (3) Shabbat 120b confirmed as the correct citation for the tattooed-name/reed-immersion baraita (not Kiddushin); (5) daf genuinely ends mid-sentence at vilna line 41 'she-zeh', confirmed MID_SENTENCE; (6) s02.finalRuling correctly empty, no unsupported ruling asserted; (7) topicTags/requiresUnderstanding format-compliant. dafSummaryVerdict and boundaryVerdict both VERIFIED. All 7 checklist items independently confirmed accurate -- the round-1 repair's substantive semantic content holds up. However found 3 new defects not previously caught: (D1) s01.display.hint and s02.display.hint are both declarative paragraphs, violating the enrichment contract's unconditional requirement that hint always be a complete question ending in '?'; (D2) s01.finalRuling is null (a type violation) while the contract requires it always be a string ('' for unresolved/analytical sugyot, matching what s02 already correctly has); (D3) s02 argumentFlow step-07 ('R. Chanina Segan's position explained') cites lineId yoma-008a-l38 only, but the specific term the step's text asserts ('elevated stringency'/ma'alah b'alma) is verified (via raw Hebrew and Sefaria Yoma.8a.14-15) to fall on vilna line 39 (lineId yoma-008a-l39), not within l38's text -- a citation-precision defect, not a content/attribution error. No fabrication, no misattribution, no mis-sourced halachic claim, and no 7b/8b boundary leakage found anywhere in either sugya.",
+            "reviewerContextId": "a8650e82927de2250",
+            "summary": "Independent second-pass review, mutually-blind from the round-2 repair context. Independently reconstructed the whole daf from raw Hebrew cold, then verified every argumentFlow citation against LIVE Sefaria SEGMENT text (not just raw Vilna print-line concatenation) via https://www.sefaria.org/api/v3/texts/Yoma.8a.<n>?version=hebrew for every segment 8a.1-8a.16, plus 8b.1 for the daf-boundary catchword question. Confirmed D1 (both hints are now complete questions) and D2 (s01.finalRuling is now the empty string) genuinely fixed. s01's full argumentFlow (all 7 steps) and s02 steps 01-05 independently re-verified accurate and correctly cited. However found that round-2's own citation fix for s02 step-06/step-07 (itself a response to round-1's D3/D4 findings) was based on a methodological error: conflating where a Sefaria segment's words visually wrap across Vilna PRINT lines with where the segment's actual sefariaRef-tagged CONTENT boundary falls. Live-verified: Yoma.8a.12 (lineId l35) alone contains BOTH R. Meir's 'equate' and R. Yosei's 'don't equate' clauses in full -- l36 (Yoma.8a.13, the Chanina Segan dilemma setup: 'if he equates... if he doesn't equate...') does not belong to step-06's claim at all. Yoma.8a.14 (lineId l38) alone contains the complete 'elevated stringency' resolution including the exact phrase 'מעלה בעלמא' -- l39 (Yoma.8a.15, the start of the unrelated new baraita-question that is step-08's own content) does not belong to step-07's claim. Root cause: raw Vilna print-line 38/39 in the daf packet splits the words 'לעולם לא | מקיש וכהן... מעלה בעלמא' across the print-line boundary, but Sefaria's own segment 8a.14 treats the whole clause as one unit regardless of where it happens to wrap in print. No fabrication, misattribution, or boundary leakage found anywhere else in either sugya.",
             "defectFound": {
-              "summary": "D1 (both sugyot' display.hint not phrased as questions), D2 (s01.finalRuling null instead of empty string), D3 (s02 step-07 citation incomplete -- omits lineId l39 which contains the 'elevated stringency' phrase the step describes). On closer self-directed inspection while repairing D3, the orchestrating session also found the identical citation-completeness gap in s02 steps 04/05/06 (each cites only the opening lineId of a multi-line Vilna segment while its own text asserts content, including an explicit R. Yosei position, that only appears in a later lineId within the same segment span) and fixed all four for consistency."
+              "summary": "D-A: s02 step-06's citation to lineId l36 is wrong -- l36's content (the Chanina Segan dilemma) is unrelated to step-06's claim (the R. Meir/R. Yosei equate/don't-equate resolution), which is already fully supported by l35 alone. D-B: s02 step-07's citation to lineId l39 is wrong -- l39's content (the new unresolved baraita-question) is unrelated to step-07's claim (Chanina Segan's elevated-stringency resolution); the correct supporting citations are l36 (the dilemma this resolves) and l38 (the resolution itself, confirmed via live Sefaria to contain the complete phrase including 'elevated stringency')."
             }
           }
         }
       },
-      "repairRef": "47207340caac1b3ecf9df4efefa2539d6f8a341e"
+      "repairRef": "3a4443dfc1eac2a861c0e8cbe2eddf4730bfd0b5"
     },
     "yoma-008b-s01": {
       "sugyaId": "yoma-008b-s01",
