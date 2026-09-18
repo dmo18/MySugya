@@ -440,13 +440,7 @@
               "sourceType": "gemara",
               "lineId": "yoma-008a-l35",
               "vilnaLine": 35,
-              "note": "True resolution stated; R. Meir's equate-hazaah-to-tevila position"
-            },
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-008a-l36",
-              "vilnaLine": 36,
-              "note": "R. Yosei's don't-equate position"
+              "note": "True resolution stated; both R. Meir's equate and R. Yosei's don't-equate positions"
             }
           ]
         },
@@ -459,15 +453,15 @@
           "sourceRefs": [
             {
               "sourceType": "gemara",
-              "lineId": "yoma-008a-l38",
-              "vilnaLine": 38,
-              "note": "R. Chanina Segan's position worked out"
+              "lineId": "yoma-008a-l36",
+              "vilnaLine": 36,
+              "note": "R. Chanina Segan's dilemma posed: if he equates, even the YK priest; if not, even the para priest should also not"
             },
             {
               "sourceType": "gemara",
-              "lineId": "yoma-008a-l39",
-              "vilnaLine": 39,
-              "note": "'Merely an elevated stringency' (ma'alah b'alma) - the phrase step-07 describes"
+              "lineId": "yoma-008a-l38",
+              "vilnaLine": 38,
+              "note": "Resolution: he does not equate; the para priest's all-7-day sprinkling is merely an elevated stringency"
             }
           ]
         },
