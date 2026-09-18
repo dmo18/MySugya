@@ -2,13 +2,12 @@
   "schemaVersion": "1.0",
   "type": "semantic-daf-repair",
   "module": "yoma",
-  "daf": "6a",
+  "daf": "6b",
   "sugyaIds": [
-    "yoma-006a-s01",
-    "yoma-006a-s02",
-    "yoma-006a-s03"
+    "yoma-006b-s01",
+    "yoma-006b-s02"
   ],
-  "firstReviewId": "sonnet5-6a-finalaudit-20260918",
+  "firstReviewId": "sonnet5-6b-finalaudit-20260918",
   "policy": {
     "sourceFirst": true,
     "independentSecondPassRequired": true,
