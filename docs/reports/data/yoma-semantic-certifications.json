@@ -58605,7 +58605,7 @@
     "yoma-008a-s02": {
       "sugyaId": "yoma-008a-s02",
       "daf": "8a",
-      "state": "REPAIRED_PENDING_REVIEW",
+      "state": "PENDING_FINAL_AUDIT",
       "firstPass": {
         "reviewId": "yoma-8a-r5-second",
         "reviewerContextId": "a8f0364793d7cb8d4",
@@ -58627,7 +58627,23 @@
           }
         }
       },
-      "repairRef": "71ced835a5bbd628af8e72011a4a4cd2e597f95e"
+      "repairRef": "71ced835a5bbd628af8e72011a4a4cd2e597f95e",
+      "sourceFingerprint": "727ec2af6d12419ad7ba3697ded524bf9ea032f51550b019104cdc8e4e3221c8",
+      "semanticFingerprint": "d94354aace9ae2854be76e0614b707d566bd3136881b302dff168fdc887c4c7b",
+      "secondPass": {
+        "reviewId": "yoma-8a-r6-second",
+        "reviewerContextId": "a76cb6f8ece2814db",
+        "sourceFirst": true,
+        "verdict": "CONFIRMED",
+        "reviewedSourceFingerprint": "727ec2af6d12419ad7ba3697ded524bf9ea032f51550b019104cdc8e4e3221c8",
+        "reviewedSemanticFingerprint": "d94354aace9ae2854be76e0614b707d566bd3136881b302dff168fdc887c4c7b",
+        "evidence": {
+          "verdict": "CONFIRMED",
+          "reviewerContextId": "a76cb6f8ece2814db",
+          "summary": "Independent second-pass review, mutually-blind from the round-6 repair context, doing a genuinely full fresh audit of every field in s02. Independently reconstructed s02 cold from raw Hebrew before reading any enrichment field, then live-fetched every cited Sefaria segment (Yoma.8a.6 through 8a.16, Hebrew+English) plus Yoma.8b.1 to verify the MID_SENTENCE ending. Verified the round-6 fix: display.shortSummary now correctly cites only Shabbat 120b (Kiddushin removed) matching learning.ahaMoment, confirmed via the Gemara's own explicit gloss (Yoma.8a.11) and the bundled Rashi linked to l32, which names Shabbat 120b as the source tractate; the Kiddushin 62a reference belongs to a different Rashi comment on an unrelated point (linked to l26/8a.9, the rejected hypothesis's own derash). Full-field audit: all 8 argumentFlow steps and every sourceRefs citation individually verified against live Sefaria segments with no mismatches; display, learning.*, finalRuling (correctly empty), requiresUnderstanding (empty, correct), prerequisiteKnowledge, topicTags, visualizableElements, relatedSugyot, quizSeeds, misconceptions, and dafLevel.summary all verified accurate and contract-compliant. No defect found anywhere in yoma-008a-s02.",
+          "declaration": "Independently re-read the full sugya and re-derived every claim from scratch, blind to prior-round reasoning, with a different review id from the round-5 second pass. No defect found; confirms this record is ready for certification."
+        }
+      }
     },
     "yoma-008b-s01": {
       "sugyaId": "yoma-008b-s01",
