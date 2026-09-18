@@ -1,12 +1,13 @@
 {
   "schemaVersion": "1.0",
-  "type": "semantic-daf-repair",
+  "type": "semantic-daf-certify",
   "module": "yoma",
   "daf": "8a",
   "sugyaIds": [
+    "yoma-008a-s01",
     "yoma-008a-s02"
   ],
-  "firstReviewId": "yoma-8a-finalaudit4-r1-second",
+  "firstReviewId": "yoma-8a-finalaudit5-r1",
   "policy": {
     "sourceFirst": true,
     "independentSecondPassRequired": true,
