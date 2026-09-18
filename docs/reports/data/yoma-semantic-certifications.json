@@ -58566,50 +58566,50 @@
       "daf": "8a",
       "state": "REPAIRED_PENDING_REVIEW",
       "firstPass": {
-        "reviewId": "yoma-8a-r3-second",
-        "reviewerContextId": "a9941f11abc4db39e",
+        "reviewId": "yoma-8a-r4-second",
+        "reviewerContextId": "a82a24fbc7c48d383",
         "sourceFirst": true,
         "verdict": "REPAIR_REQUIRED",
         "reviewedSourceFingerprint": "79426e24e8b001c7900dcd80d329d98cf2ddd429fdb6802a5ad7fbb5e3ce5173",
-        "reviewedSemanticFingerprint": "a0c0f1cf59eef848ebea7ce1e9296f5a6ef1ac55282fad480ac40da7596a0bea",
+        "reviewedSemanticFingerprint": "2a74a31db114e267cb70f1e00142b5039815765f2b419bbc439c8d681e61137c",
         "evidence": {
           "origin": "independent-second-pass-rejection",
           "reviewEvidence": {
             "verdict": "REJECTED",
-            "reviewerContextId": "a9941f11abc4db39e",
-            "summary": "Independent second-pass review, mutually-blind from the round-3 repair context. Independently reconstructed the whole daf from raw Hebrew cold and re-verified all three round-3-targeted citation fixes (step-06 -> l35 alone; step-07 -> l36+l38; step-08 -> l39 only) against live Sefaria segment fetches: all three CONFIRMED CORRECT, no regression from round 3's fix of the round-2 print-line-vs-segment error. Also independently verified dafSummaryVerdict VERIFIED, boundaryVerdict VERIFIED, the MID_SENTENCE ending classification, both sugyot' display.hint (complete questions), both finalRuling values (empty string, correct for this unresolved/analytical daf), requiresUnderstanding/prerequisiteKnowledge/topicTags/visualizableElements contract compliance, and the Rashi bundle's consistency -- all clean. On its own from-scratch pass (not limited to the round-3 checklist) found three further issues: (1) s02 step-05's text asserts the tattooed-name/reed-immersion baraita involves immersion 'on Yom Kippur' -- confirmed via live Sefaria (Yoma.8a.10) and the bundled Rashi (linked to l28, vilnaLines 20-25) that the baraita and its Rashi gloss describe a generic mitzva immersion with no Yom Kippur reference anywhere; the sugya's own learning.ahaMoment field (describing the same baraita) correctly omits it, confirming this is an inserted unsupported detail. (2) s02 step-04's second citation (l28) overlaps with step-05's citation of the same lineId and is unnecessary: Yoma.8a.9 (l26) alone already states both R. Meir's and R. Yosei's positions on hypothesis 2 in full, matching the same 'single sufficient segment' pattern round 3 established for step-06. (3) s01 step-02 cites only l04 (Yoma.8a.2), which only raises the question and answers generally that the phrase establishes a location, without yet isolating the bare 'al mitzcho' phrase; the explicit confirmation that R. Shimon (like R. Yehuda) derives location specifically from bare 'al mitzcho' is at Yoma.8a.3 (l06, 've-Rabbi Shimon nami... in hachi nami'), already cited by the parallel step-03 for R. Yehuda's identical point.",
+            "reviewerContextId": "a82a24fbc7c48d383",
+            "summary": "Independent second-pass review, mutually-blind from the round-4 repair context, doing a genuinely full fresh audit of every field (not limited to prior rounds' fixes) with the explicit goal of reaching a clean CONFIRMED verdict. Independently reconstructed the whole daf; dafSummaryVerdict VERIFIED, boundaryVerdict VERIFIED (including the MID_SENTENCE ending, confirmed no false Yoma.8a.16 segment is cited anywhere). Re-verified all prior rounds' citation fixes against live Sefaria (Hebrew+English) for all 8 s02 argumentFlow steps and all 7 s01 steps: no regression, all still correct including the round-4-added l06 citation for s01 step-02. finalRuling, requiresUnderstanding, prerequisiteKnowledge, topicTags, visualizableElements, display.hint all confirmed contract-compliant on both sugyot. Found 2 narrow terminology/attribution defects in s01 and 1 defect appearing in 2 fields in s02, none affecting the dialectical-structure claims already verified across rounds 1-4.",
             "defectFound": {
-              "summary": "Defect 1 (s02 step-05.text asserts an unsupported 'on Yom Kippur' detail not present in the baraita or its Rashi gloss), Defect 2 (s02 step-04's citation to l28 overlaps with step-05's use of the same lineId; l26 alone already supports step-04's full claim), Defect 3 (s01 step-02 is missing a citation to l06, which is where R. Shimon's location-from-bare-'al mitzcho' derivation is made explicit, matching step-03's existing citation for the parallel R. Yehuda point)."
+              "summary": "Defect 1: s01 argumentFlow step-07.text mislabels the bare (unsuffixed) form as 'mitzcho' too, which is self-contradictory since 'mitzcho' already carries the possessive suffix; Exodus 28:38 (live-verified) contains the unsuffixed 'metzach' and the suffixed 'mitzcho' as two distinct forms, matching Yoma.8a.5's own wording. Defect 2: s01 display.shortSummary was never touched by the round-1 fix (which only corrected argumentFlow step-07) and still says the doubling spans 'two verses' -- same fabrication as the original defect, just left uncorrected in this second field. Defect 3: s02 argumentFlow step-05.text and learning.ahaMoment both describe the cross-tractate baraita's 'wraps a reed... without rubbing' detail as if it were R. Yosei's own position; per live Sefaria (Yoma.8a.10, English), the anonymous first opinion holds one wraps a reed before immersing, while R. Yosei's own position is the OPPOSITE -- he immerses in his usual manner without a reed, provided he does not rub. It is precisely R. Yosei's rejection of the reed-requirement (so as not to delay immersion waiting for a reed) that proves he holds tevila bizmana mitzva -- the exact detail the conflated wording was erasing."
             }
           }
         }
       },
-      "repairRef": "d65d4f3bf789013459d9196de70bf5587f1bfdc9"
+      "repairRef": "bde692665154f8b3710d32720bd4e41577e4a634"
     },
     "yoma-008a-s02": {
       "sugyaId": "yoma-008a-s02",
       "daf": "8a",
       "state": "REPAIRED_PENDING_REVIEW",
       "firstPass": {
-        "reviewId": "yoma-8a-r3-second",
-        "reviewerContextId": "a9941f11abc4db39e",
+        "reviewId": "yoma-8a-r4-second",
+        "reviewerContextId": "a82a24fbc7c48d383",
         "sourceFirst": true,
         "verdict": "REPAIR_REQUIRED",
         "reviewedSourceFingerprint": "727ec2af6d12419ad7ba3697ded524bf9ea032f51550b019104cdc8e4e3221c8",
-        "reviewedSemanticFingerprint": "ca120737115efff1b77424f3c90a3a8ab55fba8fd04f7106c0b0efbf81f0a578",
+        "reviewedSemanticFingerprint": "b9660def68f6aafe6def6945432d3ebe2ce7bd64ee0ca4deeb2547dd8c336186",
         "evidence": {
           "origin": "independent-second-pass-rejection",
           "reviewEvidence": {
             "verdict": "REJECTED",
-            "reviewerContextId": "a9941f11abc4db39e",
-            "summary": "Independent second-pass review, mutually-blind from the round-3 repair context. Independently reconstructed the whole daf from raw Hebrew cold and re-verified all three round-3-targeted citation fixes (step-06 -> l35 alone; step-07 -> l36+l38; step-08 -> l39 only) against live Sefaria segment fetches: all three CONFIRMED CORRECT, no regression from round 3's fix of the round-2 print-line-vs-segment error. Also independently verified dafSummaryVerdict VERIFIED, boundaryVerdict VERIFIED, the MID_SENTENCE ending classification, both sugyot' display.hint (complete questions), both finalRuling values (empty string, correct for this unresolved/analytical daf), requiresUnderstanding/prerequisiteKnowledge/topicTags/visualizableElements contract compliance, and the Rashi bundle's consistency -- all clean. On its own from-scratch pass (not limited to the round-3 checklist) found three further issues: (1) s02 step-05's text asserts the tattooed-name/reed-immersion baraita involves immersion 'on Yom Kippur' -- confirmed via live Sefaria (Yoma.8a.10) and the bundled Rashi (linked to l28, vilnaLines 20-25) that the baraita and its Rashi gloss describe a generic mitzva immersion with no Yom Kippur reference anywhere; the sugya's own learning.ahaMoment field (describing the same baraita) correctly omits it, confirming this is an inserted unsupported detail. (2) s02 step-04's second citation (l28) overlaps with step-05's citation of the same lineId and is unnecessary: Yoma.8a.9 (l26) alone already states both R. Meir's and R. Yosei's positions on hypothesis 2 in full, matching the same 'single sufficient segment' pattern round 3 established for step-06. (3) s01 step-02 cites only l04 (Yoma.8a.2), which only raises the question and answers generally that the phrase establishes a location, without yet isolating the bare 'al mitzcho' phrase; the explicit confirmation that R. Shimon (like R. Yehuda) derives location specifically from bare 'al mitzcho' is at Yoma.8a.3 (l06, 've-Rabbi Shimon nami... in hachi nami'), already cited by the parallel step-03 for R. Yehuda's identical point.",
+            "reviewerContextId": "a82a24fbc7c48d383",
+            "summary": "Independent second-pass review, mutually-blind from the round-4 repair context, doing a genuinely full fresh audit of every field (not limited to prior rounds' fixes) with the explicit goal of reaching a clean CONFIRMED verdict. Independently reconstructed the whole daf; dafSummaryVerdict VERIFIED, boundaryVerdict VERIFIED (including the MID_SENTENCE ending, confirmed no false Yoma.8a.16 segment is cited anywhere). Re-verified all prior rounds' citation fixes against live Sefaria (Hebrew+English) for all 8 s02 argumentFlow steps and all 7 s01 steps: no regression, all still correct including the round-4-added l06 citation for s01 step-02. finalRuling, requiresUnderstanding, prerequisiteKnowledge, topicTags, visualizableElements, display.hint all confirmed contract-compliant on both sugyot. Found 2 narrow terminology/attribution defects in s01 and 1 defect appearing in 2 fields in s02, none affecting the dialectical-structure claims already verified across rounds 1-4.",
             "defectFound": {
-              "summary": "Defect 1 (s02 step-05.text asserts an unsupported 'on Yom Kippur' detail not present in the baraita or its Rashi gloss), Defect 2 (s02 step-04's citation to l28 overlaps with step-05's use of the same lineId; l26 alone already supports step-04's full claim), Defect 3 (s01 step-02 is missing a citation to l06, which is where R. Shimon's location-from-bare-'al mitzcho' derivation is made explicit, matching step-03's existing citation for the parallel R. Yehuda point)."
+              "summary": "Defect 1: s01 argumentFlow step-07.text mislabels the bare (unsuffixed) form as 'mitzcho' too, which is self-contradictory since 'mitzcho' already carries the possessive suffix; Exodus 28:38 (live-verified) contains the unsuffixed 'metzach' and the suffixed 'mitzcho' as two distinct forms, matching Yoma.8a.5's own wording. Defect 2: s01 display.shortSummary was never touched by the round-1 fix (which only corrected argumentFlow step-07) and still says the doubling spans 'two verses' -- same fabrication as the original defect, just left uncorrected in this second field. Defect 3: s02 argumentFlow step-05.text and learning.ahaMoment both describe the cross-tractate baraita's 'wraps a reed... without rubbing' detail as if it were R. Yosei's own position; per live Sefaria (Yoma.8a.10, English), the anonymous first opinion holds one wraps a reed before immersing, while R. Yosei's own position is the OPPOSITE -- he immerses in his usual manner without a reed, provided he does not rub. It is precisely R. Yosei's rejection of the reed-requirement (so as not to delay immersion waiting for a reed) that proves he holds tevila bizmana mitzva -- the exact detail the conflated wording was erasing."
             }
           }
         }
       },
-      "repairRef": "d65d4f3bf789013459d9196de70bf5587f1bfdc9"
+      "repairRef": "bde692665154f8b3710d32720bd4e41577e4a634"
     },
     "yoma-008b-s01": {
       "sugyaId": "yoma-008b-s01",
