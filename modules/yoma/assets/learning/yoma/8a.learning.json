@@ -50,7 +50,7 @@
         "oneLine": "The tefillin kal v'chomer from 7b is completed; then R. Yehuda and R. Shimon each explain where they derive the forehead-location rule and what to do with a broken tzitz.",
         "shortSummary": "The kal v'chomer: just as the tzitz - which has only one divine name - requires constant mindfulness (not diverting attention), tefillin - which have many divine names - certainly require constant mindfulness. Then the Gemara traces how each side derives its proof-texts. R. Shimon: 'al mitzcho' establishes the required location; 'tamid liratzon' means perpetual atonement even off-forehead. R. Yehuda: 'al mitzcho' likewise establishes location; but 'tamid' means mindfulness. Question: if R. Shimon already derives location from 'al mitzcho,' what does 'al mitzcho v'nasa' add? Answer: 'ראוי למצח' - only what is fit for the forehead atones; a broken tzitz is not fit. Question: where does R. Yehuda derive that a broken tzitz does not atone? From the doubling 'mitzcho / mitzcho' in two verses (two mentions = two requirements). R. Shimon: the doubling does not convey that teaching.",
         "whats": "This section is source-analysis (limud): once two positions are established in 7b, the Gemara asks 'where does each derive this from?' It is not a new dispute but a derivational audit. The key technical concept is 'ראוי למצח' - the principle that atonement requires the object to be fit for its designated location, even if not currently there.",
-        "hint": "R. Shimon and R. Yehuda each derive location from 'al mitzcho.' Their disagreement is only about what 'tamid' and 'v'nasa' add to the verse."
+        "hint": "If R. Shimon and R. Yehuda both derive the forehead-location requirement from the same words 'al mitzcho,' what exactly are they disagreeing about?"
       },
       "learning": {
         "learnerQuestion": "Why does the Gemara spend so much effort tracing each opinion's source derivation?",
@@ -232,7 +232,7 @@
           "reason": "The same daf continues with a new tannaitic dispute about hazaah"
         }
       ],
-      "finalRuling": null,
+      "finalRuling": "",
       "requiresUnderstanding": [
         "yoma-007b-s01",
         "yoma-007b-s02"
@@ -321,7 +321,7 @@
         "oneLine": "The sprinkling dispute among three tanaim initially seems to be about dchuya vs. hutrah, but the Gemara works through two false resolutions before concluding: both R. Meir and R. Yosei accept dchuya; their dispute is whether hazaah must happen on its halakhically designated day (like tevila bizmana mitzva) or not.",
         "shortSummary": "A baraita: for both the YK kohein gadol and the para-aduma priest, we sprinkle (hazaah) on all seven days of their separation (R. Meir) vs. only day 3 and day 7 (R. Yosei). R. Chanina Segan has a split position: para priest = all 7 days; YK kohein gadol = only day 3 and 7. First Gemara hypothesis: this dispute maps onto dchuya (R. Meir) vs. hutrah (R. Yosei). But this is rejected: if R. Yosei held hutrah, he would say no sprinkling at all - why bother? Second hypothesis: both hold dchuya; their dispute is about 'tevila bizmana mitzva' (is immersion at its proper time a mitzva?). R. Meir says yes (tevila bizmana mitzva), so we derive hazaah timing from tevila and spray every possible day. R. Yosei says no (tevila bizmana is not a mitzva). But this is also rejected: we know from Kiddushin and Shabbat that R. Yosei himself holds tevila bizmana IS a mitzva! Third and correct resolution: both tanaim hold tevila bizmana is a mitzva; their dispute is whether we equate hazaah to tevila. R. Meir: yes, equate (hazaah must happen on its proper day = every possible day). R. Yosei: no, don't equate (hazaah has no mitzva-at-proper-time rule). R. Chanina Segan splits: does not equate hazaah to tevila at all; para priest sprinkled all 7 for other reasons (elevated stringency); YK kohein gadol only day 3 and 7.",
         "whats": "This sugya is a masterclass in the Gemara's method of hypothesis and refutation. Each proposed resolution of the tannaitic dispute is shown to be internally inconsistent before the correct one is found. The final resolution is subtle: the dispute is not about dchuya/hutrah (a major point) but about a secondary halachic principle - whether hazaah inherits tevila's timing-mitzva status.",
-        "hint": "The key to unlocking the sugya: R. Yosei is shown elsewhere to hold 'tevila bizmana mitzva' - so the second hypothesis (that R. Yosei denies this) must be wrong. The real dispute must be about something R. Yosei can hold differently without contradicting himself."
+        "hint": "If R. Yosei is shown elsewhere to hold that immersion at its proper time is a mitzva, what can the tannaitic dispute over sprinkling days actually be about?"
       },
       "learning": {
         "learnerQuestion": "Why does the Gemara need three attempts to explain the tannaitic dispute? What went wrong with the first two?",
@@ -398,7 +398,13 @@
               "sourceType": "gemara",
               "lineId": "yoma-008a-l26",
               "vilnaLine": 26,
-              "note": "Second hypothesis stated: tevila bizmana mitzva"
+              "note": "Second hypothesis opened: R. Meir's tevila-bizmana-mitzva position"
+            },
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-008a-l28",
+              "vilnaLine": 28,
+              "note": "R. Yosei's opposing position stated"
             }
           ]
         },
@@ -413,7 +419,13 @@
               "sourceType": "gemara",
               "lineId": "yoma-008a-l28",
               "vilnaLine": 29,
-              "note": "Second hypothesis rejected by cross-tractate source"
+              "note": "Cross-tractate baraita cited (tattooed Divine Name, reed-wrapped immersion)"
+            },
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-008a-l32",
+              "vilnaLine": 32,
+              "note": "R. Yosei's own ruling within the baraita, and the Gemara's explicit gloss that this is about tevila bizmana mitzva"
             }
           ]
         },
@@ -428,7 +440,13 @@
               "sourceType": "gemara",
               "lineId": "yoma-008a-l35",
               "vilnaLine": 35,
-              "note": "Correct resolution stated: equating hazaah to tevila"
+              "note": "True resolution stated; R. Meir's equate-hazaah-to-tevila position"
+            },
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-008a-l36",
+              "vilnaLine": 36,
+              "note": "R. Yosei's don't-equate position"
             }
           ]
         },
@@ -443,7 +461,13 @@
               "sourceType": "gemara",
               "lineId": "yoma-008a-l38",
               "vilnaLine": 38,
-              "note": "R. Chanina Segan's position explained"
+              "note": "R. Chanina Segan's position worked out"
+            },
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-008a-l39",
+              "vilnaLine": 39,
+              "note": "'Merely an elevated stringency' (ma'alah b'alma) - the phrase step-07 describes"
             }
           ]
         },
