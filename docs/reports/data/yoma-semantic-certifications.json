@@ -58605,45 +58605,26 @@
     "yoma-008a-s02": {
       "sugyaId": "yoma-008a-s02",
       "daf": "8a",
-      "state": "PENDING_FINAL_AUDIT",
+      "state": "REPAIRED_PENDING_REVIEW",
       "firstPass": {
-        "reviewId": "yoma-8a-r5-second",
-        "reviewerContextId": "a8f0364793d7cb8d4",
+        "reviewId": "yoma-8a-finalaudit-r1-first",
+        "reviewerContextId": "a0cc41facdfa1a802",
         "sourceFirst": true,
         "verdict": "REPAIR_REQUIRED",
         "reviewedSourceFingerprint": "727ec2af6d12419ad7ba3697ded524bf9ea032f51550b019104cdc8e4e3221c8",
-        "reviewedSemanticFingerprint": "31a0613a16bbaa4e96d85785d8932b4731cae416a513d168c5c2d6d043e01b1b",
+        "reviewedSemanticFingerprint": "d94354aace9ae2854be76e0614b707d566bd3136881b302dff168fdc887c4c7b",
         "evidence": {
-          "origin": "independent-second-pass-rejection",
-          "reviewEvidence": {
-            "verdict": "REJECTED",
-            "reviewerContextId": "a8f0364793d7cb8d4",
-            "summary": "Independent second-pass review, mutually-blind from the round-5 repair context, doing a genuinely full fresh audit of every field. Reconstructed s02 cold from raw Hebrew, then verified all 8 argumentFlow steps and their citations against live Sefaria (Yoma.8a.6-15, Hebrew+English): the baraita, the dchuya/hutrah hypothesis and its rejection, the tevila-bizmana-mitzva hypothesis and its rejection via the reed baraita, the true equate/don't-equate resolution, R. Chanina Segan's stringency explanation, and the final unresolved question -- all accurate and fully supported. Round-4's fix to step-05/ahaMoment (separating the anonymous first opinion, who wraps a reed, from R. Yosei's own no-reed position) re-verified correct. Also independently confirmed the daf's MID_SENTENCE ending via a live fetch of Yoma.8b.1, which shows the sentence 8a breaks off in genuinely completes there. finalRuling, requiresUnderstanding, prerequisiteKnowledge, topicTags, visualizableElements, display.hint all contract-compliant. Found one remaining defect: display.shortSummary still says 'we know from Kiddushin and Shabbat that R. Yosei himself holds tevila bizmana IS a mitzva!' -- this is a second, previously-missed occurrence of the exact misattribution already fixed in learning.ahaMoment back in round 1 (which correctly cites only Shabbat 120b). The Kiddushin 62a reference in the bundled Rashi is for a completely different aside (linked to a different line), explaining the REJECTED hypothesis's own derash, not proof of R. Yosei's position. shortSummary now internally contradicts ahaMoment within the same sugya.",
-            "defectFound": {
-              "field": "yoma-008a-s02.display.shortSummary",
-              "problem": "Credits 'Kiddushin and Shabbat' as the source proving R. Yosei holds tevila bizmana mitzva; only Shabbat 120b (the reed/tattooed-Name baraita) actually proves this. Kiddushin 62a is cited elsewhere in the bundled Rashi for an unrelated point (the rejected hypothesis's own verse-derash), not as evidence for R. Yosei's position.",
-              "fix": "Remove 'Kiddushin and' so the sentence reads 'we know from Shabbat that R. Yosei himself holds tevila bizmana IS a mitzva!', matching the already-correct learning.ahaMoment field."
-            }
+          "verdict": "REPAIR_REQUIRED",
+          "reviewerContextId": "a0cc41facdfa1a802",
+          "summary": "Finding surfaced by the mandatory Final Whole-Record Auditor pass on yoma-008a-s02 (its dafEndState=MID_SENTENCE confirmation, boundary leakage sweep, and 16-category stale-content sweep were otherwise all clean, and yoma-008a-s01 was fully clean with no findings). One field-level defect survived all 6 prior repair rounds and both round-5/round-6 independent second-pass reviews because none of those passes happened to check the content accuracy of a cross-reference's own reason string against its target sugya: relatedSugyot[1].reason (target yoma-006a-s02) claimed 'tumah and immersion in the context of the YK kohein gadol's preparation'. Independently re-verified by the orchestrating session directly against yoma-006a-s02's live display fields: that sugya is entirely about the safek-niddah concern behind the Kohen Gadol leaving his home (tumah, yes) - it contains no discussion of immersion/tevila at all. The sugyaId target itself is correct (verified as the right cross-reference), only the reason text over-claimed its content.",
+          "defectFound": {
+            "field": "yoma-008a-s02.relatedSugyot[1].reason",
+            "problem": "Asserts the target sugya (yoma-006a-s02) discusses 'immersion', which is not supported by that sugya's actual content (safek niddah/tumah only, no tevila discussion).",
+            "fix": "Reworded to 'Earlier discussion of the tumah/purity concern behind the Kohen Gadol's Yom Kippur sequestration', removing the unsupported immersion claim while keeping the accurate tumah/sequestration framing."
           }
         }
       },
-      "repairRef": "71ced835a5bbd628af8e72011a4a4cd2e597f95e",
-      "sourceFingerprint": "727ec2af6d12419ad7ba3697ded524bf9ea032f51550b019104cdc8e4e3221c8",
-      "semanticFingerprint": "d94354aace9ae2854be76e0614b707d566bd3136881b302dff168fdc887c4c7b",
-      "secondPass": {
-        "reviewId": "yoma-8a-r6-second",
-        "reviewerContextId": "a76cb6f8ece2814db",
-        "sourceFirst": true,
-        "verdict": "CONFIRMED",
-        "reviewedSourceFingerprint": "727ec2af6d12419ad7ba3697ded524bf9ea032f51550b019104cdc8e4e3221c8",
-        "reviewedSemanticFingerprint": "d94354aace9ae2854be76e0614b707d566bd3136881b302dff168fdc887c4c7b",
-        "evidence": {
-          "verdict": "CONFIRMED",
-          "reviewerContextId": "a76cb6f8ece2814db",
-          "summary": "Independent second-pass review, mutually-blind from the round-6 repair context, doing a genuinely full fresh audit of every field in s02. Independently reconstructed s02 cold from raw Hebrew before reading any enrichment field, then live-fetched every cited Sefaria segment (Yoma.8a.6 through 8a.16, Hebrew+English) plus Yoma.8b.1 to verify the MID_SENTENCE ending. Verified the round-6 fix: display.shortSummary now correctly cites only Shabbat 120b (Kiddushin removed) matching learning.ahaMoment, confirmed via the Gemara's own explicit gloss (Yoma.8a.11) and the bundled Rashi linked to l32, which names Shabbat 120b as the source tractate; the Kiddushin 62a reference belongs to a different Rashi comment on an unrelated point (linked to l26/8a.9, the rejected hypothesis's own derash). Full-field audit: all 8 argumentFlow steps and every sourceRefs citation individually verified against live Sefaria segments with no mismatches; display, learning.*, finalRuling (correctly empty), requiresUnderstanding (empty, correct), prerequisiteKnowledge, topicTags, visualizableElements, relatedSugyot, quizSeeds, misconceptions, and dafLevel.summary all verified accurate and contract-compliant. No defect found anywhere in yoma-008a-s02.",
-          "declaration": "Independently re-read the full sugya and re-derived every claim from scratch, blind to prior-round reasoning, with a different review id from the round-5 second pass. No defect found; confirms this record is ready for certification."
-        }
-      }
+      "repairRef": "a2f5f5f19e4057e19c04a175fed4b9a3fc27d474"
     },
     "yoma-008b-s01": {
       "sugyaId": "yoma-008b-s01",
