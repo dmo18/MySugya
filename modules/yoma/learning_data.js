@@ -16653,7 +16653,7 @@ const DAF_CONTENT = {
           {
             daf: "6a",
             sugyaId: "yoma-006a-s02",
-            reason: "Earlier discussion of tumah and immersion in the context of the YK kohein gadol's preparation"
+            reason: "Earlier discussion of the tumah/purity concern behind the Kohen Gadol's Yom Kippur sequestration"
           }
         ],
         visualizableElements: [
