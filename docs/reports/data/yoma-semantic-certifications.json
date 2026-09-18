@@ -58588,57 +58588,44 @@
       "sourceFingerprint": "79426e24e8b001c7900dcd80d329d98cf2ddd429fdb6802a5ad7fbb5e3ce5173",
       "semanticFingerprint": "2e3027dae87cb2f65a642dd3b52372019503ec37f6c38188dfe41bd5e3120b4f",
       "secondPass": {
-        "reviewId": "yoma-8a-r11-second",
-        "reviewerContextId": "a619fba62f55284fe",
+        "reviewId": "yoma-8a-finalaudit4-r1-second",
+        "reviewerContextId": "a7bca34da16e53771",
         "sourceFirst": true,
         "verdict": "CONFIRMED",
         "reviewedSourceFingerprint": "79426e24e8b001c7900dcd80d329d98cf2ddd429fdb6802a5ad7fbb5e3ce5173",
         "reviewedSemanticFingerprint": "2e3027dae87cb2f65a642dd3b52372019503ec37f6c38188dfe41bd5e3120b4f",
         "evidence": {
           "verdict": "CONFIRMED",
-          "reviewerContextId": "a619fba62f55284fe",
-          "summary": "Independent second-pass review, mutually-blind from the round-11 repair context, doing an exhaustive field-by-field terminology sweep given this sugya's history of recurring metzach/mitzcho/rauy precision defects (rounds 5, 8, 9, 10, 11). Independently reconstructed s01 cold from raw Hebrew, fetched live Sefaria (Yoma.8a.1-5, Hebrew) and Exodus 28:38 to verify every citation and every single string field mentioning the recurring terminology pattern (checked display, learning, all 7 argumentFlow steps' labels/text/notes, topicTags, conceptRefs, quizSeeds, misconceptions, visualizableElements) -- found zero residual stale spelling anywhere; the round-11 fix (topicTags[6], conceptRefs[1], step-07 label) is complete and internally consistent with terminology fixed in earlier rounds. dafSummaryVerdict VERIFIED, boundaryVerdict VERIFIED. relatedSugyot re-verified against live 7b.learning.json (noting 7b-s02 reciprocally points back to this sugya). All enrichment-contract fields compliant. No defect found anywhere in yoma-008a-s01.",
-          "declaration": "Independently re-read the full sugya and re-derived every claim from scratch, blind to prior-round reasoning, with a different review id from the round-10 second pass and all three Final Whole-Record Auditor passes. No defect found; confirms this record is ready for certification."
+          "reviewerContextId": "a7bca34da16e53771",
+          "summary": "Fourth Final Whole-Record Auditor pass (context a7bca34da16e53771), covering both sugyot with a full fresh field-by-field inventory. Independently reconstructed s01 cold from raw Hebrew, verified all fields including the shared dafLevel.glossary (stress-tested against Exodus 28:38's genuine double occurrence of metzach/mitzcho within one verse), all argumentFlow citations, relatedSugyot (verified reciprocal link with 7b-s02). dafSummaryVerdict VERIFIED, boundaryVerdict VERIFIED, MID_SENTENCE ending confirmed, no boundary leakage, all 16 stale-content categories clean for s01. No defect found anywhere in yoma-008a-s01.",
+          "declaration": "Fourth-pass fresh field-by-field audit found no defect in yoma-008a-s01. Confirms this record is ready for certification."
         }
       }
     },
     "yoma-008a-s02": {
       "sugyaId": "yoma-008a-s02",
       "daf": "8a",
-      "state": "PENDING_FINAL_AUDIT",
+      "state": "REPAIRED_PENDING_REVIEW",
       "firstPass": {
-        "reviewId": "yoma-8a-finalaudit3-r1-first",
-        "reviewerContextId": "a226e1dfab2402325",
+        "reviewId": "yoma-8a-finalaudit4-r1-second",
+        "reviewerContextId": "a7bca34da16e53771",
         "sourceFirst": true,
         "verdict": "REPAIR_REQUIRED",
         "reviewedSourceFingerprint": "727ec2af6d12419ad7ba3697ded524bf9ea032f51550b019104cdc8e4e3221c8",
-        "reviewedSemanticFingerprint": "464c671beb01b852cd2d2588f8a4314a89b51338c1877123356fa1d5cfe68126",
+        "reviewedSemanticFingerprint": "20b0d2c009f5933e2cc953031d6e994ccacdca7e7025d13394e78cd416380ccc",
         "evidence": {
-          "verdict": "REPAIR_REQUIRED",
-          "reviewerContextId": "a226e1dfab2402325",
-          "summary": "Finding surfaced by the third mandatory Final Whole-Record Auditor pass, covering both yoma-008a-s01 and yoma-008a-s02 (which share the daf-level glossary field). Two blocking defects, both Hebrew-term vocalization/spelling precision issues, independently re-verified by the orchestrating session directly against Sefaria's vocalized text (fetched Yoma.8a.4: 'רָאוּי לַמֵּצַח מְרַצֶּה, שֶׁאֵינוֹ רָאוּי לַמֵּצַח אֵינוֹ מְרַצֶּה'). (1) dafLevel.glossary[0].he/.translit, shared by both sugyot: the round-1 fix that removed an incorrect possessive suffix left an incorrect vocalization 'רָאוּי לְמִצַּח' / 'Rauy la-mitzach' -- confirmed the correct form is 'רָאוּי לַמֵּצַח' / 'Rauy la-metzach' (definite-article construction with tzere on the mem), which also matches the already-correct usage elsewhere in s01 (argumentFlow step-07's 'bare metzach' phrasing). (2) s01.display.shortSummary misspelled 'rauy' as 'ravui' and repeated the same incorrect 'la-mitzach' vocalization, inconsistent with the correct spelling already used in the same sugya's glossary translit, topicTags ('rauy-lamitzach'), and visualizableElements. A third, lower-confidence terminology-convention finding ('hutrah' vs. the daf's own word 'heter') was explicitly flagged by the auditor as advisory/non-blocking and a corpus-wide convention question, not a factual error -- left unchanged as out of scope for this daf's repair.",
-          "defectFound": {
-            "summary": "dafLevel.glossary[0].he/.translit (shared field) and s01.display.shortSummary both carried an incorrect vocalization/spelling of 'ra'uy la-metzach' (fit for the forehead). Fixed both to match Sefaria's confirmed vocalized text and the sugya's own already-correct usage elsewhere."
+          "origin": "independent-second-pass-rejection",
+          "reviewEvidence": {
+            "verdict": "REJECTED",
+            "reviewerContextId": "a7bca34da16e53771",
+            "summary": "Fourth Final Whole-Record Auditor pass, covering both sugyot. s02 verified accurate in substance across all fields (argumentFlow, relatedSugyot reciprocal links with 8b-s01 and 6a-s02, no boundary leakage, MID_SENTENCE ending, all 16 stale-content categories otherwise clean), but found a genuine internal spelling inconsistency: the file uses 'kohein gadol' consistently 7 times elsewhere, but s02.argumentFlow[step-08].text and s02.relatedSugyot[1].reason both used 'Kohen Gadol' -- verified via direct grep of the live file. Also flagged a non-blocking wording-precision note for relatedSugyot[1].reason (target yoma-006a-s02 is specifically about the safek-niddah purity concern, not the corpse-impurity concern underlying 8a's hazaah dispute; both are legitimately purity concerns but a reader could momentarily conflate the two distinct types).",
+            "defectFound": {
+              "summary": "Two instances of 'Kohen Gadol' in s02 (argumentFlow[step-08].text, relatedSugyot[1].reason) normalized to 'kohein gadol' to match the spelling used consistently elsewhere in the file. While fixing relatedSugyot[1].reason for the spelling, also tightened it per the auditor's precision note to specifically name the safek-niddah purity concern rather than implying the same purity type as 8a's own corpse-impurity concern."
+            }
           }
         }
       },
-      "repairRef": "a8a16d408dba9b72738ebfec0c924c5a8fc200df",
-      "sourceFingerprint": "727ec2af6d12419ad7ba3697ded524bf9ea032f51550b019104cdc8e4e3221c8",
-      "semanticFingerprint": "20b0d2c009f5933e2cc953031d6e994ccacdca7e7025d13394e78cd416380ccc",
-      "secondPass": {
-        "reviewId": "yoma-8a-r10-second",
-        "reviewerContextId": "a988380d97facf403",
-        "sourceFirst": true,
-        "verdict": "CONFIRMED",
-        "reviewedSourceFingerprint": "727ec2af6d12419ad7ba3697ded524bf9ea032f51550b019104cdc8e4e3221c8",
-        "reviewedSemanticFingerprint": "20b0d2c009f5933e2cc953031d6e994ccacdca7e7025d13394e78cd416380ccc",
-        "evidence": {
-          "verdict": "CONFIRMED",
-          "reviewerContextId": "a988380d97facf403",
-          "summary": "Independent second-pass review, mutually-blind from the round-10 repair context, covering both sugyot with a full fresh audit. Independently reconstructed s02 cold from raw Hebrew, verified all 8 argumentFlow steps against live Sefaria (Yoma.8a.6-15, Hebrew+English) with exact matches, both relatedSugyot entries verified against live target content (8b-s01, 6a-s02), dafSummaryVerdict and boundaryVerdict VERIFIED, MID_SENTENCE ending confirmed. All enrichment-contract fields compliant. No defect found anywhere in yoma-008a-s02.",
-          "declaration": "Independently re-read the full sugya and re-derived every claim from scratch, blind to prior-round reasoning, with a different review id from all prior second-passes and final audits. No defect found; confirms this record is ready for certification."
-        }
-      }
+      "repairRef": "05dfb81f07e5bd636e47914152a326a2047d620c"
     },
     "yoma-008b-s01": {
       "sugyaId": "yoma-008b-s01",
