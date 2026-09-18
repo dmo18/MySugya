@@ -58564,7 +58564,7 @@
     "yoma-008a-s01": {
       "sugyaId": "yoma-008a-s01",
       "daf": "8a",
-      "state": "REPAIRED_PENDING_REVIEW",
+      "state": "PENDING_FINAL_AUDIT",
       "firstPass": {
         "reviewId": "yoma-8a-r8-second",
         "reviewerContextId": "affcf0b6d23ea112d",
@@ -58584,7 +58584,23 @@
           }
         }
       },
-      "repairRef": "4d3903c87f1e46179f19827f237337909f7f339d"
+      "repairRef": "4d3903c87f1e46179f19827f237337909f7f339d",
+      "sourceFingerprint": "79426e24e8b001c7900dcd80d329d98cf2ddd429fdb6802a5ad7fbb5e3ce5173",
+      "semanticFingerprint": "3fdd3ef597297c9875a4023f163f9853e869b5acf451f1eafda022741ef7878e",
+      "secondPass": {
+        "reviewId": "yoma-8a-r9-second",
+        "reviewerContextId": "ab9c643bd542096e3",
+        "sourceFirst": true,
+        "verdict": "CONFIRMED",
+        "reviewedSourceFingerprint": "79426e24e8b001c7900dcd80d329d98cf2ddd429fdb6802a5ad7fbb5e3ce5173",
+        "reviewedSemanticFingerprint": "3fdd3ef597297c9875a4023f163f9853e869b5acf451f1eafda022741ef7878e",
+        "evidence": {
+          "verdict": "CONFIRMED",
+          "reviewerContextId": "ab9c643bd542096e3",
+          "summary": "Independent second-pass review, mutually-blind from the round-9 repair context, doing a genuinely full fresh audit of every field in s01. Independently reconstructed s01 cold from raw Hebrew, then verified all 7 argumentFlow steps against live Sefaria (Yoma.8a.1-8a.5, Hebrew+English) with exact matches. Independently fetched Exodus 28:38 and confirmed it contains two distinct word-forms (bare 'metzach' and suffixed 'mitzcho'), verifying all six fields describing R. Yehuda's doubling derivation (the two already-correct from round 5 plus the four fixed in round 9) are now mutually consistent and individually accurate -- round-9 fix confirmed correct and complete, no stray 'same word twice' phrasing remains anywhere. Re-verified both relatedSugyot entries fresh against live target content (yoma-007b-s02 and yoma-008a-s02) as instructed, since this field type broke twice before on this daf -- both confirmed correct. Diffed the packet's enrichment against the live learning_data.js record and confirmed byte-identical (deployed content matches). dafSummaryVerdict VERIFIED, boundaryVerdict VERIFIED including the genuine MID_SENTENCE daf ending. All enrichment-contract fields (hint, finalRuling, requiresUnderstanding, prerequisiteKnowledge, topicTags, visualizableElements) confirmed compliant. No defect found anywhere in yoma-008a-s01. Two non-blocking, pre-existing, corpus-wide documentation-drift observations noted (reasoningPattern.category enum, relatedSugyot object-vs-string-array schema documentation) but explicitly identified as out of scope for this daf's repair, not semantic defects.",
+          "declaration": "Independently re-read the full sugya and re-derived every claim from scratch, blind to prior-round reasoning, with a different review id from the round-8 second pass and both Final Whole-Record Auditor passes. No defect found; confirms this record is ready for certification."
+        }
+      }
     },
     "yoma-008a-s02": {
       "sugyaId": "yoma-008a-s02",
