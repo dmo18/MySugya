@@ -58566,27 +58566,30 @@
       "daf": "8a",
       "state": "REPAIRED_PENDING_REVIEW",
       "firstPass": {
-        "reviewId": "yoma-8a-finalaudit3-r1-first",
-        "reviewerContextId": "a226e1dfab2402325",
+        "reviewId": "yoma-8a-r10-second",
+        "reviewerContextId": "a988380d97facf403",
         "sourceFirst": true,
         "verdict": "REPAIR_REQUIRED",
         "reviewedSourceFingerprint": "79426e24e8b001c7900dcd80d329d98cf2ddd429fdb6802a5ad7fbb5e3ce5173",
-        "reviewedSemanticFingerprint": "3fdd3ef597297c9875a4023f163f9853e869b5acf451f1eafda022741ef7878e",
+        "reviewedSemanticFingerprint": "52a8a886d6eec51e491e47c1235d72ac323ea66de2406215f61a0f07d27d6972",
         "evidence": {
-          "verdict": "REPAIR_REQUIRED",
-          "reviewerContextId": "a226e1dfab2402325",
-          "summary": "Finding surfaced by the third mandatory Final Whole-Record Auditor pass, covering both yoma-008a-s01 and yoma-008a-s02 (which share the daf-level glossary field). Two blocking defects, both Hebrew-term vocalization/spelling precision issues, independently re-verified by the orchestrating session directly against Sefaria's vocalized text (fetched Yoma.8a.4: 'רָאוּי לַמֵּצַח מְרַצֶּה, שֶׁאֵינוֹ רָאוּי לַמֵּצַח אֵינוֹ מְרַצֶּה'). (1) dafLevel.glossary[0].he/.translit, shared by both sugyot: the round-1 fix that removed an incorrect possessive suffix left an incorrect vocalization 'רָאוּי לְמִצַּח' / 'Rauy la-mitzach' -- confirmed the correct form is 'רָאוּי לַמֵּצַח' / 'Rauy la-metzach' (definite-article construction with tzere on the mem), which also matches the already-correct usage elsewhere in s01 (argumentFlow step-07's 'bare metzach' phrasing). (2) s01.display.shortSummary misspelled 'rauy' as 'ravui' and repeated the same incorrect 'la-mitzach' vocalization, inconsistent with the correct spelling already used in the same sugya's glossary translit, topicTags ('rauy-lamitzach'), and visualizableElements. A third, lower-confidence terminology-convention finding ('hutrah' vs. the daf's own word 'heter') was explicitly flagged by the auditor as advisory/non-blocking and a corpus-wide convention question, not a factual error -- left unchanged as out of scope for this daf's repair.",
-          "defectFound": {
-            "summary": "dafLevel.glossary[0].he/.translit (shared field) and s01.display.shortSummary both carried an incorrect vocalization/spelling of 'ra'uy la-metzach' (fit for the forehead). Fixed both to match Sefaria's confirmed vocalized text and the sugya's own already-correct usage elsewhere."
+          "origin": "independent-second-pass-rejection",
+          "reviewEvidence": {
+            "verdict": "REJECTED",
+            "reviewerContextId": "a988380d97facf403",
+            "summary": "Independent second-pass review, mutually-blind from the round-10 repair context. Confirmed the round-10 fix correct: fetched live Yoma.8a.4 and confirmed dafLevel.glossary[0].he/.translit and s01.display.shortSummary's 'rauy la-metzach' vocalization is now a character-for-character match with Sefaria. However found the fix was not propagated everywhere the same term appears in s01, leaving internal inconsistencies.",
+            "defectFound": {
+              "summary": "Three residual instances of the pre-round-10 stale spelling/vocalization survived in yoma-008a-s01: topicTags[6] ('rauy-lamitzach'), conceptRefs[1] (\"rauy-l'mitzcho\"), and argumentFlow[step-07].label (which still said 'doubled mitzcho/mitzcho' instead of 'metzach/mitzcho', a factual error contradicting the step's own already-correct text, sourceRefs note, and quizSeeds answer). All three fixed to match the corrected terminology used consistently elsewhere in the record."
+            }
           }
         }
       },
-      "repairRef": "a8a16d408dba9b72738ebfec0c924c5a8fc200df"
+      "repairRef": "9075691ca6a29170c6e027c6b45a14561762e60b"
     },
     "yoma-008a-s02": {
       "sugyaId": "yoma-008a-s02",
       "daf": "8a",
-      "state": "REPAIRED_PENDING_REVIEW",
+      "state": "PENDING_FINAL_AUDIT",
       "firstPass": {
         "reviewId": "yoma-8a-finalaudit3-r1-first",
         "reviewerContextId": "a226e1dfab2402325",
@@ -58603,7 +58606,23 @@
           }
         }
       },
-      "repairRef": "a8a16d408dba9b72738ebfec0c924c5a8fc200df"
+      "repairRef": "a8a16d408dba9b72738ebfec0c924c5a8fc200df",
+      "sourceFingerprint": "727ec2af6d12419ad7ba3697ded524bf9ea032f51550b019104cdc8e4e3221c8",
+      "semanticFingerprint": "20b0d2c009f5933e2cc953031d6e994ccacdca7e7025d13394e78cd416380ccc",
+      "secondPass": {
+        "reviewId": "yoma-8a-r10-second",
+        "reviewerContextId": "a988380d97facf403",
+        "sourceFirst": true,
+        "verdict": "CONFIRMED",
+        "reviewedSourceFingerprint": "727ec2af6d12419ad7ba3697ded524bf9ea032f51550b019104cdc8e4e3221c8",
+        "reviewedSemanticFingerprint": "20b0d2c009f5933e2cc953031d6e994ccacdca7e7025d13394e78cd416380ccc",
+        "evidence": {
+          "verdict": "CONFIRMED",
+          "reviewerContextId": "a988380d97facf403",
+          "summary": "Independent second-pass review, mutually-blind from the round-10 repair context, covering both sugyot with a full fresh audit. Independently reconstructed s02 cold from raw Hebrew, verified all 8 argumentFlow steps against live Sefaria (Yoma.8a.6-15, Hebrew+English) with exact matches, both relatedSugyot entries verified against live target content (8b-s01, 6a-s02), dafSummaryVerdict and boundaryVerdict VERIFIED, MID_SENTENCE ending confirmed. All enrichment-contract fields compliant. No defect found anywhere in yoma-008a-s02.",
+          "declaration": "Independently re-read the full sugya and re-derived every claim from scratch, blind to prior-round reasoning, with a different review id from all prior second-passes and final audits. No defect found; confirms this record is ready for certification."
+        }
+      }
     },
     "yoma-008b-s01": {
       "sugyaId": "yoma-008b-s01",
