@@ -48,7 +48,7 @@
       "display": {
         "title": "Kal v'chomer to tefillin; source derivations for R. Yehuda and R. Shimon",
         "oneLine": "The tefillin kal v'chomer from 7b is completed; then R. Yehuda and R. Shimon each explain where they derive the forehead-location rule and what to do with a broken tzitz.",
-        "shortSummary": "The kal v'chomer: just as the tzitz - which has only one divine name - requires constant mindfulness (not diverting attention), tefillin - which have many divine names - certainly require constant mindfulness. Then the Gemara traces how each side derives its proof-texts. R. Shimon: 'al mitzcho' establishes the required location; 'tamid liratzon' means perpetual atonement even off-forehead. R. Yehuda: 'al mitzcho' likewise establishes location; but 'tamid' means mindfulness. Question: if R. Shimon already derives location from 'al mitzcho,' what does 'al mitzcho v'nasa' add? Answer: 'ראוי למצח' - only what is fit for the forehead atones; a broken tzitz is not fit. Question: where does R. Yehuda derive that a broken tzitz does not atone? From the doubling 'mitzcho / mitzcho' in two verses (two mentions = two requirements). R. Shimon: the doubling does not convey that teaching.",
+        "shortSummary": "The kal v'chomer: just as the tzitz - which has only one divine name - requires constant mindfulness (not diverting attention), tefillin - which have many divine names - certainly require constant mindfulness. Then the Gemara traces how each side derives its proof-texts. R. Shimon: 'al mitzcho' establishes the required location; 'tamid liratzon' means perpetual atonement even off-forehead. R. Yehuda: 'al mitzcho' likewise establishes location; but 'tamid' means mindfulness. Question: if R. Shimon already derives location from 'al mitzcho,' what does 'al mitzcho v'nasa' add? Answer: 'ravui la-mitzach' - only what is fit for the forehead atones; a broken tzitz is not fit. Question: where does R. Yehuda derive that a broken tzitz does not atone? From the doubling of 'metzach'/'mitzcho' within one verse (two forms of the same word = two requirements). R. Shimon: the doubling does not convey that teaching.",
         "whats": "This section is source-analysis (limud): once two positions are established in 7b, the Gemara asks 'where does each derive this from?' It is not a new dispute but a derivational audit. The key technical concept is 'ראוי למצח' - the principle that atonement requires the object to be fit for its designated location, even if not currently there.",
         "hint": "If R. Shimon and R. Yehuda both derive the forehead-location requirement from the same words 'al mitzcho,' what exactly are they disagreeing about?"
       },
@@ -172,7 +172,7 @@
           "type": "answer",
           "label": "R. Yehuda: doubled 'mitzcho/mitzcho' within one verse",
           "speaker": "Gemara (R. Yehuda)",
-          "text": "R. Yehuda derives it from the doubled form within a single verse (Exodus 28:38, which contains both the bare 'mitzcho' and the suffixed 'mitzcho'): the Torah did not need to say 'forehead' twice, so the repetition teaches that the tzitz must be whole and actually on the forehead. R. Shimon: that doubling does not convey the broken-tzitz rule.",
+          "text": "R. Yehuda derives it from the doubled form within a single verse (Exodus 28:38, which contains both the bare 'metzach' and the suffixed 'mitzcho'): the Torah did not need to say 'forehead' twice, so the repetition teaches that the tzitz must be whole and actually on the forehead. R. Shimon: that doubling does not convey the broken-tzitz rule.",
           "sourceRefs": [
             {
               "sourceType": "gemara",
@@ -343,7 +343,7 @@
           "category": "dialectical",
           "notes": "Classic Talmudic triple-hypothesis structure: (1) broad claim (dchuya/hutrah) rejected by consequence; (2) narrower claim (tevila mitzva) rejected by external source; (3) correct resolution (equating hazaah to tevila) that avoids both previous problems."
         },
-        "ahaMoment": "R. Yosei is shown to hold 'tevila bizmana mitzva' from a completely different context (Tractate Shabbat 120b: a person with God's name tattooed on his skin, who wraps reed to immerse). This cross-tractate citation is what forces the Gemara to abandon its second hypothesis and find the real dispute.",
+        "ahaMoment": "R. Yosei is shown to hold 'tevila bizmana mitzva' from a completely different context (Tractate Shabbat 120b): a baraita about a person with God's name written on his skin. The first opinion there wraps a reed over the Name before immersing, but R. Yosei's own position is to immerse in his usual way without a reed, provided he does not rub - his refusal to wait for a reed shows he does not want to delay immersion past its proper time. This cross-tractate citation is what forces the Gemara to abandon its second hypothesis and find the real dispute.",
         "learningBlocker": "Students often think 'tevila bizmana mitzva' is the whole dispute. It is not - that's the rejected second hypothesis. The actual dispute is one level more subtle: whether hazaah is equated to tevila for timing purposes.",
         "memoryAnchor": "Three tanaim, three positions: R. Meir (all 7 days, both), R. Yosei (day 3 and 7, both), R. Chanina Segan (split: para = all 7, YK = day 3 and 7). Resolution: both R. Meir and R. Yosei accept dchuya; they dispute whether hazaah inherits tevila's timing-mitzva rule."
       },
@@ -413,7 +413,7 @@
           "type": "rejection",
           "label": "Second hypothesis rejected: R. Yosei elsewhere holds tevila bizmana IS a mitzva",
           "speaker": "Gemara",
-          "text": "From another context (a person with God's name tattooed who wraps a reed to immerse without rubbing), we know R. Yosei holds that immersion on time IS a mitzva. So R. Yosei cannot be disputing this.",
+          "text": "From another context (a baraita about a person with God's name written on his skin: the first opinion says he wraps a reed over the Name before immersing, but R. Yosei says he immerses in his usual way without a reed, provided he does not rub), we know R. Yosei's own choice not to wait for a reed shows he holds immersion at its proper time is a mitzva. So R. Yosei cannot be disputing this.",
           "sourceRefs": [
             {
               "sourceType": "gemara",
