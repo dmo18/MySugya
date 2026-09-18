@@ -470,7 +470,7 @@
           "type": "question",
           "label": "New, unresolved question: whose view does the para-priest/KG comparison baraita follow?",
           "speaker": "Gemara",
-          "text": "The Gemara opens a new question: in accordance with whose opinion is a baraita that states 'there is no difference between the priest who burns the Red Heifer and the Kohen Gadol on Yom Kippur except for...' - and the text breaks off mid-sentence, its list of differences never stated.",
+          "text": "The Gemara opens a new question: in accordance with whose opinion is a baraita that states 'there is no difference between the priest who burns the Red Heifer and the kohein gadol on Yom Kippur except for...' - and the text breaks off mid-sentence, its list of differences never stated.",
           "sourceRefs": [
             {
               "sourceType": "gemara",
@@ -542,7 +542,7 @@
         {
           "daf": "6a",
           "sugyaId": "yoma-006a-s02",
-          "reason": "Earlier discussion of the tumah/purity concern behind the Kohen Gadol's Yom Kippur sequestration"
+          "reason": "Earlier discussion of the safek-niddah purity concern that motivates part of the same pre-Yom-Kippur separation period discussed here for hazaah"
         }
       ],
       "finalRuling": "",
