@@ -16367,7 +16367,7 @@ const DAF_CONTENT = {
         relatedSugyot: [
           {
             daf: "7b",
-            sugyaId: "yoma-007b-s01",
+            sugyaId: "yoma-007b-s02",
             reason: "Abaye's framework from 7b is the basis for the verse-analysis here"
           },
           {
