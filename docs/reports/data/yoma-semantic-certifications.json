@@ -58564,7 +58564,7 @@
     "yoma-008a-s01": {
       "sugyaId": "yoma-008a-s01",
       "daf": "8a",
-      "state": "REPAIRED_PENDING_REVIEW",
+      "state": "PENDING_FINAL_AUDIT",
       "firstPass": {
         "reviewId": "yoma-8a-r10-second",
         "reviewerContextId": "a988380d97facf403",
@@ -58584,7 +58584,23 @@
           }
         }
       },
-      "repairRef": "9075691ca6a29170c6e027c6b45a14561762e60b"
+      "repairRef": "9075691ca6a29170c6e027c6b45a14561762e60b",
+      "sourceFingerprint": "79426e24e8b001c7900dcd80d329d98cf2ddd429fdb6802a5ad7fbb5e3ce5173",
+      "semanticFingerprint": "2e3027dae87cb2f65a642dd3b52372019503ec37f6c38188dfe41bd5e3120b4f",
+      "secondPass": {
+        "reviewId": "yoma-8a-r11-second",
+        "reviewerContextId": "a619fba62f55284fe",
+        "sourceFirst": true,
+        "verdict": "CONFIRMED",
+        "reviewedSourceFingerprint": "79426e24e8b001c7900dcd80d329d98cf2ddd429fdb6802a5ad7fbb5e3ce5173",
+        "reviewedSemanticFingerprint": "2e3027dae87cb2f65a642dd3b52372019503ec37f6c38188dfe41bd5e3120b4f",
+        "evidence": {
+          "verdict": "CONFIRMED",
+          "reviewerContextId": "a619fba62f55284fe",
+          "summary": "Independent second-pass review, mutually-blind from the round-11 repair context, doing an exhaustive field-by-field terminology sweep given this sugya's history of recurring metzach/mitzcho/rauy precision defects (rounds 5, 8, 9, 10, 11). Independently reconstructed s01 cold from raw Hebrew, fetched live Sefaria (Yoma.8a.1-5, Hebrew) and Exodus 28:38 to verify every citation and every single string field mentioning the recurring terminology pattern (checked display, learning, all 7 argumentFlow steps' labels/text/notes, topicTags, conceptRefs, quizSeeds, misconceptions, visualizableElements) -- found zero residual stale spelling anywhere; the round-11 fix (topicTags[6], conceptRefs[1], step-07 label) is complete and internally consistent with terminology fixed in earlier rounds. dafSummaryVerdict VERIFIED, boundaryVerdict VERIFIED. relatedSugyot re-verified against live 7b.learning.json (noting 7b-s02 reciprocally points back to this sugya). All enrichment-contract fields compliant. No defect found anywhere in yoma-008a-s01.",
+          "declaration": "Independently re-read the full sugya and re-derived every claim from scratch, blind to prior-round reasoning, with a different review id from the round-10 second pass and all three Final Whole-Record Auditor passes. No defect found; confirms this record is ready for certification."
+        }
+      }
     },
     "yoma-008a-s02": {
       "sugyaId": "yoma-008a-s02",
