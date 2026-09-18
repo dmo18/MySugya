@@ -49680,14 +49680,14 @@
     "yoma-006b-s01": {
       "sugyaId": "yoma-006b-s01",
       "daf": "6b",
-      "state": "REPAIR_REQUIRED",
+      "state": "REPAIRED_PENDING_REVIEW",
       "firstPass": {
-        "reviewId": "sonnet5-6b-round1-20260918",
+        "reviewId": "sonnet5-6b-round1-20260918b",
         "reviewerContextId": "a2dc186e2f7440258",
         "sourceFirst": true,
         "verdict": "REPAIR_REQUIRED",
-        "reviewedSourceFingerprint": "bab2cee2e55ca1d4ee68382859ffd4f4eb0f5846e257d173d467d0760d0dee2f",
-        "reviewedSemanticFingerprint": "4314010677d0d430d59f11837dd7412ee9ab72ea23685a90b83543b475bc38fc",
+        "reviewedSourceFingerprint": "663c5196b3061887b6e450c37d9f2bc70e76dc5097c5bdbb11ef29953481b445",
+        "reviewedSemanticFingerprint": "37839312a896b0d1389d4af5a19628c220560101e59e8a728938caba0124f26d",
         "evidence": {
           "verdict": "REPAIR_REQUIRED",
           "auditorContextId": "a2dc186e2f7440258",
@@ -49712,19 +49712,20 @@
             "s02's daf-boundary handling of the genuine mid-word cutoff at line 24 (confirmed by Rashi's own note) is correctly left open with no false closure."
           ]
         }
-      }
+      },
+      "repairRef": "dec9447f5dcd59481b3cbbb64f5a8bbf6c2761ad"
     },
     "yoma-006b-s02": {
       "sugyaId": "yoma-006b-s02",
       "daf": "6b",
-      "state": "REPAIR_REQUIRED",
+      "state": "REPAIRED_PENDING_REVIEW",
       "firstPass": {
-        "reviewId": "sonnet5-6b-round1-20260918",
+        "reviewId": "sonnet5-6b-round1-20260918b",
         "reviewerContextId": "a2dc186e2f7440258",
         "sourceFirst": true,
         "verdict": "REPAIR_REQUIRED",
         "reviewedSourceFingerprint": "a17ad93b19e637df9ed7bdb3b77a74e0c26f8e6d795e790895b5136142b73d6b",
-        "reviewedSemanticFingerprint": "c40f7bf02125a8f4904a72c99309c46891fcc9c996f4d2309bb9a2991e76e934",
+        "reviewedSemanticFingerprint": "30d31f6cb33c790692f59d8cce6ff6aee775c839f90b905326bc9f5bd1f33ebc",
         "evidence": {
           "verdict": "REPAIR_REQUIRED",
           "auditorContextId": "a2dc186e2f7440258",
@@ -49749,7 +49750,8 @@
             "s02's daf-boundary handling of the genuine mid-word cutoff at line 24 (confirmed by Rashi's own note) is correctly left open with no false closure."
           ]
         }
-      }
+      },
+      "repairRef": "dec9447f5dcd59481b3cbbb64f5a8bbf6c2761ad"
     },
     "yoma-007a-s01": {
       "sugyaId": "yoma-007a-s01",
