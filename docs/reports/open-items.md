@@ -147,19 +147,12 @@ COMPLETED below.
 | Rashi translation-quality audit coverage (Step 6 full-corpus review) | **Resolved at VERSION 15.481.** The 8,854-entry corpus-wide translation-quality audit (distinct from scaffold remediation and from association/renderer readiness) is complete: 41 batch-review PRs plus the Step 4 pilot (200 entries) and the `rashi-yoma-009b-001` source-repair follow-up (1 entry) bring every entry to `reviewStatus: REVIEWED`, 0 `UNREVIEWED` remaining. Final disposition breakdown: 8,222 VERIFIED, 614 MINOR_EDIT, 16 SUBSTANTIVE_REPAIR, 2 RETRANSLATE, 0 DUPLICATION_OR_CONTAMINATION, 0 BLOCKED. Every batch's blind QA found 0 escalations. Full terminal record: `docs/reports/rashi-step6-full-corpus-completion-report.md`. This was real, ongoing Yoma content-quality work, distinct from and independent of the Phase 3/4 platform-closure campaign (never a Phase 4 completion criterion). |
 | GitHub Pages dual-publisher race | **Resolved at VERSION 15.357** (Phase 1 of `docs/platform-closure-plan.md`, operator-configured). The Pages configuration endpoint itself remains unreadable from any session (environment proxy blocks `/repos/.../pages` unconditionally), so this is confirmed behaviorally and via live checks rather than by reading the setting's value directly: five cache-busted public checks spaced across a 9-minute window all served the identical `assets/app-15.356.js` at HTTP 200 with zero development-loader tokens, and the merge of the Phase 1 evidence PR (a real push to `main`) produced no competing `pages build and deployment` run against the merge commit. See the plan document's Phase 1 completion record for the full evidence chain, including the prior directly-observed defect this resolves (VERSION 15.352-15.353, both outcomes of the race caught live). |
 
-### Worker queue: completed, with an explained derived status
+### Worker queue: completed and terminal
 
-`npm run worker:queue` currently prints `done (derived from merged PRs): none |
-remaining: [79b ... 88a]`. **This is a derivation artifact, not an
-inconsistency, and no content work should be restarted because of it.**
-
-`derive_queue_progress` intentionally derives progress from a single piece of
-durable evidence: the `.worker-manifest.json` currently at `origin/main`. It
-marks targets done only when that manifest's type, module, and single target
-all match the queue. The manifest at `origin/main` now targets `9b`
-(rashi-reconstruction from PR #327), which is outside this queue's target
-list, so the derivation correctly declines to advance anything and reports
-`none`.
+`npm run worker:queue` derives progress from the durable history of worker
+manifest snapshots at integration states reachable from `origin/main`, not
+only the current manifest. It therefore reports all targets done and prints
+`Queue complete.` with no actionable next target.
 
 Independent verification shows every one of the 18 targets (79b, 80a, 80b,
 81a, 81b, 82a, 82b, 83a, 83b, 84a, 84b, 85a, 85b, 86a, 86b, 87a, 87b, 88a) has
@@ -168,9 +161,9 @@ a merged reconstruction commit on `main`. The campaign is **complete**.
 The queue definition remains tracked and unmodified on purpose: it is an
 immutable record of what that campaign committed to. `--advance` is retired by
 design, progress is never written back, and rewriting or deleting the
-definition would destroy the audit trail without changing any derived result.
-The correct reading is: *this queue describes a finished campaign; its
-derivation window has moved past it.*
+definition would destroy the audit trail. Each target requires its own exact
+task-type/module/single-target evidence, so later unrelated manifests cannot
+erase completion or cause one target to complete another.
 
 ---
 

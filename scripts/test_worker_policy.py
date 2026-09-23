@@ -279,9 +279,12 @@ def test_prompt():
               "hand off to project-lead" in out)
 
 
-def write_evidence(path, ttype="rashi-realignment", module="yoma", targets=None):
-    path.write_text(json.dumps({"type": ttype, "module": module,
-                                "targets": targets or []}))
+def manifest_evidence(ttype="rashi-realignment", module="yoma", targets=None):
+    return {"type": ttype, "module": module, "targets": targets or []}
+
+
+def write_evidence(path, *manifests):
+    path.write_text(json.dumps(list(manifests)))
 
 
 def test_queue():
@@ -303,7 +306,7 @@ def test_queue():
               "FIRST target's manifest commit" in r.stdout)
 
         # No evidence yet: nothing done, head is next.
-        write_evidence(ev, ttype="docs-tooling", targets=[])
+        write_evidence(ev, manifest_evidence(ttype="docs-tooling"))
         r = subprocess.run(base + ["--evidence", str(ev)],
                            capture_output=True, text=True, cwd=REPO)
         check("no matching merged evidence -> nothing done",
@@ -330,7 +333,7 @@ def test_queue():
 
         # Merged evidence for target 1 -> target 2 is next; file untouched.
         before = qpath.read_bytes()
-        write_evidence(ev, targets=["71b"])
+        write_evidence(ev, manifest_evidence(targets=["71b"]))
         r = subprocess.run(base + ["--evidence", str(ev)],
                            capture_output=True, text=True, cwd=REPO)
         check("merged 71b evidence -> 41a is next", "Next target: 41a" in r.stdout)
@@ -340,24 +343,26 @@ def test_queue():
 
         # A merely-local/unmerged, foreign-type, or foreign-target manifest
         # is not evidence: failed or escalated targets never become done.
-        write_evidence(ev, ttype="rashi-repair", targets=["71b"])
+        write_evidence(ev, manifest_evidence(ttype="rashi-repair", targets=["71b"]))
         r = subprocess.run(base + ["--evidence", str(ev)],
                            capture_output=True, text=True, cwd=REPO)
         check("foreign-type manifest advances nothing",
               "done (derived from merged PRs): none" in r.stdout)
-        write_evidence(ev, targets=["12b"])
+        write_evidence(ev, manifest_evidence(targets=["12b"]))
         r = subprocess.run(base + ["--evidence", str(ev)],
                            capture_output=True, text=True, cwd=REPO)
         check("out-of-queue target advances nothing",
               "done (derived from merged PRs): none" in r.stdout)
-        write_evidence(ev, targets=["71b", "41a"])
+        write_evidence(ev, manifest_evidence(targets=["71b", "41a"]))
         r = subprocess.run(base + ["--evidence", str(ev)],
                            capture_output=True, text=True, cwd=REPO)
         check("multi-target manifest is never evidence (one PR per daf)",
               "done (derived from merged PRs): none" in r.stdout)
 
         # Final-target completion: clean, no state write, no push needed.
-        write_evidence(ev, targets=["41a"])
+        write_evidence(ev, manifest_evidence(targets=["71b"]),
+                       manifest_evidence(targets=["41a"]),
+                       manifest_evidence(ttype="docs-tooling"))
         r = subprocess.run(base + ["--evidence", str(ev)],
                            capture_output=True, text=True, cwd=REPO)
         check("final merged target -> queue complete", "Queue complete." in r.stdout)
@@ -372,6 +377,58 @@ def test_queue():
                             capture_output=True, text=True, cwd=REPO)
         check("completion resumes identically after recycling",
               r2.stdout == r.stdout)
+
+        # Exact target evidence matrix. A later unrelated manifest cannot
+        # erase earlier completion, and one target cannot complete another.
+        q3 = {"type": "task", "module": "m", "targets": ["a", "b", "c"]}
+        check("empty progress returns the full queue",
+              wp.derive_queue_progress(q3, []) == ([], ["a", "b", "c"]))
+        a = manifest_evidence(ttype="task", module="m", targets=["a"])
+        b = manifest_evidence(ttype="task", module="m", targets=["b"])
+        c = manifest_evidence(ttype="task", module="m", targets=["c"])
+        check("partial progress returns earliest unfinished target",
+              wp.derive_queue_progress(q3, [a]) == (["a"], ["b", "c"]))
+        later = manifest_evidence(ttype="unrelated", module="m", targets=["z"])
+        check("complete history survives a later unrelated manifest",
+              wp.derive_queue_progress(q3, [a, b, c, later])
+              == (["a", "b", "c"], []))
+        foreign_module = manifest_evidence(ttype="task", module="other", targets=["a"])
+        check("foreign-module manifest advances nothing",
+              wp.derive_queue_progress(q3, [foreign_module]) == ([], ["a", "b", "c"]))
+        check("one target cannot falsely complete another",
+              wp.derive_queue_progress(q3, [c]) == (["c"], ["a", "b"]))
+
+        # Deterministic Git fixture: a squash-shaped first-parent commit and
+        # a merge-result commit count; an unmerged topic manifest does not;
+        # a later unrelated first-parent manifest does not erase history.
+        gitdir = Path(td) / "git-history"
+        gitdir.mkdir()
+        def git(*args):
+            return subprocess.run(["git", *args], cwd=gitdir, check=True,
+                                  capture_output=True, text=True)
+        git("init", "-b", "main")
+        git("config", "user.name", "Queue Test")
+        git("config", "user.email", "queue@example.invalid")
+        (gitdir / ".worker-manifest.json").write_text(json.dumps(a))
+        git("add", ".worker-manifest.json")
+        git("commit", "-m", "squash-shaped integrated target a")
+        git("switch", "-c", "target-b")
+        (gitdir / ".worker-manifest.json").write_text(json.dumps(b))
+        git("add", ".worker-manifest.json")
+        git("commit", "-m", "topic target b")
+        git("switch", "main")
+        git("merge", "--no-ff", "target-b", "-m", "integrate target b")
+        git("switch", "-c", "abandoned-c")
+        (gitdir / ".worker-manifest.json").write_text(json.dumps(c))
+        git("add", ".worker-manifest.json")
+        git("commit", "-m", "unmerged target c")
+        git("switch", "main")
+        (gitdir / ".worker-manifest.json").write_text(json.dumps(later))
+        git("add", ".worker-manifest.json")
+        git("commit", "-m", "later unrelated work")
+        history = wp.manifest_evidence_from_ref("main", gitdir)
+        check("Git history handles squash and merge results, but not unmerged work",
+              wp.derive_queue_progress(q3, history) == (["a", "b"], ["c"]))
 
 
 def test_structural_repair_type():

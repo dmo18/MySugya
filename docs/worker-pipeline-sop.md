@@ -426,14 +426,16 @@ npm run worker:queue -- --type rashi-realignment --module yoma --targets 71b,41a
 npm run worker:queue                       # status + next target's commands
 ```
 
-Queue lifecycle (VERSION 15.96): the tracked .worker-queue.json is an
+Queue lifecycle (VERSION 15.588): the tracked .worker-queue.json is an
 IMMUTABLE definition (type, module, ordered targets, policy), committed
 once alongside the first target's manifest commit and never written
 again. Progress is DERIVED, not stored: a target is complete exactly
-when its single-target manifest of the queue's type/module is the
-manifest merged at origin/main; under the enforced sequential
-one-PR-per-target process, everything at or before that target is
-done. Consequences, all mechanically enforced and tested:
+when its own single-target manifest of the queue's type/module appears
+at an integration state reachable from origin/main. Merge-result commits
+cover merge-commit PRs; the current first-parent chain covers squash and
+direct commits, where a topic-branch SHA may not survive. Later manifests
+cannot erase earlier evidence, and one target never completes another.
+Consequences, all mechanically enforced and tested:
 
 - there is no --advance and no runtime state to mutate; completing the
   final target leaves a CLEAN tree, and no queue bookkeeping ever needs
@@ -443,8 +445,8 @@ done. Consequences, all mechanically enforced and tested:
   failed or escalated targets can never become done and progress cannot
   be advanced early or out of order
 - resuming after a container/session recycle needs only a fresh clone:
-  derivation is a pure function of the tracked definition and
-  origin/main
+  derivation is a pure function of the tracked definition and durable
+  manifest history reachable from origin/main
 
 The queue never batches daf into one PR (maxBatch 1 stands on both
 conditional types) and never skips deploy verification. On escalation
