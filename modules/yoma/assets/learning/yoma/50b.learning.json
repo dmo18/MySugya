@@ -77,11 +77,7 @@
     "chatat tzibur"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "communal sin-offering laws",
-    "pigul",
-    "Shabbat/tumah override"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "The HP's bull is a personal sin-offering because the HP is atoning for himself and his household, not all Israel.",
@@ -91,9 +87,15 @@
    ],
    "relatedSugyot": [],
    "visualizableElements": [
-    "HP",
-    "bull",
-    "communal representative"
+    {
+     "item": "HP"
+    },
+    {
+     "item": "bull"
+    },
+    {
+     "item": "communal representative"
+    }
    ],
    "quizSeeds": [
     {
@@ -105,7 +107,12 @@
    "difficulty": "intermediate",
    "alternateAngles": [],
    "glossary": [],
-   "review": "reviewed"
+   "review": "reviewed",
+   "prerequisiteKnowledge": [
+    "communal sin-offering laws",
+    "pigul",
+    "Shabbat/tumah override"
+   ]
   },
   {
    "sugyaNumber": 2,
@@ -266,11 +273,7 @@
     "yuchad"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "designated service laws",
-    "HP Yom Kippur obligations",
-    "exclusive designation"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "Since the High Priest is performing the Yom Kippur service anyway, he can simultaneously direct it toward fulfilling a personal vow without any halachic problem.",
@@ -281,8 +284,8 @@
    "relatedSugyot": [],
    "visualizableElements": [
     {
+     "item": "Personal vow offering vs. fixed Yom Kippur service: can they coexist in the same act?",
      "type": "contrast",
-     "description": "Personal vow offering vs. fixed Yom Kippur service: can they coexist in the same act?",
      "role": "contrast",
      "priority": 1
     }
@@ -297,7 +300,12 @@
    "difficulty": "advanced",
    "alternateAngles": [],
    "glossary": [],
-   "review": "reviewed"
+   "review": "reviewed",
+   "prerequisiteKnowledge": [
+    "designated service laws",
+    "HP Yom Kippur obligations",
+    "exclusive designation"
+   ]
   }
  ],
  "glossary": [],

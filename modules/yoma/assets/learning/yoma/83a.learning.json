@@ -58,10 +58,7 @@
     "womb"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "Background knowledge of evil inclination context",
-    "Understanding of Yom Kippur halachic framework"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "The verse means a person's wickedness is fixed and unchangeable from birth.",
@@ -71,8 +68,8 @@
    "relatedSugyot": [],
    "visualizableElements": [
     {
-     "type": "action",
-     "name": "'The wicked estranged from the womb': R. Yochanan "
+     "item": "'The wicked estranged from the womb': R. Yochanan ",
+     "type": "action"
     }
    ],
    "quizSeeds": [
@@ -89,7 +86,11 @@
    "difficulty": "intermediate",
    "alternateAngles": [],
    "glossary": [],
-   "review": "draft"
+   "review": "draft",
+   "prerequisiteKnowledge": [
+    "Background knowledge of evil inclination context",
+    "Understanding of Yom Kippur halachic framework"
+   ]
   },
   {
    "sugyaNumber": 2,
@@ -166,10 +167,7 @@
     "physician"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "Background knowledge of ill person context",
-    "Understanding of Yom Kippur halachic framework"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "In a medical dispute on Yom Kippur, the doctor's expert opinion always prevails.",
@@ -179,8 +177,8 @@
    "relatedSugyot": [],
    "visualizableElements": [
     {
-     "type": "action",
-     "name": "An ill person fed on YK by expert judgment"
+     "item": "An ill person fed on YK by expert judgment",
+     "type": "action"
     }
    ],
    "quizSeeds": [
@@ -197,7 +195,11 @@
    "difficulty": "intermediate",
    "alternateAngles": [],
    "glossary": [],
-   "review": "draft"
+   "review": "draft",
+   "prerequisiteKnowledge": [
+    "Background knowledge of ill person context",
+    "Understanding of Yom Kippur halachic framework"
+   ]
   },
   {
    "sugyaNumber": 3,
@@ -369,10 +371,7 @@
     "YK feeding"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "Background knowledge of ill person context",
-    "Understanding of Yom Kippur halachic framework"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "Assessing whether a sick person may eat works like court testimony, where two witnesses settle the matter.",
@@ -382,8 +381,8 @@
    "relatedSugyot": [],
    "visualizableElements": [
     {
-     "type": "action",
-     "name": "If an ill person needs to eat: feed on expert opin"
+     "item": "If an ill person needs to eat: feed on expert opin",
+     "type": "action"
     }
    ],
    "quizSeeds": [
@@ -400,7 +399,11 @@
    "difficulty": "intermediate",
    "alternateAngles": [],
    "glossary": [],
-   "review": "draft"
+   "review": "draft",
+   "prerequisiteKnowledge": [
+    "Background knowledge of ill person context",
+    "Understanding of Yom Kippur halachic framework"
+   ]
   },
   {
    "sugyaNumber": 4,
@@ -516,10 +519,7 @@
     "Mishna"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "Background knowledge of bulmos context",
-    "Understanding of Yom Kippur halachic framework"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "One clears a rockslide on Shabbat only after confirming a Jew is alive beneath it.",
@@ -529,8 +529,8 @@
    "relatedSugyot": [],
    "visualizableElements": [
     {
-     "type": "action",
-     "name": "Mishna: one seized with hungry frenzy (bulmos) - f"
+     "item": "Mishna: one seized with hungry frenzy (bulmos) - f",
+     "type": "action"
     }
    ],
    "quizSeeds": [
@@ -547,7 +547,11 @@
    "difficulty": "intermediate",
    "alternateAngles": [],
    "glossary": [],
-   "review": "draft"
+   "review": "draft",
+   "prerequisiteKnowledge": [
+    "Background knowledge of bulmos context",
+    "Understanding of Yom Kippur halachic framework"
+   ]
   },
   {
    "sugyaNumber": 5,
@@ -643,10 +647,7 @@
     "pikuach nefesh"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "Background knowledge of bulmos context",
-    "Understanding of Yom Kippur halachic framework"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "Any forbidden food may be fed freely to a person in danger.",
@@ -656,8 +657,8 @@
    "relatedSugyot": [],
    "visualizableElements": [
     {
-     "type": "action",
-     "name": "The Sages' ruling about bulmos: what to feed and w"
+     "item": "The Sages' ruling about bulmos: what to feed and w",
+     "type": "action"
     }
    ],
    "quizSeeds": [
@@ -674,7 +675,11 @@
    "difficulty": "intermediate",
    "alternateAngles": [],
    "glossary": [],
-   "review": "draft"
+   "review": "draft",
+   "prerequisiteKnowledge": [
+    "Background knowledge of bulmos context",
+    "Understanding of Yom Kippur halachic framework"
+   ]
   }
  ],
  "glossary": [],

@@ -116,10 +116,7 @@
     "outside Jerusalem"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "Knowing the Yom Kippur bull and goat are unique in being burned outside Jerusalem",
-    "Knowing that contact with certain burned offerings conveys impurity"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "The burning outside Jerusalem is an unusual exception specific only to these Yom Kippur animals due to their special role.",
@@ -129,16 +126,16 @@
    "relatedSugyot": [],
    "visualizableElements": [
     {
-     "type": "person",
-     "name": "carriers taking bull and goat outside Jerusalem"
+     "item": "carriers taking bull and goat outside Jerusalem",
+     "type": "person"
     },
     {
-     "type": "place",
-     "name": "ash-disposal site outside Jerusalem"
+     "item": "ash-disposal site outside Jerusalem",
+     "type": "place"
     },
     {
-     "type": "action",
-     "name": "burning and immersing afterward"
+     "item": "burning and immersing afterward",
+     "type": "action"
     }
    ],
    "quizSeeds": [
@@ -148,10 +145,14 @@
     }
    ],
    "finalRuling": "The Yom Kippur bull and goat are burned outside Jerusalem; those who carry them become impure and must immerse afterward.",
-   "difficulty": "introductory",
+   "difficulty": "intro",
    "alternateAngles": [],
    "glossary": [],
-   "review": "reviewed"
+   "review": "reviewed",
+   "prerequisiteKnowledge": [
+    "Knowing the Yom Kippur bull and goat are unique in being burned outside Jerusalem",
+    "Knowing that contact with certain burned offerings conveys impurity"
+   ]
   }
  ],
  "glossary": [],

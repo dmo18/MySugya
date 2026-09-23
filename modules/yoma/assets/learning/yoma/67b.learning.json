@@ -134,10 +134,7 @@
         "etymology"
       ],
       "conceptRefs": [],
-      "requiresUnderstanding": [
-        "fallen angels narrative (Gen. 6)",
-        "chok vs mishpat categories in halacha"
-      ],
+      "requiresUnderstanding": [],
       "misconceptions": [
         {
           "misconception": "The Azazel ritual is a form of idolatry or scapegoating to another deity",
@@ -148,8 +145,8 @@
       "relatedSugyot": [],
       "visualizableElements": [
         {
+          "item": "Mishpat (rational law the Satan can argue) vs Chok (Divine decree the Satan cannot refute)",
           "type": "contrast",
-          "description": "Mishpat (rational law the Satan can argue) vs Chok (Divine decree the Satan cannot refute)",
           "role": "anchor",
           "priority": 1
         }
@@ -165,7 +162,11 @@
       "difficulty": "intermediate",
       "alternateAngles": [],
       "glossary": [],
-      "review": "reviewed"
+      "review": "reviewed",
+      "prerequisiteKnowledge": [
+        "fallen angels narrative (Gen. 6)",
+        "chok vs mishpat categories in halacha"
+      ]
     },
     {
       "sugyaNumber": 2,
@@ -280,10 +281,7 @@
         "halachic-requirements"
       ],
       "conceptRefs": [],
-      "requiresUnderstanding": [
-        "basic midrashic derivation techniques",
-        "Azazel service context"
-      ],
+      "requiresUnderstanding": [],
       "misconceptions": [
         {
           "misconception": "Any remote uninhabited area qualifies for Azazel",
@@ -294,8 +292,8 @@
       "relatedSugyot": [],
       "visualizableElements": [
         {
+          "item": "Three midbar citations from Leviticus 16, each adding a requirement",
           "type": "sequence",
-          "description": "Three midbar citations from Leviticus 16, each adding a requirement",
           "role": "anchor",
           "priority": 1
         }
@@ -308,10 +306,14 @@
         }
       ],
       "finalRuling": "Three wilderness references in the Azazel passage establish three requirements: the location must be desolate, ownerless, and an actual wilderness.",
-      "difficulty": "introductory",
+      "difficulty": "intro",
       "alternateAngles": [],
       "glossary": [],
-      "review": "reviewed"
+      "review": "reviewed",
+      "prerequisiteKnowledge": [
+        "basic midrashic derivation techniques",
+        "Azazel service context"
+      ]
     },
     {
       "sugyaNumber": 3,
@@ -401,10 +403,7 @@
         "cliff-method"
       ],
       "conceptRefs": [],
-      "requiresUnderstanding": [
-        "Azazel service basics",
-        "concept of shelicha (agency) in halacha"
-      ],
+      "requiresUnderstanding": [],
       "misconceptions": [
         {
           "misconception": "The goat's death at the cliff is the operative act of the Azazel service",
@@ -415,8 +414,8 @@
       "relatedSugyot": [],
       "visualizableElements": [
         {
+          "item": "Two opinions: goat falling face-first vs. backward - with the ish iti at the cliff edge",
           "type": "contrast",
-          "description": "Two opinions: goat falling face-first vs. backward - with the ish iti at the cliff edge",
           "role": "anchor",
           "priority": 1
         }
@@ -432,7 +431,11 @@
       "difficulty": "intermediate",
       "alternateAngles": [],
       "glossary": [],
-      "review": "reviewed"
+      "review": "reviewed",
+      "prerequisiteKnowledge": [
+        "Azazel service basics",
+        "concept of shelicha (agency) in halacha"
+      ]
     },
     {
       "sugyaNumber": 4,
@@ -547,11 +550,7 @@
         "yom-kippur-service"
       ],
       "conceptRefs": [],
-      "requiresUnderstanding": [
-        "Yom Kippur service order",
-        "eimurim in sacrificial context",
-        "tum'ah transmission"
-      ],
+      "requiresUnderstanding": [],
       "misconceptions": [
         {
           "misconception": "The HP burned the eimurim immediately after removing them",
@@ -562,8 +561,8 @@
       "relatedSugyot": [],
       "visualizableElements": [
         {
+          "item": "HP tears open bull and goat, removes eimurim to tray, whole carcasses carried out on poles",
           "type": "sequence",
-          "description": "HP tears open bull and goat, removes eimurim to tray, whole carcasses carried out on poles",
           "role": "anchor",
           "priority": 1
         }
@@ -579,7 +578,12 @@
       "difficulty": "intermediate",
       "alternateAngles": [],
       "glossary": [],
-      "review": "reviewed"
+      "review": "reviewed",
+      "prerequisiteKnowledge": [
+        "Yom Kippur service order",
+        "eimurim in sacrificial context",
+        "tum'ah transmission"
+      ]
     }
   ],
   "glossary": [],

@@ -116,10 +116,7 @@
     "consecrated with no purpose"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "Knowing what a sin-offering's 'purpose' is",
-    "Understanding why a consecrated animal cannot simply be released or sold"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "The original animal, still being holy and technically valid, can be used for another sacrifice or redeemed",
@@ -129,12 +126,12 @@
    "relatedSugyot": [],
    "visualizableElements": [
     {
-     "type": "contrast",
-     "name": "original sin-offering vs. replacement in use"
+     "item": "original sin-offering vs. replacement in use",
+     "type": "contrast"
     },
     {
-     "type": "principle",
-     "name": "consecrated animal with fulfilled purpose must die"
+     "item": "consecrated animal with fulfilled purpose must die",
+     "type": "principle"
     }
    ],
    "quizSeeds": [
@@ -147,7 +144,11 @@
    "difficulty": "intermediate",
    "alternateAngles": [],
    "glossary": [],
-   "review": "reviewed"
+   "review": "reviewed",
+   "prerequisiteKnowledge": [
+    "Knowing what a sin-offering's 'purpose' is",
+    "Understanding why a consecrated animal cannot simply be released or sold"
+   ]
   },
   {
    "sugyaNumber": 2,
@@ -297,10 +298,7 @@
     "divine determination"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "Knowing the lottery is performed for the Yom Kippur goats",
-    "Understanding the difference between communal and individual offerings"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "The lottery is just a fair selection mechanism and can be skipped when both goats are identical and interchangeable",
@@ -310,12 +308,12 @@
    "relatedSugyot": [],
    "visualizableElements": [
     {
-     "type": "action",
-     "name": "lottery as divine designating act"
+     "item": "lottery as divine designating act",
+     "type": "action"
     },
     {
-     "type": "contrast",
-     "name": "communal vs. individual offering replacement rules"
+     "item": "communal vs. individual offering replacement rules",
+     "type": "contrast"
     }
    ],
    "quizSeeds": [
@@ -328,7 +326,11 @@
    "difficulty": "advanced",
    "alternateAngles": [],
    "glossary": [],
-   "review": "reviewed"
+   "review": "reviewed",
+   "prerequisiteKnowledge": [
+    "Knowing the lottery is performed for the Yom Kippur goats",
+    "Understanding the difference between communal and individual offerings"
+   ]
   }
  ],
  "glossary": [],

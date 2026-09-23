@@ -125,10 +125,7 @@
     "scapegoat guide"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "Knowing the HP is prepared for seven days",
-    "Understanding that all service roles require preparation"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "The guide can be assigned on the morning of Yom Kippur like other service assistants",
@@ -138,12 +135,12 @@
    "relatedSugyot": [],
    "visualizableElements": [
     {
-     "type": "person",
-     "name": "designated Azazel guide"
+     "item": "designated Azazel guide",
+     "type": "person"
     },
     {
-     "type": "action",
-     "name": "advance designation day before Yom Kippur"
+     "item": "advance designation day before Yom Kippur",
+     "type": "action"
     }
    ],
    "quizSeeds": [
@@ -153,10 +150,14 @@
     }
    ],
    "finalRuling": "The Azazel guide is designated the day before Yom Kippur, reflecting the principle that every role in the Yom Kippur service requires advance preparation.",
-   "difficulty": "introductory",
+   "difficulty": "intro",
    "alternateAngles": [],
    "glossary": [],
-   "review": "reviewed"
+   "review": "reviewed",
+   "prerequisiteKnowledge": [
+    "Knowing the HP is prepared for seven days",
+    "Understanding that all service roles require preparation"
+   ]
   },
   {
    "sugyaNumber": 2,
@@ -320,10 +321,7 @@
     "halachic pedagogy"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "Understanding the dialogic nature of Talmudic discussion",
-    "Knowing that both questions and answers are part of Torah"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "A student's recorded question shows a gap in their knowledge - these dialogues are just historical background to the ruling",
@@ -333,12 +331,12 @@
    "relatedSugyot": [],
    "visualizableElements": [
     {
-     "type": "relationship",
-     "name": "teacher-student dialogue"
+     "item": "teacher-student dialogue",
+     "type": "relationship"
     },
     {
-     "type": "sequence",
-     "name": "question, answer, follow-up question, answer"
+     "item": "question, answer, follow-up question, answer",
+     "type": "sequence"
     }
    ],
    "quizSeeds": [
@@ -348,10 +346,14 @@
     }
    ],
    "finalRuling": "The Talmud preserves teacher-student dialogues because the questions advance halachic understanding as much as the answers; dialogue is the mode of Torah transmission.",
-   "difficulty": "introductory",
+   "difficulty": "intro",
    "alternateAngles": [],
    "glossary": [],
-   "review": "reviewed"
+   "review": "reviewed",
+   "prerequisiteKnowledge": [
+    "Understanding the dialogic nature of Talmudic discussion",
+    "Knowing that both questions and answers are part of Torah"
+   ]
   },
   {
    "sugyaNumber": 3,
@@ -428,10 +430,7 @@
     "body and soul"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "Knowing what the five afflictions are",
-    "Understanding why physical denial expresses spiritual repentance"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "The five Yom Kippur afflictions are general ascetic practices similar to other Jewish fast days",
@@ -441,12 +440,12 @@
    "relatedSugyot": [],
    "visualizableElements": [
     {
-     "type": "sequence",
-     "name": "five afflictions in order"
+     "item": "five afflictions in order",
+     "type": "sequence"
     },
     {
-     "type": "contrast",
-     "name": "physical denial paired with spiritual prayer"
+     "item": "physical denial paired with spiritual prayer",
+     "type": "contrast"
     }
    ],
    "quizSeeds": [
@@ -456,10 +455,14 @@
     }
    ],
    "finalRuling": "The five Yom Kippur afflictions (eating/drinking, bathing, anointing, sandals, marital relations) engage the body in repentance alongside the soul's prayer.",
-   "difficulty": "introductory",
+   "difficulty": "intro",
    "alternateAngles": [],
    "glossary": [],
-   "review": "reviewed"
+   "review": "reviewed",
+   "prerequisiteKnowledge": [
+    "Knowing what the five afflictions are",
+    "Understanding why physical denial expresses spiritual repentance"
+   ]
   },
   {
    "sugyaNumber": 4,
@@ -518,10 +521,7 @@
     "public reading"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "Knowing what Hakhel is and when it occurs",
-    "Understanding the function of public Torah reading in covenant renewal"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "Any civic or religious leader of sufficient standing can conduct the Hakhel Torah reading",
@@ -531,12 +531,12 @@
    "relatedSugyot": [],
    "visualizableElements": [
     {
-     "type": "contrast",
-     "name": "annual Yom Kippur reading vs. septennial Hakhel"
+     "item": "annual Yom Kippur reading vs. septennial Hakhel",
+     "type": "contrast"
     },
     {
-     "type": "relationship",
-     "name": "both as covenant renewal through public Torah reading"
+     "item": "both as covenant renewal through public Torah reading",
+     "type": "relationship"
     }
    ],
    "quizSeeds": [
@@ -549,7 +549,11 @@
    "difficulty": "intermediate",
    "alternateAngles": [],
    "glossary": [],
-   "review": "reviewed"
+   "review": "reviewed",
+   "prerequisiteKnowledge": [
+    "Knowing what Hakhel is and when it occurs",
+    "Understanding the function of public Torah reading in covenant renewal"
+   ]
   }
  ],
  "glossary": [],

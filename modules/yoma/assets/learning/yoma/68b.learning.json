@@ -153,10 +153,7 @@
         "tannaitic-dispute"
       ],
       "conceptRefs": [],
-      "requiresUnderstanding": [
-        "beit ha-deshen location",
-        "tum'ah of burning handlers"
-      ],
+      "requiresUnderstanding": [],
       "misconceptions": [
         {
           "misconception": "Any place north of Jerusalem qualifies for burning the bull and goat",
@@ -167,8 +164,8 @@
       "relatedSugyot": [],
       "visualizableElements": [
         {
+          "item": "Sloped ash-pit north of Jerusalem with altar ash placed first, then carcasses burned",
           "type": "sequence",
-          "description": "Sloped ash-pit north of Jerusalem with altar ash placed first, then carcasses burned",
           "role": "anchor",
           "priority": 1
         }
@@ -184,7 +181,11 @@
       "difficulty": "advanced",
       "alternateAngles": [],
       "glossary": [],
-      "review": "reviewed"
+      "review": "reviewed",
+      "prerequisiteKnowledge": [
+        "beit ha-deshen location",
+        "tum'ah of burning handlers"
+      ]
     },
     {
       "sugyaNumber": 2,
@@ -490,11 +491,7 @@
         "yom-kippur-service"
       ],
       "conceptRefs": [],
-      "requiresUnderstanding": [
-        "Yom Kippur service order",
-        "HP's five immersions",
-        "linen and golden vestments"
-      ],
+      "requiresUnderstanding": [],
       "misconceptions": [
         {
           "misconception": "The HP could begin burning the fats immediately after handing over the Azazel goat",
@@ -505,8 +502,8 @@
       "relatedSugyot": [],
       "visualizableElements": [
         {
+          "item": "Chain of relay signal-wavers from Jerusalem to the Azazel cliff, then HP in the Temple synagogue reading Torah",
           "type": "sequence",
-          "description": "Chain of relay signal-wavers from Jerusalem to the Azazel cliff, then HP in the Temple synagogue reading Torah",
           "role": "anchor",
           "priority": 1
         }
@@ -522,7 +519,12 @@
       "difficulty": "intermediate",
       "alternateAngles": [],
       "glossary": [],
-      "review": "reviewed"
+      "review": "reviewed",
+      "prerequisiteKnowledge": [
+        "Yom Kippur service order",
+        "HP's five immersions",
+        "linen and golden vestments"
+      ]
     }
   ],
   "glossary": [],

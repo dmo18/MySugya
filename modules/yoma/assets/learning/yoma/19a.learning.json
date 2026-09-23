@@ -192,11 +192,7 @@
     "Yoma.19a.4",
     "Yoma.19a.6"
    ],
-   "requiresUnderstanding": [
-    "The Temple's three-court structure (outer, women's, inner/Azara)",
-    "The KG's ten immersions on Yom Kippur",
-    "The Sukkot water-drawing ceremony"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "The KG immerses ten times on Yom Kippur because there are ten distinct services requiring it.",
@@ -209,12 +205,12 @@
    ],
    "visualizableElements": [
     {
-     "type": "place",
-     "desc": "Azara floor plan showing six named chambers (3N + 3S), seven gates with names, KG's Parhedrin chamber in south, Parvah chamber roof pool"
+     "item": "Azara floor plan showing six named chambers (3N + 3S), seven gates with names, KG's Parhedrin chamber in south, Parvah chamber roof pool",
+     "type": "place"
     },
     {
-     "type": "sequence",
-     "desc": "KG's daily seven-day routine: wake up, relieve self, south for immersion, north to Beit Avtinas for incense practice, full day of service, dusk purification"
+     "item": "KG's daily seven-day routine: wake up, relieve self, south for immersion, north to Beit Avtinas for incense practice, full day of service, dusk purification",
+     "type": "sequence"
     }
    ],
    "quizSeeds": [
@@ -245,7 +241,12 @@
    "review": {
     "content": "ai_generated",
     "sourceRefs": "ai_generated"
-   }
+   },
+   "prerequisiteKnowledge": [
+    "The Temple's three-court structure (outer, women's, inner/Azara)",
+    "The KG's ten immersions on Yom Kippur",
+    "The Sukkot water-drawing ceremony"
+   ]
   },
   {
    "sugyaNumber": 2,
@@ -390,10 +391,7 @@
     "Yoma.19a.8",
     "Yoma.19a.10"
    ],
-   "requiresUnderstanding": [
-    "The six Azara chambers from 19a-s01",
-    "The KG's daily routine during seven days preparation"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "The walking back and forth in the KG's daily routine is an accidental or unavoidable byproduct of the Temple's layout.",
@@ -406,8 +404,8 @@
    ],
    "visualizableElements": [
     {
-     "type": "sequence",
-     "desc": "Two routing diagrams: (A) Parhedrin in south - efficient morning route; (B) Parhedrin in north - roundabout route. Shows why south is preferred."
+     "item": "Two routing diagrams: (A) Parhedrin in south - efficient morning route; (B) Parhedrin in north - roundabout route. Shows why south is preferred.",
+     "type": "sequence"
     }
    ],
    "quizSeeds": [
@@ -427,7 +425,11 @@
    "review": {
     "content": "ai_generated",
     "sourceRefs": "ai_generated"
-   }
+   },
+   "prerequisiteKnowledge": [
+    "The six Azara chambers from 19a-s01",
+    "The KG's daily routine during seven days preparation"
+   ]
   },
   {
    "sugyaNumber": 3,
@@ -490,10 +492,7 @@
    "conceptRefs": [
     "Yoma.19a.13"
    ],
-   "requiresUnderstanding": [
-    "Basic shlichut (agency) principles in halacha",
-    "Forbidden-benefit vows (nedarim) that could block kohen-offerer relationships"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "The question of whether kohanim are God's agents or Israel's agents is purely theological speculation with no practical consequence.",
@@ -505,8 +504,8 @@
    ],
    "visualizableElements": [
     {
-     "type": "contrast",
-     "desc": "Two diagrams: (A) shlichei shamayim - kohen -> God -> sacrifice, offerer has no direct connection; (B) shlichei Yisrael - offerer -> kohen (as agent) -> sacrifice, kohen-offerer relationship matters"
+     "item": "Two diagrams: (A) shlichei shamayim - kohen -> God -> sacrifice, offerer has no direct connection; (B) shlichei Yisrael - offerer -> kohen (as agent) -> sacrifice, kohen-offerer relationship matters",
+     "type": "contrast"
     }
    ],
    "quizSeeds": [
@@ -532,7 +531,11 @@
    "review": {
     "content": "ai_generated",
     "sourceRefs": "ai_generated"
-   }
+   },
+   "prerequisiteKnowledge": [
+    "Basic shlichut (agency) principles in halacha",
+    "Forbidden-benefit vows (nedarim) that could block kohen-offerer relationships"
+   ]
   }
  ],
  "glossary": [

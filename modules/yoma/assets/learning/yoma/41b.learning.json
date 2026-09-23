@@ -184,10 +184,7 @@
     "verbal precision"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "kinnim",
-    "viduy (confession)"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "The exact wording of the formula following the KG's first confession is unimportant as long as the intent is clear.",
@@ -200,8 +197,8 @@
    ],
    "visualizableElements": [
     {
-     "type": "text",
-     "description": "'After he confessed' not 'after he said' - precision in describing the atoning verbal act"
+     "item": "'After he confessed' not 'after he said' - precision in describing the atoning verbal act",
+     "type": "text"
     }
    ],
    "quizSeeds": [
@@ -215,7 +212,11 @@
    "difficulty": "intermediate",
    "alternateAngles": [],
    "glossary": [],
-   "review": "reviewed"
+   "review": "reviewed",
+   "prerequisiteKnowledge": [
+    "kinnim",
+    "viduy (confession)"
+   ]
   },
   {
    "sugyaNumber": 2,
@@ -507,11 +508,7 @@
     "Tsuk"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "ish iti (Azazel goat handler)",
-    "Tsuk (cliff)",
-    "eretz gezerah"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "The Azazel goat is simply abandoned in the desert alone, with no communal involvement.",
@@ -524,8 +521,8 @@
    ],
    "visualizableElements": [
     {
-     "type": "sequence",
-     "description": "Goat leaves Jerusalem → 10 booths → Tsuk (12 mil) → pushed off cliff → ish iti becomes impure"
+     "item": "Goat leaves Jerusalem → 10 booths → Tsuk (12 mil) → pushed off cliff → ish iti becomes impure",
+     "type": "sequence"
     }
    ],
    "quizSeeds": [
@@ -536,10 +533,15 @@
     }
    ],
    "finalRuling": "Scarlet thread on goat's head; 10 booths from Jerusalem to Tsuk (12 mil); ish iti becomes impure; goat pushed off cliff.",
-   "difficulty": "introductory",
+   "difficulty": "intro",
    "alternateAngles": [],
    "glossary": [],
-   "review": "reviewed"
+   "review": "reviewed",
+   "prerequisiteKnowledge": [
+    "ish iti (Azazel goat handler)",
+    "Tsuk (cliff)",
+    "eretz gezerah"
+   ]
   }
  ],
  "glossary": [

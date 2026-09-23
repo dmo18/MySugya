@@ -523,11 +523,7 @@
     "Temple principle"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "Sanctuary (Heichal) layout",
-    "menorah and inner altar positions",
-    "morning service sequence"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "Ein ma'avirin al hamitzvot means you must always do the most important mitzva first.",
@@ -540,14 +536,14 @@
    ],
    "visualizableElements": [
     {
+     "item": "Priest enters from east: menorah on left (south), inner altar further in. Ein ma'avirin: clean menorah first, then proceed to altar.",
      "type": "place",
-     "label": "Sanctuary entry and service order",
-     "description": "Priest enters from east: menorah on left (south), inner altar further in. Ein ma'avirin: clean menorah first, then proceed to altar."
+     "label": "Sanctuary entry and service order"
     },
     {
+     "item": "Wrong: walk past menorah to reach altar first. Right: clean menorah lamps encountered first.",
      "type": "contrast",
-     "label": "Skip vs encounter principle",
-     "description": "Wrong: walk past menorah to reach altar first. Right: clean menorah lamps encountered first."
+     "label": "Skip vs encounter principle"
     }
    ],
    "quizSeeds": [
@@ -563,7 +559,12 @@
    "finalRuling": "Ein ma'avirin al hamitzvot: do not bypass an encountered mitzva for another ahead. This principle governs many areas beyond Temple service.",
    "difficulty": "intermediate",
    "alternateAngles": [],
-   "review": "reviewed"
+   "review": "reviewed",
+   "prerequisiteKnowledge": [
+    "Sanctuary (Heichal) layout",
+    "menorah and inner altar positions",
+    "morning service sequence"
+   ]
   },
   {
    "sugyaNumber": 2,
@@ -738,13 +739,7 @@
     "Ravina"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "Abaye's morning service sequence from 33a",
-    "menorah",
-    "inner altar",
-    "tamid",
-    "ketoret"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "All seven lamps are cleaned before the tamid begins.",
@@ -761,14 +756,14 @@
    ],
    "visualizableElements": [
     {
+     "item": "Wood - 5 lamps - Tamid blood - 2 lamps - Incense - Limbs - Meal-offering - Wine libation",
      "type": "sequence",
-     "label": "Complete Abaye morning sequence",
-     "description": "Wood - 5 lamps - Tamid blood - 2 lamps - Incense - Limbs - Meal-offering - Wine libation"
+     "label": "Complete Abaye morning sequence"
     },
     {
+     "item": "Reish Lakish: ein ma'avirin (don't bypass encountered lamps). R. Yochanan: incense verse requires lamps first.",
      "type": "contrast",
-     "label": "Reish Lakish vs R. Yochanan on 5-lamp priority",
-     "description": "Reish Lakish: ein ma'avirin (don't bypass encountered lamps). R. Yochanan: incense verse requires lamps first."
+     "label": "Reish Lakish vs R. Yochanan on 5-lamp priority"
     }
    ],
    "quizSeeds": [
@@ -784,7 +779,14 @@
    "finalRuling": "Complete morning sequence: Wood - 5 lamps - Tamid blood - 2 lamps - Ketoret - Limbs - Meal-offering - Wine. Each step's position is biblically or logically derived.",
    "difficulty": "advanced",
    "alternateAngles": [],
-   "review": "reviewed"
+   "review": "reviewed",
+   "prerequisiteKnowledge": [
+    "Abaye's morning service sequence from 33a",
+    "menorah",
+    "inner altar",
+    "tamid",
+    "ketoret"
+   ]
   }
  ]
 }

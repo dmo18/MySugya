@@ -22084,7 +22084,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "R. Yehuda's sukka requirement for permanent structure",
           "The Parhedrin chamber mezuza dispute from 10a",
           "The concept that mezuza requires a genuine voluntary dwelling"
@@ -22097,7 +22098,9 @@ const DAF_CONTENT = {
         ],
         relatedSugyot: [],
         visualizableElements: [
-          "Two-column table: Sukka (permanent structure, voluntary) vs. Parhedrin (temporary, coerced)"
+          {
+            item: "Two-column table: Sukka (permanent structure, voluntary) vs. Parhedrin (temporary, coerced)"
+          }
         ],
         quizSeeds: [
           {
@@ -22198,7 +22201,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "The structure of Talmudic attribution - why anonymous baraitot need to be identified",
           "The distinction between Temple gates and Temple chambers in mezuza law",
           "The concept that a single rabbinic decree can cover multiple related cases"
@@ -22212,12 +22216,12 @@ const DAF_CONTENT = {
         relatedSugyot: [],
         visualizableElements: [
           {
-            type: "text",
-            desc: "Temple gate with mezuza placement question: does a gate serving the public require a mezuza?"
+            item: "Temple gate with mezuza placement question: does a gate serving the public require a mezuza?",
+            type: "text"
           },
           {
-            type: "contrast",
-            desc: "Public gate (patur from mezuza) vs private gate (chayav) - the defining distinction from this sugya"
+            item: "Public gate (patur from mezuza) vs private gate (chayav) - the defining distinction from this sugya",
+            type: "contrast"
           }
         ],
         quizSeeds: [
@@ -22644,7 +22648,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "The prohibition on gezeira ligzeira (stacking rabbinic decrees)",
           "R. Yehuda's position that the Parhedrin chamber mezuza is only rabbinic",
           "Basic Temple geography and gate structure"
@@ -22657,8 +22662,12 @@ const DAF_CONTENT = {
         ],
         relatedSugyot: [],
         visualizableElements: [
-          "Temple gates diagram with Nicanor Gate highlighted as the only one with a mezuza",
-          "Gate + chamber as unified structure diagram"
+          {
+            item: "Temple gates diagram with Nicanor Gate highlighted as the only one with a mezuza"
+          },
+          {
+            item: "Gate + chamber as unified structure diagram"
+          }
         ],
         quizSeeds: [
           {
@@ -22795,7 +22804,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "The principle that agents of a mitzva are divinely protected",
           "The exception when danger is fixed and predictable",
           "Mezuza checking obligations and the consequences of finding a defective mezuza"
@@ -22808,8 +22818,12 @@ const DAF_CONTENT = {
         ],
         relatedSugyot: [],
         visualizableElements: [
-          "City gate with mezuza on doorpost",
-          "Contrast: predictable danger (fine) vs. unpredictable danger (accident)"
+          {
+            item: "City gate with mezuza on doorpost"
+          },
+          {
+            item: "Contrast: predictable danger (fine) vs. unpredictable danger (accident)"
+          }
         ],
         quizSeeds: [
           {
@@ -22991,7 +23005,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "That mezuza requires a 'dwelling' - a space used for human residential purposes",
           "The distinction between domestic/residential use and commercial use",
           "Basic storehouse structure in Talmudic times"
@@ -23004,8 +23019,12 @@ const DAF_CONTENT = {
         ],
         relatedSugyot: [],
         visualizableElements: [
-          "Four storehouse types: hay, cattle, wood, wine - with mezuza status marked for each opinion",
-          "Woman drawing wine from storage vessel - the pivotal image"
+          {
+            item: "Four storehouse types: hay, cattle, wood, wine - with mezuza status marked for each opinion"
+          },
+          {
+            item: "Woman drawing wine from storage vessel - the pivotal image"
+          }
         ],
         quizSeeds: [
           {
@@ -23769,7 +23788,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "The three conditions for mezuza obligation: dwelling, honor, mundane residential",
           "Why sacred Temple space is categorically different from domestic space",
           "Rav Yehuda's position that the Parhedrin chamber mezuza was Torah-level"
@@ -23782,8 +23802,12 @@ const DAF_CONTENT = {
         ],
         relatedSugyot: [],
         visualizableElements: [
-          "Three-column diagram: not-dwelling, not-honor, not-mundane-residential structures",
-          "Temple Mount with 'no mezuza' label - counterintuitive holiness/obligation relationship"
+          {
+            item: "Three-column diagram: not-dwelling, not-honor, not-mundane-residential structures"
+          },
+          {
+            item: "Temple Mount with 'no mezuza' label - counterintuitive holiness/obligation relationship"
+          }
         ],
         quizSeeds: [
           {
@@ -23902,7 +23926,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "That mezuza requires doorposts (mezuzot, the physical sideposts of a doorway)",
           "R. Meir's general approach of applying theoretical-completion reasoning to halakhic minima",
           "Basic architectural distinction between arched/domed and rectangular doorways"
@@ -23915,8 +23940,12 @@ const DAF_CONTENT = {
         ],
         relatedSugyot: [],
         visualizableElements: [
-          "Rectangular doorway with doorposts vs. domed arch without doorposts - side by side",
-          "Carving diagram: how the dome could theoretically be carved to create doorposts (R. Meir's position)"
+          {
+            item: "Rectangular doorway with doorposts vs. domed arch without doorposts - side by side"
+          },
+          {
+            item: "Carving diagram: how the dome could theoretically be carved to create doorposts (R. Meir's position)"
+          }
         ],
         quizSeeds: [
           {
@@ -24071,7 +24100,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "The basic laws of tzaraat (house-plague) from Leviticus 14",
           "That tzaraat requires a personal owner to receive the divine warning",
           "The structure of parallel baraitot sharing the same reasoning across different laws"
@@ -24084,8 +24114,12 @@ const DAF_CONTENT = {
         ],
         relatedSugyot: [],
         visualizableElements: [
-          "Synagogue with attached caretaker's house - showing the residential connection",
-          "Parallel columns: mezuza baraita / tzaraat baraita - same structure, same categories"
+          {
+            item: "Synagogue with attached caretaker's house - showing the residential connection"
+          },
+          {
+            item: "Parallel columns: mezuza baraita / tzaraat baraita - same structure, same categories"
+          }
         ],
         quizSeeds: [
           {
@@ -24225,7 +24259,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "Basic tzaraat law: requires a personal owner to receive the divine warning",
           "The three standard resolution techniques for contradicting baraitot",
           "Why the caretaker's residence creates a personal-ownership connection to the whole building"
@@ -24238,8 +24273,12 @@ const DAF_CONTENT = {
         ],
         relatedSugyot: [],
         visualizableElements: [
-          "Three-column diagram: three resolution principles applied to the same contradiction",
-          "Synagogue with caretaker's house attached vs. standalone synagogue - showing the key distinction"
+          {
+            item: "Three-column diagram: three resolution principles applied to the same contradiction"
+          },
+          {
+            item: "Synagogue with caretaker's house attached vs. standalone synagogue - showing the key distinction"
+          }
         ],
         quizSeeds: [
           {
@@ -24996,7 +25035,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "The tribal allocation of Eretz Yisrael",
           "The tzaraat of buildings law requiring private ownership",
           "The layout of the Temple complex"
@@ -25009,8 +25049,12 @@ const DAF_CONTENT = {
         ],
         relatedSugyot: [],
         visualizableElements: [
-          "Temple map with tribal boundary line showing Judah/Benjamin division",
-          "List: Altar (Benjamin) vs. Lishkat HaGazit (Judah)"
+          {
+            item: "Temple map with tribal boundary line showing Judah/Benjamin division"
+          },
+          {
+            item: "List: Altar (Benjamin) vs. Lishkat HaGazit (Judah)"
+          }
         ],
         quizSeeds: [
           {
@@ -25148,7 +25192,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "The investiture process for a Cohen Gadol normally (including the seven-day process)",
           "The eight garments of the Cohen Gadol and what they symbolize",
           "The Yom Kippur service structure and why replacing the Cohen Gadol mid-ceremony is a genuine emergency"
@@ -25161,8 +25206,12 @@ const DAF_CONTENT = {
         ],
         relatedSugyot: [],
         visualizableElements: [
-          "Diagram of eight Cohen Gadol garments with each labeled",
-          "Timeline: normal investiture (7 days) vs. emergency investiture (belt? / all eight garments?)"
+          {
+            item: "Diagram of eight Cohen Gadol garments with each labeled"
+          },
+          {
+            item: "Timeline: normal investiture (7 days) vs. emergency investiture (belt? / all eight garments?)"
+          }
         ],
         quizSeeds: [
           {
@@ -26209,7 +26258,8 @@ const DAF_CONTENT = {
         conceptRefs: [
           "Yoma.12b.1"
         ],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "The 12a problem of the replacement KG's inauguration method",
           "Moshe's initiation of the Mishkan vs. later generations"
         ],
@@ -26226,12 +26276,12 @@ const DAF_CONTENT = {
         ],
         visualizableElements: [
           {
-            type: "action",
-            desc: "KG in full 8 garments beginning Yom Kippur service - the first act as his inauguration"
+            item: "KG in full 8 garments beginning Yom Kippur service - the first act as his inauguration",
+            type: "action"
           },
           {
-            type: "contrast",
-            desc: "Moshe anointing the golden spoon vs. later kohen simply using it in service"
+            item: "Moshe anointing the golden spoon vs. later kohen simply using it in service",
+            type: "contrast"
           }
         ],
         quizSeeds: [
@@ -26391,7 +26441,8 @@ const DAF_CONTENT = {
           "Yoma.12b.2",
           "Yoma.12b.8"
         ],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "Four garments of the common priest vs. eight garments of the KG",
           "The KG's special Yom Kippur linen garments"
         ],
@@ -26412,12 +26463,12 @@ const DAF_CONTENT = {
         ],
         visualizableElements: [
           {
-            type: "contrast",
-            desc: "Side-by-side: KG in full 8 garments with kilayim belt (regular year) vs. KG in 4 linen garments (YK) vs. common priest with disputed belt"
+            item: "Side-by-side: KG in full 8 garments with kilayim belt (regular year) vs. KG in 4 linen garments (YK) vs. common priest with disputed belt",
+            type: "contrast"
           },
           {
-            type: "text",
-            desc: "The verse 'al besaro yilbash' (Leviticus 6:3) as the baraita's source"
+            item: "The verse 'al besaro yilbash' (Leviticus 6:3) as the baraita's source",
+            type: "text"
           }
         ],
         quizSeeds: [
@@ -26551,7 +26602,8 @@ const DAF_CONTENT = {
           "Yoma.12b.11",
           "Yoma.12b.13"
         ],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "The distinction between KG and common priest obligations",
           "How the replacement KG was appointed in the first place (12a-12b)"
         ],
@@ -26572,16 +26624,16 @@ const DAF_CONTENT = {
         ],
         visualizableElements: [
           {
-            type: "people",
-            desc: "Yosef ben Elem of Tzippori: a historical kohen gadol appointed as backup who was left in suspended status"
+            item: "Yosef ben Elem of Tzippori: a historical kohen gadol appointed as backup who was left in suspended status",
+            type: "people"
           },
           {
-            type: "contrast",
-            desc: "R. Meir's replacement (retains KG obligations) vs. R. Yosei's replacement (suspended from both offices)"
+            item: "R. Meir's replacement (retains KG obligations) vs. R. Yosei's replacement (suspended from both offices)",
+            type: "contrast"
           },
           {
-            type: "relationship",
-            desc: "Original KG resumes full duties - replacement is blocked above (KG taken) and below (cannot demote)"
+            item: "Original KG resumes full duties - replacement is blocked above (KG taken) and below (cannot demote)",
+            type: "relationship"
           }
         ],
         quizSeeds: [
@@ -27622,7 +27674,8 @@ const DAF_CONTENT = {
           "Yoma.13a.1",
           "Yoma.13a.2"
         ],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "R. Yosei's ruling from 12b that the replacement is suspended from both offices",
           "The concept of 'tzarah' in Jewish marriage law"
         ],
@@ -27643,12 +27696,12 @@ const DAF_CONTENT = {
         ],
         visualizableElements: [
           {
-            type: "contrast",
-            desc: "Tzarah (co-wife permanent rivalry) vs. KG-replacement (contingent, dissolves on original's death)"
+            item: "Tzarah (co-wife permanent rivalry) vs. KG-replacement (contingent, dissolves on original's death)",
+            type: "contrast"
           },
           {
-            type: "timeline",
-            desc: "Original appointed > original falls ill > replacement appointed > original recovers (replacement suspended) > original dies > replacement returns"
+            item: "Original appointed > original falls ill > replacement appointed > original recovers (replacement suspended) > original dies > replacement returns",
+            type: "timeline"
           }
         ],
         quizSeeds: [
@@ -27678,7 +27731,7 @@ const DAF_CONTENT = {
           }
         ],
         finalRuling: "Halacha: R. Yosei. Replacement suspended while original lives; returns to full KG status when original dies. Service performed in violation is still valid.",
-        difficulty: "introductory",
+        difficulty: "intro",
         alternateAngles: [],
         topicTags: [
           "kehuna gedola",
@@ -27784,7 +27837,8 @@ const DAF_CONTENT = {
           "Yoma.13a.3",
           "Yoma.13a.4"
         ],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "The requirement for the KG to have a wife on Yom Kippur (derived from 'bayto' in Leviticus 16)",
           "Why a replacement KG is prepared in the first place (impurity risk)"
         ],
@@ -27805,12 +27859,12 @@ const DAF_CONTENT = {
         ],
         visualizableElements: [
           {
-            type: "contrast",
-            desc: "Impurity (preventable, zariz hu) vs. death (unpreventable) - the basis for the Rabbanan's asymmetric ruling"
+            item: "Impurity (preventable, zariz hu) vs. death (unpreventable) - the basis for the Rabbanan's asymmetric ruling",
+            type: "contrast"
           },
           {
-            type: "people",
-            desc: "The KG diligently guarding his purity on the six days before Yom Kippur vs. the impossibility of 'guarding' his wife's life"
+            item: "The KG diligently guarding his purity on the six days before Yom Kippur vs. the impossibility of 'guarding' his wife's life",
+            type: "people"
           }
         ],
         quizSeeds: [
@@ -27989,7 +28043,8 @@ const DAF_CONTENT = {
           "Yoma.13a.6",
           "Yoma.13a.8"
         ],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "Basic rules of conditional divorce (get al tenai) in Jewish law",
           "The keritut requirement for a valid get",
           "R. Yehuda's backup wife position from the previous sugya"
@@ -28010,16 +28065,16 @@ const DAF_CONTENT = {
         ],
         visualizableElements: [
           {
-            type: "sequence",
-            desc: "Seven conditional divorce formulas each rejected in turn - a chain of logical failures"
+            item: "Seven conditional divorce formulas each rejected in turn - a chain of logical failures",
+            type: "sequence"
           },
           {
-            type: "contrast",
-            desc: "The two impossible states: KG with two wives (bayto violated) vs. KG with no wife (bayto also violated)"
+            item: "The two impossible states: KG with two wives (bayto violated) vs. KG with no wife (bayto also violated)",
+            type: "contrast"
           },
           {
-            type: "text",
-            desc: "The keritut requirement from the Torah - the get must be a complete, unconditional severing"
+            item: "The keritut requirement from the Torah - the get must be a complete, unconditional severing",
+            type: "text"
           }
         ],
         quizSeeds: [
@@ -28602,7 +28657,8 @@ const DAF_CONTENT = {
           "Yoma.13b.1",
           "Yoma.13b.2"
         ],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "The seven failed formulas from 13a",
           "Basic rules of yibum and chalitza",
           "How conditional gitin work with retroactivity"
@@ -28624,12 +28680,12 @@ const DAF_CONTENT = {
         ],
         visualizableElements: [
           {
-            type: "sequence",
-            desc: "Two conditions, two outcomes: Wife 2 dies (Wife 1's get valid) or Wife 2 avoids synagogue (Wife 2's get valid). A decision tree with exactly one active branch."
+            item: "Two conditions, two outcomes: Wife 2 dies (Wife 1's get valid) or Wife 2 avoids synagogue (Wife 2's get valid). A decision tree with exactly one active branch.",
+            type: "sequence"
           },
           {
-            type: "text",
-            desc: "The complementary conditions as a logical diagram: P leads to Wife 1's get; not-P leads to Wife 2's get; P and not-P are mutually exclusive."
+            item: "The complementary conditions as a logical diagram: P leads to Wife 1's get; not-P leads to Wife 2's get; P and not-P are mutually exclusive.",
+            type: "text"
           }
         ],
         quizSeeds: [
@@ -28748,7 +28804,8 @@ const DAF_CONTENT = {
           "Yoma.13b.4",
           "Yoma.13b.5"
         ],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "The yibum (levirate marriage) obligation and its conditions",
           "The distinction between erusin (betrothal) and nisuin (marriage)"
         ],
@@ -28769,12 +28826,12 @@ const DAF_CONTENT = {
         ],
         visualizableElements: [
           {
-            type: "text",
-            desc: "The word 'bayto' appearing in two different biblical contexts with different legal scope"
+            item: "The word 'bayto' appearing in two different biblical contexts with different legal scope",
+            type: "text"
           },
           {
-            type: "contrast",
-            desc: "KG's 'bayto' (restrictive: exactly one wife) vs. yibum 'bayto' (inclusive: multiple women, betrothed women)"
+            item: "KG's 'bayto' (restrictive: exactly one wife) vs. yibum 'bayto' (inclusive: multiple women, betrothed women)",
+            type: "contrast"
           }
         ],
         quizSeeds: [
@@ -28921,7 +28978,8 @@ const DAF_CONTENT = {
           "Yoma.13b.6",
           "Yoma.13b.8"
         ],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "The halakhot of acute mourning (aninut) - especially the prohibition on eating kodshim",
           "The KG's unique Yom Kippur service obligation that overrides personal status"
         ],
@@ -28942,12 +29000,12 @@ const DAF_CONTENT = {
         ],
         visualizableElements: [
           {
-            type: "action",
-            desc: "The KG in full Yom Kippur garments, performing the avodah while a family member lies unburied - the intersection of public duty and private grief"
+            item: "The KG in full Yom Kippur garments, performing the avodah while a family member lies unburied - the intersection of public duty and private grief",
+            type: "action"
           },
           {
-            type: "contrast",
-            desc: "What the onen KG does (sacrifices, serves) vs. what he cannot do (eat kodshim afterward)"
+            item: "What the onen KG does (sacrifices, serves) vs. what he cannot do (eat kodshim afterward)",
+            type: "contrast"
           }
         ],
         quizSeeds: [
@@ -29528,7 +29586,8 @@ const DAF_CONTENT = {
           "Yoma.14a.1",
           "Yoma.14a.2"
         ],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "The onen KG ruling from 13b",
           "R. Yehuda's backup-wife position and its connection to Yom Kippur"
         ],
@@ -29549,12 +29608,12 @@ const DAF_CONTENT = {
         ],
         visualizableElements: [
           {
-            type: "contrast",
-            desc: "Regular day (everyone eating, decree needed to prevent onen KG from eating) vs. Yom Kippur (universal fast, no risk, no decree needed)"
+            item: "Regular day (everyone eating, decree needed to prevent onen KG from eating) vs. Yom Kippur (universal fast, no risk, no decree needed)",
+            type: "contrast"
           },
           {
-            type: "action",
-            desc: "The onen KG on a regular day vs. on Yom Kippur - same person, different context, different ruling"
+            item: "The onen KG on a regular day vs. on Yom Kippur - same person, different context, different ruling",
+            type: "action"
           }
         ],
         quizSeeds: [
@@ -29654,7 +29713,8 @@ const DAF_CONTENT = {
         conceptRefs: [
           "Yoma.14a.3"
         ],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "The seven-day impurity cycle that necessitates the sequestration",
           "The daily Temple service and its components"
         ],
@@ -29675,12 +29735,12 @@ const DAF_CONTENT = {
         ],
         visualizableElements: [
           {
-            type: "timeline",
-            desc: "Seven days of KG performing daily Temple services - building toward Yom Kippur service"
+            item: "Seven days of KG performing daily Temple services - building toward Yom Kippur service",
+            type: "timeline"
           },
           {
-            type: "place",
-            desc: "The Parhedrin chamber in the Temple - the KG's sequestration quarters for seven days before Yom Kippur"
+            item: "The Parhedrin chamber in the Temple - the KG's sequestration quarters for seven days before Yom Kippur",
+            type: "place"
           }
         ],
         quizSeeds: [
@@ -29702,7 +29762,7 @@ const DAF_CONTENT = {
           }
         ],
         finalRuling: "The KG is sequestered for seven days before Yom Kippur and performs the daily Temple services throughout that period.",
-        difficulty: "introductory",
+        difficulty: "intro",
         alternateAngles: [],
         topicTags: [
           "kehuna gedola",
@@ -29881,7 +29941,8 @@ const DAF_CONTENT = {
           "Yoma.14a.4",
           "Yoma.14a.7"
         ],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "The para aduma purification process (Numbers 19)",
           "The concept of tum'at met (corpse impurity) and its seven-day purification",
           "R. Akiva's hermeneutical methods"
@@ -29903,16 +29964,16 @@ const DAF_CONTENT = {
         ],
         visualizableElements: [
           {
-            type: "contrast",
-            desc: "The same water: touching an impure person (purification occurs) vs. touching a pure handler (impurity occurs) - two directions, one substance"
+            item: "The same water: touching an impure person (purification occurs) vs. touching a pure handler (impurity occurs) - two directions, one substance",
+            type: "contrast"
           },
           {
-            type: "action",
-            desc: "A kohen holding hyssop dipped in mei para - the water purifies the corpse-impure person being sprinkled but makes the sprinkling kohen impure"
+            item: "A kohen holding hyssop dipped in mei para - the water purifies the corpse-impure person being sprinkled but makes the sprinkling kohen impure",
+            type: "action"
           },
           {
-            type: "text",
-            desc: "Numbers 19:19 'al ha-tamei yitaher' - the verse driving R. Akiva's paradoxical ruling"
+            item: "Numbers 19:19 'al ha-tamei yitaher' - the verse driving R. Akiva's paradoxical ruling",
+            type: "text"
           }
         ],
         quizSeeds: [
@@ -30865,7 +30926,8 @@ const DAF_CONTENT = {
         conceptRefs: [
           "Yoma.14b.1"
         ],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "R. Akiva's para aduma paradox from 14a",
           "The seven-day purification sequence for corpse impurity"
         ],
@@ -30881,12 +30943,12 @@ const DAF_CONTENT = {
         ],
         visualizableElements: [
           {
-            type: "timeline",
-            desc: "Day timeline: morning-noon (service while pure) - dusk (sprinkling, then immediate immersion) - nightfall (full purity restored for next day)"
+            item: "Day timeline: morning-noon (service while pure) - dusk (sprinkling, then immediate immersion) - nightfall (full purity restored for next day)",
+            type: "timeline"
           },
           {
-            type: "sequence",
-            desc: "Abaye's resolution as a three-step process: serve, sprinkle, immerse+wait"
+            item: "Abaye's resolution as a three-step process: serve, sprinkle, immerse+wait",
+            type: "sequence"
           }
         ],
         quizSeeds: [
@@ -31033,7 +31095,8 @@ const DAF_CONTENT = {
           "Yoma.14b.2",
           "Yoma.14b.4"
         ],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "The daily Temple service order (Tamid)",
           "How the Talmud attributes anonymous mishnayot to named authors"
         ],
@@ -31054,12 +31117,12 @@ const DAF_CONTENT = {
         ],
         visualizableElements: [
           {
-            type: "contrast",
-            desc: "Tamid's order (incense first) vs. Yoma's order (lamps first) - the same daily service described in a different sequence by two Mishnaic tractates"
+            item: "Tamid's order (incense first) vs. Yoma's order (lamps first) - the same daily service described in a different sequence by two Mishnaic tractates",
+            type: "contrast"
           },
           {
-            type: "people",
-            desc: "R. Shimon ish HaMitzpah - the Tanna whose Tosefta position fingerprints him as Yoma's author, not Tamid's"
+            item: "R. Shimon ish HaMitzpah - the Tanna whose Tosefta position fingerprints him as Yoma's author, not Tamid's",
+            type: "people"
           }
         ],
         quizSeeds: [
@@ -31215,7 +31278,8 @@ const DAF_CONTENT = {
           "Yoma.14b.6",
           "Yoma.14b.8"
         ],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "The daily Temple service order (Tamid)",
           "The seven-lamp menorah and how it was cleaned",
           "The four lottery system of Yoma"
@@ -31237,16 +31301,16 @@ const DAF_CONTENT = {
         ],
         visualizableElements: [
           {
-            type: "sequence",
-            desc: "Abba Shaul's order: incense - 5 lamps - 2 lamps. Rabbanan's order: 5 lamps - incense - 2 lamps. A timeline showing the difference in incense placement."
+            item: "Abba Shaul's order: incense - 5 lamps - 2 lamps. Rabbanan's order: 5 lamps - incense - 2 lamps. A timeline showing the difference in incense placement.",
+            type: "sequence"
           },
           {
-            type: "objects",
-            desc: "The seven-branched menorah with five lamps cleaned in the first session and two in the second"
+            item: "The seven-branched menorah with five lamps cleaned in the first session and two in the second",
+            type: "objects"
           },
           {
-            type: "text",
-            desc: "The scriptural verses each side cites to justify their service order"
+            item: "The scriptural verses each side cites to justify their service order",
+            type: "text"
           }
         ],
         quizSeeds: [
@@ -32268,7 +32332,8 @@ const DAF_CONTENT = {
           "Yoma.15a.2",
           "Yoma.15a.3"
         ],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "The morning tamid service sequence",
           "Abba Shaul vs Rabbanan dispute about incense and lamp order from 14b"
         ],
@@ -32284,12 +32349,12 @@ const DAF_CONTENT = {
         ],
         visualizableElements: [
           {
-            type: "contrast",
-            desc: "Split diagram: Rabbanan (ketoret left, 5 lamps right, both morning) vs Abba Shaul (oto restricts afternoon only)"
+            item: "Split diagram: Rabbanan (ketoret left, 5 lamps right, both morning) vs Abba Shaul (oto restricts afternoon only)",
+            type: "contrast"
           },
           {
-            type: "text",
-            desc: "Exodus 30:8 with 'oto' highlighted and two interpretive arrows showing the Rabbanan and Abba Shaul readings"
+            item: "Exodus 30:8 with 'oto' highlighted and two interpretive arrows showing the Rabbanan and Abba Shaul readings",
+            type: "text"
           }
         ],
         quizSeeds: [
@@ -32445,7 +32510,8 @@ const DAF_CONTENT = {
           "Yoma.15a.5",
           "Yoma.15a.6"
         ],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "The service order controversy from 14b-15a",
           "Abba Shaul vs Rabbanan positions on ketoret order"
         ],
@@ -32462,12 +32528,12 @@ const DAF_CONTENT = {
         ],
         visualizableElements: [
           {
-            type: "contrast",
-            desc: "Two-column diagram: Rav Pappa's approach (Chapter 1 = Rabbanan, Chapter 3 = Abba Shaul) vs Abaye's approach (mishna cannot split positions)"
+            item: "Two-column diagram: Rav Pappa's approach (Chapter 1 = Rabbanan, Chapter 3 = Abba Shaul) vs Abaye's approach (mishna cannot split positions)",
+            type: "contrast"
           },
           {
-            type: "timeline",
-            desc: "Mishna chapter 1 vs chapter 3 content shown side by side with the contradiction highlighted"
+            item: "Mishna chapter 1 vs chapter 3 content shown side by side with the contradiction highlighted",
+            type: "timeline"
           }
         ],
         quizSeeds: [
@@ -32676,7 +32742,8 @@ const DAF_CONTENT = {
           "Yoma.15a.10",
           "Yoma.15a.12"
         ],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "Olah blood service: two applications at opposite corners",
           "Chatat blood service: four applications at all four horns",
           "The principle that used blood cannot serve a second halakhic function"
@@ -32698,16 +32765,16 @@ const DAF_CONTENT = {
         ],
         visualizableElements: [
           {
-            type: "sequence",
-            desc: "Four-panel sequence showing each proposed blood-application scheme and the specific principle that blocks it"
+            item: "Four-panel sequence showing each proposed blood-application scheme and the specific principle that blocks it",
+            type: "sequence"
           },
           {
-            type: "place",
-            desc: "Altar top-down diagram showing four corners, with olah corners (NE and SW) vs chatat corners (all four) highlighted"
+            item: "Altar top-down diagram showing four corners, with olah corners (NE and SW) vs chatat corners (all four) highlighted",
+            type: "place"
           },
           {
-            type: "contrast",
-            desc: "Olah vs chatat blood application compared side by side, then R. Shimon's attempted combination and why it fails"
+            item: "Olah vs chatat blood application compared side by side, then R. Shimon's attempted combination and why it fails",
+            type: "contrast"
           }
         ],
         quizSeeds: [
@@ -33776,7 +33843,8 @@ const DAF_CONTENT = {
         conceptRefs: [
           "Yoma.15b.1"
         ],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "The seven sprinklings on the inner altar from 15a",
           "R. Shimon ish HaMitzpah's blood service questions"
         ],
@@ -33792,8 +33860,8 @@ const DAF_CONTENT = {
         ],
         visualizableElements: [
           {
-            type: "place",
-            desc: "Diagram of inner altar (golden altar) with the top surface highlighted as 'tohoro' - the target of seven sprinklings"
+            item: "Diagram of inner altar (golden altar) with the top surface highlighted as 'tohoro' - the target of seven sprinklings",
+            type: "place"
           }
         ],
         quizSeeds: [
@@ -33932,7 +34000,8 @@ const DAF_CONTENT = {
           "Yoma.15b.3",
           "Yoma.15b.4"
         ],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "Olah blood applications require a yesod below",
           "Chatat blood is placed above the red line (chut ha-sikra)",
           "The Middot tractate description of the altar and its corners"
@@ -33950,12 +34019,12 @@ const DAF_CONTENT = {
         ],
         visualizableElements: [
           {
-            type: "place",
-            desc: "Altar diagram showing four corners with yesod indicated at three corners but absent from the northeast; the priest's path highlighted going right from the south ramp"
+            item: "Altar diagram showing four corners with yesod indicated at three corners but absent from the northeast; the priest's path highlighted going right from the south ramp",
+            type: "place"
           },
           {
-            type: "sequence",
-            desc: "Three-panel sequence: (1) olah first at corners with yesod; (2) northeast corner - chatat only; (3) 'always right' rule for movement direction"
+            item: "Three-panel sequence: (1) olah first at corners with yesod; (2) northeast corner - chatat only; (3) 'always right' rule for movement direction",
+            type: "sequence"
           }
         ],
         quizSeeds: [
@@ -34055,7 +34124,8 @@ const DAF_CONTENT = {
         conceptRefs: [
           "Yoma.15b.5"
         ],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "R. Shimon's dual-requirement ruling from 15a-15b",
           "The mechanics of chatat and olah blood applications"
         ],
@@ -34072,8 +34142,8 @@ const DAF_CONTENT = {
         ],
         visualizableElements: [
           {
-            type: "contrast",
-            desc: "Two reading directions of the verse: arrow from 'chatat' to 'olah' (chatat rules govern because of olah identity) vs arrow from 'olah' to 'chatat' (blood poured onto olah animal)"
+            item: "Two reading directions of the verse: arrow from 'chatat' to 'olah' (chatat rules govern because of olah identity) vs arrow from 'olah' to 'chatat' (blood poured onto olah animal)",
+            type: "contrast"
           }
         ],
         quizSeeds: [
@@ -34197,7 +34267,8 @@ const DAF_CONTENT = {
           "Yoma.15b.7",
           "Yoma.15b.8"
         ],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "The four-chamber structure of the Beit HaMoked",
           "The relationship between Tractates Yoma, Tamid, and Middot"
         ],
@@ -34213,12 +34284,12 @@ const DAF_CONTENT = {
         ],
         visualizableElements: [
           {
-            type: "place",
-            desc: "Beit HaMoked floor plan with four chambers labeled; the Chamber of the Lambs shown in two different corners per the two contradictory tractate descriptions"
+            item: "Beit HaMoked floor plan with four chambers labeled; the Chamber of the Lambs shown in two different corners per the two contradictory tractate descriptions",
+            type: "place"
           },
           {
-            type: "contrast",
-            desc: "Side-by-side: Yoma's location for the Chamber vs Middot's location"
+            item: "Side-by-side: Yoma's location for the Chamber vs Middot's location",
+            type: "contrast"
           }
         ],
         quizSeeds: [
@@ -35302,7 +35373,8 @@ const DAF_CONTENT = {
           "Yoma.16a.1",
           "Yoma.16a.2"
         ],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "The Chamber of the Lambs controversy from 15b",
           "The four-chamber Beit HaMoked structure"
         ],
@@ -35318,8 +35390,8 @@ const DAF_CONTENT = {
         ],
         visualizableElements: [
           {
-            type: "contrast",
-            desc: "Beit HaMoked floor plan with two competing chamber-location assignments: Yoma/Tamid version vs R. Eliezer ben Yaakov's Middot version"
+            item: "Beit HaMoked floor plan with two competing chamber-location assignments: Yoma/Tamid version vs R. Eliezer ben Yaakov's Middot version",
+            type: "contrast"
           }
         ],
         quizSeeds: [
@@ -35515,7 +35587,8 @@ const DAF_CONTENT = {
           "Yoma.16a.8",
           "Yoma.16a.11"
         ],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "Basic Temple layout: Heikhal, Ulam, Ezrat Nashim",
           "How measurement traditions attribute a tractate to its author"
         ],
@@ -35530,12 +35603,12 @@ const DAF_CONTENT = {
         ],
         visualizableElements: [
           {
-            type: "place",
-            desc: "Temple entrance (Ulam) showing the golden vine with donation grape clusters, layered galleries of the Ezrat Nashim visible in background"
+            item: "Temple entrance (Ulam) showing the golden vine with donation grape clusters, layered galleries of the Ezrat Nashim visible in background",
+            type: "place"
           },
           {
-            type: "sequence",
-            desc: "Timeline of the golden vine's growth: initial installation, accumulation of donations, kohanim required to move it"
+            item: "Timeline of the golden vine's growth: initial installation, accumulation of donations, kohanim required to move it",
+            type: "sequence"
           }
         ],
         quizSeeds: [
@@ -36581,7 +36654,8 @@ const DAF_CONTENT = {
           "Yoma.16b.2",
           "Yoma.16b.4"
         ],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "R. Yehuda's centered-altar position",
           "Basic Temple courtyard dimensions from Tractate Middot",
           "The attribution debate from 16a"
@@ -36598,12 +36672,12 @@ const DAF_CONTENT = {
         ],
         visualizableElements: [
           {
-            type: "place",
-            desc: "Courtyard floor plan with cubit measurements: Heikhal (N), 11 cubit gap, 32 cubit altar, 16 cubit ramp, 22 cubits to south wall. Shows altar is NOT centered."
+            item: "Courtyard floor plan with cubit measurements: Heikhal (N), 11 cubit gap, 32 cubit altar, 16 cubit ramp, 22 cubits to south wall. Shows altar is NOT centered.",
+            type: "place"
           },
           {
-            type: "contrast",
-            desc: "R. Yehuda's centered altar vs actual Middot layout with altar offset south - both drawn to scale showing why centering is impossible"
+            item: "R. Yehuda's centered altar vs actual Middot layout with altar offset south - both drawn to scale showing why centering is impossible",
+            type: "contrast"
           }
         ],
         quizSeeds: [
@@ -37655,7 +37729,8 @@ const DAF_CONTENT = {
           "Yoma.17a.1",
           "Yoma.17a.3"
         ],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "The Chamber of the Lambs debate from 15b-17a",
           "The Shewbread rotation system"
         ],
@@ -37671,12 +37746,12 @@ const DAF_CONTENT = {
         ],
         visualizableElements: [
           {
-            type: "place",
-            desc: "Beit HaMoked with Chamber of Lambs shown at SW corner (final position), with annotation showing how it appeared at NW from the south view"
+            item: "Beit HaMoked with Chamber of Lambs shown at SW corner (final position), with annotation showing how it appeared at NW from the south view",
+            type: "place"
           },
           {
-            type: "timeline",
-            desc: "Shewbread distribution on Shabbat: twelve loaves split between outgoing and incoming shifts, with KG taking his portion"
+            item: "Shewbread distribution on Shabbat: twelve loaves split between outgoing and incoming shifts, with KG taking his portion",
+            type: "timeline"
           }
         ],
         quizSeeds: [
@@ -38453,7 +38528,8 @@ const DAF_CONTENT = {
           "Yoma.17b.1",
           "Yoma.17b.2"
         ],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "The Chamber of the Lambs debate from 15b-17a",
           "The 'all turns to the right' rule in Temple service"
         ],
@@ -38468,8 +38544,8 @@ const DAF_CONTENT = {
         ],
         visualizableElements: [
           {
-            type: "place",
-            desc: "Beit HaMoked floor plan with Chamber of Lambs confirmed at SW corner; arrow showing rightward (clockwise) priestly movement path during service"
+            item: "Beit HaMoked floor plan with Chamber of Lambs confirmed at SW corner; arrow showing rightward (clockwise) priestly movement path during service",
+            type: "place"
           }
         ],
         quizSeeds: [
@@ -38625,7 +38701,8 @@ const DAF_CONTENT = {
           "Yoma.17b.3",
           "Yoma.17b.5"
         ],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "The Shewbread system (12 loaves, two shifts)",
           "The KG's first-distribution privilege",
           "The Shavuot communal loaves"
@@ -38642,12 +38719,12 @@ const DAF_CONTENT = {
         ],
         visualizableElements: [
           {
-            type: "sequence",
-            desc: "Shabbat Shewbread distribution: 12 loaves -> outgoing shift (6) + incoming shift (6). KG takes from outgoing shift first. With Shavuot loaves: 14 total, varied splits."
+            item: "Shabbat Shewbread distribution: 12 loaves -> outgoing shift (6) + incoming shift (6). KG takes from outgoing shift first. With Shavuot loaves: 14 total, varied splits.",
+            type: "sequence"
           },
           {
-            type: "contrast",
-            desc: "R. Yehuda: KG takes half (6). Rabbanan: KG takes proportional portion (4 or 5 depending on week). Two columns showing the math for each position."
+            item: "R. Yehuda: KG takes half (6). Rabbanan: KG takes proportional portion (4 or 5 depending on week). Two columns showing the math for each position.",
+            type: "contrast"
           }
         ],
         quizSeeds: [
@@ -39308,7 +39385,8 @@ const DAF_CONTENT = {
           "Yoma.18a.4",
           "Yoma.18a.5"
         ],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "The Shewbread distribution system from 17b",
           "The Yom Kippur goat lottery system",
           "The KG's seven-day preparation"
@@ -39325,12 +39403,12 @@ const DAF_CONTENT = {
         ],
         visualizableElements: [
           {
-            type: "timeline",
-            desc: "Tishrei calendar: 3 Tishrei (elders hand off KG) through 9 Tishrei (evening before Yom Kippur) - seven days of preparation"
+            item: "Tishrei calendar: 3 Tishrei (elders hand off KG) through 9 Tishrei (evening before Yom Kippur) - seven days of preparation",
+            type: "timeline"
           },
           {
-            type: "sequence",
-            desc: "Animal parade sequence: all Yom Kippur sacrifices shown to KG; special focus on the two Yom Kippur goats"
+            item: "Animal parade sequence: all Yom Kippur sacrifices shown to KG; special focus on the two Yom Kippur goats",
+            type: "sequence"
           }
         ],
         quizSeeds: [
@@ -39523,7 +39601,8 @@ const DAF_CONTENT = {
           "Yoma.18a.9",
           "Yoma.18a.10"
         ],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "Tum'at keri and its consequences for kohanim",
           "The seven-day KG preparation period",
           "The Yom Kippur goat lottery system"
@@ -39540,12 +39619,12 @@ const DAF_CONTENT = {
         ],
         visualizableElements: [
           {
-            type: "contrast",
-            desc: "First Temple (proper selection by Torah standards) vs Second Temple (wealth-based appointments)"
+            item: "First Temple (proper selection by Torah standards) vs Second Temple (wealth-based appointments)",
+            type: "contrast"
           },
           {
-            type: "sequence",
-            desc: "Elders' preparation routine: morning - read service to KG; afternoon - KG practices; evening - dietary restriction begins"
+            item: "Elders' preparation routine: morning - read service to KG; afternoon - KG practices; evening - dietary restriction begins",
+            type: "sequence"
           }
         ],
         quizSeeds: [
@@ -39684,7 +39763,8 @@ const DAF_CONTENT = {
           "Yoma.18a.14",
           "Yoma.18a.15"
         ],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "Tum'at keri and its consequences",
           "The oness principle in halacha",
           "The KG's dietary restrictions during preparation"
@@ -39701,8 +39781,8 @@ const DAF_CONTENT = {
         ],
         visualizableElements: [
           {
-            type: "sequence",
-            desc: "List of five emission-causing foods with their properties: (1) fine flour, (2) eggs, (3) garlic, (4) purslane, (5) arugula. Arugula additionally brightens eyes."
+            item: "List of five emission-causing foods with their properties: (1) fine flour, (2) eggs, (3) garlic, (4) purslane, (5) arugula. Arugula additionally brightens eyes.",
+            type: "sequence"
           }
         ],
         quizSeeds: [
@@ -40721,7 +40801,8 @@ const DAF_CONTENT = {
           "Yoma.18b.1",
           "Yoma.18b.3"
         ],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "The five emission-causing foods from 18a",
           "Kiddushin and marriage law basics",
           "The mamzerut concern"
@@ -40738,8 +40819,8 @@ const DAF_CONTENT = {
         ],
         visualizableElements: [
           {
-            type: "sequence",
-            desc: "Rav arrives in town - public announcement - woman accepts - proper kiddushin performed - they live together for the visit - Rav departs - woman counts seven clean days - she can remarry"
+            item: "Rav arrives in town - public announcement - woman accepts - proper kiddushin performed - they live together for the visit - Rav departs - woman counts seven clean days - she can remarry",
+            type: "sequence"
           }
         ],
         quizSeeds: [
@@ -40847,7 +40928,8 @@ const DAF_CONTENT = {
           "Yoma.18b.6",
           "Yoma.18b.7"
         ],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "Tum'at keri and its consequences for the Yom Kippur service",
           "The KG's seven-day preparation period"
         ],
@@ -40863,8 +40945,8 @@ const DAF_CONTENT = {
         ],
         visualizableElements: [
           {
-            type: "sequence",
-            desc: "Eve of Yom Kippur at Beit Avtinas: oath administered, elders depart, KG alone with young priests. If scholar: gives shiur all night. If not: hears Torah. If sleepy: priests snap fingers on floor to wake him."
+            item: "Eve of Yom Kippur at Beit Avtinas: oath administered, elders depart, KG alone with young priests. If scholar: gives shiur all night. If not: hears Torah. If sleepy: priests snap fingers on floor to wake him.",
+            type: "sequence"
           }
         ],
         quizSeeds: [
@@ -40878,7 +40960,7 @@ const DAF_CONTENT = {
           }
         ],
         finalRuling: "The all-night vigil is mandatory: the KG must stay awake until dawn to avoid tum'at keri. The Beit Avtinas chamber is where this takes place.",
-        difficulty: "introductory",
+        difficulty: "intro",
         alternateAngles: [],
         topicTags: [
           "KG vigil",
@@ -41569,7 +41651,8 @@ const DAF_CONTENT = {
           "Yoma.19a.4",
           "Yoma.19a.6"
         ],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "The Temple's three-court structure (outer, women's, inner/Azara)",
           "The KG's ten immersions on Yom Kippur",
           "The Sukkot water-drawing ceremony"
@@ -41586,12 +41669,12 @@ const DAF_CONTENT = {
         ],
         visualizableElements: [
           {
-            type: "place",
-            desc: "Azara floor plan showing six named chambers (3N + 3S), seven gates with names, KG's Parhedrin chamber in south, Parvah chamber roof pool"
+            item: "Azara floor plan showing six named chambers (3N + 3S), seven gates with names, KG's Parhedrin chamber in south, Parvah chamber roof pool",
+            type: "place"
           },
           {
-            type: "sequence",
-            desc: "KG's daily seven-day routine: wake up, relieve self, south for immersion, north to Beit Avtinas for incense practice, full day of service, dusk purification"
+            item: "KG's daily seven-day routine: wake up, relieve self, south for immersion, north to Beit Avtinas for incense practice, full day of service, dusk purification",
+            type: "sequence"
           }
         ],
         quizSeeds: [
@@ -41748,7 +41831,8 @@ const DAF_CONTENT = {
           "Yoma.19a.8",
           "Yoma.19a.10"
         ],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "The six Azara chambers from 19a-s01",
           "The KG's daily routine during seven days preparation"
         ],
@@ -41764,8 +41848,8 @@ const DAF_CONTENT = {
         ],
         visualizableElements: [
           {
-            type: "sequence",
-            desc: "Two routing diagrams: (A) Parhedrin in south - efficient morning route; (B) Parhedrin in north - roundabout route. Shows why south is preferred."
+            item: "Two routing diagrams: (A) Parhedrin in south - efficient morning route; (B) Parhedrin in north - roundabout route. Shows why south is preferred.",
+            type: "sequence"
           }
         ],
         quizSeeds: [
@@ -41847,7 +41931,8 @@ const DAF_CONTENT = {
         conceptRefs: [
           "Yoma.19a.13"
         ],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "Basic shlichut (agency) principles in halacha",
           "Forbidden-benefit vows (nedarim) that could block kohen-offerer relationships"
         ],
@@ -41862,8 +41947,8 @@ const DAF_CONTENT = {
         ],
         visualizableElements: [
           {
-            type: "contrast",
-            desc: "Two diagrams: (A) shlichei shamayim - kohen -> God -> sacrifice, offerer has no direct connection; (B) shlichei Yisrael - offerer -> kohen (as agent) -> sacrifice, kohen-offerer relationship matters"
+            item: "Two diagrams: (A) shlichei shamayim - kohen -> God -> sacrifice, offerer has no direct connection; (B) shlichei Yisrael - offerer -> kohen (as agent) -> sacrifice, kohen-offerer relationship matters",
+            type: "contrast"
           }
         ],
         quizSeeds: [
@@ -42871,7 +42956,8 @@ const DAF_CONTENT = {
           "Yoma.19b.4",
           "Yoma.19b.5"
         ],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "The Yom Kippur incense service sequence",
           "The Sadducee/Pharisee dispute on the incense order",
           "The agency question from 19a"
@@ -42888,12 +42974,12 @@ const DAF_CONTENT = {
         ],
         visualizableElements: [
           {
-            type: "contrast",
-            desc: "Two diagrams of the incense service: (A) Pharisaic: KG enters empty-handed, places incense on coals inside (darkness, then smoke rises); (B) Sadducee: KG lights incense outside, enters already smoking"
+            item: "Two diagrams of the incense service: (A) Pharisaic: KG enters empty-handed, places incense on coals inside (darkness, then smoke rises); (B) Sadducee: KG lights incense outside, enters already smoking",
+            type: "contrast"
           },
           {
-            type: "sequence",
-            desc: "Oath ceremony sequence: elders adjure KG - both parties weep - why each cried - the Sadducee incident illustration"
+            item: "Oath ceremony sequence: elders adjure KG - both parties weep - why each cried - the Sadducee incident illustration",
+            type: "sequence"
           }
         ],
         quizSeeds: [
@@ -43051,7 +43137,8 @@ const DAF_CONTENT = {
           "Yoma.19b.7",
           "Yoma.19b.8"
         ],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "The structure of Kriat Shema (first and second paragraphs)",
           "The rules about audible vs silent prayer"
         ],
@@ -43064,8 +43151,8 @@ const DAF_CONTENT = {
         relatedSugyot: [],
         visualizableElements: [
           {
-            type: "contrast",
-            desc: "Two columns: permitted during first paragraph (gestures, thoughts) vs forbidden (any speech except life-threatening need); same for second paragraph with slightly more flexibility"
+            item: "Two columns: permitted during first paragraph (gestures, thoughts) vs forbidden (any speech except life-threatening need); same for second paragraph with slightly more flexibility",
+            type: "contrast"
           }
         ],
         quizSeeds: [
@@ -43241,7 +43328,8 @@ const DAF_CONTENT = {
           "Yoma.19b.13",
           "Yoma.19b.15"
         ],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "The all-night KG vigil from 18b",
           "The tamid service and its dawn-announcement system"
         ],
@@ -43257,12 +43345,12 @@ const DAF_CONTENT = {
         ],
         visualizableElements: [
           {
-            type: "sequence",
-            desc: "All-night vigil: midnight - priests snap tzarda fingers if KG dozes; 2am - KG walks floor barefoot; 3am - priests show Torah insights and sing Psalm 127; dawn - 'has the light reached Hebron?' announcement"
+            item: "All-night vigil: midnight - priests snap tzarda fingers if KG dozes; 2am - KG walks floor barefoot; 3am - priests show Torah insights and sing Psalm 127; dawn - 'has the light reached Hebron?' announcement",
+            type: "sequence"
           },
           {
-            type: "person",
-            desc: "The 'kidda' bow: person pressing big toes to ground and bowing forward to near-floor level, then rising"
+            item: "The 'kidda' bow: person pressing big toes to ground and bowing forward to near-floor level, then rising",
+            type: "person"
           }
         ],
         quizSeeds: [
@@ -43276,7 +43364,7 @@ const DAF_CONTENT = {
           }
         ],
         finalRuling: "The vigil continues until dawn when the tamid slaughter begins. All methods (finger-snap, floor-walking, Torah study, Psalm singing) are legitimate and permitted.",
-        difficulty: "introductory",
+        difficulty: "intro",
         alternateAngles: [],
         topicTags: [
           "vigil methods",
@@ -44375,12 +44463,12 @@ const DAF_CONTENT = {
         ],
         visualizableElements: [
           {
-            type: "text",
-            description: "Hebrew letters of HaSatan with their numerical values: heh(5), shin(300), tet(9), nun(50) summing to 364"
+            item: "Hebrew letters of HaSatan with their numerical values: heh(5), shin(300), tet(9), nun(50) summing to 364",
+            type: "text"
           },
           {
-            type: "timeline",
-            description: "365-day solar year with 364 days marked for Satan's prosecution and Yom Kippur marked as the silent day"
+            item: "365-day solar year with 364 days marked for Satan's prosecution and Yom Kippur marked as the silent day",
+            type: "timeline"
           }
         ],
         quizSeeds: [
@@ -44394,7 +44482,7 @@ const DAF_CONTENT = {
           }
         ],
         finalRuling: "Aggadic teaching: Satan has no power to prosecute on Yom Kippur.",
-        difficulty: "introductory",
+        difficulty: "intro",
         alternateAngles: [],
         topicTags: [
           "Satan",
@@ -44468,12 +44556,12 @@ const DAF_CONTENT = {
         ],
         visualizableElements: [
           {
-            type: "timeline",
-            description: "Night timeline showing first watch, midnight, keriat hagever (before dawn) with corresponding day types labeled"
+            item: "Night timeline showing first watch, midnight, keriat hagever (before dawn) with corresponding day types labeled",
+            type: "timeline"
           },
           {
-            type: "place",
-            description: "Temple courtyard packed with pilgrims on a Festival morning before the rooster crows"
+            item: "Temple courtyard packed with pilgrims on a Festival morning before the rooster crows",
+            type: "place"
           }
         ],
         quizSeeds: [
@@ -44487,7 +44575,7 @@ const DAF_CONTENT = {
           }
         ],
         finalRuling: "Ash removal on ordinary days: at keriat hagever; Yom Kippur: from midnight; Festivals: from the first watch.",
-        difficulty: "introductory",
+        difficulty: "intro",
         alternateAngles: [],
         topicTags: [
           "terumat hadeshen",
@@ -44587,12 +44675,12 @@ const DAF_CONTENT = {
         ],
         visualizableElements: [
           {
-            type: "timeline",
-            description: "Night timeline split at midnight: first half labeled 'burning' (v'hiktir), second half labeled 'ash removal' (v'herim)"
+            item: "Night timeline split at midnight: first half labeled 'burning' (v'hiktir), second half labeled 'ash removal' (v'herim)",
+            type: "timeline"
           },
           {
-            type: "text",
-            description: "Two Leviticus verses side by side: Lev 6:2 'all night he shall burn it' and Lev 6:3 'all night he shall remove the ashes'"
+            item: "Two Leviticus verses side by side: Lev 6:2 'all night he shall burn it' and Lev 6:3 'all night he shall remove the ashes'",
+            type: "text"
           }
         ],
         quizSeeds: [
@@ -45325,12 +45413,12 @@ const DAF_CONTENT = {
         ],
         visualizableElements: [
           {
-            type: "contrast",
-            description: "Two interpretations of the verse: Rav (midnight fixed) vs. R. Yochanan (flexible, before dawn)"
+            item: "Two interpretations of the verse: Rav (midnight fixed) vs. R. Yochanan (flexible, before dawn)",
+            type: "contrast"
           },
           {
-            type: "sequence",
-            description: "Three timing tiers: first watch (Festivals) - midnight (Yom Kippur) - keriat hagever (ordinary), all resolved by R. Yochanan's reading"
+            item: "Three timing tiers: first watch (Festivals) - midnight (Yom Kippur) - keriat hagever (ordinary), all resolved by R. Yochanan's reading",
+            type: "sequence"
           }
         ],
         quizSeeds: [
@@ -45455,12 +45543,12 @@ const DAF_CONTENT = {
         ],
         visualizableElements: [
           {
-            type: "contrast",
-            description: "Two interpretations of 'gever': a rooster crowing at dawn vs. a human Temple announcer calling out to the priests"
+            item: "Two interpretations of 'gever': a rooster crowing at dawn vs. a human Temple announcer calling out to the priests",
+            type: "contrast"
           },
           {
-            type: "person",
-            description: "Gevini the Crier standing in the Temple courtyard; his voice carries three parasangs (roughly 8 miles)"
+            item: "Gevini the Crier standing in the Temple courtyard; his voice carries three parasangs (roughly 8 miles)",
+            type: "person"
           }
         ],
         quizSeeds: [
@@ -45588,16 +45676,16 @@ const DAF_CONTENT = {
         ],
         visualizableElements: [
           {
-            type: "place",
-            description: "Map showing Temple Mount to Jericho (10 parasangs/27 miles) with labeled sounds reaching each distance"
+            item: "Map showing Temple Mount to Jericho (10 parasangs/27 miles) with labeled sounds reaching each distance",
+            type: "place"
           },
           {
-            type: "action",
-            description: "King Agrippa hearing Gevini's proclamation from three parasangs away and sending gifts to the Temple"
+            item: "King Agrippa hearing Gevini's proclamation from three parasangs away and sending gifts to the Temple",
+            type: "action"
           },
           {
-            type: "relationship",
-            description: "R. Levi's cosmological diagram: sun roaring across sky by day, passing behind firmament at night where its noise meets Rome's din"
+            item: "R. Levi's cosmological diagram: sun roaring across sky by day, passing behind firmament at night where its noise meets Rome's din",
+            type: "relationship"
           }
         ],
         quizSeeds: [
@@ -45611,7 +45699,7 @@ const DAF_CONTENT = {
           }
         ],
         finalRuling: "Aggadic: Temple sounds reached Jericho. Night is quieter than day because the sun's roar and Rome's din cancel each other on the far side of the firmament.",
-        difficulty: "introductory",
+        difficulty: "intro",
         alternateAngles: [],
         topicTags: [
           "Temple sounds",
@@ -46619,12 +46707,12 @@ const DAF_CONTENT = {
         ],
         visualizableElements: [
           {
-            type: "person",
-            description: "Ridya: an angelic being in heifer-form with an open face, standing between layers of cosmic waters"
+            item: "Ridya: an angelic being in heifer-form with an open face, standing between layers of cosmic waters",
+            type: "person"
           },
           {
-            type: "relationship",
-            description: "Upper waters - Ridya - lower waters: the three-tier cosmic water system with Ridya as mediating angel"
+            item: "Upper waters - Ridya - lower waters: the three-tier cosmic water system with Ridya as mediating angel",
+            type: "relationship"
           }
         ],
         quizSeeds: [
@@ -46638,7 +46726,7 @@ const DAF_CONTENT = {
           }
         ],
         finalRuling: "Baraita supports R. Sheila. Ridya is the rain angel between cosmic waters.",
-        difficulty: "introductory",
+        difficulty: "intro",
         alternateAngles: [],
         topicTags: [
           "Ridya",
@@ -46788,16 +46876,16 @@ const DAF_CONTENT = {
         ],
         visualizableElements: [
           {
-            type: "action",
-            description: "Hundreds of thousands of pilgrims packed in the Temple courtyard, then prostrating with supernatural space between each person"
+            item: "Hundreds of thousands of pilgrims packed in the Temple courtyard, then prostrating with supernatural space between each person",
+            type: "action"
           },
           {
-            type: "action",
-            description: "The altar fire burning through rain with the smoke rising perfectly straight upward"
+            item: "The altar fire burning through rain with the smoke rising perfectly straight upward",
+            type: "action"
           },
           {
-            type: "sequence",
-            description: "Five miracle categories listed in order: space, safety, lodging, fire, smoke"
+            item: "Five miracle categories listed in order: space, safety, lodging, fire, smoke",
+            type: "sequence"
           }
         ],
         quizSeeds: [
@@ -46811,7 +46899,7 @@ const DAF_CONTENT = {
           }
         ],
         finalRuling: "Five ongoing miracles of the Temple were maintained throughout its existence.",
-        difficulty: "introductory",
+        difficulty: "intro",
         alternateAngles: [],
         topicTags: [
           "Temple miracles",
@@ -47813,12 +47901,12 @@ const DAF_CONTENT = {
         ],
         visualizableElements: [
           {
-            type: "contrast",
-            description: "First Temple vs. Second Temple: five elements present vs. absent, shown as a side-by-side comparison"
+            item: "First Temple vs. Second Temple: five elements present vs. absent, shown as a side-by-side comparison",
+            type: "contrast"
           },
           {
-            type: "object",
-            description: "The Ark of the Covenant with its cherubs and kapporet - the central absent element of the Second Temple"
+            item: "The Ark of the Covenant with its cherubs and kapporet - the central absent element of the Second Temple",
+            type: "object"
           }
         ],
         quizSeeds: [
@@ -47972,12 +48060,12 @@ const DAF_CONTENT = {
         ],
         visualizableElements: [
           {
-            type: "contrast",
-            description: "Two altar diagrams: First Temple smoke rising perfectly straight; Second Temple smoke behavior debated"
+            item: "Two altar diagrams: First Temple smoke rising perfectly straight; Second Temple smoke behavior debated",
+            type: "contrast"
           },
           {
-            type: "action",
-            description: "Wind blowing across the Temple Mount while the altar smoke rises straight upward - defying the wind"
+            item: "Wind blowing across the Temple Mount while the altar smoke rises straight upward - defying the wind",
+            type: "action"
           }
         ],
         quizSeeds: [
@@ -48125,12 +48213,12 @@ const DAF_CONTENT = {
         ],
         visualizableElements: [
           {
-            type: "object",
-            description: "The altar with two distinct fire arrangements labeled: ma'aracha gedola (large, for offerings) and ma'aracha ketana (small, for incense coals)"
+            item: "The altar with two distinct fire arrangements labeled: ma'aracha gedola (large, for offerings) and ma'aracha ketana (small, for incense coals)",
+            type: "object"
           },
           {
-            type: "action",
-            description: "Divine fire descending from heaven onto the altar while a priest simultaneously adds wood - fulfilling both the divine and human fire requirements"
+            item: "Divine fire descending from heaven onto the altar while a priest simultaneously adds wood - fulfilling both the divine and human fire requirements",
+            type: "action"
           }
         ],
         quizSeeds: [
@@ -49025,16 +49113,16 @@ const DAF_CONTENT = {
         ],
         visualizableElements: [
           {
-            type: "action",
-            description: "Priests racing up the altar ramp in the early morning before dawn to be first to remove the ashes"
+            item: "Priests racing up the altar ramp in the early morning before dawn to be first to remove the ashes",
+            type: "action"
           },
           {
-            type: "action",
-            description: "Count-off procedure: priests extending fingers, an officer counting to a predetermined number"
+            item: "Count-off procedure: priests extending fingers, an officer counting to a predetermined number",
+            type: "action"
           },
           {
-            type: "contrast",
-            description: "Saul vs. David: similar sins with drastically different consequences; diagram of repentance as the key variable"
+            item: "Saul vs. David: similar sins with drastically different consequences; diagram of repentance as the key variable",
+            type: "contrast"
           }
         ],
         quizSeeds: [
@@ -49152,16 +49240,16 @@ const DAF_CONTENT = {
         ],
         visualizableElements: [
           {
-            type: "action",
-            description: "Two priests racing up the altar ramp, one pushing the other and stabbing him with a knife"
+            item: "Two priests racing up the altar ramp, one pushing the other and stabbing him with a knife",
+            type: "action"
           },
           {
-            type: "action",
-            description: "The wounded priest's father rushing up the ramp to remove the knife before his son dies, to prevent the knife from contracting corpse impurity"
+            item: "The wounded priest's father rushing up the ramp to remove the knife before his son dies, to prevent the knife from contracting corpse impurity",
+            type: "action"
           },
           {
-            type: "contrast",
-            description: "Before lottery: chaotic race up the ramp. After lottery: orderly selection in the chamber of hewn stone"
+            item: "Before lottery: chaotic race up the ramp. After lottery: orderly selection in the chamber of hewn stone",
+            type: "contrast"
           }
         ],
         quizSeeds: [
@@ -49175,7 +49263,7 @@ const DAF_CONTENT = {
           }
         ],
         finalRuling: "After the stabbing incident on the altar ramp, the Sages instituted the lottery system for all Temple service assignments.",
-        difficulty: "introductory",
+        difficulty: "intro",
         alternateAngles: [],
         topicTags: [
           "lottery",
@@ -50205,8 +50293,8 @@ const DAF_CONTENT = {
         ],
         visualizableElements: [
           {
-            type: "object",
-            description: "The altar ramp (kevesh) with measurements labeled: 30 amot rise, 1 amah lip, 1 amah body = 32 total"
+            item: "The altar ramp (kevesh) with measurements labeled: 30 amot rise, 1 amah lip, 1 amah body = 32 total",
+            type: "object"
           }
         ],
         quizSeeds: [
@@ -50216,7 +50304,7 @@ const DAF_CONTENT = {
           }
         ],
         finalRuling: "The altar ramp was 32 amot according to R. Yosi b. R. Yehuda.",
-        difficulty: "introductory",
+        difficulty: "intro",
         alternateAngles: [],
         topicTags: [
           "altar ramp",
@@ -50351,16 +50439,16 @@ const DAF_CONTENT = {
         ],
         visualizableElements: [
           {
-            type: "sequence",
-            description: "Four lotteries in order: (1) ash removal, (2) 13-position main service, (3) incense for first-timers, (4) limbs to altar"
+            item: "Four lotteries in order: (1) ash removal, (2) 13-position main service, (3) incense for first-timers, (4) limbs to altar",
+            type: "sequence"
           },
           {
-            type: "place",
-            description: "The Chamber of Hewn Stone (lishkat hagazit) where the morning lottery was conducted"
+            item: "The Chamber of Hewn Stone (lishkat hagazit) where the morning lottery was conducted",
+            type: "place"
           },
           {
-            type: "action",
-            description: "Priests extending fingers; an officer counting to a named number to determine who performs each service"
+            item: "Priests extending fingers; an officer counting to a named number to determine who performs each service",
+            type: "action"
           }
         ],
         quizSeeds: [
@@ -50548,12 +50636,12 @@ const DAF_CONTENT = {
         ],
         visualizableElements: [
           {
-            type: "contrast",
-            description: "Saul: 'I have sinned - now honor me before the elders.' David: 'I have sinned to God' - then accepted Nathan's rebuke without protest."
+            item: "Saul: 'I have sinned - now honor me before the elders.' David: 'I have sinned to God' - then accepted Nathan's rebuke without protest.",
+            type: "contrast"
           },
           {
-            type: "person",
-            description: "Saul standing before Samuel, asking for honor despite his admission of sin"
+            item: "Saul standing before Samuel, asking for honor despite his admission of sin",
+            type: "person"
           }
         ],
         quizSeeds: [
@@ -50694,12 +50782,12 @@ const DAF_CONTENT = {
         ],
         visualizableElements: [
           {
-            type: "narrative",
-            description: "David telling Evyatar the survivor of Nov: 'I knew Doeg was there; I am responsible for your father's house'"
+            item: "David telling Evyatar the survivor of Nov: 'I knew Doeg was there; I am responsible for your father's house'",
+            type: "narrative"
           },
           {
-            type: "person",
-            description: "David weeping over Absalom: unable to issue military orders against his own son despite the political necessity"
+            item: "David weeping over Absalom: unable to issue military orders against his own son despite the political necessity",
+            type: "person"
           }
         ],
         quizSeeds: [
@@ -51366,8 +51454,8 @@ const DAF_CONTENT = {
         ],
         visualizableElements: [
           {
-            type: "contrast",
-            description: "Two cases: scholar forgoes personal insult (permitted) vs. scholar forgoes Torah insult (not permitted) - shown as a decision tree"
+            item: "Two cases: scholar forgoes personal insult (permitted) vs. scholar forgoes Torah insult (not permitted) - shown as a decision tree",
+            type: "contrast"
           }
         ],
         quizSeeds: [
@@ -51518,12 +51606,12 @@ const DAF_CONTENT = {
         ],
         visualizableElements: [
           {
-            type: "action",
-            description: "Priests gathered in the Chamber of Hewn Stone in a circle; supervisor loosening his garment; priests extending fingers for the count"
+            item: "Priests gathered in the Chamber of Hewn Stone in a circle; supervisor loosening his garment; priests extending fingers for the count",
+            type: "action"
           },
           {
-            type: "place",
-            description: "The Chamber of Hewn Stone with its semi-circular seating for the Sanhedrin also serving as the lottery room"
+            item: "The Chamber of Hewn Stone with its semi-circular seating for the Sanhedrin also serving as the lottery room",
+            type: "place"
           }
         ],
         quizSeeds: [
@@ -51675,12 +51763,12 @@ const DAF_CONTENT = {
         ],
         visualizableElements: [
           {
-            type: "action",
-            description: "A priest stabbed and lying on the altar ramp with a knife embedded; the court assembled around him trying to determine the halachic status"
+            item: "A priest stabbed and lying on the altar ramp with a knife embedded; the court assembled around him trying to determine the halachic status",
+            type: "action"
           },
           {
-            type: "person",
-            description: "The wounded priest's father approaching the court and making a halakhic announcement about knife impurity rather than calling for medical help"
+            item: "The wounded priest's father approaching the court and making a halakhic announcement about knife impurity rather than calling for medical help",
+            type: "person"
           }
         ],
         quizSeeds: [
@@ -51694,7 +51782,7 @@ const DAF_CONTENT = {
           }
         ],
         finalRuling: "The stabbing incident led directly to the institution of the lottery system for all Temple service assignments.",
-        difficulty: "introductory",
+        difficulty: "intro",
         alternateAngles: [],
         topicTags: [
           "stabbing incident",
@@ -52457,12 +52545,12 @@ const DAF_CONTENT = {
         ],
         visualizableElements: [
           {
-            type: "contrast",
-            description: "Normal city: divided among tribes, can be 'measured to' for egla arufa. Jerusalem: undivided, belongs to all Israel, exempt from the egla arufa ritual."
+            item: "Normal city: divided among tribes, can be 'measured to' for egla arufa. Jerusalem: undivided, belongs to all Israel, exempt from the egla arufa ritual.",
+            type: "contrast"
           },
           {
-            type: "action",
-            description: "The egla arufa ritual in a valley outside a normal city - showing what Jerusalem is explicitly exempt from"
+            item: "The egla arufa ritual in a valley outside a normal city - showing what Jerusalem is explicitly exempt from",
+            type: "action"
           }
         ],
         quizSeeds: [
@@ -52685,16 +52773,16 @@ const DAF_CONTENT = {
         ],
         visualizableElements: [
           {
-            type: "object",
-            description: "A priest in worn (but valid) priestly garments taking a fistful of ash from the top of the altar heap"
+            item: "A priest in worn (but valid) priestly garments taking a fistful of ash from the top of the altar heap",
+            type: "object"
           },
           {
-            type: "place",
-            description: "The east side of the altar ramp where the daily ash from the outer altar is deposited and absorbed into the ground"
+            item: "The east side of the altar ramp where the daily ash from the outer altar is deposited and absorbed into the ground",
+            type: "place"
           },
           {
-            type: "sequence",
-            description: "Three ash types and their destinations: outer altar ash (east of ramp), inner altar ash (designated clean area), menorah ash (outside Temple entirely)"
+            item: "Three ash types and their destinations: outer altar ash (east of ramp), inner altar ash (designated clean area), menorah ash (outside Temple entirely)",
+            type: "sequence"
           }
         ],
         quizSeeds: [
@@ -53779,12 +53867,12 @@ const DAF_CONTENT = {
         ],
         visualizableElements: [
           {
-            type: "contrast",
-            description: "Standard priestly four garments (full size, fine) vs. ash removal four garments (quarter size, worn) - same type, different dimensions"
+            item: "Standard priestly four garments (full size, fine) vs. ash removal four garments (quarter size, worn) - same type, different dimensions",
+            type: "contrast"
           },
           {
-            type: "object",
-            description: "A priest in smaller worn linen garments removing ash from the altar, with the fine garments hung nearby for the main morning service"
+            item: "A priest in smaller worn linen garments removing ash from the altar, with the fine garments hung nearby for the main morning service",
+            type: "object"
           }
         ],
         quizSeeds: [
@@ -53874,8 +53962,8 @@ const DAF_CONTENT = {
         ],
         visualizableElements: [
           {
-            type: "object",
-            description: "A golden pan (machta shel zahav) being filled with a fistful of ash from the top of the altar heap"
+            item: "A golden pan (machta shel zahav) being filled with a fistful of ash from the top of the altar heap",
+            type: "object"
           }
         ],
         quizSeeds: [
@@ -53885,7 +53973,7 @@ const DAF_CONTENT = {
           }
         ],
         finalRuling: "A fistful of ash from the top of the altar heap is placed in the golden pan. Fixed quantity, specific location.",
-        difficulty: "introductory",
+        difficulty: "intro",
         alternateAngles: [],
         topicTags: [
           "ash removal",
@@ -54007,12 +54095,12 @@ const DAF_CONTENT = {
         ],
         visualizableElements: [
           {
-            type: "contrast",
-            description: "Service tasks (priests only: blood, sprinkling, burning) vs. support tasks (non-priests eligible: slaughter, wood, ash carrying). Shown as two columns."
+            item: "Service tasks (priests only: blood, sprinkling, burning) vs. support tasks (non-priests eligible: slaughter, wood, ash carrying). Shown as two columns.",
+            type: "contrast"
           },
           {
-            type: "action",
-            description: "An Israelite (non-priest) slaughtering an offering while a priest stands ready to receive the blood in a sacred vessel"
+            item: "An Israelite (non-priest) slaughtering an offering while a priest stands ready to receive the blood in a sacred vessel",
+            type: "action"
           }
         ],
         quizSeeds: [
@@ -54946,12 +55034,12 @@ const DAF_CONTENT = {
         ],
         visualizableElements: [
           {
-            type: "place",
-            description: "Temple floor plan showing the three zones: Holy of Holies (KG only on Yom Kippur), Heichal (common priests), Courtyard (any kosher kohen) - with personnel requirements labeled"
+            item: "Temple floor plan showing the three zones: Holy of Holies (KG only on Yom Kippur), Heichal (common priests), Courtyard (any kosher kohen) - with personnel requirements labeled",
+            type: "place"
           },
           {
-            type: "contrast",
-            description: "Unblemished kohen vs. blemished kohen: same priestly status, different service eligibility"
+            item: "Unblemished kohen vs. blemished kohen: same priestly status, different service eligibility",
+            type: "contrast"
           }
         ],
         quizSeeds: [
@@ -55093,12 +55181,12 @@ const DAF_CONTENT = {
         ],
         visualizableElements: [
           {
-            type: "sequence",
-            description: "The 13 positions of the second lottery listed in order: slaughter, blood, inner altar, menorah, then 9 carriers in the order of the tamid limbs"
+            item: "The 13 positions of the second lottery listed in order: slaughter, blood, inner altar, menorah, then 9 carriers in the order of the tamid limbs",
+            type: "sequence"
           },
           {
-            type: "action",
-            description: "13 priests each carrying a different part of the morning offering in procession from the slaughter area to the altar"
+            item: "13 priests each carrying a different part of the morning offering in procession from the slaughter area to the altar",
+            type: "action"
           }
         ],
         quizSeeds: [
@@ -56185,7 +56273,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "daily lottery system",
           "bigdei kehuna (priestly garments)",
           "Temple court layout"
@@ -56206,14 +56295,14 @@ const DAF_CONTENT = {
         ],
         visualizableElements: [
           {
+            item: "Building straddling the sacred/non-sacred boundary with doors opening in both directions",
             type: "place",
-            label: "Chamber of Hewn Stone",
-            description: "Building straddling the sacred/non-sacred boundary with doors opening in both directions"
+            label: "Chamber of Hewn Stone"
           },
           {
+            item: "Priests in sacred headdresses inside the chamber vs common attire outside",
             type: "contrast",
-            label: "Sacred vs non-sacred garments",
-            description: "Priests in sacred headdresses inside the chamber vs common attire outside"
+            label: "Sacred vs non-sacred garments"
           }
         ],
         quizSeeds: [
@@ -56321,7 +56410,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "tamid (daily offering)",
           "thirteen Temple tasks",
           "lottery system"
@@ -56342,14 +56432,14 @@ const DAF_CONTENT = {
         ],
         visualizableElements: [
           {
+            item: "Ordered list of 13 tamid tasks assigned by the second lottery",
             type: "sequence",
-            label: "Thirteen lottery tasks",
-            description: "Ordered list of 13 tamid tasks assigned by the second lottery"
+            label: "Thirteen lottery tasks"
           },
           {
+            item: "Which limbs were carried together by one priest to the altar ramp",
             type: "relationship",
-            label: "Limb pairing",
-            description: "Which limbs were carried together by one priest to the altar ramp"
+            label: "Limb pairing"
           }
         ],
         quizSeeds: [
@@ -56363,7 +56453,7 @@ const DAF_CONTENT = {
           }
         ],
         finalRuling: "The mishna's sequence is the operative practice; Ben Azzai's tradition opens a debate continued on 25b.",
-        difficulty: "introductory",
+        difficulty: "intro",
         alternateAngles: [],
         topicTags: [
           "tamid service",
@@ -57360,7 +57450,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "second lottery",
           "tamid service",
           "ketoret (incense) offering"
@@ -57381,14 +57472,14 @@ const DAF_CONTENT = {
         ],
         visualizableElements: [
           {
+            item: "Visual showing why some task pairs are inherently linked while others are distinct",
             type: "contrast",
-            label: "Coal + incense (inseparable) vs slaughter + sprinkling (separable)",
-            description: "Visual showing why some task pairs are inherently linked while others are distinct"
+            label: "Coal + incense (inseparable) vs slaughter + sprinkling (separable)"
           },
           {
+            item: "How groups of related tasks were assigned in one lottery round",
             type: "sequence",
-            label: "Lottery assignment method",
-            description: "How groups of related tasks were assigned in one lottery round"
+            label: "Lottery assignment method"
           }
         ],
         quizSeeds: [
@@ -57500,7 +57591,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "tamid blood service",
           "four blood services",
           "zerikah (sprinkling)"
@@ -57521,14 +57613,14 @@ const DAF_CONTENT = {
         ],
         visualizableElements: [
           {
+            item: "One priest: collects blood from neck, carries to altar, sprinkles on corners",
             type: "sequence",
-            label: "Blood service chain",
-            description: "One priest: collects blood from neck, carries to altar, sprinkles on corners"
+            label: "Blood service chain"
           },
           {
+            item: "Two distinct roles: slaughterer ends his service at the neck; the sprinkler begins at the same moment",
             type: "relationship",
-            label: "Slaughterer vs blood handler",
-            description: "Two distinct roles: slaughterer ends his service at the neck; the sprinkler begins at the same moment"
+            label: "Slaughterer vs blood handler"
           }
         ],
         quizSeeds: [
@@ -57650,7 +57742,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "tamid service",
           "limb distribution",
           "Temple altar ramp"
@@ -57671,14 +57764,14 @@ const DAF_CONTENT = {
         ],
         visualizableElements: [
           {
+            item: "Sequence from head+right leg through the remaining limbs to the altar",
             type: "sequence",
-            label: "Tamid limb carrying order",
-            description: "Sequence from head+right leg through the remaining limbs to the altar"
+            label: "Tamid limb carrying order"
           },
           {
+            item: "Three traditions for the order of limbs, with Rava showing they converge on the head-first principle",
             type: "contrast",
-            label: "Mishna vs Ben Azzai vs R. Akiva",
-            description: "Three traditions for the order of limbs, with Rava showing they converge on the head-first principle"
+            label: "Mishna vs Ben Azzai vs R. Akiva"
           }
         ],
         quizSeeds: [
@@ -58658,7 +58751,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "second lottery",
           "tamid service"
         ],
@@ -58673,9 +58767,9 @@ const DAF_CONTENT = {
         ],
         visualizableElements: [
           {
+            item: "Brief statement connecting lottery discussions across pages",
             type: "text",
-            label: "Transitional ruling",
-            description: "Brief statement connecting lottery discussions across pages"
+            label: "Transitional ruling"
           }
         ],
         quizSeeds: [
@@ -58685,7 +58779,7 @@ const DAF_CONTENT = {
           }
         ],
         finalRuling: "Transitional; connects to the third lottery mishna that follows.",
-        difficulty: "introductory",
+        difficulty: "intro",
         alternateAngles: [],
         topicTags: [
           "lottery",
@@ -58788,7 +58882,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "third lottery",
           "ketoret offering",
           "inner altar"
@@ -58809,14 +58904,14 @@ const DAF_CONTENT = {
         ],
         visualizableElements: [
           {
+            item: "A young kohen burning ketoret for the only time in his life, knowing this is his one opportunity",
             type: "person",
-            label: "First-time incense priest",
-            description: "A young kohen burning ketoret for the only time in his life, knowing this is his one opportunity"
+            label: "First-time incense priest"
           },
           {
+            item: "The connection between offering the most intimate Temple service and receiving divine blessing",
             type: "relationship",
-            label: "Ketoret to wealth",
-            description: "The connection between offering the most intimate Temple service and receiving divine blessing"
+            label: "Ketoret to wealth"
           }
         ],
         quizSeeds: [
@@ -58830,7 +58925,7 @@ const DAF_CONTENT = {
           }
         ],
         finalRuling: "The ketoret lottery was restricted to first-time participants. The spiritual-material reward framework is established by the Gemara but not codified as law.",
-        difficulty: "introductory",
+        difficulty: "intro",
         alternateAngles: [],
         topicTags: [
           "ketoret",
@@ -58936,7 +59031,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "tamid service",
           "musaf offering",
           "Shabbat Temple service"
@@ -58957,14 +59053,14 @@ const DAF_CONTENT = {
         ],
         visualizableElements: [
           {
+            item: "On weekdays: morning lottery covers afternoon. On Shabbat: new afternoon lottery required due to musaf offerings",
             type: "contrast",
-            label: "Weekday vs Shabbat lottery",
-            description: "On weekdays: morning lottery covers afternoon. On Shabbat: new afternoon lottery required due to musaf offerings"
+            label: "Weekday vs Shabbat lottery"
           },
           {
+            item: "Same priests from morning lottery serve through the afternoon tamid on weekdays",
             type: "timeline",
-            label: "Morning-to-afternoon service continuity",
-            description: "Same priests from morning lottery serve through the afternoon tamid on weekdays"
+            label: "Morning-to-afternoon service continuity"
           }
         ],
         quizSeeds: [
@@ -59072,7 +59168,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "tamid limb service",
           "lottery system",
           "altar ramp (kevesh)"
@@ -59093,14 +59190,14 @@ const DAF_CONTENT = {
         ],
         visualizableElements: [
           {
+            item: "R. Eliezer ben Yaakov: carrying and burning = one task; Other tanna: two tasks requiring two lottery slots",
             type: "contrast",
-            label: "One task vs two tasks",
-            description: "R. Eliezer ben Yaakov: carrying and burning = one task; Other tanna: two tasks requiring two lottery slots"
+            label: "One task vs two tasks"
           },
           {
+            item: "All priests (new and veteran) eligible for the limb-carrying lottery",
             type: "person",
-            label: "Fourth lottery eligibility",
-            description: "All priests (new and veteran) eligible for the limb-carrying lottery"
+            label: "Fourth lottery eligibility"
           }
         ],
         quizSeeds: [
@@ -59796,7 +59893,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "lottery system"
         ],
         misconceptions: [
@@ -59810,9 +59908,9 @@ const DAF_CONTENT = {
         ],
         visualizableElements: [
           {
+            item: "Brief closure",
             type: "text",
-            label: "Transitional passage",
-            description: "Brief closure"
+            label: "Transitional passage"
           }
         ],
         quizSeeds: [
@@ -59822,7 +59920,7 @@ const DAF_CONTENT = {
           }
         ],
         finalRuling: "Transitional.",
-        difficulty: "introductory",
+        difficulty: "intro",
         alternateAngles: [],
         topicTags: [
           "lottery",
@@ -59970,7 +60068,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "tamid service",
           "libations (nesachim)",
           "Sukkot water libation"
@@ -59991,14 +60090,14 @@ const DAF_CONTENT = {
         ],
         visualizableElements: [
           {
+            item: "Diagram showing which tasks required additional priests in the afternoon",
             type: "contrast",
-            label: "9 morning vs 11 afternoon priests",
-            description: "Diagram showing which tasks required additional priests in the afternoon"
+            label: "9 morning vs 11 afternoon priests"
           },
           {
+            item: "Leviticus 6's 'in the morning, in the morning' as source for the afternoon tamid",
             type: "text",
-            label: "Biblical doubled phrase",
-            description: "Leviticus 6's 'in the morning, in the morning' as source for the afternoon tamid"
+            label: "Biblical doubled phrase"
           }
         ],
         quizSeeds: [
@@ -60107,7 +60206,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "communal offerings",
           "burnt-offering service",
           "flaying and cutting process"
@@ -60128,14 +60228,14 @@ const DAF_CONTENT = {
         ],
         visualizableElements: [
           {
+            item: "Flaying and cutting: identical rules; slaughter and sprinkling: potentially different",
             type: "contrast",
-            label: "Communal vs individual offering rules",
-            description: "Flaying and cutting: identical rules; slaughter and sprinkling: potentially different"
+            label: "Communal vs individual offering rules"
           },
           {
+            item: "Specific task assignments for each of the eleven priests",
             type: "sequence",
-            label: "Eleven priests for communal ram",
-            description: "Specific task assignments for each of the eleven priests"
+            label: "Eleven priests for communal ram"
           }
         ],
         quizSeeds: [
@@ -60149,7 +60249,7 @@ const DAF_CONTENT = {
           }
         ],
         finalRuling: "Communal ram requires eleven priests. Individual and communal offerings are equal for flaying and cutting.",
-        difficulty: "introductory",
+        difficulty: "intro",
         alternateAngles: [],
         topicTags: [
           "communal offering",
@@ -61216,7 +61316,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "kohen (priest) status",
           "Temple service categories",
           "shechita (slaughter)",
@@ -61243,14 +61344,14 @@ const DAF_CONTENT = {
         ],
         visualizableElements: [
           {
+            item: "Table showing: slaughter/flaying/cutting (non-priest OK) vs blood-collection/sprinkling/wood arrangement/limb placement (priest required)",
             type: "contrast",
-            label: "Priest-required vs non-priest-valid services",
-            description: "Table showing: slaughter/flaying/cutting (non-priest OK) vs blood-collection/sprinkling/wood arrangement/limb placement (priest required)"
+            label: "Priest-required vs non-priest-valid services"
           },
           {
+            item: "Sequential tamid steps with the blood-collection boundary marked",
             type: "timeline",
-            label: "Tamid service steps with priestly threshold",
-            description: "Sequential tamid steps with the blood-collection boundary marked"
+            label: "Tamid service steps with priestly threshold"
           }
         ],
         quizSeeds: [
@@ -62102,7 +62203,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "previous discussion about non-priest services"
         ],
         misconceptions: [
@@ -62116,9 +62218,9 @@ const DAF_CONTENT = {
         ],
         visualizableElements: [
           {
+            item: "Brief connector",
             type: "text",
-            label: "Transition",
-            description: "Brief connector"
+            label: "Transition"
           }
         ],
         quizSeeds: [
@@ -62128,7 +62230,7 @@ const DAF_CONTENT = {
           }
         ],
         finalRuling: "Transitional.",
-        difficulty: "introductory",
+        difficulty: "intro",
         alternateAngles: [],
         topicTags: [
           "transition",
@@ -62254,7 +62356,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "non-priest Temple service rules",
           "death penalty for priestly service violation",
           "wood arrangement (sidur etzim)"
@@ -62275,14 +62378,14 @@ const DAF_CONTENT = {
         ],
         visualizableElements: [
           {
+            item: "Three categories: (1) complete priestly service - non-priest is punished AND service is invalid; (2) non-priestly service - non-priest may do it validly; (3) the problematic middle category",
             type: "contrast",
-            label: "Valid vs punishable service categories",
-            description: "Three categories: (1) complete priestly service - non-priest is punished AND service is invalid; (2) non-priestly service - non-priest may do it validly; (3) the problematic middle category"
+            label: "Valid vs punishable service categories"
           },
           {
+            item: "A non-kohen placing logs on the altar fire - does this transgress and/or invalidate the service?",
             type: "person",
-            label: "Non-priest at the altar fire",
-            description: "A non-kohen placing logs on the altar fire - does this transgress and/or invalidate the service?"
+            label: "Non-priest at the altar fire"
           }
         ],
         quizSeeds: [
@@ -63070,7 +63173,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "complete service (avodah temimah)",
           "High Priest's Yom Kippur service",
           "five immersions and ten sanctifications"
@@ -63091,14 +63195,14 @@ const DAF_CONTENT = {
         ],
         visualizableElements: [
           {
+            item: "Dawn check - announcement - priests lead High Priest to Hall of Parva - first immersion",
             type: "sequence",
-            label: "Yom Kippur service initiation",
-            description: "Dawn check - announcement - priests lead High Priest to Hall of Parva - first immersion"
+            label: "Yom Kippur service initiation"
           },
           {
+            item: "The immersion chamber where the High Priest underwent his Yom Kippur immersions",
             type: "place",
-            label: "Hall of Parva",
-            description: "The immersion chamber where the High Priest underwent his Yom Kippur immersions"
+            label: "Hall of Parva"
           }
         ],
         quizSeeds: [
@@ -63847,7 +63951,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "tamid morning timing",
           "dawn (shachar)",
           "Hebron visibility"
@@ -63864,9 +63969,9 @@ const DAF_CONTENT = {
         ],
         visualizableElements: [
           {
+            item: "Formula A: morning star over Hebron. Formula B: entire eastern sky illuminated.",
             type: "contrast",
-            label: "Two dawn formulas",
-            description: "Formula A: morning star over Hebron. Formula B: entire eastern sky illuminated."
+            label: "Two dawn formulas"
           }
         ],
         quizSeeds: [
@@ -63876,7 +63981,7 @@ const DAF_CONTENT = {
           }
         ],
         finalRuling: "The exact formula remains a dispute; the practical threshold is confirmed dawn before the tamid may be slaughtered.",
-        difficulty: "introductory",
+        difficulty: "intro",
         alternateAngles: [],
         topicTags: [
           "dawn announcement",
@@ -63999,7 +64104,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "mincha time",
           "eruv tavshilin",
           "Genesis 26:5"
@@ -64020,14 +64126,14 @@ const DAF_CONTENT = {
         ],
         visualizableElements: [
           {
+            item: "Pre-Sinai: Abraham voluntarily keeps all Torah categories",
             type: "timeline",
-            label: "Abraham's Torah observance timeline",
-            description: "Pre-Sinai: Abraham voluntarily keeps all Torah categories"
+            label: "Abraham's Torah observance timeline"
           },
           {
+            item: "'Kept My charge (mishmarti), commandments (mitzvotai), statutes (chukotai), and laws (torotai)' - each term mapping to a Torah category",
             type: "text",
-            label: "Genesis 26:5 proof-text",
-            description: "'Kept My charge (mishmarti), commandments (mitzvotai), statutes (chukotai), and laws (torotai)' - each term mapping to a Torah category"
+            label: "Genesis 26:5 proof-text"
           }
         ],
         quizSeeds: [
@@ -64125,7 +64231,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "dawn (shachar)",
           "tamid timing"
         ],
@@ -64141,14 +64248,14 @@ const DAF_CONTENT = {
         ],
         visualizableElements: [
           {
+            item: "The lookout point from which the eastern horizon toward Hebron was visible",
             type: "place",
-            label: "Temple elevated position",
-            description: "The lookout point from which the eastern horizon toward Hebron was visible"
+            label: "Temple elevated position"
           },
           {
+            item: "Official asks - elevated observer confirms - service begins",
             type: "sequence",
-            label: "Dawn announcement procedure",
-            description: "Official asks - elevated observer confirms - service begins"
+            label: "Dawn announcement procedure"
           }
         ],
         quizSeeds: [
@@ -64162,7 +64269,7 @@ const DAF_CONTENT = {
           }
         ],
         finalRuling: "The dawn announcement was made from a position that could observe the eastern horizon toward Hebron.",
-        difficulty: "introductory",
+        difficulty: "intro",
         alternateAngles: [],
         topicTags: [
           "Matya ben Shmuel",
@@ -64243,7 +64350,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "tamid timing requirement",
           "dawn (shachar)"
         ],
@@ -64259,14 +64367,14 @@ const DAF_CONTENT = {
         ],
         visualizableElements: [
           {
+            item: "Bright moonlight over Hebron mistaken for dawn - premature tamid slaughter - animal sent to pasture",
             type: "narrative",
-            label: "The confusion incident",
-            description: "Bright moonlight over Hebron mistaken for dawn - premature tamid slaughter - animal sent to pasture"
+            label: "The confusion incident"
           },
           {
+            item: "Three types of morning light and their effects on dawn perception",
             type: "contrast",
-            label: "Moonlight vs dawn light vs cloudy-day light",
-            description: "Three types of morning light and their effects on dawn perception"
+            label: "Moonlight vs dawn light vs cloudy-day light"
           }
         ],
         quizSeeds: [
@@ -64280,7 +64388,7 @@ const DAF_CONTENT = {
           }
         ],
         finalRuling: "The dawn announcement formula was instituted after a real confusion incident. A cloudy day resembles a fully dark night for timing purposes.",
-        difficulty: "introductory",
+        difficulty: "intro",
         alternateAngles: [],
         topicTags: [
           "confusion incident",
@@ -65548,7 +65656,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "Purim story (Esther)",
           "Psalm 22",
           "Hanukkah vs Purim historical order"
@@ -65569,14 +65678,14 @@ const DAF_CONTENT = {
         ],
         visualizableElements: [
           {
+            item: "Timeline of miracles: Exodus, Temple, Purim (last universal) - then Hanukkah (local)",
             type: "timeline",
-            label: "Jewish miracles ending with Purim",
-            description: "Timeline of miracles: Exodus, Temple, Purim (last universal) - then Hanukkah (local)"
+            label: "Jewish miracles ending with Purim"
           },
           {
+            item: "Morning star: more intense, last light before dawn. Moonlight: reflected, gentler",
             type: "contrast",
-            label: "Morning star vs moonlight",
-            description: "Morning star: more intense, last light before dawn. Moonlight: reflected, gentler"
+            label: "Morning star vs moonlight"
           }
         ],
         quizSeeds: [
@@ -65590,7 +65699,7 @@ const DAF_CONTENT = {
           }
         ],
         finalRuling: "Aggadic teachings: sinful thoughts are more spiritually damaging than the act itself; Esther's miracle (Purim) was the last universal miracle for all Jews.",
-        difficulty: "introductory",
+        difficulty: "intro",
         alternateAngles: [],
         topicTags: [
           "Esther",
@@ -65674,7 +65783,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "tamid offering",
           "dawn (shachar)",
           "daytime requirement for slaughter"
@@ -65695,9 +65805,9 @@ const DAF_CONTENT = {
         ],
         visualizableElements: [
           {
+            item: "Before dawn: slaughter invalid. After dawn: slaughter valid. No middle ground.",
             type: "contrast",
-            label: "Dawn threshold for tamid",
-            description: "Before dawn: slaughter invalid. After dawn: slaughter valid. No middle ground."
+            label: "Dawn threshold for tamid"
           }
         ],
         quizSeeds: [
@@ -66654,7 +66764,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "kometz (handful) service",
           "meal-offering (mincha)",
           "nighttime Temple service rule"
@@ -66675,14 +66786,14 @@ const DAF_CONTENT = {
         ],
         visualizableElements: [
           {
+            item: "Kometz removed at night: in waiting state. Dawn breaks: valid time resumes. New kometz taken in daytime.",
             type: "timeline",
-            label: "Nighttime kometz status",
-            description: "Kometz removed at night: in waiting state. Dawn breaks: valid time resumes. New kometz taken in daytime."
+            label: "Nighttime kometz status"
           },
           {
+            item: "Priests step outside the service area to relieve themselves before returning to Temple duty",
             type: "place",
-            label: "Temple service area exit for hygiene",
-            description: "Priests step outside the service area to relieve themselves before returning to Temple duty"
+            label: "Temple service area exit for hygiene"
           }
         ],
         quizSeeds: [
@@ -67579,7 +67690,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "Temple purity standards",
           "prayer/service prohibitions with bodily functions"
         ],
@@ -67595,9 +67707,9 @@ const DAF_CONTENT = {
         ],
         visualizableElements: [
           {
+            item: "Major ritual impurity (requires full purification) vs minor hygiene (brushing, washing) both matter in Temple context",
             type: "contrast",
-            label: "Hygiene levels in Temple service",
-            description: "Major ritual impurity (requires full purification) vs minor hygiene (brushing, washing) both matter in Temple context"
+            label: "Hygiene levels in Temple service"
           }
         ],
         quizSeeds: [
@@ -67611,7 +67723,7 @@ const DAF_CONTENT = {
           }
         ],
         finalRuling: "Hygiene standards for Temple priests include brushing urine residue. Hand-washing before meals should be done where visible.",
-        difficulty: "introductory",
+        difficulty: "intro",
         alternateAngles: [],
         topicTags: [
           "Temple hygiene",
@@ -67706,7 +67818,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "tevila (immersion)",
           "mikveh",
           "Temple entry requirements",
@@ -67728,14 +67841,14 @@ const DAF_CONTENT = {
         ],
         visualizableElements: [
           {
+            item: "Ben Zoma: biblical source in High Priest verse. R. Yehuda: rabbinic reminder to reinforce purity consciousness.",
             type: "contrast",
-            label: "Biblical vs rabbinic immersion",
-            description: "Ben Zoma: biblical source in High Priest verse. R. Yehuda: rabbinic reminder to reinforce purity consciousness."
+            label: "Biblical vs rabbinic immersion"
           },
           {
+            item: "Priest (already pure) immerses - dries - dresses in sacred garments - sanctifies hands and feet - enters for service",
             type: "sequence",
-            label: "Temple entry process",
-            description: "Priest (already pure) immerses - dries - dresses in sacred garments - sanctifies hands and feet - enters for service"
+            label: "Temple entry process"
           }
         ],
         quizSeeds: [
@@ -68686,7 +68799,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "pre-service immersion",
           "Temple service validity (kosher/pasul)",
           "metzora purification process",
@@ -68708,14 +68822,14 @@ const DAF_CONTENT = {
         ],
         visualizableElements: [
           {
+            item: "Ben Zoma: service invalid. R. Yehuda: service valid, but positive mitzva violated.",
             type: "contrast",
-            label: "Two outcomes of skipping pre-service immersion",
-            description: "Ben Zoma: service invalid. R. Yehuda: service valid, but positive mitzva violated."
+            label: "Two outcomes of skipping pre-service immersion"
           },
           {
+            item: "Evening before service: leper immerses. Morning of service: is another immersion required?",
             type: "timeline",
-            label: "Leper's immersion timing",
-            description: "Evening before service: leper immerses. Morning of service: is another immersion required?"
+            label: "Leper's immersion timing"
           }
         ],
         quizSeeds: [
@@ -69576,7 +69690,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "chatzitza (interposition)",
           "mikveh rules",
           "Ben Zoma vs R. Yehuda dispute from 30a-30b"
@@ -69597,9 +69712,9 @@ const DAF_CONTENT = {
         ],
         visualizableElements: [
           {
+            item: "Chatzitza: if biblical - apply full mikveh rules; if rabbinic - perhaps leniency. Both remain unresolved.",
             type: "contrast",
-            label: "Biblical vs rabbinic immersion rules",
-            description: "Chatzitza: if biblical - apply full mikveh rules; if rabbinic - perhaps leniency. Both remain unresolved."
+            label: "Biblical vs rabbinic immersion rules"
           }
         ],
         quizSeeds: [
@@ -69679,7 +69794,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "kiddush yadayim veraglayim (sanctification of hands and feet)",
           "Yom Kippur garment changes",
           "linen vs golden garments"
@@ -69700,14 +69816,14 @@ const DAF_CONTENT = {
         ],
         visualizableElements: [
           {
+            item: "Sanctify - undress - immerse - dress - sanctify. Repeated five times for each of the five garment changes.",
             type: "sequence",
-            label: "Five immersion cycle",
-            description: "Sanctify - undress - immerse - dress - sanctify. Repeated five times for each of the five garment changes."
+            label: "Five immersion cycle"
           },
           {
+            item: "Elevated chamber, at least 23 cubits high, with a linen privacy screen for the High Priest",
             type: "place",
-            label: "Immersion chamber above Water Gate",
-            description: "Elevated chamber, at least 23 cubits high, with a linen privacy screen for the High Priest"
+            label: "Immersion chamber above Water Gate"
           }
         ],
         quizSeeds: [
@@ -69721,7 +69837,7 @@ const DAF_CONTENT = {
           }
         ],
         finalRuling: "The High Priest immerses five times and sanctifies ten times on Yom Kippur. The immersion chamber was elevated above the Water Gate.",
-        difficulty: "introductory",
+        difficulty: "intro",
         alternateAngles: [],
         topicTags: [
           "High Priest",
@@ -70332,7 +70448,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "immersion chamber location",
           "Water Gate height"
         ],
@@ -70347,9 +70464,9 @@ const DAF_CONTENT = {
         ],
         visualizableElements: [
           {
+            item: "Twenty-three cubits above the Temple floor: Water Gate (20) + chamber (3+)",
             type: "place",
-            label: "Immersion chamber elevation",
-            description: "Twenty-three cubits above the Temple floor: Water Gate (20) + chamber (3+)"
+            label: "Immersion chamber elevation"
           }
         ],
         quizSeeds: [
@@ -70359,7 +70476,7 @@ const DAF_CONTENT = {
           }
         ],
         finalRuling: "The immersion chamber was at least twenty-three cubits above the Temple floor.",
-        difficulty: "introductory",
+        difficulty: "intro",
         alternateAngles: [],
         topicTags: [
           "immersion chamber",
@@ -70414,7 +70531,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "High Priest's immersion on Yom Kippur"
         ],
         misconceptions: [
@@ -70428,9 +70546,9 @@ const DAF_CONTENT = {
         ],
         visualizableElements: [
           {
+            item: "Linen sheet spread between High Priest and assembled priests/people during immersion",
             type: "place",
-            label: "Linen privacy screen",
-            description: "Linen sheet spread between High Priest and assembled priests/people during immersion"
+            label: "Linen privacy screen"
           }
         ],
         quizSeeds: [
@@ -70440,7 +70558,7 @@ const DAF_CONTENT = {
           }
         ],
         finalRuling: "A linen screen was spread for the High Priest's privacy during immersion.",
-        difficulty: "introductory",
+        difficulty: "intro",
         alternateAngles: [],
         topicTags: [
           "linen screen",
@@ -70563,7 +70681,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "High Priest's Yom Kippur service",
           "five immersions",
           "golden vs white garments",
@@ -70585,14 +70704,14 @@ const DAF_CONTENT = {
         ],
         visualizableElements: [
           {
+            item: "Gold - White - Gold - White - Gold, with immersion and sanctification at each transition",
             type: "sequence",
-            label: "Yom Kippur garment cycle",
-            description: "Gold - White - Gold - White - Gold, with immersion and sanctification at each transition"
+            label: "Yom Kippur garment cycle"
           },
           {
+            item: "Gold: 8 pieces, for standard Temple service. White: 4 pieces, only for the Yom Kippur inner Holy of Holies service",
             type: "contrast",
-            label: "Golden vs white garments",
-            description: "Gold: 8 pieces, for standard Temple service. White: 4 pieces, only for the Yom Kippur inner Holy of Holies service"
+            label: "Golden vs white garments"
           }
         ],
         quizSeeds: [
@@ -71585,7 +71704,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "five immersions",
           "kiddush yadayim veraglayim"
         ],
@@ -71600,9 +71720,9 @@ const DAF_CONTENT = {
         ],
         visualizableElements: [
           {
+            item: "Sanctify - undress - immerse - dress - sanctify: five cycles = ten sanctifications",
             type: "sequence",
-            label: "Immersion-sanctification cycle",
-            description: "Sanctify - undress - immerse - dress - sanctify: five cycles = ten sanctifications"
+            label: "Immersion-sanctification cycle"
           }
         ],
         quizSeeds: [
@@ -71612,7 +71732,7 @@ const DAF_CONTENT = {
           }
         ],
         finalRuling: "Ten sanctifications from five immersions: two per garment-change cycle.",
-        difficulty: "introductory",
+        difficulty: "intro",
         alternateAngles: [],
         topicTags: [
           "ten sanctifications",
@@ -71764,7 +71884,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "five immersions",
           "kal vachomer (a fortiori)",
           "Leviticus 16",
@@ -71786,14 +71907,14 @@ const DAF_CONTENT = {
         ],
         visualizableElements: [
           {
+            item: "Rav Hisda (tradition), R. Yehuda (verses), R. Yehuda HaNasi (garment changes), R. Elazar (kal vachomer) - all reaching the same conclusion",
             type: "relationship",
-            label: "Four derivations for five immersions",
-            description: "Rav Hisda (tradition), R. Yehuda (verses), R. Yehuda HaNasi (garment changes), R. Elazar (kal vachomer) - all reaching the same conclusion"
+            label: "Four derivations for five immersions"
           },
           {
+            item: "Morning gold, inner white, musaf gold, additional white, afternoon gold",
             type: "sequence",
-            label: "Five services requiring garment changes",
-            description: "Morning gold, inner white, musaf gold, additional white, afternoon gold"
+            label: "Five services requiring garment changes"
           }
         ],
         quizSeeds: [
@@ -72850,7 +72971,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "golden vs white garments",
           "five immersions",
           "ten sanctifications",
@@ -72872,14 +72994,14 @@ const DAF_CONTENT = {
         ],
         visualizableElements: [
           {
+            item: "White: associated with atonement, inner service. Gold: associated with honor, outer service. White is stricter in some ways.",
             type: "contrast",
-            label: "White vs golden garments stringency",
-            description: "White: associated with atonement, inner service. Gold: associated with honor, outer service. White is stricter in some ways."
+            label: "White vs golden garments stringency"
           },
           {
+            item: "Before undressing (first - debated) - immerse - dress - sanctify (second - all agree)",
             type: "sequence",
-            label: "First vs second sanctification",
-            description: "Before undressing (first - debated) - immerse - dress - sanctify (second - all agree)"
+            label: "First vs second sanctification"
           }
         ],
         quizSeeds: [
@@ -72976,7 +73098,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "shechita (ritual slaughter)",
           "rov simanim (majority of organs)",
           "tamid service"
@@ -72993,9 +73116,9 @@ const DAF_CONTENT = {
         ],
         visualizableElements: [
           {
+            item: "Priest takes lamb - hands knife to High Priest - High Priest slaughters - cutting through majority of trachea and esophagus",
             type: "sequence",
-            label: "Tamid slaughter hand-off",
-            description: "Priest takes lamb - hands knife to High Priest - High Priest slaughters - cutting through majority of trachea and esophagus"
+            label: "Tamid slaughter hand-off"
           }
         ],
         quizSeeds: [
@@ -73005,7 +73128,7 @@ const DAF_CONTENT = {
           }
         ],
         finalRuling: "The High Priest personally slaughters the Yom Kippur tamid using standard shechita: majority of both organs.",
-        difficulty: "introductory",
+        difficulty: "intro",
         alternateAngles: [],
         topicTags: [
           "High Priest",
@@ -73871,7 +73994,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "shechita",
           "rov simanim (majority of organs)",
           "tamid slaughter"
@@ -73887,9 +74011,9 @@ const DAF_CONTENT = {
         ],
         visualizableElements: [
           {
+            item: "Bird: one organ majority. Beast: both organs majority.",
             type: "contrast",
-            label: "Bird vs beast shechita",
-            description: "Bird: one organ majority. Beast: both organs majority."
+            label: "Bird vs beast shechita"
           }
         ],
         quizSeeds: [
@@ -73899,7 +74023,7 @@ const DAF_CONTENT = {
           }
         ],
         finalRuling: "Beast shechita requires majority of both organs; bird shechita requires majority of one.",
-        difficulty: "introductory",
+        difficulty: "intro",
         alternateAngles: [],
         topicTags: [
           "rov simanim",
@@ -74065,7 +74189,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "tamid service",
           "menorah (seven lamps)",
           "inner altar",
@@ -74093,14 +74218,14 @@ const DAF_CONTENT = {
         ],
         visualizableElements: [
           {
+            item: "Wood (large) - Wood (incense) - 5 Lamps - Tamid slaughter/blood - Inner altar ash - 2 logs - 2 Lamps - Ketoret - Limbs - Meal-offering - Libation",
             type: "sequence",
-            label: "Abaye's morning service order",
-            description: "Wood (large) - Wood (incense) - 5 Lamps - Tamid slaughter/blood - Inner altar ash - 2 logs - 2 Lamps - Ketoret - Limbs - Meal-offering - Libation"
+            label: "Abaye's morning service order"
           },
           {
+            item: "Leviticus's doubled phrase 'in the morning, in the morning' establishes the order of wood arrangement vs lamp ash removal",
             type: "text",
-            label: "Doubled 'in the morning' source",
-            description: "Leviticus's doubled phrase 'in the morning, in the morning' establishes the order of wood arrangement vs lamp ash removal"
+            label: "Doubled 'in the morning' source"
           }
         ],
         quizSeeds: [
@@ -75122,7 +75247,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "Sanctuary (Heichal) layout",
           "menorah and inner altar positions",
           "morning service sequence"
@@ -75139,14 +75265,14 @@ const DAF_CONTENT = {
         ],
         visualizableElements: [
           {
+            item: "Priest enters from east: menorah on left (south), inner altar further in. Ein ma'avirin: clean menorah first, then proceed to altar.",
             type: "place",
-            label: "Sanctuary entry and service order",
-            description: "Priest enters from east: menorah on left (south), inner altar further in. Ein ma'avirin: clean menorah first, then proceed to altar."
+            label: "Sanctuary entry and service order"
           },
           {
+            item: "Wrong: walk past menorah to reach altar first. Right: clean menorah lamps encountered first.",
             type: "contrast",
-            label: "Skip vs encounter principle",
-            description: "Wrong: walk past menorah to reach altar first. Right: clean menorah lamps encountered first."
+            label: "Skip vs encounter principle"
           }
         ],
         quizSeeds: [
@@ -75312,7 +75438,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "Abaye's morning service sequence from 33a",
           "menorah",
           "inner altar",
@@ -75335,14 +75462,14 @@ const DAF_CONTENT = {
         ],
         visualizableElements: [
           {
+            item: "Wood - 5 lamps - Tamid blood - 2 lamps - Incense - Limbs - Meal-offering - Wine libation",
             type: "sequence",
-            label: "Complete Abaye morning sequence",
-            description: "Wood - 5 lamps - Tamid blood - 2 lamps - Incense - Limbs - Meal-offering - Wine libation"
+            label: "Complete Abaye morning sequence"
           },
           {
+            item: "Reish Lakish: ein ma'avirin (don't bypass encountered lamps). R. Yochanan: incense verse requires lamps first.",
             type: "contrast",
-            label: "Reish Lakish vs R. Yochanan on 5-lamp priority",
-            description: "Reish Lakish: ein ma'avirin (don't bypass encountered lamps). R. Yochanan: incense verse requires lamps first."
+            label: "Reish Lakish vs R. Yochanan on 5-lamp priority"
           }
         ],
         quizSeeds: [
@@ -76353,7 +76480,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "minchat chavittin (griddle-cake)",
           "musaf offerings",
           "frankincense vessels (bazichin)",
@@ -76375,14 +76503,14 @@ const DAF_CONTENT = {
         ],
         visualizableElements: [
           {
+            item: "... Limbs - Meal-offering - Griddle-cake - Wine libation - [Frankincense vessels?] - Musaf",
             type: "sequence",
-            label: "End of morning sequence",
-            description: "... Limbs - Meal-offering - Griddle-cake - Wine libation - [Frankincense vessels?] - Musaf"
+            label: "End of morning sequence"
           },
           {
+            item: "Dispute: Abaye says before musaf (part of inner service); alternative view: musaf first (more standard/frequent)",
             type: "contrast",
-            label: "Frankincense vessels: before or after musaf?",
-            description: "Dispute: Abaye says before musaf (part of inner service); alternative view: musaf first (more standard/frequent)"
+            label: "Frankincense vessels: before or after musaf?"
           }
         ],
         quizSeeds: [
@@ -76504,7 +76632,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "afternoon tamid",
           "afternoon incense",
           "wine libation quantity"
@@ -76521,14 +76650,14 @@ const DAF_CONTENT = {
         ],
         visualizableElements: [
           {
+            item: "Morning: Wood - Lamps - Blood - Lamps - INCENSE - Limbs. Afternoon: Limbs - INCENSE - Libation",
             type: "contrast",
-            label: "Morning vs afternoon incense position",
-            description: "Morning: Wood - Lamps - Blood - Lamps - INCENSE - Limbs. Afternoon: Limbs - INCENSE - Libation"
+            label: "Morning vs afternoon incense position"
           },
           {
+            item: "Afternoon tamid slaughter - blood - limbs to ramp - afternoon incense - wine libation",
             type: "sequence",
-            label: "Afternoon service",
-            description: "Afternoon tamid slaughter - blood - limbs to ramp - afternoon incense - wine libation"
+            label: "Afternoon service"
           }
         ],
         quizSeeds: [
@@ -77309,7 +77438,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "afternoon tamid",
           "Yom Kippur additional offerings",
           "Numbers/Bamidbar tamid verse"
@@ -77327,9 +77457,9 @@ const DAF_CONTENT = {
         ],
         visualizableElements: [
           {
+            item: "Single word 'ha-echad' (the one lamb) in the afternoon verse: R. Yehuda HaNasi reads it as derivative of morning; Rabbis read it as pointing to a uniquely special offering",
             type: "text",
-            label: "Ha-echad debate",
-            description: "Single word 'ha-echad' (the one lamb) in the afternoon verse: R. Yehuda HaNasi reads it as derivative of morning; Rabbis read it as pointing to a uniquely special offering"
+            label: "Ha-echad debate"
           }
         ],
         quizSeeds: [
@@ -77425,7 +77555,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "Yom Kippur immersion requirements",
           "davar she-eino mitkaven",
           "R. Yehuda vs Rabbis on unintentional acts"
@@ -77448,14 +77579,14 @@ const DAF_CONTENT = {
         ],
         visualizableElements: [
           {
+            item: "An aging kohen gadol entering a Yom Kippur immersion pool warmed for his benefit",
             type: "person",
-            label: "Elderly High Priest and immersion accommodation",
-            description: "An aging kohen gadol entering a Yom Kippur immersion pool warmed for his benefit"
+            label: "Elderly High Priest and immersion accommodation"
           },
           {
+            item: "Standard: cold mikveh water. Elderly/delicate: water pre-heated on Yom Kippur eve",
             type: "contrast",
-            label: "Standard vs elderly High Priest immersion",
-            description: "Standard: cold mikveh water. Elderly/delicate: water pre-heated on Yom Kippur eve"
+            label: "Standard vs elderly High Priest immersion"
           }
         ],
         quizSeeds: [
@@ -77540,7 +77671,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "Hall of Parva",
           "High Priest's Yom Kippur white garments",
           "five immersions on Yom Kippur"
@@ -77563,14 +77695,14 @@ const DAF_CONTENT = {
         ],
         visualizableElements: [
           {
+            item: "The immersion chamber in the sacred Temple precincts where the High Priest underwent his Yom Kippur immersions",
             type: "place",
-            label: "Hall of Parva",
-            description: "The immersion chamber in the sacred Temple precincts where the High Priest underwent his Yom Kippur immersions"
+            label: "Hall of Parva"
           },
           {
+            item: "Morning: Egyptian Pelusium linen, 1,200 dinar. Afternoon: Indian linen, 800 dinar.",
             type: "contrast",
-            label: "Morning vs afternoon white garments",
-            description: "Morning: Egyptian Pelusium linen, 1,200 dinar. Afternoon: Indian linen, 800 dinar."
+            label: "Morning vs afternoon white garments"
           }
         ],
         quizSeeds: [
@@ -77584,7 +77716,7 @@ const DAF_CONTENT = {
           }
         ],
         finalRuling: "Second immersion: Hall of Parva (sacred area). Morning white garments: Egyptian Pelusium, 1,200 dinar. Afternoon white garments: Indian linen, 800 dinar.",
-        difficulty: "introductory",
+        difficulty: "intro",
         alternateAngles: [],
         topicTags: [
           "Hall of Parva",
@@ -78256,8 +78388,8 @@ const DAF_CONTENT = {
         ],
         visualizableElements: [
           {
-            type: "place",
-            description: "Chamber of Parva above the Water Gate with underground tunnel"
+            item: "Chamber of Parva above the Water Gate with underground tunnel",
+            type: "place"
           }
         ],
         quizSeeds: [
@@ -78268,7 +78400,7 @@ const DAF_CONTENT = {
           }
         ],
         finalRuling: "The Chamber of Parva was named after Parva the sorcerer who built an underground chamber there.",
-        difficulty: "introductory",
+        difficulty: "intro",
         alternateAngles: [],
         topicTags: [
           "Chamber of Parva",
@@ -78338,7 +78470,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "KG Yom Kippur garment sequence"
         ],
         misconceptions: [
@@ -78353,8 +78486,8 @@ const DAF_CONTENT = {
         ],
         visualizableElements: [
           {
-            type: "object",
-            description: "White linen buz screen held for KG's privacy"
+            item: "White linen buz screen held for KG's privacy",
+            type: "object"
           }
         ],
         quizSeeds: [
@@ -78365,7 +78498,7 @@ const DAF_CONTENT = {
           }
         ],
         finalRuling: "A linen screen was used because the KG's Yom Kippur vestments are linen - same material prevents confusion.",
-        difficulty: "introductory",
+        difficulty: "intro",
         alternateAngles: [],
         topicTags: [
           "KG garments",
@@ -78438,7 +78571,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "KG Yom Kippur garment sequence",
           "five immersions"
         ],
@@ -78454,8 +78588,8 @@ const DAF_CONTENT = {
         ],
         visualizableElements: [
           {
-            type: "contrast",
-            description: "Morning vs afternoon linen: 18 maneh Pelusium vs 12 maneh Indian"
+            item: "Morning vs afternoon linen: 18 maneh Pelusium vs 12 maneh Indian",
+            type: "contrast"
           }
         ],
         quizSeeds: [
@@ -78466,7 +78600,7 @@ const DAF_CONTENT = {
           }
         ],
         finalRuling: "Morning garments cost 18 maneh (Pelusium linen); afternoon 12 maneh (Indian linen); funded publicly.",
-        difficulty: "introductory",
+        difficulty: "intro",
         alternateAngles: [],
         topicTags: [
           "KG garments",
@@ -78798,7 +78932,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "KG garment sequence",
           "five immersions and ten sanctifications"
         ],
@@ -78814,8 +78949,8 @@ const DAF_CONTENT = {
         ],
         visualizableElements: [
           {
-            type: "text",
-            description: "Verse analysis: 'other garments' = other sacred garments"
+            item: "Verse analysis: 'other garments' = other sacred garments",
+            type: "text"
           }
         ],
         quizSeeds: [
@@ -79009,8 +79144,8 @@ const DAF_CONTENT = {
         ],
         visualizableElements: [
           {
-            type: "contrast",
-            description: "Three figures: poor/rich/wicked and their paradigmatic responses"
+            item: "Three figures: poor/rich/wicked and their paradigmatic responses",
+            type: "contrast"
           }
         ],
         quizSeeds: [
@@ -79021,7 +79156,7 @@ const DAF_CONTENT = {
           }
         ],
         finalRuling: "No one can claim poverty, wealth, or evil inclination as an excuse; Hillel, Elazar ben Charsum, and Joseph demonstrate the rebuttal.",
-        difficulty: "introductory",
+        difficulty: "intro",
         alternateAngles: [
           {
             angle: "Educational",
@@ -79101,7 +79236,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "semicha (laying on of hands)",
           "Yom Kippur Avodah sequence"
         ],
@@ -79117,8 +79253,8 @@ const DAF_CONTENT = {
         ],
         visualizableElements: [
           {
-            type: "place",
-            description: "Bull between vestibule and altar; KG east facing west"
+            item: "Bull between vestibule and altar; KG east facing west",
+            type: "place"
           }
         ],
         quizSeeds: [
@@ -79129,7 +79265,7 @@ const DAF_CONTENT = {
           }
         ],
         finalRuling: "The bull stands between the vestibule and altar, head south, face west; the KG stands east facing west, hands on the bull.",
-        difficulty: "introductory",
+        difficulty: "intro",
         alternateAngles: [],
         topicTags: [
           "Yom Kippur",
@@ -80080,7 +80216,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "Temple spatial layout",
           "KG bull"
         ],
@@ -80096,8 +80233,8 @@ const DAF_CONTENT = {
         ],
         visualizableElements: [
           {
-            type: "place",
-            description: "Between vestibule and altar - contested location for the bull"
+            item: "Between vestibule and altar - contested location for the bull",
+            type: "place"
           }
         ],
         quizSeeds: [
@@ -80214,7 +80351,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "semicha (hand-pressing)",
           "KG Yom Kippur avodah"
         ],
@@ -80230,8 +80368,8 @@ const DAF_CONTENT = {
         ],
         visualizableElements: [
           {
-            type: "contrast",
-            description: "Head south vs face west: explained by sideways neck turn"
+            item: "Head south vs face west: explained by sideways neck turn",
+            type: "contrast"
           }
         ],
         quizSeeds: [
@@ -81123,7 +81261,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "nevelah prohibition",
           "Temple zones of sanctity"
         ],
@@ -81139,8 +81278,8 @@ const DAF_CONTENT = {
         ],
         visualizableElements: [
           {
-            type: "contrast",
-            description: "R. Yehuda vs Rabbis: nevelah liability in different Temple zones"
+            item: "R. Yehuda vs Rabbis: nevelah liability in different Temple zones",
+            type: "contrast"
           }
         ],
         quizSeeds: [
@@ -81273,7 +81412,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "chatati aviti pashati (sin categories)",
           "Baruch Shem"
         ],
@@ -81289,8 +81429,8 @@ const DAF_CONTENT = {
         ],
         visualizableElements: [
           {
-            type: "text",
-            description: "Full viduy text: chatati, aviti, pashati + kapper na + congregation responds Baruch Shem"
+            item: "Full viduy text: chatati, aviti, pashati + kapper na + congregation responds Baruch Shem",
+            type: "text"
           }
         ],
         quizSeeds: [
@@ -81407,7 +81547,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "Yom Kippur atonement",
           "confession requirement"
         ],
@@ -81423,8 +81564,8 @@ const DAF_CONTENT = {
         ],
         visualizableElements: [
           {
-            type: "text",
-            description: "Verse v'chipper = kaparat devarim: verbal confession as the atoning act"
+            item: "Verse v'chipper = kaparat devarim: verbal confession as the atoning act",
+            type: "text"
           }
         ],
         quizSeeds: [
@@ -82408,7 +82549,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "gezerah shavah",
           "viduy (confession)"
         ],
@@ -82424,8 +82566,8 @@ const DAF_CONTENT = {
         ],
         visualizableElements: [
           {
-            type: "text",
-            description: "Gezerah shavah links 'anna' to Yom Kippur via the word kappara"
+            item: "Gezerah shavah links 'anna' to Yom Kippur via the word kappara",
+            type: "text"
           }
         ],
         quizSeeds: [
@@ -82494,7 +82636,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "Baruch Shem",
           "Temple prostration (kidat arkavin)"
         ],
@@ -82510,8 +82653,8 @@ const DAF_CONTENT = {
         ],
         visualizableElements: [
           {
-            type: "action",
-            description: "Congregation falls prostrate when hearing Shem HaMeforash, responding Baruch Shem"
+            item: "Congregation falls prostrate when hearing Shem HaMeforash, responding Baruch Shem",
+            type: "action"
           }
         ],
         quizSeeds: [
@@ -82522,7 +82665,7 @@ const DAF_CONTENT = {
           }
         ],
         finalRuling: "When the KG spoke the Shem HaMeforash, the congregation fell prostrate and responded with Baruch Shem.",
-        difficulty: "introductory",
+        difficulty: "intro",
         alternateAngles: [],
         topicTags: [
           "Yom Kippur",
@@ -82644,7 +82787,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "Yom Kippur two-goat ritual",
           "lottery (goral)"
         ],
@@ -82660,8 +82804,8 @@ const DAF_CONTENT = {
         ],
         visualizableElements: [
           {
-            type: "sequence",
-            description: "KG comes to north of altar, shakes box, draws two lots simultaneously"
+            item: "KG comes to north of altar, shakes box, draws two lots simultaneously",
+            type: "sequence"
           }
         ],
         quizSeeds: [
@@ -82672,7 +82816,7 @@ const DAF_CONTENT = {
           }
         ],
         finalRuling: "The KG drew two lots simultaneously from the box - the lot in each hand designated which goat was for God and which for Azazel.",
-        difficulty: "introductory",
+        difficulty: "intro",
         alternateAngles: [],
         topicTags: [
           "Yom Kippur",
@@ -82763,7 +82907,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "Temple hierarchy",
           "segan (Deputy KG)"
         ],
@@ -82779,8 +82924,8 @@ const DAF_CONTENT = {
         ],
         visualizableElements: [
           {
-            type: "relationship",
-            description: "Deputy vs head of bet av: contested right-side precedence"
+            item: "Deputy vs head of bet av: contested right-side precedence",
+            type: "relationship"
           }
         ],
         quizSeeds: [
@@ -82791,7 +82936,7 @@ const DAF_CONTENT = {
           }
         ],
         finalRuling: "Mishna: Deputy to the right, head of bet av to the left. R. Yehuda reverses the positions.",
-        difficulty: "introductory",
+        difficulty: "intro",
         alternateAngles: [],
         topicTags: [
           "Temple hierarchy",
@@ -82894,8 +83039,8 @@ const DAF_CONTENT = {
         ],
         visualizableElements: [
           {
-            type: "object",
-            description: "Golden lot box with two golden lots inscribed 'for God' and 'for Azazel'"
+            item: "Golden lot box with two golden lots inscribed 'for God' and 'for Azazel'",
+            type: "object"
           }
         ],
         quizSeeds: [
@@ -82906,7 +83051,7 @@ const DAF_CONTENT = {
           }
         ],
         finalRuling: "The lots were originally boxwood, later made gold; Ben Katin made 12 spigots for the laver.",
-        difficulty: "introductory",
+        difficulty: "intro",
         alternateAngles: [],
         topicTags: [
           "Temple improvements",
@@ -83009,8 +83154,8 @@ const DAF_CONTENT = {
         ],
         visualizableElements: [
           {
-            type: "person",
-            description: "Ben Katin (KG), Queen Helene, Nicanor - Temple benefactors"
+            item: "Ben Katin (KG), Queen Helene, Nicanor - Temple benefactors",
+            type: "person"
           }
         ],
         quizSeeds: [
@@ -83021,7 +83166,7 @@ const DAF_CONTENT = {
           }
         ],
         finalRuling: "Ben Katin made 12 laver spigots and a cistern mechanism; multiple donors beautified the Temple.",
-        difficulty: "introductory",
+        difficulty: "intro",
         alternateAngles: [],
         topicTags: [
           "Temple improvements",
@@ -84102,7 +84247,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "laver (kiyor)",
           "Temple purity rules"
         ],
@@ -84118,8 +84264,8 @@ const DAF_CONTENT = {
         ],
         visualizableElements: [
           {
-            type: "object",
-            description: "Knife handle rods used as a winding mechanism for the laver cistern"
+            item: "Knife handle rods used as a winding mechanism for the laver cistern",
+            type: "object"
           }
         ],
         quizSeeds: [
@@ -84130,7 +84276,7 @@ const DAF_CONTENT = {
           }
         ],
         finalRuling: "Ben Katin's laver winding mechanism was made of knife handle wood (bid'ot sakinin).",
-        difficulty: "introductory",
+        difficulty: "intro",
         alternateAngles: [],
         topicTags: [
           "Temple utensils",
@@ -84217,8 +84363,8 @@ const DAF_CONTENT = {
         ],
         visualizableElements: [
           {
-            type: "narrative",
-            description: "Nicanor throws one door in sea to save the ship; it miraculously appears at Akko"
+            item: "Nicanor throws one door in sea to save the ship; it miraculously appears at Akko",
+            type: "narrative"
           }
         ],
         quizSeeds: [
@@ -84229,7 +84375,7 @@ const DAF_CONTENT = {
           }
         ],
         finalRuling: "Queen Helene donated a golden candlestick; Nicanor's door thrown at sea miraculously arrived at Akko.",
-        difficulty: "introductory",
+        difficulty: "intro",
         alternateAngles: [],
         topicTags: [
           "Temple improvements",
@@ -84319,7 +84465,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "get (bill of divorce)",
           "seirugim (alternating script)"
         ],
@@ -84335,8 +84482,8 @@ const DAF_CONTENT = {
         ],
         visualizableElements: [
           {
-            type: "text",
-            description: "Helene's golden tablet with sotah passage in seirugim → valid model for gittin"
+            item: "Helene's golden tablet with sotah passage in seirugim → valid model for gittin",
+            type: "text"
           }
         ],
         quizSeeds: [
@@ -84771,7 +84918,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "get validity requirements"
         ],
         misconceptions: [
@@ -84786,8 +84934,8 @@ const DAF_CONTENT = {
         ],
         visualizableElements: [
           {
-            type: "text",
-            description: "Seirugim = alternating/block script for gittin"
+            item: "Seirugim = alternating/block script for gittin",
+            type: "text"
           }
         ],
         quizSeeds: [
@@ -84798,7 +84946,7 @@ const DAF_CONTENT = {
           }
         ],
         finalRuling: "A get written b'seirugim (alternating script) is valid.",
-        difficulty: "introductory",
+        difficulty: "intro",
         alternateAngles: [],
         topicTags: [
           "gittin",
@@ -84900,8 +85048,8 @@ const DAF_CONTENT = {
         ],
         visualizableElements: [
           {
-            type: "narrative",
-            description: "Copper doors kept as is after miracle - surpassing gold in honor"
+            item: "Copper doors kept as is after miracle - surpassing gold in honor",
+            type: "narrative"
           }
         ],
         quizSeeds: [
@@ -84912,7 +85060,7 @@ const DAF_CONTENT = {
           }
         ],
         finalRuling: "Nicanor's copper doors were kept while others were gilded, because the miracle made them more honorable than gold.",
-        difficulty: "introductory",
+        difficulty: "intro",
         alternateAngles: [],
         topicTags: [
           "Temple improvements",
@@ -85034,7 +85182,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "lechem hapanim (showbread)"
         ],
         misconceptions: [
@@ -85049,8 +85198,8 @@ const DAF_CONTENT = {
         ],
         visualizableElements: [
           {
-            type: "contrast",
-            description: "Four families: praised for skills but shamed for secrecy"
+            item: "Four families: praised for skills but shamed for secrecy",
+            type: "contrast"
           }
         ],
         quizSeeds: [
@@ -85061,7 +85210,7 @@ const DAF_CONTENT = {
           }
         ],
         finalRuling: "Beth Garmu, Beth Avtinas, Hugras, and Ben Kamtsar are remembered in infamy for refusing to share Temple skills.",
-        difficulty: "introductory",
+        difficulty: "intro",
         alternateAngles: [],
         topicTags: [
           "Temple service families",
@@ -85215,7 +85364,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "ketoret (incense) formula"
         ],
         misconceptions: [
@@ -85230,8 +85380,8 @@ const DAF_CONTENT = {
         ],
         visualizableElements: [
           {
-            type: "action",
-            description: "Beth Avtinas brought back from Alexandria at double wages to share the incense secret"
+            item: "Beth Avtinas brought back from Alexandria at double wages to share the incense secret",
+            type: "action"
           }
         ],
         quizSeeds: [
@@ -85861,8 +86011,8 @@ const DAF_CONTENT = {
         ],
         visualizableElements: [
           {
-            type: "text",
-            description: "From yours they give you - Temple resources ultimately come from God"
+            item: "From yours they give you - Temple resources ultimately come from God",
+            type: "text"
           }
         ],
         quizSeeds: [
@@ -85873,7 +86023,7 @@ const DAF_CONTENT = {
           }
         ],
         finalRuling: "'From yours they give you' - God provides all that is needed for the Temple service.",
-        difficulty: "introductory",
+        difficulty: "intro",
         alternateAngles: [],
         topicTags: [
           "Temple theology",
@@ -85946,7 +86096,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "Levitical music"
         ],
         misconceptions: [
@@ -85961,8 +86112,8 @@ const DAF_CONTENT = {
         ],
         visualizableElements: [
           {
-            type: "action",
-            description: "Hugras puts thumb in mouth to produce special trill for Temple Levitical songs"
+            item: "Hugras puts thumb in mouth to produce special trill for Temple Levitical songs",
+            type: "action"
           }
         ],
         quizSeeds: [
@@ -85973,7 +86124,7 @@ const DAF_CONTENT = {
           }
         ],
         finalRuling: "Hugras's vocal trill (thumb in mouth) was extraordinary but never taught; lost at his death.",
-        difficulty: "introductory",
+        difficulty: "intro",
         alternateAngles: [],
         topicTags: [
           "Temple music",
@@ -86124,8 +86275,8 @@ const DAF_CONTENT = {
         ],
         visualizableElements: [
           {
-            type: "contrast",
-            description: "Righteous remembered for blessing; wicked remembered for shame - both permanent"
+            item: "Righteous remembered for blessing; wicked remembered for shame - both permanent",
+            type: "contrast"
           }
         ],
         quizSeeds: [
@@ -86304,8 +86455,8 @@ const DAF_CONTENT = {
         ],
         visualizableElements: [
           {
-            type: "contrast",
-            description: "Blessing of righteous = inverse of curse of wicked; both taught from the same Mishna"
+            item: "Blessing of righteous = inverse of curse of wicked; both taught from the same Mishna",
+            type: "contrast"
           }
         ],
         quizSeeds: [
@@ -87290,7 +87441,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "Yom Kippur lot",
           "western lamp (ner ma'aravi)"
         ],
@@ -87306,8 +87458,8 @@ const DAF_CONTENT = {
         ],
         visualizableElements: [
           {
-            type: "sequence",
-            description: "Four miracles: right-hand lot, continuous western lamp, fresh showbread, straight incense smoke"
+            item: "Four miracles: right-hand lot, continuous western lamp, fresh showbread, straight incense smoke",
+            type: "sequence"
           }
         ],
         quizSeeds: [
@@ -87318,7 +87470,7 @@ const DAF_CONTENT = {
           }
         ],
         finalRuling: "During Shimon HaTzaddik's 40 years: lot always right hand, western lamp continuous, showbread fresh, incense smoke straight.",
-        difficulty: "introductory",
+        difficulty: "intro",
         alternateAngles: [],
         topicTags: [
           "Shimon HaTzaddik",
@@ -87408,7 +87560,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "western lamp",
           "Yom Kippur lot"
         ],
@@ -87424,8 +87577,8 @@ const DAF_CONTENT = {
         ],
         visualizableElements: [
           {
-            type: "timeline",
-            description: "40 years of omens before destruction: lot left, lamp out, gates open"
+            item: "40 years of omens before destruction: lot left, lamp out, gates open",
+            type: "timeline"
           }
         ],
         quizSeeds: [
@@ -87436,7 +87589,7 @@ const DAF_CONTENT = {
           }
         ],
         finalRuling: "40 years before destruction: lot came left, western lamp went out, gates opened - Rabban Yochanan ben Zakkai foretold the end.",
-        difficulty: "introductory",
+        difficulty: "intro",
         alternateAngles: [],
         topicTags: [
           "Temple destruction",
@@ -88373,8 +88526,8 @@ const DAF_CONTENT = {
         ],
         visualizableElements: [
           {
-            type: "contrast",
-            description: "Sweet era of Shimon HaTzaddik vs sour era after his death"
+            item: "Sweet era of Shimon HaTzaddik vs sour era after his death",
+            type: "contrast"
           }
         ],
         quizSeeds: [
@@ -88385,7 +88538,7 @@ const DAF_CONTENT = {
           }
         ],
         finalRuling: "After Shimon HaTzaddik died the era became 'chamtzan' - sour, as the miraculous signs ceased.",
-        difficulty: "introductory",
+        difficulty: "intro",
         alternateAngles: [],
         topicTags: [
           "Shimon HaTzaddik",
@@ -88539,7 +88692,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "lashon shel zehorit (crimson thread)",
           "Azazel goat"
         ],
@@ -88555,8 +88709,8 @@ const DAF_CONTENT = {
         ],
         visualizableElements: [
           {
-            type: "timeline",
-            description: "Signs of decline: thin Azazel goat, red thread stays red, stale showbread"
+            item: "Signs of decline: thin Azazel goat, red thread stays red, stale showbread",
+            type: "timeline"
           }
         ],
         quizSeeds: [
@@ -88674,7 +88828,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "kappara (atonement)",
           "goral (lot)"
         ],
@@ -88690,8 +88845,8 @@ const DAF_CONTENT = {
         ],
         visualizableElements: [
           {
-            type: "action",
-            description: "KG places 'for God' lot on right goat's head, says 'chattat l'HaShem'"
+            item: "KG places 'for God' lot on right goat's head, says 'chattat l'HaShem'",
+            type: "action"
           }
         ],
         quizSeeds: [
@@ -88702,7 +88857,7 @@ const DAF_CONTENT = {
           }
         ],
         finalRuling: "The KG placed the lots on the goats' heads; the God-lot going right was a good omen, left a bad one.",
-        difficulty: "introductory",
+        difficulty: "intro",
         alternateAngles: [],
         topicTags: [
           "Yom Kippur",
@@ -88857,7 +89012,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "Yom Kippur lot (goral)",
           "Deputy KG (segan)"
         ],
@@ -88873,8 +89029,8 @@ const DAF_CONTENT = {
         ],
         visualizableElements: [
           {
-            type: "action",
-            description: "KG draws simultaneously; right hand preferred but left is technically valid"
+            item: "KG draws simultaneously; right hand preferred but left is technically valid",
+            type: "action"
           }
         ],
         quizSeeds: [
@@ -90095,7 +90251,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "Yom Kippur lot",
           "crimson thread (lashon shel zehorit)"
         ],
@@ -90111,8 +90268,8 @@ const DAF_CONTENT = {
         ],
         visualizableElements: [
           {
-            type: "sequence",
-            description: "Lot drawn → placed on goat → verbal designation → crimson thread half on goat, half on cliff"
+            item: "Lot drawn → placed on goat → verbal designation → crimson thread half on goat, half on cliff",
+            type: "sequence"
           }
         ],
         quizSeeds: [
@@ -91291,7 +91448,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "Azazel goat",
           "third Yom Kippur confession",
           "sair hamishtaleiach"
@@ -91308,8 +91466,8 @@ const DAF_CONTENT = {
         ],
         visualizableElements: [
           {
-            type: "sequence",
-            description: "Third confession over live goat → congregation responds → handler takes goat to wilderness"
+            item: "Third confession over live goat → congregation responds → handler takes goat to wilderness",
+            type: "sequence"
           }
         ],
         quizSeeds: [
@@ -91998,7 +92156,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "Sifra (Torat Kohanim)",
           "tannaic attribution"
         ],
@@ -92014,8 +92173,8 @@ const DAF_CONTENT = {
         ],
         visualizableElements: [
           {
-            type: "text",
-            description: "Setam Sifra = R. Yehuda: the attribution key for all anonymous Torat Kohanim rulings"
+            item: "Setam Sifra = R. Yehuda: the attribution key for all anonymous Torat Kohanim rulings",
+            type: "text"
           }
         ],
         quizSeeds: [
@@ -92026,7 +92185,7 @@ const DAF_CONTENT = {
           }
         ],
         finalRuling: "Anonymous Sifra = R. Yehuda.",
-        difficulty: "introductory",
+        difficulty: "intro",
         alternateAngles: [],
         topicTags: [
           "Sifra",
@@ -92292,7 +92451,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "kinnim (bird-pair offerings)",
           "chatat",
           "olah"
@@ -92309,8 +92469,8 @@ const DAF_CONTENT = {
         ],
         visualizableElements: [
           {
-            type: "sequence",
-            description: "Bird pair: first slaughtered = chatat; second = olah; if one dies before, new pair needed"
+            item: "Bird pair: first slaughtered = chatat; second = olah; if one dies before, new pair needed",
+            type: "sequence"
           }
         ],
         quizSeeds: [
@@ -93295,7 +93455,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "kinnim",
           "viduy (confession)"
         ],
@@ -93311,8 +93472,8 @@ const DAF_CONTENT = {
         ],
         visualizableElements: [
           {
-            type: "text",
-            description: "'After he confessed' not 'after he said' - precision in describing the atoning verbal act"
+            item: "'After he confessed' not 'after he said' - precision in describing the atoning verbal act",
+            type: "text"
           }
         ],
         quizSeeds: [
@@ -93589,7 +93750,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "ish iti (Azazel goat handler)",
           "Tsuk (cliff)",
           "eretz gezerah"
@@ -93606,8 +93768,8 @@ const DAF_CONTENT = {
         ],
         visualizableElements: [
           {
-            type: "sequence",
-            description: "Goat leaves Jerusalem → 10 booths → Tsuk (12 mil) → pushed off cliff → ish iti becomes impure"
+            item: "Goat leaves Jerusalem → 10 booths → Tsuk (12 mil) → pushed off cliff → ish iti becomes impure",
+            type: "sequence"
           }
         ],
         quizSeeds: [
@@ -93618,7 +93780,7 @@ const DAF_CONTENT = {
           }
         ],
         finalRuling: "Scarlet thread on goat's head; 10 booths from Jerusalem to Tsuk (12 mil); ish iti becomes impure; goat pushed off cliff.",
-        difficulty: "introductory",
+        difficulty: "intro",
         alternateAngles: [],
         topicTags: [
           "Yom Kippur",
@@ -94889,7 +95051,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "red heifer laws (parah adumah)",
           "Yom Kippur avodah sequence",
           "ritual impurity categories"
@@ -94906,12 +95069,12 @@ const DAF_CONTENT = {
         ],
         visualizableElements: [
           {
-            type: "person",
-            label: "R. Yochanan contradicting his teacher"
+            item: "R. Yochanan contradicting his teacher",
+            type: "person"
           },
           {
-            type: "contrast",
-            label: "parah thread weight 10 zuz vs Yom Kippur thread 2 sela"
+            item: "parah thread weight 10 zuz vs Yom Kippur thread 2 sela",
+            type: "contrast"
           }
         ],
         quizSeeds: [
@@ -95868,7 +96031,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "red heifer laws",
           "Yom Kippur avodah",
           "rabbinic vs biblical impurity"
@@ -95885,12 +96049,12 @@ const DAF_CONTENT = {
         ],
         visualizableElements: [
           {
-            type: "contrast",
-            label: "biblical vs rabbinic impurity of ish iti"
+            item: "biblical vs rabbinic impurity of ish iti",
+            type: "contrast"
           },
           {
-            type: "text",
-            label: "verse 'l'mishmerit' excluding Tur Shimon"
+            item: "verse 'l'mishmerit' excluding Tur Shimon",
+            type: "text"
           }
         ],
         quizSeeds: [
@@ -96959,7 +97123,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "Numbers 19 parah adumah passage",
           "Yom Kippur avodah structure",
           "atonement theology"
@@ -96977,16 +97142,16 @@ const DAF_CONTENT = {
         ],
         visualizableElements: [
           {
-            type: "sequence",
-            label: "signal relay: cliff to booths to Jerusalem"
+            item: "signal relay: cliff to booths to Jerusalem",
+            type: "sequence"
           },
           {
-            type: "object",
-            label: "crimson thread half on cliff half on goat"
+            item: "crimson thread half on cliff half on goat",
+            type: "object"
           },
           {
-            type: "place",
-            label: "Tsuk cliff 12 mil from Jerusalem"
+            item: "Tsuk cliff 12 mil from Jerusalem",
+            type: "place"
           }
         ],
         quizSeeds: [
@@ -98080,7 +98245,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "tevul yom laws",
           "parah adumah rite personnel"
         ],
@@ -98096,8 +98262,8 @@ const DAF_CONTENT = {
         ],
         visualizableElements: [
           {
-            type: "contrast",
-            label: "mashma otzei miyad mashma vs mashma mimila"
+            item: "mashma otzei miyad mashma vs mashma mimila",
+            type: "contrast"
           }
         ],
         quizSeeds: [
@@ -98250,7 +98416,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "Yom Kippur avodah sequence",
           "Holy of Holies entry laws",
           "incense composition"
@@ -98267,12 +98434,12 @@ const DAF_CONTENT = {
         ],
         visualizableElements: [
           {
-            type: "sequence",
-            label: "slaughter -> stir blood -> coals + incense -> enter Holy of Holies"
+            item: "slaughter -> stir blood -> coals + incense -> enter Holy of Holies",
+            type: "sequence"
           },
           {
-            type: "contrast",
-            label: "Pharisee vs Sadducee incense timing"
+            item: "Pharisee vs Sadducee incense timing",
+            type: "contrast"
           }
         ],
         quizSeeds: [
@@ -99320,7 +99487,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "Yom Kippur incense service",
           "Holy of Holies entry laws",
           "atonement theology"
@@ -99338,16 +99506,16 @@ const DAF_CONTENT = {
         ],
         visualizableElements: [
           {
-            type: "place",
-            label: "incense cloud filling the Holy of Holies"
+            item: "incense cloud filling the Holy of Holies",
+            type: "place"
           },
           {
-            type: "contrast",
-            label: "Sages: incense inside vs Sadducees: incense outside"
+            item: "Sages: incense inside vs Sadducees: incense outside",
+            type: "contrast"
           },
           {
-            type: "action",
-            label: "High Priest's brief prayer at the exit"
+            item: "High Priest's brief prayer at the exit",
+            type: "action"
           }
         ],
         quizSeeds: [
@@ -100350,7 +100518,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "Yom Kippur avodah sequence",
           "Temple architecture and holiness zones"
         ],
@@ -100366,12 +100535,12 @@ const DAF_CONTENT = {
         ],
         visualizableElements: [
           {
-            type: "place",
-            label: "graduated exclusion zones: Azarah to Kodesh Kodashim"
+            item: "graduated exclusion zones: Azarah to Kodesh Kodashim",
+            type: "place"
           },
           {
-            type: "contrast",
-            label: "incense exclusion (absolute) vs blood exclusion (graduated)"
+            item: "incense exclusion (absolute) vs blood exclusion (graduated)",
+            type: "contrast"
           }
         ],
         quizSeeds: [
@@ -100441,7 +100610,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "Temple vessel materials",
           "daily vs Yom Kippur service distinctions"
         ],
@@ -100457,8 +100627,8 @@ const DAF_CONTENT = {
         ],
         visualizableElements: [
           {
-            type: "contrast",
-            label: "silver pan (daily) vs gold pan (Yom Kippur)"
+            item: "silver pan (daily) vs gold pan (Yom Kippur)",
+            type: "contrast"
           }
         ],
         quizSeeds: [
@@ -100468,7 +100638,7 @@ const DAF_CONTENT = {
           }
         ],
         finalRuling: "The daily incense pan is silver; the Yom Kippur pan is gold - corresponding to the relative holiness of each occasion.",
-        difficulty: "introductory",
+        difficulty: "intro",
         alternateAngles: [],
         topicTags: [
           "daily incense",
@@ -100527,7 +100697,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "Holy of Holies architecture",
           "Temple vessel materials"
         ],
@@ -100541,8 +100712,8 @@ const DAF_CONTENT = {
         relatedSugyot: [],
         visualizableElements: [
           {
-            type: "place",
-            label: "Holy of Holies - all gold interior"
+            item: "Holy of Holies - all gold interior",
+            type: "place"
           }
         ],
         quizSeeds: [
@@ -100552,7 +100723,7 @@ const DAF_CONTENT = {
           }
         ],
         finalRuling: "The Yom Kippur incense pan is gold to match the gold interior of the Holy of Holies.",
-        difficulty: "introductory",
+        difficulty: "intro",
         alternateAngles: [],
         topicTags: [
           "Yom Kippur incense pan",
@@ -100648,7 +100819,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "Temple logistics",
           "High Priest carrying capacity",
           "Kodesh Kodashim dimensions"
@@ -100663,8 +100835,8 @@ const DAF_CONTENT = {
         relatedSugyot: [],
         visualizableElements: [
           {
-            type: "contrast",
-            label: "4 kavim daily vs 3 kavim Yom Kippur"
+            item: "4 kavim daily vs 3 kavim Yom Kippur",
+            type: "contrast"
           }
         ],
         quizSeeds: [
@@ -100674,7 +100846,7 @@ const DAF_CONTENT = {
           }
         ],
         finalRuling: "The Yom Kippur firepan uses 3 kavim of coals (vs. 4 daily) because the High Priest carries it alone and the smaller space of the Kodesh Kodashim requires less.",
-        difficulty: "introductory",
+        difficulty: "intro",
         alternateAngles: [],
         topicTags: [
           "coals quantity",
@@ -100751,7 +100923,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "Temple utensil materials",
           "High Priest's solo service"
         ],
@@ -100765,8 +100938,8 @@ const DAF_CONTENT = {
         relatedSugyot: [],
         visualizableElements: [
           {
-            type: "contrast",
-            label: "heavy daily pan vs lighter Yom Kippur pan"
+            item: "heavy daily pan vs lighter Yom Kippur pan",
+            type: "contrast"
           }
         ],
         quizSeeds: [
@@ -100776,7 +100949,7 @@ const DAF_CONTENT = {
           }
         ],
         finalRuling: "The Yom Kippur firepan was deliberately lighter than the daily pan to enable solo carrying by the High Priest.",
-        difficulty: "introductory",
+        difficulty: "intro",
         alternateAngles: [],
         topicTags: [
           "firepan weight",
@@ -100835,7 +101008,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "Temple material knowledge",
           "gold varieties in antiquity"
         ],
@@ -100849,8 +101023,8 @@ const DAF_CONTENT = {
         relatedSugyot: [],
         visualizableElements: [
           {
-            type: "object",
-            label: "greenish Sheba gold of daily incense pan"
+            item: "greenish Sheba gold of daily incense pan",
+            type: "object"
           }
         ],
         quizSeeds: [
@@ -101815,7 +101989,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "Temple vessel materials",
           "parah adumah gold pan discussion"
         ],
@@ -101831,8 +102006,8 @@ const DAF_CONTENT = {
         ],
         visualizableElements: [
           {
-            type: "contrast",
-            label: "five types of gold from ordinary to paz"
+            item: "five types of gold from ordinary to paz",
+            type: "contrast"
           }
         ],
         quizSeeds: [
@@ -101842,7 +102017,7 @@ const DAF_CONTENT = {
           }
         ],
         finalRuling: "Five types of gold exist; paz is the finest, named for its pearl-like glistening quality.",
-        difficulty: "introductory",
+        difficulty: "intro",
         alternateAngles: [],
         topicTags: [
           "gold types",
@@ -101901,7 +102076,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "incense service laws",
           "daily Temple service structure"
         ],
@@ -101915,8 +102091,8 @@ const DAF_CONTENT = {
         relatedSugyot: [],
         visualizableElements: [
           {
-            type: "contrast",
-            label: "ordinary day peras vs Yom Kippur quantity"
+            item: "ordinary day peras vs Yom Kippur quantity",
+            type: "contrast"
           }
         ],
         quizSeeds: [
@@ -101926,7 +102102,7 @@ const DAF_CONTENT = {
           }
         ],
         finalRuling: "The daily peras of incense continues unchanged on Yom Kippur. Yom Kippur adds a separate incense service: an additional handful the High Priest burns inside the Holy of Holies.",
-        difficulty: "introductory",
+        difficulty: "intro",
         alternateAngles: [],
         topicTags: [
           "incense",
@@ -101986,7 +102162,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "altar ramp geometry",
           "High Priest's special status on Yom Kippur"
         ],
@@ -102000,8 +102177,8 @@ const DAF_CONTENT = {
         relatedSugyot: [],
         visualizableElements: [
           {
-            type: "place",
-            label: "altar ramp - east side vs middle path"
+            item: "altar ramp - east side vs middle path",
+            type: "place"
           }
         ],
         quizSeeds: [
@@ -102011,7 +102188,7 @@ const DAF_CONTENT = {
           }
         ],
         finalRuling: "On Yom Kippur the High Priest uses the middle path of the altar ramp; ordinary priests use the eastern path.",
-        difficulty: "introductory",
+        difficulty: "intro",
         alternateAngles: [],
         topicTags: [
           "altar ramp",
@@ -102071,7 +102248,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "altar fire laws",
           "daily Temple service"
         ],
@@ -102085,8 +102263,8 @@ const DAF_CONTENT = {
         relatedSugyot: [],
         visualizableElements: [
           {
-            type: "place",
-            label: "four wood arrangements on the altar"
+            item: "four wood arrangements on the altar",
+            type: "place"
           }
         ],
         quizSeeds: [
@@ -102096,7 +102274,7 @@ const DAF_CONTENT = {
           }
         ],
         finalRuling: "Four wood-pyre arrangements are on the altar on ordinary days.",
-        difficulty: "introductory",
+        difficulty: "intro",
         alternateAngles: [],
         topicTags: [
           "wood arrangements",
@@ -102155,7 +102333,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "hand-foot sanctification laws",
           "Yom Kippur distinctions"
         ],
@@ -102169,8 +102348,8 @@ const DAF_CONTENT = {
         relatedSugyot: [],
         visualizableElements: [
           {
-            type: "object",
-            label: "golden pitcher vs laver for hand sanctification"
+            item: "golden pitcher vs laver for hand sanctification",
+            type: "object"
           }
         ],
         quizSeeds: [
@@ -102180,7 +102359,7 @@ const DAF_CONTENT = {
           }
         ],
         finalRuling: "On Yom Kippur a golden pitcher is used for the High Priest's hand-foot sanctification instead of the ordinary laver.",
-        difficulty: "introductory",
+        difficulty: "intro",
         alternateAngles: [],
         topicTags: [
           "hand-foot sanctification",
@@ -102334,7 +102513,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "altar fire laws",
           "perpetual fire laws",
           "Yom Kippur avodah structure"
@@ -102351,12 +102531,12 @@ const DAF_CONTENT = {
         ],
         visualizableElements: [
           {
-            type: "contrast",
-            label: "R. Meir 5 arrangements vs R. Yehuda 4"
+            item: "R. Meir 5 arrangements vs R. Yehuda 4",
+            type: "contrast"
           },
           {
-            type: "sequence",
-            label: "four arrangements derived from four Torah verses"
+            item: "four arrangements derived from four Torah verses",
+            type: "sequence"
           }
         ],
         quizSeeds: [
@@ -103164,7 +103344,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "altar fire laws",
           "wood arrangement count dispute"
         ],
@@ -103180,8 +103361,8 @@ const DAF_CONTENT = {
         ],
         visualizableElements: [
           {
-            type: "text",
-            label: "altar fire verse 'lo tichbeh' as prohibition not arrangement"
+            item: "altar fire verse 'lo tichbeh' as prohibition not arrangement",
+            type: "text"
           }
         ],
         quizSeeds: [
@@ -103776,7 +103957,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "altar fire arrangements",
           "Shabbat overriding laws",
           "ritual impurity and Temple service"
@@ -103793,12 +103975,12 @@ const DAF_CONTENT = {
         ],
         visualizableElements: [
           {
-            type: "contrast",
-            label: "communal offerings override Shabbat/tumah vs private offerings do not"
+            item: "communal offerings override Shabbat/tumah vs private offerings do not",
+            type: "contrast"
           },
           {
-            type: "place",
-            label: "sides of altar - not valid positions for wood arrangement"
+            item: "sides of altar - not valid positions for wood arrangement",
+            type: "place"
           }
         ],
         quizSeeds: [
@@ -104418,7 +104600,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "ritual impurity and Temple service",
           "altar fire laws",
           "Shabbat and Temple service"
@@ -104433,8 +104616,8 @@ const DAF_CONTENT = {
         relatedSugyot: [],
         visualizableElements: [
           {
-            type: "contrast",
-            label: "tumah hutrah vs tumah dechuyah - practical difference in edge cases"
+            item: "tumah hutrah vs tumah dechuyah - practical difference in edge cases",
+            type: "contrast"
           }
         ],
         quizSeeds: [
@@ -104772,7 +104955,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "incense service laws",
           "Holy of Holies entry sequence"
         ],
@@ -104788,8 +104972,8 @@ const DAF_CONTENT = {
         ],
         visualizableElements: [
           {
-            type: "object",
-            label: "spoon and coal pan brought to High Priest between vestibule and altar"
+            item: "spoon and coal pan brought to High Priest between vestibule and altar",
+            type: "object"
           }
         ],
         quizSeeds: [
@@ -104799,7 +104983,7 @@ const DAF_CONTENT = {
           }
         ],
         finalRuling: "A spoon is used to transfer incense powder to the High Priest's cupped hands because dry powder cannot be hand-scooped without spilling.",
-        difficulty: "introductory",
+        difficulty: "intro",
         alternateAngles: [],
         topicTags: [
           "spoon",
@@ -104897,7 +105081,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "incense service laws",
           "High Priest training",
           "kometz laws generally"
@@ -104912,8 +105097,8 @@ const DAF_CONTENT = {
         relatedSugyot: [],
         visualizableElements: [
           {
-            type: "action",
-            label: "kometz - scooping handfuls with middle fingers while gripping spoon with thumbs"
+            item: "kometz - scooping handfuls with middle fingers while gripping spoon with thumbs",
+            type: "action"
           }
         ],
         quizSeeds: [
@@ -105001,7 +105186,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "Yom Kippur avodah sequence",
           "Holy of Holies entry mechanics"
         ],
@@ -105015,8 +105201,8 @@ const DAF_CONTENT = {
         relatedSugyot: [],
         visualizableElements: [
           {
-            type: "action",
-            label: "right hand: coal pan; left hand: incense ladle"
+            item: "right hand: coal pan; left hand: incense ladle",
+            type: "action"
           }
         ],
         quizSeeds: [
@@ -105026,7 +105212,7 @@ const DAF_CONTENT = {
           }
         ],
         finalRuling: "Coal pan in right hand; incense ladle in left hand; inside the Holy of Holies the incense is placed on the coals with the right hand.",
-        difficulty: "introductory",
+        difficulty: "intro",
         alternateAngles: [],
         topicTags: [
           "coal pan",
@@ -105141,7 +105327,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "High Priest replacement laws",
           "tzniut values"
         ],
@@ -105157,12 +105344,12 @@ const DAF_CONTENT = {
         ],
         visualizableElements: [
           {
-            type: "person",
-            label: "Kimhit - mother of seven High Priests"
+            item: "Kimhit - mother of seven High Priests",
+            type: "person"
           },
           {
-            type: "narrative",
-            label: "Yom Kippur emergency: Gentile spittle made son impure, brother substituted"
+            item: "Yom Kippur emergency: Gentile spittle made son impure, brother substituted",
+            type: "narrative"
           }
         ],
         quizSeeds: [
@@ -105172,7 +105359,7 @@ const DAF_CONTENT = {
           }
         ],
         finalRuling: "Kimhit's extraordinary modesty - walls never seeing her hair - merited seven sons as High Priests; when one became impure on Yom Kippur from Gentile spittle, a brother substituted.",
-        difficulty: "introductory",
+        difficulty: "intro",
         alternateAngles: [],
         topicTags: [
           "Kimhit",
@@ -105259,7 +105446,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "kometz laws in meal-offerings",
           "incense service precision"
         ],
@@ -105273,8 +105461,8 @@ const DAF_CONTENT = {
         relatedSugyot: [],
         visualizableElements: [
           {
-            type: "action",
-            label: "exact kometz: three middle fingers, not fist, not fingertips"
+            item: "exact kometz: three middle fingers, not fist, not fingertips",
+            type: "action"
           }
         ],
         quizSeeds: [
@@ -105345,7 +105533,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "kometz laws",
           "Temple measurement standards"
         ],
@@ -105359,8 +105548,8 @@ const DAF_CONTENT = {
         relatedSugyot: [],
         visualizableElements: [
           {
-            type: "object",
-            label: "human hand as measuring instrument for kometz"
+            item: "human hand as measuring instrument for kometz",
+            type: "object"
           }
         ],
         quizSeeds: [
@@ -106364,7 +106553,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "kometz laws",
           "meal-offering varieties"
         ],
@@ -106378,8 +106568,8 @@ const DAF_CONTENT = {
         relatedSugyot: [],
         visualizableElements: [
           {
+            item: "Pan meal-offering vs standard meal-offering - two vessel types, different kometz mechanics",
             type: "object",
-            description: "Pan meal-offering vs standard meal-offering - two vessel types, different kometz mechanics",
             role: "contrast",
             priority: 1
           }
@@ -106494,7 +106684,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "kometz laws",
           "meal-offering precision laws"
         ],
@@ -106508,8 +106699,8 @@ const DAF_CONTENT = {
         relatedSugyot: [],
         visualizableElements: [
           {
-            type: "action",
-            label: "bein habeinayim - flour in inter-finger spaces vs on fingerpads"
+            item: "bein habeinayim - flour in inter-finger spaces vs on fingerpads",
+            type: "action"
           }
         ],
         quizSeeds: [
@@ -106619,7 +106810,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "kometz precision laws",
           "meal-offering laws"
         ],
@@ -106633,8 +106825,8 @@ const DAF_CONTENT = {
         relatedSugyot: [],
         visualizableElements: [
           {
-            type: "action",
-            label: "three kometz geometry alterations: extended, pressed, spread"
+            item: "three kometz geometry alterations: extended, pressed, spread",
+            type: "action"
           }
         ],
         quizSeeds: [
@@ -106705,7 +106897,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "Yom Kippur service timing laws",
           "kometz laws"
         ],
@@ -106719,8 +106912,8 @@ const DAF_CONTENT = {
         relatedSugyot: [],
         visualizableElements: [
           {
+            item: "Midnight kometz vs permitted dawn: sequence of when scooping must occur",
             type: "timeline",
-            description: "Midnight kometz vs permitted dawn: sequence of when scooping must occur",
             role: "anchor",
             priority: 1
           }
@@ -107748,7 +107941,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "kometz laws",
           "meal-offering laws"
         ],
@@ -107762,8 +107956,8 @@ const DAF_CONTENT = {
         relatedSugyot: [],
         visualizableElements: [
           {
+            item: "HP's three-finger kometz: handful stuck to pan side or garment - still valid?",
             type: "action",
-            description: "HP's three-finger kometz: handful stuck to pan side or garment - still valid?",
             role: "aha",
             priority: 1
           }
@@ -107835,7 +108029,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "kometz laws",
           "hierarchy of halakha"
         ],
@@ -107849,8 +108044,8 @@ const DAF_CONTENT = {
         relatedSugyot: [],
         visualizableElements: [
           {
+            item: "Biblical kometz stringency vs. rabbinic kometz stringency - same or different standards?",
             type: "contrast",
-            description: "Biblical kometz stringency vs. rabbinic kometz stringency - same or different standards?",
             role: "anchor",
             priority: 1
           }
@@ -107973,7 +108168,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "kometz laws",
           "blood sprinkling laws",
           "Zevahim tractate connections"
@@ -107988,8 +108184,8 @@ const DAF_CONTENT = {
         relatedSugyot: [],
         visualizableElements: [
           {
-            type: "contrast",
-            label: "blood floor-contact invalid vs kometz floor-contact different rule"
+            item: "blood floor-contact invalid vs kometz floor-contact different rule",
+            type: "contrast"
           }
         ],
         quizSeeds: [
@@ -108060,7 +108256,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "kometz laws"
         ],
         misconceptions: [
@@ -108073,8 +108270,8 @@ const DAF_CONTENT = {
         relatedSugyot: [],
         visualizableElements: [
           {
+            item: "HP scooping from an oversized pile: does the excess invalidate the handful?",
             type: "action",
-            description: "HP scooping from an oversized pile: does the excess invalidate the handful?",
             role: "anchor",
             priority: 1
           }
@@ -108180,7 +108377,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "kavvanah in Temple service",
           "kometz laws",
           "pigul (improper intent) laws"
@@ -108195,8 +108393,8 @@ const DAF_CONTENT = {
         relatedSugyot: [],
         visualizableElements: [
           {
-            type: "contrast",
-            label: "correct intent vs wrong-offering intent during kometz"
+            item: "correct intent vs wrong-offering intent during kometz",
+            type: "contrast"
           }
         ],
         quizSeeds: [
@@ -108885,7 +109083,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "pigul laws",
           "kometz laws",
           "Temple service intent"
@@ -108900,8 +109099,8 @@ const DAF_CONTENT = {
         relatedSugyot: [],
         visualizableElements: [
           {
+            item: "Pigul intent during preparation (raking) vs. during the offering itself - two legal domains",
             type: "contrast",
-            description: "Pigul intent during preparation (raking) vs. during the offering itself - two legal domains",
             role: "contrast",
             priority: 1
           }
@@ -109001,7 +109200,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "pigul laws",
           "incense service",
           "Yom Kippur avodah"
@@ -109016,8 +109216,8 @@ const DAF_CONTENT = {
         relatedSugyot: [],
         visualizableElements: [
           {
-            type: "contrast",
-            label: "standard pigul (food) vs incense pigul - does the rule apply?"
+            item: "standard pigul (food) vs incense pigul - does the rule apply?",
+            type: "contrast"
           }
         ],
         quizSeeds: [
@@ -109515,7 +109715,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "blood service laws",
           "who may perform Temple service"
         ],
@@ -109529,8 +109730,8 @@ const DAF_CONTENT = {
         relatedSugyot: [],
         visualizableElements: [
           {
+            item: "Rav Sheshet citing a baraita, then using the same baraita to reverse his own position",
             type: "narrative",
-            description: "Rav Sheshet citing a baraita, then using the same baraita to reverse his own position",
             role: "aha",
             priority: 1
           }
@@ -109602,7 +109803,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "kometz laws",
           "required service acts"
         ],
@@ -109616,8 +109818,8 @@ const DAF_CONTENT = {
         relatedSugyot: [],
         visualizableElements: [
           {
+            item: "Kabbalat hakometz as formal service step vs. as mere preparation - two legal categories",
             type: "contrast",
-            description: "Kabbalat hakometz as formal service step vs. as mere preparation - two legal categories",
             role: "contrast",
             priority: 1
           }
@@ -109772,7 +109974,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "HP Yom Kippur service",
           "kometz order",
           "replacement rules"
@@ -109787,8 +109990,8 @@ const DAF_CONTENT = {
         relatedSugyot: [],
         visualizableElements: [
           {
+            item: "HP scoops incense, dies, replacement enters - is the original scooping still valid?",
             type: "sequence",
-            description: "HP scoops incense, dies, replacement enters - is the original scooping still valid?",
             role: "aha",
             priority: 1
           }
@@ -110795,7 +110998,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "kometz laws",
           "incense service requirements"
         ],
@@ -110808,9 +111012,15 @@ const DAF_CONTENT = {
         ],
         relatedSugyot: [],
         visualizableElements: [
-          "HP hands",
-          "ladle",
-          "incense pouring sequence"
+          {
+            item: "HP hands"
+          },
+          {
+            item: "ladle"
+          },
+          {
+            item: "incense pouring sequence"
+          }
         ],
         quizSeeds: [
           {
@@ -110925,7 +111135,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "Passover offering laws",
           "registration and withdrawal",
           "replacement rules"
@@ -110940,8 +111151,8 @@ const DAF_CONTENT = {
         relatedSugyot: [],
         visualizableElements: [
           {
+            item: "Passover registration: withdrawal valid before slaughter, invalid after - the slaughter is the point of no return",
             type: "contrast",
-            description: "Passover registration: withdrawal valid before slaughter, invalid after - the slaughter is the point of no return",
             role: "contrast",
             priority: 1
           }
@@ -111345,7 +111556,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "HP vestments",
           "Yom Kippur service order",
           "positive commandments"
@@ -111360,8 +111572,8 @@ const DAF_CONTENT = {
         relatedSugyot: [],
         visualizableElements: [
           {
+            item: "Positive commandment (must remove) vs. prohibition (may not continue wearing) - same verse, two readings",
             type: "contrast",
-            description: "Positive commandment (must remove) vs. prohibition (may not continue wearing) - same verse, two readings",
             role: "contrast",
             priority: 1
           }
@@ -111476,7 +111688,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "blood offering laws",
           "replacement HP",
           "legal categories of offerings"
@@ -111491,8 +111704,8 @@ const DAF_CONTENT = {
         relatedSugyot: [],
         visualizableElements: [
           {
+            item: "Slaughtered bull's blood: same legal identity as living bull's blood, or a new category?",
             type: "contrast",
-            description: "Slaughtered bull's blood: same legal identity as living bull's blood, or a new category?",
             role: "aha",
             priority: 1
           }
@@ -111608,7 +111821,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "communal sin-offering laws",
           "Yom Kippur service",
           "Shabbat and tumah override"
@@ -111622,9 +111836,15 @@ const DAF_CONTENT = {
         ],
         relatedSugyot: [],
         visualizableElements: [
-          "HP",
-          "bull",
-          "communal vs personal contrast"
+          {
+            item: "HP"
+          },
+          {
+            item: "bull"
+          },
+          {
+            item: "communal vs personal contrast"
+          }
         ],
         quizSeeds: [
           {
@@ -112701,7 +112921,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "communal sin-offering laws",
           "pigul",
           "Shabbat/tumah override"
@@ -112715,9 +112936,15 @@ const DAF_CONTENT = {
         ],
         relatedSugyot: [],
         visualizableElements: [
-          "HP",
-          "bull",
-          "communal representative"
+          {
+            item: "HP"
+          },
+          {
+            item: "bull"
+          },
+          {
+            item: "communal representative"
+          }
         ],
         quizSeeds: [
           {
@@ -112864,7 +113091,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "designated service laws",
           "HP Yom Kippur obligations",
           "exclusive designation"
@@ -112879,8 +113107,8 @@ const DAF_CONTENT = {
         relatedSugyot: [],
         visualizableElements: [
           {
+            item: "Personal vow offering vs. fixed Yom Kippur service: can they coexist in the same act?",
             type: "contrast",
-            description: "Personal vow offering vs. fixed Yom Kippur service: can they coexist in the same act?",
             role: "contrast",
             priority: 1
           }
@@ -113950,7 +114178,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "firstborn laws",
           "tithe laws",
           "designated service principles"
@@ -113965,8 +114194,8 @@ const DAF_CONTENT = {
         relatedSugyot: [],
         visualizableElements: [
           {
+            item: "Automatic sanctity (firstborn, tithe) vs. formal designation - two independent legal categories",
             type: "contrast",
-            description: "Automatic sanctity (firstborn, tithe) vs. formal designation - two independent legal categories",
             role: "contrast",
             priority: 1
           }
@@ -114074,7 +114303,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "Holy of Holies laws",
           "blood service sequence",
           "HP exclusive acts"
@@ -114088,9 +114318,15 @@ const DAF_CONTENT = {
         ],
         relatedSugyot: [],
         visualizableElements: [
-          "HP",
-          "blood bowl",
-          "entry through parochet"
+          {
+            item: "HP"
+          },
+          {
+            item: "blood bowl"
+          },
+          {
+            item: "entry through parochet"
+          }
         ],
         quizSeeds: [
           {
@@ -114099,7 +114335,7 @@ const DAF_CONTENT = {
           }
         ],
         finalRuling: "The HP personally receives the stirred blood and enters the Holy of Holies to begin the atonement sprinkling.",
-        difficulty: "introductory",
+        difficulty: "intro",
         alternateAngles: [],
         topicTags: [
           "blood reception",
@@ -114560,7 +114796,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "designated service laws",
           "Yom Kippur service exclusivity",
           "atonement"
@@ -114575,8 +114812,8 @@ const DAF_CONTENT = {
         relatedSugyot: [],
         visualizableElements: [
           {
+            item: "'Which is for himself' - a single phrase that locks service to its designated purpose",
             type: "text",
-            description: "'Which is for himself' - a single phrase that locks service to its designated purpose",
             role: "anchor",
             priority: 1
           }
@@ -114665,7 +114902,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "Temple directional protocols",
           "kavod in sacred spaces"
         ],
@@ -114678,9 +114916,15 @@ const DAF_CONTENT = {
         ],
         relatedSugyot: [],
         visualizableElements: [
-          "Temple layout",
-          "HP walking path",
-          "parochet"
+          {
+            item: "Temple layout"
+          },
+          {
+            item: "HP walking path"
+          },
+          {
+            item: "parochet"
+          }
         ],
         quizSeeds: [
           {
@@ -114689,7 +114933,7 @@ const DAF_CONTENT = {
           }
         ],
         finalRuling: "The HP walks on the right (south) side of the Sanctuary heading west - a mark of respect (kavod).",
-        difficulty: "introductory",
+        difficulty: "intro",
         alternateAngles: [],
         topicTags: [
           "Temple entry direction",
@@ -114786,7 +115030,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "blood sprinkling laws",
           "Temple service counting",
           "Holy of Holies service"
@@ -114800,9 +115045,15 @@ const DAF_CONTENT = {
         ],
         relatedSugyot: [],
         visualizableElements: [
-          "HP sprinkling",
-          "kapporet",
-          "counting sequence"
+          {
+            item: "HP sprinkling"
+          },
+          {
+            item: "kapporet"
+          },
+          {
+            item: "counting sequence"
+          }
         ],
         quizSeeds: [
           {
@@ -115775,7 +116026,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "Holy of Holies access",
           "Temple architecture",
           "kavod principles"
@@ -115788,10 +116040,18 @@ const DAF_CONTENT = {
         ],
         relatedSugyot: [],
         visualizableElements: [
-          "HP",
-          "parochet",
-          "two curtains",
-          "entry path"
+          {
+            item: "HP"
+          },
+          {
+            item: "parochet"
+          },
+          {
+            item: "two curtains"
+          },
+          {
+            item: "entry path"
+          }
         ],
         quizSeeds: [
           {
@@ -115881,7 +116141,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "Temple service kavod",
           "Holy of Holies protocols"
         ],
@@ -115893,10 +116154,18 @@ const DAF_CONTENT = {
         ],
         relatedSugyot: [],
         visualizableElements: [
-          "HP",
-          "kapporet",
-          "cheruvim",
-          "approach direction"
+          {
+            item: "HP"
+          },
+          {
+            item: "kapporet"
+          },
+          {
+            item: "cheruvim"
+          },
+          {
+            item: "approach direction"
+          }
         ],
         quizSeeds: [
           {
@@ -115905,7 +116174,7 @@ const DAF_CONTENT = {
           }
         ],
         finalRuling: "The HP enters the Holy of Holies directly facing the kapporet - the maximally respectful approach.",
-        difficulty: "introductory",
+        difficulty: "intro",
         alternateAngles: [],
         topicTags: [
           "kapporet approach",
@@ -116522,7 +116791,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "tzara'at laws",
           "Temple Menorah description",
           "biblical lexicography"
@@ -116536,8 +116806,8 @@ const DAF_CONTENT = {
         relatedSugyot: [],
         visualizableElements: [
           {
+            item: "Four Torah words with uncertain meanings: Se'et, Meshukkadim, Mahar, Arur",
             type: "text",
-            description: "Four Torah words with uncertain meanings: Se'et, Meshukkadim, Mahar, Arur",
             role: "anchor",
             priority: 1
           }
@@ -116634,7 +116904,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "Temple architecture",
           "parochet structure",
           "HP entry path"
@@ -116647,9 +116918,15 @@ const DAF_CONTENT = {
         ],
         relatedSugyot: [],
         visualizableElements: [
-          "Sanctuary curtain",
-          "hookings",
-          "Temple layout"
+          {
+            item: "Sanctuary curtain"
+          },
+          {
+            item: "hookings"
+          },
+          {
+            item: "Temple layout"
+          }
         ],
         quizSeeds: [
           {
@@ -116744,7 +117021,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "Second Temple period",
           "Ark of the Covenant",
           "blood sprinkling location"
@@ -116757,10 +117035,18 @@ const DAF_CONTENT = {
         ],
         relatedSugyot: [],
         visualizableElements: [
-          "Ark of the Covenant",
-          "Josiah",
-          "foundation stone",
-          "Holy of Holies"
+          {
+            item: "Ark of the Covenant"
+          },
+          {
+            item: "Josiah"
+          },
+          {
+            item: "foundation stone"
+          },
+          {
+            item: "Holy of Holies"
+          }
         ],
         quizSeeds: [
           {
@@ -116847,7 +117133,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "incense service",
           "Holy of Holies service order",
           "protective cloud"
@@ -116860,10 +117147,18 @@ const DAF_CONTENT = {
         ],
         relatedSugyot: [],
         visualizableElements: [
-          "HP",
-          "coal pan",
-          "incense smoke",
-          "Holy of Holies"
+          {
+            item: "HP"
+          },
+          {
+            item: "coal pan"
+          },
+          {
+            item: "incense smoke"
+          },
+          {
+            item: "Holy of Holies"
+          }
         ],
         quizSeeds: [
           {
@@ -117841,7 +118136,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "Temple service orientation",
           "Holy of Holies protocol"
         ],
@@ -117855,8 +118151,8 @@ const DAF_CONTENT = {
         relatedSugyot: [],
         visualizableElements: [
           {
+            item: "Holy of Holies interior: HP approaches coal pan from the side, not directly in front",
             type: "place",
-            description: "Holy of Holies interior: HP approaches coal pan from the side, not directly in front",
             role: "anchor",
             priority: 1
           }
@@ -117973,7 +118269,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "Sadducee-Pharisee disputes",
           "incense service",
           "Temple service halacha"
@@ -117986,10 +118283,18 @@ const DAF_CONTENT = {
         ],
         relatedSugyot: [],
         visualizableElements: [
-          "HP",
-          "incense",
-          "parochet",
-          "before God"
+          {
+            item: "HP"
+          },
+          {
+            item: "incense"
+          },
+          {
+            item: "parochet"
+          },
+          {
+            item: "before God"
+          }
         ],
         quizSeeds: [
           {
@@ -118108,7 +118413,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "Temple service hermeneutics",
           "Sadducee interpretation",
           "biblical analysis"
@@ -118121,10 +118427,18 @@ const DAF_CONTENT = {
         ],
         relatedSugyot: [],
         visualizableElements: [
-          "incense",
-          "Holy of Holies",
-          "parochet",
-          "divine presence"
+          {
+            item: "incense"
+          },
+          {
+            item: "Holy of Holies"
+          },
+          {
+            item: "parochet"
+          },
+          {
+            item: "divine presence"
+          }
         ],
         quizSeeds: [
           {
@@ -118217,7 +118531,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "kavod principles",
           "Holy of Holies protocol",
           "deference to holiness"
@@ -118230,10 +118545,18 @@ const DAF_CONTENT = {
         ],
         relatedSugyot: [],
         visualizableElements: [
-          "HP",
-          "backward walk",
-          "Holy of Holies exit",
-          "kapporet"
+          {
+            item: "HP"
+          },
+          {
+            item: "backward walk"
+          },
+          {
+            item: "Holy of Holies exit"
+          },
+          {
+            item: "kapporet"
+          }
         ],
         quizSeeds: [
           {
@@ -118343,7 +118666,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "HP communal role",
           "prayer requirements",
           "Yom Kippur service"
@@ -118356,10 +118680,18 @@ const DAF_CONTENT = {
         ],
         relatedSugyot: [],
         visualizableElements: [
-          "HP",
-          "exit prayer",
-          "waiting crowd",
-          "communal vs personal prayer"
+          {
+            item: "HP"
+          },
+          {
+            item: "exit prayer"
+          },
+          {
+            item: "waiting crowd"
+          },
+          {
+            item: "communal vs personal prayer"
+          }
         ],
         quizSeeds: [
           {
@@ -119298,7 +119630,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "kavod for Torah scholars",
           "Temple practice and daily life"
         ],
@@ -119311,8 +119644,8 @@ const DAF_CONTENT = {
         relatedSugyot: [],
         visualizableElements: [
           {
+            item: "Temple protocol (walking backward leaving Holy of Holies) extended to everyday respect (leaving a rabbi)",
             type: "contrast",
-            description: "Temple protocol (walking backward leaving Holy of Holies) extended to everyday respect (leaving a rabbi)",
             role: "contrast",
             priority: 1
           }
@@ -119421,7 +119754,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "prayer laws",
           "communal responsibility",
           "Yom Kippur prayer"
@@ -119435,8 +119769,8 @@ const DAF_CONTENT = {
         relatedSugyot: [],
         visualizableElements: [
           {
+            item: "HP's brief exit prayer while people wait outside - content constrained by community welfare",
             type: "action",
-            description: "HP's brief exit prayer while people wait outside - content constrained by community welfare",
             role: "aha",
             priority: 1
           }
@@ -119529,7 +119863,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "Temple cosmology",
           "creation narrative",
           "Second Temple service"
@@ -119542,10 +119877,18 @@ const DAF_CONTENT = {
         ],
         relatedSugyot: [],
         visualizableElements: [
-          "even ha-shetiya",
-          "foundation stone",
-          "Holy of Holies",
-          "creation"
+          {
+            item: "even ha-shetiya"
+          },
+          {
+            item: "foundation stone"
+          },
+          {
+            item: "Holy of Holies"
+          },
+          {
+            item: "creation"
+          }
         ],
         quizSeeds: [
           {
@@ -119615,7 +119958,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "Temple measurements",
           "even ha-shetiya",
           "incense service"
@@ -119629,8 +119973,8 @@ const DAF_CONTENT = {
         relatedSugyot: [],
         visualizableElements: [
           {
+            item: "Even ha-shetiya (foundation stone): three finger-breadths above the Holy of Holies floor",
             type: "object",
-            description: "Even ha-shetiya (foundation stone): three finger-breadths above the Holy of Holies floor",
             role: "anchor",
             priority: 1
           }
@@ -119642,7 +119986,7 @@ const DAF_CONTENT = {
           }
         ],
         finalRuling: "The even ha-shetiya protruded three finger-breadths above the floor; the HP placed the coal pan on it.",
-        difficulty: "introductory",
+        difficulty: "intro",
         alternateAngles: [],
         topicTags: [
           "even ha-shetiya height",
@@ -119751,7 +120095,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "Yom Kippur service order",
           "blood sprinkling sequence",
           "inner vs outer service"
@@ -119764,10 +120109,18 @@ const DAF_CONTENT = {
         ],
         relatedSugyot: [],
         visualizableElements: [
-          "HP",
-          "bull blood",
-          "parochet",
-          "sprinkling sequence"
+          {
+            item: "HP"
+          },
+          {
+            item: "bull blood"
+          },
+          {
+            item: "parochet"
+          },
+          {
+            item: "sprinkling sequence"
+          }
         ],
         quizSeeds: [
           {
@@ -120611,7 +120964,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "cheruvim on kapporet",
           "Temple theology",
           "Lamentations"
@@ -120624,10 +120978,18 @@ const DAF_CONTENT = {
         ],
         relatedSugyot: [],
         visualizableElements: [
-          "cheruvim",
-          "kapporet",
-          "Jerusalem",
-          "divine love"
+          {
+            item: "cheruvim"
+          },
+          {
+            item: "kapporet"
+          },
+          {
+            item: "Jerusalem"
+          },
+          {
+            item: "divine love"
+          }
         ],
         quizSeeds: [
           {
@@ -120766,7 +121128,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "Second Temple history",
           "Ark of the Covenant",
           "HP service location"
@@ -120779,10 +121142,18 @@ const DAF_CONTENT = {
         ],
         relatedSugyot: [],
         visualizableElements: [
-          "Ark of the Covenant",
-          "even ha-shetiya",
-          "Temple sanctuary",
-          "Babylon"
+          {
+            item: "Ark of the Covenant"
+          },
+          {
+            item: "even ha-shetiya"
+          },
+          {
+            item: "Temple sanctuary"
+          },
+          {
+            item: "Babylon"
+          }
         ],
         quizSeeds: [
           {
@@ -121738,7 +122109,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "Temple cosmology",
           "creation narrative",
           "even ha-shetiya"
@@ -121751,10 +122123,18 @@ const DAF_CONTENT = {
         ],
         relatedSugyot: [],
         visualizableElements: [
-          "even ha-shetiya",
-          "Zion",
-          "creation",
-          "Temple Mount"
+          {
+            item: "even ha-shetiya"
+          },
+          {
+            item: "Zion"
+          },
+          {
+            item: "creation"
+          },
+          {
+            item: "Temple Mount"
+          }
         ],
         quizSeeds: [
           {
@@ -121864,7 +122244,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "Yom Kippur blood protocol",
           "inner blood service",
           "communal atonement"
@@ -121877,11 +122258,21 @@ const DAF_CONTENT = {
         ],
         relatedSugyot: [],
         visualizableElements: [
-          "HP",
-          "goat blood",
-          "Holy of Holies",
-          "stirrer",
-          "communal atonement"
+          {
+            item: "HP"
+          },
+          {
+            item: "goat blood"
+          },
+          {
+            item: "Holy of Holies"
+          },
+          {
+            item: "stirrer"
+          },
+          {
+            item: "communal atonement"
+          }
         ],
         quizSeeds: [
           {
@@ -121951,7 +122342,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "Yom Kippur atonement",
           "blood service structure",
           "paired completeness"
@@ -121965,8 +122357,8 @@ const DAF_CONTENT = {
         relatedSugyot: [],
         visualizableElements: [
           {
+            item: "Bull blood and goat blood as paired services: inner and outer, personal and communal, each clinging to the other",
             type: "sequence",
-            description: "Bull blood and goat blood as paired services: inner and outer, personal and communal, each clinging to the other",
             role: "anchor",
             priority: 1
           }
@@ -122289,7 +122681,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "Understanding the kapporet's placement inside the Holy of Holies",
           "Familiarity with the bull's blood service as the first inner service"
         ],
@@ -122302,16 +122695,16 @@ const DAF_CONTENT = {
         relatedSugyot: [],
         visualizableElements: [
           {
-            type: "person",
-            name: "HP with tilted wrist sprinkling"
+            item: "HP with tilted wrist sprinkling",
+            type: "person"
           },
           {
-            type: "object",
-            name: "kapporet"
+            item: "kapporet",
+            type: "object"
           },
           {
-            type: "action",
-            name: "whip-arc sprinkling motion"
+            item: "whip-arc sprinkling motion",
+            type: "action"
           }
         ],
         quizSeeds: [
@@ -122441,7 +122834,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "Understanding why the upward sprinkle is counted separately from the seven below",
           "Knowing what happens if the HP loses count during the service"
         ],
@@ -122454,12 +122848,12 @@ const DAF_CONTENT = {
         relatedSugyot: [],
         visualizableElements: [
           {
-            type: "action",
-            name: "HP counting aloud during sprinkling"
+            item: "HP counting aloud during sprinkling",
+            type: "action"
           },
           {
-            type: "sequence",
-            name: "one then one-and-one through one-and-seven"
+            item: "one then one-and-one through one-and-seven",
+            type: "sequence"
           }
         ],
         quizSeeds: [
@@ -122469,7 +122863,7 @@ const DAF_CONTENT = {
           }
         ],
         finalRuling: "The 'one and one, one and two...' formula embeds the upward sprinkle in every subsequent count, making it impossible to forget.",
-        difficulty: "introductory",
+        difficulty: "intro",
         alternateAngles: [],
         topicTags: [
           "counting formula",
@@ -122563,7 +122957,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "Understanding what kareth means",
           "Knowing the principle that analogies cannot impose penalties"
         ],
@@ -122576,12 +122971,12 @@ const DAF_CONTENT = {
         relatedSugyot: [],
         visualizableElements: [
           {
-            type: "text",
-            name: "Leviticus 16 verses on kapporet sprinkling"
+            item: "Leviticus 16 verses on kapporet sprinkling",
+            type: "text"
           },
           {
-            type: "contrast",
-            name: "explicit statement vs. analogy"
+            item: "explicit statement vs. analogy",
+            type: "contrast"
           }
         ],
         quizSeeds: [
@@ -122669,7 +123064,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "Knowing the bull's blood atones for priests while goat's blood atones for Israel",
           "Knowing the HP enters the Holy of Holies only on Yom Kippur"
         ],
@@ -122682,12 +123078,12 @@ const DAF_CONTENT = {
         relatedSugyot: [],
         visualizableElements: [
           {
-            type: "person",
-            name: "HP exiting and re-entering the Holy of Holies"
+            item: "HP exiting and re-entering the Holy of Holies",
+            type: "person"
           },
           {
-            type: "object",
-            name: "gold stand holding the bull's blood bowl"
+            item: "gold stand holding the bull's blood bowl",
+            type: "object"
           }
         ],
         quizSeeds: [
@@ -122697,7 +123093,7 @@ const DAF_CONTENT = {
           }
         ],
         finalRuling: "The HP exits between services, swaps bowls at the gold stand, and re-enters for the goat's blood service - an exact parallel to the bull's service.",
-        difficulty: "introductory",
+        difficulty: "intro",
         alternateAngles: [],
         topicTags: [
           "second entry",
@@ -123714,7 +124110,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "Knowing the two blood services inside are sequential (bull before goat)",
           "Knowing the Heichal contains stands for holding the bowls"
         ],
@@ -123727,16 +124124,16 @@ const DAF_CONTENT = {
         relatedSugyot: [],
         visualizableElements: [
           {
-            type: "object",
-            name: "two gold stands in the Heichal"
+            item: "two gold stands in the Heichal",
+            type: "object"
           },
           {
-            type: "action",
-            name: "sequential bowl handling - one at a time"
+            item: "sequential bowl handling - one at a time",
+            type: "action"
           },
           {
-            type: "sequence",
-            name: "bull inside then goat inside then Heichal services"
+            item: "bull inside then goat inside then Heichal services",
+            type: "sequence"
           }
         ],
         quizSeeds: [
@@ -124580,7 +124977,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "Knowing the HP entered for bull blood and re-entered for goat blood",
           "Knowing the parochet service comes next"
         ],
@@ -124593,12 +124991,12 @@ const DAF_CONTENT = {
         relatedSugyot: [],
         visualizableElements: [
           {
-            type: "person",
-            name: "HP emerging from the Holy of Holies"
+            item: "HP emerging from the Holy of Holies",
+            type: "person"
           },
           {
-            type: "place",
-            name: "doorway between Holy of Holies and Heichal"
+            item: "doorway between Holy of Holies and Heichal",
+            type: "place"
           }
         ],
         quizSeeds: [
@@ -124608,7 +125006,7 @@ const DAF_CONTENT = {
           }
         ],
         finalRuling: "The HP exits the Holy of Holies after the goat's blood sprinkling, completing the innermost phase and transitioning to the parochet and golden altar services.",
-        difficulty: "introductory",
+        difficulty: "intro",
         alternateAngles: [],
         topicTags: [
           "exit from Holy of Holies",
@@ -124835,7 +125233,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "Understanding what breira means in halachic reasoning",
           "Knowing the Yom Kippur service requires explicit counting"
         ],
@@ -124848,12 +125247,12 @@ const DAF_CONTENT = {
         relatedSugyot: [],
         visualizableElements: [
           {
-            type: "contrast",
-            name: "breira vs. real-time certainty in Yom Kippur service"
+            item: "breira vs. real-time certainty in Yom Kippur service",
+            type: "contrast"
           },
           {
-            type: "relationship",
-            name: "eruv law as lens for understanding breira principle"
+            item: "eruv law as lens for understanding breira principle",
+            type: "relationship"
           }
         ],
         quizSeeds: [
@@ -124941,7 +125340,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "Knowing the parochet separates the Holy of Holies from the Heichal",
           "Knowing the HP sprinkles on the side facing the Heichal"
         ],
@@ -124954,12 +125354,12 @@ const DAF_CONTENT = {
         relatedSugyot: [],
         visualizableElements: [
           {
-            type: "place",
-            name: "parochet curtain"
+            item: "parochet curtain",
+            type: "place"
           },
           {
-            type: "action",
-            name: "once above seven below on the curtain surface"
+            item: "once above seven below on the curtain surface",
+            type: "action"
           }
         ],
         quizSeeds: [
@@ -124969,7 +125369,7 @@ const DAF_CONTENT = {
           }
         ],
         finalRuling: "The HP sprinkles bull blood once above and seven below on the parochet, extending the inner service formula to the curtain boundary.",
-        difficulty: "introductory",
+        difficulty: "intro",
         alternateAngles: [],
         topicTags: [
           "parochet sprinkling",
@@ -125063,7 +125463,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "Knowing the bull service must precede the goat service in all phases",
           "Knowing the total count at each zone"
         ],
@@ -125076,12 +125477,12 @@ const DAF_CONTENT = {
         relatedSugyot: [],
         visualizableElements: [
           {
-            type: "sequence",
-            name: "bull then goat parochet service"
+            item: "bull then goat parochet service",
+            type: "sequence"
           },
           {
-            type: "object",
-            name: "parochet receiving both bloods"
+            item: "parochet receiving both bloods",
+            type: "object"
           }
         ],
         quizSeeds: [
@@ -125091,7 +125492,7 @@ const DAF_CONTENT = {
           }
         ],
         finalRuling: "The parochet receives sixteen total sprinkles: 8 from bull blood and 8 from goat blood, mirroring the inner kapporet service.",
-        difficulty: "introductory",
+        difficulty: "intro",
         alternateAngles: [],
         topicTags: [
           "goat blood on parochet",
@@ -125784,7 +126185,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "Understanding the principle that hekkesh cannot teach hekkesh",
           "Knowing the verse 'as you shall do to the Tent of Meeting'"
         ],
@@ -125797,12 +126199,12 @@ const DAF_CONTENT = {
         relatedSugyot: [],
         visualizableElements: [
           {
-            type: "contrast",
-            name: "direct verse vs. analogy-from-analogy"
+            item: "direct verse vs. analogy-from-analogy",
+            type: "contrast"
           },
           {
-            type: "text",
-            name: "'as you shall do to the Tent of Meeting' verse"
+            item: "'as you shall do to the Tent of Meeting' verse",
+            type: "text"
           }
         ],
         quizSeeds: [
@@ -125939,7 +126341,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "Knowing the golden altar is the incense altar inside the Heichal",
           "Knowing corner sprinkles use individual blood while top sprinkles use mixed blood"
         ],
@@ -125952,16 +126355,16 @@ const DAF_CONTENT = {
         relatedSugyot: [],
         visualizableElements: [
           {
-            type: "object",
-            name: "golden altar (incense altar)"
+            item: "golden altar (incense altar)",
+            type: "object"
           },
           {
-            type: "sequence",
-            name: "corners individual then mix then top combined"
+            item: "corners individual then mix then top combined",
+            type: "sequence"
           },
           {
-            type: "action",
-            name: "mixing the two bloods for the top service"
+            item: "mixing the two bloods for the top service",
+            type: "action"
           }
         ],
         quizSeeds: [
@@ -126933,7 +127336,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "Knowing bull blood must precede goat blood in all phases",
           "Knowing the structure of each phase's service"
         ],
@@ -126946,12 +127350,12 @@ const DAF_CONTENT = {
         relatedSugyot: [],
         visualizableElements: [
           {
-            type: "action",
-            name: "three-round sprinkling covering all bowl identity scenarios"
+            item: "three-round sprinkling covering all bowl identity scenarios",
+            type: "action"
           },
           {
-            type: "contrast",
-            name: "certain identity vs. procedural coverage"
+            item: "certain identity vs. procedural coverage",
+            type: "contrast"
           }
         ],
         quizSeeds: [
@@ -127059,7 +127463,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "Knowing there are four zones and the outer altar is the last",
           "Knowing the western base specifically receives this blood"
         ],
@@ -127072,12 +127477,12 @@ const DAF_CONTENT = {
         relatedSugyot: [],
         visualizableElements: [
           {
-            type: "sequence",
-            name: "four-zone blood circuit: Holy of Holies to outer altar base"
+            item: "four-zone blood circuit: Holy of Holies to outer altar base",
+            type: "sequence"
           },
           {
-            type: "place",
-            name: "western base of outer altar"
+            item: "western base of outer altar",
+            type: "place"
           }
         ],
         quizSeeds: [
@@ -127087,7 +127492,7 @@ const DAF_CONTENT = {
           }
         ],
         finalRuling: "The remaining blood is poured at the outer altar's western base, completing the full Yom Kippur blood service circuit across four zones.",
-        difficulty: "introductory",
+        difficulty: "intro",
         alternateAngles: [],
         topicTags: [
           "outer altar base",
@@ -128027,7 +128432,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "Knowing both the parochet and golden altar receive sprinkles",
           "Knowing the difference between individual blood (parochet) and combined blood (golden altar top)"
         ],
@@ -128040,12 +128446,12 @@ const DAF_CONTENT = {
         relatedSugyot: [],
         visualizableElements: [
           {
-            type: "sequence",
-            name: "parochet individual bloods then mixing then golden altar combined"
+            item: "parochet individual bloods then mixing then golden altar combined",
+            type: "sequence"
           },
           {
-            type: "contrast",
-            name: "individual blood vs. combined blood timing"
+            item: "individual blood vs. combined blood timing",
+            type: "contrast"
           }
         ],
         quizSeeds: [
@@ -128155,7 +128561,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "Knowing the outer altar is in the azarah (courtyard), not inside the Heichal",
           "Knowing the western base receives this blood specifically"
         ],
@@ -128168,16 +128575,16 @@ const DAF_CONTENT = {
         relatedSugyot: [],
         visualizableElements: [
           {
-            type: "place",
-            name: "outer altar in the azarah"
+            item: "outer altar in the azarah",
+            type: "place"
           },
           {
-            type: "sequence",
-            name: "corner sprinkles then western base pour"
+            item: "corner sprinkles then western base pour",
+            type: "sequence"
           },
           {
-            type: "action",
-            name: "completing the blood circuit"
+            item: "completing the blood circuit",
+            type: "action"
           }
         ],
         quizSeeds: [
@@ -128187,7 +128594,7 @@ const DAF_CONTENT = {
           }
         ],
         finalRuling: "The HP concludes the blood service by sprinkling on the outer altar's corners and pouring the remainder at the western base.",
-        difficulty: "introductory",
+        difficulty: "intro",
         alternateAngles: [],
         topicTags: [
           "outer altar",
@@ -128282,7 +128689,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "Knowing all four zones and their respective formulas",
           "Knowing the golden altar has both corner (individual) and top (combined) sprinkles"
         ],
@@ -128295,12 +128703,12 @@ const DAF_CONTENT = {
         relatedSugyot: [],
         visualizableElements: [
           {
-            type: "sequence",
-            name: "full four-zone blood service accounting"
+            item: "full four-zone blood service accounting",
+            type: "sequence"
           },
           {
-            type: "timeline",
-            name: "Holy of Holies to parochet to golden altar to outer altar"
+            item: "Holy of Holies to parochet to golden altar to outer altar",
+            type: "timeline"
           }
         ],
         quizSeeds: [
@@ -129063,7 +129471,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "Knowing there are two altars each with a base",
           "Knowing the inner and outer services are distinguished by zone"
         ],
@@ -129076,12 +129485,12 @@ const DAF_CONTENT = {
         relatedSugyot: [],
         visualizableElements: [
           {
-            type: "contrast",
-            name: "R. Eliezer zone-based vs. R. Shimon unified outer base"
+            item: "R. Eliezer zone-based vs. R. Shimon unified outer base",
+            type: "contrast"
           },
           {
-            type: "place",
-            name: "inner altar base vs. outer altar base"
+            item: "inner altar base vs. outer altar base",
+            type: "place"
           }
         ],
         quizSeeds: [
@@ -129209,7 +129618,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "Knowing this is the third confession (first two were for HP's household and the priesthood)",
           "Knowing the scapegoat was designated by lot earlier in the service"
         ],
@@ -129222,16 +129632,16 @@ const DAF_CONTENT = {
         relatedSugyot: [],
         visualizableElements: [
           {
-            type: "person",
-            name: "HP with hands on scapegoat's head"
+            item: "HP with hands on scapegoat's head",
+            type: "person"
           },
           {
-            type: "action",
-            name: "third confession text - for all Israel"
+            item: "third confession text - for all Israel",
+            type: "action"
           },
           {
-            type: "person",
-            name: "designated guide leading scapegoat"
+            item: "designated guide leading scapegoat",
+            type: "person"
           }
         ],
         quizSeeds: [
@@ -129241,7 +129651,7 @@ const DAF_CONTENT = {
           }
         ],
         finalRuling: "The HP's third confession transfers all of Israel's sins to the scapegoat, which is then led by a designated person to Azazel in the wilderness.",
-        difficulty: "introductory",
+        difficulty: "intro",
         alternateAngles: [],
         topicTags: [
           "third confession",
@@ -129320,7 +129730,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "Knowing the HP reads the Torah later in the day's sequence",
           "Knowing the scapegoat must reach the cliff (not just leave the city)"
         ],
@@ -129333,12 +129744,12 @@ const DAF_CONTENT = {
         relatedSugyot: [],
         visualizableElements: [
           {
-            type: "sequence",
-            name: "ten stations from Jerusalem to Azazel cliff"
+            item: "ten stations from Jerusalem to Azazel cliff",
+            type: "sequence"
           },
           {
-            type: "action",
-            name: "news relay back to HP during Torah reading"
+            item: "news relay back to HP during Torah reading",
+            type: "action"
           }
         ],
         quizSeeds: [
@@ -129348,7 +129759,7 @@ const DAF_CONTENT = {
           }
         ],
         finalRuling: "Ten relay stations enable news of the scapegoat's arrival at the Azazel cliff to be relayed back to the HP during his Torah reading.",
-        difficulty: "introductory",
+        difficulty: "intro",
         alternateAngles: [],
         topicTags: [
           "relay stations",
@@ -130313,7 +130724,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "Knowing the blood services are all performed before the scapegoat",
           "Knowing the HP's Torah reading comes after the scapegoat"
         ],
@@ -130326,12 +130738,12 @@ const DAF_CONTENT = {
         relatedSugyot: [],
         visualizableElements: [
           {
-            type: "timeline",
-            name: "Yom Kippur service order from start to finish"
+            item: "Yom Kippur service order from start to finish",
+            type: "timeline"
           },
           {
-            type: "sequence",
-            name: "blood services then scapegoat then Torah reading"
+            item: "blood services then scapegoat then Torah reading",
+            type: "sequence"
           }
         ],
         quizSeeds: [
@@ -130341,7 +130753,7 @@ const DAF_CONTENT = {
           }
         ],
         finalRuling: "All blood services are completed before the scapegoat is dispatched; the scapegoat is followed by the Torah reading.",
-        difficulty: "introductory",
+        difficulty: "intro",
         alternateAngles: [],
         topicTags: [
           "service order",
@@ -130452,7 +130864,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "Knowing the HP reads Leviticus from a scroll and Numbers by memory",
           "Knowing which eight blessings are recited"
         ],
@@ -130465,16 +130878,16 @@ const DAF_CONTENT = {
         relatedSugyot: [],
         visualizableElements: [
           {
-            type: "person",
-            name: "HP reading Torah to assembled community"
+            item: "HP reading Torah to assembled community",
+            type: "person"
           },
           {
-            type: "action",
-            name: "eight blessings after Torah reading"
+            item: "eight blessings after Torah reading",
+            type: "action"
           },
           {
-            type: "action",
-            name: "community prostration at Divine Name"
+            item: "community prostration at Divine Name",
+            type: "action"
           }
         ],
         quizSeeds: [
@@ -130484,7 +130897,7 @@ const DAF_CONTENT = {
           }
         ],
         finalRuling: "The HP reads the Yom Kippur Torah portions and recites eight blessings to the assembled community, who prostrate at the Divine Name.",
-        difficulty: "introductory",
+        difficulty: "intro",
         alternateAngles: [],
         topicTags: [
           "Torah reading",
@@ -130562,7 +130975,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "Knowing the standard blessing categories",
           "Understanding why Yom Kippur includes a comprehensive covenantal prayer"
         ],
@@ -130575,12 +130989,12 @@ const DAF_CONTENT = {
         relatedSugyot: [],
         visualizableElements: [
           {
-            type: "sequence",
-            name: "eight blessings in order"
+            item: "eight blessings in order",
+            type: "sequence"
           },
           {
-            type: "relationship",
-            name: "blessings as pillars of Jewish covenant theology"
+            item: "blessings as pillars of Jewish covenant theology",
+            type: "relationship"
           }
         ],
         quizSeeds: [
@@ -130590,7 +131004,7 @@ const DAF_CONTENT = {
           }
         ],
         finalRuling: "The eight blessings after the Torah reading cover all major pillars of the Jewish covenant: Torah, service, gratitude, forgiveness, Temple, people, city, and priesthood.",
-        difficulty: "introductory",
+        difficulty: "intro",
         alternateAngles: [],
         topicTags: [
           "eight blessings",
@@ -130670,7 +131084,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "Knowing the three Yom Kippur Torah portions",
           "Understanding why the Numbers portion is recited from memory"
         ],
@@ -130683,12 +131098,12 @@ const DAF_CONTENT = {
         relatedSugyot: [],
         visualizableElements: [
           {
-            type: "text",
-            name: "Leviticus 16 and 23 read from scroll"
+            item: "Leviticus 16 and 23 read from scroll",
+            type: "text"
           },
           {
-            type: "action",
-            name: "reciting Numbers 29 from memory after rolling the scroll"
+            item: "reciting Numbers 29 from memory after rolling the scroll",
+            type: "action"
           }
         ],
         quizSeeds: [
@@ -130698,7 +131113,7 @@ const DAF_CONTENT = {
           }
         ],
         finalRuling: "The HP reads Leviticus 16 and 23 from the Torah scroll, then recites Numbers 29 from memory to avoid making the congregation wait for a second scroll.",
-        difficulty: "introductory",
+        difficulty: "intro",
         alternateAngles: [],
         topicTags: [
           "Torah reading portions",
@@ -130776,7 +131191,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "Knowing the people are outside waiting and watching",
           "Understanding that a prolonged absence would cause fear"
         ],
@@ -130789,12 +131205,12 @@ const DAF_CONTENT = {
         relatedSugyot: [],
         visualizableElements: [
           {
-            type: "person",
-            name: "HP emerging and praying briefly"
+            item: "HP emerging and praying briefly",
+            type: "person"
           },
           {
-            type: "action",
-            name: "brief prayer for Israel's welfare"
+            item: "brief prayer for Israel's welfare",
+            type: "action"
           }
         ],
         quizSeeds: [
@@ -130804,7 +131220,7 @@ const DAF_CONTENT = {
           }
         ],
         finalRuling: "The HP prays briefly after emerging from the Holy of Holies so the waiting congregation is not frightened by a prolonged absence.",
-        difficulty: "introductory",
+        difficulty: "intro",
         alternateAngles: [],
         topicTags: [
           "HP's prayer",
@@ -130864,7 +131280,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "Knowing the prayer is brief but comprehensive",
           "Understanding the connection between Yom Kippur and the agricultural year"
         ],
@@ -130877,12 +131294,12 @@ const DAF_CONTENT = {
         relatedSugyot: [],
         visualizableElements: [
           {
-            type: "action",
-            name: "HP's petition for rain, harvest, and secure borders"
+            item: "HP's petition for rain, harvest, and secure borders",
+            type: "action"
           },
           {
-            type: "person",
-            name: "HP as national intercessor"
+            item: "HP as national intercessor",
+            type: "person"
           }
         ],
         quizSeeds: [
@@ -130892,7 +131309,7 @@ const DAF_CONTENT = {
           }
         ],
         finalRuling: "The HP's brief prayer petitions for a good year, timely rains, fruitful harvests, and national security for Israel.",
-        difficulty: "introductory",
+        difficulty: "intro",
         alternateAngles: [],
         topicTags: [
           "prayer content",
@@ -130993,7 +131410,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "Knowing that entering the Holy of Holies was genuinely dangerous",
           "Understanding the feast is day after Yom Kippur, not on Yom Kippur itself"
         ],
@@ -131006,12 +131424,12 @@ const DAF_CONTENT = {
         relatedSugyot: [],
         visualizableElements: [
           {
-            type: "person",
-            name: "HP in joyous procession home"
+            item: "HP in joyous procession home",
+            type: "person"
           },
           {
-            type: "action",
-            name: "feast for family and friends after Yom Kippur"
+            item: "feast for family and friends after Yom Kippur",
+            type: "action"
           }
         ],
         quizSeeds: [
@@ -131021,7 +131439,7 @@ const DAF_CONTENT = {
           }
         ],
         finalRuling: "The HP and his family celebrate his safe emergence from the Holy of Holies with a feast for friends and relatives after Yom Kippur.",
-        difficulty: "introductory",
+        difficulty: "intro",
         alternateAngles: [],
         topicTags: [
           "HP accompanies home",
@@ -131082,7 +131500,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "Knowing which services require white vs. gold garments",
           "Knowing how many times the HP changes garments"
         ],
@@ -131095,12 +131514,12 @@ const DAF_CONTENT = {
         relatedSugyot: [],
         visualizableElements: [
           {
-            type: "contrast",
-            name: "white linen services vs. golden garment services"
+            item: "white linen services vs. golden garment services",
+            type: "contrast"
           },
           {
-            type: "timeline",
-            name: "four garment changes across the Yom Kippur day"
+            item: "four garment changes across the Yom Kippur day",
+            type: "timeline"
           }
         ],
         quizSeeds: [
@@ -132210,7 +132629,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "Knowing the Yom Kippur bull and goat are unique in being burned outside Jerusalem",
           "Knowing that contact with certain burned offerings conveys impurity"
         ],
@@ -132223,16 +132643,16 @@ const DAF_CONTENT = {
         relatedSugyot: [],
         visualizableElements: [
           {
-            type: "person",
-            name: "carriers taking bull and goat outside Jerusalem"
+            item: "carriers taking bull and goat outside Jerusalem",
+            type: "person"
           },
           {
-            type: "place",
-            name: "ash-disposal site outside Jerusalem"
+            item: "ash-disposal site outside Jerusalem",
+            type: "place"
           },
           {
-            type: "action",
-            name: "burning and immersing afterward"
+            item: "burning and immersing afterward",
+            type: "action"
           }
         ],
         quizSeeds: [
@@ -132242,7 +132662,7 @@ const DAF_CONTENT = {
           }
         ],
         finalRuling: "The Yom Kippur bull and goat are burned outside Jerusalem; those who carry them become impure and must immerse afterward.",
-        difficulty: "introductory",
+        difficulty: "intro",
         alternateAngles: [],
         topicTags: [
           "burning bull and goat",
@@ -132576,7 +132996,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "Knowing there are multiple garment changes throughout the day",
           "Knowing regular priests only wash once before morning service"
         ],
@@ -132589,12 +133010,12 @@ const DAF_CONTENT = {
         relatedSugyot: [],
         visualizableElements: [
           {
-            type: "action",
-            name: "five immersions across the Yom Kippur day"
+            item: "five immersions across the Yom Kippur day",
+            type: "action"
           },
           {
-            type: "action",
-            name: "ten hand-and-foot washings at transition points"
+            item: "ten hand-and-foot washings at transition points",
+            type: "action"
           }
         ],
         quizSeeds: [
@@ -132604,7 +133025,7 @@ const DAF_CONTENT = {
           }
         ],
         finalRuling: "The HP immerses five times and washes hands and feet ten times on Yom Kippur, once per garment change between white and golden vestments.",
-        difficulty: "introductory",
+        difficulty: "intro",
         alternateAngles: [],
         topicTags: [
           "five immersions",
@@ -132716,7 +133137,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "Knowing what the kiyor is (the laver in the Temple court)",
           "Understanding the difference between Temple-sanctified water and regular mikveh water"
         ],
@@ -132729,12 +133151,12 @@ const DAF_CONTENT = {
         relatedSugyot: [],
         visualizableElements: [
           {
-            type: "contrast",
-            name: "kiyor vs. regular mikveh for HP's immersion"
+            item: "kiyor vs. regular mikveh for HP's immersion",
+            type: "contrast"
           },
           {
-            type: "object",
-            name: "kiyor (laver) in the Temple court"
+            item: "kiyor (laver) in the Temple court",
+            type: "object"
           }
         ],
         quizSeeds: [
@@ -133608,7 +134030,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "Knowing that the Shem haMeforash is not pronounced outside the Temple",
           "Understanding what full prostration (hishtachavaya) looks like"
         ],
@@ -133621,16 +134044,16 @@ const DAF_CONTENT = {
         relatedSugyot: [],
         visualizableElements: [
           {
-            type: "person",
-            name: "HP pronouncing the Shem haMeforash"
+            item: "HP pronouncing the Shem haMeforash",
+            type: "person"
           },
           {
-            type: "action",
-            name: "entire congregation prostrating at each Divine Name"
+            item: "entire congregation prostrating at each Divine Name",
+            type: "action"
           },
           {
-            type: "contrast",
-            name: "Temple Name pronunciation vs. outside Temple substitute"
+            item: "Temple Name pronunciation vs. outside Temple substitute",
+            type: "contrast"
           }
         ],
         quizSeeds: [
@@ -133719,7 +134142,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "Knowing the fire pan was left inside from the incense service",
           "Knowing this is the fourth and final entry to the Holy of Holies"
         ],
@@ -133732,12 +134156,12 @@ const DAF_CONTENT = {
         relatedSugyot: [],
         visualizableElements: [
           {
-            type: "action",
-            name: "fourth and final entry to Holy of Holies for fire pan retrieval"
+            item: "fourth and final entry to Holy of Holies for fire pan retrieval",
+            type: "action"
           },
           {
-            type: "sequence",
-            name: "white garments, retrieve pan, change to gold, complete offerings"
+            item: "white garments, retrieve pan, change to gold, complete offerings",
+            type: "sequence"
           }
         ],
         quizSeeds: [
@@ -133747,7 +134171,7 @@ const DAF_CONTENT = {
           }
         ],
         finalRuling: "The HP's final entry to the Holy of Holies is to retrieve the fire pan left from the incense service; he then changes to golden garments for the closing offerings.",
-        difficulty: "introductory",
+        difficulty: "intro",
         alternateAngles: [],
         topicTags: [
           "closing services",
@@ -134420,7 +134844,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "Understanding the concept of me'akev in Temple service",
           "Knowing the full list of Yom Kippur services"
         ],
@@ -134433,12 +134858,12 @@ const DAF_CONTENT = {
         relatedSugyot: [],
         visualizableElements: [
           {
-            type: "contrast",
-            name: "essential vs. required-but-not-me'akev services"
+            item: "essential vs. required-but-not-me'akev services",
+            type: "contrast"
           },
           {
-            type: "sequence",
-            name: "essential services: blood, confessions, scapegoat"
+            item: "essential services: blood, confessions, scapegoat",
+            type: "sequence"
           }
         ],
         quizSeeds: [
@@ -134517,7 +134942,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "Knowing the principle that impurity does not retroactively void Temple service",
           "Understanding the distinction between bedi'avad and ab initio"
         ],
@@ -134530,12 +134956,12 @@ const DAF_CONTENT = {
         relatedSugyot: [],
         visualizableElements: [
           {
-            type: "contrast",
-            name: "service validity vs. personal liability of impure HP"
+            item: "service validity vs. personal liability of impure HP",
+            type: "contrast"
           },
           {
-            type: "principle",
-            name: "bedi'avad - completed service stands even if improper conditions existed"
+            item: "bedi'avad - completed service stands even if improper conditions existed",
+            type: "principle"
           }
         ],
         quizSeeds: [
@@ -134686,7 +135112,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "Knowing the HP was separated from his household for seven days to prepare",
           "Understanding what makes the HP's role unique on Yom Kippur"
         ],
@@ -134699,12 +135126,12 @@ const DAF_CONTENT = {
         relatedSugyot: [],
         visualizableElements: [
           {
-            type: "person",
-            name: "Mishneh HP prepared alongside primary HP"
+            item: "Mishneh HP prepared alongside primary HP",
+            type: "person"
           },
           {
-            type: "contrast",
-            name: "R. Yehuda vs. Sages on Mishneh's scope"
+            item: "R. Yehuda vs. Sages on Mishneh's scope",
+            type: "contrast"
           }
         ],
         quizSeeds: [
@@ -134829,7 +135256,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "Knowing the HP has personal and communal offerings both at the start and end of Yom Kippur",
           "Knowing the Musaf offerings for Yom Kippur"
         ],
@@ -134842,12 +135270,12 @@ const DAF_CONTENT = {
         relatedSugyot: [],
         visualizableElements: [
           {
-            type: "sequence",
-            name: "personal ram, communal ram, Musaf offerings in golden garments"
+            item: "personal ram, communal ram, Musaf offerings in golden garments",
+            type: "sequence"
           },
           {
-            type: "contrast",
-            name: "opening (bull+goat) vs. closing (ram+ram) symmetry"
+            item: "opening (bull+goat) vs. closing (ram+ram) symmetry",
+            type: "contrast"
           }
         ],
         quizSeeds: [
@@ -134857,7 +135285,7 @@ const DAF_CONTENT = {
           }
         ],
         finalRuling: "The HP closes Yom Kippur with his personal ram, the communal ram, and the Musaf offerings, completing the day's formal service in golden garments.",
-        difficulty: "introductory",
+        difficulty: "intro",
         alternateAngles: [],
         topicTags: [
           "closing offerings",
@@ -135846,7 +136274,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "Knowing the beit ha-deshen is outside Jerusalem",
           "Knowing which offerings have their blood brought inside"
         ],
@@ -135859,12 +136288,12 @@ const DAF_CONTENT = {
         relatedSugyot: [],
         visualizableElements: [
           {
-            type: "principle",
-            name: "inner blood service requires outside burning"
+            item: "inner blood service requires outside burning",
+            type: "principle"
           },
           {
-            type: "place",
-            name: "beit ha-deshen outside Jerusalem"
+            item: "beit ha-deshen outside Jerusalem",
+            type: "place"
           }
         ],
         quizSeeds: [
@@ -135951,7 +136380,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "Knowing the blood went to the Holy of Holies (innermost) and the body goes outside the city (outermost)",
           "Understanding the inner-outer symmetry of the atonement"
         ],
@@ -135964,12 +136394,12 @@ const DAF_CONTENT = {
         relatedSugyot: [],
         visualizableElements: [
           {
-            type: "contrast",
-            name: "blood to innermost Holy of Holies vs. body to outermost beit ha-deshen"
+            item: "blood to innermost Holy of Holies vs. body to outermost beit ha-deshen",
+            type: "contrast"
           },
           {
-            type: "sequence",
-            name: "complete circuit: blood in, body out"
+            item: "complete circuit: blood in, body out",
+            type: "sequence"
           }
         ],
         quizSeeds: [
@@ -136056,7 +136486,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "Knowing that tum'ah (impurity from carrying burnt offerings) ends at nightfall after immersion",
           "Knowing Yom Kippur itself ends at nightfall"
         ],
@@ -136069,12 +136500,12 @@ const DAF_CONTENT = {
         relatedSugyot: [],
         visualizableElements: [
           {
-            type: "action",
-            name: "carriers immersing at day's end"
+            item: "carriers immersing at day's end",
+            type: "action"
           },
           {
-            type: "contrast",
-            name: "HP immersing at day's beginning vs. carriers immersing at day's end"
+            item: "HP immersing at day's beginning vs. carriers immersing at day's end",
+            type: "contrast"
           }
         ],
         quizSeeds: [
@@ -136084,7 +136515,7 @@ const DAF_CONTENT = {
           }
         ],
         finalRuling: "The carriers of the Yom Kippur offerings become impure, immerse, and await sundown - Yom Kippur ends as it began, with purification.",
-        difficulty: "introductory",
+        difficulty: "intro",
         alternateAngles: [],
         topicTags: [
           "carriers impure",
@@ -137101,7 +137532,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "Knowing the slaughtered goat (for God) must be burned outside Jerusalem",
           "Knowing the Azazel goat is sent away, not burned"
         ],
@@ -137114,12 +137546,12 @@ const DAF_CONTENT = {
         relatedSugyot: [],
         visualizableElements: [
           {
-            type: "contrast",
-            name: "goats that performed service vs. those merely designated"
+            item: "goats that performed service vs. those merely designated",
+            type: "contrast"
           },
           {
-            type: "action",
-            name: "burning obligation analysis"
+            item: "burning obligation analysis",
+            type: "action"
           }
         ],
         quizSeeds: [
@@ -137272,7 +137704,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "Knowing the two goats are a matched pair",
           "Knowing what happens to the partner when one goat dies or is replaced"
         ],
@@ -137285,12 +137718,12 @@ const DAF_CONTENT = {
         relatedSugyot: [],
         visualizableElements: [
           {
-            type: "contrast",
-            name: "Rav Pappi vs. Rav Pappa on burning scope"
+            item: "Rav Pappi vs. Rav Pappa on burning scope",
+            type: "contrast"
           },
           {
-            type: "relationship",
-            name: "interdependence of the two Yom Kippur goats"
+            item: "interdependence of the two Yom Kippur goats",
+            type: "relationship"
           }
         ],
         quizSeeds: [
@@ -138107,7 +138540,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "Knowing the lottery designates which goat plays which role",
           "Knowing what each goat's service consists of"
         ],
@@ -138120,12 +138554,12 @@ const DAF_CONTENT = {
         relatedSugyot: [],
         visualizableElements: [
           {
-            type: "sequence",
-            name: "stages of the Yom Kippur goat service with points of no return"
+            item: "stages of the Yom Kippur goat service with points of no return",
+            type: "sequence"
           },
           {
-            type: "contrast",
-            name: "before vs. after point of no return"
+            item: "before vs. after point of no return",
+            type: "contrast"
           }
         ],
         quizSeeds: [
@@ -138249,7 +138683,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "Knowing the lottery designates which goat is for God and which for Azazel",
           "Knowing the Azazel goat must be dispatched, not slaughtered"
         ],
@@ -138262,12 +138697,12 @@ const DAF_CONTENT = {
         relatedSugyot: [],
         visualizableElements: [
           {
-            type: "action",
-            name: "lottery creating binding legal status"
+            item: "lottery creating binding legal status",
+            type: "action"
           },
           {
-            type: "contrast",
-            name: "proper dispatch of Azazel vs. improper slaughtering"
+            item: "proper dispatch of Azazel vs. improper slaughtering",
+            type: "contrast"
           }
         ],
         quizSeeds: [
@@ -139337,7 +139772,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "Knowing the prohibition against slaughtering sacrifices outside the Temple",
           "Knowing the Yom Kippur service zones"
         ],
@@ -139350,12 +139786,12 @@ const DAF_CONTENT = {
         relatedSugyot: [],
         visualizableElements: [
           {
-            type: "place",
-            name: "Temple courtyard as required slaughtering location"
+            item: "Temple courtyard as required slaughtering location",
+            type: "place"
           },
           {
-            type: "principle",
-            name: "location as intrinsic to service validity"
+            item: "location as intrinsic to service validity",
+            type: "principle"
           }
         ],
         quizSeeds: [
@@ -139508,7 +139944,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "Knowing the basic prohibition against slaughtering sacrifices outside the Temple",
           "Knowing the positive command to bring sacrifices to the Temple"
         ],
@@ -139521,12 +139958,12 @@ const DAF_CONTENT = {
         relatedSugyot: [],
         visualizableElements: [
           {
-            type: "contrast",
-            name: "positive obligation (inside) vs. negative prohibition (outside)"
+            item: "positive obligation (inside) vs. negative prohibition (outside)",
+            type: "contrast"
           },
           {
-            type: "text",
-            name: "biblical sources for both aspects"
+            item: "biblical sources for both aspects",
+            type: "text"
           }
         ],
         quizSeeds: [
@@ -139614,7 +140051,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "Understanding the different zones of the Temple and their respective services",
           "Understanding what makes the Yom Kippur service unique in spanning all zones"
         ],
@@ -139627,12 +140065,12 @@ const DAF_CONTENT = {
         relatedSugyot: [],
         visualizableElements: [
           {
-            type: "place",
-            name: "Temple zones from innermost to outermost"
+            item: "Temple zones from innermost to outermost",
+            type: "place"
           },
           {
-            type: "relationship",
-            name: "each zone mapped to its specific service"
+            item: "each zone mapped to its specific service",
+            type: "relationship"
           }
         ],
         quizSeeds: [
@@ -140642,7 +141080,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "Understanding the kareth penalty and when it applies",
           "Knowing the distinction between food slaughter and sacrificial slaughter"
         ],
@@ -140655,12 +141094,12 @@ const DAF_CONTENT = {
         relatedSugyot: [],
         visualizableElements: [
           {
-            type: "contrast",
-            name: "routine food slaughter vs. sacrificial slaughter outside Temple"
+            item: "routine food slaughter vs. sacrificial slaughter outside Temple",
+            type: "contrast"
           },
           {
-            type: "principle",
-            name: "intent determines which prohibition applies"
+            item: "intent determines which prohibition applies",
+            type: "principle"
           }
         ],
         quizSeeds: [
@@ -141553,7 +141992,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "Knowing what would make an animal eligible for altar service",
           "Knowing the scapegoat's unique role outside the sacrificial system"
         ],
@@ -141566,12 +142006,12 @@ const DAF_CONTENT = {
         relatedSugyot: [],
         visualizableElements: [
           {
-            type: "contrast",
-            name: "altar service vs. Azazel dispatch"
+            item: "altar service vs. Azazel dispatch",
+            type: "contrast"
           },
           {
-            type: "principle",
-            name: "designation as exclusionary as well as inclusive"
+            item: "designation as exclusionary as well as inclusive",
+            type: "principle"
           }
         ],
         quizSeeds: [
@@ -141736,7 +142176,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "Knowing the lottery designates the goats",
           "Knowing what a new lottery accomplishes"
         ],
@@ -141749,12 +142190,12 @@ const DAF_CONTENT = {
         relatedSugyot: [],
         visualizableElements: [
           {
-            type: "sequence",
-            name: "goat death, replacement, new lottery process"
+            item: "goat death, replacement, new lottery process",
+            type: "sequence"
           },
           {
-            type: "contrast",
-            name: "paired unit vs. independent roles in determining survivor's status"
+            item: "paired unit vs. independent roles in determining survivor's status",
+            type: "contrast"
           }
         ],
         quizSeeds: [
@@ -142448,7 +142889,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "Knowing the matching requirement applies to the original pair",
           "Understanding hidur mitzvah in the context of Temple service"
         ],
@@ -142461,12 +142903,12 @@ const DAF_CONTENT = {
         relatedSugyot: [],
         visualizableElements: [
           {
-            type: "principle",
-            name: "hidur mitzvah - choosing the finest in Temple service"
+            item: "hidur mitzvah - choosing the finest in Temple service",
+            type: "principle"
           },
           {
-            type: "contrast",
-            name: "replacement scenario maintaining original quality standards"
+            item: "replacement scenario maintaining original quality standards",
+            type: "contrast"
           }
         ],
         quizSeeds: [
@@ -142476,7 +142918,7 @@ const DAF_CONTENT = {
           }
         ],
         finalRuling: "Replacement goats must meet the same quality and matching standards as the original pair; the finest available animal is required, reflecting hidur mitzvah.",
-        difficulty: "introductory",
+        difficulty: "intro",
         alternateAngles: [],
         topicTags: [
           "superior replacement",
@@ -143213,7 +143655,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "Knowing what a sin-offering's 'purpose' is",
           "Understanding why a consecrated animal cannot simply be released or sold"
         ],
@@ -143226,12 +143669,12 @@ const DAF_CONTENT = {
         relatedSugyot: [],
         visualizableElements: [
           {
-            type: "contrast",
-            name: "original sin-offering vs. replacement in use"
+            item: "original sin-offering vs. replacement in use",
+            type: "contrast"
           },
           {
-            type: "principle",
-            name: "consecrated animal with fulfilled purpose must die"
+            item: "consecrated animal with fulfilled purpose must die",
+            type: "principle"
           }
         ],
         quizSeeds: [
@@ -143378,7 +143821,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "Knowing the lottery is performed for the Yom Kippur goats",
           "Understanding the difference between communal and individual offerings"
         ],
@@ -143391,12 +143835,12 @@ const DAF_CONTENT = {
         relatedSugyot: [],
         visualizableElements: [
           {
-            type: "action",
-            name: "lottery as divine designating act"
+            item: "lottery as divine designating act",
+            type: "action"
           },
           {
-            type: "contrast",
-            name: "communal vs. individual offering replacement rules"
+            item: "communal vs. individual offering replacement rules",
+            type: "contrast"
           }
         ],
         quizSeeds: [
@@ -144591,7 +145035,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "Knowing the Yom Kippur goats are communal offerings funded by the half-shekel",
           "Understanding the difference between individual and communal obligation"
         ],
@@ -144604,12 +145049,12 @@ const DAF_CONTENT = {
         relatedSugyot: [],
         visualizableElements: [
           {
-            type: "contrast",
-            name: "individual offering (can be lost) vs. communal offering (always replaceable)"
+            item: "individual offering (can be lost) vs. communal offering (always replaceable)",
+            type: "contrast"
           },
           {
-            type: "relationship",
-            name: "HP as agent of the community"
+            item: "HP as agent of the community",
+            type: "relationship"
           }
         ],
         quizSeeds: [
@@ -145322,7 +145767,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "Knowing the third confession covers all of Israel (the first two were for HP's household and the priesthood)",
           "Understanding hand-laying as a formal transfer mechanism"
         ],
@@ -145335,12 +145781,12 @@ const DAF_CONTENT = {
         relatedSugyot: [],
         visualizableElements: [
           {
-            type: "person",
-            name: "HP with hands on scapegoat's head"
+            item: "HP with hands on scapegoat's head",
+            type: "person"
           },
           {
-            type: "action",
-            name: "third confession over the scapegoat"
+            item: "third confession over the scapegoat",
+            type: "action"
           }
         ],
         quizSeeds: [
@@ -145350,7 +145796,7 @@ const DAF_CONTENT = {
           }
         ],
         finalRuling: "The HP places both hands on the scapegoat's head and recites the third confession - the physical and verbal transfer of all Israel's sins before the goat is dispatched.",
-        difficulty: "introductory",
+        difficulty: "intro",
         alternateAngles: [],
         topicTags: [
           "third confession",
@@ -145468,7 +145914,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "Knowing the HP has more services to perform after the scapegoat",
           "Understanding halachic agency (shlichut)"
         ],
@@ -145481,12 +145928,12 @@ const DAF_CONTENT = {
         relatedSugyot: [],
         visualizableElements: [
           {
-            type: "relationship",
-            name: "HP as principal and guide as agent"
+            item: "HP as principal and guide as agent",
+            type: "relationship"
           },
           {
-            type: "sequence",
-            name: "HP confesses and hands off, guide dispatches to Azazel"
+            item: "HP confesses and hands off, guide dispatches to Azazel",
+            type: "sequence"
           }
         ],
         quizSeeds: [
@@ -145496,7 +145943,7 @@ const DAF_CONTENT = {
           }
         ],
         finalRuling: "The guide acts as the HP's agent for the scapegoat dispatch while the HP returns to the Temple for the communal reading and offering services.",
-        difficulty: "introductory",
+        difficulty: "intro",
         alternateAngles: [],
         topicTags: [
           "guide takes goat",
@@ -146388,7 +146835,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "Knowing the HP is prepared for seven days",
           "Understanding that all service roles require preparation"
         ],
@@ -146401,12 +146849,12 @@ const DAF_CONTENT = {
         relatedSugyot: [],
         visualizableElements: [
           {
-            type: "person",
-            name: "designated Azazel guide"
+            item: "designated Azazel guide",
+            type: "person"
           },
           {
-            type: "action",
-            name: "advance designation day before Yom Kippur"
+            item: "advance designation day before Yom Kippur",
+            type: "action"
           }
         ],
         quizSeeds: [
@@ -146416,7 +146864,7 @@ const DAF_CONTENT = {
           }
         ],
         finalRuling: "The Azazel guide is designated the day before Yom Kippur, reflecting the principle that every role in the Yom Kippur service requires advance preparation.",
-        difficulty: "introductory",
+        difficulty: "intro",
         alternateAngles: [],
         topicTags: [
           "guide designated in advance",
@@ -146562,7 +147010,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "Understanding the dialogic nature of Talmudic discussion",
           "Knowing that both questions and answers are part of Torah"
         ],
@@ -146575,12 +147024,12 @@ const DAF_CONTENT = {
         relatedSugyot: [],
         visualizableElements: [
           {
-            type: "relationship",
-            name: "teacher-student dialogue"
+            item: "teacher-student dialogue",
+            type: "relationship"
           },
           {
-            type: "sequence",
-            name: "question, answer, follow-up question, answer"
+            item: "question, answer, follow-up question, answer",
+            type: "sequence"
           }
         ],
         quizSeeds: [
@@ -146590,7 +147039,7 @@ const DAF_CONTENT = {
           }
         ],
         finalRuling: "The Talmud preserves teacher-student dialogues because the questions advance halachic understanding as much as the answers; dialogue is the mode of Torah transmission.",
-        difficulty: "introductory",
+        difficulty: "intro",
         alternateAngles: [],
         topicTags: [
           "dialogic transmission",
@@ -146667,7 +147116,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "Knowing what the five afflictions are",
           "Understanding why physical denial expresses spiritual repentance"
         ],
@@ -146680,12 +147130,12 @@ const DAF_CONTENT = {
         relatedSugyot: [],
         visualizableElements: [
           {
-            type: "sequence",
-            name: "five afflictions in order"
+            item: "five afflictions in order",
+            type: "sequence"
           },
           {
-            type: "contrast",
-            name: "physical denial paired with spiritual prayer"
+            item: "physical denial paired with spiritual prayer",
+            type: "contrast"
           }
         ],
         quizSeeds: [
@@ -146695,7 +147145,7 @@ const DAF_CONTENT = {
           }
         ],
         finalRuling: "The five Yom Kippur afflictions (eating/drinking, bathing, anointing, sandals, marital relations) engage the body in repentance alongside the soul's prayer.",
-        difficulty: "introductory",
+        difficulty: "intro",
         alternateAngles: [],
         topicTags: [
           "five afflictions",
@@ -146755,7 +147205,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "Knowing what Hakhel is and when it occurs",
           "Understanding the function of public Torah reading in covenant renewal"
         ],
@@ -146768,12 +147219,12 @@ const DAF_CONTENT = {
         relatedSugyot: [],
         visualizableElements: [
           {
-            type: "contrast",
-            name: "annual Yom Kippur reading vs. septennial Hakhel"
+            item: "annual Yom Kippur reading vs. septennial Hakhel",
+            type: "contrast"
           },
           {
-            type: "relationship",
-            name: "both as covenant renewal through public Torah reading"
+            item: "both as covenant renewal through public Torah reading",
+            type: "relationship"
           }
         ],
         quizSeeds: [
@@ -147891,7 +148342,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "Shabbat boundary laws",
           "Yom Kippur Azazel service overview"
         ],
@@ -147905,8 +148357,8 @@ const DAF_CONTENT = {
         relatedSugyot: [],
         visualizableElements: [
           {
+            item: "Ten sukkot spaced one mil apart along desert road from Jerusalem to cliff",
             type: "sequence",
-            description: "Ten sukkot spaced one mil apart along desert road from Jerusalem to cliff",
             role: "anchor",
             priority: 1
           }
@@ -148030,7 +148482,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "Azazel cliff location",
           "crimson thread tradition"
         ],
@@ -148044,8 +148497,8 @@ const DAF_CONTENT = {
         relatedSugyot: [],
         visualizableElements: [
           {
+            item: "Man at cliff top pushing goat backward; goat tumbling with crimson thread visible between horns",
             type: "action",
-            description: "Man at cliff top pushing goat backward; goat tumbling with crimson thread visible between horns",
             role: "anchor",
             priority: 1
           }
@@ -148129,7 +148582,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "general rule that Temple services are invalid at night",
           "Azazel as expulsion not sacrifice"
         ],
@@ -148143,8 +148597,8 @@ const DAF_CONTENT = {
         relatedSugyot: [],
         visualizableElements: [
           {
+            item: "Standard Temple service (must be day) vs Azazel cliff dispatch (valid at night)",
             type: "contrast",
-            description: "Standard Temple service (must be day) vs Azazel cliff dispatch (valid at night)",
             role: "anchor",
             priority: 1
           }
@@ -148157,7 +148611,7 @@ const DAF_CONTENT = {
           }
         ],
         finalRuling: "If the Azazel goat did not reach the cliff before nightfall, the service is still valid.",
-        difficulty: "introductory",
+        difficulty: "intro",
         alternateAngles: [],
         topicTags: [
           "azazel",
@@ -149218,7 +149672,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "fallen angels narrative (Gen. 6)",
           "chok vs mishpat categories in halacha"
         ],
@@ -149232,8 +149687,8 @@ const DAF_CONTENT = {
         relatedSugyot: [],
         visualizableElements: [
           {
+            item: "Mishpat (rational law the Satan can argue) vs Chok (Divine decree the Satan cannot refute)",
             type: "contrast",
-            description: "Mishpat (rational law the Satan can argue) vs Chok (Divine decree the Satan cannot refute)",
             role: "anchor",
             priority: 1
           }
@@ -149357,7 +149812,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "basic midrashic derivation techniques",
           "Azazel service context"
         ],
@@ -149371,8 +149827,8 @@ const DAF_CONTENT = {
         relatedSugyot: [],
         visualizableElements: [
           {
+            item: "Three midbar citations from Leviticus 16, each adding a requirement",
             type: "sequence",
-            description: "Three midbar citations from Leviticus 16, each adding a requirement",
             role: "anchor",
             priority: 1
           }
@@ -149385,7 +149841,7 @@ const DAF_CONTENT = {
           }
         ],
         finalRuling: "Three wilderness references in the Azazel passage establish three requirements: the location must be desolate, ownerless, and an actual wilderness.",
-        difficulty: "introductory",
+        difficulty: "intro",
         alternateAngles: [],
         topicTags: [
           "azazel",
@@ -149473,7 +149929,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "Azazel service basics",
           "concept of shelicha (agency) in halacha"
         ],
@@ -149487,8 +149944,8 @@ const DAF_CONTENT = {
         relatedSugyot: [],
         visualizableElements: [
           {
+            item: "Two opinions: goat falling face-first vs. backward - with the ish iti at the cliff edge",
             type: "contrast",
-            description: "Two opinions: goat falling face-first vs. backward - with the ish iti at the cliff edge",
             role: "anchor",
             priority: 1
           }
@@ -149612,7 +150069,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "Yom Kippur service order",
           "eimurim in sacrificial context",
           "tum'ah transmission"
@@ -149627,8 +150085,8 @@ const DAF_CONTENT = {
         relatedSugyot: [],
         visualizableElements: [
           {
+            item: "HP tears open bull and goat, removes eimurim to tray, whole carcasses carried out on poles",
             type: "sequence",
-            description: "HP tears open bull and goat, removes eimurim to tray, whole carcasses carried out on poles",
             role: "anchor",
             priority: 1
           }
@@ -150713,7 +151171,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "parah adumah basics",
           "gezerah shavah methodology",
           "three-camp structure of the wilderness camp"
@@ -150728,8 +151187,8 @@ const DAF_CONTENT = {
         relatedSugyot: [],
         visualizableElements: [
           {
+            item: "Parah adumah (east, outside three camps) linked to Yom Kippur burning (north, outside three camps) via gezerah shavah",
             type: "relationship",
-            description: "Parah adumah (east, outside three camps) linked to Yom Kippur burning (north, outside three camps) via gezerah shavah",
             role: "anchor",
             priority: 1
           }
@@ -150904,7 +151363,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "three-camp structure",
           "parah adumah burning location",
           "inner sin offerings"
@@ -150919,8 +151379,8 @@ const DAF_CONTENT = {
         relatedSugyot: [],
         visualizableElements: [
           {
+            item: "Two opinions on tum'ah onset: (1) Sages - when carcasses exit Azarah; (2) R. Shimon - when fire catches in most of carcass",
             type: "timeline",
-            description: "Two opinions on tum'ah onset: (1) Sages - when carcasses exit Azarah; (2) R. Shimon - when fire catches in most of carcass",
             role: "anchor",
             priority: 1
           }
@@ -151958,7 +152418,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "beit ha-deshen location",
           "tum'ah of burning handlers"
         ],
@@ -151972,8 +152433,8 @@ const DAF_CONTENT = {
         relatedSugyot: [],
         visualizableElements: [
           {
+            item: "Sloped ash-pit north of Jerusalem with altar ash placed first, then carcasses burned",
             type: "sequence",
-            description: "Sloped ash-pit north of Jerusalem with altar ash placed first, then carcasses burned",
             role: "anchor",
             priority: 1
           }
@@ -152267,7 +152728,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "Yom Kippur service order",
           "HP's five immersions",
           "linen and golden vestments"
@@ -152282,8 +152744,8 @@ const DAF_CONTENT = {
         relatedSugyot: [],
         visualizableElements: [
           {
+            item: "Chain of relay signal-wavers from Jerusalem to the Azazel cliff, then HP in the Temple synagogue reading Torah",
             type: "sequence",
-            description: "Chain of relay signal-wavers from Jerusalem to the Azazel cliff, then HP in the Temple synagogue reading Torah",
             role: "anchor",
             priority: 1
           }
@@ -153324,7 +153786,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "me'ilah laws",
           "shatnez prohibition",
           "HP's five immersions and ten sanctifications"
@@ -153339,8 +153802,8 @@ const DAF_CONTENT = {
         relatedSugyot: [],
         visualizableElements: [
           {
+            item: "Awake HP (vestments worn, no immersion needed) vs sleeping HP (must immerse before resuming service)",
             type: "contrast",
-            description: "Awake HP (vestments worn, no immersion needed) vs sleeping HP (must immerse before resuming service)",
             role: "anchor",
             priority: 1
           }
@@ -153493,7 +153956,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "me'ilah laws (Lev. 5)",
           "HP's white linen vestments on Yom Kippur"
         ],
@@ -153507,8 +153971,8 @@ const DAF_CONTENT = {
         relatedSugyot: [],
         visualizableElements: [
           {
+            item: "HP in white linen holding a Torah scroll rolled to his chest, declaring 'more is written here'",
             type: "action",
-            description: "HP in white linen holding a Torah scroll rolled to his chest, declaring 'more is written here'",
             role: "anchor",
             priority: 1
           }
@@ -153581,7 +154045,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "structure of Temple-era synagogue",
           "segan's role as deputy HP"
         ],
@@ -153595,8 +154060,8 @@ const DAF_CONTENT = {
         relatedSugyot: [],
         visualizableElements: [
           {
+            item: "Four-step chain: chazan hands scroll to synagogue head, to segan, to HP",
             type: "sequence",
-            description: "Four-step chain: chazan hands scroll to synagogue head, to segan, to HP",
             role: "anchor",
             priority: 1
           }
@@ -153609,7 +154074,7 @@ const DAF_CONTENT = {
           }
         ],
         finalRuling: "The Torah scroll was passed from the chazan to the rosh ha-knesset to the segan to the HP - a formal protocol of honor.",
-        difficulty: "introductory",
+        difficulty: "intro",
         alternateAngles: [],
         topicTags: [
           "torah-reading",
@@ -153669,7 +154134,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "bimah as teaching platform",
           "Ezra's Torah reading (Neh. 8)"
         ],
@@ -153683,8 +154149,8 @@ const DAF_CONTENT = {
         relatedSugyot: [],
         visualizableElements: [
           {
+            item: "HP in white vestments standing on a raised bimah before the assembled congregation in the Temple courtyard",
             type: "action",
-            description: "HP in white vestments standing on a raised bimah before the assembled congregation in the Temple courtyard",
             role: "anchor",
             priority: 1
           }
@@ -153697,7 +154163,7 @@ const DAF_CONTENT = {
           }
         ],
         finalRuling: "The HP stood on a raised bimah for the Torah reading so all assembled could see him.",
-        difficulty: "introductory",
+        difficulty: "intro",
         alternateAngles: [],
         topicTags: [
           "torah-reading",
@@ -154137,7 +154603,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "Azarah geography",
           "Davidic covenant"
         ],
@@ -154151,8 +154618,8 @@ const DAF_CONTENT = {
         relatedSugyot: [],
         visualizableElements: [
           {
+            item: "Everyone in the Azarah standing in service vs Davidic king seated before God",
             type: "contrast",
-            description: "Everyone in the Azarah standing in service vs Davidic king seated before God",
             role: "anchor",
             priority: 1
           }
@@ -154165,7 +154632,7 @@ const DAF_CONTENT = {
           }
         ],
         finalRuling: "No sitting in the Azarah - only Davidic kings may sit there. The HP stood throughout the Torah reading.",
-        difficulty: "introductory",
+        difficulty: "intro",
         alternateAngles: [],
         topicTags: [
           "azarah-protocol",
@@ -154451,7 +154918,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "yetzer hara concept",
           "Anshei Knesset HaGedolah (Men of the Great Assembly)",
           "Torah reading laws"
@@ -154466,8 +154934,8 @@ const DAF_CONTENT = {
         relatedSugyot: [],
         visualizableElements: [
           {
+            item: "Three prophets and their omissions: Moses (all three), Jeremiah (omits awesome), Daniel (omits mighty), Great Assembly (restores all three)",
             type: "sequence",
-            description: "Three prophets and their omissions: Moses (all three), Jeremiah (omits awesome), Daniel (omits mighty), Great Assembly (restores all three)",
             role: "anchor",
             priority: 1
           }
@@ -154608,7 +155076,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "Torah reading laws",
           "Yom Kippur service order"
         ],
@@ -154622,8 +155091,8 @@ const DAF_CONTENT = {
         relatedSugyot: [],
         visualizableElements: [
           {
+            item: "HP reads Lev. 16 from scroll, then Lev. 23 by heart, holds rolled scroll to chest declaring 'more is written here,' then recites eight blessings",
             type: "sequence",
-            description: "HP reads Lev. 16 from scroll, then Lev. 23 by heart, holds rolled scroll to chest declaring 'more is written here,' then recites eight blessings",
             role: "anchor",
             priority: 1
           }
@@ -155565,7 +156034,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "Torah reading laws",
           "honor of the congregation"
         ],
@@ -155579,8 +156049,8 @@ const DAF_CONTENT = {
         relatedSugyot: [],
         visualizableElements: [
           {
+            item: "Scroll rolling forward (permitted) vs backward (prohibited)",
             type: "contrast",
-            description: "Scroll rolling forward (permitted) vs backward (prohibited)",
             role: "anchor",
             priority: 1
           }
@@ -155593,7 +156063,7 @@ const DAF_CONTENT = {
           }
         ],
         finalRuling: "Rolling a Torah scroll backward is prohibited.",
-        difficulty: "introductory",
+        difficulty: "intro",
         alternateAngles: [],
         topicTags: [
           "torah-reading",
@@ -155652,7 +156122,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "by-heart Torah reading context",
           "scroll honor in public reading"
         ],
@@ -155666,8 +156137,8 @@ const DAF_CONTENT = {
         relatedSugyot: [],
         visualizableElements: [
           {
+            item: "HP in white vestments pressing rolled Torah scroll to his chest before the assembled congregation",
             type: "action",
-            description: "HP in white vestments pressing rolled Torah scroll to his chest before the assembled congregation",
             role: "anchor",
             priority: 1
           }
@@ -155680,7 +156151,7 @@ const DAF_CONTENT = {
           }
         ],
         finalRuling: "After the Torah reading, the HP rolled the scroll and pressed it to his chest, declaring 'more than what I read is written here' to protect the scroll's honor.",
-        difficulty: "introductory",
+        difficulty: "intro",
         alternateAngles: [],
         topicTags: [
           "torah-reading",
@@ -155791,7 +156262,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "hidur mitzvah principle",
           "Yom Kippur Torah reading"
         ],
@@ -155805,8 +156277,8 @@ const DAF_CONTENT = {
         relatedSugyot: [],
         visualizableElements: [
           {
+            item: "Beautiful Torah scrolls displayed to congregation, then HP reads from one while declaring the others contain more",
             type: "sequence",
-            description: "Beautiful Torah scrolls displayed to congregation, then HP reads from one while declaring the others contain more",
             role: "anchor",
             priority: 1
           }
@@ -155890,7 +156362,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "hishtachavayah (prostration) in halacha",
           "Yom Kippur service order"
         ],
@@ -155904,8 +156377,8 @@ const DAF_CONTENT = {
         relatedSugyot: [],
         visualizableElements: [
           {
+            item: "HP reciting eight blessings in sequence, prostrating fully after each one before the assembled congregation",
             type: "sequence",
-            description: "HP reciting eight blessings in sequence, prostrating fully after each one before the assembled congregation",
             role: "anchor",
             priority: 1
           }
@@ -155918,7 +156391,7 @@ const DAF_CONTENT = {
           }
         ],
         finalRuling: "The HP prostrated eight times - once for each of the eight blessings after the Torah reading.",
-        difficulty: "introductory",
+        difficulty: "intro",
         alternateAngles: [],
         topicTags: [
           "prostration",
@@ -155989,7 +156462,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "mussaf offerings",
           "five immersions of the HP"
         ],
@@ -156003,8 +156477,8 @@ const DAF_CONTENT = {
         relatedSugyot: [],
         visualizableElements: [
           {
+            item: "HP prostrating in white vestments before the assembled nation - eyewitnesses describing it as incomparable",
             type: "action",
-            description: "HP prostrating in white vestments before the assembled nation - eyewitnesses describing it as incomparable",
             role: "anchor",
             priority: 1
           }
@@ -156256,7 +156730,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "five immersions and ten sanctifications of HP",
           "mussaf offerings of Yom Kippur",
           "Torat Kohanim vs Chumash Hamifkad sequence"
@@ -156271,8 +156746,8 @@ const DAF_CONTENT = {
         relatedSugyot: [],
         visualizableElements: [
           {
+            item: "HP's day: (1) morning tamid + one mussaf lamb, (2) day's service (Lev. 16), (3) rams + eimurim, (4) ladle and fire-pan removal, (5) remaining mussafin + afternoon tamid",
             type: "timeline",
-            description: "HP's day: (1) morning tamid + one mussaf lamb, (2) day's service (Lev. 16), (3) rams + eimurim, (4) ladle and fire-pan removal, (5) remaining mussafin + afternoon tamid",
             role: "anchor",
             priority: 1
           }
@@ -157190,7 +157665,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "HP's five immersions",
           "Torat Kohanim vs Numbers sequence",
           "ladle and fire-pan removal"
@@ -157205,8 +157681,8 @@ const DAF_CONTENT = {
         relatedSugyot: [],
         visualizableElements: [
           {
+            item: "Five immersions: (1) first service - white; (2) bull burning - gold; (3) rams + eimurim - white; (4) ladle and fire-pan - white; (5) afternoon tamid + mussafin - gold",
             type: "timeline",
-            description: "Five immersions: (1) first service - white; (2) bull burning - gold; (3) rams + eimurim - white; (4) ladle and fire-pan - white; (5) afternoon tamid + mussafin - gold",
             role: "anchor",
             priority: 1
           }
@@ -157369,7 +157845,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "kiyor function in Temple service",
           "HP's five immersions",
           "white linen vs golden vestments"
@@ -157384,8 +157861,8 @@ const DAF_CONTENT = {
         relatedSugyot: [],
         visualizableElements: [
           {
+            item: "Five vestment changes: white-gold-white-white-gold, with immersion and kiyor sanctification at each transition",
             type: "sequence",
-            description: "Five vestment changes: white-gold-white-white-gold, with immersion and kiyor sanctification at each transition",
             role: "anchor",
             priority: 1
           }
@@ -157459,7 +157936,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "kiyor function",
           "sanctification requirements in Temple service"
         ],
@@ -157473,8 +157951,8 @@ const DAF_CONTENT = {
         relatedSugyot: [],
         visualizableElements: [
           {
+            item: "HP approaching the kiyor ten times throughout the day - hands and feet, before each service",
             type: "action",
-            description: "HP approaching the kiyor ten times throughout the day - hands and feet, before each service",
             role: "anchor",
             priority: 1
           }
@@ -157487,7 +157965,7 @@ const DAF_CONTENT = {
           }
         ],
         finalRuling: "The HP sanctified from the kiyor ten times on Yom Kippur.",
-        difficulty: "introductory",
+        difficulty: "intro",
         alternateAngles: [],
         topicTags: [
           "kiyor",
@@ -158442,7 +158920,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "HP's vestment sequence",
           "tum'ah of Yom Kippur handlers",
           "Rava as Amora"
@@ -158457,8 +158936,8 @@ const DAF_CONTENT = {
         relatedSugyot: [],
         visualizableElements: [
           {
+            item: "Textual order vs actual chronological order: burning and dispatching happened earlier but their tum'ah laws appear later in the text",
             type: "timeline",
-            description: "Textual order vs actual chronological order: burning and dispatching happened earlier but their tum'ah laws appear later in the text",
             role: "anchor",
             priority: 1
           }
@@ -158605,7 +159084,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "Shemaiah and Avtalyon as leaders of the Sanhedrin",
           "Avot's 'disciples of Aaron' teaching",
           "ona'at devarim prohibition"
@@ -158620,8 +159100,8 @@ const DAF_CONTENT = {
         relatedSugyot: [],
         visualizableElements: [
           {
+            item: "HP (descendant of Aaron by birth) vs Shemaiah and Avtalyon (disciples of Aaron by deeds) - who truly follows Aaron?",
             type: "contrast",
-            description: "HP (descendant of Aaron by birth) vs Shemaiah and Avtalyon (disciples of Aaron by deeds) - who truly follows Aaron?",
             role: "anchor",
             priority: 1
           }
@@ -159501,7 +159981,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "Job 14:9 context"
         ],
         misconceptions: [
@@ -159514,8 +159995,8 @@ const DAF_CONTENT = {
         relatedSugyot: [],
         visualizableElements: [
           {
+            item: "A withered tree coming back to life before it is watered - just sensing moisture in the air",
             type: "narrative",
-            description: "A withered tree coming back to life before it is watered - just sensing moisture in the air",
             role: "anchor",
             priority: 1
           }
@@ -159528,7 +160009,7 @@ const DAF_CONTENT = {
           }
         ],
         finalRuling: "Torah scholars are compared to trees revived by the scent of water - their vitality is intrinsically linked to Torah.",
-        difficulty: "introductory",
+        difficulty: "intro",
         alternateAngles: [],
         topicTags: [
           "aggadah",
@@ -159604,7 +160085,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "ona'at devarim laws",
           "Shemaiah and Avtalyon as Sanhedrin leaders"
         ],
@@ -159618,8 +160100,8 @@ const DAF_CONTENT = {
         relatedSugyot: [],
         visualizableElements: [
           {
+            item: "HP watching crowd follow Shemaiah and Avtalyon away from the Temple - institutional authority vs earned authority",
             type: "contrast",
-            description: "HP watching crowd follow Shemaiah and Avtalyon away from the Temple - institutional authority vs earned authority",
             role: "anchor",
             priority: 1
           }
@@ -159873,7 +160355,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "priestly vestments overview",
           "linen and thread twisting in halacha",
           "derivation from scripture repetition"
@@ -159888,8 +160371,8 @@ const DAF_CONTENT = {
         relatedSugyot: [],
         visualizableElements: [
           {
+            item: "Ordinary priest in four vestments vs HP in eight vestments, with thread count breakdown for each",
             type: "contrast",
-            description: "Ordinary priest in four vestments vs HP in eight vestments, with thread count breakdown for each",
             role: "anchor",
             priority: 1
           }
@@ -160944,8 +161427,8 @@ const DAF_CONTENT = {
         relatedSugyot: [],
         visualizableElements: [
           {
+            item: "The logical argument flow of this sugya",
             type: "sequence",
-            description: "The logical argument flow of this sugya",
             role: "anchor",
             priority: 1
           }
@@ -161090,8 +161573,8 @@ const DAF_CONTENT = {
         relatedSugyot: [],
         visualizableElements: [
           {
+            item: "The logical argument flow of this sugya",
             type: "sequence",
-            description: "The logical argument flow of this sugya",
             role: "anchor",
             priority: 1
           }
@@ -161168,8 +161651,8 @@ const DAF_CONTENT = {
         relatedSugyot: [],
         visualizableElements: [
           {
+            item: "The logical argument flow of this sugya",
             type: "sequence",
-            description: "The logical argument flow of this sugya",
             role: "anchor",
             priority: 1
           }
@@ -161749,8 +162232,8 @@ const DAF_CONTENT = {
         relatedSugyot: [],
         visualizableElements: [
           {
+            item: "Argument flow",
             type: "sequence",
-            description: "Argument flow",
             role: "anchor",
             priority: 1
           }
@@ -161861,8 +162344,8 @@ const DAF_CONTENT = {
         relatedSugyot: [],
         visualizableElements: [
           {
+            item: "Argument flow",
             type: "sequence",
-            description: "Argument flow",
             role: "anchor",
             priority: 1
           }
@@ -162124,8 +162607,8 @@ const DAF_CONTENT = {
         relatedSugyot: [],
         visualizableElements: [
           {
+            item: "Argument flow",
             type: "sequence",
-            description: "Argument flow",
             role: "anchor",
             priority: 1
           }
@@ -162206,8 +162689,8 @@ const DAF_CONTENT = {
         relatedSugyot: [],
         visualizableElements: [
           {
+            item: "Argument flow",
             type: "sequence",
-            description: "Argument flow",
             role: "anchor",
             priority: 1
           }
@@ -163948,8 +164431,8 @@ const DAF_CONTENT = {
         relatedSugyot: [],
         visualizableElements: [
           {
+            item: "Argument flow",
             type: "sequence",
-            description: "Argument flow",
             role: "anchor",
             priority: 1
           }
@@ -164077,8 +164560,8 @@ const DAF_CONTENT = {
         relatedSugyot: [],
         visualizableElements: [
           {
+            item: "Argument flow",
             type: "sequence",
-            description: "Argument flow",
             role: "anchor",
             priority: 1
           }
@@ -165247,8 +165730,8 @@ const DAF_CONTENT = {
         relatedSugyot: [],
         visualizableElements: [
           {
+            item: "Argument flow",
             type: "sequence",
-            description: "Argument flow",
             role: "anchor",
             priority: 1
           }
@@ -165329,8 +165812,8 @@ const DAF_CONTENT = {
         relatedSugyot: [],
         visualizableElements: [
           {
+            item: "Argument flow",
             type: "sequence",
-            description: "Argument flow",
             role: "anchor",
             priority: 1
           }
@@ -165485,8 +165968,8 @@ const DAF_CONTENT = {
         relatedSugyot: [],
         visualizableElements: [
           {
+            item: "Argument flow",
             type: "sequence",
-            description: "Argument flow",
             role: "anchor",
             priority: 1
           }
@@ -166465,8 +166948,8 @@ const DAF_CONTENT = {
         relatedSugyot: [],
         visualizableElements: [
           {
+            item: "Argument flow",
             type: "sequence",
-            description: "Argument flow",
             role: "anchor",
             priority: 1
           }
@@ -166546,8 +167029,8 @@ const DAF_CONTENT = {
         relatedSugyot: [],
         visualizableElements: [
           {
+            item: "Argument flow",
             type: "sequence",
-            description: "Argument flow",
             role: "anchor",
             priority: 1
           }
@@ -166659,8 +167142,8 @@ const DAF_CONTENT = {
         relatedSugyot: [],
         visualizableElements: [
           {
+            item: "Argument flow",
             type: "sequence",
-            description: "Argument flow",
             role: "anchor",
             priority: 1
           }
@@ -167541,8 +168024,8 @@ const DAF_CONTENT = {
         relatedSugyot: [],
         visualizableElements: [
           {
+            item: "Argument flow",
             type: "sequence",
-            description: "Argument flow",
             role: "anchor",
             priority: 1
           }
@@ -167807,8 +168290,8 @@ const DAF_CONTENT = {
         relatedSugyot: [],
         visualizableElements: [
           {
+            item: "Argument flow",
             type: "sequence",
-            description: "Argument flow",
             role: "anchor",
             priority: 1
           }
@@ -167903,8 +168386,8 @@ const DAF_CONTENT = {
         relatedSugyot: [],
         visualizableElements: [
           {
+            item: "Argument flow",
             type: "sequence",
-            description: "Argument flow",
             role: "anchor",
             priority: 1
           }
@@ -167983,8 +168466,8 @@ const DAF_CONTENT = {
         relatedSugyot: [],
         visualizableElements: [
           {
+            item: "Argument flow",
             type: "sequence",
-            description: "Argument flow",
             role: "anchor",
             priority: 1
           }
@@ -168686,8 +169169,8 @@ const DAF_CONTENT = {
         relatedSugyot: [],
         visualizableElements: [
           {
+            item: "Argument flow",
             type: "sequence",
-            description: "Argument flow",
             role: "anchor",
             priority: 1
           }
@@ -168764,8 +169247,8 @@ const DAF_CONTENT = {
         relatedSugyot: [],
         visualizableElements: [
           {
+            item: "Argument flow",
             type: "sequence",
-            description: "Argument flow",
             role: "anchor",
             priority: 1
           }
@@ -169040,8 +169523,8 @@ const DAF_CONTENT = {
         relatedSugyot: [],
         visualizableElements: [
           {
+            item: "Argument flow",
             type: "sequence",
-            description: "Argument flow",
             role: "anchor",
             priority: 1
           }
@@ -169154,8 +169637,8 @@ const DAF_CONTENT = {
         relatedSugyot: [],
         visualizableElements: [
           {
+            item: "Argument flow",
             type: "sequence",
-            description: "Argument flow",
             role: "anchor",
             priority: 1
           }
@@ -169267,8 +169750,8 @@ const DAF_CONTENT = {
         relatedSugyot: [],
         visualizableElements: [
           {
+            item: "Argument flow",
             type: "sequence",
-            description: "Argument flow",
             role: "anchor",
             priority: 1
           }
@@ -170191,8 +170674,8 @@ const DAF_CONTENT = {
         relatedSugyot: [],
         visualizableElements: [
           {
+            item: "Argument flow",
             type: "sequence",
-            description: "Argument flow",
             role: "anchor",
             priority: 1
           }
@@ -170406,8 +170889,8 @@ const DAF_CONTENT = {
         relatedSugyot: [],
         visualizableElements: [
           {
+            item: "Argument flow",
             type: "sequence",
-            description: "Argument flow",
             role: "anchor",
             priority: 1
           }
@@ -171215,8 +171698,8 @@ const DAF_CONTENT = {
         relatedSugyot: [],
         visualizableElements: [
           {
+            item: "Argument flow",
             type: "sequence",
-            description: "Argument flow",
             role: "anchor",
             priority: 1
           }
@@ -171379,8 +171862,8 @@ const DAF_CONTENT = {
         relatedSugyot: [],
         visualizableElements: [
           {
+            item: "Argument flow",
             type: "sequence",
-            description: "Argument flow",
             role: "anchor",
             priority: 1
           }
@@ -171512,8 +171995,8 @@ const DAF_CONTENT = {
         relatedSugyot: [],
         visualizableElements: [
           {
+            item: "Argument flow",
             type: "sequence",
-            description: "Argument flow",
             role: "anchor",
             priority: 1
           }
@@ -172385,8 +172868,8 @@ const DAF_CONTENT = {
         relatedSugyot: [],
         visualizableElements: [
           {
+            item: "Argument flow",
             type: "sequence",
-            description: "Argument flow",
             role: "anchor",
             priority: 1
           }
@@ -172533,8 +173016,8 @@ const DAF_CONTENT = {
         relatedSugyot: [],
         visualizableElements: [
           {
+            item: "Argument flow",
             type: "sequence",
-            description: "Argument flow",
             role: "anchor",
             priority: 1
           }
@@ -178252,7 +178735,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "Background knowledge of date-bulk context",
           "Understanding of Yom Kippur halachic framework"
         ],
@@ -178265,8 +178749,8 @@ const DAF_CONTENT = {
         relatedSugyot: [],
         visualizableElements: [
           {
-            type: "action",
-            name: "The 'large date-bulk' measure: what it includes an"
+            item: "The 'large date-bulk' measure: what it includes an",
+            type: "action"
           }
         ],
         quizSeeds: [
@@ -178748,7 +179232,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "Background knowledge of egg-bulk context",
           "Understanding of Yom Kippur halachic framework"
         ],
@@ -178761,8 +179246,8 @@ const DAF_CONTENT = {
         relatedSugyot: [],
         visualizableElements: [
           {
-            type: "action",
-            name: "Egg-bulk measure for YK; how eating measures were "
+            item: "Egg-bulk measure for YK; how eating measures were ",
+            type: "action"
           }
         ],
         quizSeeds: [
@@ -181959,7 +182444,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "Background knowledge of chewing context",
           "Understanding of Yom Kippur halachic framework"
         ],
@@ -181972,8 +182458,8 @@ const DAF_CONTENT = {
         relatedSugyot: [],
         visualizableElements: [
           {
-            type: "action",
-            name: "Chewing unground barley of teruma without swallowi"
+            item: "Chewing unground barley of teruma without swallowi",
+            type: "action"
           }
         ],
         quizSeeds: [
@@ -182098,7 +182584,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "Background knowledge of food and drink context",
           "Understanding of Yom Kippur halachic framework"
         ],
@@ -182111,8 +182598,8 @@ const DAF_CONTENT = {
         relatedSugyot: [],
         visualizableElements: [
           {
-            type: "action",
-            name: "Food and drink do not combine toward the eating or"
+            item: "Food and drink do not combine toward the eating or",
+            type: "action"
           }
         ],
         quizSeeds: [
@@ -182237,7 +182724,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "Background knowledge of eating and drinking context",
           "Understanding of Yom Kippur halachic framework"
         ],
@@ -182250,8 +182738,8 @@ const DAF_CONTENT = {
         relatedSugyot: [],
         visualizableElements: [
           {
-            type: "action",
-            name: "Mishna: if one ate and drank in one period of unaw"
+            item: "Mishna: if one ate and drank in one period of unaw",
+            type: "action"
           }
         ],
         quizSeeds: [
@@ -182512,7 +183000,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "Background knowledge of labor prohibition context",
           "Understanding of Yom Kippur halachic framework"
         ],
@@ -182525,8 +183014,8 @@ const DAF_CONTENT = {
         relatedSugyot: [],
         visualizableElements: [
           {
-            type: "action",
-            name: "YK and Shabbat: how the labor prohibition on YK co"
+            item: "YK and Shabbat: how the labor prohibition on YK co",
+            type: "action"
           }
         ],
         quizSeeds: [
@@ -183303,7 +183792,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "Background knowledge of Shabbat Shabbaton context",
           "Understanding of Yom Kippur halachic framework"
         ],
@@ -183316,8 +183806,8 @@ const DAF_CONTENT = {
         relatedSugyot: [],
         visualizableElements: [
           {
-            type: "action",
-            name: "Yom Kippur itself is called 'Shabbat' by the Torah"
+            item: "Yom Kippur itself is called 'Shabbat' by the Torah",
+            type: "action"
           }
         ],
         quizSeeds: [
@@ -183492,7 +183982,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "Background knowledge of food fitness context",
           "Understanding of Yom Kippur halachic framework"
         ],
@@ -183505,8 +183996,8 @@ const DAF_CONTENT = {
         relatedSugyot: [],
         visualizableElements: [
           {
-            type: "action",
-            name: "Food not fit for human consumption does not count "
+            item: "Food not fit for human consumption does not count ",
+            type: "action"
           }
         ],
         quizSeeds: [
@@ -185954,7 +186445,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "Background knowledge of evil inclination context",
           "Understanding of Yom Kippur halachic framework"
         ],
@@ -185967,8 +186459,8 @@ const DAF_CONTENT = {
         relatedSugyot: [],
         visualizableElements: [
           {
-            type: "action",
-            name: "'The wicked estranged from the womb': R. Yochanan "
+            item: "'The wicked estranged from the womb': R. Yochanan ",
+            type: "action"
           }
         ],
         quizSeeds: [
@@ -186059,7 +186551,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "Background knowledge of ill person context",
           "Understanding of Yom Kippur halachic framework"
         ],
@@ -186072,8 +186565,8 @@ const DAF_CONTENT = {
         relatedSugyot: [],
         visualizableElements: [
           {
-            type: "action",
-            name: "An ill person fed on YK by expert judgment"
+            item: "An ill person fed on YK by expert judgment",
+            type: "action"
           }
         ],
         quizSeeds: [
@@ -186249,7 +186742,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "Background knowledge of ill person context",
           "Understanding of Yom Kippur halachic framework"
         ],
@@ -186262,8 +186756,8 @@ const DAF_CONTENT = {
         relatedSugyot: [],
         visualizableElements: [
           {
-            type: "action",
-            name: "If an ill person needs to eat: feed on expert opin"
+            item: "If an ill person needs to eat: feed on expert opin",
+            type: "action"
           }
         ],
         quizSeeds: [
@@ -186388,7 +186882,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "Background knowledge of bulmos context",
           "Understanding of Yom Kippur halachic framework"
         ],
@@ -186401,8 +186896,8 @@ const DAF_CONTENT = {
         relatedSugyot: [],
         visualizableElements: [
           {
-            type: "action",
-            name: "Mishna: one seized with hungry frenzy (bulmos) - f"
+            item: "Mishna: one seized with hungry frenzy (bulmos) - f",
+            type: "action"
           }
         ],
         quizSeeds: [
@@ -186511,7 +187006,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "Background knowledge of bulmos context",
           "Understanding of Yom Kippur halachic framework"
         ],
@@ -186524,8 +187020,8 @@ const DAF_CONTENT = {
         relatedSugyot: [],
         visualizableElements: [
           {
-            type: "action",
-            name: "The Sages' ruling about bulmos: what to feed and w"
+            item: "The Sages' ruling about bulmos: what to feed and w",
+            type: "action"
           }
         ],
         quizSeeds: [
@@ -191529,7 +192025,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "Background knowledge of Shmuel context",
           "Understanding of Yom Kippur halachic framework"
         ],
@@ -191543,8 +192040,8 @@ const DAF_CONTENT = {
         relatedSugyot: [],
         visualizableElements: [
           {
-            type: "action",
-            name: "Shmuel's ruling: found a child - majority determin"
+            item: "Shmuel's ruling: found a child - majority determin",
+            type: "action"
           }
         ],
         quizSeeds: [
@@ -191653,7 +192150,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "Background knowledge of majority gentile context",
           "Understanding of Yom Kippur halachic framework"
         ],
@@ -191667,8 +192165,8 @@ const DAF_CONTENT = {
         relatedSugyot: [],
         visualizableElements: [
           {
-            type: "action",
-            name: "Majority of inhabitants gentile: do we save a pers"
+            item: "Majority of inhabitants gentile: do we save a pers",
+            type: "action"
           }
         ],
         quizSeeds: [
@@ -191759,7 +192257,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "Background knowledge of rubble context",
           "Understanding of Yom Kippur halachic framework"
         ],
@@ -191773,8 +192272,8 @@ const DAF_CONTENT = {
         relatedSugyot: [],
         visualizableElements: [
           {
-            type: "action",
-            name: "Rocks collapse on a person on Yom Kippur - remove "
+            item: "Rocks collapse on a person on Yom Kippur - remove ",
+            type: "action"
           }
         ],
         quizSeeds: [
@@ -191849,7 +192348,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "Background knowledge of alive context",
           "Understanding of Yom Kippur halachic framework"
         ],
@@ -191863,8 +192363,8 @@ const DAF_CONTENT = {
         relatedSugyot: [],
         visualizableElements: [
           {
-            type: "action",
-            name: "If found alive, continue removing rocks; if dead, "
+            item: "If found alive, continue removing rocks; if dead, ",
+            type: "action"
           }
         ],
         quizSeeds: [
@@ -191979,7 +192479,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "Background knowledge of dead body context",
           "Understanding of Yom Kippur halachic framework"
         ],
@@ -191993,8 +192494,8 @@ const DAF_CONTENT = {
         relatedSugyot: [],
         visualizableElements: [
           {
-            type: "action",
-            name: "If found dead, leave them and do not continue viol"
+            item: "If found dead, leave them and do not continue viol",
+            type: "action"
           }
         ],
         quizSeeds: [
@@ -192105,7 +192606,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "Background knowledge of R. Yishmael context",
           "Understanding of Yom Kippur halachic framework"
         ],
@@ -192119,8 +192621,8 @@ const DAF_CONTENT = {
         relatedSugyot: [],
         visualizableElements: [
           {
-            type: "action",
-            name: "R. Yishmael, R. Akiva, R. Elazar ben Azaryah: scri"
+            item: "R. Yishmael, R. Akiva, R. Elazar ben Azaryah: scri",
+            type: "action"
           }
         ],
         quizSeeds: [
@@ -193143,7 +193645,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "Background knowledge of live by them context",
           "Understanding of Yom Kippur halachic framework"
         ],
@@ -193157,8 +193660,8 @@ const DAF_CONTENT = {
         relatedSugyot: [],
         visualizableElements: [
           {
-            type: "action",
-            name: "'Live by them' (Lev 18:5): not die by them; deriva"
+            item: "'Live by them' (Lev 18:5): not die by them; deriva",
+            type: "action"
           }
         ],
         quizSeeds: [
@@ -193288,7 +193791,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "Background knowledge of four atonement mechanisms context",
           "Understanding of Yom Kippur halachic framework"
         ],
@@ -193302,8 +193806,8 @@ const DAF_CONTENT = {
         relatedSugyot: [],
         visualizableElements: [
           {
-            type: "action",
-            name: "Mishna: four atonement mechanisms; sin-offering, r"
+            item: "Mishna: four atonement mechanisms; sin-offering, r",
+            type: "action"
           }
         ],
         quizSeeds: [
@@ -193400,7 +193904,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "Background knowledge of death and YK context",
           "Understanding of Yom Kippur halachic framework"
         ],
@@ -193414,8 +193919,8 @@ const DAF_CONTENT = {
         relatedSugyot: [],
         visualizableElements: [
           {
-            type: "action",
-            name: "Death and Yom Kippur together atone for repented s"
+            item: "Death and Yom Kippur together atone for repented s",
+            type: "action"
           }
         ],
         quizSeeds: [
@@ -193506,7 +194011,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "Background knowledge of teshuva context",
           "Understanding of Yom Kippur halachic framework"
         ],
@@ -193520,8 +194026,8 @@ const DAF_CONTENT = {
         relatedSugyot: [],
         visualizableElements: [
           {
-            type: "action",
-            name: "Repentance itself atones for some categories of si"
+            item: "Repentance itself atones for some categories of si",
+            type: "action"
           }
         ],
         quizSeeds: [

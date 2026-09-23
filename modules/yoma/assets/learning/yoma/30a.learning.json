@@ -505,10 +505,7 @@
     "public appearance"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "Temple purity standards",
-    "prayer/service prohibitions with bodily functions"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "Temple purity rules only concern major ritual impurity.",
@@ -521,9 +518,9 @@
    ],
    "visualizableElements": [
     {
+     "item": "Major ritual impurity (requires full purification) vs minor hygiene (brushing, washing) both matter in Temple context",
      "type": "contrast",
-     "label": "Hygiene levels in Temple service",
-     "description": "Major ritual impurity (requires full purification) vs minor hygiene (brushing, washing) both matter in Temple context"
+     "label": "Hygiene levels in Temple service"
     }
    ],
    "quizSeeds": [
@@ -537,9 +534,13 @@
     }
    ],
    "finalRuling": "Hygiene standards for Temple priests include brushing urine residue. Hand-washing before meals should be done where visible.",
-   "difficulty": "introductory",
+   "difficulty": "intro",
    "alternateAngles": [],
-   "review": "reviewed"
+   "review": "reviewed",
+   "prerequisiteKnowledge": [
+    "Temple purity standards",
+    "prayer/service prohibitions with bodily functions"
+   ]
   },
   {
    "sugyaNumber": 2,
@@ -637,12 +638,7 @@
     "Temple entry requirement"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "tevila (immersion)",
-    "mikveh",
-    "Temple entry requirements",
-    "High Priest's Yom Kippur immersions"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "The immersion before Temple service purifies the priest.",
@@ -659,14 +655,14 @@
    ],
    "visualizableElements": [
     {
+     "item": "Ben Zoma: biblical source in High Priest verse. R. Yehuda: rabbinic reminder to reinforce purity consciousness.",
      "type": "contrast",
-     "label": "Biblical vs rabbinic immersion",
-     "description": "Ben Zoma: biblical source in High Priest verse. R. Yehuda: rabbinic reminder to reinforce purity consciousness."
+     "label": "Biblical vs rabbinic immersion"
     },
     {
+     "item": "Priest (already pure) immerses - dries - dresses in sacred garments - sanctifies hands and feet - enters for service",
      "type": "sequence",
-     "label": "Temple entry process",
-     "description": "Priest (already pure) immerses - dries - dresses in sacred garments - sanctifies hands and feet - enters for service"
+     "label": "Temple entry process"
     }
    ],
    "quizSeeds": [
@@ -682,7 +678,13 @@
    "finalRuling": "All agree that immersion is required before Temple service even for a pure priest. Ben Zoma says it is biblical; R. Yehuda says it is rabbinic. Practical implications are explored on 30b.",
    "difficulty": "intermediate",
    "alternateAngles": [],
-   "review": "reviewed"
+   "review": "reviewed",
+   "prerequisiteKnowledge": [
+    "tevila (immersion)",
+    "mikveh",
+    "Temple entry requirements",
+    "High Priest's Yom Kippur immersions"
+   ]
   }
  ]
 }

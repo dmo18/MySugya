@@ -257,11 +257,7 @@
     "Azazel"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "Azazel goat",
-    "third Yom Kippur confession",
-    "sair hamishtaleiach"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "The Azazel goat only needs to be present and alive at the moment it is sent to the wilderness; its presence earlier in the service is optional.",
@@ -274,8 +270,8 @@
    ],
    "visualizableElements": [
     {
-     "type": "sequence",
-     "description": "Third confession over live goat → congregation responds → handler takes goat to wilderness"
+     "item": "Third confession over live goat → congregation responds → handler takes goat to wilderness",
+     "type": "sequence"
     }
    ],
    "quizSeeds": [
@@ -289,7 +285,12 @@
    "difficulty": "intermediate",
    "alternateAngles": [],
    "glossary": [],
-   "review": "reviewed"
+   "review": "reviewed",
+   "prerequisiteKnowledge": [
+    "Azazel goat",
+    "third Yom Kippur confession",
+    "sair hamishtaleiach"
+   ]
   }
  ],
  "glossary": [],

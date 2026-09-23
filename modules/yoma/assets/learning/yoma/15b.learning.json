@@ -68,10 +68,7 @@
    "conceptRefs": [
     "Yoma.15b.1"
    ],
-   "requiresUnderstanding": [
-    "The seven sprinklings on the inner altar from 15a",
-    "R. Shimon ish HaMitzpah's blood service questions"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "'Tohoro' names a special, separately sanctified section of the altar.",
@@ -84,8 +81,8 @@
    ],
    "visualizableElements": [
     {
-     "type": "place",
-     "desc": "Diagram of inner altar (golden altar) with the top surface highlighted as 'tohoro' - the target of seven sprinklings"
+     "item": "Diagram of inner altar (golden altar) with the top surface highlighted as 'tohoro' - the target of seven sprinklings",
+     "type": "place"
     }
    ],
    "quizSeeds": [
@@ -115,7 +112,11 @@
    "review": {
     "content": "ai_generated",
     "sourceRefs": "ai_generated"
-   }
+   },
+   "prerequisiteKnowledge": [
+    "The seven sprinklings on the inner altar from 15a",
+    "R. Shimon ish HaMitzpah's blood service questions"
+   ]
   },
   {
    "sugyaNumber": 2,
@@ -237,11 +238,7 @@
     "Yoma.15b.3",
     "Yoma.15b.4"
    ],
-   "requiresUnderstanding": [
-    "Olah blood applications require a yesod below",
-    "Chatat blood is placed above the red line (chut ha-sikra)",
-    "The Middot tractate description of the altar and its corners"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "R. Shimon applies olah-style blood at all four altar corners equally.",
@@ -255,12 +252,12 @@
    ],
    "visualizableElements": [
     {
-     "type": "place",
-     "desc": "Altar diagram showing four corners with yesod indicated at three corners but absent from the northeast; the priest's path highlighted going right from the south ramp"
+     "item": "Altar diagram showing four corners with yesod indicated at three corners but absent from the northeast; the priest's path highlighted going right from the south ramp",
+     "type": "place"
     },
     {
-     "type": "sequence",
-     "desc": "Three-panel sequence: (1) olah first at corners with yesod; (2) northeast corner - chatat only; (3) 'always right' rule for movement direction"
+     "item": "Three-panel sequence: (1) olah first at corners with yesod; (2) northeast corner - chatat only; (3) 'always right' rule for movement direction",
+     "type": "sequence"
     }
    ],
    "quizSeeds": [
@@ -302,7 +299,12 @@
    "review": {
     "content": "ai_generated",
     "sourceRefs": "ai_generated"
-   }
+   },
+   "prerequisiteKnowledge": [
+    "Olah blood applications require a yesod below",
+    "Chatat blood is placed above the red line (chut ha-sikra)",
+    "The Middot tractate description of the altar and its corners"
+   ]
   },
   {
    "sugyaNumber": 3,
@@ -365,10 +367,7 @@
    "conceptRefs": [
     "Yoma.15b.5"
    ],
-   "requiresUnderstanding": [
-    "R. Shimon's dual-requirement ruling from 15a-15b",
-    "The mechanics of chatat and olah blood applications"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "'Chatat upon olah' means chatat blood is physically poured onto the olah animal.",
@@ -382,8 +381,8 @@
    ],
    "visualizableElements": [
     {
-     "type": "contrast",
-     "desc": "Two reading directions of the verse: arrow from 'chatat' to 'olah' (chatat rules govern because of olah identity) vs arrow from 'olah' to 'chatat' (blood poured onto olah animal)"
+     "item": "Two reading directions of the verse: arrow from 'chatat' to 'olah' (chatat rules govern because of olah identity) vs arrow from 'olah' to 'chatat' (blood poured onto olah animal)",
+     "type": "contrast"
     }
    ],
    "quizSeeds": [
@@ -407,7 +406,11 @@
    "review": {
     "content": "ai_generated",
     "sourceRefs": "ai_generated"
-   }
+   },
+   "prerequisiteKnowledge": [
+    "R. Shimon's dual-requirement ruling from 15a-15b",
+    "The mechanics of chatat and olah blood applications"
+   ]
   },
   {
    "sugyaNumber": 4,
@@ -513,10 +516,7 @@
     "Yoma.15b.7",
     "Yoma.15b.8"
    ],
-   "requiresUnderstanding": [
-    "The four-chamber structure of the Beit HaMoked",
-    "The relationship between Tractates Yoma, Tamid, and Middot"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "Tractates always agree on Temple topography since they describe the same physical structure.",
@@ -529,12 +529,12 @@
    ],
    "visualizableElements": [
     {
-     "type": "place",
-     "desc": "Beit HaMoked floor plan with four chambers labeled; the Chamber of the Lambs shown in two different corners per the two contradictory tractate descriptions"
+     "item": "Beit HaMoked floor plan with four chambers labeled; the Chamber of the Lambs shown in two different corners per the two contradictory tractate descriptions",
+     "type": "place"
     },
     {
-     "type": "contrast",
-     "desc": "Side-by-side: Yoma's location for the Chamber vs Middot's location"
+     "item": "Side-by-side: Yoma's location for the Chamber vs Middot's location",
+     "type": "contrast"
     }
    ],
    "quizSeeds": [
@@ -564,7 +564,11 @@
    "review": {
     "content": "ai_generated",
     "sourceRefs": "ai_generated"
-   }
+   },
+   "prerequisiteKnowledge": [
+    "The four-chamber structure of the Beit HaMoked",
+    "The relationship between Tractates Yoma, Tamid, and Middot"
+   ]
   }
  ],
  "glossary": [

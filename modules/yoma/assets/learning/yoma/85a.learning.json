@@ -59,10 +59,7 @@
     "rubble"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "Background knowledge of Shmuel context",
-    "Understanding of Yom Kippur halachic framework"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "The majority of a town's population can decide whether we bother saving a buried person.",
@@ -73,8 +70,8 @@
    "relatedSugyot": [],
    "visualizableElements": [
     {
-     "type": "action",
-     "name": "Shmuel's ruling: found a child - majority determin"
+     "item": "Shmuel's ruling: found a child - majority determin",
+     "type": "action"
     }
    ],
    "quizSeeds": [
@@ -91,7 +88,11 @@
    "difficulty": "intermediate",
    "alternateAngles": [],
    "glossary": [],
-   "review": "draft"
+   "review": "draft",
+   "prerequisiteKnowledge": [
+    "Background knowledge of Shmuel context",
+    "Understanding of Yom Kippur halachic framework"
+   ]
   },
   {
    "sugyaNumber": 2,
@@ -187,10 +188,7 @@
     "probability"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "Background knowledge of majority gentile context",
-    "Understanding of Yom Kippur halachic framework"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "Calling the half-and-half foundling 'a Jew' helps him collect damages from others.",
@@ -201,8 +199,8 @@
    "relatedSugyot": [],
    "visualizableElements": [
     {
-     "type": "action",
-     "name": "Majority of inhabitants gentile: do we save a pers"
+     "item": "Majority of inhabitants gentile: do we save a pers",
+     "type": "action"
     }
    ],
    "quizSeeds": [
@@ -219,7 +217,11 @@
    "difficulty": "intermediate",
    "alternateAngles": [],
    "glossary": [],
-   "review": "draft"
+   "review": "draft",
+   "prerequisiteKnowledge": [
+    "Background knowledge of majority gentile context",
+    "Understanding of Yom Kippur halachic framework"
+   ]
   },
   {
    "sugyaNumber": 3,
@@ -297,10 +299,7 @@
     "violation"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "Background knowledge of rubble context",
-    "Understanding of Yom Kippur halachic framework"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "The Mishnah lists three doubts because all three are equally novel.",
@@ -311,8 +310,8 @@
    "relatedSugyot": [],
    "visualizableElements": [
     {
-     "type": "action",
-     "name": "Rocks collapse on a person on Yom Kippur - remove "
+     "item": "Rocks collapse on a person on Yom Kippur - remove ",
+     "type": "action"
     }
    ],
    "quizSeeds": [
@@ -329,7 +328,11 @@
    "difficulty": "intermediate",
    "alternateAngles": [],
    "glossary": [],
-   "review": "draft"
+   "review": "draft",
+   "prerequisiteKnowledge": [
+    "Background knowledge of rubble context",
+    "Understanding of Yom Kippur halachic framework"
+   ]
   },
   {
    "sugyaNumber": 4,
@@ -388,10 +391,7 @@
     "YK override"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "Background knowledge of alive context",
-    "Understanding of Yom Kippur halachic framework"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "Shabbat is only set aside to save someone who has a real chance at a full life.",
@@ -402,8 +402,8 @@
    "relatedSugyot": [],
    "visualizableElements": [
     {
-     "type": "action",
-     "name": "If found alive, continue removing rocks; if dead, "
+     "item": "If found alive, continue removing rocks; if dead, ",
+     "type": "action"
     }
    ],
    "quizSeeds": [
@@ -420,7 +420,11 @@
    "difficulty": "intermediate",
    "alternateAngles": [],
    "glossary": [],
-   "review": "draft"
+   "review": "draft",
+   "prerequisiteKnowledge": [
+    "Background knowledge of alive context",
+    "Understanding of Yom Kippur halachic framework"
+   ]
   },
   {
    "sugyaNumber": 5,
@@ -525,10 +529,7 @@
     "pikuach nefesh limit"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "Background knowledge of dead body context",
-    "Understanding of Yom Kippur halachic framework"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "Checking 'until the nose' versus 'until the heart' reflects a deep disagreement about what counts as life.",
@@ -539,8 +540,8 @@
    "relatedSugyot": [],
    "visualizableElements": [
     {
-     "type": "action",
-     "name": "If found dead, leave them and do not continue viol"
+     "item": "If found dead, leave them and do not continue viol",
+     "type": "action"
     }
    ],
    "quizSeeds": [
@@ -561,7 +562,11 @@
    "difficulty": "intermediate",
    "alternateAngles": [],
    "glossary": [],
-   "review": "draft"
+   "review": "draft",
+   "prerequisiteKnowledge": [
+    "Background knowledge of dead body context",
+    "Understanding of Yom Kippur halachic framework"
+   ]
   },
   {
    "sugyaNumber": 6,
@@ -658,10 +663,7 @@
     "saving life"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "Background knowledge of R. Yishmael context",
-    "Understanding of Yom Kippur halachic framework"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "Each sage's verse is an independent, equally airtight proof that saving life overrides Shabbat.",
@@ -672,8 +674,8 @@
    "relatedSugyot": [],
    "visualizableElements": [
     {
-     "type": "action",
-     "name": "R. Yishmael, R. Akiva, R. Elazar ben Azaryah: scri"
+     "item": "R. Yishmael, R. Akiva, R. Elazar ben Azaryah: scri",
+     "type": "action"
     }
    ],
    "quizSeeds": [
@@ -690,7 +692,11 @@
    "difficulty": "intermediate",
    "alternateAngles": [],
    "glossary": [],
-   "review": "draft"
+   "review": "draft",
+   "prerequisiteKnowledge": [
+    "Background knowledge of R. Yishmael context",
+    "Understanding of Yom Kippur halachic framework"
+   ]
   }
  ],
  "glossary": [],

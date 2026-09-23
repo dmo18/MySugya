@@ -79,10 +79,7 @@
     "dilemma"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "kometz laws",
-    "meal-offering laws"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "As long as the flour is held close to the priest's hand - stuck to the pan side or to his garment - it counts as being 'in his hand' for the kometz.",
@@ -93,8 +90,8 @@
    "relatedSugyot": [],
    "visualizableElements": [
     {
+     "item": "HP's three-finger kometz: handful stuck to pan side or garment - still valid?",
      "type": "action",
-     "description": "HP's three-finger kometz: handful stuck to pan side or garment - still valid?",
      "role": "aha",
      "priority": 1
     }
@@ -109,7 +106,11 @@
    "difficulty": "advanced",
    "alternateAngles": [],
    "glossary": [],
-   "review": "reviewed"
+   "review": "reviewed",
+   "prerequisiteKnowledge": [
+    "kometz laws",
+    "meal-offering laws"
+   ]
   },
   {
    "sugyaNumber": 2,
@@ -167,10 +168,7 @@
     "stringency"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "kometz laws",
-    "hierarchy of halakha"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "A kometz that fully satisfies the biblical requirements can never be invalidated by a rabbinic deficiency - the biblical act being complete is enough.",
@@ -181,8 +179,8 @@
    "relatedSugyot": [],
    "visualizableElements": [
     {
+     "item": "Biblical kometz stringency vs. rabbinic kometz stringency - same or different standards?",
      "type": "contrast",
-     "description": "Biblical kometz stringency vs. rabbinic kometz stringency - same or different standards?",
      "role": "anchor",
      "priority": 1
     }
@@ -197,7 +195,11 @@
    "difficulty": "advanced",
    "alternateAngles": [],
    "glossary": [],
-   "review": "reviewed"
+   "review": "reviewed",
+   "prerequisiteKnowledge": [
+    "kometz laws",
+    "hierarchy of halakha"
+   ]
   },
   {
    "sugyaNumber": 3,
@@ -313,11 +315,7 @@
     "categories"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "kometz laws",
-    "blood sprinkling laws",
-    "Zevahim tractate connections"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "The Zevahim ruling about blood touching the floor is a general Temple principle that applies equally to kometz flour.",
@@ -328,8 +326,8 @@
    "relatedSugyot": [],
    "visualizableElements": [
     {
-     "type": "contrast",
-     "label": "blood floor-contact invalid vs kometz floor-contact different rule"
+     "item": "blood floor-contact invalid vs kometz floor-contact different rule",
+     "type": "contrast"
     }
    ],
    "quizSeeds": [
@@ -342,7 +340,12 @@
    "difficulty": "advanced",
    "alternateAngles": [],
    "glossary": [],
-   "review": "reviewed"
+   "review": "reviewed",
+   "prerequisiteKnowledge": [
+    "kometz laws",
+    "blood sprinkling laws",
+    "Zevahim tractate connections"
+   ]
   },
   {
    "sugyaNumber": 4,
@@ -400,9 +403,7 @@
     "dilemma"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "kometz laws"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "Since the excess flour is part of the same offering, taking the kometz from the excess pile rather than the main measured portion is clearly valid.",
@@ -413,8 +414,8 @@
    "relatedSugyot": [],
    "visualizableElements": [
     {
+     "item": "HP scooping from an oversized pile: does the excess invalidate the handful?",
      "type": "action",
-     "description": "HP scooping from an oversized pile: does the excess invalidate the handful?",
      "role": "anchor",
      "priority": 1
     }
@@ -429,7 +430,10 @@
    "difficulty": "advanced",
    "alternateAngles": [],
    "glossary": [],
-   "review": "reviewed"
+   "review": "reviewed",
+   "prerequisiteKnowledge": [
+    "kometz laws"
+   ]
   },
   {
    "sugyaNumber": 5,
@@ -526,11 +530,7 @@
     "Temple service"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "kavvanah in Temple service",
-    "kometz laws",
-    "pigul (improper intent) laws"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "Wrong intent during the kometz makes the act problematic or requires a follow-up correction, but does not render the offering definitively invalid.",
@@ -541,8 +541,8 @@
    "relatedSugyot": [],
    "visualizableElements": [
     {
-     "type": "contrast",
-     "label": "correct intent vs wrong-offering intent during kometz"
+     "item": "correct intent vs wrong-offering intent during kometz",
+     "type": "contrast"
     }
    ],
    "quizSeeds": [
@@ -555,7 +555,12 @@
    "difficulty": "intermediate",
    "alternateAngles": [],
    "glossary": [],
-   "review": "reviewed"
+   "review": "reviewed",
+   "prerequisiteKnowledge": [
+    "kavvanah in Temple service",
+    "kometz laws",
+    "pigul (improper intent) laws"
+   ]
   }
  ],
  "glossary": [

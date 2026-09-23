@@ -154,10 +154,7 @@
     "scriptural derivation"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "Background knowledge of live by them context",
-    "Understanding of Yom Kippur halachic framework"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "Any of these scriptural proofs suffices to permit Shabbat desecration for any life-threatening doubt.",
@@ -168,8 +165,8 @@
    "relatedSugyot": [],
    "visualizableElements": [
     {
-     "type": "action",
-     "name": "'Live by them' (Lev 18:5): not die by them; deriva"
+     "item": "'Live by them' (Lev 18:5): not die by them; deriva",
+     "type": "action"
     }
    ],
    "quizSeeds": [
@@ -190,7 +187,11 @@
    "difficulty": "intermediate",
    "alternateAngles": [],
    "glossary": [],
-   "review": "draft"
+   "review": "draft",
+   "prerequisiteKnowledge": [
+    "Background knowledge of live by them context",
+    "Understanding of Yom Kippur halachic framework"
+   ]
   },
   {
    "sugyaNumber": 2,
@@ -307,10 +308,7 @@
     "Mishna"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "Background knowledge of four atonement mechanisms context",
-    "Understanding of Yom Kippur halachic framework"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "Yom Kippur wipes away every sin automatically.",
@@ -321,8 +319,8 @@
    "relatedSugyot": [],
    "visualizableElements": [
     {
-     "type": "action",
-     "name": "Mishna: four atonement mechanisms; sin-offering, r"
+     "item": "Mishna: four atonement mechanisms; sin-offering, r",
+     "type": "action"
     }
    ],
    "quizSeeds": [
@@ -343,7 +341,11 @@
    "difficulty": "intermediate",
    "alternateAngles": [],
    "glossary": [],
-   "review": "draft"
+   "review": "draft",
+   "prerequisiteKnowledge": [
+    "Background knowledge of four atonement mechanisms context",
+    "Understanding of Yom Kippur halachic framework"
+   ]
   },
   {
    "sugyaNumber": 3,
@@ -420,10 +422,7 @@
     "severe sins"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "Background knowledge of death and YK context",
-    "Understanding of Yom Kippur halachic framework"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "The Mishnah and Rabbi flatly disagree about whether Yom Kippur needs repentance.",
@@ -434,8 +433,8 @@
    "relatedSugyot": [],
    "visualizableElements": [
     {
-     "type": "action",
-     "name": "Death and Yom Kippur together atone for repented s"
+     "item": "Death and Yom Kippur together atone for repented s",
+     "type": "action"
     }
    ],
    "quizSeeds": [
@@ -452,7 +451,11 @@
    "difficulty": "intermediate",
    "alternateAngles": [],
    "glossary": [],
-   "review": "draft"
+   "review": "draft",
+   "prerequisiteKnowledge": [
+    "Background knowledge of death and YK context",
+    "Understanding of Yom Kippur halachic framework"
+   ]
   },
   {
    "sugyaNumber": 4,
@@ -529,10 +532,7 @@
     "minor sins"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "Background knowledge of teshuva context",
-    "Understanding of Yom Kippur halachic framework"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "Repentance alone fully atones for any negative mitzva.",
@@ -543,8 +543,8 @@
    "relatedSugyot": [],
    "visualizableElements": [
     {
-     "type": "action",
-     "name": "Repentance itself atones for some categories of si"
+     "item": "Repentance itself atones for some categories of si",
+     "type": "action"
     }
    ],
    "quizSeeds": [
@@ -561,7 +561,11 @@
    "difficulty": "intermediate",
    "alternateAngles": [],
    "glossary": [],
-   "review": "draft"
+   "review": "draft",
+   "prerequisiteKnowledge": [
+    "Background knowledge of teshuva context",
+    "Understanding of Yom Kippur halachic framework"
+   ]
   }
  ],
  "glossary": [],

@@ -77,10 +77,7 @@
     "verse necessity"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "Knowing what would make an animal eligible for altar service",
-    "Knowing the scapegoat's unique role outside the sacrificial system"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "The 'for Azazel' designation simply tells the HP which goat to dispatch; it describes the positive role but has no relevance to whether the goat could be sacrificed on the altar.",
@@ -90,12 +87,12 @@
    "relatedSugyot": [],
    "visualizableElements": [
     {
-     "type": "contrast",
-     "name": "altar service vs. Azazel dispatch"
+     "item": "altar service vs. Azazel dispatch",
+     "type": "contrast"
     },
     {
-     "type": "principle",
-     "name": "designation as exclusionary as well as inclusive"
+     "item": "designation as exclusionary as well as inclusive",
+     "type": "principle"
     }
    ],
    "quizSeeds": [
@@ -108,7 +105,11 @@
    "difficulty": "advanced",
    "alternateAngles": [],
    "glossary": [],
-   "review": "reviewed"
+   "review": "reviewed",
+   "prerequisiteKnowledge": [
+    "Knowing what would make an animal eligible for altar service",
+    "Knowing the scapegoat's unique role outside the sacrificial system"
+   ]
   },
   {
    "sugyaNumber": 2,
@@ -287,10 +288,7 @@
     "contingency rules"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "Knowing the lottery designates the goats",
-    "Knowing what a new lottery accomplishes"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "When the 'for God' goat dies, a replacement is simply designated to fill that role without a new lottery - the surviving Azazel goat retains its assignment and only the dead goat's slot needs to be filled.",
@@ -300,12 +298,12 @@
    "relatedSugyot": [],
    "visualizableElements": [
     {
-     "type": "sequence",
-     "name": "goat death, replacement, new lottery process"
+     "item": "goat death, replacement, new lottery process",
+     "type": "sequence"
     },
     {
-     "type": "contrast",
-     "name": "paired unit vs. independent roles in determining survivor's status"
+     "item": "paired unit vs. independent roles in determining survivor's status",
+     "type": "contrast"
     }
    ],
    "quizSeeds": [
@@ -318,7 +316,11 @@
    "difficulty": "intermediate",
    "alternateAngles": [],
    "glossary": [],
-   "review": "reviewed"
+   "review": "reviewed",
+   "prerequisiteKnowledge": [
+    "Knowing the lottery designates the goats",
+    "Knowing what a new lottery accomplishes"
+   ]
   }
  ],
  "glossary": [],

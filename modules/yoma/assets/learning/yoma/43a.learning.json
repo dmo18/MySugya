@@ -210,11 +210,7 @@
     "Azazel goat"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "Numbers 19 parah adumah passage",
-    "Yom Kippur avodah structure",
-    "atonement theology"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "If the crimson thread fails to turn white, the goat's sending failed to achieve atonement that year.",
@@ -228,16 +224,16 @@
    ],
    "visualizableElements": [
     {
-     "type": "sequence",
-     "label": "signal relay: cliff to booths to Jerusalem"
+     "item": "signal relay: cliff to booths to Jerusalem",
+     "type": "sequence"
     },
     {
-     "type": "object",
-     "label": "crimson thread half on cliff half on goat"
+     "item": "crimson thread half on cliff half on goat",
+     "type": "object"
     },
     {
-     "type": "place",
-     "label": "Tsuk cliff 12 mil from Jerusalem"
+     "item": "Tsuk cliff 12 mil from Jerusalem",
+     "type": "place"
     }
    ],
    "quizSeeds": [
@@ -254,7 +250,12 @@
    "difficulty": "intermediate",
    "review": "reviewed",
    "alternateAngles": [],
-   "glossary": []
+   "glossary": [],
+   "prerequisiteKnowledge": [
+    "Numbers 19 parah adumah passage",
+    "Yom Kippur avodah structure",
+    "atonement theology"
+   ]
   }
  ],
  "glossary": [

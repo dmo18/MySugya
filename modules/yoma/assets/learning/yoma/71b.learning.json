@@ -57,9 +57,7 @@
         "tree-metaphor"
       ],
       "conceptRefs": [],
-      "requiresUnderstanding": [
-        "Job 14:9 context"
-      ],
+      "requiresUnderstanding": [],
       "misconceptions": [
         {
           "misconception": "The tree metaphor suggests scholars need constant reinforcement to remain committed",
@@ -70,8 +68,8 @@
       "relatedSugyot": [],
       "visualizableElements": [
         {
+          "item": "A withered tree coming back to life before it is watered - just sensing moisture in the air",
           "type": "narrative",
-          "description": "A withered tree coming back to life before it is watered - just sensing moisture in the air",
           "role": "anchor",
           "priority": 1
         }
@@ -84,10 +82,13 @@
         }
       ],
       "finalRuling": "Torah scholars are compared to trees revived by the scent of water - their vitality is intrinsically linked to Torah.",
-      "difficulty": "introductory",
+      "difficulty": "intro",
       "alternateAngles": [],
       "glossary": [],
-      "review": "reviewed"
+      "review": "reviewed",
+      "prerequisiteKnowledge": [
+        "Job 14:9 context"
+      ]
     },
     {
       "sugyaNumber": 2,
@@ -164,10 +165,7 @@
         "spiritual-authority"
       ],
       "conceptRefs": [],
-      "requiresUnderstanding": [
-        "ona'at devarim laws",
-        "Shemaiah and Avtalyon as Sanhedrin leaders"
-      ],
+      "requiresUnderstanding": [],
       "misconceptions": [
         {
           "misconception": "The HP's remark about Shemaiah and Avtalyon's ancestry was merely impolite",
@@ -178,8 +176,8 @@
       "relatedSugyot": [],
       "visualizableElements": [
         {
+          "item": "HP watching crowd follow Shemaiah and Avtalyon away from the Temple - institutional authority vs earned authority",
           "type": "contrast",
-          "description": "HP watching crowd follow Shemaiah and Avtalyon away from the Temple - institutional authority vs earned authority",
           "role": "anchor",
           "priority": 1
         }
@@ -195,7 +193,11 @@
       "difficulty": "intermediate",
       "alternateAngles": [],
       "glossary": [],
-      "review": "reviewed"
+      "review": "reviewed",
+      "prerequisiteKnowledge": [
+        "ona'at devarim laws",
+        "Shemaiah and Avtalyon as Sanhedrin leaders"
+      ]
     },
     {
       "sugyaNumber": 3,
@@ -457,11 +459,7 @@
         "technical-halacha"
       ],
       "conceptRefs": [],
-      "requiresUnderstanding": [
-        "priestly vestments overview",
-        "linen and thread twisting in halacha",
-        "derivation from scripture repetition"
-      ],
+      "requiresUnderstanding": [],
       "misconceptions": [
         {
           "misconception": "The priestly vestments' holiness is purely spiritual and independent of their physical construction",
@@ -472,8 +470,8 @@
       "relatedSugyot": [],
       "visualizableElements": [
         {
+          "item": "Ordinary priest in four vestments vs HP in eight vestments, with thread count breakdown for each",
           "type": "contrast",
-          "description": "Ordinary priest in four vestments vs HP in eight vestments, with thread count breakdown for each",
           "role": "anchor",
           "priority": 1
         }
@@ -489,7 +487,12 @@
       "difficulty": "advanced",
       "alternateAngles": [],
       "glossary": [],
-      "review": "reviewed"
+      "review": "reviewed",
+      "prerequisiteKnowledge": [
+        "priestly vestments overview",
+        "linen and thread twisting in halacha",
+        "derivation from scripture repetition"
+      ]
     }
   ],
   "glossary": [],

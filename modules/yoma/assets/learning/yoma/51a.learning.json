@@ -103,11 +103,7 @@
     "Rava"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "firstborn laws",
-    "tithe laws",
-    "designated service principles"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "An animal that automatically acquires sanctity (like a firstborn or tithe animal) is already designated for Temple use and needs no further act of specification before serving a particular purpose.",
@@ -118,8 +114,8 @@
    "relatedSugyot": [],
    "visualizableElements": [
     {
+     "item": "Automatic sanctity (firstborn, tithe) vs. formal designation - two independent legal categories",
      "type": "contrast",
-     "description": "Automatic sanctity (firstborn, tithe) vs. formal designation - two independent legal categories",
      "role": "contrast",
      "priority": 1
     }
@@ -134,7 +130,12 @@
    "difficulty": "intermediate",
    "alternateAngles": [],
    "glossary": [],
-   "review": "reviewed"
+   "review": "reviewed",
+   "prerequisiteKnowledge": [
+    "firstborn laws",
+    "tithe laws",
+    "designated service principles"
+   ]
   },
   {
    "sugyaNumber": 2,
@@ -230,11 +231,7 @@
     "HP service"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "Holy of Holies laws",
-    "blood service sequence",
-    "HP exclusive acts"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "Any priest who stirs and holds the bull's blood may then carry it into the Holy of Holies - entry is not restricted to the High Priest specifically.",
@@ -244,9 +241,15 @@
    ],
    "relatedSugyot": [],
    "visualizableElements": [
-    "HP",
-    "blood bowl",
-    "entry through parochet"
+    {
+     "item": "HP"
+    },
+    {
+     "item": "blood bowl"
+    },
+    {
+     "item": "entry through parochet"
+    }
    ],
    "quizSeeds": [
     {
@@ -255,10 +258,15 @@
     }
    ],
    "finalRuling": "The HP personally receives the stirred blood and enters the Holy of Holies to begin the atonement sprinkling.",
-   "difficulty": "introductory",
+   "difficulty": "intro",
    "alternateAngles": [],
    "glossary": [],
-   "review": "reviewed"
+   "review": "reviewed",
+   "prerequisiteKnowledge": [
+    "Holy of Holies laws",
+    "blood service sequence",
+    "HP exclusive acts"
+   ]
   }
  ],
  "glossary": [],

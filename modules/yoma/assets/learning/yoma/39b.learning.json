@@ -89,8 +89,8 @@
    ],
    "visualizableElements": [
     {
-     "type": "contrast",
-     "description": "Sweet era of Shimon HaTzaddik vs sour era after his death"
+     "item": "Sweet era of Shimon HaTzaddik vs sour era after his death",
+     "type": "contrast"
     }
    ],
    "quizSeeds": [
@@ -101,7 +101,7 @@
     }
    ],
    "finalRuling": "After Shimon HaTzaddik died the era became 'chamtzan' - sour, as the miraculous signs ceased.",
-   "difficulty": "introductory",
+   "difficulty": "intro",
    "alternateAngles": [],
    "glossary": [],
    "review": "reviewed"
@@ -269,10 +269,7 @@
     "Yom Kippur"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "lashon shel zehorit (crimson thread)",
-    "Azazel goat"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "The crimson thread always turned white automatically whenever the Yom Kippur ritual was correctly performed.",
@@ -285,8 +282,8 @@
    ],
    "visualizableElements": [
     {
-     "type": "timeline",
-     "description": "Signs of decline: thin Azazel goat, red thread stays red, stale showbread"
+     "item": "Signs of decline: thin Azazel goat, red thread stays red, stale showbread",
+     "type": "timeline"
     }
    ],
    "quizSeeds": [
@@ -300,7 +297,11 @@
    "difficulty": "intermediate",
    "alternateAngles": [],
    "glossary": [],
-   "review": "reviewed"
+   "review": "reviewed",
+   "prerequisiteKnowledge": [
+    "lashon shel zehorit (crimson thread)",
+    "Azazel goat"
+   ]
   },
   {
    "sugyaNumber": 3,
@@ -411,10 +412,7 @@
     "omens"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "kappara (atonement)",
-    "goral (lot)"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "The lot outcome on Yom Kippur was private - only the KG knew which hand held the God-lot.",
@@ -427,8 +425,8 @@
    ],
    "visualizableElements": [
     {
-     "type": "action",
-     "description": "KG places 'for God' lot on right goat's head, says 'chattat l'HaShem'"
+     "item": "KG places 'for God' lot on right goat's head, says 'chattat l'HaShem'",
+     "type": "action"
     }
    ],
    "quizSeeds": [
@@ -439,10 +437,14 @@
     }
    ],
    "finalRuling": "The KG placed the lots on the goats' heads; the God-lot going right was a good omen, left a bad one.",
-   "difficulty": "introductory",
+   "difficulty": "intro",
    "alternateAngles": [],
    "glossary": [],
-   "review": "reviewed"
+   "review": "reviewed",
+   "prerequisiteKnowledge": [
+    "kappara (atonement)",
+    "goral (lot)"
+   ]
   },
   {
    "sugyaNumber": 4,
@@ -606,10 +608,7 @@
     "lot validity"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "Yom Kippur lot (goral)",
-    "Deputy KG (segan)"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "The 'for God' lot must come up in the Kohen Gadol's right hand, or the entire designation is invalid.",
@@ -622,8 +621,8 @@
    ],
    "visualizableElements": [
     {
-     "type": "action",
-     "description": "KG draws simultaneously; right hand preferred but left is technically valid"
+     "item": "KG draws simultaneously; right hand preferred but left is technically valid",
+     "type": "action"
     }
    ],
    "quizSeeds": [
@@ -637,7 +636,11 @@
    "difficulty": "intermediate",
    "alternateAngles": [],
    "glossary": [],
-   "review": "reviewed"
+   "review": "reviewed",
+   "prerequisiteKnowledge": [
+    "Yom Kippur lot (goral)",
+    "Deputy KG (segan)"
+   ]
   }
  ],
  "glossary": [],

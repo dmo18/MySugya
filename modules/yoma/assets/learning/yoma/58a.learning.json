@@ -96,10 +96,7 @@
     "sequence"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "Knowing both the parochet and golden altar receive sprinkles",
-    "Knowing the difference between individual blood (parochet) and combined blood (golden altar top)"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "The mixing of bull and goat blood happens before the parochet service - the mixed blood is then used for all the outer services.",
@@ -109,12 +106,12 @@
    "relatedSugyot": [],
    "visualizableElements": [
     {
-     "type": "sequence",
-     "name": "parochet individual bloods then mixing then golden altar combined"
+     "item": "parochet individual bloods then mixing then golden altar combined",
+     "type": "sequence"
     },
     {
-     "type": "contrast",
-     "name": "individual blood vs. combined blood timing"
+     "item": "individual blood vs. combined blood timing",
+     "type": "contrast"
     }
    ],
    "quizSeeds": [
@@ -127,7 +124,11 @@
    "difficulty": "intermediate",
    "alternateAngles": [],
    "glossary": [],
-   "review": "reviewed"
+   "review": "reviewed",
+   "prerequisiteKnowledge": [
+    "Knowing both the parochet and golden altar receive sprinkles",
+    "Knowing the difference between individual blood (parochet) and combined blood (golden altar top)"
+   ]
   },
   {
    "sugyaNumber": 2,
@@ -234,10 +235,7 @@
     "outer service"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "Knowing the outer altar is in the azarah (courtyard), not inside the Heichal",
-    "Knowing the western base receives this blood specifically"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "The outer altar's corners also receive seven sprinklings from the Yom Kippur blood service, identical in count to the golden altar.",
@@ -247,16 +245,16 @@
    "relatedSugyot": [],
    "visualizableElements": [
     {
-     "type": "place",
-     "name": "outer altar in the azarah"
+     "item": "outer altar in the azarah",
+     "type": "place"
     },
     {
-     "type": "sequence",
-     "name": "corner sprinkles then western base pour"
+     "item": "corner sprinkles then western base pour",
+     "type": "sequence"
     },
     {
-     "type": "action",
-     "name": "completing the blood circuit"
+     "item": "completing the blood circuit",
+     "type": "action"
     }
    ],
    "quizSeeds": [
@@ -266,10 +264,14 @@
     }
    ],
    "finalRuling": "The HP concludes the blood service by sprinkling on the outer altar's corners and pouring the remainder at the western base.",
-   "difficulty": "introductory",
+   "difficulty": "intro",
    "alternateAngles": [],
    "glossary": [],
-   "review": "reviewed"
+   "review": "reviewed",
+   "prerequisiteKnowledge": [
+    "Knowing the outer altar is in the azarah (courtyard), not inside the Heichal",
+    "Knowing the western base receives this blood specifically"
+   ]
   },
   {
    "sugyaNumber": 3,
@@ -365,10 +367,7 @@
     "blood service summary"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "Knowing all four zones and their respective formulas",
-    "Knowing the golden altar has both corner (individual) and top (combined) sprinkles"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "The golden altar receives only 7 blood acts on Yom Kippur - the seven corner sprinklings.",
@@ -378,12 +377,12 @@
    "relatedSugyot": [],
    "visualizableElements": [
     {
-     "type": "sequence",
-     "name": "full four-zone blood service accounting"
+     "item": "full four-zone blood service accounting",
+     "type": "sequence"
     },
     {
-     "type": "timeline",
-     "name": "Holy of Holies to parochet to golden altar to outer altar"
+     "item": "Holy of Holies to parochet to golden altar to outer altar",
+     "type": "timeline"
     }
    ],
    "quizSeeds": [
@@ -396,7 +395,11 @@
    "difficulty": "intermediate",
    "alternateAngles": [],
    "glossary": [],
-   "review": "reviewed"
+   "review": "reviewed",
+   "prerequisiteKnowledge": [
+    "Knowing all four zones and their respective formulas",
+    "Knowing the golden altar has both corner (individual) and top (combined) sprinkles"
+   ]
   }
  ],
  "glossary": [],

@@ -206,16 +206,16 @@
    ],
    "visualizableElements": [
     {
-     "type": "action",
-     "description": "Priests racing up the altar ramp in the early morning before dawn to be first to remove the ashes"
+     "item": "Priests racing up the altar ramp in the early morning before dawn to be first to remove the ashes",
+     "type": "action"
     },
     {
-     "type": "action",
-     "description": "Count-off procedure: priests extending fingers, an officer counting to a predetermined number"
+     "item": "Count-off procedure: priests extending fingers, an officer counting to a predetermined number",
+     "type": "action"
     },
     {
-     "type": "contrast",
-     "description": "Saul vs. David: similar sins with drastically different consequences; diagram of repentance as the key variable"
+     "item": "Saul vs. David: similar sins with drastically different consequences; diagram of repentance as the key variable",
+     "type": "contrast"
     }
    ],
    "quizSeeds": [
@@ -351,16 +351,16 @@
    ],
    "visualizableElements": [
     {
-     "type": "action",
-     "description": "Two priests racing up the altar ramp, one pushing the other and stabbing him with a knife"
+     "item": "Two priests racing up the altar ramp, one pushing the other and stabbing him with a knife",
+     "type": "action"
     },
     {
-     "type": "action",
-     "description": "The wounded priest's father rushing up the ramp to remove the knife before his son dies, to prevent the knife from contracting corpse impurity"
+     "item": "The wounded priest's father rushing up the ramp to remove the knife before his son dies, to prevent the knife from contracting corpse impurity",
+     "type": "action"
     },
     {
-     "type": "contrast",
-     "description": "Before lottery: chaotic race up the ramp. After lottery: orderly selection in the chamber of hewn stone"
+     "item": "Before lottery: chaotic race up the ramp. After lottery: orderly selection in the chamber of hewn stone",
+     "type": "contrast"
     }
    ],
    "quizSeeds": [
@@ -374,7 +374,7 @@
     }
    ],
    "finalRuling": "After the stabbing incident on the altar ramp, the Sages instituted the lottery system for all Temple service assignments.",
-   "difficulty": "introductory",
+   "difficulty": "intro",
    "alternateAngles": [],
    "glossary": [
     {

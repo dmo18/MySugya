@@ -126,10 +126,7 @@
     "service order"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "Knowing the two blood services inside are sequential (bull before goat)",
-    "Knowing the Heichal contains stands for holding the bowls"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "The HP simply held one bowl in each hand alternately - the stand system is a minor detail with no halachic significance.",
@@ -139,16 +136,16 @@
    "relatedSugyot": [],
    "visualizableElements": [
     {
-     "type": "object",
-     "name": "two gold stands in the Heichal"
+     "item": "two gold stands in the Heichal",
+     "type": "object"
     },
     {
-     "type": "action",
-     "name": "sequential bowl handling - one at a time"
+     "item": "sequential bowl handling - one at a time",
+     "type": "action"
     },
     {
-     "type": "sequence",
-     "name": "bull inside then goat inside then Heichal services"
+     "item": "bull inside then goat inside then Heichal services",
+     "type": "sequence"
     }
    ],
    "quizSeeds": [
@@ -161,7 +158,11 @@
    "difficulty": "intermediate",
    "alternateAngles": [],
    "glossary": [],
-   "review": "reviewed"
+   "review": "reviewed",
+   "prerequisiteKnowledge": [
+    "Knowing the two blood services inside are sequential (bull before goat)",
+    "Knowing the Heichal contains stands for holding the bowls"
+   ]
   }
  ],
  "glossary": [],

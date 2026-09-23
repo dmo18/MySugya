@@ -153,11 +153,7 @@
     "lo tichbeh"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "ritual impurity and Temple service",
-    "altar fire laws",
-    "Shabbat and Temple service"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "'Hutrah' means the prohibition technically applies but is excused or overlooked for the sake of Temple service.",
@@ -168,8 +164,8 @@
    "relatedSugyot": [],
    "visualizableElements": [
     {
-     "type": "contrast",
-     "label": "tumah hutrah vs tumah dechuyah - practical difference in edge cases"
+     "item": "tumah hutrah vs tumah dechuyah - practical difference in edge cases",
+     "type": "contrast"
     }
    ],
    "quizSeeds": [
@@ -182,7 +178,12 @@
    "difficulty": "advanced",
    "alternateAngles": [],
    "glossary": [],
-   "review": "reviewed"
+   "review": "reviewed",
+   "prerequisiteKnowledge": [
+    "ritual impurity and Temple service",
+    "altar fire laws",
+    "Shabbat and Temple service"
+   ]
   }
  ],
  "glossary": [

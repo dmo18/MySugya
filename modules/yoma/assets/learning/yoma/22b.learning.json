@@ -71,8 +71,8 @@
    ],
    "visualizableElements": [
     {
-     "type": "object",
-     "description": "The altar ramp (kevesh) with measurements labeled: 30 amot rise, 1 amah lip, 1 amah body = 32 total"
+     "item": "The altar ramp (kevesh) with measurements labeled: 30 amot rise, 1 amah lip, 1 amah body = 32 total",
+     "type": "object"
     }
    ],
    "quizSeeds": [
@@ -82,7 +82,7 @@
     }
    ],
    "finalRuling": "The altar ramp was 32 amot according to R. Yosi b. R. Yehuda.",
-   "difficulty": "introductory",
+   "difficulty": "intro",
    "alternateAngles": [],
    "glossary": [
     {
@@ -237,16 +237,16 @@
    ],
    "visualizableElements": [
     {
-     "type": "sequence",
-     "description": "Four lotteries in order: (1) ash removal, (2) 13-position main service, (3) incense for first-timers, (4) limbs to altar"
+     "item": "Four lotteries in order: (1) ash removal, (2) 13-position main service, (3) incense for first-timers, (4) limbs to altar",
+     "type": "sequence"
     },
     {
-     "type": "place",
-     "description": "The Chamber of Hewn Stone (lishkat hagazit) where the morning lottery was conducted"
+     "item": "The Chamber of Hewn Stone (lishkat hagazit) where the morning lottery was conducted",
+     "type": "place"
     },
     {
-     "type": "action",
-     "description": "Priests extending fingers; an officer counting to a named number to determine who performs each service"
+     "item": "Priests extending fingers; an officer counting to a named number to determine who performs each service",
+     "type": "action"
     }
    ],
    "quizSeeds": [
@@ -464,12 +464,12 @@
    ],
    "visualizableElements": [
     {
-     "type": "contrast",
-     "description": "Saul: 'I have sinned - now honor me before the elders.' David: 'I have sinned to God' - then accepted Nathan's rebuke without protest."
+     "item": "Saul: 'I have sinned - now honor me before the elders.' David: 'I have sinned to God' - then accepted Nathan's rebuke without protest.",
+     "type": "contrast"
     },
     {
-     "type": "person",
-     "description": "Saul standing before Samuel, asking for honor despite his admission of sin"
+     "item": "Saul standing before Samuel, asking for honor despite his admission of sin",
+     "type": "person"
     }
    ],
    "quizSeeds": [
@@ -623,12 +623,12 @@
    ],
    "visualizableElements": [
     {
-     "type": "narrative",
-     "description": "David telling Evyatar the survivor of Nov: 'I knew Doeg was there; I am responsible for your father's house'"
+     "item": "David telling Evyatar the survivor of Nov: 'I knew Doeg was there; I am responsible for your father's house'",
+     "type": "narrative"
     },
     {
-     "type": "person",
-     "description": "David weeping over Absalom: unable to issue military orders against his own son despite the political necessity"
+     "item": "David weeping over Absalom: unable to issue military orders against his own son despite the political necessity",
+     "type": "person"
     }
    ],
    "quizSeeds": [

@@ -151,11 +151,7 @@
     "Yoma.16b.2",
     "Yoma.16b.4"
    ],
-   "requiresUnderstanding": [
-    "R. Yehuda's centered-altar position",
-    "Basic Temple courtyard dimensions from Tractate Middot",
-    "The attribution debate from 16a"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "R. Yehuda's centered-altar view is a minor position the Gemara dismisses out of hand.",
@@ -168,12 +164,12 @@
    ],
    "visualizableElements": [
     {
-     "type": "place",
-     "desc": "Courtyard floor plan with cubit measurements: Heikhal (N), 11 cubit gap, 32 cubit altar, 16 cubit ramp, 22 cubits to south wall. Shows altar is NOT centered."
+     "item": "Courtyard floor plan with cubit measurements: Heikhal (N), 11 cubit gap, 32 cubit altar, 16 cubit ramp, 22 cubits to south wall. Shows altar is NOT centered.",
+     "type": "place"
     },
     {
-     "type": "contrast",
-     "desc": "R. Yehuda's centered altar vs actual Middot layout with altar offset south - both drawn to scale showing why centering is impossible"
+     "item": "R. Yehuda's centered altar vs actual Middot layout with altar offset south - both drawn to scale showing why centering is impossible",
+     "type": "contrast"
     }
    ],
    "quizSeeds": [
@@ -204,7 +200,12 @@
    "review": {
     "content": "ai_generated",
     "sourceRefs": "ai_generated"
-   }
+   },
+   "prerequisiteKnowledge": [
+    "R. Yehuda's centered-altar position",
+    "Basic Temple courtyard dimensions from Tractate Middot",
+    "The attribution debate from 16a"
+   ]
   }
  ],
  "glossary": [

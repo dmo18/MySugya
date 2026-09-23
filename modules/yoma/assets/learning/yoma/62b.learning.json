@@ -198,10 +198,7 @@
     "service stages"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "Knowing the lottery designates which goat plays which role",
-    "Knowing what each goat's service consists of"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "If any difference in appearance or value is discovered between the two goats at any point in the service, the entire pair is disqualified and the service must restart from scratch.",
@@ -211,12 +208,12 @@
    "relatedSugyot": [],
    "visualizableElements": [
     {
-     "type": "sequence",
-     "name": "stages of the Yom Kippur goat service with points of no return"
+     "item": "stages of the Yom Kippur goat service with points of no return",
+     "type": "sequence"
     },
     {
-     "type": "contrast",
-     "name": "before vs. after point of no return"
+     "item": "before vs. after point of no return",
+     "type": "contrast"
     }
    ],
    "quizSeeds": [
@@ -229,7 +226,11 @@
    "difficulty": "intermediate",
    "alternateAngles": [],
    "glossary": [],
-   "review": "reviewed"
+   "review": "reviewed",
+   "prerequisiteKnowledge": [
+    "Knowing the lottery designates which goat plays which role",
+    "Knowing what each goat's service consists of"
+   ]
   },
   {
    "sugyaNumber": 2,
@@ -349,10 +350,7 @@
     "service violation"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "Knowing the lottery designates which goat is for God and which for Azazel",
-    "Knowing the Azazel goat must be dispatched, not slaughtered"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "If the HP accidentally slaughtered the goats in reverse order, the service could still be valid because the practical outcome - one goat slaughtered and one dispatched - is the same regardless of which was which.",
@@ -362,12 +360,12 @@
    "relatedSugyot": [],
    "visualizableElements": [
     {
-     "type": "action",
-     "name": "lottery creating binding legal status"
+     "item": "lottery creating binding legal status",
+     "type": "action"
     },
     {
-     "type": "contrast",
-     "name": "proper dispatch of Azazel vs. improper slaughtering"
+     "item": "proper dispatch of Azazel vs. improper slaughtering",
+     "type": "contrast"
     }
    ],
    "quizSeeds": [
@@ -380,7 +378,11 @@
    "difficulty": "intermediate",
    "alternateAngles": [],
    "glossary": [],
-   "review": "reviewed"
+   "review": "reviewed",
+   "prerequisiteKnowledge": [
+    "Knowing the lottery designates which goat is for God and which for Azazel",
+    "Knowing the Azazel goat must be dispatched, not slaughtered"
+   ]
   }
  ],
  "glossary": [],

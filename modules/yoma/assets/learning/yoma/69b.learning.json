@@ -58,10 +58,7 @@
     "standing-service"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "Azarah geography",
-    "Davidic covenant"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "Any dignitary of sufficient rank may sit in the Azarah",
@@ -72,8 +69,8 @@
    "relatedSugyot": [],
    "visualizableElements": [
     {
+     "item": "Everyone in the Azarah standing in service vs Davidic king seated before God",
      "type": "contrast",
-     "description": "Everyone in the Azarah standing in service vs Davidic king seated before God",
      "role": "anchor",
      "priority": 1
     }
@@ -86,10 +83,14 @@
     }
    ],
    "finalRuling": "No sitting in the Azarah - only Davidic kings may sit there. The HP stood throughout the Torah reading.",
-   "difficulty": "introductory",
+   "difficulty": "intro",
    "alternateAngles": [],
    "glossary": [],
-   "review": "reviewed"
+   "review": "reviewed",
+   "prerequisiteKnowledge": [
+    "Azarah geography",
+    "Davidic covenant"
+   ]
   },
   {
    "sugyaNumber": 2,
@@ -403,11 +404,7 @@
     "service-sequence"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "yetzer hara concept",
-    "Anshei Knesset HaGedolah (Men of the Great Assembly)",
-    "Torah reading laws"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "Jeremiah and Daniel were wrong to omit divine attributes from prayer",
@@ -418,8 +415,8 @@
    "relatedSugyot": [],
    "visualizableElements": [
     {
+     "item": "Three prophets and their omissions: Moses (all three), Jeremiah (omits awesome), Daniel (omits mighty), Great Assembly (restores all three)",
      "type": "sequence",
-     "description": "Three prophets and their omissions: Moses (all three), Jeremiah (omits awesome), Daniel (omits mighty), Great Assembly (restores all three)",
      "role": "anchor",
      "priority": 1
     }
@@ -435,7 +432,12 @@
    "difficulty": "advanced",
    "alternateAngles": [],
    "glossary": [],
-   "review": "reviewed"
+   "review": "reviewed",
+   "prerequisiteKnowledge": [
+    "yetzer hara concept",
+    "Anshei Knesset HaGedolah (Men of the Great Assembly)",
+    "Torah reading laws"
+   ]
   },
   {
    "sugyaNumber": 3,
@@ -567,10 +569,7 @@
     "yom-kippur-service"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "Torah reading laws",
-    "Yom Kippur service order"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "Reading Torah by heart is always invalid",
@@ -581,8 +580,8 @@
    "relatedSugyot": [],
    "visualizableElements": [
     {
+     "item": "HP reads Lev. 16 from scroll, then Lev. 23 by heart, holds rolled scroll to chest declaring 'more is written here,' then recites eight blessings",
      "type": "sequence",
-     "description": "HP reads Lev. 16 from scroll, then Lev. 23 by heart, holds rolled scroll to chest declaring 'more is written here,' then recites eight blessings",
      "role": "anchor",
      "priority": 1
     }
@@ -598,7 +597,11 @@
    "difficulty": "intermediate",
    "alternateAngles": [],
    "glossary": [],
-   "review": "reviewed"
+   "review": "reviewed",
+   "prerequisiteKnowledge": [
+    "Torah reading laws",
+    "Yom Kippur service order"
+   ]
   }
  ],
  "glossary": [],

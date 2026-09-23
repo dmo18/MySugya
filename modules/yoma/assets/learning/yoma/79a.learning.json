@@ -97,10 +97,7 @@
     "eating liability"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "Background knowledge of date-bulk context",
-    "Understanding of Yom Kippur halachic framework"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "Learners treat 'the volume of a large date' as obviously smaller than an egg, the way colloquial sizes suggest.",
@@ -110,8 +107,8 @@
    "relatedSugyot": [],
    "visualizableElements": [
     {
-     "type": "action",
-     "name": "The 'large date-bulk' measure: what it includes an"
+     "item": "The 'large date-bulk' measure: what it includes an",
+     "type": "action"
     }
    ],
    "quizSeeds": [
@@ -128,7 +125,11 @@
    "difficulty": "intermediate",
    "alternateAngles": [],
    "glossary": [],
-   "review": "draft"
+   "review": "draft",
+   "prerequisiteKnowledge": [
+    "Background knowledge of date-bulk context",
+    "Understanding of Yom Kippur halachic framework"
+   ]
   }
  ],
  "glossary": [],

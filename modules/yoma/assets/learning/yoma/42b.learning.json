@@ -205,11 +205,7 @@
     "ritual impurity"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "red heifer laws",
-    "Yom Kippur avodah",
-    "rabbinic vs biblical impurity"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "The ish iti becomes impure because the live goat itself carries ordinary ritual impurity, the way a corpse or other impurity-source would.",
@@ -222,12 +218,12 @@
    ],
    "visualizableElements": [
     {
-     "type": "contrast",
-     "label": "biblical vs rabbinic impurity of ish iti"
+     "item": "biblical vs rabbinic impurity of ish iti",
+     "type": "contrast"
     },
     {
-     "type": "text",
-     "label": "verse 'l'mishmerit' excluding Tur Shimon"
+     "item": "verse 'l'mishmerit' excluding Tur Shimon",
+     "type": "text"
     }
    ],
    "quizSeeds": [
@@ -244,7 +240,12 @@
    "difficulty": "intermediate",
    "review": "reviewed",
    "alternateAngles": [],
-   "glossary": []
+   "glossary": [],
+   "prerequisiteKnowledge": [
+    "red heifer laws",
+    "Yom Kippur avodah",
+    "rabbinic vs biblical impurity"
+   ]
   }
  ],
  "glossary": [

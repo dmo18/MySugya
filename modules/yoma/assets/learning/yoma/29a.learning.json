@@ -551,11 +551,7 @@
     "Psalm 22"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "Purim story (Esther)",
-    "Psalm 22",
-    "Hanukkah vs Purim historical order"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "Hanukkah is the last miracle because it occurred after Purim.",
@@ -572,14 +568,14 @@
    ],
    "visualizableElements": [
     {
+     "item": "Timeline of miracles: Exodus, Temple, Purim (last universal) - then Hanukkah (local)",
      "type": "timeline",
-     "label": "Jewish miracles ending with Purim",
-     "description": "Timeline of miracles: Exodus, Temple, Purim (last universal) - then Hanukkah (local)"
+     "label": "Jewish miracles ending with Purim"
     },
     {
+     "item": "Morning star: more intense, last light before dawn. Moonlight: reflected, gentler",
      "type": "contrast",
-     "label": "Morning star vs moonlight",
-     "description": "Morning star: more intense, last light before dawn. Moonlight: reflected, gentler"
+     "label": "Morning star vs moonlight"
     }
    ],
    "quizSeeds": [
@@ -593,9 +589,14 @@
     }
    ],
    "finalRuling": "Aggadic teachings: sinful thoughts are more spiritually damaging than the act itself; Esther's miracle (Purim) was the last universal miracle for all Jews.",
-   "difficulty": "introductory",
+   "difficulty": "intro",
    "alternateAngles": [],
-   "review": "reviewed"
+   "review": "reviewed",
+   "prerequisiteKnowledge": [
+    "Purim story (Esther)",
+    "Psalm 22",
+    "Hanukkah vs Purim historical order"
+   ]
   },
   {
    "sugyaNumber": 2,
@@ -679,11 +680,7 @@
     "daytime requirement"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "tamid offering",
-    "dawn (shachar)",
-    "daytime requirement for slaughter"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "An accidentally premature tamid can be validated retroactively.",
@@ -700,9 +697,9 @@
    ],
    "visualizableElements": [
     {
+     "item": "Before dawn: slaughter invalid. After dawn: slaughter valid. No middle ground.",
      "type": "contrast",
-     "label": "Dawn threshold for tamid",
-     "description": "Before dawn: slaughter invalid. After dawn: slaughter valid. No middle ground."
+     "label": "Dawn threshold for tamid"
     }
    ],
    "quizSeeds": [
@@ -718,7 +715,12 @@
    "finalRuling": "A tamid slaughtered before dawn is invalid. The daytime requirement for slaughter is absolute.",
    "difficulty": "intermediate",
    "alternateAngles": [],
-   "review": "reviewed"
+   "review": "reviewed",
+   "prerequisiteKnowledge": [
+    "tamid offering",
+    "dawn (shachar)",
+    "daytime requirement for slaughter"
+   ]
   }
  ]
 }

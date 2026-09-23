@@ -128,10 +128,7 @@
     "graduated holiness"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "Yom Kippur avodah sequence",
-    "Temple architecture and holiness zones"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "The 'no man' exclusion and the bein haparakhot exclusion are the same prohibition, just covering a longer stretch of the Yom Kippur service.",
@@ -144,12 +141,12 @@
    ],
    "visualizableElements": [
     {
-     "type": "place",
-     "label": "graduated exclusion zones: Azarah to Kodesh Kodashim"
+     "item": "graduated exclusion zones: Azarah to Kodesh Kodashim",
+     "type": "place"
     },
     {
-     "type": "contrast",
-     "label": "incense exclusion (absolute) vs blood exclusion (graduated)"
+     "item": "incense exclusion (absolute) vs blood exclusion (graduated)",
+     "type": "contrast"
     }
    ],
    "quizSeeds": [
@@ -162,7 +159,11 @@
    "difficulty": "intermediate",
    "review": "reviewed",
    "alternateAngles": [],
-   "glossary": []
+   "glossary": [],
+   "prerequisiteKnowledge": [
+    "Yom Kippur avodah sequence",
+    "Temple architecture and holiness zones"
+   ]
   },
   {
    "sugyaNumber": 2,
@@ -219,10 +220,7 @@
     "Temple utensils"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "Temple vessel materials",
-    "daily vs Yom Kippur service distinctions"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "The same coal pan, whatever its material, was used for both the daily incense offering and the special Yom Kippur incense offering.",
@@ -235,8 +233,8 @@
    ],
    "visualizableElements": [
     {
-     "type": "contrast",
-     "label": "silver pan (daily) vs gold pan (Yom Kippur)"
+     "item": "silver pan (daily) vs gold pan (Yom Kippur)",
+     "type": "contrast"
     }
    ],
    "quizSeeds": [
@@ -246,10 +244,14 @@
     }
    ],
    "finalRuling": "The daily incense pan is silver; the Yom Kippur pan is gold - corresponding to the relative holiness of each occasion.",
-   "difficulty": "introductory",
+   "difficulty": "intro",
    "review": "reviewed",
    "alternateAngles": [],
-   "glossary": []
+   "glossary": [],
+   "prerequisiteKnowledge": [
+    "Temple vessel materials",
+    "daily vs Yom Kippur service distinctions"
+   ]
   },
   {
    "sugyaNumber": 3,
@@ -306,10 +308,7 @@
     "Holy of Holies materials"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "Holy of Holies architecture",
-    "Temple vessel materials"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "Using gold instead of silver for the Yom Kippur coal pan is simply an arbitrary upgrade in expense, with no deeper halachic rationale.",
@@ -320,8 +319,8 @@
    "relatedSugyot": [],
    "visualizableElements": [
     {
-     "type": "place",
-     "label": "Holy of Holies - all gold interior"
+     "item": "Holy of Holies - all gold interior",
+     "type": "place"
     }
    ],
    "quizSeeds": [
@@ -331,10 +330,14 @@
     }
    ],
    "finalRuling": "The Yom Kippur incense pan is gold to match the gold interior of the Holy of Holies.",
-   "difficulty": "introductory",
+   "difficulty": "intro",
    "review": "reviewed",
    "alternateAngles": [],
-   "glossary": []
+   "glossary": [],
+   "prerequisiteKnowledge": [
+    "Holy of Holies architecture",
+    "Temple vessel materials"
+   ]
   },
   {
    "sugyaNumber": 4,
@@ -435,11 +438,7 @@
     "Temple logistics"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "Temple logistics",
-    "High Priest carrying capacity",
-    "Kodesh Kodashim dimensions"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "The amount of coals in the incense pan is a fixed quantity that does not change between the daily service and the Yom Kippur service.",
@@ -450,8 +449,8 @@
    "relatedSugyot": [],
    "visualizableElements": [
     {
-     "type": "contrast",
-     "label": "4 kavim daily vs 3 kavim Yom Kippur"
+     "item": "4 kavim daily vs 3 kavim Yom Kippur",
+     "type": "contrast"
     }
    ],
    "quizSeeds": [
@@ -461,10 +460,15 @@
     }
    ],
    "finalRuling": "The Yom Kippur firepan uses 3 kavim of coals (vs. 4 daily) because the High Priest carries it alone and the smaller space of the Kodesh Kodashim requires less.",
-   "difficulty": "introductory",
+   "difficulty": "intro",
    "review": "reviewed",
    "alternateAngles": [],
-   "glossary": []
+   "glossary": [],
+   "prerequisiteKnowledge": [
+    "Temple logistics",
+    "High Priest carrying capacity",
+    "Kodesh Kodashim dimensions"
+   ]
   },
   {
    "sugyaNumber": 5,
@@ -540,10 +544,7 @@
     "Temple utensil design"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "Temple utensil materials",
-    "High Priest's solo service"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "The Yom Kippur coal pan is lighter than the daily one simply because it is a smaller or lesser-quality vessel.",
@@ -554,8 +555,8 @@
    "relatedSugyot": [],
    "visualizableElements": [
     {
-     "type": "contrast",
-     "label": "heavy daily pan vs lighter Yom Kippur pan"
+     "item": "heavy daily pan vs lighter Yom Kippur pan",
+     "type": "contrast"
     }
    ],
    "quizSeeds": [
@@ -565,10 +566,14 @@
     }
    ],
    "finalRuling": "The Yom Kippur firepan was deliberately lighter than the daily pan to enable solo carrying by the High Priest.",
-   "difficulty": "introductory",
+   "difficulty": "intro",
    "review": "reviewed",
    "alternateAngles": [],
-   "glossary": []
+   "glossary": [],
+   "prerequisiteKnowledge": [
+    "Temple utensil materials",
+    "High Priest's solo service"
+   ]
   },
   {
    "sugyaNumber": 6,
@@ -626,10 +631,7 @@
     "Temple materials"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "Temple material knowledge",
-    "gold varieties in antiquity"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "All gold Temple vessels are made from the same grade of gold, since the Torah and Gemara simply call it 'gold' without further distinction.",
@@ -640,8 +642,8 @@
    "relatedSugyot": [],
    "visualizableElements": [
     {
-     "type": "object",
-     "label": "greenish Sheba gold of daily incense pan"
+     "item": "greenish Sheba gold of daily incense pan",
+     "type": "object"
     }
    ],
    "quizSeeds": [
@@ -654,7 +656,11 @@
    "difficulty": "intermediate",
    "review": "reviewed",
    "alternateAngles": [],
-   "glossary": []
+   "glossary": [],
+   "prerequisiteKnowledge": [
+    "Temple material knowledge",
+    "gold varieties in antiquity"
+   ]
   }
  ],
  "glossary": [

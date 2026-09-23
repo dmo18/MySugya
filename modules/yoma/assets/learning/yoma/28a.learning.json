@@ -484,11 +484,7 @@
     "memune"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "complete service (avodah temimah)",
-    "High Priest's Yom Kippur service",
-    "five immersions and ten sanctifications"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "The two-log placement can be done by a non-priest since it doesn't require a lottery.",
@@ -505,14 +501,14 @@
    ],
    "visualizableElements": [
     {
+     "item": "Dawn check - announcement - priests lead High Priest to Hall of Parva - first immersion",
      "type": "sequence",
-     "label": "Yom Kippur service initiation",
-     "description": "Dawn check - announcement - priests lead High Priest to Hall of Parva - first immersion"
+     "label": "Yom Kippur service initiation"
     },
     {
+     "item": "The immersion chamber where the High Priest underwent his Yom Kippur immersions",
      "type": "place",
-     "label": "Hall of Parva",
-     "description": "The immersion chamber where the High Priest underwent his Yom Kippur immersions"
+     "label": "Hall of Parva"
     }
    ],
    "quizSeeds": [
@@ -528,7 +524,12 @@
    "finalRuling": "Two-log placement is complete priestly service. The Yom Kippur avodah begins at dawn with the High Priest's first immersion.",
    "difficulty": "advanced",
    "alternateAngles": [],
-   "review": "reviewed"
+   "review": "reviewed",
+   "prerequisiteKnowledge": [
+    "complete service (avodah temimah)",
+    "High Priest's Yom Kippur service",
+    "five immersions and ten sanctifications"
+   ]
   }
  ]
 }

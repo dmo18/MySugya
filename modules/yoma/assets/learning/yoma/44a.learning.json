@@ -194,11 +194,7 @@
     "High Priest's prayer"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "Yom Kippur incense service",
-    "Holy of Holies entry laws",
-    "atonement theology"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "The 'no man' prohibition excludes anyone from the Tent of Meeting throughout the whole Yom Kippur service, including during the blood sprinkling.",
@@ -212,16 +208,16 @@
    ],
    "visualizableElements": [
     {
-     "type": "place",
-     "label": "incense cloud filling the Holy of Holies"
+     "item": "incense cloud filling the Holy of Holies",
+     "type": "place"
     },
     {
-     "type": "contrast",
-     "label": "Sages: incense inside vs Sadducees: incense outside"
+     "item": "Sages: incense inside vs Sadducees: incense outside",
+     "type": "contrast"
     },
     {
-     "type": "action",
-     "label": "High Priest's brief prayer at the exit"
+     "item": "High Priest's brief prayer at the exit",
+     "type": "action"
     }
    ],
    "quizSeeds": [
@@ -238,7 +234,12 @@
    "difficulty": "intermediate",
    "review": "reviewed",
    "alternateAngles": [],
-   "glossary": []
+   "glossary": [],
+   "prerequisiteKnowledge": [
+    "Yom Kippur incense service",
+    "Holy of Holies entry laws",
+    "atonement theology"
+   ]
   }
  ],
  "glossary": [

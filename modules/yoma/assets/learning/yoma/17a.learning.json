@@ -151,10 +151,7 @@
     "Yoma.17a.1",
     "Yoma.17a.3"
    ],
-   "requiresUnderstanding": [
-    "The Chamber of the Lambs debate from 15b-17a",
-    "The Shewbread rotation system"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "The Chamber of the Lambs controversy is merely academic with no real stakes.",
@@ -167,12 +164,12 @@
    ],
    "visualizableElements": [
     {
-     "type": "place",
-     "desc": "Beit HaMoked with Chamber of Lambs shown at SW corner (final position), with annotation showing how it appeared at NW from the south view"
+     "item": "Beit HaMoked with Chamber of Lambs shown at SW corner (final position), with annotation showing how it appeared at NW from the south view",
+     "type": "place"
     },
     {
-     "type": "timeline",
-     "desc": "Shewbread distribution on Shabbat: twelve loaves split between outgoing and incoming shifts, with KG taking his portion"
+     "item": "Shewbread distribution on Shabbat: twelve loaves split between outgoing and incoming shifts, with KG taking his portion",
+     "type": "timeline"
     }
    ],
    "quizSeeds": [
@@ -203,7 +200,11 @@
    "review": {
     "content": "ai_generated",
     "sourceRefs": "ai_generated"
-   }
+   },
+   "prerequisiteKnowledge": [
+    "The Chamber of the Lambs debate from 15b-17a",
+    "The Shewbread rotation system"
+   ]
   }
  ],
  "glossary": [

@@ -579,11 +579,7 @@
     "Temple procedure"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "second lottery",
-    "tamid service",
-    "ketoret (incense) offering"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "The coal-pan and incense require two separate lottery slots.",
@@ -600,14 +596,14 @@
    ],
    "visualizableElements": [
     {
+     "item": "Visual showing why some task pairs are inherently linked while others are distinct",
      "type": "contrast",
-     "label": "Coal + incense (inseparable) vs slaughter + sprinkling (separable)",
-     "description": "Visual showing why some task pairs are inherently linked while others are distinct"
+     "label": "Coal + incense (inseparable) vs slaughter + sprinkling (separable)"
     },
     {
+     "item": "How groups of related tasks were assigned in one lottery round",
      "type": "sequence",
-     "label": "Lottery assignment method",
-     "description": "How groups of related tasks were assigned in one lottery round"
+     "label": "Lottery assignment method"
     }
    ],
    "quizSeeds": [
@@ -623,7 +619,12 @@
    "finalRuling": "R. Chiyya's baraita establishes that no per-task lottery was held; the question of who collected the blood is addressed in the next sugya.",
    "difficulty": "intermediate",
    "alternateAngles": [],
-   "review": "reviewed"
+   "review": "reviewed",
+   "prerequisiteKnowledge": [
+    "second lottery",
+    "tamid service",
+    "ketoret (incense) offering"
+   ]
   },
   {
    "sugyaNumber": 2,
@@ -726,11 +727,7 @@
     "priest assignment"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "tamid blood service",
-    "four blood services",
-    "zerikah (sprinkling)"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "The slaughterer naturally collects the blood since he is already standing at the animal.",
@@ -747,14 +744,14 @@
    ],
    "visualizableElements": [
     {
+     "item": "One priest: collects blood from neck, carries to altar, sprinkles on corners",
      "type": "sequence",
-     "label": "Blood service chain",
-     "description": "One priest: collects blood from neck, carries to altar, sprinkles on corners"
+     "label": "Blood service chain"
     },
     {
+     "item": "Two distinct roles: slaughterer ends his service at the neck; the sprinkler begins at the same moment",
      "type": "relationship",
-     "label": "Slaughterer vs blood handler",
-     "description": "Two distinct roles: slaughterer ends his service at the neck; the sprinkler begins at the same moment"
+     "label": "Slaughterer vs blood handler"
     }
    ],
    "quizSeeds": [
@@ -770,7 +767,12 @@
    "finalRuling": "The priest who sprinkles the blood on the altar is the same priest who collected it after slaughter.",
    "difficulty": "intermediate",
    "alternateAngles": [],
-   "review": "reviewed"
+   "review": "reviewed",
+   "prerequisiteKnowledge": [
+    "tamid blood service",
+    "four blood services",
+    "zerikah (sprinkling)"
+   ]
   },
   {
    "sugyaNumber": 3,
@@ -888,11 +890,7 @@
     "right side honor"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "tamid service",
-    "limb distribution",
-    "Temple altar ramp"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "The tannaim fundamentally disagree about which limb goes to the altar first.",
@@ -909,14 +907,14 @@
    ],
    "visualizableElements": [
     {
+     "item": "Sequence from head+right leg through the remaining limbs to the altar",
      "type": "sequence",
-     "label": "Tamid limb carrying order",
-     "description": "Sequence from head+right leg through the remaining limbs to the altar"
+     "label": "Tamid limb carrying order"
     },
     {
+     "item": "Three traditions for the order of limbs, with Rava showing they converge on the head-first principle",
      "type": "contrast",
-     "label": "Mishna vs Ben Azzai vs R. Akiva",
-     "description": "Three traditions for the order of limbs, with Rava showing they converge on the head-first principle"
+     "label": "Mishna vs Ben Azzai vs R. Akiva"
     }
    ],
    "quizSeeds": [
@@ -932,7 +930,12 @@
    "finalRuling": "The head goes first to the altar accompanied by the right front leg; the subsequent order is a tannaitic dispute.",
    "difficulty": "intermediate",
    "alternateAngles": [],
-   "review": "reviewed"
+   "review": "reviewed",
+   "prerequisiteKnowledge": [
+    "tamid service",
+    "limb distribution",
+    "Temple altar ramp"
+   ]
   }
  ]
 }

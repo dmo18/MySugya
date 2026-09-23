@@ -144,10 +144,7 @@
     "matching replacement pair"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "Knowing the matching requirement applies to the original pair",
-    "Understanding hidur mitzvah in the context of Temple service"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "When a Yom Kippur goat must be replaced, any valid matching animal is acceptable - quality standards are secondary once a contingency situation has already disrupted the original plan.",
@@ -157,12 +154,12 @@
    "relatedSugyot": [],
    "visualizableElements": [
     {
-     "type": "principle",
-     "name": "hidur mitzvah - choosing the finest in Temple service"
+     "item": "hidur mitzvah - choosing the finest in Temple service",
+     "type": "principle"
     },
     {
-     "type": "contrast",
-     "name": "replacement scenario maintaining original quality standards"
+     "item": "replacement scenario maintaining original quality standards",
+     "type": "contrast"
     }
    ],
    "quizSeeds": [
@@ -172,10 +169,14 @@
     }
    ],
    "finalRuling": "Replacement goats must meet the same quality and matching standards as the original pair; the finest available animal is required, reflecting hidur mitzvah.",
-   "difficulty": "introductory",
+   "difficulty": "intro",
    "alternateAngles": [],
    "glossary": [],
-   "review": "reviewed"
+   "review": "reviewed",
+   "prerequisiteKnowledge": [
+    "Knowing the matching requirement applies to the original pair",
+    "Understanding hidur mitzvah in the context of Temple service"
+   ]
   }
  ],
  "glossary": [],

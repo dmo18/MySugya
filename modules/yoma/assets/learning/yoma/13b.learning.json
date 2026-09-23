@@ -109,11 +109,7 @@
     "Yoma.13b.1",
     "Yoma.13b.2"
    ],
-   "requiresUnderstanding": [
-    "The seven failed formulas from 13a",
-    "Basic rules of yibum and chalitza",
-    "How conditional gitin work with retroactivity"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "The two-pronged solution creates a two-wife situation at some moment.",
@@ -131,12 +127,12 @@
    ],
    "visualizableElements": [
     {
-     "type": "sequence",
-     "desc": "Two conditions, two outcomes: Wife 2 dies (Wife 1's get valid) or Wife 2 avoids synagogue (Wife 2's get valid). A decision tree with exactly one active branch."
+     "item": "Two conditions, two outcomes: Wife 2 dies (Wife 1's get valid) or Wife 2 avoids synagogue (Wife 2's get valid). A decision tree with exactly one active branch.",
+     "type": "sequence"
     },
     {
-     "type": "text",
-     "desc": "The complementary conditions as a logical diagram: P leads to Wife 1's get; not-P leads to Wife 2's get; P and not-P are mutually exclusive."
+     "item": "The complementary conditions as a logical diagram: P leads to Wife 1's get; not-P leads to Wife 2's get; P and not-P are mutually exclusive.",
+     "type": "text"
     }
    ],
    "quizSeeds": [
@@ -173,7 +169,12 @@
     "concepts": "ai_generated",
     "argumentFlow": "ai_generated",
     "sourceRefs": "ai_generated"
-   }
+   },
+   "prerequisiteKnowledge": [
+    "The seven failed formulas from 13a",
+    "Basic rules of yibum and chalitza",
+    "How conditional gitin work with retroactivity"
+   ]
   },
   {
    "sugyaNumber": 2,
@@ -257,10 +258,7 @@
     "Yoma.13b.4",
     "Yoma.13b.5"
    ],
-   "requiresUnderstanding": [
-    "The yibum (levirate marriage) obligation and its conditions",
-    "The distinction between erusin (betrothal) and nisuin (marriage)"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "These objections concern the KG's Yom Kippur requirement itself.",
@@ -278,12 +276,12 @@
    ],
    "visualizableElements": [
     {
-     "type": "text",
-     "desc": "The word 'bayto' appearing in two different biblical contexts with different legal scope"
+     "item": "The word 'bayto' appearing in two different biblical contexts with different legal scope",
+     "type": "text"
     },
     {
-     "type": "contrast",
-     "desc": "KG's 'bayto' (restrictive: exactly one wife) vs. yibum 'bayto' (inclusive: multiple women, betrothed women)"
+     "item": "KG's 'bayto' (restrictive: exactly one wife) vs. yibum 'bayto' (inclusive: multiple women, betrothed women)",
+     "type": "contrast"
     }
    ],
    "quizSeeds": [
@@ -312,7 +310,11 @@
     "concepts": "ai_generated",
     "argumentFlow": "ai_generated",
     "sourceRefs": "ai_generated"
-   }
+   },
+   "prerequisiteKnowledge": [
+    "The yibum (levirate marriage) obligation and its conditions",
+    "The distinction between erusin (betrothal) and nisuin (marriage)"
+   ]
   },
   {
    "sugyaNumber": 3,
@@ -436,10 +438,7 @@
     "Yoma.13b.6",
     "Yoma.13b.8"
    ],
-   "requiresUnderstanding": [
-    "The halakhot of acute mourning (aninut) - especially the prohibition on eating kodshim",
-    "The KG's unique Yom Kippur service obligation that overrides personal status"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "The onen KG's service is invalid because he is in a state of mourning.",
@@ -457,12 +456,12 @@
    ],
    "visualizableElements": [
     {
-     "type": "action",
-     "desc": "The KG in full Yom Kippur garments, performing the avodah while a family member lies unburied - the intersection of public duty and private grief"
+     "item": "The KG in full Yom Kippur garments, performing the avodah while a family member lies unburied - the intersection of public duty and private grief",
+     "type": "action"
     },
     {
-     "type": "contrast",
-     "desc": "What the onen KG does (sacrifices, serves) vs. what he cannot do (eat kodshim afterward)"
+     "item": "What the onen KG does (sacrifices, serves) vs. what he cannot do (eat kodshim afterward)",
+     "type": "contrast"
     }
    ],
    "quizSeeds": [
@@ -499,7 +498,11 @@
     "concepts": "ai_generated",
     "argumentFlow": "ai_generated",
     "sourceRefs": "ai_generated"
-   }
+   },
+   "prerequisiteKnowledge": [
+    "The halakhot of acute mourning (aninut) - especially the prohibition on eating kodshim",
+    "The KG's unique Yom Kippur service obligation that overrides personal status"
+   ]
   }
  ],
  "glossary": [

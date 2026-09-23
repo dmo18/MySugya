@@ -57,9 +57,7 @@
     "writing halakha"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "get validity requirements"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "Gittin written in alternating (seirugim) script are invalid because they deviate from standard script.",
@@ -72,8 +70,8 @@
    ],
    "visualizableElements": [
     {
-     "type": "text",
-     "description": "Seirugim = alternating/block script for gittin"
+     "item": "Seirugim = alternating/block script for gittin",
+     "type": "text"
     }
    ],
    "quizSeeds": [
@@ -84,10 +82,13 @@
     }
    ],
    "finalRuling": "A get written b'seirugim (alternating script) is valid.",
-   "difficulty": "introductory",
+   "difficulty": "intro",
    "alternateAngles": [],
    "glossary": [],
-   "review": "reviewed"
+   "review": "reviewed",
+   "prerequisiteKnowledge": [
+    "get validity requirements"
+   ]
   },
   {
    "sugyaNumber": 2,
@@ -192,8 +193,8 @@
    ],
    "visualizableElements": [
     {
-     "type": "narrative",
-     "description": "Copper doors kept as is after miracle - surpassing gold in honor"
+     "item": "Copper doors kept as is after miracle - surpassing gold in honor",
+     "type": "narrative"
     }
    ],
    "quizSeeds": [
@@ -204,7 +205,7 @@
     }
    ],
    "finalRuling": "Nicanor's copper doors were kept while others were gilded, because the miracle made them more honorable than gold.",
-   "difficulty": "introductory",
+   "difficulty": "intro",
    "alternateAngles": [],
    "glossary": [],
    "review": "reviewed"
@@ -335,9 +336,7 @@
     "temple knowledge"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "lechem hapanim (showbread)"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "Beth Garmu kept the showbread recipe secret as a business advantage, and the Sages approved.",
@@ -350,8 +349,8 @@
    ],
    "visualizableElements": [
     {
-     "type": "contrast",
-     "description": "Four families: praised for skills but shamed for secrecy"
+     "item": "Four families: praised for skills but shamed for secrecy",
+     "type": "contrast"
     }
    ],
    "quizSeeds": [
@@ -362,10 +361,13 @@
     }
    ],
    "finalRuling": "Beth Garmu, Beth Avtinas, Hugras, and Ben Kamtsar are remembered in infamy for refusing to share Temple skills.",
-   "difficulty": "introductory",
+   "difficulty": "intro",
    "alternateAngles": [],
    "glossary": [],
-   "review": "reviewed"
+   "review": "reviewed",
+   "prerequisiteKnowledge": [
+    "lechem hapanim (showbread)"
+   ]
   },
   {
    "sugyaNumber": 4,
@@ -529,9 +531,7 @@
     "maaleh ashan"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "ketoret (incense) formula"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "Beth Avtinas's secrecy about incense compounding was purely selfish and condemned without qualification.",
@@ -544,8 +544,8 @@
    ],
    "visualizableElements": [
     {
-     "type": "action",
-     "description": "Beth Avtinas brought back from Alexandria at double wages to share the incense secret"
+     "item": "Beth Avtinas brought back from Alexandria at double wages to share the incense secret",
+     "type": "action"
     }
    ],
    "quizSeeds": [
@@ -559,7 +559,10 @@
    "difficulty": "intermediate",
    "alternateAngles": [],
    "glossary": [],
-   "review": "reviewed"
+   "review": "reviewed",
+   "prerequisiteKnowledge": [
+    "ketoret (incense) formula"
+   ]
   }
  ],
  "glossary": [

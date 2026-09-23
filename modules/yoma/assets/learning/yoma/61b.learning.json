@@ -125,10 +125,7 @@
     "sin-offering principle"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "Knowing the beit ha-deshen is outside Jerusalem",
-    "Knowing which offerings have their blood brought inside"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "The burning of the Yom Kippur bull and goat outside Jerusalem is a disposal step with no special theological significance beyond removing the remains.",
@@ -138,12 +135,12 @@
    "relatedSugyot": [],
    "visualizableElements": [
     {
-     "type": "principle",
-     "name": "inner blood service requires outside burning"
+     "item": "inner blood service requires outside burning",
+     "type": "principle"
     },
     {
-     "type": "place",
-     "name": "beit ha-deshen outside Jerusalem"
+     "item": "beit ha-deshen outside Jerusalem",
+     "type": "place"
     }
    ],
    "quizSeeds": [
@@ -156,7 +153,11 @@
    "difficulty": "intermediate",
    "alternateAngles": [],
    "glossary": [],
-   "review": "reviewed"
+   "review": "reviewed",
+   "prerequisiteKnowledge": [
+    "Knowing the beit ha-deshen is outside Jerusalem",
+    "Knowing which offerings have their blood brought inside"
+   ]
   },
   {
    "sugyaNumber": 2,
@@ -233,10 +234,7 @@
     "completion"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "Knowing the blood went to the Holy of Holies (innermost) and the body goes outside the city (outermost)",
-    "Understanding the inner-outer symmetry of the atonement"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "Once the blood of the Yom Kippur bull and goat was sprinkled in the Holy of Holies, the atonement was complete and the bodies could simply be disposed of.",
@@ -246,12 +244,12 @@
    "relatedSugyot": [],
    "visualizableElements": [
     {
-     "type": "contrast",
-     "name": "blood to innermost Holy of Holies vs. body to outermost beit ha-deshen"
+     "item": "blood to innermost Holy of Holies vs. body to outermost beit ha-deshen",
+     "type": "contrast"
     },
     {
-     "type": "sequence",
-     "name": "complete circuit: blood in, body out"
+     "item": "complete circuit: blood in, body out",
+     "type": "sequence"
     }
    ],
    "quizSeeds": [
@@ -264,7 +262,11 @@
    "difficulty": "intermediate",
    "alternateAngles": [],
    "glossary": [],
-   "review": "reviewed"
+   "review": "reviewed",
+   "prerequisiteKnowledge": [
+    "Knowing the blood went to the Holy of Holies (innermost) and the body goes outside the city (outermost)",
+    "Understanding the inner-outer symmetry of the atonement"
+   ]
   },
   {
    "sugyaNumber": 3,
@@ -342,10 +344,7 @@
     "day ends"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "Knowing that tum'ah (impurity from carrying burnt offerings) ends at nightfall after immersion",
-    "Knowing Yom Kippur itself ends at nightfall"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "Once the Yom Kippur service was complete and the HP's final immersion was done, the day ended in a state of completed purity with no further ritual transitions.",
@@ -355,12 +354,12 @@
    "relatedSugyot": [],
    "visualizableElements": [
     {
-     "type": "action",
-     "name": "carriers immersing at day's end"
+     "item": "carriers immersing at day's end",
+     "type": "action"
     },
     {
-     "type": "contrast",
-     "name": "HP immersing at day's beginning vs. carriers immersing at day's end"
+     "item": "HP immersing at day's beginning vs. carriers immersing at day's end",
+     "type": "contrast"
     }
    ],
    "quizSeeds": [
@@ -370,10 +369,14 @@
     }
    ],
    "finalRuling": "The carriers of the Yom Kippur offerings become impure, immerse, and await sundown - Yom Kippur ends as it began, with purification.",
-   "difficulty": "introductory",
+   "difficulty": "intro",
    "alternateAngles": [],
    "glossary": [],
-   "review": "reviewed"
+   "review": "reviewed",
+   "prerequisiteKnowledge": [
+    "Knowing that tum'ah (impurity from carrying burnt offerings) ends at nightfall after immersion",
+    "Knowing Yom Kippur itself ends at nightfall"
+   ]
   }
  ],
  "glossary": [],

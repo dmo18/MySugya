@@ -131,10 +131,7 @@
     "inner vs. outer"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "Knowing there are two altars each with a base",
-    "Knowing the inner and outer services are distinguished by zone"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "All remaining blood from both the inner and outer services is always poured to the same single base with no distinction.",
@@ -144,12 +141,12 @@
    "relatedSugyot": [],
    "visualizableElements": [
     {
-     "type": "contrast",
-     "name": "R. Eliezer zone-based vs. R. Shimon unified outer base"
+     "item": "R. Eliezer zone-based vs. R. Shimon unified outer base",
+     "type": "contrast"
     },
     {
-     "type": "place",
-     "name": "inner altar base vs. outer altar base"
+     "item": "inner altar base vs. outer altar base",
+     "type": "place"
     }
    ],
    "quizSeeds": [
@@ -162,7 +159,11 @@
    "difficulty": "intermediate",
    "alternateAngles": [],
    "glossary": [],
-   "review": "reviewed"
+   "review": "reviewed",
+   "prerequisiteKnowledge": [
+    "Knowing there are two altars each with a base",
+    "Knowing the inner and outer services are distinguished by zone"
+   ]
   },
   {
    "sugyaNumber": 2,
@@ -289,10 +290,7 @@
     "sin transfer"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "Knowing this is the third confession (first two were for HP's household and the priesthood)",
-    "Knowing the scapegoat was designated by lot earlier in the service"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "The goat metaphysically absorbs Israel's sins and physically carries them away - the goat itself is the independent agent of atonement.",
@@ -302,16 +300,16 @@
    "relatedSugyot": [],
    "visualizableElements": [
     {
-     "type": "person",
-     "name": "HP with hands on scapegoat's head"
+     "item": "HP with hands on scapegoat's head",
+     "type": "person"
     },
     {
-     "type": "action",
-     "name": "third confession text - for all Israel"
+     "item": "third confession text - for all Israel",
+     "type": "action"
     },
     {
-     "type": "person",
-     "name": "designated guide leading scapegoat"
+     "item": "designated guide leading scapegoat",
+     "type": "person"
     }
    ],
    "quizSeeds": [
@@ -321,10 +319,14 @@
     }
    ],
    "finalRuling": "The HP's third confession transfers all of Israel's sins to the scapegoat, which is then led by a designated person to Azazel in the wilderness.",
-   "difficulty": "introductory",
+   "difficulty": "intro",
    "alternateAngles": [],
    "glossary": [],
-   "review": "reviewed"
+   "review": "reviewed",
+   "prerequisiteKnowledge": [
+    "Knowing this is the third confession (first two were for HP's household and the priesthood)",
+    "Knowing the scapegoat was designated by lot earlier in the service"
+   ]
   },
   {
    "sugyaNumber": 3,
@@ -402,10 +404,7 @@
     "HP during Torah reading"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "Knowing the HP reads the Torah later in the day's sequence",
-    "Knowing the scapegoat must reach the cliff (not just leave the city)"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "The ten relay stations were set up for the scapegoat's benefit - to ensure it traveled safely and comfortably to its destination.",
@@ -415,12 +414,12 @@
    "relatedSugyot": [],
    "visualizableElements": [
     {
-     "type": "sequence",
-     "name": "ten stations from Jerusalem to Azazel cliff"
+     "item": "ten stations from Jerusalem to Azazel cliff",
+     "type": "sequence"
     },
     {
-     "type": "action",
-     "name": "news relay back to HP during Torah reading"
+     "item": "news relay back to HP during Torah reading",
+     "type": "action"
     }
    ],
    "quizSeeds": [
@@ -430,10 +429,14 @@
     }
    ],
    "finalRuling": "Ten relay stations enable news of the scapegoat's arrival at the Azazel cliff to be relayed back to the HP during his Torah reading.",
-   "difficulty": "introductory",
+   "difficulty": "intro",
    "alternateAngles": [],
    "glossary": [],
-   "review": "reviewed"
+   "review": "reviewed",
+   "prerequisiteKnowledge": [
+    "Knowing the HP reads the Torah later in the day's sequence",
+    "Knowing the scapegoat must reach the cliff (not just leave the city)"
+   ]
   }
  ],
  "glossary": [],

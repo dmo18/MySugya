@@ -120,8 +120,8 @@
    "relatedSugyot": [],
    "visualizableElements": [
     {
+     "item": "Argument flow",
      "type": "sequence",
-     "description": "Argument flow",
      "role": "anchor",
      "priority": 1
     }
@@ -295,8 +295,8 @@
    "relatedSugyot": [],
    "visualizableElements": [
     {
+     "item": "Argument flow",
      "type": "sequence",
-     "description": "Argument flow",
      "role": "anchor",
      "priority": 1
     }
@@ -437,8 +437,8 @@
    "relatedSugyot": [],
    "visualizableElements": [
     {
+     "item": "Argument flow",
      "type": "sequence",
-     "description": "Argument flow",
      "role": "anchor",
      "priority": 1
     }

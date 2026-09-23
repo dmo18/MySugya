@@ -118,8 +118,8 @@
    ],
    "visualizableElements": [
     {
-     "type": "contrast",
-     "description": "Two cases: scholar forgoes personal insult (permitted) vs. scholar forgoes Torah insult (not permitted) - shown as a decision tree"
+     "item": "Two cases: scholar forgoes personal insult (permitted) vs. scholar forgoes Torah insult (not permitted) - shown as a decision tree",
+     "type": "contrast"
     }
    ],
    "quizSeeds": [
@@ -287,12 +287,12 @@
    ],
    "visualizableElements": [
     {
-     "type": "action",
-     "description": "Priests gathered in the Chamber of Hewn Stone in a circle; supervisor loosening his garment; priests extending fingers for the count"
+     "item": "Priests gathered in the Chamber of Hewn Stone in a circle; supervisor loosening his garment; priests extending fingers for the count",
+     "type": "action"
     },
     {
-     "type": "place",
-     "description": "The Chamber of Hewn Stone with its semi-circular seating for the Sanhedrin also serving as the lottery room"
+     "item": "The Chamber of Hewn Stone with its semi-circular seating for the Sanhedrin also serving as the lottery room",
+     "type": "place"
     }
    ],
    "quizSeeds": [
@@ -461,12 +461,12 @@
    ],
    "visualizableElements": [
     {
-     "type": "action",
-     "description": "A priest stabbed and lying on the altar ramp with a knife embedded; the court assembled around him trying to determine the halachic status"
+     "item": "A priest stabbed and lying on the altar ramp with a knife embedded; the court assembled around him trying to determine the halachic status",
+     "type": "action"
     },
     {
-     "type": "person",
-     "description": "The wounded priest's father approaching the court and making a halakhic announcement about knife impurity rather than calling for medical help"
+     "item": "The wounded priest's father approaching the court and making a halakhic announcement about knife impurity rather than calling for medical help",
+     "type": "person"
     }
    ],
    "quizSeeds": [
@@ -480,7 +480,7 @@
     }
    ],
    "finalRuling": "The stabbing incident led directly to the institution of the lottery system for all Temple service assignments.",
-   "difficulty": "introductory",
+   "difficulty": "intro",
    "alternateAngles": [],
    "glossary": [
     {

@@ -78,10 +78,7 @@
     "Temple vessels"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "Temple vessel materials",
-    "parah adumah gold pan discussion"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "The Torah's different words for gold (zahav, zahav tov, paz, etc.) are just stylistic variation describing the same single material.",
@@ -94,8 +91,8 @@
    ],
    "visualizableElements": [
     {
-     "type": "contrast",
-     "label": "five types of gold from ordinary to paz"
+     "item": "five types of gold from ordinary to paz",
+     "type": "contrast"
     }
    ],
    "quizSeeds": [
@@ -105,10 +102,14 @@
     }
    ],
    "finalRuling": "Five types of gold exist; paz is the finest, named for its pearl-like glistening quality.",
-   "difficulty": "introductory",
+   "difficulty": "intro",
    "alternateAngles": [],
    "glossary": [],
-   "review": "reviewed"
+   "review": "reviewed",
+   "prerequisiteKnowledge": [
+    "Temple vessel materials",
+    "parah adumah gold pan discussion"
+   ]
   },
   {
    "sugyaNumber": 2,
@@ -166,10 +167,7 @@
     "Yom Kippur contrast"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "incense service laws",
-    "daily Temple service structure"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "Since the Yom Kippur incense service differs from the daily service in vessel, carrier, and location, it must also use a different quantity of incense.",
@@ -180,8 +178,8 @@
    "relatedSugyot": [],
    "visualizableElements": [
     {
-     "type": "contrast",
-     "label": "ordinary day peras vs Yom Kippur quantity"
+     "item": "ordinary day peras vs Yom Kippur quantity",
+     "type": "contrast"
     }
    ],
    "quizSeeds": [
@@ -191,10 +189,14 @@
     }
    ],
    "finalRuling": "The daily peras of incense continues unchanged on Yom Kippur. Yom Kippur adds a separate incense service: an additional handful the High Priest burns inside the Holy of Holies.",
-   "difficulty": "introductory",
+   "difficulty": "intro",
    "alternateAngles": [],
    "glossary": [],
-   "review": "reviewed"
+   "review": "reviewed",
+   "prerequisiteKnowledge": [
+    "incense service laws",
+    "daily Temple service structure"
+   ]
   },
   {
    "sugyaNumber": 3,
@@ -252,10 +254,7 @@
     "ordinary priests"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "altar ramp geometry",
-    "High Priest's special status on Yom Kippur"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "All priests, including the High Priest on Yom Kippur, ascend the altar ramp the same way, from the east side.",
@@ -266,8 +265,8 @@
    "relatedSugyot": [],
    "visualizableElements": [
     {
-     "type": "place",
-     "label": "altar ramp - east side vs middle path"
+     "item": "altar ramp - east side vs middle path",
+     "type": "place"
     }
    ],
    "quizSeeds": [
@@ -277,10 +276,14 @@
     }
    ],
    "finalRuling": "On Yom Kippur the High Priest uses the middle path of the altar ramp; ordinary priests use the eastern path.",
-   "difficulty": "introductory",
+   "difficulty": "intro",
    "alternateAngles": [],
    "glossary": [],
-   "review": "reviewed"
+   "review": "reviewed",
+   "prerequisiteKnowledge": [
+    "altar ramp geometry",
+    "High Priest's special status on Yom Kippur"
+   ]
   },
   {
    "sugyaNumber": 4,
@@ -337,10 +340,7 @@
     "daily service"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "altar fire laws",
-    "daily Temple service"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "The wood on the altar is just one undifferentiated pile, with no meaningful distinction between separate arrangements.",
@@ -351,8 +351,8 @@
    "relatedSugyot": [],
    "visualizableElements": [
     {
-     "type": "place",
-     "label": "four wood arrangements on the altar"
+     "item": "four wood arrangements on the altar",
+     "type": "place"
     }
    ],
    "quizSeeds": [
@@ -362,10 +362,14 @@
     }
    ],
    "finalRuling": "Four wood-pyre arrangements are on the altar on ordinary days.",
-   "difficulty": "introductory",
+   "difficulty": "intro",
    "alternateAngles": [],
    "glossary": [],
-   "review": "reviewed"
+   "review": "reviewed",
+   "prerequisiteKnowledge": [
+    "altar fire laws",
+    "daily Temple service"
+   ]
   },
   {
    "sugyaNumber": 5,
@@ -423,10 +427,7 @@
     "Yom Kippur"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "hand-foot sanctification laws",
-    "Yom Kippur distinctions"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "The High Priest sanctifies his hands and feet from the same laver used by ordinary priests on every day, including Yom Kippur.",
@@ -437,8 +438,8 @@
    "relatedSugyot": [],
    "visualizableElements": [
     {
-     "type": "object",
-     "label": "golden pitcher vs laver for hand sanctification"
+     "item": "golden pitcher vs laver for hand sanctification",
+     "type": "object"
     }
    ],
    "quizSeeds": [
@@ -448,10 +449,14 @@
     }
    ],
    "finalRuling": "On Yom Kippur a golden pitcher is used for the High Priest's hand-foot sanctification instead of the ordinary laver.",
-   "difficulty": "introductory",
+   "difficulty": "intro",
    "alternateAngles": [],
    "glossary": [],
-   "review": "reviewed"
+   "review": "reviewed",
+   "prerequisiteKnowledge": [
+    "hand-foot sanctification laws",
+    "Yom Kippur distinctions"
+   ]
   },
   {
    "sugyaNumber": 6,
@@ -620,11 +625,7 @@
     "Yom Kippur coals"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "altar fire laws",
-    "perpetual fire laws",
-    "Yom Kippur avodah structure"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "The number of wood arrangements on the altar is a fixed, undisputed fact rather than a matter of tannaitic disagreement.",
@@ -637,12 +638,12 @@
    ],
    "visualizableElements": [
     {
-     "type": "contrast",
-     "label": "R. Meir 5 arrangements vs R. Yehuda 4"
+     "item": "R. Meir 5 arrangements vs R. Yehuda 4",
+     "type": "contrast"
     },
     {
-     "type": "sequence",
-     "label": "four arrangements derived from four Torah verses"
+     "item": "four arrangements derived from four Torah verses",
+     "type": "sequence"
     }
    ],
    "quizSeeds": [
@@ -655,7 +656,12 @@
    "difficulty": "intermediate",
    "alternateAngles": [],
    "glossary": [],
-   "review": "reviewed"
+   "review": "reviewed",
+   "prerequisiteKnowledge": [
+    "altar fire laws",
+    "perpetual fire laws",
+    "Yom Kippur avodah structure"
+   ]
   }
  ],
  "glossary": [

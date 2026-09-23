@@ -122,11 +122,7 @@
     "R. Yehuda"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "cheruvim on kapporet",
-    "Temple theology",
-    "Lamentations"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "The cheruvim facing each other was a sign of disfavor or tension, like two adversaries facing off.",
@@ -135,10 +131,18 @@
    ],
    "relatedSugyot": [],
    "visualizableElements": [
-    "cheruvim",
-    "kapporet",
-    "Jerusalem",
-    "divine love"
+    {
+     "item": "cheruvim"
+    },
+    {
+     "item": "kapporet"
+    },
+    {
+     "item": "Jerusalem"
+    },
+    {
+     "item": "divine love"
+    }
    ],
    "quizSeeds": [
     {
@@ -150,7 +154,12 @@
    "difficulty": "advanced",
    "alternateAngles": [],
    "glossary": [],
-   "review": "reviewed"
+   "review": "reviewed",
+   "prerequisiteKnowledge": [
+    "cheruvim on kapporet",
+    "Temple theology",
+    "Lamentations"
+   ]
   },
   {
    "sugyaNumber": 2,
@@ -296,11 +305,7 @@
     "hidden under Temple"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "Second Temple history",
-    "Ark of the Covenant",
-    "HP service location"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "Without knowing where the Ark ended up, the Second Temple HP could not know where to direct his sprinkling.",
@@ -309,10 +314,18 @@
    ],
    "relatedSugyot": [],
    "visualizableElements": [
-    "Ark of the Covenant",
-    "even ha-shetiya",
-    "Temple sanctuary",
-    "Babylon"
+    {
+     "item": "Ark of the Covenant"
+    },
+    {
+     "item": "even ha-shetiya"
+    },
+    {
+     "item": "Temple sanctuary"
+    },
+    {
+     "item": "Babylon"
+    }
    ],
    "quizSeeds": [
     {
@@ -324,7 +337,12 @@
    "difficulty": "intermediate",
    "alternateAngles": [],
    "glossary": [],
-   "review": "reviewed"
+   "review": "reviewed",
+   "prerequisiteKnowledge": [
+    "Second Temple history",
+    "Ark of the Covenant",
+    "HP service location"
+   ]
   }
  ],
  "glossary": [],

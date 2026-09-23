@@ -107,12 +107,12 @@
    ],
    "visualizableElements": [
     {
-     "type": "contrast",
-     "description": "First Temple vs. Second Temple: five elements present vs. absent, shown as a side-by-side comparison"
+     "item": "First Temple vs. Second Temple: five elements present vs. absent, shown as a side-by-side comparison",
+     "type": "contrast"
     },
     {
-     "type": "object",
-     "description": "The Ark of the Covenant with its cherubs and kapporet - the central absent element of the Second Temple"
+     "item": "The Ark of the Covenant with its cherubs and kapporet - the central absent element of the Second Temple",
+     "type": "object"
     }
    ],
    "quizSeeds": [
@@ -290,12 +290,12 @@
    ],
    "visualizableElements": [
     {
-     "type": "contrast",
-     "description": "Two altar diagrams: First Temple smoke rising perfectly straight; Second Temple smoke behavior debated"
+     "item": "Two altar diagrams: First Temple smoke rising perfectly straight; Second Temple smoke behavior debated",
+     "type": "contrast"
     },
     {
-     "type": "action",
-     "description": "Wind blowing across the Temple Mount while the altar smoke rises straight upward - defying the wind"
+     "item": "Wind blowing across the Temple Mount while the altar smoke rises straight upward - defying the wind",
+     "type": "action"
     }
    ],
    "quizSeeds": [
@@ -460,12 +460,12 @@
    ],
    "visualizableElements": [
     {
-     "type": "object",
-     "description": "The altar with two distinct fire arrangements labeled: ma'aracha gedola (large, for offerings) and ma'aracha ketana (small, for incense coals)"
+     "item": "The altar with two distinct fire arrangements labeled: ma'aracha gedola (large, for offerings) and ma'aracha ketana (small, for incense coals)",
+     "type": "object"
     },
     {
-     "type": "action",
-     "description": "Divine fire descending from heaven onto the altar while a priest simultaneously adds wood - fulfilling both the divine and human fire requirements"
+     "item": "Divine fire descending from heaven onto the altar while a priest simultaneously adds wood - fulfilling both the divine and human fire requirements",
+     "type": "action"
     }
    ],
    "quizSeeds": [

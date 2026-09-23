@@ -58,10 +58,7 @@
         "Azazel"
       ],
       "conceptRefs": [],
-      "requiresUnderstanding": [
-        "Sifra (Torat Kohanim)",
-        "tannaic attribution"
-      ],
+      "requiresUnderstanding": [],
       "misconceptions": [
         {
           "misconception": "Each mishnaic source must be attributed to a specific named tanna based on its content.",
@@ -74,8 +71,8 @@
       ],
       "visualizableElements": [
         {
-          "type": "text",
-          "description": "Setam Sifra = R. Yehuda: the attribution key for all anonymous Torat Kohanim rulings"
+          "item": "Setam Sifra = R. Yehuda: the attribution key for all anonymous Torat Kohanim rulings",
+          "type": "text"
         }
       ],
       "quizSeeds": [
@@ -86,10 +83,14 @@
         }
       ],
       "finalRuling": "Anonymous Sifra = R. Yehuda.",
-      "difficulty": "introductory",
+      "difficulty": "intro",
       "alternateAngles": [],
       "glossary": [],
-      "review": "reviewed"
+      "review": "reviewed",
+      "prerequisiteKnowledge": [
+        "Sifra (Torat Kohanim)",
+        "tannaic attribution"
+      ]
     },
     {
       "sugyaNumber": 2,
@@ -379,11 +380,7 @@
         "designation timing"
       ],
       "conceptRefs": [],
-      "requiresUnderstanding": [
-        "kinnim (bird-pair offerings)",
-        "chatat",
-        "olah"
-      ],
+      "requiresUnderstanding": [],
       "misconceptions": [
         {
           "misconception": "A pair of kinnim birds becomes specifically designated the moment the woman says 'this one is the chatat.'",
@@ -396,8 +393,8 @@
       ],
       "visualizableElements": [
         {
-          "type": "sequence",
-          "description": "Bird pair: first slaughtered = chatat; second = olah; if one dies before, new pair needed"
+          "item": "Bird pair: first slaughtered = chatat; second = olah; if one dies before, new pair needed",
+          "type": "sequence"
         }
       ],
       "quizSeeds": [
@@ -411,7 +408,12 @@
       "difficulty": "advanced",
       "alternateAngles": [],
       "glossary": [],
-      "review": "reviewed"
+      "review": "reviewed",
+      "prerequisiteKnowledge": [
+        "kinnim (bird-pair offerings)",
+        "chatat",
+        "olah"
+      ]
     }
   ],
   "glossary": [],

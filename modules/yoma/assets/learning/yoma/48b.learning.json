@@ -60,11 +60,7 @@
     "preparatory acts"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "pigul laws",
-    "kometz laws",
-    "Temple service intent"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "Pigul intent during coal-raking cannot disqualify the incense, since only the main service act itself is subject to pigul - not preparatory steps.",
@@ -75,8 +71,8 @@
    "relatedSugyot": [],
    "visualizableElements": [
     {
+     "item": "Pigul intent during preparation (raking) vs. during the offering itself - two legal domains",
      "type": "contrast",
-     "description": "Pigul intent during preparation (raking) vs. during the offering itself - two legal domains",
      "role": "contrast",
      "priority": 1
     }
@@ -91,7 +87,12 @@
    "difficulty": "advanced",
    "alternateAngles": [],
    "glossary": [],
-   "review": "reviewed"
+   "review": "reviewed",
+   "prerequisiteKnowledge": [
+    "pigul laws",
+    "kometz laws",
+    "Temple service intent"
+   ]
   },
   {
    "sugyaNumber": 2,
@@ -182,11 +183,7 @@
     "consumption"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "pigul laws",
-    "incense service",
-    "Yom Kippur avodah"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "Pigul applies uniformly to all Temple service acts, so incense is subject to standard pigul intent just like blood sprinkling or fat burning.",
@@ -197,8 +194,8 @@
    "relatedSugyot": [],
    "visualizableElements": [
     {
-     "type": "contrast",
-     "label": "standard pigul (food) vs incense pigul - does the rule apply?"
+     "item": "standard pigul (food) vs incense pigul - does the rule apply?",
+     "type": "contrast"
     }
    ],
    "quizSeeds": [
@@ -211,7 +208,12 @@
    "difficulty": "advanced",
    "alternateAngles": [],
    "glossary": [],
-   "review": "reviewed"
+   "review": "reviewed",
+   "prerequisiteKnowledge": [
+    "pigul laws",
+    "incense service",
+    "Yom Kippur avodah"
+   ]
   }
  ],
  "glossary": [

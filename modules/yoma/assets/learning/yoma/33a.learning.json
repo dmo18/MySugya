@@ -534,11 +534,7 @@
     "tamid slaughter"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "shechita",
-    "rov simanim (majority of organs)",
-    "tamid slaughter"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "The rov simanim rule is the same for all animals.",
@@ -550,9 +546,9 @@
    ],
    "visualizableElements": [
     {
+     "item": "Bird: one organ majority. Beast: both organs majority.",
      "type": "contrast",
-     "label": "Bird vs beast shechita",
-     "description": "Bird: one organ majority. Beast: both organs majority."
+     "label": "Bird vs beast shechita"
     }
    ],
    "quizSeeds": [
@@ -562,9 +558,14 @@
     }
    ],
    "finalRuling": "Beast shechita requires majority of both organs; bird shechita requires majority of one.",
-   "difficulty": "introductory",
+   "difficulty": "intro",
    "alternateAngles": [],
-   "review": "reviewed"
+   "review": "reviewed",
+   "prerequisiteKnowledge": [
+    "shechita",
+    "rov simanim (majority of organs)",
+    "tamid slaughter"
+   ]
   },
   {
    "sugyaNumber": 2,
@@ -753,13 +754,7 @@
     "biblical derivation"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "tamid service",
-    "menorah (seven lamps)",
-    "inner altar",
-    "ketoret",
-    "wood arrangements (large and small)"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "The Temple morning service had no fixed order.",
@@ -781,14 +776,14 @@
    ],
    "visualizableElements": [
     {
+     "item": "Wood (large) - Wood (incense) - 5 Lamps - Tamid slaughter/blood - Inner altar ash - 2 logs - 2 Lamps - Ketoret - Limbs - Meal-offering - Libation",
      "type": "sequence",
-     "label": "Abaye's morning service order",
-     "description": "Wood (large) - Wood (incense) - 5 Lamps - Tamid slaughter/blood - Inner altar ash - 2 logs - 2 Lamps - Ketoret - Limbs - Meal-offering - Libation"
+     "label": "Abaye's morning service order"
     },
     {
+     "item": "Leviticus's doubled phrase 'in the morning, in the morning' establishes the order of wood arrangement vs lamp ash removal",
      "type": "text",
-     "label": "Doubled 'in the morning' source",
-     "description": "Leviticus's doubled phrase 'in the morning, in the morning' establishes the order of wood arrangement vs lamp ash removal"
+     "label": "Doubled 'in the morning' source"
     }
    ],
    "quizSeeds": [
@@ -804,7 +799,14 @@
    "finalRuling": "Abaye's sequence of the morning Temple service is the definitive ordering, each step with its biblical or logical source.",
    "difficulty": "advanced",
    "alternateAngles": [],
-   "review": "reviewed"
+   "review": "reviewed",
+   "prerequisiteKnowledge": [
+    "tamid service",
+    "menorah (seven lamps)",
+    "inner altar",
+    "ketoret",
+    "wood arrangements (large and small)"
+   ]
   }
  ]
 }

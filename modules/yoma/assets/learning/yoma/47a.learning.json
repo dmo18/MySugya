@@ -80,10 +80,7 @@
     "High Priest"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "incense service laws",
-    "Holy of Holies entry sequence"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "The Mishna's use of the word 'spoon' for the incense vessel is just loose or generic terminology, with no real significance to the Gemara.",
@@ -96,8 +93,8 @@
    ],
    "visualizableElements": [
     {
-     "type": "object",
-     "label": "spoon and coal pan brought to High Priest between vestibule and altar"
+     "item": "spoon and coal pan brought to High Priest between vestibule and altar",
+     "type": "object"
     }
    ],
    "quizSeeds": [
@@ -107,10 +104,14 @@
     }
    ],
    "finalRuling": "A spoon is used to transfer incense powder to the High Priest's cupped hands because dry powder cannot be hand-scooped without spilling.",
-   "difficulty": "introductory",
+   "difficulty": "intro",
    "alternateAngles": [],
    "glossary": [],
-   "review": "reviewed"
+   "review": "reviewed",
+   "prerequisiteKnowledge": [
+    "incense service laws",
+    "Holy of Holies entry sequence"
+   ]
   },
   {
    "sugyaNumber": 2,
@@ -212,11 +213,7 @@
     "dexterity"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "incense service laws",
-    "High Priest training",
-    "kometz laws generally"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "The kometz is called the 'most difficult service' because of the spiritual intensity and emotional weight of the moment, not its physical mechanics.",
@@ -227,8 +224,8 @@
    "relatedSugyot": [],
    "visualizableElements": [
     {
-     "type": "action",
-     "label": "kometz - scooping handfuls with middle fingers while gripping spoon with thumbs"
+     "item": "kometz - scooping handfuls with middle fingers while gripping spoon with thumbs",
+     "type": "action"
     }
    ],
    "quizSeeds": [
@@ -241,7 +238,12 @@
    "difficulty": "intermediate",
    "alternateAngles": [],
    "glossary": [],
-   "review": "reviewed"
+   "review": "reviewed",
+   "prerequisiteKnowledge": [
+    "incense service laws",
+    "High Priest training",
+    "kometz laws generally"
+   ]
   },
   {
    "sugyaNumber": 3,
@@ -319,10 +321,7 @@
     "Holy of Holies"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "Yom Kippur avodah sequence",
-    "Holy of Holies entry mechanics"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "Which hand holds the coal pan versus the incense spoon is an incidental detail with no bearing on what happens next inside the Holy of Holies.",
@@ -333,8 +332,8 @@
    "relatedSugyot": [],
    "visualizableElements": [
     {
-     "type": "action",
-     "label": "right hand: coal pan; left hand: incense ladle"
+     "item": "right hand: coal pan; left hand: incense ladle",
+     "type": "action"
     }
    ],
    "quizSeeds": [
@@ -344,10 +343,14 @@
     }
    ],
    "finalRuling": "Coal pan in right hand; incense ladle in left hand; inside the Holy of Holies the incense is placed on the coals with the right hand.",
-   "difficulty": "introductory",
+   "difficulty": "intro",
    "alternateAngles": [],
    "glossary": [],
-   "review": "reviewed"
+   "review": "reviewed",
+   "prerequisiteKnowledge": [
+    "Yom Kippur avodah sequence",
+    "Holy of Holies entry mechanics"
+   ]
   },
   {
    "sugyaNumber": 4,
@@ -468,10 +471,7 @@
     "Yom Kippur replacement"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "High Priest replacement laws",
-    "tzniut values"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "Kimhit's modesty was simply ordinary, expected practice that any observant woman of the time would have followed.",
@@ -484,12 +484,12 @@
    ],
    "visualizableElements": [
     {
-     "type": "person",
-     "label": "Kimhit - mother of seven High Priests"
+     "item": "Kimhit - mother of seven High Priests",
+     "type": "person"
     },
     {
-     "type": "narrative",
-     "label": "Yom Kippur emergency: Gentile spittle made son impure, brother substituted"
+     "item": "Yom Kippur emergency: Gentile spittle made son impure, brother substituted",
+     "type": "narrative"
     }
    ],
    "quizSeeds": [
@@ -499,10 +499,14 @@
     }
    ],
    "finalRuling": "Kimhit's extraordinary modesty - walls never seeing her hair - merited seven sons as High Priests; when one became impure on Yom Kippur from Gentile spittle, a brother substituted.",
-   "difficulty": "introductory",
+   "difficulty": "intro",
    "alternateAngles": [],
    "glossary": [],
-   "review": "reviewed"
+   "review": "reviewed",
+   "prerequisiteKnowledge": [
+    "High Priest replacement laws",
+    "tzniut values"
+   ]
   },
   {
    "sugyaNumber": 5,
@@ -595,10 +599,7 @@
     "incense"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "kometz laws in meal-offerings",
-    "incense service precision"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "Any amount of incense or flour that roughly fits in the High Priest's hand satisfies the Torah's requirement of 'his handfuls.'",
@@ -609,8 +610,8 @@
    "relatedSugyot": [],
    "visualizableElements": [
     {
-     "type": "action",
-     "label": "exact kometz: three middle fingers, not fist, not fingertips"
+     "item": "exact kometz: three middle fingers, not fist, not fingertips",
+     "type": "action"
     }
    ],
    "quizSeeds": [
@@ -623,7 +624,11 @@
    "difficulty": "intermediate",
    "alternateAngles": [],
    "glossary": [],
-   "review": "reviewed"
+   "review": "reviewed",
+   "prerequisiteKnowledge": [
+    "kometz laws in meal-offerings",
+    "incense service precision"
+   ]
   },
   {
    "sugyaNumber": 6,
@@ -681,10 +686,7 @@
     "Temple service"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "kometz laws",
-    "Temple measurement standards"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "Like other Temple measures, the kometz must be taken using a standardized vessel to ensure a consistent quantity regardless of who performs the rite.",
@@ -695,8 +697,8 @@
    "relatedSugyot": [],
    "visualizableElements": [
     {
-     "type": "object",
-     "label": "human hand as measuring instrument for kometz"
+     "item": "human hand as measuring instrument for kometz",
+     "type": "object"
     }
    ],
    "quizSeeds": [
@@ -709,7 +711,11 @@
    "difficulty": "intermediate",
    "alternateAngles": [],
    "glossary": [],
-   "review": "reviewed"
+   "review": "reviewed",
+   "prerequisiteKnowledge": [
+    "kometz laws",
+    "Temple measurement standards"
+   ]
   }
  ],
  "glossary": [

@@ -311,10 +311,7 @@
     "Azazel"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "Yom Kippur lot",
-    "crimson thread (lashon shel zehorit)"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "The right-hand lot is absolutely required for the ceremony's validity; a left-hand draw invalidates the entire Yom Kippur designation.",
@@ -327,8 +324,8 @@
    ],
    "visualizableElements": [
     {
-     "type": "sequence",
-     "description": "Lot drawn → placed on goat → verbal designation → crimson thread half on goat, half on cliff"
+     "item": "Lot drawn → placed on goat → verbal designation → crimson thread half on goat, half on cliff",
+     "type": "sequence"
     }
    ],
    "quizSeeds": [
@@ -342,7 +339,11 @@
    "difficulty": "intermediate",
    "alternateAngles": [],
    "glossary": [],
-   "review": "reviewed"
+   "review": "reviewed",
+   "prerequisiteKnowledge": [
+    "Yom Kippur lot",
+    "crimson thread (lashon shel zehorit)"
+   ]
   }
  ],
  "glossary": [],

@@ -127,10 +127,7 @@
     "communal encounter"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "Knowing that the Shem haMeforash is not pronounced outside the Temple",
-    "Understanding what full prostration (hishtachavaya) looks like"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "The prohibition against pronouncing the Shem haMeforash was absolute even in the Temple; the HP always used a substitute name for the Divine Name.",
@@ -140,16 +137,16 @@
    "relatedSugyot": [],
    "visualizableElements": [
     {
-     "type": "person",
-     "name": "HP pronouncing the Shem haMeforash"
+     "item": "HP pronouncing the Shem haMeforash",
+     "type": "person"
     },
     {
-     "type": "action",
-     "name": "entire congregation prostrating at each Divine Name"
+     "item": "entire congregation prostrating at each Divine Name",
+     "type": "action"
     },
     {
-     "type": "contrast",
-     "name": "Temple Name pronunciation vs. outside Temple substitute"
+     "item": "Temple Name pronunciation vs. outside Temple substitute",
+     "type": "contrast"
     }
    ],
    "quizSeeds": [
@@ -162,7 +159,11 @@
    "difficulty": "intermediate",
    "alternateAngles": [],
    "glossary": [],
-   "review": "reviewed"
+   "review": "reviewed",
+   "prerequisiteKnowledge": [
+    "Knowing that the Shem haMeforash is not pronounced outside the Temple",
+    "Understanding what full prostration (hishtachavaya) looks like"
+   ]
   },
   {
    "sugyaNumber": 2,
@@ -240,10 +241,7 @@
     "Musaf"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "Knowing the fire pan was left inside from the incense service",
-    "Knowing this is the fourth and final entry to the Holy of Holies"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "The fire pan and spoon could be retrieved later by any kohen once the essential Yom Kippur services were complete.",
@@ -253,12 +251,12 @@
    "relatedSugyot": [],
    "visualizableElements": [
     {
-     "type": "action",
-     "name": "fourth and final entry to Holy of Holies for fire pan retrieval"
+     "item": "fourth and final entry to Holy of Holies for fire pan retrieval",
+     "type": "action"
     },
     {
-     "type": "sequence",
-     "name": "white garments, retrieve pan, change to gold, complete offerings"
+     "item": "white garments, retrieve pan, change to gold, complete offerings",
+     "type": "sequence"
     }
    ],
    "quizSeeds": [
@@ -268,10 +266,14 @@
     }
    ],
    "finalRuling": "The HP's final entry to the Holy of Holies is to retrieve the fire pan left from the incense service; he then changes to golden garments for the closing offerings.",
-   "difficulty": "introductory",
+   "difficulty": "intro",
    "alternateAngles": [],
    "glossary": [],
-   "review": "reviewed"
+   "review": "reviewed",
+   "prerequisiteKnowledge": [
+    "Knowing the fire pan was left inside from the incense service",
+    "Knowing this is the fourth and final entry to the Holy of Holies"
+   ]
   }
  ],
  "glossary": [],

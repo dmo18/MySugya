@@ -170,11 +170,7 @@
     "Yoma.18a.4",
     "Yoma.18a.5"
    ],
-   "requiresUnderstanding": [
-    "The Shewbread distribution system from 17b",
-    "The Yom Kippur goat lottery system",
-    "The KG's seven-day preparation"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "Showing the KG the Yom Kippur goats during the animal parade compromises the randomness of the goat lottery.",
@@ -187,12 +183,12 @@
    ],
    "visualizableElements": [
     {
-     "type": "timeline",
-     "desc": "Tishrei calendar: 3 Tishrei (elders hand off KG) through 9 Tishrei (evening before Yom Kippur) - seven days of preparation"
+     "item": "Tishrei calendar: 3 Tishrei (elders hand off KG) through 9 Tishrei (evening before Yom Kippur) - seven days of preparation",
+     "type": "timeline"
     },
     {
-     "type": "sequence",
-     "desc": "Animal parade sequence: all Yom Kippur sacrifices shown to KG; special focus on the two Yom Kippur goats"
+     "item": "Animal parade sequence: all Yom Kippur sacrifices shown to KG; special focus on the two Yom Kippur goats",
+     "type": "sequence"
     }
    ],
    "quizSeeds": [
@@ -218,7 +214,12 @@
    "review": {
     "content": "ai_generated",
     "sourceRefs": "ai_generated"
-   }
+   },
+   "prerequisiteKnowledge": [
+    "The Shewbread distribution system from 17b",
+    "The Yom Kippur goat lottery system",
+    "The KG's seven-day preparation"
+   ]
   },
   {
    "sugyaNumber": 2,
@@ -404,11 +405,7 @@
     "Yoma.18a.9",
     "Yoma.18a.10"
    ],
-   "requiresUnderstanding": [
-    "Tum'at keri and its consequences for kohanim",
-    "The seven-day KG preparation period",
-    "The Yom Kippur goat lottery system"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "Because Second Temple KG appointments could be bought, the Yom Kippur service performed by an improperly appointed KG was invalid.",
@@ -421,12 +418,12 @@
    ],
    "visualizableElements": [
     {
-     "type": "contrast",
-     "desc": "First Temple (proper selection by Torah standards) vs Second Temple (wealth-based appointments)"
+     "item": "First Temple (proper selection by Torah standards) vs Second Temple (wealth-based appointments)",
+     "type": "contrast"
     },
     {
-     "type": "sequence",
-     "desc": "Elders' preparation routine: morning - read service to KG; afternoon - KG practices; evening - dietary restriction begins"
+     "item": "Elders' preparation routine: morning - read service to KG; afternoon - KG practices; evening - dietary restriction begins",
+     "type": "sequence"
     }
    ],
    "quizSeeds": [
@@ -457,7 +454,12 @@
    "review": {
     "content": "ai_generated",
     "sourceRefs": "ai_generated"
-   }
+   },
+   "prerequisiteKnowledge": [
+    "Tum'at keri and its consequences for kohanim",
+    "The seven-day KG preparation period",
+    "The Yom Kippur goat lottery system"
+   ]
   },
   {
    "sugyaNumber": 3,
@@ -582,11 +584,7 @@
     "Yoma.18a.14",
     "Yoma.18a.15"
    ],
-   "requiresUnderstanding": [
-    "Tum'at keri and its consequences",
-    "The oness principle in halacha",
-    "The KG's dietary restrictions during preparation"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "All seminal emissions during the preparation week are treated the same way under the oness rule.",
@@ -599,8 +597,8 @@
    ],
    "visualizableElements": [
     {
-     "type": "sequence",
-     "desc": "List of five emission-causing foods with their properties: (1) fine flour, (2) eggs, (3) garlic, (4) purslane, (5) arugula. Arugula additionally brightens eyes."
+     "item": "List of five emission-causing foods with their properties: (1) fine flour, (2) eggs, (3) garlic, (4) purslane, (5) arugula. Arugula additionally brightens eyes.",
+     "type": "sequence"
     }
    ],
    "quizSeeds": [
@@ -631,7 +629,12 @@
    "review": {
     "content": "ai_generated",
     "sourceRefs": "ai_generated"
-   }
+   },
+   "prerequisiteKnowledge": [
+    "Tum'at keri and its consequences",
+    "The oness principle in halacha",
+    "The KG's dietary restrictions during preparation"
+   ]
   }
  ],
  "glossary": [

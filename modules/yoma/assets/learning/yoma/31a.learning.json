@@ -385,11 +385,7 @@
     "Temple immersion"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "chatzitza (interposition)",
-    "mikveh rules",
-    "Ben Zoma vs R. Yehuda dispute from 30a-30b"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "The pre-service immersion definitely follows all standard mikveh rules.",
@@ -406,9 +402,9 @@
    ],
    "visualizableElements": [
     {
+     "item": "Chatzitza: if biblical - apply full mikveh rules; if rabbinic - perhaps leniency. Both remain unresolved.",
      "type": "contrast",
-     "label": "Biblical vs rabbinic immersion rules",
-     "description": "Chatzitza: if biblical - apply full mikveh rules; if rabbinic - perhaps leniency. Both remain unresolved."
+     "label": "Biblical vs rabbinic immersion rules"
     }
    ],
    "quizSeeds": [
@@ -420,7 +416,12 @@
    "finalRuling": "Both the chatzitza and partial-entry questions remain unresolved. The underlying dispute (Ben Zoma vs R. Yehuda) controls the analysis but is itself unresolved.",
    "difficulty": "advanced",
    "alternateAngles": [],
-   "review": "reviewed"
+   "review": "reviewed",
+   "prerequisiteKnowledge": [
+    "chatzitza (interposition)",
+    "mikveh rules",
+    "Ben Zoma vs R. Yehuda dispute from 30a-30b"
+   ]
   },
   {
    "sugyaNumber": 2,
@@ -490,11 +491,7 @@
     "linen screen"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "kiddush yadayim veraglayim (sanctification of hands and feet)",
-    "Yom Kippur garment changes",
-    "linen vs golden garments"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "Ten sanctifications means ten immersions.",
@@ -511,14 +508,14 @@
    ],
    "visualizableElements": [
     {
+     "item": "Sanctify - undress - immerse - dress - sanctify. Repeated five times for each of the five garment changes.",
      "type": "sequence",
-     "label": "Five immersion cycle",
-     "description": "Sanctify - undress - immerse - dress - sanctify. Repeated five times for each of the five garment changes."
+     "label": "Five immersion cycle"
     },
     {
+     "item": "Elevated chamber, at least 23 cubits high, with a linen privacy screen for the High Priest",
      "type": "place",
-     "label": "Immersion chamber above Water Gate",
-     "description": "Elevated chamber, at least 23 cubits high, with a linen privacy screen for the High Priest"
+     "label": "Immersion chamber above Water Gate"
     }
    ],
    "quizSeeds": [
@@ -532,9 +529,14 @@
     }
    ],
    "finalRuling": "The High Priest immerses five times and sanctifies ten times on Yom Kippur. The immersion chamber was elevated above the Water Gate.",
-   "difficulty": "introductory",
+   "difficulty": "intro",
    "alternateAngles": [],
-   "review": "reviewed"
+   "review": "reviewed",
+   "prerequisiteKnowledge": [
+    "kiddush yadayim veraglayim (sanctification of hands and feet)",
+    "Yom Kippur garment changes",
+    "linen vs golden garments"
+   ]
   }
  ]
 }

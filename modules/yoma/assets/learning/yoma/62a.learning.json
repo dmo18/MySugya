@@ -58,10 +58,7 @@
     "scapegoat"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "Knowing the slaughtered goat (for God) must be burned outside Jerusalem",
-    "Knowing the Azazel goat is sent away, not burned"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "Only the Yom Kippur goat that actually had its blood brought into the Holy of Holies requires outside burning; replacement goats that died before service have no burning obligation because they performed no service.",
@@ -71,12 +68,12 @@
    "relatedSugyot": [],
    "visualizableElements": [
     {
-     "type": "contrast",
-     "name": "goats that performed service vs. those merely designated"
+     "item": "goats that performed service vs. those merely designated",
+     "type": "contrast"
     },
     {
-     "type": "action",
-     "name": "burning obligation analysis"
+     "item": "burning obligation analysis",
+     "type": "action"
     }
    ],
    "quizSeeds": [
@@ -89,7 +86,11 @@
    "difficulty": "advanced",
    "alternateAngles": [],
    "glossary": [],
-   "review": "reviewed"
+   "review": "reviewed",
+   "prerequisiteKnowledge": [
+    "Knowing the slaughtered goat (for God) must be burned outside Jerusalem",
+    "Knowing the Azazel goat is sent away, not burned"
+   ]
   },
   {
    "sugyaNumber": 2,
@@ -250,10 +251,7 @@
     "dispute"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "Knowing the two goats are a matched pair",
-    "Knowing what happens to the partner when one goat dies or is replaced"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "When one Yom Kippur goat is replaced, the replacement and the surviving original form a completely fresh pair with no inherited obligations from the original pairing.",
@@ -263,12 +261,12 @@
    "relatedSugyot": [],
    "visualizableElements": [
     {
-     "type": "contrast",
-     "name": "Rav Pappi vs. Rav Pappa on burning scope"
+     "item": "Rav Pappi vs. Rav Pappa on burning scope",
+     "type": "contrast"
     },
     {
-     "type": "relationship",
-     "name": "interdependence of the two Yom Kippur goats"
+     "item": "interdependence of the two Yom Kippur goats",
+     "type": "relationship"
     }
    ],
    "quizSeeds": [
@@ -281,7 +279,11 @@
    "difficulty": "advanced",
    "alternateAngles": [],
    "glossary": [],
-   "review": "reviewed"
+   "review": "reviewed",
+   "prerequisiteKnowledge": [
+    "Knowing the two goats are a matched pair",
+    "Knowing what happens to the partner when one goat dies or is replaced"
+   ]
   }
  ],
  "glossary": [],

@@ -125,10 +125,7 @@
     "sacred geography"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "Knowing the prohibition against slaughtering sacrifices outside the Temple",
-    "Knowing the Yom Kippur service zones"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "As long as the HP performed the slaughter with correct procedure and intent, the exact location is a secondary consideration that does not affect the service's validity.",
@@ -138,12 +135,12 @@
    "relatedSugyot": [],
    "visualizableElements": [
     {
-     "type": "place",
-     "name": "Temple courtyard as required slaughtering location"
+     "item": "Temple courtyard as required slaughtering location",
+     "type": "place"
     },
     {
-     "type": "principle",
-     "name": "location as intrinsic to service validity"
+     "item": "location as intrinsic to service validity",
+     "type": "principle"
     }
    ],
    "quizSeeds": [
@@ -156,7 +153,11 @@
    "difficulty": "intermediate",
    "alternateAngles": [],
    "glossary": [],
-   "review": "reviewed"
+   "review": "reviewed",
+   "prerequisiteKnowledge": [
+    "Knowing the prohibition against slaughtering sacrifices outside the Temple",
+    "Knowing the Yom Kippur service zones"
+   ]
   },
   {
    "sugyaNumber": 2,
@@ -316,10 +317,7 @@
     "two-sided requirement"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "Knowing the basic prohibition against slaughtering sacrifices outside the Temple",
-    "Knowing the positive command to bring sacrifices to the Temple"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "The requirement to slaughter in the Temple is a single rule; there is no meaningful distinction between a positive obligation to bring sacrifices and a negative prohibition against offering them elsewhere.",
@@ -329,12 +327,12 @@
    "relatedSugyot": [],
    "visualizableElements": [
     {
-     "type": "contrast",
-     "name": "positive obligation (inside) vs. negative prohibition (outside)"
+     "item": "positive obligation (inside) vs. negative prohibition (outside)",
+     "type": "contrast"
     },
     {
-     "type": "text",
-     "name": "biblical sources for both aspects"
+     "item": "biblical sources for both aspects",
+     "type": "text"
     }
    ],
    "quizSeeds": [
@@ -347,7 +345,11 @@
    "difficulty": "advanced",
    "alternateAngles": [],
    "glossary": [],
-   "review": "reviewed"
+   "review": "reviewed",
+   "prerequisiteKnowledge": [
+    "Knowing the basic prohibition against slaughtering sacrifices outside the Temple",
+    "Knowing the positive command to bring sacrifices to the Temple"
+   ]
   },
   {
    "sugyaNumber": 3,
@@ -425,10 +427,7 @@
     "atonement structure"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "Understanding the different zones of the Temple and their respective services",
-    "Understanding what makes the Yom Kippur service unique in spanning all zones"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "The Temple's division into different zones was primarily organizational to manage space and traffic; the prohibition on services in wrong zones is a procedural rule, not a theological requirement.",
@@ -438,12 +437,12 @@
    "relatedSugyot": [],
    "visualizableElements": [
     {
-     "type": "place",
-     "name": "Temple zones from innermost to outermost"
+     "item": "Temple zones from innermost to outermost",
+     "type": "place"
     },
     {
-     "type": "relationship",
-     "name": "each zone mapped to its specific service"
+     "item": "each zone mapped to its specific service",
+     "type": "relationship"
     }
    ],
    "quizSeeds": [
@@ -456,7 +455,11 @@
    "difficulty": "advanced",
    "alternateAngles": [],
    "glossary": [],
-   "review": "reviewed"
+   "review": "reviewed",
+   "prerequisiteKnowledge": [
+    "Understanding the different zones of the Temple and their respective services",
+    "Understanding what makes the Yom Kippur service unique in spanning all zones"
+   ]
   }
  ],
  "glossary": [],

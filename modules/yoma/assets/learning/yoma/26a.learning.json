@@ -376,10 +376,7 @@
     "transitional passage"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "second lottery",
-    "tamid service"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "This brief passage is the main content of the page.",
@@ -391,9 +388,9 @@
    ],
    "visualizableElements": [
     {
+     "item": "Brief statement connecting lottery discussions across pages",
      "type": "text",
-     "label": "Transitional ruling",
-     "description": "Brief statement connecting lottery discussions across pages"
+     "label": "Transitional ruling"
     }
    ],
    "quizSeeds": [
@@ -403,9 +400,13 @@
     }
    ],
    "finalRuling": "Transitional; connects to the third lottery mishna that follows.",
-   "difficulty": "introductory",
+   "difficulty": "intro",
    "alternateAngles": [],
-   "review": "reviewed"
+   "review": "reviewed",
+   "prerequisiteKnowledge": [
+    "second lottery",
+    "tamid service"
+   ]
   },
   {
    "sugyaNumber": 2,
@@ -517,11 +518,7 @@
     "Temple service reward"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "third lottery",
-    "ketoret offering",
-    "inner altar"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "Any priest could offer the ketoret multiple times if he wanted.",
@@ -538,14 +535,14 @@
    ],
    "visualizableElements": [
     {
+     "item": "A young kohen burning ketoret for the only time in his life, knowing this is his one opportunity",
      "type": "person",
-     "label": "First-time incense priest",
-     "description": "A young kohen burning ketoret for the only time in his life, knowing this is his one opportunity"
+     "label": "First-time incense priest"
     },
     {
+     "item": "The connection between offering the most intimate Temple service and receiving divine blessing",
      "type": "relationship",
-     "label": "Ketoret to wealth",
-     "description": "The connection between offering the most intimate Temple service and receiving divine blessing"
+     "label": "Ketoret to wealth"
     }
    ],
    "quizSeeds": [
@@ -559,9 +556,14 @@
     }
    ],
    "finalRuling": "The ketoret lottery was restricted to first-time participants. The spiritual-material reward framework is established by the Gemara but not codified as law.",
-   "difficulty": "introductory",
+   "difficulty": "intro",
    "alternateAngles": [],
-   "review": "reviewed"
+   "review": "reviewed",
+   "prerequisiteKnowledge": [
+    "third lottery",
+    "ketoret offering",
+    "inner altar"
+   ]
   },
   {
    "sugyaNumber": 3,
@@ -673,11 +675,7 @@
     "priest assignment"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "tamid service",
-    "musaf offering",
-    "Shabbat Temple service"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "A separate lottery was held every afternoon for the afternoon tamid.",
@@ -694,14 +692,14 @@
    ],
    "visualizableElements": [
     {
+     "item": "On weekdays: morning lottery covers afternoon. On Shabbat: new afternoon lottery required due to musaf offerings",
      "type": "contrast",
-     "label": "Weekday vs Shabbat lottery",
-     "description": "On weekdays: morning lottery covers afternoon. On Shabbat: new afternoon lottery required due to musaf offerings"
+     "label": "Weekday vs Shabbat lottery"
     },
     {
+     "item": "Same priests from morning lottery serve through the afternoon tamid on weekdays",
      "type": "timeline",
-     "label": "Morning-to-afternoon service continuity",
-     "description": "Same priests from morning lottery serve through the afternoon tamid on weekdays"
+     "label": "Morning-to-afternoon service continuity"
     }
    ],
    "quizSeeds": [
@@ -717,7 +715,12 @@
    "finalRuling": "No afternoon lottery on weekdays; Shabbat required a fresh afternoon lottery due to the musaf offerings.",
    "difficulty": "intermediate",
    "alternateAngles": [],
-   "review": "reviewed"
+   "review": "reviewed",
+   "prerequisiteKnowledge": [
+    "tamid service",
+    "musaf offering",
+    "Shabbat Temple service"
+   ]
   },
   {
    "sugyaNumber": 4,
@@ -815,11 +818,7 @@
     "lottery count"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "tamid limb service",
-    "lottery system",
-    "altar ramp (kevesh)"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "The fourth lottery was restricted to new priests.",
@@ -836,14 +835,14 @@
    ],
    "visualizableElements": [
     {
+     "item": "R. Eliezer ben Yaakov: carrying and burning = one task; Other tanna: two tasks requiring two lottery slots",
      "type": "contrast",
-     "label": "One task vs two tasks",
-     "description": "R. Eliezer ben Yaakov: carrying and burning = one task; Other tanna: two tasks requiring two lottery slots"
+     "label": "One task vs two tasks"
     },
     {
+     "item": "All priests (new and veteran) eligible for the limb-carrying lottery",
      "type": "person",
-     "label": "Fourth lottery eligibility",
-     "description": "All priests (new and veteran) eligible for the limb-carrying lottery"
+     "label": "Fourth lottery eligibility"
     }
    ],
    "quizSeeds": [
@@ -859,7 +858,12 @@
    "finalRuling": "The fourth lottery was open to all. Whether limb-carrying and burning is one task or two is a tannaitic dispute.",
    "difficulty": "intermediate",
    "alternateAngles": [],
-   "review": "reviewed"
+   "review": "reviewed",
+   "prerequisiteKnowledge": [
+    "tamid limb service",
+    "lottery system",
+    "altar ramp (kevesh)"
+   ]
   }
  ]
 }
