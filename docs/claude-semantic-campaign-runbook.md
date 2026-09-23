@@ -1,4 +1,4 @@
-# Claude semantic repair campaign runbook
+# Semantic repair campaign runbook
 
 This is the autonomous execution contract for repairing and certifying the MySugya learning corpus. Read `docs/semantic-self-heal.md` first, including the "Schema 2.0: mandatory final whole-record audit" section. Do not rely on prior completion reports, legacy `reviewed` fields, or previous conversational context as evidence of semantic correctness.
 

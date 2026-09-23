@@ -2,7 +2,8 @@
 """Semantic self-heal campaign driver.
 
 This is intentionally an orchestration/state tool, not an automated Talmudic
-judge. Claude supplies the semantic judgment. This program supplies the parts
+judge. The assigned semantic reviewer supplies the semantic judgment. This
+program supplies the parts
 that must not depend on memory or trust:
 
 - deterministic corpus ordering
