@@ -190,6 +190,11 @@ rule, ratchet, freshness check, or drift block was weakened; the
 change replaces only the human review step for the routine, fully
 green case.
 
+Queue progress is reconstructed from durable manifest snapshots at merged
+integration states reachable from `origin/main`, including squash results.
+Each daf requires its own matching task-type/module/single-target evidence;
+later worker manifests cannot erase a completed campaign.
+
 ## Bounded work procedure (per daf)
 
 1. The coordinator generates the work packet:

@@ -55,6 +55,12 @@ canonical process document is docs/worker-pipeline-sop.md.
 4. Merge only when green; verify Deploy Cloudways Branch and Deploy
    GitHub Pages for the merge commit; report; stop.
 
+The tracked autopilot queue is immutable audit history. `worker:queue`
+derives each target independently from matching type/module/single-target
+manifest snapshots at integration commits reachable from `origin/main`.
+This covers both merge commits and squash merges, survives later unrelated
+manifests, and never treats the working tree or an unmerged branch as done.
+
 ## Rules carried over from the Rashi workflow (all task types)
 
 - Workers may not override, weaken, or reinterpret any validator.

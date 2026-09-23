@@ -2742,42 +2742,71 @@ def cmd_review(opts):
 QUEUE_PATH = REPO / ".worker-queue.json"
 
 
+def manifest_evidence_from_ref(ref, repo=REPO):
+    """Return manifest snapshots at integration states reachable from ref."""
+    history = sh(["git", "rev-list", "--parents", ref], cwd=repo)
+    first_parent = sh(["git", "rev-list", "--first-parent", ref], cwd=repo)
+    if history.returncode != 0 or first_parent.returncode != 0:
+        return []
+    first_parent_oids = set(first_parent.stdout.splitlines())
+    integration_oids = []
+    for line in history.stdout.splitlines():
+        parts = line.split()
+        if parts and (parts[0] in first_parent_oids or len(parts) > 2):
+            integration_oids.append(parts[0])
+    evidence = []
+    for oid in integration_oids:
+        r = sh(["git", "show", f"{oid}:.worker-manifest.json"], cwd=repo)
+        if r.returncode != 0:
+            continue
+        try:
+            manifest = json.loads(r.stdout)
+        except json.JSONDecodeError:
+            continue
+        if isinstance(manifest, dict):
+            evidence.append(manifest)
+    return evidence
+
+
 def merged_manifest_evidence(override=None):
-    """The last worker manifest MERGED to origin/main: the durable evidence
-    queue progress derives from. Never reads the working tree (an unmerged
-    manifest is not evidence). --evidence FILE overrides for tests."""
+    """Worker manifests recorded at integration states reachable from main.
+
+    Merge-result commits cover historical merge-commit PRs, including old
+    integration topology that is no longer on the current first-parent chain.
+    The current first-parent chain also covers squash and direct commits, whose
+    topic-branch commit ids do not survive. Ordinary topic commits and the
+    working tree are deliberately excluded. --evidence FILE accepts one
+    manifest or a list of manifests for deterministic tests.
+    """
     if override:
         try:
-            return json.loads(Path(override).read_text())
+            value = json.loads(Path(override).read_text())
+            return value if isinstance(value, list) else [value]
         except (OSError, json.JSONDecodeError):
-            return {}
+            return []
     sh(["git", "fetch", "origin", "main"])  # best-effort freshness
-    r = sh(["git", "show", "origin/main:.worker-manifest.json"])
-    if r.returncode != 0:
-        return {}
-    try:
-        return json.loads(r.stdout)
-    except json.JSONDecodeError:
-        return {}
+    return manifest_evidence_from_ref("origin/main")
 
 
 def derive_queue_progress(q, evidence):
     """Pure derivation of (done, remaining) from the immutable queue
-    definition and the merged-manifest evidence. Sequential-by-design: the
-    evidence names the LAST merged target for this queue's type/module;
-    under the enforced one-PR-per-target sequential process, everything at
-    or before that index is complete. A manifest of another type/module, a
-    target outside the queue, or a merely-local (unmerged) manifest never
-    advances anything, so failed or escalated targets can never become
-    done."""
+    definition and merged-manifest history. Each target requires its own exact
+    type/module/single-target evidence; one target never completes another.
+    Foreign, multi-target, out-of-queue, local, or unmerged manifests do not
+    count."""
     targets = q["targets"]
-    if (evidence.get("type") == q["type"]
-            and evidence.get("module") == q["module"]
-            and len(evidence.get("targets", [])) == 1
-            and evidence["targets"][0] in targets):
-        i = targets.index(evidence["targets"][0])
-        return targets[:i + 1], targets[i + 1:]
-    return [], list(targets)
+    manifests = evidence if isinstance(evidence, list) else [evidence]
+    completed = {
+        manifest["targets"][0]
+        for manifest in manifests
+        if isinstance(manifest, dict)
+        and manifest.get("type") == q["type"]
+        and manifest.get("module") == q["module"]
+        and len(manifest.get("targets", [])) == 1
+        and manifest["targets"][0] in targets
+    }
+    return ([target for target in targets if target in completed],
+            [target for target in targets if target not in completed])
 
 
 def cmd_queue(opts):
@@ -2791,11 +2820,11 @@ def cmd_queue(opts):
     completing the final target leaves a clean tree and nothing ever needs
     a direct push to main. Resuming after a container or session recycle
     needs only a fresh clone: derivation is a pure function of the
-    definition and origin/main."""
+    definition and the manifest history reachable from origin/main."""
     qpath = Path(opts.file) if opts.file else QUEUE_PATH
     if opts.advance:
         sys.exit("ERROR: --advance is retired. Queue progress is derived from merged PR "
-                 "evidence (origin/main:.worker-manifest.json); there is no runtime state "
+                 "evidence (manifest history reachable from origin/main); there is no runtime state "
                  "to mutate, no completion commit, and never a direct push to main.")
     if opts.targets:
         if not opts.type:
