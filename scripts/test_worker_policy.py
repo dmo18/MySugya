@@ -1344,6 +1344,23 @@ def test_role_based_policy():
     check("schema-coverage-matrix.md documents the bounded-implementation-worker role",
           "bounded-implementation-worker role" in matrix)
 
+    # Pin the active semantic campaign surfaces to role-based language. These
+    # are positive contract assertions, not a blacklist of provider names.
+    semantic_docs = (REPO / "docs" / "semantic-self-heal.md").read_text()
+    semantic_driver = (REPO / "scripts" / "semantic_self_heal.py").read_text()
+    semantic_runbook = (REPO / "docs" / "claude-semantic-campaign-runbook.md").read_text()
+    check("semantic campaign assigns review judgment by role",
+          "the assigned semantic reviewer supplies the semantic judgment" in
+          semantic_driver.lower())
+    check("semantic campaign execution guidance names an assigned reviewer",
+          "the assigned semantic reviewer groups the next records by daf" in
+          semantic_docs.lower())
+    check("semantic campaign queue guidance names the executor role",
+          "the campaign executor never relies on a stale handwritten to-do list" in
+          semantic_docs.lower())
+    check("semantic campaign runbook has a role-neutral title",
+          semantic_runbook.startswith("# Semantic repair campaign runbook\n"))
+
     # Every generated prompt states role/capability-tier/review-policy, adds
     # the context-independence instruction where the type's review policy
     # requires it, and never carries the retired false claim.

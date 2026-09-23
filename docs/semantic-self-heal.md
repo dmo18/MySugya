@@ -326,7 +326,7 @@ python3 scripts/semantic_self_heal.py --module yoma next
 python3 scripts/validate_semantic_certification.py --module yoma --report
 ```
 
-The first unfinished record receives one of `AUDIT`, `REPAIR`, `INDEPENDENT_REVIEW`, `FINAL_AUDIT`, or `BLOCKED`. In execution, Claude groups the next records by daf and reviews that whole daf before certifying it.
+The first unfinished record receives one of `AUDIT`, `REPAIR`, `INDEPENDENT_REVIEW`, `FINAL_AUDIT`, or `BLOCKED`. In execution, the assigned semantic reviewer groups the next records by daf and reviews that whole daf before certifying it.
 
 A real ambiguity is a stop condition, not permission to guess.
 
@@ -369,7 +369,7 @@ After a repair:
 6. merge only after CI is green
 7. re-read live state and advance to the next daf
 
-The queue is derived again after every merge. Claude never relies on a stale handwritten to-do list.
+The queue is derived again after every merge. The campaign executor never relies on a stale handwritten to-do list.
 
 ## CI enforcement
 
@@ -389,7 +389,7 @@ A `.semantic-repair-manifest.json` change routes the PR through the dedicated ho
 
 The current Yoma enrichment corpus predates this certification system. It is therefore bootstrapped as uncertified rather than grandfathered.
 
-The initial registry records independently reproduced defects, but it does not assume that unlisted records are clean. Claude must work through all 173 daf and all 492 sugyot source-first.
+The initial registry records independently reproduced defects, but it does not assume that unlisted records are clean. The campaign's assigned reviewers must work through all 173 daf and all 492 sugyot source-first.
 
 When all 492 sugyot pass:
 
