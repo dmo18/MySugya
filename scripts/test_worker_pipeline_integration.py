@@ -285,6 +285,50 @@ try:
     r = wp("preflight", "--manifest", ".worker-manifest.json", "--dry-run")
     check("preflight passes for the corpus-wide purge manifest", r.returncode == 0, out(r))
 
+    # enrichment-schema-migration uses the same explicit corpus-wide safety
+    # contract: no --range means the exact descriptor-derived daf set, but
+    # only with both migration authorizations. Explicit ranges remain bound
+    # by the ordinary one-daf maxBatch policy.
+    r = wp("manifest", "--type", "enrichment-schema-migration", "--module", "yoma",
+          "--authorize", "authorizeMigration", "--authorize", "allowStructure",
+          "--migration-kind", "requires-understanding")
+    check("corpus-wide enrichment migration FAILS without its corpus-wide authorization",
+          r.returncode != 0 and "allowCorpusWideMechanicalMigration" in out(r), out(r))
+
+    r = wp("manifest", "--type", "enrichment-schema-migration", "--module", "yoma",
+          "--authorize", "authorizeMigration", "--authorize", "allowStructure",
+          "--authorize", "allowCorpusWideMechanicalMigration",
+          "--migration-kind", "requires-understanding",
+          "--migration-kind", "visualizable-elements",
+          "--migration-kind", "difficulty", "--out", ".worker-manifest.json")
+    check("corpus-wide enrichment migration pins the full descriptor-derived target set",
+          r.returncode == 0, out(r))
+    migration_manifest = json.loads((FIXTURE / ".worker-manifest.json").read_text())
+    check("corpus-wide enrichment migration is explicit and bypasses maxBatch only there",
+          migration_manifest["targets"] == all_daf and migration_manifest["maxBatch"] is None,
+          (len(migration_manifest["targets"]), migration_manifest["maxBatch"]))
+    r = wp("preflight", "--manifest", ".worker-manifest.json", "--dry-run")
+    check("preflight passes for the exact corpus-wide enrichment migration manifest",
+          r.returncode == 0, out(r))
+    migration_manifest["targets"] = migration_manifest["targets"][:1]
+    (FIXTURE / ".worker-manifest.json").write_text(json.dumps(migration_manifest, indent=2) + "\n")
+    r = wp("preflight", "--manifest", ".worker-manifest.json", "--dry-run")
+    check("preflight rejects a corpus-wide enrichment manifest shrunk to one target",
+          r.returncode != 0 and "descriptor-derived full daf set" in out(r), out(r))
+    r = wp("manifest", "--type", "enrichment-schema-migration", "--module", "yoma",
+          "--range", "2a-2b", "--authorize", "authorizeMigration",
+          "--authorize", "allowStructure", "--migration-kind", "difficulty")
+    check("explicit multi-daf enrichment range remains blocked by maxBatch 1",
+          r.returncode != 0 and "exceed maxBatch 1" in out(r), out(r))
+
+    # Restore the purge manifest used by the remainder of this test group.
+    r = wp("manifest", "--type", "legacy-concepts-purge", "--module", "yoma",
+          "--authorize", "allowDeleteRemovedField",
+          "--authorize", "allowCorpusWideMechanicalMigration",
+          "--out", ".worker-manifest.json")
+    check("purge manifest restores after corpus-wide migration contract checks",
+          r.returncode == 0, out(r))
+
     # Apply the REAL purge: delete the concepts key from every sugya, on
     # every daf -- exactly what the deleteOnly contract authorizes.
     deleted = 0

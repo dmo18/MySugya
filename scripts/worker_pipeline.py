@@ -1298,17 +1298,20 @@ def cmd_manifest(opts):
     # never written with a module value that couldn't actually resolve.
     set_active_module(resolve_active_module(opts.module))
     targets = expand_range(opts.range) if opts.range else []
-    if spec["requiresTarget"] and not targets:
+    corpus_wide_mechanical = (
+        opts.type in {"legacy-concepts-purge", "enrichment-schema-migration"}
+        and not opts.range
+    )
+    if spec["requiresTarget"] and not targets and not corpus_wide_mechanical:
         sys.exit(f"ERROR: task type {opts.type!r} requires --range")
 
-    # The corpus-wide legacy-concepts-purge: no --range means "every daf",
-    # but that is never an implicit/empty-target mode. targets are set to
-    # the EXACT descriptor-derived full daf set for the active module (see
-    # all_daf_ids), so the manifest always carries an explicit, inspectable
-    # target list -- never an empty list standing in for "unbounded". A
-    # partial run is always an intentional, explicit --range instead.
-    corpus_wide_purge = opts.type == "legacy-concepts-purge" and not opts.range
-    if corpus_wide_purge:
+    # Corpus-wide mechanical work: no --range means "every daf", but that is
+    # never an implicit/empty-target mode. targets are set to the EXACT
+    # descriptor-derived full daf set for the active module (see all_daf_ids),
+    # so the manifest always carries an explicit, inspectable target list -
+    # never an empty list standing in for "unbounded". A partial run is
+    # always an intentional, explicit --range instead.
+    if corpus_wide_mechanical:
         targets = all_daf_ids()
 
     auths = opts.authorize or []
@@ -1317,16 +1320,16 @@ def cmd_manifest(opts):
         if a not in legal:
             sys.exit(f"ERROR: authorization {a!r} is not defined for type {opts.type!r} "
                      f"(legal: {sorted(legal) or 'none'})")
-    if corpus_wide_purge and "allowCorpusWideMechanicalMigration" not in auths:
-        sys.exit("ERROR: a corpus-wide legacy-concepts-purge (no --range) additionally "
+    if corpus_wide_mechanical and "allowCorpusWideMechanicalMigration" not in auths:
+        sys.exit(f"ERROR: a corpus-wide {opts.type} (no --range) additionally "
                  "requires --authorize allowCorpusWideMechanicalMigration, naming the full "
                  f"{len(targets)}-daf descriptor-derived target set explicitly; pass --range "
-                 "for an intentional partial/per-daf purge instead")
+                 "for an intentional per-daf run instead")
 
-    max_batch = spec.get("maxBatch")
+    max_batch = None if corpus_wide_mechanical else spec.get("maxBatch")
     # maxBatch is None ONLY for task types that substitute their own
-    # explicit, independently-verified corpus-wide policy (today: only
-    # legacy-concepts-purge's corpus_wide_purge path, gated above by
+    # explicit, independently-verified corpus-wide policy (today: the
+    # legacy-concepts-purge and enrichment-schema-migration paths, gated by
     # allowCorpusWideMechanicalMigration and pinned to the exact
     # descriptor-derived daf set) -- never a silent "0 means unlimited"
     # truthiness accident. Every other max_batch value, including 0, is
@@ -1497,6 +1500,19 @@ def cmd_preflight(opts):
         if req not in m.get("authorizations", []):
             errors.append(f"task type {m['type']!r} requires the explicit --authorize {req} "
                           f"authorization on the manifest (operator-issued only)")
+
+    corpus_wide_mechanical = (
+        m["type"] in {"legacy-concepts-purge", "enrichment-schema-migration"}
+        and (m.get("maxBatch") is None or len(m.get("targets", [])) > 1)
+    )
+    if corpus_wide_mechanical:
+        if "allowCorpusWideMechanicalMigration" not in m.get("authorizations", []):
+            errors.append("corpus-wide mechanical manifest requires the explicit "
+                          "allowCorpusWideMechanicalMigration authorization")
+        expected_targets = all_daf_ids()
+        if m.get("targets") != expected_targets:
+            errors.append("corpus-wide mechanical manifest targets must exactly equal the "
+                          "descriptor-derived full daf set in canonical order")
 
     if m["type"] == AUDIT_RECORD_TASK_TYPE:
         ok, audit_errs = validate_audit_record_ids(m.get("auditRecordIds", []), m.get("targets", []))
