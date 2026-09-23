@@ -1,7 +1,7 @@
 {
  "daf": "8b",
  "canonicalRef": "Yoma 8b",
- "summary": "8b has two sections. First, it completes the baraita distinguishing the YK kohein gadol (separation for holiness, other priests may touch him) from the para priest (separation for purity, other priests must not touch him). R. Yosei b'R. Chanina challenges: if the YK kohein gadol is only required to be sprinkled on day 3 and day 7, why is he sprinkled on day 4 at all - day 4 cannot be day 3 or day 7 of any tumah! The Gemara answers: sprinkling is a shvut (Rabbinic, not overriding Shabbat), so we actually sprinkle on '7 minus Shabbat.' Rava resolves: the YK kohein gadol's separation date depends on the calendar (3 Tishrei each year, regardless); the para priest's date is chosen by us (we schedule it so the 4th day of his separation falls on Shabbat, preventing his hazaah then and keeping him to minimum required sprinklings). Second, the Mishnah's 'Lishkat Parhedrin' (Chamber of Persian Governors) is explained: R. Yehuda says it was originally called 'Lishkat Balvati' (Chamber of Nobles); it was renamed 'Parhedrin' because the corrupt Second Temple High Priests changed yearly like Persian governors who serve 12-month terms. A tangential discussion about bakers (nachtomin) and their exemption from separating maaser sheni is introduced.",
+ "summary": "8b covers three units. First, it completes the baraita distinguishing the YK kohein gadol (separation for holiness, other priests may touch him) from the para priest (separation for purity, other priests must not touch him). R. Yosei b'R. Chanina challenges the Mishnah's day-4 sprinkling: day 4 can never be a useful day-3 sprinkling (no new tumah can arise once separation has begun), and even though day 4 can chronologically coincide with day 7 of an earlier tumah, that sprinkling would be void, because the matching day-3 sprinkling would have fallen before separation began and was never performed - a seventh-day sprinkling without a third accomplishes nothing. So day-4 sprinkling is never substantively needed on a weekday, though it is still performed because the schedule runs all seven days except Shabbat, when hazaah is rabbinically prohibited as a shvut. Rava resolves why this matters differently for the two priests: the YK kohein gadol's separation date depends on the calendar (3 Tishrei each year, regardless of weekday); the para priest's date is chosen by us, so we schedule it so his never-needed 4th day falls on Shabbat and is automatically skipped. Second, the Mishnah's 'Lishkat Parhedrin' (Chamber of Persian Governors) is explained: R. Yehuda says it was originally called 'Lishkat Balvati' (Chamber of Nobles); each incoming Second Temple High Priest, having purchased the office and whose corrupt occupants commonly did not survive the year, demolished and rebuilt the chamber more beautifully so it bore his own name, and it came to be called 'Parhedrin' because it changed every year like the annually-replaced Persian parhedrin. Third, a baraita rules that bakers who are chaverim give only terumat maaser and challah to a kohen from dema'i grain; per Rashi, they still separate (but do not give) maaser rishon and maaser ani, and their own unique leniency is that they need not separate or redeem maaser sheni, since they sell continuously. The Gemara's own tier-by-tier justification for this rule, beginning with terumah gedolah, is cut off after the single word 'because' at the daf's physical boundary and continues on 9a.",
  "review": {
   "learning": "ai_generated",
   "concepts": "ai_generated",
@@ -47,14 +47,14 @@
    ],
    "display": {
     "title": "YK kohein gadol vs. para priest separation; Rava's calendar solution",
-    "oneLine": "The baraita's distinction between the two priests is analyzed, R. Yosei b'R. Chanina objects that day 4 is impossible for any tumah-day, and Rava solves the problem by showing that the para priest's separation date is within our control - so we schedule it to avoid the impossible day.",
-    "shortSummary": "The baraita says the ONLY difference between the para priest and the YK kohein gadol is: the para priest's separation is for purity (other priests may not touch him); the YK kohein gadol's separation is for holiness (other priests may touch him). R. Yosei b'R. Chanina challenges: if the YK kohein gadol is sprinkled only on day 3 and day 7, why does the Mishnah say he is sprinkled for the whole 7 days? Day 4 cannot be day 3 or day 7 of any prior tumah - so sprinkling on day 4 is unnecessary. The Gemara counters: 'all 7 days' minus Shabbat (since hazaah is a shvut that does not override Shabbat). But day 4 still seems unnecessary. Rava's solution: the YK kohein gadol's separation is fixed by calendar - he must be separated on 3 Tishrei every year regardless. Sometimes his 4th day of separation falls on Shabbat - that day is skipped. But the para priest's separation date is chosen by us. We schedule the para priest's separation so that his 4th day (the impossible day) falls on Shabbat - and he also skips that day. Result: para priest is also sprinkled only on the relevant days (3, 5, 6, 7, etc.), never on day 4.",
+    "oneLine": "The baraita's distinction between the two priests is analyzed; R. Yosei b'R. Chanina objects that day-4 sprinkling is never substantively needed (it can never serve as day 3, and even a chronological day-7 coincidence would be void without a prior day-3 sprinkling), and Rava explains why this matters only for the para priest, since only his separation date is within our control, letting us schedule his day 4 onto Shabbat.",
+    "shortSummary": "The baraita says the ONLY difference between the para priest and the YK kohein gadol is: the para priest's separation is for purity (other priests may not touch him); the YK kohein gadol's separation is for holiness (other priests may touch him). R. Yosei b'R. Chanina challenges: if the YK kohein gadol is sprinkled only on a genuine day 3 and day 7, why does the Mishnah schedule sprinkling on day 4 at all? Day 4 can never be a useful day-3 sprinkling, since no new tumah can arise once separation has begun; and even though day 4 can chronologically coincide with day 7 of an earlier tumah (if that tumah began before separation), such a sprinkling would be void, because the matching day-3 sprinkling would have fallen before separation started and was never performed - a seventh-day sprinkling without a third accomplishes nothing. So day-4 sprinkling is never substantively needed. The Gemara answers that the schedule is nonetheless 'all 7 days' minus Shabbat, since hazaah is a shvut and is rabbinically prohibited on Shabbat; on a weekday, day 4 is still sprinkled even though it accomplishes nothing. Rava's solution explains why only the para priest can avoid this: the YK kohein gadol's separation is fixed by calendar - he must be separated on 3 Tishrei every year regardless, and his 4th day only sometimes falls on Shabbat. But the para priest's separation date is chosen by us. We schedule the para priest's separation so that his 4th day - the day that would otherwise be sprinkled needlessly - always falls on Shabbat, when hazaah cannot be performed at all.",
     "whats": "Rava's solution hinges on a crucial distinction: things that are in our control (biddayn talya milta) vs. things determined by external factors (calendar, calendar-fixed rituals). The para priest's separation is in our hands, so we plan it to be efficient. The YK kohein gadol's separation is calendar-fixed - we accept whatever happens.",
-    "hint": "Why is day 4 of the YK kohein gadol's separation sometimes sprinkled even though it can never be a genuine day-3 or day-7 of a prior tumah - and why can the para priest avoid this entirely?"
+    "hint": "Why is day 4 of the YK kohein gadol's separation still sprinkled even though it can never be a useful day-3 sprinkling, and even a chronological day-7 coincidence on day 4 would be void without a prior day-3 sprinkling - and why can the para priest avoid this entirely?"
    },
    "learning": {
     "learnerQuestion": "What makes Rava's solution work? Why can we schedule the para priest but not the YK kohein gadol?",
-    "coreTension": "Both the YK kohein gadol and the para priest face the same theoretical problem: why is sprinkling needed on day 4 (which cannot possibly be day 3 or day 7 of any tumah)? The answer must differentiate them. Rava sees the key: the para priest's start date is our choice; the YK kohein gadol's is fixed by calendar (3 Tishrei). We choose the para priest's start so his day 4 is Shabbat, when hazaah is forbidden. The YK kohein gadol's day 4 cannot always be avoided.",
+    "coreTension": "Both the YK kohein gadol and the para priest face the same underlying problem: day-4 sprinkling is never substantively needed - it can never serve as a useful day-3 sprinkling, and even when it happens to coincide chronologically with day 7 of an earlier tumah, that sprinkling is void because the matching day-3 sprinkling would have fallen before separation began and was missed. Yet the schedule still calls for sprinkling on every weekday, including day 4. The answer must differentiate the two priests. Rava sees the key: the para priest's start date is our choice; the YK kohein gadol's is fixed by calendar (3 Tishrei). We choose the para priest's start so his day 4 is Shabbat, when hazaah is rabbinically prohibited as a shvut. The YK kohein gadol's day 4 cannot always be steered onto Shabbat.",
     "coreMove": "The principle 'biddayn talya milta' (the matter depends on us) vs. 'b'kevi'a d'yar'cha talya milta' (the matter depends on the calendar) distinguishes the two cases. This is a scheduling solution, not a halachic change.",
     "resolution": "Rava's ruling: separate the YK kohein gadol on 3 Tishrei each year (no matter what day of the week it falls on). Separate the para priest on the fourth day of the week - so that his 4th day falls on Shabbat, the hazaah-free day.",
     "takeaway": {
@@ -66,8 +66,8 @@
      "category": "practical",
      "notes": "A recurring Talmudic move: distinguish cases where humans control the timing (and can optimize) from cases where the calendar is fixed (and we must accept what comes). The para priest vs. YK kohein gadol distinction is a clean example."
     },
-    "ahaMoment": "Hazaah is a shvut - it cannot override Shabbat. This seemingly minor technical detail is what allows Rava to solve the problem: the one day we can never sprinkle (Shabbat) is the one day we should schedule the para priest's 'impossible day' to fall on.",
-    "learningBlocker": "Students may think Rava is saying 'we never sprinkle on day 4.' He is not - for the YK kohein gadol, day 4 is sprinkled (it may be needed in some years when his start date and day 4 don't land on Shabbat). For the para priest, we engineer it so day 4 is Shabbat. These are different rules.",
+    "ahaMoment": "Hazaah is a shvut and is rabbinically prohibited on Shabbat. This seemingly minor technical detail is what allows Rava to solve the problem: the one day sprinkling can never happen (Shabbat) is the one day we should schedule the para priest's never-needed day 4 to fall on.",
+    "learningBlocker": "Students may think Rava is saying 'we never sprinkle on day 4.' He is not - for the YK kohein gadol, day 4 is still sprinkled on ordinary weekdays as part of the standard 'all seven days except Shabbat' schedule, even though it never accomplishes anything; only when his day 4 happens to fall on Shabbat is it skipped, and that depends on the calendar. For the para priest, we engineer it so day 4 always is Shabbat. These are different rules: one priest sometimes performs a pointless sprinkling, the other never does.",
     "memoryAnchor": "YK kohein gadol: calendar-fixed (3 Tishrei), accept whatever comes. Para priest: we choose (separate on 4th day of week so day 4 lands on Shabbat and is automatically skipped). Shvut saves the day - literally."
    },
    "argumentFlow": [
@@ -106,7 +106,7 @@
      "type": "challenge",
      "label": "R. Yosei b'R. Chanina: day 4 sprinkling is impossible for the YK kohein gadol",
      "speaker": "R. Yosei b'R. Chanina",
-     "text": "Granted, the Mishnah says the kohein gadol is sprinkled on days 1, 2, 3, 5, 6, 7 (to cover possible day-3 or day-7 of prior tumah). But why sprinkle on day 4 at all? Day 4 cannot be day 3 of any prior tumah (he has been separated for 4 days) and cannot be day 7 either. So why does the Mishnah imply day 4 is sprinkled?",
+     "text": "Granted, the Mishnah says the kohein gadol is sprinkled on days 1, 2, 3, 5, 6, 7 (to cover a possible day-3 or day-7 of a prior tumah). But why sprinkle on day 4 at all? Day 4 can never be a useful day-3 sprinkling, since he has not become impure since separating. And even though day 4 could chronologically coincide with day 7 of an earlier tumah (if that tumah began before his separation), such a sprinkling accomplishes nothing: the matching day-3 sprinkling would have fallen before he was separated and was never performed, and a seventh-day sprinkling without a third is void. So why does the Mishnah schedule sprinkling on day 4 at all?",
      "sourceRefs": [
       {
        "sourceType": "gemara",
@@ -121,7 +121,7 @@
      "type": "answer",
      "label": "Hazaah is a shvut - it does not override Shabbat - so 'all 7' means 7 minus Shabbat",
      "speaker": "Gemara",
-     "text": "Hazaah is a Rabbinic prohibition on Shabbat (shvut) - it cannot be performed on Shabbat. So when the Mishnah says 'all seven days,' it means 'seven minus any Shabbat that falls among them.' If Shabbat falls on day 4, day 4 is automatically skipped.",
+     "text": "Hazaah is a Rabbinic prohibition on Shabbat (shvut) - it cannot be performed on Shabbat. So when the Mishnah says 'all seven days,' it means 'seven minus any Shabbat that falls among them.' On an ordinary weekday, day 4 is still sprinkled as part of this schedule even though, as just shown, it never accomplishes anything; only when day 4 happens to fall on Shabbat is it skipped.",
      "sourceRefs": [
       {
        "sourceType": "gemara",
@@ -136,7 +136,7 @@
      "type": "resolution",
      "label": "Rava: YK kohein gadol and para priest differ in scheduling control",
      "speaker": "Rava",
-     "text": "Therefore: the YK kohein gadol's separation depends on the calendar (he must be separated on 3 Tishrei, whatever day of the week that is). Whenever 3 Tishrei comes, we separate him - and accept that sometimes his day 4 falls on Shabbat (skipped) and sometimes it does not. The para priest's separation depends on us. We separate him on the 4th day of the week, so that his 4th day of separation falls on Shabbat - and the impossible day is automatically omitted.",
+     "text": "Therefore: the YK kohein gadol's separation depends on the calendar (he must be separated on 3 Tishrei, whatever day of the week that is). Whenever 3 Tishrei comes, we separate him - and accept that sometimes his day 4 falls on Shabbat (skipped) and sometimes it does not, in which case he is sprinkled needlessly. The para priest's separation depends on us. We separate him on the 4th day of the week, so that his 4th day of separation always falls on Shabbat - and the never-needed sprinkling is automatically omitted.",
      "sourceRefs": [
       {
        "sourceType": "gemara",
@@ -176,8 +176,8 @@
    ],
    "quizSeeds": [
     {
-     "question": "Why is day 4 of the separation 'impossible' for the purpose of hazaah?",
-     "answer": "Day 4 cannot be day 3 of any prior tumah (the priest has already been separated 4 days, so his last possible tumah was before day 1, making day 3 of that tumah = day 3 of separation, not day 4). It also cannot be day 7 (day 7 of tumah would be day 7 of separation, not day 4)."
+     "question": "Why is day-4 sprinkling never substantively needed for the YK kohein gadol?",
+     "answer": "It can never be a useful day-3 sprinkling, because no new tumah can have arisen since he separated. It can chronologically coincide with day 7 of an earlier tumah only if that tumah began before his separation - but then the matching day-3 sprinkling would have fallen before he was separated and was never done, and a seventh-day sprinkling without a third accomplishes nothing."
     },
     {
      "question": "What is Rava's solution to the day-4 problem for the para priest?",
@@ -192,6 +192,10 @@
     {
      "misconception": "Rava says the para priest is never sprinkled on day 4.",
      "correction": "Rava says we schedule the para priest's separation so day 4 falls on Shabbat, when hazaah is forbidden as a shvut. Day 4 is not skipped by ruling but by Shabbat coincidence engineered through scheduling."
+    },
+    {
+     "misconception": "Day 4 can never coincide with day 7 of a prior tumah.",
+     "correction": "Day 4 of separation can chronologically be day 7 of an earlier tumah, if that tumah began before separation started. But such a sprinkling is void, because the required day-3 sprinkling would have fallen before separation began and was never performed - a seventh without a third accomplishes nothing."
     }
    ],
    "relatedSugyot": [
@@ -244,29 +248,29 @@
     "Yoma.8b.7"
    ],
    "display": {
-    "title": "Lishkat Parhedrin: from nobles' chamber to rotating governors; bakers and tithes",
-    "oneLine": "The Mishnah's term 'Lishkat Parhedrin' is explained as a renamed version of 'Lishkat Balvati' (nobles' chamber), reflecting Second Temple corruption where the High Priesthood was sold and replaced annually; a tangential discussion about bakers' tithe obligations follows.",
-    "shortSummary": "A baraita: R. Yehuda asks, was this really a 'Lishkat Parhedrin' (chamber of Persian governors)? It was actually 'Lishkat Balvati' (chamber of nobles/senators). The explanation: in the early Second Temple period, during the era of Shimon HaTzaddik, it was called Lishkat Balvati. Later, when the High Priesthood was sold for money and the High Priest was replaced every 12 months (like Persian parhedrin who rotate annually), the room was renamed to reflect this corruption. The Gemara then turns to a separate topic: a baraita about bakers' tithe obligations on dema'i grain, taken up in the next sugya.",
-    "whats": "The Lishkat Parhedrin section is an aggadic/historical aside: the room's name encodes the tragedy of Second Temple corruption. The rotating-governors metaphor is biting - the High Priesthood became a political appointment with a one-year term. The Gemara then shifts to an unrelated halachic topic (bakers' tithe obligations), taken up in the next sugya and continuing into 9a.",
+    "title": "Lishkat Parhedrin: from nobles' chamber to rotating governors",
+    "oneLine": "The Mishnah's term 'Lishkat Parhedrin' is explained as a renamed version of 'Lishkat Balvati' (nobles' chamber): each incoming Second Temple High Priest, having purchased the office and commonly not surviving the year, demolished and rebuilt the chamber more beautifully so it bore his own name, giving it a new name every year like the annually-replaced Persian parhedrin.",
+    "shortSummary": "A baraita: R. Yehuda asks, was this really a 'Lishkat Parhedrin' (chamber of Persian governors)? It was actually 'Lishkat Balvati' (chamber of nobles/senators). The explanation: in the early Second Temple period, during the era of Shimon HaTzaddik, it was called Lishkat Balvati. Later, the High Priesthood was purchased for money, and its corrupt occupants commonly did not survive the year; each newly appointed High Priest would demolish the chamber and rebuild it more beautifully so that it bore his own name, and it came to be renamed Lishkat Parhedrin because it changed every year like the Persian parhedrin, royal officers who served rotating one-year terms.",
+    "whats": "The Lishkat Parhedrin section is a historical aside grounded in Rashi: the room's name changed because the office itself changed hands constantly. The High Priesthood was purchased, its holders were often corrupt and commonly did not last out the year, and each new appointee demolished and rebuilt the chamber more beautifully to bear his own name - so the physical chamber, not just its label, changed annually, inviting the comparison to Persian parhedrin who rotated out every year.",
     "hint": "Why did this chamber come to be called 'Lishkat Parhedrin' - was that name meant as an honor, or as a criticism?"
    },
    "learning": {
     "learnerQuestion": "Why is the room called Parhedrin? Is this supposed to be flattering to the High Priest?",
-    "coreTension": "The original name 'Balvati' implied noble, permanent occupants. 'Parhedrin' implies rotating annual appointments - like Persian bureaucrats who never stay long enough to build anything. The name change is not neutral: it is a running critique embedded in the Temple's architecture.",
-    "coreMove": "R. Yehuda's question ('was it really called Parhedrin?') invites the honest answer: no, it was called that by the people as dark humor/social commentary on the corrupt practice of selling and rotating the High Priesthood.",
-    "resolution": "The room's naming history is resolved: it was originally Lishkat Balvati, renamed Lishkat Parhedrin because of the corrupt sale and annual rotation of the High Priesthood. The Gemara then moves to a separate topic (bakers' tithes) in the next sugya.",
+    "coreTension": "The original name 'Balvati' implied noble, established occupants. 'Parhedrin' implies rotating annual appointments - like Persian governors who never held the post for more than a year. But Rashi does not say the annual appointees built nothing: each newly appointed High Priest, having purchased the corrupt office, demolished the existing chamber and rebuilt it more beautifully so that it bore his own name - so it was renamed and rebuilt every single year. The moral critique is not that no one built the chamber; it is that the office was for sale, its holders were often corrupt and commonly did not survive the year, and its yearly turnover matched the yearly turnover of Persian parhedrin.",
+    "coreMove": "R. Yehuda's question ('was it really called Parhedrin?') sets up the baraita's historical explanation: the chamber's name and its physical building both changed because the office itself was purchased, its occupants were often corrupt and commonly did not last the year, and each new appointee rebuilt the chamber to bear his own name - a yearly turnover that Chazal compared to the annually-replaced royal parhedrin.",
+    "resolution": "The room's naming history is resolved: it was originally Lishkat Balvati, in the era of Shimon HaTzaddik. It became Lishkat Parhedrin once the High Priesthood was purchased and its corrupt occupants commonly did not survive the year: each newly appointed High Priest demolished the chamber and rebuilt it more beautifully to bear his own name, so both the building and its name changed every year - matching the yearly turnover of Persian parhedrin.",
     "takeaway": {
      "type": "conceptual",
-     "text": "Temple institutions are not just halachic constructs - they encode historical memory. The name 'Parhedrin' preserved in the Mishnah is itself a form of mourning for what the High Priesthood became in the late Second Temple period."
+     "text": "Temple institutions are not just halachic constructs - they encode historical memory. The name 'Parhedrin' preserved in the Mishnah records a real historical fact: the office was purchased, its corrupt occupants commonly did not survive the year, and the chamber itself was rebuilt and renamed with each new appointee."
     },
     "reasoningPattern": {
      "id": "name-as-historical-commentary",
      "category": "aggadic",
      "notes": "Talmudic discussions of place names often double as historical or ethical commentary. 'Balvati' (honored/permanent) vs. 'Parhedrin' (rotating/corrupt) is a case where etymology encodes judgment."
     },
-    "ahaMoment": "The same physical room had two names across history: one reflecting its proper purpose (housing the honored High Priest), one reflecting its degraded reality (housing a politically-appointed annual replacement). The Mishnah preserved both.",
-    "learningBlocker": "Students may miss that R. Yehuda is not disputing whether the room existed but what it should have been called. His question is rhetorical - he knows the name changed and is leading to the explanation.",
-    "memoryAnchor": "Lishkat Balvati (noble senators) -> renamed Parhedrin (annual rotating governors) when the High Priesthood was sold for money and changed every 12 months. Embedded in the Mishnah's language is Second Temple history's tragedy."
+    "ahaMoment": "The chamber was not merely relabeled - it was physically rebuilt every year. Each incoming High Priest demolished the previous structure and built a finer one bearing his own name, so the annual name change reflects an annual physical rebuilding, not just a shift in nickname.",
+    "learningBlocker": "Students may miss that R. Yehuda is not disputing whether the room existed but what it should have been called. His question is rhetorical - he knows the name changed and is leading to the explanation. Students may also wrongly assume the name changed while the physical chamber stayed the same; Rashi says each new appointee demolished and rebuilt the chamber itself to bear his own name, so the annual turnover involved actual reconstruction, not just relabeling.",
+    "memoryAnchor": "Lishkat Balvati (noble/permanent, era of Shimon HaTzaddik) -> renamed and rebuilt as Lishkat Parhedrin: the High Priesthood was purchased, corrupt occupants commonly did not survive the year, and each new appointee demolished and rebuilt the chamber to bear his own name - both name and building changed every 12 months, like the Persian parhedrin."
    },
    "argumentFlow": [
     {
@@ -289,7 +293,7 @@
      "type": "explanation",
      "label": "Historical explanation: renamed due to corruption",
      "speaker": "Baraita",
-     "text": "Originally it was called Lishkat Balvati during the era of Shimon HaTzaddik. But when the Second Temple High Priests began paying for the position and were replaced every 12 months (like the Persian parhedrin who rotate annually), the room was sardonically renamed Lishkat Parhedrin.",
+     "text": "Originally it was called Lishkat Balvati during the era of Shimon HaTzaddik. But once the Second Temple High Priesthood was purchased for money and its corrupt occupants commonly did not survive the year, each newly appointed High Priest demolished the chamber and rebuilt it more beautifully so that it bore his own name - and so, changing every 12 months like the Persian parhedrin, the room came to be called Lishkat Parhedrin.",
      "sourceRefs": [
       {
        "sourceType": "gemara",
@@ -314,7 +318,7 @@
    ],
    "visualizableElements": [
     {
-     "item": "Balvati vs. Parhedrin era: the Shimon HaTzaddik era (Lishkat Balvati, stable High Priesthood, long terms) contrasted with the later Second Temple era (Lishkat Parhedrin, annual replacements, purchased office). The same room, two histories.",
+     "item": "Balvati vs. Parhedrin era: the Shimon HaTzaddik era (Lishkat Balvati, stable High Priesthood, long terms) contrasted with the later Second Temple era (Lishkat Parhedrin: the office purchased, occupants often corrupt and short-lived, and the chamber itself demolished and rebuilt by each new appointee).",
      "type": "contrast",
      "label": "Balvati vs. Parhedrin era"
     },
@@ -327,17 +331,25 @@
    "quizSeeds": [
     {
      "question": "Why was the chamber originally called 'Lishkat Balvati' and what did the name 'Parhedrin' imply?",
-     "answer": "'Balvati' means nobles/senators - a dignified permanent title. 'Parhedrin' refers to Persian governors who rotate annually. The name changed to reflect that Second Temple High Priests were sold the office and replaced every 12 months like rotating bureaucrats."
+     "answer": "'Balvati' means nobles/senators - a dignified, established title. 'Parhedrin' refers to Persian governors who rotated out after a year. The name changed because Second Temple High Priests purchased the office, its corrupt occupants commonly did not survive the year, and each newly appointed priest demolished and rebuilt the chamber more beautifully to bear his own name - so both the chamber and its name changed every 12 months, like rotating parhedrin."
     },
     {
      "question": "During whose era was the room called Lishkat Balvati?",
      "answer": "During the era of Shimon HaTzaddik, when the High Priesthood was still held with integrity and the High Priest served for many years."
+    },
+    {
+     "question": "Did the annual High Priests who gave the chamber its 'Parhedrin' name actually build anything there?",
+     "answer": "Yes - each newly appointed High Priest demolished the existing chamber and rebuilt it more beautifully so that it would bear his own name. The annual turnover was a literal annual rebuilding, not mere neglect or relabeling."
     }
    ],
    "misconceptions": [
     {
      "misconception": "'Parhedrin' is an honorary title recognizing the High Priest's importance.",
      "correction": "'Parhedrin' is a critical term - it compares the corrupt Second Temple High Priests to Persian bureaucrats who rotate out every year. The name is embedded social criticism."
+    },
+    {
+     "misconception": "The annual renaming was just a change of label; the corrupt appointees didn't actually build anything.",
+     "correction": "Rashi says the opposite: each newly appointed High Priest demolished the existing chamber and rebuilt it more beautifully so it would bear his own name. The chamber itself, not merely its name, changed every year."
     }
    ],
    "relatedSugyot": [
@@ -394,16 +406,16 @@
    ],
    "display": {
     "title": "Bakers and dema'i tithes: the baraita's rule, and a justification cut short",
-    "oneLine": "A baraita rules that bakers (chaverim who buy grain from amei ha'aretz) need only separate terumat maaser and challah from dema'i grain; the Gemara begins to justify the terumah gedolah part of this rule but the citation is cut off after one word, continuing on 9a.",
-    "shortSummary": "A baraita states: the Sages did not obligate bakers to separate tithes from dema'i grain, except terumat maaser and challah. Per Rashi, these are bakers who are themselves chaverim (trustworthy, tithe-observant) but buy their grain from amei ha'aretz to sell in the market; because they sell continuously, at every hour, they were given leniency specifically regarding bringing or redeeming maaser sheni (the second tithe) in Jerusalem. The Gemara then begins to justify the rule tier by tier, starting with terumah gedolah: 'Granted, terumah gedolah [is not a concern here], as it was taught: because...' - but the citation is cut off after this single word, with Rashi noting that the explanation is completed on 9a.",
+    "oneLine": "A baraita rules that bakers (chaverim who buy grain from amei ha'aretz) give only terumat maaser and challah to a kohen from dema'i grain; per Rashi they still separate, but do not give, maaser rishon and maaser ani, and their own unique leniency is that they need not separate or redeem maaser sheni. The Gemara begins to justify the terumah gedolah part of the rule but the citation is cut off after one word, continuing on 9a.",
+    "shortSummary": "A baraita states: the Sages did not obligate bakers to give tithes from dema'i grain, except terumat maaser and challah, which they give to a kohen. Per Rashi, these are bakers who are themselves chaverim (trustworthy, tithe-observant) but buy their grain from amei ha'aretz to sell in the market; they still separate maaser rishon and maaser ani (though these are not given), and because they sell continuously, at every hour, they were given leniency specifically regarding separating maaser sheni, bringing it to Jerusalem, or redeeming it. The Gemara then begins to justify the rule tier by tier, starting with terumah gedolah: 'Granted, terumah gedolah [is not a concern here], as it was taught: because...' - but the citation is cut off after this single word, with Rashi noting that the explanation is completed on 9a.",
     "whats": "This section bridges the Lishkat Parhedrin material with 9a's opening. The baraita's rule, and Rashi's own explanation of who these bakers are and why they were given leniency on maaser sheni, are fully established within these lines. The Gemara's own tier-by-tier justification of the rule, however, has only just begun (with terumah gedolah) when the daf ends mid-citation.",
     "hint": "By the time 8b ends, has the Gemara actually finished explaining why bakers are exempt from these tithes - or has it only just started?"
    },
    "learning": {
     "learnerQuestion": "What does the baraita say bakers owe from dema'i grain, and how far does the Gemara get in explaining why by the end of 8b?",
-    "coreTension": "The baraita states a conclusion (bakers owe only terumat maaser and challah from dema'i) without yet justifying it from the Gemara's own analysis. The Gemara sets out to justify the rule tier by tier - but the very first justification, for terumah gedolah, is cut off after a single word.",
+    "coreTension": "The baraita states a conclusion - bakers give only terumat maaser and challah from dema'i grain to a kohen, still separate (but do not give) maaser rishon and maaser ani, and are uniquely exempted from separating or redeeming maaser sheni - without yet justifying it from the Gemara's own analysis. The Gemara sets out to justify the rule tier by tier, but the very first justification, for terumah gedolah, is cut off after a single word.",
     "coreMove": "The Gemara's method is to work through the exempted tithe tiers one at a time and justify each. Only the opening word of the terumah gedolah justification survives within this daf's boundary.",
-    "resolution": "The baraita's rule stands as stated: bakers who are chaverim separate only terumat maaser and challah from dema'i grain. The Gemara's own justification for this rule, tier by tier starting with terumah gedolah, continues on 9a.",
+    "resolution": "The baraita's rule stands as stated: bakers who are chaverim give only terumat maaser and challah to a kohen from dema'i grain, still separate (without giving) maaser rishon and maaser ani, and are uniquely exempt from separating or redeeming maaser sheni. The Gemara's own justification for this rule, tier by tier starting with terumah gedolah, continues on 9a.",
     "takeaway": {
      "type": "legal_principle",
      "text": "A baraita's halachic conclusion can be recorded before its full justification is given; the Gemara sometimes builds a tier-by-tier proof that spans a daf boundary."
@@ -413,17 +425,17 @@
      "category": "structural",
      "notes": "A recurring feature at daf boundaries: a citation or explanation begins but is completed only on the next daf. Rashi's own note here ('the comment is completed on 9a') makes this explicit rather than leaving it to inference."
     },
-    "ahaMoment": "Rashi's own commentary on this baraita already tells us why bakers get leniency on maaser sheni specifically - their continuous, hour-by-hour selling makes formal transport and redemption to Jerusalem impractical - even though the Gemara's own formal, tier-by-tier justification is still only beginning when the daf ends.",
-    "learningBlocker": "Students may assume the Gemara's justification for the baraita's rule is complete within 8b. It is not: only the very start of the terumah gedolah justification appears here; the rest continues on 9a.",
-    "memoryAnchor": "Baraita: bakers owe only terumat maaser + challah from dema'i. Rashi: they're chaverim who sell continuously, hence leniency on transporting/redeeming maaser sheni. Gemara's own tier-by-tier justification: barely begun ('granted terumah gedolah, because...' - cut off) at 8b's end."
+    "ahaMoment": "Rashi's own commentary on this baraita already tells us why bakers get leniency on maaser sheni specifically - their continuous, hour-by-hour selling makes bringing it to Jerusalem or redeeming it impractical - even though the Gemara's own formal, tier-by-tier justification is still only beginning when the daf ends.",
+    "learningBlocker": "Students may assume the Gemara's justification for the baraita's rule is complete within 8b. It is not: only the very start of the terumah gedolah justification appears here; the rest continues on 9a. Students may also assume the baraita exempts bakers from separating every tithe besides terumat maaser and challah. It does not: maaser rishon and maaser ani are still separated (just not given), and the baker's real, unique leniency is limited to not separating or redeeming maaser sheni.",
+    "memoryAnchor": "Baraita: bakers give terumat maaser + challah to a kohen; separate (don't give) maaser rishon + maaser ani; uniquely exempt from separating/redeeming maaser sheni. Rashi: they're chaverim who sell continuously, hence the maaser sheni leniency. Gemara's own tier-by-tier justification: barely begun ('granted terumah gedolah, because...' - cut off) at 8b's end, continuing on 9a."
    },
    "argumentFlow": [
     {
      "id": "step-01",
      "type": "statement",
-     "label": "Baraita: bakers exempt from dema'i tithes except terumat maaser and challah",
+     "label": "Baraita: bakers give only terumat maaser and challah from dema'i",
      "speaker": "Baraita",
-     "text": "We learned elsewhere: the Sages did not obligate bakers to separate tithes from dema'i grain, except terumat maaser and challah.",
+     "text": "We learned elsewhere: the Sages did not obligate bakers to give tithes from dema'i grain, except terumat maaser and challah.",
      "sourceRefs": [
       {
        "sourceType": "gemara",
@@ -435,6 +447,21 @@
     },
     {
      "id": "step-02",
+     "type": "clarification",
+     "label": "Rashi clarifies what bakers must give vs. only separate",
+     "speaker": "Rashi",
+     "text": "Rashi glosses the baraita: the baker gives terumat maaser (one part in a hundred) and challah to a kohen. He still separates - but does not give - maaser rishon and maaser ani, following the general dema'i rule. His own unique leniency is that he need not separate or redeem maaser sheni at all, because as a chaver who sells continuously, at every hour, bringing it to Jerusalem or redeeming it for each batch is impractical.",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-008b-l29",
+       "vilnaLine": 29,
+       "note": "Rashi's gloss on the baraita, reconciling the given tithes with the separated-but-not-given tithes and identifying the baker's unique maaser sheni leniency"
+      }
+     ]
+    },
+    {
+     "id": "step-03",
      "type": "stub",
      "label": "Gemara begins to justify the rule tier by tier - cut off after terumah gedolah",
      "speaker": "Gemara",
@@ -465,25 +492,33 @@
    ],
    "visualizableElements": [
     {
-     "item": "The baraita's rule (bakers separate only terumat maaser and challah from dema'i, with Rashi's gloss on why maaser sheni is waived for them) alongside the Gemara's own justification, which only reaches 'granted terumah gedolah, because...' before cutting off, continuing on 9a.",
+     "item": "The baraita's rule (bakers give terumat maaser and challah to a kohen, still separate but do not give maaser rishon and maaser ani, and are uniquely exempt from separating or redeeming maaser sheni) alongside the Gemara's own justification, which only reaches 'granted terumah gedolah, because...' before cutting off, continuing on 9a.",
      "type": "sequence",
      "label": "Baraita's rule and the Gemara's cut-off justification"
     }
    ],
    "quizSeeds": [
     {
-     "question": "According to the baraita, which two obligations MUST bakers still separate from dema'i grain?",
-     "answer": "Terumat maaser and challah."
+     "question": "What must bakers give directly to a kohen from dema'i grain, and what do they merely separate without giving?",
+     "answer": "They give terumat maaser and challah to a kohen. They still separate maaser rishon and maaser ani, per the general dema'i rule, but do not give these away."
     },
     {
      "question": "Per Rashi, why were these bakers specifically given leniency regarding maaser sheni?",
-     "answer": "Because they are chaverim who sell bread continuously, at every hour, making it impractical to formally transport or redeem the second tithe in Jerusalem for each batch."
+     "answer": "Because they are chaverim who sell bread continuously, at every hour, making it impractical to bring the second tithe to Jerusalem or redeem it for each batch."
+    },
+    {
+     "question": "Does the baraita's leniency mean bakers separate nothing besides terumat maaser and challah from dema'i grain?",
+     "answer": "No. They still separate maaser rishon and maaser ani, just as everyone else does; they simply do not give these away. Their unique leniency is limited to maaser sheni, which they need not separate or redeem at all."
     }
    ],
    "misconceptions": [
     {
      "misconception": "The Gemara fully explains, within 8b, why bakers are exempt from all these tithes.",
      "correction": "The baraita's rule is stated in full, but the Gemara's own justification only reaches the opening word of the terumah gedolah explanation before the daf cuts off; the justification continues on 9a."
+    },
+    {
+     "misconception": "Bakers separate no tithes from dema'i grain besides terumat maaser and challah.",
+     "correction": "They still separate maaser rishon and maaser ani (though they do not give these away); their real, unique leniency is that they need not separate or redeem maaser sheni, unlike everyone else."
     }
    ],
    "relatedSugyot": [
@@ -498,7 +533,7 @@
      "reason": "Lishkat Parhedrin discussion that immediately precedes this bakers passage"
     }
    ],
-   "finalRuling": "The baraita's rule: bakers who are chaverim and buy grain from amei ha'aretz separate only terumat maaser and challah from dema'i grain; no other tithe-separation is required of them. The Gemara's own tier-by-tier justification for this rule begins with terumah gedolah on this daf but is completed on 9a.",
+   "finalRuling": "The baraita's rule: bakers who are chaverim and buy grain from amei ha'aretz give only terumat maaser and challah to a kohen from dema'i grain. They still separate, but do not give, maaser rishon and maaser ani; their own unique leniency is that they need not separate or redeem maaser sheni. The Gemara's own tier-by-tier justification for this rule begins with terumah gedolah on this daf but is completed on 9a.",
    "requiresUnderstanding": [],
    "difficulty": "intermediate",
    "alternateAngles": [],
@@ -885,7 +920,7 @@
   {
    "he": "דְּמַאי",
    "translit": "Dema'i",
-   "en": "Produce of uncertain tithe status bought from an am ha'aretz. The Rabbis required partial separation (trumat maaser, challah) but assumed trumah gedolah had already been taken."
+   "en": "Produce of uncertain tithe status bought from an am ha'aretz. One still separates all tithes from dema'i, but only terumat maaser and challah must actually be given to their recipients (terumah gedolah is assumed already taken); maaser rishon and maaser ani are separated but not given, and maaser sheni must still be redeemed or brought to Jerusalem - except for the special leniency given to bakers at Yoma 8b-9a, who need not even separate or redeem it."
   }
  ]
 }
