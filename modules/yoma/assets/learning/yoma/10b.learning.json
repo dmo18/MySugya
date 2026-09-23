@@ -134,11 +134,7 @@
     "contradiction resolution"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "R. Yehuda's sukka requirement for permanent structure",
-    "The Parhedrin chamber mezuza dispute from 10a",
-    "The concept that mezuza requires a genuine voluntary dwelling"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "If someone lives in a place, it automatically requires mezuza.",
@@ -147,7 +143,9 @@
    ],
    "relatedSugyot": [],
    "visualizableElements": [
-    "Two-column table: Sukka (permanent structure, voluntary) vs. Parhedrin (temporary, coerced)"
+    {
+     "item": "Two-column table: Sukka (permanent structure, voluntary) vs. Parhedrin (temporary, coerced)"
+    }
    ],
    "quizSeeds": [
     {
@@ -170,7 +168,12 @@
     "Yoma.10b.5",
     "Yoma.10b.6"
    ],
-   "review": "ai_generated"
+   "review": "ai_generated",
+   "prerequisiteKnowledge": [
+    "R. Yehuda's sukka requirement for permanent structure",
+    "The Parhedrin chamber mezuza dispute from 10a",
+    "The concept that mezuza requires a genuine voluntary dwelling"
+   ]
   },
   {
    "sugyaNumber": 2,
@@ -253,11 +256,7 @@
     "baraita"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "The structure of Talmudic attribution - why anonymous baraitot need to be identified",
-    "The distinction between Temple gates and Temple chambers in mezuza law",
-    "The concept that a single rabbinic decree can cover multiple related cases"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "An anonymous baraita just represents 'the Rabbis' without specific attribution.",
@@ -267,12 +266,12 @@
    "relatedSugyot": [],
    "visualizableElements": [
     {
-     "type": "text",
-     "desc": "Temple gate with mezuza placement question: does a gate serving the public require a mezuza?"
+     "item": "Temple gate with mezuza placement question: does a gate serving the public require a mezuza?",
+     "type": "text"
     },
     {
-     "type": "contrast",
-     "desc": "Public gate (patur from mezuza) vs private gate (chayav) - the defining distinction from this sugya"
+     "item": "Public gate (patur from mezuza) vs private gate (chayav) - the defining distinction from this sugya",
+     "type": "contrast"
     }
    ],
    "quizSeeds": [
@@ -288,7 +287,12 @@
     "Yoma.10b.7",
     "Yoma.10b.8"
    ],
-   "review": "ai_generated"
+   "review": "ai_generated",
+   "prerequisiteKnowledge": [
+    "The structure of Talmudic attribution - why anonymous baraitot need to be identified",
+    "The distinction between Temple gates and Temple chambers in mezuza law",
+    "The concept that a single rabbinic decree can cover multiple related cases"
+   ]
   }
  ],
  "glossary": [

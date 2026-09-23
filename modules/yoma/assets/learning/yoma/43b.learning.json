@@ -151,10 +151,7 @@
     "R. Yehuda's opinion"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "tevul yom laws",
-    "parah adumah rite personnel"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "Since R. Yehuda does not explicitly object in the Mishna, his silence indicates that he agrees with the ruling that a tevul yom is valid for parah.",
@@ -167,8 +164,8 @@
    ],
    "visualizableElements": [
     {
-     "type": "contrast",
-     "label": "mashma otzei miyad mashma vs mashma mimila"
+     "item": "mashma otzei miyad mashma vs mashma mimila",
+     "type": "contrast"
     }
    ],
    "quizSeeds": [
@@ -181,7 +178,11 @@
    "difficulty": "advanced",
    "review": "reviewed",
    "alternateAngles": [],
-   "glossary": []
+   "glossary": [],
+   "prerequisiteKnowledge": [
+    "tevul yom laws",
+    "parah adumah rite personnel"
+   ]
   },
   {
    "sugyaNumber": 2,
@@ -341,11 +342,7 @@
     "Pharisees vs Sadducees"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "Yom Kippur avodah sequence",
-    "Holy of Holies entry laws",
-    "incense composition"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "The incense cloud's purpose is to shield the High Priest from the danger of seeing the ark directly, so it should be prepared before he enters.",
@@ -358,12 +355,12 @@
    ],
    "visualizableElements": [
     {
-     "type": "sequence",
-     "label": "slaughter -> stir blood -> coals + incense -> enter Holy of Holies"
+     "item": "slaughter -> stir blood -> coals + incense -> enter Holy of Holies",
+     "type": "sequence"
     },
     {
-     "type": "contrast",
-     "label": "Pharisee vs Sadducee incense timing"
+     "item": "Pharisee vs Sadducee incense timing",
+     "type": "contrast"
     }
    ],
    "quizSeeds": [
@@ -380,7 +377,12 @@
    "difficulty": "intermediate",
    "review": "reviewed",
    "alternateAngles": [],
-   "glossary": []
+   "glossary": [],
+   "prerequisiteKnowledge": [
+    "Yom Kippur avodah sequence",
+    "Holy of Holies entry laws",
+    "incense composition"
+   ]
   }
  ],
  "glossary": [

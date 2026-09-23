@@ -150,10 +150,7 @@
     "HP as agent"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "Knowing the Yom Kippur goats are communal offerings funded by the half-shekel",
-    "Understanding the difference between individual and communal obligation"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "The HP acts on his own behalf when serving on Yom Kippur, so individual offering rules apply to the Yom Kippur goats",
@@ -163,12 +160,12 @@
    "relatedSugyot": [],
    "visualizableElements": [
     {
-     "type": "contrast",
-     "name": "individual offering (can be lost) vs. communal offering (always replaceable)"
+     "item": "individual offering (can be lost) vs. communal offering (always replaceable)",
+     "type": "contrast"
     },
     {
-     "type": "relationship",
-     "name": "HP as agent of the community"
+     "item": "HP as agent of the community",
+     "type": "relationship"
     }
    ],
    "quizSeeds": [
@@ -181,7 +178,11 @@
    "difficulty": "intermediate",
    "alternateAngles": [],
    "glossary": [],
-   "review": "reviewed"
+   "review": "reviewed",
+   "prerequisiteKnowledge": [
+    "Knowing the Yom Kippur goats are communal offerings funded by the half-shekel",
+    "Understanding the difference between individual and communal obligation"
+   ]
   }
  ],
  "glossary": [],

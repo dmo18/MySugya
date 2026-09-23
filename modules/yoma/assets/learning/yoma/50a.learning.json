@@ -87,11 +87,7 @@
     "HP service sequence"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "HP vestments",
-    "Yom Kippur service order",
-    "positive commandments"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "'He shall remove his linen garments' is a prohibition against continuing to wear them after service - nothing more.",
@@ -102,8 +98,8 @@
    "relatedSugyot": [],
    "visualizableElements": [
     {
+     "item": "Positive commandment (must remove) vs. prohibition (may not continue wearing) - same verse, two readings",
      "type": "contrast",
-     "description": "Positive commandment (must remove) vs. prohibition (may not continue wearing) - same verse, two readings",
      "role": "contrast",
      "priority": 1
     }
@@ -118,7 +114,12 @@
    "difficulty": "intermediate",
    "alternateAngles": [],
    "glossary": [],
-   "review": "reviewed"
+   "review": "reviewed",
+   "prerequisiteKnowledge": [
+    "HP vestments",
+    "Yom Kippur service order",
+    "positive commandments"
+   ]
   },
   {
    "sugyaNumber": 2,
@@ -230,11 +231,7 @@
     "replacement HP"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "blood offering laws",
-    "replacement HP",
-    "legal categories of offerings"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "Once blood comes from an offering animal, it permanently retains its offering-category identity - slaughter does not change the blood's legal characterization.",
@@ -245,8 +242,8 @@
    "relatedSugyot": [],
    "visualizableElements": [
     {
+     "item": "Slaughtered bull's blood: same legal identity as living bull's blood, or a new category?",
      "type": "contrast",
-     "description": "Slaughtered bull's blood: same legal identity as living bull's blood, or a new category?",
      "role": "aha",
      "priority": 1
     }
@@ -261,7 +258,12 @@
    "difficulty": "advanced",
    "alternateAngles": [],
    "glossary": [],
-   "review": "reviewed"
+   "review": "reviewed",
+   "prerequisiteKnowledge": [
+    "blood offering laws",
+    "replacement HP",
+    "legal categories of offerings"
+   ]
   },
   {
    "sugyaNumber": 3,
@@ -373,11 +375,7 @@
     "chatat tzibur"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "communal sin-offering laws",
-    "Yom Kippur service",
-    "Shabbat and tumah override"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "The High Priest represents all Israel, so his Yom Kippur bull is obviously a communal offering - this is settled and not a matter of dispute.",
@@ -387,9 +385,15 @@
    ],
    "relatedSugyot": [],
    "visualizableElements": [
-    "HP",
-    "bull",
-    "communal vs personal contrast"
+    {
+     "item": "HP"
+    },
+    {
+     "item": "bull"
+    },
+    {
+     "item": "communal vs personal contrast"
+    }
    ],
    "quizSeeds": [
     {
@@ -401,7 +405,12 @@
    "difficulty": "advanced",
    "alternateAngles": [],
    "glossary": [],
-   "review": "reviewed"
+   "review": "reviewed",
+   "prerequisiteKnowledge": [
+    "communal sin-offering laws",
+    "Yom Kippur service",
+    "Shabbat and tumah override"
+   ]
   }
  ],
  "glossary": [],

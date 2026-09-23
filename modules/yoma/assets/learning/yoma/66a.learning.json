@@ -155,10 +155,7 @@
     "sin transfer"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "Knowing the third confession covers all of Israel (the first two were for HP's household and the priesthood)",
-    "Understanding hand-laying as a formal transfer mechanism"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "The HP accompanies the Azazel goat to the cliff after placing his hands on its head",
@@ -168,12 +165,12 @@
    "relatedSugyot": [],
    "visualizableElements": [
     {
-     "type": "person",
-     "name": "HP with hands on scapegoat's head"
+     "item": "HP with hands on scapegoat's head",
+     "type": "person"
     },
     {
-     "type": "action",
-     "name": "third confession over the scapegoat"
+     "item": "third confession over the scapegoat",
+     "type": "action"
     }
    ],
    "quizSeeds": [
@@ -183,10 +180,14 @@
     }
    ],
    "finalRuling": "The HP places both hands on the scapegoat's head and recites the third confession - the physical and verbal transfer of all Israel's sins before the goat is dispatched.",
-   "difficulty": "introductory",
+   "difficulty": "intro",
    "alternateAngles": [],
    "glossary": [],
-   "review": "reviewed"
+   "review": "reviewed",
+   "prerequisiteKnowledge": [
+    "Knowing the third confession covers all of Israel (the first two were for HP's household and the priesthood)",
+    "Understanding hand-laying as a formal transfer mechanism"
+   ]
   },
   {
    "sugyaNumber": 2,
@@ -312,10 +313,7 @@
     "dispatch"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "Knowing the HP has more services to perform after the scapegoat",
-    "Understanding halachic agency (shlichut)"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "The guide is just a practical helper filling in because the HP is busy with other services",
@@ -325,12 +323,12 @@
    "relatedSugyot": [],
    "visualizableElements": [
     {
-     "type": "relationship",
-     "name": "HP as principal and guide as agent"
+     "item": "HP as principal and guide as agent",
+     "type": "relationship"
     },
     {
-     "type": "sequence",
-     "name": "HP confesses and hands off, guide dispatches to Azazel"
+     "item": "HP confesses and hands off, guide dispatches to Azazel",
+     "type": "sequence"
     }
    ],
    "quizSeeds": [
@@ -340,10 +338,14 @@
     }
    ],
    "finalRuling": "The guide acts as the HP's agent for the scapegoat dispatch while the HP returns to the Temple for the communal reading and offering services.",
-   "difficulty": "introductory",
+   "difficulty": "intro",
    "alternateAngles": [],
    "glossary": [],
-   "review": "reviewed"
+   "review": "reviewed",
+   "prerequisiteKnowledge": [
+    "Knowing the HP has more services to perform after the scapegoat",
+    "Understanding halachic agency (shlichut)"
+   ]
   }
  ],
  "glossary": [],

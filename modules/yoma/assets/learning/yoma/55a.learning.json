@@ -106,10 +106,7 @@
     "blood service"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "Understanding the kapporet's placement inside the Holy of Holies",
-    "Familiarity with the bull's blood service as the first inner service"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "The HP sprinkles the blood downward onto the flat top surface of the kapporet.",
@@ -119,16 +116,16 @@
    "relatedSugyot": [],
    "visualizableElements": [
     {
-     "type": "person",
-     "name": "HP with tilted wrist sprinkling"
+     "item": "HP with tilted wrist sprinkling",
+     "type": "person"
     },
     {
-     "type": "object",
-     "name": "kapporet"
+     "item": "kapporet",
+     "type": "object"
     },
     {
-     "type": "action",
-     "name": "whip-arc sprinkling motion"
+     "item": "whip-arc sprinkling motion",
+     "type": "action"
     }
    ],
    "quizSeeds": [
@@ -141,7 +138,11 @@
    "difficulty": "intermediate",
    "alternateAngles": [],
    "glossary": [],
-   "review": "reviewed"
+   "review": "reviewed",
+   "prerequisiteKnowledge": [
+    "Understanding the kapporet's placement inside the Holy of Holies",
+    "Familiarity with the bull's blood service as the first inner service"
+   ]
   },
   {
    "sugyaNumber": 2,
@@ -271,10 +272,7 @@
     "sprinkling count"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "Understanding why the upward sprinkle is counted separately from the seven below",
-    "Knowing what happens if the HP loses count during the service"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "The elaborate counting formula (achat, achat v'achat...) is a liturgical convention with no functional purpose; simple silent counting would work just as well.",
@@ -284,12 +282,12 @@
    "relatedSugyot": [],
    "visualizableElements": [
     {
-     "type": "action",
-     "name": "HP counting aloud during sprinkling"
+     "item": "HP counting aloud during sprinkling",
+     "type": "action"
     },
     {
-     "type": "sequence",
-     "name": "one then one-and-one through one-and-seven"
+     "item": "one then one-and-one through one-and-seven",
+     "type": "sequence"
     }
    ],
    "quizSeeds": [
@@ -299,10 +297,14 @@
     }
    ],
    "finalRuling": "The 'one and one, one and two...' formula embeds the upward sprinkle in every subsequent count, making it impossible to forget.",
-   "difficulty": "introductory",
+   "difficulty": "intro",
    "alternateAngles": [],
    "glossary": [],
-   "review": "reviewed"
+   "review": "reviewed",
+   "prerequisiteKnowledge": [
+    "Understanding why the upward sprinkle is counted separately from the seven below",
+    "Knowing what happens if the HP loses count during the service"
+   ]
   },
   {
    "sugyaNumber": 3,
@@ -403,10 +405,7 @@
     "bull and goat"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "Understanding what kareth means",
-    "Knowing the principle that analogies cannot impose penalties"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "The goat's seven lower sprinklings are purely an extension by analogy from the bull - there is no independent verse for the goat's count.",
@@ -416,12 +415,12 @@
    "relatedSugyot": [],
    "visualizableElements": [
     {
-     "type": "text",
-     "name": "Leviticus 16 verses on kapporet sprinkling"
+     "item": "Leviticus 16 verses on kapporet sprinkling",
+     "type": "text"
     },
     {
-     "type": "contrast",
-     "name": "explicit statement vs. analogy"
+     "item": "explicit statement vs. analogy",
+     "type": "contrast"
     }
    ],
    "quizSeeds": [
@@ -434,7 +433,11 @@
    "difficulty": "advanced",
    "alternateAngles": [],
    "glossary": [],
-   "review": "reviewed"
+   "review": "reviewed",
+   "prerequisiteKnowledge": [
+    "Understanding what kareth means",
+    "Knowing the principle that analogies cannot impose penalties"
+   ]
   },
   {
    "sugyaNumber": 4,
@@ -511,10 +514,7 @@
     "HP re-enters"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "Knowing the bull's blood atones for priests while goat's blood atones for Israel",
-    "Knowing the HP enters the Holy of Holies only on Yom Kippur"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "The HP enters the Holy of Holies exactly twice on Yom Kippur - once for the bull blood and once for the goat blood.",
@@ -524,12 +524,12 @@
    "relatedSugyot": [],
    "visualizableElements": [
     {
-     "type": "person",
-     "name": "HP exiting and re-entering the Holy of Holies"
+     "item": "HP exiting and re-entering the Holy of Holies",
+     "type": "person"
     },
     {
-     "type": "object",
-     "name": "gold stand holding the bull's blood bowl"
+     "item": "gold stand holding the bull's blood bowl",
+     "type": "object"
     }
    ],
    "quizSeeds": [
@@ -539,10 +539,14 @@
     }
    ],
    "finalRuling": "The HP exits between services, swaps bowls at the gold stand, and re-enters for the goat's blood service - an exact parallel to the bull's service.",
-   "difficulty": "introductory",
+   "difficulty": "intro",
    "alternateAngles": [],
    "glossary": [],
-   "review": "reviewed"
+   "review": "reviewed",
+   "prerequisiteKnowledge": [
+    "Knowing the bull's blood atones for priests while goat's blood atones for Israel",
+    "Knowing the HP enters the Holy of Holies only on Yom Kippur"
+   ]
   }
  ],
  "glossary": [],

@@ -275,11 +275,7 @@
     "rava"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "HP's vestment sequence",
-    "tum'ah of Yom Kippur handlers",
-    "Rava as Amora"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "The Torah always records events in chronological order",
@@ -290,8 +286,8 @@
    "relatedSugyot": [],
    "visualizableElements": [
     {
+     "item": "Textual order vs actual chronological order: burning and dispatching happened earlier but their tum'ah laws appear later in the text",
      "type": "timeline",
-     "description": "Textual order vs actual chronological order: burning and dispatching happened earlier but their tum'ah laws appear later in the text",
      "role": "anchor",
      "priority": 1
     }
@@ -307,7 +303,12 @@
    "difficulty": "advanced",
    "alternateAngles": [],
    "glossary": [],
-   "review": "reviewed"
+   "review": "reviewed",
+   "prerequisiteKnowledge": [
+    "HP's vestment sequence",
+    "tum'ah of Yom Kippur handlers",
+    "Rava as Amora"
+   ]
   },
   {
    "sugyaNumber": 2,
@@ -449,11 +450,7 @@
     "converts"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "Shemaiah and Avtalyon as leaders of the Sanhedrin",
-    "Avot's 'disciples of Aaron' teaching",
-    "ona'at devarim prohibition"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "Shemaiah and Avtalyon were of lesser standing than the HP",
@@ -464,8 +461,8 @@
    "relatedSugyot": [],
    "visualizableElements": [
     {
+     "item": "HP (descendant of Aaron by birth) vs Shemaiah and Avtalyon (disciples of Aaron by deeds) - who truly follows Aaron?",
      "type": "contrast",
-     "description": "HP (descendant of Aaron by birth) vs Shemaiah and Avtalyon (disciples of Aaron by deeds) - who truly follows Aaron?",
      "role": "anchor",
      "priority": 1
     }
@@ -481,7 +478,12 @@
    "difficulty": "intermediate",
    "alternateAngles": [],
    "glossary": [],
-   "review": "reviewed"
+   "review": "reviewed",
+   "prerequisiteKnowledge": [
+    "Shemaiah and Avtalyon as leaders of the Sanhedrin",
+    "Avot's 'disciples of Aaron' teaching",
+    "ona'at devarim prohibition"
+   ]
   }
  ],
  "glossary": [],

@@ -77,10 +77,7 @@
     "ladle transfer"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "kometz laws",
-    "incense service requirements"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "The HP could pour the incense into his hands normally, using the ladle like a cup.",
@@ -90,9 +87,15 @@
    ],
    "relatedSugyot": [],
    "visualizableElements": [
-    "HP hands",
-    "ladle",
-    "incense pouring sequence"
+    {
+     "item": "HP hands"
+    },
+    {
+     "item": "ladle"
+    },
+    {
+     "item": "incense pouring sequence"
+    }
    ],
    "quizSeeds": [
     {
@@ -104,7 +107,11 @@
    "difficulty": "intermediate",
    "alternateAngles": [],
    "glossary": [],
-   "review": "reviewed"
+   "review": "reviewed",
+   "prerequisiteKnowledge": [
+    "kometz laws",
+    "incense service requirements"
+   ]
   },
   {
    "sugyaNumber": 2,
@@ -220,11 +227,7 @@
     "replacement logic"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "Passover offering laws",
-    "registration and withdrawal",
-    "replacement rules"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "A person may join the registered group of a Passover offering at any point before the meal, including after the sheep has already been slaughtered.",
@@ -235,8 +238,8 @@
    "relatedSugyot": [],
    "visualizableElements": [
     {
+     "item": "Passover registration: withdrawal valid before slaughter, invalid after - the slaughter is the point of no return",
      "type": "contrast",
-     "description": "Passover registration: withdrawal valid before slaughter, invalid after - the slaughter is the point of no return",
      "role": "contrast",
      "priority": 1
     }
@@ -251,7 +254,12 @@
    "difficulty": "advanced",
    "alternateAngles": [],
    "glossary": [],
-   "review": "reviewed"
+   "review": "reviewed",
+   "prerequisiteKnowledge": [
+    "Passover offering laws",
+    "registration and withdrawal",
+    "replacement rules"
+   ]
   }
  ],
  "glossary": [],

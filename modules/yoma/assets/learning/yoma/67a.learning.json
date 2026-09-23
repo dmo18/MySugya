@@ -153,10 +153,7 @@
     "yom-kippur-service"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "Shabbat boundary laws",
-    "Yom Kippur Azazel service overview"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "The designated man walked alone the entire 90-ris route",
@@ -167,8 +164,8 @@
    "relatedSugyot": [],
    "visualizableElements": [
     {
+     "item": "Ten sukkot spaced one mil apart along desert road from Jerusalem to cliff",
      "type": "sequence",
-     "description": "Ten sukkot spaced one mil apart along desert road from Jerusalem to cliff",
      "role": "anchor",
      "priority": 1
     }
@@ -184,7 +181,11 @@
    "difficulty": "intermediate",
    "alternateAngles": [],
    "glossary": [],
-   "review": "reviewed"
+   "review": "reviewed",
+   "prerequisiteKnowledge": [
+    "Shabbat boundary laws",
+    "Yom Kippur Azazel service overview"
+   ]
   },
   {
    "sugyaNumber": 2,
@@ -299,10 +300,7 @@
     "yom-kippur-service"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "Azazel cliff location",
-    "crimson thread tradition"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "The goat simply fell off the cliff",
@@ -313,8 +311,8 @@
    "relatedSugyot": [],
    "visualizableElements": [
     {
+     "item": "Man at cliff top pushing goat backward; goat tumbling with crimson thread visible between horns",
      "type": "action",
-     "description": "Man at cliff top pushing goat backward; goat tumbling with crimson thread visible between horns",
      "role": "anchor",
      "priority": 1
     }
@@ -330,7 +328,11 @@
    "difficulty": "intermediate",
    "alternateAngles": [],
    "glossary": [],
-   "review": "reviewed"
+   "review": "reviewed",
+   "prerequisiteKnowledge": [
+    "Azazel cliff location",
+    "crimson thread tradition"
+   ]
   },
   {
    "sugyaNumber": 3,
@@ -401,10 +403,7 @@
     "daytime-requirement"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "general rule that Temple services are invalid at night",
-    "Azazel as expulsion not sacrifice"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "The Azazel service is invalid if performed at night like other Temple services",
@@ -415,8 +414,8 @@
    "relatedSugyot": [],
    "visualizableElements": [
     {
+     "item": "Standard Temple service (must be day) vs Azazel cliff dispatch (valid at night)",
      "type": "contrast",
-     "description": "Standard Temple service (must be day) vs Azazel cliff dispatch (valid at night)",
      "role": "anchor",
      "priority": 1
     }
@@ -429,10 +428,14 @@
     }
    ],
    "finalRuling": "If the Azazel goat did not reach the cliff before nightfall, the service is still valid.",
-   "difficulty": "introductory",
+   "difficulty": "intro",
    "alternateAngles": [],
    "glossary": [],
-   "review": "reviewed"
+   "review": "reviewed",
+   "prerequisiteKnowledge": [
+    "general rule that Temple services are invalid at night",
+    "Azazel as expulsion not sacrifice"
+   ]
   }
  ],
  "glossary": [],

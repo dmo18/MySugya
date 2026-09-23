@@ -110,10 +110,7 @@
     "Yoma.16a.1",
     "Yoma.16a.2"
    ],
-   "requiresUnderstanding": [
-    "The Chamber of the Lambs controversy from 15b",
-    "The four-chamber Beit HaMoked structure"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "The contradiction between Yoma and Middot about the Chamber of the Lambs is a textual error.",
@@ -126,8 +123,8 @@
    ],
    "visualizableElements": [
     {
-     "type": "contrast",
-     "desc": "Beit HaMoked floor plan with two competing chamber-location assignments: Yoma/Tamid version vs R. Eliezer ben Yaakov's Middot version"
+     "item": "Beit HaMoked floor plan with two competing chamber-location assignments: Yoma/Tamid version vs R. Eliezer ben Yaakov's Middot version",
+     "type": "contrast"
     }
    ],
    "quizSeeds": [
@@ -153,7 +150,11 @@
    "review": {
     "content": "ai_generated",
     "sourceRefs": "ai_generated"
-   }
+   },
+   "prerequisiteKnowledge": [
+    "The Chamber of the Lambs controversy from 15b",
+    "The four-chamber Beit HaMoked structure"
+   ]
   },
   {
    "sugyaNumber": 2,
@@ -344,10 +345,7 @@
     "Yoma.16a.8",
     "Yoma.16a.11"
    ],
-   "requiresUnderstanding": [
-    "Basic Temple layout: Heikhal, Ulam, Ezrat Nashim",
-    "How measurement traditions attribute a tractate to its author"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "The golden vine over the Heikhal entrance was a natural growth trained onto the wall.",
@@ -359,12 +357,12 @@
    ],
    "visualizableElements": [
     {
-     "type": "place",
-     "desc": "Temple entrance (Ulam) showing the golden vine with donation grape clusters, layered galleries of the Ezrat Nashim visible in background"
+     "item": "Temple entrance (Ulam) showing the golden vine with donation grape clusters, layered galleries of the Ezrat Nashim visible in background",
+     "type": "place"
     },
     {
-     "type": "sequence",
-     "desc": "Timeline of the golden vine's growth: initial installation, accumulation of donations, kohanim required to move it"
+     "item": "Timeline of the golden vine's growth: initial installation, accumulation of donations, kohanim required to move it",
+     "type": "sequence"
     }
    ],
    "quizSeeds": [
@@ -390,7 +388,11 @@
    "review": {
     "content": "ai_generated",
     "sourceRefs": "ai_generated"
-   }
+   },
+   "prerequisiteKnowledge": [
+    "Basic Temple layout: Heikhal, Ulam, Ezrat Nashim",
+    "How measurement traditions attribute a tractate to its author"
+   ]
   }
  ],
  "glossary": [

@@ -518,9 +518,7 @@
     "Temple procedure"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "lottery system"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "This is the main content of 26b.",
@@ -532,9 +530,9 @@
    ],
    "visualizableElements": [
     {
+     "item": "Brief closure",
      "type": "text",
-     "label": "Transitional passage",
-     "description": "Brief closure"
+     "label": "Transitional passage"
     }
    ],
    "quizSeeds": [
@@ -544,9 +542,12 @@
     }
    ],
    "finalRuling": "Transitional.",
-   "difficulty": "introductory",
+   "difficulty": "intro",
    "alternateAngles": [],
-   "review": "reviewed"
+   "review": "reviewed",
+   "prerequisiteKnowledge": [
+    "lottery system"
+   ]
   },
   {
    "sugyaNumber": 2,
@@ -717,11 +718,7 @@
     "R. Chiyya"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "tamid service",
-    "libations (nesachim)",
-    "Sukkot water libation"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "The afternoon tamid had more priests because the afternoon service was inherently more complex.",
@@ -738,14 +735,14 @@
    ],
    "visualizableElements": [
     {
+     "item": "Diagram showing which tasks required additional priests in the afternoon",
      "type": "contrast",
-     "label": "9 morning vs 11 afternoon priests",
-     "description": "Diagram showing which tasks required additional priests in the afternoon"
+     "label": "9 morning vs 11 afternoon priests"
     },
     {
+     "item": "Leviticus 6's 'in the morning, in the morning' as source for the afternoon tamid",
      "type": "text",
-     "label": "Biblical doubled phrase",
-     "description": "Leviticus 6's 'in the morning, in the morning' as source for the afternoon tamid"
+     "label": "Biblical doubled phrase"
     }
    ],
    "quizSeeds": [
@@ -761,7 +758,12 @@
    "finalRuling": "Nine priests for morning tamid, eleven for afternoon. The afternoon service is biblically mandated from the doubled morning phrase.",
    "difficulty": "intermediate",
    "alternateAngles": [],
-   "review": "reviewed"
+   "review": "reviewed",
+   "prerequisiteKnowledge": [
+    "tamid service",
+    "libations (nesachim)",
+    "Sukkot water libation"
+   ]
   },
   {
    "sugyaNumber": 3,
@@ -859,11 +861,7 @@
     "individual vs communal"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "communal offerings",
-    "burnt-offering service",
-    "flaying and cutting process"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "Communal offerings had entirely different rules for all steps.",
@@ -880,14 +878,14 @@
    ],
    "visualizableElements": [
     {
+     "item": "Flaying and cutting: identical rules; slaughter and sprinkling: potentially different",
      "type": "contrast",
-     "label": "Communal vs individual offering rules",
-     "description": "Flaying and cutting: identical rules; slaughter and sprinkling: potentially different"
+     "label": "Communal vs individual offering rules"
     },
     {
+     "item": "Specific task assignments for each of the eleven priests",
      "type": "sequence",
-     "label": "Eleven priests for communal ram",
-     "description": "Specific task assignments for each of the eleven priests"
+     "label": "Eleven priests for communal ram"
     }
    ],
    "quizSeeds": [
@@ -901,9 +899,14 @@
     }
    ],
    "finalRuling": "Communal ram requires eleven priests. Individual and communal offerings are equal for flaying and cutting.",
-   "difficulty": "introductory",
+   "difficulty": "intro",
    "alternateAngles": [],
-   "review": "reviewed"
+   "review": "reviewed",
+   "prerequisiteKnowledge": [
+    "communal offerings",
+    "burnt-offering service",
+    "flaying and cutting process"
+   ]
   }
  ]
 }

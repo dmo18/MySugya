@@ -89,12 +89,12 @@
    ],
    "visualizableElements": [
     {
-     "type": "person",
-     "description": "Ridya: an angelic being in heifer-form with an open face, standing between layers of cosmic waters"
+     "item": "Ridya: an angelic being in heifer-form with an open face, standing between layers of cosmic waters",
+     "type": "person"
     },
     {
-     "type": "relationship",
-     "description": "Upper waters - Ridya - lower waters: the three-tier cosmic water system with Ridya as mediating angel"
+     "item": "Upper waters - Ridya - lower waters: the three-tier cosmic water system with Ridya as mediating angel",
+     "type": "relationship"
     }
    ],
    "quizSeeds": [
@@ -108,7 +108,7 @@
     }
    ],
    "finalRuling": "Baraita supports R. Sheila. Ridya is the rain angel between cosmic waters.",
-   "difficulty": "introductory",
+   "difficulty": "intro",
    "alternateAngles": [],
    "glossary": [
     {
@@ -278,16 +278,16 @@
    ],
    "visualizableElements": [
     {
-     "type": "action",
-     "description": "Hundreds of thousands of pilgrims packed in the Temple courtyard, then prostrating with supernatural space between each person"
+     "item": "Hundreds of thousands of pilgrims packed in the Temple courtyard, then prostrating with supernatural space between each person",
+     "type": "action"
     },
     {
-     "type": "action",
-     "description": "The altar fire burning through rain with the smoke rising perfectly straight upward"
+     "item": "The altar fire burning through rain with the smoke rising perfectly straight upward",
+     "type": "action"
     },
     {
-     "type": "sequence",
-     "description": "Five miracle categories listed in order: space, safety, lodging, fire, smoke"
+     "item": "Five miracle categories listed in order: space, safety, lodging, fire, smoke",
+     "type": "sequence"
     }
    ],
    "quizSeeds": [
@@ -301,7 +301,7 @@
     }
    ],
    "finalRuling": "Five ongoing miracles of the Temple were maintained throughout its existence.",
-   "difficulty": "introductory",
+   "difficulty": "intro",
    "alternateAngles": [],
    "glossary": [
     {

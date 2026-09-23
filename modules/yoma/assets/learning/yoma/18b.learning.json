@@ -151,11 +151,7 @@
     "Yoma.18b.1",
     "Yoma.18b.3"
    ],
-   "requiresUnderstanding": [
-    "The five emission-causing foods from 18a",
-    "Kiddushin and marriage law basics",
-    "The mamzerut concern"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "Rav and Rav Nachman's 'wife for the day' was an informal or casual arrangement, closer to concubinage than marriage.",
@@ -168,8 +164,8 @@
    ],
    "visualizableElements": [
     {
-     "type": "sequence",
-     "desc": "Rav arrives in town - public announcement - woman accepts - proper kiddushin performed - they live together for the visit - Rav departs - woman counts seven clean days - she can remarry"
+     "item": "Rav arrives in town - public announcement - woman accepts - proper kiddushin performed - they live together for the visit - Rav departs - woman counts seven clean days - she can remarry",
+     "type": "sequence"
     }
    ],
    "quizSeeds": [
@@ -205,7 +201,12 @@
    "review": {
     "content": "ai_generated",
     "sourceRefs": "ai_generated"
-   }
+   },
+   "prerequisiteKnowledge": [
+    "The five emission-causing foods from 18a",
+    "Kiddushin and marriage law basics",
+    "The mamzerut concern"
+   ]
   },
   {
    "sugyaNumber": 2,
@@ -291,10 +292,7 @@
     "Yoma.18b.6",
     "Yoma.18b.7"
    ],
-   "requiresUnderstanding": [
-    "Tum'at keri and its consequences for the Yom Kippur service",
-    "The KG's seven-day preparation period"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "Keeping the KG awake all night before Yom Kippur is a ceremonial tradition of honor.",
@@ -307,8 +305,8 @@
    ],
    "visualizableElements": [
     {
-     "type": "sequence",
-     "desc": "Eve of Yom Kippur at Beit Avtinas: oath administered, elders depart, KG alone with young priests. If scholar: gives shiur all night. If not: hears Torah. If sleepy: priests snap fingers on floor to wake him."
+     "item": "Eve of Yom Kippur at Beit Avtinas: oath administered, elders depart, KG alone with young priests. If scholar: gives shiur all night. If not: hears Torah. If sleepy: priests snap fingers on floor to wake him.",
+     "type": "sequence"
     }
    ],
    "quizSeeds": [
@@ -322,7 +320,7 @@
     }
    ],
    "finalRuling": "The all-night vigil is mandatory: the KG must stay awake until dawn to avoid tum'at keri. The Beit Avtinas chamber is where this takes place.",
-   "difficulty": "introductory",
+   "difficulty": "intro",
    "alternateAngles": [],
    "glossary": [
     {
@@ -334,7 +332,11 @@
    "review": {
     "content": "ai_generated",
     "sourceRefs": "ai_generated"
-   }
+   },
+   "prerequisiteKnowledge": [
+    "Tum'at keri and its consequences for the Yom Kippur service",
+    "The KG's seven-day preparation period"
+   ]
   }
  ],
  "glossary": [

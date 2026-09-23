@@ -119,10 +119,7 @@
     "Yoma.14a.1",
     "Yoma.14a.2"
    ],
-   "requiresUnderstanding": [
-    "The onen KG ruling from 13b",
-    "R. Yehuda's backup-wife position and its connection to Yom Kippur"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "'Kol hayom' means a mitzva for the onen KG to serve all day.",
@@ -140,12 +137,12 @@
    ],
    "visualizableElements": [
     {
-     "type": "contrast",
-     "desc": "Regular day (everyone eating, decree needed to prevent onen KG from eating) vs. Yom Kippur (universal fast, no risk, no decree needed)"
+     "item": "Regular day (everyone eating, decree needed to prevent onen KG from eating) vs. Yom Kippur (universal fast, no risk, no decree needed)",
+     "type": "contrast"
     },
     {
-     "type": "action",
-     "desc": "The onen KG on a regular day vs. on Yom Kippur - same person, different context, different ruling"
+     "item": "The onen KG on a regular day vs. on Yom Kippur - same person, different context, different ruling",
+     "type": "action"
     }
    ],
    "quizSeeds": [
@@ -182,7 +179,11 @@
     "concepts": "ai_generated",
     "argumentFlow": "ai_generated",
     "sourceRefs": "ai_generated"
-   }
+   },
+   "prerequisiteKnowledge": [
+    "The onen KG ruling from 13b",
+    "R. Yehuda's backup-wife position and its connection to Yom Kippur"
+   ]
   },
   {
    "sugyaNumber": 2,
@@ -245,10 +246,7 @@
    "conceptRefs": [
     "Yoma.14a.3"
    ],
-   "requiresUnderstanding": [
-    "The seven-day impurity cycle that necessitates the sequestration",
-    "The daily Temple service and its components"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "The seven-day sequestration exists only for isolation from impurity.",
@@ -266,12 +264,12 @@
    ],
    "visualizableElements": [
     {
-     "type": "timeline",
-     "desc": "Seven days of KG performing daily Temple services - building toward Yom Kippur service"
+     "item": "Seven days of KG performing daily Temple services - building toward Yom Kippur service",
+     "type": "timeline"
     },
     {
-     "type": "place",
-     "desc": "The Parhedrin chamber in the Temple - the KG's sequestration quarters for seven days before Yom Kippur"
+     "item": "The Parhedrin chamber in the Temple - the KG's sequestration quarters for seven days before Yom Kippur",
+     "type": "place"
     }
    ],
    "quizSeeds": [
@@ -293,14 +291,18 @@
     }
    ],
    "finalRuling": "The KG is sequestered for seven days before Yom Kippur and performs the daily Temple services throughout that period.",
-   "difficulty": "introductory",
+   "difficulty": "intro",
    "alternateAngles": [],
    "review": {
     "learning": "ai_generated",
     "concepts": "ai_generated",
     "argumentFlow": "ai_generated",
     "sourceRefs": "ai_generated"
-   }
+   },
+   "prerequisiteKnowledge": [
+    "The seven-day impurity cycle that necessitates the sequestration",
+    "The daily Temple service and its components"
+   ]
   },
   {
    "sugyaNumber": 3,
@@ -489,11 +491,7 @@
     "Yoma.14a.4",
     "Yoma.14a.7"
    ],
-   "requiresUnderstanding": [
-    "The para aduma purification process (Numbers 19)",
-    "The concept of tum'at met (corpse impurity) and its seven-day purification",
-    "R. Akiva's hermeneutical methods"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "Purification water simply purifies everything it touches.",
@@ -511,16 +509,16 @@
    ],
    "visualizableElements": [
     {
-     "type": "contrast",
-     "desc": "The same water: touching an impure person (purification occurs) vs. touching a pure handler (impurity occurs) - two directions, one substance"
+     "item": "The same water: touching an impure person (purification occurs) vs. touching a pure handler (impurity occurs) - two directions, one substance",
+     "type": "contrast"
     },
     {
-     "type": "action",
-     "desc": "A kohen holding hyssop dipped in mei para - the water purifies the corpse-impure person being sprinkled but makes the sprinkling kohen impure"
+     "item": "A kohen holding hyssop dipped in mei para - the water purifies the corpse-impure person being sprinkled but makes the sprinkling kohen impure",
+     "type": "action"
     },
     {
-     "type": "text",
-     "desc": "Numbers 19:19 'al ha-tamei yitaher' - the verse driving R. Akiva's paradoxical ruling"
+     "item": "Numbers 19:19 'al ha-tamei yitaher' - the verse driving R. Akiva's paradoxical ruling",
+     "type": "text"
     }
    ],
    "quizSeeds": [
@@ -554,7 +552,12 @@
     "concepts": "ai_generated",
     "argumentFlow": "ai_generated",
     "sourceRefs": "ai_generated"
-   }
+   },
+   "prerequisiteKnowledge": [
+    "The para aduma purification process (Numbers 19)",
+    "The concept of tum'at met (corpse impurity) and its seven-day purification",
+    "R. Akiva's hermeneutical methods"
+   ]
   }
  ],
  "glossary": [

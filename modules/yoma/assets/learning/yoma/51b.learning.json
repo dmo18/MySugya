@@ -87,11 +87,7 @@
     "R. Elazar resolution"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "designated service laws",
-    "Yom Kippur service exclusivity",
-    "atonement"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "'For himself' (asher lo) means the High Priest may personally benefit from and direct the Yom Kippur service, including using it to fulfill a personal vow.",
@@ -102,8 +98,8 @@
    "relatedSugyot": [],
    "visualizableElements": [
     {
+     "item": "'Which is for himself' - a single phrase that locks service to its designated purpose",
      "type": "text",
-     "description": "'Which is for himself' - a single phrase that locks service to its designated purpose",
      "role": "anchor",
      "priority": 1
     }
@@ -118,7 +114,12 @@
    "difficulty": "intermediate",
    "alternateAngles": [],
    "glossary": [],
-   "review": "reviewed"
+   "review": "reviewed",
+   "prerequisiteKnowledge": [
+    "designated service laws",
+    "Yom Kippur service exclusivity",
+    "atonement"
+   ]
   },
   {
    "sugyaNumber": 2,
@@ -195,10 +196,7 @@
     "Sanctuary walking"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "Temple directional protocols",
-    "kavod in sacred spaces"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "The HP's path through the Sanctuary on the right side is a matter of personal custom or preference.",
@@ -208,9 +206,15 @@
    ],
    "relatedSugyot": [],
    "visualizableElements": [
-    "Temple layout",
-    "HP walking path",
-    "parochet"
+    {
+     "item": "Temple layout"
+    },
+    {
+     "item": "HP walking path"
+    },
+    {
+     "item": "parochet"
+    }
    ],
    "quizSeeds": [
     {
@@ -219,10 +223,14 @@
     }
    ],
    "finalRuling": "The HP walks on the right (south) side of the Sanctuary heading west - a mark of respect (kavod).",
-   "difficulty": "introductory",
+   "difficulty": "intro",
    "alternateAngles": [],
    "glossary": [],
-   "review": "reviewed"
+   "review": "reviewed",
+   "prerequisiteKnowledge": [
+    "Temple directional protocols",
+    "kavod in sacred spaces"
+   ]
   },
   {
    "sugyaNumber": 3,
@@ -324,11 +332,7 @@
     "kapporet"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "blood sprinkling laws",
-    "Temple service counting",
-    "Holy of Holies service"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "The High Priest sprinkles the blood seven times in an upward motion and once downward inside the Holy of Holies.",
@@ -338,9 +342,15 @@
    ],
    "relatedSugyot": [],
    "visualizableElements": [
-    "HP sprinkling",
-    "kapporet",
-    "counting sequence"
+    {
+     "item": "HP sprinkling"
+    },
+    {
+     "item": "kapporet"
+    },
+    {
+     "item": "counting sequence"
+    }
    ],
    "quizSeeds": [
     {
@@ -352,7 +362,12 @@
    "difficulty": "intermediate",
    "alternateAngles": [],
    "glossary": [],
-   "review": "reviewed"
+   "review": "reviewed",
+   "prerequisiteKnowledge": [
+    "blood sprinkling laws",
+    "Temple service counting",
+    "Holy of Holies service"
+   ]
   }
  ],
  "glossary": [],

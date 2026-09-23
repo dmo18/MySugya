@@ -224,11 +224,7 @@
     "non-priest slaughter"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "red heifer laws (parah adumah)",
-    "Yom Kippur avodah sequence",
-    "ritual impurity categories"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "The dispute over whether a non-priest may slaughter applies to the Yom Kippur goat sacrifice, since both are discussed together with the crimson thread.",
@@ -241,12 +237,12 @@
    ],
    "visualizableElements": [
     {
-     "type": "person",
-     "label": "R. Yochanan contradicting his teacher"
+     "item": "R. Yochanan contradicting his teacher",
+     "type": "person"
     },
     {
-     "type": "contrast",
-     "label": "parah thread weight 10 zuz vs Yom Kippur thread 2 sela"
+     "item": "parah thread weight 10 zuz vs Yom Kippur thread 2 sela",
+     "type": "contrast"
     }
    ],
    "quizSeeds": [
@@ -263,7 +259,12 @@
    "difficulty": "intermediate",
    "review": "reviewed",
    "alternateAngles": [],
-   "glossary": []
+   "glossary": [],
+   "prerequisiteKnowledge": [
+    "red heifer laws (parah adumah)",
+    "Yom Kippur avodah sequence",
+    "ritual impurity categories"
+   ]
   }
  ],
  "glossary": [

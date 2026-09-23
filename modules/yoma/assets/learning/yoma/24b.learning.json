@@ -249,12 +249,12 @@
    ],
    "visualizableElements": [
     {
-     "type": "place",
-     "description": "Temple floor plan showing the three zones: Holy of Holies (KG only on Yom Kippur), Heichal (common priests), Courtyard (any kosher kohen) - with personnel requirements labeled"
+     "item": "Temple floor plan showing the three zones: Holy of Holies (KG only on Yom Kippur), Heichal (common priests), Courtyard (any kosher kohen) - with personnel requirements labeled",
+     "type": "place"
     },
     {
-     "type": "contrast",
-     "description": "Unblemished kohen vs. blemished kohen: same priestly status, different service eligibility"
+     "item": "Unblemished kohen vs. blemished kohen: same priestly status, different service eligibility",
+     "type": "contrast"
     }
    ],
    "quizSeeds": [
@@ -418,12 +418,12 @@
    ],
    "visualizableElements": [
     {
-     "type": "sequence",
-     "description": "The 13 positions of the second lottery listed in order: slaughter, blood, inner altar, menorah, then 9 carriers in the order of the tamid limbs"
+     "item": "The 13 positions of the second lottery listed in order: slaughter, blood, inner altar, menorah, then 9 carriers in the order of the tamid limbs",
+     "type": "sequence"
     },
     {
-     "type": "action",
-     "description": "13 priests each carrying a different part of the morning offering in procession from the slaughter area to the altar"
+     "item": "13 priests each carrying a different part of the morning offering in procession from the slaughter area to the altar",
+     "type": "action"
     }
    ],
    "quizSeeds": [

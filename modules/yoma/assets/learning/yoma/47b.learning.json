@@ -60,10 +60,7 @@
     "kometz"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "kometz laws",
-    "meal-offering varieties"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "Because a pan-prepared meal-offering has a different consistency than dry flour, it requires a different kometz quantity than the standard three-finger measure.",
@@ -74,8 +71,8 @@
    "relatedSugyot": [],
    "visualizableElements": [
     {
+     "item": "Pan meal-offering vs standard meal-offering - two vessel types, different kometz mechanics",
      "type": "object",
-     "description": "Pan meal-offering vs standard meal-offering - two vessel types, different kometz mechanics",
      "role": "contrast",
      "priority": 1
     }
@@ -90,7 +87,11 @@
    "difficulty": "intermediate",
    "alternateAngles": [],
    "glossary": [],
-   "review": "reviewed"
+   "review": "reviewed",
+   "prerequisiteKnowledge": [
+    "kometz laws",
+    "meal-offering varieties"
+   ]
   },
   {
    "sugyaNumber": 2,
@@ -201,10 +202,7 @@
     "dilemma"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "kometz laws",
-    "meal-offering precision laws"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "Any incense or flour touching any part of the High Priest's cupped hand automatically counts as a valid kometz, with no distinction between locations.",
@@ -215,8 +213,8 @@
    "relatedSugyot": [],
    "visualizableElements": [
     {
-     "type": "action",
-     "label": "bein habeinayim - flour in inter-finger spaces vs on fingerpads"
+     "item": "bein habeinayim - flour in inter-finger spaces vs on fingerpads",
+     "type": "action"
     }
    ],
    "quizSeeds": [
@@ -229,7 +227,11 @@
    "difficulty": "advanced",
    "alternateAngles": [],
    "glossary": [],
-   "review": "reviewed"
+   "review": "reviewed",
+   "prerequisiteKnowledge": [
+    "kometz laws",
+    "meal-offering precision laws"
+   ]
   },
   {
    "sugyaNumber": 3,
@@ -336,10 +338,7 @@
     "geometry dilemmas"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "kometz precision laws",
-    "meal-offering laws"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "Pashat, machatz, and pizer are essentially the same question about altering the kometz, raised once and not as three separate dilemmas.",
@@ -350,8 +349,8 @@
    "relatedSugyot": [],
    "visualizableElements": [
     {
-     "type": "action",
-     "label": "three kometz geometry alterations: extended, pressed, spread"
+     "item": "three kometz geometry alterations: extended, pressed, spread",
+     "type": "action"
     }
    ],
    "quizSeeds": [
@@ -364,7 +363,11 @@
    "difficulty": "advanced",
    "alternateAngles": [],
    "glossary": [],
-   "review": "reviewed"
+   "review": "reviewed",
+   "prerequisiteKnowledge": [
+    "kometz precision laws",
+    "meal-offering laws"
+   ]
   },
   {
    "sugyaNumber": 4,
@@ -422,10 +425,7 @@
     "Yom Kippur"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "Yom Kippur service timing laws",
-    "kometz laws"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "If the High Priest takes the kometz too early, at midnight, the act becomes valid retroactively once daylight - the permitted time - arrives.",
@@ -436,8 +436,8 @@
    "relatedSugyot": [],
    "visualizableElements": [
     {
+     "item": "Midnight kometz vs permitted dawn: sequence of when scooping must occur",
      "type": "timeline",
-     "description": "Midnight kometz vs permitted dawn: sequence of when scooping must occur",
      "role": "anchor",
      "priority": 1
     }
@@ -452,7 +452,11 @@
    "difficulty": "advanced",
    "alternateAngles": [],
    "glossary": [],
-   "review": "reviewed"
+   "review": "reviewed",
+   "prerequisiteKnowledge": [
+    "Yom Kippur service timing laws",
+    "kometz laws"
+   ]
   }
  ],
  "glossary": [

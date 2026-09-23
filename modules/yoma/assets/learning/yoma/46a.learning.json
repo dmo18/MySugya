@@ -182,11 +182,7 @@
     "public vs private offerings"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "altar fire arrangements",
-    "Shabbat overriding laws",
-    "ritual impurity and Temple service"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "Any offering brought in the Temple, communal or individual, overrides Shabbat and ritual impurity restrictions.",
@@ -199,12 +195,12 @@
    ],
    "visualizableElements": [
     {
-     "type": "contrast",
-     "label": "communal offerings override Shabbat/tumah vs private offerings do not"
+     "item": "communal offerings override Shabbat/tumah vs private offerings do not",
+     "type": "contrast"
     },
     {
-     "type": "place",
-     "label": "sides of altar - not valid positions for wood arrangement"
+     "item": "sides of altar - not valid positions for wood arrangement",
+     "type": "place"
     }
    ],
    "quizSeeds": [
@@ -217,7 +213,12 @@
    "difficulty": "intermediate",
    "alternateAngles": [],
    "glossary": [],
-   "review": "reviewed"
+   "review": "reviewed",
+   "prerequisiteKnowledge": [
+    "altar fire arrangements",
+    "Shabbat overriding laws",
+    "ritual impurity and Temple service"
+   ]
   }
  ],
  "glossary": [

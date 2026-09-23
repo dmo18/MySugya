@@ -130,10 +130,7 @@
     "immersion"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "KG garment sequence",
-    "five immersions and ten sanctifications"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "'Other garments' means the High Priest changes into ordinary, non-sacred clothing during Yom Kippur.",
@@ -146,8 +143,8 @@
    ],
    "visualizableElements": [
     {
-     "type": "text",
-     "description": "Verse analysis: 'other garments' = other sacred garments"
+     "item": "Verse analysis: 'other garments' = other sacred garments",
+     "type": "text"
     }
    ],
    "quizSeeds": [
@@ -161,7 +158,11 @@
    "difficulty": "intermediate",
    "alternateAngles": [],
    "glossary": [],
-   "review": "reviewed"
+   "review": "reviewed",
+   "prerequisiteKnowledge": [
+    "KG garment sequence",
+    "five immersions and ten sanctifications"
+   ]
   },
   {
    "sugyaNumber": 2,
@@ -357,8 +358,8 @@
    ],
    "visualizableElements": [
     {
-     "type": "contrast",
-     "description": "Three figures: poor/rich/wicked and their paradigmatic responses"
+     "item": "Three figures: poor/rich/wicked and their paradigmatic responses",
+     "type": "contrast"
     }
    ],
    "quizSeeds": [
@@ -369,7 +370,7 @@
     }
    ],
    "finalRuling": "No one can claim poverty, wealth, or evil inclination as an excuse; Hillel, Elazar ben Charsum, and Joseph demonstrate the rebuttal.",
-   "difficulty": "introductory",
+   "difficulty": "intro",
    "alternateAngles": [
     {
      "angle": "Educational",
@@ -451,10 +452,7 @@
     "Temple service"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "semicha (laying on of hands)",
-    "Yom Kippur Avodah sequence"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "The bull's position between the vestibule and the altar is a minor logistical detail with no legal significance.",
@@ -467,8 +465,8 @@
    ],
    "visualizableElements": [
     {
-     "type": "place",
-     "description": "Bull between vestibule and altar; KG east facing west"
+     "item": "Bull between vestibule and altar; KG east facing west",
+     "type": "place"
     }
    ],
    "quizSeeds": [
@@ -479,10 +477,14 @@
     }
    ],
    "finalRuling": "The bull stands between the vestibule and altar, head south, face west; the KG stands east facing west, hands on the bull.",
-   "difficulty": "introductory",
+   "difficulty": "intro",
    "alternateAngles": [],
    "glossary": [],
-   "review": "reviewed"
+   "review": "reviewed",
+   "prerequisiteKnowledge": [
+    "semicha (laying on of hands)",
+    "Yom Kippur Avodah sequence"
+   ]
   }
  ],
  "glossary": [],

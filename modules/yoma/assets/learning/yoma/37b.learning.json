@@ -58,10 +58,7 @@
     "laver"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "laver (kiyor)",
-    "Temple purity rules"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "Ben Katin specially commissioned the winding mechanism from craftsmen skilled in Temple metalwork.",
@@ -74,8 +71,8 @@
    ],
    "visualizableElements": [
     {
-     "type": "object",
-     "description": "Knife handle rods used as a winding mechanism for the laver cistern"
+     "item": "Knife handle rods used as a winding mechanism for the laver cistern",
+     "type": "object"
     }
    ],
    "quizSeeds": [
@@ -86,10 +83,14 @@
     }
    ],
    "finalRuling": "Ben Katin's laver winding mechanism was made of knife handle wood (bid'ot sakinin).",
-   "difficulty": "introductory",
+   "difficulty": "intro",
    "alternateAngles": [],
    "glossary": [],
-   "review": "reviewed"
+   "review": "reviewed",
+   "prerequisiteKnowledge": [
+    "laver (kiyor)",
+    "Temple purity rules"
+   ]
   },
   {
    "sugyaNumber": 2,
@@ -176,8 +177,8 @@
    ],
    "visualizableElements": [
     {
-     "type": "narrative",
-     "description": "Nicanor throws one door in sea to save the ship; it miraculously appears at Akko"
+     "item": "Nicanor throws one door in sea to save the ship; it miraculously appears at Akko",
+     "type": "narrative"
     }
    ],
    "quizSeeds": [
@@ -188,7 +189,7 @@
     }
    ],
    "finalRuling": "Queen Helene donated a golden candlestick; Nicanor's door thrown at sea miraculously arrived at Akko.",
-   "difficulty": "introductory",
+   "difficulty": "intro",
    "alternateAngles": [],
    "glossary": [],
    "review": "reviewed"
@@ -283,10 +284,7 @@
     "historical precedent"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "get (bill of divorce)",
-    "seirugim (alternating script)"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "Queen Helene's golden tablet in the Temple was purely decorative - it had no legal or textual significance.",
@@ -299,8 +297,8 @@
    ],
    "visualizableElements": [
     {
-     "type": "text",
-     "description": "Helene's golden tablet with sotah passage in seirugim → valid model for gittin"
+     "item": "Helene's golden tablet with sotah passage in seirugim → valid model for gittin",
+     "type": "text"
     }
    ],
    "quizSeeds": [
@@ -314,7 +312,11 @@
    "difficulty": "intermediate",
    "alternateAngles": [],
    "glossary": [],
-   "review": "reviewed"
+   "review": "reviewed",
+   "prerequisiteKnowledge": [
+    "get (bill of divorce)",
+    "seirugim (alternating script)"
+   ]
   }
  ],
  "glossary": [],

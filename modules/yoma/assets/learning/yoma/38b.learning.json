@@ -70,8 +70,8 @@
    ],
    "visualizableElements": [
     {
-     "type": "text",
-     "description": "From yours they give you - Temple resources ultimately come from God"
+     "item": "From yours they give you - Temple resources ultimately come from God",
+     "type": "text"
     }
    ],
    "quizSeeds": [
@@ -82,7 +82,7 @@
     }
    ],
    "finalRuling": "'From yours they give you' - God provides all that is needed for the Temple service.",
-   "difficulty": "introductory",
+   "difficulty": "intro",
    "alternateAngles": [],
    "glossary": [],
    "review": "reviewed"
@@ -159,9 +159,7 @@
     "Temple families"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "Levitical music"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "Hugras ben Levi's vocal technique was widely celebrated and is described positively in the Talmud.",
@@ -174,8 +172,8 @@
    ],
    "visualizableElements": [
     {
-     "type": "action",
-     "description": "Hugras puts thumb in mouth to produce special trill for Temple Levitical songs"
+     "item": "Hugras puts thumb in mouth to produce special trill for Temple Levitical songs",
+     "type": "action"
     }
    ],
    "quizSeeds": [
@@ -186,10 +184,13 @@
     }
    ],
    "finalRuling": "Hugras's vocal trill (thumb in mouth) was extraordinary but never taught; lost at his death.",
-   "difficulty": "introductory",
+   "difficulty": "intro",
    "alternateAngles": [],
    "glossary": [],
-   "review": "reviewed"
+   "review": "reviewed",
+   "prerequisiteKnowledge": [
+    "Levitical music"
+   ]
   },
   {
    "sugyaNumber": 3,
@@ -349,8 +350,8 @@
    ],
    "visualizableElements": [
     {
-     "type": "contrast",
-     "description": "Righteous remembered for blessing; wicked remembered for shame - both permanent"
+     "item": "Righteous remembered for blessing; wicked remembered for shame - both permanent",
+     "type": "contrast"
     }
    ],
    "quizSeeds": [
@@ -542,8 +543,8 @@
    ],
    "visualizableElements": [
     {
-     "type": "contrast",
-     "description": "Blessing of righteous = inverse of curse of wicked; both taught from the same Mishna"
+     "item": "Blessing of righteous = inverse of curse of wicked; both taught from the same Mishna",
+     "type": "contrast"
     }
    ],
    "quizSeeds": [

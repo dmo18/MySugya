@@ -67,10 +67,7 @@
    "conceptRefs": [
     "Yoma.12b.1"
    ],
-   "requiresUnderstanding": [
-    "The 12a problem of the replacement KG's inauguration method",
-    "Moshe's initiation of the Mishkan vs. later generations"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "The replacement KG needs a special ceremony parallel to the original KG's multiple days of service.",
@@ -84,12 +81,12 @@
    ],
    "visualizableElements": [
     {
-     "type": "action",
-     "desc": "KG in full 8 garments beginning Yom Kippur service - the first act as his inauguration"
+     "item": "KG in full 8 garments beginning Yom Kippur service - the first act as his inauguration",
+     "type": "action"
     },
     {
-     "type": "contrast",
-     "desc": "Moshe anointing the golden spoon vs. later kohen simply using it in service"
+     "item": "Moshe anointing the golden spoon vs. later kohen simply using it in service",
+     "type": "contrast"
     }
    ],
    "quizSeeds": [
@@ -117,7 +114,11 @@
     "concepts": "ai_generated",
     "argumentFlow": "ai_generated",
     "sourceRefs": "ai_generated"
-   }
+   },
+   "prerequisiteKnowledge": [
+    "The 12a problem of the replacement KG's inauguration method",
+    "Moshe's initiation of the Mishkan vs. later generations"
+   ]
   },
   {
    "sugyaNumber": 2,
@@ -266,10 +267,7 @@
     "Yoma.12b.2",
     "Yoma.12b.8"
    ],
-   "requiresUnderstanding": [
-    "Four garments of the common priest vs. eight garments of the KG",
-    "The KG's special Yom Kippur linen garments"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "The common priest's belt simply matches the KG's Yom Kippur belt since both become 'linen garments' on that day.",
@@ -287,12 +285,12 @@
    ],
    "visualizableElements": [
     {
-     "type": "contrast",
-     "desc": "Side-by-side: KG in full 8 garments with kilayim belt (regular year) vs. KG in 4 linen garments (YK) vs. common priest with disputed belt"
+     "item": "Side-by-side: KG in full 8 garments with kilayim belt (regular year) vs. KG in 4 linen garments (YK) vs. common priest with disputed belt",
+     "type": "contrast"
     },
     {
-     "type": "text",
-     "desc": "The verse 'al besaro yilbash' (Leviticus 6:3) as the baraita's source"
+     "item": "The verse 'al besaro yilbash' (Leviticus 6:3) as the baraita's source",
+     "type": "text"
     }
    ],
    "quizSeeds": [
@@ -320,7 +318,11 @@
     "concepts": "ai_generated",
     "argumentFlow": "ai_generated",
     "sourceRefs": "ai_generated"
-   }
+   },
+   "prerequisiteKnowledge": [
+    "Four garments of the common priest vs. eight garments of the KG",
+    "The KG's special Yom Kippur linen garments"
+   ]
   },
   {
    "sugyaNumber": 3,
@@ -434,10 +436,7 @@
     "Yoma.12b.11",
     "Yoma.12b.13"
    ],
-   "requiresUnderstanding": [
-    "The distinction between KG and common priest obligations",
-    "How the replacement KG was appointed in the first place (12a-12b)"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "The replacement automatically returns to regular priesthood once the original recovers.",
@@ -455,16 +454,16 @@
    ],
    "visualizableElements": [
     {
-     "type": "people",
-     "desc": "Yosef ben Elem of Tzippori: a historical kohen gadol appointed as backup who was left in suspended status"
+     "item": "Yosef ben Elem of Tzippori: a historical kohen gadol appointed as backup who was left in suspended status",
+     "type": "people"
     },
     {
-     "type": "contrast",
-     "desc": "R. Meir's replacement (retains KG obligations) vs. R. Yosei's replacement (suspended from both offices)"
+     "item": "R. Meir's replacement (retains KG obligations) vs. R. Yosei's replacement (suspended from both offices)",
+     "type": "contrast"
     },
     {
-     "type": "relationship",
-     "desc": "Original KG resumes full duties - replacement is blocked above (KG taken) and below (cannot demote)"
+     "item": "Original KG resumes full duties - replacement is blocked above (KG taken) and below (cannot demote)",
+     "type": "relationship"
     }
    ],
    "quizSeeds": [
@@ -492,7 +491,11 @@
     "concepts": "ai_generated",
     "argumentFlow": "ai_generated",
     "sourceRefs": "ai_generated"
-   }
+   },
+   "prerequisiteKnowledge": [
+    "The distinction between KG and common priest obligations",
+    "How the replacement KG was appointed in the first place (12a-12b)"
+   ]
   }
  ],
  "glossary": [

@@ -151,10 +151,7 @@
     "Yom Kippur"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "Understanding what breira means in halachic reasoning",
-    "Knowing the Yom Kippur service requires explicit counting"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "Breira means that once you know how things turned out, you can retroactively declare what your original intention was, and this always works in halacha.",
@@ -164,12 +161,12 @@
    "relatedSugyot": [],
    "visualizableElements": [
     {
-     "type": "contrast",
-     "name": "breira vs. real-time certainty in Yom Kippur service"
+     "item": "breira vs. real-time certainty in Yom Kippur service",
+     "type": "contrast"
     },
     {
-     "type": "relationship",
-     "name": "eruv law as lens for understanding breira principle"
+     "item": "eruv law as lens for understanding breira principle",
+     "type": "relationship"
     }
    ],
    "quizSeeds": [
@@ -182,7 +179,11 @@
    "difficulty": "advanced",
    "alternateAngles": [],
    "glossary": [],
-   "review": "reviewed"
+   "review": "reviewed",
+   "prerequisiteKnowledge": [
+    "Understanding what breira means in halachic reasoning",
+    "Knowing the Yom Kippur service requires explicit counting"
+   ]
   },
   {
    "sugyaNumber": 2,
@@ -259,10 +260,7 @@
     "once above seven below"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "Knowing the parochet separates the Holy of Holies from the Heichal",
-    "Knowing the HP sprinkles on the side facing the Heichal"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "The HP does not touch the parochet itself - he only sprinkles toward it from a distance without following a specific count.",
@@ -272,12 +270,12 @@
    "relatedSugyot": [],
    "visualizableElements": [
     {
-     "type": "place",
-     "name": "parochet curtain"
+     "item": "parochet curtain",
+     "type": "place"
     },
     {
-     "type": "action",
-     "name": "once above seven below on the curtain surface"
+     "item": "once above seven below on the curtain surface",
+     "type": "action"
     }
    ],
    "quizSeeds": [
@@ -287,10 +285,14 @@
     }
    ],
    "finalRuling": "The HP sprinkles bull blood once above and seven below on the parochet, extending the inner service formula to the curtain boundary.",
-   "difficulty": "introductory",
+   "difficulty": "intro",
    "alternateAngles": [],
    "glossary": [],
-   "review": "reviewed"
+   "review": "reviewed",
+   "prerequisiteKnowledge": [
+    "Knowing the parochet separates the Holy of Holies from the Heichal",
+    "Knowing the HP sprinkles on the side facing the Heichal"
+   ]
   },
   {
    "sugyaNumber": 3,
@@ -385,10 +387,7 @@
     "parochet complete service"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "Knowing the bull service must precede the goat service in all phases",
-    "Knowing the total count at each zone"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "The parochet receives eight total sprinklings - one combined set of eight from both blood services.",
@@ -398,12 +397,12 @@
    "relatedSugyot": [],
    "visualizableElements": [
     {
-     "type": "sequence",
-     "name": "bull then goat parochet service"
+     "item": "bull then goat parochet service",
+     "type": "sequence"
     },
     {
-     "type": "object",
-     "name": "parochet receiving both bloods"
+     "item": "parochet receiving both bloods",
+     "type": "object"
     }
    ],
    "quizSeeds": [
@@ -413,10 +412,14 @@
     }
    ],
    "finalRuling": "The parochet receives sixteen total sprinkles: 8 from bull blood and 8 from goat blood, mirroring the inner kapporet service.",
-   "difficulty": "introductory",
+   "difficulty": "intro",
    "alternateAngles": [],
    "glossary": [],
-   "review": "reviewed"
+   "review": "reviewed",
+   "prerequisiteKnowledge": [
+    "Knowing the bull service must precede the goat service in all phases",
+    "Knowing the total count at each zone"
+   ]
   }
  ],
  "glossary": [],

@@ -118,12 +118,12 @@
    ],
    "visualizableElements": [
     {
-     "type": "contrast",
-     "description": "Standard priestly four garments (full size, fine) vs. ash removal four garments (quarter size, worn) - same type, different dimensions"
+     "item": "Standard priestly four garments (full size, fine) vs. ash removal four garments (quarter size, worn) - same type, different dimensions",
+     "type": "contrast"
     },
     {
-     "type": "object",
-     "description": "A priest in smaller worn linen garments removing ash from the altar, with the fine garments hung nearby for the main morning service"
+     "item": "A priest in smaller worn linen garments removing ash from the altar, with the fine garments hung nearby for the main morning service",
+     "type": "object"
     }
    ],
    "quizSeeds": [
@@ -220,8 +220,8 @@
    ],
    "visualizableElements": [
     {
-     "type": "object",
-     "description": "A golden pan (machta shel zahav) being filled with a fistful of ash from the top of the altar heap"
+     "item": "A golden pan (machta shel zahav) being filled with a fistful of ash from the top of the altar heap",
+     "type": "object"
     }
    ],
    "quizSeeds": [
@@ -231,7 +231,7 @@
     }
    ],
    "finalRuling": "A fistful of ash from the top of the altar heap is placed in the golden pan. Fixed quantity, specific location.",
-   "difficulty": "introductory",
+   "difficulty": "intro",
    "alternateAngles": [],
    "glossary": [
     {
@@ -370,12 +370,12 @@
    ],
    "visualizableElements": [
     {
-     "type": "contrast",
-     "description": "Service tasks (priests only: blood, sprinkling, burning) vs. support tasks (non-priests eligible: slaughter, wood, ash carrying). Shown as two columns."
+     "item": "Service tasks (priests only: blood, sprinkling, burning) vs. support tasks (non-priests eligible: slaughter, wood, ash carrying). Shown as two columns.",
+     "type": "contrast"
     },
     {
-     "type": "action",
-     "description": "An Israelite (non-priest) slaughtering an offering while a priest stands ready to receive the blood in a sacred vessel"
+     "item": "An Israelite (non-priest) slaughtering an offering while a priest stands ready to receive the blood in a sacred vessel",
+     "type": "action"
     }
    ],
    "quizSeeds": [

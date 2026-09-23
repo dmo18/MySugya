@@ -591,12 +591,7 @@
     "Rav Hamnuna"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "kohen (priest) status",
-    "Temple service categories",
-    "shechita (slaughter)",
-    "blood service"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "Slaughter of the tamid requires a kohen.",
@@ -618,14 +613,14 @@
    ],
    "visualizableElements": [
     {
+     "item": "Table showing: slaughter/flaying/cutting (non-priest OK) vs blood-collection/sprinkling/wood arrangement/limb placement (priest required)",
      "type": "contrast",
-     "label": "Priest-required vs non-priest-valid services",
-     "description": "Table showing: slaughter/flaying/cutting (non-priest OK) vs blood-collection/sprinkling/wood arrangement/limb placement (priest required)"
+     "label": "Priest-required vs non-priest-valid services"
     },
     {
+     "item": "Sequential tamid steps with the blood-collection boundary marked",
      "type": "timeline",
-     "label": "Tamid service steps with priestly threshold",
-     "description": "Sequential tamid steps with the blood-collection boundary marked"
+     "label": "Tamid service steps with priestly threshold"
     }
    ],
    "quizSeeds": [
@@ -641,7 +636,13 @@
    "finalRuling": "Non-priests may slaughter, flay, and cut Temple offerings; these steps are valid. Blood-collection, sprinkling, wood arrangement on the fire, and limb placement all require priests.",
    "difficulty": "advanced",
    "alternateAngles": [],
-   "review": "reviewed"
+   "review": "reviewed",
+   "prerequisiteKnowledge": [
+    "kohen (priest) status",
+    "Temple service categories",
+    "shechita (slaughter)",
+    "blood service"
+   ]
   }
  ]
 }

@@ -115,11 +115,7 @@
     "mussaf"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "HP's five immersions",
-    "Torat Kohanim vs Numbers sequence",
-    "ladle and fire-pan removal"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "The HP only immersed once during the Yom Kippur service",
@@ -130,8 +126,8 @@
    "relatedSugyot": [],
    "visualizableElements": [
     {
+     "item": "Five immersions: (1) first service - white; (2) bull burning - gold; (3) rams + eimurim - white; (4) ladle and fire-pan - white; (5) afternoon tamid + mussafin - gold",
      "type": "timeline",
-     "description": "Five immersions: (1) first service - white; (2) bull burning - gold; (3) rams + eimurim - white; (4) ladle and fire-pan - white; (5) afternoon tamid + mussafin - gold",
      "role": "anchor",
      "priority": 1
     }
@@ -147,7 +143,12 @@
    "difficulty": "advanced",
    "alternateAngles": [],
    "glossary": [],
-   "review": "reviewed"
+   "review": "reviewed",
+   "prerequisiteKnowledge": [
+    "HP's five immersions",
+    "Torat Kohanim vs Numbers sequence",
+    "ladle and fire-pan removal"
+   ]
   },
   {
    "sugyaNumber": 2,
@@ -308,11 +309,7 @@
     "service-sequence"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "kiyor function in Temple service",
-    "HP's five immersions",
-    "white linen vs golden vestments"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "The HP wore the same vestments throughout Yom Kippur",
@@ -323,8 +320,8 @@
    "relatedSugyot": [],
    "visualizableElements": [
     {
+     "item": "Five vestment changes: white-gold-white-white-gold, with immersion and kiyor sanctification at each transition",
      "type": "sequence",
-     "description": "Five vestment changes: white-gold-white-white-gold, with immersion and kiyor sanctification at each transition",
      "role": "anchor",
      "priority": 1
     }
@@ -340,7 +337,12 @@
    "difficulty": "advanced",
    "alternateAngles": [],
    "glossary": [],
-   "review": "reviewed"
+   "review": "reviewed",
+   "prerequisiteKnowledge": [
+    "kiyor function in Temple service",
+    "HP's five immersions",
+    "white linen vs golden vestments"
+   ]
   },
   {
    "sugyaNumber": 3,
@@ -397,10 +399,7 @@
     "service-boundary"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "kiyor function",
-    "sanctification requirements in Temple service"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "Any vessel of water could be used for the HP's Yom Kippur sanctification",
@@ -411,8 +410,8 @@
    "relatedSugyot": [],
    "visualizableElements": [
     {
+     "item": "HP approaching the kiyor ten times throughout the day - hands and feet, before each service",
      "type": "action",
-     "description": "HP approaching the kiyor ten times throughout the day - hands and feet, before each service",
      "role": "anchor",
      "priority": 1
     }
@@ -425,10 +424,14 @@
     }
    ],
    "finalRuling": "The HP sanctified from the kiyor ten times on Yom Kippur.",
-   "difficulty": "introductory",
+   "difficulty": "intro",
    "alternateAngles": [],
    "glossary": [],
-   "review": "reviewed"
+   "review": "reviewed",
+   "prerequisiteKnowledge": [
+    "kiyor function",
+    "sanctification requirements in Temple service"
+   ]
   }
  ],
  "glossary": [],

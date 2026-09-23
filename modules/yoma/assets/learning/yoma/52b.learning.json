@@ -92,11 +92,7 @@
     "biblical interpretation"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "tzara'at laws",
-    "Temple Menorah description",
-    "biblical lexicography"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "The meaning of every word in the Torah was always perfectly clear to the Sages through the Oral Torah tradition.",
@@ -106,8 +102,8 @@
    "relatedSugyot": [],
    "visualizableElements": [
     {
+     "item": "Four Torah words with uncertain meanings: Se'et, Meshukkadim, Mahar, Arur",
      "type": "text",
-     "description": "Four Torah words with uncertain meanings: Se'et, Meshukkadim, Mahar, Arur",
      "role": "anchor",
      "priority": 1
     }
@@ -122,7 +118,12 @@
    "difficulty": "intermediate",
    "alternateAngles": [],
    "glossary": [],
-   "review": "reviewed"
+   "review": "reviewed",
+   "prerequisiteKnowledge": [
+    "tzara'at laws",
+    "Temple Menorah description",
+    "biblical lexicography"
+   ]
   },
   {
    "sugyaNumber": 2,
@@ -209,11 +210,7 @@
     "outer parochet"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "Temple architecture",
-    "parochet structure",
-    "HP entry path"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "The parochet hookings were placed on the south side for purely structural reasons with no bearing on the ritual.",
@@ -222,9 +219,15 @@
    ],
    "relatedSugyot": [],
    "visualizableElements": [
-    "Sanctuary curtain",
-    "hookings",
-    "Temple layout"
+    {
+     "item": "Sanctuary curtain"
+    },
+    {
+     "item": "hookings"
+    },
+    {
+     "item": "Temple layout"
+    }
    ],
    "quizSeeds": [
     {
@@ -236,7 +239,12 @@
    "difficulty": "intermediate",
    "alternateAngles": [],
    "glossary": [],
-   "review": "reviewed"
+   "review": "reviewed",
+   "prerequisiteKnowledge": [
+    "Temple architecture",
+    "parochet structure",
+    "HP entry path"
+   ]
   },
   {
    "sugyaNumber": 3,
@@ -329,11 +337,7 @@
     "Ark of the Covenant"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "Second Temple period",
-    "Ark of the Covenant",
-    "blood sprinkling location"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "The Ark was destroyed by the Babylonians, so the Second Temple had no valid target for the Yom Kippur blood sprinkling.",
@@ -342,10 +346,18 @@
    ],
    "relatedSugyot": [],
    "visualizableElements": [
-    "Ark of the Covenant",
-    "Josiah",
-    "foundation stone",
-    "Holy of Holies"
+    {
+     "item": "Ark of the Covenant"
+    },
+    {
+     "item": "Josiah"
+    },
+    {
+     "item": "foundation stone"
+    },
+    {
+     "item": "Holy of Holies"
+    }
    ],
    "quizSeeds": [
     {
@@ -357,7 +369,12 @@
    "difficulty": "intermediate",
    "alternateAngles": [],
    "glossary": [],
-   "review": "reviewed"
+   "review": "reviewed",
+   "prerequisiteKnowledge": [
+    "Second Temple period",
+    "Ark of the Covenant",
+    "blood sprinkling location"
+   ]
   },
   {
    "sugyaNumber": 4,
@@ -435,11 +452,7 @@
     "kapporet"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "incense service",
-    "Holy of Holies service order",
-    "protective cloud"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "The HP prepares the full incense cloud outside the Holy of Holies before entering, so he enters already surrounded by smoke.",
@@ -448,10 +461,18 @@
    ],
    "relatedSugyot": [],
    "visualizableElements": [
-    "HP",
-    "coal pan",
-    "incense smoke",
-    "Holy of Holies"
+    {
+     "item": "HP"
+    },
+    {
+     "item": "coal pan"
+    },
+    {
+     "item": "incense smoke"
+    },
+    {
+     "item": "Holy of Holies"
+    }
    ],
    "quizSeeds": [
     {
@@ -463,7 +484,12 @@
    "difficulty": "intermediate",
    "alternateAngles": [],
    "glossary": [],
-   "review": "reviewed"
+   "review": "reviewed",
+   "prerequisiteKnowledge": [
+    "incense service",
+    "Holy of Holies service order",
+    "protective cloud"
+   ]
   }
  ],
  "glossary": [],

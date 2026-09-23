@@ -164,11 +164,7 @@
     "Temple geography"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "The tribal allocation of Eretz Yisrael",
-    "The tzaraat of buildings law requiring private ownership",
-    "The layout of the Temple complex"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "The tribal geography of Jerusalem is purely historical and not relevant to halakha.",
@@ -177,8 +173,12 @@
    ],
    "relatedSugyot": [],
    "visualizableElements": [
-    "Temple map with tribal boundary line showing Judah/Benjamin division",
-    "List: Altar (Benjamin) vs. Lishkat HaGazit (Judah)"
+    {
+     "item": "Temple map with tribal boundary line showing Judah/Benjamin division"
+    },
+    {
+     "item": "List: Altar (Benjamin) vs. Lishkat HaGazit (Judah)"
+    }
    ],
    "quizSeeds": [
     {
@@ -203,7 +203,12 @@
     "Yoma.12a.7",
     "Yoma.12a.8"
    ],
-   "review": "ai_generated"
+   "review": "ai_generated",
+   "prerequisiteKnowledge": [
+    "The tribal allocation of Eretz Yisrael",
+    "The tzaraat of buildings law requiring private ownership",
+    "The layout of the Temple complex"
+   ]
   },
   {
    "sugyaNumber": 2,
@@ -326,11 +331,7 @@
     "emergency"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "The investiture process for a Cohen Gadol normally (including the seven-day process)",
-    "The eight garments of the Cohen Gadol and what they symbolize",
-    "The Yom Kippur service structure and why replacing the Cohen Gadol mid-ceremony is a genuine emergency"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "Any kohen can substitute for the Cohen Gadol by just showing up.",
@@ -339,8 +340,12 @@
    ],
    "relatedSugyot": [],
    "visualizableElements": [
-    "Diagram of eight Cohen Gadol garments with each labeled",
-    "Timeline: normal investiture (7 days) vs. emergency investiture (belt? / all eight garments?)"
+    {
+     "item": "Diagram of eight Cohen Gadol garments with each labeled"
+    },
+    {
+     "item": "Timeline: normal investiture (7 days) vs. emergency investiture (belt? / all eight garments?)"
+    }
    ],
    "quizSeeds": [
     {
@@ -361,7 +366,12 @@
     "Yoma.12a.11",
     "Yoma.12a.12"
    ],
-   "review": "ai_generated"
+   "review": "ai_generated",
+   "prerequisiteKnowledge": [
+    "The investiture process for a Cohen Gadol normally (including the seven-day process)",
+    "The eight garments of the Cohen Gadol and what they symbolize",
+    "The Yom Kippur service structure and why replacing the Cohen Gadol mid-ceremony is a genuine emergency"
+   ]
   }
  ],
  "glossary": [

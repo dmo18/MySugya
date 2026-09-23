@@ -77,10 +77,7 @@
     "sequence"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "Knowing the blood services are all performed before the scapegoat",
-    "Knowing the HP's Torah reading comes after the scapegoat"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "The scapegoat could be sent first as the primary public atonement act, before the blood services begin.",
@@ -90,12 +87,12 @@
    "relatedSugyot": [],
    "visualizableElements": [
     {
-     "type": "timeline",
-     "name": "Yom Kippur service order from start to finish"
+     "item": "Yom Kippur service order from start to finish",
+     "type": "timeline"
     },
     {
-     "type": "sequence",
-     "name": "blood services then scapegoat then Torah reading"
+     "item": "blood services then scapegoat then Torah reading",
+     "type": "sequence"
     }
    ],
    "quizSeeds": [
@@ -105,10 +102,14 @@
     }
    ],
    "finalRuling": "All blood services are completed before the scapegoat is dispatched; the scapegoat is followed by the Torah reading.",
-   "difficulty": "introductory",
+   "difficulty": "intro",
    "alternateAngles": [],
    "glossary": [],
-   "review": "reviewed"
+   "review": "reviewed",
+   "prerequisiteKnowledge": [
+    "Knowing the blood services are all performed before the scapegoat",
+    "Knowing the HP's Torah reading comes after the scapegoat"
+   ]
   },
   {
    "sugyaNumber": 2,
@@ -224,10 +225,7 @@
     "Yom Kippur public service"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "Knowing the HP reads Leviticus from a scroll and Numbers by memory",
-    "Knowing which eight blessings are recited"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "The HP reads both Torah portions from the actual scroll; reading by heart is never an acceptable substitute for public Torah reading.",
@@ -237,16 +235,16 @@
    "relatedSugyot": [],
    "visualizableElements": [
     {
-     "type": "person",
-     "name": "HP reading Torah to assembled community"
+     "item": "HP reading Torah to assembled community",
+     "type": "person"
     },
     {
-     "type": "action",
-     "name": "eight blessings after Torah reading"
+     "item": "eight blessings after Torah reading",
+     "type": "action"
     },
     {
-     "type": "action",
-     "name": "community prostration at Divine Name"
+     "item": "community prostration at Divine Name",
+     "type": "action"
     }
    ],
    "quizSeeds": [
@@ -256,10 +254,14 @@
     }
    ],
    "finalRuling": "The HP reads the Yom Kippur Torah portions and recites eight blessings to the assembled community, who prostrate at the Divine Name.",
-   "difficulty": "introductory",
+   "difficulty": "intro",
    "alternateAngles": [],
    "glossary": [],
-   "review": "reviewed"
+   "review": "reviewed",
+   "prerequisiteKnowledge": [
+    "Knowing the HP reads Leviticus from a scroll and Numbers by memory",
+    "Knowing which eight blessings are recited"
+   ]
   },
   {
    "sugyaNumber": 3,
@@ -339,10 +341,7 @@
     "priests"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "Knowing the standard blessing categories",
-    "Understanding why Yom Kippur includes a comprehensive covenantal prayer"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "There are eight blessings but they cover nine distinct categories - one blessing category is doubled.",
@@ -352,12 +351,12 @@
    "relatedSugyot": [],
    "visualizableElements": [
     {
-     "type": "sequence",
-     "name": "eight blessings in order"
+     "item": "eight blessings in order",
+     "type": "sequence"
     },
     {
-     "type": "relationship",
-     "name": "blessings as pillars of Jewish covenant theology"
+     "item": "blessings as pillars of Jewish covenant theology",
+     "type": "relationship"
     }
    ],
    "quizSeeds": [
@@ -367,10 +366,14 @@
     }
    ],
    "finalRuling": "The eight blessings after the Torah reading cover all major pillars of the Jewish covenant: Torah, service, gratitude, forgiveness, Temple, people, city, and priesthood.",
-   "difficulty": "introductory",
+   "difficulty": "intro",
    "alternateAngles": [],
    "glossary": [],
-   "review": "reviewed"
+   "review": "reviewed",
+   "prerequisiteKnowledge": [
+    "Knowing the standard blessing categories",
+    "Understanding why Yom Kippur includes a comprehensive covenantal prayer"
+   ]
   },
   {
    "sugyaNumber": 4,
@@ -448,10 +451,7 @@
     "recitation from memory"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "Knowing the three Yom Kippur Torah portions",
-    "Understanding why the Numbers portion is recited from memory"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "The HP reads from the actual Torah scroll for both portions of the Yom Kippur public Torah reading.",
@@ -461,12 +461,12 @@
    "relatedSugyot": [],
    "visualizableElements": [
     {
-     "type": "text",
-     "name": "Leviticus 16 and 23 read from scroll"
+     "item": "Leviticus 16 and 23 read from scroll",
+     "type": "text"
     },
     {
-     "type": "action",
-     "name": "reciting Numbers 29 from memory after rolling the scroll"
+     "item": "reciting Numbers 29 from memory after rolling the scroll",
+     "type": "action"
     }
    ],
    "quizSeeds": [
@@ -476,10 +476,14 @@
     }
    ],
    "finalRuling": "The HP reads Leviticus 16 and 23 from the Torah scroll, then recites Numbers 29 from memory to avoid making the congregation wait for a second scroll.",
-   "difficulty": "introductory",
+   "difficulty": "intro",
    "alternateAngles": [],
    "glossary": [],
-   "review": "reviewed"
+   "review": "reviewed",
+   "prerequisiteKnowledge": [
+    "Knowing the three Yom Kippur Torah portions",
+    "Understanding why the Numbers portion is recited from memory"
+   ]
   },
   {
    "sugyaNumber": 5,
@@ -556,10 +560,7 @@
     "people's anxiety"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "Knowing the people are outside waiting and watching",
-    "Understanding that a prolonged absence would cause fear"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "The HP skips any prayer upon emerging and proceeds immediately to the next stage of the service.",
@@ -569,12 +570,12 @@
    "relatedSugyot": [],
    "visualizableElements": [
     {
-     "type": "person",
-     "name": "HP emerging and praying briefly"
+     "item": "HP emerging and praying briefly",
+     "type": "person"
     },
     {
-     "type": "action",
-     "name": "brief prayer for Israel's welfare"
+     "item": "brief prayer for Israel's welfare",
+     "type": "action"
     }
    ],
    "quizSeeds": [
@@ -584,10 +585,14 @@
     }
    ],
    "finalRuling": "The HP prays briefly after emerging from the Holy of Holies so the waiting congregation is not frightened by a prolonged absence.",
-   "difficulty": "introductory",
+   "difficulty": "intro",
    "alternateAngles": [],
    "glossary": [],
-   "review": "reviewed"
+   "review": "reviewed",
+   "prerequisiteKnowledge": [
+    "Knowing the people are outside waiting and watching",
+    "Understanding that a prolonged absence would cause fear"
+   ]
   },
   {
    "sugyaNumber": 6,
@@ -646,10 +651,7 @@
     "emerging prayer"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "Knowing the prayer is brief but comprehensive",
-    "Understanding the connection between Yom Kippur and the agricultural year"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "The HP's rain prayer on Yom Kippur is the same prayer formally recited at Shemini Atzeret - it is the seasonal rain prayer.",
@@ -659,12 +661,12 @@
    "relatedSugyot": [],
    "visualizableElements": [
     {
-     "type": "action",
-     "name": "HP's petition for rain, harvest, and secure borders"
+     "item": "HP's petition for rain, harvest, and secure borders",
+     "type": "action"
     },
     {
-     "type": "person",
-     "name": "HP as national intercessor"
+     "item": "HP as national intercessor",
+     "type": "person"
     }
    ],
    "quizSeeds": [
@@ -674,10 +676,14 @@
     }
    ],
    "finalRuling": "The HP's brief prayer petitions for a good year, timely rains, fruitful harvests, and national security for Israel.",
-   "difficulty": "introductory",
+   "difficulty": "intro",
    "alternateAngles": [],
    "glossary": [],
-   "review": "reviewed"
+   "review": "reviewed",
+   "prerequisiteKnowledge": [
+    "Knowing the prayer is brief but comprehensive",
+    "Understanding the connection between Yom Kippur and the agricultural year"
+   ]
   },
   {
    "sugyaNumber": 7,
@@ -784,10 +790,7 @@
     "procession"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "Knowing that entering the Holy of Holies was genuinely dangerous",
-    "Understanding the feast is day after Yom Kippur, not on Yom Kippur itself"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "The feast when the HP returns home is a general celebration with friends and family marking the end of Yom Kippur.",
@@ -797,12 +800,12 @@
    "relatedSugyot": [],
    "visualizableElements": [
     {
-     "type": "person",
-     "name": "HP in joyous procession home"
+     "item": "HP in joyous procession home",
+     "type": "person"
     },
     {
-     "type": "action",
-     "name": "feast for family and friends after Yom Kippur"
+     "item": "feast for family and friends after Yom Kippur",
+     "type": "action"
     }
    ],
    "quizSeeds": [
@@ -812,10 +815,14 @@
     }
    ],
    "finalRuling": "The HP and his family celebrate his safe emergence from the Holy of Holies with a feast for friends and relatives after Yom Kippur.",
-   "difficulty": "introductory",
+   "difficulty": "intro",
    "alternateAngles": [],
    "glossary": [],
-   "review": "reviewed"
+   "review": "reviewed",
+   "prerequisiteKnowledge": [
+    "Knowing that entering the Holy of Holies was genuinely dangerous",
+    "Understanding the feast is day after Yom Kippur, not on Yom Kippur itself"
+   ]
   },
   {
    "sugyaNumber": 8,
@@ -874,10 +881,7 @@
     "inner vs outer"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "Knowing which services require white vs. gold garments",
-    "Knowing how many times the HP changes garments"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "The HP changes garments four times on Yom Kippur - once into linen, once back to gold, and so on for exactly two cycles.",
@@ -887,12 +891,12 @@
    "relatedSugyot": [],
    "visualizableElements": [
     {
-     "type": "contrast",
-     "name": "white linen services vs. golden garment services"
+     "item": "white linen services vs. golden garment services",
+     "type": "contrast"
     },
     {
-     "type": "timeline",
-     "name": "four garment changes across the Yom Kippur day"
+     "item": "four garment changes across the Yom Kippur day",
+     "type": "timeline"
     }
    ],
    "quizSeeds": [
@@ -905,7 +909,11 @@
    "difficulty": "intermediate",
    "alternateAngles": [],
    "glossary": [],
-   "review": "reviewed"
+   "review": "reviewed",
+   "prerequisiteKnowledge": [
+    "Knowing which services require white vs. gold garments",
+    "Knowing how many times the HP changes garments"
+   ]
   }
  ],
  "glossary": [],

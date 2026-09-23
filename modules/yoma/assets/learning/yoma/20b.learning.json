@@ -104,12 +104,12 @@
    ],
    "visualizableElements": [
     {
-     "type": "contrast",
-     "description": "Two interpretations of the verse: Rav (midnight fixed) vs. R. Yochanan (flexible, before dawn)"
+     "item": "Two interpretations of the verse: Rav (midnight fixed) vs. R. Yochanan (flexible, before dawn)",
+     "type": "contrast"
     },
     {
-     "type": "sequence",
-     "description": "Three timing tiers: first watch (Festivals) - midnight (Yom Kippur) - keriat hagever (ordinary), all resolved by R. Yochanan's reading"
+     "item": "Three timing tiers: first watch (Festivals) - midnight (Yom Kippur) - keriat hagever (ordinary), all resolved by R. Yochanan's reading",
+     "type": "sequence"
     }
    ],
    "quizSeeds": [
@@ -248,12 +248,12 @@
    ],
    "visualizableElements": [
     {
-     "type": "contrast",
-     "description": "Two interpretations of 'gever': a rooster crowing at dawn vs. a human Temple announcer calling out to the priests"
+     "item": "Two interpretations of 'gever': a rooster crowing at dawn vs. a human Temple announcer calling out to the priests",
+     "type": "contrast"
     },
     {
-     "type": "person",
-     "description": "Gevini the Crier standing in the Temple courtyard; his voice carries three parasangs (roughly 8 miles)"
+     "item": "Gevini the Crier standing in the Temple courtyard; his voice carries three parasangs (roughly 8 miles)",
+     "type": "person"
     }
    ],
    "quizSeeds": [
@@ -404,16 +404,16 @@
    ],
    "visualizableElements": [
     {
-     "type": "place",
-     "description": "Map showing Temple Mount to Jericho (10 parasangs/27 miles) with labeled sounds reaching each distance"
+     "item": "Map showing Temple Mount to Jericho (10 parasangs/27 miles) with labeled sounds reaching each distance",
+     "type": "place"
     },
     {
-     "type": "action",
-     "description": "King Agrippa hearing Gevini's proclamation from three parasangs away and sending gifts to the Temple"
+     "item": "King Agrippa hearing Gevini's proclamation from three parasangs away and sending gifts to the Temple",
+     "type": "action"
     },
     {
-     "type": "relationship",
-     "description": "R. Levi's cosmological diagram: sun roaring across sky by day, passing behind firmament at night where its noise meets Rome's din"
+     "item": "R. Levi's cosmological diagram: sun roaring across sky by day, passing behind firmament at night where its noise meets Rome's din",
+     "type": "relationship"
     }
    ],
    "quizSeeds": [
@@ -427,7 +427,7 @@
     }
    ],
    "finalRuling": "Aggadic: Temple sounds reached Jericho. Night is quieter than day because the sun's roar and Rome's din cancel each other on the far side of the firmament.",
-   "difficulty": "introductory",
+   "difficulty": "intro",
    "alternateAngles": [],
    "glossary": [
     {

@@ -478,12 +478,7 @@
     "Abaye"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "minchat chavittin (griddle-cake)",
-    "musaf offerings",
-    "frankincense vessels (bazichin)",
-    "wine libation"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "The musaf offering comes first since it is the most prominent extra offering.",
@@ -500,14 +495,14 @@
    ],
    "visualizableElements": [
     {
+     "item": "... Limbs - Meal-offering - Griddle-cake - Wine libation - [Frankincense vessels?] - Musaf",
      "type": "sequence",
-     "label": "End of morning sequence",
-     "description": "... Limbs - Meal-offering - Griddle-cake - Wine libation - [Frankincense vessels?] - Musaf"
+     "label": "End of morning sequence"
     },
     {
+     "item": "Dispute: Abaye says before musaf (part of inner service); alternative view: musaf first (more standard/frequent)",
      "type": "contrast",
-     "label": "Frankincense vessels: before or after musaf?",
-     "description": "Dispute: Abaye says before musaf (part of inner service); alternative view: musaf first (more standard/frequent)"
+     "label": "Frankincense vessels: before or after musaf?"
     }
    ],
    "quizSeeds": [
@@ -523,7 +518,13 @@
    "finalRuling": "Morning sequence concludes: Meal-offering - Griddle-cake - Libation - Musaf. Frankincense vessel ordering relative to musaf is disputed.",
    "difficulty": "advanced",
    "alternateAngles": [],
-   "review": "reviewed"
+   "review": "reviewed",
+   "prerequisiteKnowledge": [
+    "minchat chavittin (griddle-cake)",
+    "musaf offerings",
+    "frankincense vessels (bazichin)",
+    "wine libation"
+   ]
   },
   {
    "sugyaNumber": 2,
@@ -635,11 +636,7 @@
     "quarter hin"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "afternoon tamid",
-    "afternoon incense",
-    "wine libation quantity"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "The afternoon service is identical in sequence to the morning service.",
@@ -652,14 +649,14 @@
    ],
    "visualizableElements": [
     {
+     "item": "Morning: Wood - Lamps - Blood - Lamps - INCENSE - Limbs. Afternoon: Limbs - INCENSE - Libation",
      "type": "contrast",
-     "label": "Morning vs afternoon incense position",
-     "description": "Morning: Wood - Lamps - Blood - Lamps - INCENSE - Limbs. Afternoon: Limbs - INCENSE - Libation"
+     "label": "Morning vs afternoon incense position"
     },
     {
+     "item": "Afternoon tamid slaughter - blood - limbs to ramp - afternoon incense - wine libation",
      "type": "sequence",
-     "label": "Afternoon service",
-     "description": "Afternoon tamid slaughter - blood - limbs to ramp - afternoon incense - wine libation"
+     "label": "Afternoon service"
     }
    ],
    "quizSeeds": [
@@ -675,7 +672,12 @@
    "finalRuling": "Afternoon incense comes between the limbs and the wine libation. This sequence differs from the morning, where incense precedes the limbs.",
    "difficulty": "intermediate",
    "alternateAngles": [],
-   "review": "reviewed"
+   "review": "reviewed",
+   "prerequisiteKnowledge": [
+    "afternoon tamid",
+    "afternoon incense",
+    "wine libation quantity"
+   ]
   }
  ]
 }

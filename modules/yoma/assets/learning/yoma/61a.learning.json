@@ -53,10 +53,7 @@
         "atonement structure"
       ],
       "conceptRefs": [],
-      "requiresUnderstanding": [
-        "Understanding the concept of me'akev in Temple service",
-        "Knowing the full list of Yom Kippur services"
-      ],
+      "requiresUnderstanding": [],
       "misconceptions": [
         {
           "misconception": "Every act prescribed by the Mishnah for Yom Kippur is equally essential - omitting any one of them would void the entire day's atonement.",
@@ -66,12 +63,12 @@
       "relatedSugyot": [],
       "visualizableElements": [
         {
-          "type": "contrast",
-          "name": "essential vs. required-but-not-me'akev services"
+          "item": "essential vs. required-but-not-me'akev services",
+          "type": "contrast"
         },
         {
-          "type": "sequence",
-          "name": "essential services: blood, confessions, scapegoat"
+          "item": "essential services: blood, confessions, scapegoat",
+          "type": "sequence"
         }
       ],
       "quizSeeds": [
@@ -84,7 +81,11 @@
       "difficulty": "advanced",
       "alternateAngles": [],
       "glossary": [],
-      "review": "reviewed"
+      "review": "reviewed",
+      "prerequisiteKnowledge": [
+        "Understanding the concept of me'akev in Temple service",
+        "Knowing the full list of Yom Kippur services"
+      ]
     },
     {
       "sugyaNumber": 2,
@@ -151,10 +152,7 @@
         "impurity"
       ],
       "conceptRefs": [],
-      "requiresUnderstanding": [
-        "Knowing the principle that impurity does not retroactively void Temple service",
-        "Understanding the distinction between bedi'avad and ab initio"
-      ],
+      "requiresUnderstanding": [],
       "misconceptions": [
         {
           "misconception": "If the HP served Yom Kippur while ritually impure, the entire national atonement is void because his impurity contaminated the service.",
@@ -164,12 +162,12 @@
       "relatedSugyot": [],
       "visualizableElements": [
         {
-          "type": "contrast",
-          "name": "service validity vs. personal liability of impure HP"
+          "item": "service validity vs. personal liability of impure HP",
+          "type": "contrast"
         },
         {
-          "type": "principle",
-          "name": "bedi'avad - completed service stands even if improper conditions existed"
+          "item": "bedi'avad - completed service stands even if improper conditions existed",
+          "type": "principle"
         }
       ],
       "quizSeeds": [
@@ -182,7 +180,11 @@
       "difficulty": "intermediate",
       "alternateAngles": [],
       "glossary": [],
-      "review": "reviewed"
+      "review": "reviewed",
+      "prerequisiteKnowledge": [
+        "Knowing the principle that impurity does not retroactively void Temple service",
+        "Understanding the distinction between bedi'avad and ab initio"
+      ]
     },
     {
       "sugyaNumber": 3,
@@ -337,10 +339,7 @@
         "HP incapacity"
       ],
       "conceptRefs": [],
-      "requiresUnderstanding": [
-        "Knowing the HP was separated from his household for seven days to prepare",
-        "Understanding what makes the HP's role unique on Yom Kippur"
-      ],
+      "requiresUnderstanding": [],
       "misconceptions": [
         {
           "misconception": "The designated Mishneh was a full substitute who could perform any Yom Kippur service including the blood services if the HP became unfit.",
@@ -350,12 +349,12 @@
       "relatedSugyot": [],
       "visualizableElements": [
         {
-          "type": "person",
-          "name": "Mishneh HP prepared alongside primary HP"
+          "item": "Mishneh HP prepared alongside primary HP",
+          "type": "person"
         },
         {
-          "type": "contrast",
-          "name": "R. Yehuda vs. Sages on Mishneh's scope"
+          "item": "R. Yehuda vs. Sages on Mishneh's scope",
+          "type": "contrast"
         }
       ],
       "quizSeeds": [
@@ -368,7 +367,11 @@
       "difficulty": "intermediate",
       "alternateAngles": [],
       "glossary": [],
-      "review": "reviewed"
+      "review": "reviewed",
+      "prerequisiteKnowledge": [
+        "Knowing the HP was separated from his household for seven days to prepare",
+        "Understanding what makes the HP's role unique on Yom Kippur"
+      ]
     },
     {
       "sugyaNumber": 4,
@@ -494,10 +497,7 @@
         "golden garments"
       ],
       "conceptRefs": [],
-      "requiresUnderstanding": [
-        "Knowing the HP has personal and communal offerings both at the start and end of Yom Kippur",
-        "Knowing the Musaf offerings for Yom Kippur"
-      ],
+      "requiresUnderstanding": [],
       "misconceptions": [
         {
           "misconception": "The HP remains in white garments for all Yom Kippur offerings because the whole day is dominated by the inner atonement service's sacred character.",
@@ -507,12 +507,12 @@
       "relatedSugyot": [],
       "visualizableElements": [
         {
-          "type": "sequence",
-          "name": "personal ram, communal ram, Musaf offerings in golden garments"
+          "item": "personal ram, communal ram, Musaf offerings in golden garments",
+          "type": "sequence"
         },
         {
-          "type": "contrast",
-          "name": "opening (bull+goat) vs. closing (ram+ram) symmetry"
+          "item": "opening (bull+goat) vs. closing (ram+ram) symmetry",
+          "type": "contrast"
         }
       ],
       "quizSeeds": [
@@ -522,10 +522,14 @@
         }
       ],
       "finalRuling": "The HP closes Yom Kippur with his personal ram, the communal ram, and the Musaf offerings, completing the day's formal service in golden garments.",
-      "difficulty": "introductory",
+      "difficulty": "intro",
       "alternateAngles": [],
       "glossary": [],
-      "review": "reviewed"
+      "review": "reviewed",
+      "prerequisiteKnowledge": [
+        "Knowing the HP has personal and communal offerings both at the start and end of Yom Kippur",
+        "Knowing the Musaf offerings for Yom Kippur"
+      ]
     }
   ],
   "glossary": [],

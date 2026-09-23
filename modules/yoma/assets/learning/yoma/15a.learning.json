@@ -127,10 +127,7 @@
     "Yoma.15a.2",
     "Yoma.15a.3"
    ],
-   "requiresUnderstanding": [
-    "The morning tamid service sequence",
-    "Abba Shaul vs Rabbanan dispute about incense and lamp order from 14b"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "'At the time of lighting' means after the lighting is finished.",
@@ -143,12 +140,12 @@
    ],
    "visualizableElements": [
     {
-     "type": "contrast",
-     "desc": "Split diagram: Rabbanan (ketoret left, 5 lamps right, both morning) vs Abba Shaul (oto restricts afternoon only)"
+     "item": "Split diagram: Rabbanan (ketoret left, 5 lamps right, both morning) vs Abba Shaul (oto restricts afternoon only)",
+     "type": "contrast"
     },
     {
-     "type": "text",
-     "desc": "Exodus 30:8 with 'oto' highlighted and two interpretive arrows showing the Rabbanan and Abba Shaul readings"
+     "item": "Exodus 30:8 with 'oto' highlighted and two interpretive arrows showing the Rabbanan and Abba Shaul readings",
+     "type": "text"
     }
    ],
    "quizSeeds": [
@@ -195,7 +192,11 @@
    "review": {
     "content": "ai_generated",
     "sourceRefs": "ai_generated"
-   }
+   },
+   "prerequisiteKnowledge": [
+    "The morning tamid service sequence",
+    "Abba Shaul vs Rabbanan dispute about incense and lamp order from 14b"
+   ]
   },
   {
    "sugyaNumber": 2,
@@ -321,10 +322,7 @@
     "Yoma.15a.5",
     "Yoma.15a.6"
    ],
-   "requiresUnderstanding": [
-    "The service order controversy from 14b-15a",
-    "Abba Shaul vs Rabbanan positions on ketoret order"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "Rav Pappa and Abaye are disputing the actual halachic service order.",
@@ -338,12 +336,12 @@
    ],
    "visualizableElements": [
     {
-     "type": "contrast",
-     "desc": "Two-column diagram: Rav Pappa's approach (Chapter 1 = Rabbanan, Chapter 3 = Abba Shaul) vs Abaye's approach (mishna cannot split positions)"
+     "item": "Two-column diagram: Rav Pappa's approach (Chapter 1 = Rabbanan, Chapter 3 = Abba Shaul) vs Abaye's approach (mishna cannot split positions)",
+     "type": "contrast"
     },
     {
-     "type": "timeline",
-     "desc": "Mishna chapter 1 vs chapter 3 content shown side by side with the contradiction highlighted"
+     "item": "Mishna chapter 1 vs chapter 3 content shown side by side with the contradiction highlighted",
+     "type": "timeline"
     }
    ],
    "quizSeeds": [
@@ -385,7 +383,11 @@
    "review": {
     "content": "ai_generated",
     "sourceRefs": "ai_generated"
-   }
+   },
+   "prerequisiteKnowledge": [
+    "The service order controversy from 14b-15a",
+    "Abba Shaul vs Rabbanan positions on ketoret order"
+   ]
   },
   {
    "sugyaNumber": 3,
@@ -572,11 +574,7 @@
     "Yoma.15a.10",
     "Yoma.15a.12"
    ],
-   "requiresUnderstanding": [
-    "Olah blood service: two applications at opposite corners",
-    "Chatat blood service: four applications at all four horns",
-    "The principle that used blood cannot serve a second halakhic function"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "Four corner applications automatically cover olah's separate two-corner requirement.",
@@ -594,16 +592,16 @@
    ],
    "visualizableElements": [
     {
-     "type": "sequence",
-     "desc": "Four-panel sequence showing each proposed blood-application scheme and the specific principle that blocks it"
+     "item": "Four-panel sequence showing each proposed blood-application scheme and the specific principle that blocks it",
+     "type": "sequence"
     },
     {
-     "type": "place",
-     "desc": "Altar top-down diagram showing four corners, with olah corners (NE and SW) vs chatat corners (all four) highlighted"
+     "item": "Altar top-down diagram showing four corners, with olah corners (NE and SW) vs chatat corners (all four) highlighted",
+     "type": "place"
     },
     {
-     "type": "contrast",
-     "desc": "Olah vs chatat blood application compared side by side, then R. Shimon's attempted combination and why it fails"
+     "item": "Olah vs chatat blood application compared side by side, then R. Shimon's attempted combination and why it fails",
+     "type": "contrast"
     }
    ],
    "quizSeeds": [
@@ -650,7 +648,12 @@
    "review": {
     "content": "ai_generated",
     "sourceRefs": "ai_generated"
-   }
+   },
+   "prerequisiteKnowledge": [
+    "Olah blood service: two applications at opposite corners",
+    "Chatat blood service: four applications at all four horns",
+    "The principle that used blood cannot serve a second halakhic function"
+   ]
   }
  ],
  "glossary": [

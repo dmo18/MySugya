@@ -153,11 +153,7 @@
     "Yoma.19b.4",
     "Yoma.19b.5"
    ],
-   "requiresUnderstanding": [
-    "The Yom Kippur incense service sequence",
-    "The Sadducee/Pharisee dispute on the incense order",
-    "The agency question from 19a"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "'Attah shluchenu' (you are our agent) proves the Pharisees believed kohanim are Israel's legal agents.",
@@ -170,12 +166,12 @@
    ],
    "visualizableElements": [
     {
-     "type": "contrast",
-     "desc": "Two diagrams of the incense service: (A) Pharisaic: KG enters empty-handed, places incense on coals inside (darkness, then smoke rises); (B) Sadducee: KG lights incense outside, enters already smoking"
+     "item": "Two diagrams of the incense service: (A) Pharisaic: KG enters empty-handed, places incense on coals inside (darkness, then smoke rises); (B) Sadducee: KG lights incense outside, enters already smoking",
+     "type": "contrast"
     },
     {
-     "type": "sequence",
-     "desc": "Oath ceremony sequence: elders adjure KG - both parties weep - why each cried - the Sadducee incident illustration"
+     "item": "Oath ceremony sequence: elders adjure KG - both parties weep - why each cried - the Sadducee incident illustration",
+     "type": "sequence"
     }
    ],
    "quizSeeds": [
@@ -206,7 +202,12 @@
    "review": {
     "content": "ai_generated",
     "sourceRefs": "ai_generated"
-   }
+   },
+   "prerequisiteKnowledge": [
+    "The Yom Kippur incense service sequence",
+    "The Sadducee/Pharisee dispute on the incense order",
+    "The agency question from 19a"
+   ]
   },
   {
    "sugyaNumber": 2,
@@ -352,10 +353,7 @@
     "Yoma.19b.7",
     "Yoma.19b.8"
    ],
-   "requiresUnderstanding": [
-    "The structure of Kriat Shema (first and second paragraphs)",
-    "The rules about audible vs silent prayer"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "Any physical action during Shema counts as an interruption, since the first paragraph demands full concentration.",
@@ -365,8 +363,8 @@
    "relatedSugyot": [],
    "visualizableElements": [
     {
-     "type": "contrast",
-     "desc": "Two columns: permitted during first paragraph (gestures, thoughts) vs forbidden (any speech except life-threatening need); same for second paragraph with slightly more flexibility"
+     "item": "Two columns: permitted during first paragraph (gestures, thoughts) vs forbidden (any speech except life-threatening need); same for second paragraph with slightly more flexibility",
+     "type": "contrast"
     }
    ],
    "quizSeeds": [
@@ -397,7 +395,11 @@
    "review": {
     "content": "ai_generated",
     "sourceRefs": "ai_generated"
-   }
+   },
+   "prerequisiteKnowledge": [
+    "The structure of Kriat Shema (first and second paragraphs)",
+    "The rules about audible vs silent prayer"
+   ]
   },
   {
    "sugyaNumber": 3,
@@ -565,10 +567,7 @@
     "Yoma.19b.13",
     "Yoma.19b.15"
    ],
-   "requiresUnderstanding": [
-    "The all-night KG vigil from 18b",
-    "The tamid service and its dawn-announcement system"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "'They were sinning' refers to the young priests' methods of keeping the KG awake.",
@@ -581,12 +580,12 @@
    ],
    "visualizableElements": [
     {
-     "type": "sequence",
-     "desc": "All-night vigil: midnight - priests snap tzarda fingers if KG dozes; 2am - KG walks floor barefoot; 3am - priests show Torah insights and sing Psalm 127; dawn - 'has the light reached Hebron?' announcement"
+     "item": "All-night vigil: midnight - priests snap tzarda fingers if KG dozes; 2am - KG walks floor barefoot; 3am - priests show Torah insights and sing Psalm 127; dawn - 'has the light reached Hebron?' announcement",
+     "type": "sequence"
     },
     {
-     "type": "person",
-     "desc": "The 'kidda' bow: person pressing big toes to ground and bowing forward to near-floor level, then rising"
+     "item": "The 'kidda' bow: person pressing big toes to ground and bowing forward to near-floor level, then rising",
+     "type": "person"
     }
    ],
    "quizSeeds": [
@@ -600,7 +599,7 @@
     }
    ],
    "finalRuling": "The vigil continues until dawn when the tamid slaughter begins. All methods (finger-snap, floor-walking, Torah study, Psalm singing) are legitimate and permitted.",
-   "difficulty": "introductory",
+   "difficulty": "intro",
    "alternateAngles": [],
    "glossary": [
     {
@@ -617,7 +616,11 @@
    "review": {
     "content": "ai_generated",
     "sourceRefs": "ai_generated"
-   }
+   },
+   "prerequisiteKnowledge": [
+    "The all-night KG vigil from 18b",
+    "The tamid service and its dawn-announcement system"
+   ]
   }
  ],
  "glossary": [

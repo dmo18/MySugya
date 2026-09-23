@@ -117,11 +117,7 @@
     "R. Natan"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "Holy of Holies access",
-    "Temple architecture",
-    "kavod principles"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "The High Priest approached along the south wall and then turned toward the kapporet - the approach path is just a practical matter, not a ritual one.",
@@ -130,10 +126,18 @@
    ],
    "relatedSugyot": [],
    "visualizableElements": [
-    "HP",
-    "parochet",
-    "two curtains",
-    "entry path"
+    {
+     "item": "HP"
+    },
+    {
+     "item": "parochet"
+    },
+    {
+     "item": "two curtains"
+    },
+    {
+     "item": "entry path"
+    }
    ],
    "quizSeeds": [
     {
@@ -145,7 +149,12 @@
    "difficulty": "intermediate",
    "alternateAngles": [],
    "glossary": [],
-   "review": "reviewed"
+   "review": "reviewed",
+   "prerequisiteKnowledge": [
+    "Holy of Holies access",
+    "Temple architecture",
+    "kavod principles"
+   ]
   },
   {
    "sugyaNumber": 2,
@@ -227,10 +236,7 @@
     "Holy of Holies"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "Temple service kavod",
-    "Holy of Holies protocols"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "The HP can approach the kapporet from any direction as long as he is inside the Holy of Holies when he sprinkles - facing direction is incidental.",
@@ -239,10 +245,18 @@
    ],
    "relatedSugyot": [],
    "visualizableElements": [
-    "HP",
-    "kapporet",
-    "cheruvim",
-    "approach direction"
+    {
+     "item": "HP"
+    },
+    {
+     "item": "kapporet"
+    },
+    {
+     "item": "cheruvim"
+    },
+    {
+     "item": "approach direction"
+    }
    ],
    "quizSeeds": [
     {
@@ -251,10 +265,14 @@
     }
    ],
    "finalRuling": "The HP enters the Holy of Holies directly facing the kapporet - the maximally respectful approach.",
-   "difficulty": "introductory",
+   "difficulty": "intro",
    "alternateAngles": [],
    "glossary": [],
-   "review": "reviewed"
+   "review": "reviewed",
+   "prerequisiteKnowledge": [
+    "Temple service kavod",
+    "Holy of Holies protocols"
+   ]
   }
  ],
  "glossary": [],

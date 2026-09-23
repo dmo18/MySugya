@@ -175,10 +175,7 @@
     "Temple exclusivity"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "Understanding the kareth penalty and when it applies",
-    "Knowing the distinction between food slaughter and sacrificial slaughter"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "The prohibition on outside slaughter is a technical location requirement, and kareth seems disproportionate for what is essentially a procedural violation about where an act takes place.",
@@ -188,12 +185,12 @@
    "relatedSugyot": [],
    "visualizableElements": [
     {
-     "type": "contrast",
-     "name": "routine food slaughter vs. sacrificial slaughter outside Temple"
+     "item": "routine food slaughter vs. sacrificial slaughter outside Temple",
+     "type": "contrast"
     },
     {
-     "type": "principle",
-     "name": "intent determines which prohibition applies"
+     "item": "intent determines which prohibition applies",
+     "type": "principle"
     }
    ],
    "quizSeeds": [
@@ -206,7 +203,11 @@
    "difficulty": "intermediate",
    "alternateAngles": [],
    "glossary": [],
-   "review": "reviewed"
+   "review": "reviewed",
+   "prerequisiteKnowledge": [
+    "Understanding the kareth penalty and when it applies",
+    "Knowing the distinction between food slaughter and sacrificial slaughter"
+   ]
   }
  ],
  "glossary": [],

@@ -554,12 +554,7 @@
     "double immersion"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "pre-service immersion",
-    "Temple service validity (kosher/pasul)",
-    "metzora purification process",
-    "Ben Zoma vs R. Yehuda dispute from 30a"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "The practical consequence of the Ben Zoma/R. Yehuda dispute is minor.",
@@ -576,14 +571,14 @@
    ],
    "visualizableElements": [
     {
+     "item": "Ben Zoma: service invalid. R. Yehuda: service valid, but positive mitzva violated.",
      "type": "contrast",
-     "label": "Two outcomes of skipping pre-service immersion",
-     "description": "Ben Zoma: service invalid. R. Yehuda: service valid, but positive mitzva violated."
+     "label": "Two outcomes of skipping pre-service immersion"
     },
     {
+     "item": "Evening before service: leper immerses. Morning of service: is another immersion required?",
      "type": "timeline",
-     "label": "Leper's immersion timing",
-     "description": "Evening before service: leper immerses. Morning of service: is another immersion required?"
+     "label": "Leper's immersion timing"
     }
    ],
    "quizSeeds": [
@@ -599,7 +594,13 @@
    "finalRuling": "Disputed: Ben Zoma rules the service is invalid if immersion is skipped; R. Yehuda rules the service is valid but the priest has violated a positive commandment.",
    "difficulty": "advanced",
    "alternateAngles": [],
-   "review": "reviewed"
+   "review": "reviewed",
+   "prerequisiteKnowledge": [
+    "pre-service immersion",
+    "Temple service validity (kosher/pasul)",
+    "metzora purification process",
+    "Ben Zoma vs R. Yehuda dispute from 30a"
+   ]
   }
  ]
 }

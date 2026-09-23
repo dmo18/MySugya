@@ -657,11 +657,7 @@
     "tamid start time"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "tamid morning timing",
-    "dawn (shachar)",
-    "Hebron visibility"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "The dawn announcement was purely ceremonial.",
@@ -674,9 +670,9 @@
    ],
    "visualizableElements": [
     {
+     "item": "Formula A: morning star over Hebron. Formula B: entire eastern sky illuminated.",
      "type": "contrast",
-     "label": "Two dawn formulas",
-     "description": "Formula A: morning star over Hebron. Formula B: entire eastern sky illuminated."
+     "label": "Two dawn formulas"
     }
    ],
    "quizSeeds": [
@@ -686,9 +682,14 @@
     }
    ],
    "finalRuling": "The exact formula remains a dispute; the practical threshold is confirmed dawn before the tamid may be slaughtered.",
-   "difficulty": "introductory",
+   "difficulty": "intro",
    "alternateAngles": [],
-   "review": "reviewed"
+   "review": "reviewed",
+   "prerequisiteKnowledge": [
+    "tamid morning timing",
+    "dawn (shachar)",
+    "Hebron visibility"
+   ]
   },
   {
    "sugyaNumber": 2,
@@ -826,11 +827,7 @@
     "walls blackening"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "mincha time",
-    "eruv tavshilin",
-    "Genesis 26:5"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "Abraham's Torah observance is merely legendary.",
@@ -847,14 +844,14 @@
    ],
    "visualizableElements": [
     {
+     "item": "Pre-Sinai: Abraham voluntarily keeps all Torah categories",
      "type": "timeline",
-     "label": "Abraham's Torah observance timeline",
-     "description": "Pre-Sinai: Abraham voluntarily keeps all Torah categories"
+     "label": "Abraham's Torah observance timeline"
     },
     {
+     "item": "'Kept My charge (mishmarti), commandments (mitzvotai), statutes (chukotai), and laws (torotai)' - each term mapping to a Torah category",
      "type": "text",
-     "label": "Genesis 26:5 proof-text",
-     "description": "'Kept My charge (mishmarti), commandments (mitzvotai), statutes (chukotai), and laws (torotai)' - each term mapping to a Torah category"
+     "label": "Genesis 26:5 proof-text"
     }
    ],
    "quizSeeds": [
@@ -870,7 +867,12 @@
    "finalRuling": "Abraham observed the entire Torah voluntarily. His practice cannot be used as a direct halachic source (post-Sinai standards apply), but it demonstrates the Torah's eternal character.",
    "difficulty": "intermediate",
    "alternateAngles": [],
-   "review": "reviewed"
+   "review": "reviewed",
+   "prerequisiteKnowledge": [
+    "mincha time",
+    "eruv tavshilin",
+    "Genesis 26:5"
+   ]
   },
   {
    "sugyaNumber": 3,
@@ -954,10 +956,7 @@
     "timing"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "dawn (shachar)",
-    "tamid timing"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "The dawn announcement was informal.",
@@ -970,14 +969,14 @@
    ],
    "visualizableElements": [
     {
+     "item": "The lookout point from which the eastern horizon toward Hebron was visible",
      "type": "place",
-     "label": "Temple elevated position",
-     "description": "The lookout point from which the eastern horizon toward Hebron was visible"
+     "label": "Temple elevated position"
     },
     {
+     "item": "Official asks - elevated observer confirms - service begins",
      "type": "sequence",
-     "label": "Dawn announcement procedure",
-     "description": "Official asks - elevated observer confirms - service begins"
+     "label": "Dawn announcement procedure"
     }
    ],
    "quizSeeds": [
@@ -991,9 +990,13 @@
     }
    ],
    "finalRuling": "The dawn announcement was made from a position that could observe the eastern horizon toward Hebron.",
-   "difficulty": "introductory",
+   "difficulty": "intro",
    "alternateAngles": [],
-   "review": "reviewed"
+   "review": "reviewed",
+   "prerequisiteKnowledge": [
+    "dawn (shachar)",
+    "tamid timing"
+   ]
   },
   {
    "sugyaNumber": 4,
@@ -1077,10 +1080,7 @@
     "tamid timing"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "tamid timing requirement",
-    "dawn (shachar)"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "The dawn announcement was a purely precautionary formality.",
@@ -1093,14 +1093,14 @@
    ],
    "visualizableElements": [
     {
+     "item": "Bright moonlight over Hebron mistaken for dawn - premature tamid slaughter - animal sent to pasture",
      "type": "narrative",
-     "label": "The confusion incident",
-     "description": "Bright moonlight over Hebron mistaken for dawn - premature tamid slaughter - animal sent to pasture"
+     "label": "The confusion incident"
     },
     {
+     "item": "Three types of morning light and their effects on dawn perception",
      "type": "contrast",
-     "label": "Moonlight vs dawn light vs cloudy-day light",
-     "description": "Three types of morning light and their effects on dawn perception"
+     "label": "Moonlight vs dawn light vs cloudy-day light"
     }
    ],
    "quizSeeds": [
@@ -1114,9 +1114,13 @@
     }
    ],
    "finalRuling": "The dawn announcement formula was instituted after a real confusion incident. A cloudy day resembles a fully dark night for timing purposes.",
-   "difficulty": "introductory",
+   "difficulty": "intro",
    "alternateAngles": [],
-   "review": "reviewed"
+   "review": "reviewed",
+   "prerequisiteKnowledge": [
+    "tamid timing requirement",
+    "dawn (shachar)"
+   ]
   }
  ]
 }

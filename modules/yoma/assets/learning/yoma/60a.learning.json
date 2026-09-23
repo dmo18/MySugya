@@ -136,10 +136,7 @@
     "HP purity"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "Knowing there are multiple garment changes throughout the day",
-    "Knowing regular priests only wash once before morning service"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "The HP only needs to immerse if he becomes ritually impure during Yom Kippur; one initial immersion would suffice for the whole day if purity were maintained throughout.",
@@ -149,12 +146,12 @@
    "relatedSugyot": [],
    "visualizableElements": [
     {
-     "type": "action",
-     "name": "five immersions across the Yom Kippur day"
+     "item": "five immersions across the Yom Kippur day",
+     "type": "action"
     },
     {
-     "type": "action",
-     "name": "ten hand-and-foot washings at transition points"
+     "item": "ten hand-and-foot washings at transition points",
+     "type": "action"
     }
    ],
    "quizSeeds": [
@@ -164,10 +161,14 @@
     }
    ],
    "finalRuling": "The HP immerses five times and washes hands and feet ten times on Yom Kippur, once per garment change between white and golden vestments.",
-   "difficulty": "introductory",
+   "difficulty": "intro",
    "alternateAngles": [],
    "glossary": [],
-   "review": "reviewed"
+   "review": "reviewed",
+   "prerequisiteKnowledge": [
+    "Knowing there are multiple garment changes throughout the day",
+    "Knowing regular priests only wash once before morning service"
+   ]
   },
   {
    "sugyaNumber": 2,
@@ -284,10 +285,7 @@
     "immersion validity"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "Knowing what the kiyor is (the laver in the Temple court)",
-    "Understanding the difference between Temple-sanctified water and regular mikveh water"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "All of the HP's immersions on Yom Kippur must use the kiyor because the kiyor is the Temple's designated purification vessel.",
@@ -297,12 +295,12 @@
    "relatedSugyot": [],
    "visualizableElements": [
     {
-     "type": "contrast",
-     "name": "kiyor vs. regular mikveh for HP's immersion"
+     "item": "kiyor vs. regular mikveh for HP's immersion",
+     "type": "contrast"
     },
     {
-     "type": "object",
-     "name": "kiyor (laver) in the Temple court"
+     "item": "kiyor (laver) in the Temple court",
+     "type": "object"
     }
    ],
    "quizSeeds": [
@@ -315,7 +313,11 @@
    "difficulty": "intermediate",
    "alternateAngles": [],
    "glossary": [],
-   "review": "reviewed"
+   "review": "reviewed",
+   "prerequisiteKnowledge": [
+    "Knowing what the kiyor is (the laver in the Temple court)",
+    "Understanding the difference between Temple-sanctified water and regular mikveh water"
+   ]
   }
  ],
  "glossary": [],

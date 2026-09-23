@@ -539,11 +539,7 @@
     "kissui raglayim"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "kometz (handful) service",
-    "meal-offering (mincha)",
-    "nighttime Temple service rule"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "A kometz removed at night is permanently invalid and must be discarded.",
@@ -560,14 +556,14 @@
    ],
    "visualizableElements": [
     {
+     "item": "Kometz removed at night: in waiting state. Dawn breaks: valid time resumes. New kometz taken in daytime.",
      "type": "timeline",
-     "label": "Nighttime kometz status",
-     "description": "Kometz removed at night: in waiting state. Dawn breaks: valid time resumes. New kometz taken in daytime."
+     "label": "Nighttime kometz status"
     },
     {
+     "item": "Priests step outside the service area to relieve themselves before returning to Temple duty",
      "type": "place",
-     "label": "Temple service area exit for hygiene",
-     "description": "Priests step outside the service area to relieve themselves before returning to Temple duty"
+     "label": "Temple service area exit for hygiene"
     }
    ],
    "quizSeeds": [
@@ -583,7 +579,12 @@
    "finalRuling": "A nighttime kometz is not permanently disqualified - a new daytime kometz may be taken. Priests must leave service to relieve themselves.",
    "difficulty": "advanced",
    "alternateAngles": [],
-   "review": "reviewed"
+   "review": "reviewed",
+   "prerequisiteKnowledge": [
+    "kometz (handful) service",
+    "meal-offering (mincha)",
+    "nighttime Temple service rule"
+   ]
   }
  ]
 }

@@ -103,10 +103,7 @@
     "Yoma.13a.1",
     "Yoma.13a.2"
    ],
-   "requiresUnderstanding": [
-    "R. Yosei's ruling from 12b that the replacement is suspended from both offices",
-    "The concept of 'tzarah' in Jewish marriage law"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "The replacement's service is invalid if he served while suspended.",
@@ -124,12 +121,12 @@
    ],
    "visualizableElements": [
     {
-     "type": "contrast",
-     "desc": "Tzarah (co-wife permanent rivalry) vs. KG-replacement (contingent, dissolves on original's death)"
+     "item": "Tzarah (co-wife permanent rivalry) vs. KG-replacement (contingent, dissolves on original's death)",
+     "type": "contrast"
     },
     {
-     "type": "timeline",
-     "desc": "Original appointed > original falls ill > replacement appointed > original recovers (replacement suspended) > original dies > replacement returns"
+     "item": "Original appointed > original falls ill > replacement appointed > original recovers (replacement suspended) > original dies > replacement returns",
+     "type": "timeline"
     }
    ],
    "quizSeeds": [
@@ -159,14 +156,18 @@
     }
    ],
    "finalRuling": "Halacha: R. Yosei. Replacement suspended while original lives; returns to full KG status when original dies. Service performed in violation is still valid.",
-   "difficulty": "introductory",
+   "difficulty": "intro",
    "alternateAngles": [],
    "review": {
     "learning": "ai_generated",
     "concepts": "ai_generated",
     "argumentFlow": "ai_generated",
     "sourceRefs": "ai_generated"
-   }
+   },
+   "prerequisiteKnowledge": [
+    "R. Yosei's ruling from 12b that the replacement is suspended from both offices",
+    "The concept of 'tzarah' in Jewish marriage law"
+   ]
   },
   {
    "sugyaNumber": 2,
@@ -270,10 +271,7 @@
     "Yoma.13a.3",
     "Yoma.13a.4"
    ],
-   "requiresUnderstanding": [
-    "The requirement for the KG to have a wife on Yom Kippur (derived from 'bayto' in Leviticus 16)",
-    "Why a replacement KG is prepared in the first place (impurity risk)"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "R. Yehuda is being overly cautious by demanding a backup wife.",
@@ -291,12 +289,12 @@
    ],
    "visualizableElements": [
     {
-     "type": "contrast",
-     "desc": "Impurity (preventable, zariz hu) vs. death (unpreventable) - the basis for the Rabbanan's asymmetric ruling"
+     "item": "Impurity (preventable, zariz hu) vs. death (unpreventable) - the basis for the Rabbanan's asymmetric ruling",
+     "type": "contrast"
     },
     {
-     "type": "people",
-     "desc": "The KG diligently guarding his purity on the six days before Yom Kippur vs. the impossibility of 'guarding' his wife's life"
+     "item": "The KG diligently guarding his purity on the six days before Yom Kippur vs. the impossibility of 'guarding' his wife's life",
+     "type": "people"
     }
    ],
    "quizSeeds": [
@@ -333,7 +331,11 @@
     "concepts": "ai_generated",
     "argumentFlow": "ai_generated",
     "sourceRefs": "ai_generated"
-   }
+   },
+   "prerequisiteKnowledge": [
+    "The requirement for the KG to have a wife on Yom Kippur (derived from 'bayto' in Leviticus 16)",
+    "Why a replacement KG is prepared in the first place (impurity risk)"
+   ]
   },
   {
    "sugyaNumber": 3,
@@ -489,11 +491,7 @@
     "Yoma.13a.6",
     "Yoma.13a.8"
    ],
-   "requiresUnderstanding": [
-    "Basic rules of conditional divorce (get al tenai) in Jewish law",
-    "The keritut requirement for a valid get",
-    "R. Yehuda's backup wife position from the previous sugya"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "These conditional divorce formulas are meant to produce a practical ruling the KG could actually use.",
@@ -510,16 +508,16 @@
    ],
    "visualizableElements": [
     {
-     "type": "sequence",
-     "desc": "Seven conditional divorce formulas each rejected in turn - a chain of logical failures"
+     "item": "Seven conditional divorce formulas each rejected in turn - a chain of logical failures",
+     "type": "sequence"
     },
     {
-     "type": "contrast",
-     "desc": "The two impossible states: KG with two wives (bayto violated) vs. KG with no wife (bayto also violated)"
+     "item": "The two impossible states: KG with two wives (bayto violated) vs. KG with no wife (bayto also violated)",
+     "type": "contrast"
     },
     {
-     "type": "text",
-     "desc": "The keritut requirement from the Torah - the get must be a complete, unconditional severing"
+     "item": "The keritut requirement from the Torah - the get must be a complete, unconditional severing",
+     "type": "text"
     }
    ],
    "quizSeeds": [
@@ -553,7 +551,12 @@
     "concepts": "ai_generated",
     "argumentFlow": "ai_generated",
     "sourceRefs": "ai_generated"
-   }
+   },
+   "prerequisiteKnowledge": [
+    "Basic rules of conditional divorce (get al tenai) in Jewish law",
+    "The keritut requirement for a valid get",
+    "R. Yehuda's backup wife position from the previous sugya"
+   ]
   }
  ],
  "glossary": [

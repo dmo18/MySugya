@@ -91,11 +91,7 @@
     "R. Yehuda"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "The prohibition on gezeira ligzeira (stacking rabbinic decrees)",
-    "R. Yehuda's position that the Parhedrin chamber mezuza is only rabbinic",
-    "Basic Temple geography and gate structure"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "The Nicanor Gate had a mezuza because it was the most important gate.",
@@ -104,8 +100,12 @@
    ],
    "relatedSugyot": [],
    "visualizableElements": [
-    "Temple gates diagram with Nicanor Gate highlighted as the only one with a mezuza",
-    "Gate + chamber as unified structure diagram"
+    {
+     "item": "Temple gates diagram with Nicanor Gate highlighted as the only one with a mezuza"
+    },
+    {
+     "item": "Gate + chamber as unified structure diagram"
+    }
    ],
    "quizSeeds": [
     {
@@ -124,7 +124,12 @@
     "Yoma.11a.1",
     "Yoma.11a.2"
    ],
-   "review": "ai_generated"
+   "review": "ai_generated",
+   "prerequisiteKnowledge": [
+    "The prohibition on gezeira ligzeira (stacking rabbinic decrees)",
+    "R. Yehuda's position that the Parhedrin chamber mezuza is only rabbinic",
+    "Basic Temple geography and gate structure"
+   ]
   },
   {
    "sugyaNumber": 2,
@@ -246,11 +251,7 @@
     "danger"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "The principle that agents of a mitzva are divinely protected",
-    "The exception when danger is fixed and predictable",
-    "Mezuza checking obligations and the consequences of finding a defective mezuza"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "Machoza's gates lacked mezuzot because they were not real gates or not obligated.",
@@ -259,8 +260,12 @@
    ],
    "relatedSugyot": [],
    "visualizableElements": [
-    "City gate with mezuza on doorpost",
-    "Contrast: predictable danger (fine) vs. unpredictable danger (accident)"
+    {
+     "item": "City gate with mezuza on doorpost"
+    },
+    {
+     "item": "Contrast: predictable danger (fine) vs. unpredictable danger (accident)"
+    }
    ],
    "quizSeeds": [
     {
@@ -281,7 +286,12 @@
     "Yoma.11a.5",
     "Yoma.11a.6"
    ],
-   "review": "ai_generated"
+   "review": "ai_generated",
+   "prerequisiteKnowledge": [
+    "The principle that agents of a mitzva are divinely protected",
+    "The exception when danger is fixed and predictable",
+    "Mezuza checking obligations and the consequences of finding a defective mezuza"
+   ]
   },
   {
    "sugyaNumber": 3,
@@ -453,11 +463,7 @@
     "domestic use"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "That mezuza requires a 'dwelling' - a space used for human residential purposes",
-    "The distinction between domestic/residential use and commercial use",
-    "Basic storehouse structure in Talmudic times"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "The dispute is about whether women specifically (vs. men) are the relevant population.",
@@ -466,8 +472,12 @@
    ],
    "relatedSugyot": [],
    "visualizableElements": [
-    "Four storehouse types: hay, cattle, wood, wine - with mezuza status marked for each opinion",
-    "Woman drawing wine from storage vessel - the pivotal image"
+    {
+     "item": "Four storehouse types: hay, cattle, wood, wine - with mezuza status marked for each opinion"
+    },
+    {
+     "item": "Woman drawing wine from storage vessel - the pivotal image"
+    }
    ],
    "quizSeeds": [
     {
@@ -493,7 +503,12 @@
     "Yoma.11a.14",
     "Yoma.11a.15"
    ],
-   "review": "ai_generated"
+   "review": "ai_generated",
+   "prerequisiteKnowledge": [
+    "That mezuza requires a 'dwelling' - a space used for human residential purposes",
+    "The distinction between domestic/residential use and commercial use",
+    "Basic storehouse structure in Talmudic times"
+   ]
   }
  ],
  "glossary": [

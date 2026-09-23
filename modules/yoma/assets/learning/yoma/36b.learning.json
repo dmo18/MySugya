@@ -112,10 +112,7 @@
     "tannaic dispute"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "nevelah prohibition",
-    "Temple zones of sanctity"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "The dispute about the bull's location is purely about ceremony - where the KG physically stood during confession.",
@@ -128,8 +125,8 @@
    ],
    "visualizableElements": [
     {
-     "type": "contrast",
-     "description": "R. Yehuda vs Rabbis: nevelah liability in different Temple zones"
+     "item": "R. Yehuda vs Rabbis: nevelah liability in different Temple zones",
+     "type": "contrast"
     }
    ],
    "quizSeeds": [
@@ -143,7 +140,11 @@
    "difficulty": "advanced",
    "alternateAngles": [],
    "glossary": [],
-   "review": "reviewed"
+   "review": "reviewed",
+   "prerequisiteKnowledge": [
+    "nevelah prohibition",
+    "Temple zones of sanctity"
+   ]
   },
   {
    "sugyaNumber": 2,
@@ -271,10 +272,7 @@
     "Shem HaMeforash"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "chatati aviti pashati (sin categories)",
-    "Baruch Shem"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "The Yom Kippur confession formula names only a single, general category of sin.",
@@ -287,8 +285,8 @@
    ],
    "visualizableElements": [
     {
-     "type": "text",
-     "description": "Full viduy text: chatati, aviti, pashati + kapper na + congregation responds Baruch Shem"
+     "item": "Full viduy text: chatati, aviti, pashati + kapper na + congregation responds Baruch Shem",
+     "type": "text"
     }
    ],
    "quizSeeds": [
@@ -302,7 +300,11 @@
    "difficulty": "intermediate",
    "alternateAngles": [],
    "glossary": [],
-   "review": "reviewed"
+   "review": "reviewed",
+   "prerequisiteKnowledge": [
+    "chatati aviti pashati (sin categories)",
+    "Baruch Shem"
+   ]
   },
   {
    "sugyaNumber": 3,
@@ -412,10 +414,7 @@
     "atonement theology"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "Yom Kippur atonement",
-    "confession requirement"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "The blood of the bull alone atones on Yom Kippur; the spoken confession is optional or merely ceremonial.",
@@ -428,8 +427,8 @@
    ],
    "visualizableElements": [
     {
-     "type": "text",
-     "description": "Verse v'chipper = kaparat devarim: verbal confession as the atoning act"
+     "item": "Verse v'chipper = kaparat devarim: verbal confession as the atoning act",
+     "type": "text"
     }
    ],
    "quizSeeds": [
@@ -443,7 +442,11 @@
    "difficulty": "intermediate",
    "alternateAngles": [],
    "glossary": [],
-   "review": "reviewed"
+   "review": "reviewed",
+   "prerequisiteKnowledge": [
+    "Yom Kippur atonement",
+    "confession requirement"
+   ]
   }
  ],
  "glossary": [

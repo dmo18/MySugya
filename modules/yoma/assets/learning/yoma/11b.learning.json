@@ -110,11 +110,7 @@
     "R. Yehuda refutation"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "The three conditions for mezuza obligation: dwelling, honor, mundane residential",
-    "Why sacred Temple space is categorically different from domestic space",
-    "Rav Yehuda's position that the Parhedrin chamber mezuza was Torah-level"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "The Temple's exemption from mezuza means it is less holy than an ordinary home.",
@@ -123,8 +119,12 @@
    ],
    "relatedSugyot": [],
    "visualizableElements": [
-    "Three-column diagram: not-dwelling, not-honor, not-mundane-residential structures",
-    "Temple Mount with 'no mezuza' label - counterintuitive holiness/obligation relationship"
+    {
+     "item": "Three-column diagram: not-dwelling, not-honor, not-mundane-residential structures"
+    },
+    {
+     "item": "Temple Mount with 'no mezuza' label - counterintuitive holiness/obligation relationship"
+    }
    ],
    "quizSeeds": [
     {
@@ -144,7 +144,12 @@
     "Yoma.11b.2",
     "Yoma.11b.3"
    ],
-   "review": "ai_generated"
+   "review": "ai_generated",
+   "prerequisiteKnowledge": [
+    "The three conditions for mezuza obligation: dwelling, honor, mundane residential",
+    "Why sacred Temple space is categorically different from domestic space",
+    "Rav Yehuda's position that the Parhedrin chamber mezuza was Torah-level"
+   ]
   },
   {
    "sugyaNumber": 2,
@@ -247,11 +252,7 @@
     "R. Meir"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "That mezuza requires doorposts (mezuzot, the physical sideposts of a doorway)",
-    "R. Meir's general approach of applying theoretical-completion reasoning to halakhic minima",
-    "Basic architectural distinction between arched/domed and rectangular doorways"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "The Median gate is exempt because it is foreign/non-Jewish architecture.",
@@ -260,8 +261,12 @@
    ],
    "relatedSugyot": [],
    "visualizableElements": [
-    "Rectangular doorway with doorposts vs. domed arch without doorposts - side by side",
-    "Carving diagram: how the dome could theoretically be carved to create doorposts (R. Meir's position)"
+    {
+     "item": "Rectangular doorway with doorposts vs. domed arch without doorposts - side by side"
+    },
+    {
+     "item": "Carving diagram: how the dome could theoretically be carved to create doorposts (R. Meir's position)"
+    }
    ],
    "quizSeeds": [
     {
@@ -281,7 +286,12 @@
     "Yoma.11b.5",
     "Yoma.11b.6"
    ],
-   "review": "ai_generated"
+   "review": "ai_generated",
+   "prerequisiteKnowledge": [
+    "That mezuza requires doorposts (mezuzot, the physical sideposts of a doorway)",
+    "R. Meir's general approach of applying theoretical-completion reasoning to halakhic minima",
+    "Basic architectural distinction between arched/domed and rectangular doorways"
+   ]
   },
   {
    "sugyaNumber": 3,
@@ -422,11 +432,7 @@
     "partners' house"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "The basic laws of tzaraat (house-plague) from Leviticus 14",
-    "That tzaraat requires a personal owner to receive the divine warning",
-    "The structure of parallel baraitot sharing the same reasoning across different laws"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "A synagogue gets tzaraat as a punishment for sins committed there.",
@@ -435,8 +441,12 @@
    ],
    "relatedSugyot": [],
    "visualizableElements": [
-    "Synagogue with attached caretaker's house - showing the residential connection",
-    "Parallel columns: mezuza baraita / tzaraat baraita - same structure, same categories"
+    {
+     "item": "Synagogue with attached caretaker's house - showing the residential connection"
+    },
+    {
+     "item": "Parallel columns: mezuza baraita / tzaraat baraita - same structure, same categories"
+    }
    ],
    "quizSeeds": [
     {
@@ -458,7 +468,12 @@
     "Yoma.11b.10",
     "Yoma.11b.11"
    ],
-   "review": "ai_generated"
+   "review": "ai_generated",
+   "prerequisiteKnowledge": [
+    "The basic laws of tzaraat (house-plague) from Leviticus 14",
+    "That tzaraat requires a personal owner to receive the divine warning",
+    "The structure of parallel baraitot sharing the same reasoning across different laws"
+   ]
   },
   {
    "sugyaNumber": 4,
@@ -584,11 +599,7 @@
     "R. Meir"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "Basic tzaraat law: requires a personal owner to receive the divine warning",
-    "The three standard resolution techniques for contradicting baraitot",
-    "Why the caretaker's residence creates a personal-ownership connection to the whole building"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "The third resolution (caretaker) overrides the first two (tanna attribution and city/village).",
@@ -597,8 +608,12 @@
    ],
    "relatedSugyot": [],
    "visualizableElements": [
-    "Three-column diagram: three resolution principles applied to the same contradiction",
-    "Synagogue with caretaker's house attached vs. standalone synagogue - showing the key distinction"
+    {
+     "item": "Three-column diagram: three resolution principles applied to the same contradiction"
+    },
+    {
+     "item": "Synagogue with caretaker's house attached vs. standalone synagogue - showing the key distinction"
+    }
    ],
    "quizSeeds": [
     {
@@ -620,7 +635,12 @@
     "Yoma.11b.15",
     "Yoma.11b.16"
    ],
-   "review": "ai_generated"
+   "review": "ai_generated",
+   "prerequisiteKnowledge": [
+    "Basic tzaraat law: requires a personal owner to receive the divine warning",
+    "The three standard resolution techniques for contradicting baraitot",
+    "Why the caretaker's residence creates a personal-ownership connection to the whole building"
+   ]
   }
  ],
  "glossary": [

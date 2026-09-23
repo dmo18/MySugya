@@ -59,11 +59,7 @@
     "shetiyah"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "Temple cosmology",
-    "creation narrative",
-    "even ha-shetiya"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "The world was created simultaneously and uniformly from all points, with no single location having primacy.",
@@ -72,10 +68,18 @@
    ],
    "relatedSugyot": [],
    "visualizableElements": [
-    "even ha-shetiya",
-    "Zion",
-    "creation",
-    "Temple Mount"
+    {
+     "item": "even ha-shetiya"
+    },
+    {
+     "item": "Zion"
+    },
+    {
+     "item": "creation"
+    },
+    {
+     "item": "Temple Mount"
+    }
    ],
    "quizSeeds": [
     {
@@ -87,7 +91,12 @@
    "difficulty": "intermediate",
    "alternateAngles": [],
    "glossary": [],
-   "review": "reviewed"
+   "review": "reviewed",
+   "prerequisiteKnowledge": [
+    "Temple cosmology",
+    "creation narrative",
+    "even ha-shetiya"
+   ]
   },
   {
    "sugyaNumber": 2,
@@ -194,11 +203,7 @@
     "stirrer"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "Yom Kippur blood protocol",
-    "inner blood service",
-    "communal atonement"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "The goat blood is sprinkled before the bull blood in the Holy of Holies service.",
@@ -207,11 +212,21 @@
    ],
    "relatedSugyot": [],
    "visualizableElements": [
-    "HP",
-    "goat blood",
-    "Holy of Holies",
-    "stirrer",
-    "communal atonement"
+    {
+     "item": "HP"
+    },
+    {
+     "item": "goat blood"
+    },
+    {
+     "item": "Holy of Holies"
+    },
+    {
+     "item": "stirrer"
+    },
+    {
+     "item": "communal atonement"
+    }
    ],
    "quizSeeds": [
     {
@@ -223,7 +238,12 @@
    "difficulty": "intermediate",
    "alternateAngles": [],
    "glossary": [],
-   "review": "reviewed"
+   "review": "reviewed",
+   "prerequisiteKnowledge": [
+    "Yom Kippur blood protocol",
+    "inner blood service",
+    "communal atonement"
+   ]
   },
   {
    "sugyaNumber": 3,
@@ -281,11 +301,7 @@
     "atonement unity"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "Yom Kippur atonement",
-    "blood service structure",
-    "paired completeness"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "The bull and goat blood services are independent atonement acts that happen to be performed on the same day.",
@@ -295,8 +311,8 @@
    "relatedSugyot": [],
    "visualizableElements": [
     {
+     "item": "Bull blood and goat blood as paired services: inner and outer, personal and communal, each clinging to the other",
      "type": "sequence",
-     "description": "Bull blood and goat blood as paired services: inner and outer, personal and communal, each clinging to the other",
      "role": "anchor",
      "priority": 1
     }
@@ -311,7 +327,12 @@
    "difficulty": "intermediate",
    "alternateAngles": [],
    "glossary": [],
-   "review": "reviewed"
+   "review": "reviewed",
+   "prerequisiteKnowledge": [
+    "Yom Kippur atonement",
+    "blood service structure",
+    "paired completeness"
+   ]
   }
  ],
  "glossary": [],

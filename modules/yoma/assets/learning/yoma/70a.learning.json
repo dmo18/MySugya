@@ -57,10 +57,7 @@
         "honor-of-congregation"
       ],
       "conceptRefs": [],
-      "requiresUnderstanding": [
-        "Torah reading laws",
-        "honor of the congregation"
-      ],
+      "requiresUnderstanding": [],
       "misconceptions": [
         {
           "misconception": "A Torah scroll can be rolled in either direction as needed",
@@ -71,8 +68,8 @@
       "relatedSugyot": [],
       "visualizableElements": [
         {
+          "item": "Scroll rolling forward (permitted) vs backward (prohibited)",
           "type": "contrast",
-          "description": "Scroll rolling forward (permitted) vs backward (prohibited)",
           "role": "anchor",
           "priority": 1
         }
@@ -85,10 +82,14 @@
         }
       ],
       "finalRuling": "Rolling a Torah scroll backward is prohibited.",
-      "difficulty": "introductory",
+      "difficulty": "intro",
       "alternateAngles": [],
       "glossary": [],
-      "review": "reviewed"
+      "review": "reviewed",
+      "prerequisiteKnowledge": [
+        "Torah reading laws",
+        "honor of the congregation"
+      ]
     },
     {
       "sugyaNumber": 2,
@@ -146,10 +147,7 @@
         "yom-kippur-ceremony"
       ],
       "conceptRefs": [],
-      "requiresUnderstanding": [
-        "by-heart Torah reading context",
-        "scroll honor in public reading"
-      ],
+      "requiresUnderstanding": [],
       "misconceptions": [
         {
           "misconception": "The HP's declaration was merely a formality",
@@ -160,8 +158,8 @@
       "relatedSugyot": [],
       "visualizableElements": [
         {
+          "item": "HP in white vestments pressing rolled Torah scroll to his chest before the assembled congregation",
           "type": "action",
-          "description": "HP in white vestments pressing rolled Torah scroll to his chest before the assembled congregation",
           "role": "anchor",
           "priority": 1
         }
@@ -174,10 +172,14 @@
         }
       ],
       "finalRuling": "After the Torah reading, the HP rolled the scroll and pressed it to his chest, declaring 'more than what I read is written here' to protect the scroll's honor.",
-      "difficulty": "introductory",
+      "difficulty": "intro",
       "alternateAngles": [],
       "glossary": [],
-      "review": "reviewed"
+      "review": "reviewed",
+      "prerequisiteKnowledge": [
+        "by-heart Torah reading context",
+        "scroll honor in public reading"
+      ]
     },
     {
       "sugyaNumber": 3,
@@ -292,10 +294,7 @@
         "yom-kippur-ceremony"
       ],
       "conceptRefs": [],
-      "requiresUnderstanding": [
-        "hidur mitzvah principle",
-        "Yom Kippur Torah reading"
-      ],
+      "requiresUnderstanding": [],
       "misconceptions": [
         {
           "misconception": "Displaying Torah scrolls is a modern practice",
@@ -306,8 +305,8 @@
       "relatedSugyot": [],
       "visualizableElements": [
         {
+          "item": "Beautiful Torah scrolls displayed to congregation, then HP reads from one while declaring the others contain more",
           "type": "sequence",
-          "description": "Beautiful Torah scrolls displayed to congregation, then HP reads from one while declaring the others contain more",
           "role": "anchor",
           "priority": 1
         }
@@ -323,7 +322,11 @@
       "difficulty": "intermediate",
       "alternateAngles": [],
       "glossary": [],
-      "review": "reviewed"
+      "review": "reviewed",
+      "prerequisiteKnowledge": [
+        "hidur mitzvah principle",
+        "Yom Kippur Torah reading"
+      ]
     },
     {
       "sugyaNumber": 4,
@@ -394,10 +397,7 @@
         "commandment-not-pass-over"
       ],
       "conceptRefs": [],
-      "requiresUnderstanding": [
-        "hishtachavayah (prostration) in halacha",
-        "Yom Kippur service order"
-      ],
+      "requiresUnderstanding": [],
       "misconceptions": [
         {
           "misconception": "The HP prostrated only once at the end of all eight blessings",
@@ -408,8 +408,8 @@
       "relatedSugyot": [],
       "visualizableElements": [
         {
+          "item": "HP reciting eight blessings in sequence, prostrating fully after each one before the assembled congregation",
           "type": "sequence",
-          "description": "HP reciting eight blessings in sequence, prostrating fully after each one before the assembled congregation",
           "role": "anchor",
           "priority": 1
         }
@@ -422,10 +422,14 @@
         }
       ],
       "finalRuling": "The HP prostrated eight times - once for each of the eight blessings after the Torah reading.",
-      "difficulty": "introductory",
+      "difficulty": "intro",
       "alternateAngles": [],
       "glossary": [],
-      "review": "reviewed"
+      "review": "reviewed",
+      "prerequisiteKnowledge": [
+        "hishtachavayah (prostration) in halacha",
+        "Yom Kippur service order"
+      ]
     },
     {
       "sugyaNumber": 5,
@@ -495,10 +499,7 @@
         "service-sequence"
       ],
       "conceptRefs": [],
-      "requiresUnderstanding": [
-        "mussaf offerings",
-        "five immersions of the HP"
-      ],
+      "requiresUnderstanding": [],
       "misconceptions": [
         {
           "misconception": "The Yom Kippur mussaf offerings were all performed at once",
@@ -509,8 +510,8 @@
       "relatedSugyot": [],
       "visualizableElements": [
         {
+          "item": "HP prostrating in white vestments before the assembled nation - eyewitnesses describing it as incomparable",
           "type": "action",
-          "description": "HP prostrating in white vestments before the assembled nation - eyewitnesses describing it as incomparable",
           "role": "anchor",
           "priority": 1
         }
@@ -526,7 +527,11 @@
       "difficulty": "intermediate",
       "alternateAngles": [],
       "glossary": [],
-      "review": "reviewed"
+      "review": "reviewed",
+      "prerequisiteKnowledge": [
+        "mussaf offerings",
+        "five immersions of the HP"
+      ]
     },
     {
       "sugyaNumber": 6,
@@ -788,11 +793,7 @@
         "five-immersions"
       ],
       "conceptRefs": [],
-      "requiresUnderstanding": [
-        "five immersions and ten sanctifications of HP",
-        "mussaf offerings of Yom Kippur",
-        "Torat Kohanim vs Chumash Hamifkad sequence"
-      ],
+      "requiresUnderstanding": [],
       "misconceptions": [
         {
           "misconception": "The mussaf offerings are all performed at the same time on Yom Kippur",
@@ -803,8 +804,8 @@
       "relatedSugyot": [],
       "visualizableElements": [
         {
+          "item": "HP's day: (1) morning tamid + one mussaf lamb, (2) day's service (Lev. 16), (3) rams + eimurim, (4) ladle and fire-pan removal, (5) remaining mussafin + afternoon tamid",
           "type": "timeline",
-          "description": "HP's day: (1) morning tamid + one mussaf lamb, (2) day's service (Lev. 16), (3) rams + eimurim, (4) ladle and fire-pan removal, (5) remaining mussafin + afternoon tamid",
           "role": "anchor",
           "priority": 1
         }
@@ -820,7 +821,12 @@
       "difficulty": "advanced",
       "alternateAngles": [],
       "glossary": [],
-      "review": "reviewed"
+      "review": "reviewed",
+      "prerequisiteKnowledge": [
+        "five immersions and ten sanctifications of HP",
+        "mussaf offerings of Yom Kippur",
+        "Torat Kohanim vs Chumash Hamifkad sequence"
+      ]
     }
   ],
   "glossary": [],

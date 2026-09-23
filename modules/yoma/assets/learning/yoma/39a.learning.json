@@ -292,10 +292,7 @@
     "Yom Kippur"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "Yom Kippur lot",
-    "western lamp (ner ma'aravi)"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "These were standard, naturally expected results of the Temple service, not miraculous.",
@@ -308,8 +305,8 @@
    ],
    "visualizableElements": [
     {
-     "type": "sequence",
-     "description": "Four miracles: right-hand lot, continuous western lamp, fresh showbread, straight incense smoke"
+     "item": "Four miracles: right-hand lot, continuous western lamp, fresh showbread, straight incense smoke",
+     "type": "sequence"
     }
    ],
    "quizSeeds": [
@@ -320,10 +317,14 @@
     }
    ],
    "finalRuling": "During Shimon HaTzaddik's 40 years: lot always right hand, western lamp continuous, showbread fresh, incense smoke straight.",
-   "difficulty": "introductory",
+   "difficulty": "intro",
    "alternateAngles": [],
    "glossary": [],
-   "review": "reviewed"
+   "review": "reviewed",
+   "prerequisiteKnowledge": [
+    "Yom Kippur lot",
+    "western lamp (ner ma'aravi)"
+   ]
   },
   {
    "sugyaNumber": 2,
@@ -415,10 +416,7 @@
     "Shimon HaTzaddik"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "western lamp",
-    "Yom Kippur lot"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "The 40-year decline signs before the Temple's destruction were universally recognized and led to repentance.",
@@ -431,8 +429,8 @@
    ],
    "visualizableElements": [
     {
-     "type": "timeline",
-     "description": "40 years of omens before destruction: lot left, lamp out, gates open"
+     "item": "40 years of omens before destruction: lot left, lamp out, gates open",
+     "type": "timeline"
     }
    ],
    "quizSeeds": [
@@ -443,10 +441,14 @@
     }
    ],
    "finalRuling": "40 years before destruction: lot came left, western lamp went out, gates opened - Rabban Yochanan ben Zakkai foretold the end.",
-   "difficulty": "introductory",
+   "difficulty": "intro",
    "alternateAngles": [],
    "glossary": [],
-   "review": "reviewed"
+   "review": "reviewed",
+   "prerequisiteKnowledge": [
+    "western lamp",
+    "Yom Kippur lot"
+   ]
   }
  ],
  "glossary": [],

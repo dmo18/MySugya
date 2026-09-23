@@ -386,9 +386,7 @@
     "Temple service"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "previous discussion about non-priest services"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "This is a major independent passage with its own teaching.",
@@ -400,9 +398,9 @@
    ],
    "visualizableElements": [
     {
+     "item": "Brief connector",
      "type": "text",
-     "label": "Transition",
-     "description": "Brief connector"
+     "label": "Transition"
     }
    ],
    "quizSeeds": [
@@ -412,9 +410,12 @@
     }
    ],
    "finalRuling": "Transitional.",
-   "difficulty": "introductory",
+   "difficulty": "intro",
    "alternateAngles": [],
-   "review": "reviewed"
+   "review": "reviewed",
+   "prerequisiteKnowledge": [
+    "previous discussion about non-priest services"
+   ]
   },
   {
    "sugyaNumber": 2,
@@ -561,11 +562,7 @@
     "avodah temimah"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "non-priest Temple service rules",
-    "death penalty for priestly service violation",
-    "wood arrangement (sidur etzim)"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "Any service a non-priest performs validly, he may also do without penalty.",
@@ -582,14 +579,14 @@
    ],
    "visualizableElements": [
     {
+     "item": "Three categories: (1) complete priestly service - non-priest is punished AND service is invalid; (2) non-priestly service - non-priest may do it validly; (3) the problematic middle category",
      "type": "contrast",
-     "label": "Valid vs punishable service categories",
-     "description": "Three categories: (1) complete priestly service - non-priest is punished AND service is invalid; (2) non-priestly service - non-priest may do it validly; (3) the problematic middle category"
+     "label": "Valid vs punishable service categories"
     },
     {
+     "item": "A non-kohen placing logs on the altar fire - does this transgress and/or invalidate the service?",
      "type": "person",
-     "label": "Non-priest at the altar fire",
-     "description": "A non-kohen placing logs on the altar fire - does this transgress and/or invalidate the service?"
+     "label": "Non-priest at the altar fire"
     }
    ],
    "quizSeeds": [
@@ -605,7 +602,12 @@
    "finalRuling": "Non-priest wood arrangement: the ruling and its precise conditions are debated and revised across 27b-28a. The service may be valid while the non-priest transgresses.",
    "difficulty": "advanced",
    "alternateAngles": [],
-   "review": "reviewed"
+   "review": "reviewed",
+   "prerequisiteKnowledge": [
+    "non-priest Temple service rules",
+    "death penalty for priestly service violation",
+    "wood arrangement (sidur etzim)"
+   ]
   }
  ]
 }

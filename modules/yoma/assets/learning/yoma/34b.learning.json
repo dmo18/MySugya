@@ -394,11 +394,7 @@
     "morning vs afternoon"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "afternoon tamid",
-    "Yom Kippur additional offerings",
-    "Numbers/Bamidbar tamid verse"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "The afternoon tamid has no biblical source of its own and depends entirely on R. Yehuda HaNasi's derivation from 'ha-echad.'",
@@ -412,9 +408,9 @@
    ],
    "visualizableElements": [
     {
+     "item": "Single word 'ha-echad' (the one lamb) in the afternoon verse: R. Yehuda HaNasi reads it as derivative of morning; Rabbis read it as pointing to a uniquely special offering",
      "type": "text",
-     "label": "Ha-echad debate",
-     "description": "Single word 'ha-echad' (the one lamb) in the afternoon verse: R. Yehuda HaNasi reads it as derivative of morning; Rabbis read it as pointing to a uniquely special offering"
+     "label": "Ha-echad debate"
     }
    ],
    "quizSeeds": [
@@ -430,7 +426,12 @@
    "finalRuling": "R. Yehuda HaNasi and the Rabbis dispute the meaning of 'the one.' The practical implications for the afternoon service sequence follow from this dispute.",
    "difficulty": "intermediate",
    "alternateAngles": [],
-   "review": "reviewed"
+   "review": "reviewed",
+   "prerequisiteKnowledge": [
+    "afternoon tamid",
+    "Yom Kippur additional offerings",
+    "Numbers/Bamidbar tamid verse"
+   ]
   },
   {
    "sugyaNumber": 2,
@@ -515,11 +516,7 @@
     "unintentional act"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "Yom Kippur immersion requirements",
-    "davar she-eino mitkaven",
-    "R. Yehuda vs Rabbis on unintentional acts"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "The High Priest had to immerse in cold water regardless of his health.",
@@ -538,14 +535,14 @@
    ],
    "visualizableElements": [
     {
+     "item": "An aging kohen gadol entering a Yom Kippur immersion pool warmed for his benefit",
      "type": "person",
-     "label": "Elderly High Priest and immersion accommodation",
-     "description": "An aging kohen gadol entering a Yom Kippur immersion pool warmed for his benefit"
+     "label": "Elderly High Priest and immersion accommodation"
     },
     {
+     "item": "Standard: cold mikveh water. Elderly/delicate: water pre-heated on Yom Kippur eve",
      "type": "contrast",
-     "label": "Standard vs elderly High Priest immersion",
-     "description": "Standard: cold mikveh water. Elderly/delicate: water pre-heated on Yom Kippur eve"
+     "label": "Standard vs elderly High Priest immersion"
     }
    ],
    "quizSeeds": [
@@ -561,7 +558,12 @@
    "finalRuling": "Hot water may be prepared for an elderly or fragile High Priest's Yom Kippur immersion. This is a permitted rabbinic accommodation.",
    "difficulty": "intermediate",
    "alternateAngles": [],
-   "review": "reviewed"
+   "review": "reviewed",
+   "prerequisiteKnowledge": [
+    "Yom Kippur immersion requirements",
+    "davar she-eino mitkaven",
+    "R. Yehuda vs Rabbis on unintentional acts"
+   ]
   },
   {
    "sugyaNumber": 3,
@@ -631,11 +633,7 @@
     "Yom Kippur"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "Hall of Parva",
-    "High Priest's Yom Kippur white garments",
-    "five immersions on Yom Kippur"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "The High Priest wore the same white garments for the entire Yom Kippur service.",
@@ -654,14 +652,14 @@
    ],
    "visualizableElements": [
     {
+     "item": "The immersion chamber in the sacred Temple precincts where the High Priest underwent his Yom Kippur immersions",
      "type": "place",
-     "label": "Hall of Parva",
-     "description": "The immersion chamber in the sacred Temple precincts where the High Priest underwent his Yom Kippur immersions"
+     "label": "Hall of Parva"
     },
     {
+     "item": "Morning: Egyptian Pelusium linen, 1,200 dinar. Afternoon: Indian linen, 800 dinar.",
      "type": "contrast",
-     "label": "Morning vs afternoon white garments",
-     "description": "Morning: Egyptian Pelusium linen, 1,200 dinar. Afternoon: Indian linen, 800 dinar."
+     "label": "Morning vs afternoon white garments"
     }
    ],
    "quizSeeds": [
@@ -675,9 +673,14 @@
     }
    ],
    "finalRuling": "Second immersion: Hall of Parva (sacred area). Morning white garments: Egyptian Pelusium, 1,200 dinar. Afternoon white garments: Indian linen, 800 dinar.",
-   "difficulty": "introductory",
+   "difficulty": "intro",
    "alternateAngles": [],
-   "review": "reviewed"
+   "review": "reviewed",
+   "prerequisiteKnowledge": [
+    "Hall of Parva",
+    "High Priest's Yom Kippur white garments",
+    "five immersions on Yom Kippur"
+   ]
   }
  ]
 }

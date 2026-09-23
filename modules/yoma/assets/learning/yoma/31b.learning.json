@@ -524,10 +524,7 @@
     "height"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "immersion chamber location",
-    "Water Gate height"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "The chamber's height is a minor detail.",
@@ -539,9 +536,9 @@
    ],
    "visualizableElements": [
     {
+     "item": "Twenty-three cubits above the Temple floor: Water Gate (20) + chamber (3+)",
      "type": "place",
-     "label": "Immersion chamber elevation",
-     "description": "Twenty-three cubits above the Temple floor: Water Gate (20) + chamber (3+)"
+     "label": "Immersion chamber elevation"
     }
    ],
    "quizSeeds": [
@@ -551,9 +548,13 @@
     }
    ],
    "finalRuling": "The immersion chamber was at least twenty-three cubits above the Temple floor.",
-   "difficulty": "introductory",
+   "difficulty": "intro",
    "alternateAngles": [],
-   "review": "reviewed"
+   "review": "reviewed",
+   "prerequisiteKnowledge": [
+    "immersion chamber location",
+    "Water Gate height"
+   ]
   },
   {
    "sugyaNumber": 2,
@@ -607,9 +608,7 @@
     "dignity"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "High Priest's immersion on Yom Kippur"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "The linen screen was for purity reasons.",
@@ -621,9 +620,9 @@
    ],
    "visualizableElements": [
     {
+     "item": "Linen sheet spread between High Priest and assembled priests/people during immersion",
      "type": "place",
-     "label": "Linen privacy screen",
-     "description": "Linen sheet spread between High Priest and assembled priests/people during immersion"
+     "label": "Linen privacy screen"
     }
    ],
    "quizSeeds": [
@@ -633,9 +632,12 @@
     }
    ],
    "finalRuling": "A linen screen was spread for the High Priest's privacy during immersion.",
-   "difficulty": "introductory",
+   "difficulty": "intro",
    "alternateAngles": [],
-   "review": "reviewed"
+   "review": "reviewed",
+   "prerequisiteKnowledge": [
+    "High Priest's immersion on Yom Kippur"
+   ]
   },
   {
    "sugyaNumber": 3,
@@ -774,12 +776,7 @@
     "High Priest"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "High Priest's Yom Kippur service",
-    "five immersions",
-    "golden vs white garments",
-    "Holy of Holies service"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "The High Priest wore only white garments on Yom Kippur.",
@@ -796,14 +793,14 @@
    ],
    "visualizableElements": [
     {
+     "item": "Gold - White - Gold - White - Gold, with immersion and sanctification at each transition",
      "type": "sequence",
-     "label": "Yom Kippur garment cycle",
-     "description": "Gold - White - Gold - White - Gold, with immersion and sanctification at each transition"
+     "label": "Yom Kippur garment cycle"
     },
     {
+     "item": "Gold: 8 pieces, for standard Temple service. White: 4 pieces, only for the Yom Kippur inner Holy of Holies service",
      "type": "contrast",
-     "label": "Golden vs white garments",
-     "description": "Gold: 8 pieces, for standard Temple service. White: 4 pieces, only for the Yom Kippur inner Holy of Holies service"
+     "label": "Golden vs white garments"
     }
    ],
    "quizSeeds": [
@@ -819,7 +816,13 @@
    "finalRuling": "The High Priest changes garments five times on Yom Kippur (Gold-White-Gold-White-Gold), with five immersions and ten sanctifications. Rav Pappa reconciles the Rabbis and R. Meir.",
    "difficulty": "advanced",
    "alternateAngles": [],
-   "review": "reviewed"
+   "review": "reviewed",
+   "prerequisiteKnowledge": [
+    "High Priest's Yom Kippur service",
+    "five immersions",
+    "golden vs white garments",
+    "Holy of Holies service"
+   ]
   }
  ]
 }

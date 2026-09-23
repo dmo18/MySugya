@@ -126,10 +126,7 @@
     "derivation limit"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "Understanding the principle that hekkesh cannot teach hekkesh",
-    "Knowing the verse 'as you shall do to the Tent of Meeting'"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "The parochet has its own direct verse specifying its blood sprinkling service, independent of the inner service.",
@@ -139,12 +136,12 @@
    "relatedSugyot": [],
    "visualizableElements": [
     {
-     "type": "contrast",
-     "name": "direct verse vs. analogy-from-analogy"
+     "item": "direct verse vs. analogy-from-analogy",
+     "type": "contrast"
     },
     {
-     "type": "text",
-     "name": "'as you shall do to the Tent of Meeting' verse"
+     "item": "'as you shall do to the Tent of Meeting' verse",
+     "type": "text"
     }
    ],
    "quizSeeds": [
@@ -157,7 +154,11 @@
    "difficulty": "advanced",
    "alternateAngles": [],
    "glossary": [],
-   "review": "reviewed"
+   "review": "reviewed",
+   "prerequisiteKnowledge": [
+    "Understanding the principle that hekkesh cannot teach hekkesh",
+    "Knowing the verse 'as you shall do to the Tent of Meeting'"
+   ]
   },
   {
    "sugyaNumber": 2,
@@ -298,10 +299,7 @@
     "two sub-services"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "Knowing the golden altar is the incense altar inside the Heichal",
-    "Knowing corner sprinkles use individual blood while top sprinkles use mixed blood"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "The sprinklings on the golden altar all go on the top surface - there is only one type of application there.",
@@ -311,16 +309,16 @@
    "relatedSugyot": [],
    "visualizableElements": [
     {
-     "type": "object",
-     "name": "golden altar (incense altar)"
+     "item": "golden altar (incense altar)",
+     "type": "object"
     },
     {
-     "type": "sequence",
-     "name": "corners individual then mix then top combined"
+     "item": "corners individual then mix then top combined",
+     "type": "sequence"
     },
     {
-     "type": "action",
-     "name": "mixing the two bloods for the top service"
+     "item": "mixing the two bloods for the top service",
+     "type": "action"
     }
    ],
    "quizSeeds": [
@@ -333,7 +331,11 @@
    "difficulty": "intermediate",
    "alternateAngles": [],
    "glossary": [],
-   "review": "reviewed"
+   "review": "reviewed",
+   "prerequisiteKnowledge": [
+    "Knowing the golden altar is the incense altar inside the Heichal",
+    "Knowing corner sprinkles use individual blood while top sprinkles use mixed blood"
+   ]
   }
  ],
  "glossary": [],

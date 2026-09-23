@@ -570,12 +570,7 @@
     "R. Yehuda HaNasi"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "golden vs white garments",
-    "five immersions",
-    "ten sanctifications",
-    "kal vachomer"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "A kal vachomer from white to golden garments is straightforward.",
@@ -592,14 +587,14 @@
    ],
    "visualizableElements": [
     {
+     "item": "White: associated with atonement, inner service. Gold: associated with honor, outer service. White is stricter in some ways.",
      "type": "contrast",
-     "label": "White vs golden garments stringency",
-     "description": "White: associated with atonement, inner service. Gold: associated with honor, outer service. White is stricter in some ways."
+     "label": "White vs golden garments stringency"
     },
     {
+     "item": "Before undressing (first - debated) - immerse - dress - sanctify (second - all agree)",
      "type": "sequence",
-     "label": "First vs second sanctification",
-     "description": "Before undressing (first - debated) - immerse - dress - sanctify (second - all agree)"
+     "label": "First vs second sanctification"
     }
    ],
    "quizSeeds": [
@@ -615,7 +610,13 @@
    "finalRuling": "The kal vachomer from white to golden garments is challenged. The core debate is about the first sanctification. Rav Hisda characterizes R. Yehuda HaNasi's ruling as a novel chiddush.",
    "difficulty": "advanced",
    "alternateAngles": [],
-   "review": "reviewed"
+   "review": "reviewed",
+   "prerequisiteKnowledge": [
+    "golden vs white garments",
+    "five immersions",
+    "ten sanctifications",
+    "kal vachomer"
+   ]
   },
   {
    "sugyaNumber": 2,
@@ -699,11 +700,7 @@
     "Yom Kippur service"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "shechita (ritual slaughter)",
-    "rov simanim (majority of organs)",
-    "tamid service"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "The High Priest's tamid slaughter on Yom Kippur uses different standards than ordinary shechita.",
@@ -716,9 +713,9 @@
    ],
    "visualizableElements": [
     {
+     "item": "Priest takes lamb - hands knife to High Priest - High Priest slaughters - cutting through majority of trachea and esophagus",
      "type": "sequence",
-     "label": "Tamid slaughter hand-off",
-     "description": "Priest takes lamb - hands knife to High Priest - High Priest slaughters - cutting through majority of trachea and esophagus"
+     "label": "Tamid slaughter hand-off"
     }
    ],
    "quizSeeds": [
@@ -728,9 +725,14 @@
     }
    ],
    "finalRuling": "The High Priest personally slaughters the Yom Kippur tamid using standard shechita: majority of both organs.",
-   "difficulty": "introductory",
+   "difficulty": "intro",
    "alternateAngles": [],
-   "review": "reviewed"
+   "review": "reviewed",
+   "prerequisiteKnowledge": [
+    "shechita (ritual slaughter)",
+    "rov simanim (majority of organs)",
+    "tamid service"
+   ]
   }
  ]
 }

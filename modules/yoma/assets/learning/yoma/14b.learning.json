@@ -68,10 +68,7 @@
    "conceptRefs": [
     "Yoma.14b.1"
    ],
-   "requiresUnderstanding": [
-    "R. Akiva's para aduma paradox from 14a",
-    "The seven-day purification sequence for corpse impurity"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "The sprinkling must happen in the morning to purify the KG for that day's service.",
@@ -84,12 +81,12 @@
    ],
    "visualizableElements": [
     {
-     "type": "timeline",
-     "desc": "Day timeline: morning-noon (service while pure) - dusk (sprinkling, then immediate immersion) - nightfall (full purity restored for next day)"
+     "item": "Day timeline: morning-noon (service while pure) - dusk (sprinkling, then immediate immersion) - nightfall (full purity restored for next day)",
+     "type": "timeline"
     },
     {
-     "type": "sequence",
-     "desc": "Abaye's resolution as a three-step process: serve, sprinkle, immerse+wait"
+     "item": "Abaye's resolution as a three-step process: serve, sprinkle, immerse+wait",
+     "type": "sequence"
     }
    ],
    "quizSeeds": [
@@ -118,7 +115,11 @@
     "concepts": "ai_generated",
     "argumentFlow": "ai_generated",
     "sourceRefs": "ai_generated"
-   }
+   },
+   "prerequisiteKnowledge": [
+    "R. Akiva's para aduma paradox from 14a",
+    "The seven-day purification sequence for corpse impurity"
+   ]
   },
   {
    "sugyaNumber": 2,
@@ -243,10 +244,7 @@
     "Yoma.14b.2",
     "Yoma.14b.4"
    ],
-   "requiresUnderstanding": [
-    "The daily Temple service order (Tamid)",
-    "How the Talmud attributes anonymous mishnayot to named authors"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "A tractate must be authored by a single sage whose views are consistent with him wherever he appears.",
@@ -264,12 +262,12 @@
    ],
    "visualizableElements": [
     {
-     "type": "contrast",
-     "desc": "Tamid's order (incense first) vs. Yoma's order (lamps first) - the same daily service described in a different sequence by two Mishnaic tractates"
+     "item": "Tamid's order (incense first) vs. Yoma's order (lamps first) - the same daily service described in a different sequence by two Mishnaic tractates",
+     "type": "contrast"
     },
     {
-     "type": "people",
-     "desc": "R. Shimon ish HaMitzpah - the Tanna whose Tosefta position fingerprints him as Yoma's author, not Tamid's"
+     "item": "R. Shimon ish HaMitzpah - the Tanna whose Tosefta position fingerprints him as Yoma's author, not Tamid's",
+     "type": "people"
     }
    ],
    "quizSeeds": [
@@ -306,7 +304,11 @@
     "concepts": "ai_generated",
     "argumentFlow": "ai_generated",
     "sourceRefs": "ai_generated"
-   }
+   },
+   "prerequisiteKnowledge": [
+    "The daily Temple service order (Tamid)",
+    "How the Talmud attributes anonymous mishnayot to named authors"
+   ]
   },
   {
    "sugyaNumber": 3,
@@ -433,11 +435,7 @@
     "Yoma.14b.6",
     "Yoma.14b.8"
    ],
-   "requiresUnderstanding": [
-    "The daily Temple service order (Tamid)",
-    "The seven-lamp menorah and how it was cleaned",
-    "The four lottery system of Yoma"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "The five-lamp and two-lamp counts in Yoma describe an error or two unrelated lamp sets.",
@@ -455,16 +453,16 @@
    ],
    "visualizableElements": [
     {
-     "type": "sequence",
-     "desc": "Abba Shaul's order: incense - 5 lamps - 2 lamps. Rabbanan's order: 5 lamps - incense - 2 lamps. A timeline showing the difference in incense placement."
+     "item": "Abba Shaul's order: incense - 5 lamps - 2 lamps. Rabbanan's order: 5 lamps - incense - 2 lamps. A timeline showing the difference in incense placement.",
+     "type": "sequence"
     },
     {
-     "type": "objects",
-     "desc": "The seven-branched menorah with five lamps cleaned in the first session and two in the second"
+     "item": "The seven-branched menorah with five lamps cleaned in the first session and two in the second",
+     "type": "objects"
     },
     {
-     "type": "text",
-     "desc": "The scriptural verses each side cites to justify their service order"
+     "item": "The scriptural verses each side cites to justify their service order",
+     "type": "text"
     }
    ],
    "quizSeeds": [
@@ -501,7 +499,12 @@
     "concepts": "ai_generated",
     "argumentFlow": "ai_generated",
     "sourceRefs": "ai_generated"
-   }
+   },
+   "prerequisiteKnowledge": [
+    "The daily Temple service order (Tamid)",
+    "The seven-lamp menorah and how it was cleaned",
+    "The four lottery system of Yoma"
+   ]
   }
  ],
  "glossary": [

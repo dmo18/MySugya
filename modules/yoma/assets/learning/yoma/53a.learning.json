@@ -57,10 +57,7 @@
     "Holy of Holies service"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "Temple service orientation",
-    "Holy of Holies protocol"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "Inside the Holy of Holies, the HP could approach the incense coal pan from any direction.",
@@ -71,8 +68,8 @@
    "relatedSugyot": [],
    "visualizableElements": [
     {
+     "item": "Holy of Holies interior: HP approaches coal pan from the side, not directly in front",
      "type": "place",
-     "description": "Holy of Holies interior: HP approaches coal pan from the side, not directly in front",
      "role": "anchor",
      "priority": 1
     }
@@ -87,7 +84,11 @@
    "difficulty": "intermediate",
    "alternateAngles": [],
    "glossary": [],
-   "review": "reviewed"
+   "review": "reviewed",
+   "prerequisiteKnowledge": [
+    "Temple service orientation",
+    "Holy of Holies protocol"
+   ]
   },
   {
    "sugyaNumber": 2,
@@ -204,11 +205,7 @@
     "baraita"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "Sadducee-Pharisee disputes",
-    "incense service",
-    "Temple service halacha"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "The Sadducees were correct that the HP should pile incense outside and enter already surrounded by smoke - their reading of the verse is the natural one.",
@@ -217,10 +214,18 @@
    ],
    "relatedSugyot": [],
    "visualizableElements": [
-    "HP",
-    "incense",
-    "parochet",
-    "before God"
+    {
+     "item": "HP"
+    },
+    {
+     "item": "incense"
+    },
+    {
+     "item": "parochet"
+    },
+    {
+     "item": "before God"
+    }
    ],
    "quizSeeds": [
     {
@@ -232,7 +237,12 @@
    "difficulty": "intermediate",
    "alternateAngles": [],
    "glossary": [],
-   "review": "reviewed"
+   "review": "reviewed",
+   "prerequisiteKnowledge": [
+    "Sadducee-Pharisee disputes",
+    "incense service",
+    "Temple service halacha"
+   ]
   },
   {
    "sugyaNumber": 3,
@@ -354,11 +364,7 @@
     "incense timing"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "Temple service hermeneutics",
-    "Sadducee interpretation",
-    "biblical analysis"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "'Before God' can refer to any area in the Temple where God's presence dwells, including outside the parochet.",
@@ -367,10 +373,18 @@
    ],
    "relatedSugyot": [],
    "visualizableElements": [
-    "incense",
-    "Holy of Holies",
-    "parochet",
-    "divine presence"
+    {
+     "item": "incense"
+    },
+    {
+     "item": "Holy of Holies"
+    },
+    {
+     "item": "parochet"
+    },
+    {
+     "item": "divine presence"
+    }
    ],
    "quizSeeds": [
     {
@@ -382,7 +396,12 @@
    "difficulty": "advanced",
    "alternateAngles": [],
    "glossary": [],
-   "review": "reviewed"
+   "review": "reviewed",
+   "prerequisiteKnowledge": [
+    "Temple service hermeneutics",
+    "Sadducee interpretation",
+    "biblical analysis"
+   ]
   },
   {
    "sugyaNumber": 4,
@@ -470,11 +489,7 @@
     "Ark presence"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "kavod principles",
-    "Holy of Holies protocol",
-    "deference to holiness"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "The HP turns around normally and walks forward out of the Holy of Holies after completing the blood and incense service.",
@@ -483,10 +498,18 @@
    ],
    "relatedSugyot": [],
    "visualizableElements": [
-    "HP",
-    "backward walk",
-    "Holy of Holies exit",
-    "kapporet"
+    {
+     "item": "HP"
+    },
+    {
+     "item": "backward walk"
+    },
+    {
+     "item": "Holy of Holies exit"
+    },
+    {
+     "item": "kapporet"
+    }
    ],
    "quizSeeds": [
     {
@@ -498,7 +521,12 @@
    "difficulty": "intermediate",
    "alternateAngles": [],
    "glossary": [],
-   "review": "reviewed"
+   "review": "reviewed",
+   "prerequisiteKnowledge": [
+    "kavod principles",
+    "Holy of Holies protocol",
+    "deference to holiness"
+   ]
   },
   {
    "sugyaNumber": 5,
@@ -605,11 +633,7 @@
     "Holy of Holies exit"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "HP communal role",
-    "prayer requirements",
-    "Yom Kippur service"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "The HP can pray at length after emerging from the Holy of Holies - extended prayer after such a holy act is fitting and appropriate.",
@@ -618,10 +642,18 @@
    ],
    "relatedSugyot": [],
    "visualizableElements": [
-    "HP",
-    "exit prayer",
-    "waiting crowd",
-    "communal vs personal prayer"
+    {
+     "item": "HP"
+    },
+    {
+     "item": "exit prayer"
+    },
+    {
+     "item": "waiting crowd"
+    },
+    {
+     "item": "communal vs personal prayer"
+    }
    ],
    "quizSeeds": [
     {
@@ -633,7 +665,12 @@
    "difficulty": "intermediate",
    "alternateAngles": [],
    "glossary": [],
-   "review": "reviewed"
+   "review": "reviewed",
+   "prerequisiteKnowledge": [
+    "HP communal role",
+    "prayer requirements",
+    "Yom Kippur service"
+   ]
   }
  ],
  "glossary": [],

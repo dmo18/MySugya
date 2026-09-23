@@ -186,11 +186,7 @@
     "honor-of-HP"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "me'ilah laws",
-    "shatnez prohibition",
-    "HP's five immersions and ten sanctifications"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "Placing vestments near one's head while sleeping constitutes me'ilah",
@@ -201,8 +197,8 @@
    "relatedSugyot": [],
    "visualizableElements": [
     {
+     "item": "Awake HP (vestments worn, no immersion needed) vs sleeping HP (must immerse before resuming service)",
      "type": "contrast",
-     "description": "Awake HP (vestments worn, no immersion needed) vs sleeping HP (must immerse before resuming service)",
      "role": "anchor",
      "priority": 1
     }
@@ -218,7 +214,12 @@
    "difficulty": "intermediate",
    "alternateAngles": [],
    "glossary": [],
-   "review": "reviewed"
+   "review": "reviewed",
+   "prerequisiteKnowledge": [
+    "me'ilah laws",
+    "shatnez prohibition",
+    "HP's five immersions and ten sanctifications"
+   ]
   },
   {
    "sugyaNumber": 2,
@@ -365,10 +366,7 @@
     "yom-kippur-service"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "me'ilah laws (Lev. 5)",
-    "HP's white linen vestments on Yom Kippur"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "Any use of sacred vestments outside the Temple service constitutes me'ilah",
@@ -379,8 +377,8 @@
    "relatedSugyot": [],
    "visualizableElements": [
     {
+     "item": "HP in white linen holding a Torah scroll rolled to his chest, declaring 'more is written here'",
      "type": "action",
-     "description": "HP in white linen holding a Torah scroll rolled to his chest, declaring 'more is written here'",
      "role": "anchor",
      "priority": 1
     }
@@ -396,7 +394,11 @@
    "difficulty": "intermediate",
    "alternateAngles": [],
    "glossary": [],
-   "review": "reviewed"
+   "review": "reviewed",
+   "prerequisiteKnowledge": [
+    "me'ilah laws (Lev. 5)",
+    "HP's white linen vestments on Yom Kippur"
+   ]
   },
   {
    "sugyaNumber": 3,
@@ -454,10 +456,7 @@
     "protocol"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "structure of Temple-era synagogue",
-    "segan's role as deputy HP"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "The chazan gave the scroll directly to the HP",
@@ -468,8 +467,8 @@
    "relatedSugyot": [],
    "visualizableElements": [
     {
+     "item": "Four-step chain: chazan hands scroll to synagogue head, to segan, to HP",
      "type": "sequence",
-     "description": "Four-step chain: chazan hands scroll to synagogue head, to segan, to HP",
      "role": "anchor",
      "priority": 1
     }
@@ -482,10 +481,14 @@
     }
    ],
    "finalRuling": "The Torah scroll was passed from the chazan to the rosh ha-knesset to the segan to the HP - a formal protocol of honor.",
-   "difficulty": "introductory",
+   "difficulty": "intro",
    "alternateAngles": [],
    "glossary": [],
-   "review": "reviewed"
+   "review": "reviewed",
+   "prerequisiteKnowledge": [
+    "structure of Temple-era synagogue",
+    "segan's role as deputy HP"
+   ]
   },
   {
    "sugyaNumber": 4,
@@ -543,10 +546,7 @@
     "public-ceremony"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "bimah as teaching platform",
-    "Ezra's Torah reading (Neh. 8)"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "The HP read Torah quietly in the Temple precincts",
@@ -557,8 +557,8 @@
    "relatedSugyot": [],
    "visualizableElements": [
     {
+     "item": "HP in white vestments standing on a raised bimah before the assembled congregation in the Temple courtyard",
      "type": "action",
-     "description": "HP in white vestments standing on a raised bimah before the assembled congregation in the Temple courtyard",
      "role": "anchor",
      "priority": 1
     }
@@ -571,10 +571,14 @@
     }
    ],
    "finalRuling": "The HP stood on a raised bimah for the Torah reading so all assembled could see him.",
-   "difficulty": "introductory",
+   "difficulty": "intro",
    "alternateAngles": [],
    "glossary": [],
-   "review": "reviewed"
+   "review": "reviewed",
+   "prerequisiteKnowledge": [
+    "bimah as teaching platform",
+    "Ezra's Torah reading (Neh. 8)"
+   ]
   }
  ],
  "glossary": [],

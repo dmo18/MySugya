@@ -57,10 +57,7 @@
     "transition"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "Knowing the HP entered for bull blood and re-entered for goat blood",
-    "Knowing the parochet service comes next"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "When the HP exits the Holy of Holies, he carries the blood bowls to immediately dispose of them - the blood's role in the service is over.",
@@ -70,12 +67,12 @@
    "relatedSugyot": [],
    "visualizableElements": [
     {
-     "type": "person",
-     "name": "HP emerging from the Holy of Holies"
+     "item": "HP emerging from the Holy of Holies",
+     "type": "person"
     },
     {
-     "type": "place",
-     "name": "doorway between Holy of Holies and Heichal"
+     "item": "doorway between Holy of Holies and Heichal",
+     "type": "place"
     }
    ],
    "quizSeeds": [
@@ -85,10 +82,14 @@
     }
    ],
    "finalRuling": "The HP exits the Holy of Holies after the goat's blood sprinkling, completing the innermost phase and transitioning to the parochet and golden altar services.",
-   "difficulty": "introductory",
+   "difficulty": "intro",
    "alternateAngles": [],
    "glossary": [],
-   "review": "reviewed"
+   "review": "reviewed",
+   "prerequisiteKnowledge": [
+    "Knowing the HP entered for bull blood and re-entered for goat blood",
+    "Knowing the parochet service comes next"
+   ]
   }
  ],
  "glossary": [],

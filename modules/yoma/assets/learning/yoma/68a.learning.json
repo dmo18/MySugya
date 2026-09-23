@@ -96,11 +96,7 @@
         "outside-three-camps"
       ],
       "conceptRefs": [],
-      "requiresUnderstanding": [
-        "parah adumah basics",
-        "gezerah shavah methodology",
-        "three-camp structure of the wilderness camp"
-      ],
+      "requiresUnderstanding": [],
       "misconceptions": [
         {
           "misconception": "The Yom Kippur bull is burned in the same location as the parah adumah (east of Jerusalem)",
@@ -111,8 +107,8 @@
       "relatedSugyot": [],
       "visualizableElements": [
         {
+          "item": "Parah adumah (east, outside three camps) linked to Yom Kippur burning (north, outside three camps) via gezerah shavah",
           "type": "relationship",
-          "description": "Parah adumah (east, outside three camps) linked to Yom Kippur burning (north, outside three camps) via gezerah shavah",
           "role": "anchor",
           "priority": 1
         }
@@ -128,7 +124,12 @@
       "difficulty": "advanced",
       "alternateAngles": [],
       "glossary": [],
-      "review": "reviewed"
+      "review": "reviewed",
+      "prerequisiteKnowledge": [
+        "parah adumah basics",
+        "gezerah shavah methodology",
+        "three-camp structure of the wilderness camp"
+      ]
     },
     {
       "sugyaNumber": 2,
@@ -300,11 +301,7 @@
         "gezerah-shavah"
       ],
       "conceptRefs": [],
-      "requiresUnderstanding": [
-        "three-camp structure",
-        "parah adumah burning location",
-        "inner sin offerings"
-      ],
+      "requiresUnderstanding": [],
       "misconceptions": [
         {
           "misconception": "All burned sacrifices cause tum'ah only after the fire catches",
@@ -315,8 +312,8 @@
       "relatedSugyot": [],
       "visualizableElements": [
         {
+          "item": "Two opinions on tum'ah onset: (1) Sages - when carcasses exit Azarah; (2) R. Shimon - when fire catches in most of carcass",
           "type": "timeline",
-          "description": "Two opinions on tum'ah onset: (1) Sages - when carcasses exit Azarah; (2) R. Shimon - when fire catches in most of carcass",
           "role": "anchor",
           "priority": 1
         }
@@ -332,7 +329,12 @@
       "difficulty": "advanced",
       "alternateAngles": [],
       "glossary": [],
-      "review": "reviewed"
+      "review": "reviewed",
+      "prerequisiteKnowledge": [
+        "three-camp structure",
+        "parah adumah burning location",
+        "inner sin offerings"
+      ]
     }
   ],
   "glossary": [],

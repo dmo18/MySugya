@@ -101,10 +101,7 @@
     "baraita objection"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "blood service laws",
-    "who may perform Temple service"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "Once a sage cites a baraita as support for a ruling, he is committed to that ruling and cannot reverse it.",
@@ -115,8 +112,8 @@
    "relatedSugyot": [],
    "visualizableElements": [
     {
+     "item": "Rav Sheshet citing a baraita, then using the same baraita to reverse his own position",
      "type": "narrative",
-     "description": "Rav Sheshet citing a baraita, then using the same baraita to reverse his own position",
      "role": "aha",
      "priority": 1
     }
@@ -131,7 +128,11 @@
    "difficulty": "intermediate",
    "alternateAngles": [],
    "glossary": [],
-   "review": "reviewed"
+   "review": "reviewed",
+   "prerequisiteKnowledge": [
+    "blood service laws",
+    "who may perform Temple service"
+   ]
   },
   {
    "sugyaNumber": 2,
@@ -188,10 +189,7 @@
     "incense preparation"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "kometz laws",
-    "required service acts"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "Scooping the incense (kabbalat hakometz) is clearly a distinct service step, equivalent to kabbalah in blood service.",
@@ -202,8 +200,8 @@
    "relatedSugyot": [],
    "visualizableElements": [
     {
+     "item": "Kabbalat hakometz as formal service step vs. as mere preparation - two legal categories",
      "type": "contrast",
-     "description": "Kabbalat hakometz as formal service step vs. as mere preparation - two legal categories",
      "role": "contrast",
      "priority": 1
     }
@@ -218,7 +216,11 @@
    "difficulty": "advanced",
    "alternateAngles": [],
    "glossary": [],
-   "review": "reviewed"
+   "review": "reviewed",
+   "prerequisiteKnowledge": [
+    "kometz laws",
+    "required service acts"
+   ]
   },
   {
    "sugyaNumber": 3,
@@ -389,11 +391,7 @@
     "new bull required"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "HP Yom Kippur service",
-    "kometz order",
-    "replacement rules"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "Once the High Priest has scooped the incense, that scooped portion remains valid and the replacement can use it to continue the service without repeating that step.",
@@ -404,8 +402,8 @@
    "relatedSugyot": [],
    "visualizableElements": [
     {
+     "item": "HP scoops incense, dies, replacement enters - is the original scooping still valid?",
      "type": "sequence",
-     "description": "HP scoops incense, dies, replacement enters - is the original scooping still valid?",
      "role": "aha",
      "priority": 1
     }
@@ -420,7 +418,12 @@
    "difficulty": "advanced",
    "alternateAngles": [],
    "glossary": [],
-   "review": "reviewed"
+   "review": "reviewed",
+   "prerequisiteKnowledge": [
+    "HP Yom Kippur service",
+    "kometz order",
+    "replacement rules"
+   ]
   }
  ],
  "glossary": [],

@@ -76,10 +76,7 @@
     "biblical derivation"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "gezerah shavah",
-    "viduy (confession)"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "The word 'anna' in the KG's Yom Kippur confession is a rabbinically invented formula with no biblical grounding.",
@@ -92,8 +89,8 @@
    ],
    "visualizableElements": [
     {
-     "type": "text",
-     "description": "Gezerah shavah links 'anna' to Yom Kippur via the word kappara"
+     "item": "Gezerah shavah links 'anna' to Yom Kippur via the word kappara",
+     "type": "text"
     }
    ],
    "quizSeeds": [
@@ -107,7 +104,11 @@
    "difficulty": "intermediate",
    "alternateAngles": [],
    "glossary": [],
-   "review": "reviewed"
+   "review": "reviewed",
+   "prerequisiteKnowledge": [
+    "gezerah shavah",
+    "viduy (confession)"
+   ]
   },
   {
    "sugyaNumber": 2,
@@ -163,10 +164,7 @@
     "prostration"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "Baruch Shem",
-    "Temple prostration (kidat arkavin)"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "Baruch Shem was said quietly during the Yom Kippur service just as it is recited daily.",
@@ -179,8 +177,8 @@
    ],
    "visualizableElements": [
     {
-     "type": "action",
-     "description": "Congregation falls prostrate when hearing Shem HaMeforash, responding Baruch Shem"
+     "item": "Congregation falls prostrate when hearing Shem HaMeforash, responding Baruch Shem",
+     "type": "action"
     }
    ],
    "quizSeeds": [
@@ -191,10 +189,14 @@
     }
    ],
    "finalRuling": "When the KG spoke the Shem HaMeforash, the congregation fell prostrate and responded with Baruch Shem.",
-   "difficulty": "introductory",
+   "difficulty": "intro",
    "alternateAngles": [],
    "glossary": [],
-   "review": "reviewed"
+   "review": "reviewed",
+   "prerequisiteKnowledge": [
+    "Baruch Shem",
+    "Temple prostration (kidat arkavin)"
+   ]
   },
   {
    "sugyaNumber": 3,
@@ -323,10 +325,7 @@
     "Azazel"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "Yom Kippur two-goat ritual",
-    "lottery (goral)"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "The High Priest selected which goat was 'for God' based on its appearance or some other personal judgment.",
@@ -339,8 +338,8 @@
    ],
    "visualizableElements": [
     {
-     "type": "sequence",
-     "description": "KG comes to north of altar, shakes box, draws two lots simultaneously"
+     "item": "KG comes to north of altar, shakes box, draws two lots simultaneously",
+     "type": "sequence"
     }
    ],
    "quizSeeds": [
@@ -351,10 +350,14 @@
     }
    ],
    "finalRuling": "The KG drew two lots simultaneously from the box - the lot in each hand designated which goat was for God and which for Azazel.",
-   "difficulty": "introductory",
+   "difficulty": "intro",
    "alternateAngles": [],
    "glossary": [],
-   "review": "reviewed"
+   "review": "reviewed",
+   "prerequisiteKnowledge": [
+    "Yom Kippur two-goat ritual",
+    "lottery (goral)"
+   ]
   },
   {
    "sugyaNumber": 4,
@@ -446,10 +449,7 @@
     "Deputy KG"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "Temple hierarchy",
-    "segan (Deputy KG)"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "The positioning of the Deputy on the KG's right is a fixed halacha with no dispute.",
@@ -462,8 +462,8 @@
    ],
    "visualizableElements": [
     {
-     "type": "relationship",
-     "description": "Deputy vs head of bet av: contested right-side precedence"
+     "item": "Deputy vs head of bet av: contested right-side precedence",
+     "type": "relationship"
     }
    ],
    "quizSeeds": [
@@ -474,10 +474,14 @@
     }
    ],
    "finalRuling": "Mishna: Deputy to the right, head of bet av to the left. R. Yehuda reverses the positions.",
-   "difficulty": "introductory",
+   "difficulty": "intro",
    "alternateAngles": [],
    "glossary": [],
-   "review": "reviewed"
+   "review": "reviewed",
+   "prerequisiteKnowledge": [
+    "Temple hierarchy",
+    "segan (Deputy KG)"
+   ]
   },
   {
    "sugyaNumber": 5,
@@ -582,8 +586,8 @@
    ],
    "visualizableElements": [
     {
-     "type": "object",
-     "description": "Golden lot box with two golden lots inscribed 'for God' and 'for Azazel'"
+     "item": "Golden lot box with two golden lots inscribed 'for God' and 'for Azazel'",
+     "type": "object"
     }
    ],
    "quizSeeds": [
@@ -594,7 +598,7 @@
     }
    ],
    "finalRuling": "The lots were originally boxwood, later made gold; Ben Katin made 12 spigots for the laver.",
-   "difficulty": "introductory",
+   "difficulty": "intro",
    "alternateAngles": [],
    "glossary": [],
    "review": "reviewed"
@@ -702,8 +706,8 @@
    ],
    "visualizableElements": [
     {
-     "type": "person",
-     "description": "Ben Katin (KG), Queen Helene, Nicanor - Temple benefactors"
+     "item": "Ben Katin (KG), Queen Helene, Nicanor - Temple benefactors",
+     "type": "person"
     }
    ],
    "quizSeeds": [
@@ -714,7 +718,7 @@
     }
    ],
    "finalRuling": "Ben Katin made 12 laver spigots and a cistern mechanism; multiple donors beautified the Temple.",
-   "difficulty": "introductory",
+   "difficulty": "intro",
    "alternateAngles": [],
    "glossary": [],
    "review": "reviewed"

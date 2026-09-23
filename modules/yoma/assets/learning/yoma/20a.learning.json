@@ -84,12 +84,12 @@
    ],
    "visualizableElements": [
     {
-     "type": "text",
-     "description": "Hebrew letters of HaSatan with their numerical values: heh(5), shin(300), tet(9), nun(50) summing to 364"
+     "item": "Hebrew letters of HaSatan with their numerical values: heh(5), shin(300), tet(9), nun(50) summing to 364",
+     "type": "text"
     },
     {
-     "type": "timeline",
-     "description": "365-day solar year with 364 days marked for Satan's prosecution and Yom Kippur marked as the silent day"
+     "item": "365-day solar year with 364 days marked for Satan's prosecution and Yom Kippur marked as the silent day",
+     "type": "timeline"
     }
    ],
    "quizSeeds": [
@@ -103,7 +103,7 @@
     }
    ],
    "finalRuling": "Aggadic teaching: Satan has no power to prosecute on Yom Kippur.",
-   "difficulty": "introductory",
+   "difficulty": "intro",
    "alternateAngles": [],
    "glossary": [
     {
@@ -191,12 +191,12 @@
    ],
    "visualizableElements": [
     {
-     "type": "timeline",
-     "description": "Night timeline showing first watch, midnight, keriat hagever (before dawn) with corresponding day types labeled"
+     "item": "Night timeline showing first watch, midnight, keriat hagever (before dawn) with corresponding day types labeled",
+     "type": "timeline"
     },
     {
-     "type": "place",
-     "description": "Temple courtyard packed with pilgrims on a Festival morning before the rooster crows"
+     "item": "Temple courtyard packed with pilgrims on a Festival morning before the rooster crows",
+     "type": "place"
     }
    ],
    "quizSeeds": [
@@ -210,7 +210,7 @@
     }
    ],
    "finalRuling": "Ash removal on ordinary days: at keriat hagever; Yom Kippur: from midnight; Festivals: from the first watch.",
-   "difficulty": "introductory",
+   "difficulty": "intro",
    "alternateAngles": [],
    "glossary": [
     {
@@ -330,12 +330,12 @@
    ],
    "visualizableElements": [
     {
-     "type": "timeline",
-     "description": "Night timeline split at midnight: first half labeled 'burning' (v'hiktir), second half labeled 'ash removal' (v'herim)"
+     "item": "Night timeline split at midnight: first half labeled 'burning' (v'hiktir), second half labeled 'ash removal' (v'herim)",
+     "type": "timeline"
     },
     {
-     "type": "text",
-     "description": "Two Leviticus verses side by side: Lev 6:2 'all night he shall burn it' and Lev 6:3 'all night he shall remove the ashes'"
+     "item": "Two Leviticus verses side by side: Lev 6:2 'all night he shall burn it' and Lev 6:3 'all night he shall remove the ashes'",
+     "type": "text"
     }
    ],
    "quizSeeds": [

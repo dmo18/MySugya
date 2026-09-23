@@ -165,10 +165,7 @@
     "coverage"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "Knowing bull blood must precede goat blood in all phases",
-    "Knowing the structure of each phase's service"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "Bowl confusion during the Yom Kippur service automatically invalidates everything and the service must begin again from scratch.",
@@ -178,12 +175,12 @@
    "relatedSugyot": [],
    "visualizableElements": [
     {
-     "type": "action",
-     "name": "three-round sprinkling covering all bowl identity scenarios"
+     "item": "three-round sprinkling covering all bowl identity scenarios",
+     "type": "action"
     },
     {
-     "type": "contrast",
-     "name": "certain identity vs. procedural coverage"
+     "item": "certain identity vs. procedural coverage",
+     "type": "contrast"
     }
    ],
    "quizSeeds": [
@@ -196,7 +193,11 @@
    "difficulty": "advanced",
    "alternateAngles": [],
    "glossary": [],
-   "review": "reviewed"
+   "review": "reviewed",
+   "prerequisiteKnowledge": [
+    "Knowing bull blood must precede goat blood in all phases",
+    "Knowing the structure of each phase's service"
+   ]
   },
   {
    "sugyaNumber": 2,
@@ -297,10 +298,7 @@
     "blood service completion"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "Knowing there are four zones and the outer altar is the last",
-    "Knowing the western base specifically receives this blood"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "The base-pour is just another sprinkling act - it counts as part of the blood service's sprinkling total.",
@@ -310,12 +308,12 @@
    "relatedSugyot": [],
    "visualizableElements": [
     {
-     "type": "sequence",
-     "name": "four-zone blood circuit: Holy of Holies to outer altar base"
+     "item": "four-zone blood circuit: Holy of Holies to outer altar base",
+     "type": "sequence"
     },
     {
-     "type": "place",
-     "name": "western base of outer altar"
+     "item": "western base of outer altar",
+     "type": "place"
     }
    ],
    "quizSeeds": [
@@ -325,10 +323,14 @@
     }
    ],
    "finalRuling": "The remaining blood is poured at the outer altar's western base, completing the full Yom Kippur blood service circuit across four zones.",
-   "difficulty": "introductory",
+   "difficulty": "intro",
    "alternateAngles": [],
    "glossary": [],
-   "review": "reviewed"
+   "review": "reviewed",
+   "prerequisiteKnowledge": [
+    "Knowing there are four zones and the outer altar is the last",
+    "Knowing the western base specifically receives this blood"
+   ]
   }
  ],
  "glossary": [],

@@ -70,8 +70,8 @@
    ],
    "visualizableElements": [
     {
-     "type": "place",
-     "description": "Chamber of Parva above the Water Gate with underground tunnel"
+     "item": "Chamber of Parva above the Water Gate with underground tunnel",
+     "type": "place"
     }
    ],
    "quizSeeds": [
@@ -82,7 +82,7 @@
     }
    ],
    "finalRuling": "The Chamber of Parva was named after Parva the sorcerer who built an underground chamber there.",
-   "difficulty": "introductory",
+   "difficulty": "intro",
    "alternateAngles": [],
    "glossary": [],
    "review": "reviewed"
@@ -153,9 +153,7 @@
     "Temple privacy"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "KG Yom Kippur garment sequence"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "The linen screen for the KG's privacy was chosen for convenience - it was simply available.",
@@ -168,8 +166,8 @@
    ],
    "visualizableElements": [
     {
-     "type": "object",
-     "description": "White linen buz screen held for KG's privacy"
+     "item": "White linen buz screen held for KG's privacy",
+     "type": "object"
     }
    ],
    "quizSeeds": [
@@ -180,10 +178,13 @@
     }
    ],
    "finalRuling": "A linen screen was used because the KG's Yom Kippur vestments are linen - same material prevents confusion.",
-   "difficulty": "introductory",
+   "difficulty": "intro",
    "alternateAngles": [],
    "glossary": [],
-   "review": "reviewed"
+   "review": "reviewed",
+   "prerequisiteKnowledge": [
+    "KG Yom Kippur garment sequence"
+   ]
   },
   {
    "sugyaNumber": 3,
@@ -257,10 +258,7 @@
     "Yom Kippur"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "KG Yom Kippur garment sequence",
-    "five immersions"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "The High Priest could wear personal garments that were finer than the publicly funded set.",
@@ -273,8 +271,8 @@
    ],
    "visualizableElements": [
     {
-     "type": "contrast",
-     "description": "Morning vs afternoon linen: 18 maneh Pelusium vs 12 maneh Indian"
+     "item": "Morning vs afternoon linen: 18 maneh Pelusium vs 12 maneh Indian",
+     "type": "contrast"
     }
    ],
    "quizSeeds": [
@@ -285,10 +283,14 @@
     }
    ],
    "finalRuling": "Morning garments cost 18 maneh (Pelusium linen); afternoon 12 maneh (Indian linen); funded publicly.",
-   "difficulty": "introductory",
+   "difficulty": "intro",
    "alternateAngles": [],
    "glossary": [],
-   "review": "reviewed"
+   "review": "reviewed",
+   "prerequisiteKnowledge": [
+    "KG Yom Kippur garment sequence",
+    "five immersions"
+   ]
   }
  ],
  "glossary": [],

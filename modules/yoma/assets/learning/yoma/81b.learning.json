@@ -114,10 +114,7 @@
     "Torah terminology"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "Background knowledge of Shabbat Shabbaton context",
-    "Understanding of Yom Kippur halachic framework"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "The verse 'afflict on the ninth' means the fast literally begins on the ninth of Tishrei.",
@@ -127,8 +124,8 @@
    "relatedSugyot": [],
    "visualizableElements": [
     {
-     "type": "action",
-     "name": "Yom Kippur itself is called 'Shabbat' by the Torah"
+     "item": "Yom Kippur itself is called 'Shabbat' by the Torah",
+     "type": "action"
     }
    ],
    "quizSeeds": [
@@ -145,7 +142,11 @@
    "difficulty": "intermediate",
    "alternateAngles": [],
    "glossary": [],
-   "review": "draft"
+   "review": "draft",
+   "prerequisiteKnowledge": [
+    "Background knowledge of Shabbat Shabbaton context",
+    "Understanding of Yom Kippur halachic framework"
+   ]
   },
   {
    "sugyaNumber": 2,
@@ -318,10 +319,7 @@
     "YK liability"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "Background knowledge of food fitness context",
-    "Understanding of Yom Kippur halachic framework"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "If a substance is exempt from Yom Kippur liability, it is permitted to consume it.",
@@ -331,8 +329,8 @@
    "relatedSugyot": [],
    "visualizableElements": [
     {
-     "type": "action",
-     "name": "Food not fit for human consumption does not count "
+     "item": "Food not fit for human consumption does not count ",
+     "type": "action"
     }
    ],
    "quizSeeds": [
@@ -349,7 +347,11 @@
    "difficulty": "intermediate",
    "alternateAngles": [],
    "glossary": [],
-   "review": "draft"
+   "review": "draft",
+   "prerequisiteKnowledge": [
+    "Background knowledge of food fitness context",
+    "Understanding of Yom Kippur halachic framework"
+   ]
   }
  ],
  "glossary": [],

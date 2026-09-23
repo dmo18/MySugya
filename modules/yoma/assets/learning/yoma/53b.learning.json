@@ -58,10 +58,7 @@
     "Temple-derived practice"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "kavod for Torah scholars",
-    "Temple practice and daily life"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "Walking backward is a Temple ritual specific to the priestly service and has no application outside it.",
@@ -71,8 +68,8 @@
    "relatedSugyot": [],
    "visualizableElements": [
     {
+     "item": "Temple protocol (walking backward leaving Holy of Holies) extended to everyday respect (leaving a rabbi)",
      "type": "contrast",
-     "description": "Temple protocol (walking backward leaving Holy of Holies) extended to everyday respect (leaving a rabbi)",
      "role": "contrast",
      "priority": 1
     }
@@ -87,7 +84,11 @@
    "difficulty": "intermediate",
    "alternateAngles": [],
    "glossary": [],
-   "review": "reviewed"
+   "review": "reviewed",
+   "prerequisiteKnowledge": [
+    "kavod for Torah scholars",
+    "Temple practice and daily life"
+   ]
   },
   {
    "sugyaNumber": 2,
@@ -189,11 +190,7 @@
     "shliach tzibbur"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "prayer laws",
-    "communal responsibility",
-    "Yom Kippur prayer"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "The HP prays for personal matters as well as communal ones during his exit prayer, since he is still an individual with his own needs.",
@@ -203,8 +200,8 @@
    "relatedSugyot": [],
    "visualizableElements": [
     {
+     "item": "HP's brief exit prayer while people wait outside - content constrained by community welfare",
      "type": "action",
-     "description": "HP's brief exit prayer while people wait outside - content constrained by community welfare",
      "role": "aha",
      "priority": 1
     }
@@ -219,7 +216,12 @@
    "difficulty": "intermediate",
    "alternateAngles": [],
    "glossary": [],
-   "review": "reviewed"
+   "review": "reviewed",
+   "prerequisiteKnowledge": [
+    "prayer laws",
+    "communal responsibility",
+    "Yom Kippur prayer"
+   ]
   },
   {
    "sugyaNumber": 3,
@@ -302,11 +304,7 @@
     "Holy of Holies"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "Temple cosmology",
-    "creation narrative",
-    "Second Temple service"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "The even ha-shetiya is just a rock that served as a pedestal for the Ark - calling it the foundation of the world is purely poetic.",
@@ -315,10 +313,18 @@
    ],
    "relatedSugyot": [],
    "visualizableElements": [
-    "even ha-shetiya",
-    "foundation stone",
-    "Holy of Holies",
-    "creation"
+    {
+     "item": "even ha-shetiya"
+    },
+    {
+     "item": "foundation stone"
+    },
+    {
+     "item": "Holy of Holies"
+    },
+    {
+     "item": "creation"
+    }
    ],
    "quizSeeds": [
     {
@@ -330,7 +336,12 @@
    "difficulty": "intermediate",
    "alternateAngles": [],
    "glossary": [],
-   "review": "reviewed"
+   "review": "reviewed",
+   "prerequisiteKnowledge": [
+    "Temple cosmology",
+    "creation narrative",
+    "Second Temple service"
+   ]
   },
   {
    "sugyaNumber": 4,
@@ -388,11 +399,7 @@
     "coal pan placement"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "Temple measurements",
-    "even ha-shetiya",
-    "incense service"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "The coal pan is placed on the floor next to the even ha-shetiya, not on the stone itself.",
@@ -402,8 +409,8 @@
    "relatedSugyot": [],
    "visualizableElements": [
     {
+     "item": "Even ha-shetiya (foundation stone): three finger-breadths above the Holy of Holies floor",
      "type": "object",
-     "description": "Even ha-shetiya (foundation stone): three finger-breadths above the Holy of Holies floor",
      "role": "anchor",
      "priority": 1
     }
@@ -415,10 +422,15 @@
     }
    ],
    "finalRuling": "The even ha-shetiya protruded three finger-breadths above the floor; the HP placed the coal pan on it.",
-   "difficulty": "introductory",
+   "difficulty": "intro",
    "alternateAngles": [],
    "glossary": [],
-   "review": "reviewed"
+   "review": "reviewed",
+   "prerequisiteKnowledge": [
+    "Temple measurements",
+    "even ha-shetiya",
+    "incense service"
+   ]
   },
   {
    "sugyaNumber": 5,
@@ -540,11 +552,7 @@
     "service sequence"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "Yom Kippur service order",
-    "blood sprinkling sequence",
-    "inner vs outer service"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "The outer service (parochet and golden altar) comes before the inner service (Holy of Holies) on Yom Kippur.",
@@ -553,10 +561,18 @@
    ],
    "relatedSugyot": [],
    "visualizableElements": [
-    "HP",
-    "bull blood",
-    "parochet",
-    "sprinkling sequence"
+    {
+     "item": "HP"
+    },
+    {
+     "item": "bull blood"
+    },
+    {
+     "item": "parochet"
+    },
+    {
+     "item": "sprinkling sequence"
+    }
    ],
    "quizSeeds": [
     {
@@ -568,7 +584,12 @@
    "difficulty": "intermediate",
    "alternateAngles": [],
    "glossary": [],
-   "review": "reviewed"
+   "review": "reviewed",
+   "prerequisiteKnowledge": [
+    "Yom Kippur service order",
+    "blood sprinkling sequence",
+    "inner vs outer service"
+   ]
   }
  ],
  "glossary": [],

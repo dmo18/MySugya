@@ -130,10 +130,7 @@
     "tannaic dispute"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "Temple spatial layout",
-    "KG bull"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "All tannaim agree that the KG's confession took place between the vestibule and the altar.",
@@ -146,8 +143,8 @@
    ],
    "visualizableElements": [
     {
-     "type": "place",
-     "description": "Between vestibule and altar - contested location for the bull"
+     "item": "Between vestibule and altar - contested location for the bull",
+     "type": "place"
     }
    ],
    "quizSeeds": [
@@ -161,7 +158,11 @@
    "difficulty": "intermediate",
    "alternateAngles": [],
    "glossary": [],
-   "review": "reviewed"
+   "review": "reviewed",
+   "prerequisiteKnowledge": [
+    "Temple spatial layout",
+    "KG bull"
+   ]
   },
   {
    "sugyaNumber": 2,
@@ -271,10 +272,7 @@
     "Temple positioning"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "semicha (hand-pressing)",
-    "KG Yom Kippur avodah"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "The bull's head and its face cannot point in two different directions at once, so the Mishna's description must be contradictory.",
@@ -287,8 +285,8 @@
    ],
    "visualizableElements": [
     {
-     "type": "contrast",
-     "description": "Head south vs face west: explained by sideways neck turn"
+     "item": "Head south vs face west: explained by sideways neck turn",
+     "type": "contrast"
     }
    ],
    "quizSeeds": [
@@ -302,7 +300,11 @@
    "difficulty": "intermediate",
    "alternateAngles": [],
    "glossary": [],
-   "review": "reviewed"
+   "review": "reviewed",
+   "prerequisiteKnowledge": [
+    "semicha (hand-pressing)",
+    "KG Yom Kippur avodah"
+   ]
   }
  ],
  "glossary": [],

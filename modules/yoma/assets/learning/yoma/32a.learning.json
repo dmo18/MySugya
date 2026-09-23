@@ -519,10 +519,7 @@
     "Yom Kippur"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "five immersions",
-    "kiddush yadayim veraglayim"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "R. Meir requires ten separate immersions.",
@@ -534,9 +531,9 @@
    ],
    "visualizableElements": [
     {
+     "item": "Sanctify - undress - immerse - dress - sanctify: five cycles = ten sanctifications",
      "type": "sequence",
-     "label": "Immersion-sanctification cycle",
-     "description": "Sanctify - undress - immerse - dress - sanctify: five cycles = ten sanctifications"
+     "label": "Immersion-sanctification cycle"
     }
    ],
    "quizSeeds": [
@@ -546,9 +543,13 @@
     }
    ],
    "finalRuling": "Ten sanctifications from five immersions: two per garment-change cycle.",
-   "difficulty": "introductory",
+   "difficulty": "intro",
    "alternateAngles": [],
-   "review": "reviewed"
+   "review": "reviewed",
+   "prerequisiteKnowledge": [
+    "five immersions",
+    "kiddush yadayim veraglayim"
+   ]
   },
   {
    "sugyaNumber": 2,
@@ -718,12 +719,7 @@
     "tradition (kabbalah)"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "five immersions",
-    "kal vachomer (a fortiori)",
-    "Leviticus 16",
-    "Sanhedrin entry requirements"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "Only one derivation exists for the five immersions.",
@@ -740,14 +736,14 @@
    ],
    "visualizableElements": [
     {
+     "item": "Rav Hisda (tradition), R. Yehuda (verses), R. Yehuda HaNasi (garment changes), R. Elazar (kal vachomer) - all reaching the same conclusion",
      "type": "relationship",
-     "label": "Four derivations for five immersions",
-     "description": "Rav Hisda (tradition), R. Yehuda (verses), R. Yehuda HaNasi (garment changes), R. Elazar (kal vachomer) - all reaching the same conclusion"
+     "label": "Four derivations for five immersions"
     },
     {
+     "item": "Morning gold, inner white, musaf gold, additional white, afternoon gold",
      "type": "sequence",
-     "label": "Five services requiring garment changes",
-     "description": "Morning gold, inner white, musaf gold, additional white, afternoon gold"
+     "label": "Five services requiring garment changes"
     }
    ],
    "quizSeeds": [
@@ -763,7 +759,13 @@
    "finalRuling": "The five immersions and ten sanctifications are multiply derived: from tradition, from specific verses (Leviticus 16), from the five garment changes, and by kal vachomer from Sanhedrin entry requirements.",
    "difficulty": "advanced",
    "alternateAngles": [],
-   "review": "reviewed"
+   "review": "reviewed",
+   "prerequisiteKnowledge": [
+    "five immersions",
+    "kal vachomer (a fortiori)",
+    "Leviticus 16",
+    "Sanhedrin entry requirements"
+   ]
   }
  ]
 }

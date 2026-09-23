@@ -105,10 +105,7 @@
     "Yoma.17b.1",
     "Yoma.17b.2"
    ],
-   "requiresUnderstanding": [
-    "The Chamber of the Lambs debate from 15b-17a",
-    "The 'all turns to the right' rule in Temple service"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "The 'all turns to the right' rule constrains how the Talmud describes or lists Temple chambers.",
@@ -120,8 +117,8 @@
    ],
    "visualizableElements": [
     {
-     "type": "place",
-     "desc": "Beit HaMoked floor plan with Chamber of Lambs confirmed at SW corner; arrow showing rightward (clockwise) priestly movement path during service"
+     "item": "Beit HaMoked floor plan with Chamber of Lambs confirmed at SW corner; arrow showing rightward (clockwise) priestly movement path during service",
+     "type": "place"
     }
    ],
    "quizSeeds": [
@@ -141,7 +138,11 @@
    "review": {
     "content": "ai_generated",
     "sourceRefs": "ai_generated"
-   }
+   },
+   "prerequisiteKnowledge": [
+    "The Chamber of the Lambs debate from 15b-17a",
+    "The 'all turns to the right' rule in Temple service"
+   ]
   },
   {
    "sugyaNumber": 2,
@@ -287,11 +288,7 @@
     "Yoma.17b.3",
     "Yoma.17b.5"
    ],
-   "requiresUnderstanding": [
-    "The Shewbread system (12 loaves, two shifts)",
-    "The KG's first-distribution privilege",
-    "The Shavuot communal loaves"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "The KG always receives exactly half of the twelve Shewbread loaves (six).",
@@ -304,12 +301,12 @@
    ],
    "visualizableElements": [
     {
-     "type": "sequence",
-     "desc": "Shabbat Shewbread distribution: 12 loaves -> outgoing shift (6) + incoming shift (6). KG takes from outgoing shift first. With Shavuot loaves: 14 total, varied splits."
+     "item": "Shabbat Shewbread distribution: 12 loaves -> outgoing shift (6) + incoming shift (6). KG takes from outgoing shift first. With Shavuot loaves: 14 total, varied splits.",
+     "type": "sequence"
     },
     {
-     "type": "contrast",
-     "desc": "R. Yehuda: KG takes half (6). Rabbanan: KG takes proportional portion (4 or 5 depending on week). Two columns showing the math for each position."
+     "item": "R. Yehuda: KG takes half (6). Rabbanan: KG takes proportional portion (4 or 5 depending on week). Two columns showing the math for each position.",
+     "type": "contrast"
     }
    ],
    "quizSeeds": [
@@ -335,7 +332,12 @@
    "review": {
     "content": "ai_generated",
     "sourceRefs": "ai_generated"
-   }
+   },
+   "prerequisiteKnowledge": [
+    "The Shewbread system (12 loaves, two shifts)",
+    "The KG's first-distribution privilege",
+    "The Shavuot communal loaves"
+   ]
   }
  ],
  "glossary": [

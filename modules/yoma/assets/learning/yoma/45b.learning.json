@@ -167,10 +167,7 @@
     "fire prohibition"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "altar fire laws",
-    "wood arrangement count dispute"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "The phrase 'it shall not be extinguished' is part of the verse's instructions for how many wood arrangements to build on the altar.",
@@ -183,8 +180,8 @@
    ],
    "visualizableElements": [
     {
-     "type": "text",
-     "label": "altar fire verse 'lo tichbeh' as prohibition not arrangement"
+     "item": "altar fire verse 'lo tichbeh' as prohibition not arrangement",
+     "type": "text"
     }
    ],
    "quizSeeds": [
@@ -197,7 +194,11 @@
    "difficulty": "intermediate",
    "alternateAngles": [],
    "glossary": [],
-   "review": "reviewed"
+   "review": "reviewed",
+   "prerequisiteKnowledge": [
+    "altar fire laws",
+    "wood arrangement count dispute"
+   ]
   }
  ],
  "glossary": [

@@ -77,10 +77,7 @@
     "swallowing"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "Background knowledge of chewing context",
-    "Understanding of Yom Kippur halachic framework"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "The added fifth is a flat penalty for any misuse of teruma.",
@@ -90,8 +87,8 @@
    "relatedSugyot": [],
    "visualizableElements": [
     {
-     "type": "action",
-     "name": "Chewing unground barley of teruma without swallowi"
+     "item": "Chewing unground barley of teruma without swallowi",
+     "type": "action"
     }
    ],
    "quizSeeds": [
@@ -108,7 +105,11 @@
    "difficulty": "intermediate",
    "alternateAngles": [],
    "glossary": [],
-   "review": "draft"
+   "review": "draft",
+   "prerequisiteKnowledge": [
+    "Background knowledge of chewing context",
+    "Understanding of Yom Kippur halachic framework"
+   ]
   },
   {
    "sugyaNumber": 2,
@@ -223,10 +224,7 @@
     "YK liability"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "Background knowledge of food and drink context",
-    "Understanding of Yom Kippur halachic framework"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "Eating and drinking stay separate because they are physically different acts.",
@@ -236,8 +234,8 @@
    "relatedSugyot": [],
    "visualizableElements": [
     {
-     "type": "action",
-     "name": "Food and drink do not combine toward the eating or"
+     "item": "Food and drink do not combine toward the eating or",
+     "type": "action"
     }
    ],
    "quizSeeds": [
@@ -254,7 +252,11 @@
    "difficulty": "intermediate",
    "alternateAngles": [],
    "glossary": [],
-   "review": "draft"
+   "review": "draft",
+   "prerequisiteKnowledge": [
+    "Background knowledge of food and drink context",
+    "Understanding of Yom Kippur halachic framework"
+   ]
   },
   {
    "sugyaNumber": 3,
@@ -369,10 +371,7 @@
     "Mishna"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "Background knowledge of eating and drinking context",
-    "Understanding of Yom Kippur halachic framework"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "Drinking fish brine is permitted on Yom Kippur because it is not really food.",
@@ -382,8 +381,8 @@
    "relatedSugyot": [],
    "visualizableElements": [
     {
-     "type": "action",
-     "name": "Mishna: if one ate and drank in one period of unaw"
+     "item": "Mishna: if one ate and drank in one period of unaw",
+     "type": "action"
     }
    ],
    "quizSeeds": [
@@ -400,7 +399,11 @@
    "difficulty": "intermediate",
    "alternateAngles": [],
    "glossary": [],
-   "review": "draft"
+   "review": "draft",
+   "prerequisiteKnowledge": [
+    "Background knowledge of eating and drinking context",
+    "Understanding of Yom Kippur halachic framework"
+   ]
   },
   {
    "sugyaNumber": 4,
@@ -667,10 +670,7 @@
     "comparison"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "Background knowledge of labor prohibition context",
-    "Understanding of Yom Kippur halachic framework"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "The pre-Yom-Kippur extension carries the same karet as the day itself.",
@@ -680,8 +680,8 @@
    "relatedSugyot": [],
    "visualizableElements": [
     {
-     "type": "action",
-     "name": "YK and Shabbat: how the labor prohibition on YK co"
+     "item": "YK and Shabbat: how the labor prohibition on YK co",
+     "type": "action"
     }
    ],
    "quizSeeds": [
@@ -698,7 +698,11 @@
    "difficulty": "intermediate",
    "alternateAngles": [],
    "glossary": [],
-   "review": "draft"
+   "review": "draft",
+   "prerequisiteKnowledge": [
+    "Background knowledge of labor prohibition context",
+    "Understanding of Yom Kippur halachic framework"
+   ]
   }
  ],
  "glossary": [],

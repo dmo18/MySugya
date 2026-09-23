@@ -586,11 +586,7 @@
     "sacred boundary"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "daily lottery system",
-    "bigdei kehuna (priestly garments)",
-    "Temple court layout"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "The mishna describes the lottery winners shedding their sacred garments.",
@@ -607,14 +603,14 @@
    ],
    "visualizableElements": [
     {
+     "item": "Building straddling the sacred/non-sacred boundary with doors opening in both directions",
      "type": "place",
-     "label": "Chamber of Hewn Stone",
-     "description": "Building straddling the sacred/non-sacred boundary with doors opening in both directions"
+     "label": "Chamber of Hewn Stone"
     },
     {
+     "item": "Priests in sacred headdresses inside the chamber vs common attire outside",
      "type": "contrast",
-     "label": "Sacred vs non-sacred garments",
-     "description": "Priests in sacred headdresses inside the chamber vs common attire outside"
+     "label": "Sacred vs non-sacred garments"
     }
    ],
    "quizSeeds": [
@@ -630,7 +626,12 @@
    "finalRuling": "The lottery was conducted in the Chamber of Hewn Stone, which sat at the sacred-to-non-sacred boundary. The practical question of whether failures to follow garment protocol invalidate service remains unresolved.",
    "difficulty": "intermediate",
    "alternateAngles": [],
-   "review": "reviewed"
+   "review": "reviewed",
+   "prerequisiteKnowledge": [
+    "daily lottery system",
+    "bigdei kehuna (priestly garments)",
+    "Temple court layout"
+   ]
   },
   {
    "sugyaNumber": 2,
@@ -728,11 +729,7 @@
     "Temple procedure"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "tamid (daily offering)",
-    "thirteen Temple tasks",
-    "lottery system"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "The second lottery assigned only a few tasks.",
@@ -749,14 +746,14 @@
    ],
    "visualizableElements": [
     {
+     "item": "Ordered list of 13 tamid tasks assigned by the second lottery",
      "type": "sequence",
-     "label": "Thirteen lottery tasks",
-     "description": "Ordered list of 13 tamid tasks assigned by the second lottery"
+     "label": "Thirteen lottery tasks"
     },
     {
+     "item": "Which limbs were carried together by one priest to the altar ramp",
      "type": "relationship",
-     "label": "Limb pairing",
-     "description": "Which limbs were carried together by one priest to the altar ramp"
+     "label": "Limb pairing"
     }
    ],
    "quizSeeds": [
@@ -770,9 +767,14 @@
     }
    ],
    "finalRuling": "The mishna's sequence is the operative practice; Ben Azzai's tradition opens a debate continued on 25b.",
-   "difficulty": "introductory",
+   "difficulty": "intro",
    "alternateAngles": [],
-   "review": "reviewed"
+   "review": "reviewed",
+   "prerequisiteKnowledge": [
+    "tamid (daily offering)",
+    "thirteen Temple tasks",
+    "lottery system"
+   ]
   }
  ]
 }

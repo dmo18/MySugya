@@ -102,12 +102,12 @@
    ],
    "visualizableElements": [
     {
-     "type": "contrast",
-     "description": "Normal city: divided among tribes, can be 'measured to' for egla arufa. Jerusalem: undivided, belongs to all Israel, exempt from the egla arufa ritual."
+     "item": "Normal city: divided among tribes, can be 'measured to' for egla arufa. Jerusalem: undivided, belongs to all Israel, exempt from the egla arufa ritual.",
+     "type": "contrast"
     },
     {
-     "type": "action",
-     "description": "The egla arufa ritual in a valley outside a normal city - showing what Jerusalem is explicitly exempt from"
+     "item": "The egla arufa ritual in a valley outside a normal city - showing what Jerusalem is explicitly exempt from",
+     "type": "action"
     }
    ],
    "quizSeeds": [
@@ -361,16 +361,16 @@
    ],
    "visualizableElements": [
     {
-     "type": "object",
-     "description": "A priest in worn (but valid) priestly garments taking a fistful of ash from the top of the altar heap"
+     "item": "A priest in worn (but valid) priestly garments taking a fistful of ash from the top of the altar heap",
+     "type": "object"
     },
     {
-     "type": "place",
-     "description": "The east side of the altar ramp where the daily ash from the outer altar is deposited and absorbed into the ground"
+     "item": "The east side of the altar ramp where the daily ash from the outer altar is deposited and absorbed into the ground",
+     "type": "place"
     },
     {
-     "type": "sequence",
-     "description": "Three ash types and their destinations: outer altar ash (east of ramp), inner altar ash (designated clean area), menorah ash (outside Temple entirely)"
+     "item": "Three ash types and their destinations: outer altar ash (east of ramp), inner altar ash (designated clean area), menorah ash (outside Temple entirely)",
+     "type": "sequence"
     }
    ],
    "quizSeeds": [
