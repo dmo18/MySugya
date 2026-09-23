@@ -47,11 +47,30 @@ CERT_REGISTRY_REL = "docs/reports/data/{module}-semantic-certifications.json"
 SCHEMA_MIGRATION_KINDS = {"requires-understanding", "visualizable-elements", "difficulty"}
 
 
-def active_schema_migration(module: str) -> set[str]:
-    """Return declared representation-only migrations, or the empty set."""
-    try:
-        manifest = json.loads((REPO / ".worker-manifest.json").read_text(encoding="utf-8"))
-    except (OSError, json.JSONDecodeError):
+def _worker_manifest_at(ref: str | None) -> Any:
+    if ref is None:
+        try:
+            return json.loads((REPO / ".worker-manifest.json").read_text(encoding="utf-8"))
+        except (OSError, json.JSONDecodeError):
+            return None
+    return load_json_at(ref, ".worker-manifest.json")
+
+
+def active_schema_migration(module: str, base: str | None = None) -> set[str]:
+    """Return declared representation-only migrations, or the empty set.
+
+    Without `base`, this only checks that the committed manifest is a
+    well-formed authorization for `module` (used by the local migration
+    helper, which is run on the migration branch itself and has no PR-base
+    comparison to make). With `base`, the manifest exception is additionally
+    only "active" -- eligible for the representation-only ratchet comparison
+    -- when the manifest is new or changed relative to `base`. Once a
+    migration PR merges, the manifest on main is identical at both base and
+    head for every later ordinary PR, so it must not keep granting the
+    exception forever.
+    """
+    manifest = _worker_manifest_at(None)
+    if not isinstance(manifest, dict):
         return set()
     kinds = manifest.get("migrationKinds")
     if (manifest.get("type") != "enrichment-schema-migration"
@@ -59,6 +78,8 @@ def active_schema_migration(module: str) -> set[str]:
             or "authorizeMigration" not in set(manifest.get("authorizations") or [])
             or not isinstance(kinds, list) or not kinds
             or not set(kinds).issubset(SCHEMA_MIGRATION_KINDS)):
+        return set()
+    if base is not None and _worker_manifest_at(base) == manifest:
         return set()
     return set(kinds)
 
@@ -351,7 +372,7 @@ def main() -> None:
 
     changed: list[tuple[str, str]] = []
     if args.ratchet:
-        migration_kinds = active_schema_migration(args.module)
+        migration_kinds = active_schema_migration(args.module, args.base)
         changed = changed_semantic_sugyot(args.module, args.base, migration_kinds)
         if migration_kinds:
             expected_registry = expected_schema_migration_registry(args.module, args.base, migration_kinds)
