@@ -5,7 +5,8 @@ Consistency with the registry is enforced by `npm run worker:schema-matrix`
 (run in CI on every manifest-bearing PR). High-risk paths (structure, ids,
 sourceRefs, Hebrew, argumentFlow, quiz/misconception content) are
 judgment-required because their correctness needs semantic or structural
-judgment that pattern gates cannot verify. Sonnet executes every tier.
+judgment that pattern gates cannot verify. The bounded-implementation-worker role
+executes every tier.
 
 | path | classification |
 |---|---|

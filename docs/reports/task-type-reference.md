@@ -7,8 +7,9 @@ Do not hand-edit; regenerate after registry changes.
 
 Read-only audits: corpus scans, semantic audit reports, validator dry runs, backlog reconciliation. May write ONLY report artifacts under docs/reports/ and process notes in docs/rashi-audit-backlog.md. No content, no generated data. Carries its own VERSION bump for the report artifact it writes.
 
-- model: sonnet
-- escalation model: sonnet
+- worker role: bounded-implementation-worker
+- escalation role: project-lead
+- review policy: none
 - lifecycle: pr  (one VERSION patch bump, one PR)
 - mechanical tier: yes
 - max batch: n/a
@@ -22,8 +23,9 @@ Read-only audits: corpus scans, semantic audit reports, validator dry runs, back
 
 Repair source-proven semantic defects recorded in the merged Yoma tail-enrichment audit. Semantic work, one daf per PR, independent review before merge. The manifest must name the audit record ids being repaired and every changed path must appear in those records' affectedFields.
 
-- model: sonnet; independent Sonnet review required before merge
-- escalation model: sonnet
+- worker role: bounded-implementation-worker; independent review required before merge, in a genuinely distinct reviewer context
+- escalation role: project-lead
+- review policy: independent
 - lifecycle: pr  (one VERSION patch bump, one PR)
 - mechanical tier: no
 - max batch: 1
@@ -44,8 +46,9 @@ Repair source-proven semantic defects recorded in the merged Yoma tail-enrichmen
 
 Verify main deploy workflows and live site after a merge. Read-only: no file changes permitted at all.
 
-- model: sonnet
-- escalation model: sonnet
+- worker role: bounded-implementation-worker
+- escalation role: project-lead
+- review policy: none
 - lifecycle: read-only  (no VERSION bump, no commit, no PR)
 - mechanical tier: yes
 - max batch: n/a
@@ -60,8 +63,9 @@ Verify main deploy workflows and live site after a merge. Read-only: no file cha
 
 Copy edits to sugya display fields only (whats, hint, title, oneLine, shortSummary). The mechanical-tier entry point for enrichment copy work.
 
-- model: sonnet; independent Sonnet review required before merge
-- escalation model: sonnet
+- worker role: bounded-implementation-worker; independent review required before merge, in a genuinely distinct reviewer context
+- escalation role: project-lead
+- review policy: independent
 - lifecycle: pr  (one VERSION patch bump, one PR)
 - mechanical tier: yes
 - max batch: 2
@@ -75,10 +79,11 @@ Copy edits to sugya display fields only (whats, hint, title, oneLine, shortSumma
 
 ## docs-tooling
 
-Docs, scripts, CI, hooks, and pipeline changes. No module data. Sonnet only for validator/pipeline logic.
+Docs, scripts, CI, hooks, and pipeline changes. No module data. bounded-implementation-worker role only for validator/pipeline logic.
 
-- model: sonnet
-- escalation model: sonnet
+- worker role: bounded-implementation-worker
+- escalation role: project-lead
+- review policy: none
 - lifecycle: pr  (one VERSION patch bump, one PR)
 - mechanical tier: no
 - max batch: n/a
@@ -93,14 +98,15 @@ Docs, scripts, CI, hooks, and pipeline changes. No module data. Sonnet only for 
 
 Deterministic enrichment contract migrations with no semantic rewriting: requiresUnderstanding prose to prerequisiteKnowledge (genuine ids stay), visualizableElements key/shape normalization preserving wording, and difficulty introductory to intro. Any other transformation must be added here and covered by tests before use.
 
-- model: sonnet
-- escalation model: sonnet
+- worker role: bounded-implementation-worker
+- escalation role: project-lead
+- review policy: none
 - lifecycle: pr  (one VERSION patch bump, one PR)
 - mechanical tier: yes
 - max batch: 1
 - REQUIRED authorization: authorizeMigration (operator-issued; preflight fails without it)
 - allowed files: modules/<module>/assets/learning/<module>/<daf>.learning.json, modules/<module>/learning_data.js, modules/<module>/coverage.json, VERSION, package.json, package-lock.json, docs/rashi-audit-backlog.md, docs/<module>-perek-review.md, .worker-manifest.json
-- mutable JSON paths: sugyot[*].requiresUnderstanding[*], sugyot[*].prerequisiteKnowledge[*], sugyot[*].visualizableElements[*], sugyot[*].difficulty
+- mutable JSON paths: sugyot[*].requiresUnderstanding[*], sugyot[*].prerequisiteKnowledge, sugyot[*].prerequisiteKnowledge[*], sugyot[*].visualizableElements[*], sugyot[*].difficulty
 - allowlist policy: must-not-grow; structure policy: requires-authorization
 - required validators: validate:offline:yoma, validate:enrichment-contracts:yoma
 - stop conditions:
@@ -111,10 +117,11 @@ Deterministic enrichment contract migrations with no semantic rewriting: require
 
 ## gemara-learning
 
-Edits to sugya display/learning enrichment fields (argumentFlow, quizSeeds, misconceptions, takeaway). Semantic content work: Sonnet, with an independent Sonnet review before merge.
+Edits to sugya display/learning enrichment fields (argumentFlow, quizSeeds, misconceptions, takeaway). Semantic content work: bounded-implementation-worker role, with an independent review before merge in a genuinely distinct reviewer context.
 
-- model: sonnet; independent Sonnet review required before merge
-- escalation model: sonnet
+- worker role: bounded-implementation-worker; independent review required before merge, in a genuinely distinct reviewer context
+- escalation role: project-lead
+- review policy: independent
 - lifecycle: pr  (one VERSION patch bump, one PR)
 - mechanical tier: no
 - max batch: 1
@@ -134,8 +141,9 @@ Edits to sugya display/learning enrichment fields (argumentFlow, quizSeeds, misc
 
 Regenerate learning_data.js/coverage.json from unchanged sources (e.g. after a generator fix merged separately). No source edits.
 
-- model: sonnet
-- escalation model: sonnet
+- worker role: bounded-implementation-worker
+- escalation role: project-lead
+- review policy: none
 - lifecycle: pr  (one VERSION patch bump, one PR)
 - mechanical tier: yes
 - max batch: n/a
@@ -149,8 +157,9 @@ Regenerate learning_data.js/coverage.json from unchanged sources (e.g. after a g
 
 Glossary entry text edits (he/translit/en) at daf or sugya level. Entry add/remove is structure.
 
-- model: sonnet
-- escalation model: sonnet
+- worker role: bounded-implementation-worker
+- escalation role: project-lead
+- review policy: none
 - lifecycle: pr  (one VERSION patch bump, one PR)
 - mechanical tier: no
 - max batch: 1
@@ -163,10 +172,11 @@ Glossary entry text edits (he/translit/en) at daf or sugya level. Entry add/remo
 
 ## learning-copy-edit
 
-Edits to learning narrative fields (ahaMoment, memoryAnchor, learnerQuestion, coreTension, coreMove, learningBlocker, resolution, takeaway.text). Subject to CLAUDE.md enrichment quality standards: Sonnet only.
+Edits to learning narrative fields (ahaMoment, memoryAnchor, learnerQuestion, coreTension, coreMove, learningBlocker, resolution, takeaway.text). Subject to CLAUDE.md enrichment quality standards: bounded-implementation-worker role only.
 
-- model: sonnet
-- escalation model: sonnet
+- worker role: bounded-implementation-worker
+- escalation role: project-lead
+- review policy: none
 - lifecycle: pr  (one VERSION patch bump, one PR)
 - mechanical tier: no
 - max batch: 1
@@ -183,8 +193,9 @@ Edits to learning narrative fields (ahaMoment, memoryAnchor, learnerQuestion, co
 
 Delete the removed sugyot[*].concepts field and nothing else. Mechanical, delete-only: no text is edited and no other path may change. Authorized by a deterministic preflight inventory whose deleted-field count must match exactly.
 
-- model: sonnet
-- escalation model: sonnet
+- worker role: bounded-implementation-worker
+- escalation role: project-lead
+- review policy: none
 - lifecycle: pr  (one VERSION patch bump, one PR)
 - mechanical tier: yes
 - max batch: None
@@ -202,8 +213,9 @@ Delete the removed sugyot[*].concepts field and nothing else. Mechanical, delete
 
 en_lit literal-translation fetch/injection work (assets/literal_en + regeneration). Mechanical once fetch output is verified.
 
-- model: sonnet
-- escalation model: sonnet
+- worker role: bounded-implementation-worker
+- escalation role: project-lead
+- review policy: none
 - lifecycle: pr  (one VERSION patch bump, one PR)
 - mechanical tier: yes
 - max batch: 1
@@ -219,8 +231,9 @@ en_lit literal-translation fetch/injection work (assets/literal_en + regeneratio
 
 Review-status stamp updates (top-level review block and sugyot[*].review) after an audited pass.
 
-- model: sonnet
-- escalation model: sonnet
+- worker role: bounded-implementation-worker
+- escalation role: project-lead
+- review policy: none
 - lifecycle: pr  (one VERSION patch bump, one PR)
 - mechanical tier: no
 - max batch: 1
@@ -233,10 +246,11 @@ Review-status stamp updates (top-level review block and sugyot[*].review) after 
 
 ## nekudot
 
-Nekudot/vowelization correctness work on Rashi he fields. PAUSED: not yet authorized; requires its own validator design first. Sonnet only when unpaused.
+Nekudot/vowelization correctness work on Rashi he fields. PAUSED: not yet authorized; requires its own validator design first. bounded-implementation-worker role only when unpaused.
 
-- model: sonnet; PAUSED
-- escalation model: sonnet
+- worker role: bounded-implementation-worker; PAUSED
+- escalation role: project-lead
+- review policy: none
 - lifecycle: pr  (one VERSION patch bump, one PR)
 - mechanical tier: no
 - max batch: 1
@@ -250,8 +264,9 @@ Nekudot/vowelization correctness work on Rashi he fields. PAUSED: not yet author
 
 Replace a documented filler/placeholder block (e.g. 77a-88a) with genuine helpers. Same contract as rashi-repair; targets must have documented allowlist hits.
 
-- model: sonnet; independent Sonnet review required before merge
-- escalation model: sonnet
+- worker role: bounded-implementation-worker; independent review required before merge, in a genuinely distinct reviewer context
+- escalation role: project-lead
+- review policy: independent
 - lifecycle: pr  (one VERSION patch bump, one PR)
 - mechanical tier: yes
 - max batch: 2
@@ -266,10 +281,11 @@ Replace a documented filler/placeholder block (e.g. 77a-88a) with genuine helper
 
 ## quiz-edit
 
-quizSeeds and misconceptions text edits. Must test real distinctions per CLAUDE.md; Sonnet only.
+quizSeeds and misconceptions text edits. Must test real distinctions per CLAUDE.md; bounded-implementation-worker role only.
 
-- model: sonnet
-- escalation model: sonnet
+- worker role: bounded-implementation-worker
+- escalation role: project-lead
+- review policy: none
 - lifecycle: pr  (one VERSION patch bump, one PR)
 - mechanical tier: no
 - max batch: 1
@@ -284,8 +300,9 @@ quizSeeds and misconceptions text edits. Must test real distinctions per CLAUDE.
 
 Extremely narrow follow-up to rashi-translation-review: repair the English of exactly ONE existing boundary-authorized Rashi entry (a rashiTranslations entry with empty linkedGemaraLineIds whose translation defect was already confirmed by a Step 6 batch review but whose application was blocked by the boundary-authorization allowlist ratchet, since fixing it requires refreshing that one authorization's derived enFingerprint - the ratchet's plain set diff cannot otherwise tell a legitimate identity-preserving fingerprint refresh from an unauthorized new entry). This type exists solely so modules/<module>/scripts/boundary_fingerprint_ratchet.py's identity-aware fingerprint-refresh exception can apply. It authorizes exactly: one Rashi entry's English, that entry's own boundary-authorization record's enFingerprint (independently recomputed by the gate from the actual corpus text at both revisions, never trusted from the manifest, the registry file's head-revision content, or the review record), the deterministic generated outputs, that entry's own review record, the batch's resolution addendum, and translation-inventory/batch-progress synchronization. It does NOT authorize: Hebrew changes; entry-id, daf, or Vilna-line changes; linkedGemaraLineIds changes; new boundary authorizations; deletion of unrelated authorizations; rationale or evidence-field changes; a second Rashi entry anywhere in the corpus; Gemara or Mishnah changes; argumentFlow; sourceRefs; literal translations; renderer changes; arbitrary documentation; or workflow changes. Requires the manifest to declare entryId, registryIdentity ({daf, vilnaLine} - the registry's own existing identity, since it has no explicit id field), baseEnFingerprint, expectedNewEnFingerprint (derived from the proposed English), and reviewRecordPath (pointing at the review record whose secondPass.status is CONFIRMED for that exact entryId) - all cross-checked against independently recomputed values by the gate, so the manifest can declare but never override what the gate actually verifies.
 
-- model: sonnet
-- escalation model: sonnet
+- worker role: bounded-implementation-worker
+- escalation role: project-lead
+- review policy: none
 - lifecycle: pr  (one VERSION patch bump, one PR)
 - mechanical tier: no
 - max batch: 1
@@ -302,10 +319,11 @@ Extremely narrow follow-up to rashi-translation-review: repair the English of ex
 
 ## rashi-realignment
 
-Full-daf realignment for shifted-compressed Rashi helper daf (documented: 67b, 68a, 68b, 70a, 71b, 41a): redistribute the existing genuine translations onto their correct vilna lines and translate only the genuinely uncovered remainder. Never a stub repair. Sonnet worker under a generated manifest.
+Full-daf realignment for shifted-compressed Rashi helper daf (documented: 67b, 68a, 68b, 70a, 71b, 41a): redistribute the existing genuine translations onto their correct vilna lines and translate only the genuinely uncovered remainder. Never a stub repair. Worked by the bounded-implementation-worker role under a generated manifest.
 
-- model: sonnet; review: conditional auto-merge gate (worker self-review + worker:review; escalation to sonnet)
-- escalation model: sonnet
+- worker role: bounded-implementation-worker; review: conditional auto-merge gate (worker self-review + worker:review; escalation to project-lead)
+- escalation role: project-lead
+- review policy: conditional
 - lifecycle: pr  (one VERSION patch bump, one PR)
 - mechanical tier: no
 - max batch: 1
@@ -335,8 +353,9 @@ Full-daf realignment for shifted-compressed Rashi helper daf (documented: 67b, 6
 
 Full line-by-line Rashi helper reconstruction for a daf with no unresolved content-allowlist hits, unless a matching allowlistDrain snapshot authorizes proceeding on pre-existing target-scoped debt. Pre-existing repetition-baseline debt for the target daf is similarly auto-snapshotted (repetitionDrain) and may be drained by the reconstruction itself when the daf's drift profile already recommends reconstruction; count mismatches have no such path and always block.
 
-- model: sonnet; review: conditional auto-merge gate (worker self-review + worker:review; escalation to sonnet)
-- escalation model: sonnet
+- worker role: bounded-implementation-worker; review: conditional auto-merge gate (worker self-review + worker:review; escalation to project-lead)
+- escalation role: project-lead
+- review policy: conditional
 - lifecycle: pr  (one VERSION patch bump, one PR)
 - mechanical tier: no
 - max batch: 1
@@ -366,8 +385,9 @@ Full line-by-line Rashi helper reconstruction for a daf with no unresolved conte
 
 Repair documented Rashi helper defects (stubs, filler, placeholder lines) on daf with existing allowlist/baseline hits.
 
-- model: sonnet
-- escalation model: sonnet
+- worker role: bounded-implementation-worker
+- escalation role: project-lead
+- review policy: none
 - lifecycle: pr  (one VERSION patch bump, one PR)
 - mechanical tier: yes
 - max batch: 1
@@ -387,8 +407,9 @@ Repair documented Rashi helper defects (stubs, filler, placeholder lines) on daf
 
 One-time, narrowly-scoped correction of a proven Hebrew-source data defect in a Rashi raw-source cache file (modules/<module>/assets/talmuddev/<daf>.json) - the only task type authorized to touch that file. Every other rashi-* type operates exclusively on the enrichment layer (rashiTranslations[*].en/linkedGemaraLineIds) and explicitly forbids assets/talmuddev/*; this type exists because the campaign's own Step 5 evidence record concluded no existing type safely covers a genuine Hebrew-source defect, and 'stop and report instead of bypassing worker scope' is the default when that happens. Valid ONLY for an isolated, single-entry corruption independently confirmed against upstream/authoritative evidence (never a bulk edit, never a guess at intended Hebrew, never a fix to the ingestion script itself unless the defect is proven systemic - which takes a different, still-undefined type). Requires the sourceRepairEvidence authorization, which stands for a companion evidence report (old value, corrected value, exact removed artifact, upstream/independent corroboration, proof no other entry changed) committed in the same PR. Narrowly permits touching scripts/worker_task_types.json itself for this type's own bootstrap introduction only (every other type's registry changes remain a separate docs-tooling PR per this file's own top-level convention) - after this introducing PR merges, no later rashi-source-repair PR should need to touch the registry again.
 
-- model: sonnet; independent Sonnet review required before merge
-- escalation model: sonnet
+- worker role: bounded-implementation-worker; independent review required before merge, in a genuinely distinct reviewer context
+- escalation role: project-lead
+- review policy: independent
 - lifecycle: pr  (one VERSION patch bump, one PR)
 - mechanical tier: no
 - max batch: 1
@@ -406,10 +427,11 @@ One-time, narrowly-scoped correction of a proven Hebrew-source data defect in a 
 
 ## rashi-structural-repair
 
-Structural repair of a daf's rashiTranslations layer: baselined entry-count mismatches, phantom entries with no raw-line anchor, or missing entries (documented backlog: 8a, 9a). Restores exact 1:1 correspondence with the authoritative talmuddev raw lines: after the pass, entry count and vilnaLine sequence must match the source exactly, every helper must render its own raw line, and every link must be semantic. The ONLY task type permitted to change rashiTranslations structure, and only with the explicit allowStructure authorization on the manifest. Sonnet only, and only on a manifest carrying allowStructure; no ordinary manifest can ever authorize structural or count changes.
+Structural repair of a daf's rashiTranslations layer: baselined entry-count mismatches, phantom entries with no raw-line anchor, or missing entries (documented backlog: 8a, 9a). Restores exact 1:1 correspondence with the authoritative talmuddev raw lines: after the pass, entry count and vilnaLine sequence must match the source exactly, every helper must render its own raw line, and every link must be semantic. The ONLY task type permitted to change rashiTranslations structure, and only with the explicit allowStructure authorization on the manifest. Bounded-implementation-worker role only, and only on a manifest carrying allowStructure; no ordinary manifest can ever authorize structural or count changes.
 
-- model: sonnet; review: conditional auto-merge gate (worker self-review + worker:review; escalation to sonnet)
-- escalation model: sonnet
+- worker role: bounded-implementation-worker; review: conditional auto-merge gate (worker self-review + worker:review; escalation to project-lead)
+- escalation role: project-lead
+- review policy: conditional
 - lifecycle: pr  (one VERSION patch bump, one PR)
 - mechanical tier: no
 - max batch: 1
@@ -438,8 +460,9 @@ Structural repair of a daf's rashiTranslations layer: baselined entry-count mism
 
 Rashi translation-quality campaign (Step 4+): apply English-only repairs to Rashi entries that received real Hebrew-to-Gemara-context semantic review against the campaign's frozen pilot cohort, and record that review's disposition/evidence in the campaign inventory. Distinct from rashi-repair (which repairs documented stub/filler defects via pattern matching, mechanicalTier true): this type's changes come from genuine semantic judgment, never automated pattern detection, and its scope additionally covers the campaign's own inventory and batch-report audit trail so a single PR can carry both a translation fix and the record of why it was made, per the campaign's PR structure.
 
-- model: sonnet
-- escalation model: sonnet
+- worker role: bounded-implementation-worker
+- escalation role: project-lead
+- review policy: none
 - lifecycle: pr  (one VERSION patch bump, one PR)
 - mechanical tier: no
 - max batch: 1
@@ -456,10 +479,11 @@ Rashi translation-quality campaign (Step 4+): apply English-only repairs to Rash
 
 ## structural-repair
 
-Structural repairs: argumentFlow steps/ids/labels/sourceRefs, lineRange, lines, sefariaRefs, conceptRefs, ids, sugya add/remove. Always requires --authorize allowStructure; Sonnet only.
+Structural repairs: argumentFlow steps/ids/labels/sourceRefs, lineRange, lines, sefariaRefs, conceptRefs, ids, sugya add/remove. Always requires --authorize allowStructure; bounded-implementation-worker role only.
 
-- model: sonnet
-- escalation model: sonnet
+- worker role: bounded-implementation-worker
+- escalation role: project-lead
+- review policy: none
 - lifecycle: pr  (one VERSION patch bump, one PR)
 - mechanical tier: no
 - max batch: 1
@@ -475,8 +499,9 @@ Structural repairs: argumentFlow steps/ids/labels/sourceRefs, lineRange, lines, 
 
 Top-level daf summary copy edits.
 
-- model: sonnet
-- escalation model: sonnet
+- worker role: bounded-implementation-worker
+- escalation role: project-lead
+- review policy: none
 - lifecycle: pr  (one VERSION patch bump, one PR)
 - mechanical tier: no
 - max batch: 1

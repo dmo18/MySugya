@@ -8,8 +8,10 @@ are split so that no single actor can bypass them.
 
 ## Roles
 
-Sonnet is the only execution and escalation model for Rashi work. The
-distinction that matters is capability tier, not model:
+Execution and escalation authority for Rashi work is role-based: the
+bounded-implementation-worker role executes, and escalation goes to the
+project-lead role, never to a named model. The distinction that matters
+is capability tier, not model:
 
 - Judgment-required work (mechanicalTier false): Hebrew translation,
   placement judgments, shifted-daf realignment (rashi-realignment), and
@@ -77,8 +79,9 @@ citations, search window 25):
 On a SHIFTED or FABRICATION-SUSPECT daf, `rashi_preflight` FAILS any
 line-level task (repair, links): stub-only work there duplicates
 content and cements misalignment. The remedies are rashi-realignment
-(shifted) and rashi-reconstruction (fabricated), Sonnet worker under
-the conditional review policy. Override is operator-only: the manifest
+(shifted) and rashi-reconstruction (fabricated), bounded-implementation-
+worker role under the conditional review policy. Override is
+operator-only: the manifest
 must carry
 authorizeDriftOverride AND the environment must set
 WORKER_DRIFT_OVERRIDE=1; worker prompts never mention either. The work
@@ -173,7 +176,7 @@ is removed only when the content validator reports it stale.
 
 rashi-realignment and rashi-reconstruction no longer require an
 unconditional independent review on every PR. The registry marks them
-`reviewPolicy: "conditional"` with `escalationModel: "sonnet"`; the
+`reviewPolicy: "conditional"` with `escalationRole: "project-lead"`; the
 worker merges its own PR WITHOUT operator or independent sign-off
 only when every auto-merge condition holds, and otherwise escalates.
 The full condition list, the fresh self-review contract

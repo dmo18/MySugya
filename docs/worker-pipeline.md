@@ -12,9 +12,9 @@ specifics). One registry, one driver, six commands. Added at VERSION
 - `scripts/worker_task_types.json` - the task-type registry: scope
   contract per type (allowed files, allowed JSON paths, allowlist and
   structure policy, required validators, generation and test commands,
-  escalation triggers, recommended model, paused flag). Editing the
-  registry is a pipeline change: Sonnet only, via a docs-tooling
-  PR.
+  escalation triggers, worker role, paused flag). Editing the
+  registry is a pipeline change: bounded-implementation-worker role only,
+  via a docs-tooling PR.
 - `scripts/worker_pipeline.py` - the driver. Rashi task types delegate
   to the proven Rashi tooling; nothing is duplicated or weakened.
 
@@ -61,9 +61,10 @@ canonical process document is docs/worker-pipeline-sop.md.
 - Workers may never ADD allowlist or baseline entries; the ratchet is
   enforced on every PR. Authorized restructuring requires
   RASHI_ALLOWLIST_RESTRUCTURE=1 (docs-tooling PRs only).
-- Workers stop and escalate on semantic uncertainty; Sonnet owns
-  Hebrew translation, placement judgment, validator design, schema and
-  pipeline changes, and ambiguous repairs.
+- Workers stop and escalate on semantic uncertainty; the
+  bounded-implementation-worker role owns Hebrew translation, placement
+  judgment, validator design, schema and pipeline changes, and ambiguous
+  repairs.
 - Generated files (`learning_data.js`, `coverage.json`) change only via
   regeneration; the freshness gate proves it.
 - VERSION: one patch bump per PR, always via sync_version.py. Data-layer
@@ -175,7 +176,8 @@ rather than trusting this table's specifics.
 - Independent review gate: task types flagged independentReviewRequired
   (rashi-reconstruction, placeholder-backfill, gemara-learning) print a
   REVIEW GATE notice in verify output: the worker may open the PR and
-  poll CI but may NOT merge; an independent Sonnet review comes first. This is a procedural
+  poll CI but may NOT merge; an independent review, performed in a
+  genuinely distinct reviewer context, comes first. This is a procedural
   gate; enable branch-protection required reviews to make it mechanical.
 
 ## Schema-wide coverage (VERSION 15.82)

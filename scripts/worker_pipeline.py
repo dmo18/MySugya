@@ -560,9 +560,10 @@ def legal_authorizations(spec):
 
 def review_policy_of(spec):
     """A task type's review policy: 'conditional' (worker self-review plus
-    the machine-checked auto-merge gate; escalation to escalationModel),
-    'independent' (a second, independent Sonnet review must approve the PR
-    before merge; no auto-merge gate exists), or 'none'."""
+    the machine-checked auto-merge gate; escalation to escalationRole),
+    'independent' (a second, independent review by a genuinely distinct
+    reviewer context must approve the PR before merge; no auto-merge gate
+    exists), or 'none'."""
     if spec.get("reviewPolicy"):
         return spec["reviewPolicy"]
     return "independent" if spec.get("independentReviewRequired") else "none"
@@ -1452,13 +1453,13 @@ def cmd_manifest(opts):
         "type": opts.type,
         "module": opts.module,
         "targets": targets,
-        "model": spec["model"],
+        "workerRole": spec.get("workerRole", "bounded-implementation-worker"),
         "paused": spec.get("paused", False),
         "lifecycle": lifecycle_of(spec),
         "mechanicalTier": spec.get("mechanicalTier", False),
         "independentReviewRequired": spec.get("independentReviewRequired", False),
         "reviewPolicy": review_policy_of(spec),
-        "escalationModel": spec.get("escalationModel", "sonnet"),
+        "escalationRole": spec.get("escalationRole", "project-lead"),
         "authorizations": auths,
         "maxBatch": max_batch,
         "allowedFiles": spec["allowedFiles"],
@@ -1667,10 +1668,15 @@ def cmd_prompt(opts):
         "",
         spec["description"],
         "",
-        f"Model: {m['model']}. Sonnet is the only execution and escalation model in this"
-        " pipeline; no other model may take, review, or escalate any task type."
-        + (" This type additionally requires a second, independent Sonnet review of the PR"
-           " before merge." if review_policy_of(spec) == "independent" else ""),
+        f"Role: {m['workerRole']}. Capability tier: "
+        f"{'mechanical (fully pattern-checkable)' if m['mechanicalTier'] else 'judgment (semantic/structural judgment required)'}."
+        f" Review policy: {review_policy_of(spec)}."
+        " Execution and escalation authority is role-based, not tied to any provider or"
+        f" model identity; only {m['workerRole']} may take this task type, and escalation"
+        f" goes to {m['escalationRole']}, never to a named model."
+        + (" This type additionally requires a second, independent review of the PR before"
+           " merge, performed in a genuinely distinct reviewer context that does not reuse"
+           " the first pass's reasoning." if review_policy_of(spec) == "independent" else ""),
         "",
         f"Lifecycle: {m['lifecycle']}."
         + (" This is a READ-ONLY pass: it must end with the tracked tree byte-identical."
@@ -1754,7 +1760,7 @@ def cmd_prompt(opts):
             "   sentence, never as separately narrated structural beats. Record the",
             "   result in",
             "   .worker-self-review.json:",
-            '   {"daf": "<daf>", "model": "' + m["model"] + '", "rechecked": {'
+            '   {"daf": "<daf>", "workerRole": "' + m["workerRole"] + '", "rechecked": {'
             + ", ".join(f'"{c}": true' for c in SELF_REVIEW_CHECKS) + "},",
             '    "blockersFound": [], "notes": "<one line>"}',
             "   Any blocker found = escalate; do not open the PR as mergeable.",
@@ -1769,13 +1775,14 @@ def cmd_prompt(opts):
             "    to commit and NEVER a direct push to main. Continue to the",
             "    next queued target with a fresh manifest. Stop ONLY on an escalation",
             "    condition, unexpected repository state, or an empty queue.",
-            f"    On escalation: stop, do not merge, and hand off to {spec.get('escalationModel', 'sonnet')} with a report.",
+            f"    On escalation: stop, do not merge, and hand off to {spec.get('escalationRole', 'project-lead')} with a report.",
         ]
     elif review_policy_of(spec) == "independent":
         lines += [
             "8. Commit .worker-manifest.json together with the work, push, ONE PR, wait for CI.",
-            "9. This task type requires an independent Sonnet review of the PR before merge:"
-            " you may open the PR and poll CI, but you may NOT merge your own work."
+            "9. This task type requires an independent review of the PR before merge, performed"
+            " in a genuinely distinct reviewer context that does not reuse the first pass's"
+            " reasoning: you may open the PR and poll CI, but you may NOT merge your own work."
             " Request the independent review and stop.",
         ]
     else:
@@ -2171,15 +2178,16 @@ def cmd_verify(opts):
         sys.exit(1)
     policy = review_policy_of(spec)
     if policy == "independent":
-        print("\nREVIEW GATE: this task type requires an independent Sonnet review of the PR "
-              "before merge. Workers may open the PR and poll CI, but may NOT merge their own "
-              "work; request the independent review and stop.")
+        print("\nREVIEW GATE: this task type requires an independent review of the PR before "
+              "merge, performed in a genuinely distinct reviewer context that does not reuse "
+              "the first pass's reasoning. Workers may open the PR and poll CI, but may NOT "
+              "merge their own work; request the independent review and stop.")
     elif policy == "conditional":
         print("\nCONDITIONAL REVIEW GATE: after the fresh post-edit self-review is recorded "
               "in .worker-self-review.json and CI is green on the final head, run "
               "`npm run worker:review -- --manifest .worker-manifest.json`. Merge ONLY if it "
               f"prints AUTO-MERGE-ELIGIBLE; on any failed condition, escalate to "
-              f"{spec.get('escalationModel', 'sonnet')} instead of merging.")
+              f"{spec.get('escalationRole', 'project-lead')} instead of merging.")
     if lifecycle_of(spec) == "read-only":
         nxt = ("report findings; this lifecycle ends with NO commit, NO VERSION bump, and NO PR"
                if opts.full else "npm run worker:verify -- --manifest .worker-manifest.json --full")
@@ -2701,8 +2709,9 @@ def cmd_review(opts):
     m, spec = load_manifest(opts.manifest)
     policy = review_policy_of(spec)
     if policy == "independent":
-        print(f"REVIEW: task type {m['type']} requires an independent Sonnet review; "
-              "there is no auto-merge gate. Request the independent review and stop.")
+        print(f"REVIEW: task type {m['type']} requires an independent review performed in a "
+              "genuinely distinct reviewer context; there is no auto-merge gate. Request the "
+              "independent review and stop.")
         sys.exit(1)
     if policy != "conditional":
         print(f"REVIEW: task type {m['type']} has no review gate (policy: {policy}).")
@@ -2723,7 +2732,7 @@ def cmd_review(opts):
               "when CI is green on this exact head; then verify both deploy workflows "
               "and advance the queue.")
     else:
-        print(f"\nESCALATE to {spec.get('escalationModel', 'sonnet')}: failed condition(s) "
+        print(f"\nESCALATE to {spec.get('escalationRole', 'project-lead')}: failed condition(s) "
               f"{failed}. Do NOT merge.")
         sys.exit(1)
 
@@ -3071,14 +3080,16 @@ def cmd_docs(opts):
         L.append(s["description"])
         L.append("")
         pol = review_policy_of(s)
-        pol_txt = {"independent": "; independent Sonnet review required before merge",
+        pol_txt = {"independent": "; independent review required before merge, in a genuinely "
+                                  "distinct reviewer context",
                    "conditional": f"; review: conditional auto-merge gate (worker self-review "
-                                  f"+ worker:review; escalation to {s.get('escalationModel', 'sonnet')})",
+                                  f"+ worker:review; escalation to {s.get('escalationRole', 'project-lead')})",
                    "none": ""}[pol]
-        L.append(f"- model: {s['model']}"
+        L.append(f"- worker role: {s.get('workerRole', 'bounded-implementation-worker')}"
                  + ("; PAUSED" if s.get("paused") else "")
                  + pol_txt)
-        L.append(f"- escalation model: {s.get('escalationModel', 'sonnet')}")
+        L.append(f"- escalation role: {s.get('escalationRole', 'project-lead')}")
+        L.append(f"- review policy: {pol}")
         L.append(f"- lifecycle: {lifecycle_of(s)}"
                  + ("  (no VERSION bump, no commit, no PR)" if lifecycle_of(s) == "read-only"
                     else "  (one VERSION patch bump, one PR)"))
@@ -3110,7 +3121,8 @@ def cmd_docs(opts):
          "(run in CI on every manifest-bearing PR). High-risk paths (structure, ids,",
          "sourceRefs, Hebrew, argumentFlow, quiz/misconception content) are",
          "judgment-required because their correctness needs semantic or structural",
-         "judgment that pattern gates cannot verify. Sonnet executes every tier.", "",
+         "judgment that pattern gates cannot verify. The bounded-implementation-worker role",
+         "executes every tier.", "",
          "| path | classification |", "|---|---|"]
     for path in sorted(inv):
         M.append(f"| `{path}` | {inv[path]} |")

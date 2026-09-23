@@ -39,15 +39,16 @@ tracked tree byte-identical. See "Task lifecycles" below.
 11 wait for CI (build job runs validate:offline:yoma, the Rashi scope
    check, and the worker manifest check)
 12 merge rule, by the task type's review policy:
-   - reviewPolicy independent: request an independent Sonnet review of
-     the PR, do NOT merge your own work
+   - reviewPolicy independent: request an independent review of the PR,
+     performed in a genuinely distinct reviewer context that does not
+     reuse the first pass's reasoning; do NOT merge your own work
    - reviewPolicy conditional (rashi-realignment, rashi-reconstruction):
      record the fresh post-edit self-review in .worker-self-review.json,
      run `npm run worker:review -- --manifest .worker-manifest.json`,
      and merge WITHOUT further authorization only when it prints
      AUTO-MERGE-ELIGIBLE and CI is green on the exact final head; any
-     failed condition escalates to Sonnet (the registry's escalationModel)
-     and blocks the merge
+     failed condition escalates to the registry's escalationRole
+     (project-lead) and blocks the merge
    - no policy: merge when green
 13 verify Deploy Cloudways Branch and Deploy GitHub Pages for the merge
    commit
@@ -200,15 +201,18 @@ distinct errors (`COUNT MISMATCH` vs `REPETITION-BASELINE`) so the
 count-mismatch one is never eligible for this filtering in the first
 place.
 
-## Model policy (non-negotiable)
+## Execution and escalation authority (non-negotiable)
 
-Sonnet is the ONLY execution and escalation model in this pipeline.
-Every task type carries `model: "sonnet"` and `escalationModel:
-"sonnet"`; no other model may take, review, or escalate any task type.
+Execution and escalation authority is role-based, never tied to a
+provider or model identity. Every task type carries `workerRole:
+"bounded-implementation-worker"` (the role authorized to execute the
+type under its generated manifest) and `escalationRole: "project-lead"`
+(the role that receives an escalation); no unauthorized role, and no
+named model as such, may take, review, or escalate any task type.
 `test:policy` pins this across the registry, the schema inventory, the
 pipeline source, the generated reference docs, and every generated
-prompt, so a reintroduced route to another model fails CI rather than
-shipping silently.
+prompt, so a reintroduced provider/model-specific routing hint fails CI
+rather than shipping silently.
 
 Capability is expressed by tier, never by model name:
 
@@ -221,8 +225,10 @@ Capability is expressed by tier, never by model name:
   enrichment narrative, structure edits, and all pipeline/validator
   changes.
 - `independentReviewRequired: true` (reviewPolicy `independent`) means a
-  second, independent Sonnet review must approve the PR before merge;
-  the worker may open the PR and poll CI but may NOT merge its own work.
+  second, independent review, performed in a genuinely distinct reviewer
+  context that does not reuse the first pass's reasoning, must approve
+  the PR before merge; the worker may open the PR and poll CI but may
+  NOT merge its own work.
 - reviewPolicy `conditional` (rashi-realignment, rashi-reconstruction,
   rashi-structural-repair) means the worker records a fresh post-edit
   self-review, runs the `worker:review` auto-merge gate, and merges only
@@ -238,7 +244,7 @@ manifest. Manifests carrying `--authorize` flags, and any run with
 `RASHI_ALLOWLIST_RESTRUCTURE=1`, are operator-issued only.
 - A red gate always means the content or scope is wrong. The only two
   legal responses are: fix your own work, or stop and escalate.
-- NO model, at any tier, direct-pushes tracked changes to main. Main
+- NO role, at any tier, direct-pushes tracked changes to main. Main
   moves only by validated PR merges; any workflow that would end with a
   tracked post-merge change is a design defect to escalate, not a
   reason to push.
@@ -246,8 +252,8 @@ manifest. Manifests carrying `--authorize` flags, and any run with
 ## Conditional semantic review and autopilot queue (VERSION 15.93)
 
 rashi-realignment and rashi-reconstruction carry `reviewPolicy:
-"conditional"` with `escalationModel: "sonnet"` in the registry (Sonnet
-is the only execution and escalation model). The unconditional per-PR
+"conditional"` with `escalationRole: "project-lead"` in the registry
+(escalation authority is role-based, not tied to a model). The unconditional per-PR
 independent review is removed for these two types; in its place
 stand a mandatory fresh self-review and a machine-checked auto-merge
 gate. No hard validation gate was weakened: scope, freshness, content,
@@ -367,7 +373,7 @@ semantic versus positional linking; and no unrelated final-id fallback.
 Format (committed with the PR as .worker-self-review.json):
 
 ```json
-{"daf": "71b", "model": "sonnet",
+{"daf": "71b", "workerRole": "bounded-implementation-worker",
  "rechecked": {"beginningMiddleTail": true, "citationAnchors": true,
    "multiIdLinks": true, "truncatedBoundaryEntries": true,
    "formerlyAllowlistedEntries": true, "semanticNotPositional": true,
@@ -566,8 +572,8 @@ queue derivation mechanics, and the no-direct-push guarantees.
   FABRICATION-SUSPECT / ALIGNED / INSUFFICIENT-ANCHORS). Repair-type
   preflight (rashi-repair, placeholder-backfill) FAILS on a daf that is
   not line-level-safe; the remedies are rashi-realignment (shifted) and
-  rashi-reconstruction (fabricated), Sonnet worker with the
-  conditional review policy above.
+  rashi-reconstruction (fabricated), bounded-implementation-worker role
+  with the conditional review policy above.
   worker:verify enforces a clean post-edit profile for BOTH types.
   Override is operator-only: manifest authorizeDriftOverride
   plus WORKER_DRIFT_OVERRIDE=1. Tests: npm run test:drift:yoma (in npm

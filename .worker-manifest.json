@@ -2,13 +2,13 @@
  "type": "docs-tooling",
  "module": "yoma",
  "targets": [],
- "model": "sonnet",
+ "workerRole": "bounded-implementation-worker",
  "paused": false,
  "lifecycle": "pr",
  "mechanicalTier": false,
  "independentReviewRequired": false,
  "reviewPolicy": "none",
- "escalationModel": "sonnet",
+ "escalationRole": "project-lead",
  "authorizations": [],
  "maxBatch": null,
  "allowedFiles": [
@@ -59,6 +59,5 @@
  "scaffoldDebt": null,
  "repetitionDrain": null,
  "auditRecordIds": [],
- "migrationKinds": [],
- "note": "campaign_packet.py hardening: canonical sourceRefs.lineId derivation reused from validate_source_refs.py (with a/b/c suffixing computed whole-daf, not per-sugya), a raw-Hebrew-only preceding-daf anchor replacing untrusted authored enrichment, exhaustive daf-level field coverage via semantic_payload's own exclusion list, and new campaign_packet regression tests wired into CI."
+ "migrationKinds": []
 }
