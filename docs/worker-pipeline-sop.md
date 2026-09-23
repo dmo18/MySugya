@@ -90,6 +90,15 @@ Direct gate commands, when needed individually: `validate:offline:yoma`
 `worker:scope` (scope only), `worker:schema-matrix` (registry/inventory
 consistency), `worker:docs` (regenerate reference docs).
 
+Corpus-wide mechanical migrations use an explicit bounded exception to the
+ordinary one-daf schema-migration limit. For `legacy-concepts-purge` or
+`enrichment-schema-migration`, omit `--range` and pass
+`--authorize allowCorpusWideMechanicalMigration`; the manifest generator pins
+`targets` to the descriptor-derived full daf set, and preflight independently
+rejects any altered or partial multi-daf target list. Schema migration still
+also requires `authorizeMigration`, `allowStructure`, and one or more explicit
+`--migration-kind` values. An explicit `--range` remains capped at one daf.
+
 ### Allowlist-drain: starting reconstruction/realignment on pre-existing debt
 
 Preflight blocks a rashi-reconstruction/rashi-realignment task on any
