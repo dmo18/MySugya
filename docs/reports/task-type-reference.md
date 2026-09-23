@@ -105,7 +105,7 @@ Deterministic enrichment contract migrations with no semantic rewriting: require
 - mechanical tier: yes
 - max batch: 1
 - REQUIRED authorization: authorizeMigration (operator-issued; preflight fails without it)
-- allowed files: modules/<module>/assets/learning/<module>/<daf>.learning.json, modules/<module>/learning_data.js, modules/<module>/coverage.json, VERSION, package.json, package-lock.json, docs/rashi-audit-backlog.md, docs/<module>-perek-review.md, .worker-manifest.json
+- allowed files: modules/<module>/assets/learning/<module>/<daf>.learning.json, modules/<module>/learning_data.js, modules/<module>/coverage.json, VERSION, package.json, package-lock.json, docs/rashi-audit-backlog.md, docs/<module>-perek-review.md, docs/reports/data/<module>-semantic-certifications.json, .worker-manifest.json
 - mutable JSON paths: sugyot[*].requiresUnderstanding[*], sugyot[*].prerequisiteKnowledge, sugyot[*].prerequisiteKnowledge[*], sugyot[*].visualizableElements[*], sugyot[*].difficulty
 - allowlist policy: must-not-grow; structure policy: requires-authorization
 - required validators: validate:offline:yoma, validate:enrichment-contracts:yoma
