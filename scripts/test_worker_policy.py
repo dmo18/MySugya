@@ -5,14 +5,15 @@ and the sequential autopilot queue (scripts/worker_pipeline.py).
 
 Pins the VERSION 15.93 process change: rashi-realignment and
 rashi-reconstruction no longer require an unconditional independent review
-per PR. Instead a Sonnet worker performs a fresh post-edit self-review and a
-machine-checked auto-merge gate (worker:review) decides eligibility;
-every failed condition escalates to Sonnet and blocks merge. Sonnet is the
-only execution and escalation model in the pipeline.
+per PR. Instead a bounded-implementation-worker performs a fresh post-edit
+self-review and a machine-checked auto-merge gate (worker:review) decides
+eligibility; every failed condition escalates to the declared escalation
+role and blocks merge. Execution and escalation authority is role-based,
+never tied to a provider or model identity.
 
 Layers:
 1. Registry: the two semantic types carry reviewPolicy conditional with
-   escalationModel sonnet; the mechanical types keep their unconditional
+   escalationRole project-lead; the mechanical types keep their unconditional
    independent review; the self-review and queue files are in scope.
 2. Pure policy: all conditions true -> eligible (no independent review needed); EVERY
    single condition false -> blocked (negative test per condition).
@@ -26,8 +27,10 @@ Layers:
 Run: python3 scripts/test_worker_policy.py   (cwd repo root)
 Exit 0 on success, 1 on failure.
 """
+import contextlib
+import copy
+import io
 import os
-import re
 import json
 import subprocess
 import sys
@@ -68,10 +71,11 @@ def test_registry():
     for t in CONDITIONAL_TYPES:
         s = types[t]
         check(f"{t} reviewPolicy is conditional", wp.review_policy_of(s) == "conditional")
-        check(f"{t} escalationModel is sonnet", s.get("escalationModel") == "sonnet")
+        check(f"{t} escalationRole is project-lead", s.get("escalationRole") == "project-lead")
         check(f"{t} has no unconditional independentReviewRequired",
               not s.get("independentReviewRequired"))
-        check(f"{t} worker model stays sonnet", s.get("model") == "sonnet")
+        check(f"{t} workerRole stays bounded-implementation-worker",
+              s.get("workerRole") == "bounded-implementation-worker")
         check(f"{t} still one daf per PR (maxBatch 1)", s.get("maxBatch") == 1)
         check(f"{t} allows the self-review attestation file",
               ".worker-self-review.json" in s["allowedFiles"])
@@ -226,14 +230,14 @@ def test_live_gate_fails_closed():
         m = json.loads(mpath.read_text())
         check("manifest carries reviewPolicy conditional",
               m.get("reviewPolicy") == "conditional")
-        check("manifest carries escalationModel sonnet",
-              m.get("escalationModel") == "sonnet")
+        check("manifest carries escalationRole project-lead",
+              m.get("escalationRole") == "project-lead")
         rr = subprocess.run([sys.executable, "scripts/worker_pipeline.py", "review",
                              "--manifest", str(mpath)],
                             capture_output=True, text=True, cwd=REPO)
         check("gate blocks when unsafe conditions appear (exit nonzero)",
               rr.returncode != 0)
-        check("gate names the escalation model", "ESCALATE to sonnet" in rr.stdout)
+        check("gate names the escalation role", "ESCALATE to project-lead" in rr.stdout)
         check("gate reports the missing fresh self-review",
               "fresh-self-review-committed-and-clean" in rr.stdout)
         check("gate never prints eligibility on failure",
@@ -271,7 +275,8 @@ def test_prompt():
               "next queued target" in out)
         check("prompt does NOT carry the unconditional independent-review no-merge line",
               "may NOT merge" not in out)
-        check("prompt escalates to sonnet", "hand off to sonnet" in out)
+        check("prompt escalates to the declared escalation role",
+              "hand off to project-lead" in out)
 
 
 def write_evidence(path, ttype="rashi-realignment", module="yoma", targets=None):
@@ -373,8 +378,9 @@ def test_structural_repair_type():
     print("rashi-structural-repair task type:")
     types = wp.load_registry()
     s = types["rashi-structural-repair"]
-    check("model is sonnet", s["model"] == "sonnet")
-    check("escalation model is sonnet", s.get("escalationModel") == "sonnet")
+    check("workerRole is bounded-implementation-worker",
+          s["workerRole"] == "bounded-implementation-worker")
+    check("escalationRole is project-lead", s.get("escalationRole") == "project-lead")
     check("review policy is conditional (self-review + auto-merge gate)",
           wp.review_policy_of(s) == "conditional")
     check("one daf per PR (maxBatch 1)", s.get("maxBatch") == 1)
@@ -1281,34 +1287,70 @@ def test_repetition_drain():
 
 
 
-def test_sonnet_only_policy():
-    """Sonnet is the only execution and escalation model. Pins the whole
-    registry plus every generated surface a worker actually reads, so a
-    reintroduced Haiku/Fable route fails CI instead of silently shipping."""
-    print("sonnet-only model policy:")
+def test_role_based_policy():
+    """Execution and escalation authority is role-based (workerRole
+    'bounded-implementation-worker', escalationRole 'project-lead'), never
+    tied to a provider or model identity. Pinned structurally: the
+    authoritative registry and every generated surface a worker actually
+    reads (task-type JSON, generated reference docs, generated prompts)
+    must expose role/capability/review-policy semantics and must not carry
+    the retired authoritative 'model'/'escalationModel' keys or the
+    retired false prompt claim. This intentionally does NOT scan for
+    vendor or model name strings (Sonnet, Haiku, GPT, etc.): a blacklist of
+    retired identifiers would itself become a new provider-specific
+    correctness policy, which is exactly what this repair removes."""
+    print("role-based (not provider-bound) policy:")
     types = wp.load_registry()
     for name, s in sorted(types.items()):
-        check(f"{name} model is sonnet", s.get("model") == "sonnet",
-              f"got {s.get('model')!r}")
-        check(f"{name} escalationModel is sonnet", s.get("escalationModel") == "sonnet",
-              f"got {s.get('escalationModel')!r}")
+        check(f"{name} workerRole is bounded-implementation-worker",
+              s.get("workerRole") == "bounded-implementation-worker",
+              f"got {s.get('workerRole')!r}")
+        check(f"{name} escalationRole is project-lead",
+              s.get("escalationRole") == "project-lead",
+              f"got {s.get('escalationRole')!r}")
+        check(f"{name} carries no legacy model/escalationModel field",
+              "model" not in s and "escalationModel" not in s)
         check(f"{name} declares an explicit mechanicalTier boolean",
               isinstance(s.get("mechanicalTier"), bool))
         check(f"{name} review policy is a known value",
               wp.review_policy_of(s) in ("conditional", "independent", "none"))
-    # No retired model name may survive anywhere in the machine-read policy
-    # surface: registry, schema inventory, pipeline, or generated reference docs.
-    banned = re.compile(r"haiku|fable", re.I)
-    for rel in ("scripts/worker_task_types.json", "scripts/worker_schema_scope.json",
-                "scripts/worker_pipeline.py", "docs/reports/task-type-reference.md",
-                "docs/reports/schema-coverage-matrix.md"):
-        hits = [l for l in (REPO / rel).read_text().splitlines() if banned.search(l)]
-        check(f"{rel} carries no retired model name", not hits,
-              f"{len(hits)} line(s), first: {hits[0].strip()[:70] if hits else ''}")
-    # Every generated prompt must name Sonnet and never a retired model.
+
+    # The authoritative registry file itself, checked as structured JSON
+    # against its own declared key names, not a text scan.
+    tt = json.loads((REPO / "scripts" / "worker_task_types.json").read_text())["taskTypes"]
+    for name, s in tt.items():
+        check(f"worker_task_types.json {name} declares workerRole", "workerRole" in s)
+        check(f"worker_task_types.json {name} declares escalationRole", "escalationRole" in s)
+        check(f"worker_task_types.json {name} has no retired 'model' key", "model" not in s)
+        check(f"worker_task_types.json {name} has no retired 'escalationModel' key",
+              "escalationModel" not in s)
+
+    # Generated task/reference documentation exposes role/capability/review
+    # semantics for every registered task type, rather than the retired
+    # authoritative fields.
+    ttref = (REPO / "docs" / "reports" / "task-type-reference.md").read_text()
+    check("task-type-reference.md documents worker role for every type",
+          ttref.count("- worker role:") == len(tt))
+    check("task-type-reference.md documents escalation role for every type",
+          ttref.count("- escalation role:") == len(tt))
+    check("task-type-reference.md documents review policy for every type",
+          ttref.count("- review policy:") == len(tt))
+    check("task-type-reference.md does not document a retired 'escalation model' field",
+          "escalation model:" not in ttref.lower())
+    check("task-type-reference.md does not document a retired 'execution model' field",
+          "execution model:" not in ttref.lower())
+
+    matrix = (REPO / "docs" / "reports" / "schema-coverage-matrix.md").read_text()
+    check("schema-coverage-matrix.md documents the bounded-implementation-worker role",
+          "bounded-implementation-worker role" in matrix)
+
+    # Every generated prompt states role/capability-tier/review-policy, adds
+    # the context-independence instruction where the type's review policy
+    # requires it, and never carries the retired false claim.
     with tempfile.TemporaryDirectory() as td:
         for ttype, rng in (("rashi-reconstruction", "70a"), ("audit-only", None),
-                           ("deployment-verify", None), ("docs-tooling", None)):
+                           ("deployment-verify", None), ("docs-tooling", None),
+                           ("placeholder-backfill", "71b")):
             mp = Path(td) / f"{ttype}.json"
             args = [sys.executable, "scripts/worker_pipeline.py", "manifest",
                     "--type", ttype, "--module", "yoma", "--out", str(mp)]
@@ -1318,10 +1360,144 @@ def test_sonnet_only_policy():
             r = subprocess.run([sys.executable, "scripts/worker_pipeline.py", "prompt",
                                 "--manifest", str(mp)], capture_output=True, text=True, cwd=REPO)
             check(f"{ttype} prompt generates", r.returncode == 0, r.stderr[-160:])
-            check(f"{ttype} prompt carries no retired model name",
-                  not banned.search(r.stdout))
-            check(f"{ttype} prompt states Sonnet is the only model",
-                  "only execution and escalation model" in r.stdout)
+            check(f"{ttype} prompt states the worker role",
+                  "Role: bounded-implementation-worker." in r.stdout)
+            check(f"{ttype} prompt states the escalation role",
+                  f"goes to {tt[ttype]['escalationRole']}" in r.stdout)
+            check(f"{ttype} prompt states the capability tier",
+                  "Capability tier:" in r.stdout)
+            check(f"{ttype} prompt states the review policy",
+                  "Review policy:" in r.stdout)
+            if wp.review_policy_of(tt[ttype]) == "independent":
+                check(f"{ttype} prompt carries the context-independence instruction",
+                      "genuinely distinct reviewer context" in r.stdout)
+            check(f"{ttype} prompt never claims only a named model may act",
+                  "only execution and escalation model" not in r.stdout)
+
+
+def test_role_not_provider_bound():
+    """Safety does not depend on a literal provider/model name anywhere in
+    the pipeline's logic. Proof: build a synthetic registry entry whose
+    workerRole/escalationRole are arbitrary role strings unrelated to any
+    real vendor or model, point the live pipeline module at that registry
+    in-process, and confirm manifest/prompt generation execute normally and
+    describe that fixture role, proving no literal provider/model identity
+    is required anywhere in the mechanism. This is invariant 1 and 2 from
+    the worker-role-policy repair: a valid implementation role with the
+    existing capability tier can execute with an arbitrary role identifier
+    in the registry."""
+    print("role fields are not provider-bound:")
+    real_types = wp.load_registry()
+    fixture_types = copy.deepcopy(real_types)
+    fixture_spec = fixture_types["docs-tooling"]
+    fixture_spec["workerRole"] = "fixture-implementation-worker"
+    fixture_spec["escalationRole"] = "fixture-project-lead"
+    fixture_registry_text = json.dumps({"taskTypes": fixture_types})
+    check("fixture registry carries no retired 'model' key for docs-tooling",
+          "model" not in fixture_spec)
+    check("fixture registry carries no retired 'escalationModel' key for docs-tooling",
+          "escalationModel" not in fixture_spec)
+
+    with tempfile.TemporaryDirectory() as td:
+        tmp_dir = Path(td)
+        tmp_registry = tmp_dir / "fixture_task_types.json"
+        tmp_registry.write_text(fixture_registry_text)
+        tmp_manifest = tmp_dir / "fixture_manifest.json"
+        tmp_manifest.write_text(json.dumps({
+            "type": "docs-tooling", "module": "yoma", "targets": [],
+            "workerRole": "fixture-implementation-worker",
+            "escalationRole": "fixture-project-lead",
+            "paused": False, "lifecycle": "pr",
+            "mechanicalTier": fixture_spec.get("mechanicalTier", False),
+            "independentReviewRequired": fixture_spec.get("independentReviewRequired", False),
+            "reviewPolicy": "none",
+            "authorizations": [], "maxBatch": None,
+            "allowedFiles": fixture_spec["allowedFiles"],
+            "allowedJsonPaths": fixture_spec["allowedJsonPaths"],
+            "forbiddenFiles": fixture_spec["forbiddenFiles"],
+            "allowlistPolicy": fixture_spec["allowlistPolicy"],
+            "structurePolicy": fixture_spec["structurePolicy"],
+            "requiredValidators": fixture_spec["requiredValidators"],
+            "generationCommands": fixture_spec["generationCommands"],
+            "buildTestCommands": fixture_spec["buildTestCommands"],
+            "escalationTriggers": fixture_spec["escalationTriggers"],
+        }))
+
+        orig_registry = wp.REGISTRY
+        try:
+            wp.REGISTRY = tmp_registry
+
+            class Opts:
+                manifest = str(tmp_manifest)
+
+            buf = io.StringIO()
+            with contextlib.redirect_stdout(buf):
+                wp.cmd_prompt(Opts())
+            out = buf.getvalue()
+            check("prompt executes for a registry with arbitrary role identifiers", bool(out))
+            check("prompt states the fixture worker role", "fixture-implementation-worker" in out)
+            check("prompt states the fixture escalation role", "fixture-project-lead" in out)
+            check("prompt never claims only a named model may act",
+                  "only execution and escalation model" not in out)
+        finally:
+            wp.REGISTRY = orig_registry
+            wp.set_active_module(wp.resolve_active_module("yoma"))
+
+
+def test_independent_review_context_reuse_rejected():
+    """Invariant 4: reused reviewer context cannot satisfy a mechanically
+    enforced independent-review stage. This worker-policy suite pins the
+    registry/prompt side of role-based (not model-based) review authority;
+    this test pins the companion mechanical enforcement in
+    scripts/semantic_certification.py, which is what actually decides
+    whether a second, 'independent' pass counts. A different reviewId
+    string inside the same reviewerContextId is not real independence, and
+    the live registry rejects it regardless of what role or model name
+    produced either pass."""
+    print("independent-review context reuse (mechanical enforcement):")
+    import semantic_certification as sc
+
+    module = "yoma"
+    corpus = sc.load_corpus(module)
+    sid = "yoma-042a-s01"
+    daf, doc, sugya = corpus[sid]
+    source_fp, semantic_fp = sc.fingerprints(module, daf, doc, sugya)
+
+    def review_block(review_id, reviewer_context_id, verdict):
+        return {
+            "reviewId": review_id,
+            "reviewerContextId": reviewer_context_id,
+            "sourceFirst": True,
+            "verdict": verdict,
+            "reviewedSourceFingerprint": source_fp,
+            "reviewedSemanticFingerprint": semantic_fp,
+            "evidence": "test evidence",
+        }
+
+    first = review_block("pass-first", "context-alpha", "VERIFIED")
+    second_same_context = review_block("pass-second", "context-alpha", "CONFIRMED")
+    second_distinct_context = review_block("pass-second", "context-beta", "CONFIRMED")
+
+    record_same_context = {
+        "state": "PENDING_FINAL_AUDIT", "schemaVersion": "2.0",
+        "firstPass": first, "secondPass": second_same_context,
+        "sourceFingerprint": source_fp, "semanticFingerprint": semantic_fp,
+    }
+    state, problems = sc.certificate_status(module, daf, doc, sugya, record_same_context)
+    check("same reviewerContextId across passes is rejected (different reviewId is not enough)",
+          state == "INVALID"
+          and any("reviewer contexts" in p or "reviewerContextId" in p for p in problems),
+          f"state={state} problems={problems}")
+
+    record_distinct_context = {
+        "state": "PENDING_FINAL_AUDIT", "schemaVersion": "2.0",
+        "firstPass": first, "secondPass": second_distinct_context,
+        "sourceFingerprint": source_fp, "semanticFingerprint": semantic_fp,
+    }
+    state2, problems2 = sc.certificate_status(module, daf, doc, sugya, record_distinct_context)
+    check("distinct reviewerContextId across passes clears the context-reuse check",
+          not any("reviewer contexts" in p for p in problems2),
+          f"state={state2} problems={problems2}")
 
 
 def test_lifecycle_consistency():
@@ -1561,7 +1737,9 @@ def test_module_awareness_against_committed_fixture():
 
 def main():
     test_registry()
-    test_sonnet_only_policy()
+    test_role_based_policy()
+    test_role_not_provider_bound()
+    test_independent_review_context_reuse_rejected()
     test_lifecycle_consistency()
     test_pure_policy()
     test_live_gate_fails_closed()

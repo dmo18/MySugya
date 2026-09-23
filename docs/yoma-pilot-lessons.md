@@ -44,9 +44,10 @@ Semantic faithfulness. A fluent, specific, wrong translation passes
 every pattern gate; the advisory semantic audit
 (audit:rashi:semantic:yoma) flags citation-anchor displacement (it
 independently re-found the 41a shift) but proves nothing. Therefore:
-Hebrew judgment stays with Fable/Sonnet, risky task types carry a
-mandatory Fable review before merge, and spot audits remain part of
-every content campaign.
+Hebrew judgment stays with a worker carrying the required semantic
+capability, risky task types carry a mandatory independent review in a
+genuinely distinct reviewer context before merge, and spot audits remain
+part of every content campaign.
 
 ## The transferable lesson
 

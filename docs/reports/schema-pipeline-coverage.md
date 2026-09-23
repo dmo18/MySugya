@@ -3,9 +3,10 @@
 > **Historical snapshot (superseded on model routing).** This report records
 > the coverage proof, negative-test battery, and dry runs exactly as they
 > stood at VERSION 15.82, and its findings are preserved verbatim as an
-> audit record. Its MODEL ROUTING is obsolete: since VERSION 15.332 Sonnet
-> is the only execution and escalation model, capability is expressed as
-> `mechanicalTier` / `independentReviewRequired` rather than by model name,
+> audit record. Its MODEL ROUTING is obsolete: current policy expresses
+> execution and escalation authority through worker/escalation roles,
+> capability through `mechanicalTier`, and review requirements through
+> `reviewPolicy` / `independentReviewRequired`, rather than by model name;
 > the inventory classes `haiku-manifest` and `fable-only` were renamed to
 > `manifest-editable` and `judgment-required`, and the drift-override
 > environment variable `FABLE_DRIFT_OVERRIDE` was renamed
@@ -82,9 +83,10 @@ legal-display-edit: all PASS.
 
 ## Worker operating envelope
 
-Superseded by docs/worker-pipeline-sop.md ("Model policy"), which is the
-single current source. In summary: Sonnet executes every tier; a pass may
-never add allowlist or baseline entries, set RASHI_ALLOWLIST_RESTRUCTURE or
+Superseded by docs/worker-pipeline-sop.md ("Worker role and capability
+policy"), which is the single current source. In summary: a worker must
+satisfy the declared role and capability tier; a pass may never add
+allowlist or baseline entries, set RASHI_ALLOWLIST_RESTRUCTURE or
 allowStructure without an operator-issued authorization, edit the
 registry/validators/workflows outside a docs-tooling manifest, override a
 red gate, or merge a PR whose task type requires an independent review.
