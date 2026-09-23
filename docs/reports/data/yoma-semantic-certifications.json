@@ -62462,7 +62462,7 @@
     "yoma-008b-s01": {
       "sugyaId": "yoma-008b-s01",
       "daf": "8b",
-      "state": "REPAIR_REQUIRED",
+      "state": "REPAIRED_PENDING_REVIEW",
       "firstPass": {
         "reviewId": "rabbi-8b-first-20260923-r1",
         "reviewerContextId": "agent:rabbi:dashboard:21335b87-1ad7-456d-8070-8d3d82df60ae",
@@ -62519,12 +62519,13 @@
           "wholeDafFinding": "The summary falsely describes two sections although the daf contains three declared sugyot. Because the whole-daf summary changes, all three sugyot are included in the semantic repair manifest.",
           "declaration": "Every semantic field of every sugya on Yoma 8b was checked against the full physical daf and bundled Rashi, with an explicit whole-daf boundary and stale-content sweep. The listed defects require a bounded whole-daf semantic repair."
         }
-      }
+      },
+      "repairRef": "faa24c28557bab6b97ac5667b495a12364e1ff1c"
     },
     "yoma-008b-s02": {
       "sugyaId": "yoma-008b-s02",
       "daf": "8b",
-      "state": "REPAIR_REQUIRED",
+      "state": "REPAIRED_PENDING_REVIEW",
       "firstPass": {
         "reviewId": "rabbi-8b-first-20260923-r1",
         "reviewerContextId": "agent:rabbi:dashboard:21335b87-1ad7-456d-8070-8d3d82df60ae",
@@ -62581,12 +62582,13 @@
           "wholeDafFinding": "The summary falsely describes two sections although the daf contains three declared sugyot. Because the whole-daf summary changes, all three sugyot are included in the semantic repair manifest.",
           "declaration": "Every semantic field of every sugya on Yoma 8b was checked against the full physical daf and bundled Rashi, with an explicit whole-daf boundary and stale-content sweep. The listed defects require a bounded whole-daf semantic repair."
         }
-      }
+      },
+      "repairRef": "faa24c28557bab6b97ac5667b495a12364e1ff1c"
     },
     "yoma-008b-s03": {
       "sugyaId": "yoma-008b-s03",
       "daf": "8b",
-      "state": "REPAIR_REQUIRED",
+      "state": "REPAIRED_PENDING_REVIEW",
       "firstPass": {
         "reviewId": "rabbi-8b-first-20260923-r1",
         "reviewerContextId": "agent:rabbi:dashboard:21335b87-1ad7-456d-8070-8d3d82df60ae",
@@ -62643,7 +62645,8 @@
           "wholeDafFinding": "The summary falsely describes two sections although the daf contains three declared sugyot. Because the whole-daf summary changes, all three sugyot are included in the semantic repair manifest.",
           "declaration": "Every semantic field of every sugya on Yoma 8b was checked against the full physical daf and bundled Rashi, with an explicit whole-daf boundary and stale-content sweep. The listed defects require a bounded whole-daf semantic repair."
         }
-      }
+      },
+      "repairRef": "faa24c28557bab6b97ac5667b495a12364e1ff1c"
     },
     "yoma-009a-s01": {
       "sugyaId": "yoma-009a-s01",
