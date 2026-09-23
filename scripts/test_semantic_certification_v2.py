@@ -33,7 +33,11 @@ from semantic_certification import (
     raw_dir,
 )
 from migrate_certification_schema_v2 import migrate
-from validate_semantic_certification import allowed_schema_migration_downgrade
+from validate_semantic_certification import (
+    _migration_path_map,
+    allowed_schema_migration_downgrade,
+    schema_migration_equivalent,
+)
 
 MODULE = "yoma"
 SID = "yoma-042a-s01"
@@ -512,6 +516,57 @@ def test_ratchet_carveout_is_narrow_and_self_disabling():
     smuggled["semanticFingerprint"] = "TAMPERED"
     assert allowed_schema_migration_downgrade("1.0", CERT_SCHEMA_VERSION, old_record, smuggled) is False
     assert allowed_schema_migration_downgrade("1.0", CERT_SCHEMA_VERSION, old_record, None) is False
+
+
+def test_enrichment_schema_equivalence_is_lossless_and_narrow():
+    known = {"yoma-002a-s01", "yoma-002a-s02"}
+    kinds = {"requires-understanding", "visualizable-elements", "difficulty"}
+    old_sugya = {
+        "id": "yoma-002a-s01",
+        "requiresUnderstanding": ["Background wording", "yoma-002a-s02"],
+        "visualizableElements": [
+            "bare wording",
+            {"description": "full wording", "label": "short", "type": "diagram"},
+            {"label": "label-only wording", "type": "text"},
+        ],
+        "difficulty": "introductory",
+    }
+    new_sugya = {
+        "id": "yoma-002a-s01",
+        "requiresUnderstanding": ["yoma-002a-s02"],
+        "prerequisiteKnowledge": ["Background wording"],
+        "visualizableElements": [
+            {"item": "bare wording"},
+            {"item": "full wording", "label": "short", "type": "diagram"},
+            {"item": "label-only wording", "type": "text"},
+        ],
+        "difficulty": "intro",
+    }
+    old_doc, new_doc = {"sugyot": [old_sugya]}, {"sugyot": [new_sugya]}
+    assert schema_migration_equivalent(old_doc, old_sugya, new_doc, new_sugya, known, kinds)
+    paths = _migration_path_map(old_sugya, known, kinds)
+    assert paths["requiresUnderstanding[0]"] == "prerequisiteKnowledge[0]"
+    assert paths["requiresUnderstanding[1]"] == "requiresUnderstanding[0]"
+    assert paths["visualizableElements[0]"] == "visualizableElements[0].item"
+    assert paths["visualizableElements[1].description"] == "visualizableElements[1].item"
+    assert paths["visualizableElements[2].label"] == "visualizableElements[2].item"
+
+    for mutate in (
+        lambda s: s["prerequisiteKnowledge"].__setitem__(0, "Changed wording"),
+        lambda s: s["requiresUnderstanding"].clear(),
+        lambda s: s["visualizableElements"][1].__setitem__("type", "timeline"),
+        lambda s: s.__setitem__("difficulty", "advanced"),
+    ):
+        tampered = copy.deepcopy(new_sugya)
+        mutate(tampered)
+        assert not schema_migration_equivalent(
+            old_doc, old_sugya, {"sugyot": [tampered]}, tampered, known, kinds
+        )
+
+    # An undeclared kind is never silently normalized.
+    assert not schema_migration_equivalent(
+        old_doc, old_sugya, new_doc, new_sugya, known, {"difficulty"}
+    )
 
 
 def _git(args, cwd):

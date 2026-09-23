@@ -1495,6 +1495,7 @@
         "package-lock.json",
         "docs/rashi-audit-backlog.md",
         "docs/<module>-perek-review.md",
+        "docs/reports/data/<module>-semantic-certifications.json",
         ".worker-manifest.json"
       ],
       "forbiddenFiles": [

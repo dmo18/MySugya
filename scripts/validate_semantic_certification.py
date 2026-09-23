@@ -22,6 +22,7 @@ Then the default invocation also behaves as --strict.
 from __future__ import annotations
 
 import argparse
+import copy
 import json
 import subprocess
 import sys
@@ -41,6 +42,129 @@ from semantic_certification import (
     raw_dir,
     semantic_payload,
 )
+
+CERT_REGISTRY_REL = "docs/reports/data/{module}-semantic-certifications.json"
+SCHEMA_MIGRATION_KINDS = {"requires-understanding", "visualizable-elements", "difficulty"}
+
+
+def active_schema_migration(module: str) -> set[str]:
+    """Return declared representation-only migrations, or the empty set."""
+    try:
+        manifest = json.loads((REPO / ".worker-manifest.json").read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError):
+        return set()
+    kinds = manifest.get("migrationKinds")
+    if (manifest.get("type") != "enrichment-schema-migration"
+            or manifest.get("module") != module
+            or "authorizeMigration" not in set(manifest.get("authorizations") or [])
+            or not isinstance(kinds, list) or not kinds
+            or not set(kinds).issubset(SCHEMA_MIGRATION_KINDS)):
+        return set()
+    return set(kinds)
+
+
+def _canonical_visual(value: Any) -> Any:
+    if isinstance(value, str):
+        return {"item": value}
+    if not isinstance(value, dict) or "item" in value:
+        return value
+    source = next((k for k in ("name", "description", "desc", "label") if k in value), None)
+    if source is None:
+        return value
+    out = {k: copy.deepcopy(v) for k, v in value.items() if k not in {"name", "description", "desc"}}
+    if source == "label":
+        out.pop("label", None)
+    out["item"] = copy.deepcopy(value[source])
+    return out
+
+
+def migration_semantic_payload(daf_doc: Dict[str, Any], sugya: Dict[str, Any],
+                               known_ids: set[str], kinds: set[str]) -> Dict[str, Any]:
+    """Canonical PR-comparison view; stored fingerprints remain exact."""
+    payload = copy.deepcopy(semantic_payload(daf_doc, sugya))
+    authored = payload.get("sugya") or {}
+    if "requires-understanding" in kinds:
+        requires = authored.get("requiresUnderstanding")
+        if isinstance(requires, list):
+            ids = [v for v in requires if isinstance(v, str) and v in known_ids]
+            prose = [v for v in requires if not (isinstance(v, str) and v in known_ids)]
+            authored["requiresUnderstanding"] = ids
+            existing = authored.get("prerequisiteKnowledge", [])
+            if prose and isinstance(existing, list):
+                authored["prerequisiteKnowledge"] = existing + prose
+    if "visualizable-elements" in kinds and isinstance(authored.get("visualizableElements"), list):
+        authored["visualizableElements"] = [_canonical_visual(v) for v in authored["visualizableElements"]]
+    if "difficulty" in kinds and authored.get("difficulty") == "introductory":
+        authored["difficulty"] = "intro"
+    return payload
+
+
+def schema_migration_equivalent(old_doc: Dict[str, Any], old_sugya: Dict[str, Any],
+                                new_doc: Dict[str, Any], new_sugya: Dict[str, Any],
+                                known_ids: set[str], kinds: set[str]) -> bool:
+    return digest(migration_semantic_payload(old_doc, old_sugya, known_ids, kinds)) == digest(
+        migration_semantic_payload(new_doc, new_sugya, known_ids, kinds))
+
+
+def _migration_path_map(old_sugya: Dict[str, Any], known_ids: set[str], kinds: set[str]) -> Dict[str, str]:
+    out: Dict[str, str] = {}
+    if "requires-understanding" in kinds:
+        old_req = old_sugya.get("requiresUnderstanding")
+        old_pk = old_sugya.get("prerequisiteKnowledge", [])
+        if isinstance(old_req, list) and isinstance(old_pk, list):
+            id_pos = prose_pos = 0
+            for i, value in enumerate(old_req):
+                if isinstance(value, str) and value in known_ids:
+                    out[f"requiresUnderstanding[{i}]"] = f"requiresUnderstanding[{id_pos}]"
+                    id_pos += 1
+                else:
+                    out[f"requiresUnderstanding[{i}]"] = f"prerequisiteKnowledge[{len(old_pk) + prose_pos}]"
+                    prose_pos += 1
+    if "visualizable-elements" in kinds:
+        visuals = old_sugya.get("visualizableElements")
+        if isinstance(visuals, list):
+            for i, value in enumerate(visuals):
+                base = f"visualizableElements[{i}]"
+                if isinstance(value, str):
+                    out[base] = base + ".item"
+                elif isinstance(value, dict) and "item" not in value:
+                    source = next((k for k in ("name", "description", "desc", "label") if k in value), None)
+                    if source:
+                        out[f"{base}.{source}"] = base + ".item"
+    return out
+
+
+def expected_schema_migration_registry(module: str, base: str, kinds: set[str]) -> Dict[str, Any] | None:
+    """Derive the only legal registry result for a representation migration."""
+    old_registry = load_json_at(base, CERT_REGISTRY_REL.format(module=module))
+    if not isinstance(old_registry, dict):
+        return None
+    expected = copy.deepcopy(old_registry)
+    current, old = load_corpus(module), base_sugya_map(module, base)
+    known_ids = set(current) | set(old)
+    for sid, record in (expected.get("records") or {}).items():
+        if sid not in current or sid not in old or not isinstance(record, dict):
+            continue
+        _daf, new_doc, new_sugya = current[sid]
+        _old_daf, old_doc, old_sugya = old[sid]
+        if not schema_migration_equivalent(old_doc, old_sugya, new_doc, new_sugya, known_ids, kinds):
+            continue
+        old_fp = digest(semantic_payload(old_doc, old_sugya))
+        new_fp = digest(semantic_payload(new_doc, new_sugya))
+        path_map = _migration_path_map(old_sugya, known_ids, kinds)
+
+        def rebind(value: Any) -> Any:
+            if isinstance(value, dict):
+                rebound = {k: rebind(v) for k, v in value.items()}
+                if isinstance(rebound.get("path"), str):
+                    rebound["path"] = path_map.get(rebound["path"], rebound["path"])
+                return rebound
+            if isinstance(value, list):
+                return [rebind(v) for v in value]
+            return new_fp if value == old_fp else value
+
+        expected["records"][sid] = rebind(record)
+    return expected
 
 
 def allowed_schema_migration_downgrade(
@@ -162,10 +286,12 @@ def base_source_payload(module: str, ref: str, daf: str, sugya: Dict[str, Any]) 
     return source_payload_or_invalid(module, daf, sugya, raw.get("lines") or [])
 
 
-def changed_semantic_sugyot(module: str, base: str) -> list[tuple[str, str]]:
+def changed_semantic_sugyot(module: str, base: str, migration_kinds: set[str] | None = None) -> list[tuple[str, str]]:
     current = load_corpus(module)
     old = base_sugya_map(module, base)
     changed: list[tuple[str, str]] = []
+    migration_kinds = migration_kinds or set()
+    known_ids = set(current) | set(old)
     for sid in sorted(set(current) | set(old)):
         if sid not in current:
             changed.append((sid, "sugya removed"))
@@ -182,6 +308,9 @@ def changed_semantic_sugyot(module: str, base: str) -> list[tuple[str, str]]:
             changed.append((sid, "source payload changed"))
             continue
         if digest(semantic_payload(doc, sugya)) != digest(semantic_payload(old_doc, old_sugya)):
+            if migration_kinds and schema_migration_equivalent(
+                    old_doc, old_sugya, doc, sugya, known_ids, migration_kinds):
+                continue
             changed.append((sid, "semantic payload changed"))
     return changed
 
@@ -222,7 +351,15 @@ def main() -> None:
 
     changed: list[tuple[str, str]] = []
     if args.ratchet:
-        changed = changed_semantic_sugyot(args.module, args.base)
+        migration_kinds = active_schema_migration(args.module)
+        changed = changed_semantic_sugyot(args.module, args.base, migration_kinds)
+        if migration_kinds:
+            expected_registry = expected_schema_migration_registry(args.module, args.base, migration_kinds)
+            if expected_registry is None or registry != expected_registry:
+                failures.append(
+                    "enrichment schema migration must apply the exact deterministic semantic-certification "
+                    "fingerprint/path rebinding; run migrate_enrichment_schema_certifications.py"
+                )
         current = load_corpus(args.module)
         for sid, why in changed:
             if sid not in current:
