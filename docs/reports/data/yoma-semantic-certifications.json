@@ -80679,41 +80679,57 @@
       "daf": "10a",
       "state": "REPAIR_REQUIRED",
       "firstPass": {
-        "reviewId": "native-yoma-10a-second2-s01-20260924",
-        "reviewerContextId": "native-yoma-10a-second2-20260924",
+        "reviewId": "native-yoma-10a-second3-s01-20260924",
+        "reviewerContextId": "native-yoma-10a-second3-20260924",
         "sourceFirst": true,
         "verdict": "REPAIR_REQUIRED",
         "reviewedSourceFingerprint": "ed35c58c3cc062371a93f82a77d2d27735a6ec7bd8a476b1f0cc8fdfdfa4dfca",
-        "reviewedSemanticFingerprint": "b6ea8318e5eb6bf827ff3c82adf855c5903a5933b743dd1d0730272579faa397",
+        "reviewedSemanticFingerprint": "3a759f6e18eabfe156c87dc1cd0d409cc470442a42580bb36424085871a39146",
         "evidence": {
           "origin": "independent-second-pass-rejection",
           "reviewEvidence": {
-            "reviewId": "native-yoma-10a-second2-s01-20260924",
-            "reviewerContextId": "native-yoma-10a-second2-20260924",
+            "reviewId": "native-yoma-10a-second3-s01-20260924",
+            "reviewerContextId": "native-yoma-10a-second3-20260924",
             "reviewMode": "INDEPENDENT_SECOND_PASS",
             "module": "yoma",
             "daf": "10a",
             "sugyaId": "yoma-010a-s01",
             "verdict": "REJECTED",
             "sourceFirst": true,
-            "authoritativeSourceReadCompletely": true,
-            "sourceFlowReconstruction": "Lines 1-9 complete the Yefet/Shem discussion and identify Yefet's descendants, with a dispute over Tiras followed by Rav Yosef's Tiras=Persia teaching. Lines 10-24 identify additional biblical places; Rav Yosef is named for Sakistan and Asshur=Silek, while the other identifications are unattributed. Lines 25-28 expound Achiman, Sheshai, Talmai and yelidei ha-anak; the new Rome-Persia unit begins later on physical line 28.",
+            "sourceFlowReconstruction": "Lines 1-9 complete the Yefet/Shem discussion and identify Yefet's descendants, culminating in Rav Yosef's Tiras=Persia. Lines 10-24 identify additional biblical peoples and cities and prove that Nineveh is the 'great city.' Lines 25-28 interpret Achiman, Sheshai, Talmai, and yelidei ha-anak. Lines 29-41 then separately debate Rome and Persia, and lines 41-48 open the Parhedrin-mezuza discussion, which ends unresolved at the complete word dilma and continues on 10b.",
             "dafSummaryVerdict": "VERIFIED",
             "boundaryVerdict": "VERIFIED",
-            "declaredLineRange": {
-              "startVilnaLine": 1,
-              "endVilnaLine": 28
+            "boundaryEvidence": {
+              "declaredRange": {
+                "startVilnaLine": 1,
+                "endVilnaLine": 28
+              },
+              "finding": "The range contains the complete name-identification unit. Line 28 finishes the giants exposition and begins the next unit with R. Yehoshua ben Levi; the next claim itself begins on line 29. The line map and Yoma.10a.1-.6 refs match the six source segments in this range."
             },
-            "boundaryEvidence": "The range correctly owns the source units beginning at line 1 through the giants exposition ending on physical line 28. The shared physical line 28 also begins the next sugya, but the source chunks and line IDs separate the two units correctly.",
-            "checkedSemanticFields": [
-              "daf summary",
-              "display title/oneLine/shortSummary/whats/hint",
-              "all learning fields",
-              "all argumentFlow labels/types/speakers/text/sourceRefs",
+            "dafEndVerdict": "VERIFIED_OPEN_CONTINUATION",
+            "dafEndEvidence": "The physical daf ends at line 48 with the complete word דילמא, syntactically opening a response that continues on 10b; the candidate does not import that response into s01.",
+            "checkedFields": [
+              "id",
+              "sugyaNumber",
+              "lineRange",
+              "display.title",
+              "display.oneLine",
+              "display.shortSummary",
+              "display.whats",
+              "display.hint",
+              "learning.learnerQuestion",
+              "learning.coreTension",
+              "learning.coreMove",
+              "learning.resolution",
+              "learning.takeaway",
+              "learning.reasoningPattern",
+              "learning.ahaMoment",
+              "learning.learningBlocker",
+              "learning.memoryAnchor",
+              "argumentFlow (all steps, types, labels, speakers, text, sourceRefs)",
               "topicTags",
               "conceptRefs",
               "requiresUnderstanding",
-              "prerequisiteKnowledge",
               "misconceptions",
               "relatedSugyot",
               "visualizableElements",
@@ -80721,82 +80737,60 @@
               "finalRuling",
               "difficulty",
               "alternateAngles",
-              "daf glossary",
-              "lineRange and source coordinates",
-              "daf-end leakage"
+              "prerequisiteKnowledge",
+              "declaredLineRange",
+              "lineMap",
+              "sefariaRefs",
+              "sourceFingerprint",
+              "semanticFingerprint"
             ],
             "defects": [
               {
                 "affectedFields": [
-                  "display.shortSummary"
+                  "learning.memoryAnchor"
                 ],
-                "sourceLines": [
-                  {
-                    "daf": "10a",
-                    "startVilnaLine": 10,
-                    "endVilnaLine": 24
-                  }
-                ],
-                "currentClaim": "Rav Yosef also identifies the full parenthetical list of further places, including Bavel, Erech, Akkad, Kalneh, Nineveh, Rechovot Ir, Kalach and Resen.",
-                "sourceActuallySupports": "Rav Yosef is expressly named for Sakistan at lines 10-12 and Asshur=Silek at lines 15-16. The remaining place identifications are presented without attribution to Rav Yosef.",
-                "requiredCorrection": "Restrict Rav Yosef's attribution to Sakistan and Asshur=Silek; attribute the remaining identifications to the Gemara/passage without naming him."
-              },
-              {
-                "affectedFields": [
-                  "argumentFlow[2].speaker",
-                  "argumentFlow[2].text"
-                ],
+                "currentClaim": "Tiras equals Persia: the one identification that decides the whole prophetic calculation about who defeats Rome.",
                 "sourceLines": [
                   {
                     "daf": "10a",
                     "startVilnaLine": 3,
                     "endVilnaLine": 9
+                  },
+                  {
+                    "daf": "10a",
+                    "startVilnaLine": 29,
+                    "endVilnaLine": 40
                   }
                 ],
-                "currentClaim": "The whole list of Gomer through Meshech is spoken by Rav Yosef, with Tiras then disputed and Rav Yosef teaching Tiras=Persia.",
-                "sourceActuallySupports": "The list Gomer through Meshech is unattributed. Tiras is disputed by R. Simai/R. Simon and the Rabbis; only the closing Tiras=Persia statement is explicitly introduced as Rav Yosef's teaching.",
-                "requiredCorrection": "Use an unattributed Gemara speaker for the general list and separately preserve Rav Yosef's attribution only for Tiras=Persia."
+                "sourceSupports": "Tiras=Persia supplies the youngest-brother identification used in the first pro-Persia proof at lines 29-34. Lines 35-37 give a separate kal vachomer for Rome falling to Persia, while lines 37-40 record Rav's opposite view that Persia falls to Rome.",
+                "requiredCorrection": "Replace the 'decides the whole prophetic calculation' overstatement with the narrower supported claim that Tiras=Persia enables the youngest-of-the-flock/youngest-brother proof."
               },
               {
                 "affectedFields": [
-                  "argumentFlow[3].sourceRefs"
+                  "visualizableElements[0].item"
                 ],
+                "currentClaim": "Yefet -> Tiras -> Persia, the identification that decides the whole prophetic calculation about who defeats Rome.",
                 "sourceLines": [
                   {
                     "daf": "10a",
-                    "startVilnaLine": 10,
-                    "endVilnaLine": 24
-                  }
-                ],
-                "currentClaim": "A lone line-12 reference supports Sakistan, Asshur=Silek, the later city identifications, and the Nineveh proof.",
-                "sourceActuallySupports": "Sakistan begins at line 10, the Babel/Erech unit at line 12, and Asshur/Nineveh/Resen and the Jonah proof at lines 15-24.",
-                "requiredCorrection": "Add exact source references covering the line-10, line-12 and line-15 source chunks (through physical line 24)."
-              },
-              {
-                "affectedFields": [
-                  "learning.reasoningPattern.notes"
-                ],
-                "sourceLines": [
+                    "startVilnaLine": 3,
+                    "endVilnaLine": 9
+                  },
                   {
                     "daf": "10a",
-                    "startVilnaLine": 2,
-                    "endVilnaLine": 28
+                    "startVilnaLine": 29,
+                    "endVilnaLine": 40
                   }
                 ],
-                "currentClaim": "Each identification carries prophetic weight.",
-                "sourceActuallySupports": "This daf demonstrably uses Tiras=Persia for the following prophecy; it does not assign prophetic weight to every geographic or giant-name identification.",
-                "requiredCorrection": "Limit the note to the demonstrated role of Tiras=Persia and describe the rest as geographic/name exposition without claiming universal prophetic weight."
+                "sourceSupports": "The lineage is correct, but it supports only one argument within a dispute; it neither supplies the independent kal vachomer nor decides between that view and Rav's contrary conclusion.",
+                "requiredCorrection": "Describe the lineage as enabling the 'youngest of the flock' proof, without saying it decides the entire Rome-Persia dispute."
               }
             ],
-            "dafEndLeakage": "NONE in this sugya",
-            "glossaryVerdict": "VERIFIED",
             "repairScope": [
-              "display.shortSummary",
-              "argumentFlow[2].speaker",
-              "argumentFlow[2].text",
-              "argumentFlow[3].sourceRefs",
-              "learning.reasoningPattern.notes"
-            ]
+              "learning.memoryAnchor",
+              "visualizableElements[0].item"
+            ],
+            "wholeRecordStatement": "Every semantic and metadata field, every attribution, quantity, source reference, boundary, and daf-end leakage risk in this candidate was checked against the independently reconstructed Hebrew daf. The two listed overstatements prevent CONFIRMED; no other defect was found."
           }
         }
       }
@@ -80983,41 +80977,57 @@
       "daf": "10a",
       "state": "REPAIR_REQUIRED",
       "firstPass": {
-        "reviewId": "native-yoma-10a-second2-s03-20260924",
-        "reviewerContextId": "native-yoma-10a-second2-20260924",
+        "reviewId": "native-yoma-10a-second3-s03-20260924",
+        "reviewerContextId": "native-yoma-10a-second3-20260924",
         "sourceFirst": true,
         "verdict": "REPAIR_REQUIRED",
         "reviewedSourceFingerprint": "3ed7e74d6972199456cd8af54635f6549f3ab889ec3587a02a08ef8c2ede9502",
-        "reviewedSemanticFingerprint": "9f85dc4df572cc337c3417d0adb0e5af4f2c86593e3f8c17335fa1bd81a8d17a",
+        "reviewedSemanticFingerprint": "dd57ca6cf58487ea1d6fbcc672fc10cddbf7f8fc8c75455b144c021608f351e3",
         "evidence": {
           "origin": "independent-second-pass-rejection",
           "reviewEvidence": {
-            "reviewId": "native-yoma-10a-second2-s03-20260924",
-            "reviewerContextId": "native-yoma-10a-second2-20260924",
+            "reviewId": "native-yoma-10a-second3-s03-20260924",
+            "reviewerContextId": "native-yoma-10a-second3-20260924",
             "reviewMode": "INDEPENDENT_SECOND_PASS",
             "module": "yoma",
             "daf": "10a",
             "sugyaId": "yoma-010a-s03",
             "verdict": "REJECTED",
             "sourceFirst": true,
-            "authoritativeSourceReadCompletely": true,
-            "sourceFlowReconstruction": "Lines 41-43 state the chamber-mezuza baraita and R. Yehuda's objection/decree. Lines 44-46 give Rava's both-seasons definition of bayit and Abaye's first challenge; the answer says the seasonal structures are called winter-house and summer-house but not an unmodified house. Lines 46-48 give Abaye's sukkah challenge, the supplementary teaching that R. Yehuda obligates eruv/mezuza/maaser, the Gemara's question whether maaser can be only rabbinic, and the cutoff word dilma. No resolution occurs on 10a.",
+            "sourceFlowReconstruction": "Lines 1-28 identify biblical peoples, cities, and giants; lines 29-41 dispute whether Rome falls to Persia or Persia to Rome. At line 41 a baraita begins: Temple chambers lacked mezuzot except Parhedrin because it housed the High Priest. Lines 42-43 give R. Yehuda's objection and decree explanation. Lines 44-45 state Rava's summer-and-rainy-season principle and answer Abaye's Amos objection. Lines 46-48 present Abaye's sukkah/eruv/mezuza/maaser challenge; the daf ends after דילמא, before the proposed answer is stated.",
             "dafSummaryVerdict": "VERIFIED",
             "boundaryVerdict": "VERIFIED",
-            "declaredLineRange": {
-              "startVilnaLine": 41,
-              "endVilnaLine": 48
+            "boundaryEvidence": {
+              "declaredRange": {
+                "startVilnaLine": 41,
+                "endVilnaLine": 48
+              },
+              "finding": "The baraita starts after the prior unit concludes within line 41, and the range correctly runs through the physical end of 10a. The line map and Yoma.10a.13-.18 refs match the six source segments."
             },
-            "boundaryEvidence": "The unit begins with the Parhedrin baraita later on physical line 41 and reaches the absolute end of the daf at line 48, which is the complete word dilma but an open continuation of the argument.",
-            "checkedSemanticFields": [
-              "daf summary",
-              "display title/oneLine/shortSummary/whats/hint",
-              "all learning fields",
-              "all argumentFlow labels/types/speakers/text/sourceRefs",
+            "dafEndVerdict": "VERIFIED_OPEN_CONTINUATION",
+            "dafEndEvidence": "Line 48 is the complete word דילמא but is only the opening of an unstated answer. The record correctly labels the sugya unresolved and does not import the 10b resolution, but three fields overstate the premise of Abaye's unanswered question.",
+            "checkedFields": [
+              "id",
+              "sugyaNumber",
+              "lineRange",
+              "display.title",
+              "display.oneLine",
+              "display.shortSummary",
+              "display.whats",
+              "display.hint",
+              "learning.learnerQuestion",
+              "learning.coreTension",
+              "learning.coreMove",
+              "learning.resolution",
+              "learning.takeaway",
+              "learning.reasoningPattern",
+              "learning.ahaMoment",
+              "learning.learningBlocker",
+              "learning.memoryAnchor",
+              "argumentFlow (all steps, types, labels, speakers, text, sourceRefs)",
               "topicTags",
               "conceptRefs",
               "requiresUnderstanding",
-              "prerequisiteKnowledge",
               "misconceptions",
               "relatedSugyot",
               "visualizableElements",
@@ -81025,48 +81035,19 @@
               "finalRuling",
               "difficulty",
               "alternateAngles",
-              "daf glossary",
-              "lineRange and source coordinates",
-              "daf-end leakage"
+              "prerequisiteKnowledge",
+              "declaredLineRange",
+              "lineMap",
+              "sefariaRefs",
+              "sourceFingerprint",
+              "semanticFingerprint"
             ],
             "defects": [
               {
                 "affectedFields": [
-                  "display.shortSummary",
-                  "learning.resolution",
-                  "learning.memoryAnchor",
-                  "argumentFlow[3].text"
+                  "display.shortSummary"
                 ],
-                "sourceLines": [
-                  {
-                    "daf": "10a",
-                    "startVilnaLine": 44,
-                    "endVilnaLine": 46
-                  }
-                ],
-                "currentClaim": "The first challenge is answered that only an explicitly labeled winter/summer house counts as bayit/house, while a plain unlabeled one does not.",
-                "sourceActuallySupports": "Rava's answer is the opposite distinction: each is called specifically 'winter-house' or 'summer-house,' but neither is called an unmodified 'house' (bayit stam). The qualifier does not make a seasonal structure count as the unqualified legal bayit.",
-                "requiredCorrection": "State that the verse uses qualified compounds ('winter-house'/'summer-house') and therefore does not prove that a seasonal residence is called bayit without qualification or meets R. Yehuda's bayit criterion."
-              },
-              {
-                "affectedFields": [
-                  "argumentFlow[4].text"
-                ],
-                "sourceLines": [
-                  {
-                    "daf": "10a",
-                    "startVilnaLine": 46,
-                    "endVilnaLine": 47
-                  }
-                ],
-                "currentClaim": "The baraita teaches that R. Yehuda obligates all three and that the Sages exempt the sukkah from all three.",
-                "sourceActuallySupports": "The source states R. Yehuda and the Sages disagree about sukkat hachag bachag, then supplements only R. Yehuda's position with eruv, mezuza and maaser. It does not explicitly state here that the Sages exempt all three.",
-                "requiredCorrection": "Do not extend the Sages' explicit exemption to all three items without source support; present the supplementary threefold obligation as R. Yehuda's teaching."
-              },
-              {
-                "affectedFields": [
-                  "argumentFlow[4].sourceRefs"
-                ],
+                "currentClaim": "maaser cannot be explained as a merely rabbinic obligation",
                 "sourceLines": [
                   {
                     "daf": "10a",
@@ -81074,21 +81055,30 @@
                     "endVilnaLine": 48
                   }
                 ],
-                "currentClaim": "A lone line-46 source reference supports the rabbinic-obligation question and the cutoff word dilma as well as the initial sukkah teaching.",
-                "sourceActuallySupports": "The initial teaching is line 46; the rabbinic-status question is line 47 and the open response/cutoff is line 48.",
-                "requiredCorrection": "Add exact source references covering lines 47 and 48, or otherwise bind the step to the full 46-48 range."
+                "sourceSupports": "The source asks rhetorically, 'but regarding maaser, can one say [it is] rabbinic?' It does not answer that question on 10a; דילמא begins a response whose content lies on 10b.",
+                "requiredCorrection": "State that Abaye asks how/ whether maaser could be merely rabbinic, without asserting on 10a that it cannot be."
+              },
+              {
+                "affectedFields": [
+                  "learning.resolution"
+                ],
+                "currentClaim": "R. Yehuda obligates a sukkah ... in maaser, which cannot be explained as merely rabbinic",
+                "sourceLines": [
+                  {
+                    "daf": "10a",
+                    "startVilnaLine": 46,
+                    "endVilnaLine": 48
+                  }
+                ],
+                "sourceSupports": "Only Abaye's challenge is stated. The daf does not establish the impossibility asserted by this field.",
+                "requiredCorrection": "Use question/open-objection language: Abaye asks whether the maaser obligation can be treated as rabbinic, and the daf cuts off before the answer."
               }
             ],
-            "dafEndLeakage": "No next-daf conclusion is imported; the candidate correctly says the second challenge remains unresolved. The physical daf ends at line 48 with dilma, an open argument continuation.",
-            "glossaryVerdict": "VERIFIED",
             "repairScope": [
               "display.shortSummary",
-              "learning.resolution",
-              "learning.memoryAnchor",
-              "argumentFlow[3].text",
-              "argumentFlow[4].text",
-              "argumentFlow[4].sourceRefs"
-            ]
+              "learning.resolution"
+            ],
+            "wholeRecordStatement": "Every semantic and metadata field, every attribution, quantity, source reference, boundary, and daf-end leakage risk in this candidate was checked against the independently reconstructed Hebrew daf. The absolute maaser claims must be converted to unresolved-question language; all other inspected content is supported."
           }
         }
       }
