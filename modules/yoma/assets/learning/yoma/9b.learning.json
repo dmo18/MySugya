@@ -1,7 +1,7 @@
 {
  "daf": "9b",
  "canonicalRef": "Yoma 9b",
- "summary": "9b continues the aggadic examination of Temple destruction. The bizayon kodashim (desecration of offerings) by Eli's sons is detailed (taking raw meat before the fat was burned), completing the Shiloh account from 9a. Then the First Temple's three cardinal sins are enumerated (avodah zarah, giluy arayot, shefichut damim), each independently proven from its own verse. The Second Temple's sin - sinat chinam (baseless hatred) - is declared equivalent to all three combined; the passage then notes that the First Temple generation, wicked as it was, still trusted in God, and traces the three decrees brought upon them to their three sins. A challenge follows - wasn't there sinat chinam in the First Temple too? - answered by R. Eliezer and scoped by a baraita to the nesi'im (leaders) specifically. R. Yochanan and R. Elazar then state the daf's structural principle: revealed sin gets a revealed end to exile, hidden sin does not - and R. Yochanan and Reish Lakish dispute, unresolved, which generation had greater merit. Finally, Reish Lakish's rebuke of Babylonian Jewry in the Jordan River (for not returning en masse with Ezra) is developed through Song of Songs' wall/door and silver/cedar imagery, with sasmagor and the bat kol explained, a critical question raised about the story's own transmission, and Rav Pappa's resolution - before the daf cuts off mid-thought on a further point about Ezra's generation and the Shechina, continuing on 10a.",
+  "summary": "9b continues the aggadic examination of Temple destruction. The bizayon kodashim (desecration of offerings) by Eli's sons is detailed, completing the Shiloh account from 9a. The First Temple's three cardinal sins are then proven from separate verses. The Second Temple's sinat chinam (baseless hatred) is declared equivalent to all three, while the corrupt First Temple generation is described as relying on God and receiving three decrees corresponding to its three sins. A challenge that the First Temple also had sinat chinam is answered by restricting it to the nesi'im (leaders). R. Yochanan and R. Elazar state that revealed sin had a revealed end to exile, while unrevealed sin did not. Reish Lakish argues that the later generations were greater because they studied Torah under foreign rule, but R. Yochanan answers that the rebuilt Temple proves the earlier generation's superiority, and R. Elazar gives the same answer. Finally, Reish Lakish rebukes Babylonian Jewry for not returning en masse with Ezra. The wall/door and silver/cedar imagery, sasmagor, and the bat kol are explained; the reported participants are corrected; and R. Yochanan rejects Reish Lakish's explanation, saying that even a complete return would not have caused the Shechina to rest in the Second Temple. His proof begins but is cut off at the end of the daf and continues on 10a.",
  "review": {
   "learning": "ai_generated",
   "concepts": "ai_generated",
@@ -34,26 +34,26 @@
     "title": "Eli's sons: delayed bird-offerings and desecration of sacrifices",
     "oneLine": "The two sins of Eli's sons are detailed: delaying women's bird-offerings (treated by scripture as sexual immorality) and taking raw meat before the fat was burned (degradation of sacred offerings).",
     "shortSummary": "Eli's sons' delay of women's bird-offerings: although they did not commit adultery, their delay kept women at the Tabernacle and thus separated from their husbands - scripture holds them accountable as if they had cohabited with the women. Their second sin: bizayon kodashim. Before the fat of an offering was burned on the altar, a servant of the priests would come and demand raw meat for roasting. The man bringing the sacrifice would protest: 'Let them first burn the fat today, then take whatever you wish.' The servant would say: 'No, give it now or I will take it by force.' This brazen taking of raw, unburned meat was the desecration.",
-    "whats": "This section closes the account of Shiloh's sins. Both sins are connected: the delay of bird-offerings kept women from purity and their husbands; the raw-meat taking showed contempt for the sacrificial order. Both involve the priests treating Temple service as an opportunity for personal benefit rather than divine service.",
+    "whats": "This section closes the account of Shiloh's sins. The delay of bird-offerings kept women waiting and away from their husbands; the raw-meat taking showed contempt for the sacrificial order and threatened worshippers with force.",
     "hint": "The raw-meat verse says they took it 'before the fat was burned' - why does that specific sequencing make the taking a desecration rather than just a rude request?"
    },
    "learning": {
     "learnerQuestion": "Why does scripture treat the delay of bird-offerings as equivalent to adultery?",
-    "coreTension": "The Talmud wants to be intellectually honest: Eli's sons were not adulterers. But the verse seems to say they were. The resolution: their sin had the effect that adultery would have had - women were kept from their husbands. Scripture 'credits' the transgressor with the downstream harm of his action.",
-    "coreMove": "This is a principle of scriptural attribution: when someone's action causes another person to commit (or be forced into a situation resembling) a sin, scripture attributes the original sin to the first person. The priests caused the women's extended absence from their husbands; scripture holds the priests responsible as if they had committed the act.",
-    "resolution": "The two sins of Shiloh are established: delayed bird-offerings (treated as giluy arayot) and taking raw meat prematurely (bizayon kodashim). Both involve priests prioritizing their own interests over proper Temple service.",
+    "coreTension": "Eli's sons did not literally cohabit with the women, yet scripture treats the delay of their offerings as though they had. The delay kept the women at Shiloh and away from their husbands.",
+    "coreMove": "The Gemara distinguishes the literal act from scriptural attribution in this case: because Eli's sons delayed the bird-offerings and thereby delayed the women from returning home, scripture treats them as though they had cohabited with the women.",
+    "resolution": "The two sins of Shiloh are established: delayed bird-offerings, treated by scripture as though Eli's sons had cohabited with the women, and taking raw meat prematurely, identified as bizayon kodashim.",
     "takeaway": {
      "type": "conceptual",
-     "text": "Scripture sometimes attributes a sin to a person based on the harm their action caused, even if they did not literally commit that sin. This principle - that indirect harm is treated as if direct - is used here to preserve Eli's sons from the charge of literal adultery while still holding them fully accountable."
+      "text": "Eli's sons did not literally cohabit with the women, but their delay kept the women from returning to their husbands, so scripture treats this delay as though they had."
     },
     "reasoningPattern": {
-     "id": "scriptural-attribution-by-effect",
+      "id": "scriptural-attribution-in-context",
      "category": "aggadic",
-     "notes": "The Talmud regularly uses the principle that 'scripture ascribes the sin' to those who cause others to sin or suffer. Eli's sons caused women to remain impure and separated from their husbands - scripture treats this as their sin."
+      "notes": "The Gemara explains why scripture uses the language of cohabitation here even though the underlying act was delaying the women's offerings."
     },
     "ahaMoment": "The raw-meat scene is vivid: a worshipper brings an animal, the priest's servant demands raw meat, the worshipper protests, the servant says 'give it now or I take it by force.' This is Temple service turned extortion - a shocking portrait of institutional corruption.",
-    "learningBlocker": "Students may think the 'delay of bird-offerings' means the priests refused to accept the offerings at all. In fact, they accepted them - but processed them slowly, keeping the women waiting for days.",
-    "memoryAnchor": "Two Eli-sons sins: delay the kanim (bird-offerings) - women stuck waiting, kept from husbands, scripture calls it immorality. Take raw meat before fat burned - intimidation and extortion of worshippers. Both: priests serving themselves, not God."
+    "learningBlocker": "The passage establishes that Eli's sons delayed the bird-offerings and thereby kept the women waiting. It does not specify how long the delay lasted or describe the precise processing mechanics.",
+    "memoryAnchor": "Two Eli-sons sins: delay the kanim (bird-offerings) - women stuck waiting and kept from their husbands, so scripture treats the delay as cohabitation. Take raw meat before the fat is burned - intimidation and desecration of the offerings."
    },
    "argumentFlow": [
     {
@@ -110,7 +110,7 @@
    "quizSeeds": [
     {
      "question": "Why does scripture treat the delay of women's bird-offerings as equivalent to sexual immorality?",
-     "answer": "Because the delay kept the women at the Tabernacle waiting, preventing them from achieving purity and returning to their husbands. Scripture attributes the downstream harm (forced separation from husbands) to the priests who caused it."
+      "answer": "Because delaying the offerings kept the women at the Tabernacle and away from their husbands. Scripture therefore treats Eli's sons as though they had cohabited with the women, even though they did not literally do so."
     },
     {
      "question": "What was the specific act of bizayon kodashim by Eli's sons?",
@@ -120,7 +120,7 @@
    "misconceptions": [
     {
      "misconception": "Eli's sons refused to accept women's bird-offerings entirely.",
-     "correction": "They accepted the offerings but processed them slowly, causing women to wait extended periods - preventing them from achieving purity and returning to their husbands."
+      "correction": "The Gemara says they delayed the offerings, causing the women to wait and delaying their return to their husbands. It does not specify a refusal, a precise duration, or detailed processing mechanics."
     }
    ],
    "relatedSugyot": [
@@ -190,34 +190,34 @@
    "display": {
     "title": "First Temple: three cardinal sins, each independently proven",
     "oneLine": "The First Temple was destroyed for avodah zarah, giluy arayot, and shefichut damim (three cardinal sins) - each independently proven from its own verse.",
-    "shortSummary": "A Tosefta: the First Temple was destroyed for three things: avodah zarah (idolatry), giluy arayot (sexual immorality), and shefichut damim (bloodshed). Each is supported by a biblical verse. Idolatry: 'the bed is too short for both to lie' (Isaiah) - R. Yonatan reads this as the Sanctuary becoming too narrow once Manasseh's idol shared the space with God; R. Shmuel bar Nachmani says R. Yonatan wept when he reached this teaching. Sexual immorality: the daughters of Zion walked with outstretched necks, winking eyes, and mincing steps (Isaiah) - the Gemara expounds each phrase, and R. Yitzchak adds that they hid myrrh and balsam in their shoes to kick scent toward young men. Bloodshed: Manasseh filled Jerusalem with innocent blood from end to end (II Kings).",
-    "whats": "This is the most famous passage in tractate Yoma, though its most famous line (sinat chinam equaling the three cardinal sins) belongs to the next sugya. Here, the Gemara grounds the First Temple's three-sin charge in independent verses rather than leaving it as assertion.",
-    "hint": "The Tosefta charges the First Temple generation with three grave sins at once - how does the Gemara prove each one is really there in the text, rather than just asserting all three together?"
+    "shortSummary": "The Gemara states that the First Temple was destroyed for three things: avodah zarah (idolatry), giluy arayot (sexual immorality), and shefichut damim (bloodshed). Each is supported by a biblical verse. Idolatry: 'the bed is too short for both to lie' (Isaiah) - R. Yonatan reads this as the Sanctuary becoming too narrow once an idol shared the space with God; R. Shmuel bar Nachmani says R. Yonatan wept when he reached this teaching. Sexual immorality: the Gemara expounds Isaiah's daughters-of-Zion verse phrase by phrase, with R. Yitzchak interpreting its final phrase as hiding myrrh and balsam in their shoes and kicking the scent toward young men. Bloodshed: the cited verse says Manasseh shed very much innocent blood; the sentence continues into the next sugya.",
+    "whats": "The Gemara grounds the First Temple's three-sin charge in separate biblical passages: the narrow-bed exposition for idolatry, Isaiah's daughters of Zion for sexual immorality, and Manasseh's innocent blood for bloodshed.",
+    "hint": "The passage charges the First Temple generation with three grave sins at once - how does the Gemara prove each one from the text?"
    },
    "learning": {
-    "learnerQuestion": "The Tosefta charges the First Temple generation with idolatry, sexual immorality, and bloodshed - what specific verse does it bring to prove each of these three sins?",
-    "coreTension": "A blanket charge of three grave sins is only as strong as its textual support. Each sin needs its own independent verse: how does the Gemara derive idolatry, sexual immorality, and bloodshed specifically from Scripture, rather than simply asserting all three together? And for sexual immorality specifically, does the Isaiah verse alone carry the charge, or does the Gemara need to expound it further?",
-    "coreMove": "For idolatry, R. Yonatan reads 'the bed is too short for both to stretch out' (Isaiah) as describing the Sanctuary itself: a space built for one that became too narrow once Manasseh's idol shared it with God - R. Shmuel bar Nachmani reports that R. Yonatan wept upon reaching this teaching. For sexual immorality, the Gemara expounds Isaiah's description of the daughters of Zion phrase by phrase (haughty gait, outstretched necks, painted eyes, mincing steps, tinkling anklets), and R. Yitzchak then adds a further detail: they hid myrrh and balsam in their shoes and kicked the scent toward young men of Israel to arouse them. For bloodshed, the Gemara cites the plain verse in II Kings: Manasseh filled Jerusalem with innocent blood from end to end. Each sin receives its own independent scriptural anchor.",
-    "resolution": "The three-sin charge is fully grounded: idolatry from the narrow-bed verse, sexual immorality from the daughters of Zion's catalogue (base exposition plus R. Yitzchak's addition), and bloodshed from the explicit verse about Manasseh filling Jerusalem with innocent blood. Each sin stands on its own textual foundation. The Gemara then turns to the Second Temple's own sin, taken up in the next sugya.",
+    "learnerQuestion": "The passage charges the First Temple generation with idolatry, sexual immorality, and bloodshed - what specific verse proves each of these three sins?",
+    "coreTension": "A blanket charge of three grave sins needs textual support. How does the Gemara derive idolatry, sexual immorality, and bloodshed from Scripture, and how is each phrase of the daughters-of-Zion verse used in the sexual-immorality proof?",
+    "coreMove": "For idolatry, R. Yonatan reads 'the bed is too short for both to stretch out' (Isaiah) as describing the Sanctuary itself: a space built for one that became too narrow once an idol shared it with God - R. Shmuel bar Nachmani reports that R. Yonatan wept upon reaching this teaching. For sexual immorality, the Gemara expounds Isaiah's description of the daughters of Zion phrase by phrase, with R. Yitzchak interpreting the final phrase as hiding myrrh and balsam in their shoes and kicking the scent toward young men. For bloodshed, the cited verse states that Manasseh shed very much innocent blood.",
+    "resolution": "The three-sin charge is grounded: idolatry from the narrow-bed verse, sexual immorality from the daughters-of-Zion catalogue including R. Yitzchak's exposition of its final phrase, and bloodshed from the verse stating that Manasseh shed very much innocent blood. The verse's sentence continues into the next sugya.",
     "takeaway": {
      "type": "conceptual",
-     "text": "The Tosefta's charge that the First Temple fell for idolatry, sexual immorality, and bloodshed is not left as assertion: each sin is independently proven from its own verse - the narrow bed for idolatry, the daughters of Zion's provocation for immorality, and Manasseh's innocent blood for bloodshed."
+     "text": "The charge that the First Temple fell for idolatry, sexual immorality, and bloodshed is supported by separate passages: the narrow bed for idolatry, the daughters of Zion for immorality, and the verse stating that Manasseh shed very much innocent blood for bloodshed."
     },
     "reasoningPattern": {
      "id": "independent-verse-per-charge",
      "category": "aggadic",
-     "notes": "A recurring exegetical move: when a Tosefta or baraita levels a multi-part charge, the Gemara does not let any single verse do double duty - each named sin gets matched to its own independent proof-text."
+     "notes": "The passage matches each named sin to its own independent proof-text rather than relying on one verse for the three-part charge."
     },
-    "ahaMoment": "Each cardinal sin gets matched to its own verse rather than a single blanket citation: the 'narrow bed' image already describes the Sanctuary sharing space with an idol, and Isaiah's daughters-of-Zion catalogue - expounded phrase by phrase, then capped by R. Yitzchak's own added detail - describes the immorality, while Manasseh's own verse about filling Jerusalem with blood describes the bloodshed.",
-    "learningBlocker": "Students may treat R. Yitzchak's contribution as the Gemara's primary proof for giluy arayot. It is not - the Isaiah verse itself, expounded phrase by phrase, is the base proof; R. Yitzchak adds a further, more vivid detail (hidden perfume, kicked toward young men) on top of that base exposition, not in place of it.",
-    "memoryAnchor": "Three sins, three verses: a bed too narrow for two (idolatry), the daughters of Zion's provocative walk (immorality), Manasseh's innocent blood filling Jerusalem (bloodshed)."
+    "ahaMoment": "Each sin is matched to scriptural evidence: the narrow bed depicts the Sanctuary sharing space with a rival, Isaiah's daughters-of-Zion catalogue is expounded phrase by phrase, and Manasseh's verse says he shed very much innocent blood.",
+    "learningBlocker": "R. Yitzchak is interpreting the final phrase of the daughters-of-Zion verse, 'with their feet they would tinkle.' His perfume account belongs to the phrase-by-phrase exposition itself.",
+    "memoryAnchor": "Three sins, three proofs: a bed too narrow for two (idolatry), the daughters of Zion's provocative walk (immorality), and Manasseh shedding very much innocent blood (bloodshed)."
    },
    "argumentFlow": [
     {
      "id": "step-01",
      "type": "statement",
      "label": "First Temple destroyed for three cardinal sins",
-     "speaker": "Tosefta",
+     "speaker": "Gemara",
      "text": "The First Temple was destroyed for three sins practiced in it: avodah zarah, giluy arayot, and shefichut damim.",
      "sourceRefs": [
       {
@@ -261,24 +261,24 @@
     {
      "id": "step-04",
      "type": "proof",
-     "label": "R. Yitzchak adds: hidden perfume kicked toward young men",
+     "label": "R. Yitzchak expounds the final phrase: hidden perfume kicked toward young men",
      "speaker": "R. Yitzchak",
-     "text": "R. Yitzchak adds a further detail on top of the base exposition: they would bring myrrh and balsam and place it in their shoes, and when they approached young men of Israel, they would kick and spray it toward them, injecting them with the evil inclination like venom.",
+     "text": "R. Yitzchak expounds 'with their feet they would tinkle': they would place myrrh and balsam in their shoes and, when they approached young men of Israel, kick and spray it toward them, bringing the evil inclination into them like venom.",
      "sourceRefs": [
       {
        "sourceType": "gemara",
        "lineId": "yoma-009b-l15",
        "vilnaLine": 20,
-       "note": "R. Yitzchak's added detail, following the base Isaiah exposition"
+       "note": "R. Yitzchak's exposition of the verse's final phrase"
       }
      ]
     },
     {
      "id": "step-05",
      "type": "proof",
-     "label": "Bloodshed: Manasseh filled Jerusalem with innocent blood",
+     "label": "Bloodshed: Manasseh shed very much innocent blood",
      "speaker": "Gemara",
-     "text": "The verse in II Kings: 'And Manasseh also shed very much innocent blood until he filled Jerusalem from end to end.'",
+     "text": "The verse in II Kings states that Manasseh shed very much innocent blood. Its sentence continues beyond this sugya's final line.",
      "sourceRefs": [
       {
        "sourceType": "gemara",
@@ -302,7 +302,7 @@
    ],
    "visualizableElements": [
     {
-     "item": "Three cardinal sins, three independent verses: the 'bed too short for two' (idolatry, R. Yonatan), the daughters of Zion's catalogue of provocation plus R. Yitzchak's added detail (sexual immorality), and Manasseh filling Jerusalem with innocent blood (bloodshed).",
+     "item": "Three sins and their proofs: the 'bed too short for two' (idolatry, R. Yonatan), the daughters of Zion's catalogue including R. Yitzchak's exposition of its final phrase (sexual immorality), and Manasseh shedding very much innocent blood (bloodshed).",
      "type": "sequence",
      "label": "Three sins, three independent proofs"
     }
@@ -323,7 +323,7 @@
     {
      "daf": "9b",
      "sugyaId": "yoma-009b-s03",
-     "reason": "Immediately following: why the Second Temple exile is longer than the First"
+     "reason": "Immediately following: the Second Temple's destruction for sinat chinam and the comparison with the First Temple's three sins"
     }
    ],
    "finalRuling": null,
@@ -336,9 +336,7 @@
     "argumentFlow": "ai_generated",
     "sourceRefs": "ai_generated"
    },
-   "prerequisiteKnowledge": [
-    "The three cardinal sins (avodah zarah, giluy arayot, shefichut damim) and their 'yehareg v'al ya'avor' status"
-   ]
+   "prerequisiteKnowledge": []
   },
   {
    "sugyaNumber": 3,
@@ -365,26 +363,26 @@
     "title": "Second Temple destroyed for sinat chinam; First Temple generation trusted in God despite its sins",
     "oneLine": "The Second Temple generation studied Torah and practiced kindness, yet was destroyed for sinat chinam - declared equal to all three cardinal sins combined; the passage then notes that the First Temple generation, wicked as it was, still trusted in God, and traces the three decrees God brought upon them to their three sins.",
     "shortSummary": "The Second Temple generation engaged in Torah study, mitzvot, and acts of kindness. Why was the Temple destroyed? For sinat chinam (baseless hatred). This teaches that sinat chinam equals the three cardinal sins combined. The Gemara then returns to the First Temple generation: wicked as they were, they still trusted in God - proven by Micah 3:11, where even corrupt heads, priests, and prophets say 'is the Lord not among us? No evil shall befall us.' Therefore God brought upon them three decrees corresponding to their three sins, per Micah 3:12: Zion plowed as a field, Jerusalem in heaps, and the Temple Mount like the high places of a forest.",
-    "whats": "This is the most famous passage in tractate Yoma. The sin of sinat chinam being equivalent to the three cardinal sins is not a claim about individual severity but about communal destruction capacity. The Temple requires a united people; sinat chinam makes unity impossible even among otherwise observant individuals. The passage then pivots back to the First Temple generation to make a further point: even in their wickedness, they retained trust in God, and their punishment (three decrees) is matched precisely to their three sins.",
+    "whats": "The passage states that sinat chinam is weighed against the three cardinal sins together, without explaining the measure of that equivalence. It then returns to the First Temple generation: despite its wickedness it relied on God, and God brought three decrees corresponding to its three sins.",
     "hint": "How can a generation of Torah scholars and practitioners of kindness be destroyed for the same reason as a generation charged with idolatry, sexual immorality, and bloodshed?"
    },
    "learning": {
     "learnerQuestion": "How can sinat chinam be equal to all three cardinal sins combined, and what does the passage then say about the First Temple generation's own trust in God?",
-    "coreTension": "The three cardinal sins (avodah zarah, giluy arayot, shefichut damim) are those for which a Jew must die rather than violate them. Sinat chinam is not in that category. So how does the Talmud equate them? The answer is structural: those sins destroy individuals or relationships with God. Sinat chinam destroys the entire social fabric. Separately, the passage raises a second point: even the wicked First Temple generation retained faith in God - so their punishment had to be measured precisely to their sins.",
-    "coreMove": "The comparison is communal destruction capacity, not individual severity. Pervasive sinat chinam prevents communal coherence, justice, and the social conditions that make Jewish life possible. Then, turning back to the First Temple: Micah 3:11 shows the corrupt leadership still declaring 'the Lord is among us, no evil shall befall us' - proof of retained trust despite wickedness - and Micah 3:12 shows God's three decrees matched precisely to their three sins.",
-    "resolution": "Sinat chinam's communal-destruction weight explains the Second Temple's fall. The First Temple generation's own sins are matched to three specific decrees (field, ruins, forest high-places), grounded in Micah 3:11-12. The Gemara next asks whether the First Temple was truly free of sinat chinam, taken up in the next sugya.",
+    "coreTension": "The Second Temple generation practiced Torah, mitzvot, and kindness, yet its Temple was destroyed for sinat chinam. The Gemara weighs that hatred against all three sins named for the First Temple, then turns back to the earlier generation's surprising reliance on God despite its corruption.",
+    "coreMove": "The Gemara states the equivalence without supplying a causal theory for it. It then cites Micah 3:11 to show corrupt leaders still saying that God was among them, followed by Micah 3:12 and three decrees corresponding to the three sins in their hands.",
+    "resolution": "Sinat chinam is stated to equal the three cardinal sins together. The First Temple generation's three sins are then matched to three decrees - Zion as a field, Jerusalem as heaps, and the Temple Mount as forest high places. The next sugya asks whether the First Temple was truly free of sinat chinam.",
     "takeaway": {
      "type": "conceptual",
-     "text": "Individual piety is not sufficient for communal survival. A generation of Torah scholars who hate each other cannot maintain a Temple. Separately, punishment can be precisely calibrated to sin, even for a generation that never lost its underlying trust in God."
+     "text": "Torah, mitzvot, and kindness did not prevent destruction when sinat chinam was present; the Gemara weighs that hatred against the First Temple's three sins together. It then matches those three earlier sins with three decrees."
     },
     "reasoningPattern": {
-     "id": "communal-vs-individual-severity",
+     "id": "sinat-chinam-weighed-against-three-sins",
      "category": "aggadic",
-     "notes": "Sinat chinam is weighed by its effect on communal coherence, not by the individual-severity scale used for the three cardinal sins."
+     "notes": "The Gemara states that sinat chinam is weighed against the three cardinal sins together but does not explain the metric of comparison."
     },
-    "ahaMoment": "A generation of Torah scholars and practitioners of kindness falls for the same weight of sin as a generation charged with idolatry, immorality, and bloodshed - not because the sins are equally severe individually, but because sinat chinam destroys the very possibility of a functioning community.",
+    "ahaMoment": "A generation explicitly described as studying Torah, observing mitzvot, and practicing kindness still loses the Temple because of sinat chinam, which the Gemara weighs against the three First Temple sins together.",
     "learningBlocker": "Students may think the Second Temple generation was hypocritical - that they did not really practice Torah and mitzvot. The Talmud affirms they genuinely did; their failure was internal (hatred of each other), not external.",
-    "memoryAnchor": "Second Temple: Torah + mitzvot + kindness, yet destroyed for sinat chinam = weighed equal to all three cardinal sins. First Temple: wicked, yet still trusted in God (Micah 3:11) - so punished with three decrees matched precisely to their three sins (Micah 3:12)."
+    "memoryAnchor": "Second Temple: Torah + mitzvot + kindness, yet destroyed for sinat chinam, weighed against all three cardinal sins. First Temple: wicked, yet still relied on God (Micah 3:11); three decrees correspond to its three sins (Micah 3:12)."
    },
    "argumentFlow": [
     {
@@ -447,12 +445,12 @@
    ],
    "visualizableElements": [
     {
-     "item": "Sinat chinam on one side, avodah zarah + giluy arayot + shefichut damim combined on the other - the Talmud declares them equal in communal destructive capacity.",
+     "item": "Sinat chinam on one side, avodah zarah + giluy arayot + shefichut damim combined on the other - the Gemara weighs them against one another without specifying the metric.",
      "type": "relationship",
      "label": "Sinat chinam vs. three cardinal sins on a scale"
     },
     {
-     "item": "The First Temple generation's three sins mapped to three matching decrees: Zion plowed as a field, Jerusalem in heaps, the Temple Mount like forest high-places (Micah 3:12) - precise punishment for precise sin.",
+     "item": "The First Temple generation's three sins mapped to three corresponding decrees: Zion plowed as a field, Jerusalem in heaps, and the Temple Mount like forest high places (Micah 3:12).",
      "type": "sequence",
      "label": "Three sins, three matching decrees"
     }
@@ -460,11 +458,11 @@
    "quizSeeds": [
     {
      "question": "How does the Talmud explain that the Second Temple generation - who studied Torah and performed kindness - was destroyed?",
-     "answer": "Because sinat chinam (baseless hatred) is considered equivalent in destructive power to all three cardinal sins combined. External piety without internal unity cannot sustain a Temple."
+     "answer": "Because of sinat chinam (baseless hatred), which the Gemara says is weighed against all three cardinal sins combined. The passage does not supply a separate theory for how that equivalence is measured."
     },
     {
      "question": "What does Micah 3:11 prove about the First Temple generation, and what does Micah 3:12 explain?",
-     "answer": "Micah 3:11 shows that even the corrupt leadership retained trust in God ('is the Lord not among us?'). Micah 3:12 supplies the three decrees (field, ruins, forest high-places) that God brought upon them, matched to their three sins."
+     "answer": "Micah 3:11 shows that even the corrupt leadership relied on God ('is the Lord not among us?'). Micah 3:12 supplies the three decrees - field, ruins, and forest high places - corresponding to their three sins."
     }
    ],
    "misconceptions": [
@@ -474,7 +472,7 @@
     },
     {
      "misconception": "Sinat chinam is worse than murder or idolatry in terms of individual severity.",
-     "correction": "The comparison is about communal destructive capacity, not individual severity. Sinat chinam destroys the social fabric of the entire community, making communal Jewish life impossible even among otherwise observant individuals."
+     "correction": "The passage says sinat chinam is weighed against the three sins together, but it does not define that equivalence as either individual severity or communal destructive capacity."
     }
    ],
    "relatedSugyot": [
@@ -528,11 +526,11 @@
     "title": "First Temple sinat chinam: confined to the nesi'im",
     "oneLine": "A challenge - wasn't there sinat chinam in the First Temple too? - is answered: R. Eliezer identifies it as leaders who ate and drank together while slandering each other, and a baraita confirms it was confined to the nesi'im (leaders), not the general population.",
     "shortSummary": "But wait - was the First Temple free of sinat chinam entirely? A verse (Ezekiel: 'terrors of the sword are among my people; therefore strike your thigh') suggests otherwise. R. Eliezer explains: these are people who eat and drink with each other, yet stab each other with the swords of their tongues (slander). A baraita then confirms via the verse 'cry and wail, son of man, for it was against My people' that this applied specifically to the nesi'im (leaders and princes) of Israel, not the population generally.",
-    "whats": "This section qualifies the sinat chinam argument: it was not entirely absent from the First Temple era. The key distinction (developed further in the next sugya) is scope: here, only the leadership harbored this hatred.",
-    "hint": "If sinat chinam existed in the First Temple era too, why didn't it produce the same open-ended exile as the Second Temple's?"
+    "whats": "This section qualifies the sinat chinam argument: it was not entirely absent from the First Temple era. R. Eliezer describes people eating and drinking together while attacking one another with words, and the baraita restricts the cited behavior to Israel's princes.",
+    "hint": "How does the baraita narrow the apparent evidence that sinat chinam also existed in the First Temple era?"
    },
    "learning": {
-    "learnerQuestion": "If the First Temple generation had sinat chinam too, why didn't it prevent their exile from ending?",
+    "learnerQuestion": "How does the Gemara answer the evidence that sinat chinam also existed in the First Temple era?",
     "coreTension": "The sinat chinam argument seems to break down: both Temple eras had sinat chinam. The Gemara resolves this with a scope question: who exactly harbored the hatred?",
     "coreMove": "R. Eliezer identifies the First Temple's sinat chinam concretely: people who ate and drank together while stabbing each other with slanderous words. A baraita then narrows the verse's target: it applied specifically to the nesi'im (leaders), not the general population.",
     "resolution": "The First Temple's sinat chinam is confirmed but scoped: confined to the leadership. Whether and how this changes the exile-length picture is developed in the next sugya.",
@@ -541,12 +539,12 @@
      "text": "A sweeping claim (sinat chinam destroyed only the Second Temple) survives a direct challenge by being scoped rather than abandoned: the First Temple did have sinat chinam, but confined to its leadership."
     },
     "reasoningPattern": {
-     "id": "scope-of-sin-determines-correctability",
+     "id": "challenge-narrowed-by-scope",
      "category": "aggadic",
-     "notes": "A recurring Talmudic analysis: the same sin at different social levels has different consequences. Leadership-level sinat chinam is scoped differently than sinat chinam pervasive across an entire community."
+     "notes": "The Gemara answers the broad challenge by restricting the verse's target to the princes of Israel."
     },
     "ahaMoment": "R. Eliezer's image is vivid: people literally eating and drinking together while 'stabbing' each other with slander - sinat chinam does not require open conflict, only two-faced sociability.",
-    "learningBlocker": "Students may think this challenge fully undermines the earlier sinat-chinam argument. It does not - it refines it by scope (leadership vs. general population), a distinction the next sugya builds on.",
+    "learningBlocker": "The passage establishes a scope distinction - the cited hatred was among the princes - but does not itself explain the later exile endpoint through that social scope.",
     "memoryAnchor": "First Temple sinat chinam: real, but R. Eliezer locates it as leaders eating/drinking together while slandering each other, and a baraita confirms it was confined to the nesi'im, not the general population."
    },
    "argumentFlow": [
@@ -685,27 +683,27 @@
    "display": {
     "title": "Revealed sin gets a revealed end; R. Yochanan and Reish Lakish dispute generational merit",
     "oneLine": "R. Yochanan and R. Elazar together teach that a generation whose sin is revealed gets a revealed end to its exile, while a generation whose sin is hidden does not; R. Yochanan then prefers the earlier generation, Reish Lakish argues for the later one, and R. Yochanan answers with the rebuilt Temple as proof.",
-    "shortSummary": "Completing the baraita: the verse 'cry and wail, son of man' was specifically about the nesi'im of Israel. R. Yochanan and R. Elazar both taught: the earlier generations, whose sin was revealed, had their end [of exile] revealed; the later generations, whose sin was not revealed, did not have their end revealed. R. Yochanan then added his own preference: better the fingernails of the earlier generations than the belly of the later ones. Reish Lakish objected: on the contrary, the later generations are greater - even under the subjugation of foreign kingdoms, they engage in Torah study. R. Yochanan replied: let the Temple building prove it - it was restored to the earlier generation but not to the later one. His students then asked R. Elazar directly which generation was greater; he told them to look to the Temple building as their witness.",
-    "whats": "This is where the Talmud actually states the principle that the earlier chapters of this sugya (9b's First and Second Temple material) have been building toward: revealed sin gets a revealed end to exile, hidden sin does not. The passage then pivots into a live dispute about generational merit that the Talmud does not resolve.",
+    "shortSummary": "Completing the baraita: the verse 'cry and wail, son of man' was specifically about the nesi'im of Israel. R. Yochanan and R. Elazar both taught: the earlier generations, whose sin was revealed, had their end [of exile] revealed; the later generations, whose sin was not revealed, did not have their end revealed. R. Yochanan then preferred the earlier generations. Reish Lakish objected that the later generations were greater because they studied Torah under foreign rule. R. Yochanan answered that the restored Temple proves the earlier generation's superiority. Students then asked R. Elazar which generation was greater; his answer begins 'set your eyes...' at the end of this range and completes with the Temple building at the start of the next sugya.",
+    "whats": "R. Yochanan and R. Elazar correlate revealed sin with a revealed end to exile and concealed sin with an undisclosed end. R. Yochanan answers Reish Lakish's generational-merit argument with the restored Temple. R. Elazar is asked the same question, but the referent of his answer appears just beyond this sugya's boundary.",
     "hint": "Why would a generation whose sin was openly visible get a clearer end to its punishment than a generation whose sin stayed hidden?"
    },
    "learning": {
     "learnerQuestion": "Why does a generation whose sin was revealed get a revealed end to its exile, while a generation whose sin was hidden does not?",
-    "coreTension": "The principle sounds backwards at first: shouldn't OPEN sin be worse, and hidden sin more forgivable? The Gemara's logic is functional, not moral: revealed sin can be named, rebuked by prophets, and therefore repented of on a knowable schedule. Hidden sin - like sinat chinam - cannot be identified or rebuked, so there is no mechanism by which its endpoint becomes knowable.",
+    "coreTension": "The earlier generation's sin was exposed and its exile endpoint was disclosed, while the later generation's sin was concealed and its endpoint remained undisclosed. The Gemara states this correlation without explaining a repentance or rebuke mechanism.",
     "coreMove": "R. Yochanan and R. Elazar state the principle jointly. R. Yochanan then makes his own value judgment (earlier generations are preferable), which Reish Lakish directly challenges (later generations achieve more, given their harder circumstances). R. Yochanan's rebuttal appeals to an external, verifiable fact: the Temple was rebuilt for the earlier generation, not for the later one.",
-    "resolution": "The principle (revealed sin, revealed end) is established. The generational-merit dispute between R. Yochanan and Reish Lakish is not adjudicated here; R. Elazar, asked directly by his students, points them to the same Temple-building evidence R. Yochanan cited.",
+    "resolution": "The revealed-sin/revealed-end correlation is established. Reish Lakish argues that the later generations are greater because they study Torah under foreign rule, and R. Yochanan answers with the restored Temple. R. Elazar's response begins at this sugya's final line but names its witness only in the next sugya.",
     "takeaway": {
      "type": "conceptual",
-     "text": "A sin that can be named and rebuked carries within it the seeds of its own resolution; a sin that stays hidden has no such built-in endpoint. This is a claim about mechanism, not about which sin is worse."
+     "text": "The earlier generation's exposed sin corresponded to a disclosed exile endpoint; the later generation's concealed sin corresponded to an undisclosed endpoint. The passage states the correlation without supplying its mechanism."
     },
     "reasoningPattern": {
      "id": "revealed-sin-revealed-end",
      "category": "aggadic",
-     "notes": "The structural principle underlying this whole daf's Temple-destruction discussion: an identifiable sin permits an identifiable resolution; an unidentifiable one does not."
+     "notes": "The structural principle pairs exposed sin with a disclosed end and concealed sin with an undisclosed end, without adding a causal mechanism."
     },
-    "ahaMoment": "R. Yochanan and Reish Lakish do not disagree about the historical facts - they disagree about how to weigh them. R. Yochanan sees the earlier generation's restored Temple as proof of greater merit; Reish Lakish sees the later generation's persistence in Torah study despite oppression as the greater achievement. The Talmud lets both stand.",
-    "learningBlocker": "Students may expect the Talmud to declare a winner between R. Yochanan and Reish Lakish. It does not - R. Elazar, asked the same question directly, answers with the same inconclusive appeal to the Temple building that R. Yochanan already used against Reish Lakish.",
-    "memoryAnchor": "R. Yochanan + R. Elazar: revealed sin -> revealed end (70 years); hidden sin -> no revealed end. R. Yochanan: earlier generations greater (fingernails > belly; Temple was restored to them). Reish Lakish: later generations greater (Torah study despite oppression). R. Elazar, asked directly: look to the Temple building."
+    "ahaMoment": "Reish Lakish points to Torah study under foreign rule as evidence for the later generations, while R. Yochanan answers with the earlier generation's restored Temple. The page division splits R. Elazar's answer between this sugya and the next.",
+    "learningBlocker": "R. Yochanan's Temple-building answer is complete here. R. Elazar's separate answer is not: line 39 says only 'set your eyes,' and line 40 supplies 'on the Temple building.'",
+    "memoryAnchor": "Revealed sin -> revealed end; hidden sin -> no revealed end. R. Yochanan: earlier generations greater, proven by the restored Temple. Reish Lakish: later generations greater because they study Torah under oppression. R. Elazar's answer starts here and completes in the next sugya."
    },
    "argumentFlow": [
     {
@@ -786,15 +784,15 @@
     {
      "id": "step-06",
      "type": "closing",
-     "label": "Students ask R. Elazar the same question; he points to the Temple building",
+     "label": "Students ask R. Elazar the same question; his answer begins",
      "speaker": "R. Elazar",
-     "text": "They asked R. Elazar directly: were the earlier generations greater, or the later ones? He told them: set your eyes on the Temple building - it is your witness.",
+     "text": "They asked R. Elazar directly: were the earlier generations greater, or the later ones? He began his answer: 'set your eyes...' The object of that instruction appears at the start of the next sugya.",
      "sourceRefs": [
       {
        "sourceType": "gemara",
        "lineId": "yoma-009b-l39",
        "vilnaLine": 39,
-       "note": "R. Elazar's answer, completed at the start of the next block"
+       "note": "R. Elazar's answer begins; its referent appears on line 40 in the next sugya"
       }
      ]
     }
@@ -815,12 +813,12 @@
    ],
    "visualizableElements": [
     {
-     "item": "Revealed sin -> revealed end (First Temple, 70 years, Jeremiah 29) vs. hidden sin -> no revealed end (Second Temple, sinat chinam). The mechanism, not the severity, differs.",
+     "item": "Revealed sin -> revealed end (First Temple, 70 years, Jeremiah 29) vs. hidden sin -> no revealed end (Second Temple, sinat chinam). The Gemara states the correlation without explaining its mechanism.",
      "type": "contrast",
      "label": "Revealed sin vs. hidden sin: mechanism of exile-end"
     },
     {
-     "item": "R. Yochanan (earlier generations greater, Temple-building proof) vs. Reish Lakish (later generations greater, Torah under oppression) - an unresolved dispute, echoed when R. Elazar is asked the same question directly.",
+     "item": "Reish Lakish argues for the later generations from Torah study under oppression; R. Yochanan answers from the restored Temple; R. Elazar's separate answer begins here and crosses into the next sugya.",
      "type": "relationship",
      "label": "Generational-merit dispute"
     }
@@ -831,14 +829,14 @@
      "answer": "A generation whose sin was revealed gets a revealed end to its exile (the First Temple's 70 years); a generation whose sin was hidden does not get a revealed end (the Second Temple's sinat chinam)."
     },
     {
-     "question": "What is R. Yochanan's proof that the earlier generations were greater than the later ones, and how does R. Elazar answer the same question?",
-     "answer": "R. Yochanan points to the Temple building: it was restored to the earlier generation but not to the later one. When his students ask R. Elazar directly which generation was greater, he gives the same answer - look to the Temple building."
+     "question": "What is R. Yochanan's proof that the earlier generations were greater, and how far does R. Elazar's answer proceed within this sugya?",
+     "answer": "R. Yochanan points to the Temple building: it was restored to the earlier generation but not to the later one. R. Elazar's answer begins 'set your eyes...' here, but the Temple building is named only at the start of the next sugya."
     }
    ],
    "misconceptions": [
     {
-     "misconception": "The Talmud resolves the dispute between R. Yochanan and Reish Lakish about which generation was greater.",
-     "correction": "It does not. Both positions stand; R. Elazar, asked the identical question by his own students, answers with the same inconclusive Temple-building evidence rather than adjudicating between them."
+     "misconception": "R. Elazar's complete Temple-building answer appears within this sugya's lines 35-39.",
+     "correction": "Only 'set your eyes...' appears by line 39. The words identifying the Temple building as the witness occur on line 40, at the start of the next sugya."
     }
    ],
    "relatedSugyot": [
@@ -905,15 +903,15 @@
    "display": {
     "title": "Reish Lakish rebukes Babylonian Jewry in the Jordan; sasmagor and bat kol explained",
     "oneLine": "Reish Lakish, swimming in the Jordan, denounces Babylonian Jewry for not returning en masse with Ezra, applying Song of Songs' wall/door and silver/cedar imagery; sasmagor and the bat kol are explained; the Gemara questions and resolves who was actually in the river, then cuts off mid-thought on a further point about Ezra's generation, continuing on 10a.",
-    "shortSummary": "R. Elazar's answer completes: 'your witness is the Temple building.' Reish Lakish was swimming in the Jordan River; Rabbah bar bar Chana came and extended a hand to him. Reish Lakish said: 'I despise you [Babylonians]!' - quoting Song of Songs 8:9: 'if she is a wall, we will build upon her a turret of silver; if she is a door, we will enclose her with a cedar board.' Applied: had all Babylonian Jews ascended together with Ezra (like a wall), they would have been like silver, which rot cannot touch; since they ascended only partially (like a door), they are like cedar, which rot can reach. Ulla explains 'sasmagor' as the worm that hollows cedar from within; R. Abba says it alludes to the bat kol - once the last prophets (Chagai, Zechariah, Malachi) died, the Ruach HaKodesh departed from Israel, but the bat kol remained in use. The Gemara then questions whether Reish Lakish, famously selective about his associates, would really have spoken with Rabbah bar bar Chana; Rav Papa resolves it by proposing there was a third party - either Reish Lakish swam with Ze'iri extending the hand, or R. Elazar swam with Rabbah bar bar Chana extending the hand. When this reached R. Yochanan, he said that was not the reason. Alternatively [a further point]: had they all ascended in the days of Ezra, the Shechina would not have needed to dwell only partially in the Second Temple, as it is written 'may God enlarge Yefet, and let him dwell in the tents of Shem' - even... [the daf cuts off here, continuing to 10a].",
-    "whats": "This closing passage on 9b ties together the cedar/sasmagor metaphor with the bat kol theme: both are statements about spiritual diminishment stemming from the incomplete return under Ezra. The daf ends mid-thought on a further point rather than with a tidy conclusion.",
+    "shortSummary": "R. Elazar's answer completes: 'your witness is the Temple building.' Reish Lakish was swimming in the Jordan River; Rabbah bar bar Chana extended a hand to him, and Reish Lakish rebuked Babylonian Jewry through Song of Songs' wall/door and silver/cedar imagery for not returning together with Ezra. Ulla explains sasmagor as cedar rot, and R. Abba connects it to the bat kol that remained after prophecy departed. The Gemara questions the reported participants; Rav Papa proposes either Reish Lakish with Ze'iri or R. Elazar with Rabbah bar bar Chana. When Reish Lakish reported his teaching to R. Yochanan, R. Yochanan rejected its causal explanation: even had everyone returned with Ezra, the Shechina would not have rested in the Second Temple. His proof from 'may God enlarge Yefet, and let him dwell in the tents of Shem' begins but is cut off at the end of 9b.",
+    "whats": "This closing passage presents Reish Lakish's incomplete-return explanation through the cedar/sasmagor and bat kol imagery, then records R. Yochanan's rejection of that explanation: even a complete return would not have brought the Shechina to the Second Temple. The proof for R. Yochanan's position begins but is cut off at the daf boundary.",
     "hint": "By the time 9b ends, has the Gemara finished explaining its final point about Ezra's generation and the Shechina - or has it only just introduced it?"
    },
    "learning": {
     "learnerQuestion": "Why is Reish Lakish so harsh toward Babylonian Jewry, and how far does the daf's final point about Ezra's generation actually get explained?",
-    "coreTension": "Reish Lakish's rebuke targets a historical failure (not returning en masse with Ezra), not the sage before him personally. The wall/door and silver/cedar imagery from Song of Songs is applied as precise allegory for complete vs. partial return and its effect on the Shechina.",
+    "coreTension": "Reish Lakish attributes the diminished result to Babylonian Jewry's incomplete return with Ezra, using the wall/door and silver/cedar imagery. R. Yochanan rejects that causal account and says the Shechina would not have rested in the Second Temple even after a complete return.",
     "coreMove": "Wall = unified complete return = silver (imperishable). Door = partial return = cedar (some solid, some rot). Ulla and R. Abba specify what that rot is: a literal worm (sasmagor), and allegorically the bat kol that replaced full prophecy. A critical aside then questions the story's own transmission (would Reish Lakish really speak with Rabbah bar bar Chana?), resolved by Rav Papa proposing alternate pairings - with the swimmer and hand-extender specifically swapped in the second option, not merely relabeled.",
-    "resolution": "Not fully reached within 9b. The Jordan story, its metaphor, and the transmission question are resolved; but the daf's final point - an alternative explanation involving Ezra's generation and the verse about Yefet dwelling in the tents of Shem - is only introduced before the daf cuts off mid-word, continuing on 10a.",
+    "resolution": "The participant question receives Rav Papa's alternate pairings. R. Yochanan then rejects Reish Lakish's causal explanation and states that even a complete return would not have brought the Shechina to the Second Temple. His scriptural proof begins but is not completed on 9b.",
     "takeaway": {
      "type": "conceptual",
      "text": "Historical rebuke in the Talmud can rest on precise, dual-layered imagery (a literal worm and an allegorical diminishment of prophecy) while the underlying story's own transmission is treated with critical scrutiny, not taken at face value."
@@ -924,8 +922,8 @@
      "notes": "The same daf-boundary pattern seen elsewhere in this campaign: a final point is introduced but not completed, continuing to the next daf."
     },
     "ahaMoment": "The Gemara does not just tell the Jordan story - it interrupts itself to ask whether the story's own cast of characters is even correct, given what is independently known about Reish Lakish's selectiveness in his associations. Rav Papa's resolution swaps BOTH who swam and who extended the hand between the two proposed pairings, not just the names.",
-    "learningBlocker": "Students may assume 9b ends with R. Yochanan's confirmation that the rebuke was justified. It does not: after R. Yochanan dismisses the transmission concern ('that is not the reason'), the Gemara raises a further, different point about Ezra's generation and the Shechina - and that point is cut off before it is explained, continuing on 10a.",
-    "memoryAnchor": "Wall+silver = complete return, full Shechina. Door+cedar = partial return, partial Shechina (sasmagor = literal worm and allegorical bat kol). Rav Papa: either Reish Lakish swam with Ze'iri extending the hand, or R. Elazar swam with Rabbah bar bar Chana extending the hand. Daf ends mid-thought on a further Ezra/ Shechina point, continuing to 10a."
+    "learningBlocker": "R. Yochanan's 'that is not the reason' rejects Reish Lakish's explanation about the incomplete return; it is not a dismissal of the participant question. His contrary claim is stated on 9b, while its proof continues on 10a.",
+    "memoryAnchor": "Reish Lakish: wall+silver = complete return; door+cedar = partial return, with sasmagor and bat kol. Rav Papa supplies two possible participant pairings. R. Yochanan rejects the incomplete-return explanation: even a complete return would not have brought the Shechina to the Second Temple; his proof continues on 10a."
    },
    "argumentFlow": [
     {
@@ -993,22 +991,22 @@
      "type": "resolution",
      "label": "Rav Papa: a third party - two alternate pairings, swimmer and hand-extender both swapped",
      "speaker": "Rav Papa",
-     "text": "Rav Papa resolved: there was a third party between them. Either Reish Lakish was swimming and Ze'iri extended the hand, or R. Elazar was swimming and Rabbah bar bar Chana extended the hand. When this reached R. Yochanan, he said: that is not the reason [for the difficulty].",
+     "text": "Rav Papa resolved the participant question: either Reish Lakish was swimming and Ze'iri extended the hand, or R. Elazar was swimming and Rabbah bar bar Chana extended the hand. Reish Lakish later reported his teaching to R. Yochanan, who rejected Reish Lakish's causal explanation.",
      "sourceRefs": [
       {
        "sourceType": "gemara",
        "lineId": "yoma-009b-l47",
        "vilnaLine": 47,
-       "note": "Rav Papa's resolution; R. Yochanan's dismissal of the objection"
+       "note": "Rav Papa's participant resolution, followed by R. Yochanan's rejection of Reish Lakish's explanation"
       }
      ]
     },
     {
      "id": "step-06",
      "type": "stub",
-     "label": "A further point on Ezra's generation and the Shechina - cut off",
-     "speaker": "Gemara",
-     "text": "Alternatively: had they all ascended in the days of Ezra, the Shechina would not have needed to dwell only partially in the Second Temple, as it is written 'may God enlarge Yefet, and let him dwell in the tents of Shem' - even... The daf cuts off mid-citation here; the point continues on 10a.",
+     "label": "R. Yochanan: even a complete return would not have brought the Shechina",
+     "speaker": "R. Yochanan",
+     "text": "R. Yochanan answered that even had all Babylonian Jews ascended in the days of Ezra, the Shechina would not have rested in the Second Temple. He begins a proof from 'may God enlarge Yefet, and let him dwell in the tents of Shem,' but the daf cuts off on the word 'even' before the proof is completed.",
      "sourceRefs": [
       {
        "sourceType": "gemara",
@@ -1038,7 +1036,7 @@
    ],
    "visualizableElements": [
     {
-     "item": "Wall + silver (complete return, imperishable Shechina) vs. door + cedar (partial return, rot-vulnerable Shechina) - the Song of Songs verse made visual.",
+     "item": "Reish Lakish's wall + silver image for a complete return versus door + cedar for a partial return, followed by R. Yochanan's rejection of return size as the reason the Shechina did not rest in the Second Temple.",
      "type": "contrast",
      "label": "Wall vs. door: two visions of aliyah"
     },
@@ -1055,7 +1053,7 @@
     },
     {
      "question": "What are Rav Papa's two possible pairings for who was in the Jordan, and does 9b end by confirming either one?",
-     "answer": "Either Reish Lakish was swimming with Ze'iri extending the hand, or R. Elazar was swimming with Rabbah bar bar Chana extending the hand. Neither is confirmed; R. Yochanan simply says the objection 'is not the reason,' and the daf moves to a further point that is itself cut off before 9b ends."
+     "answer": "Either Reish Lakish was swimming with Ze'iri extending the hand, or R. Elazar was swimming with Rabbah bar bar Chana extending the hand. R. Yochanan's subsequent rejection concerns Reish Lakish's incomplete-return explanation, not which pairing is correct; his proof continues on 10a."
     }
    ],
    "misconceptions": [
@@ -1408,7 +1406,7 @@
   {
    "he": "סַסְמָגוֹר",
    "translit": "Sasmagor",
-   "en": "A wood-boring rot or insect that destroys cedar from within. Used metaphorically for the partial Shechina presence in the Second Temple due to incomplete aliyah."
+      "en": "A cedar-destroying rot. The passage connects it to the bat kol that remained after prophecy departed, within Reish Lakish's wall-and-door interpretation of the incomplete return with Ezra."
   }
  ]
 }
