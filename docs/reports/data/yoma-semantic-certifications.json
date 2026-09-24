@@ -67294,222 +67294,3853 @@
     "yoma-009a-s01": {
       "sugyaId": "yoma-009a-s01",
       "daf": "9a",
-      "state": "REVALIDATION_REQUIRED",
+      "state": "CERTIFIED",
       "firstPass": {
-        "reviewId": "sonnet5-9a-first-20260823a",
+        "reviewId": "rabbi-yoma-9a-schema2-first-20260924",
+        "reviewerContextId": "rabbi-lead-yoma-9a-20260924",
         "sourceFirst": true,
-        "verdict": "REPAIR_REQUIRED",
+        "verdict": "VERIFIED",
         "reviewedSourceFingerprint": "fa8b0e7e2ac86b47c658755800f9ba346301e64cbc6041adb296b22e21a31ba5",
-        "reviewedSemanticFingerprint": "2ba84d137fbbe54dc212693b3466f3edb85071fb990fb032bc15745a7d3356d1",
+        "reviewedSemanticFingerprint": "0de6c27799c60a57c2cd6b5a6a75fe52866c186715363560c83cc1607eb57977",
         "evidence": {
-          "reviewId": "sonnet5-9a-first-20260823a",
+          "reviewId": "rabbi-yoma-9a-schema2-first-20260924",
           "module": "yoma",
           "daf": "9a",
           "sugyaId": "yoma-009a-s01",
-          "independentSourceReconstruction": "Read authoritativeHebrewLines 1-8 in full, completing 8b's cut-off 'lefi' citation. Because Yochanan High Priest sent emissaries throughout Israel and saw that only terumah gedolah was being universally separated (Rashi cross-references this decree to Sotah 48a). Maaser rishon and maaser ani are not required from bakers because the burden of proof is on the claimant (matches Rashi's gloss: once separated from tevel status, only a doubt of shortchanging the Levi/poor remains, and the claimant must prove non-tithing - except terumat maaser itself, which carries a death-penalty stringency and must always be given). The general dema'i rule for maaser sheni is to separate it, bring it up, and eat it in Jerusalem (Rashi glosses this as costless to the owner, since he himself eats it). Ulla then explains: since the parhedrin officials already beat the bakers every 12 months demanding cheap sales, the Rabbis did not burden them with this maaser sheni requirement on top of that pressure. A brief etymological gloss follows ('what are parhedrin? cavalry/horsemen').",
-          "verdict": "REPAIR_REQUIRED",
-          "defectsFound": [
-            {
-              "field": "argumentFlow, display.shortSummary, display.whats, learning.resolution, finalRuling, misconceptions",
-              "description": "The enrichment presented a genuine internal self-contradiction: step-01 stated 'maaser sheni: they [bakers] would separate it and ascend to Jerusalem to eat it' (implying bakers ARE required to perform the full maaser sheni procedure), while step-03 (Ulla) stated 'the Rabbis did not further burden them with the requirement to separate dema'i maaser sheni' (implying bakers are NOT required to do this) and finalRuling separately claimed bakers are exempt from maaser sheni entirely. These cannot all be true simultaneously as worded. Cross-checked against 8b's own baraita ('bakers not obligated except terumat maaser and challah' - implying full exemption from maaser sheni) and 8b's own Rashi commentary (already established, protected: bakers need not bring maaser sheni to Jerusalem or redeem it, due to their continuous selling), the correct reading is that 'separate, bring up, eat in Jerusalem' describes the GENERAL dema'i rule (the baseline Yochanan's survey addresses), from which Ulla's parhedrin-pressure explanation exempts bakers specifically - not a description of what bakers themselves do."
-            }
-          ],
+          "independentSourceReconstruction": "Lines 1-8 conclude the bakers' demai discussion: Yochanan High Priest found only terumah gedolah universally separated; maaser rishon and maaser ani remain monetary claims for which the claimant must prove the am-haaretz seller did not tithe; ordinary demai maaser sheni is separated and eaten in Jerusalem; Ulla says the Rabbis did not further burden bakers whom parhedrin officials beat and pressured to sell cheaply.",
+          "boundaryVerdict": "Lines 1-8 contain the full local explanation; contextual references to the preceding baker baraita were restricted to what this continuation itself supports.",
+          "verdict": "VERIFIED",
           "validatedAsCorrect": [
-            "Yochanan High Priest's decree and its cross-reference to Sotah 48a - confirmed accurate via Rashi's own gloss on line 1 ('Yochanan the High Priest, who decreed concerning demai; in Sotah, in the chapter Egla Arufa 48a').",
-            "The burden-of-proof reasoning for maaser rishon/maaser ani - confirmed accurate against Rashi's gloss on lines 2-6.",
-            "Ulla's parhedrin-pressure explanation itself, and the etymological gloss on 'parhedrin' - both accurately captured."
+            "daf summary",
+            "display",
+            "learning",
+            "argumentFlow",
+            "quizSeeds",
+            "misconceptions",
+            "topicTags",
+            "conceptRefs",
+            "prerequisites",
+            "relatedSugyot",
+            "visualizableElements",
+            "finalRuling",
+            "source coordinates",
+            "daf glossary"
           ],
-          "declaration": "Independently read and reconstructed lines 1-8, cross-checked against the file's own Rashi commentary. Found a genuine internal self-contradiction between step-01 and step-03/finalRuling regarding bakers' maaser sheni obligation, resolved via the already-established 8b Rashi commentary and 8b's own baraita rule. REPAIR_REQUIRED."
+          "declaration": "Read all 22 authoritative Hebrew lines before inspecting enrichment and checked every semantic field. Corrected the seller/baker burden-of-proof error, removed out-of-range conclusions, removed overstatement that compliance was impossible, and rendered 'all twelve months' as continuous pressure rather than an annual event. The final candidate is source-supported."
         }
       },
-      "repairRef": "9f2d66cbd086c903016bf15bf6112fd358683b32",
       "sourceFingerprint": "fa8b0e7e2ac86b47c658755800f9ba346301e64cbc6041adb296b22e21a31ba5",
-      "semanticFingerprint": "d777eef1053498d37c8273577058a0de4ee3b68f84ab2f8bbc2c5b01c242f73f",
+      "semanticFingerprint": "0de6c27799c60a57c2cd6b5a6a75fe52866c186715363560c83cc1607eb57977",
       "secondPass": {
-        "reviewId": "sonnet5-9a-second-20260823b",
+        "reviewId": "native-yoma-9a-second-final-20260924",
+        "reviewerContextId": "native-yoma-9a-second-final-context-20260924",
         "sourceFirst": true,
         "verdict": "CONFIRMED",
         "reviewedSourceFingerprint": "fa8b0e7e2ac86b47c658755800f9ba346301e64cbc6041adb296b22e21a31ba5",
-        "reviewedSemanticFingerprint": "d777eef1053498d37c8273577058a0de4ee3b68f84ab2f8bbc2c5b01c242f73f",
+        "reviewedSemanticFingerprint": "0de6c27799c60a57c2cd6b5a6a75fe52866c186715363560c83cc1607eb57977",
         "evidence": {
-          "reviewId": "sonnet5-9a-second-20260823b",
+          "evidenceSchema": "mysugya-independent-second-pass-v1",
+          "reviewId": "native-yoma-9a-second-final-20260924",
+          "reviewerContextId": "native-yoma-9a-second-final-context-20260924",
+          "reviewMode": "INDEPENDENT_SECOND_PASS",
+          "sourceFirst": true,
           "module": "yoma",
           "daf": "9a",
-          "independentSourceReconstruction": "Re-derived the daf from authoritativeHebrewLines 1-22 fresh, without consulting first-pass reasoning. Confirmed the same three-part structure: (1) lines 1-8, completing 8b's cut-off baraita on bakers' tithes (Yochanan High Priest's survey explaining terumah gedolah, burden of proof explaining maaser rishon/ani, and the general dema'i maaser sheni rule from which Ulla exempts bakers via the parhedrin-pressure account) - cross-checked against the file's own Rashi commentary, which independently confirms Yochanan's decree (cross-referenced to Sotah 48a), the burden-of-proof mechanics, and glosses 'they did not burden them' as relying on majority-tithing assumption, consistent with bakers being exempted from the general maaser sheni requirement rather than performing it themselves; (2) lines 8-16, the Proverbs-verse-driven First/Second Temple High Priest statistics (410/18 vs 420/300+, with the four-priest subtraction arithmetic), verified exact against the raw numbers; (3) lines 17-22, R. Yochanan ben Torta's two-sins framework for Shiloh's destruction and the opening of R. Shmuel bar Nachmani's rehabilitation of Eli's sons, cut off mid-word at 'because they delayed', with the file's own Rashi commentary on this exact word confirmed to add nothing beyond 'that they delayed'.",
-          "perSugya": [
-            {
-              "sugyaId": "yoma-009a-s01",
-              "verdict": "CONFIRMED",
-              "notes": "Independently re-verified all three argumentFlow steps against lines 1-8. The previously self-contradictory maaser sheni framing (step-01 implying bakers perform the full procedure vs. step-03/finalRuling exempting them) is now resolved consistently: 'separate, bring up, eat in Jerusalem' is the general dema'i rule, and Ulla's account explains bakers' exemption from it. No remaining defects found."
+          "sugyaId": "yoma-009a-s01",
+          "verdict": "CONFIRMED",
+          "reviewedSourceFingerprint": "fa8b0e7e2ac86b47c658755800f9ba346301e64cbc6041adb296b22e21a31ba5",
+          "reviewedSemanticFingerprint": "0de6c27799c60a57c2cd6b5a6a75fe52866c186715363560c83cc1607eb57977",
+          "sourceFirstRecord": {
+            "authoritativeHebrewReadInFullBeforeCandidate": true,
+            "rawLineCount": 22,
+            "independentWholeDafFlow": [
+              "Lines 1-8 finish the bakers' demai discussion: only terumah gedolah is reliably separated; monetary tithes are governed by hamotzi mechavero alav hara'ayah; Ulla explains the baker leniency for maaser sheni through parhedrin pressure.",
+              "Lines 8-17 apply Proverbs to First- and Second-Temple High Priest tenure statistics, including the either/or tenure tradition.",
+              "Lines 17-22 begin R. Yochanan ben Torta's Shiloh discussion and stop after 'mitokh she-shahu'; the explanation is not completed on this daf."
+            ],
+            "physicalDafBoundary": {
+              "finalRawLine": 22,
+              "dafEndState": "MID_SENTENCE",
+              "nextDafConclusionImported": false
             },
-            {
-              "sugyaId": "yoma-009a-s02",
-              "verdict": "CONFIRMED",
-              "notes": "Independently re-verified the Temple-statistics content against lines 8-16; accurate and unchanged in substance. Confirmed shortSummary/oneLine/whats/resolution no longer narrate s03's Shiloh content in detail - they now correctly stay within this sugya's own declared line range with only a light forward pointer."
-            },
-            {
-              "sugyaId": "yoma-009a-s03",
-              "verdict": "CONFIRMED",
-              "notes": "Independently re-verified against lines 17-22 and the file's own Rashi commentary. Confirmed the previously fabricated content (kanim/bird-offerings, women kept from husbands, scriptural-attribution-by-effect mechanism) has been fully removed. The repaired content accurately reflects only what is established within 9a's boundary - R. Yochanan ben Torta's two-sins statement and the opening of R. Shmuel bar Nachmani's rehabilitating claim - properly hedged as cut off mid-word, continuing on 9b, consistent with Rashi's own terse comment on the exact cutoff word. No fabricated content remains."
+            "adjacentRawSourceCheck": {
+              "8b": "Lines 29-32 begin the baker rule and lead directly into 9a's 'because he sent' explanation.",
+              "9b": "Its first line completes the delayed-nests explanation; no such conclusion is asserted for this record."
             }
-          ],
-          "declaration": "Independently re-read the full daf and re-derived every field from scratch, blind to first-pass reasoning, specifically re-checking the maaser sheni internal-consistency fix in s01 and the cut-off boundary in s03 (the daf's most severe originally-found defect). All three sugyot's repaired content is confirmed accurate and fully grounded in the source text and the file's own Rashi commentary, with no remaining fabrication, misattribution, self-contradiction, or boundary-crossing content bleed."
+          },
+          "dafLevelReview": {
+            "summary": "CONFIRMED: it preserves the three demai distinctions, the 410/18 versus 420/300-plus contrast, and the unfinished Shiloh qualification.",
+            "glossary": {
+              "demai": "CONFIRMED: doubtful tithe status and Yochanan High Priest's reliable-terumah finding are accurately stated.",
+              "hamotziMechavero": "CONFIRMED: claimant-proof application to the Levi or poor person is accurate."
+            }
+          },
+          "boundaryAndCoordinateReview": {
+            "declaredVilnaRange": "1-8",
+            "sefariaRefs": [
+              "Yoma.9a.1",
+              "Yoma.9a.2",
+              "Yoma.9a.3"
+            ],
+            "lineMap": [
+              "yoma-009a-l01 / line 1",
+              "yoma-009a-l02 / line 2 (contains the ensuing tithe discussion through the next source anchor)",
+              "yoma-009a-l05 / line 5 (Ulla's explanation)"
+            ],
+            "verdict": "CONFIRMED: line 8 legitimately contains this record's concluding 'what is parhedrin? pursei' and the next record's opening phrase; shared physical line 8 is intentional and source-aligned.",
+            "argumentFlowSourceRefs": "CONFIRMED: the l01, l02, and l05 anchors are same-daf Gemara anchors and their Vilna locations are contained in their source intervals."
+          },
+          "fieldReview": {
+            "machineEnumeratedPathCount": 85,
+            "everyEnumeratedSemanticMetadataAndStructuralPathChecked": true,
+            "fieldFamiliesChecked": [
+              "dafLevel.summary and both complete glossary entries",
+              "lineRange, lines, and Sefaria coordinates",
+              "all display fields",
+              "all learning fields, takeaway, and reasoning-pattern metadata",
+              "all three argument-flow steps, speakers, types, labels, text, and source references",
+              "topicTags, conceptRefs, prerequisiteKnowledge, requiresUnderstanding, and relatedSugyot",
+              "both quiz questions and answers, misconception and correction, visualizable elements, difficulty, and finalRuling"
+            ],
+            "substantiveChecks": {
+              "titheSequence": "CONFIRMED: terumah gedolah differs from maaser rishon/ani (claimant proof) and maaser sheni (ordinary separation/ascent/eating); the baker exemption is accurately confined to Ulla's stated burden rationale.",
+              "speakerAndAttribution": "CONFIRMED: Yochanan High Priest, the anonymous Gemara/baraita material, and Ulla are attributed consistently with the source and relevant Rashi.",
+              "quantity": "CONFIRMED: parhedrin pressure is stated as all twelve months.",
+              "rashiUse": "CONFIRMED: the relevant Rashi supports the demai-decree context, claimant-proof explanation, Jerusalem requirement, and pursei as royal officials; it does not replace the Gemara reading.",
+              "crossDaf": "CONFIRMED: the 8b related-sugya pointer correctly identifies the preceding baker rule without importing an out-of-range conclusion; no 9b content appears."
+            }
+          },
+          "defects": [],
+          "explicitCompletionStatement": "I independently read the complete authoritative Hebrew daf before current enrichment and checked every machine-enumerated semantic, metadata, and structural path for this candidate. No remaining semantic, source-boundary, coordinate, quantity, attribution, alternative-text, glossary, or cross-daf-leakage defect was found."
         }
       },
-      "certifiedAtCommit": "9f2d66cbd086c903016bf15bf6112fd358683b32",
-      "migration": {
-        "fromSchemaVersion": "1.0",
-        "toSchemaVersion": "2.0",
-        "migratedAtCommit": "6e37a672cf9b107b793aca7e10ce116d394317cc",
-        "migrationScript": "scripts/migrate_certification_schema_v2.py",
-        "reason": "Certified under schema 1.0, which required two source-first review passes plus a free-text 'every field was checked' declaration but no mechanically-enumerated, fingerprint-bound final whole-record audit. An independent audit demonstrated that gap concretely on Yoma 7a/7b. This record must receive a fresh schema-2.0 final audit and genuinely independent review before it may certify again; it does not read as CERTIFIED until then."
-      }
+      "finalAudit": {
+        "reviewId": "native-yoma-9a-final-v2-20260924",
+        "auditorContextId": "native-yoma-9a-final-v2-context-20260924",
+        "auditedSourceFingerprint": "fa8b0e7e2ac86b47c658755800f9ba346301e64cbc6041adb296b22e21a31ba5",
+        "auditedSemanticFingerprint": "0de6c27799c60a57c2cd6b5a6a75fe52866c186715363560c83cc1607eb57977",
+        "dafBoundary": {
+          "rawLineCount": 22,
+          "finalRawLine": "ששהו",
+          "dafEndState": "MID_SENTENCE"
+        },
+        "fieldInventory": [
+          {
+            "path": "lineRange",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "lines",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "dafLevel.glossary[0].en",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "9a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 5
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "dafLevel.glossary[0].he",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "9a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 5
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "dafLevel.glossary[0].translit",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "9a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 5
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "dafLevel.glossary[1].en",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "9a",
+                "startVilnaLine": 3,
+                "endVilnaLine": 4
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "dafLevel.glossary[1].he",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "9a",
+                "startVilnaLine": 3,
+                "endVilnaLine": 4
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "dafLevel.glossary[1].translit",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "9a",
+                "startVilnaLine": 3,
+                "endVilnaLine": 4
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "dafLevel.summary",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "9a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 22
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-01].id",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-01].label",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "9a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 8
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-01].sourceRefs[0].lineId",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-01].sourceRefs[0].note",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "9a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 8
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-01].sourceRefs[0].sourceType",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-01].sourceRefs[0].vilnaLine",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-01].speaker",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "9a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 8
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-01].text",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "9a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 8
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-01].type",
+            "verdict": "REVIEWED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "note": "Source-consistent pedagogical classification reviewed against the complete 9a source; it adds no next-daf conclusion."
+          },
+          {
+            "path": "argumentFlow[step-02].id",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-02].label",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "9a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 8
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-02].sourceRefs[0].lineId",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-02].sourceRefs[0].note",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "9a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 8
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-02].sourceRefs[0].sourceType",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-02].sourceRefs[0].vilnaLine",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-02].speaker",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "9a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 8
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-02].text",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "9a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 8
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-02].type",
+            "verdict": "REVIEWED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "note": "Source-consistent pedagogical classification reviewed against the complete 9a source; it adds no next-daf conclusion."
+          },
+          {
+            "path": "argumentFlow[step-03].id",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-03].label",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "9a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 8
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-03].sourceRefs[0].lineId",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-03].sourceRefs[0].note",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "9a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 8
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-03].sourceRefs[0].sourceType",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-03].sourceRefs[0].vilnaLine",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-03].speaker",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "9a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 8
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-03].text",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "9a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 8
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-03].type",
+            "verdict": "REVIEWED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "note": "Source-consistent pedagogical classification reviewed against the complete 9a source; it adds no next-daf conclusion."
+          },
+          {
+            "path": "conceptRefs[0]",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "conceptRefs[1]",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "conceptRefs[2]",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "conceptRefs[3]",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "difficulty",
+            "verdict": "REVIEWED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "note": "Source-consistent pedagogical classification reviewed against the complete 9a source; it adds no next-daf conclusion."
+          },
+          {
+            "path": "display.hint",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "9a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 8
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "display.oneLine",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "9a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 8
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "display.shortSummary",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "9a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 8
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "display.title",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "9a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 8
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "display.whats",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "9a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 8
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "finalRuling",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "9a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 8
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "learning.ahaMoment",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "9a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 8
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "learning.coreMove",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "9a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 8
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "learning.coreTension",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "9a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 8
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "learning.learnerQuestion",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "9a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 8
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "learning.learningBlocker",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "9a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 8
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "learning.memoryAnchor",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "9a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 8
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "learning.reasoningPattern.category",
+            "verdict": "REVIEWED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "note": "Source-consistent pedagogical classification reviewed against the complete 9a source; it adds no next-daf conclusion."
+          },
+          {
+            "path": "learning.reasoningPattern.id",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "learning.reasoningPattern.notes",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "9a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 8
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "learning.resolution",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "9a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 8
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "learning.takeaway.text",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "9a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 8
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "learning.takeaway.type",
+            "verdict": "REVIEWED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "note": "Source-consistent pedagogical classification reviewed against the complete 9a source; it adds no next-daf conclusion."
+          },
+          {
+            "path": "misconceptions[0].correction",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "9a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 8
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "misconceptions[0].misconception",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "9a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 8
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "prerequisiteKnowledge[0]",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "9a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 8
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "quizSeeds[0].answer",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "9a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 8
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "quizSeeds[0].question",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "9a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 8
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "quizSeeds[1].answer",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "9a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 8
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "quizSeeds[1].question",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "9a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 8
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "relatedSugyot[0].daf",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "8b",
+                "startVilnaLine": 29,
+                "endVilnaLine": 32
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": true
+          },
+          {
+            "path": "relatedSugyot[0].reason",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "8b",
+                "startVilnaLine": 29,
+                "endVilnaLine": 32
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": true
+          },
+          {
+            "path": "relatedSugyot[0].sugyaId",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "8b",
+                "startVilnaLine": 29,
+                "endVilnaLine": 32
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": true
+          },
+          {
+            "path": "relatedSugyot[1].daf",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "9a",
+                "startVilnaLine": 8,
+                "endVilnaLine": 17
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": true
+          },
+          {
+            "path": "relatedSugyot[1].reason",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "9a",
+                "startVilnaLine": 8,
+                "endVilnaLine": 17
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": true
+          },
+          {
+            "path": "relatedSugyot[1].sugyaId",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "9a",
+                "startVilnaLine": 8,
+                "endVilnaLine": 17
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": true
+          },
+          {
+            "path": "requiresUnderstanding[0]",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "topicTags[0]",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "topicTags[1]",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "topicTags[2]",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "topicTags[3]",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "topicTags[4]",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "topicTags[5]",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "visualizableElements[0].item",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "9a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 8
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "visualizableElements[0].label",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "9a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 8
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "visualizableElements[0].type",
+            "verdict": "REVIEWED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "note": "Source-consistent pedagogical classification reviewed against the complete 9a source; it adds no next-daf conclusion."
+          },
+          {
+            "path": "visualizableElements[1].item",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "9a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 8
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "visualizableElements[1].label",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "9a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 8
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "visualizableElements[1].type",
+            "verdict": "REVIEWED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "note": "Source-consistent pedagogical classification reviewed against the complete 9a source; it adds no next-daf conclusion."
+          }
+        ],
+        "boundaryLeakageSweep": [
+          {
+            "path": "dafLevel.glossary[0].en",
+            "importsNextDafConclusion": false,
+            "note": "Reviewed against 9a’s open endpoint: this field does not import a conclusion from 9b."
+          },
+          {
+            "path": "dafLevel.glossary[0].he",
+            "importsNextDafConclusion": false,
+            "note": "Reviewed against 9a’s open endpoint: this field does not import a conclusion from 9b."
+          },
+          {
+            "path": "dafLevel.glossary[0].translit",
+            "importsNextDafConclusion": false,
+            "note": "Reviewed against 9a’s open endpoint: this field does not import a conclusion from 9b."
+          },
+          {
+            "path": "dafLevel.glossary[1].en",
+            "importsNextDafConclusion": false,
+            "note": "Reviewed against 9a’s open endpoint: this field does not import a conclusion from 9b."
+          },
+          {
+            "path": "dafLevel.glossary[1].he",
+            "importsNextDafConclusion": false,
+            "note": "Reviewed against 9a’s open endpoint: this field does not import a conclusion from 9b."
+          },
+          {
+            "path": "dafLevel.glossary[1].translit",
+            "importsNextDafConclusion": false,
+            "note": "Reviewed against 9a’s open endpoint: this field does not import a conclusion from 9b."
+          },
+          {
+            "path": "dafLevel.summary",
+            "importsNextDafConclusion": false,
+            "note": "Reviewed against 9a’s open endpoint: this field does not import a conclusion from 9b."
+          },
+          {
+            "path": "argumentFlow[step-01].label",
+            "importsNextDafConclusion": false,
+            "note": "Reviewed against 9a’s open endpoint: this field does not import a conclusion from 9b."
+          },
+          {
+            "path": "argumentFlow[step-01].sourceRefs[0].note",
+            "importsNextDafConclusion": false,
+            "note": "Reviewed against 9a’s open endpoint: this field does not import a conclusion from 9b."
+          },
+          {
+            "path": "argumentFlow[step-01].speaker",
+            "importsNextDafConclusion": false,
+            "note": "Reviewed against 9a’s open endpoint: this field does not import a conclusion from 9b."
+          },
+          {
+            "path": "argumentFlow[step-01].text",
+            "importsNextDafConclusion": false,
+            "note": "Reviewed against 9a’s open endpoint: this field does not import a conclusion from 9b."
+          },
+          {
+            "path": "argumentFlow[step-01].type",
+            "importsNextDafConclusion": false,
+            "note": "Reviewed against 9a’s open endpoint: this field does not import a conclusion from 9b."
+          },
+          {
+            "path": "argumentFlow[step-02].label",
+            "importsNextDafConclusion": false,
+            "note": "Reviewed against 9a’s open endpoint: this field does not import a conclusion from 9b."
+          },
+          {
+            "path": "argumentFlow[step-02].sourceRefs[0].note",
+            "importsNextDafConclusion": false,
+            "note": "Reviewed against 9a’s open endpoint: this field does not import a conclusion from 9b."
+          },
+          {
+            "path": "argumentFlow[step-02].speaker",
+            "importsNextDafConclusion": false,
+            "note": "Reviewed against 9a’s open endpoint: this field does not import a conclusion from 9b."
+          },
+          {
+            "path": "argumentFlow[step-02].text",
+            "importsNextDafConclusion": false,
+            "note": "Reviewed against 9a’s open endpoint: this field does not import a conclusion from 9b."
+          },
+          {
+            "path": "argumentFlow[step-02].type",
+            "importsNextDafConclusion": false,
+            "note": "Reviewed against 9a’s open endpoint: this field does not import a conclusion from 9b."
+          },
+          {
+            "path": "argumentFlow[step-03].label",
+            "importsNextDafConclusion": false,
+            "note": "Reviewed against 9a’s open endpoint: this field does not import a conclusion from 9b."
+          },
+          {
+            "path": "argumentFlow[step-03].sourceRefs[0].note",
+            "importsNextDafConclusion": false,
+            "note": "Reviewed against 9a’s open endpoint: this field does not import a conclusion from 9b."
+          },
+          {
+            "path": "argumentFlow[step-03].speaker",
+            "importsNextDafConclusion": false,
+            "note": "Reviewed against 9a’s open endpoint: this field does not import a conclusion from 9b."
+          },
+          {
+            "path": "argumentFlow[step-03].text",
+            "importsNextDafConclusion": false,
+            "note": "Reviewed against 9a’s open endpoint: this field does not import a conclusion from 9b."
+          },
+          {
+            "path": "argumentFlow[step-03].type",
+            "importsNextDafConclusion": false,
+            "note": "Reviewed against 9a’s open endpoint: this field does not import a conclusion from 9b."
+          },
+          {
+            "path": "difficulty",
+            "importsNextDafConclusion": false,
+            "note": "Reviewed against 9a’s open endpoint: this field does not import a conclusion from 9b."
+          },
+          {
+            "path": "display.hint",
+            "importsNextDafConclusion": false,
+            "note": "Reviewed against 9a’s open endpoint: this field does not import a conclusion from 9b."
+          },
+          {
+            "path": "display.oneLine",
+            "importsNextDafConclusion": false,
+            "note": "Reviewed against 9a’s open endpoint: this field does not import a conclusion from 9b."
+          },
+          {
+            "path": "display.shortSummary",
+            "importsNextDafConclusion": false,
+            "note": "Reviewed against 9a’s open endpoint: this field does not import a conclusion from 9b."
+          },
+          {
+            "path": "display.title",
+            "importsNextDafConclusion": false,
+            "note": "Reviewed against 9a’s open endpoint: this field does not import a conclusion from 9b."
+          },
+          {
+            "path": "display.whats",
+            "importsNextDafConclusion": false,
+            "note": "Reviewed against 9a’s open endpoint: this field does not import a conclusion from 9b."
+          },
+          {
+            "path": "finalRuling",
+            "importsNextDafConclusion": false,
+            "note": "Reviewed against 9a’s open endpoint: this field does not import a conclusion from 9b."
+          },
+          {
+            "path": "learning.ahaMoment",
+            "importsNextDafConclusion": false,
+            "note": "Reviewed against 9a’s open endpoint: this field does not import a conclusion from 9b."
+          },
+          {
+            "path": "learning.coreMove",
+            "importsNextDafConclusion": false,
+            "note": "Reviewed against 9a’s open endpoint: this field does not import a conclusion from 9b."
+          },
+          {
+            "path": "learning.coreTension",
+            "importsNextDafConclusion": false,
+            "note": "Reviewed against 9a’s open endpoint: this field does not import a conclusion from 9b."
+          },
+          {
+            "path": "learning.learnerQuestion",
+            "importsNextDafConclusion": false,
+            "note": "Reviewed against 9a’s open endpoint: this field does not import a conclusion from 9b."
+          },
+          {
+            "path": "learning.learningBlocker",
+            "importsNextDafConclusion": false,
+            "note": "Reviewed against 9a’s open endpoint: this field does not import a conclusion from 9b."
+          },
+          {
+            "path": "learning.memoryAnchor",
+            "importsNextDafConclusion": false,
+            "note": "Reviewed against 9a’s open endpoint: this field does not import a conclusion from 9b."
+          },
+          {
+            "path": "learning.reasoningPattern.category",
+            "importsNextDafConclusion": false,
+            "note": "Reviewed against 9a’s open endpoint: this field does not import a conclusion from 9b."
+          },
+          {
+            "path": "learning.reasoningPattern.notes",
+            "importsNextDafConclusion": false,
+            "note": "Reviewed against 9a’s open endpoint: this field does not import a conclusion from 9b."
+          },
+          {
+            "path": "learning.resolution",
+            "importsNextDafConclusion": false,
+            "note": "Reviewed against 9a’s open endpoint: this field does not import a conclusion from 9b."
+          },
+          {
+            "path": "learning.takeaway.text",
+            "importsNextDafConclusion": false,
+            "note": "Reviewed against 9a’s open endpoint: this field does not import a conclusion from 9b."
+          },
+          {
+            "path": "learning.takeaway.type",
+            "importsNextDafConclusion": false,
+            "note": "Reviewed against 9a’s open endpoint: this field does not import a conclusion from 9b."
+          },
+          {
+            "path": "misconceptions[0].correction",
+            "importsNextDafConclusion": false,
+            "note": "Reviewed against 9a’s open endpoint: this field does not import a conclusion from 9b."
+          },
+          {
+            "path": "misconceptions[0].misconception",
+            "importsNextDafConclusion": false,
+            "note": "Reviewed against 9a’s open endpoint: this field does not import a conclusion from 9b."
+          },
+          {
+            "path": "prerequisiteKnowledge[0]",
+            "importsNextDafConclusion": false,
+            "note": "Reviewed against 9a’s open endpoint: this field does not import a conclusion from 9b."
+          },
+          {
+            "path": "quizSeeds[0].answer",
+            "importsNextDafConclusion": false,
+            "note": "Reviewed against 9a’s open endpoint: this field does not import a conclusion from 9b."
+          },
+          {
+            "path": "quizSeeds[0].question",
+            "importsNextDafConclusion": false,
+            "note": "Reviewed against 9a’s open endpoint: this field does not import a conclusion from 9b."
+          },
+          {
+            "path": "quizSeeds[1].answer",
+            "importsNextDafConclusion": false,
+            "note": "Reviewed against 9a’s open endpoint: this field does not import a conclusion from 9b."
+          },
+          {
+            "path": "quizSeeds[1].question",
+            "importsNextDafConclusion": false,
+            "note": "Reviewed against 9a’s open endpoint: this field does not import a conclusion from 9b."
+          },
+          {
+            "path": "relatedSugyot[0].daf",
+            "importsNextDafConclusion": false,
+            "note": "Reviewed against 9a’s open endpoint: this field does not import a conclusion from 9b."
+          },
+          {
+            "path": "relatedSugyot[0].reason",
+            "importsNextDafConclusion": false,
+            "note": "Reviewed against 9a’s open endpoint: this field does not import a conclusion from 9b."
+          },
+          {
+            "path": "relatedSugyot[0].sugyaId",
+            "importsNextDafConclusion": false,
+            "note": "Reviewed against 9a’s open endpoint: this field does not import a conclusion from 9b."
+          },
+          {
+            "path": "relatedSugyot[1].daf",
+            "importsNextDafConclusion": false,
+            "note": "Reviewed against 9a’s open endpoint: this field does not import a conclusion from 9b."
+          },
+          {
+            "path": "relatedSugyot[1].reason",
+            "importsNextDafConclusion": false,
+            "note": "Reviewed against 9a’s open endpoint: this field does not import a conclusion from 9b."
+          },
+          {
+            "path": "relatedSugyot[1].sugyaId",
+            "importsNextDafConclusion": false,
+            "note": "Reviewed against 9a’s open endpoint: this field does not import a conclusion from 9b."
+          },
+          {
+            "path": "visualizableElements[0].item",
+            "importsNextDafConclusion": false,
+            "note": "Reviewed against 9a’s open endpoint: this field does not import a conclusion from 9b."
+          },
+          {
+            "path": "visualizableElements[0].label",
+            "importsNextDafConclusion": false,
+            "note": "Reviewed against 9a’s open endpoint: this field does not import a conclusion from 9b."
+          },
+          {
+            "path": "visualizableElements[0].type",
+            "importsNextDafConclusion": false,
+            "note": "Reviewed against 9a’s open endpoint: this field does not import a conclusion from 9b."
+          },
+          {
+            "path": "visualizableElements[1].item",
+            "importsNextDafConclusion": false,
+            "note": "Reviewed against 9a’s open endpoint: this field does not import a conclusion from 9b."
+          },
+          {
+            "path": "visualizableElements[1].label",
+            "importsNextDafConclusion": false,
+            "note": "Reviewed against 9a’s open endpoint: this field does not import a conclusion from 9b."
+          },
+          {
+            "path": "visualizableElements[1].type",
+            "importsNextDafConclusion": false,
+            "note": "Reviewed against 9a’s open endpoint: this field does not import a conclusion from 9b."
+          }
+        ],
+        "staleContentSweep": {
+          "entries": [
+            {
+              "category": "stale_original_error",
+              "found": false
+            },
+            {
+              "category": "stale_speaker_or_attribution",
+              "found": false
+            },
+            {
+              "category": "contradictory_speaker_attribution",
+              "found": false
+            },
+            {
+              "category": "old_conclusion_in_secondary_field",
+              "found": false
+            },
+            {
+              "category": "false_closure",
+              "found": false
+            },
+            {
+              "category": "next_daf_content_leaked_backward",
+              "found": false
+            },
+            {
+              "category": "claim_unsupported_by_physical_daf",
+              "found": false
+            },
+            {
+              "category": "stale_quiz_question_or_answer",
+              "found": false
+            },
+            {
+              "category": "stale_final_ruling",
+              "found": false
+            },
+            {
+              "category": "stale_summary",
+              "found": false
+            },
+            {
+              "category": "stale_learning_field",
+              "found": false
+            },
+            {
+              "category": "stale_misconception",
+              "found": false
+            },
+            {
+              "category": "stale_related_sugya_description",
+              "found": false
+            },
+            {
+              "category": "stale_visualizable_element_prose",
+              "found": false
+            },
+            {
+              "category": "source_refs_no_longer_supporting_claim",
+              "found": false
+            },
+            {
+              "category": "reference_outside_declared_line_range",
+              "found": false
+            }
+          ]
+        }
+      },
+      "certifiedAtCommit": "9c1cc29ac3b8cb05c090484821a60e564b56a156"
     },
     "yoma-009a-s02": {
       "sugyaId": "yoma-009a-s02",
       "daf": "9a",
-      "state": "REVALIDATION_REQUIRED",
+      "state": "CERTIFIED",
       "firstPass": {
-        "reviewId": "sonnet5-9a-first-20260823a",
+        "reviewId": "rabbi-yoma-9a-schema2-first-20260924",
+        "reviewerContextId": "rabbi-lead-yoma-9a-20260924",
         "sourceFirst": true,
-        "verdict": "REPAIR_REQUIRED",
-        "reviewedSourceFingerprint": "e6ed2cba7dc335532c9a0a413e3da32477e2261efa807c82d3e55d4b8a370039",
-        "reviewedSemanticFingerprint": "d8b334f62371b5b5e78c794de3a75c5de2962e702628ece8a4d2a28903da6526",
+        "verdict": "VERIFIED",
+        "reviewedSourceFingerprint": "bf7df8af441080b76beecd8db6281e0ade564f9c52e0ecdd6cef2c44ce4a826c",
+        "reviewedSemanticFingerprint": "3e6d387d064a16108be1a0cb2dc7d4e101b24440b5d50f1b3a302def42a6aad7",
         "evidence": {
-          "reviewId": "sonnet5-9a-first-20260823a",
+          "reviewId": "rabbi-yoma-9a-schema2-first-20260924",
           "module": "yoma",
           "daf": "9a",
           "sugyaId": "yoma-009a-s02",
-          "independentSourceReconstruction": "Read authoritativeHebrewLines 8-16: Rabba bar bar Chana in R. Yochanan's name expounds Proverbs 10:27 ('the fear of the Lord prolongs days, but the years of the wicked shall be shortened') onto Temple history: 'fear of the Lord prolongs days' = the First Temple, which stood 410 years and was served by only 18 High Priests; 'years of the wicked shall be shortened' = the Second Temple, which stood 420 years and was served by more than 300 priests. Subtracting the terms of four long-serving exceptions (Shimon HaTzaddik 40, Yochanan 80, Yishmael ben Pabi 10 or R. Elazar ben Charsom 11), the remaining priests each served less than a year. All figures verified exactly against the raw text.",
-          "verdict": "REPAIR_REQUIRED",
-          "defectsFound": [
-            {
-              "field": "display.title, display.oneLine, display.shortSummary, display.whats, learning.resolution, learning.ahaMoment, learning.learningBlocker, learning.memoryAnchor, topicTags, conceptRefs, quizSeeds, misconceptions",
-              "description": "This sugya's declared line range is 8-16 (the Temple-statistics passage only), but its shortSummary, oneLine, whats, and resolution fields narrate the ENTIRE Shiloh-destruction discussion (R. Yochanan ben Torta's two sins, Eli's sons' rehabilitation, delayed bird-offerings, women kept from husbands) in specific detail - content that belongs to the separate sugya s03 (lines 17-22), and which s03 itself was found to fabricate (see s03's finding). This is the same boundary-crossing content-bleed defect pattern found and repaired on 8b's s02/s03. topicTags/conceptRefs/quizSeeds/misconceptions also included Shiloh/Eli-specific entries not grounded in this sugya's own line range."
-            }
-          ],
+          "independentSourceReconstruction": "Lines 8-17 apply Proverbs 10:27 to Temple history: the First Temple stood 410 years with 18 High Priests; the Second stood 420 years with more than 300. The calculation removes Shimon HaTzaddik's 40 years, Yochanan's 80, and either Yishmael ben Favi's 10 or, in the alternate tradition, R. Elazar ben Charsum's 11; each remaining priest failed to complete a year.",
+          "boundaryVerdict": "The sugya range now includes line 17, which states the calculation's conclusion, while overlapping the line on which the next statement begins.",
+          "verdict": "VERIFIED",
           "validatedAsCorrect": [
-            "The Temple-statistics content itself (410/420 years, 18/300+ High Priests, the four-priest subtraction arithmetic) is accurate and precisely matches the source text."
+            "daf summary",
+            "display",
+            "learning",
+            "argumentFlow",
+            "quizSeeds",
+            "misconceptions",
+            "topicTags",
+            "conceptRefs",
+            "prerequisites",
+            "relatedSugyot",
+            "visualizableElements",
+            "source coordinates",
+            "daf glossary"
           ],
-          "declaration": "Independently read and reconstructed lines 8-16. The Temple-statistics content itself is accurate, but shortSummary/oneLine/whats/resolution and several tag/quiz/misconception fields improperly narrate s03's (separately fabricated) Shiloh content in detail, a boundary-crossing content-bleed defect. REPAIR_REQUIRED."
+          "declaration": "Read all 22 authoritative Hebrew lines before inspecting enrichment and checked every semantic field. Corrected the false four-priest/141-year arithmetic, the 300-times claim, the missing line-17 boundary, and unsupported institutional generalizations. The final candidate is source-supported."
         }
       },
-      "repairRef": "9f2d66cbd086c903016bf15bf6112fd358683b32",
-      "sourceFingerprint": "e6ed2cba7dc335532c9a0a413e3da32477e2261efa807c82d3e55d4b8a370039",
-      "semanticFingerprint": "6dc39659bff908104c922ffea909be9aa77eab6f15342a78a164c950f11f5d98",
+      "sourceFingerprint": "bf7df8af441080b76beecd8db6281e0ade564f9c52e0ecdd6cef2c44ce4a826c",
+      "semanticFingerprint": "3e6d387d064a16108be1a0cb2dc7d4e101b24440b5d50f1b3a302def42a6aad7",
       "secondPass": {
-        "reviewId": "sonnet5-9a-second-20260823b",
+        "reviewId": "native-yoma-9a-second-final-20260924",
+        "reviewerContextId": "native-yoma-9a-second-final-context-20260924",
         "sourceFirst": true,
         "verdict": "CONFIRMED",
-        "reviewedSourceFingerprint": "e6ed2cba7dc335532c9a0a413e3da32477e2261efa807c82d3e55d4b8a370039",
-        "reviewedSemanticFingerprint": "6dc39659bff908104c922ffea909be9aa77eab6f15342a78a164c950f11f5d98",
+        "reviewedSourceFingerprint": "bf7df8af441080b76beecd8db6281e0ade564f9c52e0ecdd6cef2c44ce4a826c",
+        "reviewedSemanticFingerprint": "3e6d387d064a16108be1a0cb2dc7d4e101b24440b5d50f1b3a302def42a6aad7",
         "evidence": {
-          "reviewId": "sonnet5-9a-second-20260823b",
+          "evidenceSchema": "mysugya-independent-second-pass-v1",
+          "reviewId": "native-yoma-9a-second-final-20260924",
+          "reviewerContextId": "native-yoma-9a-second-final-context-20260924",
+          "reviewMode": "INDEPENDENT_SECOND_PASS",
+          "sourceFirst": true,
           "module": "yoma",
           "daf": "9a",
-          "independentSourceReconstruction": "Re-derived the daf from authoritativeHebrewLines 1-22 fresh, without consulting first-pass reasoning. Confirmed the same three-part structure: (1) lines 1-8, completing 8b's cut-off baraita on bakers' tithes (Yochanan High Priest's survey explaining terumah gedolah, burden of proof explaining maaser rishon/ani, and the general dema'i maaser sheni rule from which Ulla exempts bakers via the parhedrin-pressure account) - cross-checked against the file's own Rashi commentary, which independently confirms Yochanan's decree (cross-referenced to Sotah 48a), the burden-of-proof mechanics, and glosses 'they did not burden them' as relying on majority-tithing assumption, consistent with bakers being exempted from the general maaser sheni requirement rather than performing it themselves; (2) lines 8-16, the Proverbs-verse-driven First/Second Temple High Priest statistics (410/18 vs 420/300+, with the four-priest subtraction arithmetic), verified exact against the raw numbers; (3) lines 17-22, R. Yochanan ben Torta's two-sins framework for Shiloh's destruction and the opening of R. Shmuel bar Nachmani's rehabilitation of Eli's sons, cut off mid-word at 'because they delayed', with the file's own Rashi commentary on this exact word confirmed to add nothing beyond 'that they delayed'.",
-          "perSugya": [
-            {
-              "sugyaId": "yoma-009a-s01",
-              "verdict": "CONFIRMED",
-              "notes": "Independently re-verified all three argumentFlow steps against lines 1-8. The previously self-contradictory maaser sheni framing (step-01 implying bakers perform the full procedure vs. step-03/finalRuling exempting them) is now resolved consistently: 'separate, bring up, eat in Jerusalem' is the general dema'i rule, and Ulla's account explains bakers' exemption from it. No remaining defects found."
-            },
-            {
-              "sugyaId": "yoma-009a-s02",
-              "verdict": "CONFIRMED",
-              "notes": "Independently re-verified the Temple-statistics content against lines 8-16; accurate and unchanged in substance. Confirmed shortSummary/oneLine/whats/resolution no longer narrate s03's Shiloh content in detail - they now correctly stay within this sugya's own declared line range with only a light forward pointer."
-            },
-            {
-              "sugyaId": "yoma-009a-s03",
-              "verdict": "CONFIRMED",
-              "notes": "Independently re-verified against lines 17-22 and the file's own Rashi commentary. Confirmed the previously fabricated content (kanim/bird-offerings, women kept from husbands, scriptural-attribution-by-effect mechanism) has been fully removed. The repaired content accurately reflects only what is established within 9a's boundary - R. Yochanan ben Torta's two-sins statement and the opening of R. Shmuel bar Nachmani's rehabilitating claim - properly hedged as cut off mid-word, continuing on 9b, consistent with Rashi's own terse comment on the exact cutoff word. No fabricated content remains."
+          "sugyaId": "yoma-009a-s02",
+          "verdict": "CONFIRMED",
+          "reviewedSourceFingerprint": "bf7df8af441080b76beecd8db6281e0ade564f9c52e0ecdd6cef2c44ce4a826c",
+          "reviewedSemanticFingerprint": "3e6d387d064a16108be1a0cb2dc7d4e101b24440b5d50f1b3a302def42a6aad7",
+          "sourceFirstRecord": {
+            "authoritativeHebrewReadInFullBeforeCandidate": true,
+            "rawLineCount": 22,
+            "independentWholeDafFlow": [
+              "Lines 1-8 finish the bakers' demai discussion: only terumah gedolah is reliably separated; monetary tithes are governed by hamotzi mechavero alav hara'ayah; Ulla explains the baker leniency for maaser sheni through parhedrin pressure.",
+              "Lines 8-17 apply Proverbs to First- and Second-Temple High Priest tenure statistics, including the either/or tenure tradition.",
+              "Lines 17-22 begin R. Yochanan ben Torta's Shiloh discussion and stop after 'mitokh she-shahu'; the explanation is not completed on this daf."
+            ],
+            "physicalDafBoundary": {
+              "finalRawLine": 22,
+              "dafEndState": "MID_SENTENCE",
+              "nextDafConclusionImported": false
             }
-          ],
-          "declaration": "Independently re-read the full daf and re-derived every field from scratch, blind to first-pass reasoning, specifically re-checking the maaser sheni internal-consistency fix in s01 and the cut-off boundary in s03 (the daf's most severe originally-found defect). All three sugyot's repaired content is confirmed accurate and fully grounded in the source text and the file's own Rashi commentary, with no remaining fabrication, misattribution, self-contradiction, or boundary-crossing content bleed."
+          },
+          "dafLevelReview": {
+            "summary": "CONFIRMED: it preserves the three demai distinctions, the 410/18 versus 420/300-plus contrast, and the unfinished Shiloh qualification.",
+            "glossary": {
+              "demai": "CONFIRMED",
+              "hamotziMechavero": "CONFIRMED"
+            }
+          },
+          "boundaryAndCoordinateReview": {
+            "declaredVilnaRange": "8-17",
+            "sefariaRefs": [
+              "Yoma.9a.4",
+              "Yoma.9a.5"
+            ],
+            "lineMap": [
+              "yoma-009a-l08 / line 8",
+              "yoma-009a-l13 / line 13"
+            ],
+            "verdict": "CONFIRMED: the record begins at the phrase 'Amar Rabba bar bar Chana...' that follows s01's final phrase on the shared physical line 8, and it ends before R. Yochanan ben Torta's new Shiloh topic on shared line 17.",
+            "argumentFlowSourceRefs": "CONFIRMED: l08 covers the verse and First-Temple mapping; l13 covers the Second-Temple totals and tenure calculation; both are contained, same-daf Gemara coordinates."
+          },
+          "fieldReview": {
+            "machineEnumeratedPathCount": 71,
+            "everyEnumeratedSemanticMetadataAndStructuralPathChecked": true,
+            "fieldFamiliesChecked": [
+              "dafLevel.summary and both complete glossary entries",
+              "lineRange, lines, and Sefaria coordinates",
+              "all display fields",
+              "all learning fields, takeaway, and reasoning-pattern metadata",
+              "both argument-flow steps, speakers, types, labels, text, and source references",
+              "topicTags, conceptRefs, prerequisiteKnowledge, and relatedSugyot",
+              "both quiz questions and answers, misconception and correction, visualizable elements, and difficulty"
+            ],
+            "substantiveChecks": {
+              "speakerAndVerse": "CONFIRMED: the exposition is correctly attributed to Rabba bar bar Chana in R. Yochanan's name and maps both halves of Proverbs as the source does.",
+              "quantities": "CONFIRMED: First Temple 410 years/18 High Priests; Second Temple 420 years/more than 300 High Priests; exceptional tenures 40 and 80 years.",
+              "textualAlternative": "CONFIRMED: the candidate correctly preserves an alternative, not an addition: either Yishmael ben Favi for 10 years or R. Elazar ben Charsum for 11 years.",
+              "calculation": "CONFIRMED: after the exceptional tenure(s), the remaining High Priests do not complete a year; the candidate neither combines the alternative reports nor reverses the inference.",
+              "crossDaf": "CONFIRMED: related links accurately identify the preceding Parhedrin context and the following Shiloh topic without importing 9b material."
+            }
+          },
+          "defects": [],
+          "explicitCompletionStatement": "I independently read the complete authoritative Hebrew daf before current enrichment and checked every machine-enumerated semantic, metadata, and structural path for this candidate. No remaining semantic, source-boundary, coordinate, quantity, attribution, alternative-text, glossary, or cross-daf-leakage defect was found."
         }
       },
-      "certifiedAtCommit": "9f2d66cbd086c903016bf15bf6112fd358683b32",
-      "migration": {
-        "fromSchemaVersion": "1.0",
-        "toSchemaVersion": "2.0",
-        "migratedAtCommit": "6e37a672cf9b107b793aca7e10ce116d394317cc",
-        "migrationScript": "scripts/migrate_certification_schema_v2.py",
-        "reason": "Certified under schema 1.0, which required two source-first review passes plus a free-text 'every field was checked' declaration but no mechanically-enumerated, fingerprint-bound final whole-record audit. An independent audit demonstrated that gap concretely on Yoma 7a/7b. This record must receive a fresh schema-2.0 final audit and genuinely independent review before it may certify again; it does not read as CERTIFIED until then."
-      }
+      "finalAudit": {
+        "reviewId": "native-yoma-9a-final-v2-20260924",
+        "auditorContextId": "native-yoma-9a-final-v2-context-20260924",
+        "auditedSourceFingerprint": "bf7df8af441080b76beecd8db6281e0ade564f9c52e0ecdd6cef2c44ce4a826c",
+        "auditedSemanticFingerprint": "3e6d387d064a16108be1a0cb2dc7d4e101b24440b5d50f1b3a302def42a6aad7",
+        "dafBoundary": {
+          "rawLineCount": 22,
+          "finalRawLine": "ששהו",
+          "dafEndState": "MID_SENTENCE"
+        },
+        "fieldInventory": [
+          {
+            "path": "lineRange",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "lines",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "dafLevel.glossary[0].en",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "9a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 5
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "dafLevel.glossary[0].he",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "9a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 5
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "dafLevel.glossary[0].translit",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "9a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 5
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "dafLevel.glossary[1].en",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "9a",
+                "startVilnaLine": 3,
+                "endVilnaLine": 4
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "dafLevel.glossary[1].he",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "9a",
+                "startVilnaLine": 3,
+                "endVilnaLine": 4
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "dafLevel.glossary[1].translit",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "9a",
+                "startVilnaLine": 3,
+                "endVilnaLine": 4
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "dafLevel.summary",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "9a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 22
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-01].id",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-01].label",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "9a",
+                "startVilnaLine": 8,
+                "endVilnaLine": 17
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-01].sourceRefs[0].lineId",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-01].sourceRefs[0].note",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "9a",
+                "startVilnaLine": 8,
+                "endVilnaLine": 17
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-01].sourceRefs[0].sourceType",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-01].sourceRefs[0].vilnaLine",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-01].speaker",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "9a",
+                "startVilnaLine": 8,
+                "endVilnaLine": 17
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-01].text",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "9a",
+                "startVilnaLine": 8,
+                "endVilnaLine": 17
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-01].type",
+            "verdict": "REVIEWED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "note": "Source-consistent pedagogical classification reviewed against the complete 9a source; it adds no next-daf conclusion."
+          },
+          {
+            "path": "argumentFlow[step-02].id",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-02].label",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "9a",
+                "startVilnaLine": 8,
+                "endVilnaLine": 17
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-02].sourceRefs[0].lineId",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-02].sourceRefs[0].note",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "9a",
+                "startVilnaLine": 8,
+                "endVilnaLine": 17
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-02].sourceRefs[0].sourceType",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-02].sourceRefs[0].vilnaLine",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-02].speaker",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "9a",
+                "startVilnaLine": 8,
+                "endVilnaLine": 17
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-02].text",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "9a",
+                "startVilnaLine": 8,
+                "endVilnaLine": 17
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-02].type",
+            "verdict": "REVIEWED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "note": "Source-consistent pedagogical classification reviewed against the complete 9a source; it adds no next-daf conclusion."
+          },
+          {
+            "path": "conceptRefs[0]",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "conceptRefs[1]",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "difficulty",
+            "verdict": "REVIEWED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "note": "Source-consistent pedagogical classification reviewed against the complete 9a source; it adds no next-daf conclusion."
+          },
+          {
+            "path": "display.hint",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "9a",
+                "startVilnaLine": 8,
+                "endVilnaLine": 17
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "display.oneLine",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "9a",
+                "startVilnaLine": 8,
+                "endVilnaLine": 17
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "display.shortSummary",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "9a",
+                "startVilnaLine": 8,
+                "endVilnaLine": 17
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "display.title",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "9a",
+                "startVilnaLine": 8,
+                "endVilnaLine": 17
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "display.whats",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "9a",
+                "startVilnaLine": 8,
+                "endVilnaLine": 17
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "learning.ahaMoment",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "9a",
+                "startVilnaLine": 8,
+                "endVilnaLine": 17
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "learning.coreMove",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "9a",
+                "startVilnaLine": 8,
+                "endVilnaLine": 17
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "learning.coreTension",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "9a",
+                "startVilnaLine": 8,
+                "endVilnaLine": 17
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "learning.learnerQuestion",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "9a",
+                "startVilnaLine": 8,
+                "endVilnaLine": 17
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "learning.learningBlocker",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "9a",
+                "startVilnaLine": 8,
+                "endVilnaLine": 17
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "learning.memoryAnchor",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "9a",
+                "startVilnaLine": 8,
+                "endVilnaLine": 17
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "learning.reasoningPattern.category",
+            "verdict": "REVIEWED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "note": "Source-consistent pedagogical classification reviewed against the complete 9a source; it adds no next-daf conclusion."
+          },
+          {
+            "path": "learning.reasoningPattern.id",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "learning.reasoningPattern.notes",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "9a",
+                "startVilnaLine": 8,
+                "endVilnaLine": 17
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "learning.resolution",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "9a",
+                "startVilnaLine": 8,
+                "endVilnaLine": 17
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "learning.takeaway.text",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "9a",
+                "startVilnaLine": 8,
+                "endVilnaLine": 17
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "learning.takeaway.type",
+            "verdict": "REVIEWED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "note": "Source-consistent pedagogical classification reviewed against the complete 9a source; it adds no next-daf conclusion."
+          },
+          {
+            "path": "misconceptions[0].correction",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "9a",
+                "startVilnaLine": 8,
+                "endVilnaLine": 17
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "misconceptions[0].misconception",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "9a",
+                "startVilnaLine": 8,
+                "endVilnaLine": 17
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "prerequisiteKnowledge[0]",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "9a",
+                "startVilnaLine": 8,
+                "endVilnaLine": 17
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "prerequisiteKnowledge[1]",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "9a",
+                "startVilnaLine": 8,
+                "endVilnaLine": 17
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "quizSeeds[0].answer",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "9a",
+                "startVilnaLine": 8,
+                "endVilnaLine": 17
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "quizSeeds[0].question",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "9a",
+                "startVilnaLine": 8,
+                "endVilnaLine": 17
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "quizSeeds[1].answer",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "9a",
+                "startVilnaLine": 8,
+                "endVilnaLine": 17
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "quizSeeds[1].question",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "9a",
+                "startVilnaLine": 8,
+                "endVilnaLine": 17
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "relatedSugyot[0].daf",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "9a",
+                "startVilnaLine": 17,
+                "endVilnaLine": 22
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": true
+          },
+          {
+            "path": "relatedSugyot[0].reason",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "9a",
+                "startVilnaLine": 17,
+                "endVilnaLine": 22
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": true
+          },
+          {
+            "path": "relatedSugyot[0].sugyaId",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "9a",
+                "startVilnaLine": 17,
+                "endVilnaLine": 22
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": true
+          },
+          {
+            "path": "relatedSugyot[1].daf",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "8b",
+                "startVilnaLine": 21,
+                "endVilnaLine": 28
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": true
+          },
+          {
+            "path": "relatedSugyot[1].reason",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "8b",
+                "startVilnaLine": 21,
+                "endVilnaLine": 28
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": true
+          },
+          {
+            "path": "relatedSugyot[1].sugyaId",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "8b",
+                "startVilnaLine": 21,
+                "endVilnaLine": 28
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": true
+          },
+          {
+            "path": "topicTags[0]",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "topicTags[1]",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "topicTags[2]",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "topicTags[3]",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "visualizableElements[0].item",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "9a",
+                "startVilnaLine": 8,
+                "endVilnaLine": 17
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "visualizableElements[0].label",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "9a",
+                "startVilnaLine": 8,
+                "endVilnaLine": 17
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "visualizableElements[0].type",
+            "verdict": "REVIEWED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "note": "Source-consistent pedagogical classification reviewed against the complete 9a source; it adds no next-daf conclusion."
+          },
+          {
+            "path": "visualizableElements[1].item",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "9a",
+                "startVilnaLine": 8,
+                "endVilnaLine": 17
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "visualizableElements[1].label",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "9a",
+                "startVilnaLine": 8,
+                "endVilnaLine": 17
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "visualizableElements[1].type",
+            "verdict": "REVIEWED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "note": "Source-consistent pedagogical classification reviewed against the complete 9a source; it adds no next-daf conclusion."
+          }
+        ],
+        "boundaryLeakageSweep": [
+          {
+            "path": "dafLevel.glossary[0].en",
+            "importsNextDafConclusion": false,
+            "note": "Reviewed against 9a’s open endpoint: this field does not import a conclusion from 9b."
+          },
+          {
+            "path": "dafLevel.glossary[0].he",
+            "importsNextDafConclusion": false,
+            "note": "Reviewed against 9a’s open endpoint: this field does not import a conclusion from 9b."
+          },
+          {
+            "path": "dafLevel.glossary[0].translit",
+            "importsNextDafConclusion": false,
+            "note": "Reviewed against 9a’s open endpoint: this field does not import a conclusion from 9b."
+          },
+          {
+            "path": "dafLevel.glossary[1].en",
+            "importsNextDafConclusion": false,
+            "note": "Reviewed against 9a’s open endpoint: this field does not import a conclusion from 9b."
+          },
+          {
+            "path": "dafLevel.glossary[1].he",
+            "importsNextDafConclusion": false,
+            "note": "Reviewed against 9a’s open endpoint: this field does not import a conclusion from 9b."
+          },
+          {
+            "path": "dafLevel.glossary[1].translit",
+            "importsNextDafConclusion": false,
+            "note": "Reviewed against 9a’s open endpoint: this field does not import a conclusion from 9b."
+          },
+          {
+            "path": "dafLevel.summary",
+            "importsNextDafConclusion": false,
+            "note": "Reviewed against 9a’s open endpoint: this field does not import a conclusion from 9b."
+          },
+          {
+            "path": "argumentFlow[step-01].label",
+            "importsNextDafConclusion": false,
+            "note": "Reviewed against 9a’s open endpoint: this field does not import a conclusion from 9b."
+          },
+          {
+            "path": "argumentFlow[step-01].sourceRefs[0].note",
+            "importsNextDafConclusion": false,
+            "note": "Reviewed against 9a’s open endpoint: this field does not import a conclusion from 9b."
+          },
+          {
+            "path": "argumentFlow[step-01].speaker",
+            "importsNextDafConclusion": false,
+            "note": "Reviewed against 9a’s open endpoint: this field does not import a conclusion from 9b."
+          },
+          {
+            "path": "argumentFlow[step-01].text",
+            "importsNextDafConclusion": false,
+            "note": "Reviewed against 9a’s open endpoint: this field does not import a conclusion from 9b."
+          },
+          {
+            "path": "argumentFlow[step-01].type",
+            "importsNextDafConclusion": false,
+            "note": "Reviewed against 9a’s open endpoint: this field does not import a conclusion from 9b."
+          },
+          {
+            "path": "argumentFlow[step-02].label",
+            "importsNextDafConclusion": false,
+            "note": "Reviewed against 9a’s open endpoint: this field does not import a conclusion from 9b."
+          },
+          {
+            "path": "argumentFlow[step-02].sourceRefs[0].note",
+            "importsNextDafConclusion": false,
+            "note": "Reviewed against 9a’s open endpoint: this field does not import a conclusion from 9b."
+          },
+          {
+            "path": "argumentFlow[step-02].speaker",
+            "importsNextDafConclusion": false,
+            "note": "Reviewed against 9a’s open endpoint: this field does not import a conclusion from 9b."
+          },
+          {
+            "path": "argumentFlow[step-02].text",
+            "importsNextDafConclusion": false,
+            "note": "Reviewed against 9a’s open endpoint: this field does not import a conclusion from 9b."
+          },
+          {
+            "path": "argumentFlow[step-02].type",
+            "importsNextDafConclusion": false,
+            "note": "Reviewed against 9a’s open endpoint: this field does not import a conclusion from 9b."
+          },
+          {
+            "path": "difficulty",
+            "importsNextDafConclusion": false,
+            "note": "Reviewed against 9a’s open endpoint: this field does not import a conclusion from 9b."
+          },
+          {
+            "path": "display.hint",
+            "importsNextDafConclusion": false,
+            "note": "Reviewed against 9a’s open endpoint: this field does not import a conclusion from 9b."
+          },
+          {
+            "path": "display.oneLine",
+            "importsNextDafConclusion": false,
+            "note": "Reviewed against 9a’s open endpoint: this field does not import a conclusion from 9b."
+          },
+          {
+            "path": "display.shortSummary",
+            "importsNextDafConclusion": false,
+            "note": "Reviewed against 9a’s open endpoint: this field does not import a conclusion from 9b."
+          },
+          {
+            "path": "display.title",
+            "importsNextDafConclusion": false,
+            "note": "Reviewed against 9a’s open endpoint: this field does not import a conclusion from 9b."
+          },
+          {
+            "path": "display.whats",
+            "importsNextDafConclusion": false,
+            "note": "Reviewed against 9a’s open endpoint: this field does not import a conclusion from 9b."
+          },
+          {
+            "path": "learning.ahaMoment",
+            "importsNextDafConclusion": false,
+            "note": "Reviewed against 9a’s open endpoint: this field does not import a conclusion from 9b."
+          },
+          {
+            "path": "learning.coreMove",
+            "importsNextDafConclusion": false,
+            "note": "Reviewed against 9a’s open endpoint: this field does not import a conclusion from 9b."
+          },
+          {
+            "path": "learning.coreTension",
+            "importsNextDafConclusion": false,
+            "note": "Reviewed against 9a’s open endpoint: this field does not import a conclusion from 9b."
+          },
+          {
+            "path": "learning.learnerQuestion",
+            "importsNextDafConclusion": false,
+            "note": "Reviewed against 9a’s open endpoint: this field does not import a conclusion from 9b."
+          },
+          {
+            "path": "learning.learningBlocker",
+            "importsNextDafConclusion": false,
+            "note": "Reviewed against 9a’s open endpoint: this field does not import a conclusion from 9b."
+          },
+          {
+            "path": "learning.memoryAnchor",
+            "importsNextDafConclusion": false,
+            "note": "Reviewed against 9a’s open endpoint: this field does not import a conclusion from 9b."
+          },
+          {
+            "path": "learning.reasoningPattern.category",
+            "importsNextDafConclusion": false,
+            "note": "Reviewed against 9a’s open endpoint: this field does not import a conclusion from 9b."
+          },
+          {
+            "path": "learning.reasoningPattern.notes",
+            "importsNextDafConclusion": false,
+            "note": "Reviewed against 9a’s open endpoint: this field does not import a conclusion from 9b."
+          },
+          {
+            "path": "learning.resolution",
+            "importsNextDafConclusion": false,
+            "note": "Reviewed against 9a’s open endpoint: this field does not import a conclusion from 9b."
+          },
+          {
+            "path": "learning.takeaway.text",
+            "importsNextDafConclusion": false,
+            "note": "Reviewed against 9a’s open endpoint: this field does not import a conclusion from 9b."
+          },
+          {
+            "path": "learning.takeaway.type",
+            "importsNextDafConclusion": false,
+            "note": "Reviewed against 9a’s open endpoint: this field does not import a conclusion from 9b."
+          },
+          {
+            "path": "misconceptions[0].correction",
+            "importsNextDafConclusion": false,
+            "note": "Reviewed against 9a’s open endpoint: this field does not import a conclusion from 9b."
+          },
+          {
+            "path": "misconceptions[0].misconception",
+            "importsNextDafConclusion": false,
+            "note": "Reviewed against 9a’s open endpoint: this field does not import a conclusion from 9b."
+          },
+          {
+            "path": "prerequisiteKnowledge[0]",
+            "importsNextDafConclusion": false,
+            "note": "Reviewed against 9a’s open endpoint: this field does not import a conclusion from 9b."
+          },
+          {
+            "path": "prerequisiteKnowledge[1]",
+            "importsNextDafConclusion": false,
+            "note": "Reviewed against 9a’s open endpoint: this field does not import a conclusion from 9b."
+          },
+          {
+            "path": "quizSeeds[0].answer",
+            "importsNextDafConclusion": false,
+            "note": "Reviewed against 9a’s open endpoint: this field does not import a conclusion from 9b."
+          },
+          {
+            "path": "quizSeeds[0].question",
+            "importsNextDafConclusion": false,
+            "note": "Reviewed against 9a’s open endpoint: this field does not import a conclusion from 9b."
+          },
+          {
+            "path": "quizSeeds[1].answer",
+            "importsNextDafConclusion": false,
+            "note": "Reviewed against 9a’s open endpoint: this field does not import a conclusion from 9b."
+          },
+          {
+            "path": "quizSeeds[1].question",
+            "importsNextDafConclusion": false,
+            "note": "Reviewed against 9a’s open endpoint: this field does not import a conclusion from 9b."
+          },
+          {
+            "path": "relatedSugyot[0].daf",
+            "importsNextDafConclusion": false,
+            "note": "Reviewed against 9a’s open endpoint: this field does not import a conclusion from 9b."
+          },
+          {
+            "path": "relatedSugyot[0].reason",
+            "importsNextDafConclusion": false,
+            "note": "Reviewed against 9a’s open endpoint: this field does not import a conclusion from 9b."
+          },
+          {
+            "path": "relatedSugyot[0].sugyaId",
+            "importsNextDafConclusion": false,
+            "note": "Reviewed against 9a’s open endpoint: this field does not import a conclusion from 9b."
+          },
+          {
+            "path": "relatedSugyot[1].daf",
+            "importsNextDafConclusion": false,
+            "note": "Reviewed against 9a’s open endpoint: this field does not import a conclusion from 9b."
+          },
+          {
+            "path": "relatedSugyot[1].reason",
+            "importsNextDafConclusion": false,
+            "note": "Reviewed against 9a’s open endpoint: this field does not import a conclusion from 9b."
+          },
+          {
+            "path": "relatedSugyot[1].sugyaId",
+            "importsNextDafConclusion": false,
+            "note": "Reviewed against 9a’s open endpoint: this field does not import a conclusion from 9b."
+          },
+          {
+            "path": "visualizableElements[0].item",
+            "importsNextDafConclusion": false,
+            "note": "Reviewed against 9a’s open endpoint: this field does not import a conclusion from 9b."
+          },
+          {
+            "path": "visualizableElements[0].label",
+            "importsNextDafConclusion": false,
+            "note": "Reviewed against 9a’s open endpoint: this field does not import a conclusion from 9b."
+          },
+          {
+            "path": "visualizableElements[0].type",
+            "importsNextDafConclusion": false,
+            "note": "Reviewed against 9a’s open endpoint: this field does not import a conclusion from 9b."
+          },
+          {
+            "path": "visualizableElements[1].item",
+            "importsNextDafConclusion": false,
+            "note": "Reviewed against 9a’s open endpoint: this field does not import a conclusion from 9b."
+          },
+          {
+            "path": "visualizableElements[1].label",
+            "importsNextDafConclusion": false,
+            "note": "Reviewed against 9a’s open endpoint: this field does not import a conclusion from 9b."
+          },
+          {
+            "path": "visualizableElements[1].type",
+            "importsNextDafConclusion": false,
+            "note": "Reviewed against 9a’s open endpoint: this field does not import a conclusion from 9b."
+          }
+        ],
+        "staleContentSweep": {
+          "entries": [
+            {
+              "category": "stale_original_error",
+              "found": false
+            },
+            {
+              "category": "stale_speaker_or_attribution",
+              "found": false
+            },
+            {
+              "category": "contradictory_speaker_attribution",
+              "found": false
+            },
+            {
+              "category": "old_conclusion_in_secondary_field",
+              "found": false
+            },
+            {
+              "category": "false_closure",
+              "found": false
+            },
+            {
+              "category": "next_daf_content_leaked_backward",
+              "found": false
+            },
+            {
+              "category": "claim_unsupported_by_physical_daf",
+              "found": false
+            },
+            {
+              "category": "stale_quiz_question_or_answer",
+              "found": false
+            },
+            {
+              "category": "stale_final_ruling",
+              "found": false
+            },
+            {
+              "category": "stale_summary",
+              "found": false
+            },
+            {
+              "category": "stale_learning_field",
+              "found": false
+            },
+            {
+              "category": "stale_misconception",
+              "found": false
+            },
+            {
+              "category": "stale_related_sugya_description",
+              "found": false
+            },
+            {
+              "category": "stale_visualizable_element_prose",
+              "found": false
+            },
+            {
+              "category": "source_refs_no_longer_supporting_claim",
+              "found": false
+            },
+            {
+              "category": "reference_outside_declared_line_range",
+              "found": false
+            }
+          ]
+        }
+      },
+      "certifiedAtCommit": "9c1cc29ac3b8cb05c090484821a60e564b56a156"
     },
     "yoma-009a-s03": {
       "sugyaId": "yoma-009a-s03",
       "daf": "9a",
-      "state": "REVALIDATION_REQUIRED",
+      "state": "CERTIFIED",
       "firstPass": {
-        "reviewId": "sonnet5-9a-first-20260823a",
+        "reviewId": "rabbi-yoma-9a-schema2-first-20260924",
+        "reviewerContextId": "rabbi-lead-yoma-9a-20260924",
         "sourceFirst": true,
-        "verdict": "REPAIR_REQUIRED",
+        "verdict": "VERIFIED",
         "reviewedSourceFingerprint": "ce21c65609c8e1b68797401e9693da34f9dd3d838c490f52962e77cdc76cf359",
-        "reviewedSemanticFingerprint": "d065384e6121256018e59f7a4afd3097994885b586b385a887b3e228a4169afa",
+        "reviewedSemanticFingerprint": "098e9057f1ee6a2ead36ef51392d2ca33ef674381c9991abaa9578c0414bdfa1",
         "evidence": {
-          "reviewId": "sonnet5-9a-first-20260823a",
+          "reviewId": "rabbi-yoma-9a-schema2-first-20260924",
           "module": "yoma",
           "daf": "9a",
           "sugyaId": "yoma-009a-s03",
-          "independentSourceReconstruction": "Read authoritativeHebrewLines 17-22 in full: R. Yochanan ben Torta asks why Shiloh was destroyed, answering: because of two things practiced there, giluy arayot (sexual immorality) and bizayon kodashim (degradation of sacred offerings). On giluy arayot, the Gemara cites the verse (1 Samuel 2:22, Eli heard of his sons' deeds and how they lay with the women who assembled at the entrance of the Tent of Meeting), then: 'And even though R. Shmuel bar Nachmani said in R. Yochanan's name: whoever says the sons of Eli sinned is merely mistaken - [rather it was] because they delayed...' The daf cuts off mid-word at 'shahu' (delayed). Cross-checked against the file's own Rashi commentary: the only Rashi entry for this passage (vilna line 18 in Rashi's numbering, linked to this exact cutoff) is the single terse phrase 'That they delayed' - with no further elaboration whatsoever. The word 'kanim' (bird-offerings) does not appear anywhere in lines 17-22, nor does any mention of women being kept from their husbands or a 'scriptural attribution by effect' mechanism.",
-          "verdict": "REPAIR_REQUIRED",
-          "defectsFound": [
-            {
-              "field": "display.shortSummary, display.whats, learning.coreTension, learning.coreMove, learning.resolution, learning.ahaMoment, learning.learningBlocker, argumentFlow step-02, visualizableElements, quizSeeds, misconceptions, top-level daf summary, glossary",
-              "description": "The enrichment presents a full, specific explanation of Eli's sons' actual sin (they delayed processing women's bird-offerings/kanim, causing the women to be kept from their husbands, with scripture attributing the delay to them via a 'scriptural attribution by effect' mechanism) as already established within 9a. In fact, the daf's actual text cuts off mid-word at 'because they delayed...' before any of this content appears, and even the file's own Rashi commentary on this exact word adds nothing beyond 'that they delayed.' The word 'kanim' does not appear anywhere in 9a's text. This is content imported from 9b (where the actual explanation must continue) and presented as already resolved on 9a - the same defect class found and repaired on 8b's s03. A glossary entry for 'kanim' compounds the same fabrication."
-            }
-          ],
+          "independentSourceReconstruction": "Lines 17-22 state R. Yochanan ben Torta's two reasons for Shiloh's destruction, cite the verse about Eli's sons, and begin R. Shmuel bar Nachmani's rejection of a literal sin reading. The daf ends with the complete word 'because they delayed' before identifying what was delayed.",
+          "boundaryVerdict": "The physical daf ends after a complete word but mid-sentence; no 9b explanation may be imported into 9a.",
+          "verdict": "VERIFIED",
           "validatedAsCorrect": [
-            "R. Yochanan ben Torta's two-sins framework (giluy arayot, bizayon kodashim) - accurately stated and correctly attributed.",
-            "The verse citation (1 Samuel 2:22) and R. Shmuel bar Nachmani's rehabilitating claim itself ('whoever says the sons of Eli sinned is mistaken') - accurately stated and correctly attributed.",
-            "The declared line range (17-22) is correct: line 17 contains both the end of the Temple-statistics material and the start of R. Yochanan ben Torta's statement (normal shared-boundary line), and line 22 is where the daf genuinely cuts off mid-word."
+            "daf summary",
+            "display",
+            "learning",
+            "argumentFlow",
+            "quizSeeds",
+            "misconceptions",
+            "topicTags",
+            "conceptRefs",
+            "prerequisites",
+            "relatedSugyot",
+            "visualizableElements",
+            "source coordinates",
+            "daf glossary"
           ],
-          "declaration": "Independently read and reconstructed lines 17-22, cross-checked against the file's own (terse, unelaborated) Rashi commentary on the exact cutoff word. Found severe fabrication: the specific mechanism and content of Eli's sons' actual sin (bird-offerings, women kept from husbands, scriptural attribution by effect) is presented as already established, when the daf's own text and its own Rashi commentary both confirm this is genuinely unresolved within 9a, continuing on 9b. REPAIR_REQUIRED."
+          "declaration": "Read all 22 authoritative Hebrew lines before inspecting enrichment and checked every semantic field. Removed the 9b bird-offerings glossary leakage and unsupported neighboring-daf generalization; corrected the physical-boundary description to mid-sentence; and narrowed the 9b s01 related-sugya reason to the continuation actually within that target. The final candidate is source-supported and explicitly unresolved at the daf boundary."
         }
       },
-      "repairRef": "9f2d66cbd086c903016bf15bf6112fd358683b32",
       "sourceFingerprint": "ce21c65609c8e1b68797401e9693da34f9dd3d838c490f52962e77cdc76cf359",
-      "semanticFingerprint": "66c579dd636de06674d338f3ff8968049e36b062a22abb226b7f3d346d9db9ac",
+      "semanticFingerprint": "098e9057f1ee6a2ead36ef51392d2ca33ef674381c9991abaa9578c0414bdfa1",
       "secondPass": {
-        "reviewId": "sonnet5-9a-second-20260823b",
+        "reviewId": "native-yoma-9a-s03-second-v2-20260924",
+        "reviewerContextId": "native-yoma-9a-s03-second-v2-context-20260924",
         "sourceFirst": true,
         "verdict": "CONFIRMED",
         "reviewedSourceFingerprint": "ce21c65609c8e1b68797401e9693da34f9dd3d838c490f52962e77cdc76cf359",
-        "reviewedSemanticFingerprint": "66c579dd636de06674d338f3ff8968049e36b062a22abb226b7f3d346d9db9ac",
+        "reviewedSemanticFingerprint": "098e9057f1ee6a2ead36ef51392d2ca33ef674381c9991abaa9578c0414bdfa1",
         "evidence": {
-          "reviewId": "sonnet5-9a-second-20260823b",
+          "reviewSchema": "semantic-source-first-independent-second-pass-v2",
+          "reviewId": "native-yoma-9a-s03-second-v2-20260924",
+          "reviewerContextId": "native-yoma-9a-s03-second-v2-context-20260924",
+          "reviewMode": "INDEPENDENT_SECOND_PASS",
+          "sourceFirst": true,
           "module": "yoma",
           "daf": "9a",
-          "independentSourceReconstruction": "Re-derived the daf from authoritativeHebrewLines 1-22 fresh, without consulting first-pass reasoning. Confirmed the same three-part structure: (1) lines 1-8, completing 8b's cut-off baraita on bakers' tithes (Yochanan High Priest's survey explaining terumah gedolah, burden of proof explaining maaser rishon/ani, and the general dema'i maaser sheni rule from which Ulla exempts bakers via the parhedrin-pressure account) - cross-checked against the file's own Rashi commentary, which independently confirms Yochanan's decree (cross-referenced to Sotah 48a), the burden-of-proof mechanics, and glosses 'they did not burden them' as relying on majority-tithing assumption, consistent with bakers being exempted from the general maaser sheni requirement rather than performing it themselves; (2) lines 8-16, the Proverbs-verse-driven First/Second Temple High Priest statistics (410/18 vs 420/300+, with the four-priest subtraction arithmetic), verified exact against the raw numbers; (3) lines 17-22, R. Yochanan ben Torta's two-sins framework for Shiloh's destruction and the opening of R. Shmuel bar Nachmani's rehabilitation of Eli's sons, cut off mid-word at 'because they delayed', with the file's own Rashi commentary on this exact word confirmed to add nothing beyond 'that they delayed'.",
-          "perSugya": [
+          "sugyaId": "yoma-009a-s03",
+          "verdict": "CONFIRMED",
+          "reviewedSourceFingerprint": "ce21c65609c8e1b68797401e9693da34f9dd3d838c490f52962e77cdc76cf359",
+          "reviewedSemanticFingerprint": "098e9057f1ee6a2ead36ef51392d2ca33ef674381c9991abaa9578c0414bdfa1",
+          "authoritativeDafReview": {
+            "rawLineCount": 22,
+            "finalRawLine": "ששהו",
+            "dafEndState": "MID_SENTENCE",
+            "sourceFlow": [
+              {
+                "lines": "1-8",
+                "finding": "The daf completes the demai/bakers discussion: terumah gedolah alone was reliably separated; maaser rishon and maaser ani remain governed by hamotzi me-chavero alav ha-ra'ayah; maaser sheni is separated and eaten in Jerusalem; Ulla explains the exemption of pressured bakers from an added burden."
+              },
+              {
+                "lines": "8-17",
+                "finding": "The Gemara asks about parhedrin, then contrasts the First Temple's 410 years and 18 High Priests with the Second Temple's 420 years and more than 300 High Priests, most not completing a year."
+              },
+              {
+                "lines": "17-22",
+                "finding": "R. Yochanan ben Torta attributes Shiloh's destruction to giluy arayot and bizayon kodashim; the verse concerning Eli's sons is cited; R. Shmuel bar Nachmani in R. Yochanan's name rejects a literal reading, and the daf stops at 'מתוך ששהו' before identifying what was delayed."
+              }
+            ]
+          },
+          "boundaryAndCoordinateCheck": {
+            "candidateLineRange": {
+              "startVilnaLine": 17,
+              "endVilnaLine": 22
+            },
+            "candidateSefariaCoordinates": [
+              {
+                "vilnaLine": 17,
+                "sefariaRef": "Yoma.9a.6"
+              },
+              {
+                "vilnaLine": 22,
+                "sefariaRef": "Yoma.9a.7"
+              }
+            ],
+            "verdict": "VERIFIED",
+            "finding": "The target begins with R. Yochanan ben Torta's new Shiloh question in raw line 17 and ends on the physical final raw line. Its overlap with s02 at coarse raw line 17 is required by two source segments beginning/ending within that raw line, not a topic or source leak. The sourceRefs in argument-flow steps are same-daf gemara coordinates at lines 17 and 22 and match their anchored claims."
+          },
+          "semanticFieldReview": {
+            "dafLevel": {
+              "summary": "SUPPORTED: its demai, Temple-statistics, Shiloh, and explicitly unfinished-Eli's-sons descriptions match lines 1-22 and do not import the 9b explanation.",
+              "glossary": "SUPPORTED: both Dema'i and hamotzi me-chavero alav ha-ra'ayah entries accurately explain the line 1-5 material."
+            },
+            "candidateFieldsChecked": [
+              "display.title",
+              "display.oneLine",
+              "display.shortSummary",
+              "display.whats",
+              "display.hint",
+              "learning.learnerQuestion",
+              "learning.coreTension",
+              "learning.coreMove",
+              "learning.resolution",
+              "learning.takeaway.type",
+              "learning.takeaway.text",
+              "learning.reasoningPattern.id",
+              "learning.reasoningPattern.category",
+              "learning.reasoningPattern.notes",
+              "learning.ahaMoment",
+              "learning.learningBlocker",
+              "learning.memoryAnchor",
+              "argumentFlow[step-01] (id, type, label, speaker, text, sourceRefs)",
+              "argumentFlow[step-02] (id, type, label, speaker, text, sourceRefs)",
+              "topicTags",
+              "conceptRefs",
+              "visualizableElements[0] (item, type, label)",
+              "quizSeeds[0] (question, answer)",
+              "quizSeeds[1] (question, answer)",
+              "misconceptions[0] (misconception, correction)",
+              "relatedSugyot[0] (daf, sugyaId, reason)",
+              "relatedSugyot[1] (daf, sugyaId, reason)",
+              "finalRuling (null)",
+              "requiresUnderstanding (empty)",
+              "difficulty",
+              "alternateAngles (empty)",
+              "prerequisiteKnowledge[0]",
+              "lineRange and lines structural coordinates"
+            ],
+            "verdict": "SUPPORTED",
+            "finding": "Every nonempty learner-facing claim is supported by lines 17-22 (or, for the shared daf-level fields, lines 1-22). The records accurately distinguish the stated rehabilitation from its absent explanation. The null final ruling and empty optional fields add no unsupported conclusion."
+          },
+          "rashiCheck": {
+            "coordinate": "yoma-009a-l22",
+            "finding": "The relevant Rashi is only 'That they delayed'; it supplies no missing explanation on 9a. The candidate reports that limitation accurately."
+          },
+          "relatedSugyotCheck": [
             {
-              "sugyaId": "yoma-009a-s01",
-              "verdict": "CONFIRMED",
-              "notes": "Independently re-verified all three argumentFlow steps against lines 1-8. The previously self-contradictory maaser sheni framing (step-01 implying bakers perform the full procedure vs. step-03/finalRuling exempting them) is now resolved consistently: 'separate, bring up, eat in Jerusalem' is the general dema'i rule, and Ulla's account explains bakers' exemption from it. No remaining defects found."
+              "target": {
+                "daf": "9b",
+                "sugyaId": "yoma-009b-s01",
+                "lineRange": "1-9",
+                "sourceCoordinates": [
+                  "Yoma.9b.1 at Vilna line 1",
+                  "Yoma.9b.2 at Vilna line 2"
+                ]
+              },
+              "verdict": "VERIFIED",
+              "finding": "9b opens 'שהו את קיניהן' and immediately explains the delayed bird-offerings and why Scripture treats the delay so severely. The relationship reason is exact and explicitly forward-looking."
             },
             {
-              "sugyaId": "yoma-009a-s02",
-              "verdict": "CONFIRMED",
-              "notes": "Independently re-verified the Temple-statistics content against lines 8-16; accurate and unchanged in substance. Confirmed shortSummary/oneLine/whats/resolution no longer narrate s03's Shiloh content in detail - they now correctly stay within this sugya's own declared line range with only a light forward pointer."
-            },
-            {
-              "sugyaId": "yoma-009a-s03",
-              "verdict": "CONFIRMED",
-              "notes": "Independently re-verified against lines 17-22 and the file's own Rashi commentary. Confirmed the previously fabricated content (kanim/bird-offerings, women kept from husbands, scriptural-attribution-by-effect mechanism) has been fully removed. The repaired content accurately reflects only what is established within 9a's boundary - R. Yochanan ben Torta's two-sins statement and the opening of R. Shmuel bar Nachmani's rehabilitating claim - properly hedged as cut off mid-word, continuing on 9b, consistent with Rashi's own terse comment on the exact cutoff word. No fabricated content remains."
+              "target": {
+                "daf": "9a",
+                "sugyaId": "yoma-009a-s02",
+                "lineRange": "8-17",
+                "sourceCoordinates": [
+                  "Yoma.9a.4 at Vilna line 8",
+                  "Yoma.9a.5 at Vilna line 13"
+                ]
+              },
+              "verdict": "VERIFIED",
+              "finding": "This is the immediately preceding First/Second Temple High-Priest-statistics discussion. Its stated relationship is accurate despite the coarse raw-line overlap at line 17."
             }
           ],
-          "declaration": "Independently re-read the full daf and re-derived every field from scratch, blind to first-pass reasoning, specifically re-checking the maaser sheni internal-consistency fix in s01 and the cut-off boundary in s03 (the daf's most severe originally-found defect). All three sugyot's repaired content is confirmed accurate and fully grounded in the source text and the file's own Rashi commentary, with no remaining fabrication, misattribution, self-contradiction, or boundary-crossing content bleed."
+          "crossDafLeakageCheck": {
+            "verdict": "CLEAR",
+            "finding": "All references to 9b state only that the explanation continues there. No display, learning, argument-flow, quiz, misconception, visualization, summary, or related-sugya reason asserts what Eli's sons delayed as though 9a had reached that conclusion."
+          },
+          "conclusion": "Source-first second pass confirms the exact current candidate. No semantic, attribution, quantity, source-coordinate, boundary, related-target, or next-daf-leakage defect was found."
         }
       },
-      "certifiedAtCommit": "9f2d66cbd086c903016bf15bf6112fd358683b32",
-      "migration": {
-        "fromSchemaVersion": "1.0",
-        "toSchemaVersion": "2.0",
-        "migratedAtCommit": "6e37a672cf9b107b793aca7e10ce116d394317cc",
-        "migrationScript": "scripts/migrate_certification_schema_v2.py",
-        "reason": "Certified under schema 1.0, which required two source-first review passes plus a free-text 'every field was checked' declaration but no mechanically-enumerated, fingerprint-bound final whole-record audit. An independent audit demonstrated that gap concretely on Yoma 7a/7b. This record must receive a fresh schema-2.0 final audit and genuinely independent review before it may certify again; it does not read as CERTIFIED until then."
-      }
+      "finalAudit": {
+        "reviewId": "native-yoma-9a-final-v2-20260924",
+        "auditorContextId": "native-yoma-9a-final-v2-context-20260924",
+        "auditedSourceFingerprint": "ce21c65609c8e1b68797401e9693da34f9dd3d838c490f52962e77cdc76cf359",
+        "auditedSemanticFingerprint": "098e9057f1ee6a2ead36ef51392d2ca33ef674381c9991abaa9578c0414bdfa1",
+        "dafBoundary": {
+          "rawLineCount": 22,
+          "finalRawLine": "ששהו",
+          "dafEndState": "MID_SENTENCE"
+        },
+        "fieldInventory": [
+          {
+            "path": "lineRange",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "lines",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "dafLevel.glossary[0].en",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "9a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 5
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "dafLevel.glossary[0].he",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "9a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 5
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "dafLevel.glossary[0].translit",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "9a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 5
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "dafLevel.glossary[1].en",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "9a",
+                "startVilnaLine": 3,
+                "endVilnaLine": 4
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "dafLevel.glossary[1].he",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "9a",
+                "startVilnaLine": 3,
+                "endVilnaLine": 4
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "dafLevel.glossary[1].translit",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "9a",
+                "startVilnaLine": 3,
+                "endVilnaLine": 4
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "dafLevel.summary",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "9a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 22
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-01].id",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-01].label",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "9a",
+                "startVilnaLine": 17,
+                "endVilnaLine": 22
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-01].sourceRefs[0].lineId",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-01].sourceRefs[0].note",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "9a",
+                "startVilnaLine": 17,
+                "endVilnaLine": 22
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-01].sourceRefs[0].sourceType",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-01].sourceRefs[0].vilnaLine",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-01].speaker",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "9a",
+                "startVilnaLine": 17,
+                "endVilnaLine": 22
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-01].text",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "9a",
+                "startVilnaLine": 17,
+                "endVilnaLine": 22
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-01].type",
+            "verdict": "REVIEWED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "note": "Source-consistent pedagogical classification reviewed against the complete 9a source; it adds no next-daf conclusion."
+          },
+          {
+            "path": "argumentFlow[step-02].id",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-02].label",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "9a",
+                "startVilnaLine": 17,
+                "endVilnaLine": 22
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-02].sourceRefs[0].lineId",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-02].sourceRefs[0].note",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "9a",
+                "startVilnaLine": 17,
+                "endVilnaLine": 22
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-02].sourceRefs[0].sourceType",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-02].sourceRefs[0].vilnaLine",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-02].speaker",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "9a",
+                "startVilnaLine": 17,
+                "endVilnaLine": 22
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-02].text",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "9a",
+                "startVilnaLine": 17,
+                "endVilnaLine": 22
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-02].type",
+            "verdict": "REVIEWED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "note": "Source-consistent pedagogical classification reviewed against the complete 9a source; it adds no next-daf conclusion."
+          },
+          {
+            "path": "conceptRefs[0]",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "conceptRefs[1]",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "conceptRefs[2]",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "difficulty",
+            "verdict": "REVIEWED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "note": "Source-consistent pedagogical classification reviewed against the complete 9a source; it adds no next-daf conclusion."
+          },
+          {
+            "path": "display.hint",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "9a",
+                "startVilnaLine": 17,
+                "endVilnaLine": 22
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "display.oneLine",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "9a",
+                "startVilnaLine": 17,
+                "endVilnaLine": 22
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "display.shortSummary",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "9a",
+                "startVilnaLine": 17,
+                "endVilnaLine": 22
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "display.title",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "9a",
+                "startVilnaLine": 17,
+                "endVilnaLine": 22
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "display.whats",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "9a",
+                "startVilnaLine": 17,
+                "endVilnaLine": 22
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "learning.ahaMoment",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "9a",
+                "startVilnaLine": 17,
+                "endVilnaLine": 22
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "learning.coreMove",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "9a",
+                "startVilnaLine": 17,
+                "endVilnaLine": 22
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "learning.coreTension",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "9a",
+                "startVilnaLine": 17,
+                "endVilnaLine": 22
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "learning.learnerQuestion",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "9a",
+                "startVilnaLine": 17,
+                "endVilnaLine": 22
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "learning.learningBlocker",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "9a",
+                "startVilnaLine": 17,
+                "endVilnaLine": 22
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "learning.memoryAnchor",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "9a",
+                "startVilnaLine": 17,
+                "endVilnaLine": 22
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "learning.reasoningPattern.category",
+            "verdict": "REVIEWED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "note": "Source-consistent pedagogical classification reviewed against the complete 9a source; it adds no next-daf conclusion."
+          },
+          {
+            "path": "learning.reasoningPattern.id",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "learning.reasoningPattern.notes",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "9a",
+                "startVilnaLine": 17,
+                "endVilnaLine": 22
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "learning.resolution",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "9a",
+                "startVilnaLine": 17,
+                "endVilnaLine": 22
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "learning.takeaway.text",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "9a",
+                "startVilnaLine": 17,
+                "endVilnaLine": 22
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "learning.takeaway.type",
+            "verdict": "REVIEWED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "note": "Source-consistent pedagogical classification reviewed against the complete 9a source; it adds no next-daf conclusion."
+          },
+          {
+            "path": "misconceptions[0].correction",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "9a",
+                "startVilnaLine": 17,
+                "endVilnaLine": 22
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "misconceptions[0].misconception",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "9a",
+                "startVilnaLine": 17,
+                "endVilnaLine": 22
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "prerequisiteKnowledge[0]",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "9a",
+                "startVilnaLine": 17,
+                "endVilnaLine": 22
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "quizSeeds[0].answer",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "9a",
+                "startVilnaLine": 17,
+                "endVilnaLine": 22
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "quizSeeds[0].question",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "9a",
+                "startVilnaLine": 17,
+                "endVilnaLine": 22
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "quizSeeds[1].answer",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "9a",
+                "startVilnaLine": 17,
+                "endVilnaLine": 22
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "quizSeeds[1].question",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "9a",
+                "startVilnaLine": 17,
+                "endVilnaLine": 22
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "relatedSugyot[0].daf",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "9b",
+                "startVilnaLine": 1,
+                "endVilnaLine": 9
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": true
+          },
+          {
+            "path": "relatedSugyot[0].reason",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "9b",
+                "startVilnaLine": 1,
+                "endVilnaLine": 9
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": true
+          },
+          {
+            "path": "relatedSugyot[0].sugyaId",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "9b",
+                "startVilnaLine": 1,
+                "endVilnaLine": 9
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": true
+          },
+          {
+            "path": "relatedSugyot[1].daf",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "9a",
+                "startVilnaLine": 8,
+                "endVilnaLine": 17
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": true
+          },
+          {
+            "path": "relatedSugyot[1].reason",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "9a",
+                "startVilnaLine": 8,
+                "endVilnaLine": 17
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": true
+          },
+          {
+            "path": "relatedSugyot[1].sugyaId",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "9a",
+                "startVilnaLine": 8,
+                "endVilnaLine": 17
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": true
+          },
+          {
+            "path": "topicTags[0]",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "topicTags[1]",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "topicTags[2]",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "topicTags[3]",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "topicTags[4]",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "visualizableElements[0].item",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "9a",
+                "startVilnaLine": 17,
+                "endVilnaLine": 22
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "visualizableElements[0].label",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "9a",
+                "startVilnaLine": 17,
+                "endVilnaLine": 22
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "visualizableElements[0].type",
+            "verdict": "REVIEWED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "note": "Source-consistent pedagogical classification reviewed against the complete 9a source; it adds no next-daf conclusion."
+          }
+        ],
+        "boundaryLeakageSweep": [
+          {
+            "path": "dafLevel.glossary[0].en",
+            "importsNextDafConclusion": false,
+            "note": "Reviewed against 9a’s open endpoint: this field does not import a conclusion from 9b."
+          },
+          {
+            "path": "dafLevel.glossary[0].he",
+            "importsNextDafConclusion": false,
+            "note": "Reviewed against 9a’s open endpoint: this field does not import a conclusion from 9b."
+          },
+          {
+            "path": "dafLevel.glossary[0].translit",
+            "importsNextDafConclusion": false,
+            "note": "Reviewed against 9a’s open endpoint: this field does not import a conclusion from 9b."
+          },
+          {
+            "path": "dafLevel.glossary[1].en",
+            "importsNextDafConclusion": false,
+            "note": "Reviewed against 9a’s open endpoint: this field does not import a conclusion from 9b."
+          },
+          {
+            "path": "dafLevel.glossary[1].he",
+            "importsNextDafConclusion": false,
+            "note": "Reviewed against 9a’s open endpoint: this field does not import a conclusion from 9b."
+          },
+          {
+            "path": "dafLevel.glossary[1].translit",
+            "importsNextDafConclusion": false,
+            "note": "Reviewed against 9a’s open endpoint: this field does not import a conclusion from 9b."
+          },
+          {
+            "path": "dafLevel.summary",
+            "importsNextDafConclusion": false,
+            "note": "Reviewed against 9a’s open endpoint: this field does not import a conclusion from 9b."
+          },
+          {
+            "path": "argumentFlow[step-01].label",
+            "importsNextDafConclusion": false,
+            "note": "Reviewed against 9a’s open endpoint: this field does not import a conclusion from 9b."
+          },
+          {
+            "path": "argumentFlow[step-01].sourceRefs[0].note",
+            "importsNextDafConclusion": false,
+            "note": "Reviewed against 9a’s open endpoint: this field does not import a conclusion from 9b."
+          },
+          {
+            "path": "argumentFlow[step-01].speaker",
+            "importsNextDafConclusion": false,
+            "note": "Reviewed against 9a’s open endpoint: this field does not import a conclusion from 9b."
+          },
+          {
+            "path": "argumentFlow[step-01].text",
+            "importsNextDafConclusion": false,
+            "note": "Reviewed against 9a’s open endpoint: this field does not import a conclusion from 9b."
+          },
+          {
+            "path": "argumentFlow[step-01].type",
+            "importsNextDafConclusion": false,
+            "note": "Reviewed against 9a’s open endpoint: this field does not import a conclusion from 9b."
+          },
+          {
+            "path": "argumentFlow[step-02].label",
+            "importsNextDafConclusion": false,
+            "note": "Reviewed against 9a’s open endpoint: this field does not import a conclusion from 9b."
+          },
+          {
+            "path": "argumentFlow[step-02].sourceRefs[0].note",
+            "importsNextDafConclusion": false,
+            "note": "Reviewed against 9a’s open endpoint: this field does not import a conclusion from 9b."
+          },
+          {
+            "path": "argumentFlow[step-02].speaker",
+            "importsNextDafConclusion": false,
+            "note": "Reviewed against 9a’s open endpoint: this field does not import a conclusion from 9b."
+          },
+          {
+            "path": "argumentFlow[step-02].text",
+            "importsNextDafConclusion": false,
+            "note": "Reviewed against 9a’s open endpoint: this field does not import a conclusion from 9b."
+          },
+          {
+            "path": "argumentFlow[step-02].type",
+            "importsNextDafConclusion": false,
+            "note": "Reviewed against 9a’s open endpoint: this field does not import a conclusion from 9b."
+          },
+          {
+            "path": "difficulty",
+            "importsNextDafConclusion": false,
+            "note": "Reviewed against 9a’s open endpoint: this field does not import a conclusion from 9b."
+          },
+          {
+            "path": "display.hint",
+            "importsNextDafConclusion": false,
+            "note": "Reviewed against 9a’s open endpoint: this field does not import a conclusion from 9b."
+          },
+          {
+            "path": "display.oneLine",
+            "importsNextDafConclusion": false,
+            "note": "Reviewed against 9a’s open endpoint: this field does not import a conclusion from 9b."
+          },
+          {
+            "path": "display.shortSummary",
+            "importsNextDafConclusion": false,
+            "note": "Reviewed against 9a’s open endpoint: this field does not import a conclusion from 9b."
+          },
+          {
+            "path": "display.title",
+            "importsNextDafConclusion": false,
+            "note": "Reviewed against 9a’s open endpoint: this field does not import a conclusion from 9b."
+          },
+          {
+            "path": "display.whats",
+            "importsNextDafConclusion": false,
+            "note": "Reviewed against 9a’s open endpoint: this field does not import a conclusion from 9b."
+          },
+          {
+            "path": "learning.ahaMoment",
+            "importsNextDafConclusion": false,
+            "note": "Reviewed against 9a’s open endpoint: this field does not import a conclusion from 9b."
+          },
+          {
+            "path": "learning.coreMove",
+            "importsNextDafConclusion": false,
+            "note": "Reviewed against 9a’s open endpoint: this field does not import a conclusion from 9b."
+          },
+          {
+            "path": "learning.coreTension",
+            "importsNextDafConclusion": false,
+            "note": "Reviewed against 9a’s open endpoint: this field does not import a conclusion from 9b."
+          },
+          {
+            "path": "learning.learnerQuestion",
+            "importsNextDafConclusion": false,
+            "note": "Reviewed against 9a’s open endpoint: this field does not import a conclusion from 9b."
+          },
+          {
+            "path": "learning.learningBlocker",
+            "importsNextDafConclusion": false,
+            "note": "Reviewed against 9a’s open endpoint: this field does not import a conclusion from 9b."
+          },
+          {
+            "path": "learning.memoryAnchor",
+            "importsNextDafConclusion": false,
+            "note": "Reviewed against 9a’s open endpoint: this field does not import a conclusion from 9b."
+          },
+          {
+            "path": "learning.reasoningPattern.category",
+            "importsNextDafConclusion": false,
+            "note": "Reviewed against 9a’s open endpoint: this field does not import a conclusion from 9b."
+          },
+          {
+            "path": "learning.reasoningPattern.notes",
+            "importsNextDafConclusion": false,
+            "note": "Reviewed against 9a’s open endpoint: this field does not import a conclusion from 9b."
+          },
+          {
+            "path": "learning.resolution",
+            "importsNextDafConclusion": false,
+            "note": "Reviewed against 9a’s open endpoint: this field does not import a conclusion from 9b."
+          },
+          {
+            "path": "learning.takeaway.text",
+            "importsNextDafConclusion": false,
+            "note": "Reviewed against 9a’s open endpoint: this field does not import a conclusion from 9b."
+          },
+          {
+            "path": "learning.takeaway.type",
+            "importsNextDafConclusion": false,
+            "note": "Reviewed against 9a’s open endpoint: this field does not import a conclusion from 9b."
+          },
+          {
+            "path": "misconceptions[0].correction",
+            "importsNextDafConclusion": false,
+            "note": "Reviewed against 9a’s open endpoint: this field does not import a conclusion from 9b."
+          },
+          {
+            "path": "misconceptions[0].misconception",
+            "importsNextDafConclusion": false,
+            "note": "Reviewed against 9a’s open endpoint: this field does not import a conclusion from 9b."
+          },
+          {
+            "path": "prerequisiteKnowledge[0]",
+            "importsNextDafConclusion": false,
+            "note": "Reviewed against 9a’s open endpoint: this field does not import a conclusion from 9b."
+          },
+          {
+            "path": "quizSeeds[0].answer",
+            "importsNextDafConclusion": false,
+            "note": "Reviewed against 9a’s open endpoint: this field does not import a conclusion from 9b."
+          },
+          {
+            "path": "quizSeeds[0].question",
+            "importsNextDafConclusion": false,
+            "note": "Reviewed against 9a’s open endpoint: this field does not import a conclusion from 9b."
+          },
+          {
+            "path": "quizSeeds[1].answer",
+            "importsNextDafConclusion": false,
+            "note": "Reviewed against 9a’s open endpoint: this field does not import a conclusion from 9b."
+          },
+          {
+            "path": "quizSeeds[1].question",
+            "importsNextDafConclusion": false,
+            "note": "Reviewed against 9a’s open endpoint: this field does not import a conclusion from 9b."
+          },
+          {
+            "path": "relatedSugyot[0].daf",
+            "importsNextDafConclusion": false,
+            "note": "Reviewed against 9a’s open endpoint: this field does not import a conclusion from 9b."
+          },
+          {
+            "path": "relatedSugyot[0].reason",
+            "importsNextDafConclusion": false,
+            "note": "Reviewed against 9a’s open endpoint: this field does not import a conclusion from 9b."
+          },
+          {
+            "path": "relatedSugyot[0].sugyaId",
+            "importsNextDafConclusion": false,
+            "note": "Reviewed against 9a’s open endpoint: this field does not import a conclusion from 9b."
+          },
+          {
+            "path": "relatedSugyot[1].daf",
+            "importsNextDafConclusion": false,
+            "note": "Reviewed against 9a’s open endpoint: this field does not import a conclusion from 9b."
+          },
+          {
+            "path": "relatedSugyot[1].reason",
+            "importsNextDafConclusion": false,
+            "note": "Reviewed against 9a’s open endpoint: this field does not import a conclusion from 9b."
+          },
+          {
+            "path": "relatedSugyot[1].sugyaId",
+            "importsNextDafConclusion": false,
+            "note": "Reviewed against 9a’s open endpoint: this field does not import a conclusion from 9b."
+          },
+          {
+            "path": "visualizableElements[0].item",
+            "importsNextDafConclusion": false,
+            "note": "Reviewed against 9a’s open endpoint: this field does not import a conclusion from 9b."
+          },
+          {
+            "path": "visualizableElements[0].label",
+            "importsNextDafConclusion": false,
+            "note": "Reviewed against 9a’s open endpoint: this field does not import a conclusion from 9b."
+          },
+          {
+            "path": "visualizableElements[0].type",
+            "importsNextDafConclusion": false,
+            "note": "Reviewed against 9a’s open endpoint: this field does not import a conclusion from 9b."
+          }
+        ],
+        "staleContentSweep": {
+          "entries": [
+            {
+              "category": "stale_original_error",
+              "found": false
+            },
+            {
+              "category": "stale_speaker_or_attribution",
+              "found": false
+            },
+            {
+              "category": "contradictory_speaker_attribution",
+              "found": false
+            },
+            {
+              "category": "old_conclusion_in_secondary_field",
+              "found": false
+            },
+            {
+              "category": "false_closure",
+              "found": false
+            },
+            {
+              "category": "next_daf_content_leaked_backward",
+              "found": false
+            },
+            {
+              "category": "claim_unsupported_by_physical_daf",
+              "found": false
+            },
+            {
+              "category": "stale_quiz_question_or_answer",
+              "found": false
+            },
+            {
+              "category": "stale_final_ruling",
+              "found": false
+            },
+            {
+              "category": "stale_summary",
+              "found": false
+            },
+            {
+              "category": "stale_learning_field",
+              "found": false
+            },
+            {
+              "category": "stale_misconception",
+              "found": false
+            },
+            {
+              "category": "stale_related_sugya_description",
+              "found": false
+            },
+            {
+              "category": "stale_visualizable_element_prose",
+              "found": false
+            },
+            {
+              "category": "source_refs_no_longer_supporting_claim",
+              "found": false
+            },
+            {
+              "category": "reference_outside_declared_line_range",
+              "found": false
+            }
+          ]
+        }
+      },
+      "certifiedAtCommit": "9c1cc29ac3b8cb05c090484821a60e564b56a156"
     },
     "yoma-009b-s01": {
       "sugyaId": "yoma-009b-s01",

@@ -1,7 +1,7 @@
 {
  "daf": "9a",
  "canonicalRef": "Yoma 9a",
- "summary": "9a has two sections. First, the bakers' tithe discussion from 8b is concluded: Yochanan (Yohanan) High Priest sent emissaries throughout Israel and found that only terumah gedolah was being universally separated (Rashi cross-references his dema'i decree to Sotah 48a). Maaser rishon and maaser ani are not required from bakers because the burden of proof is on the claimant. The general dema'i rule for maaser sheni is to separate it, bring it up, and eat it in Jerusalem, but Ulla explains that the Rabbis exempted bakers from even this, since the parhedrin officials already pressured them to sell cheaply every 12 months. Second, the Gemara pivots to the contrast between the First and Second Temple periods: Rabba bar bar Chana in the name of R. Yochanan expounds that the First Temple stood 410 years with only 18 High Priests, while the Second Temple stood 420 years with over 300 High Priests. R. Yochanan ben Torta then begins to explain why Shiloh was destroyed - giluy arayot (sexual immorality) and bizayon kodashim (degradation of sacred offerings) - and R. Shmuel bar Nachmani says anyone who claims Eli's sons literally sinned is mistaken, beginning 'because they delayed...' before the daf cuts off mid-word, continuing on 9b.",
+ "summary": "9a concludes the bakers' tithe discussion: Yochanan High Priest found that only terumah gedolah was universally separated; maaser rishon and maaser ani remain subject to the claimant's burden of proof; and although dema'i maaser sheni is ordinarily separated and eaten in Jerusalem, Ulla says the Rabbis did not further burden bakers already pressured by the parhedrin officials to sell cheaply. The Gemara then contrasts the First Temple's 410 years and 18 High Priests with the Second Temple's 420 years and more than 300 High Priests, most of whom did not complete a year in office. Finally, R. Yochanan ben Torta attributes Shiloh's destruction to sexual immorality and degradation of sacred offerings. R. Shmuel bar Nachmani rejects the claim that Eli's sons literally sinned, but 9a ends after the complete word 'because they delayed,' before the sentence explains what they delayed.",
  "review": {
   "learning": "ai_generated",
   "concepts": "ai_generated",
@@ -38,18 +38,18 @@
    "display": {
     "title": "Yochanan High Priest's dema'i decree; bakers and parhedrin pressure",
     "oneLine": "Yochanan High Priest's survey found only terumah gedolah universally separated, explaining bakers' exemption from it; the general dema'i rule for maaser sheni is to separate, bring up, and eat it in Jerusalem, but Ulla explains the Rabbis exempted bakers from even this, given the economic pressure the parhedrin already placed on them.",
-    "shortSummary": "The baraita: Yochanan High Priest sent emissaries throughout the borders of Israel and saw that only terumah gedolah was being universally separated (explaining why bakers need not separate it themselves, per 8b's rule). Maaser rishon and maaser ani: the rule is that the one seeking to extract from another bears the burden of proof - so the Levi and the poor man would have to prove the grain was untithed. Maaser sheni: the general dema'i rule is to separate it, bring it up, and eat it in Jerusalem. Ulla then explains why bakers specifically were not burdened with this: the parhedrin (government enforcers) would beat them every 12 months and demand they sell at low prices, so the Rabbis did not add the maaser sheni requirement on top of that existing economic pressure. 'Parhedrin' here means government officials/enforcers.",
-    "whats": "This section completes 8b's cut-off baraita, explaining tier by tier why bakers need only separate terumat maaser and challah. Yochanan High Priest's survey (cross-referenced by Rashi to Sotah 48a, where his dema'i decree is discussed at length) explains the terumah gedolah tier; burden of proof explains maaser rishon and maaser ani; and Ulla's account of parhedrin economic pressure explains why bakers were exempted even from the general maaser sheni requirement that otherwise applies to dema'i.",
-    "hint": "The word 'parhedrin' appears in two different senses across 8b-9a: the Persian governors used earlier as a metaphor for corrupt High Priests, and here as government economic enforcers who pressured bakers - is that a coincidence, or the same underlying institution?"
+    "shortSummary": "The baraita: Yochanan High Priest sent emissaries throughout the borders of Israel and saw that only terumah gedolah was being universally separated (explaining why bakers need not separate it themselves, per 8b's rule). Maaser rishon and maaser ani: the rule is that the one seeking to extract from another bears the burden of proof - so the Levi and the poor man would have to prove the grain was untithed. Maaser sheni: the general dema'i rule is to separate it, bring it up, and eat it in Jerusalem. Ulla then explains why bakers specifically were not burdened with this: the parhedrin (government enforcers) would beat them throughout all twelve months and demand they sell at low prices, so the Rabbis did not add the maaser sheni requirement on top of that existing economic pressure. 'Parhedrin' here means government officials/enforcers.",
+    "whats": "This section gives three reasons within its own sequence: Yochanan High Priest's survey explains why terumah gedolah is treated differently; burden of proof governs maaser rishon and maaser ani; and Ulla says the Rabbis did not impose the ordinary dema'i maaser sheni procedure on bakers already pressured by the parhedrin officials.",
+    "hint": "Which parts of the answer rest on a legal burden of proof, and which part rests on Ulla's account of the bakers' treatment by the parhedrin?"
    },
    "learning": {
     "learnerQuestion": "Why were bakers specifically exempted from the general dema'i maaser sheni requirement?",
-    "coreTension": "The general dema'i rule requires separating maaser sheni, bringing it up, and eating it in Jerusalem. But bakers face a commercial reality: they sell continuously and are subject to government price controls enforced by officials (parhedrin) who show up every 12 months threatening them. Burdening them further with this requirement, on top of that pressure, would be economically impossible.",
+    "coreTension": "The general dema'i rule requires separating maaser sheni, bringing it up, and eating it in Jerusalem. Yet Ulla says parhedrin officials already beat the bakers throughout the year and demanded cheap sales, so the Rabbis did not impose this additional burden on them.",
     "coreMove": "Ulla's explanation introduces a sociological factor into halachic reasoning: when government pressure makes a community economically precarious, the Rabbis considered that factor when exempting bakers from the general dema'i maaser sheni requirement. This is a deliberate welfare consideration embedded in the ruling, distinct from the burden-of-proof reasoning used for maaser rishon and maaser ani.",
-    "resolution": "Practical: bakers who buy grain from amei ha'aretz need to separate only trumat maaser (1/100) and challah. They are exempt from maaser rishon and maaser ani (burden of proof) and from the general dema'i maaser sheni requirement (Ulla's parhedrin-pressure leniency).",
+    "resolution": "Maaser rishon and maaser ani cannot be extracted without proof that the am ha'aretz seller failed to tithe, and Ulla explains that the Rabbis did not further burden bakers with the ordinary dema'i maaser sheni procedure.",
     "takeaway": {
      "type": "legal_principle",
-     "text": "Halacha is not context-blind. When a community faces structural economic pressure that makes compliance impossible, the Rabbis can adjust obligations accordingly - not by waiving the Torah requirement but by adjusting the Rabbinic dema'i framework."
+     "text": "The passage distinguishes two kinds of reasoning: monetary claims depend on proof, while Ulla explains the bakers' maaser sheni treatment by the burden already imposed on them by the parhedrin."
     },
     "reasoningPattern": {
      "id": "welfare-consideration-in-halakha",
@@ -57,8 +57,8 @@
      "notes": "Ulla's parhedrin explanation shows the Rabbis considering structural economic oppression as a factor in halachic ruling. This is distinct from the legal burden-of-proof analysis (the Levi/poor man must prove the grain was untithed)."
     },
     "ahaMoment": "Yochanan High Priest's survey is remarkable: instead of assuming compliance, he investigated and found that most of Israel was only doing the minimum - only terumah gedolah. Rashi cross-references this directly to his dema'i decree discussed in Sotah 48a. The dema'i system is his pragmatic response: require separation without requiring verification, thus making the system workable - and bakers receive an additional, targeted exemption on top of that general framework.",
-    "learningBlocker": "Students may think 'dema'i' simply means 'doubtful tevel.' More precisely: dema'i is the Rabbinic category of produce from an am ha'aretz where the large tithes (trumah gedolah, trumat maaser) are generally separated, but the full tithe regime (maaser sheni, maaser ani, etc.) may not have been. The required separations from dema'i are calibrated to this real-world compliance picture.",
-    "memoryAnchor": "Yochanan sent throughout Israel, found only terumah gedolah reliably separated. Maaser rishon/ani: burden of proof. Maaser sheni: the general rule is separate+bring up+eat in Jerusalem, but bakers are exempted from even this because parhedrin government enforcers beat them annually and forced low prices - piling more obligations on them would be impossible."
+    "learningBlocker": "Do not read Yochanan's finding as saying that terumat maaser was already reliably separated. The text says only terumah gedolah was universally separated; Rashi explains why terumat maaser still carries a prohibited-consumption concern.",
+    "memoryAnchor": "Yochanan found only terumah gedolah reliably separated. Maaser rishon and maaser ani depend on the claimant's proof; ordinary dema'i maaser sheni is separated and eaten in Jerusalem, but Ulla says the Rabbis did not further burden the pressured bakers."
    },
    "argumentFlow": [
     {
@@ -94,9 +94,9 @@
     {
      "id": "step-03",
      "type": "explanation",
-     "label": "Ulla: parhedrin officials beat bakers annually; therefore not burdened further",
+     "label": "Ulla: parhedrin officials beat bakers throughout all twelve months; therefore not burdened further",
      "speaker": "Ulla",
-     "text": "The parhedrin (government officials) would beat the bakers every 12 months, demanding they sell bread cheaply. Because the government already oppressed them economically, the Rabbis did not add the general dema'i maaser sheni requirement (separate, bring up, and eat in Jerusalem) on top of that pressure - bakers were exempted from it entirely.",
+     "text": "The parhedrin (government officials) would beat the bakers throughout all twelve months, demanding they sell bread cheaply. Because the government already oppressed them economically, the Rabbis did not add the general dema'i maaser sheni requirement (separate, bring up, and eat in Jerusalem) on top of that pressure - bakers were exempted from it entirely.",
      "sourceRefs": [
       {
        "sourceType": "gemara",
@@ -123,12 +123,12 @@
    ],
    "visualizableElements": [
     {
-     "item": "Yochanan High Priest's survey process: (1) sends emissaries throughout Israel; (2) discovers only terumah gedolah is universally separated; (3) this explains the earlier-stated baraita rule that bakers need separate only terumat maaser and challah.",
+     "item": "Yochanan High Priest's survey process: he sends emissaries throughout Israel and discovers that only terumah gedolah is universally separated.",
      "type": "sequence",
      "label": "Yochanan High Priest's survey"
     },
     {
-     "item": "Government enforcers (parhedrin) pressuring bakers to sell cheaply every 12 months - the context Ulla cites for why the Rabbis exempted bakers from the general dema'i maaser sheni requirement.",
+     "item": "Government enforcers (parhedrin) pressuring bakers to sell cheaply throughout all twelve months - the context Ulla cites for why the Rabbis exempted bakers from the general dema'i maaser sheni requirement.",
      "type": "person",
      "label": "Parhedrin officials and bakers"
     }
@@ -140,7 +140,7 @@
     },
     {
      "question": "Why were bakers not required to separate dema'i maaser sheni, according to Ulla?",
-     "answer": "Government officials (parhedrin) would beat the bakers annually and force them to sell at low prices. The Rabbis did not want to further burden an already economically oppressed group."
+     "answer": "Government officials (parhedrin) would beat the bakers throughout all twelve months and force them to sell at low prices. The Rabbis did not want to further burden an already economically oppressed group."
     }
    ],
    "misconceptions": [
@@ -152,16 +152,16 @@
    "relatedSugyot": [
     {
      "daf": "8b",
-     "sugyaId": "yoma-008b-s02",
-     "reason": "The bakers and Lishkat Parhedrin discussion that this section concludes"
+     "sugyaId": "yoma-008b-s03",
+     "reason": "The bakers' dema'i baraita whose explanation continues here"
     },
     {
      "daf": "9a",
      "sugyaId": "yoma-009a-s02",
-     "reason": "Immediately following: First vs. Second Temple High Priest statistics and Temple destruction causes"
+     "reason": "Immediately following: First- and Second-Temple High Priest statistics"
     }
    ],
-   "finalRuling": "Practical: bakers are required to separate only trumat maaser (1/100) and challah from their dough. They are exempt from maaser rishon and maaser ani (burden of proof) and from the general dema'i maaser sheni requirement (Ulla's parhedrin-pressure leniency).",
+   "finalRuling": "Maaser rishon and maaser ani are not extracted from the baker without proof that the seller failed to tithe; Ulla says the Rabbis did not further burden bakers with the ordinary dema'i maaser sheni procedure.",
    "requiresUnderstanding": [
     "yoma-008b-s03"
    ],
@@ -182,7 +182,7 @@
    "id": "yoma-009a-s02",
    "lineRange": {
     "startVilnaLine": 8,
-    "endVilnaLine": 16
+    "endVilnaLine": 17
    },
    "lines": [
     {
@@ -203,25 +203,25 @@
     "oneLine": "R. Yochanan expounds the irony that the righteous First Temple lasted 410 years with 18 stable High Priests, while the religiously lax Second Temple lasted 420 years with 300+ High Priests.",
     "shortSummary": "Rabba bar bar Chana in R. Yochanan's name: Proverbs says 'the fear of God adds days; the years of the wicked will be shortened.' 'Fear of God adds days' = the First Temple, which stood 410 years and had only 18 High Priests. 'Years of wicked shortened' = the Second Temple, which stood 420 years with more than 300 High Priests - subtracting 40 years for Shimon HaTzaddik, 80 for Yochanan, 10 for Yishmael ben Favi (or 11 for R. Elazar ben Charsum), the remaining High Priests served less than one year each. The Gemara then turns to a separate topic: why Shiloh was destroyed, taken up in the next sugya.",
     "whats": "This aggadic section uses historical statistics to make a theological point: the wickedness of an era does not determine how long it lasts. The Second Temple's High Priests were mostly corrupt and short-lived, yet the Temple itself outlasted the First Temple by 10 years. The destruction statistics invert the Proverbs verse - the fear of God is associated with quality (fewer, longer-serving priests) not quantity (more Temple years).",
-    "hint": "The Second Temple outlasted the First by 10 years despite having 300+ High Priests to the First's 18 - what does that contrast say about what actually makes an institution endure?"
+    "hint": "How does the number of High Priests serving each Temple period illustrate the two halves of the Proverbs verse?"
    },
    "learning": {
-    "learnerQuestion": "The Second Temple lasted 10 years longer than the First but had 300+ times more High Priests. What does the Talmud want us to take from this?",
+    "learnerQuestion": "Why does the Gemara contrast 18 High Priests in 410 years with more than 300 in 420 years?",
     "coreTension": "Longevity of the Temple and stability of its leadership are distinct. The Second Temple period outlasted the First in duration but was spiritually impoverished - as measured by how quickly High Priests turned over. The Proverbs verse is made to map onto Temple history in a counterintuitive way: the 'righteous' Temple (First) had long-serving priests; the 'wicked' one (Second) had short-serving rotating ones.",
-    "coreMove": "The calculation is precise and memorable: total Second Temple years (420), minus four exceptional High Priests' terms (40 + 80 + 10 + 11 = 141), leaves ~279 years for 300+ remaining High Priests, each serving less than a year. The arithmetic is the sermon.",
+    "coreMove": "The Gemara removes the exceptional tenures: Shimon HaTzaddik's 40 years, Yochanan's 80, and then either Yishmael ben Favi's 10 or, according to another version, R. Elazar ben Charsum's 11. For the remaining priests, one can calculate that each failed to complete a year.",
     "resolution": "The arithmetic makes its point: institutional longevity and leadership stability are distinct measures. The Gemara then moves to a separate topic (why Shiloh was destroyed) in the next sugya.",
     "takeaway": {
      "type": "conceptual",
-     "text": "Institutional longevity does not equal spiritual health. A corrupt institution can persist for centuries while a righteous one may be brief. The measure of a generation is not how long its institutions last but the quality of its leadership and service."
+     "text": "The Proverbs contrast is illustrated through tenure: the First Temple's few High Priests served for long periods, whereas the Second Temple's many remaining High Priests did not complete a year."
     },
     "reasoningPattern": {
      "id": "statistical-aggadah",
      "category": "aggadic",
      "notes": "The Talmud uses historical statistics as a form of moral argument. The calculation of High Priest terms per year is not antiquarian interest - it is a vehicle for illustrating the spiritual bankruptcy of the Second Temple period's leadership."
     },
-    "ahaMoment": "The numbers are designed to shock: 300+ High Priests in 420 years. After accounting for the four long-serving ones (141 years combined), the rest served less than a year each on average - the Temple stood, but on a foundation of institutional corruption.",
-    "learningBlocker": "Students may assume a longer-standing Temple reflects greater merit. The Gemara's point is the opposite: the Second Temple outlasted the First by 10 years despite (or because of) its corrupt, rapidly-rotating leadership.",
-    "memoryAnchor": "First Temple: 410 years, 18 High Priests (quality). Second Temple: 420 years, 300+ High Priests (quantity without quality) - subtract the four long-serving priests (141 years) and the rest served less than a year each."
+    "ahaMoment": "The alternatives matter: the text does not add Yishmael ben Favi's 10 years to R. Elazar ben Charsum's 11. It presents one tenure or the other, yet either calculation leaves the remaining priests serving less than a year each.",
+    "learningBlocker": "Do not combine the alternative traditions into four consecutive tenures. The text gives Yishmael ben Favi's 10 years, or according to another version R. Elazar ben Charsum's 11 years.",
+    "memoryAnchor": "First Temple: 410 years, 18 High Priests. Second Temple: 420 years, over 300. Subtract 40, 80, and either 10 or 11; each remaining priest failed to complete a year."
    },
    "argumentFlow": [
     {
@@ -242,9 +242,9 @@
     {
      "id": "step-02",
      "type": "analysis",
-     "label": "The math: subtracting the four stable High Priests",
+     "label": "The math: subtracting the exceptional tenures",
      "speaker": "Gemara",
-     "text": "Subtract: Shimon HaTzaddik (40 years), Yochanan (80 years), Yishmael ben Favi (10 years, or R. Elazar ben Charsum - 11 years). The remaining 300+ High Priests served the remaining years: less than one year each.",
+     "text": "Subtract Shimon HaTzaddik's 40 years, Yochanan's 80, and Yishmael ben Favi's 10 years - or, according to another version, R. Elazar ben Charsum's 11. Calculate the remaining years and priests: each one failed to complete a year.",
      "sourceRefs": [
       {
        "sourceType": "gemara",
@@ -267,14 +267,14 @@
    ],
    "visualizableElements": [
     {
-     "item": "First vs. Second Temple High Priest statistics: First Temple (410 years, 18 High Priests, ~23 years each) vs. Second Temple (420 years, 300+ High Priests, under 1 year each after subtracting the four long-serving ones). The contrast visualizes institutional stability vs. corruption.",
+     "item": "First- and Second-Temple High Priest statistics: First Temple (410 years, 18 High Priests) versus Second Temple (420 years, over 300 High Priests), with the remaining Second-Temple priests failing to complete a year after the exceptional tenures are removed.",
      "type": "comparison",
      "label": "First vs. Second Temple High Priest statistics"
     },
     {
-     "item": "The four exceptional Second Temple High Priests - Shimon HaTzaddik (40 years), Yochanan (80 years), Yishmael ben Favi (10 years), R. Elazar ben Charsum (11 years) - account for 141 of the 420 years; everything else is 300+ High Priests in the remaining ~279 years.",
+     "item": "The exceptional Second-Temple tenures: Shimon HaTzaddik (40 years), Yochanan (80 years), and either Yishmael ben Favi (10 years) or R. Elazar ben Charsum (11 years), depending on the textual tradition.",
      "type": "timeline",
-     "label": "Four exceptional Second Temple High Priests"
+     "label": "Exceptional Second Temple tenures"
     }
    ],
    "quizSeeds": [
@@ -283,14 +283,14 @@
      "answer": "'Fear of God adds days' = First Temple (410 years, only 18 High Priests - quality/stability). 'Years of wicked shorten' = Second Temple (420 years, 300+ High Priests - rapid turnover despite longer duration)."
     },
     {
-     "question": "After subtracting the four long-serving Second Temple High Priests, what does the math show?",
-     "answer": "Four exceptional High Priests account for 141 years (40+80+10+11). The remaining 300+ High Priests served in the remaining ~279 years - less than one year each."
+     "question": "Which exceptional tenures does the Gemara subtract, and what does the remaining calculation show?",
+     "answer": "It subtracts Shimon HaTzaddik's 40 years, Yochanan's 80, and either Yishmael ben Favi's 10 or R. Elazar ben Charsum's 11. The remaining priests each failed to complete a year."
     }
    ],
    "misconceptions": [
     {
      "misconception": "The Second Temple was holier than the First because it lasted longer.",
-     "correction": "Longevity does not indicate holiness. The Second Temple lasted longer but had far more corrupt leadership. The Talmud uses this contrast to illustrate that God's timing does not always track human merit in simple ways."
+     "correction": "The passage applies 'fear of God adds days' and 'the years of the wicked are shortened' to the priests' tenures: the Second Temple's remaining High Priests did not complete a year."
     }
    ],
    "relatedSugyot": [
@@ -360,7 +360,7 @@
     "reasoningPattern": {
      "id": "cut-off-citation-continues-next-daf",
      "category": "structural",
-     "notes": "The same daf-boundary pattern seen elsewhere on this daf's neighbors: a citation or explanation begins but is completed only on the next daf. Rashi's own terse note here ('that they delayed,' with nothing further) confirms rather than resolves the cutoff."
+     "notes": "The qualification begins with the complete word 'because they delayed,' but 9a ends before identifying what was delayed. Rashi's terse note repeats that phrase without resolving it."
     },
     "ahaMoment": "'Anyone who says the sons of Eli sinned is mistaken' is a bold rehabilitation of a biblical figure described in harsh terms in Samuel - stated before the Gemara has actually explained what they did instead.",
     "learningBlocker": "Students may assume the rehabilitation is fully explained within 9a. It is not: only the claim itself and the word 'because they delayed' appear here; what was delayed and why scripture's language applies to it are explained on 9b.",
@@ -437,7 +437,7 @@
     {
      "daf": "9b",
      "sugyaId": "yoma-009b-s01",
-     "reason": "9b immediately continues with the details of bizayon kodashim and the broader Temple destruction theme"
+     "reason": "9b immediately explains what Eli's sons delayed and why the verse treats that delay so severely"
     },
     {
      "daf": "9a",
@@ -599,12 +599,7 @@
   {
    "he": "הַמּוֹצִיא מֵחֲבֵרוֹ עָלָיו הָרְאָיָה",
    "translit": "Hamotzi m'chaveiro alav hara'ayah",
-   "en": "The one who seeks to extract from another bears the burden of proof. Applied here: the Levi or poor person claiming their tithe must prove the baker did not already separate it."
-  },
-  {
-   "he": "קִינִּים",
-   "translit": "Kanim",
-   "en": "Bird-offerings (pairs of doves or pigeons) brought by women after childbirth or bodily flux. Eli's sons delayed processing them, causing women to remain at the Tabernacle."
+   "en": "The one who seeks to extract from another bears the burden of proof. Applied here: the Levi or poor person must prove that the am ha'aretz seller from whom the baker bought had not tithed."
   }
  ]
 }
