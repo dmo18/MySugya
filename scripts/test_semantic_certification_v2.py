@@ -32,9 +32,11 @@ from semantic_certification import (
     make_certified_record,
     raw_dir,
 )
+import validate_semantic_certification as vsc
 from migrate_certification_schema_v2 import migrate
 from validate_semantic_certification import (
     _migration_path_map,
+    active_schema_migration,
     allowed_schema_migration_downgrade,
     schema_migration_equivalent,
 )
@@ -776,6 +778,99 @@ def test_26_duplicate_stale_sweep_category_fails():
     state, problems = certificate_status(MODULE, daf, doc, sugya, rec)
     assert state != "CERTIFIED"
     assert any("duplicate category" in p for p in problems), problems
+
+
+def _with_worker_manifest(head_manifest, base_manifest_by_ref):
+    """Monkeypatch REPO (for the head manifest file) and load_json_at (for
+    the base-ref manifest lookup) so active_schema_migration can be tested
+    without a real git history. Returns a context manager-like pair of
+    (setup, teardown) via try/finally in the caller.
+    """
+    tmp = tempfile.mkdtemp()
+    tmp_path = Path(tmp)
+    if head_manifest is not None:
+        (tmp_path / ".worker-manifest.json").write_text(json.dumps(head_manifest), encoding="utf-8")
+    original_repo = vsc.REPO
+    original_load_json_at = vsc.load_json_at
+
+    def fake_load_json_at(ref, rel):
+        assert rel == ".worker-manifest.json"
+        return base_manifest_by_ref.get(ref)
+
+    vsc.REPO = tmp_path
+    vsc.load_json_at = fake_load_json_at
+    return tmp, original_repo, original_load_json_at
+
+
+def _restore_worker_manifest(tmp, original_repo, original_load_json_at):
+    vsc.REPO = original_repo
+    vsc.load_json_at = original_load_json_at
+    shutil.rmtree(tmp, ignore_errors=True)
+
+
+VALID_MANIFEST = {
+    "type": "enrichment-schema-migration",
+    "module": MODULE,
+    "authorizations": ["authorizeMigration"],
+    "migrationKinds": ["difficulty"],
+}
+
+
+def test_27_unchanged_migration_manifest_vs_base_is_inactive():
+    """A merged migration manifest that is byte-identical between base and
+    head must not keep granting the representation-only ratchet exception on
+    later ordinary PRs -- only the manifest's own introduction/change should."""
+    ctx = _with_worker_manifest(VALID_MANIFEST, {"origin/main": VALID_MANIFEST})
+    try:
+        assert active_schema_migration(MODULE, "origin/main") == set()
+    finally:
+        _restore_worker_manifest(*ctx)
+
+
+def test_28_newly_introduced_migration_manifest_vs_base_is_active():
+    """The actual migration PR, where base has no manifest yet, must still
+    receive the representation-only comparison."""
+    ctx = _with_worker_manifest(VALID_MANIFEST, {"origin/main": None})
+    try:
+        assert active_schema_migration(MODULE, "origin/main") == {"difficulty"}
+    finally:
+        _restore_worker_manifest(*ctx)
+
+
+def test_29_changed_migration_manifest_vs_base_is_active():
+    """A manifest whose declared kinds changed relative to base (e.g. widened
+    or narrowed mid-migration) is treated as active, not stale."""
+    old_manifest = dict(VALID_MANIFEST, migrationKinds=["visualizable-elements"])
+    ctx = _with_worker_manifest(VALID_MANIFEST, {"origin/main": old_manifest})
+    try:
+        assert active_schema_migration(MODULE, "origin/main") == {"difficulty"}
+    finally:
+        _restore_worker_manifest(*ctx)
+
+
+def test_30_migration_manifest_without_base_preserves_helper_behavior():
+    """scripts/migrate_enrichment_schema_certifications.py calls
+    active_schema_migration with no base argument and must keep working
+    unconditionally on a real migration branch, even once the manifest is
+    identical to some ref (base comparison is opt-in via the base argument)."""
+    ctx = _with_worker_manifest(VALID_MANIFEST, {"some-ref": VALID_MANIFEST})
+    try:
+        assert active_schema_migration(MODULE) == {"difficulty"}
+        assert active_schema_migration(MODULE, "some-ref") == set()
+    finally:
+        _restore_worker_manifest(*ctx)
+
+
+def test_31_invalid_migration_manifest_is_never_active():
+    """An unauthorized or malformed manifest stays inactive regardless of
+    base, protecting the ordinary ratchet from an unauthorized carve-out."""
+    unauthorized = dict(VALID_MANIFEST, authorizations=[])
+    ctx = _with_worker_manifest(unauthorized, {"origin/main": None})
+    try:
+        assert active_schema_migration(MODULE, "origin/main") == set()
+        assert active_schema_migration(MODULE) == set()
+    finally:
+        _restore_worker_manifest(*ctx)
 
 
 def main() -> None:
