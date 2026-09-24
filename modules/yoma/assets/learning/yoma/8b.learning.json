@@ -289,19 +289,34 @@
      ]
     },
     {
-     "id": "step-02",
-     "type": "explanation",
-     "label": "Historical explanation: renamed due to corruption",
-     "speaker": "Baraita",
-     "text": "Originally it was called Lishkat Balvati during the era of Shimon HaTzaddik. But once the Second Temple High Priesthood was purchased for money and its corrupt occupants commonly did not survive the year, each newly appointed High Priest demolished the chamber and rebuilt it more beautifully so that it bore his own name - and so, changing every 12 months like the Persian parhedrin, the room came to be called Lishkat Parhedrin.",
-     "sourceRefs": [
-      {
-       "sourceType": "gemara",
-       "lineId": "yoma-008b-l24",
-       "vilnaLine": 24,
-       "note": "Historical explanation of name change"
-      }
-     ]
+      "id": "step-02",
+      "type": "explanation",
+      "label": "Historical explanation: renamed due to corruption",
+      "speaker": "Baraita",
+      "text": "Originally it was called Lishkat Balvati. But once the High Priesthood was purchased for money and its occupants were replaced every 12 months, like the Persian parhedrin who also rotated annually, the room came to be called Lishkat Parhedrin.",
+      "sourceRefs": [
+        {
+          "sourceType": "gemara",
+          "lineId": "yoma-008b-l24",
+          "vilnaLine": 24,
+          "note": "Baraita's historical explanation of the name change"
+        }
+      ]
+    },
+    {
+      "id": "step-03",
+      "type": "clarification",
+      "label": "Rashi explains the annual turnover and rebuilding",
+      "speaker": "Rashi",
+      "text": "Rashi adds that Lishkat Balvati was the name during the era of Shimon HaTzaddik. Later officeholders were corrupt and commonly did not survive the year, and each newly appointed High Priest demolished the chamber and rebuilt it more beautifully so that it bore his own name.",
+      "sourceRefs": [
+        {
+          "sourceType": "gemara",
+          "lineId": "yoma-008b-l24",
+          "vilnaLine": 24,
+          "note": "Rashi's gloss on the baraita's annual replacement language"
+        }
+      ]
     }
    ],
    "topicTags": [
