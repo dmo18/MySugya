@@ -80679,97 +80679,124 @@
       "daf": "10a",
       "state": "REPAIR_REQUIRED",
       "firstPass": {
-        "reviewId": "native-yoma-10a-second-s01-20260924",
-        "reviewerContextId": "native-yoma-10a-second-20260924",
+        "reviewId": "native-yoma-10a-second2-s01-20260924",
+        "reviewerContextId": "native-yoma-10a-second2-20260924",
         "sourceFirst": true,
         "verdict": "REPAIR_REQUIRED",
         "reviewedSourceFingerprint": "ed35c58c3cc062371a93f82a77d2d27735a6ec7bd8a476b1f0cc8fdfdfa4dfca",
-        "reviewedSemanticFingerprint": "7734dc6678e9b6bcff1b78405c446678f7dc7843e85f70bc875b197cce2cfd08",
+        "reviewedSemanticFingerprint": "b6ea8318e5eb6bf827ff3c82adf855c5903a5933b743dd1d0730272579faa397",
         "evidence": {
           "origin": "independent-second-pass-rejection",
           "reviewEvidence": {
-            "evidenceSchema": "mysugya-independent-second-pass-v1",
-            "reviewId": "native-yoma-10a-second-s01-20260924",
-            "reviewerContextId": "native-yoma-10a-second-20260924",
+            "reviewId": "native-yoma-10a-second2-s01-20260924",
+            "reviewerContextId": "native-yoma-10a-second2-20260924",
             "reviewMode": "INDEPENDENT_SECOND_PASS",
-            "sourceFirst": true,
             "module": "yoma",
             "daf": "10a",
             "sugyaId": "yoma-010a-s01",
             "verdict": "REJECTED",
-            "reviewedSourceFingerprint": "ed35c58c3cc062371a93f82a77d2d27735a6ec7bd8a476b1f0cc8fdfdfa4dfca",
-            "reviewedSemanticFingerprint": "7734dc6678e9b6bcff1b78405c446678f7dc7843e85f70bc875b197cce2cfd08",
-            "sourceFirstRecord": {
-              "authoritativeHebrewReadInFullBeforeCandidate": true,
-              "rawLineCount": 48,
-              "independentWholeDafFlow": [
-                "Lines 1-28 complete the Yefet/Shem statement, identify biblical nations and places, establish Tiras as Persia, and interpret Achiman, Sheshai and Talmai.",
-                "Lines 28-41 present the opposed Rome-Persia outcomes and the nine-month Roman dominion before the son of David.",
-                "Lines 41-48 begin the Parhedrin-mezuza discussion and end mid-response at 'dilma'."
-              ],
-              "physicalDafBoundary": {
-                "finalRawLine": 48,
-                "dafEndState": "MID_ARGUMENT",
-                "nextDafConclusionImported": false
-              }
+            "sourceFirst": true,
+            "authoritativeSourceReadCompletely": true,
+            "sourceFlowReconstruction": "Lines 1-9 complete the Yefet/Shem discussion and identify Yefet's descendants, with a dispute over Tiras followed by Rav Yosef's Tiras=Persia teaching. Lines 10-24 identify additional biblical places; Rav Yosef is named for Sakistan and Asshur=Silek, while the other identifications are unattributed. Lines 25-28 expound Achiman, Sheshai, Talmai and yelidei ha-anak; the new Rome-Persia unit begins later on physical line 28.",
+            "dafSummaryVerdict": "VERIFIED",
+            "boundaryVerdict": "VERIFIED",
+            "declaredLineRange": {
+              "startVilnaLine": 1,
+              "endVilnaLine": 28
             },
-            "dafLevelReview": {
-              "summary": "CONFIRMED: the page summary accurately preserves the three topic blocks and explicitly marks the final mezuza argument unresolved.",
-              "glossary": "CONFIRMED: the daf glossary entries were checked and no defect affecting this candidate was found."
-            },
-            "boundaryAndCoordinateReview": {
-              "declaredVilnaRange": "1-28",
-              "verdict": "REJECTED: the topic boundary itself is sound, but argumentFlow.step-05 cites line 15 for the Tiras-to-Persia lineage conclusion even though line 15 begins Kalneh/Asshur material; the supporting source is lines 3-9."
-            },
-            "fieldReview": {
-              "everySemanticMetadataAndStructuralFieldChecked": true,
-              "familiesChecked": [
-                "display",
-                "learning and nested metadata",
-                "all argumentFlow steps and sourceRefs",
-                "tags and prerequisites",
-                "misconceptions",
-                "visualizableElements",
-                "quizSeeds",
-                "finalRuling",
-                "difficulty",
-                "daf summary and glossary",
-                "line and Sefaria coordinates"
-              ]
-            },
+            "boundaryEvidence": "The range correctly owns the source units beginning at line 1 through the giants exposition ending on physical line 28. The shared physical line 28 also begins the next sugya, but the source chunks and line IDs separate the two units correctly.",
+            "checkedSemanticFields": [
+              "daf summary",
+              "display title/oneLine/shortSummary/whats/hint",
+              "all learning fields",
+              "all argumentFlow labels/types/speakers/text/sourceRefs",
+              "topicTags",
+              "conceptRefs",
+              "requiresUnderstanding",
+              "prerequisiteKnowledge",
+              "misconceptions",
+              "relatedSugyot",
+              "visualizableElements",
+              "quizSeeds",
+              "finalRuling",
+              "difficulty",
+              "alternateAngles",
+              "daf glossary",
+              "lineRange and source coordinates",
+              "daf-end leakage"
+            ],
             "defects": [
               {
-                "fields": [
-                  "argumentFlow[3].speaker",
-                  "argumentFlow[3].text"
+                "affectedFields": [
+                  "display.shortSummary"
                 ],
-                "sourceLines": "10-24",
-                "currentClaim": "Rav Yosef continues identifying all the listed Genesis 10 places, including Bavel, Erech, Akkad, Kalneh, Nineveh, Rechovot Ir, Kalach and Resen.",
-                "sourceActuallySupports": "Rav Yosef is expressly attributed at lines 10 and 16 only for the Sakistan identification and Asshur=Silek. The intervening and following city identifications are anonymous Gemara material.",
-                "requiredCorrection": "Do not attribute the entire step to Rav Yosef; split the attributed teachings from the anonymous identifications or use an accurate mixed attribution."
+                "sourceLines": [
+                  {
+                    "daf": "10a",
+                    "startVilnaLine": 10,
+                    "endVilnaLine": 24
+                  }
+                ],
+                "currentClaim": "Rav Yosef also identifies the full parenthetical list of further places, including Bavel, Erech, Akkad, Kalneh, Nineveh, Rechovot Ir, Kalach and Resen.",
+                "sourceActuallySupports": "Rav Yosef is expressly named for Sakistan at lines 10-12 and Asshur=Silek at lines 15-16. The remaining place identifications are presented without attribution to Rav Yosef.",
+                "requiredCorrection": "Restrict Rav Yosef's attribution to Sakistan and Asshur=Silek; attribute the remaining identifications to the Gemara/passage without naming him."
               },
               {
-                "fields": [
-                  "argumentFlow[4].sourceRefs[0]"
+                "affectedFields": [
+                  "argumentFlow[2].speaker",
+                  "argumentFlow[2].text"
                 ],
-                "sourceLines": "3-9",
-                "currentClaim": "The Tiras/Persia/Yefet conclusion is anchored to Vilna line 15.",
-                "sourceActuallySupports": "Line 15 concerns Kalneh and the beginning of the Asshur passage. Tiras is listed as Yefet's son and identified as Persia at lines 3-9.",
-                "requiredCorrection": "Point this conclusion to an in-range source anchor covering lines 3-9."
+                "sourceLines": [
+                  {
+                    "daf": "10a",
+                    "startVilnaLine": 3,
+                    "endVilnaLine": 9
+                  }
+                ],
+                "currentClaim": "The whole list of Gomer through Meshech is spoken by Rav Yosef, with Tiras then disputed and Rav Yosef teaching Tiras=Persia.",
+                "sourceActuallySupports": "The list Gomer through Meshech is unattributed. Tiras is disputed by R. Simai/R. Simon and the Rabbis; only the closing Tiras=Persia statement is explicitly introduced as Rav Yosef's teaching.",
+                "requiredCorrection": "Use an unattributed Gemara speaker for the general list and separately preserve Rav Yosef's attribution only for Tiras=Persia."
               },
               {
-                "fields": [
-                  "learning.takeaway.text",
-                  "learning.ahaMoment",
-                  "misconceptions[0].correction"
+                "affectedFields": [
+                  "argumentFlow[3].sourceRefs"
                 ],
-                "sourceLines": "2-28",
-                "currentClaim": "Every nation identification has prophetic stakes and every mapped nation determines which prophecies apply or who wins the end game.",
-                "sourceActuallySupports": "The daf uses Tiras=Persia in the ensuing prophecy discussion. It does not assign prophetic stakes to every other identification in the list.",
-                "requiredCorrection": "Narrow the pedagogical claim to the demonstrated significance of the Persia/Tiras identification and avoid universalizing that function to every name."
+                "sourceLines": [
+                  {
+                    "daf": "10a",
+                    "startVilnaLine": 10,
+                    "endVilnaLine": 24
+                  }
+                ],
+                "currentClaim": "A lone line-12 reference supports Sakistan, Asshur=Silek, the later city identifications, and the Nineveh proof.",
+                "sourceActuallySupports": "Sakistan begins at line 10, the Babel/Erech unit at line 12, and Asshur/Nineveh/Resen and the Jonah proof at lines 15-24.",
+                "requiredCorrection": "Add exact source references covering the line-10, line-12 and line-15 source chunks (through physical line 24)."
+              },
+              {
+                "affectedFields": [
+                  "learning.reasoningPattern.notes"
+                ],
+                "sourceLines": [
+                  {
+                    "daf": "10a",
+                    "startVilnaLine": 2,
+                    "endVilnaLine": 28
+                  }
+                ],
+                "currentClaim": "Each identification carries prophetic weight.",
+                "sourceActuallySupports": "This daf demonstrably uses Tiras=Persia for the following prophecy; it does not assign prophetic weight to every geographic or giant-name identification.",
+                "requiredCorrection": "Limit the note to the demonstrated role of Tiras=Persia and describe the rest as geographic/name exposition without claiming universal prophetic weight."
               }
             ],
-            "explicitCompletionStatement": "I read all 48 authoritative Hebrew lines before inspecting the candidate and checked every current semantic field and placement for this record. The listed attribution, coordinate, and overclaim defects prevent confirmation."
+            "dafEndLeakage": "NONE in this sugya",
+            "glossaryVerdict": "VERIFIED",
+            "repairScope": [
+              "display.shortSummary",
+              "argumentFlow[2].speaker",
+              "argumentFlow[2].text",
+              "argumentFlow[3].sourceRefs",
+              "learning.reasoningPattern.notes"
+            ]
           }
         }
       }
@@ -80777,7 +80804,7 @@
     "yoma-010a-s02": {
       "sugyaId": "yoma-010a-s02",
       "daf": "10a",
-      "state": "REPAIR_REQUIRED",
+      "state": "PENDING_FINAL_AUDIT",
       "firstPass": {
         "reviewId": "native-yoma-10a-second-s02-20260924",
         "reviewerContextId": "native-yoma-10a-second-20260924",
@@ -80862,6 +80889,93 @@
             "explicitCompletionStatement": "I read all 48 authoritative Hebrew lines before inspecting the candidate and checked every current semantic field and placement for this record. The unsupported majority label and misleading misconception correction prevent confirmation."
           }
         }
+      },
+      "repairRef": "a3904532b9943900f7140fdfbf841be50b6fe78f",
+      "sourceFingerprint": "5cd32b73c2e8318231a0b3fceede521fc16bed69c43e6b49a6d7944db0de4f00",
+      "semanticFingerprint": "cb1727af91553d7f7cf3ff32582488a0e23f34def2bd95ef1b4cec1a1430fada",
+      "secondPass": {
+        "reviewId": "native-yoma-10a-second2-s02-20260924",
+        "reviewerContextId": "native-yoma-10a-second2-20260924",
+        "sourceFirst": true,
+        "verdict": "CONFIRMED",
+        "reviewedSourceFingerprint": "5cd32b73c2e8318231a0b3fceede521fc16bed69c43e6b49a6d7944db0de4f00",
+        "reviewedSemanticFingerprint": "cb1727af91553d7f7cf3ff32582488a0e23f34def2bd95ef1b4cec1a1430fada",
+        "evidence": {
+          "reviewId": "native-yoma-10a-second2-s02-20260924",
+          "reviewerContextId": "native-yoma-10a-second2-20260924",
+          "reviewMode": "INDEPENDENT_SECOND_PASS",
+          "module": "yoma",
+          "daf": "10a",
+          "sugyaId": "yoma-010a-s02",
+          "verdict": "CONFIRMED",
+          "sourceFirst": true,
+          "authoritativeSourceReadCompletely": true,
+          "sourceFlowReconstruction": "Lines 28-34 give Rabbi's Rome-falls-to-Persia teaching, Rabba bar Ulla's Persia-or-Greece challenge, and the answer that tze'irei means the youngest brother, Tiras/Persia. Lines 34-37 give R. Yehuda beRabi Ilai's Temple kal vachomer. Lines 37-41 give Rav's contrary Persia-falls-to-Rome view, Rav Kahana and Rav Assi's objection, Rav's two alternative answers, the supporting baraita combining both reasons, and Rome's nine-month worldwide rule before the son of David comes.",
+          "dafSummaryVerdict": "VERIFIED",
+          "boundaryVerdict": "VERIFIED",
+          "declaredLineRange": {
+            "startVilnaLine": 28,
+            "endVilnaLine": 41
+          },
+          "boundaryEvidence": "The unit correctly begins with R. Yehoshua ben Levi's teaching on physical line 28 and ends with the nine-month teaching on physical line 41. The next Parhedrin unit begins later on the same physical line 41 and is separated by its own source chunk/line ID.",
+          "checkedSemanticFields": [
+            "daf summary",
+            "display title/oneLine/shortSummary/whats/hint",
+            "all learning fields",
+            "all argumentFlow labels/types/speakers/text/sourceRefs",
+            "topicTags",
+            "conceptRefs",
+            "requiresUnderstanding",
+            "prerequisiteKnowledge",
+            "misconceptions",
+            "relatedSugyot",
+            "visualizableElements",
+            "quizSeeds",
+            "finalRuling",
+            "difficulty",
+            "alternateAngles",
+            "daf glossary",
+            "lineRange and source coordinates",
+            "daf-end leakage"
+          ],
+          "semanticEvidence": [
+            {
+              "sourceLines": [
+                {
+                  "daf": "10a",
+                  "startVilnaLine": 28,
+                  "endVilnaLine": 34
+                }
+              ],
+              "finding": "The first proof, challenge, named transmitters, Persia/Greece alternatives, and youngest-brother/Tiras resolution are accurately represented."
+            },
+            {
+              "sourceLines": [
+                {
+                  "daf": "10a",
+                  "startVilnaLine": 34,
+                  "endVilnaLine": 37
+                }
+              ],
+              "finding": "The second proof is accurately attributed and states the Temple-builder/destroyer kal vachomer without changing its direction."
+            },
+            {
+              "sourceLines": [
+                {
+                  "daf": "10a",
+                  "startVilnaLine": 37,
+                  "endVilnaLine": 41
+                }
+              ],
+              "finding": "Rav's dissent, the students' objection, the two alternative answers, the baraita's combined reasons, and the nine-month teaching are accurate in sequence, attribution and quantity."
+            }
+          ],
+          "sourceRefsVerdict": "VERIFIED",
+          "glossaryVerdict": "VERIFIED",
+          "dafEndLeakage": "NONE",
+          "defects": [],
+          "repairScope": []
+        }
       }
     },
     "yoma-010a-s03": {
@@ -80869,78 +80983,112 @@
       "daf": "10a",
       "state": "REPAIR_REQUIRED",
       "firstPass": {
-        "reviewId": "native-yoma-10a-second-s03-20260924",
-        "reviewerContextId": "native-yoma-10a-second-20260924",
+        "reviewId": "native-yoma-10a-second2-s03-20260924",
+        "reviewerContextId": "native-yoma-10a-second2-20260924",
         "sourceFirst": true,
         "verdict": "REPAIR_REQUIRED",
         "reviewedSourceFingerprint": "3ed7e74d6972199456cd8af54635f6549f3ab889ec3587a02a08ef8c2ede9502",
-        "reviewedSemanticFingerprint": "19ea252b709391d08f5b9482bcbc827658692700cc9533bbd08eed8aec4f60c0",
+        "reviewedSemanticFingerprint": "9f85dc4df572cc337c3417d0adb0e5af4f2c86593e3f8c17335fa1bd81a8d17a",
         "evidence": {
           "origin": "independent-second-pass-rejection",
           "reviewEvidence": {
-            "evidenceSchema": "mysugya-independent-second-pass-v1",
-            "reviewId": "native-yoma-10a-second-s03-20260924",
-            "reviewerContextId": "native-yoma-10a-second-20260924",
+            "reviewId": "native-yoma-10a-second2-s03-20260924",
+            "reviewerContextId": "native-yoma-10a-second2-20260924",
             "reviewMode": "INDEPENDENT_SECOND_PASS",
-            "sourceFirst": true,
             "module": "yoma",
             "daf": "10a",
             "sugyaId": "yoma-010a-s03",
             "verdict": "REJECTED",
-            "reviewedSourceFingerprint": "3ed7e74d6972199456cd8af54635f6549f3ab889ec3587a02a08ef8c2ede9502",
-            "reviewedSemanticFingerprint": "19ea252b709391d08f5b9482bcbc827658692700cc9533bbd08eed8aec4f60c0",
-            "sourceFirstRecord": {
-              "authoritativeHebrewReadInFullBeforeCandidate": true,
-              "rawLineCount": 48,
-              "independentWholeDafFlow": [
-                "Lines 1-28: nation identifications.",
-                "Lines 28-41: Rome-Persia dispute.",
-                "Lines 41-48: Parhedrin's exceptional mezuza, R. Yehuda's decree position, the year-round-house explanation, and Abaye's two challenges; the second stops at 'dilma'."
-              ],
-              "physicalDafBoundary": {
-                "finalRawLine": 48,
-                "finalRawText": "דילמא",
-                "dafEndState": "MID_ARGUMENT",
-                "nextDafConclusionImported": true
-              }
+            "sourceFirst": true,
+            "authoritativeSourceReadCompletely": true,
+            "sourceFlowReconstruction": "Lines 41-43 state the chamber-mezuza baraita and R. Yehuda's objection/decree. Lines 44-46 give Rava's both-seasons definition of bayit and Abaye's first challenge; the answer says the seasonal structures are called winter-house and summer-house but not an unmodified house. Lines 46-48 give Abaye's sukkah challenge, the supplementary teaching that R. Yehuda obligates eruv/mezuza/maaser, the Gemara's question whether maaser can be only rabbinic, and the cutoff word dilma. No resolution occurs on 10a.",
+            "dafSummaryVerdict": "VERIFIED",
+            "boundaryVerdict": "VERIFIED",
+            "declaredLineRange": {
+              "startVilnaLine": 41,
+              "endVilnaLine": 48
             },
-            "dafLevelReview": {
-              "summary": "CONFIRMED: it marks the second challenge unresolved and does not state its later answer.",
-              "glossary": "CONFIRMED"
-            },
-            "boundaryAndCoordinateReview": {
-              "declaredVilnaRange": "41-48",
-              "verdict": "REJECTED: the structural range and source anchors are correct, but candidate prose imports the later explanation for the decree, which is not stated in the authorized Gemara range."
-            },
-            "fieldReview": {
-              "everySemanticMetadataAndStructuralFieldChecked": true,
-              "familiesChecked": [
-                "display",
-                "learning and nested metadata",
-                "all argumentFlow steps, speakers, types and sourceRefs",
-                "tags and prerequisites",
-                "misconceptions",
-                "visualizableElements",
-                "quizSeeds",
-                "finalRuling",
-                "difficulty",
-                "daf summary and glossary",
-                "line and Sefaria coordinates"
-              ]
-            },
+            "boundaryEvidence": "The unit begins with the Parhedrin baraita later on physical line 41 and reaches the absolute end of the daf at line 48, which is the complete word dilma but an open continuation of the argument.",
+            "checkedSemanticFields": [
+              "daf summary",
+              "display title/oneLine/shortSummary/whats/hint",
+              "all learning fields",
+              "all argumentFlow labels/types/speakers/text/sourceRefs",
+              "topicTags",
+              "conceptRefs",
+              "requiresUnderstanding",
+              "prerequisiteKnowledge",
+              "misconceptions",
+              "relatedSugyot",
+              "visualizableElements",
+              "quizSeeds",
+              "finalRuling",
+              "difficulty",
+              "alternateAngles",
+              "daf glossary",
+              "lineRange and source coordinates",
+              "daf-end leakage"
+            ],
             "defects": [
               {
-                "fields": [
+                "affectedFields": [
                   "display.shortSummary",
-                  "learning.ahaMoment"
+                  "learning.resolution",
+                  "learning.memoryAnchor",
+                  "argumentFlow[3].text"
                 ],
-                "sourceLines": "41-48",
-                "currentClaim": "The special decree was enacted so people would not think the High Priest was imprisoned there.",
-                "sourceActuallySupports": "On 10a R. Yehuda says only that the mezuza was a decree. The daf does not yet state the decree's rationale. The supplied Rashi explicitly says that the Gemara explains it later, so this is a later-source result rather than a conclusion established in this record's authorized range.",
-                "requiredCorrection": "Remove the imprisonment rationale from local explanatory prose, or present it only through a legitimate explicit cross-reference field; keep 10a's treatment at 'a decree whose rationale is not yet supplied here.'"
+                "sourceLines": [
+                  {
+                    "daf": "10a",
+                    "startVilnaLine": 44,
+                    "endVilnaLine": 46
+                  }
+                ],
+                "currentClaim": "The first challenge is answered that only an explicitly labeled winter/summer house counts as bayit/house, while a plain unlabeled one does not.",
+                "sourceActuallySupports": "Rava's answer is the opposite distinction: each is called specifically 'winter-house' or 'summer-house,' but neither is called an unmodified 'house' (bayit stam). The qualifier does not make a seasonal structure count as the unqualified legal bayit.",
+                "requiredCorrection": "State that the verse uses qualified compounds ('winter-house'/'summer-house') and therefore does not prove that a seasonal residence is called bayit without qualification or meets R. Yehuda's bayit criterion."
+              },
+              {
+                "affectedFields": [
+                  "argumentFlow[4].text"
+                ],
+                "sourceLines": [
+                  {
+                    "daf": "10a",
+                    "startVilnaLine": 46,
+                    "endVilnaLine": 47
+                  }
+                ],
+                "currentClaim": "The baraita teaches that R. Yehuda obligates all three and that the Sages exempt the sukkah from all three.",
+                "sourceActuallySupports": "The source states R. Yehuda and the Sages disagree about sukkat hachag bachag, then supplements only R. Yehuda's position with eruv, mezuza and maaser. It does not explicitly state here that the Sages exempt all three.",
+                "requiredCorrection": "Do not extend the Sages' explicit exemption to all three items without source support; present the supplementary threefold obligation as R. Yehuda's teaching."
+              },
+              {
+                "affectedFields": [
+                  "argumentFlow[4].sourceRefs"
+                ],
+                "sourceLines": [
+                  {
+                    "daf": "10a",
+                    "startVilnaLine": 46,
+                    "endVilnaLine": 48
+                  }
+                ],
+                "currentClaim": "A lone line-46 source reference supports the rabbinic-obligation question and the cutoff word dilma as well as the initial sukkah teaching.",
+                "sourceActuallySupports": "The initial teaching is line 46; the rabbinic-status question is line 47 and the open response/cutoff is line 48.",
+                "requiredCorrection": "Add exact source references covering lines 47 and 48, or otherwise bind the step to the full 46-48 range."
               }
             ],
-            "explicitCompletionStatement": "I read all 48 authoritative Hebrew lines before inspecting the candidate and checked every current semantic field and placement for this record. The daf-end unresolved state is otherwise handled correctly, but the later decree rationale is imported into ordinary local fields, so the candidate cannot be confirmed."
+            "dafEndLeakage": "No next-daf conclusion is imported; the candidate correctly says the second challenge remains unresolved. The physical daf ends at line 48 with dilma, an open argument continuation.",
+            "glossaryVerdict": "VERIFIED",
+            "repairScope": [
+              "display.shortSummary",
+              "learning.resolution",
+              "learning.memoryAnchor",
+              "argumentFlow[3].text",
+              "argumentFlow[4].text",
+              "argumentFlow[4].sourceRefs"
+            ]
           }
         }
       }

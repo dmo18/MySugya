@@ -20918,7 +20918,7 @@ const DAF_CONTENT = {
         display: {
           title: "Identifying the nations of Genesis 10; the giants' names interpreted",
           oneLine: "The Gemara maps the nations listed in Genesis 10 to known contemporary peoples, establishing that Persia descends from Yefet, then homiletically interprets the names of the giants seen by the spies.",
-          shortSummary: "Completing 9b's cutoff: even though Genesis 9:27 says God will enlarge Yefet, the Divine Presence dwells only in the tents of Shem - the Persians merited building the Second Temple, but the Shechina rested fully only in the First Temple, built by Shlomo of Shem's line. The Gemara then asks how we know the Persians descend from Yefet, and identifies each nation in Genesis 10 with a contemporary counterpart: Gomer is Germania, Magog is Kandia, Madai is Macedonia, Yavan is literally Greece, Tuval is Beit Unyaki, Meshech is Musya, and Tiras is Persia (Rav Yosef). Rav Yosef also identifies further place names from the Table of Nations (Sakistan inner and outer; Bavel, Erech, Akkad, Kalneh; Assyria; Nineveh, Rechovot Ir, Kalach, Resen), and the Gemara confirms Nineveh as 'the great city' via the verse in Jonah. Finally, a baraita homiletically interprets the names of the giants the spies saw (Achiman, Sheshai, Talmai) - as descriptions of their destructive/skilled traits, and alternatively as the names of cities they built - and 'yelidei ha'anak' as meaning they were so tall they seemed to embrace the sun.",
+          shortSummary: "Completing 9b's cutoff: even though Genesis 9:27 says God will enlarge Yefet, the Divine Presence dwells only in the tents of Shem - the Persians merited building the Second Temple, but the Shechina rested fully only in the First Temple, built by Shlomo of Shem's line. The Gemara then asks how we know the Persians descend from Yefet, and identifies each nation in Genesis 10 with a contemporary counterpart: Gomer is Germania, Magog is Kandia, Madai is Macedonia, Yavan is literally Greece, Tuval is Beit Unyaki, Meshech is Musya, and Tiras is Persia (the last identification is also taught by Rav Yosef). The passage continues with further place names from the Table of Nations; Rav Yosef specifically identifies Sakistan and Asshur as Silek, while the Gemara identifies Bavel, Erech, Akkad, Kalneh, Nineveh, Rechovot Ir, Kalach, and Resen and confirms Nineveh as 'the great city' via the verse in Jonah. Finally, a baraita homiletically interprets the names of the giants the spies saw (Achiman, Sheshai, Talmai) - as descriptions of their destructive/skilled traits, and alternatively as the names of cities they built - and 'yelidei ha'anak' as meaning they were so tall they seemed to embrace the sun.",
           whats: "The Gemara's nation-identification exercise is applied biblical hermeneutics: matching archaic biblical names to known political entities of the Rabbinic period, preparing the ground for the Rome-Persia eschatological discussion that follows. The giants' names, interpreted at the end of this same name-identification exercise, receive the same homiletical treatment - the tanna, already expounding names, includes this one too (per Rashi).",
           hint: "Why does it matter that Persia descends from Yefet, and why does the Gemara pause its genealogy to reinterpret the giants' names from the spies' report?"
         },
@@ -20934,7 +20934,7 @@ const DAF_CONTENT = {
           reasoningPattern: {
             id: "biblical-identification",
             category: "aggadic-hermeneutics",
-            notes: "Maps archaic biblical names to contemporary nations; each identification carries prophetic weight"
+            notes: "Maps archaic biblical names to contemporary nations; Tiras=Persia specifically supplies the lineage used in the prophecy discussion that follows"
           },
           ahaMoment: "The Tiras-Persia identification is not trivia: it supplies the specific lineage used in the Rome-Persia discussion that follows. The giants' names get the same treatment simply because the tanna is already in 'name decoding' mode.",
           learningBlocker: "Students may not see why ancient nation names matter or why the Gemara spends time on this. The connection to eschatology is the key - this is groundwork for the Rome-Persia debate.",
@@ -20995,8 +20995,8 @@ const DAF_CONTENT = {
             id: "step-03",
             type: "statement",
             label: "Nation identifications: Tiras is Persia",
-            speaker: "Rav Yosef",
-            text: "Each name is identified with a contemporary nation: Gomer is Germania, Magog is Kandia, Madai is Macedonia, Yavan is literally Greece, Tuval is Beit Unyaki, Meshech is Musya. Tiras is disputed, but Rav Yosef teaches: Tiras is Persia.",
+            speaker: "Gemara, concluding with a teaching of Rav Yosef",
+            text: "The Gemara identifies each name with a contemporary nation: Gomer is Germania, Magog is Kandia, Madai is Macedonia, Yavan is literally Greece, Tuval is Beit Unyaki, Meshech is Musya. Tiras is disputed by R. Simai (or R. Simon) and the Rabbis; Rav Yosef then teaches: Tiras is Persia.",
             sourceRefs: [
               {
                 sourceType: "gemara",
@@ -21015,9 +21015,21 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
+                lineId: "yoma-010a-l10",
+                vilnaLine: 10,
+                note: "Rav Yosef identifies inner and outer Sakistan"
+              },
+              {
+                sourceType: "gemara",
                 lineId: "yoma-010a-l12",
                 vilnaLine: 12,
-                note: "Further Table of Nations place-name identifications"
+                note: "Bavel, Erech, Akkad, and Kalneh identifications"
+              },
+              {
+                sourceType: "gemara",
+                lineId: "yoma-010a-l15",
+                vilnaLine: 15,
+                note: "Asshur and city identifications through the Nineveh proof"
               }
             ]
           },
@@ -21312,7 +21324,7 @@ const DAF_CONTENT = {
         display: {
           title: "Lishkat Parhedrin's mezuza: R. Yehuda says it was a decree, not a genuine dwelling",
           oneLine: "A baraita says the Parhedrin chamber alone among Temple chambers had a mezuza because it housed the High Priest; R. Yehuda challenges this reasoning (other chambers had dwellings too, yet no mezuza) and says it was instead a special decree, since a seasonal residence is not a genuine 'house' - Rava explains R. Yehuda's underlying principle, and Abaye raises two challenges to it, the second left unresolved as the daf cuts off.",
-          shortSummary: "A baraita: all the chambers in the Temple lacked a mezuza, except the Chamber of Parhedrin, which had a dwelling for the High Priest. R. Yehuda objects: but several other chambers also had dwellings, yet lacked a mezuza! Rather, Lishkat Parhedrin's mezuza was a special decree whose rationale is not supplied on this daf. Rava explains R. Yehuda's reasoning: he holds that a 'house' not built for both summer and winter is not a genuine house for mezuza purposes - the High Priest's weeklong residence there does not qualify on its own, hence the need for a decree. Abaye challenges this principle twice: first from Amos 3:15 ('I will strike the winter house along with the summer house'), answered that only an explicitly-labeled winter/summer house counts, not a generic one; second from a baraita where R. Yehuda himself obligates a sukkah (a seasonal structure) in eruv, mezuza, and maaser - and maaser cannot be explained as a merely rabbinic obligation, seemingly contradicting R. Yehuda's own seasonal-house principle. The Gemara begins 'perhaps...' and cuts off, continuing to 10b.",
+          shortSummary: "A baraita: all the chambers in the Temple lacked a mezuza, except the Chamber of Parhedrin, which had a dwelling for the High Priest. R. Yehuda objects: but several other chambers also had dwellings, yet lacked a mezuza! Rather, Lishkat Parhedrin's mezuza was a special decree whose rationale is not supplied on this daf. Rava explains R. Yehuda's reasoning: he holds that a 'house' not built for both summer and winter is not a genuine house for mezuza purposes - the High Priest's weeklong residence there does not qualify on its own, hence the need for a decree. Abaye challenges this principle twice: first from Amos 3:15 ('I will strike the winter-house with the summer-house'), answered that these qualified compounds do not show that either seasonal residence is called an unmodified 'house'; second from a baraita where R. Yehuda himself obligates a sukkah (a seasonal structure) in eruv, mezuza, and maaser - and maaser cannot be explained as a merely rabbinic obligation, seemingly contradicting R. Yehuda's own seasonal-house principle. The Gemara begins 'perhaps...' and cuts off, continuing to 10b.",
           whats: "This sugya introduces R. Yehuda's halakhic principle that a 'house' must be usable in both summer and winter to count as a genuine dwelling for mezuza purposes - and shows the Gemara immediately testing that principle against two counterexamples, the second of which is left unresolved when the daf ends.",
           hint: "R. Yehuda says the Parhedrin chamber's mezuza was 'just a decree' - not because he doubts the room was lived in, but because of what specific requirement he thinks a 'house' must meet. What is that requirement, and does it hold up against Abaye's challenges?"
         },
@@ -21320,7 +21332,7 @@ const DAF_CONTENT = {
           learnerQuestion: "Why does R. Yehuda say the Parhedrin chamber's mezuza was 'just a decree' rather than a genuine dwelling requirement, and does that principle survive Abaye's challenges?",
           coreTension: "The baraita's own stated reason for Parhedrin's mezuza (it had a dwelling for the High Priest) seems to prove too much: other Temple chambers also had dwellings, yet lacked mezuza. R. Yehuda resolves this by denying that Parhedrin's residence counts as a genuine 'house' at all - but then needs a special decree to explain why it has a mezuza anyway.",
           coreMove: "Rava supplies R. Yehuda's underlying principle: a 'bayit' for mezuza purposes must be usable year-round, in both summer and winter. The High Priest's one-week residence fails this test, so by rights Parhedrin should need no mezuza either - hence R. Yehuda's move to 'it was a decree' instead of 'it was a genuine dwelling.' Abaye then probes whether this principle is really R. Yehuda's, testing it against a verse (Amos) and against R. Yehuda's own ruling on sukkah.",
-          resolution: "Not resolved within 10a. Abaye's first challenge (Amos's 'winter house'/'summer house') is answered (only an explicitly labeled seasonal house counts as 'bayit,' not a plain unlabeled one). His second challenge (R. Yehuda obligates a sukkah - a seasonal structure - in maaser, which cannot be explained as merely rabbinic) is left open as the daf ends after the complete word 'perhaps,' in the middle of the argument.",
+          resolution: "Not resolved within 10a. Abaye's first challenge from Amos's 'winter-house' and 'summer-house' is answered: those qualified compounds do not prove that either seasonal residence is called an unmodified 'house.' His second challenge (R. Yehuda obligates a sukkah - a seasonal structure - in maaser, which cannot be explained as merely rabbinic) is left open as the daf ends after the complete word 'perhaps,' in the middle of the argument.",
           takeaway: {
             type: "legal_principle",
             text: "A halachic 'house' can be defined by functional criteria (year-round usability) rather than by the simple fact of residence - and testing that definition against the same authority's other rulings is a standard way the Gemara checks a proposed principle's coherence."
@@ -21332,7 +21344,7 @@ const DAF_CONTENT = {
           },
           ahaMoment: "R. Yehuda's 'it was a decree' is not a concession that the room wasn't really lived in - it is the consequence of a stricter definition of 'house' that the weeklong residence fails to meet. This daf does not yet supply the decree's rationale.",
           learningBlocker: "Students may assume 'genuinely qualifies as a residence' is R. Yehuda's position, since he is arguing FOR the room having a mezuza. It is the opposite: R. Yehuda denies it qualifies as a genuine 'bayit' under his own year-round criterion, and needs the decree specifically because the dwelling-based reasoning fails for him.",
-          memoryAnchor: "Baraita's initial reason: Parhedrin has a dwelling, hence mezuza. R. Yehuda's objection: other dwelling- chambers lack mezuza, so that can't be the reason - rather, it was a decree. Rava: R. Yehuda holds a 'bayit' must serve both summer and winter; a one-week residence fails. Abaye's two challenges: Amos's winter/summer houses (answered - only explicitly-labeled ones count), and R. Yehuda's own sukkah-maaser ruling (unresolved, cut off)."
+          memoryAnchor: "Baraita's initial reason: Parhedrin has a dwelling, hence mezuza. R. Yehuda's objection: other dwelling-chambers lack mezuza, so that can't be the reason - rather, it was a decree. Rava: R. Yehuda holds a 'bayit' must serve both summer and winter; a one-week residence fails. Abaye's two challenges: Amos's qualified 'winter-house'/'summer-house' terms do not prove an unmodified 'house,' while R. Yehuda's own sukkah-maaser ruling remains unresolved when the daf cuts off."
         },
         lines: [
           { id: "yoma-010a-l41", kind: "gemara", he: "תָּנוּ רַבָּנַן: כׇּל הַלְּשָׁכוֹת\nשֶׁהָיוּ בְּמִקְדָּשׁ לֹא הָיוּ לָהֶן מְזוּזָה, חוּץ מִלִּשְׁכַּת פַּרְהֶדְרִין, שֶׁהָיָה בָּהּ בֵּית דִּירָה לְכֹהֵן גָּדוֹל.",
@@ -21405,7 +21417,7 @@ const DAF_CONTENT = {
             type: "challenge",
             label: "Abaye's first challenge: Amos's 'winter house' and 'summer house'",
             speaker: "Abaye",
-            text: "Abaye challenges: but it is written (Amos 3:15), 'I will strike the winter house along with the summer house' - implying each is independently called a 'house'! Answered: a winter house and a summer house are each called 'house' when explicitly labeled as such; a plain, unlabeled structure is not.",
+            text: "Abaye challenges from Amos 3:15: 'I will strike the winter-house with the summer-house.' Rava answers that each is called only by a qualified compound, 'winter-house' or 'summer-house'; neither is called an unmodified 'house,' so the verse does not defeat R. Yehuda's criterion.",
             sourceRefs: [
               {
                 sourceType: "gemara",
@@ -21420,13 +21432,25 @@ const DAF_CONTENT = {
             type: "stub",
             label: "Abaye's second challenge: R. Yehuda's own sukkah ruling - unresolved",
             speaker: "Abaye",
-            text: "Abaye challenges again: a baraita teaches that R. Yehuda obligates a sukkah (a seasonal structure) in eruv, mezuza, and maaser, while the Sages exempt it. Granted eruv and mezuza could be explained as merely rabbinic obligations - but can maaser be explained as merely rabbinic? The Gemara begins its response with the complete word 'perhaps' and the argument cuts off there; the resolution continues on 10b.",
+            text: "Abaye challenges again from a dispute in which R. Yehuda obligates a festival sukkah and the Rabbis exempt. A further teaching states that R. Yehuda obligates the sukkah in eruv, mezuza, and maaser. Granted eruv and mezuza could be explained as merely rabbinic obligations - but can maaser be explained as merely rabbinic? The Gemara begins its response with the complete word 'perhaps' and the argument cuts off there; the resolution continues on 10b.",
             sourceRefs: [
               {
                 sourceType: "gemara",
                 lineId: "yoma-010a-l46",
                 vilnaLine: 46,
-                note: "Abaye's sukkah/maaser challenge, cut off unresolved"
+                note: "R. Yehuda's festival-sukkah obligations"
+              },
+              {
+                sourceType: "gemara",
+                lineId: "yoma-010a-l47",
+                vilnaLine: 47,
+                note: "Question whether maaser can be merely rabbinic"
+              },
+              {
+                sourceType: "gemara",
+                lineId: "yoma-010a-l48",
+                vilnaLine: 48,
+                note: "Open response begins with 'perhaps' and cuts off"
               }
             ]
           }
