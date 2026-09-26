@@ -22033,7 +22033,7 @@ const DAF_CONTENT = {
   "10b": {
     canonicalRef: "Yoma 10b",
     daf: "10b",
-    summary: "10b resolves the apparent contradiction between R. Yehuda's mezuza positions in the Parhedrin chamber and in sukka law. The resolution is that sukka and Parhedrin operate on entirely different principles: R. Yehuda's sukka requirement flows from the need for a permanent structure, while his Parhedrin ruling flows from the principle that coerced residence does not count as a dwelling. The daf closes by identifying which tanna holds the anonymous position in a related baraita.",
+    summary: "Yoma 10b resolves the Parhedrin-chamber/sukka mezuza tension left open at the end of 10a. It opens by finishing the prior concern about tithe-separation risk, then works through a rejected proposal from Abaye before Rava supplies the real resolution: for the rest of the year everyone agrees the chamber is exempt, and the true dispute, for both sukka and the chamber, is about the seven days themselves - but for two separate reasons. Sukka turns on whether the structure must be permanent (Rabbi Yehuda) or may be temporary (the Rabbis); the chamber turns on whether compelled residence counts as dwelling at all (the Rabbis: yes; Rabbi Yehuda: no, so its mezuza there is only a rabbinic enactment, so people will not say the High Priest is confined). The daf then closes mid-question, naming an attribution question about an unnamed baraita and quoting only its first word, 'All' - left open for 11a.",
     sugyot: [
       {
         id: "yoma-010b-s01",
@@ -22044,32 +22044,32 @@ const DAF_CONTENT = {
           startLineId: "yoma-010b-l01",
           endLineId: "yoma-010b-l13",
           startVilnaLine: 1,
-          endVilnaLine: 13
+          endVilnaLine: 17
         },
         display: {
-          title: "Resolving the sukka/chamber contradiction: two discrete reasons",
-          oneLine: "R. Yehuda seems to contradict himself about residence and mezuza - the Gemara resolves this by showing sukka and Parhedrin rest on completely different reasoning.",
-          shortSummary: "R. Yehuda holds that a sukka must be a permanent-style structure (dirat keva) - and such a structure necessarily has a mezuza. This seems to conflict with his Parhedrin position, where he held that the High Priest's chamber does need mezuza. But the reasoning is different in each case: for sukka, the mezuza follows automatically from permanent-structure status. For Parhedrin, R. Yehuda holds that a residence entered under compulsion (anusim - coerced) does not qualify as a 'dwelling' for mezuza purposes, so even the High Priest's chamber would ordinarily lack one - but a rabbinic decree was made to prevent the impression of imprisonment. The two rulings stem from two discrete halakhic categories, not a contradiction.",
-          whats: "This sugya teaches how to read apparent contradictions in a Tanna's positions. Rather than assuming error, the Gemara looks for the underlying principle of each ruling and shows they come from entirely different legal axes. R. Yehuda's sukka ruling is about structure type; his Parhedrin ruling is about the voluntariness of residence.",
-          hint: "Look for the separate principle behind each ruling. R. Yehuda is not being inconsistent - he is applying two different rules to two different situations."
+          title: "Abaye's rejected proposal and Rava's two separate reasons",
+          oneLine: "After Abaye's proposal is tested against the sukka mishna and rejected, Rava resolves the sukka/chamber mezuza dispute with two entirely independent reasons.",
+          shortSummary: "The passage first finishes the prior concern, carried over from 10a, that treating a sukka's mezuza as merely rabbinic would risk confusing which produce is truly tithe-obligated. Abaye then proposes that everyone agrees the Parhedrin chamber is obligated in mezuza during the High Priest's seven days of separation, and that the Rabbis and Rabbi Yehuda disagree only about extending that obligation, by decree, to the rest of the year. Rava rejects this: the mishna's own language, 'the sukka of the festival, during the festival,' shows the sages disagree even about the festival period itself. Rava's own resolution: for the rest of the year, all agree the chamber is exempt; the real disagreement, for both sukka and the chamber, concerns the seven days themselves - and sukka's reason is entirely separate from the chamber's reason. For sukka, Rabbi Yehuda requires a permanent-style structure (so it carries mezuza), while the Rabbis require only a temporary structure (so it does not). For the chamber, the Rabbis hold that residence occupied under compulsion still counts as dwelling (so it is obligated), while Rabbi Yehuda holds that compelled residence does not count as dwelling (so it would not be obligated on its own) - yet its mezuza there is a rabbinic enactment, so that people will not say the High Priest is confined.",
+          whats: "This sugya models how the Gemara narrows in on the true point of a dispute: a proposed framing (Abaye's) is tested against an explicit source and rejected, then the resolution supplies two independent principles - one for sukka, one for the chamber - rather than forcing a single shared explanation across both.",
+          hint: "Once Abaye's proposal is rejected by the sukka mishna's own wording, what is the real line of disagreement, and why does it take two separate reasons to cover both sukka and the Parhedrin chamber?"
         },
         learning: {
-          learnerQuestion: "If R. Yehuda says a sukka needs to be permanent-style (and therefore has mezuza), why doesn't the Parhedrin chamber - which the High Priest lives in - have one automatically?",
-          coreTension: "R. Yehuda appears to reason that wherever someone lives, mezuza applies. But the Parhedrin chamber is where the High Priest lives for a week. Why would he say it does not automatically require mezuza?",
-          coreMove: "The Gemara introduces the distinction between voluntary and coerced residence. R. Yehuda holds that a dwelling one is compelled to occupy ('dirat anusim') does not create a mezuza obligation. The High Priest does not choose to stay in the Parhedrin chamber - he is required to. That compulsion removes the 'dwelling' status.",
-          resolution: "The contradiction dissolves: sukka requires permanent structure (and meets the dwelling threshold); Parhedrin is a coerced residence (and does not meet the dwelling threshold on its own). The Parhedrin mezuza comes from a separate rabbinic decree. R. Yehuda is internally consistent.",
+          learnerQuestion: "Once Abaye's proposal - that everyone agrees on the seven days and disputes only whether to extend the obligation to the rest of the year - is rejected, what is the actual disagreement, and why does explaining it take two separate principles?",
+          coreTension: "Abaye frames the dispute as being only about whether to extend an agreed-upon seven-day mezuza obligation to the rest of the year. Rava shows, from the sukka mishna's own wording, that the sages disagree about the seven days themselves.",
+          coreMove: "Rava relocates the disagreement to the seven days themselves, for both sukka and the chamber, and then explains each independently: sukka's mezuza depends on whether the structure must be built as a permanent dwelling; the chamber's mezuza depends on whether compelled residence counts as dwelling at all.",
+          resolution: "For the rest of the year, all agree the chamber is exempt. For the seven days: sukka's reason is that Rabbi Yehuda requires a sukka to be a permanent-style structure (so it carries mezuza), while the Rabbis require only a temporary structure (so it does not). The chamber's reason is separate: the Rabbis hold that compelled residence still counts as dwelling (so it is obligated); Rabbi Yehuda holds that compelled residence is not dwelling (so it would not be obligated on its own) - and its actual mezuza there is a rabbinic enactment, so that people will not say the High Priest is confined.",
           takeaway: {
             type: "legal_principle",
-            text: "Mezuza does not follow from physical presence alone - it requires voluntary dwelling. The distinction between permanent/temporary and voluntary/coerced residence is fundamental to mezuza law. R. Yehuda's positions are not contradictory once you see that he is tracking different variables in each case."
+            text: "The Gemara refuses to force one unifying principle across sukka and the Parhedrin chamber. Sukka's mezuza turns on structural permanence; the chamber's mezuza turns on whether compelled residence counts as dwelling at all, with the actual practice there resting on a separate rabbinic enactment."
           },
           reasoningPattern: {
-            id: "resolve-contradiction-via-distinct-principle",
+            id: "test-proposal-against-source-then-resolve-with-two-principles",
             category: "legal-analysis",
-            notes: "Two apparently contradictory positions are reconciled by identifying that each applies a different underlying principle"
+            notes: "A first proposed framing of a dispute is tested against, and rejected by, an explicit source; the resolution then supplies two independent principles rather than one shared explanation."
           },
-          ahaMoment: "Coercion changes the legal category. A home you must live in is not a 'home' in the mezuza sense - it is closer to a work assignment.",
-          learningBlocker: "Students may think 'living somewhere equals mezuza.' The Gemara shows that the nature of the occupancy matters, not just the fact of it.",
-          memoryAnchor: "Sukka: must be permanent, so mezuza comes automatically. Parhedrin: compelled residence, so no mezuza on its own - only a rabbinic add-on."
+          ahaMoment: "The same word - dwelling - carries two entirely different technical tests here: permanence of structure for sukka, and voluntariness of residence for the chamber.",
+          learningBlocker: "Students may assume that because Rabbi Yehuda's sukka and chamber rulings look parallel, one principle must explain both. The Gemara insists on two independent reasons instead.",
+          memoryAnchor: "Sukka: permanent versus temporary structure. Chamber: compelled residence counted as dwelling or not - with a rabbinic mezuza standing in either way so people will not say the High Priest is confined."
         },
         lines: [
           { id: "yoma-010b-l01", kind: "gemara", he: "דִּילְמָא אָתֵי לְאַפְרוֹשֵׁי מִן הַחִיּוּב עַל הַפְּטוּר\nוּמִן הַפְּטוּר עַל הַחִיּוּב.",
@@ -22094,58 +22094,169 @@ const DAF_CONTENT = {
         argumentFlow: [
           {
             id: "step-01",
-            type: "question",
-            label: "Apparent contradiction in R. Yehuda's positions",
+            type: "context",
+            label: "Closing the prior tithe-separation concern from 10a",
             speaker: "Gemara",
-            text: "R. Yehuda requires a permanent-style sukka (which has mezuza), yet seems to treat the Parhedrin chamber differently. How do these positions fit together?",
+            text: "The passage finishes the concern carried over from 10a: treating a sukka's mezuza as merely rabbinic risked confusing which produce is truly tithe-obligated and which is only rabbinically so.",
             sourceRefs: [
               {
                 sourceType: "gemara",
                 lineId: "yoma-010b-l01",
                 vilnaLine: 1,
-                note: "The contradiction posed"
+                note: "The tithe-separation concern"
+              },
+              {
+                sourceType: "gemara",
+                lineId: "yoma-010b-l02",
+                vilnaLine: 2,
+                note: "Concern concludes before Abaye's proposal begins"
               }
             ]
           },
           {
             id: "step-02",
-            type: "resolution",
-            label: "Sukka: permanent structure determines mezuza",
-            speaker: "Gemara",
-            text: "For sukka, R. Yehuda's ruling is about structural permanence. A sukka with permanent-structure characteristics automatically requires mezuza because it qualifies as a genuine dwelling.",
+            type: "proposal",
+            label: "Abaye: agreement on the seven days, dispute about the rest of the year",
+            speaker: "Abaye",
+            text: "Abaye proposes that during the seven days of the High Priest's separation, everyone agrees the Parhedrin chamber is obligated in mezuza. The disagreement is only about the rest of the year: the Rabbis decree that the mezuza remain year-round on account of the seven days; Rabbi Yehuda holds no such decree is made.",
             sourceRefs: [
               {
                 sourceType: "gemara",
                 lineId: "yoma-010b-l02",
                 vilnaLine: 2,
-                note: "Sukka principle explained"
+                note: "Proposal opens"
               },
               {
                 sourceType: "gemara",
-                lineId: "yoma-010b-l06",
-                vilnaLine: 6,
-                note: "Distinction drawn"
+                lineId: "yoma-010b-l02",
+                vilnaLine: 4,
+                note: "The Rabbis' decree"
+              },
+              {
+                sourceType: "gemara",
+                lineId: "yoma-010b-l02",
+                vilnaLine: 5,
+                note: "Rabbi Yehuda's position"
               }
             ]
           },
           {
             id: "step-03",
+            type: "rejection",
+            label: "Rava's rejection from the sukka mishna's own wording",
+            speaker: "Rava",
+            text: "Rava objects: but the mishna's language explicitly frames the sukka dispute as being about 'the sukka of the festival, during the festival' itself - meaning the sages disagree about the festival period itself, not only about extending the obligation beyond it.",
+            sourceRefs: [
+              {
+                sourceType: "mishnah",
+                lineId: "yoma-010b-l06",
+                vilnaLine: 6,
+                note: "Rava's objection begins"
+              },
+              {
+                sourceType: "mishnah",
+                lineId: "yoma-010b-l07",
+                vilnaLine: 7,
+                note: "The cited mishna language completes the objection"
+              }
+            ]
+          },
+          {
+            id: "step-04",
             type: "resolution",
-            label: "Parhedrin: coerced residence does not create mezuza obligation",
-            speaker: "Gemara",
-            text: "R. Yehuda holds that dirat anusim - a residence entered under compulsion - does not count as a dwelling for mezuza. The High Priest's stay is compelled, so no obligation arises. The mezuza there came from a rabbinic decree for social reasons.",
+            label: "Rava: agreement on the rest of the year, disagreement about the seven days themselves",
+            speaker: "Rava",
+            text: "Rather, Rava says: for the rest of the year, everyone agrees the chamber is exempt from mezuza. The disagreement is about the seven days themselves - for both the sukka during the festival and the chamber during the separation - and sukka's reason is entirely separate from the chamber's reason.",
             sourceRefs: [
               {
                 sourceType: "gemara",
                 lineId: "yoma-010b-l07",
                 vilnaLine: 7,
-                note: "Coerced residence principle"
+                note: "Rava's resolution begins"
               },
+              {
+                sourceType: "gemara",
+                lineId: "yoma-010b-l07",
+                vilnaLine: 8,
+                note: "Rest of year exempt, dispute is about the seven"
+              },
+              {
+                sourceType: "gemara",
+                lineId: "yoma-010b-l07",
+                vilnaLine: 9,
+                note: "Sukka and chamber declared to have separate reasons"
+              }
+            ]
+          },
+          {
+            id: "step-05",
+            type: "resolution",
+            label: "Sukka's own reason: permanent versus temporary structure",
+            speaker: "Gemara",
+            text: "Rabbi Yehuda follows his own established reasoning that a sukka must be built as a permanent-style dwelling to fulfill the mitzva - and a permanent dwelling is obligated in mezuza. The Rabbis follow their own reasoning that a sukka need only be a temporary dwelling - and a temporary dwelling is not obligated in mezuza.",
+            sourceRefs: [
               {
                 sourceType: "gemara",
                 lineId: "yoma-010b-l10",
                 vilnaLine: 10,
-                note: "Application to Parhedrin"
+                note: "Sukka's reason introduced"
+              },
+              {
+                sourceType: "gemara",
+                lineId: "yoma-010b-l10",
+                vilnaLine: 11,
+                note: "Rabbi Yehuda: permanent dwelling required, so obligated"
+              },
+              {
+                sourceType: "gemara",
+                lineId: "yoma-010b-l10",
+                vilnaLine: 12,
+                note: "The Rabbis: temporary dwelling suffices"
+              },
+              {
+                sourceType: "gemara",
+                lineId: "yoma-010b-l13",
+                vilnaLine: 13,
+                note: "The Rabbis' conclusion: not obligated in mezuza"
+              }
+            ]
+          },
+          {
+            id: "step-06",
+            type: "resolution",
+            label: "The chamber's own reason: compelled residence and a rabbinic mezuza",
+            speaker: "Gemara",
+            text: "The chamber's reason is separate: the Rabbis hold that a residence one is compelled to occupy is still called a dwelling, so the High Priest's compelled stay obligates mezuza. Rabbi Yehuda holds that compelled residence is not called a dwelling - so it would not be obligated on its own - but the mezuza was rabbinically enacted there anyway, so that people would not say the High Priest is confined.",
+            sourceRefs: [
+              {
+                sourceType: "gemara",
+                lineId: "yoma-010b-l13",
+                vilnaLine: 13,
+                note: "Chamber's reason introduced"
+              },
+              {
+                sourceType: "gemara",
+                lineId: "yoma-010b-l13",
+                vilnaLine: 14,
+                note: "The Rabbis: compelled residence is dwelling"
+              },
+              {
+                sourceType: "gemara",
+                lineId: "yoma-010b-l13",
+                vilnaLine: 15,
+                note: "Rabbi Yehuda: compelled residence is not dwelling"
+              },
+              {
+                sourceType: "gemara",
+                lineId: "yoma-010b-l13",
+                vilnaLine: 16,
+                note: "The rabbinic enactment"
+              },
+              {
+                sourceType: "gemara",
+                lineId: "yoma-010b-l13",
+                vilnaLine: 17,
+                note: "The rabbinic-enactment phrase: 'so that they will not say the High Priest is confined'"
               }
             ]
           }
@@ -22153,30 +22264,35 @@ const DAF_CONTENT = {
         conceptRefs: [],
         requiresUnderstanding: [],
         prerequisiteKnowledge: [
-          "R. Yehuda's sukka requirement for permanent structure",
-          "The Parhedrin chamber mezuza dispute from 10a",
-          "The concept that mezuza requires a genuine voluntary dwelling"
+          "The Parhedrin chamber's mezuza dispute and Rabbi Yehuda's reasoning, introduced on 10a",
+          "The concept of a permanent-style dwelling versus a temporary dwelling and its role in triggering mezuza",
+          "The concept that a residence occupied under compulsion may or may not count as 'dwelling' for mezuza purposes"
         ],
         misconceptions: [
           {
-            misconception: "If someone lives in a place, it automatically requires mezuza.",
-            correction: "According to R. Yehuda, coerced residence does not create a mezuza obligation - voluntariness is part of the definition of 'dwelling.'"
+            misconception: "The sukka/chamber distinction is about voluntariness: Rabbi Yehuda requires a sukka to be lived in voluntarily.",
+            correction: "The sukka distinction is about structural permanence - whether the sukka must be built as a permanent or temporary dwelling. Voluntariness of residence is the separate axis that distinguishes the chamber case, not the sukka case."
+          },
+          {
+            misconception: "Since Rabbi Yehuda's sukka and chamber rulings both concern mezuza, one shared principle must explain both.",
+            correction: "Rava's resolution is explicit that sukka's reason and the chamber's reason are each discrete - two independent tests, not one shared principle."
           }
         ],
         relatedSugyot: [],
         visualizableElements: [
           {
-            item: "Two-column table: Sukka (permanent structure, voluntary) vs. Parhedrin (temporary, coerced)"
+            item: "Two-column comparison: sukka (permanent-versus-temporary structure test) beside the Parhedrin chamber (compelled residence counted as dwelling or not)",
+            type: "contrast"
           }
         ],
         quizSeeds: [
           {
-            question: "Why does R. Yehuda's sukka ruling not contradict his Parhedrin ruling?",
-            answer: "They rest on different principles: for sukka, mezuza follows from permanent structure; for Parhedrin, coerced residence does not count as a dwelling, so no mezuza obligation arises from the stay itself."
+            question: "Why does Rava reject Abaye's proposal that the sukka/chamber mezuza dispute is only about extending an agreed-upon seven-day obligation to the rest of the year?",
+            answer: "Because the mishna's own wording - 'the sukka of the festival, during the festival' - shows the Rabbis and Rabbi Yehuda disagree about the festival period itself, not merely about whether to extend the obligation beyond it."
           },
           {
-            question: "What is 'dirat anusim' and how does it affect mezuza?",
-            answer: "Coerced residence - a space someone is compelled to occupy. R. Yehuda holds it does not create a mezuza obligation because true dwelling requires voluntariness."
+            question: "What are the two separate reasons Rava gives for the sukka dispute and the chamber dispute?",
+            answer: "For sukka: whether the structure must be built as a permanent (Rabbi Yehuda) or temporary (the Rabbis) dwelling. For the chamber: whether compelled residence counts as dwelling at all (the Rabbis: yes; Rabbi Yehuda: no, with its actual mezuza there resting on a rabbinic enactment)."
           }
         ],
         finalRuling: "",
@@ -22185,9 +22301,9 @@ const DAF_CONTENT = {
         topicTags: [
           "mezuza",
           "sukka",
-          "Parhedrin",
-          "dirat anusim",
-          "contradiction resolution"
+          "parhedrin-chamber",
+          "permanent-vs-temporary-dwelling",
+          "compelled-residence"
         ],
         review: "ai_generated"
       },
@@ -22203,66 +22319,72 @@ const DAF_CONTENT = {
           endVilnaLine: 19
         },
         display: {
-          title: "Identifying the tanna of the baraita",
-          oneLine: "The Gemara asks which tanna holds the anonymous position in a baraita about Temple gates and mezuza.",
-          shortSummary: "The Gemara closes with a brief identification exercise: who is the anonymous tanna behind a baraita that states a particular position about mezuza in Temple contexts? The question leads into the discussion on the next daf (11a), where it is shown that even R. Yehuda could agree with the baraita's position, because the gate ruling and the chamber ruling can be treated as a single decree.",
-          whats: "Anonymous baraitot (tanna kamma positions) were often attributed to specific tannaim by the Gemara. This short sugya sets up the more extended identification discussion on 11a.",
-          hint: "An anonymous baraita often belongs to a well-known tanna. The question here opens a search that will extend to the next daf."
+          title: "The daf ends mid-question: attributing an unquoted baraita",
+          oneLine: "The Gemara opens a new attribution question - who is the tanna behind a baraita the Rabbis taught - and the daf breaks off after the baraita's first word.",
+          shortSummary: "Line 18 first completes the previous sugya's phrase with its opening word, 'the prisoners' (together with the prior line, 'a prison house'), then immediately opens a new question: 'Who is the tanna of that which the Rabbis taught?' Line 19 supplies only the baraita's first word, 'All,' and the daf physically breaks off there. The baraita's content and the resolution of this attribution question are not stated on this daf; the quotation and the question continue beyond it.",
+          whats: "This sugya is the Gemara's transition marker: it names a 'who is the tanna' attribution question without yet quoting or answering it. Opening with the baraita's first word and breaking off there is a bridge to the next daf's continued discussion, not a self-contained teaching.",
+          hint: "What does Yoma 10b actually ask here, and what is deliberately left unstated until 11a?"
         },
         learning: {
-          learnerQuestion: "Who is the tanna behind this baraita, and why does identifying the tanna matter?",
-          coreTension: "The baraita states a position that might seem to conflict with R. Yehuda's known views. If it is R. Yehuda, there may be an apparent inconsistency. If it is someone else, different reasoning applies.",
-          coreMove: "The Gemara entertains the possibility that R. Yehuda can hold the baraita's position, because the ruling about Temple gates and the ruling about Temple chambers can be seen as parts of a single unified decree rather than independent rulings.",
-          resolution: "The identification will be completed on 11a. The key move is showing that two rulings attributed to different contexts (gates and chambers) may stem from a single rabbinic decree, allowing R. Yehuda to hold both without contradiction.",
+          learnerQuestion: "What exactly does Yoma 10b tell us about the baraita named at its end, and what does it leave unanswered?",
+          coreTension: "The Gemara raises an attribution question - who is the tanna behind this baraita - but the daf ends after only the baraita's first word, before its content is even quoted.",
+          coreMove: "The Gemara names the question and begins quoting the baraita with its first word, 'All,' but breaks off there; the daf's physical boundary falls before any content, attribution, or resolution is given.",
+          resolution: "None is given on this daf. The attribution question and the baraita's content remain entirely open and continue on 11a.",
           takeaway: {
-            type: "logical_principle",
-            text: "When a baraita appears anonymous, the Gemara traces which tanna could hold it. This is not merely academic - the attribution determines which body of reasoning the ruling belongs to, affecting how it interacts with other rulings by the same tanna."
+            type: "open_question",
+            text: "Yoma 10b poses an attribution question and quotes only the first word of the relevant baraita before the daf ends. Nothing about the baraita's content or this question's resolution is given here; the quotation and question continue beyond this daf."
           },
           reasoningPattern: {
-            id: "tanna-attribution",
+            id: "baraita-attribution-question-opened",
             category: "source-analysis",
-            notes: "Identifying the anonymous tanna behind a baraita; tests whether the attribution is consistent with other known rulings"
+            notes: "A 'who is the tanna' question is posed and the baraita's quotation begins, but its content and resolution are deferred to the next daf - a formal marker of continuation, not itself an answer."
           },
-          ahaMoment: "Two seemingly separate rulings can be a single decree. When you see them that way, a tanna can hold both without any tension.",
-          learningBlocker: "Students may not understand why tanna attribution matters. The answer: it determines whether the ruling is consistent with other positions of that tanna, affecting the whole system of how that tanna's positions fit together.",
-          memoryAnchor: "One decree covering two objects (gates and chambers) - that's what allows R. Yehuda to hold both rulings."
+          ahaMoment: "A 'who is the tanna' question can be posed before the source it concerns is even fully quoted - the daf can end mid-citation.",
+          learningBlocker: "It is tempting to read 11a's discussion backward into 10b. Nothing about the baraita's subject, its proposed attribution, or its resolution is present on 10b - only the question and its first word.",
+          memoryAnchor: "10b ends at the word 'All' - a question opened, not a question answered."
         },
         lines: [
           { id: "yoma-010b-l18", kind: "gemara", he: "מַאן תְּנָא לְהָא דְּתָנוּ רַבָּנַן:",
             vilna_line: 18, en: "<b>Who</b> is the <i>tanna</i> who <b>taught</b> the following <i>baraita</i>? <b>As the Sages taught:</b>", en_lit: "Who taught As the Sages taught:",
             sefaria_ref: "Yoma.10b.7", commentaries: { rashi: [], tosafot: [] } },
           { id: "yoma-010b-l19", kind: "gemara", he: "כׇּל",
-            vilna_line: 19, en: "",
-            sefaria_ref: "Yoma.10b.8", commentaries: { rashi: [], tosafot: [] } }
+            vilna_line: 19, en: "", en_lit: "All the gates that were there did not have a mezuza except for the Gate of Nicanor, as inside the Chamber of Parhedrin,",
+            sefaria_ref: "Yoma.11a.1", commentaries: { rashi: [], tosafot: [] } }
         ],
         argumentFlow: [
           {
             id: "step-01",
-            type: "question",
-            label: "Which tanna holds this baraita?",
+            type: "context",
+            label: "Line 18 completes the prior phrase, then opens a new question",
             speaker: "Gemara",
-            text: "The Gemara asks whose opinion is represented in an anonymous baraita about mezuza exemptions for Temple gates.",
+            text: "Line 18 begins with the word completing the previous sugya's phrase, 'a prison house,' and then immediately opens a new question: 'Who is the tanna of that which the Rabbis taught?'",
             sourceRefs: [
               {
                 sourceType: "gemara",
                 lineId: "yoma-010b-l18",
                 vilnaLine: 18,
-                note: "The identification question"
+                note: "The completing word of the prior phrase, 'a prison house,' physically opens this line"
+              },
+              {
+                sourceType: "gemara",
+                lineId: "yoma-010b-l18",
+                vilnaLine: 18,
+                note: "Attribution question posed"
               }
             ]
           },
           {
             id: "step-02",
-            type: "proposal",
-            label: "Could be R. Yehuda - gates and chambers as one decree",
+            type: "question",
+            label: "The baraita's quotation begins and the daf ends",
             speaker: "Gemara",
-            text: "Even R. Yehuda could hold this baraita if gates and chambers are treated as a single unified decree rather than two separate rulings.",
+            text: "The Gemara begins quoting the baraita with its first word, 'All,' and the daf ends there. The baraita's content, any proposed attribution, and any resolution are not given on this daf.",
             sourceRefs: [
               {
                 sourceType: "gemara",
                 lineId: "yoma-010b-l19",
                 vilnaLine: 19,
-                note: "Single-decree resolution"
+                note: "The daf's final word"
               }
             ]
           }
@@ -22270,41 +22392,43 @@ const DAF_CONTENT = {
         conceptRefs: [],
         requiresUnderstanding: [],
         prerequisiteKnowledge: [
-          "The structure of Talmudic attribution - why anonymous baraitot need to be identified",
-          "The distinction between Temple gates and Temple chambers in mezuza law",
-          "The concept that a single rabbinic decree can cover multiple related cases"
+          "The convention of a 'who is the tanna' question used to attribute an anonymous baraita to a specific authority",
+          "That an attribution question and its source baraita can be introduced on one daf and continue, unresolved, onto the next"
         ],
         misconceptions: [
           {
-            misconception: "An anonymous baraita just represents 'the Rabbis' without specific attribution.",
-            correction: "The Gemara often attributes anonymous baraitot to specific tannaim, because the attribution determines how the ruling interacts with that tanna's other positions."
+            misconception: "The baraita's subject matter is already introduced or described on 10b.",
+            correction: "10b states only the attribution question and the baraita's first word, 'All'; the baraita's content is not given here."
+          },
+          {
+            misconception: "An anonymous baraita's tanna is left permanently unidentified once the daf ends mid-question.",
+            correction: "The Gemara's question and the baraita's quotation simply continue beyond this daf; nothing here suggests the inquiry is abandoned."
           }
         ],
         relatedSugyot: [],
         visualizableElements: [
           {
-            item: "Temple gate with mezuza placement question: does a gate serving the public require a mezuza?",
+            item: "The daf's physical cutoff: the quoted baraita stops after its first word, 'All' (kol)",
             type: "text"
-          },
-          {
-            item: "Public gate (patur from mezuza) vs private gate (chayav) - the defining distinction from this sugya",
-            type: "contrast"
           }
         ],
         quizSeeds: [
           {
-            question: "Why does identifying the tanna of a baraita matter to the Gemara?",
-            answer: "Because the attribution determines whether the ruling is consistent with other known positions of that tanna, and how it fits into that tanna's overall legal framework."
+            question: "What does Yoma 10b actually state about the baraita quoted at its end?",
+            answer: "Only that there is a baraita taught by the Rabbis beginning with the word 'All,' and a question about which tanna holds its view. Nothing else about its content or resolution is stated on 10b."
+          },
+          {
+            question: "What does line 18 do before it opens the new attribution question?",
+            answer: "It supplies the word completing the previous sugya's phrase, finishing 'a prison house' with 'the prisoners.'"
           }
         ],
         finalRuling: "",
         difficulty: "intermediate",
         alternateAngles: [],
         topicTags: [
-          "mezuza",
-          "Temple gates",
-          "tanna attribution",
-          "baraita"
+          "baraita",
+          "tanna-attribution",
+          "daf-boundary"
         ],
         review: "ai_generated"
       }
@@ -22313,12 +22437,12 @@ const DAF_CONTENT = {
       {
         he: "דִּירַת קֶבַע",
         translit: "Dirat Keva",
-        en: "Permanent-style residence; the standard that triggers mezuza and other dwelling-based obligations."
+        en: "Permanent-style residence; Rabbi Yehuda holds a sukka must meet this standard, which is why it is obligated in mezuza."
       },
       {
-        he: "דִּירַת אֲנוּסִים",
-        translit: "Dirat Anusim",
-        en: "Coerced residence; R. Yehuda holds this does not create a mezuza obligation because genuine 'dwelling' requires voluntariness."
+        he: "דִּירָה בְּעַל כָּרְחָהּ",
+        translit: "Dira B'al Korcha",
+        en: "Residence occupied under compulsion, such as the High Priest's stay in the Parhedrin chamber. The Rabbis hold this still counts as dwelling for mezuza; Rabbi Yehuda holds it does not."
       },
       {
         he: "בַּרַיְיתָא",
