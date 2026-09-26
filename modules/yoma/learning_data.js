@@ -20902,7 +20902,7 @@ const DAF_CONTENT = {
   "10a": {
     canonicalRef: "Yoma 10a",
     daf: "10a",
-    summary: "10a completes 9b's cutoff (Yefet is enlarged, but the Shechina dwells only in Shem's tents), then identifies the nations of Genesis 10 with contemporary peoples, establishing that Persia (Tiras) descends from Yefet, before homiletically interpreting the names of the giants the spies saw. It then debates whether Rome or Persia falls first: two proofs favor Rome falling to Persia, but Rav dissents that Persia will fall to Rome instead - reapplying the same 'builders fall to destroyers' principle to Persia's own destruction of synagogues - a view a baraita confirms, tying it to Mashiach's arrival only after Rome's nine-month global reign. It closes with the Parhedrin chamber's exceptional mezuza: R. Yehuda holds it was a special decree, not a genuine dwelling requirement, since his own principle (a 'house' must serve both summer and winter) would otherwise exempt it; Rava explains this principle and Abaye raises two challenges to it, the second left unresolved as the daf cuts off mid-word, continuing on 10b.",
+    summary: "10a completes 9b's cutoff (Yefet is enlarged, but the Shechina dwells only in Shem's tents), then identifies the nations of Genesis 10 with contemporary peoples, establishing that Persia (Tiras) descends from Yefet, before homiletically interpreting the names of the giants the spies saw. It then debates whether Rome or Persia falls first: two proofs favor Rome falling to Persia, but Rav dissents that Persia will fall to Rome instead. Rav gives two alternative answers to the objection that builders would fall to destroyers: it is the King's decree, or Persia also destroys synagogues. A baraita confirms Rav's view with both reasons and connects it to Mashiach's arrival after Rome's nine-month global reign. The daf closes with the Parhedrin chamber's exceptional mezuza: R. Yehuda holds it was a special decree, not a genuine dwelling requirement, since his own principle (a 'house' must serve both summer and winter) would otherwise exempt it; Rava explains this principle and Abaye raises two challenges to it. The second remains unresolved as the daf ends with the complete word 'perhaps' in the middle of the argument, continuing on 10b.",
     sugyot: [
       {
         id: "yoma-010a-s01",
@@ -20918,7 +20918,7 @@ const DAF_CONTENT = {
         display: {
           title: "Identifying the nations of Genesis 10; the giants' names interpreted",
           oneLine: "The Gemara maps the nations listed in Genesis 10 to known contemporary peoples, establishing that Persia descends from Yefet, then homiletically interprets the names of the giants seen by the spies.",
-          shortSummary: "Completing 9b's cutoff: even though Genesis 9:27 says God will enlarge Yefet, the Divine Presence dwells only in the tents of Shem - the Persians merited building the Second Temple, but the Shechina rested fully only in the First Temple, built by Shlomo of Shem's line. The Gemara then asks how we know the Persians descend from Yefet, and identifies each nation in Genesis 10 with a contemporary counterpart: Gomer is Germania, Magog is Kandia, Madai is Macedonia, Yavan is literally Greece, Tuval is Beit Unyaki, Meshech is Musya, and Tiras is Persia (Rav Yosef). Rav Yosef also identifies further place names from the Table of Nations (Sakistan inner and outer; Bavel, Erech, Akkad, Kalneh; Assyria; Nineveh, Rechovot Ir, Kalach, Resen), and the Gemara confirms Nineveh as 'the great city' via the verse in Jonah. Finally, a baraita homiletically interprets the names of the giants the spies saw (Achiman, Sheshai, Talmai) - as descriptions of their destructive/skilled traits, and alternatively as the names of cities they built - and 'yelidei ha'anak' as meaning they were so tall they seemed to embrace the sun.",
+          shortSummary: "Completing 9b's cutoff: even though Genesis 9:27 says God will enlarge Yefet, the Divine Presence dwells only in the tents of Shem - the Persians merited building the Second Temple, but the Shechina rested fully only in the First Temple, built by Shlomo of Shem's line. The Gemara then asks how we know the Persians descend from Yefet, and identifies each nation in Genesis 10 with a contemporary counterpart: Gomer is Germania, Magog is Kandia, Madai is Macedonia, Yavan is literally Greece, Tuval is Beit Unyaki, Meshech is Musya, and Tiras is Persia (the last identification is also taught by Rav Yosef). The passage continues with further place names from the Table of Nations; Rav Yosef specifically identifies Sakistan and Asshur as Silek, while the Gemara identifies Bavel, Erech, Akkad, Kalneh, Nineveh, Rechovot Ir, Kalach, and Resen and confirms Nineveh as 'the great city' via the verse in Jonah. Finally, a baraita homiletically interprets the names of the giants the spies saw (Achiman, Sheshai, Talmai) - as descriptions of their destructive/skilled traits, and alternatively as the names of cities they built - and 'yelidei ha'anak' as meaning they were so tall they seemed to embrace the sun.",
           whats: "The Gemara's nation-identification exercise is applied biblical hermeneutics: matching archaic biblical names to known political entities of the Rabbinic period, preparing the ground for the Rome-Persia eschatological discussion that follows. The giants' names, interpreted at the end of this same name-identification exercise, receive the same homiletical treatment - the tanna, already expounding names, includes this one too (per Rashi).",
           hint: "Why does it matter that Persia descends from Yefet, and why does the Gemara pause its genealogy to reinterpret the giants' names from the spies' report?"
         },
@@ -20929,16 +20929,16 @@ const DAF_CONTENT = {
           resolution: "The Shechina-in-Shem's-tents point is resolved; the identifications are accepted as received tradition, establishing that Persia descends from Yefet. The giants' names are given two homiletical readings (destructive/skilled traits; cities they built) before the Gemara turns to the Rome-Persia prophecy.",
           takeaway: {
             type: "derivation_principle",
-            text: "Biblical nation lists encode prophetic significance. The Rabbis read Genesis 10 not as ancient history but as a map of contemporary geopolitics - knowing who is who determines which prophecies apply to which powers."
+            text: "Identifying Tiras as Persia supplies the lineage needed for the Rome-Persia teaching that follows; the significance demonstrated here belongs specifically to that identification, not automatically to every name in the list."
           },
           reasoningPattern: {
             id: "biblical-identification",
             category: "aggadic-hermeneutics",
-            notes: "Maps archaic biblical names to contemporary nations; each identification carries prophetic weight"
+            notes: "Maps archaic biblical names to contemporary nations; Tiras=Persia specifically supplies the lineage used in the prophecy discussion that follows"
           },
-          ahaMoment: "The identification exercise is not trivia - it is prophecy decoding. Every nation in Genesis 10 has a living counterpart, and knowing that map tells you who wins the end game. The giants' names get the same treatment simply because the tanna is already in 'name decoding' mode.",
+          ahaMoment: "The Tiras-Persia identification is not trivia: it supplies the specific lineage used in the Rome-Persia discussion that follows. The giants' names get the same treatment simply because the tanna is already in 'name decoding' mode.",
           learningBlocker: "Students may not see why ancient nation names matter or why the Gemara spends time on this. The connection to eschatology is the key - this is groundwork for the Rome-Persia debate.",
-          memoryAnchor: "Tiras equals Persia: the one identification that decides the whole prophetic calculation about who defeats Rome. Achiman, Sheshai, Talmai: their names describe either their destructive traits or the cities they built - included here because the tanna was already expounding names."
+          memoryAnchor: "Tiras equals Persia: the identification needed for the ensuing 'youngest brother' proof that Rome falls to Persia. Achiman, Sheshai, Talmai: their names describe either their destructive traits or the cities they built - included here because the tanna was already expounding names."
         },
         lines: [
           { id: "yoma-010a-l01", kind: "gemara", he: "אַף עַל גַּב דְּ״יַפְתְּ אֱלֹהִים לְיֶפֶת״ — אֵין הַשְּׁכִינָה\nשׁוֹרָה אֶלָּא בְּאׇהֳלֵי שֵׁם.",
@@ -20995,8 +20995,8 @@ const DAF_CONTENT = {
             id: "step-03",
             type: "statement",
             label: "Nation identifications: Tiras is Persia",
-            speaker: "Rav Yosef",
-            text: "Each name is identified with a contemporary nation: Gomer is Germania, Magog is Kandia, Madai is Macedonia, Yavan is literally Greece, Tuval is Beit Unyaki, Meshech is Musya. Tiras is disputed, but Rav Yosef teaches: Tiras is Persia.",
+            speaker: "Gemara, concluding with a teaching of Rav Yosef",
+            text: "The Gemara identifies each name with a contemporary nation: Gomer is Germania, Magog is Kandia, Madai is Macedonia, Yavan is literally Greece, Tuval is Beit Unyaki, Meshech is Musya. Tiras is disputed by R. Simai (or R. Simon) and the Rabbis; Rav Yosef then teaches: Tiras is Persia.",
             sourceRefs: [
               {
                 sourceType: "gemara",
@@ -21010,14 +21010,26 @@ const DAF_CONTENT = {
             id: "step-04",
             type: "statement",
             label: "Further place-name identifications from the Table of Nations",
-            speaker: "Rav Yosef",
-            text: "Rav Yosef continues identifying place names from Genesis 10: Sakistan inner and outer; Bavel, Erech, Akkad, and Kalneh (the beginning of Nimrod's kingdom); Assyria; and Nineveh, Rechovot Ir, Kalach, and Resen. The Gemara confirms via the verse in Jonah that Nineveh, not Resen, is 'the great city.'",
+            speaker: "Gemara, including teachings of Rav Yosef",
+            text: "The Gemara continues identifying place names from Genesis 10. Rav Yosef teaches the Sakistan identification and Asshur as Silek; the passage also identifies Bavel, Erech, Akkad, Kalneh, Nineveh, Rechovot Ir, Kalach, and Resen. The Gemara confirms via the verse in Jonah that Nineveh, not Resen, is 'the great city.'",
             sourceRefs: [
+              {
+                sourceType: "gemara",
+                lineId: "yoma-010a-l10",
+                vilnaLine: 10,
+                note: "Rav Yosef identifies inner and outer Sakistan"
+              },
               {
                 sourceType: "gemara",
                 lineId: "yoma-010a-l12",
                 vilnaLine: 12,
-                note: "Further Table of Nations place-name identifications"
+                note: "Bavel, Erech, Akkad, and Kalneh identifications"
+              },
+              {
+                sourceType: "gemara",
+                lineId: "yoma-010a-l15",
+                vilnaLine: 15,
+                note: "Asshur and city identifications through the Nineveh proof"
               }
             ]
           },
@@ -21030,8 +21042,8 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-010a-l15",
-                vilnaLine: 15,
+                lineId: "yoma-010a-l02",
+                vilnaLine: 9,
                 note: "Establishing Persia's lineage from Yefet"
               }
             ]
@@ -21062,13 +21074,13 @@ const DAF_CONTENT = {
         misconceptions: [
           {
             misconception: "The Gemara is doing historical geography for its own sake.",
-            correction: "Every identification has prophetic stakes. The whole exercise sets up the eschatological debate about Rome and Persia."
+            correction: "The passage preserves a broader set of received identifications, but the Tiras-Persia identification has the demonstrated immediate role: it sets up the Rome-Persia discussion that follows."
           }
         ],
         relatedSugyot: [],
         visualizableElements: [
           {
-            item: "Family tree: Yefet -> Tiras -> Persia, the identification that decides the whole prophetic calculation about who defeats Rome.",
+            item: "Family tree: Yefet -> Tiras -> Persia, the identification needed for the ensuing 'youngest brother' proof that Rome falls to Persia.",
             type: "sequence",
             label: "Yefet-Tiras-Persia lineage"
           },
@@ -21110,32 +21122,32 @@ const DAF_CONTENT = {
           startLineId: "yoma-010a-l28",
           endLineId: "yoma-010a-l39",
           startVilnaLine: 28,
-          endVilnaLine: 39
+          endVilnaLine: 41
         },
         display: {
           title: "Rome and Persia: two proofs for Persia, Rav dissents, and Mashiach’s timeline",
           oneLine: "Two proofs are offered that Rome will fall to Persia; Rav dissents that Persia will instead fall to Rome, since Persia destroys synagogues, and a baraita confirms this with a further reason tied to Mashiach's arrival.",
           shortSummary: "R. Yehoshua ben Levi, in the name of Rabbi: Rome is destined to fall to Persia, proven from Jeremiah 49:20 ('the little ones of the flock shall drag them away'). Rabba bar Ulla challenges: how do we know 'tze'irei hatzon' (the little ones of the flock) means Persia rather than Greece (both are candidates per Daniel 8:20-21)? The objection is dismissed by one of the Rabbis: 'tze'irei' means 'youngest brother' - fitting Persia, since Tiras (Persia) is listed last among Yefet's sons. Separately, Rabbah bar bar Chana in R. Yochanan's name, in R. Yehuda beRabi Ilai's name, gives a second proof via kal vachomer: the First Temple, built by Shem's descendants and destroyed by the Chaldeans, saw the Chaldeans fall to the Persians; the Second Temple, built by the Persians and destroyed by the Romans, should likewise see the Romans fall to the Persians. Rav dissents: Persia will instead fall to Rome. Rav Kahana and Rav Assi object - would builders fall to destroyers? Rav answers it is a royal decree; some say he answered that Persia too destroys synagogues. A baraita confirms Rav's view with both reasons (Persia destroys synagogues; it is a royal decree that builders fall to destroyers), tying this to Rav Yehuda's teaching in Rav's name: the son of David will not come until the wicked kingdom of Rome spreads through the entire world for nine months, per Micah 5:2.",
-          whats: "This is one of the Gemara's most explicit eschatological passages. The majority view (Persia defeats Rome, on two independent grounds: a verse and a kal vachomer) is directly opposed by Rav's dissent (Rome defeats Persia), which a baraita then backs with both a moral reason (destroying synagogues) and a structural one (builders fall to destroyers) - the same structural logic R. Yehuda beRabi Ilai's kal vachomer used, now redirected against Persia itself.",
-          hint: "Two proofs say Rome falls to Persia; Rav says the opposite. Does Rav reject their reasoning, or is he applying the very same 'builders vs. destroyers' logic to a different pair of empires?"
+          whats: "This is one of the Gemara's most explicit eschatological passages. Two teachings say Persia defeats Rome, on two independent grounds: a verse and a kal vachomer. Rav states the opposite: Rome defeats Persia. When Rav Kahana and Rav Assi object that this would make the Second Temple's builders fall to its destroyers, Rav gives two alternative answers: it is the King's decree, or Persia also destroys synagogues. A baraita confirms Rav's view and states both reasons.",
+          hint: "Two proofs say Rome falls to Persia; Rav says the opposite. How do Rav's two alternative answers, and the baraita that combines them, answer the objection that builders would fall to destroyers?"
         },
         learning: {
           learnerQuestion: "Two proofs say Rome falls to Persia. What is Rav's counter-argument, and how does the baraita confirm it?",
-          coreTension: "The Jeremiah-verse proof (with its own internal challenge and resolution about 'tze'irei hatzon') and R. Yehuda beRabi Ilai's kal vachomer both point to Rome falling to Persia. Rav's dissent does not attack either proof's logic - it applies the SAME 'builders vs. destroyers' structural principle to a different, more current pairing: Persia (having destroyed synagogues) as destroyer, Rome as the one who will destroy them in turn.",
-          coreMove: "Rav Kahana and Rav Assi's challenge ('would builders fall to destroyers?') echoes R. Yehuda beRabi Ilai's own kal vachomer logic turned back on Rav's claim - if builders don't fall to destroyers, how can Persia (the Second Temple's builder) fall to Rome? Rav's answer, and the baraita's fuller version, resolve this by reclassifying Persia as ALSO a destroyer (of synagogues), so the 'builders fall to destroyers' principle still applies - just pointing the other direction.",
-          resolution: "The Gemara does not adjudicate between the majority (Rome falls to Persia) and Rav (Persia falls to Rome). The baraita's confirmation of Rav's view closes with Rav Yehuda's own teaching: the son of David will not come until Rome's wicked kingdom spreads through the whole world for nine months.",
+          coreTension: "The Jeremiah-verse proof (with its own internal challenge and resolution about 'tze'irei hatzon') and R. Yehuda beRabi Ilai's kal vachomer both point to Rome falling to Persia. Rav states the opposite conclusion. Rav Kahana and Rav Assi therefore challenge him: how could Persia, which built the Second Temple, fall to Rome, which destroyed it?",
+          coreMove: "Rav answers the challenge in two alternative versions: yes, the builders will fall to the destroyers because it is the King's decree; or the Persians are not simply builders, because they too destroy synagogues. The baraita then confirms Rav's conclusion and presents both reasons together.",
+          resolution: "The Gemara records two teachings that Rome falls to Persia, followed by Rav's contrary teaching that Persia falls to Rome and a baraita confirming Rav. The baraita closes with Rav Yehuda's teaching in Rav's name: the son of David will not come until Rome's wicked kingdom spreads through the whole world for nine months.",
           takeaway: {
             type: "conceptual",
-            text: "The same structural principle (builders fall to destroyers) can be argued in either direction depending on which nation's recent conduct - not just its ancient lineage - counts as 'destroying.'"
+            text: "A theological decree can override an apparent historical-moral pattern, while a nation's later conduct can also undermine the premise that it should still be treated only as a builder."
           },
           reasoningPattern: {
             id: "builders-fall-to-destroyers",
             category: "aggadic-theology",
-            notes: "A structural principle (whoever destroys eventually falls to a later destroyer) applied first to establish Persia's eventual victory over Rome, then reapplied by Rav to reach the opposite conclusion once Persia's own conduct (destroying synagogues) reclassifies it as a destroyer."
+            notes: "An objection from the builders/destroyers relationship is answered in two alternative ways: divine decree, or reclassification of Persia because it destroys synagogues."
           },
-          ahaMoment: "Rav Kahana and Rav Assi's objection isn't a new argument - it is the majority's OWN kal vachomer logic, turned back against Rav. Rav's answer doesn't reject that logic; it accepts it and reclassifies Persia as a destroyer too, given its treatment of synagogues.",
-          learningBlocker: "Students may think Rav is offering an unrelated moral objection. He is using the exact same structural principle (builders fall to destroyers) as the majority view - just pointing it at Persia's own recent conduct rather than its ancient lineage.",
-          memoryAnchor: "Two proofs for Rome falling to Persia: Jeremiah's 'tze'irei hatzon' (youngest brother = Tiras = Persia), and R. Yehuda beRabi Ilai's kal vachomer (builders/destroyers pattern). Rav flips it: Persia destroys synagogues too, so builders-fall-to-destroyers now points at Persia. Baraita confirms both reasons; Mashiach waits for Rome's nine-month global reign (Micah 5:2)."
+          ahaMoment: "Rav's two answers are alternatives, not one reapplied principle: either the outcome is simply the King's decree, or Persia's destruction of synagogues defeats the objection's description of Persia as merely a builder.",
+          learningBlocker: "Students may merge Rav's two transmitted answers into a single principle. The Gemara presents them as alternatives, while the baraita later states both reasons together.",
+          memoryAnchor: "Two proofs for Rome falling to Persia: Jeremiah's 'tze'irei hatzon' (youngest brother = Tiras = Persia), and R. Yehuda beRabi Ilai's kal vachomer. Rav says Persia falls to Rome; his alternatives are the King's decree or Persia's destruction of synagogues. The baraita gives both and then states Rome's nine-month global reign before Mashiach (Micah 5:2)."
         },
         lines: [
           { id: "yoma-010a-l28", kind: "gemara", he: "אָמַר רַבִּי יְהוֹשֻׁעַ בֶּן לֵוִי\nאָמַר רַבִּי: עֲתִידָה רוֹמִי שֶׁתִּפּוֹל בְּיַד פָּרַס, שֶׁנֶּאֱמַר: ״לָכֵן שִׁמְעוּ עֲצַת ה׳ אֲשֶׁר יָעַץ (עַל) אֱדוֹם וּמַחְשְׁבוֹתָיו\nאֲשֶׁר חָשַׁב (עַל) יוֹשְׁבֵי תֵימָן אִם לֹא יִסְחָבוּם צְעִירֵי הַצֹּאן אִם לֹא יַשִּׁים עֲלֵיהֶם נְוֵהֶם״.",
@@ -21259,30 +21271,30 @@ const DAF_CONTENT = {
         ],
         misconceptions: [
           {
-            misconception: "The Gemara is making a historical prediction that can be evaluated by later events.",
-            correction: "The Gemara is describing the prophetic and structural framework the Rabbis used to reason about historical outcomes - theological argument, not simple prediction."
+            misconception: "The competing predictions are merely unsupported forecasts.",
+            correction: "They are explicit predictions of future imperial outcomes, but each is argued through verses, lineage, kal vachomer, divine decree, or moral conduct rather than asserted without reasoning."
           },
           {
-            misconception: "Rav's dissent rejects the majority's 'builders fall to destroyers' logic.",
-            correction: "Rav accepts that exact logic - he applies it to Persia's own conduct (destroying synagogues), which reclassifies Persia as a destroyer too, reversing which empire the principle points at."
+            misconception: "Rav applies the majority's builders-and-destroyers logic in reverse as a single counter-proof.",
+            correction: "The students raise builders-versus-destroyers as an objection to Rav. Rav gives two alternative answers: the outcome is the King's decree, or Persia also destroys synagogues. The baraita later combines those reasons."
           }
         ],
         relatedSugyot: [],
         visualizableElements: [
           {
-            item: "Two independent proofs (Jeremiah's 'tze'irei hatzon' resolved as Persia; the kal vachomer from the two Temples' builders and destroyers) vs. Rav's dissent, which reapplies the same builders/destroyers principle to Persia's own conduct (destroying synagogues).",
+            item: "Two independent proofs (Jeremiah's 'tze'irei hatzon' resolved as Persia; the kal vachomer from the two Temples) versus Rav's dissent and its two alternative answers to the builders/destroyers objection: the King's decree, or Persia's destruction of synagogues.",
             type: "comparison",
-            label: "Two proofs for Persia vs. Rav's reapplied builders/destroyers logic"
+            label: "Two proofs for Persia vs. Rav's two answers"
           }
         ],
         quizSeeds: [
           {
-            question: "What two proofs does the majority view bring that Rome will fall to Persia?",
+            question: "What two teachings support the position that Rome will fall to Persia?",
             answer: "(1) Jeremiah 49:20's 'tze'irei hatzon,' resolved to mean the youngest brother - fitting Tiras/Persia, listed last among Yefet's sons. (2) A kal vachomer: the First Temple's destroyers (Chaldeans) fell to Persia; the Second Temple's destroyers (Rome) should likewise fall to Persia, since Persia built it."
           },
           {
-            question: "What is Rav's dissent, and how does the baraita justify it using the same logic the majority used?",
-            answer: "Rav says Persia will fall to Rome instead. When challenged that this contradicts 'builders fall to destroyers' (Persia built the Second Temple), the baraita answers that Persia is ALSO a destroyer - of synagogues - so the same principle now points at Persia falling to a later destroyer, Rome."
+            question: "What is Rav's dissent, what two alternative answers does he give to the builders-versus-destroyers objection, and how does the baraita support him?",
+            answer: "Rav says Persia will fall to Rome instead. He answers either that this is the King's decree or that Persia too destroys synagogues. The baraita confirms Rav's conclusion and supplies both reasons together."
           }
         ],
         finalRuling: "",
@@ -21312,7 +21324,7 @@ const DAF_CONTENT = {
         display: {
           title: "Lishkat Parhedrin's mezuza: R. Yehuda says it was a decree, not a genuine dwelling",
           oneLine: "A baraita says the Parhedrin chamber alone among Temple chambers had a mezuza because it housed the High Priest; R. Yehuda challenges this reasoning (other chambers had dwellings too, yet no mezuza) and says it was instead a special decree, since a seasonal residence is not a genuine 'house' - Rava explains R. Yehuda's underlying principle, and Abaye raises two challenges to it, the second left unresolved as the daf cuts off.",
-          shortSummary: "A baraita: all the chambers in the Temple lacked a mezuza, except the Chamber of Parhedrin, which had a dwelling for the High Priest. R. Yehuda objects: but several other chambers also had dwellings, yet lacked a mezuza! Rather, Lishkat Parhedrin's mezuza was a special decree. Rava explains R. Yehuda's reasoning: he holds that a 'house' not built for both summer and winter is not a genuine house for mezuza purposes - the High Priest's weeklong residence there does not qualify on its own, hence the need for a decree (per Rashi, so that people would not think the High Priest was imprisoned there). Abaye challenges this principle twice: first from Amos 3:15 ('I will strike the winter house along with the summer house'), answered that only an explicitly-labeled winter/summer house counts, not a generic one; second from a baraita where R. Yehuda himself obligates a sukkah (a seasonal structure) in eruv, mezuza, and maaser - and maaser cannot be explained as a merely rabbinic obligation, seemingly contradicting R. Yehuda's own seasonal-house principle. The Gemara begins 'perhaps...' and cuts off, continuing to 10b.",
+          shortSummary: "A baraita: all the chambers in the Temple lacked a mezuza, except the Chamber of Parhedrin, which had a dwelling for the High Priest. R. Yehuda objects: but several other chambers also had dwellings, yet lacked a mezuza! Rather, Lishkat Parhedrin's mezuza was a special decree whose rationale is not supplied on this daf. Rava explains R. Yehuda's reasoning: he holds that a 'house' not built for both summer and winter is not a genuine house for mezuza purposes - the High Priest's weeklong residence there does not qualify on its own, hence the need for a decree. Abaye challenges this principle twice: first from Amos 3:15 ('I will strike the winter-house with the summer-house'), answered that these qualified compounds do not show that either seasonal residence is called an unmodified 'house'; second from a baraita where R. Yehuda himself obligates a sukkah (a seasonal structure) in eruv, mezuza, and maaser. The Gemara asks whether maaser too could be merely rabbinic, then begins 'perhaps...' and cuts off before answering, continuing on 10b.",
           whats: "This sugya introduces R. Yehuda's halakhic principle that a 'house' must be usable in both summer and winter to count as a genuine dwelling for mezuza purposes - and shows the Gemara immediately testing that principle against two counterexamples, the second of which is left unresolved when the daf ends.",
           hint: "R. Yehuda says the Parhedrin chamber's mezuza was 'just a decree' - not because he doubts the room was lived in, but because of what specific requirement he thinks a 'house' must meet. What is that requirement, and does it hold up against Abaye's challenges?"
         },
@@ -21320,7 +21332,7 @@ const DAF_CONTENT = {
           learnerQuestion: "Why does R. Yehuda say the Parhedrin chamber's mezuza was 'just a decree' rather than a genuine dwelling requirement, and does that principle survive Abaye's challenges?",
           coreTension: "The baraita's own stated reason for Parhedrin's mezuza (it had a dwelling for the High Priest) seems to prove too much: other Temple chambers also had dwellings, yet lacked mezuza. R. Yehuda resolves this by denying that Parhedrin's residence counts as a genuine 'house' at all - but then needs a special decree to explain why it has a mezuza anyway.",
           coreMove: "Rava supplies R. Yehuda's underlying principle: a 'bayit' for mezuza purposes must be usable year-round, in both summer and winter. The High Priest's one-week residence fails this test, so by rights Parhedrin should need no mezuza either - hence R. Yehuda's move to 'it was a decree' instead of 'it was a genuine dwelling.' Abaye then probes whether this principle is really R. Yehuda's, testing it against a verse (Amos) and against R. Yehuda's own ruling on sukkah.",
-          resolution: "Not resolved within 10a. Abaye's first challenge (Amos's 'winter house'/'summer house') is answered (only an explicitly labeled seasonal house counts as 'bayit,' not a plain unlabeled one). His second challenge (R. Yehuda obligates a sukkah - a seasonal structure - in maaser, which cannot be explained as merely rabbinic) is left open as the daf cuts off mid-word.",
+          resolution: "Not resolved within 10a. Abaye's first challenge from Amos's 'winter-house' and 'summer-house' is answered: those qualified compounds do not prove that either seasonal residence is called an unmodified 'house.' His second challenge asks whether R. Yehuda's maaser obligation for a sukkah can also be explained as rabbinic; the response is left open as the daf ends after the complete word 'perhaps,' in the middle of the argument.",
           takeaway: {
             type: "legal_principle",
             text: "A halachic 'house' can be defined by functional criteria (year-round usability) rather than by the simple fact of residence - and testing that definition against the same authority's other rulings is a standard way the Gemara checks a proposed principle's coherence."
@@ -21330,9 +21342,9 @@ const DAF_CONTENT = {
             category: "halakhic-analysis",
             notes: "Having derived a sage's underlying principle (Rava on R. Yehuda), the Gemara systematically tests it against that same sage's other stated rulings (the sukkah baraita) to see if it holds up consistently."
           },
-          ahaMoment: "R. Yehuda's 'it was a decree' is not a concession that the room wasn't really lived in - it is the consequence of a stricter definition of 'house' that the weeklong residence fails to meet. Per Rashi, the decree itself existed so that people would not think the High Priest was imprisoned there.",
+          ahaMoment: "R. Yehuda's 'it was a decree' is not a concession that the room wasn't really lived in - it is the consequence of a stricter definition of 'house' that the weeklong residence fails to meet. This daf does not yet supply the decree's rationale.",
           learningBlocker: "Students may assume 'genuinely qualifies as a residence' is R. Yehuda's position, since he is arguing FOR the room having a mezuza. It is the opposite: R. Yehuda denies it qualifies as a genuine 'bayit' under his own year-round criterion, and needs the decree specifically because the dwelling-based reasoning fails for him.",
-          memoryAnchor: "Baraita's initial reason: Parhedrin has a dwelling, hence mezuza. R. Yehuda's objection: other dwelling- chambers lack mezuza, so that can't be the reason - rather, it was a decree. Rava: R. Yehuda holds a 'bayit' must serve both summer and winter; a one-week residence fails. Abaye's two challenges: Amos's winter/summer houses (answered - only explicitly-labeled ones count), and R. Yehuda's own sukkah-maaser ruling (unresolved, cut off)."
+          memoryAnchor: "Baraita's initial reason: Parhedrin has a dwelling, hence mezuza. R. Yehuda's objection: other dwelling-chambers lack mezuza, so that can't be the reason - rather, it was a decree. Rava: R. Yehuda holds a 'bayit' must serve both summer and winter; a one-week residence fails. Abaye's two challenges: Amos's qualified 'winter-house'/'summer-house' terms do not prove an unmodified 'house,' while R. Yehuda's own sukkah-maaser ruling remains unresolved when the daf cuts off."
         },
         lines: [
           { id: "yoma-010a-l41", kind: "gemara", he: "תָּנוּ רַבָּנַן: כׇּל הַלְּשָׁכוֹת\nשֶׁהָיוּ בְּמִקְדָּשׁ לֹא הָיוּ לָהֶן מְזוּזָה, חוּץ מִלִּשְׁכַּת פַּרְהֶדְרִין, שֶׁהָיָה בָּהּ בֵּית דִּירָה לְכֹהֵן גָּדוֹל.",
@@ -21405,7 +21417,7 @@ const DAF_CONTENT = {
             type: "challenge",
             label: "Abaye's first challenge: Amos's 'winter house' and 'summer house'",
             speaker: "Abaye",
-            text: "Abaye challenges: but it is written (Amos 3:15), 'I will strike the winter house along with the summer house' - implying each is independently called a 'house'! Answered: a winter house and a summer house are each called 'house' when explicitly labeled as such; a plain, unlabeled structure is not.",
+            text: "Abaye challenges from Amos 3:15: 'I will strike the winter-house with the summer-house.' Rava answers that each is called only by a qualified compound, 'winter-house' or 'summer-house'; neither is called an unmodified 'house,' so the verse does not defeat R. Yehuda's criterion.",
             sourceRefs: [
               {
                 sourceType: "gemara",
@@ -21420,13 +21432,25 @@ const DAF_CONTENT = {
             type: "stub",
             label: "Abaye's second challenge: R. Yehuda's own sukkah ruling - unresolved",
             speaker: "Abaye",
-            text: "Abaye challenges again: a baraita teaches that R. Yehuda obligates a sukkah (a seasonal structure) in eruv, mezuza, and maaser, while the Sages exempt it. Granted eruv and mezuza could be explained as merely rabbinic obligations - but can maaser be explained as merely rabbinic? The Gemara begins 'perhaps...' and cuts off mid-word; the resolution continues on 10b.",
+            text: "Abaye challenges again from a dispute in which R. Yehuda obligates a festival sukkah and the Rabbis exempt. A further teaching states that R. Yehuda obligates the sukkah in eruv, mezuza, and maaser. Granted eruv and mezuza could be explained as merely rabbinic obligations - but can maaser be explained as merely rabbinic? The Gemara begins its response with the complete word 'perhaps' and the argument cuts off there; the resolution continues on 10b.",
             sourceRefs: [
               {
                 sourceType: "gemara",
                 lineId: "yoma-010a-l46",
                 vilnaLine: 46,
-                note: "Abaye's sukkah/maaser challenge, cut off unresolved"
+                note: "R. Yehuda's festival-sukkah obligations"
+              },
+              {
+                sourceType: "gemara",
+                lineId: "yoma-010a-l47",
+                vilnaLine: 47,
+                note: "Question whether maaser can be merely rabbinic"
+              },
+              {
+                sourceType: "gemara",
+                lineId: "yoma-010a-l48",
+                vilnaLine: 48,
+                note: "Open response begins with 'perhaps' and cuts off"
               }
             ]
           }
@@ -21444,7 +21468,7 @@ const DAF_CONTENT = {
           },
           {
             misconception: "10a resolves whether R. Yehuda's sukkah ruling contradicts his own seasonal-house principle.",
-            correction: "It does not. Abaye's challenge from the sukkah/maaser baraita is left open when the daf cuts off mid-word, continuing on 10b."
+            correction: "It does not. Abaye's challenge from the sukkah/maaser baraita is left open when the daf ends after the complete word 'perhaps,' in the middle of the response; the argument continues on 10b."
           }
         ],
         relatedSugyot: [],
