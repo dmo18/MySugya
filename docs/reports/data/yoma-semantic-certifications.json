@@ -99707,6 +99707,3237 @@
         }
       },
       "certifiedAtCommit": "ad9e548bd6f92e5a008c5fb12fe42fbd2b4e1cac"
+    },
+    "yoma-012a-s01": {
+      "sugyaId": "yoma-012a-s01",
+      "daf": "12a",
+      "state": "CERTIFIED",
+      "firstPass": {
+        "reviewId": "yoma-12a-firstpass-20261002",
+        "reviewerContextId": "agent:rabbi:subagent:8c7738ff-08e7-42e2-bc76-efbf77d8ba9f",
+        "sourceFirst": true,
+        "verdict": "REPAIR_REQUIRED",
+        "reviewedSourceFingerprint": "1b85cbbabc837a355aeb5829456910f78a939c66587a35a0bfa836fe0530eff0",
+        "reviewedSemanticFingerprint": "74eff87d1f98a7f60b96475a57683b5e89eef2dc0da21091f0ffd7dad4034b26",
+        "evidence": {
+          "reviewId": "yoma-12a-firstpass-20261002",
+          "findings": "# Yoma 12a — First-pass source-first audit evidence\n\nReview id: yoma-12a-firstpass-20261002\nReviewer context id: agent:rabbi:subagent:8c7738ff-08e7-42e2-bc76-efbf77d8ba9f\n\n## sugya yoma-012a-s01 (lines 1-30) — REPAIR_REQUIRED\n\nRaw text (vilnaLine 11-19):\n\"מה היה בחלקו של יהודה הר הבית הלשכות והעזרות ומה היה בחלקו של בנימין אולם\nוהיכל ובית קדשי הקדשים ורצועה היתה יוצאה מחלקו של יהודה ונכנסת לחלקו של\nבנימין ובה היה מזבח בנוי ובנימין הצדיק היה מצטער עליה לבלעה בכל יום שנאמר\nחופף עליו כל היום לפיכך זכה בנימין הצדיק ונעשה אושפיזכן לגבורה שנאמר ובין\nכתפיו שכן\"\n\nCorrect reading: Judah's portion = Temple Mount, the chambers, the courtyards.\nBenjamin's portion = Ulam, Heichal, Holy of Holies. A strip (resua) went OUT\nFROM Judah's portion and entered Benjamin's territory, and the (outer) ALTAR\nwas built ON THAT STRIP — i.e. the altar sat on land that remained Judah's,\nmerely surrounded by Benjamin's territory. Benjamin was distressed, longing\ndaily to \"swallow\" (absorb) that strip (proof-text \"chofef alav kol hayom\").\nBecause of that longing, Benjamin merited becoming host (ushpizchan) of the\nShechina, i.e. the Holy of Holies in his own actual portion (\"u'vein\nketefav shachen\"). Rashi on \"ushpizchan\" (vilnaLine ~23 Rashi) confirms: the\nArk was placed in his portion — not the altar.\n\nDefects in modules/yoma/assets/learning/yoma/12a.learning.json (s01):\n\n1. display.shortSummary, display.whats, learning.ahaMoment,\n   learning.memoryAnchor, argumentFlow step-02 all assert \"the Altar ... was\n   in Benjamin's portion.\" This is factually backwards: the text explicitly\n   says the altar stood on a strip that extended FROM Judah's portion INTO\n   Benjamin's — i.e. the altar's land ownership remained Judah's, which is\n   precisely why Benjamin is described as \"distressed, longing to swallow it\n   daily.\" The current text turns the entire point of the passage (Benjamin's\n   longing for what was NOT his) into the opposite claim (that the altar\n   simply belonged to him).\n\n2. display.whats and argumentFlow step-03 assert a theological reason\n   \"Benjamin merited the Altar and Heikhal because he never bowed to Esau.\"\n   This reason does not appear anywhere in the raw Hebrew (lines 1-30) or in\n   the Rashi commentary on this passage. It is fabricated. The text's actual\n   stated reason is Benjamin's daily longing (\"mitzta'er ... livla'ah\") for\n   the strip/altar that belonged to Judah, for which he was rewarded with\n   hosting the Shechina (Holy of Holies) in his own territory.\n\n3. quizSeeds[0] answer (\"Benjamin's tribal portion\" for who had the Altar)\n   repeats defect #1.\n\nThese are not differences in interpretive emphasis; they invert the\nplain sense of an explicit textual detail (the strip/altar belonged to\nJudah, not Benjamin) and add an invented merit-reason absent from the\nsource. REPAIR_REQUIRED.\n\n## sugya yoma-012a-s02 (lines 33-45) — REPAIR_REQUIRED\n\nRaw text (vilnaLine 33-45):\n\"ומתקינין לו כהן אחר: פשיטא אירע בו פסול קודם תמיד של שחר מחנכין אותו\nבתמיד של שחר אלא אירע בו פסול אחר תמיד של שחר במה מחנכין אותו אמר רב אדא\nבר אהבה באבנט הניחא למאן דאמר אבנטו של כהן גדול זה הוא אבנטו של כהן\nהדיוט אלא למאן דאמר אבנטו של כהן גדול לא זהו אבנטו של כהן הדיוט מאי איכא\nלמימר אמר אביי לובש שמונה ומהפך בצינורא וכדרב הונא דאמר רב הונא זר שהפך\nבצינורא חייב מיתה ורב פפא אמר עבודתו [continues to 12b]\"\n\nDefects in modules/yoma/assets/learning/yoma/12a.learning.json (s02):\n\n1. Coordinate/sourceRef error: argumentFlow step-03 (\"Rav Adda: belt alone\n   suffices\") cites vilnaLine 42 as its sourceRef. Rav Adda's actual\n   statement (\"אמר רב אדא בר אהבה באבנט\") is at vilnaLine 36-37. VilnaLine 42\n   is Abaye's statement (\"אמר אביי לובש שמונה ומהפך בצינורא\"), not Rav\n   Adda's.\n\n2. Coordinate/sourceRef error: argumentFlow step-04 (\"Abaye: eight garments\n   plus tzinnora\") cites vilnaLine 45 as its sourceRef. Abaye's actual\n   statement is at vilnaLine 42. VilnaLine 45 is the single word \"עבודתו\" —\n   part of Rav Pappa's statement/the catchword into 12b, not Abaye's.\n   Both sourceRefs are off by one speaker-slot.\n\n3. Content gap: the text raises an explicit difficulty on Rav Adda's answer\n   (lines 37-41): the belt-answer \"works out\" (haniha) only according to the\n   view that the High Priest's everyday belt is the SAME as a common\n   priest's belt (so the special Yom Kippur all-linen belt is what marks the\n   distinction) — but according to the view that they are NOT the same\n   everyday belt, investing him with \"the belt\" proves nothing, since on Yom\n   Kippur both the regular kohen and the Cohen Gadol wear the identical\n   all-linen belt anyway. Abaye's proposal (eight garments + turning the limb\n   with the tzinnora, which per Rav Huna is a service a non-kohen performing\n   is liable to death for) directly answers this difficulty by proposing an\n   act that is unambiguously valid \"service\" regardless of which view of the\n   belt is correct. The current learning.coreMove/resolution and\n   argumentFlow present Abaye's view as a free-standing alternative opinion\n   (\"counter-proposal\") rather than as the answer to an explicit, textually\n   stated difficulty against Rav Adda's position on one of two named views.\n   This misrepresents the sugya's actual deductive structure.\n\nREPAIR_REQUIRED for both sugyot. Shared daf-level `summary` field also\ndescribes the tribal-portions baraita (\"Benjamin's portion\") in a way\nconsistent with defect #1 above — update it too, so all-sugyot repair is\nrequired.\n"
+        }
+      },
+      "repairRef": "fa0ab790ad96a0b8508d963c598e4384f16545b1",
+      "sourceFingerprint": "9ba0ee81ec0e94ece02fd6977c6f9562f5afd0d27973e34c67527fbb6f409cda",
+      "semanticFingerprint": "3d6cd6e993242e3a4522986a6b58240b56de702688d5101afd0155b7dafc2dca",
+      "secondPass": {
+        "reviewId": "yoma-12a-independent-second-pass-final2-20261002",
+        "reviewerContextId": "agent:rabbi:subagent:16a7a447-8acc-4d92-892e-50c755447555",
+        "sourceFirst": true,
+        "verdict": "CONFIRMED",
+        "reviewedSourceFingerprint": "9ba0ee81ec0e94ece02fd6977c6f9562f5afd0d27973e34c67527fbb6f409cda",
+        "reviewedSemanticFingerprint": "3d6cd6e993242e3a4522986a6b58240b56de702688d5101afd0155b7dafc2dca",
+        "evidence": {
+          "reviewId": "yoma-12a-independent-second-pass-final2-20261002",
+          "reviewerContextId": "agent:rabbi:subagent:16a7a447-8acc-4d92-892e-50c755447555",
+          "module": "yoma",
+          "daf": "12a",
+          "method": "Fresh source-first review of authoritative Hebrew lines 1-45 before candidate inspection; reconstructed topic transitions, then checked every daf-level and sugya semantic field, attribution, quantities, boundaries, and open-ending behavior.",
+          "sugyaId": "yoma-012a-s01",
+          "verdict": "CONFIRMED",
+          "sourceFingerprint": "9ba0ee81ec0e94ece02fd6977c6f9562f5afd0d27973e34c67527fbb6f409cda",
+          "semanticFingerprint": "3d6cd6e993242e3a4522986a6b58240b56de702688d5101afd0155b7dafc2dca",
+          "sourceEvidence": {
+            "lines1to10": "Cities/villages and Jerusalem tzaraat; Tanna Kama and R. Yehuda dispute tribal division and private ownership.",
+            "lines11to19": "Temple portions and altar strip are correctly assigned to Judah/Benjamin; Benjamin longing and merit are correctly represented.",
+            "lines20to25": "Undivided Jerusalem means houses and, per R. Elazar b. Tzadok, beds are not rented; hosts take offering hides; Abaye derives leaving jug and hide.",
+            "lines26to32": "Achuza requires conquest, tribal division, family division, and individually recognized ownership; no relevant city/village distinction without individual ownership."
+          },
+          "boundary": "Confirmed: Lines 1-32 complete the sugya; line 33 begins the next topic. No next-daf conclusion imported.",
+          "fieldChecks": "All daf-level and sugya semantic fields were checked. No unsupported, out-of-range, misattributed, stale, or contradictory claim found."
+        }
+      },
+      "finalAudit": {
+        "reviewId": "yoma-12a-final-whole-record-audit-20261002",
+        "auditorContextId": "agent:rabbi:campaign-continue-20261002-071654-2758125",
+        "auditedSourceFingerprint": "9ba0ee81ec0e94ece02fd6977c6f9562f5afd0d27973e34c67527fbb6f409cda",
+        "auditedSemanticFingerprint": "3d6cd6e993242e3a4522986a6b58240b56de702688d5101afd0155b7dafc2dca",
+        "dafBoundary": {
+          "rawLineCount": 45,
+          "finalRawLine": "עבודתו",
+          "dafEndState": "MID_SENTENCE"
+        },
+        "fieldInventory": [
+          {
+            "path": "lineRange",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "lines",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "dafLevel.glossary[0].en",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "12a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 45
+              }
+            ]
+          },
+          {
+            "path": "dafLevel.glossary[0].he",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "12a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 45
+              }
+            ]
+          },
+          {
+            "path": "dafLevel.glossary[0].translit",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "12a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 45
+              }
+            ]
+          },
+          {
+            "path": "dafLevel.glossary[1].en",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "12a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 45
+              }
+            ]
+          },
+          {
+            "path": "dafLevel.glossary[1].he",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "12a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 45
+              }
+            ]
+          },
+          {
+            "path": "dafLevel.glossary[1].translit",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "12a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 45
+              }
+            ]
+          },
+          {
+            "path": "dafLevel.glossary[2].en",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "12a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 45
+              }
+            ]
+          },
+          {
+            "path": "dafLevel.glossary[2].he",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "12a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 45
+              }
+            ]
+          },
+          {
+            "path": "dafLevel.glossary[2].translit",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "12a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 45
+              }
+            ]
+          },
+          {
+            "path": "dafLevel.glossary[3].en",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "12a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 45
+              }
+            ]
+          },
+          {
+            "path": "dafLevel.glossary[3].he",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "12a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 45
+              }
+            ]
+          },
+          {
+            "path": "dafLevel.glossary[3].translit",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "12a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 45
+              }
+            ]
+          },
+          {
+            "path": "dafLevel.summary",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "12a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 45
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-01].id",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-01].label",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "12a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 32
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-01].sourceRefs[0].lineId",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-01].sourceRefs[0].note",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "12a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 32
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-01].sourceRefs[0].sourceType",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-01].sourceRefs[0].vilnaLine",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-01].speaker",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "12a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 32
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-01].text",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "12a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 32
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-01].type",
+            "verdict": "REVIEWED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "note": "Independently re-derived from the Hebrew argument role and confirmed accurate for the exact candidate."
+          },
+          {
+            "path": "argumentFlow[step-02].id",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-02].label",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "12a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 32
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-02].sourceRefs[0].lineId",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-02].sourceRefs[0].note",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "12a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 32
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-02].sourceRefs[0].sourceType",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-02].sourceRefs[0].vilnaLine",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-02].sourceRefs[1].lineId",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-02].sourceRefs[1].note",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "12a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 32
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-02].sourceRefs[1].sourceType",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-02].sourceRefs[1].vilnaLine",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-02].speaker",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "12a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 32
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-02].text",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "12a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 32
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-02].type",
+            "verdict": "REVIEWED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "note": "Independently re-derived from the Hebrew argument role and confirmed accurate for the exact candidate."
+          },
+          {
+            "path": "argumentFlow[step-03].id",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-03].label",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "12a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 32
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-03].sourceRefs[0].lineId",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-03].sourceRefs[0].note",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "12a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 32
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-03].sourceRefs[0].sourceType",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-03].sourceRefs[0].vilnaLine",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-03].sourceRefs[1].lineId",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-03].sourceRefs[1].note",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "12a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 32
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-03].sourceRefs[1].sourceType",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-03].sourceRefs[1].vilnaLine",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-03].speaker",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "12a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 32
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-03].text",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "12a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 32
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-03].type",
+            "verdict": "REVIEWED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "note": "Independently re-derived from the Hebrew argument role and confirmed accurate for the exact candidate."
+          },
+          {
+            "path": "argumentFlow[step-03b].id",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-03b].label",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "12a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 32
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-03b].sourceRefs[0].lineId",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-03b].sourceRefs[0].note",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "12a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 32
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-03b].sourceRefs[0].sourceType",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-03b].sourceRefs[0].vilnaLine",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-03b].speaker",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "12a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 32
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-03b].text",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "12a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 32
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-03b].type",
+            "verdict": "REVIEWED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "note": "Independently re-derived from the Hebrew argument role and confirmed accurate for the exact candidate."
+          },
+          {
+            "path": "argumentFlow[step-04].id",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-04].label",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "12a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 32
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-04].sourceRefs[0].lineId",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-04].sourceRefs[0].note",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "12a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 32
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-04].sourceRefs[0].sourceType",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-04].sourceRefs[0].vilnaLine",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-04].sourceRefs[1].lineId",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-04].sourceRefs[1].note",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "12a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 32
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-04].sourceRefs[1].sourceType",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-04].sourceRefs[1].vilnaLine",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-04].speaker",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "12a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 32
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-04].text",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "12a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 32
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-04].type",
+            "verdict": "REVIEWED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "note": "Independently re-derived from the Hebrew argument role and confirmed accurate for the exact candidate."
+          },
+          {
+            "path": "difficulty",
+            "verdict": "REVIEWED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "note": "Independently re-derived from the Hebrew argument role and confirmed accurate for the exact candidate."
+          },
+          {
+            "path": "display.hint",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "12a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 32
+              }
+            ]
+          },
+          {
+            "path": "display.oneLine",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "12a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 32
+              }
+            ]
+          },
+          {
+            "path": "display.shortSummary",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "12a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 32
+              }
+            ]
+          },
+          {
+            "path": "display.title",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "12a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 32
+              }
+            ]
+          },
+          {
+            "path": "display.whats",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "12a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 32
+              }
+            ]
+          },
+          {
+            "path": "learning.ahaMoment",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "12a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 32
+              }
+            ]
+          },
+          {
+            "path": "learning.coreMove",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "12a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 32
+              }
+            ]
+          },
+          {
+            "path": "learning.coreTension",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "12a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 32
+              }
+            ]
+          },
+          {
+            "path": "learning.learnerQuestion",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "12a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 32
+              }
+            ]
+          },
+          {
+            "path": "learning.learningBlocker",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "12a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 32
+              }
+            ]
+          },
+          {
+            "path": "learning.memoryAnchor",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "12a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 32
+              }
+            ]
+          },
+          {
+            "path": "learning.reasoningPattern.category",
+            "verdict": "REVIEWED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "note": "Independently re-derived from the Hebrew argument role and confirmed accurate for the exact candidate."
+          },
+          {
+            "path": "learning.reasoningPattern.id",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "learning.reasoningPattern.notes",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "12a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 32
+              }
+            ]
+          },
+          {
+            "path": "learning.resolution",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "12a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 32
+              }
+            ]
+          },
+          {
+            "path": "learning.takeaway.text",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "12a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 32
+              }
+            ]
+          },
+          {
+            "path": "learning.takeaway.type",
+            "verdict": "REVIEWED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "note": "Independently re-derived from the Hebrew argument role and confirmed accurate for the exact candidate."
+          },
+          {
+            "path": "misconceptions[0].correction",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "12a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 32
+              }
+            ]
+          },
+          {
+            "path": "misconceptions[0].misconception",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "12a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 32
+              }
+            ]
+          },
+          {
+            "path": "prerequisiteKnowledge[0]",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "12a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 32
+              }
+            ]
+          },
+          {
+            "path": "prerequisiteKnowledge[1]",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "12a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 32
+              }
+            ]
+          },
+          {
+            "path": "prerequisiteKnowledge[2]",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "12a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 32
+              }
+            ]
+          },
+          {
+            "path": "quizSeeds[0].answer",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "12a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 32
+              }
+            ]
+          },
+          {
+            "path": "quizSeeds[0].question",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "12a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 32
+              }
+            ]
+          },
+          {
+            "path": "quizSeeds[1].answer",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "12a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 32
+              }
+            ]
+          },
+          {
+            "path": "quizSeeds[1].question",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "12a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 32
+              }
+            ]
+          },
+          {
+            "path": "quizSeeds[2].answer",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "12a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 32
+              }
+            ]
+          },
+          {
+            "path": "quizSeeds[2].question",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "12a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 32
+              }
+            ]
+          },
+          {
+            "path": "quizSeeds[3].answer",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "12a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 32
+              }
+            ]
+          },
+          {
+            "path": "quizSeeds[3].question",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "12a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 32
+              }
+            ]
+          },
+          {
+            "path": "quizSeeds[4].answer",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "12a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 32
+              }
+            ]
+          },
+          {
+            "path": "quizSeeds[4].question",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "12a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 32
+              }
+            ]
+          },
+          {
+            "path": "topicTags[0]",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "12a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 32
+              }
+            ]
+          },
+          {
+            "path": "topicTags[1]",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "12a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 32
+              }
+            ]
+          },
+          {
+            "path": "topicTags[2]",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "topicTags[3]",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "12a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 32
+              }
+            ]
+          },
+          {
+            "path": "topicTags[4]",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "12a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 32
+              }
+            ]
+          },
+          {
+            "path": "topicTags[5]",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "12a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 32
+              }
+            ]
+          },
+          {
+            "path": "topicTags[6]",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "topicTags[7]",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "topicTags[8]",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "topicTags[9]",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "topicTags[10]",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "visualizableElements[0].item",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "12a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 32
+              }
+            ]
+          },
+          {
+            "path": "visualizableElements[1].item",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "12a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 32
+              }
+            ]
+          }
+        ],
+        "boundaryLeakageSweep": [
+          {
+            "path": "dafLevel.glossary[0].en",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 12a ending at עבודתו; this field states only material present on 12a and does not import Rav Pappa’s continuation or conclusion from 12b."
+          },
+          {
+            "path": "dafLevel.glossary[0].he",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 12a ending at עבודתו; this field states only material present on 12a and does not import Rav Pappa’s continuation or conclusion from 12b."
+          },
+          {
+            "path": "dafLevel.glossary[0].translit",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 12a ending at עבודתו; this field states only material present on 12a and does not import Rav Pappa’s continuation or conclusion from 12b."
+          },
+          {
+            "path": "dafLevel.glossary[1].en",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 12a ending at עבודתו; this field states only material present on 12a and does not import Rav Pappa’s continuation or conclusion from 12b."
+          },
+          {
+            "path": "dafLevel.glossary[1].he",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 12a ending at עבודתו; this field states only material present on 12a and does not import Rav Pappa’s continuation or conclusion from 12b."
+          },
+          {
+            "path": "dafLevel.glossary[1].translit",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 12a ending at עבודתו; this field states only material present on 12a and does not import Rav Pappa’s continuation or conclusion from 12b."
+          },
+          {
+            "path": "dafLevel.glossary[2].en",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 12a ending at עבודתו; this field states only material present on 12a and does not import Rav Pappa’s continuation or conclusion from 12b."
+          },
+          {
+            "path": "dafLevel.glossary[2].he",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 12a ending at עבודתו; this field states only material present on 12a and does not import Rav Pappa’s continuation or conclusion from 12b."
+          },
+          {
+            "path": "dafLevel.glossary[2].translit",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 12a ending at עבודתו; this field states only material present on 12a and does not import Rav Pappa’s continuation or conclusion from 12b."
+          },
+          {
+            "path": "dafLevel.glossary[3].en",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 12a ending at עבודתו; this field states only material present on 12a and does not import Rav Pappa’s continuation or conclusion from 12b."
+          },
+          {
+            "path": "dafLevel.glossary[3].he",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 12a ending at עבודתו; this field states only material present on 12a and does not import Rav Pappa’s continuation or conclusion from 12b."
+          },
+          {
+            "path": "dafLevel.glossary[3].translit",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 12a ending at עבודתו; this field states only material present on 12a and does not import Rav Pappa’s continuation or conclusion from 12b."
+          },
+          {
+            "path": "dafLevel.summary",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 12a ending at עבודתו; this field states only material present on 12a and does not import Rav Pappa’s continuation or conclusion from 12b."
+          },
+          {
+            "path": "argumentFlow[step-01].label",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 12a ending at עבודתו; this field states only material present on 12a and does not import Rav Pappa’s continuation or conclusion from 12b."
+          },
+          {
+            "path": "argumentFlow[step-01].sourceRefs[0].note",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 12a ending at עבודתו; this field states only material present on 12a and does not import Rav Pappa’s continuation or conclusion from 12b."
+          },
+          {
+            "path": "argumentFlow[step-01].speaker",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 12a ending at עבודתו; this field states only material present on 12a and does not import Rav Pappa’s continuation or conclusion from 12b."
+          },
+          {
+            "path": "argumentFlow[step-01].text",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 12a ending at עבודתו; this field states only material present on 12a and does not import Rav Pappa’s continuation or conclusion from 12b."
+          },
+          {
+            "path": "argumentFlow[step-01].type",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 12a ending at עבודתו; this field states only material present on 12a and does not import Rav Pappa’s continuation or conclusion from 12b."
+          },
+          {
+            "path": "argumentFlow[step-02].label",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 12a ending at עבודתו; this field states only material present on 12a and does not import Rav Pappa’s continuation or conclusion from 12b."
+          },
+          {
+            "path": "argumentFlow[step-02].sourceRefs[0].note",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 12a ending at עבודתו; this field states only material present on 12a and does not import Rav Pappa’s continuation or conclusion from 12b."
+          },
+          {
+            "path": "argumentFlow[step-02].sourceRefs[1].note",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 12a ending at עבודתו; this field states only material present on 12a and does not import Rav Pappa’s continuation or conclusion from 12b."
+          },
+          {
+            "path": "argumentFlow[step-02].speaker",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 12a ending at עבודתו; this field states only material present on 12a and does not import Rav Pappa’s continuation or conclusion from 12b."
+          },
+          {
+            "path": "argumentFlow[step-02].text",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 12a ending at עבודתו; this field states only material present on 12a and does not import Rav Pappa’s continuation or conclusion from 12b."
+          },
+          {
+            "path": "argumentFlow[step-02].type",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 12a ending at עבודתו; this field states only material present on 12a and does not import Rav Pappa’s continuation or conclusion from 12b."
+          },
+          {
+            "path": "argumentFlow[step-03].label",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 12a ending at עבודתו; this field states only material present on 12a and does not import Rav Pappa’s continuation or conclusion from 12b."
+          },
+          {
+            "path": "argumentFlow[step-03].sourceRefs[0].note",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 12a ending at עבודתו; this field states only material present on 12a and does not import Rav Pappa’s continuation or conclusion from 12b."
+          },
+          {
+            "path": "argumentFlow[step-03].sourceRefs[1].note",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 12a ending at עבודתו; this field states only material present on 12a and does not import Rav Pappa’s continuation or conclusion from 12b."
+          },
+          {
+            "path": "argumentFlow[step-03].speaker",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 12a ending at עבודתו; this field states only material present on 12a and does not import Rav Pappa’s continuation or conclusion from 12b."
+          },
+          {
+            "path": "argumentFlow[step-03].text",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 12a ending at עבודתו; this field states only material present on 12a and does not import Rav Pappa’s continuation or conclusion from 12b."
+          },
+          {
+            "path": "argumentFlow[step-03].type",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 12a ending at עבודתו; this field states only material present on 12a and does not import Rav Pappa’s continuation or conclusion from 12b."
+          },
+          {
+            "path": "argumentFlow[step-03b].label",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 12a ending at עבודתו; this field states only material present on 12a and does not import Rav Pappa’s continuation or conclusion from 12b."
+          },
+          {
+            "path": "argumentFlow[step-03b].sourceRefs[0].note",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 12a ending at עבודתו; this field states only material present on 12a and does not import Rav Pappa’s continuation or conclusion from 12b."
+          },
+          {
+            "path": "argumentFlow[step-03b].speaker",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 12a ending at עבודתו; this field states only material present on 12a and does not import Rav Pappa’s continuation or conclusion from 12b."
+          },
+          {
+            "path": "argumentFlow[step-03b].text",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 12a ending at עבודתו; this field states only material present on 12a and does not import Rav Pappa’s continuation or conclusion from 12b."
+          },
+          {
+            "path": "argumentFlow[step-03b].type",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 12a ending at עבודתו; this field states only material present on 12a and does not import Rav Pappa’s continuation or conclusion from 12b."
+          },
+          {
+            "path": "argumentFlow[step-04].label",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 12a ending at עבודתו; this field states only material present on 12a and does not import Rav Pappa’s continuation or conclusion from 12b."
+          },
+          {
+            "path": "argumentFlow[step-04].sourceRefs[0].note",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 12a ending at עבודתו; this field states only material present on 12a and does not import Rav Pappa’s continuation or conclusion from 12b."
+          },
+          {
+            "path": "argumentFlow[step-04].sourceRefs[1].note",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 12a ending at עבודתו; this field states only material present on 12a and does not import Rav Pappa’s continuation or conclusion from 12b."
+          },
+          {
+            "path": "argumentFlow[step-04].speaker",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 12a ending at עבודתו; this field states only material present on 12a and does not import Rav Pappa’s continuation or conclusion from 12b."
+          },
+          {
+            "path": "argumentFlow[step-04].text",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 12a ending at עבודתו; this field states only material present on 12a and does not import Rav Pappa’s continuation or conclusion from 12b."
+          },
+          {
+            "path": "argumentFlow[step-04].type",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 12a ending at עבודתו; this field states only material present on 12a and does not import Rav Pappa’s continuation or conclusion from 12b."
+          },
+          {
+            "path": "difficulty",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 12a ending at עבודתו; this field states only material present on 12a and does not import Rav Pappa’s continuation or conclusion from 12b."
+          },
+          {
+            "path": "display.hint",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 12a ending at עבודתו; this field states only material present on 12a and does not import Rav Pappa’s continuation or conclusion from 12b."
+          },
+          {
+            "path": "display.oneLine",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 12a ending at עבודתו; this field states only material present on 12a and does not import Rav Pappa’s continuation or conclusion from 12b."
+          },
+          {
+            "path": "display.shortSummary",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 12a ending at עבודתו; this field states only material present on 12a and does not import Rav Pappa’s continuation or conclusion from 12b."
+          },
+          {
+            "path": "display.title",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 12a ending at עבודתו; this field states only material present on 12a and does not import Rav Pappa’s continuation or conclusion from 12b."
+          },
+          {
+            "path": "display.whats",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 12a ending at עבודתו; this field states only material present on 12a and does not import Rav Pappa’s continuation or conclusion from 12b."
+          },
+          {
+            "path": "learning.ahaMoment",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 12a ending at עבודתו; this field states only material present on 12a and does not import Rav Pappa’s continuation or conclusion from 12b."
+          },
+          {
+            "path": "learning.coreMove",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 12a ending at עבודתו; this field states only material present on 12a and does not import Rav Pappa’s continuation or conclusion from 12b."
+          },
+          {
+            "path": "learning.coreTension",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 12a ending at עבודתו; this field states only material present on 12a and does not import Rav Pappa’s continuation or conclusion from 12b."
+          },
+          {
+            "path": "learning.learnerQuestion",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 12a ending at עבודתו; this field states only material present on 12a and does not import Rav Pappa’s continuation or conclusion from 12b."
+          },
+          {
+            "path": "learning.learningBlocker",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 12a ending at עבודתו; this field states only material present on 12a and does not import Rav Pappa’s continuation or conclusion from 12b."
+          },
+          {
+            "path": "learning.memoryAnchor",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 12a ending at עבודתו; this field states only material present on 12a and does not import Rav Pappa’s continuation or conclusion from 12b."
+          },
+          {
+            "path": "learning.reasoningPattern.category",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 12a ending at עבודתו; this field states only material present on 12a and does not import Rav Pappa’s continuation or conclusion from 12b."
+          },
+          {
+            "path": "learning.reasoningPattern.notes",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 12a ending at עבודתו; this field states only material present on 12a and does not import Rav Pappa’s continuation or conclusion from 12b."
+          },
+          {
+            "path": "learning.resolution",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 12a ending at עבודתו; this field states only material present on 12a and does not import Rav Pappa’s continuation or conclusion from 12b."
+          },
+          {
+            "path": "learning.takeaway.text",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 12a ending at עבודתו; this field states only material present on 12a and does not import Rav Pappa’s continuation or conclusion from 12b."
+          },
+          {
+            "path": "learning.takeaway.type",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 12a ending at עבודתו; this field states only material present on 12a and does not import Rav Pappa’s continuation or conclusion from 12b."
+          },
+          {
+            "path": "misconceptions[0].correction",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 12a ending at עבודתו; this field states only material present on 12a and does not import Rav Pappa’s continuation or conclusion from 12b."
+          },
+          {
+            "path": "misconceptions[0].misconception",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 12a ending at עבודתו; this field states only material present on 12a and does not import Rav Pappa’s continuation or conclusion from 12b."
+          },
+          {
+            "path": "prerequisiteKnowledge[0]",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 12a ending at עבודתו; this field states only material present on 12a and does not import Rav Pappa’s continuation or conclusion from 12b."
+          },
+          {
+            "path": "prerequisiteKnowledge[1]",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 12a ending at עבודתו; this field states only material present on 12a and does not import Rav Pappa’s continuation or conclusion from 12b."
+          },
+          {
+            "path": "prerequisiteKnowledge[2]",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 12a ending at עבודתו; this field states only material present on 12a and does not import Rav Pappa’s continuation or conclusion from 12b."
+          },
+          {
+            "path": "quizSeeds[0].answer",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 12a ending at עבודתו; this field states only material present on 12a and does not import Rav Pappa’s continuation or conclusion from 12b."
+          },
+          {
+            "path": "quizSeeds[0].question",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 12a ending at עבודתו; this field states only material present on 12a and does not import Rav Pappa’s continuation or conclusion from 12b."
+          },
+          {
+            "path": "quizSeeds[1].answer",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 12a ending at עבודתו; this field states only material present on 12a and does not import Rav Pappa’s continuation or conclusion from 12b."
+          },
+          {
+            "path": "quizSeeds[1].question",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 12a ending at עבודתו; this field states only material present on 12a and does not import Rav Pappa’s continuation or conclusion from 12b."
+          },
+          {
+            "path": "quizSeeds[2].answer",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 12a ending at עבודתו; this field states only material present on 12a and does not import Rav Pappa’s continuation or conclusion from 12b."
+          },
+          {
+            "path": "quizSeeds[2].question",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 12a ending at עבודתו; this field states only material present on 12a and does not import Rav Pappa’s continuation or conclusion from 12b."
+          },
+          {
+            "path": "quizSeeds[3].answer",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 12a ending at עבודתו; this field states only material present on 12a and does not import Rav Pappa’s continuation or conclusion from 12b."
+          },
+          {
+            "path": "quizSeeds[3].question",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 12a ending at עבודתו; this field states only material present on 12a and does not import Rav Pappa’s continuation or conclusion from 12b."
+          },
+          {
+            "path": "quizSeeds[4].answer",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 12a ending at עבודתו; this field states only material present on 12a and does not import Rav Pappa’s continuation or conclusion from 12b."
+          },
+          {
+            "path": "quizSeeds[4].question",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 12a ending at עבודתו; this field states only material present on 12a and does not import Rav Pappa’s continuation or conclusion from 12b."
+          },
+          {
+            "path": "topicTags[0]",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 12a ending at עבודתו; this field states only material present on 12a and does not import Rav Pappa’s continuation or conclusion from 12b."
+          },
+          {
+            "path": "topicTags[1]",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 12a ending at עבודתו; this field states only material present on 12a and does not import Rav Pappa’s continuation or conclusion from 12b."
+          },
+          {
+            "path": "topicTags[3]",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 12a ending at עבודתו; this field states only material present on 12a and does not import Rav Pappa’s continuation or conclusion from 12b."
+          },
+          {
+            "path": "topicTags[4]",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 12a ending at עבודתו; this field states only material present on 12a and does not import Rav Pappa’s continuation or conclusion from 12b."
+          },
+          {
+            "path": "topicTags[5]",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 12a ending at עבודתו; this field states only material present on 12a and does not import Rav Pappa’s continuation or conclusion from 12b."
+          },
+          {
+            "path": "visualizableElements[0].item",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 12a ending at עבודתו; this field states only material present on 12a and does not import Rav Pappa’s continuation or conclusion from 12b."
+          },
+          {
+            "path": "visualizableElements[1].item",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 12a ending at עבודתו; this field states only material present on 12a and does not import Rav Pappa’s continuation or conclusion from 12b."
+          }
+        ],
+        "staleContentSweep": {
+          "entries": [
+            {
+              "category": "stale_original_error",
+              "found": false
+            },
+            {
+              "category": "stale_speaker_or_attribution",
+              "found": false
+            },
+            {
+              "category": "contradictory_speaker_attribution",
+              "found": false
+            },
+            {
+              "category": "old_conclusion_in_secondary_field",
+              "found": false
+            },
+            {
+              "category": "false_closure",
+              "found": false
+            },
+            {
+              "category": "next_daf_content_leaked_backward",
+              "found": false
+            },
+            {
+              "category": "claim_unsupported_by_physical_daf",
+              "found": false
+            },
+            {
+              "category": "stale_quiz_question_or_answer",
+              "found": false
+            },
+            {
+              "category": "stale_final_ruling",
+              "found": false
+            },
+            {
+              "category": "stale_summary",
+              "found": false
+            },
+            {
+              "category": "stale_learning_field",
+              "found": false
+            },
+            {
+              "category": "stale_misconception",
+              "found": false
+            },
+            {
+              "category": "stale_related_sugya_description",
+              "found": false
+            },
+            {
+              "category": "stale_visualizable_element_prose",
+              "found": false
+            },
+            {
+              "category": "source_refs_no_longer_supporting_claim",
+              "found": false
+            },
+            {
+              "category": "reference_outside_declared_line_range",
+              "found": false
+            }
+          ]
+        }
+      },
+      "certifiedAtCommit": "fa0ab790ad96a0b8508d963c598e4384f16545b1"
+    },
+    "yoma-012a-s02": {
+      "sugyaId": "yoma-012a-s02",
+      "daf": "12a",
+      "state": "CERTIFIED",
+      "firstPass": {
+        "reviewId": "yoma-12a-firstpass-20261002",
+        "reviewerContextId": "agent:rabbi:subagent:8c7738ff-08e7-42e2-bc76-efbf77d8ba9f",
+        "sourceFirst": true,
+        "verdict": "REPAIR_REQUIRED",
+        "reviewedSourceFingerprint": "d2faa38b30a5d91c104f0674454b885f2a2c8e1b1c3fdebd2473077582292d0d",
+        "reviewedSemanticFingerprint": "893e722696b4bed76528d2f6a4f3d5584d21b9c67cd060fa07b3f5b426734ba3",
+        "evidence": {
+          "reviewId": "yoma-12a-firstpass-20261002",
+          "findings": "# Yoma 12a — First-pass source-first audit evidence\n\nReview id: yoma-12a-firstpass-20261002\nReviewer context id: agent:rabbi:subagent:8c7738ff-08e7-42e2-bc76-efbf77d8ba9f\n\n## sugya yoma-012a-s01 (lines 1-30) — REPAIR_REQUIRED\n\nRaw text (vilnaLine 11-19):\n\"מה היה בחלקו של יהודה הר הבית הלשכות והעזרות ומה היה בחלקו של בנימין אולם\nוהיכל ובית קדשי הקדשים ורצועה היתה יוצאה מחלקו של יהודה ונכנסת לחלקו של\nבנימין ובה היה מזבח בנוי ובנימין הצדיק היה מצטער עליה לבלעה בכל יום שנאמר\nחופף עליו כל היום לפיכך זכה בנימין הצדיק ונעשה אושפיזכן לגבורה שנאמר ובין\nכתפיו שכן\"\n\nCorrect reading: Judah's portion = Temple Mount, the chambers, the courtyards.\nBenjamin's portion = Ulam, Heichal, Holy of Holies. A strip (resua) went OUT\nFROM Judah's portion and entered Benjamin's territory, and the (outer) ALTAR\nwas built ON THAT STRIP — i.e. the altar sat on land that remained Judah's,\nmerely surrounded by Benjamin's territory. Benjamin was distressed, longing\ndaily to \"swallow\" (absorb) that strip (proof-text \"chofef alav kol hayom\").\nBecause of that longing, Benjamin merited becoming host (ushpizchan) of the\nShechina, i.e. the Holy of Holies in his own actual portion (\"u'vein\nketefav shachen\"). Rashi on \"ushpizchan\" (vilnaLine ~23 Rashi) confirms: the\nArk was placed in his portion — not the altar.\n\nDefects in modules/yoma/assets/learning/yoma/12a.learning.json (s01):\n\n1. display.shortSummary, display.whats, learning.ahaMoment,\n   learning.memoryAnchor, argumentFlow step-02 all assert \"the Altar ... was\n   in Benjamin's portion.\" This is factually backwards: the text explicitly\n   says the altar stood on a strip that extended FROM Judah's portion INTO\n   Benjamin's — i.e. the altar's land ownership remained Judah's, which is\n   precisely why Benjamin is described as \"distressed, longing to swallow it\n   daily.\" The current text turns the entire point of the passage (Benjamin's\n   longing for what was NOT his) into the opposite claim (that the altar\n   simply belonged to him).\n\n2. display.whats and argumentFlow step-03 assert a theological reason\n   \"Benjamin merited the Altar and Heikhal because he never bowed to Esau.\"\n   This reason does not appear anywhere in the raw Hebrew (lines 1-30) or in\n   the Rashi commentary on this passage. It is fabricated. The text's actual\n   stated reason is Benjamin's daily longing (\"mitzta'er ... livla'ah\") for\n   the strip/altar that belonged to Judah, for which he was rewarded with\n   hosting the Shechina (Holy of Holies) in his own territory.\n\n3. quizSeeds[0] answer (\"Benjamin's tribal portion\" for who had the Altar)\n   repeats defect #1.\n\nThese are not differences in interpretive emphasis; they invert the\nplain sense of an explicit textual detail (the strip/altar belonged to\nJudah, not Benjamin) and add an invented merit-reason absent from the\nsource. REPAIR_REQUIRED.\n\n## sugya yoma-012a-s02 (lines 33-45) — REPAIR_REQUIRED\n\nRaw text (vilnaLine 33-45):\n\"ומתקינין לו כהן אחר: פשיטא אירע בו פסול קודם תמיד של שחר מחנכין אותו\nבתמיד של שחר אלא אירע בו פסול אחר תמיד של שחר במה מחנכין אותו אמר רב אדא\nבר אהבה באבנט הניחא למאן דאמר אבנטו של כהן גדול זה הוא אבנטו של כהן\nהדיוט אלא למאן דאמר אבנטו של כהן גדול לא זהו אבנטו של כהן הדיוט מאי איכא\nלמימר אמר אביי לובש שמונה ומהפך בצינורא וכדרב הונא דאמר רב הונא זר שהפך\nבצינורא חייב מיתה ורב פפא אמר עבודתו [continues to 12b]\"\n\nDefects in modules/yoma/assets/learning/yoma/12a.learning.json (s02):\n\n1. Coordinate/sourceRef error: argumentFlow step-03 (\"Rav Adda: belt alone\n   suffices\") cites vilnaLine 42 as its sourceRef. Rav Adda's actual\n   statement (\"אמר רב אדא בר אהבה באבנט\") is at vilnaLine 36-37. VilnaLine 42\n   is Abaye's statement (\"אמר אביי לובש שמונה ומהפך בצינורא\"), not Rav\n   Adda's.\n\n2. Coordinate/sourceRef error: argumentFlow step-04 (\"Abaye: eight garments\n   plus tzinnora\") cites vilnaLine 45 as its sourceRef. Abaye's actual\n   statement is at vilnaLine 42. VilnaLine 45 is the single word \"עבודתו\" —\n   part of Rav Pappa's statement/the catchword into 12b, not Abaye's.\n   Both sourceRefs are off by one speaker-slot.\n\n3. Content gap: the text raises an explicit difficulty on Rav Adda's answer\n   (lines 37-41): the belt-answer \"works out\" (haniha) only according to the\n   view that the High Priest's everyday belt is the SAME as a common\n   priest's belt (so the special Yom Kippur all-linen belt is what marks the\n   distinction) — but according to the view that they are NOT the same\n   everyday belt, investing him with \"the belt\" proves nothing, since on Yom\n   Kippur both the regular kohen and the Cohen Gadol wear the identical\n   all-linen belt anyway. Abaye's proposal (eight garments + turning the limb\n   with the tzinnora, which per Rav Huna is a service a non-kohen performing\n   is liable to death for) directly answers this difficulty by proposing an\n   act that is unambiguously valid \"service\" regardless of which view of the\n   belt is correct. The current learning.coreMove/resolution and\n   argumentFlow present Abaye's view as a free-standing alternative opinion\n   (\"counter-proposal\") rather than as the answer to an explicit, textually\n   stated difficulty against Rav Adda's position on one of two named views.\n   This misrepresents the sugya's actual deductive structure.\n\nREPAIR_REQUIRED for both sugyot. Shared daf-level `summary` field also\ndescribes the tribal-portions baraita (\"Benjamin's portion\") in a way\nconsistent with defect #1 above — update it too, so all-sugyot repair is\nrequired.\n"
+        }
+      },
+      "repairRef": "fa0ab790ad96a0b8508d963c598e4384f16545b1",
+      "sourceFingerprint": "d2faa38b30a5d91c104f0674454b885f2a2c8e1b1c3fdebd2473077582292d0d",
+      "semanticFingerprint": "3300e4b75f413f06678f23a72bbbbd99aefac2017944c373baa475b911b89eed",
+      "secondPass": {
+        "reviewId": "yoma-12a-independent-second-pass-final2-20261002",
+        "reviewerContextId": "agent:rabbi:subagent:16a7a447-8acc-4d92-892e-50c755447555",
+        "sourceFirst": true,
+        "verdict": "CONFIRMED",
+        "reviewedSourceFingerprint": "d2faa38b30a5d91c104f0674454b885f2a2c8e1b1c3fdebd2473077582292d0d",
+        "reviewedSemanticFingerprint": "3300e4b75f413f06678f23a72bbbbd99aefac2017944c373baa475b911b89eed",
+        "evidence": {
+          "reviewId": "yoma-12a-independent-second-pass-final2-20261002",
+          "reviewerContextId": "agent:rabbi:subagent:16a7a447-8acc-4d92-892e-50c755447555",
+          "module": "yoma",
+          "daf": "12a",
+          "method": "Fresh source-first review of authoritative Hebrew lines 1-45 before candidate inspection; reconstructed topic transitions, then checked every daf-level and sugya semantic field, attribution, quantities, boundaries, and open-ending behavior.",
+          "sugyaId": "yoma-012a-s02",
+          "verdict": "CONFIRMED",
+          "sourceFingerprint": "d2faa38b30a5d91c104f0674454b885f2a2c8e1b1c3fdebd2473077582292d0d",
+          "semanticFingerprint": "3300e4b75f413f06678f23a72bbbbd99aefac2017944c373baa475b911b89eed",
+          "sourceEvidence": {
+            "lines33to36": "Replacement-kohen setup and before/after morning tamid distinction are correct.",
+            "lines36to41": "Rav Adda's belt proposal and the two-sided belt difficulty are accurate.",
+            "lines42to45": "Abaye's eight garments plus tzinora and Rav Huna's service proof are accurate; avodato ends mid-continuation into 12b and no missing conclusion is asserted."
+          },
+          "boundary": "Confirmed: Line 33 starts s02 and line 45 is the physical daf ending/open continuation. No next-daf conclusion imported.",
+          "fieldChecks": "All daf-level and sugya semantic fields were checked. No unsupported, out-of-range, misattributed, stale, or contradictory claim found."
+        }
+      },
+      "finalAudit": {
+        "reviewId": "yoma-12a-final-whole-record-audit-20261002",
+        "auditorContextId": "agent:rabbi:campaign-continue-20261002-071654-2758125",
+        "auditedSourceFingerprint": "d2faa38b30a5d91c104f0674454b885f2a2c8e1b1c3fdebd2473077582292d0d",
+        "auditedSemanticFingerprint": "3300e4b75f413f06678f23a72bbbbd99aefac2017944c373baa475b911b89eed",
+        "dafBoundary": {
+          "rawLineCount": 45,
+          "finalRawLine": "עבודתו",
+          "dafEndState": "MID_SENTENCE"
+        },
+        "fieldInventory": [
+          {
+            "path": "lineRange",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "lines",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "dafLevel.glossary[0].en",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "12a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 45
+              }
+            ]
+          },
+          {
+            "path": "dafLevel.glossary[0].he",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "12a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 45
+              }
+            ]
+          },
+          {
+            "path": "dafLevel.glossary[0].translit",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "12a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 45
+              }
+            ]
+          },
+          {
+            "path": "dafLevel.glossary[1].en",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "12a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 45
+              }
+            ]
+          },
+          {
+            "path": "dafLevel.glossary[1].he",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "12a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 45
+              }
+            ]
+          },
+          {
+            "path": "dafLevel.glossary[1].translit",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "12a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 45
+              }
+            ]
+          },
+          {
+            "path": "dafLevel.glossary[2].en",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "12a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 45
+              }
+            ]
+          },
+          {
+            "path": "dafLevel.glossary[2].he",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "12a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 45
+              }
+            ]
+          },
+          {
+            "path": "dafLevel.glossary[2].translit",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "12a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 45
+              }
+            ]
+          },
+          {
+            "path": "dafLevel.glossary[3].en",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "12a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 45
+              }
+            ]
+          },
+          {
+            "path": "dafLevel.glossary[3].he",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "12a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 45
+              }
+            ]
+          },
+          {
+            "path": "dafLevel.glossary[3].translit",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "12a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 45
+              }
+            ]
+          },
+          {
+            "path": "dafLevel.summary",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "12a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 45
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-01].id",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-01].label",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "12a",
+                "startVilnaLine": 33,
+                "endVilnaLine": 45
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-01].sourceRefs[0].lineId",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-01].sourceRefs[0].note",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "12a",
+                "startVilnaLine": 33,
+                "endVilnaLine": 45
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-01].sourceRefs[0].sourceType",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-01].sourceRefs[0].vilnaLine",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-01].speaker",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "12a",
+                "startVilnaLine": 33,
+                "endVilnaLine": 45
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-01].text",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "12a",
+                "startVilnaLine": 33,
+                "endVilnaLine": 45
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-01].type",
+            "verdict": "REVIEWED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "note": "Independently re-derived from the Hebrew argument role and confirmed accurate for the exact candidate."
+          },
+          {
+            "path": "argumentFlow[step-02].id",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-02].label",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "12a",
+                "startVilnaLine": 33,
+                "endVilnaLine": 45
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-02].sourceRefs[0].lineId",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-02].sourceRefs[0].note",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "12a",
+                "startVilnaLine": 33,
+                "endVilnaLine": 45
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-02].sourceRefs[0].sourceType",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-02].sourceRefs[0].vilnaLine",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-02].speaker",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "12a",
+                "startVilnaLine": 33,
+                "endVilnaLine": 45
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-02].text",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "12a",
+                "startVilnaLine": 33,
+                "endVilnaLine": 45
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-02].type",
+            "verdict": "REVIEWED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "note": "Independently re-derived from the Hebrew argument role and confirmed accurate for the exact candidate."
+          },
+          {
+            "path": "argumentFlow[step-03].id",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-03].label",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "12a",
+                "startVilnaLine": 33,
+                "endVilnaLine": 45
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-03].sourceRefs[0].lineId",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-03].sourceRefs[0].note",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "12a",
+                "startVilnaLine": 33,
+                "endVilnaLine": 45
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-03].sourceRefs[0].sourceType",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-03].sourceRefs[0].vilnaLine",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-03].speaker",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "12a",
+                "startVilnaLine": 33,
+                "endVilnaLine": 45
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-03].text",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "12a",
+                "startVilnaLine": 33,
+                "endVilnaLine": 45
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-03].type",
+            "verdict": "REVIEWED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "note": "Independently re-derived from the Hebrew argument role and confirmed accurate for the exact candidate."
+          },
+          {
+            "path": "argumentFlow[step-03b].id",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-03b].label",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "12a",
+                "startVilnaLine": 33,
+                "endVilnaLine": 45
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-03b].sourceRefs[0].lineId",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-03b].sourceRefs[0].note",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "12a",
+                "startVilnaLine": 33,
+                "endVilnaLine": 45
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-03b].sourceRefs[0].sourceType",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-03b].sourceRefs[0].vilnaLine",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-03b].speaker",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "12a",
+                "startVilnaLine": 33,
+                "endVilnaLine": 45
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-03b].text",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "12a",
+                "startVilnaLine": 33,
+                "endVilnaLine": 45
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-03b].type",
+            "verdict": "REVIEWED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "note": "Independently re-derived from the Hebrew argument role and confirmed accurate for the exact candidate."
+          },
+          {
+            "path": "argumentFlow[step-04].id",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-04].label",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "12a",
+                "startVilnaLine": 33,
+                "endVilnaLine": 45
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-04].sourceRefs[0].lineId",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-04].sourceRefs[0].note",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "12a",
+                "startVilnaLine": 33,
+                "endVilnaLine": 45
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-04].sourceRefs[0].sourceType",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-04].sourceRefs[0].vilnaLine",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-04].speaker",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "12a",
+                "startVilnaLine": 33,
+                "endVilnaLine": 45
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-04].text",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "12a",
+                "startVilnaLine": 33,
+                "endVilnaLine": 45
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-04].type",
+            "verdict": "REVIEWED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "note": "Independently re-derived from the Hebrew argument role and confirmed accurate for the exact candidate."
+          },
+          {
+            "path": "difficulty",
+            "verdict": "REVIEWED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "note": "Independently re-derived from the Hebrew argument role and confirmed accurate for the exact candidate."
+          },
+          {
+            "path": "display.hint",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "12a",
+                "startVilnaLine": 33,
+                "endVilnaLine": 45
+              }
+            ]
+          },
+          {
+            "path": "display.oneLine",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "12a",
+                "startVilnaLine": 33,
+                "endVilnaLine": 45
+              }
+            ]
+          },
+          {
+            "path": "display.shortSummary",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "12a",
+                "startVilnaLine": 33,
+                "endVilnaLine": 45
+              }
+            ]
+          },
+          {
+            "path": "display.title",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "12a",
+                "startVilnaLine": 33,
+                "endVilnaLine": 45
+              }
+            ]
+          },
+          {
+            "path": "display.whats",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "12a",
+                "startVilnaLine": 33,
+                "endVilnaLine": 45
+              }
+            ]
+          },
+          {
+            "path": "learning.ahaMoment",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "12a",
+                "startVilnaLine": 33,
+                "endVilnaLine": 45
+              }
+            ]
+          },
+          {
+            "path": "learning.coreMove",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "12a",
+                "startVilnaLine": 33,
+                "endVilnaLine": 45
+              }
+            ]
+          },
+          {
+            "path": "learning.coreTension",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "12a",
+                "startVilnaLine": 33,
+                "endVilnaLine": 45
+              }
+            ]
+          },
+          {
+            "path": "learning.learnerQuestion",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "12a",
+                "startVilnaLine": 33,
+                "endVilnaLine": 45
+              }
+            ]
+          },
+          {
+            "path": "learning.learningBlocker",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "12a",
+                "startVilnaLine": 33,
+                "endVilnaLine": 45
+              }
+            ]
+          },
+          {
+            "path": "learning.memoryAnchor",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "12a",
+                "startVilnaLine": 33,
+                "endVilnaLine": 45
+              }
+            ]
+          },
+          {
+            "path": "learning.reasoningPattern.category",
+            "verdict": "REVIEWED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "note": "Independently re-derived from the Hebrew argument role and confirmed accurate for the exact candidate."
+          },
+          {
+            "path": "learning.reasoningPattern.id",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "learning.reasoningPattern.notes",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "12a",
+                "startVilnaLine": 33,
+                "endVilnaLine": 45
+              }
+            ]
+          },
+          {
+            "path": "learning.resolution",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "12a",
+                "startVilnaLine": 33,
+                "endVilnaLine": 45
+              }
+            ]
+          },
+          {
+            "path": "learning.takeaway.text",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "12a",
+                "startVilnaLine": 33,
+                "endVilnaLine": 45
+              }
+            ]
+          },
+          {
+            "path": "learning.takeaway.type",
+            "verdict": "REVIEWED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "note": "Independently re-derived from the Hebrew argument role and confirmed accurate for the exact candidate."
+          },
+          {
+            "path": "misconceptions[0].correction",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "12a",
+                "startVilnaLine": 33,
+                "endVilnaLine": 45
+              }
+            ]
+          },
+          {
+            "path": "misconceptions[0].misconception",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "12a",
+                "startVilnaLine": 33,
+                "endVilnaLine": 45
+              }
+            ]
+          },
+          {
+            "path": "prerequisiteKnowledge[0]",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "12a",
+                "startVilnaLine": 33,
+                "endVilnaLine": 45
+              }
+            ]
+          },
+          {
+            "path": "prerequisiteKnowledge[1]",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "12a",
+                "startVilnaLine": 33,
+                "endVilnaLine": 45
+              }
+            ]
+          },
+          {
+            "path": "prerequisiteKnowledge[2]",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "12a",
+                "startVilnaLine": 33,
+                "endVilnaLine": 45
+              }
+            ]
+          },
+          {
+            "path": "quizSeeds[0].answer",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "12a",
+                "startVilnaLine": 33,
+                "endVilnaLine": 45
+              }
+            ]
+          },
+          {
+            "path": "quizSeeds[0].question",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "12a",
+                "startVilnaLine": 33,
+                "endVilnaLine": 45
+              }
+            ]
+          },
+          {
+            "path": "quizSeeds[1].answer",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "12a",
+                "startVilnaLine": 33,
+                "endVilnaLine": 45
+              }
+            ]
+          },
+          {
+            "path": "quizSeeds[1].question",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "12a",
+                "startVilnaLine": 33,
+                "endVilnaLine": 45
+              }
+            ]
+          },
+          {
+            "path": "topicTags[0]",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "12a",
+                "startVilnaLine": 33,
+                "endVilnaLine": 45
+              }
+            ]
+          },
+          {
+            "path": "topicTags[1]",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "topicTags[2]",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "12a",
+                "startVilnaLine": 33,
+                "endVilnaLine": 45
+              }
+            ]
+          },
+          {
+            "path": "topicTags[3]",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "12a",
+                "startVilnaLine": 33,
+                "endVilnaLine": 45
+              }
+            ]
+          },
+          {
+            "path": "topicTags[4]",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "topicTags[5]",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "visualizableElements[0].item",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "12a",
+                "startVilnaLine": 33,
+                "endVilnaLine": 45
+              }
+            ]
+          },
+          {
+            "path": "visualizableElements[1].item",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "12a",
+                "startVilnaLine": 33,
+                "endVilnaLine": 45
+              }
+            ]
+          }
+        ],
+        "boundaryLeakageSweep": [
+          {
+            "path": "dafLevel.glossary[0].en",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 12a ending at עבודתו; this field states only material present on 12a and does not import Rav Pappa’s continuation or conclusion from 12b."
+          },
+          {
+            "path": "dafLevel.glossary[0].he",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 12a ending at עבודתו; this field states only material present on 12a and does not import Rav Pappa’s continuation or conclusion from 12b."
+          },
+          {
+            "path": "dafLevel.glossary[0].translit",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 12a ending at עבודתו; this field states only material present on 12a and does not import Rav Pappa’s continuation or conclusion from 12b."
+          },
+          {
+            "path": "dafLevel.glossary[1].en",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 12a ending at עבודתו; this field states only material present on 12a and does not import Rav Pappa’s continuation or conclusion from 12b."
+          },
+          {
+            "path": "dafLevel.glossary[1].he",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 12a ending at עבודתו; this field states only material present on 12a and does not import Rav Pappa’s continuation or conclusion from 12b."
+          },
+          {
+            "path": "dafLevel.glossary[1].translit",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 12a ending at עבודתו; this field states only material present on 12a and does not import Rav Pappa’s continuation or conclusion from 12b."
+          },
+          {
+            "path": "dafLevel.glossary[2].en",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 12a ending at עבודתו; this field states only material present on 12a and does not import Rav Pappa’s continuation or conclusion from 12b."
+          },
+          {
+            "path": "dafLevel.glossary[2].he",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 12a ending at עבודתו; this field states only material present on 12a and does not import Rav Pappa’s continuation or conclusion from 12b."
+          },
+          {
+            "path": "dafLevel.glossary[2].translit",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 12a ending at עבודתו; this field states only material present on 12a and does not import Rav Pappa’s continuation or conclusion from 12b."
+          },
+          {
+            "path": "dafLevel.glossary[3].en",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 12a ending at עבודתו; this field states only material present on 12a and does not import Rav Pappa’s continuation or conclusion from 12b."
+          },
+          {
+            "path": "dafLevel.glossary[3].he",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 12a ending at עבודתו; this field states only material present on 12a and does not import Rav Pappa’s continuation or conclusion from 12b."
+          },
+          {
+            "path": "dafLevel.glossary[3].translit",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 12a ending at עבודתו; this field states only material present on 12a and does not import Rav Pappa’s continuation or conclusion from 12b."
+          },
+          {
+            "path": "dafLevel.summary",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 12a ending at עבודתו; this field states only material present on 12a and does not import Rav Pappa’s continuation or conclusion from 12b."
+          },
+          {
+            "path": "argumentFlow[step-01].label",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 12a ending at עבודתו; this field states only material present on 12a and does not import Rav Pappa’s continuation or conclusion from 12b."
+          },
+          {
+            "path": "argumentFlow[step-01].sourceRefs[0].note",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 12a ending at עבודתו; this field states only material present on 12a and does not import Rav Pappa’s continuation or conclusion from 12b."
+          },
+          {
+            "path": "argumentFlow[step-01].speaker",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 12a ending at עבודתו; this field states only material present on 12a and does not import Rav Pappa’s continuation or conclusion from 12b."
+          },
+          {
+            "path": "argumentFlow[step-01].text",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 12a ending at עבודתו; this field states only material present on 12a and does not import Rav Pappa’s continuation or conclusion from 12b."
+          },
+          {
+            "path": "argumentFlow[step-01].type",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 12a ending at עבודתו; this field states only material present on 12a and does not import Rav Pappa’s continuation or conclusion from 12b."
+          },
+          {
+            "path": "argumentFlow[step-02].label",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 12a ending at עבודתו; this field states only material present on 12a and does not import Rav Pappa’s continuation or conclusion from 12b."
+          },
+          {
+            "path": "argumentFlow[step-02].sourceRefs[0].note",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 12a ending at עבודתו; this field states only material present on 12a and does not import Rav Pappa’s continuation or conclusion from 12b."
+          },
+          {
+            "path": "argumentFlow[step-02].speaker",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 12a ending at עבודתו; this field states only material present on 12a and does not import Rav Pappa’s continuation or conclusion from 12b."
+          },
+          {
+            "path": "argumentFlow[step-02].text",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 12a ending at עבודתו; this field states only material present on 12a and does not import Rav Pappa’s continuation or conclusion from 12b."
+          },
+          {
+            "path": "argumentFlow[step-02].type",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 12a ending at עבודתו; this field states only material present on 12a and does not import Rav Pappa’s continuation or conclusion from 12b."
+          },
+          {
+            "path": "argumentFlow[step-03].label",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 12a ending at עבודתו; this field states only material present on 12a and does not import Rav Pappa’s continuation or conclusion from 12b."
+          },
+          {
+            "path": "argumentFlow[step-03].sourceRefs[0].note",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 12a ending at עבודתו; this field states only material present on 12a and does not import Rav Pappa’s continuation or conclusion from 12b."
+          },
+          {
+            "path": "argumentFlow[step-03].speaker",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 12a ending at עבודתו; this field states only material present on 12a and does not import Rav Pappa’s continuation or conclusion from 12b."
+          },
+          {
+            "path": "argumentFlow[step-03].text",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 12a ending at עבודתו; this field states only material present on 12a and does not import Rav Pappa’s continuation or conclusion from 12b."
+          },
+          {
+            "path": "argumentFlow[step-03].type",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 12a ending at עבודתו; this field states only material present on 12a and does not import Rav Pappa’s continuation or conclusion from 12b."
+          },
+          {
+            "path": "argumentFlow[step-03b].label",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 12a ending at עבודתו; this field states only material present on 12a and does not import Rav Pappa’s continuation or conclusion from 12b."
+          },
+          {
+            "path": "argumentFlow[step-03b].sourceRefs[0].note",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 12a ending at עבודתו; this field states only material present on 12a and does not import Rav Pappa’s continuation or conclusion from 12b."
+          },
+          {
+            "path": "argumentFlow[step-03b].speaker",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 12a ending at עבודתו; this field states only material present on 12a and does not import Rav Pappa’s continuation or conclusion from 12b."
+          },
+          {
+            "path": "argumentFlow[step-03b].text",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 12a ending at עבודתו; this field states only material present on 12a and does not import Rav Pappa’s continuation or conclusion from 12b."
+          },
+          {
+            "path": "argumentFlow[step-03b].type",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 12a ending at עבודתו; this field states only material present on 12a and does not import Rav Pappa’s continuation or conclusion from 12b."
+          },
+          {
+            "path": "argumentFlow[step-04].label",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 12a ending at עבודתו; this field states only material present on 12a and does not import Rav Pappa’s continuation or conclusion from 12b."
+          },
+          {
+            "path": "argumentFlow[step-04].sourceRefs[0].note",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 12a ending at עבודתו; this field states only material present on 12a and does not import Rav Pappa’s continuation or conclusion from 12b."
+          },
+          {
+            "path": "argumentFlow[step-04].speaker",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 12a ending at עבודתו; this field states only material present on 12a and does not import Rav Pappa’s continuation or conclusion from 12b."
+          },
+          {
+            "path": "argumentFlow[step-04].text",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 12a ending at עבודתו; this field states only material present on 12a and does not import Rav Pappa’s continuation or conclusion from 12b."
+          },
+          {
+            "path": "argumentFlow[step-04].type",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 12a ending at עבודתו; this field states only material present on 12a and does not import Rav Pappa’s continuation or conclusion from 12b."
+          },
+          {
+            "path": "difficulty",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 12a ending at עבודתו; this field states only material present on 12a and does not import Rav Pappa’s continuation or conclusion from 12b."
+          },
+          {
+            "path": "display.hint",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 12a ending at עבודתו; this field states only material present on 12a and does not import Rav Pappa’s continuation or conclusion from 12b."
+          },
+          {
+            "path": "display.oneLine",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 12a ending at עבודתו; this field states only material present on 12a and does not import Rav Pappa’s continuation or conclusion from 12b."
+          },
+          {
+            "path": "display.shortSummary",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 12a ending at עבודתו; this field states only material present on 12a and does not import Rav Pappa’s continuation or conclusion from 12b."
+          },
+          {
+            "path": "display.title",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 12a ending at עבודתו; this field states only material present on 12a and does not import Rav Pappa’s continuation or conclusion from 12b."
+          },
+          {
+            "path": "display.whats",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 12a ending at עבודתו; this field states only material present on 12a and does not import Rav Pappa’s continuation or conclusion from 12b."
+          },
+          {
+            "path": "learning.ahaMoment",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 12a ending at עבודתו; this field states only material present on 12a and does not import Rav Pappa’s continuation or conclusion from 12b."
+          },
+          {
+            "path": "learning.coreMove",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 12a ending at עבודתו; this field states only material present on 12a and does not import Rav Pappa’s continuation or conclusion from 12b."
+          },
+          {
+            "path": "learning.coreTension",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 12a ending at עבודתו; this field states only material present on 12a and does not import Rav Pappa’s continuation or conclusion from 12b."
+          },
+          {
+            "path": "learning.learnerQuestion",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 12a ending at עבודתו; this field states only material present on 12a and does not import Rav Pappa’s continuation or conclusion from 12b."
+          },
+          {
+            "path": "learning.learningBlocker",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 12a ending at עבודתו; this field states only material present on 12a and does not import Rav Pappa’s continuation or conclusion from 12b."
+          },
+          {
+            "path": "learning.memoryAnchor",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 12a ending at עבודתו; this field states only material present on 12a and does not import Rav Pappa’s continuation or conclusion from 12b."
+          },
+          {
+            "path": "learning.reasoningPattern.category",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 12a ending at עבודתו; this field states only material present on 12a and does not import Rav Pappa’s continuation or conclusion from 12b."
+          },
+          {
+            "path": "learning.reasoningPattern.notes",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 12a ending at עבודתו; this field states only material present on 12a and does not import Rav Pappa’s continuation or conclusion from 12b."
+          },
+          {
+            "path": "learning.resolution",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 12a ending at עבודתו; this field states only material present on 12a and does not import Rav Pappa’s continuation or conclusion from 12b."
+          },
+          {
+            "path": "learning.takeaway.text",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 12a ending at עבודתו; this field states only material present on 12a and does not import Rav Pappa’s continuation or conclusion from 12b."
+          },
+          {
+            "path": "learning.takeaway.type",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 12a ending at עבודתו; this field states only material present on 12a and does not import Rav Pappa’s continuation or conclusion from 12b."
+          },
+          {
+            "path": "misconceptions[0].correction",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 12a ending at עבודתו; this field states only material present on 12a and does not import Rav Pappa’s continuation or conclusion from 12b."
+          },
+          {
+            "path": "misconceptions[0].misconception",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 12a ending at עבודתו; this field states only material present on 12a and does not import Rav Pappa’s continuation or conclusion from 12b."
+          },
+          {
+            "path": "prerequisiteKnowledge[0]",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 12a ending at עבודתו; this field states only material present on 12a and does not import Rav Pappa’s continuation or conclusion from 12b."
+          },
+          {
+            "path": "prerequisiteKnowledge[1]",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 12a ending at עבודתו; this field states only material present on 12a and does not import Rav Pappa’s continuation or conclusion from 12b."
+          },
+          {
+            "path": "prerequisiteKnowledge[2]",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 12a ending at עבודתו; this field states only material present on 12a and does not import Rav Pappa’s continuation or conclusion from 12b."
+          },
+          {
+            "path": "quizSeeds[0].answer",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 12a ending at עבודתו; this field states only material present on 12a and does not import Rav Pappa’s continuation or conclusion from 12b."
+          },
+          {
+            "path": "quizSeeds[0].question",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 12a ending at עבודתו; this field states only material present on 12a and does not import Rav Pappa’s continuation or conclusion from 12b."
+          },
+          {
+            "path": "quizSeeds[1].answer",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 12a ending at עבודתו; this field states only material present on 12a and does not import Rav Pappa’s continuation or conclusion from 12b."
+          },
+          {
+            "path": "quizSeeds[1].question",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 12a ending at עבודתו; this field states only material present on 12a and does not import Rav Pappa’s continuation or conclusion from 12b."
+          },
+          {
+            "path": "topicTags[0]",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 12a ending at עבודתו; this field states only material present on 12a and does not import Rav Pappa’s continuation or conclusion from 12b."
+          },
+          {
+            "path": "topicTags[2]",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 12a ending at עבודתו; this field states only material present on 12a and does not import Rav Pappa’s continuation or conclusion from 12b."
+          },
+          {
+            "path": "topicTags[3]",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 12a ending at עבודתו; this field states only material present on 12a and does not import Rav Pappa’s continuation or conclusion from 12b."
+          },
+          {
+            "path": "visualizableElements[0].item",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 12a ending at עבודתו; this field states only material present on 12a and does not import Rav Pappa’s continuation or conclusion from 12b."
+          },
+          {
+            "path": "visualizableElements[1].item",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the physical 12a ending at עבודתו; this field states only material present on 12a and does not import Rav Pappa’s continuation or conclusion from 12b."
+          }
+        ],
+        "staleContentSweep": {
+          "entries": [
+            {
+              "category": "stale_original_error",
+              "found": false
+            },
+            {
+              "category": "stale_speaker_or_attribution",
+              "found": false
+            },
+            {
+              "category": "contradictory_speaker_attribution",
+              "found": false
+            },
+            {
+              "category": "old_conclusion_in_secondary_field",
+              "found": false
+            },
+            {
+              "category": "false_closure",
+              "found": false
+            },
+            {
+              "category": "next_daf_content_leaked_backward",
+              "found": false
+            },
+            {
+              "category": "claim_unsupported_by_physical_daf",
+              "found": false
+            },
+            {
+              "category": "stale_quiz_question_or_answer",
+              "found": false
+            },
+            {
+              "category": "stale_final_ruling",
+              "found": false
+            },
+            {
+              "category": "stale_summary",
+              "found": false
+            },
+            {
+              "category": "stale_learning_field",
+              "found": false
+            },
+            {
+              "category": "stale_misconception",
+              "found": false
+            },
+            {
+              "category": "stale_related_sugya_description",
+              "found": false
+            },
+            {
+              "category": "stale_visualizable_element_prose",
+              "found": false
+            },
+            {
+              "category": "source_refs_no_longer_supporting_claim",
+              "found": false
+            },
+            {
+              "category": "reference_outside_declared_line_range",
+              "found": false
+            }
+          ]
+        }
+      },
+      "certifiedAtCommit": "fa0ab790ad96a0b8508d963c598e4384f16545b1"
     }
   }
 }
