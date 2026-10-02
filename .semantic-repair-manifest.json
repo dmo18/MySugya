@@ -2,13 +2,14 @@
   "schemaVersion": "1.0",
   "type": "semantic-daf-repair",
   "module": "yoma",
-  "daf": "11a",
+  "daf": "11b",
   "sugyaIds": [
-    "yoma-011a-s01",
-    "yoma-011a-s02",
-    "yoma-011a-s03"
+    "yoma-011b-s01",
+    "yoma-011b-s02",
+    "yoma-011b-s03",
+    "yoma-011b-s04"
   ],
-  "firstReviewId": "yoma-11a-first-8065bd80",
+  "firstReviewId": "yoma-11b-first-20261001ET",
   "policy": {
     "sourceFirst": true,
     "independentSecondPassRequired": true,
