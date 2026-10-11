@@ -1,7 +1,7 @@
 {
  "daf": "12b",
  "canonicalRef": "Yoma 12b",
- "summary": "Rav Pappa's answer to 12a's question: no special initiation is needed for the replacement High Priest - his first act of service itself initiates him, just as Temple vessels after Moshe were consecrated by use rather than anointing. The daf then examines the belt of the common priest: is it linen (like the KG's Yom Kippur belt) or kilayim (like the KG's year-round belt)? Rav Dimi and Ravin bring conflicting traditions from Eretz Yisrael, with Ravin specifying that Rabbi holds kilayim and Rabbi Elazar b'Rabbi Shimon holds linen. A baraita about 'al besaro yilbash' clarifies the scope. The daf closes with the status of two simultaneously appointed KGs: R. Meir says the replacement retains full KG obligations; R. Yosei rules he is suspended from both offices, illustrated by the case of Yosef ben Elem of Tzippori.",
+ "summary": "Rav Pappa's answer to 12a's question: no special initiation is needed for the replacement High Priest - his first act of service itself initiates him, just as Temple vessels after Moshe were consecrated by use rather than anointing. The daf then examines the belt of the common priest: is it linen (like the KG's Yom Kippur belt) or kilayim (like the KG's year-round belt)? Rav Dimi and Ravin bring conflicting traditions from Eretz Yisrael, with Ravin specifying that Rabbi holds kilayim and Rabbi Elazar b'Rabbi Shimon holds linen. A baraita on 'al besaro yilbash' (Lev. 6) is then read two ways: R. Yehuda includes the mitznefet and avnet in the obligation for terumat hadeshen (ash-removal); R. Dosa reads it to teach that the KG's Yom Kippur garments become usable afterward by an ordinary priest. Rabbi rejects R. Dosa's reading (the YK avnet is linen, not the hedyot's kilayim avnet, and in any case a garment used for greater sanctity may not be reused for lesser sanctity), reading 'yilbash' instead to include even worn garments. The Gemara then notes R. Dosa is consistent elsewhere: 'and he shall leave them there' teaches the YK garments require genizah, so R. Dosa holds they may not be reused even on a later Yom Kippur. The daf closes with the status of two simultaneously appointed KGs: R. Meir says the replacement retains full KG obligations; R. Yosei rules he is suspended from both offices, illustrated by the case of Yosef ben Elem of Tzippori.",
  "review": {
   "content": "ai_generated",
   "sourceRefs": "ai_generated"
@@ -96,7 +96,7 @@
      "sourceRefs": [
       {
        "sourceType": "gemara",
-       "lineId": "yoma-12b-l01",
+       "lineId": "yoma-012b-l01",
        "vilnaLine": 1
       }
      ]
@@ -125,7 +125,7 @@
    "id": "yoma-12b-s02",
    "lineRange": {
     "startVilnaLine": 4,
-    "endVilnaLine": 29
+    "endVilnaLine": 30
    },
    "lines": [
     {
@@ -178,18 +178,18 @@
    ],
    "display": {
     "title": "The common priest's belt: kilayim or pure linen?",
-    "oneLine": "Rav Dimi and Ravin report the same dispute differently; a baraita on 'al besaro yilbash' confirms that Rabbi holds the common priest's belt is kilayim.",
-    "whats": "A dispute about the common priest's belt: does it match the KG's regular-year belt (kilayim, wool-linen mix) or the KG's Yom Kippur belt (buz, pure linen)? Rav Dimi reports the sages of Eretz Yisrael disagree without identifying who holds each position. Ravin clarifies: Rabbi says the common priest's belt is kilayim; Rabbi Elazar b'Rabbi Shimon says linen. A baraita about the phrase 'al besaro yilbash' (he shall wear on his flesh) from the trum hadeshen passage shows that the mitzna and avnet are full priestly garments requiring all four items, resolving who said what.",
-    "hint": "The key question is: whose belt matches whose? Year-round the KG wears kilayim; on YK the KG wears linen. The common priest's belt is the disputed middle ground. The baraita from Leviticus 6 resolves the identity question: Rabbi endorses kilayim for the common priest, making him parallel to the KG on regular days."
+    "oneLine": "Rav Dimi and Ravin report the same dispute differently, with Ravin's report alone resolving that Rabbi holds kilayim and R. Elazar b'Rabbi Shimon holds linen; a separate baraita on 'al besaro yilbash' then debates terumat hadeshen's garment scope, where Rabbi rebuts R. Dosa by invoking his already-established position rather than proving it.",
+    "whats": "A dispute about the common priest's belt: does it match the KG's regular-year belt (kilayim, wool-linen mix) or the KG's Yom Kippur belt (buz, pure linen)? Rav Dimi reports the sages of Eretz Yisrael disagree without identifying who holds each position. Ravin clarifies: Rabbi says the common priest's belt is kilayim; Rabbi Elazar b'Rabbi Shimon says linen. A baraita on 'al besaro yilbash' (he shall wear on his flesh, Lev. 6) is then read two ways: R. Yehuda reads it to include the mitznefet and avnet in the obligation for terumat hadeshen (ash-removal); R. Dosa reads it to teach that the KG's Yom Kippur garments become usable afterward by an ordinary priest. Rabbi rejects R. Dosa's reading with two rebuttals (the YK avnet is linen, not the hedyot's kilayim avnet; and in any case a garment used for greater sanctity may not be reused for lesser sanctity), reading 'yilbash' instead to include even worn-out garments. The Gemara then notes R. Dosa is consistent with his own view elsewhere: 'and he shall leave them there' (Lev. 16) teaches the YK garments require genizah (storage) - R. Dosa holds he may not reuse them even on a later Yom Kippur.",
+    "hint": "The key question is: whose belt matches whose? Year-round the KG wears kilayim; on YK the KG wears linen. The common priest's belt is the disputed middle ground. Ravin's report alone resolves the identity question: Rabbi holds kilayim for the common priest, R. Elazar b'Rabbi Shimon holds linen. The later baraita on 'al besaro yilbash' is a separate discussion about which garments terumat hadeshen requires - when Rabbi rebuts R. Dosa there, is he proving his kilayim position with the baraita, or just relying on it as already established?"
    },
    "learning": {
     "learnerQuestion": "When the KG switches to all-linen garments on Yom Kippur, does the ordinary priest's belt change to match him, or stay the kilayim belt he wears the rest of the year?",
-    "coreTension": "Two transmitted reports of the same dispute disagree on attribution: Rav Dimi names the disputants but not their positions, while Ravin supplies the positions but still needs independent confirmation of which sage said which.",
-    "coreMove": "Ravin's tradition fills the gap left by Rav Dimi, naming Rabbi for kilayim and R. Elazar b'Rabbi Shimon for linen; the baraita on 'al besaro yilbash' then independently corroborates Rabbi's position by showing the avnet is one of the four mandatory garments in that same verse.",
+    "coreTension": "Two transmitted reports of the same dispute disagree on attribution: Rav Dimi names the disputants but not their positions, while Ravin supplies the positions, resolving who said what.",
+    "coreMove": "Ravin's tradition fills the gap left by Rav Dimi, naming Rabbi for kilayim and R. Elazar b'Rabbi Shimon for linen - that identity dispute is settled by Ravin's report alone. The later baraita on 'al besaro yilbash' is a separate halachic discussion about which garments terumat hadeshen requires; there, Rabbi rebuts R. Dosa's reading by invoking his own already-established position (the YK avnet is linen, not the hedyot's kilayim avnet), rather than using the baraita to prove or corroborate it.",
     "learningBlocker": "It is easy to conflate the KG's two belts (kilayim year-round, linen on Yom Kippur) with the common priest's single disputed belt - the dispute here is only about the common priest's garment, not a reinterpretation of the KG's own established practice.",
     "takeaway": {
      "type": "legal_principle",
-     "text": "Halacha follows Rabbi: the common priest's belt is kilayim all year and does not change to match the KG's Yom Kippur linen."
+     "text": "The dispute is left open on this daf: Rabbi holds the common priest's belt is kilayim all year (not matching the KG's Yom Kippur linen); Rabbi Elazar b'Rabbi Shimon holds it is linen."
     },
     "ahaMoment": "Two different periods (year-round vs. Yom Kippur), two different priests (KG vs. common), and one disputed garment - the common priest's belt is the hinge between all these distinctions.",
     "memoryAnchor": "Ravin clarified what Rav Dimi left murky: Rabbi goes kilayim for the common priest, matching the KG on regular days."
@@ -234,24 +234,69 @@
      "sourceRefs": [
       {
        "sourceType": "gemara",
-       "lineId": "yoma-012b-l22",
-       "vilnaLine": 22,
-       "note": "Ravin clarifies positions"
+       "lineId": "yoma-012b-l13",
+       "vilnaLine": 13,
+       "note": "Ravin's tradition: Rabbi holds kilayim, R. Elazar b'R. Shimon holds linen"
       }
      ]
     },
     {
      "id": "step-04",
      "type": "proof",
-     "label": "Baraita from 'al besaro yilbash' confirms Rabbi's view",
-     "speaker": "Baraita",
-     "text": "The verse 'al besaro yilbash' (Leviticus 6) includes the mitzna and avnet in the trum hadeshen garment requirement, showing all four garments are needed. Rav Nachman bar Yitzhak shows this supports Rabbi's kilayim position.",
+     "label": "Baraita on 'al besaro yilbash': R. Yehuda's reading",
+     "speaker": "Baraita / R. Yehuda",
+     "text": "Rav Nachman bar Yitzhak cites a baraita on the verse 'al besaro yilbash' (Leviticus 6, the terumat hadeshen/ash-removal passage). R. Yehuda reads 'yilbash' to include the mitznefet and avnet in the obligation for that ash-removal service.",
      "sourceRefs": [
       {
        "sourceType": "gemara",
-       "lineId": "yoma-012b-l26",
-       "vilnaLine": 26,
-       "note": "Baraita support for Rabbi"
+       "lineId": "yoma-012b-l19",
+       "vilnaLine": 19,
+       "note": "Baraita opens; R. Yehuda's reading"
+      }
+     ]
+    },
+    {
+     "id": "step-05",
+     "type": "position",
+     "label": "R. Dosa: the YK garments become usable by an ordinary priest",
+     "speaker": "R. Dosa",
+     "text": "R. Dosa reads the same baraita differently: 'yilbash' includes the KG's Yom Kippur garments becoming valid for an ordinary priest to use afterward.",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-012b-l22",
+       "vilnaLine": 22,
+       "note": "R. Dosa's reading"
+      }
+     ]
+    },
+    {
+     "id": "step-06",
+     "type": "refutation",
+     "label": "Rabbi's two rebuttals of R. Dosa; 'yilbash' includes worn garments",
+     "speaker": "Rabbi",
+     "text": "Rabbi offers two rebuttals: (1) the YK avnet is linen, not the same garment as the common priest's kilayim avnet, so it cannot be reused as such; (2) in any case, a garment used for greater sanctity may not be reused for lesser sanctity. Rabbi instead reads 'yilbash' to include even threadbare/worn-out garments in the obligation.",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-012b-l22",
+       "vilnaLine": 24,
+       "note": "Rabbi's rebuttals and alternate reading"
+      }
+     ]
+    },
+    {
+     "id": "step-07",
+     "type": "support",
+     "label": "R. Dosa's consistency: the genizah teaching",
+     "speaker": "Gemara",
+     "text": "The Gemara notes R. Dosa is consistent with his own view elsewhere: a baraita on 'and he shall leave them there' (Leviticus 16) teaches that the Yom Kippur garments require genizah (storage). R. Dosa holds this means he may not reuse them even on a later Yom Kippur.",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-012b-l29",
+       "vilnaLine": 29,
+       "note": "R. Dosa's genizah-consistency teaching, continuing through line 30 (no reuse even on a later Yom Kippur)"
       }
      ]
     }
@@ -261,7 +306,8 @@
     "kilayim",
     "avnet",
     "dispute",
-    "tradition"
+    "tradition",
+    "genizah"
    ],
    "conceptRefs": [
     "Yoma.12b.2",
@@ -278,6 +324,11 @@
      "misconception": "The dispute extends to all four of the common priest's garments.",
      "correction": "The dispute is specifically about the belt; the other three garments (tunic, breeches, headgear) are not in dispute between Rabbi and R. Elazar b'Rabbi Shimon.",
      "correctedByStepId": "step-03"
+    },
+    {
+     "misconception": "R. Dosa's reading is accepted: an ordinary priest may wear the KG's used Yom Kippur garments afterward.",
+     "correction": "Rabbi rejects R. Dosa's reading with two rebuttals, and the Gemara further notes R. Dosa's own genizah teaching holds these garments may not be reused at all - even by the KG himself on a later Yom Kippur.",
+     "correctedByStepId": "step-06"
     }
    ],
    "relatedSugyot": [
@@ -300,8 +351,8 @@
      "sourceRefs": [
       {
        "sourceType": "gemara",
-       "lineId": "yoma-12b-l08",
-       "vilnaLine": 22
+       "lineId": "yoma-012b-l13",
+       "vilnaLine": 13
       }
      ]
     },
@@ -310,7 +361,7 @@
      "answer": "Rav Dimi reported a dispute without identifying positions; Ravin explicitly specified who holds kilayim (Rabbi) and who holds linen (R. Elazar b'R. Shimon)."
     }
    ],
-   "finalRuling": "Halacha: the common priest's belt is kilayim (following Rabbi's position as clarified by Ravin).",
+   "finalRuling": "",
    "difficulty": "intermediate",
    "alternateAngles": [],
    "review": {
@@ -363,7 +414,7 @@
    "display": {
     "title": "Two High Priests at once: R. Meir and R. Yosei on the recovered original",
     "oneLine": "When the original KG recovers after a replacement was appointed, R. Meir keeps the replacement bound by full KG obligations while R. Yosei suspends him from both offices, as Yosef ben Elem of Tzippori's case shows.",
-    "whats": "If a replacement KG was appointed and then the original recovered: what is each man's status? R. Meir: the replacement retains all KG obligations (cannot marry a widow, cannot become impure for relatives, etc.). R. Yosei: the replacement is suspended from both offices - he cannot serve as KG (the original is alive) but also cannot step down to common priesthood (degrading a KG is forbidden). The practical tragedy: Yosef ben Elem of Tzippori served as replacement KG and was left with neither role. The mishna implies he may serve in emergencies, but is otherwise excluded.",
+    "whats": "If a replacement KG was appointed and then the original recovered: what is each man's status? R. Meir: the replacement retains all KG obligations (cannot marry a widow, cannot become impure for relatives, etc.). R. Yosei: the replacement is suspended from both offices - he cannot serve as KG (the original is alive) but also cannot step down to common priesthood (degrading a KG is forbidden). The practical tragedy: Yosef ben Elem of Tzippori served as replacement KG and was left with neither role, for the stated reasons of rivalry (eivah) and not demoting a KG.",
     "hint": "R. Yosei's ruling creates a 'stranded' priest - fully consecrated for KG but blocked from exercising it, yet forbidden to step down. The case of Yosef ben Elem is not hypothetical; the story gives the ruling a human face."
    },
    "learning": {
@@ -373,7 +424,7 @@
     "learningBlocker": "Learners assume the replacement simply reverts to ordinary priesthood once the original recovers - missing that 'ein moridim m'gedula' (we do not demote from a higher sacred status) blocks that simple reversal under R. Yosei's ruling.",
     "takeaway": {
      "type": "legal_principle",
-     "text": "Halacha follows R. Yosei: the replacement KG is suspended from both offices while the original lives, as the case of Yosef ben Elem of Tzippori shows."
+     "text": "The Yosef ben Elem of Tzippori case shows the Sages ruled in practice like R. Yosei's reasoning: the replacement is suspended from both offices while the original lives, for the stated reasons of rivalry (eivah) and not demoting a KG (ma'alin bakodesh velo moridin). 12b does not itself state that the halacha follows R. Yosei over R. Meir."
     },
     "ahaMoment": "R. Yosei creates a priest who is too holy to step down but blocked from his office - the collision between 'do not degrade a KG' and 'only one KG at a time.'",
     "memoryAnchor": "Yosef ben Elem: appointed as the backup, the original recovered, and he was left in limbo - neither KG nor regular kohen."
@@ -403,24 +454,9 @@
      "sourceRefs": [
       {
        "sourceType": "gemara",
-       "lineId": "yoma-012b-l41",
-       "vilnaLine": 41,
-       "note": "Historical case"
-      }
-     ]
-    },
-    {
-     "id": "step-03",
-     "type": "ruling",
-     "label": "Yosef ben Elem: serves in an emergency but otherwise excluded",
-     "speaker": "Mishna",
-     "text": "The mishna implies the suspended ex-replacement KG may serve in emergencies (if no other KG is available) but is otherwise excluded from regular service in either capacity.",
-     "sourceRefs": [
-      {
-       "sourceType": "gemara",
-       "lineId": "yoma-012b-l42",
-       "vilnaLine": 42,
-       "note": "Emergency exception"
+       "lineId": "yoma-012b-l35",
+       "vilnaLine": 35,
+       "note": "R. Yosei's proof: the Yosef ben Elem of Tzippori narrative"
       }
      ]
     }
@@ -473,8 +509,8 @@
      "sourceRefs": [
       {
        "sourceType": "gemara",
-       "lineId": "yoma-12b-l11",
-       "vilnaLine": 31
+       "lineId": "yoma-012b-l33",
+       "vilnaLine": 34
       }
      ]
     },
@@ -483,7 +519,7 @@
      "answer": "Yosef ben Elem of Tzippori."
     }
    ],
-   "finalRuling": "Halacha follows R. Yosei: the replacement KG is suspended from both offices while the original lives, as in the case of Yosef ben Elem.",
+   "finalRuling": "12b does not state which side the halacha follows; the only halacha-introducing clause on the daf (Rabba bar bar Chana citing R. Yochanan) ends after the complete word 'halacha' (line 42), cut off mid-sentence before naming whose view it follows - 13a continues 'halacha k'Rabbi Yosei.' The Yosef ben Elem case shows the Sages ruled in that historical/practical instance like R. Yosei's reasoning (suspended from both offices), but that is not presented as the daf's own resolution of the R. Meir/R. Yosei dispute.",
    "difficulty": "intermediate",
    "alternateAngles": [],
    "review": {
