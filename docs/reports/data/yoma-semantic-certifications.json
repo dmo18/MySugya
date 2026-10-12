@@ -113488,7 +113488,7 @@
     "yoma-13b-s02": {
       "sugyaId": "yoma-13b-s02",
       "daf": "13b",
-      "state": "REPAIRED_PENDING_REVIEW",
+      "state": "PENDING_FINAL_AUDIT",
       "firstPass": {
         "reviewId": "13b-s02-second-pass-round2-2026-10-12T1815Z",
         "reviewerContextId": "agent:rabbi:subagent:8f9293ce-bfbb-466f-9cd6-6470f0213694",
@@ -113528,7 +113528,23 @@
           ]
         }
       },
-      "repairRef": "1092f0aad757f43469ca375832e34a827b12f982"
+      "repairRef": "1092f0aad757f43469ca375832e34a827b12f982",
+      "sourceFingerprint": "9b6fa0de7ff6bc1aa78665052ec9fd50f6d5c6cf5515b1d3bf8b6f14c70bb3b8",
+      "semanticFingerprint": "28727fec20c7f8330313aa3ece22c90a2bd505f536f06b09dda9cbdf04701e39",
+      "secondPass": {
+        "reviewId": "13b-s02-second-pass-round3-2026-10-12T1830Z",
+        "reviewerContextId": "agent:rabbi:subagent:0499f989-0c79-4fe1-8603-324d64af5a28",
+        "sourceFirst": true,
+        "verdict": "CONFIRMED",
+        "reviewedSourceFingerprint": "9b6fa0de7ff6bc1aa78665052ec9fd50f6d5c6cf5515b1d3bf8b6f14c70bb3b8",
+        "reviewedSemanticFingerprint": "28727fec20c7f8330313aa3ece22c90a2bd505f536f06b09dda9cbdf04701e39",
+        "evidence": {
+          "sugyaId": "yoma-13b-s02",
+          "verdict": "CONFIRMED",
+          "findings": "Checked Vilna lines 20-23 against every field of yoma-13b-s02 in both the review packet's currentEnrichment and the live file modules/yoma/assets/learning/yoma/13b.learning.json (identical content in both). Line 20: '...גיטא למפרע מתקיף לה רב אסי ואיתימא רב' begins the first objection by Rav Asi (or some say Rav Avira) - matches speaker attribution in step-01 exactly ('Rav Asi (or, some say, Rav Avira)'). Line 21: 'עוירא אלא מעתה שתי יבמות הבאות מבית' continues: 'but then, two yevamot coming from one house...' - this is the two-yevamot-from-one-house objection, distinct from the arusah objection, and the enrichment correctly keeps these as two separate argumentFlow steps/misconceptions rather than merging them. Line 22: 'אחד לא יתייבמו יבמתו יבמתו ריבה מתקיף לה רבינא ואיתימא רב' - the first half resolves objection 1 via the doubled phrase 'יבמתו יבמתו' (yevamato yevamato) functioning as a ribui/amplification, exactly as every field states (display.whats, learning.coreMove, learning.ahaMoment, learning.memoryAnchor, misconceptions[1].correction, quizSeeds[1].answer, finalRuling). The same line then opens objection 2, correctly attributed to 'Ravina ve'itaima Rav Sherevya' - matches step-02's speaker field exactly. Line 23: 'שרביה אלא מעתה ארוסה לא תתייבם החוצה לרבות את הארוסה' - states the arusah (betrothed-wife) objection and resolves it via the distinct word 'החוצה' (hachutza, 'outside') functioning as a ribui to include the arusah - matches every field's description of the second resolution mechanism. Rashi support lines 3-6 in the packet (two yevamot from one house excluded absent 'bayto'; arusah excluded since 'she is not yet his house') corroborate both objections' content and the house/bayto framing used throughout. Critically, no field conflates the two resolutions into a single 'bayto is read differently/expansively' mechanism - the enrichment explicitly and repeatedly states the opposite (e.g., hint: 'not a single reinterpretation of bayto'; misconceptions[1]: 'The resolution does not reinterpret bayto itself; each objection is answered by its own distinct amplification'). lineId/vilnaLine placements are correct: step-01 is tagged vilnaLine 20 (where Rav Asi's objection begins), step-02 is tagged vilnaLine 22 (where Ravina's objection begins, mid-line, which is the earliest point that objection appears). Boundaries are clean: s01 ends at line 19 (last line of the conditional-get sugya, confirmed by packet's declaredLineRange for s01), and s03 begins at line 24 with the unrelated onen/High-Priest baraita ('תנו רבנן כהן גדול מקריב אונן') - no leakage into or out of s02's 20-23 range. All fields (title, oneLine, whats, hint, coreTension, coreMove, ahaMoment, memoryAnchor, takeaway, misconceptions, visualizableElements, quizSeeds, finalRuling) are mutually consistent and uniformly reflect the same correct two-objections/two-distinct-amplifications structure. One minor stylistic imprecision noted but not rising to a defect: argumentFlow step-01's text ('the formula creates an impossible levirate situation: two women, one yibum obligation') paraphrases the objection ('two yevamot from one house should not do yibum at all, since the house-singular logic would exclude them') somewhat loosely, but it does not contradict the Hebrew source, does not misattribute the mechanism, and is not inconsistent with any other field - it is a simplification, not a factual error, so it does not warrant REJECTED.",
+          "defects": []
+        }
+      }
     },
     "yoma-13b-s03": {
       "sugyaId": "yoma-13b-s03",
