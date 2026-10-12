@@ -113391,6 +113391,220 @@
         }
       },
       "certifiedAtCommit": "6d64d1cee98be1dff75d0335e77d941ce48dd433"
+    },
+    "yoma-13b-s01": {
+      "sugyaId": "yoma-13b-s01",
+      "daf": "13b",
+      "state": "PENDING_FINAL_AUDIT",
+      "firstPass": {
+        "reviewId": "13b-second-pass-2026-10-12-independent-v4",
+        "reviewerContextId": "agent:rabbi:subagent:df6eb8ef-8635-49d5-a1c8-8713481588b5",
+        "sourceFirst": true,
+        "verdict": "REPAIR_REQUIRED",
+        "reviewedSourceFingerprint": "60db1af8ac767050e8b30618947c1e8b0ce436848e409f010d89e5e6fcccecb4",
+        "reviewedSemanticFingerprint": "8ee4ab82c2bf1aac714919b98b79b0e6a4f0a22135c39cc4499bb6e61e4c9d68",
+        "evidence": {
+          "reviewId": "13b-second-pass-2026-10-12-independent-v4",
+          "module": "yoma",
+          "daf": "13b",
+          "independentSourceFlowReconstruction": "The daf opens mid-sentence, continuing a 13a discussion about conditional divorce formulas by which a High Priest with two wives tries to guarantee he always has exactly one valid wife (so his Yom Kippur service, which requires 'his house' in the singular, is never performed with zero or two houses). Line 1 closes out a prior critique ('...not a get, and he would have served in two houses'). The Gemara then proposes Attempt 1 (lines 2-5): give a single get to one wife, conditioned on her counterpart dying. Rejected: if the counterpart does die, the get becomes retroactively valid and he ends up with no wife at all (קם ליה בלא בית). Attempt 2 (lines 5-10): divorce both wives - one's get conditioned on 'your counterpart does not die,' the other's conditioned on 'you do not enter the synagogue.' Rejected: if the counterpart simply doesn't die and the other wife simply avoids the synagogue, both conditions are satisfied, both gets become valid, and again he is left with no wife. Attempt 3 / the working formula (lines 11-19): wife 1's get is conditioned on 'your counterpart does not die' (unchanged); wife 2's get is instead conditioned on the HUSBAND's own act - his entering the synagogue. Because this condition is under his exclusive control, the two outcomes are truly mutually exclusive, and he can even preempt an impending death of wife 2 by entering the synagogue himself first, retroactively validating her get. Two objections from levirate-marriage law follow, each resolved within the same breath via scriptural amplification: Rav Asi (or Rav Avira) objects that 'his house' (singular) should likewise bar two yevamin from one house from both doing yibum - answered by the doubled word 'yevimto yevimto' amplifying to include them (lines 20-22). Ravina (or Rav Sherevya) objects that an arusah (betrothed-only wife) should then be excluded from yibum since she isn't yet 'in his house' - answered by the word 'ha-chutza' (outward/extra) amplifying to include her (lines 22-23). The daf then pivots to an entirely new topic (line 24 on): a baraita rules that the High Priest who is an onen (acute mourner) performs the Yom Kippur service but may not eat sacrificial food. R. Yehuda adds 'the whole day.' Rava explains this phrase as teaching that it is a mitzva to actively bring the onen KG from his home to serve the entire day, since engagement in the service eases his grief. Abaye challenges: a baraita states in R. Yehuda's own name that an ordinary priest already mid-service who hears a relative has died stops and leaves (R. Yosei disagrees, holding he finishes) - so if R. Yehuda himself holds aninut removes a priest from service, how can Rava read him as mandating that an onen be actively brought in to begin service? The daf ends mid-resolution with the catchword 'lomar,' continuing onto 14a with Rava's revised answer.",
+          "perSugya": [
+            {
+              "sugyaId": "yoma-13b-s01",
+              "verdict": "REJECTED",
+              "reasoning": "Content (two rejected formulas plus the husband's-own-act solution, the 'left with no wife at all' reasoning for Attempt 1, and the 'both conditions hold at once' reasoning for Attempt 2) matches the source and reflects the prior round's fix correctly. However, two defects remain. (1) display.title says 'After a rejected attempt' (singular), but the sugya's own oneLine/whats/argumentFlow describe TWO distinct rejected attempts before the working formula - an internal inconsistency between the title and the rest of the enrichment. (2) finalRuling states 'This is R. Yehuda's mechanism for the backup-wife arrangement.' This attribution is very likely wrong: in Mishna Yoma 1:1 and its Gemara, the practice of preparing a backup second wife for the High Priest is the position the Sages/anonymous practice follows, and R. Yehuda is on record OBJECTING to it ('אם כן אין לדבר סוף' - 'if so, there is no end to the matter'), not proposing or owning the conditional-divorce mechanism that rescues it. Attributing this entire three-attempt mechanism to 'R. Yehuda' appears to invert his actual role in the sugya. This cannot be fully re-verified from the 13b-only source text supplied in this packet (the backup-wife mishna/dispute is on 13a, not included here), so it is flagged as PLAUSIBLE rather than fully confirmed, with a recommendation to check against the 13a source before certifying.",
+              "defects": [
+                {
+                  "field": "display.title",
+                  "issue": "Says 'a rejected attempt' (singular) while the body of the same sugya (oneLine, whats, argumentFlow) correctly presents TWO distinct rejected formulas before the accepted one.",
+                  "severity": "minor",
+                  "confidence": "CONFIRMED"
+                },
+                {
+                  "field": "finalRuling",
+                  "issue": "Attributes the entire backup-wife conditional-divorce mechanism to R. Yehuda ('This is R. Yehuda's mechanism for the backup-wife arrangement'). Per Mishna Yoma 1:1/its Gemara, R. Yehuda is the one who OBJECTS to preparing a backup wife at all ('אין לדבר סוף'); he does not author this mechanism. Likely a misattribution, though not fully verifiable from the 13b-only text in this packet.",
+                  "severity": "potentially major (attribution)",
+                  "confidence": "PLAUSIBLE - recommend checking 13a source before certifying"
+                }
+              ]
+            },
+            {
+              "sugyaId": "yoma-13b-s02",
+              "verdict": "REJECTED",
+              "reasoning": "The two objections (two yevamot from one house; an arusah's eligibility) and their resolutions via 'yevimto yevimto' and 'ha-chutza' respectively are correctly represented, matching the source and reflecting the prior round's line-23 boundary fix. One minor defect found: argumentFlow step-01's speaker is listed only as the generic 'First sage,' even though the source names him explicitly ('רב אסי ואיתימא רב עוירא' - Rav Asi, or some say Rav Avira) and the sibling step-02 in the same sugya correctly names its speaker ('Ravina (or Rav Sherevya)'). This is an inconsistent level of attribution detail between two structurally parallel steps.",
+              "defects": [
+                {
+                  "field": "argumentFlow[0].speaker (step-01)",
+                  "issue": "Speaker given as generic 'First sage' instead of naming the sage the source names ('Rav Asi, or some say Rav Avira'), unlike the parallel step-02 which correctly names its speaker.",
+                  "severity": "minor",
+                  "confidence": "CONFIRMED"
+                }
+              ]
+            },
+            {
+              "sugyaId": "yoma-13b-s03",
+              "verdict": "REJECTED",
+              "reasoning": "The baraita content, R. Yehuda's 'kol hayom' addition, Rava's interpretation, and Abaye's challenge (correctly citing a baraita in R. YEHUDA's own name, not the Rabbanan's, about a mid-service onen priest who must leave, with R. Yosei the lenient dissenting voice) are all accurately represented, reflecting the prior round's line-24 attribution fix. One defect found: quizSeeds[0].sourceRefs[0].lineId is malformed as 'yoma-13b-l06', which matches neither the vilnaLine it is paired with (24) nor the lineId format used consistently everywhere else in this sugya and the whole packet ('yoma-013b-lNN', zero-padded, matching the actual line number). It should read 'yoma-013b-l24' to match its own 'vilnaLine': 24 and the step-01 sourceRef it mirrors.",
+              "defects": [
+                {
+                  "field": "quizSeeds[0].sourceRefs[0].lineId",
+                  "issue": "lineId given as 'yoma-13b-l06', inconsistent with its own vilnaLine:24 field and with the 'yoma-013b-lNN' format used by every other lineId in this sugya (e.g. the identical-content step-01 sourceRef correctly uses 'yoma-013b-l24'). Should be corrected to 'yoma-013b-l24'.",
+                  "severity": "minor (data-integrity / internal consistency)",
+                  "confidence": "CONFIRMED"
+                }
+              ]
+            }
+          ],
+          "allFieldsCheckedStatement": "Every field of currentEnrichment for all three sugyot (display.title/oneLine/whats/hint; learning.learnerQuestion/coreTension/coreMove/ahaMoment/memoryAnchor/learningBlocker/takeaway; every argumentFlow step's id/type/label/speaker/text/sourceRefs; topicTags; conceptRefs; requiresUnderstanding; misconceptions and their correctedByStepId links; relatedSugyot; visualizableElements; quizSeeds and their sourceRefs; finalRuling; difficulty; alternateAngles; prerequisiteKnowledge; lineRange; sefariaRefs; and the sugyaId/lineMap/declaredLineRange metadata) was checked against an independent reconstruction of the Hebrew source text performed before reading the enrichment, cross-referenced against relevantRashi only as supporting evidence. All three previously-reported defects (s02 line-23 boundary attribution, s03 line-24 attribution, s01's Attempt 1 rejection reason) were verified as correctly fixed in this packet. Four new, previously uncaught issues were found as listed above: s01 title/body attempt-count mismatch, s01's R. Yehuda attribution in finalRuling (flagged PLAUSIBLE pending 13a cross-check), s02 step-01's unnamed speaker, and s03's malformed quizSeed lineId."
+        }
+      },
+      "repairRef": "fb1cab7af4c4251ab8c1e6e0e76a878b33fe408e",
+      "sourceFingerprint": "60db1af8ac767050e8b30618947c1e8b0ce436848e409f010d89e5e6fcccecb4",
+      "semanticFingerprint": "af9e202a2f8d64eeacde9e3bdf886c67f298e2928b070494a41d246b6bb21fd6",
+      "secondPass": {
+        "reviewId": "13b-fresh-review-2026-10-12T1600Z",
+        "reviewerContextId": "agent:rabbi:subagent:2a3b28f4-318f-4682-8c68-655e78d043db",
+        "sourceFirst": true,
+        "verdict": "CONFIRMED",
+        "reviewedSourceFingerprint": "60db1af8ac767050e8b30618947c1e8b0ce436848e409f010d89e5e6fcccecb4",
+        "reviewedSemanticFingerprint": "af9e202a2f8d64eeacde9e3bdf886c67f298e2928b070494a41d246b6bb21fd6",
+        "evidence": {
+          "reviewId": "13b-fresh-review-2026-10-12T1600Z",
+          "module": "yoma",
+          "daf": "13b",
+          "independentSourceFlowReconstruction": "The daf opens mid-discussion (continuing from 13a) on conditional divorce formulas by which a man with two wives (apparently the Kohen Gadol's backup-wife arrangement) tries to guarantee exactly one valid marriage at any moment, since a dual or null marriage creates a 'two houses' / 'no house' problem for his Yom Kippur service, which requires 'beito' (his house, singular). Lines 1-5: Attempt 1 - give a single get to one wife, conditioned on her co-wife's death. Rejected: if the co-wife does die, the get becomes retroactively valid and he ends up with no wife at all (kam leih be-lo bayit). Lines 5-11: Attempt 2 - divorce both wives, one's get conditioned on 'your co-wife does not die,' the other's conditioned on 'you do not enter the synagogue [on Yom Kippur].' Rejected: if the co-wife simply doesn't die and the other wife simply avoids the synagogue, both conditions hold simultaneously, both gets become valid, and again he has no wife. Lines 11-19: Attempt 3, the working formula - wife 1's get stays conditioned on 'co-wife does not die'; wife 2's get is instead conditioned on the HUSBAND's own act of entering the synagogue, a condition fully under his control, making the two outcomes genuinely mutually exclusive. The sugya adds a retroactivity refinement: if it looks like wife 2 is about to die mid-service, he can preempt by entering the synagogue himself first, retroactively validating her get. Lines 20-23: two objections drawn from levirate-marriage (yibum) law, each answered in the same breath by scriptural amplification. Rav Asi (or some say Rav Avira) objects: if 'beito' (singular house) restricts the KG to one wife, by the same logic two yevamot coming from one house should not both be eligible for yibum - answered by the doubled word 'yevamto yevamto' which amplifies to include them. Ravina (or some say Rav Sharvia) objects: by the same logic an arusah (merely betrothed wife, not yet 'in his house') should be excluded from yibum - answered by the word 'ha-chutza' which amplifies to include her. Lines 24-29: the daf pivots to a new topic - a baraita rules the Kohen Gadol who is an onen (acute mourner) performs the Yom Kippur service but does not eat the sacred portions; R. Yehuda adds 'kol hayom' (the whole day). Rava explains 'kol hayom' as teaching that it is a mitzva to actively bring the onen KG from his home to serve. Abaye challenges: a baraita in R. Yehuda's own name rules that an ordinary priest already mid-service who hears of a relative's death stops and leaves (R. Yosei disagrees, holding he finishes) - so how can Rava read R. Yehuda as mandating that an onen be brought in to begin service? The daf ends mid-resolution with the catchword 'lomar,' continuing on 14a.",
+          "perSugya": [
+            {
+              "sugyaId": "yoma-13b-s01",
+              "verdict": "VERIFIED",
+              "reasoning": "Covers lines 1-19 correctly. display.title/oneLine/whats/argumentFlow all consistently present TWO rejected formulas (single-get-on-co-wife's-death; paired co-wife-doesn't-die/don't-enter-synagogue) followed by the working formula (wife 2's condition = husband's own act of entering synagogue), matching the Hebrew exactly, including the retroactivity/preemption detail in lines 16-19. finalRuling no longer attributes the mechanism to R. Yehuda (it is correctly left anonymous/Gemara-attributed, consistent with the fact that nothing in this text names a sage as author of the mechanism). No misattribution, no miscounted formulas, no line-range errors found.",
+              "defects": []
+            }
+          ],
+          "allFieldsCheckedStatement": "Every field of currentEnrichment for all three sugyot (display.title/oneLine/whats/hint; learning.learnerQuestion/coreTension/coreMove/ahaMoment/memoryAnchor/learningBlocker/takeaway; every argumentFlow step's id/type/label/speaker/text/sourceRefs; topicTags; conceptRefs; requiresUnderstanding; misconceptions and their correctedByStepId links; relatedSugyot; visualizableElements; quizSeeds and their sourceRefs; finalRuling; difficulty; alternateAngles; prerequisiteKnowledge; lineRange; sefariaRefs; lineMap; and declaredLineRange) was independently checked against the Hebrew source text in authoritativeHebrewLines, which was read and reconstructed in full BEFORE any enrichment field was opened. All defects reported in the existingReviewRecord's first pass (s01 title/body attempt-count mismatch, s01 R. Yehuda misattribution in finalRuling, s02 step-01 unnamed speaker, s03 malformed quizSeed lineId) were independently re-verified in this fresh pass as correctly fixed in the current enrichment. No new defects were found in any of the three sugyot; special attention was paid to speaker attributions (Rav Asi/Rav Avira and Ravina/Rav Sharvia correctly distinguished and assigned to their respective objections), to whether the backup-wife divorce mechanism was mis-attributed to any sage (it is not - it remains anonymous/Gemara-voiced, matching the source), to line-range/lineId correctness (all lineIds and vilnaLine pairings match the source line numbering), and to whether the number of rejected formulas before the accepted solution was correctly counted as two (confirmed correct throughout)."
+        }
+      }
+    },
+    "yoma-13b-s02": {
+      "sugyaId": "yoma-13b-s02",
+      "daf": "13b",
+      "state": "REPAIRED_PENDING_REVIEW",
+      "firstPass": {
+        "reviewId": "13b-fresh-review-2026-10-12T1600Z",
+        "reviewerContextId": "agent:rabbi:subagent:2a3b28f4-318f-4682-8c68-655e78d043db",
+        "sourceFirst": true,
+        "verdict": "VERIFIED",
+        "reviewedSourceFingerprint": "9b6fa0de7ff6bc1aa78665052ec9fd50f6d5c6cf5515b1d3bf8b6f14c70bb3b8",
+        "reviewedSemanticFingerprint": "59470a3c95008e2fa0a78db631e556292591b9948ba1c955b620da5746b2d4bf",
+        "evidence": {
+          "reviewId": "13b-fresh-review-2026-10-12T1600Z",
+          "module": "yoma",
+          "daf": "13b",
+          "independentSourceFlowReconstruction": "The daf opens mid-discussion (continuing from 13a) on conditional divorce formulas by which a man with two wives (apparently the Kohen Gadol's backup-wife arrangement) tries to guarantee exactly one valid marriage at any moment, since a dual or null marriage creates a 'two houses' / 'no house' problem for his Yom Kippur service, which requires 'beito' (his house, singular). Lines 1-5: Attempt 1 - give a single get to one wife, conditioned on her co-wife's death. Rejected: if the co-wife does die, the get becomes retroactively valid and he ends up with no wife at all (kam leih be-lo bayit). Lines 5-11: Attempt 2 - divorce both wives, one's get conditioned on 'your co-wife does not die,' the other's conditioned on 'you do not enter the synagogue [on Yom Kippur].' Rejected: if the co-wife simply doesn't die and the other wife simply avoids the synagogue, both conditions hold simultaneously, both gets become valid, and again he has no wife. Lines 11-19: Attempt 3, the working formula - wife 1's get stays conditioned on 'co-wife does not die'; wife 2's get is instead conditioned on the HUSBAND's own act of entering the synagogue, a condition fully under his control, making the two outcomes genuinely mutually exclusive. The sugya adds a retroactivity refinement: if it looks like wife 2 is about to die mid-service, he can preempt by entering the synagogue himself first, retroactively validating her get. Lines 20-23: two objections drawn from levirate-marriage (yibum) law, each answered in the same breath by scriptural amplification. Rav Asi (or some say Rav Avira) objects: if 'beito' (singular house) restricts the KG to one wife, by the same logic two yevamot coming from one house should not both be eligible for yibum - answered by the doubled word 'yevamto yevamto' which amplifies to include them. Ravina (or some say Rav Sharvia) objects: by the same logic an arusah (merely betrothed wife, not yet 'in his house') should be excluded from yibum - answered by the word 'ha-chutza' which amplifies to include her. Lines 24-29: the daf pivots to a new topic - a baraita rules the Kohen Gadol who is an onen (acute mourner) performs the Yom Kippur service but does not eat the sacred portions; R. Yehuda adds 'kol hayom' (the whole day). Rava explains 'kol hayom' as teaching that it is a mitzva to actively bring the onen KG from his home to serve. Abaye challenges: a baraita in R. Yehuda's own name rules that an ordinary priest already mid-service who hears of a relative's death stops and leaves (R. Yosei disagrees, holding he finishes) - so how can Rava read R. Yehuda as mandating that an onen be brought in to begin service? The daf ends mid-resolution with the catchword 'lomar,' continuing on 14a.",
+          "perSugya": [
+            {
+              "sugyaId": "yoma-13b-s02",
+              "verdict": "VERIFIED",
+              "reasoning": "Covers lines 20-23 correctly. Both objections and their resolutions match the source: Rav Asi (or Rav Avira) objecting about two yevamot from one house, resolved via 'yevamto yevamto ribah'; Ravina (or Rav Sharvia) objecting about an arusah, resolved via 'ha-chutza lerabot et ha-arusah'. argumentFlow step-01 now correctly names its speaker ('Rav Asi (or, some say, Rav Avira)') rather than a generic placeholder, matching step-02's naming convention. Only a very minor stylistic observation (not a factual defect): step-01's text states the objection but does not spell out its own resolution ('yevamto yevamto ribah') the way step-02 explicitly names 'hachutza' - the resolution is only covered in the general display.whats text. This is a completeness/style nuance, not a source-accuracy error, so it does not block VERIFIED.",
+              "defects": []
+            }
+          ],
+          "allFieldsCheckedStatement": "Every field of currentEnrichment for all three sugyot (display.title/oneLine/whats/hint; learning.learnerQuestion/coreTension/coreMove/ahaMoment/memoryAnchor/learningBlocker/takeaway; every argumentFlow step's id/type/label/speaker/text/sourceRefs; topicTags; conceptRefs; requiresUnderstanding; misconceptions and their correctedByStepId links; relatedSugyot; visualizableElements; quizSeeds and their sourceRefs; finalRuling; difficulty; alternateAngles; prerequisiteKnowledge; lineRange; sefariaRefs; lineMap; and declaredLineRange) was independently checked against the Hebrew source text in authoritativeHebrewLines, which was read and reconstructed in full BEFORE any enrichment field was opened. All defects reported in the existingReviewRecord's first pass (s01 title/body attempt-count mismatch, s01 R. Yehuda misattribution in finalRuling, s02 step-01 unnamed speaker, s03 malformed quizSeed lineId) were independently re-verified in this fresh pass as correctly fixed in the current enrichment. No new defects were found in any of the three sugyot; special attention was paid to speaker attributions (Rav Asi/Rav Avira and Ravina/Rav Sharvia correctly distinguished and assigned to their respective objections), to whether the backup-wife divorce mechanism was mis-attributed to any sage (it is not - it remains anonymous/Gemara-voiced, matching the source), to line-range/lineId correctness (all lineIds and vilnaLine pairings match the source line numbering), and to whether the number of rejected formulas before the accepted solution was correctly counted as two (confirmed correct throughout)."
+        }
+      }
+    },
+    "yoma-13b-s03": {
+      "sugyaId": "yoma-13b-s03",
+      "daf": "13b",
+      "state": "PENDING_FINAL_AUDIT",
+      "firstPass": {
+        "reviewId": "13b-second-pass-2026-10-12-independent-v4",
+        "reviewerContextId": "agent:rabbi:subagent:df6eb8ef-8635-49d5-a1c8-8713481588b5",
+        "sourceFirst": true,
+        "verdict": "REPAIR_REQUIRED",
+        "reviewedSourceFingerprint": "c174765f45b2caae53b2cf24975a675d5b12b26ab84cd6733cf81bf73357c237",
+        "reviewedSemanticFingerprint": "a3b8f4dd11dbce860b0754d88e22a766e37e2a8988e7466c05fdf26e36d9fb87",
+        "evidence": {
+          "reviewId": "13b-second-pass-2026-10-12-independent-v4",
+          "module": "yoma",
+          "daf": "13b",
+          "independentSourceFlowReconstruction": "The daf opens mid-sentence, continuing a 13a discussion about conditional divorce formulas by which a High Priest with two wives tries to guarantee he always has exactly one valid wife (so his Yom Kippur service, which requires 'his house' in the singular, is never performed with zero or two houses). Line 1 closes out a prior critique ('...not a get, and he would have served in two houses'). The Gemara then proposes Attempt 1 (lines 2-5): give a single get to one wife, conditioned on her counterpart dying. Rejected: if the counterpart does die, the get becomes retroactively valid and he ends up with no wife at all (קם ליה בלא בית). Attempt 2 (lines 5-10): divorce both wives - one's get conditioned on 'your counterpart does not die,' the other's conditioned on 'you do not enter the synagogue.' Rejected: if the counterpart simply doesn't die and the other wife simply avoids the synagogue, both conditions are satisfied, both gets become valid, and again he is left with no wife. Attempt 3 / the working formula (lines 11-19): wife 1's get is conditioned on 'your counterpart does not die' (unchanged); wife 2's get is instead conditioned on the HUSBAND's own act - his entering the synagogue. Because this condition is under his exclusive control, the two outcomes are truly mutually exclusive, and he can even preempt an impending death of wife 2 by entering the synagogue himself first, retroactively validating her get. Two objections from levirate-marriage law follow, each resolved within the same breath via scriptural amplification: Rav Asi (or Rav Avira) objects that 'his house' (singular) should likewise bar two yevamin from one house from both doing yibum - answered by the doubled word 'yevimto yevimto' amplifying to include them (lines 20-22). Ravina (or Rav Sherevya) objects that an arusah (betrothed-only wife) should then be excluded from yibum since she isn't yet 'in his house' - answered by the word 'ha-chutza' (outward/extra) amplifying to include her (lines 22-23). The daf then pivots to an entirely new topic (line 24 on): a baraita rules that the High Priest who is an onen (acute mourner) performs the Yom Kippur service but may not eat sacrificial food. R. Yehuda adds 'the whole day.' Rava explains this phrase as teaching that it is a mitzva to actively bring the onen KG from his home to serve the entire day, since engagement in the service eases his grief. Abaye challenges: a baraita states in R. Yehuda's own name that an ordinary priest already mid-service who hears a relative has died stops and leaves (R. Yosei disagrees, holding he finishes) - so if R. Yehuda himself holds aninut removes a priest from service, how can Rava read him as mandating that an onen be actively brought in to begin service? The daf ends mid-resolution with the catchword 'lomar,' continuing onto 14a with Rava's revised answer.",
+          "perSugya": [
+            {
+              "sugyaId": "yoma-13b-s01",
+              "verdict": "REJECTED",
+              "reasoning": "Content (two rejected formulas plus the husband's-own-act solution, the 'left with no wife at all' reasoning for Attempt 1, and the 'both conditions hold at once' reasoning for Attempt 2) matches the source and reflects the prior round's fix correctly. However, two defects remain. (1) display.title says 'After a rejected attempt' (singular), but the sugya's own oneLine/whats/argumentFlow describe TWO distinct rejected attempts before the working formula - an internal inconsistency between the title and the rest of the enrichment. (2) finalRuling states 'This is R. Yehuda's mechanism for the backup-wife arrangement.' This attribution is very likely wrong: in Mishna Yoma 1:1 and its Gemara, the practice of preparing a backup second wife for the High Priest is the position the Sages/anonymous practice follows, and R. Yehuda is on record OBJECTING to it ('אם כן אין לדבר סוף' - 'if so, there is no end to the matter'), not proposing or owning the conditional-divorce mechanism that rescues it. Attributing this entire three-attempt mechanism to 'R. Yehuda' appears to invert his actual role in the sugya. This cannot be fully re-verified from the 13b-only source text supplied in this packet (the backup-wife mishna/dispute is on 13a, not included here), so it is flagged as PLAUSIBLE rather than fully confirmed, with a recommendation to check against the 13a source before certifying.",
+              "defects": [
+                {
+                  "field": "display.title",
+                  "issue": "Says 'a rejected attempt' (singular) while the body of the same sugya (oneLine, whats, argumentFlow) correctly presents TWO distinct rejected formulas before the accepted one.",
+                  "severity": "minor",
+                  "confidence": "CONFIRMED"
+                },
+                {
+                  "field": "finalRuling",
+                  "issue": "Attributes the entire backup-wife conditional-divorce mechanism to R. Yehuda ('This is R. Yehuda's mechanism for the backup-wife arrangement'). Per Mishna Yoma 1:1/its Gemara, R. Yehuda is the one who OBJECTS to preparing a backup wife at all ('אין לדבר סוף'); he does not author this mechanism. Likely a misattribution, though not fully verifiable from the 13b-only text in this packet.",
+                  "severity": "potentially major (attribution)",
+                  "confidence": "PLAUSIBLE - recommend checking 13a source before certifying"
+                }
+              ]
+            },
+            {
+              "sugyaId": "yoma-13b-s02",
+              "verdict": "REJECTED",
+              "reasoning": "The two objections (two yevamot from one house; an arusah's eligibility) and their resolutions via 'yevimto yevimto' and 'ha-chutza' respectively are correctly represented, matching the source and reflecting the prior round's line-23 boundary fix. One minor defect found: argumentFlow step-01's speaker is listed only as the generic 'First sage,' even though the source names him explicitly ('רב אסי ואיתימא רב עוירא' - Rav Asi, or some say Rav Avira) and the sibling step-02 in the same sugya correctly names its speaker ('Ravina (or Rav Sherevya)'). This is an inconsistent level of attribution detail between two structurally parallel steps.",
+              "defects": [
+                {
+                  "field": "argumentFlow[0].speaker (step-01)",
+                  "issue": "Speaker given as generic 'First sage' instead of naming the sage the source names ('Rav Asi, or some say Rav Avira'), unlike the parallel step-02 which correctly names its speaker.",
+                  "severity": "minor",
+                  "confidence": "CONFIRMED"
+                }
+              ]
+            },
+            {
+              "sugyaId": "yoma-13b-s03",
+              "verdict": "REJECTED",
+              "reasoning": "The baraita content, R. Yehuda's 'kol hayom' addition, Rava's interpretation, and Abaye's challenge (correctly citing a baraita in R. YEHUDA's own name, not the Rabbanan's, about a mid-service onen priest who must leave, with R. Yosei the lenient dissenting voice) are all accurately represented, reflecting the prior round's line-24 attribution fix. One defect found: quizSeeds[0].sourceRefs[0].lineId is malformed as 'yoma-13b-l06', which matches neither the vilnaLine it is paired with (24) nor the lineId format used consistently everywhere else in this sugya and the whole packet ('yoma-013b-lNN', zero-padded, matching the actual line number). It should read 'yoma-013b-l24' to match its own 'vilnaLine': 24 and the step-01 sourceRef it mirrors.",
+              "defects": [
+                {
+                  "field": "quizSeeds[0].sourceRefs[0].lineId",
+                  "issue": "lineId given as 'yoma-13b-l06', inconsistent with its own vilnaLine:24 field and with the 'yoma-013b-lNN' format used by every other lineId in this sugya (e.g. the identical-content step-01 sourceRef correctly uses 'yoma-013b-l24'). Should be corrected to 'yoma-013b-l24'.",
+                  "severity": "minor (data-integrity / internal consistency)",
+                  "confidence": "CONFIRMED"
+                }
+              ]
+            }
+          ],
+          "allFieldsCheckedStatement": "Every field of currentEnrichment for all three sugyot (display.title/oneLine/whats/hint; learning.learnerQuestion/coreTension/coreMove/ahaMoment/memoryAnchor/learningBlocker/takeaway; every argumentFlow step's id/type/label/speaker/text/sourceRefs; topicTags; conceptRefs; requiresUnderstanding; misconceptions and their correctedByStepId links; relatedSugyot; visualizableElements; quizSeeds and their sourceRefs; finalRuling; difficulty; alternateAngles; prerequisiteKnowledge; lineRange; sefariaRefs; and the sugyaId/lineMap/declaredLineRange metadata) was checked against an independent reconstruction of the Hebrew source text performed before reading the enrichment, cross-referenced against relevantRashi only as supporting evidence. All three previously-reported defects (s02 line-23 boundary attribution, s03 line-24 attribution, s01's Attempt 1 rejection reason) were verified as correctly fixed in this packet. Four new, previously uncaught issues were found as listed above: s01 title/body attempt-count mismatch, s01's R. Yehuda attribution in finalRuling (flagged PLAUSIBLE pending 13a cross-check), s02 step-01's unnamed speaker, and s03's malformed quizSeed lineId."
+        }
+      },
+      "repairRef": "fb1cab7af4c4251ab8c1e6e0e76a878b33fe408e",
+      "sourceFingerprint": "c174765f45b2caae53b2cf24975a675d5b12b26ab84cd6733cf81bf73357c237",
+      "semanticFingerprint": "77c703e6a48da5ad15e9fe06e201bde1ef767aa4e0be465fb381c687883fdb90",
+      "secondPass": {
+        "reviewId": "13b-fresh-review-2026-10-12T1600Z",
+        "reviewerContextId": "agent:rabbi:subagent:2a3b28f4-318f-4682-8c68-655e78d043db",
+        "sourceFirst": true,
+        "verdict": "CONFIRMED",
+        "reviewedSourceFingerprint": "c174765f45b2caae53b2cf24975a675d5b12b26ab84cd6733cf81bf73357c237",
+        "reviewedSemanticFingerprint": "77c703e6a48da5ad15e9fe06e201bde1ef767aa4e0be465fb381c687883fdb90",
+        "evidence": {
+          "reviewId": "13b-fresh-review-2026-10-12T1600Z",
+          "module": "yoma",
+          "daf": "13b",
+          "independentSourceFlowReconstruction": "The daf opens mid-discussion (continuing from 13a) on conditional divorce formulas by which a man with two wives (apparently the Kohen Gadol's backup-wife arrangement) tries to guarantee exactly one valid marriage at any moment, since a dual or null marriage creates a 'two houses' / 'no house' problem for his Yom Kippur service, which requires 'beito' (his house, singular). Lines 1-5: Attempt 1 - give a single get to one wife, conditioned on her co-wife's death. Rejected: if the co-wife does die, the get becomes retroactively valid and he ends up with no wife at all (kam leih be-lo bayit). Lines 5-11: Attempt 2 - divorce both wives, one's get conditioned on 'your co-wife does not die,' the other's conditioned on 'you do not enter the synagogue [on Yom Kippur].' Rejected: if the co-wife simply doesn't die and the other wife simply avoids the synagogue, both conditions hold simultaneously, both gets become valid, and again he has no wife. Lines 11-19: Attempt 3, the working formula - wife 1's get stays conditioned on 'co-wife does not die'; wife 2's get is instead conditioned on the HUSBAND's own act of entering the synagogue, a condition fully under his control, making the two outcomes genuinely mutually exclusive. The sugya adds a retroactivity refinement: if it looks like wife 2 is about to die mid-service, he can preempt by entering the synagogue himself first, retroactively validating her get. Lines 20-23: two objections drawn from levirate-marriage (yibum) law, each answered in the same breath by scriptural amplification. Rav Asi (or some say Rav Avira) objects: if 'beito' (singular house) restricts the KG to one wife, by the same logic two yevamot coming from one house should not both be eligible for yibum - answered by the doubled word 'yevamto yevamto' which amplifies to include them. Ravina (or some say Rav Sharvia) objects: by the same logic an arusah (merely betrothed wife, not yet 'in his house') should be excluded from yibum - answered by the word 'ha-chutza' which amplifies to include her. Lines 24-29: the daf pivots to a new topic - a baraita rules the Kohen Gadol who is an onen (acute mourner) performs the Yom Kippur service but does not eat the sacred portions; R. Yehuda adds 'kol hayom' (the whole day). Rava explains 'kol hayom' as teaching that it is a mitzva to actively bring the onen KG from his home to serve. Abaye challenges: a baraita in R. Yehuda's own name rules that an ordinary priest already mid-service who hears of a relative's death stops and leaves (R. Yosei disagrees, holding he finishes) - so how can Rava read R. Yehuda as mandating that an onen be brought in to begin service? The daf ends mid-resolution with the catchword 'lomar,' continuing on 14a.",
+          "perSugya": [
+            {
+              "sugyaId": "yoma-13b-s03",
+              "verdict": "VERIFIED",
+              "reasoning": "Covers lines 24-29 correctly. Baraita (KG-onen sacrifices but does not eat), R. Yehuda's 'kol hayom' addition, Rava's interpretation (bring him from home to serve), and Abaye's challenge (citing a baraita in R. Yehuda's OWN name - not the Rabbanan's - about a mid-service priest-onen who must leave, with R. Yosei dissenting leniently) are all accurately represented and correctly attributed. The previously-flagged malformed lineId ('yoma-13b-l06') in quizSeeds is now correctly formatted ('yoma-013b-l26'/'yoma-013b-l24'), consistent with the packet-wide lineId convention. The mid-resolution cutoff ('lomar', continuing to 14a) is correctly reflected in finalRuling and learning.takeaway. No defects found.",
+              "defects": []
+            }
+          ],
+          "allFieldsCheckedStatement": "Every field of currentEnrichment for all three sugyot (display.title/oneLine/whats/hint; learning.learnerQuestion/coreTension/coreMove/ahaMoment/memoryAnchor/learningBlocker/takeaway; every argumentFlow step's id/type/label/speaker/text/sourceRefs; topicTags; conceptRefs; requiresUnderstanding; misconceptions and their correctedByStepId links; relatedSugyot; visualizableElements; quizSeeds and their sourceRefs; finalRuling; difficulty; alternateAngles; prerequisiteKnowledge; lineRange; sefariaRefs; lineMap; and declaredLineRange) was independently checked against the Hebrew source text in authoritativeHebrewLines, which was read and reconstructed in full BEFORE any enrichment field was opened. All defects reported in the existingReviewRecord's first pass (s01 title/body attempt-count mismatch, s01 R. Yehuda misattribution in finalRuling, s02 step-01 unnamed speaker, s03 malformed quizSeed lineId) were independently re-verified in this fresh pass as correctly fixed in the current enrichment. No new defects were found in any of the three sugyot; special attention was paid to speaker attributions (Rav Asi/Rav Avira and Ravina/Rav Sharvia correctly distinguished and assigned to their respective objections), to whether the backup-wife divorce mechanism was mis-attributed to any sage (it is not - it remains anonymous/Gemara-voiced, matching the source), to line-range/lineId correctness (all lineIds and vilnaLine pairings match the source line numbering), and to whether the number of rejected formulas before the accepted solution was correctly counted as two (confirmed correct throughout)."
+        }
+      }
     }
   }
 }
