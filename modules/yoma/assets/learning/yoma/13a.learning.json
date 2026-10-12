@@ -495,7 +495,7 @@
       "display": {
         "title": "Four failed conditional divorces: teaching get al tenai through an impossible case",
         "oneLine": "The Gemara tests four conditional divorce formulas for the KG's backup wife, and Rashi notes the section is educational, not a working solution.",
-        "whats": "Designation alone doesn't work (she isn't yet his 'house'); betrothal alone doesn't work either (same reason); actually marrying her creates two houses; and simply divorcing her after marrying her removes any benefit. So the Gemara tries divorcing her conditionally: (1) on condition she dies on YK - but perhaps neither wife dies, leaving him with two houses. (2) on condition she does NOT die - but perhaps she survives (valid divorce) while the original wife dies, leaving him with no wife at all. (3) on condition one of the two wives dies - but perhaps neither dies (two houses again); and even apart from that timing problem, the Gemara questions whether this formula is a valid get at all, since (per Rava) a condition tied to both spouses' own lives for as long as they live fails the Torah's keritut (complete severance) requirement. (4) on condition the other wife does NOT die - but perhaps she dies in the middle of the Yom Kippur service itself, leaving the outcome unresolved; the discussion breaks off here and continues onto 13b. Rashi notes this entire discussion is not meant to produce a working solution but to teach the logic of conditional gitin (bills of divorce).",
+        "whats": "Merely designating or betrothing her doesn't work (she isn't yet his 'house' until actually married); actually marrying her creates two houses; and simply divorcing her after marrying her removes any benefit. So the Gemara tries divorcing her conditionally: (1) on condition she dies on YK - but perhaps neither wife dies, leaving him with two houses. (2) on condition she does NOT die - but perhaps she survives (valid divorce) while the original wife dies, leaving him with no wife at all. (3) on condition one of the two wives dies - but perhaps neither dies (two houses again); and even apart from that timing problem, the Gemara questions whether this formula is a valid get at all, since (per Rava) a condition tied to both spouses' own lives for as long as they live fails the Torah's keritut (complete severance) requirement. (4) on condition the other wife does NOT die - but perhaps she dies in the middle of the Yom Kippur service itself, leaving the outcome unresolved; the discussion breaks off here and continues onto 13b. Rashi notes this entire discussion is not meant to produce a working solution but to teach the logic of conditional gitin (bills of divorce).",
         "hint": "Why does every conditional-divorce formula fail—by leaving two wives, leaving no wife, or failing the keritut requirement—and why does the daf therefore end without a working resolution?"
       },
       "learning": {
@@ -514,9 +514,9 @@
         {
           "id": "step-00",
           "type": "attempt",
-          "label": "Designation, betrothal, and plain marry-and-divorce all fail",
+          "label": "Merely designating/betrothing fails; actual marriage creates two houses",
           "speaker": "Gemara",
-          "text": "Designating a second woman doesn't help - she isn't yet his 'house' (wife) if his first wife dies. Betrothing her beforehand doesn't help either, for the same reason. So he must actually marry her - but then he has two houses at once, which 'his house' (singular) forbids. Divorcing her again after marrying her removes any benefit, since if the first wife then dies he again has no second wife in reserve.",
+          "text": "Merely designating or betrothing a second woman doesn't help - she isn't yet his 'house' (wife) until he actually marries her. So he must actually marry her - but then he has two houses at once, which 'his house' (singular) forbids. Divorcing her again after marrying her removes any benefit, since if the first wife then dies he again has no second wife in reserve.",
           "sourceRefs": [
             {
               "sourceType": "gemara",
