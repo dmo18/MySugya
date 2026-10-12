@@ -29199,17 +29199,17 @@ const DAF_CONTENT = {
           endVilnaLine: 23
         },
         display: {
-          title: "Same word, different scope: 'bayto' restricts the KG but expands for yibum",
-          oneLine: "Two yibum-based objections to the conditional divorce formula are resolved by showing 'bayto' functions differently in the KG's Yom Kippur law than in levirate marriage law.",
-          whats: "Two parallel objections from levirate marriage law, each raised by a different sage. First: if two yevamot come from the same man (the KG's brother dies childless and both wives face yibum) - the Torah's 'bayto' (singular 'his house') implies only one can do yibum. Second: a betrothed woman (arusah) - does she do yibum or not? The Gemara resolves both objections through scriptural amplifications: 'bayto' in the yibum context explicitly includes these cases.",
-          hint: "Both objections import the 'one house' requirement from the KG's Yom Kippur context into the yibum context - but the same word ('bayto') functions differently in each passage. Distinguishing the contexts resolves both challenges."
+          title: "Two yibum objections, two distinct amplifications override the 'one house' restriction",
+          oneLine: "Two objections try to import the KG's 'one house' restriction into levirate marriage law; each is resolved by its own distinct scriptural amplification, not a shared expansive reading of 'bayto'.",
+          whats: "Two parallel objections from levirate marriage law, each raised by a different sage. First: if two yevamot come from the same man (the KG's brother dies childless and both wives face yibum) - the Torah's 'bayto' (singular 'his house') implies only one can do yibum. Second: a betrothed woman (arusah) - does she do yibum or not? The Gemara resolves the first objection through the doubled phrase 'yevamato yevamato' (a ribui, amplification), and the second through the word 'hachutza' ('outside') - two separate amplifications, not a single shared mechanism.",
+          hint: "Both objections import the 'one house' requirement from the KG's Yom Kippur context into the yibum context - but the Gemara answers each one with its own distinct scriptural amplification, not a single reinterpretation of 'bayto'."
         },
         learning: {
           learnerQuestion: "If 'bayto' restricts the KG to one wife on Yom Kippur, doesn't it also restrict yibum to only one of his two wives, and exclude a merely betrothed wife?",
-          coreTension: "The same Hebrew word appears to import a one-house restriction from the KG's Yom Kippur law into the entirely separate law of levirate marriage.",
-          coreMove: "Both objections are resolved by scriptural amplification: 'bayto' in the yibum verse (Deuteronomy 25) is read expansively to include multiple yevamot and a betrothed wife, unlike its restrictive use in the KG's Yom Kippur verse (Leviticus 16).",
-          ahaMoment: "The same Hebrew word ('bayto') carries different legal weight in different biblical contexts - one usage (Leviticus 16, the KG) restricts to one wife; another (Deuteronomy 25, yibum) is more inclusive.",
-          memoryAnchor: "One word, two laws, two rulings: 'bayto' means something different in the KG's YK law vs. the levirate law.",
+          coreTension: "The KG's 'one house' restriction appears to import itself into the entirely separate law of levirate marriage, but each resulting objection is answered by its own distinct scriptural amplification rather than a shared reinterpretation of any single word.",
+          coreMove: "Both objections are resolved by scriptural amplification (ribui) - but each via a different word: the first by the doubled phrase 'yevamato yevamato', the second by 'hachutza' ('outside') - not by any expansive reinterpretation of 'bayto' itself.",
+          ahaMoment: "The 'one house' restriction from the KG's Yom Kippur law (Leviticus 16) does not carry over into levirate marriage law (Deuteronomy 25) - the Gemara overrides it for each objection through its own distinct amplification, not by redefining 'bayto'.",
+          memoryAnchor: "Two objections, two separate amplifications: 'yevamato yevamato' lifts the two-yevamot problem; 'hachutza' lifts the arusah problem - neither relies on redefining 'bayto'.",
           learningBlocker: "Learners may assume one word must carry one consistent legal scope across the Torah. This sugya shows the same word can be restrictive in one verse and expansive in another, each governed by its own derasha.",
           takeaway: {
             type: "derivation_principle",
@@ -29286,7 +29286,7 @@ const DAF_CONTENT = {
             type: "text"
           },
           {
-            item: "KG's 'bayto' (restrictive: exactly one wife) vs. yibum 'bayto' (inclusive: multiple women, betrothed women)",
+            item: "KG's 'bayto' (restrictive: exactly one wife) vs. the two distinct yibum-law amplifications ('yevamato yevamato' and 'hachutza') that override that restriction",
             type: "contrast"
           }
         ],
@@ -29304,8 +29304,8 @@ const DAF_CONTENT = {
             ]
           },
           {
-            question: "How does 'bayto' function differently in the KG's YK context vs. the yibum context?",
-            answer: "In the KG's YK context (Leviticus 16), 'bayto' restricts him to one wife. In the yibum context (Deuteronomy 25), 'bayto' is interpreted more expansively, including multiple women and betrothed wives."
+            question: "How does the Gemara resolve each of the two yibum-law objections to the conditional divorce formula?",
+            answer: "The first objection (two yevamot from one house) is resolved by the doubled phrase 'yevamato yevamato' (a ribui, amplification). The second objection (arusah) is resolved by the separate word 'hachutza' ('outside'). Neither resolution rests on reinterpreting the word 'bayto' itself."
           }
         ],
         finalRuling: "Both yibum objections are resolved by their own distinct scriptural amplification (the first via 'yevamato yevamato', the second via 'hachutza'). The two-pronged conditional divorce formula remains valid.",

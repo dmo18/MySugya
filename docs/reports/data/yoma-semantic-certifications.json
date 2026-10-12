@@ -113490,31 +113490,45 @@
       "daf": "13b",
       "state": "REPAIRED_PENDING_REVIEW",
       "firstPass": {
-        "reviewId": "13b-s02-second-pass-2026-10-12T1730Z",
-        "reviewerContextId": "agent:rabbi:subagent:87c84cc7-0d90-4a73-97a5-60deb6689a9c",
+        "reviewId": "13b-s02-second-pass-round2-2026-10-12T1815Z",
+        "reviewerContextId": "agent:rabbi:subagent:8f9293ce-bfbb-466f-9cd6-6470f0213694",
         "sourceFirst": true,
         "verdict": "REPAIR_REQUIRED",
-        "reviewedSourceFingerprint": "85cc680320a603863c53b99af6aa39d67cc42a4faec0b64180372c6d242da111",
-        "reviewedSemanticFingerprint": "4e80f444303a1044690a39bdb029f1179396017ca10c8941c7b952cb644d343a",
+        "reviewedSourceFingerprint": "9b6fa0de7ff6bc1aa78665052ec9fd50f6d5c6cf5515b1d3bf8b6f14c70bb3b8",
+        "reviewedSemanticFingerprint": "cb1a728b1d8063bde0ad806a117092390e08c9109e8cdbce5ca7229484a1d3a9",
         "evidence": {
           "sugyaId": "yoma-13b-s02",
           "verdict": "REJECTED",
-          "findings": "Reviewed Hebrew source lines 20-23 fresh, then the packet's currentEnrichment and the live modules/yoma/assets/learning/yoma/13b.learning.json object for yoma-13b-s02 (identical content in both). Boundary (vilnaLine 20-23) is correct relative to s01 (ends 19) and s03 (starts 24): line 20 opens 'מתקיף לה רב אסי' (a fresh objection) and line 24 opens the unrelated onen-KG baraita, so no boundary leakage. Speaker attributions for both objections are textually supported: line 20-21 'מתקיף לה רב אסי ואיתימא רב עוירא' = 'Rav Asi (or some say Rav Avira)' challenges; line 22-23 'מתקיף לה רבינא ואיתימא רב שרביה' = 'Ravina (or some say Rav Sherevya)' challenges. Both match the enrichment's step-01/step-02 speaker fields. However I found two defects: (1) lineId/vilnaLine misattribution for step-02 and its matching quizSeed. The file's own lineMap/lines convention (confirmed by the parallel structure in yoma-13b-s01, where every argumentFlow step's lineId/vilnaLine exactly matches the START of its declared Sefaria-ref block) requires that content falling under sefariaRef Yoma.13b.5 (declared as starting at vilnaLine 22 in both lines[] and relevantRashi, e.g. Rashi on vilnaLine 4 links to 'yoma-013b-l20' and 'yoma-013b-l22') be tagged lineId 'yoma-013b-l22'/vilnaLine 22. Instead, step-02 and the second quizSeed both cite lineId 'yoma-013b-l23'/vilnaLine 23 - one line past where the Ravina/Sherevya objection actually begins ('מתקיף לה רבינא...' appears on vilnaLine 22, not 23; vilnaLine 23 only contains the back half of the name plus the content of the challenge). This is an internally inconsistent lineId relative to the sugya's own declared line-to-Sefaria mapping and to the convention used in the adjacent sugya. (2) A semantic/derasha mischaracterization in display.whats, learning.coreMove, learning.ahaMoment, and learning.takeaway: all claim the two objections are resolved by reading the word 'bayto' expansively in the yibum verse ('bayto in the yibum context explicitly includes these cases' / 'bayto... is read expansively to include multiple yevamot and a betrothed wife'). This is correct for the SECOND objection only (resolved via 'hachutza', correctly reflected in step-02's own text field - note the inconsistency even within the enrichment, since step-02's text correctly says 'outside/hachutza' while the sugya-level summary fields say 'bayto'). But the FIRST objection (two yevamot from one house) is explicitly resolved in the source by a different derasha: vilnaLine 22's 'יבמתו יבמתו ריבה' - the Torah's doubled/repeated word 'his yevamah, his yevamah' (or 'yevamto yevamto') is read as a ribui (amplification), not a reading of 'bayto' itself. 'Bayto' is the restrictive word established on 13a/in the KG's law; the amplifying word that overrides it for yibum purposes is the textual repetition, not 'bayto'. By folding both resolutions under a single 'bayto is read expansively' narrative, the sugya-level display/learning fields misstate the actual exegetical mechanism for the first objection, even though step-01's own argumentFlow text avoids naming a specific word and is therefore not itself wrong - it is the summary-level synthesis (title, oneLine's framing is acceptable since it stays general, but whats/coreMove/ahaMoment/takeaway go further and specifically assert 'bayto' is the shared mechanism for both).",
+          "findings": "Hebrew source (vilna lines 20-23): '...גיטא למפרע מתקיף לה רב אסי ואיתימא רב עוירא אלא מעתה שתי יבמות הבאות מבית אחד לא יתייבמו יבמתו יבמתו ריבה מתקיף לה רבינא ואיתימא רב שרביה אלא מעתה ארוסה לא תתייבם החוצה לרבות את הארוסה'. This confirms: (1) the two objectors are correctly Rav Asi/Rav Avira (first, re: two yevamot from one house) and Ravina/Rav Sherevya (second, re: arusah) - argumentFlow speakers are source-faithful. (2) sourceRef line placement (step-01 at vilnaLine 20, step-02 at vilnaLine 22) correctly matches where each objection's 'מתקיף לה' actually begins, and tracks the sefaria-ref boundary in lineMap (13b.4 vs 13b.5). (3) The resolution mechanisms are two textually distinct amplifications: the first objection is answered by the doubled word 'יבמתו יבמתו' (yevamato yevamato) - a ribbuy from repetition - and the second objection is answered by the separate word 'החוצה' (hachutza, 'outside') in the yibum verse. Neither resolution reinterprets or expansively re-reads the word 'בית'/'bayto' itself; 'bayto' does not even appear in the resolving half of either verse quoted here. However, the sugya's title, oneLine, whats, hint, coreTension, coreMove, ahaMoment, and memoryAnchor fields all claim the shared resolving mechanism is that 'bayto' is read restrictively in the KG's Leviticus 16 context but 'read expansively'/'more inclusive' in the Deuteronomy 25 yibum context - this is a factual misstatement of the actual Gemara mechanism found in the source text at lines 22-23. It also directly contradicts the sugya's own takeaway field and the second misconceptions entry, which correctly state 'the resolution does not reinterpret bayto itself; each objection is answered by its own distinct amplification - yevamato yevamato for the first, hachutza for the second - not a single unifying reinterpretation of bayto.' The enrichment is therefore internally self-contradictory: roughly 7 of 11 semantic fields conflate the two objections under one false shared 'bayto expansion' mechanism, while the takeaway/misconceptions fields (correctly) deny that very mechanism. This is exactly the conflation defect flagged by review instruction (c): the resolving mechanisms for the two objections are distinct scriptural derashot on different words, not a single reinterpretation of 'bayto', and most display/learning fields misrepresent this. No boundary leakage from s01 (ends line 19) or s03 (starts line 24) was found, and no other factual errors in names, quantities, or chronology were identified.",
           "defects": [
             {
-              "field": "argumentFlow[1].sourceRefs[0].lineId / vilnaLine (step-02), quizSeeds[0].sourceRefs[0].lineId / vilnaLine",
-              "issue": "Cites lineId 'yoma-013b-l23' / vilnaLine 23 for the Ravina/Rav Sherevya (arusah) objection, but per the sugya's own lines[]/sefariaRefs mapping (Yoma.13b.5 begins at vilnaLine 22) and the Rashi linkage on vilnaLine 4 (linked to 'yoma-013b-l20' and 'yoma-013b-l22'), and the convention used identically in sibling sugya yoma-13b-s01, the correct value is lineId 'yoma-013b-l22' / vilnaLine 22.",
-              "evidence": "Hebrew vilnaLine 22: '...מתקיף לה רבינא ואיתימא רב' (objection begins here); vilnaLine 23 only continues '...שרביה אלא מעתה ארוסה...'. lines[] entry for sefariaRef Yoma.13b.5 is anchored at vilnaLine 22."
+              "field": "display.title",
+              "issue": "Claims 'bayto restricts the KG but expands for yibum' - but the actual resolving derashot are 'yevamato yevamato' (doubling) and 'hachutza', not an expansive reading of 'bayto' in the yibum verse. 'bayto' does not appear in either resolution clause in the source."
             },
             {
-              "field": "display.whats, learning.coreMove, learning.ahaMoment, learning.takeaway.text",
-              "issue": "States that both objections are resolved by reading 'bayto' expansively in the yibum verse. This is true only for the second (arusah) objection, which is actually resolved via the word 'hachutza' ('outside'), as correctly reflected in step-02's own text field. The first objection (two yevamot from one house) is resolved in the source by a distinct derasha - the doubled word 'yevamto yevamto' is read as a ribui - not by an expansive reading of 'bayto'.",
-              "evidence": "Hebrew vilnaLine 21-22: 'אלא מעתה שתי יבמות הבאות מבית אחד לא יתייבמו יבמתו יבמתו ריבה' - the resolving phrase is 'יבמתו יבמתו ריבה' (doubled word, amplification), not any form of 'בית'/'ביתו'."
+              "field": "display.oneLine",
+              "issue": "States both objections are 'resolved by showing bayto functions differently' - factually incorrect; conflates two distinct word-based derashot into a single false 'bayto' mechanism."
+            },
+            {
+              "field": "display.whats",
+              "issue": "States 'bayto in the yibum context explicitly includes these cases' as the resolution for both objections - contradicted by the actual source words used for the amplifications ('יבמתו יבמתו' and 'החוצה')."
+            },
+            {
+              "field": "display.hint",
+              "issue": "Reinforces the same false 'bayto functions differently' unifying mechanism."
+            },
+            {
+              "field": "learning.coreTension / coreMove / ahaMoment / memoryAnchor",
+              "issue": "All state or imply the single mechanism is a restrictive-vs-expansive reading of 'bayto' across Leviticus 16 and Deuteronomy 25. This directly contradicts the sugya's own takeaway and second misconception entry, which correctly identify two separate derashot ('yevamato yevamato' and 'hachutza') and explicitly deny a unifying 'bayto' reinterpretation. Internal self-contradiction within the same sugya object."
+            },
+            {
+              "field": "quizSeeds (second item)",
+              "issue": "Repeats the same incorrect claim that Deuteronomy 25's 'bayto' is read expansively, which is not how the source text resolves either objection."
             }
           ]
         }
       },
-      "repairRef": "d03614a5612f84a88690a903b8f286e59a94a17b"
+      "repairRef": "1092f0aad757f43469ca375832e34a827b12f982"
     },
     "yoma-13b-s03": {
       "sugyaId": "yoma-13b-s03",
