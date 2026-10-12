@@ -37,7 +37,7 @@
     "title": "After two rejected attempts, the KG's final formula ties Wife 2's get to his own act",
     "oneLine": "Two successive rejected formulas - a single conditional get, then a paired 'counterpart doesn't die'/'you don't enter the synagogue' get - are refuted before the Gemara's actual working formula, which ties the second wife's condition to the husband's own act of entering the synagogue.",
     "whats": "Continuing from 13a: first, to one wife alone he says 'this is your get on condition your counterpart dies.' But perhaps the counterpart does die - the get then becomes valid retroactively, and he is left with no wife at all; this is rejected. Second attempt: he divorces both wives - to one, 'on condition your counterpart does not die,' to the other, 'on condition you do not enter the synagogue on YK.' But perhaps the counterpart does not die and she does not enter the synagogue - then both gets are valid and he ends up with no wife at all; this too is rejected. The Gemara then gives the formula that actually works: to Wife 1, 'on condition your counterpart does not die'; to Wife 2, 'on condition I (the husband) enter the synagogue.' Now if Wife 2 dies, Wife 1's get stands; if Wife 2 lives, Wife 2's get stands only once the husband himself enters the synagogue - his own act, not her compliance. The Gemara adds the retroactivity subtlety: if it looks like Wife 2 is about to die mid-service, he can preemptively enter the synagogue himself, making Wife 2's get retroactively valid. Two scholars then object from levirate marriage law; both are resolved by scriptural amplifications.",
-    "hint": "The first (single-get) formula fails because if the counterpart dies, the get is retroactively valid and he's left with no wife at all. The second (paired) formula fails because both conditions ('counterpart doesn't die' and 'you don't enter the synagogue') can hold simultaneously, voiding both marriages. The fix: make the second wife's condition depend on the husband's own action (his entering the synagogue), not on anything either wife does or doesn't do."
+    "hint": "Why do the first two conditional-divorce formulas fail, and how does making the second wife's condition depend on the husband's own action ensure that exactly one marriage survives?"
    },
    "learning": {
     "learnerQuestion": "Can a conditional divorce formula be designed so that exactly one of the KG's two wives is ever actually divorced?",
@@ -101,7 +101,7 @@
    "topicTags": [
     "get",
     "conditional divorce",
-    "retroactive get",
+    "retroactive-get",
     "kehuna gedola",
     "mutually exclusive conditions"
    ],
@@ -202,7 +202,7 @@
     "title": "Two yibum objections, two distinct amplifications override the 'one house' restriction",
     "oneLine": "Two objections try to import the KG's 'one house' restriction into levirate marriage law; each is resolved by its own distinct scriptural amplification, not a shared expansive reading of 'bayto'.",
     "whats": "Two parallel objections from levirate marriage law, each raised by a different sage. First: if two yevamot come from the same man (the KG's brother dies childless and both wives face yibum) - the Torah's 'bayto' (singular 'his house') implies only one can do yibum. Second: a betrothed woman (arusah) - does she do yibum or not? The Gemara resolves the first objection through the doubled phrase 'yevamato yevamato' (a ribui, amplification), and the second through the word 'hachutza' ('outside') - two separate amplifications, not a single shared mechanism.",
-    "hint": "Both objections import the 'one house' requirement from the KG's Yom Kippur context into the yibum context - but the Gemara answers each one with its own distinct scriptural amplification, not a single reinterpretation of 'bayto'."
+    "hint": "Why do the two yibum objections require distinct scriptural answers—'yevamto yevamto' for the two-yevamot case and 'hachutza' for the arusah case—rather than one reinterpretation of 'bayto'?"
    },
    "learning": {
     "learnerQuestion": "If 'bayto' restricts the KG to one wife on Yom Kippur, doesn't it also restrict yibum to only one of his two wives, and exclude a merely betrothed wife?",
