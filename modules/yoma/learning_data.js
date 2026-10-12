@@ -29423,7 +29423,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-013b-l26",
+                lineId: "yoma-013b-l25",
                 vilnaLine: 26,
                 note: "Abaye's challenge (spanning vilna lines 25-28), citing R. Yehuda's own ruling that an onen leaves mid-service"
               }
@@ -29483,7 +29483,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-013b-l26",
+                lineId: "yoma-013b-l25",
                 vilnaLine: 26,
                 note: "Abaye's challenge (spanning vilna lines 25-28)"
               }
