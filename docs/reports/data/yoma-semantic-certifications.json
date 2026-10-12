@@ -113391,6 +113391,4174 @@
         }
       },
       "certifiedAtCommit": "6d64d1cee98be1dff75d0335e77d941ce48dd433"
+    },
+    "yoma-13b-s01": {
+      "sugyaId": "yoma-13b-s01",
+      "daf": "13b",
+      "state": "CERTIFIED",
+      "firstPass": {
+        "reviewId": "13b-second-pass-2026-10-12-independent-v4",
+        "reviewerContextId": "agent:rabbi:subagent:df6eb8ef-8635-49d5-a1c8-8713481588b5",
+        "sourceFirst": true,
+        "verdict": "REPAIR_REQUIRED",
+        "reviewedSourceFingerprint": "60db1af8ac767050e8b30618947c1e8b0ce436848e409f010d89e5e6fcccecb4",
+        "reviewedSemanticFingerprint": "8ee4ab82c2bf1aac714919b98b79b0e6a4f0a22135c39cc4499bb6e61e4c9d68",
+        "evidence": {
+          "reviewId": "13b-second-pass-2026-10-12-independent-v4",
+          "module": "yoma",
+          "daf": "13b",
+          "independentSourceFlowReconstruction": "The daf opens mid-sentence, continuing a 13a discussion about conditional divorce formulas by which a High Priest with two wives tries to guarantee he always has exactly one valid wife (so his Yom Kippur service, which requires 'his house' in the singular, is never performed with zero or two houses). Line 1 closes out a prior critique ('...not a get, and he would have served in two houses'). The Gemara then proposes Attempt 1 (lines 2-5): give a single get to one wife, conditioned on her counterpart dying. Rejected: if the counterpart does die, the get becomes retroactively valid and he ends up with no wife at all (קם ליה בלא בית). Attempt 2 (lines 5-10): divorce both wives - one's get conditioned on 'your counterpart does not die,' the other's conditioned on 'you do not enter the synagogue.' Rejected: if the counterpart simply doesn't die and the other wife simply avoids the synagogue, both conditions are satisfied, both gets become valid, and again he is left with no wife. Attempt 3 / the working formula (lines 11-19): wife 1's get is conditioned on 'your counterpart does not die' (unchanged); wife 2's get is instead conditioned on the HUSBAND's own act - his entering the synagogue. Because this condition is under his exclusive control, the two outcomes are truly mutually exclusive, and he can even preempt an impending death of wife 2 by entering the synagogue himself first, retroactively validating her get. Two objections from levirate-marriage law follow, each resolved within the same breath via scriptural amplification: Rav Asi (or Rav Avira) objects that 'his house' (singular) should likewise bar two yevamin from one house from both doing yibum - answered by the doubled word 'yevimto yevimto' amplifying to include them (lines 20-22). Ravina (or Rav Sherevya) objects that an arusah (betrothed-only wife) should then be excluded from yibum since she isn't yet 'in his house' - answered by the word 'ha-chutza' (outward/extra) amplifying to include her (lines 22-23). The daf then pivots to an entirely new topic (line 24 on): a baraita rules that the High Priest who is an onen (acute mourner) performs the Yom Kippur service but may not eat sacrificial food. R. Yehuda adds 'the whole day.' Rava explains this phrase as teaching that it is a mitzva to actively bring the onen KG from his home to serve the entire day, since engagement in the service eases his grief. Abaye challenges: a baraita states in R. Yehuda's own name that an ordinary priest already mid-service who hears a relative has died stops and leaves (R. Yosei disagrees, holding he finishes) - so if R. Yehuda himself holds aninut removes a priest from service, how can Rava read him as mandating that an onen be actively brought in to begin service? The daf ends mid-resolution with the catchword 'lomar,' continuing onto 14a with Rava's revised answer.",
+          "perSugya": [
+            {
+              "sugyaId": "yoma-13b-s01",
+              "verdict": "REJECTED",
+              "reasoning": "Content (two rejected formulas plus the husband's-own-act solution, the 'left with no wife at all' reasoning for Attempt 1, and the 'both conditions hold at once' reasoning for Attempt 2) matches the source and reflects the prior round's fix correctly. However, two defects remain. (1) display.title says 'After a rejected attempt' (singular), but the sugya's own oneLine/whats/argumentFlow describe TWO distinct rejected attempts before the working formula - an internal inconsistency between the title and the rest of the enrichment. (2) finalRuling states 'This is R. Yehuda's mechanism for the backup-wife arrangement.' This attribution is very likely wrong: in Mishna Yoma 1:1 and its Gemara, the practice of preparing a backup second wife for the High Priest is the position the Sages/anonymous practice follows, and R. Yehuda is on record OBJECTING to it ('אם כן אין לדבר סוף' - 'if so, there is no end to the matter'), not proposing or owning the conditional-divorce mechanism that rescues it. Attributing this entire three-attempt mechanism to 'R. Yehuda' appears to invert his actual role in the sugya. This cannot be fully re-verified from the 13b-only source text supplied in this packet (the backup-wife mishna/dispute is on 13a, not included here), so it is flagged as PLAUSIBLE rather than fully confirmed, with a recommendation to check against the 13a source before certifying.",
+              "defects": [
+                {
+                  "field": "display.title",
+                  "issue": "Says 'a rejected attempt' (singular) while the body of the same sugya (oneLine, whats, argumentFlow) correctly presents TWO distinct rejected formulas before the accepted one.",
+                  "severity": "minor",
+                  "confidence": "CONFIRMED"
+                },
+                {
+                  "field": "finalRuling",
+                  "issue": "Attributes the entire backup-wife conditional-divorce mechanism to R. Yehuda ('This is R. Yehuda's mechanism for the backup-wife arrangement'). Per Mishna Yoma 1:1/its Gemara, R. Yehuda is the one who OBJECTS to preparing a backup wife at all ('אין לדבר סוף'); he does not author this mechanism. Likely a misattribution, though not fully verifiable from the 13b-only text in this packet.",
+                  "severity": "potentially major (attribution)",
+                  "confidence": "PLAUSIBLE - recommend checking 13a source before certifying"
+                }
+              ]
+            },
+            {
+              "sugyaId": "yoma-13b-s02",
+              "verdict": "REJECTED",
+              "reasoning": "The two objections (two yevamot from one house; an arusah's eligibility) and their resolutions via 'yevimto yevimto' and 'ha-chutza' respectively are correctly represented, matching the source and reflecting the prior round's line-23 boundary fix. One minor defect found: argumentFlow step-01's speaker is listed only as the generic 'First sage,' even though the source names him explicitly ('רב אסי ואיתימא רב עוירא' - Rav Asi, or some say Rav Avira) and the sibling step-02 in the same sugya correctly names its speaker ('Ravina (or Rav Sherevya)'). This is an inconsistent level of attribution detail between two structurally parallel steps.",
+              "defects": [
+                {
+                  "field": "argumentFlow[0].speaker (step-01)",
+                  "issue": "Speaker given as generic 'First sage' instead of naming the sage the source names ('Rav Asi, or some say Rav Avira'), unlike the parallel step-02 which correctly names its speaker.",
+                  "severity": "minor",
+                  "confidence": "CONFIRMED"
+                }
+              ]
+            },
+            {
+              "sugyaId": "yoma-13b-s03",
+              "verdict": "REJECTED",
+              "reasoning": "The baraita content, R. Yehuda's 'kol hayom' addition, Rava's interpretation, and Abaye's challenge (correctly citing a baraita in R. YEHUDA's own name, not the Rabbanan's, about a mid-service onen priest who must leave, with R. Yosei the lenient dissenting voice) are all accurately represented, reflecting the prior round's line-24 attribution fix. One defect found: quizSeeds[0].sourceRefs[0].lineId is malformed as 'yoma-13b-l06', which matches neither the vilnaLine it is paired with (24) nor the lineId format used consistently everywhere else in this sugya and the whole packet ('yoma-013b-lNN', zero-padded, matching the actual line number). It should read 'yoma-013b-l24' to match its own 'vilnaLine': 24 and the step-01 sourceRef it mirrors.",
+              "defects": [
+                {
+                  "field": "quizSeeds[0].sourceRefs[0].lineId",
+                  "issue": "lineId given as 'yoma-13b-l06', inconsistent with its own vilnaLine:24 field and with the 'yoma-013b-lNN' format used by every other lineId in this sugya (e.g. the identical-content step-01 sourceRef correctly uses 'yoma-013b-l24'). Should be corrected to 'yoma-013b-l24'.",
+                  "severity": "minor (data-integrity / internal consistency)",
+                  "confidence": "CONFIRMED"
+                }
+              ]
+            }
+          ],
+          "allFieldsCheckedStatement": "Every field of currentEnrichment for all three sugyot (display.title/oneLine/whats/hint; learning.learnerQuestion/coreTension/coreMove/ahaMoment/memoryAnchor/learningBlocker/takeaway; every argumentFlow step's id/type/label/speaker/text/sourceRefs; topicTags; conceptRefs; requiresUnderstanding; misconceptions and their correctedByStepId links; relatedSugyot; visualizableElements; quizSeeds and their sourceRefs; finalRuling; difficulty; alternateAngles; prerequisiteKnowledge; lineRange; sefariaRefs; and the sugyaId/lineMap/declaredLineRange metadata) was checked against an independent reconstruction of the Hebrew source text performed before reading the enrichment, cross-referenced against relevantRashi only as supporting evidence. All three previously-reported defects (s02 line-23 boundary attribution, s03 line-24 attribution, s01's Attempt 1 rejection reason) were verified as correctly fixed in this packet. Four new, previously uncaught issues were found as listed above: s01 title/body attempt-count mismatch, s01's R. Yehuda attribution in finalRuling (flagged PLAUSIBLE pending 13a cross-check), s02 step-01's unnamed speaker, and s03's malformed quizSeed lineId."
+        }
+      },
+      "repairRef": "632489ed98291073052688baf4124ca96632b568",
+      "sourceFingerprint": "60db1af8ac767050e8b30618947c1e8b0ce436848e409f010d89e5e6fcccecb4",
+      "semanticFingerprint": "c408fb4800ced43880a26f2959e4246c149912b3c0ac6f9561367c33c66a4593",
+      "secondPass": {
+        "reviewId": "13b-s01s02-repair-verify-20261012-1635",
+        "reviewerContextId": "agent:rabbi:subagent:e16b7eee-2c65-448b-ad3b-768576b0249a",
+        "sourceFirst": true,
+        "verdict": "CONFIRMED",
+        "reviewedSourceFingerprint": "60db1af8ac767050e8b30618947c1e8b0ce436848e409f010d89e5e6fcccecb4",
+        "reviewedSemanticFingerprint": "c408fb4800ced43880a26f2959e4246c149912b3c0ac6f9561367c33c66a4593",
+        "evidence": {
+          "reviewId": "13b-s01s02-repair-verify-20261012-1635",
+          "module": "yoma",
+          "daf": "13b",
+          "independentSourceFlowReconstruction": "Lines 1-5 conclude and reject a prior conditional-divorce formula: giving a single wife a get 'on condition your counterpart dies' fails because if she dies, the get becomes retroactively valid and he is left with no wife (and had performed service while in an ambiguous 'house' status). Lines 5-10 reject a second attempt: divorcing both wives, one conditioned on 'your counterpart does not die,' the other on 'you do not enter the synagogue' - this fails because both conditions could hold simultaneously (counterpart doesn't die AND she avoids the synagogue), voiding both marriages and leaving him with none. Lines 11-19 present the working formula: Wife 1's get is conditioned on Wife 2 not dying; Wife 2's get is conditioned on the HUSBAND's own act of entering the synagogue - since he alone controls this act, the two outcomes are truly mutually exclusive. The Gemara notes a residual wrinkle (if Wife 2 appears about to die mid-service there's a two-house problem) resolved by letting the husband preemptively enter the synagogue himself, retroactively validating Wife 2's get. Lines 20-21: Rav Asi/Rav Avira objects - if the 'one house' logic restricts gittin this way, by analogy two yevamot from one deceased brother's household should not both be eligible for yibum; resolved via the doubled scriptural phrase 'yevamato yevamato' (an amplification/ribui) that permits it. Lines 22-23: Ravina/Rav Sherevya raises a second, textually distinct objection - that an arusah (betrothed-only wife) should be excluded from yibum; resolved via the separate word 'hachutza' ('to the outside'), a different amplification. Lines 24-29 open an entirely new topic: a baraita teaches the onen (acute-mourner) Kohen Gadol may perform the Yom Kippur service but may not eat sacrificial food; R. Yehuda adds 'kol hayom' ('the whole day'), which Rava reads as a mitzva to actively bring the onen KG from his home to serve; Abaye challenges this by citing a baraita in which R. Yehuda himself rules that a priest who learns of a relative's death mid-service must stop and leave (R. Yosei disagrees) - creating tension with Rava's reading, which the daf leaves Rava revising as it closes.",
+          "perSugya": [
+            {
+              "sugyaId": "yoma-13b-s01",
+              "verdict": "CONFIRMED",
+              "reasoning": "Lines 1-19 fully match: display.title correctly states 'two rejected attempts' (plural) before the working formula, matching the two distinct failed formulas in lines 1-10 (single conditional get on lines 2-4, then the paired 'doesn't die'/'synagogue' get on lines 6-9) before the working formula on lines 11-19. finalRuling and all other fields contain no mention of R. Yehuda whatsoever in connection with the backup-wife mechanism - the mechanism is correctly attributed only to 'the Gemara'/'husband', with no misattribution to R. Yehuda (whose actual role, per Mishna Yoma 1:1, is objecting to the backup-wife practice generally, not authoring this get mechanism - and indeed he is not mentioned here at all, correctly). The retroactivity subtlety (lines 16-19: preemptively entering the synagogue to retroactively validate Wife 2's get before she might die) is also correctly captured in step-03 and the learning fields. No remaining semantic, attribution, or boundary defects found."
+            }
+          ]
+        }
+      },
+      "finalAudit": {
+        "reviewId": "13b-s01-final-whole-record-audit-20261012-rabbi-fa1",
+        "auditorContextId": "agent:rabbi:subagent:c886726e-ae48-46b3-ac0a-5cfcae65d9c4",
+        "auditedSourceFingerprint": "60db1af8ac767050e8b30618947c1e8b0ce436848e409f010d89e5e6fcccecb4",
+        "auditedSemanticFingerprint": "c408fb4800ced43880a26f2959e4246c149912b3c0ac6f9561367c33c66a4593",
+        "dafBoundary": {
+          "rawLineCount": 29,
+          "finalRawLine": "לומר",
+          "dafEndState": "MID_SENTENCE"
+        },
+        "fieldInventory": [
+          {
+            "path": "lineRange",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "lines",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "dafLevel.glossary[0].en",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "13b",
+                "startVilnaLine": 20,
+                "endVilnaLine": 23
+              }
+            ]
+          },
+          {
+            "path": "dafLevel.glossary[0].he",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "13b",
+                "startVilnaLine": 20,
+                "endVilnaLine": 23
+              }
+            ]
+          },
+          {
+            "path": "dafLevel.glossary[0].translit",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "13b",
+                "startVilnaLine": 20,
+                "endVilnaLine": 23
+              }
+            ]
+          },
+          {
+            "path": "dafLevel.glossary[1].en",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "13b",
+                "startVilnaLine": 23,
+                "endVilnaLine": 23
+              }
+            ]
+          },
+          {
+            "path": "dafLevel.glossary[1].he",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "13b",
+                "startVilnaLine": 23,
+                "endVilnaLine": 23
+              }
+            ]
+          },
+          {
+            "path": "dafLevel.glossary[1].translit",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "13b",
+                "startVilnaLine": 23,
+                "endVilnaLine": 23
+              }
+            ]
+          },
+          {
+            "path": "dafLevel.glossary[2].en",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "13b",
+                "startVilnaLine": 24,
+                "endVilnaLine": 24
+              }
+            ]
+          },
+          {
+            "path": "dafLevel.glossary[2].he",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "13b",
+                "startVilnaLine": 24,
+                "endVilnaLine": 24
+              }
+            ]
+          },
+          {
+            "path": "dafLevel.glossary[2].translit",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "13b",
+                "startVilnaLine": 24,
+                "endVilnaLine": 24
+              }
+            ]
+          },
+          {
+            "path": "dafLevel.glossary[3].en",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "13b",
+                "startVilnaLine": 24,
+                "endVilnaLine": 24
+              }
+            ]
+          },
+          {
+            "path": "dafLevel.glossary[3].he",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "13b",
+                "startVilnaLine": 24,
+                "endVilnaLine": 24
+              }
+            ]
+          },
+          {
+            "path": "dafLevel.glossary[3].translit",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "13b",
+                "startVilnaLine": 24,
+                "endVilnaLine": 24
+              }
+            ]
+          },
+          {
+            "path": "dafLevel.summary",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "13b",
+                "startVilnaLine": 1,
+                "endVilnaLine": 29
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-01].id",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-01].label",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "13b",
+                "startVilnaLine": 2,
+                "endVilnaLine": 5
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-01].sourceRefs[0].lineId",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-01].sourceRefs[0].note",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "13b",
+                "startVilnaLine": 2,
+                "endVilnaLine": 5
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-01].sourceRefs[0].sourceType",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-01].sourceRefs[0].vilnaLine",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-01].speaker",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "13b",
+                "startVilnaLine": 2,
+                "endVilnaLine": 5
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-01].text",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "13b",
+                "startVilnaLine": 2,
+                "endVilnaLine": 5
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-01].type",
+            "verdict": "REVIEWED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "note": "Metadata field consistent with content; reviewed, not a factual claim requiring source support."
+          },
+          {
+            "path": "argumentFlow[step-02].id",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-02].label",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "13b",
+                "startVilnaLine": 5,
+                "endVilnaLine": 11
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-02].sourceRefs[0].lineId",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-02].sourceRefs[0].note",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "13b",
+                "startVilnaLine": 5,
+                "endVilnaLine": 11
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-02].sourceRefs[0].sourceType",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-02].sourceRefs[0].vilnaLine",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-02].speaker",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "13b",
+                "startVilnaLine": 5,
+                "endVilnaLine": 11
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-02].text",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "13b",
+                "startVilnaLine": 5,
+                "endVilnaLine": 11
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-02].type",
+            "verdict": "REVIEWED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "note": "Metadata field consistent with content; reviewed, not a factual claim requiring source support."
+          },
+          {
+            "path": "argumentFlow[step-03].id",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-03].label",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "13b",
+                "startVilnaLine": 11,
+                "endVilnaLine": 19
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-03].sourceRefs[0].lineId",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-03].sourceRefs[0].note",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "13b",
+                "startVilnaLine": 11,
+                "endVilnaLine": 19
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-03].sourceRefs[0].sourceType",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-03].sourceRefs[0].vilnaLine",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-03].speaker",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "13b",
+                "startVilnaLine": 11,
+                "endVilnaLine": 19
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-03].text",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "13b",
+                "startVilnaLine": 11,
+                "endVilnaLine": 19
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-03].type",
+            "verdict": "REVIEWED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "note": "Metadata field consistent with content; reviewed, not a factual claim requiring source support."
+          },
+          {
+            "path": "conceptRefs[0]",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "13b",
+                "startVilnaLine": 1,
+                "endVilnaLine": 3
+              }
+            ]
+          },
+          {
+            "path": "conceptRefs[1]",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "13b",
+                "startVilnaLine": 4,
+                "endVilnaLine": 10
+              }
+            ]
+          },
+          {
+            "path": "conceptRefs[2]",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "13b",
+                "startVilnaLine": 11,
+                "endVilnaLine": 19
+              }
+            ]
+          },
+          {
+            "path": "difficulty",
+            "verdict": "REVIEWED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "note": "Metadata field consistent with content; reviewed, not a factual claim requiring source support."
+          },
+          {
+            "path": "display.hint",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "13b",
+                "startVilnaLine": 1,
+                "endVilnaLine": 19
+              }
+            ]
+          },
+          {
+            "path": "display.oneLine",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "13b",
+                "startVilnaLine": 1,
+                "endVilnaLine": 19
+              }
+            ]
+          },
+          {
+            "path": "display.title",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "13b",
+                "startVilnaLine": 1,
+                "endVilnaLine": 19
+              }
+            ]
+          },
+          {
+            "path": "display.whats",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "13b",
+                "startVilnaLine": 1,
+                "endVilnaLine": 19
+              }
+            ]
+          },
+          {
+            "path": "finalRuling",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "13b",
+                "startVilnaLine": 1,
+                "endVilnaLine": 19
+              }
+            ]
+          },
+          {
+            "path": "learning.ahaMoment",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "13b",
+                "startVilnaLine": 11,
+                "endVilnaLine": 19
+              }
+            ]
+          },
+          {
+            "path": "learning.coreMove",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "13b",
+                "startVilnaLine": 1,
+                "endVilnaLine": 19
+              }
+            ]
+          },
+          {
+            "path": "learning.coreTension",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "13b",
+                "startVilnaLine": 1,
+                "endVilnaLine": 19
+              }
+            ]
+          },
+          {
+            "path": "learning.learnerQuestion",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "13b",
+                "startVilnaLine": 1,
+                "endVilnaLine": 19
+              }
+            ]
+          },
+          {
+            "path": "learning.learningBlocker",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "13b",
+                "startVilnaLine": 1,
+                "endVilnaLine": 19
+              }
+            ]
+          },
+          {
+            "path": "learning.memoryAnchor",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "13b",
+                "startVilnaLine": 1,
+                "endVilnaLine": 19
+              }
+            ]
+          },
+          {
+            "path": "learning.takeaway.text",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "13b",
+                "startVilnaLine": 1,
+                "endVilnaLine": 19
+              }
+            ]
+          },
+          {
+            "path": "learning.takeaway.type",
+            "verdict": "REVIEWED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "note": "Metadata field consistent with content; reviewed, not a factual claim requiring source support."
+          },
+          {
+            "path": "misconceptions[0].correctedByStepId",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "misconceptions[0].correction",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "13b",
+                "startVilnaLine": 11,
+                "endVilnaLine": 19
+              }
+            ]
+          },
+          {
+            "path": "misconceptions[0].misconception",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "13b",
+                "startVilnaLine": 5,
+                "endVilnaLine": 11
+              }
+            ]
+          },
+          {
+            "path": "misconceptions[1].correctedByStepId",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "misconceptions[1].correction",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "13b",
+                "startVilnaLine": 11,
+                "endVilnaLine": 19
+              }
+            ]
+          },
+          {
+            "path": "misconceptions[1].misconception",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "13b",
+                "startVilnaLine": 11,
+                "endVilnaLine": 19
+              }
+            ]
+          },
+          {
+            "path": "prerequisiteKnowledge[0]",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "13b",
+                "startVilnaLine": 1,
+                "endVilnaLine": 19
+              }
+            ]
+          },
+          {
+            "path": "prerequisiteKnowledge[1]",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "13b",
+                "startVilnaLine": 11,
+                "endVilnaLine": 19
+              }
+            ]
+          },
+          {
+            "path": "prerequisiteKnowledge[2]",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "13b",
+                "startVilnaLine": 1,
+                "endVilnaLine": 19
+              }
+            ]
+          },
+          {
+            "path": "quizSeeds[0].answer",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "13b",
+                "startVilnaLine": 5,
+                "endVilnaLine": 11
+              }
+            ]
+          },
+          {
+            "path": "quizSeeds[0].question",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "13b",
+                "startVilnaLine": 5,
+                "endVilnaLine": 11
+              }
+            ]
+          },
+          {
+            "path": "quizSeeds[0].sourceRefs[0].lineId",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "quizSeeds[0].sourceRefs[0].note",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "13b",
+                "startVilnaLine": 5,
+                "endVilnaLine": 11
+              }
+            ]
+          },
+          {
+            "path": "quizSeeds[0].sourceRefs[0].sourceType",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "quizSeeds[0].sourceRefs[0].vilnaLine",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "quizSeeds[1].answer",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "13b",
+                "startVilnaLine": 11,
+                "endVilnaLine": 19
+              }
+            ]
+          },
+          {
+            "path": "quizSeeds[1].question",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "13b",
+                "startVilnaLine": 11,
+                "endVilnaLine": 19
+              }
+            ]
+          },
+          {
+            "path": "quizSeeds[1].sourceRefs[0].lineId",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "quizSeeds[1].sourceRefs[0].note",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "13b",
+                "startVilnaLine": 11,
+                "endVilnaLine": 19
+              }
+            ]
+          },
+          {
+            "path": "quizSeeds[1].sourceRefs[0].sourceType",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "quizSeeds[1].sourceRefs[0].vilnaLine",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "relatedSugyot[0]",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "topicTags[0]",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "topicTags[1]",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "13b",
+                "startVilnaLine": 1,
+                "endVilnaLine": 19
+              }
+            ]
+          },
+          {
+            "path": "topicTags[2]",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "topicTags[3]",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "13b",
+                "startVilnaLine": 1,
+                "endVilnaLine": 19
+              }
+            ]
+          },
+          {
+            "path": "topicTags[4]",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "13b",
+                "startVilnaLine": 1,
+                "endVilnaLine": 19
+              }
+            ]
+          },
+          {
+            "path": "visualizableElements[0].item",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "13b",
+                "startVilnaLine": 5,
+                "endVilnaLine": 11
+              }
+            ]
+          },
+          {
+            "path": "visualizableElements[0].type",
+            "verdict": "REVIEWED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "note": "Metadata field consistent with content; reviewed, not a factual claim requiring source support."
+          },
+          {
+            "path": "visualizableElements[1].item",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "13b",
+                "startVilnaLine": 11,
+                "endVilnaLine": 19
+              }
+            ]
+          },
+          {
+            "path": "visualizableElements[1].type",
+            "verdict": "REVIEWED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "note": "Metadata field consistent with content; reviewed, not a factual claim requiring source support."
+          }
+        ],
+        "boundaryLeakageSweep": [
+          {
+            "path": "dafLevel.glossary[0].en",
+            "importsNextDafConclusion": false,
+            "note": "Content confined to source lines [20, 23]; no daf-14a material present (daf ends mid-sentence at line 29, 'לומר')."
+          },
+          {
+            "path": "dafLevel.glossary[0].he",
+            "importsNextDafConclusion": false,
+            "note": "Content confined to source lines [20, 23]; no daf-14a material present (daf ends mid-sentence at line 29, 'לומר')."
+          },
+          {
+            "path": "dafLevel.glossary[0].translit",
+            "importsNextDafConclusion": false,
+            "note": "Content confined to source lines [20, 23]; no daf-14a material present (daf ends mid-sentence at line 29, 'לומר')."
+          },
+          {
+            "path": "dafLevel.glossary[1].en",
+            "importsNextDafConclusion": false,
+            "note": "Content confined to source lines [23]; no daf-14a material present (daf ends mid-sentence at line 29, 'לומר')."
+          },
+          {
+            "path": "dafLevel.glossary[1].he",
+            "importsNextDafConclusion": false,
+            "note": "Content confined to source lines [23]; no daf-14a material present (daf ends mid-sentence at line 29, 'לומר')."
+          },
+          {
+            "path": "dafLevel.glossary[1].translit",
+            "importsNextDafConclusion": false,
+            "note": "Content confined to source lines [23]; no daf-14a material present (daf ends mid-sentence at line 29, 'לומר')."
+          },
+          {
+            "path": "dafLevel.glossary[2].en",
+            "importsNextDafConclusion": false,
+            "note": "Content confined to source lines [24]; no daf-14a material present (daf ends mid-sentence at line 29, 'לומר')."
+          },
+          {
+            "path": "dafLevel.glossary[2].he",
+            "importsNextDafConclusion": false,
+            "note": "Content confined to source lines [24]; no daf-14a material present (daf ends mid-sentence at line 29, 'לומר')."
+          },
+          {
+            "path": "dafLevel.glossary[2].translit",
+            "importsNextDafConclusion": false,
+            "note": "Content confined to source lines [24]; no daf-14a material present (daf ends mid-sentence at line 29, 'לומר')."
+          },
+          {
+            "path": "dafLevel.glossary[3].en",
+            "importsNextDafConclusion": false,
+            "note": "Content confined to source lines [24]; no daf-14a material present (daf ends mid-sentence at line 29, 'לומר')."
+          },
+          {
+            "path": "dafLevel.glossary[3].he",
+            "importsNextDafConclusion": false,
+            "note": "Content confined to source lines [24]; no daf-14a material present (daf ends mid-sentence at line 29, 'לומר')."
+          },
+          {
+            "path": "dafLevel.glossary[3].translit",
+            "importsNextDafConclusion": false,
+            "note": "Content confined to source lines [24]; no daf-14a material present (daf ends mid-sentence at line 29, 'לומר')."
+          },
+          {
+            "path": "dafLevel.summary",
+            "importsNextDafConclusion": false,
+            "note": "Content confined to source lines [1, 29]; no daf-14a material present (daf ends mid-sentence at line 29, 'לומר')."
+          },
+          {
+            "path": "argumentFlow[step-01].label",
+            "importsNextDafConclusion": false,
+            "note": "Content confined to source lines [2, 5]; no daf-14a material present (daf ends mid-sentence at line 29, 'לומר')."
+          },
+          {
+            "path": "argumentFlow[step-01].sourceRefs[0].note",
+            "importsNextDafConclusion": false,
+            "note": "Content confined to source lines [2, 5]; no daf-14a material present (daf ends mid-sentence at line 29, 'לומר')."
+          },
+          {
+            "path": "argumentFlow[step-01].speaker",
+            "importsNextDafConclusion": false,
+            "note": "Content confined to source lines [2, 5]; no daf-14a material present (daf ends mid-sentence at line 29, 'לומר')."
+          },
+          {
+            "path": "argumentFlow[step-01].text",
+            "importsNextDafConclusion": false,
+            "note": "Content confined to source lines [2, 5]; no daf-14a material present (daf ends mid-sentence at line 29, 'לומר')."
+          },
+          {
+            "path": "argumentFlow[step-01].type",
+            "importsNextDafConclusion": false,
+            "note": "Metadata field; no daf-14a content imported."
+          },
+          {
+            "path": "argumentFlow[step-02].label",
+            "importsNextDafConclusion": false,
+            "note": "Content confined to source lines [5, 11]; no daf-14a material present (daf ends mid-sentence at line 29, 'לומר')."
+          },
+          {
+            "path": "argumentFlow[step-02].sourceRefs[0].note",
+            "importsNextDafConclusion": false,
+            "note": "Content confined to source lines [5, 11]; no daf-14a material present (daf ends mid-sentence at line 29, 'לומר')."
+          },
+          {
+            "path": "argumentFlow[step-02].speaker",
+            "importsNextDafConclusion": false,
+            "note": "Content confined to source lines [5, 11]; no daf-14a material present (daf ends mid-sentence at line 29, 'לומר')."
+          },
+          {
+            "path": "argumentFlow[step-02].text",
+            "importsNextDafConclusion": false,
+            "note": "Content confined to source lines [5, 11]; no daf-14a material present (daf ends mid-sentence at line 29, 'לומר')."
+          },
+          {
+            "path": "argumentFlow[step-02].type",
+            "importsNextDafConclusion": false,
+            "note": "Metadata field; no daf-14a content imported."
+          },
+          {
+            "path": "argumentFlow[step-03].label",
+            "importsNextDafConclusion": false,
+            "note": "Content confined to source lines [11, 19]; no daf-14a material present (daf ends mid-sentence at line 29, 'לומר')."
+          },
+          {
+            "path": "argumentFlow[step-03].sourceRefs[0].note",
+            "importsNextDafConclusion": false,
+            "note": "Content confined to source lines [11, 19]; no daf-14a material present (daf ends mid-sentence at line 29, 'לומר')."
+          },
+          {
+            "path": "argumentFlow[step-03].speaker",
+            "importsNextDafConclusion": false,
+            "note": "Content confined to source lines [11, 19]; no daf-14a material present (daf ends mid-sentence at line 29, 'לומר')."
+          },
+          {
+            "path": "argumentFlow[step-03].text",
+            "importsNextDafConclusion": false,
+            "note": "Content confined to source lines [11, 19]; no daf-14a material present (daf ends mid-sentence at line 29, 'לומר')."
+          },
+          {
+            "path": "argumentFlow[step-03].type",
+            "importsNextDafConclusion": false,
+            "note": "Metadata field; no daf-14a content imported."
+          },
+          {
+            "path": "conceptRefs[0]",
+            "importsNextDafConclusion": false,
+            "note": "Content confined to source lines [1, 3]; no daf-14a material present (daf ends mid-sentence at line 29, 'לומר')."
+          },
+          {
+            "path": "conceptRefs[1]",
+            "importsNextDafConclusion": false,
+            "note": "Content confined to source lines [4, 10]; no daf-14a material present (daf ends mid-sentence at line 29, 'לומר')."
+          },
+          {
+            "path": "conceptRefs[2]",
+            "importsNextDafConclusion": false,
+            "note": "Content confined to source lines [11, 19]; no daf-14a material present (daf ends mid-sentence at line 29, 'לומר')."
+          },
+          {
+            "path": "difficulty",
+            "importsNextDafConclusion": false,
+            "note": "Metadata field; no daf-14a content imported."
+          },
+          {
+            "path": "display.hint",
+            "importsNextDafConclusion": false,
+            "note": "Content confined to source lines [1, 19]; no daf-14a material present (daf ends mid-sentence at line 29, 'לומר')."
+          },
+          {
+            "path": "display.oneLine",
+            "importsNextDafConclusion": false,
+            "note": "Content confined to source lines [1, 19]; no daf-14a material present (daf ends mid-sentence at line 29, 'לומר')."
+          },
+          {
+            "path": "display.title",
+            "importsNextDafConclusion": false,
+            "note": "Content confined to source lines [1, 19]; no daf-14a material present (daf ends mid-sentence at line 29, 'לומר')."
+          },
+          {
+            "path": "display.whats",
+            "importsNextDafConclusion": false,
+            "note": "Content confined to source lines [1, 19]; no daf-14a material present (daf ends mid-sentence at line 29, 'לומר')."
+          },
+          {
+            "path": "finalRuling",
+            "importsNextDafConclusion": false,
+            "note": "Content confined to source lines [1, 23]; no daf-14a material present (daf ends mid-sentence at line 29, 'לומר')."
+          },
+          {
+            "path": "learning.ahaMoment",
+            "importsNextDafConclusion": false,
+            "note": "Content confined to source lines [11, 19]; no daf-14a material present (daf ends mid-sentence at line 29, 'לומר')."
+          },
+          {
+            "path": "learning.coreMove",
+            "importsNextDafConclusion": false,
+            "note": "Content confined to source lines [1, 19]; no daf-14a material present (daf ends mid-sentence at line 29, 'לומר')."
+          },
+          {
+            "path": "learning.coreTension",
+            "importsNextDafConclusion": false,
+            "note": "Content confined to source lines [1, 19]; no daf-14a material present (daf ends mid-sentence at line 29, 'לומר')."
+          },
+          {
+            "path": "learning.learnerQuestion",
+            "importsNextDafConclusion": false,
+            "note": "Content confined to source lines [1, 19]; no daf-14a material present (daf ends mid-sentence at line 29, 'לומר')."
+          },
+          {
+            "path": "learning.learningBlocker",
+            "importsNextDafConclusion": false,
+            "note": "Content confined to source lines [1, 19]; no daf-14a material present (daf ends mid-sentence at line 29, 'לומר')."
+          },
+          {
+            "path": "learning.memoryAnchor",
+            "importsNextDafConclusion": false,
+            "note": "Content confined to source lines [1, 19]; no daf-14a material present (daf ends mid-sentence at line 29, 'לומר')."
+          },
+          {
+            "path": "learning.takeaway.text",
+            "importsNextDafConclusion": false,
+            "note": "Content confined to source lines [1, 19]; no daf-14a material present (daf ends mid-sentence at line 29, 'לומר')."
+          },
+          {
+            "path": "learning.takeaway.type",
+            "importsNextDafConclusion": false,
+            "note": "Metadata field; no daf-14a content imported."
+          },
+          {
+            "path": "misconceptions[0].correction",
+            "importsNextDafConclusion": false,
+            "note": "Content confined to source lines [11, 19]; no daf-14a material present (daf ends mid-sentence at line 29, 'לומר')."
+          },
+          {
+            "path": "misconceptions[0].misconception",
+            "importsNextDafConclusion": false,
+            "note": "Content confined to source lines [5, 11]; no daf-14a material present (daf ends mid-sentence at line 29, 'לומר')."
+          },
+          {
+            "path": "misconceptions[1].correction",
+            "importsNextDafConclusion": false,
+            "note": "Content confined to source lines [11, 19]; no daf-14a material present (daf ends mid-sentence at line 29, 'לומר')."
+          },
+          {
+            "path": "misconceptions[1].misconception",
+            "importsNextDafConclusion": false,
+            "note": "Content confined to source lines [11, 19]; no daf-14a material present (daf ends mid-sentence at line 29, 'לומר')."
+          },
+          {
+            "path": "prerequisiteKnowledge[0]",
+            "importsNextDafConclusion": false,
+            "note": "Content confined to source lines [1, 19]; no daf-14a material present (daf ends mid-sentence at line 29, 'לומר')."
+          },
+          {
+            "path": "prerequisiteKnowledge[1]",
+            "importsNextDafConclusion": false,
+            "note": "Content confined to source lines [20, 23]; no daf-14a material present (daf ends mid-sentence at line 29, 'לומר')."
+          },
+          {
+            "path": "prerequisiteKnowledge[2]",
+            "importsNextDafConclusion": false,
+            "note": "Content confined to source lines [1, 19]; no daf-14a material present (daf ends mid-sentence at line 29, 'לומר')."
+          },
+          {
+            "path": "quizSeeds[0].answer",
+            "importsNextDafConclusion": false,
+            "note": "Content confined to source lines [5, 11]; no daf-14a material present (daf ends mid-sentence at line 29, 'לומר')."
+          },
+          {
+            "path": "quizSeeds[0].question",
+            "importsNextDafConclusion": false,
+            "note": "Content confined to source lines [5, 11]; no daf-14a material present (daf ends mid-sentence at line 29, 'לומר')."
+          },
+          {
+            "path": "quizSeeds[0].sourceRefs[0].note",
+            "importsNextDafConclusion": false,
+            "note": "Content confined to source lines [5, 11]; no daf-14a material present (daf ends mid-sentence at line 29, 'לומר')."
+          },
+          {
+            "path": "quizSeeds[1].answer",
+            "importsNextDafConclusion": false,
+            "note": "Content confined to source lines [11, 19]; no daf-14a material present (daf ends mid-sentence at line 29, 'לומר')."
+          },
+          {
+            "path": "quizSeeds[1].question",
+            "importsNextDafConclusion": false,
+            "note": "Content confined to source lines [11, 19]; no daf-14a material present (daf ends mid-sentence at line 29, 'לומר')."
+          },
+          {
+            "path": "quizSeeds[1].sourceRefs[0].note",
+            "importsNextDafConclusion": false,
+            "note": "Content confined to source lines [11, 19]; no daf-14a material present (daf ends mid-sentence at line 29, 'לומר')."
+          },
+          {
+            "path": "topicTags[1]",
+            "importsNextDafConclusion": false,
+            "note": "Content confined to source lines [1, 19]; no daf-14a material present (daf ends mid-sentence at line 29, 'לומר')."
+          },
+          {
+            "path": "topicTags[3]",
+            "importsNextDafConclusion": false,
+            "note": "Content confined to source lines [1, 19]; no daf-14a material present (daf ends mid-sentence at line 29, 'לומר')."
+          },
+          {
+            "path": "topicTags[4]",
+            "importsNextDafConclusion": false,
+            "note": "Content confined to source lines [1, 19]; no daf-14a material present (daf ends mid-sentence at line 29, 'לומר')."
+          },
+          {
+            "path": "visualizableElements[0].item",
+            "importsNextDafConclusion": false,
+            "note": "Content confined to source lines [5, 11]; no daf-14a material present (daf ends mid-sentence at line 29, 'לומר')."
+          },
+          {
+            "path": "visualizableElements[0].type",
+            "importsNextDafConclusion": false,
+            "note": "Metadata field; no daf-14a content imported."
+          },
+          {
+            "path": "visualizableElements[1].item",
+            "importsNextDafConclusion": false,
+            "note": "Content confined to source lines [11, 19]; no daf-14a material present (daf ends mid-sentence at line 29, 'לומר')."
+          },
+          {
+            "path": "visualizableElements[1].type",
+            "importsNextDafConclusion": false,
+            "note": "Metadata field; no daf-14a content imported."
+          }
+        ],
+        "staleContentSweep": {
+          "entries": [
+            {
+              "category": "stale_original_error",
+              "found": false,
+              "note": "Checked against full 29-line physical daf and Rashi; no instance found for this sugya."
+            },
+            {
+              "category": "stale_speaker_or_attribution",
+              "found": false,
+              "note": "Checked against full 29-line physical daf and Rashi; no instance found for this sugya."
+            },
+            {
+              "category": "contradictory_speaker_attribution",
+              "found": false,
+              "note": "Checked against full 29-line physical daf and Rashi; no instance found for this sugya."
+            },
+            {
+              "category": "old_conclusion_in_secondary_field",
+              "found": false,
+              "note": "Checked against full 29-line physical daf and Rashi; no instance found for this sugya."
+            },
+            {
+              "category": "false_closure",
+              "found": false,
+              "note": "Checked against full 29-line physical daf and Rashi; no instance found for this sugya."
+            },
+            {
+              "category": "next_daf_content_leaked_backward",
+              "found": false,
+              "note": "Checked against full 29-line physical daf and Rashi; no instance found for this sugya."
+            },
+            {
+              "category": "claim_unsupported_by_physical_daf",
+              "found": false,
+              "note": "Checked against full 29-line physical daf and Rashi; no instance found for this sugya."
+            },
+            {
+              "category": "stale_quiz_question_or_answer",
+              "found": false,
+              "note": "Checked against full 29-line physical daf and Rashi; no instance found for this sugya."
+            },
+            {
+              "category": "stale_final_ruling",
+              "found": false,
+              "note": "Checked against full 29-line physical daf and Rashi; no instance found for this sugya."
+            },
+            {
+              "category": "stale_summary",
+              "found": false,
+              "note": "Checked against full 29-line physical daf and Rashi; no instance found for this sugya."
+            },
+            {
+              "category": "stale_learning_field",
+              "found": false,
+              "note": "Checked against full 29-line physical daf and Rashi; no instance found for this sugya."
+            },
+            {
+              "category": "stale_misconception",
+              "found": false,
+              "note": "Checked against full 29-line physical daf and Rashi; no instance found for this sugya."
+            },
+            {
+              "category": "stale_related_sugya_description",
+              "found": false,
+              "note": "Checked against full 29-line physical daf and Rashi; no instance found for this sugya."
+            },
+            {
+              "category": "stale_visualizable_element_prose",
+              "found": false,
+              "note": "Checked against full 29-line physical daf and Rashi; no instance found for this sugya."
+            },
+            {
+              "category": "source_refs_no_longer_supporting_claim",
+              "found": false,
+              "note": "Checked against full 29-line physical daf and Rashi; no instance found for this sugya."
+            },
+            {
+              "category": "reference_outside_declared_line_range",
+              "found": false,
+              "note": "Checked against full 29-line physical daf and Rashi; no instance found for this sugya."
+            }
+          ]
+        }
+      },
+      "certifiedAtCommit": "773c3c4e13a3806dd407f60642525ba761a6fc24"
+    },
+    "yoma-13b-s02": {
+      "sugyaId": "yoma-13b-s02",
+      "daf": "13b",
+      "state": "CERTIFIED",
+      "firstPass": {
+        "reviewId": "13b-s02-second-pass-round2-2026-10-12T1815Z",
+        "reviewerContextId": "agent:rabbi:subagent:8f9293ce-bfbb-466f-9cd6-6470f0213694",
+        "sourceFirst": true,
+        "verdict": "REPAIR_REQUIRED",
+        "reviewedSourceFingerprint": "9b6fa0de7ff6bc1aa78665052ec9fd50f6d5c6cf5515b1d3bf8b6f14c70bb3b8",
+        "reviewedSemanticFingerprint": "cb1a728b1d8063bde0ad806a117092390e08c9109e8cdbce5ca7229484a1d3a9",
+        "evidence": {
+          "sugyaId": "yoma-13b-s02",
+          "verdict": "REJECTED",
+          "findings": "Hebrew source (vilna lines 20-23): '...גיטא למפרע מתקיף לה רב אסי ואיתימא רב עוירא אלא מעתה שתי יבמות הבאות מבית אחד לא יתייבמו יבמתו יבמתו ריבה מתקיף לה רבינא ואיתימא רב שרביה אלא מעתה ארוסה לא תתייבם החוצה לרבות את הארוסה'. This confirms: (1) the two objectors are correctly Rav Asi/Rav Avira (first, re: two yevamot from one house) and Ravina/Rav Sherevya (second, re: arusah) - argumentFlow speakers are source-faithful. (2) sourceRef line placement (step-01 at vilnaLine 20, step-02 at vilnaLine 22) correctly matches where each objection's 'מתקיף לה' actually begins, and tracks the sefaria-ref boundary in lineMap (13b.4 vs 13b.5). (3) The resolution mechanisms are two textually distinct amplifications: the first objection is answered by the doubled word 'יבמתו יבמתו' (yevamato yevamato) - a ribbuy from repetition - and the second objection is answered by the separate word 'החוצה' (hachutza, 'outside') in the yibum verse. Neither resolution reinterprets or expansively re-reads the word 'בית'/'bayto' itself; 'bayto' does not even appear in the resolving half of either verse quoted here. However, the sugya's title, oneLine, whats, hint, coreTension, coreMove, ahaMoment, and memoryAnchor fields all claim the shared resolving mechanism is that 'bayto' is read restrictively in the KG's Leviticus 16 context but 'read expansively'/'more inclusive' in the Deuteronomy 25 yibum context - this is a factual misstatement of the actual Gemara mechanism found in the source text at lines 22-23. It also directly contradicts the sugya's own takeaway field and the second misconceptions entry, which correctly state 'the resolution does not reinterpret bayto itself; each objection is answered by its own distinct amplification - yevamato yevamato for the first, hachutza for the second - not a single unifying reinterpretation of bayto.' The enrichment is therefore internally self-contradictory: roughly 7 of 11 semantic fields conflate the two objections under one false shared 'bayto expansion' mechanism, while the takeaway/misconceptions fields (correctly) deny that very mechanism. This is exactly the conflation defect flagged by review instruction (c): the resolving mechanisms for the two objections are distinct scriptural derashot on different words, not a single reinterpretation of 'bayto', and most display/learning fields misrepresent this. No boundary leakage from s01 (ends line 19) or s03 (starts line 24) was found, and no other factual errors in names, quantities, or chronology were identified.",
+          "defects": [
+            {
+              "field": "display.title",
+              "issue": "Claims 'bayto restricts the KG but expands for yibum' - but the actual resolving derashot are 'yevamato yevamato' (doubling) and 'hachutza', not an expansive reading of 'bayto' in the yibum verse. 'bayto' does not appear in either resolution clause in the source."
+            },
+            {
+              "field": "display.oneLine",
+              "issue": "States both objections are 'resolved by showing bayto functions differently' - factually incorrect; conflates two distinct word-based derashot into a single false 'bayto' mechanism."
+            },
+            {
+              "field": "display.whats",
+              "issue": "States 'bayto in the yibum context explicitly includes these cases' as the resolution for both objections - contradicted by the actual source words used for the amplifications ('יבמתו יבמתו' and 'החוצה')."
+            },
+            {
+              "field": "display.hint",
+              "issue": "Reinforces the same false 'bayto functions differently' unifying mechanism."
+            },
+            {
+              "field": "learning.coreTension / coreMove / ahaMoment / memoryAnchor",
+              "issue": "All state or imply the single mechanism is a restrictive-vs-expansive reading of 'bayto' across Leviticus 16 and Deuteronomy 25. This directly contradicts the sugya's own takeaway and second misconception entry, which correctly identify two separate derashot ('yevamato yevamato' and 'hachutza') and explicitly deny a unifying 'bayto' reinterpretation. Internal self-contradiction within the same sugya object."
+            },
+            {
+              "field": "quizSeeds (second item)",
+              "issue": "Repeats the same incorrect claim that Deuteronomy 25's 'bayto' is read expansively, which is not how the source text resolves either objection."
+            }
+          ]
+        }
+      },
+      "repairRef": "632489ed98291073052688baf4124ca96632b568",
+      "sourceFingerprint": "9b6fa0de7ff6bc1aa78665052ec9fd50f6d5c6cf5515b1d3bf8b6f14c70bb3b8",
+      "semanticFingerprint": "13c94041694b13b90e50a4f82b6e42df0b668b8f3114e8416d272a736f8d535f",
+      "secondPass": {
+        "reviewId": "13b-s01s02-repair-verify-20261012-1635",
+        "reviewerContextId": "agent:rabbi:subagent:e16b7eee-2c65-448b-ad3b-768576b0249a",
+        "sourceFirst": true,
+        "verdict": "CONFIRMED",
+        "reviewedSourceFingerprint": "9b6fa0de7ff6bc1aa78665052ec9fd50f6d5c6cf5515b1d3bf8b6f14c70bb3b8",
+        "reviewedSemanticFingerprint": "13c94041694b13b90e50a4f82b6e42df0b668b8f3114e8416d272a736f8d535f",
+        "evidence": {
+          "reviewId": "13b-s01s02-repair-verify-20261012-1635",
+          "module": "yoma",
+          "daf": "13b",
+          "independentSourceFlowReconstruction": "Lines 20-21: Rav Asi/Rav Avira objects - if the 'one house' logic restricts gittin this way, by analogy two yevamot from one deceased brother's household should not both be eligible for yibum; resolved via the doubled scriptural phrase 'yevamato yevamato' (an amplification/ribui) that permits it. Lines 22-23: Ravina/Rav Sherevya raises a second, textually distinct objection - that an arusah (betrothed-only wife) should be excluded from yibum; resolved via the separate word 'hachutza' ('to the outside'), a different amplification. Neither resolution rereads or reinterprets the word 'bayto' itself; 'bayto' does not appear in either resolving half-verse.",
+          "perSugya": [
+            {
+              "sugyaId": "yoma-13b-s02",
+              "verdict": "CONFIRMED",
+              "reasoning": "Lines 20-23 fully match: title, oneLine, whats, hint, coreTension, coreMove, ahaMoment, and memoryAnchor all correctly attribute the two objections to two textually distinct scriptural amplifications - 'yevamato yevamato' (the doubled word, line 22, resolving the two-yevamot objection from lines 20-21) and 'hachutza' ('outside,' line 23, resolving the arusah objection). None of these fields claims a single shared 'bayto read restrictively/expansively' mechanism; the prior conflation defect is resolved. The takeaway and misconceptions fields correctly deny any reinterpretation of 'bayto' itself and consistently align with the rest of the enrichment. argumentFlow speakers (Rav Asi/Rav Avira; Ravina/Rav Sherevya) and sourceRefs (vilnaLine 20, 22) correctly match the Hebrew. No remaining semantic, attribution, or boundary defects found. s03 (lines 24-29, already CERTIFIED) is unaffected by the s01/s02 repair - its title, oneLine, whats, hint, and finalRuling accurately reflect the onen KG baraita, R. Yehuda's 'kol hayom', Rava's reading, and Abaye's challenge, with no regression."
+            }
+          ]
+        }
+      },
+      "finalAudit": {
+        "reviewId": "13b-s02-final-whole-record-audit-20261012-rabbi-fa1",
+        "auditorContextId": "agent:rabbi:subagent:c886726e-ae48-46b3-ac0a-5cfcae65d9c4",
+        "auditedSourceFingerprint": "9b6fa0de7ff6bc1aa78665052ec9fd50f6d5c6cf5515b1d3bf8b6f14c70bb3b8",
+        "auditedSemanticFingerprint": "13c94041694b13b90e50a4f82b6e42df0b668b8f3114e8416d272a736f8d535f",
+        "dafBoundary": {
+          "rawLineCount": 29,
+          "finalRawLine": "לומר",
+          "dafEndState": "MID_SENTENCE"
+        },
+        "fieldInventory": [
+          {
+            "path": "lineRange",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "lines",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "dafLevel.glossary[0].en",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "13b",
+                "startVilnaLine": 20,
+                "endVilnaLine": 23
+              }
+            ]
+          },
+          {
+            "path": "dafLevel.glossary[0].he",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "13b",
+                "startVilnaLine": 20,
+                "endVilnaLine": 23
+              }
+            ]
+          },
+          {
+            "path": "dafLevel.glossary[0].translit",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "13b",
+                "startVilnaLine": 20,
+                "endVilnaLine": 23
+              }
+            ]
+          },
+          {
+            "path": "dafLevel.glossary[1].en",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "13b",
+                "startVilnaLine": 23,
+                "endVilnaLine": 23
+              }
+            ]
+          },
+          {
+            "path": "dafLevel.glossary[1].he",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "13b",
+                "startVilnaLine": 23,
+                "endVilnaLine": 23
+              }
+            ]
+          },
+          {
+            "path": "dafLevel.glossary[1].translit",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "13b",
+                "startVilnaLine": 23,
+                "endVilnaLine": 23
+              }
+            ]
+          },
+          {
+            "path": "dafLevel.glossary[2].en",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "13b",
+                "startVilnaLine": 24,
+                "endVilnaLine": 24
+              }
+            ]
+          },
+          {
+            "path": "dafLevel.glossary[2].he",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "13b",
+                "startVilnaLine": 24,
+                "endVilnaLine": 24
+              }
+            ]
+          },
+          {
+            "path": "dafLevel.glossary[2].translit",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "13b",
+                "startVilnaLine": 24,
+                "endVilnaLine": 24
+              }
+            ]
+          },
+          {
+            "path": "dafLevel.glossary[3].en",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "13b",
+                "startVilnaLine": 24,
+                "endVilnaLine": 24
+              }
+            ]
+          },
+          {
+            "path": "dafLevel.glossary[3].he",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "13b",
+                "startVilnaLine": 24,
+                "endVilnaLine": 24
+              }
+            ]
+          },
+          {
+            "path": "dafLevel.glossary[3].translit",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "13b",
+                "startVilnaLine": 24,
+                "endVilnaLine": 24
+              }
+            ]
+          },
+          {
+            "path": "dafLevel.summary",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "13b",
+                "startVilnaLine": 1,
+                "endVilnaLine": 29
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-01].id",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-01].label",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "13b",
+                "startVilnaLine": 20,
+                "endVilnaLine": 22
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-01].sourceRefs[0].lineId",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-01].sourceRefs[0].note",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "13b",
+                "startVilnaLine": 20,
+                "endVilnaLine": 22
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-01].sourceRefs[0].sourceType",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-01].sourceRefs[0].vilnaLine",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-01].speaker",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "13b",
+                "startVilnaLine": 20,
+                "endVilnaLine": 22
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-01].text",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "13b",
+                "startVilnaLine": 20,
+                "endVilnaLine": 22
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-01].type",
+            "verdict": "REVIEWED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "note": "Metadata field consistent with content; reviewed, not a factual claim requiring source support."
+          },
+          {
+            "path": "argumentFlow[step-02].id",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-02].label",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "13b",
+                "startVilnaLine": 22,
+                "endVilnaLine": 23
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-02].sourceRefs[0].lineId",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-02].sourceRefs[0].note",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "13b",
+                "startVilnaLine": 22,
+                "endVilnaLine": 23
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-02].sourceRefs[0].sourceType",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-02].sourceRefs[0].vilnaLine",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-02].speaker",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "13b",
+                "startVilnaLine": 22,
+                "endVilnaLine": 23
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-02].text",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "13b",
+                "startVilnaLine": 22,
+                "endVilnaLine": 23
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-02].type",
+            "verdict": "REVIEWED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "note": "Metadata field consistent with content; reviewed, not a factual claim requiring source support."
+          },
+          {
+            "path": "conceptRefs[0]",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "13b",
+                "startVilnaLine": 20,
+                "endVilnaLine": 22
+              }
+            ]
+          },
+          {
+            "path": "conceptRefs[1]",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "13b",
+                "startVilnaLine": 22,
+                "endVilnaLine": 23
+              }
+            ]
+          },
+          {
+            "path": "difficulty",
+            "verdict": "REVIEWED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "note": "Metadata field consistent with content; reviewed, not a factual claim requiring source support."
+          },
+          {
+            "path": "display.hint",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "13b",
+                "startVilnaLine": 20,
+                "endVilnaLine": 23
+              }
+            ]
+          },
+          {
+            "path": "display.oneLine",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "13b",
+                "startVilnaLine": 20,
+                "endVilnaLine": 23
+              }
+            ]
+          },
+          {
+            "path": "display.title",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "13b",
+                "startVilnaLine": 20,
+                "endVilnaLine": 23
+              }
+            ]
+          },
+          {
+            "path": "display.whats",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "13b",
+                "startVilnaLine": 20,
+                "endVilnaLine": 23
+              }
+            ]
+          },
+          {
+            "path": "finalRuling",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "13b",
+                "startVilnaLine": 20,
+                "endVilnaLine": 23
+              }
+            ]
+          },
+          {
+            "path": "learning.ahaMoment",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "13b",
+                "startVilnaLine": 20,
+                "endVilnaLine": 23
+              }
+            ]
+          },
+          {
+            "path": "learning.coreMove",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "13b",
+                "startVilnaLine": 20,
+                "endVilnaLine": 23
+              }
+            ]
+          },
+          {
+            "path": "learning.coreTension",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "13b",
+                "startVilnaLine": 20,
+                "endVilnaLine": 23
+              }
+            ]
+          },
+          {
+            "path": "learning.learnerQuestion",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "13b",
+                "startVilnaLine": 20,
+                "endVilnaLine": 23
+              }
+            ]
+          },
+          {
+            "path": "learning.learningBlocker",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "13b",
+                "startVilnaLine": 20,
+                "endVilnaLine": 23
+              }
+            ]
+          },
+          {
+            "path": "learning.memoryAnchor",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "13b",
+                "startVilnaLine": 20,
+                "endVilnaLine": 23
+              }
+            ]
+          },
+          {
+            "path": "learning.takeaway.text",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "13b",
+                "startVilnaLine": 20,
+                "endVilnaLine": 23
+              }
+            ]
+          },
+          {
+            "path": "learning.takeaway.type",
+            "verdict": "REVIEWED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "note": "Metadata field consistent with content; reviewed, not a factual claim requiring source support."
+          },
+          {
+            "path": "misconceptions[0].correctedByStepId",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "misconceptions[0].correction",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "13b",
+                "startVilnaLine": 20,
+                "endVilnaLine": 22
+              }
+            ]
+          },
+          {
+            "path": "misconceptions[0].misconception",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "13b",
+                "startVilnaLine": 20,
+                "endVilnaLine": 22
+              }
+            ]
+          },
+          {
+            "path": "misconceptions[1].correctedByStepId",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "misconceptions[1].correction",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "13b",
+                "startVilnaLine": 20,
+                "endVilnaLine": 23
+              }
+            ]
+          },
+          {
+            "path": "misconceptions[1].misconception",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "13b",
+                "startVilnaLine": 20,
+                "endVilnaLine": 23
+              }
+            ]
+          },
+          {
+            "path": "prerequisiteKnowledge[0]",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "13b",
+                "startVilnaLine": 20,
+                "endVilnaLine": 23
+              }
+            ]
+          },
+          {
+            "path": "prerequisiteKnowledge[1]",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "13b",
+                "startVilnaLine": 20,
+                "endVilnaLine": 23
+              }
+            ]
+          },
+          {
+            "path": "quizSeeds[0].answer",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "13b",
+                "startVilnaLine": 22,
+                "endVilnaLine": 23
+              }
+            ]
+          },
+          {
+            "path": "quizSeeds[0].question",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "13b",
+                "startVilnaLine": 22,
+                "endVilnaLine": 23
+              }
+            ]
+          },
+          {
+            "path": "quizSeeds[0].sourceRefs[0].lineId",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "quizSeeds[0].sourceRefs[0].note",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "13b",
+                "startVilnaLine": 22,
+                "endVilnaLine": 23
+              }
+            ]
+          },
+          {
+            "path": "quizSeeds[0].sourceRefs[0].sourceType",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "quizSeeds[0].sourceRefs[0].vilnaLine",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "quizSeeds[1].answer",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "13b",
+                "startVilnaLine": 20,
+                "endVilnaLine": 23
+              }
+            ]
+          },
+          {
+            "path": "quizSeeds[1].question",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "13b",
+                "startVilnaLine": 20,
+                "endVilnaLine": 23
+              }
+            ]
+          },
+          {
+            "path": "relatedSugyot[0]",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "topicTags[0]",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "topicTags[1]",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "topicTags[2]",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "topicTags[3]",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "13b",
+                "startVilnaLine": 20,
+                "endVilnaLine": 23
+              }
+            ]
+          },
+          {
+            "path": "topicTags[4]",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "visualizableElements[0].item",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "13b",
+                "startVilnaLine": 20,
+                "endVilnaLine": 23
+              }
+            ]
+          },
+          {
+            "path": "visualizableElements[0].type",
+            "verdict": "REVIEWED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "note": "Metadata field consistent with content; reviewed, not a factual claim requiring source support."
+          },
+          {
+            "path": "visualizableElements[1].item",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "13b",
+                "startVilnaLine": 20,
+                "endVilnaLine": 23
+              }
+            ]
+          },
+          {
+            "path": "visualizableElements[1].type",
+            "verdict": "REVIEWED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "note": "Metadata field consistent with content; reviewed, not a factual claim requiring source support."
+          }
+        ],
+        "boundaryLeakageSweep": [
+          {
+            "path": "dafLevel.glossary[0].en",
+            "importsNextDafConclusion": false,
+            "note": "Content confined to source lines [20, 23]; no daf-14a material present (daf ends mid-sentence at line 29, 'לומר')."
+          },
+          {
+            "path": "dafLevel.glossary[0].he",
+            "importsNextDafConclusion": false,
+            "note": "Content confined to source lines [20, 23]; no daf-14a material present (daf ends mid-sentence at line 29, 'לומר')."
+          },
+          {
+            "path": "dafLevel.glossary[0].translit",
+            "importsNextDafConclusion": false,
+            "note": "Content confined to source lines [20, 23]; no daf-14a material present (daf ends mid-sentence at line 29, 'לומר')."
+          },
+          {
+            "path": "dafLevel.glossary[1].en",
+            "importsNextDafConclusion": false,
+            "note": "Content confined to source lines [23]; no daf-14a material present (daf ends mid-sentence at line 29, 'לומר')."
+          },
+          {
+            "path": "dafLevel.glossary[1].he",
+            "importsNextDafConclusion": false,
+            "note": "Content confined to source lines [23]; no daf-14a material present (daf ends mid-sentence at line 29, 'לומר')."
+          },
+          {
+            "path": "dafLevel.glossary[1].translit",
+            "importsNextDafConclusion": false,
+            "note": "Content confined to source lines [23]; no daf-14a material present (daf ends mid-sentence at line 29, 'לומר')."
+          },
+          {
+            "path": "dafLevel.glossary[2].en",
+            "importsNextDafConclusion": false,
+            "note": "Content confined to source lines [24]; no daf-14a material present (daf ends mid-sentence at line 29, 'לומר')."
+          },
+          {
+            "path": "dafLevel.glossary[2].he",
+            "importsNextDafConclusion": false,
+            "note": "Content confined to source lines [24]; no daf-14a material present (daf ends mid-sentence at line 29, 'לומר')."
+          },
+          {
+            "path": "dafLevel.glossary[2].translit",
+            "importsNextDafConclusion": false,
+            "note": "Content confined to source lines [24]; no daf-14a material present (daf ends mid-sentence at line 29, 'לומר')."
+          },
+          {
+            "path": "dafLevel.glossary[3].en",
+            "importsNextDafConclusion": false,
+            "note": "Content confined to source lines [24]; no daf-14a material present (daf ends mid-sentence at line 29, 'לומר')."
+          },
+          {
+            "path": "dafLevel.glossary[3].he",
+            "importsNextDafConclusion": false,
+            "note": "Content confined to source lines [24]; no daf-14a material present (daf ends mid-sentence at line 29, 'לומר')."
+          },
+          {
+            "path": "dafLevel.glossary[3].translit",
+            "importsNextDafConclusion": false,
+            "note": "Content confined to source lines [24]; no daf-14a material present (daf ends mid-sentence at line 29, 'לומר')."
+          },
+          {
+            "path": "dafLevel.summary",
+            "importsNextDafConclusion": false,
+            "note": "Content confined to source lines [1, 29]; no daf-14a material present (daf ends mid-sentence at line 29, 'לומר')."
+          },
+          {
+            "path": "argumentFlow[step-01].label",
+            "importsNextDafConclusion": false,
+            "note": "Content confined to source lines [20, 22]; no daf-14a material present (daf ends mid-sentence at line 29, 'לומר')."
+          },
+          {
+            "path": "argumentFlow[step-01].sourceRefs[0].note",
+            "importsNextDafConclusion": false,
+            "note": "Content confined to source lines [20, 22]; no daf-14a material present (daf ends mid-sentence at line 29, 'לומר')."
+          },
+          {
+            "path": "argumentFlow[step-01].speaker",
+            "importsNextDafConclusion": false,
+            "note": "Content confined to source lines [20, 22]; no daf-14a material present (daf ends mid-sentence at line 29, 'לומר')."
+          },
+          {
+            "path": "argumentFlow[step-01].text",
+            "importsNextDafConclusion": false,
+            "note": "Content confined to source lines [20, 22]; no daf-14a material present (daf ends mid-sentence at line 29, 'לומר')."
+          },
+          {
+            "path": "argumentFlow[step-01].type",
+            "importsNextDafConclusion": false,
+            "note": "Metadata field; no daf-14a content imported."
+          },
+          {
+            "path": "argumentFlow[step-02].label",
+            "importsNextDafConclusion": false,
+            "note": "Content confined to source lines [22, 23]; no daf-14a material present (daf ends mid-sentence at line 29, 'לומר')."
+          },
+          {
+            "path": "argumentFlow[step-02].sourceRefs[0].note",
+            "importsNextDafConclusion": false,
+            "note": "Content confined to source lines [22, 23]; no daf-14a material present (daf ends mid-sentence at line 29, 'לומר')."
+          },
+          {
+            "path": "argumentFlow[step-02].speaker",
+            "importsNextDafConclusion": false,
+            "note": "Content confined to source lines [22, 23]; no daf-14a material present (daf ends mid-sentence at line 29, 'לומר')."
+          },
+          {
+            "path": "argumentFlow[step-02].text",
+            "importsNextDafConclusion": false,
+            "note": "Content confined to source lines [22, 23]; no daf-14a material present (daf ends mid-sentence at line 29, 'לומר')."
+          },
+          {
+            "path": "argumentFlow[step-02].type",
+            "importsNextDafConclusion": false,
+            "note": "Metadata field; no daf-14a content imported."
+          },
+          {
+            "path": "conceptRefs[0]",
+            "importsNextDafConclusion": false,
+            "note": "Content confined to source lines [20, 22]; no daf-14a material present (daf ends mid-sentence at line 29, 'לומר')."
+          },
+          {
+            "path": "conceptRefs[1]",
+            "importsNextDafConclusion": false,
+            "note": "Content confined to source lines [22, 23]; no daf-14a material present (daf ends mid-sentence at line 29, 'לומר')."
+          },
+          {
+            "path": "difficulty",
+            "importsNextDafConclusion": false,
+            "note": "Metadata field; no daf-14a content imported."
+          },
+          {
+            "path": "display.hint",
+            "importsNextDafConclusion": false,
+            "note": "Content confined to source lines [20, 23]; no daf-14a material present (daf ends mid-sentence at line 29, 'לומר')."
+          },
+          {
+            "path": "display.oneLine",
+            "importsNextDafConclusion": false,
+            "note": "Content confined to source lines [20, 23]; no daf-14a material present (daf ends mid-sentence at line 29, 'לומר')."
+          },
+          {
+            "path": "display.title",
+            "importsNextDafConclusion": false,
+            "note": "Content confined to source lines [20, 23]; no daf-14a material present (daf ends mid-sentence at line 29, 'לומר')."
+          },
+          {
+            "path": "display.whats",
+            "importsNextDafConclusion": false,
+            "note": "Content confined to source lines [20, 23]; no daf-14a material present (daf ends mid-sentence at line 29, 'לומר')."
+          },
+          {
+            "path": "finalRuling",
+            "importsNextDafConclusion": false,
+            "note": "Content confined to source lines [20, 23]; no daf-14a material present (daf ends mid-sentence at line 29, 'לומר')."
+          },
+          {
+            "path": "learning.ahaMoment",
+            "importsNextDafConclusion": false,
+            "note": "Content confined to source lines [20, 23]; no daf-14a material present (daf ends mid-sentence at line 29, 'לומר')."
+          },
+          {
+            "path": "learning.coreMove",
+            "importsNextDafConclusion": false,
+            "note": "Content confined to source lines [20, 23]; no daf-14a material present (daf ends mid-sentence at line 29, 'לומר')."
+          },
+          {
+            "path": "learning.coreTension",
+            "importsNextDafConclusion": false,
+            "note": "Content confined to source lines [20, 23]; no daf-14a material present (daf ends mid-sentence at line 29, 'לומר')."
+          },
+          {
+            "path": "learning.learnerQuestion",
+            "importsNextDafConclusion": false,
+            "note": "Content confined to source lines [20, 23]; no daf-14a material present (daf ends mid-sentence at line 29, 'לומר')."
+          },
+          {
+            "path": "learning.learningBlocker",
+            "importsNextDafConclusion": false,
+            "note": "Content confined to source lines [20, 23]; no daf-14a material present (daf ends mid-sentence at line 29, 'לומר')."
+          },
+          {
+            "path": "learning.memoryAnchor",
+            "importsNextDafConclusion": false,
+            "note": "Content confined to source lines [20, 23]; no daf-14a material present (daf ends mid-sentence at line 29, 'לומר')."
+          },
+          {
+            "path": "learning.takeaway.text",
+            "importsNextDafConclusion": false,
+            "note": "Content confined to source lines [20, 23]; no daf-14a material present (daf ends mid-sentence at line 29, 'לומר')."
+          },
+          {
+            "path": "learning.takeaway.type",
+            "importsNextDafConclusion": false,
+            "note": "Metadata field; no daf-14a content imported."
+          },
+          {
+            "path": "misconceptions[0].correction",
+            "importsNextDafConclusion": false,
+            "note": "Content confined to source lines [20, 22]; no daf-14a material present (daf ends mid-sentence at line 29, 'לומר')."
+          },
+          {
+            "path": "misconceptions[0].misconception",
+            "importsNextDafConclusion": false,
+            "note": "Content confined to source lines [20, 22]; no daf-14a material present (daf ends mid-sentence at line 29, 'לומר')."
+          },
+          {
+            "path": "misconceptions[1].correction",
+            "importsNextDafConclusion": false,
+            "note": "Content confined to source lines [20, 23]; no daf-14a material present (daf ends mid-sentence at line 29, 'לומר')."
+          },
+          {
+            "path": "misconceptions[1].misconception",
+            "importsNextDafConclusion": false,
+            "note": "Content confined to source lines [20, 23]; no daf-14a material present (daf ends mid-sentence at line 29, 'לומר')."
+          },
+          {
+            "path": "prerequisiteKnowledge[0]",
+            "importsNextDafConclusion": false,
+            "note": "Content confined to source lines [20, 23]; no daf-14a material present (daf ends mid-sentence at line 29, 'לומר')."
+          },
+          {
+            "path": "prerequisiteKnowledge[1]",
+            "importsNextDafConclusion": false,
+            "note": "Content confined to source lines [20, 23]; no daf-14a material present (daf ends mid-sentence at line 29, 'לומר')."
+          },
+          {
+            "path": "quizSeeds[0].answer",
+            "importsNextDafConclusion": false,
+            "note": "Content confined to source lines [22, 23]; no daf-14a material present (daf ends mid-sentence at line 29, 'לומר')."
+          },
+          {
+            "path": "quizSeeds[0].question",
+            "importsNextDafConclusion": false,
+            "note": "Content confined to source lines [22, 23]; no daf-14a material present (daf ends mid-sentence at line 29, 'לומר')."
+          },
+          {
+            "path": "quizSeeds[0].sourceRefs[0].note",
+            "importsNextDafConclusion": false,
+            "note": "Content confined to source lines [22, 23]; no daf-14a material present (daf ends mid-sentence at line 29, 'לומר')."
+          },
+          {
+            "path": "quizSeeds[1].answer",
+            "importsNextDafConclusion": false,
+            "note": "Content confined to source lines [20, 23]; no daf-14a material present (daf ends mid-sentence at line 29, 'לומר')."
+          },
+          {
+            "path": "quizSeeds[1].question",
+            "importsNextDafConclusion": false,
+            "note": "Content confined to source lines [20, 23]; no daf-14a material present (daf ends mid-sentence at line 29, 'לומר')."
+          },
+          {
+            "path": "topicTags[3]",
+            "importsNextDafConclusion": false,
+            "note": "Content confined to source lines [20, 23]; no daf-14a material present (daf ends mid-sentence at line 29, 'לומר')."
+          },
+          {
+            "path": "visualizableElements[0].item",
+            "importsNextDafConclusion": false,
+            "note": "Content confined to source lines [20, 23]; no daf-14a material present (daf ends mid-sentence at line 29, 'לומר')."
+          },
+          {
+            "path": "visualizableElements[0].type",
+            "importsNextDafConclusion": false,
+            "note": "Metadata field; no daf-14a content imported."
+          },
+          {
+            "path": "visualizableElements[1].item",
+            "importsNextDafConclusion": false,
+            "note": "Content confined to source lines [20, 23]; no daf-14a material present (daf ends mid-sentence at line 29, 'לומר')."
+          },
+          {
+            "path": "visualizableElements[1].type",
+            "importsNextDafConclusion": false,
+            "note": "Metadata field; no daf-14a content imported."
+          }
+        ],
+        "staleContentSweep": {
+          "entries": [
+            {
+              "category": "stale_original_error",
+              "found": false,
+              "note": "Checked against full 29-line physical daf and Rashi; no instance found for this sugya."
+            },
+            {
+              "category": "stale_speaker_or_attribution",
+              "found": false,
+              "note": "Checked against full 29-line physical daf and Rashi; no instance found for this sugya."
+            },
+            {
+              "category": "contradictory_speaker_attribution",
+              "found": false,
+              "note": "Checked against full 29-line physical daf and Rashi; no instance found for this sugya."
+            },
+            {
+              "category": "old_conclusion_in_secondary_field",
+              "found": false,
+              "note": "Checked against full 29-line physical daf and Rashi; no instance found for this sugya."
+            },
+            {
+              "category": "false_closure",
+              "found": false,
+              "note": "Checked against full 29-line physical daf and Rashi; no instance found for this sugya."
+            },
+            {
+              "category": "next_daf_content_leaked_backward",
+              "found": false,
+              "note": "Checked against full 29-line physical daf and Rashi; no instance found for this sugya."
+            },
+            {
+              "category": "claim_unsupported_by_physical_daf",
+              "found": false,
+              "note": "Checked against full 29-line physical daf and Rashi; no instance found for this sugya."
+            },
+            {
+              "category": "stale_quiz_question_or_answer",
+              "found": false,
+              "note": "Checked against full 29-line physical daf and Rashi; no instance found for this sugya."
+            },
+            {
+              "category": "stale_final_ruling",
+              "found": false,
+              "note": "Checked against full 29-line physical daf and Rashi; no instance found for this sugya."
+            },
+            {
+              "category": "stale_summary",
+              "found": false,
+              "note": "Checked against full 29-line physical daf and Rashi; no instance found for this sugya."
+            },
+            {
+              "category": "stale_learning_field",
+              "found": false,
+              "note": "Checked against full 29-line physical daf and Rashi; no instance found for this sugya."
+            },
+            {
+              "category": "stale_misconception",
+              "found": false,
+              "note": "Checked against full 29-line physical daf and Rashi; no instance found for this sugya."
+            },
+            {
+              "category": "stale_related_sugya_description",
+              "found": false,
+              "note": "Checked against full 29-line physical daf and Rashi; no instance found for this sugya."
+            },
+            {
+              "category": "stale_visualizable_element_prose",
+              "found": false,
+              "note": "Checked against full 29-line physical daf and Rashi; no instance found for this sugya."
+            },
+            {
+              "category": "source_refs_no_longer_supporting_claim",
+              "found": false,
+              "note": "Checked against full 29-line physical daf and Rashi; no instance found for this sugya."
+            },
+            {
+              "category": "reference_outside_declared_line_range",
+              "found": false,
+              "note": "Checked against full 29-line physical daf and Rashi; no instance found for this sugya."
+            }
+          ]
+        }
+      },
+      "certifiedAtCommit": "773c3c4e13a3806dd407f60642525ba761a6fc24"
+    },
+    "yoma-13b-s03": {
+      "sugyaId": "yoma-13b-s03",
+      "daf": "13b",
+      "state": "CERTIFIED",
+      "firstPass": {
+        "reviewId": "campaign-13b-s03-recert-first-f9a2c7e1",
+        "reviewerContextId": "yoma13bs03-recert-f9a2c7e1",
+        "sourceFirst": true,
+        "verdict": "VERIFIED",
+        "reviewedSourceFingerprint": "c174765f45b2caae53b2cf24975a675d5b12b26ab84cd6733cf81bf73357c237",
+        "reviewedSemanticFingerprint": "8bb74ea63535835dfe9040b54c0e1facf2f73d558de29a85624b610dc3a80968",
+        "evidence": {
+          "role": "sourceAuditor",
+          "agentId": "yoma13bs03-recert-f9a2c7e1",
+          "verdict": "VERIFIED",
+          "summary": "Independent reconstruction against raw daf 13b (vilna lines 24-29) confirms the corrected step-04 sourceRef now correctly anchors to lineId yoma-013b-l25 (sefariaRef Yoma.13b.7), since vilna line 26 ('Now according to R. Yehuda, do we remove him?! For it was taught...') falls inside the interval owned by the l25 anchor (lines 25-27; the next distinct anchor l28 begins at vilna line 28); the prior dangling lineId yoma-013b-l26 referenced no line entry. Verified every step (baraita ruling that the onen KG serves but does not eat, line 24; R. Yehuda's 'kol hayom' addition, line 24; Rava's first reading that it mandates bringing the onen KG from home, line 25; Abaye's challenge citing R. Yehuda's own baraita that a mid-service onen priest must leave, with R. Yosei disagreeing, lines 25-28) traces faithfully to the Hebrew/Aramaic text. finalRuling, misconceptions, and quizSeeds are consistent with the source and with each other; quizSeeds[1] already used the correct l25 anchor before this fix. No other staleness or drift found anywhere in the record."
+        }
+      },
+      "sourceFingerprint": "c174765f45b2caae53b2cf24975a675d5b12b26ab84cd6733cf81bf73357c237",
+      "semanticFingerprint": "8bb74ea63535835dfe9040b54c0e1facf2f73d558de29a85624b610dc3a80968",
+      "secondPass": {
+        "reviewId": "campaign-13b-s03-recert-second-b6d4e291",
+        "reviewerContextId": "yoma13bs03-recert-second-b6d4e291",
+        "sourceFirst": true,
+        "verdict": "CONFIRMED",
+        "reviewedSourceFingerprint": "c174765f45b2caae53b2cf24975a675d5b12b26ab84cd6733cf81bf73357c237",
+        "reviewedSemanticFingerprint": "8bb74ea63535835dfe9040b54c0e1facf2f73d558de29a85624b610dc3a80968",
+        "evidence": {
+          "role": "independentReviewer",
+          "agentId": "yoma13bs03-recert-second-b6d4e291",
+          "verdict": "CONFIRMED",
+          "summary": "Independent re-derivation from raw daf 13b (lines array, vilna 24-29): confirmed baraita at line 24 (onen KG serves, does not eat; R. Yehuda adds kol hayom), Rava's first reading at line 25 (mitzva to bring him from home), and Abaye's challenge at lines 25-28 (citing R. Yehuda's own baraita that a mid-service onen priest leaves, R. Yosei holds he finishes). Verified the s03 sugya anchor map (lines array: vilnaLine 24/25/28/29) independently: anchor l25 (sefariaRef Yoma.13b.7) owns the interval [25,28), so vilnaLine 26 cited in the corrected step-04 sourceRef genuinely falls inside the l25 anchor's span; the previous lineId yoma-013b-l26 had no corresponding anchor entry and was dangling. Recomputed sourceFingerprint and semanticFingerprint directly via scripts/semantic_certification.py fingerprints() against the live corpus and registry firstPass record; both match the firstPass reviewedSourceFingerprint/reviewedSemanticFingerprint exactly (c174765f45b2caae53b2cf24975a675d5b12b26ab84cd6733cf81bf73357c237 / 8bb74ea63535835dfe9040b54c0e1facf2f73d558de29a85624b610dc3a80968). learnerQuestion/coreTension/coreMove/ahaMoment/finalRuling are consistent with the raw text and correctly note the resolution is deferred to 14a (vilna 28-29 text 'אלא אמר רבא מאי כל היום / לומר' is an incomplete sentence spanning the daf boundary). No discrepancy found; concur with firstPass VERIFIED."
+        }
+      },
+      "finalAudit": {
+        "reviewId": "campaign-13b-s03-recert-finalaudit-7d3e9c42",
+        "auditorContextId": "yoma13bs03-recert-finalaudit-7d3e9c42",
+        "auditedSourceFingerprint": "c174765f45b2caae53b2cf24975a675d5b12b26ab84cd6733cf81bf73357c237",
+        "auditedSemanticFingerprint": "8bb74ea63535835dfe9040b54c0e1facf2f73d558de29a85624b610dc3a80968",
+        "dafBoundary": {
+          "rawLineCount": 29,
+          "finalRawLine": "לומר",
+          "dafEndState": "MID_ARGUMENT"
+        },
+        "fieldInventory": [
+          {
+            "path": "lineRange",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "lines",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "dafLevel.glossary[0].en",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "13b",
+                "startVilnaLine": 20,
+                "endVilnaLine": 23
+              }
+            ]
+          },
+          {
+            "path": "dafLevel.glossary[0].he",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "13b",
+                "startVilnaLine": 20,
+                "endVilnaLine": 23
+              }
+            ]
+          },
+          {
+            "path": "dafLevel.glossary[0].translit",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "13b",
+                "startVilnaLine": 20,
+                "endVilnaLine": 23
+              }
+            ]
+          },
+          {
+            "path": "dafLevel.glossary[1].en",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "13b",
+                "startVilnaLine": 22,
+                "endVilnaLine": 23
+              }
+            ]
+          },
+          {
+            "path": "dafLevel.glossary[1].he",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "13b",
+                "startVilnaLine": 22,
+                "endVilnaLine": 23
+              }
+            ]
+          },
+          {
+            "path": "dafLevel.glossary[1].translit",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "13b",
+                "startVilnaLine": 22,
+                "endVilnaLine": 23
+              }
+            ]
+          },
+          {
+            "path": "dafLevel.glossary[2].en",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "13b",
+                "startVilnaLine": 24,
+                "endVilnaLine": 25
+              }
+            ]
+          },
+          {
+            "path": "dafLevel.glossary[2].he",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "13b",
+                "startVilnaLine": 24,
+                "endVilnaLine": 25
+              }
+            ]
+          },
+          {
+            "path": "dafLevel.glossary[2].translit",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "13b",
+                "startVilnaLine": 24,
+                "endVilnaLine": 25
+              }
+            ]
+          },
+          {
+            "path": "dafLevel.glossary[3].en",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "13b",
+                "startVilnaLine": 24,
+                "endVilnaLine": 25
+              }
+            ]
+          },
+          {
+            "path": "dafLevel.glossary[3].he",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "13b",
+                "startVilnaLine": 24,
+                "endVilnaLine": 25
+              }
+            ]
+          },
+          {
+            "path": "dafLevel.glossary[3].translit",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "13b",
+                "startVilnaLine": 24,
+                "endVilnaLine": 25
+              }
+            ]
+          },
+          {
+            "path": "dafLevel.summary",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "13b",
+                "startVilnaLine": 1,
+                "endVilnaLine": 29
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-01].id",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-01].label",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "13b",
+                "startVilnaLine": 24,
+                "endVilnaLine": 24
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-01].sourceRefs[0].lineId",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-01].sourceRefs[0].note",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "13b",
+                "startVilnaLine": 24,
+                "endVilnaLine": 24
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-01].sourceRefs[0].sourceType",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-01].sourceRefs[0].vilnaLine",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-01].speaker",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "13b",
+                "startVilnaLine": 24,
+                "endVilnaLine": 24
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-01].text",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "13b",
+                "startVilnaLine": 24,
+                "endVilnaLine": 24
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-01].type",
+            "verdict": "REVIEWED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "note": "Baraita states a ruling (onen KG serves, does not eat) - correctly classified 'ruling', consistent with the plain sense of line 24."
+          },
+          {
+            "path": "argumentFlow[step-02].id",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-02].label",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "13b",
+                "startVilnaLine": 24,
+                "endVilnaLine": 24
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-02].sourceRefs[0].lineId",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-02].sourceRefs[0].note",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "13b",
+                "startVilnaLine": 24,
+                "endVilnaLine": 24
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-02].sourceRefs[0].sourceType",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-02].sourceRefs[0].vilnaLine",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-02].speaker",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "13b",
+                "startVilnaLine": 24,
+                "endVilnaLine": 24
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-02].text",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "13b",
+                "startVilnaLine": 24,
+                "endVilnaLine": 24
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-02].type",
+            "verdict": "REVIEWED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "note": "R. Yehuda's 'kol hayom' is an addition to the baraita's ruling - correctly classified 'addition', consistent with line 24."
+          },
+          {
+            "path": "argumentFlow[step-03].id",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-03].label",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "13b",
+                "startVilnaLine": 25,
+                "endVilnaLine": 25
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-03].sourceRefs[0].lineId",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-03].sourceRefs[0].note",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "13b",
+                "startVilnaLine": 25,
+                "endVilnaLine": 25
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-03].sourceRefs[0].sourceType",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-03].sourceRefs[0].vilnaLine",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-03].speaker",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "13b",
+                "startVilnaLine": 25,
+                "endVilnaLine": 25
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-03].text",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "13b",
+                "startVilnaLine": 25,
+                "endVilnaLine": 25
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-03].type",
+            "verdict": "REVIEWED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "note": "Rava offers an interpretation of R. Yehuda's phrase - correctly classified 'interpretation', consistent with line 25."
+          },
+          {
+            "path": "argumentFlow[step-04].id",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-04].label",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "13b",
+                "startVilnaLine": 25,
+                "endVilnaLine": 28
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-04].sourceRefs[0].lineId",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-04].sourceRefs[0].note",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "13b",
+                "startVilnaLine": 25,
+                "endVilnaLine": 28
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-04].sourceRefs[0].sourceType",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-04].sourceRefs[0].vilnaLine",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-04].speaker",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "13b",
+                "startVilnaLine": 25,
+                "endVilnaLine": 28
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-04].text",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "13b",
+                "startVilnaLine": 25,
+                "endVilnaLine": 28
+              }
+            ]
+          },
+          {
+            "path": "argumentFlow[step-04].type",
+            "verdict": "REVIEWED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "note": "Abaye raises an objection to Rava's reading by citing a contradicting baraita - correctly classified 'challenge', consistent with lines 25-28."
+          },
+          {
+            "path": "conceptRefs[0]",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "13b",
+                "startVilnaLine": 24,
+                "endVilnaLine": 24
+              }
+            ]
+          },
+          {
+            "path": "conceptRefs[1]",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "13b",
+                "startVilnaLine": 28,
+                "endVilnaLine": 28
+              }
+            ]
+          },
+          {
+            "path": "difficulty",
+            "verdict": "REVIEWED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "note": "'intermediate' is a reasonable editorial rating for a sugya requiring tracking of a three-way dispute (baraita/R. Yehuda/Rava) and an unresolved Abaye challenge; not reviewable as a factual claim."
+          },
+          {
+            "path": "display.hint",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "13b",
+                "startVilnaLine": 24,
+                "endVilnaLine": 29
+              }
+            ]
+          },
+          {
+            "path": "display.oneLine",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "13b",
+                "startVilnaLine": 24,
+                "endVilnaLine": 28
+              }
+            ]
+          },
+          {
+            "path": "display.title",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "13b",
+                "startVilnaLine": 24,
+                "endVilnaLine": 25
+              }
+            ]
+          },
+          {
+            "path": "display.whats",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "13b",
+                "startVilnaLine": 24,
+                "endVilnaLine": 28
+              }
+            ]
+          },
+          {
+            "path": "finalRuling",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "13b",
+                "startVilnaLine": 24,
+                "endVilnaLine": 29
+              }
+            ]
+          },
+          {
+            "path": "learning.ahaMoment",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "13b",
+                "startVilnaLine": 24,
+                "endVilnaLine": 25
+              }
+            ]
+          },
+          {
+            "path": "learning.coreMove",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "13b",
+                "startVilnaLine": 24,
+                "endVilnaLine": 28
+              }
+            ]
+          },
+          {
+            "path": "learning.coreTension",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "13b",
+                "startVilnaLine": 24,
+                "endVilnaLine": 25
+              }
+            ]
+          },
+          {
+            "path": "learning.learnerQuestion",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "13b",
+                "startVilnaLine": 24,
+                "endVilnaLine": 25
+              }
+            ]
+          },
+          {
+            "path": "learning.learningBlocker",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "13b",
+                "startVilnaLine": 25,
+                "endVilnaLine": 28
+              }
+            ]
+          },
+          {
+            "path": "learning.memoryAnchor",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "13b",
+                "startVilnaLine": 24,
+                "endVilnaLine": 24
+              }
+            ]
+          },
+          {
+            "path": "learning.takeaway.text",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "13b",
+                "startVilnaLine": 25,
+                "endVilnaLine": 28
+              }
+            ]
+          },
+          {
+            "path": "learning.takeaway.type",
+            "verdict": "REVIEWED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "note": "'open_question' correctly reflects that the sugya ends with Rava's reading under live challenge and no stated resolution (deferred to 14a per line 29's mid-sentence cutoff)."
+          },
+          {
+            "path": "misconceptions[0].correctedByStepId",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "misconceptions[0].correction",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "13b",
+                "startVilnaLine": 24,
+                "endVilnaLine": 24
+              }
+            ]
+          },
+          {
+            "path": "misconceptions[0].misconception",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "13b",
+                "startVilnaLine": 24,
+                "endVilnaLine": 24
+              }
+            ]
+          },
+          {
+            "path": "misconceptions[1].correctedByStepId",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "misconceptions[1].correction",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "13b",
+                "startVilnaLine": 25,
+                "endVilnaLine": 28
+              }
+            ]
+          },
+          {
+            "path": "misconceptions[1].misconception",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "13b",
+                "startVilnaLine": 25,
+                "endVilnaLine": 28
+              }
+            ]
+          },
+          {
+            "path": "prerequisiteKnowledge[0]",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "13b",
+                "startVilnaLine": 24,
+                "endVilnaLine": 24
+              }
+            ]
+          },
+          {
+            "path": "prerequisiteKnowledge[1]",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "13b",
+                "startVilnaLine": 24,
+                "endVilnaLine": 25
+              }
+            ]
+          },
+          {
+            "path": "quizSeeds[0].answer",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "13b",
+                "startVilnaLine": 24,
+                "endVilnaLine": 24
+              }
+            ]
+          },
+          {
+            "path": "quizSeeds[0].question",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "13b",
+                "startVilnaLine": 24,
+                "endVilnaLine": 24
+              }
+            ]
+          },
+          {
+            "path": "quizSeeds[0].sourceRefs[0].lineId",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "quizSeeds[0].sourceRefs[0].note",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "13b",
+                "startVilnaLine": 24,
+                "endVilnaLine": 24
+              }
+            ]
+          },
+          {
+            "path": "quizSeeds[0].sourceRefs[0].sourceType",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "quizSeeds[0].sourceRefs[0].vilnaLine",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "quizSeeds[1].answer",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "13b",
+                "startVilnaLine": 25,
+                "endVilnaLine": 28
+              }
+            ]
+          },
+          {
+            "path": "quizSeeds[1].question",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "13b",
+                "startVilnaLine": 25,
+                "endVilnaLine": 28
+              }
+            ]
+          },
+          {
+            "path": "quizSeeds[1].sourceRefs[0].lineId",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "quizSeeds[1].sourceRefs[0].note",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "13b",
+                "startVilnaLine": 25,
+                "endVilnaLine": 28
+              }
+            ]
+          },
+          {
+            "path": "quizSeeds[1].sourceRefs[0].sourceType",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "quizSeeds[1].sourceRefs[0].vilnaLine",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "relatedSugyot[0]",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "topicTags[0]",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "topicTags[1]",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "13b",
+                "startVilnaLine": 24,
+                "endVilnaLine": 24
+              }
+            ]
+          },
+          {
+            "path": "topicTags[2]",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "13b",
+                "startVilnaLine": 24,
+                "endVilnaLine": 24
+              }
+            ]
+          },
+          {
+            "path": "topicTags[3]",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "topicTags[4]",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "visualizableElements[0].item",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "13b",
+                "startVilnaLine": 24,
+                "endVilnaLine": 29
+              }
+            ]
+          },
+          {
+            "path": "visualizableElements[0].type",
+            "verdict": "REVIEWED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "note": "'action' correctly labels a depicted scene (the KG performing the avodah) rather than a comparison."
+          },
+          {
+            "path": "visualizableElements[1].item",
+            "verdict": "SUPPORTED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "13b",
+                "startVilnaLine": 24,
+                "endVilnaLine": 24
+              }
+            ]
+          },
+          {
+            "path": "visualizableElements[1].type",
+            "verdict": "REVIEWED",
+            "boundarySafe": true,
+            "crossReference": false,
+            "note": "'contrast' correctly labels the depicted permitted-vs-forbidden dichotomy (serves vs. does not eat)."
+          }
+        ],
+        "boundaryLeakageSweep": [
+          {
+            "path": "argumentFlow[step-01].label",
+            "importsNextDafConclusion": false,
+            "note": "Field states no conclusion beyond what lines 24-28 establish; the sugya's own open status (Rava's revision pending, resolution deferred to 14a) is preserved rather than resolved, matching the daf's mid-argument physical cutoff at line 29 ('lomar')."
+          },
+          {
+            "path": "argumentFlow[step-01].sourceRefs[0].note",
+            "importsNextDafConclusion": false,
+            "note": "Field states no conclusion beyond what lines 24-28 establish; the sugya's own open status (Rava's revision pending, resolution deferred to 14a) is preserved rather than resolved, matching the daf's mid-argument physical cutoff at line 29 ('lomar')."
+          },
+          {
+            "path": "argumentFlow[step-01].speaker",
+            "importsNextDafConclusion": false,
+            "note": "Field states no conclusion beyond what lines 24-28 establish; the sugya's own open status (Rava's revision pending, resolution deferred to 14a) is preserved rather than resolved, matching the daf's mid-argument physical cutoff at line 29 ('lomar')."
+          },
+          {
+            "path": "argumentFlow[step-01].text",
+            "importsNextDafConclusion": false,
+            "note": "Field states no conclusion beyond what lines 24-28 establish; the sugya's own open status (Rava's revision pending, resolution deferred to 14a) is preserved rather than resolved, matching the daf's mid-argument physical cutoff at line 29 ('lomar')."
+          },
+          {
+            "path": "argumentFlow[step-01].type",
+            "importsNextDafConclusion": false,
+            "note": "Field states no conclusion beyond what lines 24-28 establish; the sugya's own open status (Rava's revision pending, resolution deferred to 14a) is preserved rather than resolved, matching the daf's mid-argument physical cutoff at line 29 ('lomar')."
+          },
+          {
+            "path": "argumentFlow[step-02].label",
+            "importsNextDafConclusion": false,
+            "note": "Field states no conclusion beyond what lines 24-28 establish; the sugya's own open status (Rava's revision pending, resolution deferred to 14a) is preserved rather than resolved, matching the daf's mid-argument physical cutoff at line 29 ('lomar')."
+          },
+          {
+            "path": "argumentFlow[step-02].sourceRefs[0].note",
+            "importsNextDafConclusion": false,
+            "note": "Field states no conclusion beyond what lines 24-28 establish; the sugya's own open status (Rava's revision pending, resolution deferred to 14a) is preserved rather than resolved, matching the daf's mid-argument physical cutoff at line 29 ('lomar')."
+          },
+          {
+            "path": "argumentFlow[step-02].speaker",
+            "importsNextDafConclusion": false,
+            "note": "Field states no conclusion beyond what lines 24-28 establish; the sugya's own open status (Rava's revision pending, resolution deferred to 14a) is preserved rather than resolved, matching the daf's mid-argument physical cutoff at line 29 ('lomar')."
+          },
+          {
+            "path": "argumentFlow[step-02].text",
+            "importsNextDafConclusion": false,
+            "note": "Field states no conclusion beyond what lines 24-28 establish; the sugya's own open status (Rava's revision pending, resolution deferred to 14a) is preserved rather than resolved, matching the daf's mid-argument physical cutoff at line 29 ('lomar')."
+          },
+          {
+            "path": "argumentFlow[step-02].type",
+            "importsNextDafConclusion": false,
+            "note": "Field states no conclusion beyond what lines 24-28 establish; the sugya's own open status (Rava's revision pending, resolution deferred to 14a) is preserved rather than resolved, matching the daf's mid-argument physical cutoff at line 29 ('lomar')."
+          },
+          {
+            "path": "argumentFlow[step-03].label",
+            "importsNextDafConclusion": false,
+            "note": "Field states no conclusion beyond what lines 24-28 establish; the sugya's own open status (Rava's revision pending, resolution deferred to 14a) is preserved rather than resolved, matching the daf's mid-argument physical cutoff at line 29 ('lomar')."
+          },
+          {
+            "path": "argumentFlow[step-03].sourceRefs[0].note",
+            "importsNextDafConclusion": false,
+            "note": "Field states no conclusion beyond what lines 24-28 establish; the sugya's own open status (Rava's revision pending, resolution deferred to 14a) is preserved rather than resolved, matching the daf's mid-argument physical cutoff at line 29 ('lomar')."
+          },
+          {
+            "path": "argumentFlow[step-03].speaker",
+            "importsNextDafConclusion": false,
+            "note": "Field states no conclusion beyond what lines 24-28 establish; the sugya's own open status (Rava's revision pending, resolution deferred to 14a) is preserved rather than resolved, matching the daf's mid-argument physical cutoff at line 29 ('lomar')."
+          },
+          {
+            "path": "argumentFlow[step-03].text",
+            "importsNextDafConclusion": false,
+            "note": "Field states no conclusion beyond what lines 24-28 establish; the sugya's own open status (Rava's revision pending, resolution deferred to 14a) is preserved rather than resolved, matching the daf's mid-argument physical cutoff at line 29 ('lomar')."
+          },
+          {
+            "path": "argumentFlow[step-03].type",
+            "importsNextDafConclusion": false,
+            "note": "Field states no conclusion beyond what lines 24-28 establish; the sugya's own open status (Rava's revision pending, resolution deferred to 14a) is preserved rather than resolved, matching the daf's mid-argument physical cutoff at line 29 ('lomar')."
+          },
+          {
+            "path": "argumentFlow[step-04].label",
+            "importsNextDafConclusion": false,
+            "note": "Field states no conclusion beyond what lines 24-28 establish; the sugya's own open status (Rava's revision pending, resolution deferred to 14a) is preserved rather than resolved, matching the daf's mid-argument physical cutoff at line 29 ('lomar')."
+          },
+          {
+            "path": "argumentFlow[step-04].sourceRefs[0].note",
+            "importsNextDafConclusion": false,
+            "note": "Field states no conclusion beyond what lines 24-28 establish; the sugya's own open status (Rava's revision pending, resolution deferred to 14a) is preserved rather than resolved, matching the daf's mid-argument physical cutoff at line 29 ('lomar')."
+          },
+          {
+            "path": "argumentFlow[step-04].speaker",
+            "importsNextDafConclusion": false,
+            "note": "Field states no conclusion beyond what lines 24-28 establish; the sugya's own open status (Rava's revision pending, resolution deferred to 14a) is preserved rather than resolved, matching the daf's mid-argument physical cutoff at line 29 ('lomar')."
+          },
+          {
+            "path": "argumentFlow[step-04].text",
+            "importsNextDafConclusion": false,
+            "note": "Field states no conclusion beyond what lines 24-28 establish; the sugya's own open status (Rava's revision pending, resolution deferred to 14a) is preserved rather than resolved, matching the daf's mid-argument physical cutoff at line 29 ('lomar')."
+          },
+          {
+            "path": "argumentFlow[step-04].type",
+            "importsNextDafConclusion": false,
+            "note": "Field states no conclusion beyond what lines 24-28 establish; the sugya's own open status (Rava's revision pending, resolution deferred to 14a) is preserved rather than resolved, matching the daf's mid-argument physical cutoff at line 29 ('lomar')."
+          },
+          {
+            "path": "conceptRefs[0]",
+            "importsNextDafConclusion": false,
+            "note": "Field states no conclusion beyond what lines 24-28 establish; the sugya's own open status (Rava's revision pending, resolution deferred to 14a) is preserved rather than resolved, matching the daf's mid-argument physical cutoff at line 29 ('lomar')."
+          },
+          {
+            "path": "conceptRefs[1]",
+            "importsNextDafConclusion": false,
+            "note": "Field states no conclusion beyond what lines 24-28 establish; the sugya's own open status (Rava's revision pending, resolution deferred to 14a) is preserved rather than resolved, matching the daf's mid-argument physical cutoff at line 29 ('lomar')."
+          },
+          {
+            "path": "dafLevel.glossary[0].en",
+            "importsNextDafConclusion": false,
+            "note": "Field states no conclusion beyond what lines 24-28 establish; the sugya's own open status (Rava's revision pending, resolution deferred to 14a) is preserved rather than resolved, matching the daf's mid-argument physical cutoff at line 29 ('lomar')."
+          },
+          {
+            "path": "dafLevel.glossary[0].he",
+            "importsNextDafConclusion": false,
+            "note": "Field states no conclusion beyond what lines 24-28 establish; the sugya's own open status (Rava's revision pending, resolution deferred to 14a) is preserved rather than resolved, matching the daf's mid-argument physical cutoff at line 29 ('lomar')."
+          },
+          {
+            "path": "dafLevel.glossary[0].translit",
+            "importsNextDafConclusion": false,
+            "note": "Field states no conclusion beyond what lines 24-28 establish; the sugya's own open status (Rava's revision pending, resolution deferred to 14a) is preserved rather than resolved, matching the daf's mid-argument physical cutoff at line 29 ('lomar')."
+          },
+          {
+            "path": "dafLevel.glossary[1].en",
+            "importsNextDafConclusion": false,
+            "note": "Field states no conclusion beyond what lines 24-28 establish; the sugya's own open status (Rava's revision pending, resolution deferred to 14a) is preserved rather than resolved, matching the daf's mid-argument physical cutoff at line 29 ('lomar')."
+          },
+          {
+            "path": "dafLevel.glossary[1].he",
+            "importsNextDafConclusion": false,
+            "note": "Field states no conclusion beyond what lines 24-28 establish; the sugya's own open status (Rava's revision pending, resolution deferred to 14a) is preserved rather than resolved, matching the daf's mid-argument physical cutoff at line 29 ('lomar')."
+          },
+          {
+            "path": "dafLevel.glossary[1].translit",
+            "importsNextDafConclusion": false,
+            "note": "Field states no conclusion beyond what lines 24-28 establish; the sugya's own open status (Rava's revision pending, resolution deferred to 14a) is preserved rather than resolved, matching the daf's mid-argument physical cutoff at line 29 ('lomar')."
+          },
+          {
+            "path": "dafLevel.glossary[2].en",
+            "importsNextDafConclusion": false,
+            "note": "Field states no conclusion beyond what lines 24-28 establish; the sugya's own open status (Rava's revision pending, resolution deferred to 14a) is preserved rather than resolved, matching the daf's mid-argument physical cutoff at line 29 ('lomar')."
+          },
+          {
+            "path": "dafLevel.glossary[2].he",
+            "importsNextDafConclusion": false,
+            "note": "Field states no conclusion beyond what lines 24-28 establish; the sugya's own open status (Rava's revision pending, resolution deferred to 14a) is preserved rather than resolved, matching the daf's mid-argument physical cutoff at line 29 ('lomar')."
+          },
+          {
+            "path": "dafLevel.glossary[2].translit",
+            "importsNextDafConclusion": false,
+            "note": "Field states no conclusion beyond what lines 24-28 establish; the sugya's own open status (Rava's revision pending, resolution deferred to 14a) is preserved rather than resolved, matching the daf's mid-argument physical cutoff at line 29 ('lomar')."
+          },
+          {
+            "path": "dafLevel.glossary[3].en",
+            "importsNextDafConclusion": false,
+            "note": "Field states no conclusion beyond what lines 24-28 establish; the sugya's own open status (Rava's revision pending, resolution deferred to 14a) is preserved rather than resolved, matching the daf's mid-argument physical cutoff at line 29 ('lomar')."
+          },
+          {
+            "path": "dafLevel.glossary[3].he",
+            "importsNextDafConclusion": false,
+            "note": "Field states no conclusion beyond what lines 24-28 establish; the sugya's own open status (Rava's revision pending, resolution deferred to 14a) is preserved rather than resolved, matching the daf's mid-argument physical cutoff at line 29 ('lomar')."
+          },
+          {
+            "path": "dafLevel.glossary[3].translit",
+            "importsNextDafConclusion": false,
+            "note": "Field states no conclusion beyond what lines 24-28 establish; the sugya's own open status (Rava's revision pending, resolution deferred to 14a) is preserved rather than resolved, matching the daf's mid-argument physical cutoff at line 29 ('lomar')."
+          },
+          {
+            "path": "dafLevel.summary",
+            "importsNextDafConclusion": false,
+            "note": "Field states no conclusion beyond what lines 24-28 establish; the sugya's own open status (Rava's revision pending, resolution deferred to 14a) is preserved rather than resolved, matching the daf's mid-argument physical cutoff at line 29 ('lomar')."
+          },
+          {
+            "path": "difficulty",
+            "importsNextDafConclusion": false,
+            "note": "Field states no conclusion beyond what lines 24-28 establish; the sugya's own open status (Rava's revision pending, resolution deferred to 14a) is preserved rather than resolved, matching the daf's mid-argument physical cutoff at line 29 ('lomar')."
+          },
+          {
+            "path": "display.hint",
+            "importsNextDafConclusion": false,
+            "note": "Field states no conclusion beyond what lines 24-28 establish; the sugya's own open status (Rava's revision pending, resolution deferred to 14a) is preserved rather than resolved, matching the daf's mid-argument physical cutoff at line 29 ('lomar')."
+          },
+          {
+            "path": "display.oneLine",
+            "importsNextDafConclusion": false,
+            "note": "Field states no conclusion beyond what lines 24-28 establish; the sugya's own open status (Rava's revision pending, resolution deferred to 14a) is preserved rather than resolved, matching the daf's mid-argument physical cutoff at line 29 ('lomar')."
+          },
+          {
+            "path": "display.title",
+            "importsNextDafConclusion": false,
+            "note": "Field states no conclusion beyond what lines 24-28 establish; the sugya's own open status (Rava's revision pending, resolution deferred to 14a) is preserved rather than resolved, matching the daf's mid-argument physical cutoff at line 29 ('lomar')."
+          },
+          {
+            "path": "display.whats",
+            "importsNextDafConclusion": false,
+            "note": "Field states no conclusion beyond what lines 24-28 establish; the sugya's own open status (Rava's revision pending, resolution deferred to 14a) is preserved rather than resolved, matching the daf's mid-argument physical cutoff at line 29 ('lomar')."
+          },
+          {
+            "path": "finalRuling",
+            "importsNextDafConclusion": false,
+            "note": "Field states no conclusion beyond what lines 24-28 establish; the sugya's own open status (Rava's revision pending, resolution deferred to 14a) is preserved rather than resolved, matching the daf's mid-argument physical cutoff at line 29 ('lomar')."
+          },
+          {
+            "path": "learning.ahaMoment",
+            "importsNextDafConclusion": false,
+            "note": "Field states no conclusion beyond what lines 24-28 establish; the sugya's own open status (Rava's revision pending, resolution deferred to 14a) is preserved rather than resolved, matching the daf's mid-argument physical cutoff at line 29 ('lomar')."
+          },
+          {
+            "path": "learning.coreMove",
+            "importsNextDafConclusion": false,
+            "note": "Field states no conclusion beyond what lines 24-28 establish; the sugya's own open status (Rava's revision pending, resolution deferred to 14a) is preserved rather than resolved, matching the daf's mid-argument physical cutoff at line 29 ('lomar')."
+          },
+          {
+            "path": "learning.coreTension",
+            "importsNextDafConclusion": false,
+            "note": "Field states no conclusion beyond what lines 24-28 establish; the sugya's own open status (Rava's revision pending, resolution deferred to 14a) is preserved rather than resolved, matching the daf's mid-argument physical cutoff at line 29 ('lomar')."
+          },
+          {
+            "path": "learning.learnerQuestion",
+            "importsNextDafConclusion": false,
+            "note": "Field states no conclusion beyond what lines 24-28 establish; the sugya's own open status (Rava's revision pending, resolution deferred to 14a) is preserved rather than resolved, matching the daf's mid-argument physical cutoff at line 29 ('lomar')."
+          },
+          {
+            "path": "learning.learningBlocker",
+            "importsNextDafConclusion": false,
+            "note": "Field states no conclusion beyond what lines 24-28 establish; the sugya's own open status (Rava's revision pending, resolution deferred to 14a) is preserved rather than resolved, matching the daf's mid-argument physical cutoff at line 29 ('lomar')."
+          },
+          {
+            "path": "learning.memoryAnchor",
+            "importsNextDafConclusion": false,
+            "note": "Field states no conclusion beyond what lines 24-28 establish; the sugya's own open status (Rava's revision pending, resolution deferred to 14a) is preserved rather than resolved, matching the daf's mid-argument physical cutoff at line 29 ('lomar')."
+          },
+          {
+            "path": "learning.takeaway.text",
+            "importsNextDafConclusion": false,
+            "note": "Field states no conclusion beyond what lines 24-28 establish; the sugya's own open status (Rava's revision pending, resolution deferred to 14a) is preserved rather than resolved, matching the daf's mid-argument physical cutoff at line 29 ('lomar')."
+          },
+          {
+            "path": "learning.takeaway.type",
+            "importsNextDafConclusion": false,
+            "note": "Field states no conclusion beyond what lines 24-28 establish; the sugya's own open status (Rava's revision pending, resolution deferred to 14a) is preserved rather than resolved, matching the daf's mid-argument physical cutoff at line 29 ('lomar')."
+          },
+          {
+            "path": "misconceptions[0].correction",
+            "importsNextDafConclusion": false,
+            "note": "Field states no conclusion beyond what lines 24-28 establish; the sugya's own open status (Rava's revision pending, resolution deferred to 14a) is preserved rather than resolved, matching the daf's mid-argument physical cutoff at line 29 ('lomar')."
+          },
+          {
+            "path": "misconceptions[0].misconception",
+            "importsNextDafConclusion": false,
+            "note": "Field states no conclusion beyond what lines 24-28 establish; the sugya's own open status (Rava's revision pending, resolution deferred to 14a) is preserved rather than resolved, matching the daf's mid-argument physical cutoff at line 29 ('lomar')."
+          },
+          {
+            "path": "misconceptions[1].correction",
+            "importsNextDafConclusion": false,
+            "note": "Field states no conclusion beyond what lines 24-28 establish; the sugya's own open status (Rava's revision pending, resolution deferred to 14a) is preserved rather than resolved, matching the daf's mid-argument physical cutoff at line 29 ('lomar')."
+          },
+          {
+            "path": "misconceptions[1].misconception",
+            "importsNextDafConclusion": false,
+            "note": "Field states no conclusion beyond what lines 24-28 establish; the sugya's own open status (Rava's revision pending, resolution deferred to 14a) is preserved rather than resolved, matching the daf's mid-argument physical cutoff at line 29 ('lomar')."
+          },
+          {
+            "path": "prerequisiteKnowledge[0]",
+            "importsNextDafConclusion": false,
+            "note": "Field states no conclusion beyond what lines 24-28 establish; the sugya's own open status (Rava's revision pending, resolution deferred to 14a) is preserved rather than resolved, matching the daf's mid-argument physical cutoff at line 29 ('lomar')."
+          },
+          {
+            "path": "prerequisiteKnowledge[1]",
+            "importsNextDafConclusion": false,
+            "note": "Field states no conclusion beyond what lines 24-28 establish; the sugya's own open status (Rava's revision pending, resolution deferred to 14a) is preserved rather than resolved, matching the daf's mid-argument physical cutoff at line 29 ('lomar')."
+          },
+          {
+            "path": "quizSeeds[0].answer",
+            "importsNextDafConclusion": false,
+            "note": "Field states no conclusion beyond what lines 24-28 establish; the sugya's own open status (Rava's revision pending, resolution deferred to 14a) is preserved rather than resolved, matching the daf's mid-argument physical cutoff at line 29 ('lomar')."
+          },
+          {
+            "path": "quizSeeds[0].question",
+            "importsNextDafConclusion": false,
+            "note": "Field states no conclusion beyond what lines 24-28 establish; the sugya's own open status (Rava's revision pending, resolution deferred to 14a) is preserved rather than resolved, matching the daf's mid-argument physical cutoff at line 29 ('lomar')."
+          },
+          {
+            "path": "quizSeeds[0].sourceRefs[0].note",
+            "importsNextDafConclusion": false,
+            "note": "Field states no conclusion beyond what lines 24-28 establish; the sugya's own open status (Rava's revision pending, resolution deferred to 14a) is preserved rather than resolved, matching the daf's mid-argument physical cutoff at line 29 ('lomar')."
+          },
+          {
+            "path": "quizSeeds[1].answer",
+            "importsNextDafConclusion": false,
+            "note": "Field states no conclusion beyond what lines 24-28 establish; the sugya's own open status (Rava's revision pending, resolution deferred to 14a) is preserved rather than resolved, matching the daf's mid-argument physical cutoff at line 29 ('lomar')."
+          },
+          {
+            "path": "quizSeeds[1].question",
+            "importsNextDafConclusion": false,
+            "note": "Field states no conclusion beyond what lines 24-28 establish; the sugya's own open status (Rava's revision pending, resolution deferred to 14a) is preserved rather than resolved, matching the daf's mid-argument physical cutoff at line 29 ('lomar')."
+          },
+          {
+            "path": "quizSeeds[1].sourceRefs[0].note",
+            "importsNextDafConclusion": false,
+            "note": "Field states no conclusion beyond what lines 24-28 establish; the sugya's own open status (Rava's revision pending, resolution deferred to 14a) is preserved rather than resolved, matching the daf's mid-argument physical cutoff at line 29 ('lomar')."
+          },
+          {
+            "path": "topicTags[1]",
+            "importsNextDafConclusion": false,
+            "note": "Field states no conclusion beyond what lines 24-28 establish; the sugya's own open status (Rava's revision pending, resolution deferred to 14a) is preserved rather than resolved, matching the daf's mid-argument physical cutoff at line 29 ('lomar')."
+          },
+          {
+            "path": "topicTags[2]",
+            "importsNextDafConclusion": false,
+            "note": "Field states no conclusion beyond what lines 24-28 establish; the sugya's own open status (Rava's revision pending, resolution deferred to 14a) is preserved rather than resolved, matching the daf's mid-argument physical cutoff at line 29 ('lomar')."
+          },
+          {
+            "path": "visualizableElements[0].item",
+            "importsNextDafConclusion": false,
+            "note": "Field states no conclusion beyond what lines 24-28 establish; the sugya's own open status (Rava's revision pending, resolution deferred to 14a) is preserved rather than resolved, matching the daf's mid-argument physical cutoff at line 29 ('lomar')."
+          },
+          {
+            "path": "visualizableElements[0].type",
+            "importsNextDafConclusion": false,
+            "note": "Field states no conclusion beyond what lines 24-28 establish; the sugya's own open status (Rava's revision pending, resolution deferred to 14a) is preserved rather than resolved, matching the daf's mid-argument physical cutoff at line 29 ('lomar')."
+          },
+          {
+            "path": "visualizableElements[1].item",
+            "importsNextDafConclusion": false,
+            "note": "Field states no conclusion beyond what lines 24-28 establish; the sugya's own open status (Rava's revision pending, resolution deferred to 14a) is preserved rather than resolved, matching the daf's mid-argument physical cutoff at line 29 ('lomar')."
+          },
+          {
+            "path": "visualizableElements[1].type",
+            "importsNextDafConclusion": false,
+            "note": "Field states no conclusion beyond what lines 24-28 establish; the sugya's own open status (Rava's revision pending, resolution deferred to 14a) is preserved rather than resolved, matching the daf's mid-argument physical cutoff at line 29 ('lomar')."
+          }
+        ],
+        "staleContentSweep": {
+          "entries": [
+            {
+              "category": "stale_original_error",
+              "found": false
+            },
+            {
+              "category": "stale_speaker_or_attribution",
+              "found": false
+            },
+            {
+              "category": "contradictory_speaker_attribution",
+              "found": false
+            },
+            {
+              "category": "old_conclusion_in_secondary_field",
+              "found": false
+            },
+            {
+              "category": "false_closure",
+              "found": false
+            },
+            {
+              "category": "next_daf_content_leaked_backward",
+              "found": false
+            },
+            {
+              "category": "claim_unsupported_by_physical_daf",
+              "found": false
+            },
+            {
+              "category": "stale_quiz_question_or_answer",
+              "found": false
+            },
+            {
+              "category": "stale_final_ruling",
+              "found": false
+            },
+            {
+              "category": "stale_summary",
+              "found": false
+            },
+            {
+              "category": "stale_learning_field",
+              "found": false
+            },
+            {
+              "category": "stale_misconception",
+              "found": false
+            },
+            {
+              "category": "stale_related_sugya_description",
+              "found": false
+            },
+            {
+              "category": "stale_visualizable_element_prose",
+              "found": false
+            },
+            {
+              "category": "source_refs_no_longer_supporting_claim",
+              "found": false
+            },
+            {
+              "category": "reference_outside_declared_line_range",
+              "found": false
+            }
+          ]
+        }
+      },
+      "certifiedAtCommit": "773c3c4e13a3806dd407f60642525ba761a6fc24"
     }
   }
 }

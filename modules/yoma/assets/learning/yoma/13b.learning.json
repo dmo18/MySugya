@@ -1,7 +1,7 @@
 {
  "daf": "13b",
  "canonicalRef": "Yoma 13b",
- "summary": "The conditional divorce discussion from 13a reaches its resolution: by divorcing both wives with complementary conditions ('on condition your counterpart dies' to Wife 1; 'on condition you don't enter the synagogue on YK' to Wife 2), the KG can ensure exactly one divorce takes effect - but two scholars raise objections from levirate marriage law that must be addressed. The page then opens a major new topic: the onen (acute mourner) High Priest. A baraita rules he may sacrifice on Yom Kippur but not eat kodshim. R. Yehuda adds 'the whole day,' which Rava interprets as a mitzva to bring the onen KG from home to perform service. Abaye challenges this, and the page closes mid-argument with Rava's position being revised.",
+ "summary": "The conditional divorce discussion from 13a reaches its resolution: two rejected formulas (a single get 'on condition your counterpart dies,' then a paired 'counterpart doesn't die'/'you don't enter the synagogue' get) are refuted before the Gemara settles on the working formula, which ties Wife 2's condition to the husband's own act of entering the synagogue - but two scholars raise objections from levirate marriage law that must be addressed. The page then opens a major new topic: the onen (acute mourner) High Priest. A baraita rules he may sacrifice on Yom Kippur but not eat kodshim. R. Yehuda adds 'the whole day,' which Rava interprets as a mitzva to bring the onen KG from home to perform service. Abaye challenges this, and the page closes mid-argument with Rava's position being revised.",
  "review": {
   "content": "ai_generated",
   "sourceRefs": "ai_generated"
@@ -12,7 +12,7 @@
    "id": "yoma-13b-s01",
    "lineRange": {
     "startVilnaLine": 1,
-    "endVilnaLine": 11
+    "endVilnaLine": 19
    },
    "lines": [
     {
@@ -34,66 +34,66 @@
     "Yoma.13b.3"
    ],
    "display": {
-    "title": "Two-pronged conditional divorce solves the backup-wife puzzle",
-    "oneLine": "By divorcing both wives with mutually exclusive conditions, the KG can ensure exactly one divorce is ever valid, solving the puzzle left open on 13a.",
-    "whats": "The Gemara finally resolves the backup-wife puzzle (from 13a) with a two-pronged conditional divorce: to Wife 1 he says 'this is your get on condition your counterpart dies'; to Wife 2 he says 'this is your get on condition you don't enter the synagogue on YK.' Exactly one condition will be fulfilled - either Wife 2 dies (Wife 1's get is valid) or Wife 2 doesn't enter the synagogue (her own get is valid). In either case, one divorce is valid and one is not, leaving the KG with exactly one wife throughout. Two scholars then object from levirate marriage law: this formula would also eliminate yibum for the surviving wife. Both objections are resolved by scriptural amplifications.",
-    "hint": "The brilliance of the two-pronged formula: the conditions are mutually exclusive. If Wife 2 dies, her counterpart (Wife 1) receives the get. If Wife 2 survives and avoids the synagogue, she herself receives the get. One and only one get takes effect - the KG always has exactly one wife."
+    "title": "After two rejected attempts, the KG's final formula ties Wife 2's get to his own act",
+    "oneLine": "Two successive rejected formulas - a single conditional get, then a paired 'counterpart doesn't die'/'you don't enter the synagogue' get - are refuted before the Gemara's actual working formula, which ties the second wife's condition to the husband's own act of entering the synagogue.",
+    "whats": "Continuing from 13a: first, to one wife alone he says 'this is your get on condition your counterpart dies.' But perhaps the counterpart does die - the get then becomes valid retroactively, and he is left with no wife at all; this is rejected. Second attempt: he divorces both wives - to one, 'on condition your counterpart does not die,' to the other, 'on condition you do not enter the synagogue on YK.' But perhaps the counterpart does not die and she does not enter the synagogue - then both gets are valid and he ends up with no wife at all; this too is rejected. The Gemara then gives the formula that actually works: to Wife 1, 'on condition your counterpart does not die'; to Wife 2, 'on condition I (the husband) enter the synagogue.' Now if Wife 2 dies, Wife 1's get stands; if Wife 2 lives, Wife 2's get stands only once the husband himself enters the synagogue - his own act, not her compliance. The Gemara adds the retroactivity subtlety: if it looks like Wife 2 is about to die mid-service, he can preemptively enter the synagogue himself, making Wife 2's get retroactively valid. Two scholars then object from levirate marriage law; both are resolved by scriptural amplifications.",
+    "hint": "Why do the first two conditional-divorce formulas fail, and how does making the second wife's condition depend on the husband's own action ensure that exactly one marriage survives?"
    },
    "learning": {
     "learnerQuestion": "Can a conditional divorce formula be designed so that exactly one of the KG's two wives is ever actually divorced?",
-    "coreTension": "Every earlier formula on 13a either left the KG with no wife or with two wives at some moment; success requires conditions that can never both be true or both be false at once.",
-    "coreMove": "The Gemara constructs two complementary conditions: Wife 1's get triggers if Wife 2 dies, Wife 2's get triggers if she avoids the synagogue. Exactly one divorce is always valid. Two yibum objections then challenge the formula but are resolved by scriptural amplification.",
-    "ahaMoment": "The lock-and-key insight: design conditions that are mutually exclusive, so exactly one divorce is always valid. The KG's 'two-wife' problem was actually a problem of simultaneous validity - solved by staggering the conditions.",
-    "memoryAnchor": "Two wives, two gets, two mutually exclusive conditions - exactly one takes effect, always leaving one valid marriage.",
-    "learningBlocker": "Learners may think the levirate objections show the formula doesn't really work. They are downstream edge cases about a different law, yibum, not a flaw in the divorce mechanics itself, and both are resolved.",
+    "coreTension": "Every earlier formula on 13a and both attempts tried here either leave the outcome unresolved mid-service or let both conditions hold at once, leaving the KG with no wife; success requires conditions that can never both be true or both be false simultaneously.",
+    "coreMove": "The first attempt (single get, 'on condition your counterpart dies') is refuted because if the counterpart dies, the get is retroactively valid and he is left with no wife at all. The second attempt (paired 'counterpart doesn't die'/'you don't enter the synagogue') is refuted because both conditions can hold at once. The Gemara's actual solution makes Wife 2's condition the husband's own entry into the synagogue - an act fully under his control, which he can even trigger preemptively to secure retroactive validity.",
+    "ahaMoment": "Making the second condition the husband's own act, rather than something the wife does, is what finally guarantees mutual exclusivity: he alone controls whether and when he enters the synagogue.",
+    "memoryAnchor": "First try fails (if the counterpart dies, he's left with no wife at all); second try fails (both conditions about the wives can hold together); final fix ties one condition to the husband's own entry into the synagogue.",
+    "learningBlocker": "Learners may think one of the two rejected formulas presented first ('counterpart dies' alone, or the paired 'counterpart doesn't die'/'you don't enter the synagogue') is the Gemara's accepted solution. Both are explicitly refuted; the accepted formula replaces the second wife's condition with the husband's own act.",
     "takeaway": {
      "type": "logical_principle",
-     "text": "Two complementary, mutually exclusive conditions can guarantee exactly one divorce is valid: if one condition fails, the other necessarily holds."
+     "text": "Tying one wife's condition to the husband's own controllable act, rather than to anything the wife does, is what finally guarantees exactly one divorce is always valid."
     }
    },
    "argumentFlow": [
     {
      "id": "step-01",
-     "type": "solution",
-     "label": "Two-pronged conditional divorce: mutually exclusive conditions",
+     "type": "proposal",
+     "label": "First attempt (rejected): single get 'on condition your counterpart dies'",
      "speaker": "Gemara",
-     "text": "Wife 1 gets: 'This is your get on condition your counterpart dies.' Wife 2 gets: 'This is your get on condition you don't enter the synagogue on YK.' If Wife 2 dies - Wife 1's condition is met, her get is valid. If Wife 2 lives and avoids shul - her own get is valid. Exactly one divorce is always effective.",
+     "text": "To one wife alone, he says: 'This is your get on condition your counterpart dies.' But perhaps the counterpart does die - the get then becomes valid retroactively, and he is left with no wife at all. This formula is rejected.",
      "sourceRefs": [
       {
        "sourceType": "gemara",
        "lineId": "yoma-013b-l01",
        "vilnaLine": 1,
-       "note": "The two-pronged solution"
+       "note": "First, rejected (single-get) formula"
       }
      ]
     },
     {
      "id": "step-02",
-     "type": "objection",
-     "label": "Yibum objection 1: two yevamot from one man",
-     "speaker": "First objector",
-     "text": "If the KG's brother dies childless, both women face levirate marriage. But the Torah says 'bayto' (his house, singular) for yibum - two women from one man cannot both do yibum. Does this invalidate the formula?",
+     "type": "proposal",
+     "label": "Second attempt (rejected): paired 'counterpart doesn't die' / 'you don't enter the synagogue'",
+     "speaker": "Gemara",
+     "text": "He divorces both wives: to one, 'This is your get on condition your counterpart does not die.' To the other, 'This is your get on condition you do not enter the synagogue on YK.' But perhaps the counterpart does not die and she does not enter the synagogue - then both gets are valid and he is left with no wife at all. This formula is also rejected.",
      "sourceRefs": [
       {
        "sourceType": "gemara",
        "lineId": "yoma-013b-l05",
        "vilnaLine": 5,
-       "note": "First yibum objection"
+       "note": "Second, rejected (paired) formula"
       }
      ]
     },
     {
      "id": "step-03",
-     "type": "resolution",
-     "label": "Scriptural amplification resolves both objections",
+     "type": "solution",
+     "label": "Final formula: Wife 2's condition is the husband's own act",
      "speaker": "Gemara",
-     "text": "Both yibum objections (two yevamot from one man; betrothed wife) are resolved by scriptural amplifications showing that 'bayto' in the yibum context admits these cases. The conditional divorce formula stands.",
+     "text": "To Wife 1: 'This is your get on condition your counterpart does not die.' To Wife 2: 'This is your get on condition I (the husband) enter the synagogue.' If Wife 2 dies, Wife 1's get stands; if Wife 2 lives, her own get stands only once the husband himself enters the synagogue. He can even preempt her death by entering the synagogue beforehand, making her get retroactively valid.",
      "sourceRefs": [
       {
        "sourceType": "gemara",
        "lineId": "yoma-013b-l11",
        "vilnaLine": 11,
-       "note": "Resolution via drasha"
+       "note": "The working formula and its retroactivity explanation"
       }
      ]
     }
@@ -101,24 +101,25 @@
    "topicTags": [
     "get",
     "conditional divorce",
-    "yibum",
+    "retroactive-get",
     "kehuna gedola",
     "mutually exclusive conditions"
    ],
    "conceptRefs": [
     "Yoma.13b.1",
-    "Yoma.13b.2"
+    "Yoma.13b.2",
+    "Yoma.13b.3"
    ],
    "requiresUnderstanding": [],
    "misconceptions": [
     {
-     "misconception": "The two-pronged solution creates a two-wife situation at some moment.",
-     "correction": "The conditions are designed to be mutually exclusive, so only one get can ever be valid at a time.",
-     "correctedByStepId": "step-01"
+     "misconception": "The paired formula 'counterpart doesn't die' / 'you don't enter the synagogue' is the Gemara's accepted solution.",
+     "correction": "That formula is explicitly refuted: both conditions can hold at once, voiding both marriages. The accepted formula ties Wife 2's condition to the husband's own act of entering the synagogue.",
+     "correctedByStepId": "step-03"
     },
     {
-     "misconception": "The yibum objections are fatal to the formula.",
-     "correction": "They are edge cases about a separate law, levirate marriage, resolved by scriptural amplification rather than flaws in the divorce mechanics.",
+     "misconception": "The final, accepted solution creates a two-wife situation at some moment.",
+     "correction": "The final, accepted conditions are mutually exclusive, so only one get can ever be valid at a time.",
      "correctedByStepId": "step-03"
     }
    ],
@@ -127,41 +128,41 @@
    ],
    "visualizableElements": [
     {
-     "item": "Two conditions, two outcomes: Wife 2 dies (Wife 1's get valid) or Wife 2 avoids synagogue (Wife 2's get valid). A decision tree with exactly one active branch.",
+     "item": "Rejected second attempt: Wife 1's get triggers if Wife 2 doesn't die; Wife 2's own get triggers if she avoids the synagogue - both conditions can hold together, voiding both marriages.",
      "type": "sequence"
     },
     {
-     "item": "The complementary conditions as a logical diagram: P leads to Wife 1's get; not-P leads to Wife 2's get; P and not-P are mutually exclusive.",
+     "item": "Accepted formula: Wife 1's get triggers if Wife 2 does not die; Wife 2's get triggers only once the husband himself enters the synagogue - his own controllable act, not hers.",
      "type": "text"
     }
    ],
    "quizSeeds": [
     {
-     "question": "Why does the two-pronged conditional divorce formula succeed where the earlier formulas failed?",
-     "answer": "The conditions are mutually exclusive - exactly one can be fulfilled, ensuring exactly one divorce is always valid and the other marriage always continues. Earlier formulas had conditions that could both be fulfilled or both fail.",
+     "question": "Why does the second conditional divorce formula ('counterpart doesn't die' / 'you don't enter the synagogue') fail?",
+     "answer": "Both conditions can hold at the same time - the counterpart doesn't die and the wife simply avoids the synagogue - which makes both gets valid and leaves the KG with no wife at all.",
      "sourceRefs": [
       {
        "sourceType": "gemara",
-       "lineId": "yoma-13b-l01",
-       "vilnaLine": 1,
-       "note": "The two-pronged solution"
+       "lineId": "yoma-013b-l05",
+       "vilnaLine": 5,
+       "note": "Second, rejected (paired) formula"
       }
      ]
     },
     {
-     "question": "What objection is raised against the two-pronged formula from levirate marriage law?",
-     "answer": "If the KG's brother dies childless, both women would face yibum, but 'bayto' (singular) in the yibum verse suggests only one woman can be the yevamah.",
+     "question": "What makes the final, accepted formula succeed where both earlier attempts failed?",
+     "answer": "The second wife's condition is tied to the husband's own act - his entering the synagogue - rather than to anything the wife herself does, guaranteeing the two conditions are truly mutually exclusive.",
      "sourceRefs": [
       {
        "sourceType": "gemara",
-       "lineId": "yoma-13b-l02",
-       "vilnaLine": 5,
-       "note": "First yibum objection"
+       "lineId": "yoma-013b-l11",
+       "vilnaLine": 11,
+       "note": "The working formula"
       }
      ]
     }
    ],
-   "finalRuling": "The two-pronged conditional divorce is valid in principle. Both yibum objections are resolved. This is R. Yehuda's mechanism for the backup-wife arrangement.",
+   "finalRuling": "The working conditional-divorce formula ties Wife 2's condition to the husband's own entry into the synagogue. Both subsequent yibum objections (covered in yoma-13b-s02) are resolved.",
    "difficulty": "advanced",
    "alternateAngles": [],
    "review": {
@@ -181,7 +182,7 @@
    "id": "yoma-13b-s02",
    "lineRange": {
     "startVilnaLine": 20,
-    "endVilnaLine": 22
+    "endVilnaLine": 23
    },
    "lines": [
     {
@@ -198,21 +199,21 @@
     "Yoma.13b.5"
    ],
    "display": {
-    "title": "Same word, different scope: 'bayto' restricts the KG but expands for yibum",
-    "oneLine": "Two yibum-based objections to the conditional divorce formula are resolved by showing 'bayto' functions differently in the KG's Yom Kippur law than in levirate marriage law.",
-    "whats": "Two parallel objections from levirate marriage law, each raised by a different sage. First: if two yevamot come from the same man (the KG's brother dies childless and both wives face yibum) - the Torah's 'bayto' (singular 'his house') implies only one can do yibum. Second: a betrothed woman (arusah) - does she do yibum or not? The Gemara resolves both objections through scriptural amplifications: 'bayto' in the yibum context explicitly includes these cases.",
-    "hint": "Both objections import the 'one house' requirement from the KG's Yom Kippur context into the yibum context - but the same word ('bayto') functions differently in each passage. Distinguishing the contexts resolves both challenges."
+    "title": "Two yibum objections, two distinct amplifications override the 'one house' restriction",
+    "oneLine": "Two objections try to import the KG's 'one house' restriction into levirate marriage law; each is resolved by its own distinct scriptural amplification, not a shared expansive reading of 'bayto'.",
+    "whats": "Two parallel objections from levirate marriage law, each raised by a different sage. First: if two yevamot come from the same man (the KG's brother dies childless and both wives face yibum) - the Torah's 'bayto' (singular 'his house') implies only one can do yibum. Second: a betrothed woman (arusah) - does she do yibum or not? The Gemara resolves the first objection through the doubled phrase 'yevamato yevamato' (a ribui, amplification), and the second through the word 'hachutza' ('outside') - two separate amplifications, not a single shared mechanism.",
+    "hint": "Why do the two yibum objections require distinct scriptural answers—'yevamto yevamto' for the two-yevamot case and 'hachutza' for the arusah case—rather than one reinterpretation of 'bayto'?"
    },
    "learning": {
     "learnerQuestion": "If 'bayto' restricts the KG to one wife on Yom Kippur, doesn't it also restrict yibum to only one of his two wives, and exclude a merely betrothed wife?",
-    "coreTension": "The same Hebrew word appears to import a one-house restriction from the KG's Yom Kippur law into the entirely separate law of levirate marriage.",
-    "coreMove": "Both objections are resolved by scriptural amplification: 'bayto' in the yibum verse (Deuteronomy 25) is read expansively to include multiple yevamot and a betrothed wife, unlike its restrictive use in the KG's Yom Kippur verse (Leviticus 16).",
-    "ahaMoment": "The same Hebrew word ('bayto') carries different legal weight in different biblical contexts - one usage (Leviticus 16, the KG) restricts to one wife; another (Deuteronomy 25, yibum) is more inclusive.",
-    "memoryAnchor": "One word, two laws, two rulings: 'bayto' means something different in the KG's YK law vs. the levirate law.",
+    "coreTension": "The KG's 'one house' restriction appears to import itself into the entirely separate law of levirate marriage, but each resulting objection is answered by its own distinct scriptural amplification rather than a shared reinterpretation of any single word.",
+    "coreMove": "Both objections are resolved by scriptural amplification (ribui) - but each via a different word: the first by the doubled phrase 'yevamato yevamato', the second by 'hachutza' ('outside') - not by any expansive reinterpretation of 'bayto' itself.",
+    "ahaMoment": "The 'one house' restriction from the KG's Yom Kippur law (Leviticus 16) does not carry over into levirate marriage law (Deuteronomy 25) - the Gemara overrides it for each objection through its own distinct amplification, not by redefining 'bayto'.",
+    "memoryAnchor": "Two objections, two separate amplifications: 'yevamato yevamato' lifts the two-yevamot problem; 'hachutza' lifts the arusah problem - neither relies on redefining 'bayto'.",
     "learningBlocker": "Learners may assume one word must carry one consistent legal scope across the Torah. This sugya shows the same word can be restrictive in one verse and expansive in another, each governed by its own derasha.",
     "takeaway": {
      "type": "derivation_principle",
-     "text": "The same word can carry different legal scope in different verses: 'bayto' restricts the KG to one wife in Leviticus 16 but is read expansively for yibum in Deuteronomy 25."
+     "text": "Objections sharing a surface resemblance can be resolved by entirely distinct scriptural derashot: here a doubled-word amplification ('yevamato yevamato') answers the first objection, and a different word's amplification ('hachutza') answers the second - not a single unifying reinterpretation of 'bayto'."
     }
    },
    "argumentFlow": [
@@ -220,7 +221,7 @@
      "id": "step-01",
      "type": "objection",
      "label": "Objection: two yevamot from one man cannot both do yibum",
-     "speaker": "First sage",
+     "speaker": "Rav Asi (or, some say, Rav Avira)",
      "text": "If both wives face yibum ('bayto' - his house, singular), the formula creates an impossible levirate situation: two women, one yibum obligation.",
      "sourceRefs": [
       {
@@ -234,15 +235,15 @@
     {
      "id": "step-02",
      "type": "objection",
-     "label": "Objection: betrothed wife (arusah) cannot do yibum",
-     "speaker": "Second sage",
-     "text": "The backup wife is presumably an arusah (betrothed, not yet married). The yibum obligation ('bayto') requires a full 'bayit' - an arusah who hasn't entered the household might be excluded.",
+     "label": "Objection: betrothed wife (arusah) cannot do yibum - resolved by 'outside' (hachutza)",
+     "speaker": "Ravina (or Rav Sherevya)",
+     "text": "Ravina (or, some say, Rav Sherevya) objects: if so, a betrothed woman (arusah) should not be eligible for yibum either. The Gemara resolves this from the word 'outside' (hachutza) in the yibum verse, which is read to amplify and include the betrothed woman.",
      "sourceRefs": [
       {
        "sourceType": "gemara",
        "lineId": "yoma-013b-l22",
        "vilnaLine": 22,
-       "note": "Second yibum objection"
+       "note": "Arusah objection and its resolution via 'outside' (hachutza)"
       }
      ]
     }
@@ -267,7 +268,7 @@
     },
     {
      "misconception": "'bayto' must function the same restrictive way in the yibum context as it does for the KG.",
-     "correction": "The resolution shows 'bayto' in the yibum context is read inclusively, opposite to its restrictive function in the KG's Yom Kippur context.",
+     "correction": "The resolution does not reinterpret 'bayto' itself; each objection is answered by its own distinct amplification - 'yevamato yevamato' for the first objection, 'hachutza' for the second.",
      "correctedByStepId": "step-02"
     }
    ],
@@ -280,7 +281,7 @@
      "type": "text"
     },
     {
-     "item": "KG's 'bayto' (restrictive: exactly one wife) vs. yibum 'bayto' (inclusive: multiple women, betrothed women)",
+     "item": "KG's 'bayto' (restrictive: exactly one wife) vs. the two distinct yibum-law amplifications ('yevamato yevamato' and 'hachutza') that override that restriction",
      "type": "contrast"
     }
    ],
@@ -291,18 +292,18 @@
      "sourceRefs": [
       {
        "sourceType": "gemara",
-       "lineId": "yoma-13b-l05",
+       "lineId": "yoma-013b-l22",
        "vilnaLine": 22,
-       "note": "Second yibum objection"
+       "note": "Arusah objection and its resolution via 'outside' (hachutza)"
       }
      ]
     },
     {
-     "question": "How does 'bayto' function differently in the KG's YK context vs. the yibum context?",
-     "answer": "In the KG's YK context (Leviticus 16), 'bayto' restricts him to one wife. In the yibum context (Deuteronomy 25), 'bayto' is interpreted more expansively, including multiple women and betrothed wives."
+     "question": "How does the Gemara resolve each of the two yibum-law objections to the conditional divorce formula?",
+     "answer": "The first objection (two yevamot from one house) is resolved by the doubled phrase 'yevamato yevamato' (a ribui, amplification). The second objection (arusah) is resolved by the separate word 'hachutza' ('outside'). Neither resolution rests on reinterpreting the word 'bayto' itself."
     }
    ],
-   "finalRuling": "Both yibum objections are resolved by scriptural amplification. The two-pronged conditional divorce formula remains valid.",
+   "finalRuling": "Both yibum objections are resolved by their own distinct scriptural amplification (the first via 'yevamato yevamato', the second via 'hachutza'). The two-pronged conditional divorce formula remains valid.",
    "difficulty": "advanced",
    "alternateAngles": [],
    "review": {
@@ -350,13 +351,13 @@
    "display": {
     "title": "The onen High Priest: he serves, but he doesn't eat",
     "oneLine": "The onen KG performs Yom Kippur service despite his mourning, but R. Yehuda's 'kol hayom' addition triggers a contested reading from Rava that Abaye challenges.",
-    "whats": "New topic: the onen (acute mourner - someone whose close relative died that day, before burial). The mishna of Yoma says the KG performs the Yom Kippur service even as an onen. A baraita elaborates: he sacrifices but does not eat the sacred food afterward. R. Yehuda adds: 'kol hayom' (the whole day). Rava interprets this as a mitzva to bring the onen KG from his home to serve, to ease his grief through holy work. Abaye challenges: 'if the Rabbanan say he should not go out, how can R. Yehuda say he should come in?' Rava revises his explanation.",
+    "whats": "New topic: the onen (acute mourner - someone whose close relative died that day, before burial). The mishna of Yoma says the KG performs the Yom Kippur service even as an onen. A baraita elaborates: he sacrifices but does not eat the sacred food afterward. R. Yehuda adds: 'kol hayom' (the whole day). Rava interprets this as a mitzva to bring the onen KG from his home to serve, to ease his grief through holy work. Abaye challenges by citing a baraita in R. Yehuda's own name: a priest already mid-service who hears of a relative's death must stop and leave (R. Yosei disagrees). If R. Yehuda himself holds that aninut removes a priest mid-service, how can Rava read his 'kol hayom' as mandating that the onen be actively brought in? Rava revises his explanation.",
     "hint": "The KG is simultaneously subject to two competing demands: the acute mourner is supposed to stay home and grieve; the KG's unique status requires Yom Kippur service to continue. The baraita resolves in favor of service over mourning - he sacrifices but does not eat."
    },
    "learning": {
     "learnerQuestion": "Does the KG's Yom Kippur service obligation override his status as an acute mourner, and what does R. Yehuda's 'the whole day' actually add to that rule?",
     "coreTension": "The onen is ordinarily absorbed in mourning and restricted from many activities, yet the KG's unique Yom Kippur role demands continuous service; R. Yehuda's extra phrase 'kol hayom' could mean either an obligation to serve more or a restriction to serve less.",
-    "coreMove": "The baraita rules the onen KG sacrifices but does not eat kodshim. Rava first reads R. Yehuda's 'kol hayom' as a mitzva to actively bring the onen KG from home to serve all day, but Abaye's challenge, that the Rabbanan forbid him from leaving once he is there, forces Rava to revise that reading.",
+    "coreMove": "The baraita rules the onen KG sacrifices but does not eat kodshim. Rava first reads R. Yehuda's 'kol hayom' as a mitzva to actively bring the onen KG from home to serve all day, but Abaye's challenge, citing a baraita in R. Yehuda's own name that a mid-service priest who hears of a death must leave, exposes an internal contradiction and forces Rava to revise that reading.",
     "ahaMoment": "Service overrides personal mourning for the KG on Yom Kippur - the public obligation outweighs private grief. But the prohibition on eating kodshim as an onen remains in force.",
     "memoryAnchor": "The onen KG: he serves but doesn't eat. His grief is real but his Yom Kippur duty takes precedence.",
     "learningBlocker": "Learners may take Rava's first interpretation as the final word. The sugya explicitly shows it under live challenge from Abaye, with the resolution deferred to 14a.",
@@ -390,9 +391,9 @@
      "sourceRefs": [
       {
        "sourceType": "gemara",
-       "lineId": "yoma-013b-l25",
-       "vilnaLine": 25,
-       "note": "R. Yehuda's addition"
+       "lineId": "yoma-013b-l24",
+       "vilnaLine": 24,
+       "note": "R. Yehuda's addition (within the same baraita line)"
       }
      ]
     },
@@ -405,24 +406,24 @@
      "sourceRefs": [
       {
        "sourceType": "gemara",
-       "lineId": "yoma-013b-l28",
-       "vilnaLine": 28,
-       "note": "Rava's interpretation"
+       "lineId": "yoma-013b-l25",
+       "vilnaLine": 25,
+       "note": "Rava's first interpretation"
       }
      ]
     },
     {
      "id": "step-04",
      "type": "challenge",
-     "label": "Abaye: contradiction - 'the Rabbanan say don't go out, R. Yehuda says come in?'",
+     "label": "Abaye: R. Yehuda's own ruling contradicts bringing the onen in",
      "speaker": "Abaye",
-     "text": "Abaye challenges Rava: the Rabbanan rule that the onen KG may not leave the Temple once there; how then can R. Yehuda be mandating bringing him from home (bringing him 'in' vs. the Rabbanan's 'don't go out')? Rava must revise.",
+     "text": "Abaye challenges Rava by citing a baraita stated in R. Yehuda's own name: a priest already performing the service who hears that a relative has died stops and leaves (R. Yosei disagrees, holding he finishes) - this is about an ordinary priest, not the KG specifically. If R. Yehuda himself holds that aninut removes a priest from service mid-way, how can Rava read R. Yehuda's 'kol hayom' as mandating that an onen be actively brought in to begin service? Rava must revise his interpretation.",
      "sourceRefs": [
       {
        "sourceType": "gemara",
-       "lineId": "yoma-013b-l29",
-       "vilnaLine": 29,
-       "note": "Abaye's challenge"
+       "lineId": "yoma-013b-l25",
+       "vilnaLine": 26,
+       "note": "Abaye's challenge (spanning vilna lines 25-28), citing R. Yehuda's own ruling that an onen leaves mid-service"
       }
      ]
     }
@@ -446,8 +447,8 @@
      "correctedByStepId": "step-01"
     },
     {
-     "misconception": "Rava's interpretation that it is a mitzva to bring him from home is the final ruling.",
-     "correction": "It is challenged by Abaye and will be revised; the resolution is deferred to 14a.",
+     "misconception": "Abaye's challenge is that 'the Rabbanan' forbid the onen KG from leaving the Temple.",
+     "correction": "The baraita Abaye cites rules in R. Yehuda's own name (not the Rabbanan's) that a priest mid-service who hears of a death must leave; Abaye's point is an internal contradiction within R. Yehuda's own position, and Rava's reading will be revised; the resolution is deferred to 14a.",
      "correctedByStepId": "step-04"
     }
    ],
@@ -471,7 +472,7 @@
      "sourceRefs": [
       {
        "sourceType": "gemara",
-       "lineId": "yoma-13b-l06",
+       "lineId": "yoma-013b-l24",
        "vilnaLine": 24,
        "note": "Baraita ruling"
       }
@@ -479,18 +480,18 @@
     },
     {
      "question": "What challenge does Abaye raise against Rava's interpretation of 'kol hayom'?",
-     "answer": "Abaye points out that the Rabbanan rule the onen KG may not leave the Temple; Rava says R. Yehuda mandates bringing him from home - these positions seem to contradict each other.",
+     "answer": "Abaye cites a baraita in R. Yehuda's own name ruling that a priest already mid-service who hears of a relative's death must stop and leave - seemingly contradicting Rava's claim that R. Yehuda mandates actively bringing an onen in to begin service.",
      "sourceRefs": [
       {
        "sourceType": "gemara",
-       "lineId": "yoma-13b-l09",
-       "vilnaLine": 29,
-       "note": "Abaye's challenge"
+       "lineId": "yoma-013b-l25",
+       "vilnaLine": 26,
+       "note": "Abaye's challenge (spanning vilna lines 25-28)"
       }
      ]
     }
    ],
-   "finalRuling": "The onen KG serves on Yom Kippur but does not eat kodshim. The interpretation of 'kol hayom' is under debate, resolved on 14a.",
+   "finalRuling": "The onen KG serves on Yom Kippur but does not eat kodshim. Rava's reading of 'kol hayom' as a mitzva to bring the onen KG from home is challenged by Abaye (citing R. Yehuda's own ruling, elsewhere, that an onen priest mid-service must stop and leave) and is revised; resolved on 14a.",
    "difficulty": "intermediate",
    "alternateAngles": [],
    "review": {
