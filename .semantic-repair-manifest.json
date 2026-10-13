@@ -2,18 +2,7 @@
   "schemaVersion": "1.0",
   "type": "semantic-daf-repair",
   "module": "yoma",
-  "daf": "14a",
-  "sugyaIds": [
-    "yoma-14a-s01",
-    "yoma-14a-s02",
-    "yoma-14a-s03"
-  ],
-  "firstReviewId": "14a-mechanical-repair-2026-10-13-s03",
-  "policy": {
-    "sourceFirst": true,
-    "independentSecondPassRequired": true,
-    "rawSourceImmutable": true,
-    "rashiTranslationsImmutable": true,
-    "certificationRegistryRequired": true
-  }
+  "daf": "14b",
+  "sugyaIds": ["yoma-14b-s01", "yoma-14b-s02", "yoma-14b-s03"],
+  "firstReviewId": "yoma-14b-first-pass"
 }

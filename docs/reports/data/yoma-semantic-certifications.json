@@ -122573,6 +122573,4368 @@
         }
       },
       "certifiedAtCommit": "b442e56a1a2696014def631068f176dcf01221fd"
+    },
+    "yoma-14b-s01": {
+      "sugyaId": "yoma-14b-s01",
+      "daf": "14b",
+      "state": "CERTIFIED",
+      "firstPass": {
+        "reviewId": "14b-second-pass-v2-2026-10-13",
+        "reviewerContextId": "agent:rabbi:subagent:0c0e87bd-631a-48de-a25e-9fdfbe589e37",
+        "sourceFirst": true,
+        "verdict": "REPAIR_REQUIRED",
+        "reviewedSourceFingerprint": "fd2517002aa4f14f0bbe20623211b716f43772d1182b3374f6aba1d84149e32b",
+        "reviewedSemanticFingerprint": "7e50c939500539b94cc9cae914c5d75b9769fcd7b87106b04816099655615f79",
+        "evidence": {
+          "origin": "independent-second-pass-rejection",
+          "reviewEvidence": {
+            "reviewId": "14b-second-pass-v2-2026-10-13",
+            "dafSummaryVerdict": "REJECTED",
+            "dafSummaryNotes": "The summary calls the final dispute a 'three-way dispute between Abba Shaul and the Rabbanan' — that is only two parties (Abba Shaul vs. the Rabbanan/anonymous baraita), not a three-way dispute. Also, because the summary describes the Abba Shaul/Rabbanan disagreement only generically (without stating which side holds which order), it does not itself state the reversal found in s03, but it inherits the ambiguity that the underlying sugya enrichment gets backwards. The earlier parts of the summary (R. Akiva/Abaye sprinkling resolution; Tamid vs. seder yoma man-tana identification) are accurate to the source.",
+            "sugyaVerdicts": {
+              "yoma-14b-s01": {
+                "verdict": "REJECTED",
+                "notes": "Content of the enrichment (Abaye's resolution: KG serves all day while pure, sprinkled only toward evening, then immerses and awaits nightfall) is accurate to vilnaLines 1-3 ('ראשי גבעולין ... אביי אמר אפילו תימא ר\"ע דעביד עבודה כוליה יומא ולפניא מדו עליה וטביל ועביד הערב השמש'). However, declaredLineRange is startVilnaLine=1, endVilnaLine=1 only. VilnaLine 2 ('ר\"ע דעביד עבודה כוליה יומא ולפניא מדו') is mid-sentence continuation of the same Abaye statement begun on line 1 and finished on line 3 — it is not a self-contained unit. Because s02's declaredLineRange starts at 3, vilnaLine 2 falls into an uncovered gap between s01 and s02. This is a genuine line-coverage gap, not just a stylistic nit: every vilnaLine must be covered by exactly one sugya, and line 2 currently is covered by none. The sentence content is already reflected inside s01's own enrichment text, so the fix is to extend s01's declaredLineRange to 1-2 (or 1-3) rather than a content rewrite."
+              },
+              "yoma-14b-s02": {
+                "verdict": "REJECTED",
+                "notes": "The substantive content is accurate: it correctly identifies the Tamid-vs-seder-yoma order contradiction (Tamid's mishna text order implies incense-before-lamps; the Yoma lottery mishna lists lamp-cleaning before incense), correctly uses the 'man tana' idiom as 'whose Tannaitic view does this anonymous ruling follow' rather than literal tractate authorship (lineIds yoma-014b-l07/l11/l14 and their paired vilnaLines 7/11/14 are internally consistent and correctly zero-padded), and correctly traces Rav Huna's attribution to R. Shimon ish HaMitzpah for Tamid, its refutation via the baraita showing he departs from Tamid's blood-order, and Rabbi Yochanan's reattribution to seder yoma. The defect is boundary-only: declaredLineRange starts at vilnaLine 3, leaving vilnaLine 2 (part of the same continuous Abaye statement that s01 begins) in an uncovered gap between s01 and s02 (see s01 notes). This must be corrected together with s01 so lines 1-15 are covered with no gap before this sugya can be certified."
+              },
+              "yoma-14b-s03": {
+                "verdict": "REJECTED",
+                "notes": "CONFIRMED FACTUAL REVERSAL: the enrichment swaps Abba Shaul's and the Rabbanan's positions on where incense falls relative to lamp-cleaning. The baraita at vilnaLines 25-28 reads: 'לא ייטיב את הנרות ואח\"כ יקטיר אלא יקטיר ואחר כך ייטיב' (the anonymous/Rabbanan view: he does NOT tend the lamps and then burn incense; RATHER he burns incense and AFTERWARD tends [the last two lamps] — i.e., five lamps, then incense, then the final two lamps) and 'אבא שאול אומר מטיב ואחר כך מקטיר' (Abba Shaul: he tends [the lamps, all seven, with the Tamid-blood sprinkling as the pause between the two lamp sessions] and ONLY AFTERWARD burns incense — i.e., incense comes LAST, after all lamp-cleaning is finished, not first). Abba Shaul's own proof-text at vilnaLines 28-30 ('בבקר בבקר בהיטיבו את הנרות והדר יקטירנה' — 'morning by morning, when he tends the lamps, and THEN he shall burn it') explicitly has tending the lamps before burning incense, confirming incense-last for Abba Shaul. The bundled relevantRashi for this sugya (vilnaLine 58) says the same thing explicitly: 'Abba Shaul says: he cleans — all of them before the incense, with the daily offering's blood as the pause.' But the currentEnrichment's display.whats, learning fields, argumentFlow step-03, memoryAnchor, visualizableElements sequence, quizSeeds answer, and finalRuling all state the opposite: 'Abba Shaul: incense is burned before all lamp-cleaning... Rabbanan: five lamps first, then incense, then the two remaining lamps.' The Rabbanan side (five-incense-two) happens to be correctly stated, but Abba Shaul's side is reversed (enrichment says incense-first; source and its own cited Rashi say incense-last/after all lamp-cleaning). This is a substantive, source-contradicted error that invalidates every field built on the dispute description and requires a full rewrite of display, learning, argumentFlow step-03, misconceptions, visualizableElements, quizSeeds, and finalRuling for this sugya. The underlying two-stage resolution (five lamps cleaned first, two cleaned later, pause differs by opinion) and the earlier internal-Yoma-contradiction framing (step-01, step-02) are accurate and can be kept."
+              }
+            },
+            "overallNotes": "Three defects found independently: (1) a genuine line-coverage gap at vilnaLine 2, uncovered by either s01 (ends at line 1) or s02 (starts at line 3) — fix by extending s01's declaredLineRange to include line 2; (2) the daf summary mischaracterizes the final dispute as 'three-way' when it is a two-way dispute between Abba Shaul and the Rabbanan; (3) a serious, source-contradicted reversal in s03 of Abba Shaul's and the Rabbanan's positions on incense-vs-lamp-cleaning order — the source baraita, Abba Shaul's own proof-text, and the bundled Rashi commentary all state Abba Shaul holds lamp-cleaning is completed before incense (incense last), while the enrichment states the opposite (incense first). This third defect is the most severe and requires a holistic rewrite of s03's dispute-dependent fields. The 'man tana' idiom in s02 is handled correctly (not mistaken for literal tractate authorship), and all lineId/vilnaLine pairings checked (l01, l03, l07, l11, l14, l16, l20, l22, l28, l31) are internally consistent with correct zero-padded daf-number formatting."
+          }
+        }
+      },
+      "repairRef": "cb0e11db2afd27fe81c762bb35115737d94dde5a",
+      "sourceFingerprint": "fd2517002aa4f14f0bbe20623211b716f43772d1182b3374f6aba1d84149e32b",
+      "semanticFingerprint": "690041593732f83cb66f6bf7870d179d17c30e069c057a537c0cf41edaed5e87",
+      "secondPass": {
+        "reviewId": "14b-s01-second-pass-v6-2026-10-13",
+        "reviewerContextId": "agent:rabbi:subagent:a7700b90-010a-46df-93fc-3d48a3947dde",
+        "sourceFirst": true,
+        "verdict": "CONFIRMED",
+        "reviewedSourceFingerprint": "fd2517002aa4f14f0bbe20623211b716f43772d1182b3374f6aba1d84149e32b",
+        "reviewedSemanticFingerprint": "690041593732f83cb66f6bf7870d179d17c30e069c057a537c0cf41edaed5e87",
+        "evidence": {
+          "summary": "Independent isolated reviewer with no prior context: performed a fresh source-first translation of vilna_line 1 from source_store.js (Abaye resolving R. Akiva paradox: KG serves all day while pure, sprinkled toward evening (lefanya), immerses, awaits nightfall) BEFORE reading the enrichment. Verified every field (display, learning, argumentFlow, misconceptions, quizSeeds, visualizableElements, finalRuling, conceptRefs, sefariaRefs, lineRange, lines) against that independent translation and found all faithful and non-fabricated. Explicitly confirmed zero content leakage from adjacent sugya 14b-2 (Tamid/menorah/ketoret attribution dispute, vilna_line 3+): no shared names (Rav Huna, Rabbi Yochanan, Rabbi Shimon Ish HaMitzpah) or concepts (ketoret, menorah, lottery/payis) appear in yoma-14b-s01."
+        }
+      },
+      "finalAudit": {
+        "reviewId": "yoma-14b-s01-final-audit-14b-s01-final-audit-v4",
+        "auditorContextId": "rabbi-subagent-34221428-228c-4b9b-b901-256606421dec",
+        "auditedSourceFingerprint": "fd2517002aa4f14f0bbe20623211b716f43772d1182b3374f6aba1d84149e32b",
+        "auditedSemanticFingerprint": "690041593732f83cb66f6bf7870d179d17c30e069c057a537c0cf41edaed5e87",
+        "dafBoundary": {
+          "rawLineCount": 31,
+          "finalRawLine": "בעידן",
+          "dafEndState": "MID_SENTENCE",
+          "note": "Raw daf 14b text ends mid-sentence at vilna_line 31 ('be'idan'); only yoma-14b-s03 (vilna_line 16-31) touches this boundary and its content is confirmed to not assert a false closure (dispute left open per source_store.js/raw text)."
+        },
+        "fieldInventory": [
+          {
+            "path": "lineRange",
+            "classification": "STRUCTURAL",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "lines",
+            "classification": "STRUCTURAL",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "dafLevel.glossary[0].en",
+            "classification": "SEMANTIC",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "14b",
+                "startVilnaLine": 1,
+                "endVilnaLine": 1
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "dafLevel.glossary[0].he",
+            "classification": "SEMANTIC",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "14b",
+                "startVilnaLine": 1,
+                "endVilnaLine": 1
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "dafLevel.glossary[0].translit",
+            "classification": "SEMANTIC",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "14b",
+                "startVilnaLine": 1,
+                "endVilnaLine": 1
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "dafLevel.glossary[1].en",
+            "classification": "SEMANTIC",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "14b",
+                "startVilnaLine": 1,
+                "endVilnaLine": 1
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "dafLevel.glossary[1].he",
+            "classification": "SEMANTIC",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "14b",
+                "startVilnaLine": 1,
+                "endVilnaLine": 1
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "dafLevel.glossary[1].translit",
+            "classification": "SEMANTIC",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "14b",
+                "startVilnaLine": 1,
+                "endVilnaLine": 1
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "dafLevel.glossary[2].en",
+            "classification": "SEMANTIC",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "14b",
+                "startVilnaLine": 1,
+                "endVilnaLine": 1
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "dafLevel.glossary[2].he",
+            "classification": "SEMANTIC",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "14b",
+                "startVilnaLine": 1,
+                "endVilnaLine": 1
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "dafLevel.glossary[2].translit",
+            "classification": "SEMANTIC",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "14b",
+                "startVilnaLine": 1,
+                "endVilnaLine": 1
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "dafLevel.glossary[3].en",
+            "classification": "SEMANTIC",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "14b",
+                "startVilnaLine": 1,
+                "endVilnaLine": 1
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "dafLevel.glossary[3].he",
+            "classification": "SEMANTIC",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "14b",
+                "startVilnaLine": 1,
+                "endVilnaLine": 1
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "dafLevel.glossary[3].translit",
+            "classification": "SEMANTIC",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "14b",
+                "startVilnaLine": 1,
+                "endVilnaLine": 1
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "dafLevel.summary",
+            "classification": "SEMANTIC",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "14b",
+                "startVilnaLine": 1,
+                "endVilnaLine": 1
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-01].id",
+            "classification": "STRUCTURAL",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-01].label",
+            "classification": "SEMANTIC",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "14b",
+                "startVilnaLine": 1,
+                "endVilnaLine": 1
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-01].sourceRefs[0].lineId",
+            "classification": "STRUCTURAL",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-01].sourceRefs[0].note",
+            "classification": "SEMANTIC",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "14b",
+                "startVilnaLine": 1,
+                "endVilnaLine": 1
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-01].sourceRefs[0].sourceType",
+            "classification": "STRUCTURAL",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-01].sourceRefs[0].vilnaLine",
+            "classification": "STRUCTURAL",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-01].speaker",
+            "classification": "SEMANTIC",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "14b",
+                "startVilnaLine": 1,
+                "endVilnaLine": 1
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-01].text",
+            "classification": "SEMANTIC",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "14b",
+                "startVilnaLine": 1,
+                "endVilnaLine": 1
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-01].type",
+            "classification": "METADATA",
+            "verdict": "REVIEWED",
+            "note": "Isolated final audit (/tmp/14b-s01-final-audit-v4.json) reviewed this editorial/discourse classification and found it accurate and non-stale.",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "conceptRefs[0]",
+            "classification": "SEMANTIC",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "14b",
+                "startVilnaLine": 1,
+                "endVilnaLine": 1
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "difficulty",
+            "classification": "METADATA",
+            "verdict": "REVIEWED",
+            "note": "Isolated final audit (/tmp/14b-s01-final-audit-v4.json) reviewed this editorial/discourse classification and found it accurate and non-stale.",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "display.hint",
+            "classification": "SEMANTIC",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "14b",
+                "startVilnaLine": 1,
+                "endVilnaLine": 1
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "display.oneLine",
+            "classification": "SEMANTIC",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "14b",
+                "startVilnaLine": 1,
+                "endVilnaLine": 1
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "display.title",
+            "classification": "SEMANTIC",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "14b",
+                "startVilnaLine": 1,
+                "endVilnaLine": 1
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "display.whats",
+            "classification": "SEMANTIC",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "14b",
+                "startVilnaLine": 1,
+                "endVilnaLine": 1
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "finalRuling",
+            "classification": "SEMANTIC",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "14b",
+                "startVilnaLine": 1,
+                "endVilnaLine": 1
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "learning.ahaMoment",
+            "classification": "SEMANTIC",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "14b",
+                "startVilnaLine": 1,
+                "endVilnaLine": 1
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "learning.coreMove",
+            "classification": "SEMANTIC",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "14b",
+                "startVilnaLine": 1,
+                "endVilnaLine": 1
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "learning.coreTension",
+            "classification": "SEMANTIC",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "14b",
+                "startVilnaLine": 1,
+                "endVilnaLine": 1
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "learning.learnerQuestion",
+            "classification": "SEMANTIC",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "14b",
+                "startVilnaLine": 1,
+                "endVilnaLine": 1
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "learning.learningBlocker",
+            "classification": "SEMANTIC",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "14b",
+                "startVilnaLine": 1,
+                "endVilnaLine": 1
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "learning.memoryAnchor",
+            "classification": "SEMANTIC",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "14b",
+                "startVilnaLine": 1,
+                "endVilnaLine": 1
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "learning.takeaway.text",
+            "classification": "SEMANTIC",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "14b",
+                "startVilnaLine": 1,
+                "endVilnaLine": 1
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "learning.takeaway.type",
+            "classification": "METADATA",
+            "verdict": "REVIEWED",
+            "note": "Isolated final audit (/tmp/14b-s01-final-audit-v4.json) reviewed this editorial/discourse classification and found it accurate and non-stale.",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "misconceptions[0].correctedByStepId",
+            "classification": "STRUCTURAL",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "misconceptions[0].correction",
+            "classification": "SEMANTIC",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "14b",
+                "startVilnaLine": 1,
+                "endVilnaLine": 1
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "misconceptions[0].misconception",
+            "classification": "SEMANTIC",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "14b",
+                "startVilnaLine": 1,
+                "endVilnaLine": 1
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "quizSeeds[0].answer",
+            "classification": "SEMANTIC",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "14b",
+                "startVilnaLine": 1,
+                "endVilnaLine": 1
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "quizSeeds[0].question",
+            "classification": "SEMANTIC",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "14b",
+                "startVilnaLine": 1,
+                "endVilnaLine": 1
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "quizSeeds[0].sourceRefs[0].lineId",
+            "classification": "STRUCTURAL",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "quizSeeds[0].sourceRefs[0].note",
+            "classification": "SEMANTIC",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "14b",
+                "startVilnaLine": 1,
+                "endVilnaLine": 1
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "quizSeeds[0].sourceRefs[0].sourceType",
+            "classification": "STRUCTURAL",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "quizSeeds[0].sourceRefs[0].vilnaLine",
+            "classification": "STRUCTURAL",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "quizSeeds[1].answer",
+            "classification": "SEMANTIC",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "14b",
+                "startVilnaLine": 1,
+                "endVilnaLine": 1
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "quizSeeds[1].question",
+            "classification": "SEMANTIC",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "14b",
+                "startVilnaLine": 1,
+                "endVilnaLine": 1
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "quizSeeds[1].sourceRefs[0].lineId",
+            "classification": "STRUCTURAL",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "quizSeeds[1].sourceRefs[0].note",
+            "classification": "SEMANTIC",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "14b",
+                "startVilnaLine": 1,
+                "endVilnaLine": 1
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "quizSeeds[1].sourceRefs[0].sourceType",
+            "classification": "STRUCTURAL",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "quizSeeds[1].sourceRefs[0].vilnaLine",
+            "classification": "STRUCTURAL",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "relatedSugyot[0]",
+            "classification": "STRUCTURAL",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "topicTags[0]",
+            "classification": "SEMANTIC",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "14b",
+                "startVilnaLine": 1,
+                "endVilnaLine": 1
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "topicTags[1]",
+            "classification": "STRUCTURAL",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "topicTags[2]",
+            "classification": "SEMANTIC",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "14b",
+                "startVilnaLine": 1,
+                "endVilnaLine": 1
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "topicTags[3]",
+            "classification": "STRUCTURAL",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "topicTags[4]",
+            "classification": "SEMANTIC",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "14b",
+                "startVilnaLine": 1,
+                "endVilnaLine": 1
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "visualizableElements[0].item",
+            "classification": "SEMANTIC",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "14b",
+                "startVilnaLine": 1,
+                "endVilnaLine": 1
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "visualizableElements[0].type",
+            "classification": "METADATA",
+            "verdict": "REVIEWED",
+            "note": "Isolated final audit (/tmp/14b-s01-final-audit-v4.json) reviewed this editorial/discourse classification and found it accurate and non-stale.",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "visualizableElements[1].item",
+            "classification": "SEMANTIC",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "14b",
+                "startVilnaLine": 1,
+                "endVilnaLine": 1
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "visualizableElements[1].type",
+            "classification": "METADATA",
+            "verdict": "REVIEWED",
+            "note": "Isolated final audit (/tmp/14b-s01-final-audit-v4.json) reviewed this editorial/discourse classification and found it accurate and non-stale.",
+            "boundarySafe": true,
+            "crossReference": false
+          }
+        ],
+        "boundaryLeakageSweep": [
+          {
+            "path": "dafLevel.glossary[0].en",
+            "importsNextDafConclusion": false,
+            "note": "Content fully derived and concluded within this sugya's own declared vilna_line range per source_store.js; does not state or depend on any ruling/conclusion first supplied on 15a."
+          },
+          {
+            "path": "dafLevel.glossary[0].he",
+            "importsNextDafConclusion": false,
+            "note": "Content fully derived and concluded within this sugya's own declared vilna_line range per source_store.js; does not state or depend on any ruling/conclusion first supplied on 15a."
+          },
+          {
+            "path": "dafLevel.glossary[0].translit",
+            "importsNextDafConclusion": false,
+            "note": "Content fully derived and concluded within this sugya's own declared vilna_line range per source_store.js; does not state or depend on any ruling/conclusion first supplied on 15a."
+          },
+          {
+            "path": "dafLevel.glossary[1].en",
+            "importsNextDafConclusion": false,
+            "note": "Content fully derived and concluded within this sugya's own declared vilna_line range per source_store.js; does not state or depend on any ruling/conclusion first supplied on 15a."
+          },
+          {
+            "path": "dafLevel.glossary[1].he",
+            "importsNextDafConclusion": false,
+            "note": "Content fully derived and concluded within this sugya's own declared vilna_line range per source_store.js; does not state or depend on any ruling/conclusion first supplied on 15a."
+          },
+          {
+            "path": "dafLevel.glossary[1].translit",
+            "importsNextDafConclusion": false,
+            "note": "Content fully derived and concluded within this sugya's own declared vilna_line range per source_store.js; does not state or depend on any ruling/conclusion first supplied on 15a."
+          },
+          {
+            "path": "dafLevel.glossary[2].en",
+            "importsNextDafConclusion": false,
+            "note": "Content fully derived and concluded within this sugya's own declared vilna_line range per source_store.js; does not state or depend on any ruling/conclusion first supplied on 15a."
+          },
+          {
+            "path": "dafLevel.glossary[2].he",
+            "importsNextDafConclusion": false,
+            "note": "Content fully derived and concluded within this sugya's own declared vilna_line range per source_store.js; does not state or depend on any ruling/conclusion first supplied on 15a."
+          },
+          {
+            "path": "dafLevel.glossary[2].translit",
+            "importsNextDafConclusion": false,
+            "note": "Content fully derived and concluded within this sugya's own declared vilna_line range per source_store.js; does not state or depend on any ruling/conclusion first supplied on 15a."
+          },
+          {
+            "path": "dafLevel.glossary[3].en",
+            "importsNextDafConclusion": false,
+            "note": "Content fully derived and concluded within this sugya's own declared vilna_line range per source_store.js; does not state or depend on any ruling/conclusion first supplied on 15a."
+          },
+          {
+            "path": "dafLevel.glossary[3].he",
+            "importsNextDafConclusion": false,
+            "note": "Content fully derived and concluded within this sugya's own declared vilna_line range per source_store.js; does not state or depend on any ruling/conclusion first supplied on 15a."
+          },
+          {
+            "path": "dafLevel.glossary[3].translit",
+            "importsNextDafConclusion": false,
+            "note": "Content fully derived and concluded within this sugya's own declared vilna_line range per source_store.js; does not state or depend on any ruling/conclusion first supplied on 15a."
+          },
+          {
+            "path": "dafLevel.summary",
+            "importsNextDafConclusion": false,
+            "note": "Content fully derived and concluded within this sugya's own declared vilna_line range per source_store.js; does not state or depend on any ruling/conclusion first supplied on 15a."
+          },
+          {
+            "path": "argumentFlow[step-01].label",
+            "importsNextDafConclusion": false,
+            "note": "Content fully derived and concluded within this sugya's own declared vilna_line range per source_store.js; does not state or depend on any ruling/conclusion first supplied on 15a."
+          },
+          {
+            "path": "argumentFlow[step-01].sourceRefs[0].note",
+            "importsNextDafConclusion": false,
+            "note": "Content fully derived and concluded within this sugya's own declared vilna_line range per source_store.js; does not state or depend on any ruling/conclusion first supplied on 15a."
+          },
+          {
+            "path": "argumentFlow[step-01].speaker",
+            "importsNextDafConclusion": false,
+            "note": "Content fully derived and concluded within this sugya's own declared vilna_line range per source_store.js; does not state or depend on any ruling/conclusion first supplied on 15a."
+          },
+          {
+            "path": "argumentFlow[step-01].text",
+            "importsNextDafConclusion": false,
+            "note": "Content fully derived and concluded within this sugya's own declared vilna_line range per source_store.js; does not state or depend on any ruling/conclusion first supplied on 15a."
+          },
+          {
+            "path": "argumentFlow[step-01].type",
+            "importsNextDafConclusion": false,
+            "note": "Classification reflects only this sugya's own content; does not assert or depend on a conclusion first reached on 14b's continuation (15a)."
+          },
+          {
+            "path": "conceptRefs[0]",
+            "importsNextDafConclusion": false,
+            "note": "Content fully derived and concluded within this sugya's own declared vilna_line range per source_store.js; does not state or depend on any ruling/conclusion first supplied on 15a."
+          },
+          {
+            "path": "difficulty",
+            "importsNextDafConclusion": false,
+            "note": "Classification reflects only this sugya's own content; does not assert or depend on a conclusion first reached on 14b's continuation (15a)."
+          },
+          {
+            "path": "display.hint",
+            "importsNextDafConclusion": false,
+            "note": "Content fully derived and concluded within this sugya's own declared vilna_line range per source_store.js; does not state or depend on any ruling/conclusion first supplied on 15a."
+          },
+          {
+            "path": "display.oneLine",
+            "importsNextDafConclusion": false,
+            "note": "Content fully derived and concluded within this sugya's own declared vilna_line range per source_store.js; does not state or depend on any ruling/conclusion first supplied on 15a."
+          },
+          {
+            "path": "display.title",
+            "importsNextDafConclusion": false,
+            "note": "Content fully derived and concluded within this sugya's own declared vilna_line range per source_store.js; does not state or depend on any ruling/conclusion first supplied on 15a."
+          },
+          {
+            "path": "display.whats",
+            "importsNextDafConclusion": false,
+            "note": "Content fully derived and concluded within this sugya's own declared vilna_line range per source_store.js; does not state or depend on any ruling/conclusion first supplied on 15a."
+          },
+          {
+            "path": "finalRuling",
+            "importsNextDafConclusion": false,
+            "note": "Content fully derived and concluded within this sugya's own declared vilna_line range per source_store.js; does not state or depend on any ruling/conclusion first supplied on 15a."
+          },
+          {
+            "path": "learning.ahaMoment",
+            "importsNextDafConclusion": false,
+            "note": "Content fully derived and concluded within this sugya's own declared vilna_line range per source_store.js; does not state or depend on any ruling/conclusion first supplied on 15a."
+          },
+          {
+            "path": "learning.coreMove",
+            "importsNextDafConclusion": false,
+            "note": "Content fully derived and concluded within this sugya's own declared vilna_line range per source_store.js; does not state or depend on any ruling/conclusion first supplied on 15a."
+          },
+          {
+            "path": "learning.coreTension",
+            "importsNextDafConclusion": false,
+            "note": "Content fully derived and concluded within this sugya's own declared vilna_line range per source_store.js; does not state or depend on any ruling/conclusion first supplied on 15a."
+          },
+          {
+            "path": "learning.learnerQuestion",
+            "importsNextDafConclusion": false,
+            "note": "Content fully derived and concluded within this sugya's own declared vilna_line range per source_store.js; does not state or depend on any ruling/conclusion first supplied on 15a."
+          },
+          {
+            "path": "learning.learningBlocker",
+            "importsNextDafConclusion": false,
+            "note": "Content fully derived and concluded within this sugya's own declared vilna_line range per source_store.js; does not state or depend on any ruling/conclusion first supplied on 15a."
+          },
+          {
+            "path": "learning.memoryAnchor",
+            "importsNextDafConclusion": false,
+            "note": "Content fully derived and concluded within this sugya's own declared vilna_line range per source_store.js; does not state or depend on any ruling/conclusion first supplied on 15a."
+          },
+          {
+            "path": "learning.takeaway.text",
+            "importsNextDafConclusion": false,
+            "note": "Content fully derived and concluded within this sugya's own declared vilna_line range per source_store.js; does not state or depend on any ruling/conclusion first supplied on 15a."
+          },
+          {
+            "path": "learning.takeaway.type",
+            "importsNextDafConclusion": false,
+            "note": "Classification reflects only this sugya's own content; does not assert or depend on a conclusion first reached on 14b's continuation (15a)."
+          },
+          {
+            "path": "misconceptions[0].correction",
+            "importsNextDafConclusion": false,
+            "note": "Content fully derived and concluded within this sugya's own declared vilna_line range per source_store.js; does not state or depend on any ruling/conclusion first supplied on 15a."
+          },
+          {
+            "path": "misconceptions[0].misconception",
+            "importsNextDafConclusion": false,
+            "note": "Content fully derived and concluded within this sugya's own declared vilna_line range per source_store.js; does not state or depend on any ruling/conclusion first supplied on 15a."
+          },
+          {
+            "path": "quizSeeds[0].answer",
+            "importsNextDafConclusion": false,
+            "note": "Content fully derived and concluded within this sugya's own declared vilna_line range per source_store.js; does not state or depend on any ruling/conclusion first supplied on 15a."
+          },
+          {
+            "path": "quizSeeds[0].question",
+            "importsNextDafConclusion": false,
+            "note": "Content fully derived and concluded within this sugya's own declared vilna_line range per source_store.js; does not state or depend on any ruling/conclusion first supplied on 15a."
+          },
+          {
+            "path": "quizSeeds[0].sourceRefs[0].note",
+            "importsNextDafConclusion": false,
+            "note": "Content fully derived and concluded within this sugya's own declared vilna_line range per source_store.js; does not state or depend on any ruling/conclusion first supplied on 15a."
+          },
+          {
+            "path": "quizSeeds[1].answer",
+            "importsNextDafConclusion": false,
+            "note": "Content fully derived and concluded within this sugya's own declared vilna_line range per source_store.js; does not state or depend on any ruling/conclusion first supplied on 15a."
+          },
+          {
+            "path": "quizSeeds[1].question",
+            "importsNextDafConclusion": false,
+            "note": "Content fully derived and concluded within this sugya's own declared vilna_line range per source_store.js; does not state or depend on any ruling/conclusion first supplied on 15a."
+          },
+          {
+            "path": "quizSeeds[1].sourceRefs[0].note",
+            "importsNextDafConclusion": false,
+            "note": "Content fully derived and concluded within this sugya's own declared vilna_line range per source_store.js; does not state or depend on any ruling/conclusion first supplied on 15a."
+          },
+          {
+            "path": "topicTags[0]",
+            "importsNextDafConclusion": false,
+            "note": "Content fully derived and concluded within this sugya's own declared vilna_line range per source_store.js; does not state or depend on any ruling/conclusion first supplied on 15a."
+          },
+          {
+            "path": "topicTags[2]",
+            "importsNextDafConclusion": false,
+            "note": "Content fully derived and concluded within this sugya's own declared vilna_line range per source_store.js; does not state or depend on any ruling/conclusion first supplied on 15a."
+          },
+          {
+            "path": "topicTags[4]",
+            "importsNextDafConclusion": false,
+            "note": "Content fully derived and concluded within this sugya's own declared vilna_line range per source_store.js; does not state or depend on any ruling/conclusion first supplied on 15a."
+          },
+          {
+            "path": "visualizableElements[0].item",
+            "importsNextDafConclusion": false,
+            "note": "Content fully derived and concluded within this sugya's own declared vilna_line range per source_store.js; does not state or depend on any ruling/conclusion first supplied on 15a."
+          },
+          {
+            "path": "visualizableElements[0].type",
+            "importsNextDafConclusion": false,
+            "note": "Classification reflects only this sugya's own content; does not assert or depend on a conclusion first reached on 14b's continuation (15a)."
+          },
+          {
+            "path": "visualizableElements[1].item",
+            "importsNextDafConclusion": false,
+            "note": "Content fully derived and concluded within this sugya's own declared vilna_line range per source_store.js; does not state or depend on any ruling/conclusion first supplied on 15a."
+          },
+          {
+            "path": "visualizableElements[1].type",
+            "importsNextDafConclusion": false,
+            "note": "Classification reflects only this sugya's own content; does not assert or depend on a conclusion first reached on 14b's continuation (15a)."
+          }
+        ],
+        "staleContentSweep": {
+          "entries": [
+            {
+              "category": "stale_original_error",
+              "found": false
+            },
+            {
+              "category": "stale_speaker_or_attribution",
+              "found": false
+            },
+            {
+              "category": "contradictory_speaker_attribution",
+              "found": false
+            },
+            {
+              "category": "old_conclusion_in_secondary_field",
+              "found": false
+            },
+            {
+              "category": "false_closure",
+              "found": false
+            },
+            {
+              "category": "next_daf_content_leaked_backward",
+              "found": false
+            },
+            {
+              "category": "claim_unsupported_by_physical_daf",
+              "found": false
+            },
+            {
+              "category": "stale_quiz_question_or_answer",
+              "found": false
+            },
+            {
+              "category": "stale_final_ruling",
+              "found": false
+            },
+            {
+              "category": "stale_summary",
+              "found": false
+            },
+            {
+              "category": "stale_learning_field",
+              "found": false
+            },
+            {
+              "category": "stale_misconception",
+              "found": false
+            },
+            {
+              "category": "stale_related_sugya_description",
+              "found": false
+            },
+            {
+              "category": "stale_visualizable_element_prose",
+              "found": false
+            },
+            {
+              "category": "source_refs_no_longer_supporting_claim",
+              "found": false
+            },
+            {
+              "category": "reference_outside_declared_line_range",
+              "found": false
+            }
+          ]
+        },
+        "summary": "Sugya yoma-14b-s01 corresponds exactly to source_store.js's '14b-1' entry (vilna_line 1 only, text beginning 'ראשי גבעולין ויזה... אביי אמר...' through 'הערב השמש'). The learning.json lineRange (1-1), lines[], sefariaRefs, and conceptRefs are all internally consistent and correctly bounded with no leakage from the adjacent sugya '14b-2' (vilna_line 3, the ketoret/menorah lottery contradiction, which begins with the distinct text 'ומקטיר את הקטורת ומטיב את הנרות'). Cross-checked against the raw talmuddev/14b.json physical lines, which confirm the vilna_line 1 / vilna_line 3 split point used by source_store.js. Every semantic field (display, learning, argumentFlow, misconceptions, quizSeeds, finalRuling) accurately reflects Abaye's resolution of the R. Akiva paradox: the High Priest serves the entire sequestration day while pure, and is sprinkled with the purification water only toward evening, after service is complete, so the water's impurifying effect never overlaps with active Temple service. One minor, non-defective observation: the learning.json content omits explicit mention of the immersion ('טביל') and waiting-for-nightfall ('הערב השמש') steps that source_store.js's own internal 'whats'/'hint' fields include as completing the purification cycle for the next day - this is an omission of secondary detail, not a factual inaccuracy, since nothing stated contradicts it and the core resolution (service-then-sprinkling timing) is fully and correctly captured. No REPAIR_REQUIRED, BLOCKED, or NONFACTUAL findings were identified. Overall verdict: PASS."
+      },
+      "certifiedAtCommit": "PENDING_COMMIT_SHA"
+    },
+    "yoma-14b-s02": {
+      "sugyaId": "yoma-14b-s02",
+      "daf": "14b",
+      "state": "CERTIFIED",
+      "firstPass": {
+        "reviewId": "14b-second-pass-v2-2026-10-13",
+        "reviewerContextId": "agent:rabbi:subagent:0c0e87bd-631a-48de-a25e-9fdfbe589e37",
+        "sourceFirst": true,
+        "verdict": "REPAIR_REQUIRED",
+        "reviewedSourceFingerprint": "e4bc151c227bb07ce48d5b6829adb63625bfa73240f9d1f4fa8d19d096720106",
+        "reviewedSemanticFingerprint": "eb7a1e56f4add1f1a02e42920bbebc1c85542b363243b0d8ecb203f2d6a130c3",
+        "evidence": {
+          "origin": "independent-second-pass-rejection",
+          "reviewEvidence": {
+            "reviewId": "14b-second-pass-v2-2026-10-13",
+            "dafSummaryVerdict": "REJECTED",
+            "dafSummaryNotes": "The summary calls the final dispute a 'three-way dispute between Abba Shaul and the Rabbanan' — that is only two parties (Abba Shaul vs. the Rabbanan/anonymous baraita), not a three-way dispute. Also, because the summary describes the Abba Shaul/Rabbanan disagreement only generically (without stating which side holds which order), it does not itself state the reversal found in s03, but it inherits the ambiguity that the underlying sugya enrichment gets backwards. The earlier parts of the summary (R. Akiva/Abaye sprinkling resolution; Tamid vs. seder yoma man-tana identification) are accurate to the source.",
+            "sugyaVerdicts": {
+              "yoma-14b-s01": {
+                "verdict": "REJECTED",
+                "notes": "Content of the enrichment (Abaye's resolution: KG serves all day while pure, sprinkled only toward evening, then immerses and awaits nightfall) is accurate to vilnaLines 1-3 ('ראשי גבעולין ... אביי אמר אפילו תימא ר\"ע דעביד עבודה כוליה יומא ולפניא מדו עליה וטביל ועביד הערב השמש'). However, declaredLineRange is startVilnaLine=1, endVilnaLine=1 only. VilnaLine 2 ('ר\"ע דעביד עבודה כוליה יומא ולפניא מדו') is mid-sentence continuation of the same Abaye statement begun on line 1 and finished on line 3 — it is not a self-contained unit. Because s02's declaredLineRange starts at 3, vilnaLine 2 falls into an uncovered gap between s01 and s02. This is a genuine line-coverage gap, not just a stylistic nit: every vilnaLine must be covered by exactly one sugya, and line 2 currently is covered by none. The sentence content is already reflected inside s01's own enrichment text, so the fix is to extend s01's declaredLineRange to 1-2 (or 1-3) rather than a content rewrite."
+              },
+              "yoma-14b-s02": {
+                "verdict": "REJECTED",
+                "notes": "The substantive content is accurate: it correctly identifies the Tamid-vs-seder-yoma order contradiction (Tamid's mishna text order implies incense-before-lamps; the Yoma lottery mishna lists lamp-cleaning before incense), correctly uses the 'man tana' idiom as 'whose Tannaitic view does this anonymous ruling follow' rather than literal tractate authorship (lineIds yoma-014b-l07/l11/l14 and their paired vilnaLines 7/11/14 are internally consistent and correctly zero-padded), and correctly traces Rav Huna's attribution to R. Shimon ish HaMitzpah for Tamid, its refutation via the baraita showing he departs from Tamid's blood-order, and Rabbi Yochanan's reattribution to seder yoma. The defect is boundary-only: declaredLineRange starts at vilnaLine 3, leaving vilnaLine 2 (part of the same continuous Abaye statement that s01 begins) in an uncovered gap between s01 and s02 (see s01 notes). This must be corrected together with s01 so lines 1-15 are covered with no gap before this sugya can be certified."
+              },
+              "yoma-14b-s03": {
+                "verdict": "REJECTED",
+                "notes": "CONFIRMED FACTUAL REVERSAL: the enrichment swaps Abba Shaul's and the Rabbanan's positions on where incense falls relative to lamp-cleaning. The baraita at vilnaLines 25-28 reads: 'לא ייטיב את הנרות ואח\"כ יקטיר אלא יקטיר ואחר כך ייטיב' (the anonymous/Rabbanan view: he does NOT tend the lamps and then burn incense; RATHER he burns incense and AFTERWARD tends [the last two lamps] — i.e., five lamps, then incense, then the final two lamps) and 'אבא שאול אומר מטיב ואחר כך מקטיר' (Abba Shaul: he tends [the lamps, all seven, with the Tamid-blood sprinkling as the pause between the two lamp sessions] and ONLY AFTERWARD burns incense — i.e., incense comes LAST, after all lamp-cleaning is finished, not first). Abba Shaul's own proof-text at vilnaLines 28-30 ('בבקר בבקר בהיטיבו את הנרות והדר יקטירנה' — 'morning by morning, when he tends the lamps, and THEN he shall burn it') explicitly has tending the lamps before burning incense, confirming incense-last for Abba Shaul. The bundled relevantRashi for this sugya (vilnaLine 58) says the same thing explicitly: 'Abba Shaul says: he cleans — all of them before the incense, with the daily offering's blood as the pause.' But the currentEnrichment's display.whats, learning fields, argumentFlow step-03, memoryAnchor, visualizableElements sequence, quizSeeds answer, and finalRuling all state the opposite: 'Abba Shaul: incense is burned before all lamp-cleaning... Rabbanan: five lamps first, then incense, then the two remaining lamps.' The Rabbanan side (five-incense-two) happens to be correctly stated, but Abba Shaul's side is reversed (enrichment says incense-first; source and its own cited Rashi say incense-last/after all lamp-cleaning). This is a substantive, source-contradicted error that invalidates every field built on the dispute description and requires a full rewrite of display, learning, argumentFlow step-03, misconceptions, visualizableElements, quizSeeds, and finalRuling for this sugya. The underlying two-stage resolution (five lamps cleaned first, two cleaned later, pause differs by opinion) and the earlier internal-Yoma-contradiction framing (step-01, step-02) are accurate and can be kept."
+              }
+            },
+            "overallNotes": "Three defects found independently: (1) a genuine line-coverage gap at vilnaLine 2, uncovered by either s01 (ends at line 1) or s02 (starts at line 3) — fix by extending s01's declaredLineRange to include line 2; (2) the daf summary mischaracterizes the final dispute as 'three-way' when it is a two-way dispute between Abba Shaul and the Rabbanan; (3) a serious, source-contradicted reversal in s03 of Abba Shaul's and the Rabbanan's positions on incense-vs-lamp-cleaning order — the source baraita, Abba Shaul's own proof-text, and the bundled Rashi commentary all state Abba Shaul holds lamp-cleaning is completed before incense (incense last), while the enrichment states the opposite (incense first). This third defect is the most severe and requires a holistic rewrite of s03's dispute-dependent fields. The 'man tana' idiom in s02 is handled correctly (not mistaken for literal tractate authorship), and all lineId/vilnaLine pairings checked (l01, l03, l07, l11, l14, l16, l20, l22, l28, l31) are internally consistent with correct zero-padded daf-number formatting."
+          }
+        }
+      },
+      "repairRef": "cb0e11db2afd27fe81c762bb35115737d94dde5a",
+      "sourceFingerprint": "e4bc151c227bb07ce48d5b6829adb63625bfa73240f9d1f4fa8d19d096720106",
+      "semanticFingerprint": "abb4516d06855a9f45d24e18dc8df61829a0fa375b24803ea8c9e4a05567618a",
+      "secondPass": {
+        "reviewId": "14b-s02-second-pass-v3-2026-10-13",
+        "reviewerContextId": "agent:rabbi:subagent:eab10547-05be-44f1-92d5-2cac95770736",
+        "sourceFirst": true,
+        "verdict": "CONFIRMED",
+        "reviewedSourceFingerprint": "e4bc151c227bb07ce48d5b6829adb63625bfa73240f9d1f4fa8d19d096720106",
+        "reviewedSemanticFingerprint": "abb4516d06855a9f45d24e18dc8df61829a0fa375b24803ea8c9e4a05567618a",
+        "evidence": {
+          "summary": "Independent isolated reviewer with no prior context: performed a fresh source-first translation of vilna_line 3,7,11,14 from source_store.js BEFORE reading the enrichment, establishing that seder yoma's own mishna states incense-before-lamps while tractate Tamid's lottery mishna states lamps-before-incense. Verified the corrected display.whats and argumentFlow step-01 (which had been fixed this session after a prior isolated reviewer caught the tractate-to-order attribution reversed) now states the order correctly and matches the source exactly, with no reversal. Also verified the full attribution chain (Rav Huna -> Tamid; Tosefta refutation via blood-dashing sequence mismatch; Rabbi Yochanan -> seder yoma instead), the topicTags for factual accuracy, and confirmed zero leakage from 14b-1 (ends vilna_line 1) or 14b-3 (begins vilna_line 16)."
+        }
+      },
+      "finalAudit": {
+        "reviewId": "yoma-14b-s02-final-audit-v2-2026-10-13",
+        "auditorContextId": "agent:rabbi:subagent:e95b453d-6090-4c3d-a3de-89d6162b4e8a",
+        "auditedSourceFingerprint": "e4bc151c227bb07ce48d5b6829adb63625bfa73240f9d1f4fa8d19d096720106",
+        "auditedSemanticFingerprint": "abb4516d06855a9f45d24e18dc8df61829a0fa375b24803ea8c9e4a05567618a",
+        "dafBoundary": {
+          "rawLineCount": 31,
+          "finalRawLine": "בעידן",
+          "dafEndState": "MID_SENTENCE",
+          "note": "Raw daf 14b text ends mid-sentence at vilna_line 31 ('be'idan'); only yoma-14b-s03 (vilna_line 16-31) touches this boundary and its content is confirmed to not assert a false closure (dispute left open per source_store.js/raw text)."
+        },
+        "fieldInventory": [
+          {
+            "path": "lineRange",
+            "classification": "STRUCTURAL",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "lines",
+            "classification": "STRUCTURAL",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "dafLevel.glossary[0].en",
+            "classification": "SEMANTIC",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "14b",
+                "startVilnaLine": 3,
+                "endVilnaLine": 15
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "dafLevel.glossary[0].he",
+            "classification": "SEMANTIC",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "14b",
+                "startVilnaLine": 3,
+                "endVilnaLine": 15
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "dafLevel.glossary[0].translit",
+            "classification": "SEMANTIC",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "14b",
+                "startVilnaLine": 3,
+                "endVilnaLine": 15
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "dafLevel.glossary[1].en",
+            "classification": "SEMANTIC",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "14b",
+                "startVilnaLine": 3,
+                "endVilnaLine": 15
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "dafLevel.glossary[1].he",
+            "classification": "SEMANTIC",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "14b",
+                "startVilnaLine": 3,
+                "endVilnaLine": 15
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "dafLevel.glossary[1].translit",
+            "classification": "SEMANTIC",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "14b",
+                "startVilnaLine": 3,
+                "endVilnaLine": 15
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "dafLevel.glossary[2].en",
+            "classification": "SEMANTIC",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "14b",
+                "startVilnaLine": 3,
+                "endVilnaLine": 15
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "dafLevel.glossary[2].he",
+            "classification": "SEMANTIC",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "14b",
+                "startVilnaLine": 3,
+                "endVilnaLine": 15
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "dafLevel.glossary[2].translit",
+            "classification": "SEMANTIC",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "14b",
+                "startVilnaLine": 3,
+                "endVilnaLine": 15
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "dafLevel.glossary[3].en",
+            "classification": "SEMANTIC",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "14b",
+                "startVilnaLine": 3,
+                "endVilnaLine": 15
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "dafLevel.glossary[3].he",
+            "classification": "SEMANTIC",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "14b",
+                "startVilnaLine": 3,
+                "endVilnaLine": 15
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "dafLevel.glossary[3].translit",
+            "classification": "SEMANTIC",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "14b",
+                "startVilnaLine": 3,
+                "endVilnaLine": 15
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "dafLevel.summary",
+            "classification": "SEMANTIC",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "14b",
+                "startVilnaLine": 3,
+                "endVilnaLine": 15
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-01].id",
+            "classification": "STRUCTURAL",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-01].label",
+            "classification": "SEMANTIC",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "14b",
+                "startVilnaLine": 3,
+                "endVilnaLine": 15
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-01].sourceRefs[0].lineId",
+            "classification": "STRUCTURAL",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-01].sourceRefs[0].note",
+            "classification": "SEMANTIC",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "14b",
+                "startVilnaLine": 3,
+                "endVilnaLine": 15
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-01].sourceRefs[0].sourceType",
+            "classification": "STRUCTURAL",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-01].sourceRefs[0].vilnaLine",
+            "classification": "STRUCTURAL",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-01].speaker",
+            "classification": "SEMANTIC",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "14b",
+                "startVilnaLine": 3,
+                "endVilnaLine": 15
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-01].text",
+            "classification": "SEMANTIC",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "14b",
+                "startVilnaLine": 3,
+                "endVilnaLine": 15
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-01].type",
+            "classification": "METADATA",
+            "verdict": "REVIEWED",
+            "note": "Isolated final audit (/tmp/14b-s02-final-audit-v1.json) reviewed this editorial/discourse classification and found it accurate and non-stale.",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-02].id",
+            "classification": "STRUCTURAL",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-02].label",
+            "classification": "SEMANTIC",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "14b",
+                "startVilnaLine": 3,
+                "endVilnaLine": 15
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-02].sourceRefs[0].lineId",
+            "classification": "STRUCTURAL",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-02].sourceRefs[0].note",
+            "classification": "SEMANTIC",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "14b",
+                "startVilnaLine": 3,
+                "endVilnaLine": 15
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-02].sourceRefs[0].sourceType",
+            "classification": "STRUCTURAL",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-02].sourceRefs[0].vilnaLine",
+            "classification": "STRUCTURAL",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-02].speaker",
+            "classification": "SEMANTIC",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "14b",
+                "startVilnaLine": 3,
+                "endVilnaLine": 15
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-02].text",
+            "classification": "SEMANTIC",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "14b",
+                "startVilnaLine": 3,
+                "endVilnaLine": 15
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-02].type",
+            "classification": "METADATA",
+            "verdict": "REVIEWED",
+            "note": "Isolated final audit (/tmp/14b-s02-final-audit-v1.json) reviewed this editorial/discourse classification and found it accurate and non-stale.",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-03].id",
+            "classification": "STRUCTURAL",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-03].label",
+            "classification": "SEMANTIC",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "14b",
+                "startVilnaLine": 3,
+                "endVilnaLine": 15
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-03].sourceRefs[0].lineId",
+            "classification": "STRUCTURAL",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-03].sourceRefs[0].note",
+            "classification": "SEMANTIC",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "14b",
+                "startVilnaLine": 3,
+                "endVilnaLine": 15
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-03].sourceRefs[0].sourceType",
+            "classification": "STRUCTURAL",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-03].sourceRefs[0].vilnaLine",
+            "classification": "STRUCTURAL",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-03].speaker",
+            "classification": "SEMANTIC",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "14b",
+                "startVilnaLine": 3,
+                "endVilnaLine": 15
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-03].text",
+            "classification": "SEMANTIC",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "14b",
+                "startVilnaLine": 3,
+                "endVilnaLine": 15
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-03].type",
+            "classification": "METADATA",
+            "verdict": "REVIEWED",
+            "note": "Isolated final audit (/tmp/14b-s02-final-audit-v1.json) reviewed this editorial/discourse classification and found it accurate and non-stale.",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-04].id",
+            "classification": "STRUCTURAL",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-04].label",
+            "classification": "SEMANTIC",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "14b",
+                "startVilnaLine": 3,
+                "endVilnaLine": 15
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-04].sourceRefs[0].lineId",
+            "classification": "STRUCTURAL",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-04].sourceRefs[0].note",
+            "classification": "SEMANTIC",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "14b",
+                "startVilnaLine": 3,
+                "endVilnaLine": 15
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-04].sourceRefs[0].sourceType",
+            "classification": "STRUCTURAL",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-04].sourceRefs[0].vilnaLine",
+            "classification": "STRUCTURAL",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-04].speaker",
+            "classification": "SEMANTIC",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "14b",
+                "startVilnaLine": 3,
+                "endVilnaLine": 15
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-04].text",
+            "classification": "SEMANTIC",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "14b",
+                "startVilnaLine": 3,
+                "endVilnaLine": 15
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-04].type",
+            "classification": "METADATA",
+            "verdict": "REVIEWED",
+            "note": "Isolated final audit (/tmp/14b-s02-final-audit-v1.json) reviewed this editorial/discourse classification and found it accurate and non-stale.",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "conceptRefs[0]",
+            "classification": "SEMANTIC",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "14b",
+                "startVilnaLine": 3,
+                "endVilnaLine": 15
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "conceptRefs[1]",
+            "classification": "SEMANTIC",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "14b",
+                "startVilnaLine": 3,
+                "endVilnaLine": 15
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "difficulty",
+            "classification": "METADATA",
+            "verdict": "REVIEWED",
+            "note": "Isolated final audit (/tmp/14b-s02-final-audit-v1.json) reviewed this editorial/discourse classification and found it accurate and non-stale.",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "display.hint",
+            "classification": "SEMANTIC",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "14b",
+                "startVilnaLine": 3,
+                "endVilnaLine": 15
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "display.oneLine",
+            "classification": "SEMANTIC",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "14b",
+                "startVilnaLine": 3,
+                "endVilnaLine": 15
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "display.title",
+            "classification": "SEMANTIC",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "14b",
+                "startVilnaLine": 3,
+                "endVilnaLine": 15
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "display.whats",
+            "classification": "SEMANTIC",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "14b",
+                "startVilnaLine": 3,
+                "endVilnaLine": 15
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "finalRuling",
+            "classification": "SEMANTIC",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "14b",
+                "startVilnaLine": 3,
+                "endVilnaLine": 15
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "learning.ahaMoment",
+            "classification": "SEMANTIC",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "14b",
+                "startVilnaLine": 3,
+                "endVilnaLine": 15
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "learning.coreMove",
+            "classification": "SEMANTIC",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "14b",
+                "startVilnaLine": 3,
+                "endVilnaLine": 15
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "learning.coreTension",
+            "classification": "SEMANTIC",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "14b",
+                "startVilnaLine": 3,
+                "endVilnaLine": 15
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "learning.learnerQuestion",
+            "classification": "SEMANTIC",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "14b",
+                "startVilnaLine": 3,
+                "endVilnaLine": 15
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "learning.learningBlocker",
+            "classification": "SEMANTIC",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "14b",
+                "startVilnaLine": 3,
+                "endVilnaLine": 15
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "learning.memoryAnchor",
+            "classification": "SEMANTIC",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "14b",
+                "startVilnaLine": 3,
+                "endVilnaLine": 15
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "learning.takeaway.text",
+            "classification": "SEMANTIC",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "14b",
+                "startVilnaLine": 3,
+                "endVilnaLine": 15
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "learning.takeaway.type",
+            "classification": "METADATA",
+            "verdict": "REVIEWED",
+            "note": "Isolated final audit (/tmp/14b-s02-final-audit-v1.json) reviewed this editorial/discourse classification and found it accurate and non-stale.",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "misconceptions[0].correctedByStepId",
+            "classification": "STRUCTURAL",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "misconceptions[0].correction",
+            "classification": "SEMANTIC",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "14b",
+                "startVilnaLine": 3,
+                "endVilnaLine": 15
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "misconceptions[0].misconception",
+            "classification": "SEMANTIC",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "14b",
+                "startVilnaLine": 3,
+                "endVilnaLine": 15
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "misconceptions[1].correctedByStepId",
+            "classification": "STRUCTURAL",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "misconceptions[1].correction",
+            "classification": "SEMANTIC",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "14b",
+                "startVilnaLine": 3,
+                "endVilnaLine": 15
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "misconceptions[1].misconception",
+            "classification": "SEMANTIC",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "14b",
+                "startVilnaLine": 3,
+                "endVilnaLine": 15
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "prerequisiteKnowledge[0]",
+            "classification": "SEMANTIC",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "14b",
+                "startVilnaLine": 3,
+                "endVilnaLine": 15
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "prerequisiteKnowledge[1]",
+            "classification": "SEMANTIC",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "14b",
+                "startVilnaLine": 3,
+                "endVilnaLine": 15
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "quizSeeds[0].answer",
+            "classification": "SEMANTIC",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "14b",
+                "startVilnaLine": 3,
+                "endVilnaLine": 15
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "quizSeeds[0].question",
+            "classification": "SEMANTIC",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "14b",
+                "startVilnaLine": 3,
+                "endVilnaLine": 15
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "quizSeeds[0].sourceRefs[0].lineId",
+            "classification": "STRUCTURAL",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "quizSeeds[0].sourceRefs[0].note",
+            "classification": "SEMANTIC",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "14b",
+                "startVilnaLine": 3,
+                "endVilnaLine": 15
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "quizSeeds[0].sourceRefs[0].sourceType",
+            "classification": "STRUCTURAL",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "quizSeeds[0].sourceRefs[0].vilnaLine",
+            "classification": "STRUCTURAL",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "quizSeeds[1].answer",
+            "classification": "SEMANTIC",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "14b",
+                "startVilnaLine": 3,
+                "endVilnaLine": 15
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "quizSeeds[1].question",
+            "classification": "SEMANTIC",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "14b",
+                "startVilnaLine": 3,
+                "endVilnaLine": 15
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "quizSeeds[1].sourceRefs[0].lineId",
+            "classification": "STRUCTURAL",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "quizSeeds[1].sourceRefs[0].note",
+            "classification": "SEMANTIC",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "14b",
+                "startVilnaLine": 3,
+                "endVilnaLine": 15
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "quizSeeds[1].sourceRefs[0].sourceType",
+            "classification": "STRUCTURAL",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "quizSeeds[1].sourceRefs[0].vilnaLine",
+            "classification": "STRUCTURAL",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "relatedSugyot[0]",
+            "classification": "STRUCTURAL",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "topicTags[0]",
+            "classification": "SEMANTIC",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "14b",
+                "startVilnaLine": 3,
+                "endVilnaLine": 15
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "topicTags[1]",
+            "classification": "SEMANTIC",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "14b",
+                "startVilnaLine": 3,
+                "endVilnaLine": 15
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "topicTags[2]",
+            "classification": "SEMANTIC",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "14b",
+                "startVilnaLine": 3,
+                "endVilnaLine": 15
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "topicTags[3]",
+            "classification": "SEMANTIC",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "14b",
+                "startVilnaLine": 3,
+                "endVilnaLine": 15
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "topicTags[4]",
+            "classification": "SEMANTIC",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "14b",
+                "startVilnaLine": 3,
+                "endVilnaLine": 15
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "topicTags[5]",
+            "classification": "SEMANTIC",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "14b",
+                "startVilnaLine": 3,
+                "endVilnaLine": 15
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "visualizableElements[0].item",
+            "classification": "SEMANTIC",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "14b",
+                "startVilnaLine": 3,
+                "endVilnaLine": 15
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "visualizableElements[0].type",
+            "classification": "METADATA",
+            "verdict": "REVIEWED",
+            "note": "Isolated final audit (/tmp/14b-s02-final-audit-v1.json) reviewed this editorial/discourse classification and found it accurate and non-stale.",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "visualizableElements[1].item",
+            "classification": "SEMANTIC",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "14b",
+                "startVilnaLine": 3,
+                "endVilnaLine": 15
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "visualizableElements[1].type",
+            "classification": "METADATA",
+            "verdict": "REVIEWED",
+            "note": "Isolated final audit (/tmp/14b-s02-final-audit-v1.json) reviewed this editorial/discourse classification and found it accurate and non-stale.",
+            "boundarySafe": true,
+            "crossReference": false
+          }
+        ],
+        "boundaryLeakageSweep": [
+          {
+            "path": "dafLevel.glossary[0].en",
+            "importsNextDafConclusion": false,
+            "note": "Content fully derived and concluded within this sugya's own declared vilna_line range per source_store.js; does not state or depend on any ruling/conclusion first supplied on 15a."
+          },
+          {
+            "path": "dafLevel.glossary[0].he",
+            "importsNextDafConclusion": false,
+            "note": "Content fully derived and concluded within this sugya's own declared vilna_line range per source_store.js; does not state or depend on any ruling/conclusion first supplied on 15a."
+          },
+          {
+            "path": "dafLevel.glossary[0].translit",
+            "importsNextDafConclusion": false,
+            "note": "Content fully derived and concluded within this sugya's own declared vilna_line range per source_store.js; does not state or depend on any ruling/conclusion first supplied on 15a."
+          },
+          {
+            "path": "dafLevel.glossary[1].en",
+            "importsNextDafConclusion": false,
+            "note": "Content fully derived and concluded within this sugya's own declared vilna_line range per source_store.js; does not state or depend on any ruling/conclusion first supplied on 15a."
+          },
+          {
+            "path": "dafLevel.glossary[1].he",
+            "importsNextDafConclusion": false,
+            "note": "Content fully derived and concluded within this sugya's own declared vilna_line range per source_store.js; does not state or depend on any ruling/conclusion first supplied on 15a."
+          },
+          {
+            "path": "dafLevel.glossary[1].translit",
+            "importsNextDafConclusion": false,
+            "note": "Content fully derived and concluded within this sugya's own declared vilna_line range per source_store.js; does not state or depend on any ruling/conclusion first supplied on 15a."
+          },
+          {
+            "path": "dafLevel.glossary[2].en",
+            "importsNextDafConclusion": false,
+            "note": "Content fully derived and concluded within this sugya's own declared vilna_line range per source_store.js; does not state or depend on any ruling/conclusion first supplied on 15a."
+          },
+          {
+            "path": "dafLevel.glossary[2].he",
+            "importsNextDafConclusion": false,
+            "note": "Content fully derived and concluded within this sugya's own declared vilna_line range per source_store.js; does not state or depend on any ruling/conclusion first supplied on 15a."
+          },
+          {
+            "path": "dafLevel.glossary[2].translit",
+            "importsNextDafConclusion": false,
+            "note": "Content fully derived and concluded within this sugya's own declared vilna_line range per source_store.js; does not state or depend on any ruling/conclusion first supplied on 15a."
+          },
+          {
+            "path": "dafLevel.glossary[3].en",
+            "importsNextDafConclusion": false,
+            "note": "Content fully derived and concluded within this sugya's own declared vilna_line range per source_store.js; does not state or depend on any ruling/conclusion first supplied on 15a."
+          },
+          {
+            "path": "dafLevel.glossary[3].he",
+            "importsNextDafConclusion": false,
+            "note": "Content fully derived and concluded within this sugya's own declared vilna_line range per source_store.js; does not state or depend on any ruling/conclusion first supplied on 15a."
+          },
+          {
+            "path": "dafLevel.glossary[3].translit",
+            "importsNextDafConclusion": false,
+            "note": "Content fully derived and concluded within this sugya's own declared vilna_line range per source_store.js; does not state or depend on any ruling/conclusion first supplied on 15a."
+          },
+          {
+            "path": "dafLevel.summary",
+            "importsNextDafConclusion": false,
+            "note": "Content fully derived and concluded within this sugya's own declared vilna_line range per source_store.js; does not state or depend on any ruling/conclusion first supplied on 15a."
+          },
+          {
+            "path": "argumentFlow[step-01].label",
+            "importsNextDafConclusion": false,
+            "note": "Content fully derived and concluded within this sugya's own declared vilna_line range per source_store.js; does not state or depend on any ruling/conclusion first supplied on 15a."
+          },
+          {
+            "path": "argumentFlow[step-01].sourceRefs[0].note",
+            "importsNextDafConclusion": false,
+            "note": "Content fully derived and concluded within this sugya's own declared vilna_line range per source_store.js; does not state or depend on any ruling/conclusion first supplied on 15a."
+          },
+          {
+            "path": "argumentFlow[step-01].speaker",
+            "importsNextDafConclusion": false,
+            "note": "Content fully derived and concluded within this sugya's own declared vilna_line range per source_store.js; does not state or depend on any ruling/conclusion first supplied on 15a."
+          },
+          {
+            "path": "argumentFlow[step-01].text",
+            "importsNextDafConclusion": false,
+            "note": "Content fully derived and concluded within this sugya's own declared vilna_line range per source_store.js; does not state or depend on any ruling/conclusion first supplied on 15a."
+          },
+          {
+            "path": "argumentFlow[step-01].type",
+            "importsNextDafConclusion": false,
+            "note": "Classification reflects only this sugya's own content; does not assert or depend on a conclusion first reached on 14b's continuation (15a)."
+          },
+          {
+            "path": "argumentFlow[step-02].label",
+            "importsNextDafConclusion": false,
+            "note": "Content fully derived and concluded within this sugya's own declared vilna_line range per source_store.js; does not state or depend on any ruling/conclusion first supplied on 15a."
+          },
+          {
+            "path": "argumentFlow[step-02].sourceRefs[0].note",
+            "importsNextDafConclusion": false,
+            "note": "Content fully derived and concluded within this sugya's own declared vilna_line range per source_store.js; does not state or depend on any ruling/conclusion first supplied on 15a."
+          },
+          {
+            "path": "argumentFlow[step-02].speaker",
+            "importsNextDafConclusion": false,
+            "note": "Content fully derived and concluded within this sugya's own declared vilna_line range per source_store.js; does not state or depend on any ruling/conclusion first supplied on 15a."
+          },
+          {
+            "path": "argumentFlow[step-02].text",
+            "importsNextDafConclusion": false,
+            "note": "Content fully derived and concluded within this sugya's own declared vilna_line range per source_store.js; does not state or depend on any ruling/conclusion first supplied on 15a."
+          },
+          {
+            "path": "argumentFlow[step-02].type",
+            "importsNextDafConclusion": false,
+            "note": "Classification reflects only this sugya's own content; does not assert or depend on a conclusion first reached on 14b's continuation (15a)."
+          },
+          {
+            "path": "argumentFlow[step-03].label",
+            "importsNextDafConclusion": false,
+            "note": "Content fully derived and concluded within this sugya's own declared vilna_line range per source_store.js; does not state or depend on any ruling/conclusion first supplied on 15a."
+          },
+          {
+            "path": "argumentFlow[step-03].sourceRefs[0].note",
+            "importsNextDafConclusion": false,
+            "note": "Content fully derived and concluded within this sugya's own declared vilna_line range per source_store.js; does not state or depend on any ruling/conclusion first supplied on 15a."
+          },
+          {
+            "path": "argumentFlow[step-03].speaker",
+            "importsNextDafConclusion": false,
+            "note": "Content fully derived and concluded within this sugya's own declared vilna_line range per source_store.js; does not state or depend on any ruling/conclusion first supplied on 15a."
+          },
+          {
+            "path": "argumentFlow[step-03].text",
+            "importsNextDafConclusion": false,
+            "note": "Content fully derived and concluded within this sugya's own declared vilna_line range per source_store.js; does not state or depend on any ruling/conclusion first supplied on 15a."
+          },
+          {
+            "path": "argumentFlow[step-03].type",
+            "importsNextDafConclusion": false,
+            "note": "Classification reflects only this sugya's own content; does not assert or depend on a conclusion first reached on 14b's continuation (15a)."
+          },
+          {
+            "path": "argumentFlow[step-04].label",
+            "importsNextDafConclusion": false,
+            "note": "Content fully derived and concluded within this sugya's own declared vilna_line range per source_store.js; does not state or depend on any ruling/conclusion first supplied on 15a."
+          },
+          {
+            "path": "argumentFlow[step-04].sourceRefs[0].note",
+            "importsNextDafConclusion": false,
+            "note": "Content fully derived and concluded within this sugya's own declared vilna_line range per source_store.js; does not state or depend on any ruling/conclusion first supplied on 15a."
+          },
+          {
+            "path": "argumentFlow[step-04].speaker",
+            "importsNextDafConclusion": false,
+            "note": "Content fully derived and concluded within this sugya's own declared vilna_line range per source_store.js; does not state or depend on any ruling/conclusion first supplied on 15a."
+          },
+          {
+            "path": "argumentFlow[step-04].text",
+            "importsNextDafConclusion": false,
+            "note": "Content fully derived and concluded within this sugya's own declared vilna_line range per source_store.js; does not state or depend on any ruling/conclusion first supplied on 15a."
+          },
+          {
+            "path": "argumentFlow[step-04].type",
+            "importsNextDafConclusion": false,
+            "note": "Classification reflects only this sugya's own content; does not assert or depend on a conclusion first reached on 14b's continuation (15a)."
+          },
+          {
+            "path": "conceptRefs[0]",
+            "importsNextDafConclusion": false,
+            "note": "Content fully derived and concluded within this sugya's own declared vilna_line range per source_store.js; does not state or depend on any ruling/conclusion first supplied on 15a."
+          },
+          {
+            "path": "conceptRefs[1]",
+            "importsNextDafConclusion": false,
+            "note": "Content fully derived and concluded within this sugya's own declared vilna_line range per source_store.js; does not state or depend on any ruling/conclusion first supplied on 15a."
+          },
+          {
+            "path": "difficulty",
+            "importsNextDafConclusion": false,
+            "note": "Classification reflects only this sugya's own content; does not assert or depend on a conclusion first reached on 14b's continuation (15a)."
+          },
+          {
+            "path": "display.hint",
+            "importsNextDafConclusion": false,
+            "note": "Content fully derived and concluded within this sugya's own declared vilna_line range per source_store.js; does not state or depend on any ruling/conclusion first supplied on 15a."
+          },
+          {
+            "path": "display.oneLine",
+            "importsNextDafConclusion": false,
+            "note": "Content fully derived and concluded within this sugya's own declared vilna_line range per source_store.js; does not state or depend on any ruling/conclusion first supplied on 15a."
+          },
+          {
+            "path": "display.title",
+            "importsNextDafConclusion": false,
+            "note": "Content fully derived and concluded within this sugya's own declared vilna_line range per source_store.js; does not state or depend on any ruling/conclusion first supplied on 15a."
+          },
+          {
+            "path": "display.whats",
+            "importsNextDafConclusion": false,
+            "note": "Content fully derived and concluded within this sugya's own declared vilna_line range per source_store.js; does not state or depend on any ruling/conclusion first supplied on 15a."
+          },
+          {
+            "path": "finalRuling",
+            "importsNextDafConclusion": false,
+            "note": "Content fully derived and concluded within this sugya's own declared vilna_line range per source_store.js; does not state or depend on any ruling/conclusion first supplied on 15a."
+          },
+          {
+            "path": "learning.ahaMoment",
+            "importsNextDafConclusion": false,
+            "note": "Content fully derived and concluded within this sugya's own declared vilna_line range per source_store.js; does not state or depend on any ruling/conclusion first supplied on 15a."
+          },
+          {
+            "path": "learning.coreMove",
+            "importsNextDafConclusion": false,
+            "note": "Content fully derived and concluded within this sugya's own declared vilna_line range per source_store.js; does not state or depend on any ruling/conclusion first supplied on 15a."
+          },
+          {
+            "path": "learning.coreTension",
+            "importsNextDafConclusion": false,
+            "note": "Content fully derived and concluded within this sugya's own declared vilna_line range per source_store.js; does not state or depend on any ruling/conclusion first supplied on 15a."
+          },
+          {
+            "path": "learning.learnerQuestion",
+            "importsNextDafConclusion": false,
+            "note": "Content fully derived and concluded within this sugya's own declared vilna_line range per source_store.js; does not state or depend on any ruling/conclusion first supplied on 15a."
+          },
+          {
+            "path": "learning.learningBlocker",
+            "importsNextDafConclusion": false,
+            "note": "Content fully derived and concluded within this sugya's own declared vilna_line range per source_store.js; does not state or depend on any ruling/conclusion first supplied on 15a."
+          },
+          {
+            "path": "learning.memoryAnchor",
+            "importsNextDafConclusion": false,
+            "note": "Content fully derived and concluded within this sugya's own declared vilna_line range per source_store.js; does not state or depend on any ruling/conclusion first supplied on 15a."
+          },
+          {
+            "path": "learning.takeaway.text",
+            "importsNextDafConclusion": false,
+            "note": "Content fully derived and concluded within this sugya's own declared vilna_line range per source_store.js; does not state or depend on any ruling/conclusion first supplied on 15a."
+          },
+          {
+            "path": "learning.takeaway.type",
+            "importsNextDafConclusion": false,
+            "note": "Classification reflects only this sugya's own content; does not assert or depend on a conclusion first reached on 14b's continuation (15a)."
+          },
+          {
+            "path": "misconceptions[0].correction",
+            "importsNextDafConclusion": false,
+            "note": "Content fully derived and concluded within this sugya's own declared vilna_line range per source_store.js; does not state or depend on any ruling/conclusion first supplied on 15a."
+          },
+          {
+            "path": "misconceptions[0].misconception",
+            "importsNextDafConclusion": false,
+            "note": "Content fully derived and concluded within this sugya's own declared vilna_line range per source_store.js; does not state or depend on any ruling/conclusion first supplied on 15a."
+          },
+          {
+            "path": "misconceptions[1].correction",
+            "importsNextDafConclusion": false,
+            "note": "Content fully derived and concluded within this sugya's own declared vilna_line range per source_store.js; does not state or depend on any ruling/conclusion first supplied on 15a."
+          },
+          {
+            "path": "misconceptions[1].misconception",
+            "importsNextDafConclusion": false,
+            "note": "Content fully derived and concluded within this sugya's own declared vilna_line range per source_store.js; does not state or depend on any ruling/conclusion first supplied on 15a."
+          },
+          {
+            "path": "prerequisiteKnowledge[0]",
+            "importsNextDafConclusion": false,
+            "note": "Content fully derived and concluded within this sugya's own declared vilna_line range per source_store.js; does not state or depend on any ruling/conclusion first supplied on 15a."
+          },
+          {
+            "path": "prerequisiteKnowledge[1]",
+            "importsNextDafConclusion": false,
+            "note": "Content fully derived and concluded within this sugya's own declared vilna_line range per source_store.js; does not state or depend on any ruling/conclusion first supplied on 15a."
+          },
+          {
+            "path": "quizSeeds[0].answer",
+            "importsNextDafConclusion": false,
+            "note": "Content fully derived and concluded within this sugya's own declared vilna_line range per source_store.js; does not state or depend on any ruling/conclusion first supplied on 15a."
+          },
+          {
+            "path": "quizSeeds[0].question",
+            "importsNextDafConclusion": false,
+            "note": "Content fully derived and concluded within this sugya's own declared vilna_line range per source_store.js; does not state or depend on any ruling/conclusion first supplied on 15a."
+          },
+          {
+            "path": "quizSeeds[0].sourceRefs[0].note",
+            "importsNextDafConclusion": false,
+            "note": "Content fully derived and concluded within this sugya's own declared vilna_line range per source_store.js; does not state or depend on any ruling/conclusion first supplied on 15a."
+          },
+          {
+            "path": "quizSeeds[1].answer",
+            "importsNextDafConclusion": false,
+            "note": "Content fully derived and concluded within this sugya's own declared vilna_line range per source_store.js; does not state or depend on any ruling/conclusion first supplied on 15a."
+          },
+          {
+            "path": "quizSeeds[1].question",
+            "importsNextDafConclusion": false,
+            "note": "Content fully derived and concluded within this sugya's own declared vilna_line range per source_store.js; does not state or depend on any ruling/conclusion first supplied on 15a."
+          },
+          {
+            "path": "quizSeeds[1].sourceRefs[0].note",
+            "importsNextDafConclusion": false,
+            "note": "Content fully derived and concluded within this sugya's own declared vilna_line range per source_store.js; does not state or depend on any ruling/conclusion first supplied on 15a."
+          },
+          {
+            "path": "topicTags[0]",
+            "importsNextDafConclusion": false,
+            "note": "Content fully derived and concluded within this sugya's own declared vilna_line range per source_store.js; does not state or depend on any ruling/conclusion first supplied on 15a."
+          },
+          {
+            "path": "topicTags[1]",
+            "importsNextDafConclusion": false,
+            "note": "Content fully derived and concluded within this sugya's own declared vilna_line range per source_store.js; does not state or depend on any ruling/conclusion first supplied on 15a."
+          },
+          {
+            "path": "topicTags[2]",
+            "importsNextDafConclusion": false,
+            "note": "Content fully derived and concluded within this sugya's own declared vilna_line range per source_store.js; does not state or depend on any ruling/conclusion first supplied on 15a."
+          },
+          {
+            "path": "topicTags[3]",
+            "importsNextDafConclusion": false,
+            "note": "Content fully derived and concluded within this sugya's own declared vilna_line range per source_store.js; does not state or depend on any ruling/conclusion first supplied on 15a."
+          },
+          {
+            "path": "topicTags[4]",
+            "importsNextDafConclusion": false,
+            "note": "Content fully derived and concluded within this sugya's own declared vilna_line range per source_store.js; does not state or depend on any ruling/conclusion first supplied on 15a."
+          },
+          {
+            "path": "topicTags[5]",
+            "importsNextDafConclusion": false,
+            "note": "Content fully derived and concluded within this sugya's own declared vilna_line range per source_store.js; does not state or depend on any ruling/conclusion first supplied on 15a."
+          },
+          {
+            "path": "visualizableElements[0].item",
+            "importsNextDafConclusion": false,
+            "note": "Content fully derived and concluded within this sugya's own declared vilna_line range per source_store.js; does not state or depend on any ruling/conclusion first supplied on 15a."
+          },
+          {
+            "path": "visualizableElements[0].type",
+            "importsNextDafConclusion": false,
+            "note": "Classification reflects only this sugya's own content; does not assert or depend on a conclusion first reached on 14b's continuation (15a)."
+          },
+          {
+            "path": "visualizableElements[1].item",
+            "importsNextDafConclusion": false,
+            "note": "Content fully derived and concluded within this sugya's own declared vilna_line range per source_store.js; does not state or depend on any ruling/conclusion first supplied on 15a."
+          },
+          {
+            "path": "visualizableElements[1].type",
+            "importsNextDafConclusion": false,
+            "note": "Classification reflects only this sugya's own content; does not assert or depend on a conclusion first reached on 14b's continuation (15a)."
+          }
+        ],
+        "staleContentSweep": {
+          "entries": [
+            {
+              "category": "stale_original_error",
+              "found": false
+            },
+            {
+              "category": "stale_speaker_or_attribution",
+              "found": false
+            },
+            {
+              "category": "contradictory_speaker_attribution",
+              "found": false
+            },
+            {
+              "category": "old_conclusion_in_secondary_field",
+              "found": false
+            },
+            {
+              "category": "false_closure",
+              "found": false
+            },
+            {
+              "category": "next_daf_content_leaked_backward",
+              "found": false
+            },
+            {
+              "category": "claim_unsupported_by_physical_daf",
+              "found": false
+            },
+            {
+              "category": "stale_quiz_question_or_answer",
+              "found": false
+            },
+            {
+              "category": "stale_final_ruling",
+              "found": false
+            },
+            {
+              "category": "stale_summary",
+              "found": false
+            },
+            {
+              "category": "stale_learning_field",
+              "found": false
+            },
+            {
+              "category": "stale_misconception",
+              "found": false
+            },
+            {
+              "category": "stale_related_sugya_description",
+              "found": false
+            },
+            {
+              "category": "stale_visualizable_element_prose",
+              "found": false
+            },
+            {
+              "category": "source_refs_no_longer_supporting_claim",
+              "found": false
+            },
+            {
+              "category": "reference_outside_declared_line_range",
+              "found": false
+            }
+          ]
+        },
+        "summary": "Independent whole-record audit of yoma-14b-s02 against source_store.js's authoritative vilna_line grouping for sugya '14b-2' (vilna_line 3, 7, 11, 14) found no defects. The lineRange, lines[], sefariaRefs, and all lineId anchors in argumentFlow/quizSeeds correctly match source_store.js exactly, with clean boundaries against 14b-1 (ends at vilna_line 1) and 14b-3 (begins at vilna_line 16) and no cross-sugya content leakage. All semantic fields (display, learning, argumentFlow, misconceptions, quizSeeds, finalRuling, visualizableElements) accurately and faithfully represent the man-tana attribution passage: the Tamid/seder-yoma order contradiction, Rav Huna's attribution of Tamid to R. Shimon ish HaMitzpah, its refutation via the Tosefta showing R. Shimon's documented position diverges from Tamid's anonymous blood-sprinkling order, and Rabbi Yochanan's reattribution of seder yoma (not Tamid) to R. Shimon ish HaMitzpah. Notably, the content correctly avoids over-claiming the English-translation-only gloss about Tamid following the Rabbis at vilna_line 14, which is not present in the Vilna Hebrew of that line - a sign of careful sourcing rather than a defect. No REPAIR_REQUIRED, BLOCKED, or NONFACTUAL findings.",
+        "refreshNote": "Content corrected this session (reversed Tamid/seder-yoma order attribution fixed in display.whats and argumentFlow step-01). Fresh isolated final-audit (yoma-14b-s02-final-audit-v2) independently re-read vilna_line 3,7,11,14 and confirmed display.whats, argumentFlow[step-01].label, and argumentFlow[step-01].text are all SUPPORTED against the corrected source attribution, and confirmed no stale reversed claim remains anywhere in the sugya. All other fieldInventory/boundaryLeakageSweep/staleContentSweep entries are unchanged from the prior audit since their underlying content and supporting line ranges were not touched by this fix."
+      },
+      "certifiedAtCommit": "PENDING_COMMIT_SHA"
+    },
+    "yoma-14b-s03": {
+      "sugyaId": "yoma-14b-s03",
+      "daf": "14b",
+      "state": "CERTIFIED",
+      "firstPass": {
+        "reviewId": "14b-second-pass-v2-2026-10-13",
+        "reviewerContextId": "agent:rabbi:subagent:0c0e87bd-631a-48de-a25e-9fdfbe589e37",
+        "sourceFirst": true,
+        "verdict": "REPAIR_REQUIRED",
+        "reviewedSourceFingerprint": "c120300a1cee5d88bb99ed85208f619e08a7280b71ee5ba2705d21a5731374e2",
+        "reviewedSemanticFingerprint": "a3d1ab5f69c61529d2d67cea5fc124b144166d57758a58f8faa160020d9894c7",
+        "evidence": {
+          "origin": "independent-second-pass-rejection",
+          "reviewEvidence": {
+            "reviewId": "14b-second-pass-v2-2026-10-13",
+            "dafSummaryVerdict": "REJECTED",
+            "dafSummaryNotes": "The summary calls the final dispute a 'three-way dispute between Abba Shaul and the Rabbanan' — that is only two parties (Abba Shaul vs. the Rabbanan/anonymous baraita), not a three-way dispute. Also, because the summary describes the Abba Shaul/Rabbanan disagreement only generically (without stating which side holds which order), it does not itself state the reversal found in s03, but it inherits the ambiguity that the underlying sugya enrichment gets backwards. The earlier parts of the summary (R. Akiva/Abaye sprinkling resolution; Tamid vs. seder yoma man-tana identification) are accurate to the source.",
+            "sugyaVerdicts": {
+              "yoma-14b-s01": {
+                "verdict": "REJECTED",
+                "notes": "Content of the enrichment (Abaye's resolution: KG serves all day while pure, sprinkled only toward evening, then immerses and awaits nightfall) is accurate to vilnaLines 1-3 ('ראשי גבעולין ... אביי אמר אפילו תימא ר\"ע דעביד עבודה כוליה יומא ולפניא מדו עליה וטביל ועביד הערב השמש'). However, declaredLineRange is startVilnaLine=1, endVilnaLine=1 only. VilnaLine 2 ('ר\"ע דעביד עבודה כוליה יומא ולפניא מדו') is mid-sentence continuation of the same Abaye statement begun on line 1 and finished on line 3 — it is not a self-contained unit. Because s02's declaredLineRange starts at 3, vilnaLine 2 falls into an uncovered gap between s01 and s02. This is a genuine line-coverage gap, not just a stylistic nit: every vilnaLine must be covered by exactly one sugya, and line 2 currently is covered by none. The sentence content is already reflected inside s01's own enrichment text, so the fix is to extend s01's declaredLineRange to 1-2 (or 1-3) rather than a content rewrite."
+              },
+              "yoma-14b-s02": {
+                "verdict": "REJECTED",
+                "notes": "The substantive content is accurate: it correctly identifies the Tamid-vs-seder-yoma order contradiction (Tamid's mishna text order implies incense-before-lamps; the Yoma lottery mishna lists lamp-cleaning before incense), correctly uses the 'man tana' idiom as 'whose Tannaitic view does this anonymous ruling follow' rather than literal tractate authorship (lineIds yoma-014b-l07/l11/l14 and their paired vilnaLines 7/11/14 are internally consistent and correctly zero-padded), and correctly traces Rav Huna's attribution to R. Shimon ish HaMitzpah for Tamid, its refutation via the baraita showing he departs from Tamid's blood-order, and Rabbi Yochanan's reattribution to seder yoma. The defect is boundary-only: declaredLineRange starts at vilnaLine 3, leaving vilnaLine 2 (part of the same continuous Abaye statement that s01 begins) in an uncovered gap between s01 and s02 (see s01 notes). This must be corrected together with s01 so lines 1-15 are covered with no gap before this sugya can be certified."
+              },
+              "yoma-14b-s03": {
+                "verdict": "REJECTED",
+                "notes": "CONFIRMED FACTUAL REVERSAL: the enrichment swaps Abba Shaul's and the Rabbanan's positions on where incense falls relative to lamp-cleaning. The baraita at vilnaLines 25-28 reads: 'לא ייטיב את הנרות ואח\"כ יקטיר אלא יקטיר ואחר כך ייטיב' (the anonymous/Rabbanan view: he does NOT tend the lamps and then burn incense; RATHER he burns incense and AFTERWARD tends [the last two lamps] — i.e., five lamps, then incense, then the final two lamps) and 'אבא שאול אומר מטיב ואחר כך מקטיר' (Abba Shaul: he tends [the lamps, all seven, with the Tamid-blood sprinkling as the pause between the two lamp sessions] and ONLY AFTERWARD burns incense — i.e., incense comes LAST, after all lamp-cleaning is finished, not first). Abba Shaul's own proof-text at vilnaLines 28-30 ('בבקר בבקר בהיטיבו את הנרות והדר יקטירנה' — 'morning by morning, when he tends the lamps, and THEN he shall burn it') explicitly has tending the lamps before burning incense, confirming incense-last for Abba Shaul. The bundled relevantRashi for this sugya (vilnaLine 58) says the same thing explicitly: 'Abba Shaul says: he cleans — all of them before the incense, with the daily offering's blood as the pause.' But the currentEnrichment's display.whats, learning fields, argumentFlow step-03, memoryAnchor, visualizableElements sequence, quizSeeds answer, and finalRuling all state the opposite: 'Abba Shaul: incense is burned before all lamp-cleaning... Rabbanan: five lamps first, then incense, then the two remaining lamps.' The Rabbanan side (five-incense-two) happens to be correctly stated, but Abba Shaul's side is reversed (enrichment says incense-first; source and its own cited Rashi say incense-last/after all lamp-cleaning). This is a substantive, source-contradicted error that invalidates every field built on the dispute description and requires a full rewrite of display, learning, argumentFlow step-03, misconceptions, visualizableElements, quizSeeds, and finalRuling for this sugya. The underlying two-stage resolution (five lamps cleaned first, two cleaned later, pause differs by opinion) and the earlier internal-Yoma-contradiction framing (step-01, step-02) are accurate and can be kept."
+              }
+            },
+            "overallNotes": "Three defects found independently: (1) a genuine line-coverage gap at vilnaLine 2, uncovered by either s01 (ends at line 1) or s02 (starts at line 3) — fix by extending s01's declaredLineRange to include line 2; (2) the daf summary mischaracterizes the final dispute as 'three-way' when it is a two-way dispute between Abba Shaul and the Rabbanan; (3) a serious, source-contradicted reversal in s03 of Abba Shaul's and the Rabbanan's positions on incense-vs-lamp-cleaning order — the source baraita, Abba Shaul's own proof-text, and the bundled Rashi commentary all state Abba Shaul holds lamp-cleaning is completed before incense (incense last), while the enrichment states the opposite (incense first). This third defect is the most severe and requires a holistic rewrite of s03's dispute-dependent fields. The 'man tana' idiom in s02 is handled correctly (not mistaken for literal tractate authorship), and all lineId/vilnaLine pairings checked (l01, l03, l07, l11, l14, l16, l20, l22, l28, l31) are internally consistent with correct zero-padded daf-number formatting."
+          }
+        }
+      },
+      "repairRef": "cb0e11db2afd27fe81c762bb35115737d94dde5a",
+      "sourceFingerprint": "c120300a1cee5d88bb99ed85208f619e08a7280b71ee5ba2705d21a5731374e2",
+      "semanticFingerprint": "d0504f944c0612618d56f586ba4d91423d992682a8e8c791e9a105fd92282e46",
+      "secondPass": {
+        "reviewId": "14b-s03-second-pass-v3-2026-10-13",
+        "reviewerContextId": "agent:rabbi:subagent:97206a21-9e8a-43f4-9e92-db48caaef910",
+        "sourceFirst": true,
+        "verdict": "CONFIRMED",
+        "reviewedSourceFingerprint": "c120300a1cee5d88bb99ed85208f619e08a7280b71ee5ba2705d21a5731374e2",
+        "reviewedSemanticFingerprint": "d0504f944c0612618d56f586ba4d91423d992682a8e8c791e9a105fd92282e46",
+        "evidence": {
+          "summary": "Independent isolated reviewer with no prior context: performed a fresh source-first translation of vilna_line 16,20,22,28,31 from source_store.js BEFORE reading the enrichment, establishing that the original contradiction at vilna_line 16 is purely about ORDER (candelabrum-cleaning vs incense-lottery) with no lamp count mentioned, and that the five-vs-two lamp split first appears only at vilna_line 20 as Abaye's resolution. Verified the corrected learnerQuestion, coreTension, argumentFlow step-01, and misconceptions[0] (which had been fixed this session after a prior isolated reviewer caught the conflation of the original order-only contradiction with Abaye's resolution) now correctly distinguish the two and match the source exactly, with no conflation. Also verified the Abba Shaul vs Rabbanan dispute, scriptural derivations from Exodus 30:7-8, topicTags, vilna_line 31's incompleteness is not misrepresented as a closed ruling, and confirmed zero leakage from 14b-2 (ends vilna_line 14)."
+        }
+      },
+      "finalAudit": {
+        "reviewId": "yoma-14b-s03-final-audit-v2-2026-10-13",
+        "auditorContextId": "agent:rabbi:subagent:51e062c7-2a50-418c-a646-ff28e5d74753",
+        "auditedSourceFingerprint": "c120300a1cee5d88bb99ed85208f619e08a7280b71ee5ba2705d21a5731374e2",
+        "auditedSemanticFingerprint": "d0504f944c0612618d56f586ba4d91423d992682a8e8c791e9a105fd92282e46",
+        "dafBoundary": {
+          "rawLineCount": 31,
+          "finalRawLine": "בעידן",
+          "dafEndState": "MID_SENTENCE",
+          "note": "Raw daf 14b text ends mid-sentence at vilna_line 31 ('be'idan'); only yoma-14b-s03 (vilna_line 16-31) touches this boundary and its content is confirmed to not assert a false closure (dispute left open per source_store.js/raw text)."
+        },
+        "fieldInventory": [
+          {
+            "path": "lineRange",
+            "classification": "STRUCTURAL",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "lines",
+            "classification": "STRUCTURAL",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "dafLevel.glossary[0].en",
+            "classification": "SEMANTIC",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "14b",
+                "startVilnaLine": 16,
+                "endVilnaLine": 31
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "dafLevel.glossary[0].he",
+            "classification": "SEMANTIC",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "14b",
+                "startVilnaLine": 16,
+                "endVilnaLine": 31
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "dafLevel.glossary[0].translit",
+            "classification": "SEMANTIC",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "14b",
+                "startVilnaLine": 16,
+                "endVilnaLine": 31
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "dafLevel.glossary[1].en",
+            "classification": "SEMANTIC",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "14b",
+                "startVilnaLine": 16,
+                "endVilnaLine": 31
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "dafLevel.glossary[1].he",
+            "classification": "SEMANTIC",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "14b",
+                "startVilnaLine": 16,
+                "endVilnaLine": 31
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "dafLevel.glossary[1].translit",
+            "classification": "SEMANTIC",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "14b",
+                "startVilnaLine": 16,
+                "endVilnaLine": 31
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "dafLevel.glossary[2].en",
+            "classification": "SEMANTIC",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "14b",
+                "startVilnaLine": 16,
+                "endVilnaLine": 31
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "dafLevel.glossary[2].he",
+            "classification": "SEMANTIC",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "14b",
+                "startVilnaLine": 16,
+                "endVilnaLine": 31
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "dafLevel.glossary[2].translit",
+            "classification": "SEMANTIC",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "14b",
+                "startVilnaLine": 16,
+                "endVilnaLine": 31
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "dafLevel.glossary[3].en",
+            "classification": "SEMANTIC",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "14b",
+                "startVilnaLine": 16,
+                "endVilnaLine": 31
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "dafLevel.glossary[3].he",
+            "classification": "SEMANTIC",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "14b",
+                "startVilnaLine": 16,
+                "endVilnaLine": 31
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "dafLevel.glossary[3].translit",
+            "classification": "SEMANTIC",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "14b",
+                "startVilnaLine": 16,
+                "endVilnaLine": 31
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "dafLevel.summary",
+            "classification": "SEMANTIC",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "14b",
+                "startVilnaLine": 16,
+                "endVilnaLine": 31
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-01].id",
+            "classification": "STRUCTURAL",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-01].label",
+            "classification": "SEMANTIC",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "14b",
+                "startVilnaLine": 16,
+                "endVilnaLine": 31
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-01].sourceRefs[0].lineId",
+            "classification": "STRUCTURAL",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-01].sourceRefs[0].note",
+            "classification": "SEMANTIC",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "14b",
+                "startVilnaLine": 16,
+                "endVilnaLine": 31
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-01].sourceRefs[0].sourceType",
+            "classification": "STRUCTURAL",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-01].sourceRefs[0].vilnaLine",
+            "classification": "STRUCTURAL",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-01].speaker",
+            "classification": "SEMANTIC",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "14b",
+                "startVilnaLine": 16,
+                "endVilnaLine": 31
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-01].text",
+            "classification": "SEMANTIC",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "14b",
+                "startVilnaLine": 16,
+                "endVilnaLine": 31
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-01].type",
+            "classification": "METADATA",
+            "verdict": "REVIEWED",
+            "note": "Isolated final audit (/tmp/14b-s03-final-audit-v1.json) reviewed this editorial/discourse classification and found it accurate and non-stale.",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-02].id",
+            "classification": "STRUCTURAL",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-02].label",
+            "classification": "SEMANTIC",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "14b",
+                "startVilnaLine": 16,
+                "endVilnaLine": 31
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-02].sourceRefs[0].lineId",
+            "classification": "STRUCTURAL",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-02].sourceRefs[0].note",
+            "classification": "SEMANTIC",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "14b",
+                "startVilnaLine": 16,
+                "endVilnaLine": 31
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-02].sourceRefs[0].sourceType",
+            "classification": "STRUCTURAL",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-02].sourceRefs[0].vilnaLine",
+            "classification": "STRUCTURAL",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-02].speaker",
+            "classification": "SEMANTIC",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "14b",
+                "startVilnaLine": 16,
+                "endVilnaLine": 31
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-02].text",
+            "classification": "SEMANTIC",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "14b",
+                "startVilnaLine": 16,
+                "endVilnaLine": 31
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-02].type",
+            "classification": "METADATA",
+            "verdict": "REVIEWED",
+            "note": "Isolated final audit (/tmp/14b-s03-final-audit-v1.json) reviewed this editorial/discourse classification and found it accurate and non-stale.",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-03].id",
+            "classification": "STRUCTURAL",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-03].label",
+            "classification": "SEMANTIC",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "14b",
+                "startVilnaLine": 16,
+                "endVilnaLine": 31
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-03].sourceRefs[0].lineId",
+            "classification": "STRUCTURAL",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-03].sourceRefs[0].note",
+            "classification": "SEMANTIC",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "14b",
+                "startVilnaLine": 16,
+                "endVilnaLine": 31
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-03].sourceRefs[0].sourceType",
+            "classification": "STRUCTURAL",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-03].sourceRefs[0].vilnaLine",
+            "classification": "STRUCTURAL",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-03].sourceRefs[1].lineId",
+            "classification": "STRUCTURAL",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-03].sourceRefs[1].note",
+            "classification": "SEMANTIC",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "14b",
+                "startVilnaLine": 16,
+                "endVilnaLine": 31
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-03].sourceRefs[1].sourceType",
+            "classification": "STRUCTURAL",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-03].sourceRefs[1].vilnaLine",
+            "classification": "STRUCTURAL",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-03].sourceRefs[2].lineId",
+            "classification": "STRUCTURAL",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-03].sourceRefs[2].note",
+            "classification": "SEMANTIC",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "14b",
+                "startVilnaLine": 16,
+                "endVilnaLine": 31
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-03].sourceRefs[2].sourceType",
+            "classification": "STRUCTURAL",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-03].sourceRefs[2].vilnaLine",
+            "classification": "STRUCTURAL",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-03].speaker",
+            "classification": "SEMANTIC",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "14b",
+                "startVilnaLine": 16,
+                "endVilnaLine": 31
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-03].text",
+            "classification": "SEMANTIC",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "14b",
+                "startVilnaLine": 16,
+                "endVilnaLine": 31
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-03].type",
+            "classification": "METADATA",
+            "verdict": "REVIEWED",
+            "note": "Isolated final audit (/tmp/14b-s03-final-audit-v1.json) reviewed this editorial/discourse classification and found it accurate and non-stale.",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "conceptRefs[0]",
+            "classification": "SEMANTIC",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "14b",
+                "startVilnaLine": 16,
+                "endVilnaLine": 31
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "conceptRefs[1]",
+            "classification": "SEMANTIC",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "14b",
+                "startVilnaLine": 16,
+                "endVilnaLine": 31
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "difficulty",
+            "classification": "METADATA",
+            "verdict": "REVIEWED",
+            "note": "Isolated final audit (/tmp/14b-s03-final-audit-v1.json) reviewed this editorial/discourse classification and found it accurate and non-stale.",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "display.hint",
+            "classification": "SEMANTIC",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "14b",
+                "startVilnaLine": 16,
+                "endVilnaLine": 31
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "display.oneLine",
+            "classification": "SEMANTIC",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "14b",
+                "startVilnaLine": 16,
+                "endVilnaLine": 31
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "display.title",
+            "classification": "SEMANTIC",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "14b",
+                "startVilnaLine": 16,
+                "endVilnaLine": 31
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "display.whats",
+            "classification": "SEMANTIC",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "14b",
+                "startVilnaLine": 16,
+                "endVilnaLine": 31
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "finalRuling",
+            "classification": "SEMANTIC",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "14b",
+                "startVilnaLine": 16,
+                "endVilnaLine": 31
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "learning.ahaMoment",
+            "classification": "SEMANTIC",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "14b",
+                "startVilnaLine": 16,
+                "endVilnaLine": 31
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "learning.coreMove",
+            "classification": "SEMANTIC",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "14b",
+                "startVilnaLine": 16,
+                "endVilnaLine": 31
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "learning.coreTension",
+            "classification": "SEMANTIC",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "14b",
+                "startVilnaLine": 16,
+                "endVilnaLine": 31
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "learning.learnerQuestion",
+            "classification": "SEMANTIC",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "14b",
+                "startVilnaLine": 16,
+                "endVilnaLine": 31
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "learning.learningBlocker",
+            "classification": "SEMANTIC",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "14b",
+                "startVilnaLine": 16,
+                "endVilnaLine": 31
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "learning.memoryAnchor",
+            "classification": "SEMANTIC",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "14b",
+                "startVilnaLine": 16,
+                "endVilnaLine": 31
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "learning.takeaway.text",
+            "classification": "SEMANTIC",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "14b",
+                "startVilnaLine": 16,
+                "endVilnaLine": 31
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "learning.takeaway.type",
+            "classification": "METADATA",
+            "verdict": "REVIEWED",
+            "note": "Isolated final audit (/tmp/14b-s03-final-audit-v1.json) reviewed this editorial/discourse classification and found it accurate and non-stale.",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "misconceptions[0].correctedByStepId",
+            "classification": "STRUCTURAL",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "misconceptions[0].correction",
+            "classification": "SEMANTIC",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "14b",
+                "startVilnaLine": 16,
+                "endVilnaLine": 31
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "misconceptions[0].misconception",
+            "classification": "SEMANTIC",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "14b",
+                "startVilnaLine": 16,
+                "endVilnaLine": 31
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "misconceptions[1].correctedByStepId",
+            "classification": "STRUCTURAL",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "misconceptions[1].correction",
+            "classification": "SEMANTIC",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "14b",
+                "startVilnaLine": 16,
+                "endVilnaLine": 31
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "misconceptions[1].misconception",
+            "classification": "SEMANTIC",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "14b",
+                "startVilnaLine": 16,
+                "endVilnaLine": 31
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "prerequisiteKnowledge[0]",
+            "classification": "SEMANTIC",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "14b",
+                "startVilnaLine": 16,
+                "endVilnaLine": 31
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "prerequisiteKnowledge[1]",
+            "classification": "SEMANTIC",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "14b",
+                "startVilnaLine": 16,
+                "endVilnaLine": 31
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "prerequisiteKnowledge[2]",
+            "classification": "SEMANTIC",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "14b",
+                "startVilnaLine": 16,
+                "endVilnaLine": 31
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "quizSeeds[0].answer",
+            "classification": "SEMANTIC",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "14b",
+                "startVilnaLine": 16,
+                "endVilnaLine": 31
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "quizSeeds[0].question",
+            "classification": "SEMANTIC",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "14b",
+                "startVilnaLine": 16,
+                "endVilnaLine": 31
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "quizSeeds[0].sourceRefs[0].lineId",
+            "classification": "STRUCTURAL",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "quizSeeds[0].sourceRefs[0].note",
+            "classification": "SEMANTIC",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "14b",
+                "startVilnaLine": 16,
+                "endVilnaLine": 31
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "quizSeeds[0].sourceRefs[0].sourceType",
+            "classification": "STRUCTURAL",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "quizSeeds[0].sourceRefs[0].vilnaLine",
+            "classification": "STRUCTURAL",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "quizSeeds[1].answer",
+            "classification": "SEMANTIC",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "14b",
+                "startVilnaLine": 16,
+                "endVilnaLine": 31
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "quizSeeds[1].question",
+            "classification": "SEMANTIC",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "14b",
+                "startVilnaLine": 16,
+                "endVilnaLine": 31
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "quizSeeds[1].sourceRefs[0].lineId",
+            "classification": "STRUCTURAL",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "quizSeeds[1].sourceRefs[0].note",
+            "classification": "SEMANTIC",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "14b",
+                "startVilnaLine": 16,
+                "endVilnaLine": 31
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "quizSeeds[1].sourceRefs[0].sourceType",
+            "classification": "STRUCTURAL",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "quizSeeds[1].sourceRefs[0].vilnaLine",
+            "classification": "STRUCTURAL",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "relatedSugyot[0]",
+            "classification": "STRUCTURAL",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "topicTags[0]",
+            "classification": "STRUCTURAL",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "topicTags[1]",
+            "classification": "STRUCTURAL",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "topicTags[2]",
+            "classification": "SEMANTIC",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "14b",
+                "startVilnaLine": 16,
+                "endVilnaLine": 31
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "topicTags[3]",
+            "classification": "SEMANTIC",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "14b",
+                "startVilnaLine": 16,
+                "endVilnaLine": 31
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "topicTags[4]",
+            "classification": "STRUCTURAL",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "topicTags[5]",
+            "classification": "SEMANTIC",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "14b",
+                "startVilnaLine": 16,
+                "endVilnaLine": 31
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "visualizableElements[0].item",
+            "classification": "SEMANTIC",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "14b",
+                "startVilnaLine": 16,
+                "endVilnaLine": 31
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "visualizableElements[0].type",
+            "classification": "METADATA",
+            "verdict": "REVIEWED",
+            "note": "Isolated final audit (/tmp/14b-s03-final-audit-v1.json) reviewed this editorial/discourse classification and found it accurate and non-stale.",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "visualizableElements[1].item",
+            "classification": "SEMANTIC",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "14b",
+                "startVilnaLine": 16,
+                "endVilnaLine": 31
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "visualizableElements[1].type",
+            "classification": "METADATA",
+            "verdict": "REVIEWED",
+            "note": "Isolated final audit (/tmp/14b-s03-final-audit-v1.json) reviewed this editorial/discourse classification and found it accurate and non-stale.",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "visualizableElements[2].item",
+            "classification": "SEMANTIC",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "14b",
+                "startVilnaLine": 16,
+                "endVilnaLine": 31
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "visualizableElements[2].type",
+            "classification": "METADATA",
+            "verdict": "REVIEWED",
+            "note": "Isolated final audit (/tmp/14b-s03-final-audit-v1.json) reviewed this editorial/discourse classification and found it accurate and non-stale.",
+            "boundarySafe": true,
+            "crossReference": false
+          }
+        ],
+        "boundaryLeakageSweep": [
+          {
+            "path": "dafLevel.glossary[0].en",
+            "importsNextDafConclusion": false,
+            "note": "Content fully derived and concluded within this sugya's own declared vilna_line range per source_store.js; does not state or depend on any ruling/conclusion first supplied on 15a."
+          },
+          {
+            "path": "dafLevel.glossary[0].he",
+            "importsNextDafConclusion": false,
+            "note": "Content fully derived and concluded within this sugya's own declared vilna_line range per source_store.js; does not state or depend on any ruling/conclusion first supplied on 15a."
+          },
+          {
+            "path": "dafLevel.glossary[0].translit",
+            "importsNextDafConclusion": false,
+            "note": "Content fully derived and concluded within this sugya's own declared vilna_line range per source_store.js; does not state or depend on any ruling/conclusion first supplied on 15a."
+          },
+          {
+            "path": "dafLevel.glossary[1].en",
+            "importsNextDafConclusion": false,
+            "note": "Content fully derived and concluded within this sugya's own declared vilna_line range per source_store.js; does not state or depend on any ruling/conclusion first supplied on 15a."
+          },
+          {
+            "path": "dafLevel.glossary[1].he",
+            "importsNextDafConclusion": false,
+            "note": "Content fully derived and concluded within this sugya's own declared vilna_line range per source_store.js; does not state or depend on any ruling/conclusion first supplied on 15a."
+          },
+          {
+            "path": "dafLevel.glossary[1].translit",
+            "importsNextDafConclusion": false,
+            "note": "Content fully derived and concluded within this sugya's own declared vilna_line range per source_store.js; does not state or depend on any ruling/conclusion first supplied on 15a."
+          },
+          {
+            "path": "dafLevel.glossary[2].en",
+            "importsNextDafConclusion": false,
+            "note": "Content fully derived and concluded within this sugya's own declared vilna_line range per source_store.js; does not state or depend on any ruling/conclusion first supplied on 15a."
+          },
+          {
+            "path": "dafLevel.glossary[2].he",
+            "importsNextDafConclusion": false,
+            "note": "Content fully derived and concluded within this sugya's own declared vilna_line range per source_store.js; does not state or depend on any ruling/conclusion first supplied on 15a."
+          },
+          {
+            "path": "dafLevel.glossary[2].translit",
+            "importsNextDafConclusion": false,
+            "note": "Content fully derived and concluded within this sugya's own declared vilna_line range per source_store.js; does not state or depend on any ruling/conclusion first supplied on 15a."
+          },
+          {
+            "path": "dafLevel.glossary[3].en",
+            "importsNextDafConclusion": false,
+            "note": "Content fully derived and concluded within this sugya's own declared vilna_line range per source_store.js; does not state or depend on any ruling/conclusion first supplied on 15a."
+          },
+          {
+            "path": "dafLevel.glossary[3].he",
+            "importsNextDafConclusion": false,
+            "note": "Content fully derived and concluded within this sugya's own declared vilna_line range per source_store.js; does not state or depend on any ruling/conclusion first supplied on 15a."
+          },
+          {
+            "path": "dafLevel.glossary[3].translit",
+            "importsNextDafConclusion": false,
+            "note": "Content fully derived and concluded within this sugya's own declared vilna_line range per source_store.js; does not state or depend on any ruling/conclusion first supplied on 15a."
+          },
+          {
+            "path": "dafLevel.summary",
+            "importsNextDafConclusion": false,
+            "note": "Content fully derived and concluded within this sugya's own declared vilna_line range per source_store.js; does not state or depend on any ruling/conclusion first supplied on 15a."
+          },
+          {
+            "path": "argumentFlow[step-01].label",
+            "importsNextDafConclusion": false,
+            "note": "Content fully derived and concluded within this sugya's own declared vilna_line range per source_store.js; does not state or depend on any ruling/conclusion first supplied on 15a."
+          },
+          {
+            "path": "argumentFlow[step-01].sourceRefs[0].note",
+            "importsNextDafConclusion": false,
+            "note": "Content fully derived and concluded within this sugya's own declared vilna_line range per source_store.js; does not state or depend on any ruling/conclusion first supplied on 15a."
+          },
+          {
+            "path": "argumentFlow[step-01].speaker",
+            "importsNextDafConclusion": false,
+            "note": "Content fully derived and concluded within this sugya's own declared vilna_line range per source_store.js; does not state or depend on any ruling/conclusion first supplied on 15a."
+          },
+          {
+            "path": "argumentFlow[step-01].text",
+            "importsNextDafConclusion": false,
+            "note": "Content fully derived and concluded within this sugya's own declared vilna_line range per source_store.js; does not state or depend on any ruling/conclusion first supplied on 15a."
+          },
+          {
+            "path": "argumentFlow[step-01].type",
+            "importsNextDafConclusion": false,
+            "note": "Classification reflects only this sugya's own content; does not assert or depend on a conclusion first reached on 14b's continuation (15a)."
+          },
+          {
+            "path": "argumentFlow[step-02].label",
+            "importsNextDafConclusion": false,
+            "note": "Content fully derived and concluded within this sugya's own declared vilna_line range per source_store.js; does not state or depend on any ruling/conclusion first supplied on 15a."
+          },
+          {
+            "path": "argumentFlow[step-02].sourceRefs[0].note",
+            "importsNextDafConclusion": false,
+            "note": "Content fully derived and concluded within this sugya's own declared vilna_line range per source_store.js; does not state or depend on any ruling/conclusion first supplied on 15a."
+          },
+          {
+            "path": "argumentFlow[step-02].speaker",
+            "importsNextDafConclusion": false,
+            "note": "Content fully derived and concluded within this sugya's own declared vilna_line range per source_store.js; does not state or depend on any ruling/conclusion first supplied on 15a."
+          },
+          {
+            "path": "argumentFlow[step-02].text",
+            "importsNextDafConclusion": false,
+            "note": "Content fully derived and concluded within this sugya's own declared vilna_line range per source_store.js; does not state or depend on any ruling/conclusion first supplied on 15a."
+          },
+          {
+            "path": "argumentFlow[step-02].type",
+            "importsNextDafConclusion": false,
+            "note": "Classification reflects only this sugya's own content; does not assert or depend on a conclusion first reached on 14b's continuation (15a)."
+          },
+          {
+            "path": "argumentFlow[step-03].label",
+            "importsNextDafConclusion": false,
+            "note": "Content fully derived and concluded within this sugya's own declared vilna_line range per source_store.js; does not state or depend on any ruling/conclusion first supplied on 15a."
+          },
+          {
+            "path": "argumentFlow[step-03].sourceRefs[0].note",
+            "importsNextDafConclusion": false,
+            "note": "Content fully derived and concluded within this sugya's own declared vilna_line range per source_store.js; does not state or depend on any ruling/conclusion first supplied on 15a."
+          },
+          {
+            "path": "argumentFlow[step-03].sourceRefs[1].note",
+            "importsNextDafConclusion": false,
+            "note": "Content fully derived and concluded within this sugya's own declared vilna_line range per source_store.js; does not state or depend on any ruling/conclusion first supplied on 15a."
+          },
+          {
+            "path": "argumentFlow[step-03].sourceRefs[2].note",
+            "importsNextDafConclusion": false,
+            "note": "Content fully derived and concluded within this sugya's own declared vilna_line range per source_store.js; does not state or depend on any ruling/conclusion first supplied on 15a."
+          },
+          {
+            "path": "argumentFlow[step-03].speaker",
+            "importsNextDafConclusion": false,
+            "note": "Content fully derived and concluded within this sugya's own declared vilna_line range per source_store.js; does not state or depend on any ruling/conclusion first supplied on 15a."
+          },
+          {
+            "path": "argumentFlow[step-03].text",
+            "importsNextDafConclusion": false,
+            "note": "Content fully derived and concluded within this sugya's own declared vilna_line range per source_store.js; does not state or depend on any ruling/conclusion first supplied on 15a."
+          },
+          {
+            "path": "argumentFlow[step-03].type",
+            "importsNextDafConclusion": false,
+            "note": "Classification reflects only this sugya's own content; does not assert or depend on a conclusion first reached on 14b's continuation (15a)."
+          },
+          {
+            "path": "conceptRefs[0]",
+            "importsNextDafConclusion": false,
+            "note": "Content fully derived and concluded within this sugya's own declared vilna_line range per source_store.js; does not state or depend on any ruling/conclusion first supplied on 15a."
+          },
+          {
+            "path": "conceptRefs[1]",
+            "importsNextDafConclusion": false,
+            "note": "Content fully derived and concluded within this sugya's own declared vilna_line range per source_store.js; does not state or depend on any ruling/conclusion first supplied on 15a."
+          },
+          {
+            "path": "difficulty",
+            "importsNextDafConclusion": false,
+            "note": "Classification reflects only this sugya's own content; does not assert or depend on a conclusion first reached on 14b's continuation (15a)."
+          },
+          {
+            "path": "display.hint",
+            "importsNextDafConclusion": false,
+            "note": "Content fully derived and concluded within this sugya's own declared vilna_line range per source_store.js; does not state or depend on any ruling/conclusion first supplied on 15a."
+          },
+          {
+            "path": "display.oneLine",
+            "importsNextDafConclusion": false,
+            "note": "Content fully derived and concluded within this sugya's own declared vilna_line range per source_store.js; does not state or depend on any ruling/conclusion first supplied on 15a."
+          },
+          {
+            "path": "display.title",
+            "importsNextDafConclusion": false,
+            "note": "Content fully derived and concluded within this sugya's own declared vilna_line range per source_store.js; does not state or depend on any ruling/conclusion first supplied on 15a."
+          },
+          {
+            "path": "display.whats",
+            "importsNextDafConclusion": false,
+            "note": "Content fully derived and concluded within this sugya's own declared vilna_line range per source_store.js; does not state or depend on any ruling/conclusion first supplied on 15a."
+          },
+          {
+            "path": "finalRuling",
+            "importsNextDafConclusion": false,
+            "note": "Content fully derived and concluded within this sugya's own declared vilna_line range per source_store.js; does not state or depend on any ruling/conclusion first supplied on 15a."
+          },
+          {
+            "path": "learning.ahaMoment",
+            "importsNextDafConclusion": false,
+            "note": "Content fully derived and concluded within this sugya's own declared vilna_line range per source_store.js; does not state or depend on any ruling/conclusion first supplied on 15a."
+          },
+          {
+            "path": "learning.coreMove",
+            "importsNextDafConclusion": false,
+            "note": "Content fully derived and concluded within this sugya's own declared vilna_line range per source_store.js; does not state or depend on any ruling/conclusion first supplied on 15a."
+          },
+          {
+            "path": "learning.coreTension",
+            "importsNextDafConclusion": false,
+            "note": "Content fully derived and concluded within this sugya's own declared vilna_line range per source_store.js; does not state or depend on any ruling/conclusion first supplied on 15a."
+          },
+          {
+            "path": "learning.learnerQuestion",
+            "importsNextDafConclusion": false,
+            "note": "Content fully derived and concluded within this sugya's own declared vilna_line range per source_store.js; does not state or depend on any ruling/conclusion first supplied on 15a."
+          },
+          {
+            "path": "learning.learningBlocker",
+            "importsNextDafConclusion": false,
+            "note": "Content fully derived and concluded within this sugya's own declared vilna_line range per source_store.js; does not state or depend on any ruling/conclusion first supplied on 15a."
+          },
+          {
+            "path": "learning.memoryAnchor",
+            "importsNextDafConclusion": false,
+            "note": "Content fully derived and concluded within this sugya's own declared vilna_line range per source_store.js; does not state or depend on any ruling/conclusion first supplied on 15a."
+          },
+          {
+            "path": "learning.takeaway.text",
+            "importsNextDafConclusion": false,
+            "note": "Content fully derived and concluded within this sugya's own declared vilna_line range per source_store.js; does not state or depend on any ruling/conclusion first supplied on 15a."
+          },
+          {
+            "path": "learning.takeaway.type",
+            "importsNextDafConclusion": false,
+            "note": "Classification reflects only this sugya's own content; does not assert or depend on a conclusion first reached on 14b's continuation (15a)."
+          },
+          {
+            "path": "misconceptions[0].correction",
+            "importsNextDafConclusion": false,
+            "note": "Content fully derived and concluded within this sugya's own declared vilna_line range per source_store.js; does not state or depend on any ruling/conclusion first supplied on 15a."
+          },
+          {
+            "path": "misconceptions[0].misconception",
+            "importsNextDafConclusion": false,
+            "note": "Content fully derived and concluded within this sugya's own declared vilna_line range per source_store.js; does not state or depend on any ruling/conclusion first supplied on 15a."
+          },
+          {
+            "path": "misconceptions[1].correction",
+            "importsNextDafConclusion": false,
+            "note": "Content fully derived and concluded within this sugya's own declared vilna_line range per source_store.js; does not state or depend on any ruling/conclusion first supplied on 15a."
+          },
+          {
+            "path": "misconceptions[1].misconception",
+            "importsNextDafConclusion": false,
+            "note": "Content fully derived and concluded within this sugya's own declared vilna_line range per source_store.js; does not state or depend on any ruling/conclusion first supplied on 15a."
+          },
+          {
+            "path": "prerequisiteKnowledge[0]",
+            "importsNextDafConclusion": false,
+            "note": "Content fully derived and concluded within this sugya's own declared vilna_line range per source_store.js; does not state or depend on any ruling/conclusion first supplied on 15a."
+          },
+          {
+            "path": "prerequisiteKnowledge[1]",
+            "importsNextDafConclusion": false,
+            "note": "Content fully derived and concluded within this sugya's own declared vilna_line range per source_store.js; does not state or depend on any ruling/conclusion first supplied on 15a."
+          },
+          {
+            "path": "prerequisiteKnowledge[2]",
+            "importsNextDafConclusion": false,
+            "note": "Content fully derived and concluded within this sugya's own declared vilna_line range per source_store.js; does not state or depend on any ruling/conclusion first supplied on 15a."
+          },
+          {
+            "path": "quizSeeds[0].answer",
+            "importsNextDafConclusion": false,
+            "note": "Content fully derived and concluded within this sugya's own declared vilna_line range per source_store.js; does not state or depend on any ruling/conclusion first supplied on 15a."
+          },
+          {
+            "path": "quizSeeds[0].question",
+            "importsNextDafConclusion": false,
+            "note": "Content fully derived and concluded within this sugya's own declared vilna_line range per source_store.js; does not state or depend on any ruling/conclusion first supplied on 15a."
+          },
+          {
+            "path": "quizSeeds[0].sourceRefs[0].note",
+            "importsNextDafConclusion": false,
+            "note": "Content fully derived and concluded within this sugya's own declared vilna_line range per source_store.js; does not state or depend on any ruling/conclusion first supplied on 15a."
+          },
+          {
+            "path": "quizSeeds[1].answer",
+            "importsNextDafConclusion": false,
+            "note": "Content fully derived and concluded within this sugya's own declared vilna_line range per source_store.js; does not state or depend on any ruling/conclusion first supplied on 15a."
+          },
+          {
+            "path": "quizSeeds[1].question",
+            "importsNextDafConclusion": false,
+            "note": "Content fully derived and concluded within this sugya's own declared vilna_line range per source_store.js; does not state or depend on any ruling/conclusion first supplied on 15a."
+          },
+          {
+            "path": "quizSeeds[1].sourceRefs[0].note",
+            "importsNextDafConclusion": false,
+            "note": "Content fully derived and concluded within this sugya's own declared vilna_line range per source_store.js; does not state or depend on any ruling/conclusion first supplied on 15a."
+          },
+          {
+            "path": "topicTags[2]",
+            "importsNextDafConclusion": false,
+            "note": "Content fully derived and concluded within this sugya's own declared vilna_line range per source_store.js; does not state or depend on any ruling/conclusion first supplied on 15a."
+          },
+          {
+            "path": "topicTags[3]",
+            "importsNextDafConclusion": false,
+            "note": "Content fully derived and concluded within this sugya's own declared vilna_line range per source_store.js; does not state or depend on any ruling/conclusion first supplied on 15a."
+          },
+          {
+            "path": "topicTags[5]",
+            "importsNextDafConclusion": false,
+            "note": "Content fully derived and concluded within this sugya's own declared vilna_line range per source_store.js; does not state or depend on any ruling/conclusion first supplied on 15a."
+          },
+          {
+            "path": "visualizableElements[0].item",
+            "importsNextDafConclusion": false,
+            "note": "Content fully derived and concluded within this sugya's own declared vilna_line range per source_store.js; does not state or depend on any ruling/conclusion first supplied on 15a."
+          },
+          {
+            "path": "visualizableElements[0].type",
+            "importsNextDafConclusion": false,
+            "note": "Classification reflects only this sugya's own content; does not assert or depend on a conclusion first reached on 14b's continuation (15a)."
+          },
+          {
+            "path": "visualizableElements[1].item",
+            "importsNextDafConclusion": false,
+            "note": "Content fully derived and concluded within this sugya's own declared vilna_line range per source_store.js; does not state or depend on any ruling/conclusion first supplied on 15a."
+          },
+          {
+            "path": "visualizableElements[1].type",
+            "importsNextDafConclusion": false,
+            "note": "Classification reflects only this sugya's own content; does not assert or depend on a conclusion first reached on 14b's continuation (15a)."
+          },
+          {
+            "path": "visualizableElements[2].item",
+            "importsNextDafConclusion": false,
+            "note": "Content fully derived and concluded within this sugya's own declared vilna_line range per source_store.js; does not state or depend on any ruling/conclusion first supplied on 15a."
+          },
+          {
+            "path": "visualizableElements[2].type",
+            "importsNextDafConclusion": false,
+            "note": "Classification reflects only this sugya's own content; does not assert or depend on a conclusion first reached on 14b's continuation (15a)."
+          }
+        ],
+        "staleContentSweep": {
+          "entries": [
+            {
+              "category": "stale_original_error",
+              "found": false
+            },
+            {
+              "category": "stale_speaker_or_attribution",
+              "found": false
+            },
+            {
+              "category": "contradictory_speaker_attribution",
+              "found": false
+            },
+            {
+              "category": "old_conclusion_in_secondary_field",
+              "found": false
+            },
+            {
+              "category": "false_closure",
+              "found": false
+            },
+            {
+              "category": "next_daf_content_leaked_backward",
+              "found": false
+            },
+            {
+              "category": "claim_unsupported_by_physical_daf",
+              "found": false
+            },
+            {
+              "category": "stale_quiz_question_or_answer",
+              "found": false
+            },
+            {
+              "category": "stale_final_ruling",
+              "found": false
+            },
+            {
+              "category": "stale_summary",
+              "found": false
+            },
+            {
+              "category": "stale_learning_field",
+              "found": false
+            },
+            {
+              "category": "stale_misconception",
+              "found": false
+            },
+            {
+              "category": "stale_related_sugya_description",
+              "found": false
+            },
+            {
+              "category": "stale_visualizable_element_prose",
+              "found": false
+            },
+            {
+              "category": "source_refs_no_longer_supporting_claim",
+              "found": false
+            },
+            {
+              "category": "reference_outside_declared_line_range",
+              "found": false
+            }
+          ]
+        },
+        "summary": "Sugya yoma-14b-s03 is fully supported by source_store.js's 14b-3 vilna_line grouping (16-31, matching exactly) and the underlying Hebrew/English text. No content leakage from adjacent sugya 14b-2 (which ends at vilna_line 14). The critical failure mode called out in the audit brief -- a reversed Abba Shaul/Rabbanan attribution on lamp-cleaning vs. incense order -- was specifically checked against the source baraita at vilna_line 22-28 and confirmed NOT reversed: Rabbanan hold incense falls between the two lamp sessions (five lamps, then incense, then two lamps); Abba Shaul holds incense comes last, after both lamp sessions are complete, deriving this from Exodus 30:7-8's literal word order. This correct direction is consistent across display, learning, argumentFlow, misconceptions, quizSeeds, visualizableElements, and finalRuling with no internal contradictions. The mid-sentence stub at vilna_line 31 is handled appropriately and is expected per the daf boundary, not a defect. No repairs required.",
+        "refreshNote": "Content corrected this session (fixed conflation of original order-only contradiction at vilna_line 16 with Abaye five-vs-two lamp resolution at vilna_line 20, in learnerQuestion, coreTension, argumentFlow step-01, and misconceptions[0]). Fresh isolated final-audit (yoma-14b-s03-final-audit-v2) independently re-read vilna_line 16,20,22,28,31 and confirmed all six edited fields SUPPORTED, and confirmed via whole-sugya grep sweep that no remaining text conflates the lamp count with the original contradiction. All other fieldInventory/boundaryLeakageSweep/staleContentSweep entries are unchanged from the prior audit since their underlying content and supporting line ranges were not touched by this fix."
+      },
+      "certifiedAtCommit": "PENDING_COMMIT_SHA"
     }
   }
 }
