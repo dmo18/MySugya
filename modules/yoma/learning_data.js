@@ -31353,7 +31353,7 @@ const DAF_CONTENT = {
   "14b": {
     canonicalRef: "Yoma 14b",
     daf: "14b",
-    summary: "Abaye resolves the R. Akiva problem: the sprinkling happens at the end of the day, so the KG serves all day while pure, is sprinkled in the evening, immerses, and waits for nightfall - emerging fully pure for the next day. The Gemara then examines a contradiction between tractates Tamid and Yoma about whether incense or lamp-cleaning comes first. Rav Huna attributes tractate Tamid to R. Shimon ish HaMitzpah, but shows he holds a different view in a Tosefta. Rabbi Yochanan attributes tractate Yoma instead to R. Shimon. An internal Yoma contradiction between two lottery descriptions is then resolved through analysis of which service order (incense first or lamps first) follows which scriptural authority, culminating in a three-way dispute between Abba Shaul and the Rabbanan.",
+    summary: "Abaye resolves the R. Akiva problem: the sprinkling happens at the end of the day, so the KG serves all day while pure, is sprinkled in the evening, immerses, and waits for nightfall - emerging fully pure for the next day. The Gemara then examines a contradiction between tractate Tamid's order and seder yoma's order about whether incense or lamp-cleaning comes first, asking whose Tannaitic view the anonymous ruling in each follows. Rav Huna identifies Tamid's order with R. Shimon ish HaMitzpah's view, but a related teaching shows his documented position departs from Tamid's order. Rabbi Yochanan instead identifies seder yoma's order with R. Shimon's view. An internal Yoma contradiction between two lamp-cleaning descriptions is then resolved through analysis of which service order (incense first or lamps first) follows which scriptural authority, culminating in a dispute between Abba Shaul and the Rabbanan over where incense falls relative to the two lamp-cleaning sessions.",
     sugyot: [
       {
         id: "yoma-14b-s01",
@@ -31369,7 +31369,7 @@ const DAF_CONTENT = {
         display: {
           title: "Service first, sprinkling last: Abaye's schedule saves R. Akiva's ruling",
           oneLine: "The KG serves all day while pure and is sprinkled only at dusk, so R. Akiva's para aduma paradox never touches the day's service.",
-          whats: "Abaye resolves the R. Akiva problem from 14a: the KG serves the entire day while pure. Only toward the evening (lefanya) are the purification water drops sprinkled upon him. He then immediately immerses and waits for nightfall (ha'arev shemesh) - reaching the next morning fully purified and ready to serve again. The sprinkling never interferes with the service itself.",
+          whats: "Abaye resolves the R. Akiva problem from 14a: the KG serves the entire day while pure. Only toward the evening (lefanya) is he sprinkled with the purification water. The sprinkling happens after the day's service is already complete, so it never interferes with the service itself.",
           hint: "The scheduling solution is elegant: service first, sprinkling last. As long as the sprinkling happens after the service is complete (in the evening), R. Akiva's rule about the water making the pure person impure does not affect the day's service at all."
         },
         learning: {
@@ -31382,7 +31382,7 @@ const DAF_CONTENT = {
             text: "A seeming contradiction between two rulings can be dissolved by separating them in time: if the disputed effect (here, temporary impurity from the water) is scheduled after the protected activity (service) is already complete, both rulings hold without conflict."
           },
           ahaMoment: "The time of the sprinkling is the key: 'lefanya' (toward the evening) means the impurity from R. Akiva's rule is temporary and contained within the evening, not affecting the day's service.",
-          memoryAnchor: "Serve all day, sprinkle at dusk, immerse, wait for nightfall. The sequence keeps the service pure and the sprinkling valid."
+          memoryAnchor: "Serve all day, sprinkle at dusk. The sprinkling comes after service is already done."
         },
         lines: [
           { id: "yoma-014b-l01", kind: "gemara", he: "רָאשֵׁי גִבְעוֹלִין וְיַזֶּה. אַבָּיֵי אָמַר: אֲפִילּוּ תֵּימָא\nרַבִּי עֲקִיבָא, דְּעָבֵיד עֲבוֹדָה כּוּלֵּיהּ יוֹמָא, וּלְפַנְיָא מַדּוּ\nעֲלֵיהּ, וְטָבֵיל וְעָבֵיד הֶעֱרֵב הַשֶּׁמֶשׁ.",
@@ -31395,7 +31395,7 @@ const DAF_CONTENT = {
             type: "resolution",
             label: "Abaye: sprinkle at dusk, not during service",
             speaker: "Abaye",
-            text: "Even according to R. Akiva: the KG performs service the entire day while pure. Only toward the evening are the purification drops sprinkled on him. He then immerses and waits for nightfall. The next morning he is fully pure. The sprinkling never conflicts with the service.",
+            text: "Even according to R. Akiva: the KG performs service the entire day while pure. Only toward the evening is he sprinkled with the purification water. The sprinkling never conflicts with the service.",
             sourceRefs: [
               {
                 sourceType: "gemara",
@@ -31410,10 +31410,7 @@ const DAF_CONTENT = {
           "Yoma.14b.1"
         ],
         requiresUnderstanding: [],
-        prerequisiteKnowledge: [
-          "R. Akiva's para aduma paradox from 14a",
-          "The seven-day purification sequence for corpse impurity"
-        ],
+        prerequisiteKnowledge: [],
         misconceptions: [
           {
             misconception: "The sprinkling must happen in the morning to purify the KG for that day's service.",
@@ -31426,33 +31423,41 @@ const DAF_CONTENT = {
         ],
         visualizableElements: [
           {
-            item: "Day timeline: morning-noon (service while pure) - dusk (sprinkling, then immediate immersion) - nightfall (full purity restored for next day)",
+            item: "Day timeline: morning-noon (service while pure) - dusk (sprinkling)",
             type: "timeline"
           },
           {
-            item: "Abaye's resolution as a three-step process: serve, sprinkle, immerse+wait",
+            item: "Abaye's resolution as a two-step process: serve, then sprinkle",
             type: "sequence"
           }
         ],
         quizSeeds: [
           {
             question: "How does Abaye resolve the conflict between R. Akiva's para aduma ruling and the seven-day sprinkling mishna?",
-            answer: "The KG serves the entire day while pure; the sprinkling only happens toward evening, after service is done. He then immerses and waits for nightfall, restoring his purity for the next day.",
+            answer: "The KG serves the entire day while pure; the sprinkling only happens toward evening, after service is done.",
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-14b-l01",
+                lineId: "yoma-014b-l01",
                 vilnaLine: 1,
                 note: "Abaye's scheduling solution"
               }
             ]
           },
           {
-            question: "Place in order: (A) immerse, (B) service all day, (C) wait for nightfall, (D) evening sprinkling.",
-            answer: "B, D, A, C - serve first, sprinkle at dusk, then immerse, then wait for nightfall."
+            question: "Place in order: (A) evening sprinkling, (B) service all day.",
+            answer: "B, A - serve first, then sprinkle at dusk.",
+            sourceRefs: [
+              {
+                sourceType: "gemara",
+                lineId: "yoma-014b-l01",
+                vilnaLine: 1,
+                note: "Service order"
+              }
+            ]
           }
         ],
-        finalRuling: "The mishna's seven-day sprinkling is compatible with R. Akiva: sprinklings happen at day's end, after service. Immersion + nightfall completes the cycle.",
+        finalRuling: "The mishna's seven-day sprinkling is compatible with R. Akiva: sprinklings happen at day's end, after service.",
         difficulty: "intermediate",
         alternateAngles: [],
         topicTags: [
@@ -31478,25 +31483,25 @@ const DAF_CONTENT = {
           startLineId: "yoma-014b-l03",
           endLineId: "yoma-014b-l14",
           startVilnaLine: 3,
-          endVilnaLine: 14
+          endVilnaLine: 15
         },
         display: {
-          title: "Who wrote Tamid? A failed attribution leads to Yoma's real author",
-          oneLine: "Rav Huna's attempt to pin tractate Tamid on R. Shimon ish HaMitzpah is refuted by a Tosefta, and Rabbi Yochanan attributes tractate Yoma to him instead.",
-          whats: "A contradiction between tractate Tamid and tractate Yoma: Tamid has incense before lamp-cleaning; Yoma has lamp-cleaning before incense. The Gemara asks who authored tractate Tamid. Rav Huna: R. Shimon ish HaMitzpah - since he appears in a Tosefta discussing the Tamid service order. But then a Tosefta shows R. Shimon disagrees with Tamid's seder (order)! So R. Shimon cannot be Tamid's author. Rabbi Yochanan then attributes tractate Yoma to R. Shimon ish HaMitzpah - he authored Yoma but not Tamid.",
-          hint: "The authorship question is not merely academic - knowing who wrote a tractate helps identify whose view it expresses, especially when the tractate contradicts another tractate. The investigative method: find a named sage in a Tosefta or baraita who shares or disputes the tractate's anonymous rulings."
+          title: "Whose view is this? Tracing an anonymous ruling to R. Shimon ish HaMitzpah",
+          oneLine: "Rav Huna proposes that Tamid's anonymous service-order ruling follows R. Shimon ish HaMitzpah, but a Tosefta shows his known position does not match it, so Rabbi Yochanan instead ties seder yoma's ruling to him.",
+          whats: "A contradiction between the order described in seder yoma, the sequence of the day's service as laid out in Yoma's own Mishnayot (incense before lamp-cleaning), and the order described in tractate Tamid (lamp-cleaning before incense). The Gemara asks: man tana, whose Tannaitic view does the anonymous Tamid ruling follow? Rav Huna: R. Shimon ish HaMitzpah, since a related teaching discusses his position on the Tamid service order. But that same teaching shows R. Shimon actually departs from Tamid's order on the blood-dashing sequence, so his known view does not simply match it. Rabbi Yochanan instead identifies R. Shimon ish HaMitzpah as the Tanna behind seder yoma's ruling, whose order his position does match.",
+          hint: "Isn't 'man tana' asking who literarily composed an entire tractate? No - it asks whose Tannaitic position an anonymous ruling follows; the method is to find a named sage with a documented position and test it against each anonymous ruling?"
         },
         learning: {
-          learnerQuestion: "Tamid and Yoma describe the same daily Temple service in opposite order. Whose view does each tractate follow, and how can the Gemara find out?",
-          coreTension: "Two anonymous Mishnaic tractates contradict each other on whether incense or lamp-cleaning comes first, and an anonymous ruling gives no direct way to identify whose position it encodes.",
-          coreMove: "The Gemara searches for a named sage's position in a Tosefta and tests it against each tractate's anonymous ruling: Rav Huna's candidate (R. Shimon ish HaMitzpah for Tamid) is refuted when the Tosefta shows he disagrees with Tamid, so Rabbi Yochanan instead matches him to Yoma, where his Tosefta position fits.",
-          learningBlocker: "It is easy to assume a tractate's author must be a single sage whose views are fixed and consistent everywhere he appears. Here, the same sage's Tosefta statement disqualifies him from one tractate and qualifies him for another, showing authorship is established case by case through matching positions, not by reputation.",
+          learnerQuestion: "Tamid's order and seder yoma's order of the daily service contradict each other. Whose Tannaitic view does each anonymous ruling follow, and how can the Gemara find out?",
+          coreTension: "Two anonymous rulings contradict each other on whether incense or lamp-cleaning comes first, and an anonymous ruling gives no direct way to identify whose position it encodes.",
+          coreMove: "The Gemara tests a named sage's documented position against each anonymous ruling: Rav Huna's candidate (R. Shimon ish HaMitzpah for Tamid's order) does not hold up once a related teaching shows his own position departs from Tamid's order on the blood-dashing sequence, so Rabbi Yochanan instead identifies him as the Tanna behind seder yoma's ruling, which his position does match.",
+          learningBlocker: "It is easy to read 'man tana X' as asking who wrote the entire tractate X. It asks only whose Tannaitic view a specific anonymous ruling follows; the same sage can match one ruling's view while his documented position elsewhere departs from another.",
           takeaway: {
             type: "derivation_principle",
-            text: "An anonymous mishna's author can be identified by finding a named sage whose recorded position in a Tosefta or baraita matches the anonymous ruling; a mismatch on even one point disqualifies the candidate."
+            text: "An anonymous ruling's underlying view can be identified by finding a named sage whose recorded position in a related teaching matches it; a mismatch on even one point disqualifies the candidate for that ruling."
           },
-          ahaMoment: "Mishnaic tractates have authors, and identifying the author helps decode anonymous rulings. Here, a Tosefta serves as the fingerprint: R. Shimon's position in it matches Yoma but contradicts Tamid.",
-          memoryAnchor: "R. Shimon ish HaMitzpah authored Yoma, not Tamid. The clue: his Tosefta position matches Yoma's service order, not Tamid's."
+          ahaMoment: "'Man tana' identifies whose view underlies a specific anonymous ruling, not who composed a tractate. Here, R. Shimon's documented position matches seder yoma's order but departs from Tamid's order.",
+          memoryAnchor: "Man tana seder yoma? R. Shimon ish HaMitzpah - his position matches that order, not Tamid's."
         },
         lines: [
           { id: "yoma-014b-l03", kind: "gemara", he: "וּמַקְטִיר\nאֶת הַקְּטוֹרֶת וּמֵטִיב אֶת הַנֵּרוֹת. אַלְמָא\nקְטוֹרֶת בְּרֵישָׁא וַהֲדַר נֵרוֹת. וּרְמִינְהוּ: מִי שֶׁזָּכָה\nבְּדִישּׁוּן מִזְבֵּחַ הַפְּנִימִי, וּמִי שֶׁזָּכָה בַּמְּנוֹרָה, וּמִי\nשֶׁזָּכָה בַּקְּטוֹרֶת!",
@@ -31516,9 +31521,9 @@ const DAF_CONTENT = {
           {
             id: "step-01",
             type: "contradiction",
-            label: "Contradiction: Tamid says incense first; Yoma says lamps first",
+            label: "Contradiction: seder yoma's order has incense first; Tamid's has lamps first",
             speaker: "Gemara",
-            text: "Tractate Tamid records: incense, then lamp-cleaning. Tractate Yoma records: lamp-cleaning, then incense. The two tractates contradict each other on the order of these daily Temple services.",
+            text: "The ruling for seder yoma, the order of the day's service as laid out in Yoma's own Mishnayot, records: incense, then lamp-cleaning. Tractate Tamid's anonymous ruling records: lamp-cleaning, then incense. The two anonymous rulings contradict each other on the order of these daily Temple services.",
             sourceRefs: [
               {
                 sourceType: "gemara",
@@ -31531,9 +31536,9 @@ const DAF_CONTENT = {
           {
             id: "step-02",
             type: "identification",
-            label: "Rav Huna: Tamid was authored by R. Shimon ish HaMitzpah",
+            label: "Rav Huna: man tana Tamid? R. Shimon ish HaMitzpah",
             speaker: "Rav Huna",
-            text: "The anonymous Tamid tractate follows R. Shimon ish HaMitzpah, who is cited in a related Tosefta about the Tamid service order.",
+            text: "Whose Tannaitic view does Tamid's anonymous ruling follow? Rav Huna says R. Shimon ish HaMitzpah, who is discussed in a related teaching about the Tamid service order.",
             sourceRefs: [
               {
                 sourceType: "gemara",
@@ -31546,9 +31551,9 @@ const DAF_CONTENT = {
           {
             id: "step-03",
             type: "refutation",
-            label: "But Tosefta shows R. Shimon disagrees with Tamid's order",
+            label: "But the teaching shows R. Shimon departs from Tamid's order",
             speaker: "Gemara",
-            text: "A Tosefta explicitly records R. Shimon ish HaMitzpah holding a different position on the blood-application order from Tamid's anonymous ruling. Therefore R. Shimon cannot be Tamid's author.",
+            text: "The related teaching explicitly records R. Shimon ish HaMitzpah holding a different position on the blood-application order from Tamid's anonymous ruling. His documented view therefore does not simply match Tamid's order.",
             sourceRefs: [
               {
                 sourceType: "gemara",
@@ -31561,9 +31566,9 @@ const DAF_CONTENT = {
           {
             id: "step-04",
             type: "identification",
-            label: "Rabbi Yochanan: R. Shimon authored Yoma, not Tamid",
+            label: "Rabbi Yochanan: man tana seder yoma? R. Shimon ish HaMitzpah",
             speaker: "Rabbi Yochanan",
-            text: "Rabbi Yochanan attributes tractate Yoma (not Tamid) to R. Shimon ish HaMitzpah. His Tosefta position matches Yoma's service order, making Yoma his composition.",
+            text: "Rabbi Yochanan instead identifies R. Shimon ish HaMitzpah as the Tanna behind seder yoma's ruling (not Tamid's). His documented position matches seder yoma's service order.",
             sourceRefs: [
               {
                 sourceType: "gemara",
@@ -31585,13 +31590,13 @@ const DAF_CONTENT = {
         ],
         misconceptions: [
           {
-            misconception: "A tractate must be authored by a single sage whose views are consistent with him wherever he appears.",
-            correction: "The authorship of a tractate's anonymous rulings is established by matching a specific recorded position, and the same sage can be ruled out for one tractate while being confirmed for another.",
+            misconception: "'Man tana X' asks who literarily composed the entire tractate X.",
+            correction: "It asks only whose Tannaitic view a specific anonymous ruling follows; a sage's documented position can match one ruling while departing from another.",
             correctedByStepId: "step-03"
           },
           {
-            misconception: "Rav Huna's attribution of Tamid to R. Shimon ish HaMitzpah stands as the final answer.",
-            correction: "The Tosefta refutes Rav Huna's attribution; the Gemara's final answer (Rabbi Yochanan) assigns Yoma, not Tamid, to R. Shimon.",
+            misconception: "Rav Huna's identification of R. Shimon ish HaMitzpah with Tamid's order stands as the final answer.",
+            correction: "The related teaching shows his position departs from Tamid's order; the Gemara's final answer (Rabbi Yochanan) ties him instead to seder yoma's ruling.",
             correctedByStepId: "step-04"
           }
         ],
@@ -31604,46 +31609,46 @@ const DAF_CONTENT = {
             type: "contrast"
           },
           {
-            item: "R. Shimon ish HaMitzpah - the Tanna whose Tosefta position fingerprints him as Yoma's author, not Tamid's",
+            item: "R. Shimon ish HaMitzpah - the Tanna whose documented position matches seder yoma's ruling, not Tamid's",
             type: "people"
           }
         ],
         quizSeeds: [
           {
-            question: "Which tractate does Rabbi Yochanan attribute to R. Shimon ish HaMitzpah?",
-            answer: "Tractate Yoma, not tractate Tamid.",
+            question: "Whose Tannaitic view does Rabbi Yochanan say seder yoma's ruling follows?",
+            answer: "R. Shimon ish HaMitzpah's, not tractate Tamid's.",
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-14b-l05",
+                lineId: "yoma-014b-l14",
                 vilnaLine: 14,
-                note: "Rabbi Yochanan's attribution"
+                note: "Rabbi Yochanan's identification"
               }
             ]
           },
           {
-            question: "How does the Talmud disprove Rav Huna's attribution of Tamid to R. Shimon ish HaMitzpah?",
-            answer: "A Tosefta shows R. Shimon holds a different position from Tamid's anonymous ruling on the blood-application order, making it impossible for him to have authored Tamid.",
+            question: "How does the Talmud refute Rav Huna's identification of Tamid's ruling with R. Shimon ish HaMitzpah?",
+            answer: "A related teaching shows R. Shimon holds a different position from Tamid's anonymous ruling on the blood-application order, so his view does not match Tamid's order.",
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-14b-l04",
+                lineId: "yoma-014b-l11",
                 vilnaLine: 11,
-                note: "Refutation via Tosefta"
+                note: "Refutation via the related teaching"
               }
             ]
           }
         ],
-        finalRuling: "Tractate Yoma was authored by R. Shimon ish HaMitzpah (per Rabbi Yochanan). Tractate Tamid's authorship remains unclear from this discussion.",
+        finalRuling: "The Gemara identifies R. Shimon ish HaMitzpah's view as the one underlying seder yoma's lamp/incense sequence, while noting his documented position on Tamid's blood-order ruling does not straightforwardly match the simple reading there.",
         difficulty: "intermediate",
         alternateAngles: [],
         topicTags: [
-          "Tamid",
-          "Yoma",
-          "authorship",
-          "tractate attribution",
-          "R. Shimon ish HaMitzpah",
-          "service order"
+          "tamid",
+          "seder-yoma",
+          "man-tana-attribution",
+          "anonymous-ruling-identification",
+          "r-shimon-ish-hamitzpah",
+          "service-order"
         ],
         review: {
           learning: "ai_generated",
@@ -31664,22 +31669,22 @@ const DAF_CONTENT = {
           endVilnaLine: 31
         },
         display: {
-          title: "Five lamps or two? Splitting the lamp-cleaning resolves Yoma's own contradiction",
-          oneLine: "Lamp-cleaning happens in two sessions, five then two, and where incense fits between them is what Abba Shaul and the Rabbanan dispute.",
-          whats: "An internal contradiction within tractate Yoma: an earlier section (the lottery) lists five lamps cleaned before incense, while a later section lists only two lamps. The Gemara resolves: these describe different moments - five lamps in the morning before incense; the remaining two lamps after incense. A second Yoma contradiction: one lottery says incense comes after lamp-cleaning; the other implies the reverse. These are resolved by explaining that lamp-cleaning is split into two sessions. Abba Shaul's position (incense precedes both lamp sessions) is contrasted with the Rabbanan (lamps, then incense, then lamps). Both trace their view to scriptural derivation.",
-          hint: "The two-session lamp-cleaning is the key: clean five, burn incense, then clean the remaining two. Abba Shaul and the Rabbanan agree on the splitting but disagree on when incense fits in - each derives from a different verse."
+          title: "Five lamps or two? Splitting the lamp-cleaning resolves Yoma's own contradiction, then where does incense fall?",
+          oneLine: "Lamp-cleaning happens in two sessions, five then two, and where incense fits relative to them is what Abba Shaul and the Rabbanan dispute.",
+          whats: "An internal contradiction within tractate Yoma: an earlier section (the lottery) lists five lamps cleaned before incense, while a later section lists only two lamps. The Gemara resolves: these describe different moments - five lamps in the morning before incense; the remaining two lamps after incense. A second Yoma contradiction: one lottery says incense comes after lamp-cleaning; the other implies the reverse. These are resolved by explaining that lamp-cleaning is split into two sessions. The Rabbanan's position (five lamps, then incense, then the remaining two lamps) is contrasted with Abba Shaul (both lamp sessions completed, then incense last). Both trace their view to scriptural derivation.",
+          hint: "Where does the incense fit between the two lamp-cleaning sessions? For the Rabbanan it falls between them (clean five, burn incense, clean the remaining two); Abba Shaul instead holds it comes last, after both sessions are finished - so where does your reading place it?"
         },
         learning: {
-          learnerQuestion: "Tractate Yoma itself seems to contradict itself about how many lamps are cleaned before incense, five in one place and two in another. How can both be right?",
-          coreTension: "One part of Yoma's lottery description has five lamps cleaned before incense; another part has only two, and the two counts cannot both describe a single uninterrupted lamp-cleaning.",
-          coreMove: "The Gemara resolves the count discrepancy by splitting lamp-cleaning into two sessions, five lamps then two, with incense somewhere in between; this then opens a second question of exactly where incense falls between the two sessions, which Abba Shaul and the Rabbanan answer differently from competing scriptural derivations.",
-          learningBlocker: "It is easy to read the five-lamp and two-lamp counts as a scribal error or as two unrelated lamp sets. The resolution treats them as two stages of the same process, which is what makes Abba Shaul's and the Rabbanan's dispute about incense placement possible in the first place.",
+          learnerQuestion: "The lottery mishna in Yoma has the candelabrum cleaned before the incense lottery, but Yoma's own earlier mishna (14b-2) has incense burned before lamp-cleaning. How can both be right?",
+          coreTension: "The lottery mishna implies candelabrum-cleaning precedes the incense lottery, directly contradicting Yoma's own earlier mishna, which has incense burned first, before lamp-cleaning.",
+          coreMove: "The Gemara resolves the count discrepancy by splitting lamp-cleaning into two sessions, five lamps then two; this then opens a second question of exactly where incense falls relative to the two sessions, which Abba Shaul and the Rabbanan answer differently from competing scriptural derivations.",
+          learningBlocker: "It is easy to read the five-lamp and two-lamp counts as a scribal error or as two unrelated lamp sets. The resolution treats them as two stages of the same process, which is what makes the Rabbanan's and Abba Shaul's dispute about incense placement possible in the first place.",
           takeaway: {
             type: "open_question",
-            text: "Both the five-versus-two lamp count and the order of the two lamp-cleaning sessions are settled, but whether incense precedes or falls between them remains an open dispute between Abba Shaul and the Rabbanan, decided elsewhere rather than on this daf."
+            text: "Both the five-versus-two lamp count and the order of the two lamp-cleaning sessions are settled, but whether incense falls between the two lamp sessions or only after both are complete remains an open dispute between the Rabbanan and Abba Shaul, decided elsewhere rather than on this daf."
           },
-          ahaMoment: "The lamp-cleaning is split in two - not a contradiction but a two-part process. The real dispute (Abba Shaul vs. Rabbanan) is about the placement of incense between the two lamp sessions.",
-          memoryAnchor: "Five lamps first, then incense, then two lamps - or incense, then five lamps, then two. The order of the middle service (incense) is what Abba Shaul and the Rabbanan debate."
+          ahaMoment: "The lamp-cleaning is split in two - not a contradiction but a two-part process. The real dispute (Rabbanan vs. Abba Shaul) is about whether incense falls between the two lamp sessions or only after both are finished.",
+          memoryAnchor: "Five lamps, then incense, then two lamps - that's the Rabbanan. Abba Shaul: both lamp sessions first, incense last."
         },
         lines: [
           { id: "yoma-014b-l16", kind: "gemara", he: "וּרְמִי סֵדֶר יוֹמָא אַסֵּדֶר יוֹמָא,\nדִּתְנַן: פַּיִיס הַשֵּׁנִי — מִי שׁוֹחֵט, מִי זוֹרֵק, מִי\nמְדַשֵּׁן מִזְבֵּחַ הַפְּנִימִי, וּמִי מְדַשֵּׁן אֶת הַמְנוֹרָה,\nוּמִי מַעֲלֶה אֵבָרִים לַכֶּבֶשׁ. פַּיִיס הַשְּׁלִישִׁי\n— חֲדָשִׁים לַקְּטוֹרֶת בּוֹאוּ וְהָפִיסוּ!",
@@ -31702,9 +31707,9 @@ const DAF_CONTENT = {
           {
             id: "step-01",
             type: "contradiction",
-            label: "Internal Yoma contradiction: five lamps vs. two lamps before incense",
+            label: "Internal Yoma contradiction: does lamp-cleaning or incense come first?",
             speaker: "Gemara",
-            text: "Yoma's second lottery mentions five lamps cleaned before incense; later in Yoma, only two lamps are mentioned in the corresponding position. These cannot both be describing the same lamp-cleaning.",
+            text: "Yoma's lottery mishna has the candelabrum cleaned before the incense lottery is called, but Yoma's own earlier mishna (14b-2) states incense is burned first, before the lamps are cleaned. No lamp count appears in either mishna at this stage - only an order.",
             sourceRefs: [
               {
                 sourceType: "gemara",
@@ -31734,7 +31739,7 @@ const DAF_CONTENT = {
             type: "dispute",
             label: "Abba Shaul vs. Rabbanan: when is incense?",
             speaker: "Abba Shaul / Rabbanan",
-            text: "Abba Shaul: incense is burned before all lamp-cleaning (incense, then five lamps, then two lamps). Rabbanan: five lamps first, then incense, then the two remaining lamps. Each derives from a different verse.",
+            text: "Rabbanan: five lamps first, then incense, then the two remaining lamps. Abba Shaul: both lamp sessions are completed first (five, then the remaining two), and incense is burned last, after all lamp-cleaning. Each derives from a different verse.",
             sourceRefs: [
               {
                 sourceType: "gemara",
@@ -31769,13 +31774,13 @@ const DAF_CONTENT = {
         ],
         misconceptions: [
           {
-            misconception: "The five-lamp and two-lamp counts in Yoma describe an error or two unrelated lamp sets.",
-            correction: "They describe two sessions of the same daily lamp-cleaning service, five lamps first and the remaining two later.",
+            misconception: "The lottery mishna and the earlier mishna both specify lamp counts (five vs. two) that conflict.",
+            correction: "Neither mishna mentions a lamp count; the original contradiction is only about order (candelabrum-cleaning before incense vs. incense before lamp-cleaning). The five-versus-two split is Abaye's resolution, introduced only afterward, not a feature of the original contradiction.",
             correctedByStepId: "step-02"
           },
           {
-            misconception: "Abba Shaul's position that incense precedes all lamp-cleaning is an arbitrary minority view.",
-            correction: "Abba Shaul derives his position from a verse, just as the Rabbanan derive theirs from a verse; the dispute is a genuine disagreement over scriptural reading, not an unsupported opinion.",
+            misconception: "Abba Shaul holds that incense precedes all lamp-cleaning.",
+            correction: "Abba Shaul holds the opposite: both lamp sessions are completed first, and incense is burned last, after all lamp-cleaning is finished. He derives his position from a verse, just as the Rabbanan derive theirs from a different verse; the dispute is a genuine disagreement over scriptural reading, not an unsupported opinion.",
             correctedByStepId: "step-03"
           }
         ],
@@ -31784,7 +31789,7 @@ const DAF_CONTENT = {
         ],
         visualizableElements: [
           {
-            item: "Abba Shaul's order: incense - 5 lamps - 2 lamps. Rabbanan's order: 5 lamps - incense - 2 lamps. A timeline showing the difference in incense placement.",
+            item: "Rabbanan's order: 5 lamps - incense - 2 lamps. Abba Shaul's order: 5 lamps - 2 lamps - incense. A timeline showing the difference in incense placement.",
             type: "sequence"
           },
           {
@@ -31803,7 +31808,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-14b-l07",
+                lineId: "yoma-014b-l20",
                 vilnaLine: 20,
                 note: "Two-session resolution"
               }
@@ -31811,27 +31816,27 @@ const DAF_CONTENT = {
           },
           {
             question: "What is the difference between Abba Shaul's service order and the Rabbanan's?",
-            answer: "Abba Shaul: incense first, then five lamps, then two lamps. Rabbanan: five lamps first, then incense, then two lamps. The dispute is about whether incense precedes or follows the first lamp session.",
+            answer: "Rabbanan: five lamps first, then incense, then two lamps. Abba Shaul: both lamp sessions first (five, then two), then incense last. The dispute is about whether incense falls between the two lamp sessions or only after both are finished.",
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-14b-l08",
+                lineId: "yoma-014b-l22",
                 vilnaLine: 22,
                 note: "The core dispute"
               }
             ]
           }
         ],
-        finalRuling: "The internal Yoma contradiction is resolved: five and two refer to two lamp sessions. The Abba Shaul vs. Rabbanan dispute about incense placement remains; halacha is determined elsewhere.",
+        finalRuling: "The internal Yoma contradiction is resolved: five and two refer to two lamp sessions. The Rabbanan hold incense falls between the two lamp sessions; Abba Shaul holds incense comes last, after both lamp sessions are finished. The dispute remains open here; halacha is determined elsewhere.",
         difficulty: "intermediate",
         alternateAngles: [],
         topicTags: [
           "menorah",
           "ketoret",
-          "service order",
-          "Abba Shaul",
+          "service-order",
+          "abba-shaul",
           "drasha",
-          "Temple service"
+          "temple-service"
         ],
         review: {
           learning: "ai_generated",
