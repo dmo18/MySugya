@@ -107,7 +107,9 @@
     "generate:repair-queue:yoma": "python3 scripts/generate_enrichment_repair_queue.py",
     "check:repair-queue:yoma": "python3 scripts/generate_enrichment_repair_queue.py --check",
     "test:worker-pipeline-integration": "python3 scripts/test_worker_pipeline_integration.py",
-    "test:yoma-tail-enrichment-audit-compat": "python3 scripts/test_yoma_tail_enrichment_audit_compat.py"
+    "test:yoma-tail-enrichment-audit-compat": "python3 scripts/test_yoma_tail_enrichment_audit_compat.py",
+    "validate:product-contract": "python3 scripts/validate_product_contract.py",
+    "test:product-contract": "python3 scripts/test_validate_product_contract.py"
   },
   "dependencies": {
     "react": "18.3.1",
