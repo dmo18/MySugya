@@ -1,0 +1,626 @@
+{
+  "schemaVersion": 2,
+  "contractId": "yoma-product-acceptance-v2",
+  "generatedAtCommit": "be230487b30cd82c187a1bce4482caedfa6d40b0",
+  "boundary": "Yoma must be fully usable and accurate: all existing Gemara/source layers, translations, Rashi text/translations/associations, learning enrichments (ideas, quizzes, arguments, explanations, takeaways), navigation/rendering/search where present, reproducible build, and exact production release verification. This unit defines the contract only; it does not edit Yoma content and does not self-certify PASS.",
+  "statusEnum": [
+    "UNVERIFIED",
+    "PASS",
+    "FAIL",
+    "BLOCKED",
+    "NOT_APPLICABLE"
+  ],
+  "verificationModes": [
+    "deterministic",
+    "semantic",
+    "both",
+    "external"
+  ],
+  "sourceClasses": [
+    "repo-script",
+    "repo-test",
+    "ci-workflow",
+    "review-record",
+    "external-source"
+  ],
+  "defaultPolicy": {
+    "noDeleteEnrichmentData": true,
+    "repairVsReconstruction": "durable-per-requirement",
+    "repairVsReconstructionDefault": "undecided",
+    "reopenRequires": [
+      "newly-failing-test",
+      "new-authoritative-evidence",
+      "changed-source",
+      "specific-current-defect"
+    ]
+  },
+  "requirements": [
+    {
+      "id": "YOMA-CORPUS-COVERAGE",
+      "category": "corpus",
+      "mandatory": true,
+      "verificationMode": "deterministic",
+      "scopeStatement": "All 492 sugyot in the current Yoma corpus must be present and schema-valid.",
+      "independentReviewRequired": false,
+      "evidenceComponents": [
+        {
+          "component": "deterministic",
+          "sourceClass": "repo-script",
+          "acceptanceCommand": "npm run validate:schema:yoma",
+          "exactCommitBinding": null,
+          "status": "UNVERIFIED",
+          "evidenceRefs": []
+        }
+      ],
+      "status": "UNVERIFIED",
+      "repairVsReconstruction": "undecided",
+      "repairDecision": null,
+      "evidenceRefs": []
+    },
+    {
+      "id": "YOMA-SOURCE-TEXT-INTEGRITY",
+      "category": "source-layer",
+      "mandatory": true,
+      "verificationMode": "deterministic",
+      "scopeStatement": "All daf-level Gemara source text records in the current corpus must pass integrity validation.",
+      "independentReviewRequired": false,
+      "evidenceComponents": [
+        {
+          "component": "deterministic",
+          "sourceClass": "repo-script",
+          "acceptanceCommand": "npm run validate:daftext:yoma",
+          "exactCommitBinding": null,
+          "status": "UNVERIFIED",
+          "evidenceRefs": []
+        }
+      ],
+      "status": "UNVERIFIED",
+      "repairVsReconstruction": "undecided",
+      "repairDecision": null,
+      "evidenceRefs": []
+    },
+    {
+      "id": "YOMA-LITERAL-TRANSLATION-COVERAGE",
+      "category": "translation",
+      "mandatory": true,
+      "verificationMode": "deterministic",
+      "scopeStatement": "All sugyot in the current Yoma corpus must have a literal translation field present for every source segment (structural/literal-layer coverage only, not accuracy).",
+      "independentReviewRequired": false,
+      "evidenceComponents": [
+        {
+          "component": "deterministic",
+          "sourceClass": "repo-script",
+          "acceptanceCommand": "npm run validate:literal:yoma",
+          "exactCommitBinding": null,
+          "status": "UNVERIFIED",
+          "evidenceRefs": []
+        }
+      ],
+      "status": "UNVERIFIED",
+      "repairVsReconstruction": "undecided",
+      "repairDecision": null,
+      "evidenceRefs": []
+    },
+    {
+      "id": "YOMA-GEMARA-TRANSLATION-ACCURACY",
+      "category": "translation",
+      "mandatory": true,
+      "verificationMode": "both",
+      "scopeStatement": "All sugyot in the current Yoma corpus must have Gemara English translations that are semantically accurate and aligned to their source segment, separate from and in addition to YOMA-LITERAL-TRANSLATION-COVERAGE's structural-presence check.",
+      "independentReviewRequired": true,
+      "evidenceComponents": [
+        {
+          "component": "deterministic",
+          "sourceClass": "repo-script",
+          "acceptanceCommand": "npm run validate:translation:alignment:yoma",
+          "exactCommitBinding": null,
+          "status": "UNVERIFIED",
+          "evidenceRefs": []
+        },
+        {
+          "component": "semantic",
+          "sourceClass": "review-record",
+          "acceptanceCommand": "review-record schema: per-sugya reviewer disposition on whether the English Gemara translation is an accurate, source-aligned rendering of the Aramaic/Hebrew source segment",
+          "exactCommitBinding": null,
+          "status": "UNVERIFIED",
+          "evidenceRefs": [],
+          "reviewRecordRequiredFields": [
+            "reviewer",
+            "reviewedAt",
+            "disposition",
+            "evidenceRefs",
+            "scopeCoverage",
+            "sourceFirstReview",
+            "enrichmentFieldsPreserved",
+            "independentReviewer"
+          ]
+        }
+      ],
+      "status": "UNVERIFIED",
+      "repairVsReconstruction": "undecided",
+      "repairDecision": null,
+      "evidenceRefs": []
+    },
+    {
+      "id": "YOMA-RASHI-TRANSLATION-ACCURACY",
+      "category": "translation",
+      "mandatory": true,
+      "verificationMode": "both",
+      "scopeStatement": "All sugyot in the current Yoma corpus with Rashi commentary must have Rashi English translations that are semantically accurate and aligned to their source Rashi text, separate from YOMA-RASHI-CONTENT-QUALITY's generic content validators.",
+      "independentReviewRequired": true,
+      "evidenceComponents": [
+        {
+          "component": "deterministic",
+          "sourceClass": "repo-script",
+          "acceptanceCommand": "npm run validate:rashi:translation:alignment:yoma",
+          "exactCommitBinding": null,
+          "status": "UNVERIFIED",
+          "evidenceRefs": []
+        },
+        {
+          "component": "semantic",
+          "sourceClass": "review-record",
+          "acceptanceCommand": "review-record schema: per-sugya reviewer disposition on whether the English Rashi translation is an accurate, source-aligned rendering of the Rashi source text",
+          "exactCommitBinding": null,
+          "status": "UNVERIFIED",
+          "evidenceRefs": [],
+          "reviewRecordRequiredFields": [
+            "reviewer",
+            "reviewedAt",
+            "disposition",
+            "evidenceRefs",
+            "scopeCoverage",
+            "sourceFirstReview",
+            "enrichmentFieldsPreserved",
+            "independentReviewer"
+          ]
+        }
+      ],
+      "status": "UNVERIFIED",
+      "repairVsReconstruction": "undecided",
+      "repairDecision": null,
+      "evidenceRefs": []
+    },
+    {
+      "id": "YOMA-RASHI-TEXT-INTEGRITY",
+      "category": "rashi",
+      "mandatory": true,
+      "verificationMode": "deterministic",
+      "scopeStatement": "All Rashi source-text records across all sugyot in the current corpus must pass integrity validation.",
+      "independentReviewRequired": false,
+      "evidenceComponents": [
+        {
+          "component": "deterministic",
+          "sourceClass": "repo-script",
+          "acceptanceCommand": "npm run validate:rashi:yoma",
+          "exactCommitBinding": null,
+          "status": "UNVERIFIED",
+          "evidenceRefs": []
+        }
+      ],
+      "status": "UNVERIFIED",
+      "repairVsReconstruction": "undecided",
+      "repairDecision": null,
+      "evidenceRefs": []
+    },
+    {
+      "id": "YOMA-RASHI-CONTENT-QUALITY",
+      "category": "rashi",
+      "mandatory": true,
+      "verificationMode": "both",
+      "scopeStatement": "All Rashi commentary entries across all sugyot in the current corpus must pass generic content-quality checks (well-formedness, non-empty, no placeholder text), distinct from translation accuracy covered by YOMA-RASHI-TRANSLATION-ACCURACY.",
+      "independentReviewRequired": false,
+      "evidenceComponents": [
+        {
+          "component": "deterministic",
+          "sourceClass": "repo-script",
+          "acceptanceCommand": "npm run validate:rashi:content:yoma",
+          "exactCommitBinding": null,
+          "status": "UNVERIFIED",
+          "evidenceRefs": []
+        },
+        {
+          "component": "semantic",
+          "sourceClass": "review-record",
+          "acceptanceCommand": "review-record schema: reviewer disposition confirming sampled Rashi content reads as coherent commentary (not a translation-accuracy check)",
+          "exactCommitBinding": null,
+          "status": "UNVERIFIED",
+          "evidenceRefs": [],
+          "reviewRecordRequiredFields": [
+            "reviewer",
+            "reviewedAt",
+            "disposition",
+            "evidenceRefs",
+            "scopeCoverage",
+            "sourceFirstReview",
+            "enrichmentFieldsPreserved"
+          ]
+        }
+      ],
+      "status": "UNVERIFIED",
+      "repairVsReconstruction": "undecided",
+      "repairDecision": null,
+      "evidenceRefs": []
+    },
+    {
+      "id": "YOMA-RASHI-ASSOCIATION-INTEGRITY",
+      "category": "rashi",
+      "mandatory": true,
+      "verificationMode": "deterministic",
+      "scopeStatement": "All Rashi-to-source associations across all sugyot in the current corpus must resolve to a valid source segment.",
+      "independentReviewRequired": false,
+      "evidenceComponents": [
+        {
+          "component": "deterministic",
+          "sourceClass": "repo-script",
+          "acceptanceCommand": "npm run validate:rashi:links:yoma",
+          "exactCommitBinding": null,
+          "status": "UNVERIFIED",
+          "evidenceRefs": []
+        }
+      ],
+      "status": "UNVERIFIED",
+      "repairVsReconstruction": "undecided",
+      "repairDecision": null,
+      "evidenceRefs": []
+    },
+    {
+      "id": "YOMA-RASHI-BOUNDARY-AUTHORIZATION",
+      "category": "rashi",
+      "mandatory": true,
+      "verificationMode": "deterministic",
+      "scopeStatement": "All Rashi entries across all sugyot in the current corpus must fall within the operator-authorized content boundary.",
+      "independentReviewRequired": false,
+      "evidenceComponents": [
+        {
+          "component": "deterministic",
+          "sourceClass": "repo-script",
+          "acceptanceCommand": "npm run validate:rashi:boundary:yoma",
+          "exactCommitBinding": null,
+          "status": "UNVERIFIED",
+          "evidenceRefs": []
+        }
+      ],
+      "status": "UNVERIFIED",
+      "repairVsReconstruction": "undecided",
+      "repairDecision": null,
+      "evidenceRefs": []
+    },
+    {
+      "id": "YOMA-RASHI-NO-DUPLICATION",
+      "category": "rashi",
+      "mandatory": true,
+      "verificationMode": "deterministic",
+      "scopeStatement": "No Rashi entry across all sugyot in the current corpus may be duplicated across sugyot or within a sugya.",
+      "independentReviewRequired": false,
+      "evidenceComponents": [
+        {
+          "component": "deterministic",
+          "sourceClass": "repo-script",
+          "acceptanceCommand": "npm run validate:rashi:dupes:yoma",
+          "exactCommitBinding": null,
+          "status": "UNVERIFIED",
+          "evidenceRefs": []
+        }
+      ],
+      "status": "UNVERIFIED",
+      "repairVsReconstruction": "undecided",
+      "repairDecision": null,
+      "evidenceRefs": []
+    },
+    {
+      "id": "YOMA-RASHI-RENDERER-READINESS",
+      "category": "rashi",
+      "mandatory": true,
+      "verificationMode": "both",
+      "scopeStatement": "All 173 daf covering all sugyot in the current corpus must render Rashi content correctly in the browser renderer, across the full corpus, not a sample.",
+      "independentReviewRequired": false,
+      "evidenceComponents": [
+        {
+          "component": "deterministic",
+          "sourceClass": "ci-workflow",
+          "acceptanceCommand": "gh run view --workflow rashi-browser-shards.yml --json conclusion,jobs (read the result of the most recent completed 8-shard corpus-wide run, 173/173 daf; never dispatches a new run)",
+          "exactCommitBinding": null,
+          "status": "UNVERIFIED",
+          "evidenceRefs": []
+        },
+        {
+          "component": "semantic",
+          "sourceClass": "review-record",
+          "acceptanceCommand": "review-record schema: reviewer disposition confirming sampled rendered daf match expected Rashi layout/placement",
+          "exactCommitBinding": null,
+          "status": "UNVERIFIED",
+          "evidenceRefs": [],
+          "reviewRecordRequiredFields": [
+            "reviewer",
+            "reviewedAt",
+            "disposition",
+            "evidenceRefs",
+            "scopeCoverage",
+            "sourceFirstReview",
+            "enrichmentFieldsPreserved"
+          ]
+        }
+      ],
+      "status": "UNVERIFIED",
+      "repairVsReconstruction": "undecided",
+      "repairDecision": null,
+      "evidenceRefs": []
+    },
+    {
+      "id": "YOMA-ENRICHMENT-CONTRACT-COMPLIANCE",
+      "category": "enrichment",
+      "mandatory": true,
+      "verificationMode": "deterministic",
+      "scopeStatement": "All enrichment records (ideas, quizzes, arguments, explanations, takeaways) across all sugyot in the current corpus must conform to the enrichment schema contract.",
+      "independentReviewRequired": false,
+      "evidenceComponents": [
+        {
+          "component": "deterministic",
+          "sourceClass": "repo-script",
+          "acceptanceCommand": "npm run validate:enrichment-contracts:yoma",
+          "exactCommitBinding": null,
+          "status": "UNVERIFIED",
+          "evidenceRefs": []
+        }
+      ],
+      "status": "UNVERIFIED",
+      "repairVsReconstruction": "undecided",
+      "repairDecision": null,
+      "evidenceRefs": []
+    },
+    {
+      "id": "YOMA-ARGUMENT-TAXONOMY-COVERAGE",
+      "category": "enrichment",
+      "mandatory": true,
+      "verificationMode": "deterministic",
+      "scopeStatement": "All argument enrichment records across all sugyot in the current corpus must be tagged with a valid taxonomy category.",
+      "independentReviewRequired": false,
+      "evidenceComponents": [
+        {
+          "component": "deterministic",
+          "sourceClass": "repo-script",
+          "acceptanceCommand": "npm run validate:argument-taxonomy:yoma",
+          "exactCommitBinding": null,
+          "status": "UNVERIFIED",
+          "evidenceRefs": []
+        }
+      ],
+      "status": "UNVERIFIED",
+      "repairVsReconstruction": "undecided",
+      "repairDecision": null,
+      "evidenceRefs": []
+    },
+    {
+      "id": "YOMA-SOURCE-REFS-NORMALIZATION",
+      "category": "source-layer",
+      "mandatory": true,
+      "verificationMode": "deterministic",
+      "scopeStatement": "All source references in the current corpus must be normalized to the strict citation format.",
+      "independentReviewRequired": false,
+      "evidenceComponents": [
+        {
+          "component": "deterministic",
+          "sourceClass": "repo-script",
+          "acceptanceCommand": "npm run validate:sourcerefs:strict:yoma",
+          "exactCommitBinding": null,
+          "status": "UNVERIFIED",
+          "evidenceRefs": []
+        }
+      ],
+      "status": "UNVERIFIED",
+      "repairVsReconstruction": "undecided",
+      "repairDecision": null,
+      "evidenceRefs": []
+    },
+    {
+      "id": "YOMA-ENRICHMENT-COMPLETENESS",
+      "category": "enrichment",
+      "mandatory": true,
+      "verificationMode": "semantic",
+      "scopeStatement": "All 492 sugyot in the current Yoma corpus must have complete, source-first-reviewed enrichment content (ideas, quizzes, arguments, explanations, takeaways) with no enrichment fields dropped.",
+      "independentReviewRequired": false,
+      "evidenceComponents": [
+        {
+          "component": "semantic",
+          "sourceClass": "review-record",
+          "acceptanceCommand": "review-record schema: sugyaId, reviewer, reviewedAt, disposition, evidenceRefs[]",
+          "exactCommitBinding": null,
+          "status": "UNVERIFIED",
+          "evidenceRefs": [],
+          "reviewRecordRequiredFields": [
+            "reviewer",
+            "reviewedAt",
+            "disposition",
+            "evidenceRefs",
+            "scopeCoverage",
+            "sourceFirstReview",
+            "enrichmentFieldsPreserved"
+          ]
+        }
+      ],
+      "status": "UNVERIFIED",
+      "repairVsReconstruction": "undecided",
+      "repairDecision": null,
+      "evidenceRefs": []
+    },
+    {
+      "id": "YOMA-NAVIGATION-RENDERING",
+      "category": "navigation",
+      "mandatory": true,
+      "verificationMode": "both",
+      "scopeStatement": "All existing daf navigation and rendering paths in the current corpus must work and render correctly.",
+      "independentReviewRequired": false,
+      "evidenceComponents": [
+        {
+          "component": "deterministic",
+          "sourceClass": "repo-test",
+          "acceptanceCommand": "npm run test:browser",
+          "exactCommitBinding": null,
+          "status": "UNVERIFIED",
+          "evidenceRefs": []
+        },
+        {
+          "component": "semantic",
+          "sourceClass": "review-record",
+          "acceptanceCommand": "review-record schema: reviewer disposition confirming sampled navigation/rendering is usable and correct beyond automated assertions",
+          "exactCommitBinding": null,
+          "status": "UNVERIFIED",
+          "evidenceRefs": [],
+          "reviewRecordRequiredFields": [
+            "reviewer",
+            "reviewedAt",
+            "disposition",
+            "evidenceRefs",
+            "scopeCoverage",
+            "sourceFirstReview",
+            "enrichmentFieldsPreserved"
+          ]
+        }
+      ],
+      "status": "UNVERIFIED",
+      "repairVsReconstruction": "undecided",
+      "repairDecision": null,
+      "evidenceRefs": []
+    },
+    {
+      "id": "YOMA-SEARCH-AVAILABILITY",
+      "category": "navigation",
+      "mandatory": true,
+      "verificationMode": "both",
+      "scopeStatement": "The existing 'Jump to daf' search modal (app.jsx, filter by daf number/topic/content-type) must be present and must return correct results for a fixed query set.",
+      "independentReviewRequired": false,
+      "evidenceComponents": [
+        {
+          "component": "deterministic",
+          "sourceClass": "repo-test",
+          "acceptanceCommand": "npx playwright test tests/browser/daf-search.spec.js (fixed query set against the 'Jump to daf' modal: a daf-number query, a topic query, a content-type query, and a no-match query asserting the 'No amudim match' empty state)",
+          "exactCommitBinding": null,
+          "status": "UNVERIFIED",
+          "evidenceRefs": []
+        },
+        {
+          "component": "semantic",
+          "sourceClass": "review-record",
+          "acceptanceCommand": "review-record schema: reviewer disposition confirming the search surface is discoverable and its results are correct and usable to a real user, beyond the fixed automated query set",
+          "exactCommitBinding": null,
+          "status": "UNVERIFIED",
+          "evidenceRefs": [],
+          "reviewRecordRequiredFields": [
+            "reviewer",
+            "reviewedAt",
+            "disposition",
+            "evidenceRefs",
+            "scopeCoverage",
+            "sourceFirstReview",
+            "enrichmentFieldsPreserved"
+          ]
+        }
+      ],
+      "status": "UNVERIFIED",
+      "repairVsReconstruction": "undecided",
+      "repairDecision": null,
+      "evidenceRefs": []
+    },
+    {
+      "id": "YOMA-BUILD-REPRODUCIBILITY",
+      "category": "build",
+      "mandatory": true,
+      "verificationMode": "deterministic",
+      "scopeStatement": "The production build must be reproducible from the current commit.",
+      "independentReviewRequired": false,
+      "evidenceComponents": [
+        {
+          "component": "deterministic",
+          "sourceClass": "repo-script",
+          "acceptanceCommand": "npm run build && npm run check:deploy-html",
+          "exactCommitBinding": null,
+          "status": "UNVERIFIED",
+          "evidenceRefs": []
+        }
+      ],
+      "status": "UNVERIFIED",
+      "repairVsReconstruction": "undecided",
+      "repairDecision": null,
+      "evidenceRefs": []
+    },
+    {
+      "id": "YOMA-TEST-SUITE-GREEN",
+      "category": "build",
+      "mandatory": true,
+      "verificationMode": "deterministic",
+      "scopeStatement": "The full repository test suite must pass at the current commit.",
+      "independentReviewRequired": false,
+      "evidenceComponents": [
+        {
+          "component": "deterministic",
+          "sourceClass": "repo-test",
+          "acceptanceCommand": "npm test",
+          "exactCommitBinding": null,
+          "status": "UNVERIFIED",
+          "evidenceRefs": []
+        }
+      ],
+      "status": "UNVERIFIED",
+      "repairVsReconstruction": "undecided",
+      "repairDecision": null,
+      "evidenceRefs": []
+    },
+    {
+      "id": "YOMA-PRODUCTION-RELEASE-VERIFICATION",
+      "category": "release",
+      "mandatory": true,
+      "verificationMode": "external",
+      "scopeStatement": "The live production deployment must serve the exact tested main-tip build.",
+      "independentReviewRequired": false,
+      "evidenceComponents": [
+        {
+          "component": "external",
+          "sourceClass": "external-source",
+          "acceptanceCommand": "5+ cache-busted HTTP checks of the live production URL spread across 10+ minutes, confirming served bundle matches the tested main-tip build",
+          "exactCommitBinding": null,
+          "status": "UNVERIFIED",
+          "evidenceRefs": [],
+          "reviewRecordRequiredFields": [
+            "reviewer",
+            "reviewedAt",
+            "disposition",
+            "evidenceRefs",
+            "scopeCoverage",
+            "sourceFirstReview",
+            "enrichmentFieldsPreserved",
+            "edition",
+            "license",
+            "sourceProvenance"
+          ]
+        }
+      ],
+      "status": "UNVERIFIED",
+      "repairVsReconstruction": "undecided",
+      "repairDecision": null,
+      "evidenceRefs": []
+    },
+    {
+      "id": "YOMA-NO-ENRICHMENT-DATA-DELETION",
+      "category": "policy",
+      "mandatory": true,
+      "verificationMode": "deterministic",
+      "scopeStatement": "No contract-closure PR may delete an enrichment field from modules/yoma/learning_data.js without explicit authorization.",
+      "independentReviewRequired": false,
+      "evidenceComponents": [
+        {
+          "component": "deterministic",
+          "sourceClass": "repo-script",
+          "acceptanceCommand": "diff of modules/yoma/learning_data.js enrichment fields across any contract-closure PR: no key removed that was not an explicitly authorized legacy-field purge",
+          "exactCommitBinding": null,
+          "status": "UNVERIFIED",
+          "evidenceRefs": []
+        }
+      ],
+      "status": "UNVERIFIED",
+      "repairVsReconstruction": "undecided",
+      "repairDecision": null,
+      "evidenceRefs": []
+    }
+  ]
+}
