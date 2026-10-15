@@ -19,6 +19,10 @@ function collectPageErrors(page) {
 }
 
 async function openJumpModal(page) {
+  // Wait for the app to mount and attach its keydown listener before firing
+  // the shortcut - pressing it too early (while the script is still
+  // loading/evaluating) is a lost keystroke, not a product regression.
+  await page.locator('button[aria-label="Open daf picker"]').waitFor({ state: 'visible' });
   const modifier = process.platform === 'darwin' ? 'Meta' : 'Control';
   await page.keyboard.press(`${modifier}+k`);
   await expect(page.locator('.modal-search input')).toBeVisible();
