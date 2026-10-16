@@ -126935,6 +126935,133 @@
         "refreshNote": "Content corrected this session (fixed conflation of original order-only contradiction at vilna_line 16 with Abaye five-vs-two lamp resolution at vilna_line 20, in learnerQuestion, coreTension, argumentFlow step-01, and misconceptions[0]). Fresh isolated final-audit (yoma-14b-s03-final-audit-v2) independently re-read vilna_line 16,20,22,28,31 and confirmed all six edited fields SUPPORTED, and confirmed via whole-sugya grep sweep that no remaining text conflates the lamp count with the original contradiction. All other fieldInventory/boundaryLeakageSweep/staleContentSweep entries are unchanged from the prior audit since their underlying content and supporting line ranges were not touched by this fix."
       },
       "certifiedAtCommit": "8051334181c3ced3ca8f7cbffe26e510a4f34927"
+    },
+    "yoma-15a-s01": {
+      "sugyaId": "yoma-15a-s01",
+      "daf": "15a",
+      "state": "PENDING_FINAL_AUDIT",
+      "firstPass": {
+        "reviewId": "yoma-15a-s01-second-r3",
+        "reviewerContextId": "24a16a1b-5c6b-4612-8bc7-59125d6b9f57",
+        "sourceFirst": true,
+        "verdict": "REPAIR_REQUIRED",
+        "reviewedSourceFingerprint": "b09c0c67fa24532aad525295b6c2a1a64e6ab8959691faf0150dcb5e4047f79f",
+        "reviewedSemanticFingerprint": "1f9170782bdf42c7340c4c26aba92368d1e5b508b07f9fe5b854d61dbc80bffe",
+        "evidence": {
+          "origin": "independent-second-pass-rejection",
+          "reviewEvidence": {
+            "sugya": "yoma-15a-s01",
+            "reviewVerdict": "REJECTED",
+            "reviewerContextId": "24a16a1b-5c6b-4612-8bc7-59125d6b9f57",
+            "findings": "The repaired enrichment repeatedly cites the 'oto' (אותו) proof-text that Abba Shaul relies on as Leviticus 24:3 ('יערך אתו אהרן'), in multiple places: argumentFlow step-04 text and sourceRef note; misconceptions[0].correction; glossary entry for 'oto'; quizSeeds answer; display.whats/hint/coreMove/ahaMoment/summary. This is incorrect. The Gemara's proof-text at vilna line 13 ('התם דכתיב אותו') is the verse underlying the baraita quoted in lines 6-9 ('מערב עד בקר'), which Sefaria's William Davidson translation explicitly identifies by citation as Exodus 27:21, not Leviticus 24:3. While both Exodus 27:21 and Leviticus 24:3 contain near-identical 'ner tamid' language (including 'אתו'/'oto'), the sourced, citation-bearing translation anchors this specific passage to Exodus 27:21.",
+            "repairScope": [
+              "summary",
+              "display.whats",
+              "display.hint",
+              "learning.coreMove",
+              "learning.ahaMoment",
+              "argumentFlow[3] (step-04) text and sourceRef",
+              "misconceptions[0].correction",
+              "quizSeeds answer referencing the oto verse",
+              "glossary entry for 'oto'"
+            ],
+            "action": "Replace every occurrence of 'Lev. 24:3' / 'Leviticus 24:3' (and the associated citation wrapper 'יערך אתו אהרן') with 'Exodus 27:21' across all listed fields. Content/logic otherwise correct; this is a citation-only correction."
+          }
+        }
+      },
+      "repairRef": "yoma-15a-s01-repair3-self",
+      "sourceFingerprint": "b09c0c67fa24532aad525295b6c2a1a64e6ab8959691faf0150dcb5e4047f79f",
+      "semanticFingerprint": "fd34830fd4914ba37130c34f197e64c110d9673c5b105f69fce55977bbac0e7d",
+      "secondPass": {
+        "reviewId": "yoma-15a-s01-second-blind-review",
+        "reviewerContextId": "a1626174-bc41-4e4e-9f9b-aba3355299e0",
+        "sourceFirst": true,
+        "verdict": "CONFIRMED",
+        "reviewedSourceFingerprint": "b09c0c67fa24532aad525295b6c2a1a64e6ab8959691faf0150dcb5e4047f79f",
+        "reviewedSemanticFingerprint": "fd34830fd4914ba37130c34f197e64c110d9673c5b105f69fce55977bbac0e7d",
+        "evidence": {
+          "sugya": "yoma-15a-s01",
+          "reviewVerdict": "CONFIRMED",
+          "reviewerContextId": "a1626174-bc41-4e4e-9f9b-aba3355299e0",
+          "findings": "Independent source-first review of yoma-15a-s01 (vilna lines 1-13), performed without reading any prior review record's reasoning text, using only authoritativeHebrewLines from scripts/semantic_daf_packet.py --second-pass and the raw Gemara+Rashi in modules/yoma/assets/talmuddev/15a.json. Lines 1-5 (Rabbanan's view: ketoret before lamp-trimming, proven from the 'boker boker' / ner tamid juxtaposition) and lines 6-13 (Abba Shaul's reversed order and his reply 'שאני התם דכתיב אותו') were independently re-derived. Verified that every current citation to the proof-text verse in display.whats, display.hint, learning.coreMove, learning.ahaMoment, argumentFlow step-04 (lines 12-13), misconceptions[0].correction, the quizSeeds answer, and the glossary entry for 'oto' point to Exodus 27:21 (the ner-tamid 'מערב עד בקר' verse), not Leviticus 24:3. Independently corroborated this from the raw Rashi text on line 1 ('מערב עד בקר. בנרות כתיב יערוך אותו אהרן ובניו מערב עד בקר') -- the phrase 'אהרן ובניו' (Aaron and his sons) occurs in Exodus 27:21 and not in Leviticus 24:3, which independently confirms Exodus 27:21 as the correct source without relying on any prior reviewer's stated conclusion. lineRange (1-13), sefariaRefs, and the sugya boundary (ending before Rav Pappa's risha/metzi'ta/seifa discussion at line 13) all match the source. No stale or incorrect citations, no boundary leakage into s02, no factual or attribution defects found in any field: display, learning, argumentFlow, topicTags, misconceptions, relatedSugyot, visualizableElements, quizSeeds, finalRuling, difficulty, glossary, prerequisiteKnowledge."
+        }
+      }
+    },
+    "yoma-15a-s02": {
+      "sugyaId": "yoma-15a-s02",
+      "daf": "15a",
+      "state": "PENDING_FINAL_AUDIT",
+      "firstPass": {
+        "reviewId": "rabbi-15a-second-1791908041-yoma-15a-s02",
+        "reviewerContextId": "rabbi-15a-secondpass-ctx-independent",
+        "sourceFirst": true,
+        "verdict": "REPAIR_REQUIRED",
+        "reviewedSourceFingerprint": "a216f2ee7c2a7566a51d6f1b3ecc71e07353b66587e6dc7bf06e817a883724c6",
+        "reviewedSemanticFingerprint": "a4d713fba8a8d83f4376c20262975aa4c782eda09e993dcf93ef7540692e3060",
+        "evidence": {
+          "origin": "independent-second-pass-rejection",
+          "reviewEvidence": {
+            "reviewType": "INDEPENDENT_SECOND_PASS",
+            "sugya": "yoma-15a-s02",
+            "verdict": "REJECTED",
+            "defect": "The core structural claim ('Rav Pappa: different chapters, different Tannaim - Chapter 1 = Rabbanan, Chapter 3 = Abba Shaul') does not match the source. Line 19 ('רישא וסיפא רבנן ומציעתא אבא שאול') means 'the opening clause (risha) and closing clause (seifa) follow Rabbanan, and the middle clause (metzi'ta) follows Abba Shaul' - a THREE-CLAUSE SPLIT OF A SINGLE MISHNAIC PASSAGE (seder ha-yom), not a two-chapter split between Chapter 1 and Chapter 3. Chapter references in the Rashi excerpt identify WHERE the risha/metzi'ta/seifa clauses are elsewhere elaborated in the tractate, not the gemara's own division of the dispute into chapters. The argumentFlow step describing 'Chapter 3 says the KG offers the tamid last... contradicts Abba Shaul' also misrepresents the actual objection, which concerns consistency between risha and seifa of the SAME passage, not a chapter-vs-chapter conflict.",
+            "repairScope": [
+              "display.title",
+              "display.oneLine",
+              "display.whats",
+              "display.hint",
+              "learning.coreTension",
+              "learning.coreMove",
+              "learning.ahaMoment",
+              "learning.memoryAnchor",
+              "argumentFlow[step-01]",
+              "argumentFlow[step-02]",
+              "misconceptions[0]",
+              "quizSeeds[0]",
+              "quizSeeds[1]"
+            ]
+          }
+        }
+      },
+      "repairRef": "rabbi-15a-repair2-1791908712-yoma-15a-s02",
+      "sourceFingerprint": "a216f2ee7c2a7566a51d6f1b3ecc71e07353b66587e6dc7bf06e817a883724c6",
+      "semanticFingerprint": "90d85dea1ad70806baa7c3aa4ddf100098b3d39c202b431720607a8b4f2ead80",
+      "secondPass": {
+        "reviewId": "yoma-15a-s02-second-blind-review",
+        "reviewerContextId": "a1626174-bc41-4e4e-9f9b-aba3355299e0",
+        "sourceFirst": true,
+        "verdict": "CONFIRMED",
+        "reviewedSourceFingerprint": "a216f2ee7c2a7566a51d6f1b3ecc71e07353b66587e6dc7bf06e817a883724c6",
+        "reviewedSemanticFingerprint": "90d85dea1ad70806baa7c3aa4ddf100098b3d39c202b431720607a8b4f2ead80",
+        "evidence": {
+          "sugya": "yoma-15a-s02",
+          "reviewVerdict": "CONFIRMED",
+          "reviewerContextId": "a1626174-bc41-4e4e-9f9b-aba3355299e0",
+          "findings": "Independent source-first review of yoma-15a-s02 (vilna lines 13-26), performed without reading any prior review record's reasoning text. Re-derived from authoritativeHebrewLines: lines 13-16 state Rav Pappa's resolution that the mishna's risha and seifa follow Rabbanan while the metzi'ta (the ketoret-lottery clause) follows Abba Shaul; lines 21-26 state Abaye's objection that one mishna's clauses cannot be split between two Tannaim, and his alternative reading of the risha's two-lamps/five-lamps order as merely illustrative (אורויי בעלמא הוא דקא מורי וסדרא הא הדר), so the whole mishna remains Rabbanan's view without any split. Verified display.whats/oneLine/hint, learning.coreTension/coreMove/learningBlocker/takeaway/ahaMoment/memoryAnchor, and argumentFlow steps 01-04 (mapped to lines 13, 16, 21, 26) all correctly describe this as a dispute over whether one mishna's own three clauses (risha/metzi'ta/seifa) can be attributed to two Tannaim, not a split between tractate chapters. misconceptions[0] correctly corrects the chapter-split misreading. relatedSugyot, topicTags, quizSeeds, finalRuling ('no definitive ruling given'), difficulty, and the empty glossary (no technical terms requiring separate glosses beyond risha/metzi'ta/seifa, which are explained inline) are all consistent with the source. No boundary leakage into s01 or s03, no attribution or sequence defects found."
+        }
+      }
+    },
+    "yoma-15a-s03": {
+      "sugyaId": "yoma-15a-s03",
+      "daf": "15a",
+      "state": "REPAIR_REQUIRED",
+      "firstPass": {
+        "reviewId": "yoma-15a-s03-second-blind-review",
+        "reviewerContextId": "a1626174-bc41-4e4e-9f9b-aba3355299e0",
+        "sourceFirst": true,
+        "verdict": "REPAIR_REQUIRED",
+        "reviewedSourceFingerprint": "c58158fd333a010b2b43782420293d010918515db55faf557d7e95b67d6ad528",
+        "reviewedSemanticFingerprint": "758e7627e0e111679cc8bc3290283c156b586057f904fec7fc5d2a0371799b32",
+        "evidence": {
+          "origin": "independent-second-pass-rejection",
+          "reviewEvidence": {
+            "sugya": "yoma-15a-s03",
+            "reviewVerdict": "REJECTED",
+            "reviewerContextId": "a1626174-bc41-4e4e-9f9b-aba3355299e0",
+            "findings": "Independent source-first review of yoma-15a-s03 (vilna lines 27-47), performed without reading any prior review record's reasoning text, using authoritativeHebrewLines from scripts/semantic_daf_packet.py --second-pass. DEFECT FOUND: the candidate's description of the ORDINARY (baseline) tamid blood-application practice is factually wrong about the number of throws. Lines 27-29 read: תני ליה גופא בא לו לקרן מזרחית צפונית נותן מזרחית צפונית מערבית דרומית נותן מערבית דרומית -- the kohen comes to the NORTHEASTERN corner and applies blood there (one application, reckoned as reaching two walls since it is a corner), THEN separately comes to the SOUTHWESTERN corner and applies blood there (a second, separate application, likewise reckoned as reaching two walls). This is TWO separate diagonal corner-applications (NE, then SW), not a single throw spanning both corners. Only R. Shimon ish HaMitzpah's version (lines 29-32) modifies the SECOND of these two applications, replacing the SW diagonal throw with two separate single-wall throws (west, then south). R. Yochanan's count-based explanation (lines 36-38: one application that is two, olah-style; two applications that are two, chatat-style) only makes sense against a baseline of two diagonal corner-throws for the ordinary practice; it is not a description of R. Shimon's three-throw version against a one-throw ordinary baseline. The candidate's display.whats ('The Tamid mishna's ordinary practice is one diagonal throw covering the NE and SW corners'), learning.coreTension ('The ordinary practice reaches all four altar corners via a single diagonal throw (NE-SW combined, in olah style)'), argumentFlow step-01 text ('he comes to the NE corner and applies blood NE-SW together (one diagonal throw)'), and visualizableElements[0] ('ordinary single diagonal throw (NE-SW)') all state that the ordinary practice uses ONE throw reaching both corners, when the source describes TWO separate corner-throws (NE, then SW). Required correction: these fields must describe the ordinary practice as two separate diagonal corner-applications (at the NE corner, then at the SW corner, each counted as 'one that is two'), and must describe R. Shimon ish HaMitzpah's change as replacing only the second (SW) diagonal throw with two separate single-wall throws (west, then south) -- not as replacing a single ordinary throw with three throws. The remaining fields reviewed (R. Yochanan's hekesh to Numbers 28:15, the rejected doubling proposal at lines 37-39, the rejected height-based division at lines 41-43, the two explained-away precedents at lines 43-46, and the mid-word daf ending at line 47) were independently verified against the source and are accurate; only the ordinary-practice throw-count description is defective, but per the holistic-repair rule the entire affected record needs review and correction together since the miscount propagates through display, learning, argumentFlow, and visualizableElements."
+          }
+        }
+      }
     }
   }
 }
