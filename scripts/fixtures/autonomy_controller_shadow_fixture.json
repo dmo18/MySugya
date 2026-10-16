@@ -1,0 +1,38 @@
+{
+  "_note": "Read-only fixture for `python3 scripts/autonomy_controller.py check-fixture`. Shape-validated only; never loaded as live state and never written to by the controller.",
+  "activeUnit": {
+    "acceptanceComponents": [
+      "deterministic"
+    ],
+    "allowedCommands": [
+      "git_status",
+      "run_tests"
+    ],
+    "allowedPaths": [
+      "scripts/"
+    ],
+    "baseSha": "0000000000000000000000000000000000000000",
+    "correctionCount": 0,
+    "evidenceLog": [],
+    "implementerIdentity": "implementer-example",
+    "quotaBudget": {
+      "accountPoolId": "claude-coding-worker-default",
+      "maxSpendPercent": 20,
+      "provider": "claude",
+      "remainingPercent": 50
+    },
+    "repairDecision": null,
+    "repairVsReconstruction": "undecided",
+    "reviewerIdentities": [
+      "reviewer-example"
+    ],
+    "status": "queued",
+    "unitClass": "mysugya-worktree-edit",
+    "unitId": "shadow-fixture-unit-1",
+    "worktree": "/tmp/example-worktree"
+  },
+  "campaignMode": "shadow",
+  "history": [],
+  "schemaVersion": "2.0.0",
+  "stateVersion": 0
+}
