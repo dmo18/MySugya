@@ -126988,7 +126988,7 @@
     "yoma-15a-s02": {
       "sugyaId": "yoma-15a-s02",
       "daf": "15a",
-      "state": "REPAIR_REQUIRED",
+      "state": "REPAIRED_PENDING_REVIEW",
       "firstPass": {
         "reviewId": "yoma-15a-s02-isolated-second-pass-rabbi-v3",
         "reviewerContextId": "agent:rabbi:subagent:f1ed0b51-2e07-4fd7-bc5e-7df77fe9997d",
@@ -127043,7 +127043,8 @@
             ]
           }
         }
-      }
+      },
+      "repairRef": "b6435a436536eeb1219f3f8b9065fc7fe1e38091"
     },
     "yoma-15a-s03": {
       "sugyaId": "yoma-15a-s03",
