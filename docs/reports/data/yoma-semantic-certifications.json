@@ -126988,63 +126988,41 @@
     "yoma-15a-s02": {
       "sugyaId": "yoma-15a-s02",
       "daf": "15a",
-      "state": "REPAIRED_PENDING_REVIEW",
+      "state": "REPAIR_REQUIRED",
       "firstPass": {
-        "reviewId": "yoma-15a-s02-isolated-second-pass-rabbi-v3",
-        "reviewerContextId": "agent:rabbi:subagent:f1ed0b51-2e07-4fd7-bc5e-7df77fe9997d",
+        "reviewId": "second-pass-yoma-15a-s02-2026-10-18",
+        "reviewerContextId": "subagent-ed3e1e2e-f546-4e3f-9bf0-59df189e279d",
         "sourceFirst": true,
         "verdict": "REPAIR_REQUIRED",
         "reviewedSourceFingerprint": "55b7655d234f646f8706aa86039f2a788978b6ae97a20b1625182d96b144c971",
-        "reviewedSemanticFingerprint": "1bdfa88002851c649aae6b136aaca76bc466dcd2e33ad08e22b2040fc3d3ae60",
+        "reviewedSemanticFingerprint": "e2149bb110bb1a7815f5ad44b2e2c2ff1a2f977a7a9f57f83b491ec02619b24b",
         "evidence": {
           "origin": "independent-second-pass-rejection",
           "reviewEvidence": {
-            "origin": "isolated-second-pass",
-            "reviewerContextId": "agent:rabbi:subagent:f1ed0b51-2e07-4fd7-bc5e-7df77fe9997d",
-            "sugya": "yoma-15a-s02",
-            "declaredLineRange": {
-              "startVilnaLine": 13,
-              "endVilnaLine": 25
-            },
+            "reviewId": "second-pass-yoma-15a-s02-2026-10-18",
+            "daf": "15a",
+            "sugyaId": "yoma-15a-s02",
             "verdict": "REJECTED",
-            "findings": [
+            "independentSourceReconstruction": "Lines 13-25 resolve an apparent conflict between distinct mishnayot of tractate Tamid, not clauses within one mishna. Rav Pappa (line 13) answers an earlier contradiction by saying the Mishna of the first chapter ('מתניתין דהכא', Tamid 14a) follows Rabbanan, while the Pais/lottery Mishna of the second chapter (Tamid 25a) follows Abba Shaul (confirmed by Rashi ad loc: 'To the mishna here - that of the first chapter'; 'The lottery - that of the mishna of the lotteries taught in the second chapter'). The Gemara then raises the seifa of a THIRD mishna -- the order-of-the-day (seder hayom) passage of the third chapter (Tamid 31b, per Rashi on line 19) -- which also follows Rabbanan. The resulting formulation 'risha and seifa follow Rabbanan, metzi'ta follows Abba Shaul' (lines 19-20) therefore refers to three separate mishnayot across three separate chapters of the tractate (ch1=risha, ch2/Pais=metzi'ta, ch3/seder-hayom=seifa), not to the internal clauses of one single mishna. Rashi makes this explicit: the Gemara's astonishment at this split exists precisely 'since this whole TRACTATE is like one mishna entirely occupied with the order, in that the passages are arranged and proceed in sequence' -- i.e. the three chapters are being treated as if they were one continuous account only because the tractate reads sequentially, not because they are literally one mishna's paragraph.",
+            "defectsFound": [
               {
-                "field": "argumentFlow.step-01",
-                "issue": "Misidentifies the dispute. Step-01 claims Rav Pappa's move is 'Chapter 1 (two lamps) follows Rabbanan; Chapter 3 (five lamps) follows Abba Shaul' -- different chapters/mishnayot assigned to different Tannaim. That two-chapter assignment is the PRIOR resolution already established before this sugya begins (vilna 13-15, 'הא רבנן הא אבא שאול... למתניתין דהכא כרבנן פייס כאבא שאול'). This sugya's actual content (vilna 16-23, 'אימא סיפא ... רישא וסיפא רבנן ומציעתא אבא שאול') is about whether a SINGLE mishna (the seder-hayom/order-of-the-day passage, with its own risha/metzi'ta/seifa clauses) can itself be split across the two Tannaim within one text -- not about assigning two separate chapters to two separate Tannaim."
+                "field": "display.title, display.oneLine, display.whats, display.hint, learning.* (all subfields), argumentFlow (all 4 steps), misconceptions[0], quizSeeds[0]",
+                "currentClaim": "Repeatedly frames the dispute as 'a single mishna' (the seder-hayom mishna) whose own 'risha', 'metzi'ta', and 'seifa' (its own internal opening/middle/closing clauses) are split between Rabbanan and Abba Shaul, and frames the misconception/quiz answer around 'whether one mishna's own clauses may be split between two Tannaim.'",
+                "sourceSupport": "Lines 13-20 plus Rashi's glosses on 'to the mishna here' (ch.1, 14a), 'the lottery' (ch.2 Pais, 25a), and 'say the latter clause ... of the order-of-the-day passage, taught in the third chapter (31b)' show that risha/metzi'ta/seifa denote three DIFFERENT mishnayot in three different chapters of tractate Tamid, not three clauses of one mishna. Rashi's own comment on the risha/seifa=Rabbanan, metzi'ta=Abba Shaul formulation explicitly attributes the Gemara's astonishment to the fact that the WHOLE TRACTATE reads sequentially like one account, not that it literally is one mishna.",
+                "requiredCorrection": "Rewrite display, learning, argumentFlow, misconceptions, and quizSeeds to state the dispute correctly: three separate Tamid mishnayot (ch.1 = risha, ch.2/Pais = metzi'ta, ch.3/seder-hayom = seifa) are being read as if they were the sequential parts of one unified account, and the Gemara is astonished that the first and third would follow Rabbanan while the second (Pais) follows Abba Shaul. The misconception/quiz framing must not state or imply that one single paragraph's own clauses are at issue."
               },
               {
-                "field": "argumentFlow.step-02",
-                "issue": "States 'Chapter 3 says the KG offers the tamid last.' The actual clause (vilna 16-18, 'הביאו לו את התמיד קרצו ומרק אחר שחיטה על ידו נכנס להקטיר את הקטורת ולהיטיב את הנרות') has the tamid FIRST (slaughtered), then incense, then lamps -- tamid is not last. The challenge is that this ordering ('אתאן לרבנן') pulls the seifa of the SAME mishna back to Rabbanan, conflicting with the metzi'ta's Abba Shaul assignment -- not a 'Chapter 3 vs Abba Shaul' conflict between chapters."
-              },
-              {
-                "field": "argumentFlow.step-03",
-                "issue": "Repeats the step-01 error: 'The opening of the mishna (two lamps) follows Rabbanan and the later lotteries section (ketoret last) follows Abba Shaul' describes the pre-existing two-mishna/two-chapter resolution, not Abaye's actual objection at vilna 21-23 ('בשלמא אביי לא אמר כרב פפא רישא וסיפא רבנן ומציעתא אבא שאול לא מוקים לה'), which is that Abaye does not accept splitting ONE mishna's risha+seifa from its metzi'ta across two Tannaim."
-              },
-              {
-                "field": "argumentFlow.step-04",
-                "issue": "States the resolution is about a passage on 'all seven days he tosses the blood' not referring to Yom Kippur. That is Rashi's ILLUSTRATIVE PARALLEL example glossing the concept of 'אורויי בעלמא' (a general instructional teaching, not a literal sequence) -- it is not the gemara's own text at vilna 24-26. The actual gemara text there ('תנא ברישא הטבת שתי נרות והדר הטבת חמש נרות ואביי אמר לך אורויי בעלמא הוא דקא מורי') is about the tanna teaching the cleaning of two lamps before five lamps as a general (non-sequential) instruction, which is Rav Pappa's own defense of his three-way split, not an Abaye statement about seven-day blood-tossing. Step-04 conflates a Rashi analogy with the plain gemara text and drops the real subject matter of the resolution."
+                "field": "argumentFlow step-04, learning.coreMove/learningBlocker, display.whats",
+                "currentClaim": "States Abaye resolves the tension by reading 'the two-lamps-before-five-lamps clause' itself as a general, non-sequential instruction ('אורויי בעלמא').",
+                "sourceSupport": "Rashi on lines 37-46 ties 'אורויי בעלמא' to a different point: the first chapter's teaching that the Kohen Gadol performs services 'all seven days' (the pre-Yom-Kippur week) is not meant to fix the actual order of the day, but only to instruct that he must stay occupied with the service during that week so he becomes practiced; the actual seder-hayom order is taught elsewhere (ch.2 teaches five lamps, ch.3 teaches two). This is a different point than simply declaring the two-lamps/five-lamps sequence itself a non-literal general instruction detached from the seven-day practice context.",
+                "requiredCorrection": "Correct Abaye's resolution to reflect that the 'general instruction' characterization applies to the first chapter's seven-day pre-Yom-Kippur practice teaching (not a literal order for that week), which is why its lamp-order details need not be read as a strict sequence to split between Tannaim; the actual order is taught in the later chapters."
               }
             ],
-            "summary": "The candidate conflates this sugya's actual dispute (whether ONE mishna's own risha/metzi'ta/seifa can be split across two Tannaim) with the prior sugya's two-separate-chapters resolution, contains a factual sequence error (tamid placed last rather than first in the cited clause), and in step-04 substitutes a Rashi illustrative analogy for the gemara's own plain-text resolution. These are semantic/attribution/sequence defects per the runbook's REJECTED criteria; the record requires repair and a fresh independent second pass against the repaired content.",
-            "boundaryVerdict": "No boundary leakage observed; declared vilna range 13-25 matches the sugya's actual source span.",
-            "fieldsChecked": [
-              "display",
-              "learning",
-              "argumentFlow (all 4 steps)",
-              "topicTags",
-              "conceptRefs",
-              "misconceptions",
-              "relatedSugyot",
-              "visualizableElements",
-              "quizSeeds",
-              "finalRuling",
-              "difficulty",
-              "prerequisiteKnowledge"
-            ]
+            "everyFieldChecked": "Every semantic field of yoma-15a-s02 was inspected: display, learning, argumentFlow, topicTags, conceptRefs, requiresUnderstanding, misconceptions, relatedSugyot, visualizableElements, quizSeeds, finalRuling, difficulty, alternateAngles, glossary, prerequisiteKnowledge.",
+            "disposition": "REJECTED - the repaired candidate (commit b6435a4/4745e57) still misidentifies the risha/metzi'ta/seifa structure as internal clauses of one mishna rather than three distinct Tamid mishnayot across three chapters, and still misstates the content of Abaye's 'אורויי בעלמא' resolution. Returning to repair."
           }
         }
-      },
-      "repairRef": "b6435a436536eeb1219f3f8b9065fc7fe1e38091"
+      }
     },
     "yoma-15a-s03": {
       "sugyaId": "yoma-15a-s03",
