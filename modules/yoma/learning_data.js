@@ -32897,7 +32897,7 @@ const DAF_CONTENT = {
           startLineId: "yoma-015a-l13",
           endLineId: "yoma-015a-l25",
           startVilnaLine: 13,
-          endVilnaLine: 26
+          endVilnaLine: 27
         },
         display: {
           title: "Do three separate Tamid mishnayot, across three chapters, really contradict each other?",
@@ -32949,7 +32949,7 @@ const DAF_CONTENT = {
           },
           {
             id: "step-02",
-            type: "objection",
+            type: "support",
             label: "The seifa confirms only the middle mishna follows Abba Shaul",
             speaker: "Gemara",
             text: "The seder-hayom mishna (seifa), taught in the third chapter, brings the tamid before the incense - matching Rabbanan - confirming that only the middle mishna, the Pais passage in the second chapter, follows Abba Shaul, while the first and third chapters' mishnayot both follow Rabbanan, exactly as Rav Pappa's attribution requires.",
@@ -32988,7 +32988,7 @@ const DAF_CONTENT = {
                 sourceType: "gemara",
                 lineId: "yoma-015a-l24",
                 vilnaLine: 24,
-                note: "Rav Pappa's two-lamps-before-five-lamps objection to Abaye's reading"
+                note: "Rav Pappa's objection: under Abaye's reading, the mishna teaches two-lamp removal before five-lamp removal (vilnaLine 24), but in actual Temple practice the five lamps are cleared before the two (vilnaLine 25 'אורויי בעלמא' is Abaye's own answer conceding the order is reversed relative to practice); the real order is then taught separately (vilnaLine 27 'תני ליה גופא')"
               }
             ]
           },
