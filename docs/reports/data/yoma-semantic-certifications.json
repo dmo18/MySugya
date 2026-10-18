@@ -126988,38 +126988,21 @@
     "yoma-15a-s02": {
       "sugyaId": "yoma-15a-s02",
       "daf": "15a",
-      "state": "REPAIRED_PENDING_REVIEW",
+      "state": "REPAIR_REQUIRED",
       "firstPass": {
-        "reviewId": "second-pass-yoma-15a-s02-2026-10-18",
-        "reviewerContextId": "subagent-ed3e1e2e-f546-4e3f-9bf0-59df189e279d",
+        "reviewId": "yoma-15a-s02-isolated-second-pass-2026-10-18-v1",
+        "reviewerContextId": "subagent-aa18a0b7af4c2da94",
         "sourceFirst": true,
         "verdict": "REPAIR_REQUIRED",
         "reviewedSourceFingerprint": "55b7655d234f646f8706aa86039f2a788978b6ae97a20b1625182d96b144c971",
-        "reviewedSemanticFingerprint": "e2149bb110bb1a7815f5ad44b2e2c2ff1a2f977a7a9f57f83b491ec02619b24b",
+        "reviewedSemanticFingerprint": "caeca1774815be2255f429465c70ae551471d26d57d094d940661ea416b1833a",
         "evidence": {
           "origin": "independent-second-pass-rejection",
           "reviewEvidence": {
-            "reviewId": "second-pass-yoma-15a-s02-2026-10-18",
-            "daf": "15a",
-            "sugyaId": "yoma-15a-s02",
-            "verdict": "REJECTED",
-            "independentSourceReconstruction": "Lines 13-25 resolve an apparent conflict between distinct mishnayot of tractate Tamid, not clauses within one mishna. Rav Pappa (line 13) answers an earlier contradiction by saying the Mishna of the first chapter ('מתניתין דהכא', Tamid 14a) follows Rabbanan, while the Pais/lottery Mishna of the second chapter (Tamid 25a) follows Abba Shaul (confirmed by Rashi ad loc: 'To the mishna here - that of the first chapter'; 'The lottery - that of the mishna of the lotteries taught in the second chapter'). The Gemara then raises the seifa of a THIRD mishna -- the order-of-the-day (seder hayom) passage of the third chapter (Tamid 31b, per Rashi on line 19) -- which also follows Rabbanan. The resulting formulation 'risha and seifa follow Rabbanan, metzi'ta follows Abba Shaul' (lines 19-20) therefore refers to three separate mishnayot across three separate chapters of the tractate (ch1=risha, ch2/Pais=metzi'ta, ch3/seder-hayom=seifa), not to the internal clauses of one single mishna. Rashi makes this explicit: the Gemara's astonishment at this split exists precisely 'since this whole TRACTATE is like one mishna entirely occupied with the order, in that the passages are arranged and proceed in sequence' -- i.e. the three chapters are being treated as if they were one continuous account only because the tractate reads sequentially, not because they are literally one mishna's paragraph.",
-            "defectsFound": [
-              {
-                "field": "display.title, display.oneLine, display.whats, display.hint, learning.* (all subfields), argumentFlow (all 4 steps), misconceptions[0], quizSeeds[0]",
-                "currentClaim": "Repeatedly frames the dispute as 'a single mishna' (the seder-hayom mishna) whose own 'risha', 'metzi'ta', and 'seifa' (its own internal opening/middle/closing clauses) are split between Rabbanan and Abba Shaul, and frames the misconception/quiz answer around 'whether one mishna's own clauses may be split between two Tannaim.'",
-                "sourceSupport": "Lines 13-20 plus Rashi's glosses on 'to the mishna here' (ch.1, 14a), 'the lottery' (ch.2 Pais, 25a), and 'say the latter clause ... of the order-of-the-day passage, taught in the third chapter (31b)' show that risha/metzi'ta/seifa denote three DIFFERENT mishnayot in three different chapters of tractate Tamid, not three clauses of one mishna. Rashi's own comment on the risha/seifa=Rabbanan, metzi'ta=Abba Shaul formulation explicitly attributes the Gemara's astonishment to the fact that the WHOLE TRACTATE reads sequentially like one account, not that it literally is one mishna.",
-                "requiredCorrection": "Rewrite display, learning, argumentFlow, misconceptions, and quizSeeds to state the dispute correctly: three separate Tamid mishnayot (ch.1 = risha, ch.2/Pais = metzi'ta, ch.3/seder-hayom = seifa) are being read as if they were the sequential parts of one unified account, and the Gemara is astonished that the first and third would follow Rabbanan while the second (Pais) follows Abba Shaul. The misconception/quiz framing must not state or imply that one single paragraph's own clauses are at issue."
-              },
-              {
-                "field": "argumentFlow step-04, learning.coreMove/learningBlocker, display.whats",
-                "currentClaim": "States Abaye resolves the tension by reading 'the two-lamps-before-five-lamps clause' itself as a general, non-sequential instruction ('אורויי בעלמא').",
-                "sourceSupport": "Rashi on lines 37-46 ties 'אורויי בעלמא' to a different point: the first chapter's teaching that the Kohen Gadol performs services 'all seven days' (the pre-Yom-Kippur week) is not meant to fix the actual order of the day, but only to instruct that he must stay occupied with the service during that week so he becomes practiced; the actual seder-hayom order is taught elsewhere (ch.2 teaches five lamps, ch.3 teaches two). This is a different point than simply declaring the two-lamps/five-lamps sequence itself a non-literal general instruction detached from the seven-day practice context.",
-                "requiredCorrection": "Correct Abaye's resolution to reflect that the 'general instruction' characterization applies to the first chapter's seven-day pre-Yom-Kippur practice teaching (not a literal order for that week), which is why its lamp-order details need not be read as a strict sequence to split between Tannaim; the actual order is taught in the later chapters."
-              }
-            ],
-            "everyFieldChecked": "Every semantic field of yoma-15a-s02 was inspected: display, learning, argumentFlow, topicTags, conceptRefs, requiresUnderstanding, misconceptions, relatedSugyot, visualizableElements, quizSeeds, finalRuling, difficulty, alternateAngles, glossary, prerequisiteKnowledge.",
-            "disposition": "REJECTED - the repaired candidate (commit b6435a4/4745e57) still misidentifies the risha/metzi'ta/seifa structure as internal clauses of one mishna rather than three distinct Tamid mishnayot across three chapters, and still misstates the content of Abaye's 'אורויי בעלמא' resolution. Returning to repair."
+            "origin": "independent-isolated-subagent-review",
+            "reviewerAgentId": "aa18a0b7af4c2da94",
+            "summary": "Independent source-first review found a real defect: enrichment falsely presents Abaye's 'orvei be'alma' general-instruction answer as concerning an unrelated seven-day teaching, disconnected from the two-lamps-before-five-lamps order problem Rav Pappa raised in line 24. Per the Hebrew source (lines 21-26) and Sefaria/Steinsaltz, Abaye's statement is a direct rebuttal to that exact lamp-order objection, not a separate unrelated topic.",
+            "details": "Affected fields: display.hint (frames as either/or alternatives), learning.misconceptions[1] correction (factually backward), learning.ahaMoment, learning.memoryAnchor (repeat the 'not about lamp order' claim), argumentFlow (omits Rav Pappa's line-24 reasoning about reversed chronological order). Correct content: Abaye's general-instruction answer resolves Rav Pappa's objection that his reading implies a backward (two-before-five) performance order; Abaye says the mishna's listing is a didactic sequence, not an actual-order statement, so no backward-order problem exists. This directly concerns the lamp-cleaning order claim in that mishna, not an unrelated topic."
           }
         }
       }
@@ -127047,18 +127030,19 @@
       },
       "repairRef": "4801de9a9fcf6f98906fe3ca268b0530a54fda71",
       "sourceFingerprint": "c58158fd333a010b2b43782420293d010918515db55faf557d7e95b67d6ad528",
-      "semanticFingerprint": "6ce9fda49ba1e8f90ba0ce980a2b84342219cd68738e12f4cef9dc5e73aacc76",
+      "semanticFingerprint": "c48e3d076cc58ab6e7ff7bc7469fc94e5c9667e75f234fe69faeb7b2a9c091fe",
       "secondPass": {
-        "reviewId": "yoma-15a-s03-isolated-second-pass",
-        "reviewerContextId": "subagent-ad35ee90e2f025660",
+        "reviewId": "yoma-15a-s03-isolated-second-pass-2026-10-18-v2",
+        "reviewerContextId": "subagent-ab1ac2e2a1d35ecc2",
         "sourceFirst": true,
         "verdict": "CONFIRMED",
         "reviewedSourceFingerprint": "c58158fd333a010b2b43782420293d010918515db55faf557d7e95b67d6ad528",
-        "reviewedSemanticFingerprint": "6ce9fda49ba1e8f90ba0ce980a2b84342219cd68738e12f4cef9dc5e73aacc76",
+        "reviewedSemanticFingerprint": "c48e3d076cc58ab6e7ff7bc7469fc94e5c9667e75f234fe69faeb7b2a9c091fe",
         "evidence": {
           "origin": "independent-isolated-subagent-review",
-          "checkedStringSanity": "display.title matched expected post-repair text",
-          "findings": "Independent source-first review of yoma-15a-s03 (Vilna lines 27-47) performed in an isolated worktree checked out to commit 36b4c313a9e43a0a741ecaf695724524fda75d57 (branch rabbi/yoma-15a-semantic), using the authoritative Hebrew source packet from scripts/semantic_daf_packet.py --second-pass, without access to any prior review reasoning. Field-by-field check of title, oneLine, whats, hint, learnerQuestion, coreTension, coreMove, learningBlocker, takeaway, finalRuling, argumentFlow steps 01-06, misconceptions, visualizableElements, glossary, prerequisiteKnowledge, quizSeeds against source lines 27-47 confirmed: ordinary practice correctly described as two separate diagonal corner-throws (NE, then SW); R. Shimon ish HaMitzpah's modification correctly described as replacing only the SW throw with two single-wall throws (west, then south); R. Yochanan's hekesh reasoning, the rejected doubling proposal, the rejected height-based division proposal, and the two explained-away Yom Kippur precedents all match source lines accurately; sugya correctly resolves (R. Shimon's ruling stands) rather than ending in teiku. No defects found; all fields internally consistent. CONFIRMED."
+          "reviewerAgentId": "ab1ac2e2a1d35ecc2",
+          "summary": "Independent source-first re-review of corrected yoma-15a-s03 content (post attribution fix: hekesh demand now phrased impersonally via Scripture rather than attributed to R. Shimon). Verdict CONFIRMED.",
+          "details": "Verified scope/boundary, baseline vs R. Shimon ish HaMitzpah corner scheme, R. Yochanan/beit R. Yannai hekesh attribution (two-tier, correctly preserved), one-throw-as-two/two-throws-as-two breakdown, fuller-combination rejection, hekesh resolution/parallel, height-based alternative and its rejection via Rabbah bar Sheila's lo-agufei rebuttal, display.hint question-format compliance, and internal consistency across all enrichment fields. No factual, attribution, or consistency defects found."
         }
       }
     }
