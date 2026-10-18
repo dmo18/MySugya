@@ -127044,7 +127044,7 @@
     "yoma-15a-s03": {
       "sugyaId": "yoma-15a-s03",
       "daf": "15a",
-      "state": "REPAIR_REQUIRED",
+      "state": "REPAIRED_PENDING_REVIEW",
       "firstPass": {
         "reviewId": "yoma-15a-s03-second-blind-review",
         "reviewerContextId": "a1626174-bc41-4e4e-9f9b-aba3355299e0",
@@ -127061,7 +127061,8 @@
             "findings": "Independent source-first review of yoma-15a-s03 (vilna lines 27-47), performed without reading any prior review record's reasoning text, using authoritativeHebrewLines from scripts/semantic_daf_packet.py --second-pass. DEFECT FOUND: the candidate's description of the ORDINARY (baseline) tamid blood-application practice is factually wrong about the number of throws. Lines 27-29 read: תני ליה גופא בא לו לקרן מזרחית צפונית נותן מזרחית צפונית מערבית דרומית נותן מערבית דרומית -- the kohen comes to the NORTHEASTERN corner and applies blood there (one application, reckoned as reaching two walls since it is a corner), THEN separately comes to the SOUTHWESTERN corner and applies blood there (a second, separate application, likewise reckoned as reaching two walls). This is TWO separate diagonal corner-applications (NE, then SW), not a single throw spanning both corners. Only R. Shimon ish HaMitzpah's version (lines 29-32) modifies the SECOND of these two applications, replacing the SW diagonal throw with two separate single-wall throws (west, then south). R. Yochanan's count-based explanation (lines 36-38: one application that is two, olah-style; two applications that are two, chatat-style) only makes sense against a baseline of two diagonal corner-throws for the ordinary practice; it is not a description of R. Shimon's three-throw version against a one-throw ordinary baseline. The candidate's display.whats ('The Tamid mishna's ordinary practice is one diagonal throw covering the NE and SW corners'), learning.coreTension ('The ordinary practice reaches all four altar corners via a single diagonal throw (NE-SW combined, in olah style)'), argumentFlow step-01 text ('he comes to the NE corner and applies blood NE-SW together (one diagonal throw)'), and visualizableElements[0] ('ordinary single diagonal throw (NE-SW)') all state that the ordinary practice uses ONE throw reaching both corners, when the source describes TWO separate corner-throws (NE, then SW). Required correction: these fields must describe the ordinary practice as two separate diagonal corner-applications (at the NE corner, then at the SW corner, each counted as 'one that is two'), and must describe R. Shimon ish HaMitzpah's change as replacing only the second (SW) diagonal throw with two separate single-wall throws (west, then south) -- not as replacing a single ordinary throw with three throws. The remaining fields reviewed (R. Yochanan's hekesh to Numbers 28:15, the rejected doubling proposal at lines 37-39, the rejected height-based division at lines 41-43, the two explained-away precedents at lines 43-46, and the mid-word daf ending at line 47) were independently verified against the source and are accurate; only the ordinary-practice throw-count description is defective, but per the holistic-repair rule the entire affected record needs review and correction together since the miscount propagates through display, learning, argumentFlow, and visualizableElements."
           }
         }
-      }
+      },
+      "repairRef": "aa749ab83e1b7f0ff26e1f29250e5d36c2e105b2"
     }
   }
 }

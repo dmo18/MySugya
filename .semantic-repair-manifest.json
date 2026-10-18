@@ -2,7 +2,16 @@
   "schemaVersion": "1.0",
   "type": "semantic-daf-repair",
   "module": "yoma",
-  "daf": "14b",
-  "sugyaIds": ["yoma-14b-s01", "yoma-14b-s02", "yoma-14b-s03"],
-  "firstReviewId": "yoma-14b-first-pass"
+  "daf": "15a",
+  "sugyaIds": [
+    "yoma-15a-s03"
+  ],
+  "firstReviewId": "yoma-15a-first-pass",
+  "policy": {
+    "sourceFirst": true,
+    "independentSecondPassRequired": true,
+    "rawSourceImmutable": true,
+    "rashiTranslationsImmutable": true,
+    "certificationRegistryRequired": true
+  }
 }

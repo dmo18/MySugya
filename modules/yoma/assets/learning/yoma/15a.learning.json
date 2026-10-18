@@ -451,30 +451,30 @@
     "Yoma.15a.17"
    ],
    "display": {
-    "title": "Tamid as olah and chatat at once: every blood scheme the Gemara tries fails",
-    "oneLine": "R. Shimon ish HaMitzpah requires the tamid's blood to satisfy both olah and chatat rules, and every proposed way to apply it is refuted by the principle that blood cannot atone twice.",
-    "whats": "The Gemara investigates the basis for R. Shimon ish HaMitzpah's unique ruling that the tamid blood is sprinkled at all four altar corners - treating the tamid simultaneously as an olah and a chatat. Various proposals for how to execute this dual requirement are raised and refuted. The core problem: chatat blood goes on four horns; olah blood goes at two opposite corners. Each proposed combination fails on the principle that we cannot have blood serve two separate atonement functions at once.",
-    "hint": "The tamid is an unusual sacrifice. R. Shimon says it must be treated as BOTH an olah (two-corner sprinkling) AND a chatat (four-horn application). Every attempt to satisfy both simultaneously runs into the rule: we have no precedent for blood that atones and re-atones."
+    "title": "Tamid as olah and chatat at once: the hekesh forces an unprecedented combination",
+    "oneLine": "R. Shimon ish HaMitzpah's corner-based scheme satisfies the tamid's dual olah-and-chatat requirement because Scripture's hekesh forces the combination; a cleaner height-based alternative is tested afterward and fails for lack of precedent.",
+    "whats": "The Gemara investigates the basis for R. Shimon ish HaMitzpah's ruling that changes the tamid's blood application. The ordinary practice gives the tamid's blood two separate diagonal corner-applications: first a sprinkling at the northeast corner, then, as a separate later step, a sprinkling at the southwest corner. R. Shimon ish HaMitzpah leaves the northeast application unchanged but splits only the southwest application into two separate single-wall sprinklings (west, then south) instead of one diagonal throw. The Gemara ties this to R. Yochanan's teaching that the tamid, though an olah, must also be performed with the procedure of a chatat; a fuller combination (complete four-horn chatat plus complete two-corner olah) is tested and refuted because blood cannot be made to atone a second time, so Scripture's own hekesh is taken to force R. Shimon's otherwise unprecedented corner-based combination instead. A further height-based alternative (below=olah, above=chatat) is then tested and rejected for lack of precedent, confirming R. Shimon's corner-based scheme as the one that stands.",
+    "hint": "The tamid is an unusual sacrifice. R. Shimon says it must be treated as BOTH an olah (two-corner sprinkling) AND a chatat (four-horn-style application). A full combination of both fails since blood can't atone twice - so Scripture's own hekesh is what forces R. Shimon's corner-based scheme through instead. A later height-based alternative is tried and also fails for lack of precedent."
    },
    "learning": {
-    "learnerQuestion": "If the verse requires the tamid to be treated as both an olah and a chatat, how can one blood service physically satisfy two different application patterns?",
-    "coreTension": "Olah blood goes to two opposite corners and chatat blood goes to four horns, and R. Shimon ish HaMitzpah's ruling requires the same tamid blood to satisfy both, but no application order seems able to do both without reusing already-applied blood.",
-    "coreMove": "The Gemara tests every plausible ordering and combination of the two application patterns in turn, and each one is refuted by the same underlying principle: once blood has been applied for one atonement function, it cannot be reapplied to serve a second, distinct atonement function.",
-    "learningBlocker": "It is tempting to assume that combining four-horn and two-corner applications, in some order or overlap, must eventually satisfy both requirements. The recurring refutation shows the obstacle is not sequencing but the single principle that blood cannot atone twice, which blocks every configuration alike.",
+    "learnerQuestion": "If the tamid is fundamentally an olah, what is the textual basis for also requiring a chatat-style application, and does R. Shimon ish HaMitzpah's already-known corner-splitting ruling actually satisfy that requirement - or would a cleaner combination work better?",
+    "coreTension": "R. Yochanan teaches that a verse (juxtaposing the Yom Kippur goat-chatat with the daily tamid-olah) forces the Merciful One's own hekesh: the tamid, though an olah, must also receive a chatat-style act. R. Shimon's existing ruling - one throw at the northeast corner standing in for the olah component, two throws at the southwest standing in for the chatat component - satisfies this only because Scripture itself forces an otherwise unprecedented combination; a fuller combination (a complete four-horn chatat application plus a complete two-corner olah application) is rejected outright, since we have no precedent for blood atoning twice or for blood that is half chatat and half olah.",
+    "coreMove": "After the hekesh resolves the basic difficulty (an unprecedented combination is acceptable because Scripture forces it), the Gemara tests whether a more elegant, precedented alternative exists: splitting the chatat/olah distinction by height (below vs. above) instead of by corner. It is rejected for lack of precedent, and two candidate precedents from the Yom Kippur inner-sanctum blood service are each raised and explained away as not being true height-splits, leaving R. Shimon's corner-based scheme as the one actually implemented.",
+    "learningBlocker": "It is tempting to think the Gemara is searching for any workable combination and ends in failure. In fact the combination already exists and is already implemented (R. Shimon's ruling from step-01); what the Gemara does afterward is test whether a different, more precedented method could have achieved the same result, and shows that it could not - which reinforces, rather than undermines, the hekesh-based resolution.",
     "takeaway": {
-     "type": "open_question",
-     "text": "No proposed blood-application scheme satisfies R. Shimon ish HaMitzpah's dual olah-and-chatat requirement for the tamid; the sugya ends without a viable implementation, leaving the question how his ruling can be carried out unresolved."
+     "type": "resolved_ruling",
+     "text": "R. Shimon ish HaMitzpah's corner-based split (northeast unchanged, southwest divided into west-then-south) stands as the implementation of the tamid's dual olah-and-chatat requirement, because Scripture's own hekesh forces an otherwise unprecedented combination. A height-based alternative (below=olah, above=chatat) is considered and rejected for lack of precedent, even after two Yom Kippur inner-altar blood-sprinklings are raised as possible precedents and explained away."
     },
-    "ahaMoment": "The impossibility proof is elegant: every configuration either violates olah rules, violates chatat rules, or requires blood to atone twice - which has no precedent.",
-    "memoryAnchor": "Tamid = olah + chatat simultaneously. But blood cannot atone twice. Every solution fails on exactly this principle."
+    "ahaMoment": "The Gemara doesn't reject R. Shimon's ruling - it defends it. After the hekesh justifies the existing corner-based scheme as scripturally forced, the Gemara looks for a tidier, precedented alternative (splitting by height instead of by corner), fails to find one even after testing two candidate precedents from the Yom Kippur service, and so confirms that the corner-based scheme is the one that stands.",
+    "memoryAnchor": "Tamid = olah forced by hekesh to also get a chatat-act. R. Shimon's corner-split already satisfies this. A height-based alternative is tried and fails for lack of precedent - the original ruling wins by default."
    },
    "argumentFlow": [
     {
      "id": "step-01",
      "type": "premise",
-     "label": "R. Shimon's ruling: tamid is both olah and chatat",
+     "label": "Ordinary practice vs. R. Shimon's change: splitting the southwest application",
      "speaker": "R. Shimon ish HaMitzpah",
-     "text": "The verse 'as a chatat upon the olah of the tamid' means the tamid requires both chatat-style blood application (four horns) and olah-style (two corners). Both sets of matanot must be performed.",
+     "text": "The ordinary practice: the priest comes to the northeast corner and sprinkles once there, then proceeds to the southwest corner and sprinkles once there - two separate diagonal corner-applications. R. Shimon ish HaMitzpah changes only the daily offering's southwest application: the northeast corner is sprinkled as usual, but at the southwest corner he instead sprinkles once on the west side and then separately on the south side, rather than one diagonal throw covering both.",
      "sourceRefs": [
       {
        "sourceType": "gemara",
@@ -486,76 +486,76 @@
     },
     {
      "id": "step-02",
-     "type": "objection",
-     "label": "Proposal 1: four corners, then two - refuted",
-     "speaker": "Gemara",
-     "text": "Apply blood to four corners (chatat), then two (olah). Rejected: the final two applications would have blood already used for chatat atonement - blood cannot atone a second time.",
+     "type": "premise",
+     "label": "R. Yochanan's hekesh: the tamid's olah blood must also carry a chatat-act",
+     "speaker": "R. Yochanan (in the name of the house of R. Yannai)",
+     "text": "The verse juxtaposes the Yom Kippur goat-chatat with the daily tamid-olah, and the Merciful One says: perform a chatat-act with it. How so? Give one throw that counts as two, in the manner of olah (the northeast corner), and two throws that count as two, in the manner of chatat (the southwest corner, split west-then-south) - this is exactly R. Shimon ish HaMitzpah's already-stated ruling from step-01.",
      "sourceRefs": [
       {
        "sourceType": "gemara",
        "lineId": "yoma-015a-l33",
        "vilnaLine": 33,
-       "note": "First proposal and refutation"
+       "note": "R. Yochanan's hekesh-based teaching"
       }
      ]
     },
     {
      "id": "step-03",
      "type": "objection",
-     "label": "Proposal 2: two corners, then four - refuted",
+     "label": "A fuller combination is proposed and refuted",
      "speaker": "Gemara",
-     "text": "Apply blood to two corners (olah style), then four (chatat style). Rejected by the same logic: the second round of applications is using already-used blood.",
-     "sourceRefs": [
-      {
-       "sourceType": "gemara",
-       "lineId": "yoma-015a-l36",
-       "vilnaLine": 36,
-       "note": "Second proposal refuted"
-      }
-     ]
-    },
-    {
-     "id": "step-04",
-     "type": "objection",
-     "label": "Proposal 3: four matanot covering both requirements - refuted",
-     "speaker": "Gemara",
-     "text": "Apply blood to four corners where two of those four also satisfy the olah requirement (the two opposite corners that olah uses are within the four). Rejected: the two olah corners are subsumed in the chatat matanot, not separate olah applications.",
+     "text": "Why not instead give a complete doubled olah application (two-that-are-four) and a complete separate chatat application (four-that-are-four)? Rejected: we have no precedent for blood that atones and then atones again, and we have no precedent for blood that is half chatat and half olah.",
      "sourceRefs": [
       {
        "sourceType": "gemara",
        "lineId": "yoma-015a-l39",
        "vilnaLine": 39,
-       "note": "Third proposal and refutation"
+       "note": "Fuller combination proposed and refuted"
+      }
+     ]
+    },
+    {
+     "id": "step-04",
+     "type": "conclusion",
+     "label": "The hekesh forces the combination despite the lack of precedent",
+     "speaker": "Gemara",
+     "text": "Rather, perforce, Scripture juxtaposed them - the combination is unprecedented but scripturally forced, so R. Shimon's corner-based scheme stands. The Gemara notes a parallel: elsewhere too Scripture forces an unprecedented juxtaposition by hekesh, but there it amounts to a mere division of the gifts, not a true dual-identity problem.",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-015a-l41",
+       "vilnaLine": 41,
+       "note": "Hekesh resolution and parallel case"
       }
      ]
     },
     {
      "id": "step-05",
      "type": "objection",
-     "label": "Proposal 4: one application does double duty - refuted",
+     "label": "Alternative proposal: split by height instead of by corner - refuted",
      "speaker": "Gemara",
-     "text": "One application counts for both chatat and olah at the same corner. Rejected: we have no case where one blood application simultaneously fulfills two distinct halakhic functions.",
+     "text": "Why not instead give one throw below, in the manner of olah, and two throws above, in the manner of chatat? Rejected: we have no precedent for blood that is half above and half below.",
      "sourceRefs": [
       {
        "sourceType": "gemara",
-       "lineId": "yoma-015a-l41",
-       "vilnaLine": 41,
-       "note": "Fourth proposal refuted"
+       "lineId": "yoma-015a-l42",
+       "vilnaLine": 42,
+       "note": "Height-based alternative proposed and refuted"
       }
      ]
     },
     {
      "id": "step-06",
      "type": "conclusion",
-     "label": "The question stands: no viable configuration exists",
+     "label": "Two Yom Kippur precedents are tested and explained away; R. Shimon's scheme stands",
      "speaker": "Gemara",
-     "text": "All proposals for satisfying R. Shimon's dual requirement fail. The sugya concludes as a genuine difficulty (teiku-style) - R. Shimon's position appears to require an impossible combination of blood rites.",
+     "text": "Two candidate precedents for a height-based blood split are raised from the Yom Kippur inner-sanctum service - the bull's blood sprinkled one-above-seven-below 'like one who flogs' on the curtain, and the blood sprinkled seven times on the altar's 'pure part' - and each is explained away as not a true locational height-split (the flogging motion is continuous, not a fixed half-split; the 'pure part' refers to the object itself, not half its height). No precedent for a height-based split survives, so R. Shimon's corner-based scheme from step-01 remains the implementation that stands.",
      "sourceRefs": [
       {
        "sourceType": "gemara",
-       "lineId": "yoma-015a-l47",
-       "vilnaLine": 47,
-       "note": "Unresolved conclusion"
+       "lineId": "yoma-015a-l44a",
+       "vilnaLine": 44,
+       "note": "Yom Kippur precedents tested and explained away"
       }
      ]
     }
@@ -577,13 +577,13 @@
    "requiresUnderstanding": [],
    "misconceptions": [
     {
-     "misconception": "Four corner applications automatically cover olah's separate two-corner requirement.",
-     "correction": "The Gemara shows the two olah corners are not equivalent to the four chatat corners; subsuming them does not satisfy olah as an independent application.",
+     "misconception": "R. Shimon ish HaMitzpah's ruling is itself the proposal being tested and rejected by the Gemara.",
+     "correction": "R. Shimon's corner-based scheme (step-01) is the ruling already in effect; R. Yochanan's hekesh (step-02) justifies it. The Gemara's subsequent proposals and refutations (steps 03-06) test whether a different, more precedented scheme could replace it - and conclude it could not.",
      "correctedByStepId": "step-04"
     },
     {
-     "misconception": "R. Shimon ish HaMitzpah's dual requirement is easily executable once you combine the two application patterns.",
-     "correction": "Every implementation scheme tested is blocked by the same fundamental principle, that blood cannot atone twice, regardless of how the applications are ordered or combined.",
+     "misconception": "The sugya ends in an unresolved teiku, leaving R. Shimon's ruling without a workable implementation.",
+     "correction": "The sugya is resolved at step-04: Scripture's own hekesh forces the otherwise unprecedented corner-based combination. The later height-based alternative (steps 05-06) is a secondary exploration that fails for lack of precedent, which reinforces rather than undermines the resolution.",
      "correctedByStepId": "step-06"
     }
    ],
@@ -592,7 +592,7 @@
    ],
    "visualizableElements": [
     {
-     "item": "Four-panel sequence showing each proposed blood-application scheme and the specific principle that blocks it",
+     "item": "Two-step diagram of the ordinary practice (diagonal sprinkling at northeast, then a separate diagonal sprinkling at southwest) alongside R. Shimon ish HaMitzpah's change, which leaves northeast untouched and splits only the southwest sprinkling into two single-wall throws (west, then south)",
      "type": "sequence"
     },
     {
@@ -606,31 +606,31 @@
    ],
    "quizSeeds": [
     {
-     "question": "What principle blocks every proposed way of implementing R. Shimon ish HaMitzpah's dual blood-application ruling?",
-     "answer": "We have no precedent for blood that atones and then re-atones - once blood is used for one halakhic purpose, it cannot fulfill a second distinct atonement function.",
+     "question": "Why does R. Shimon ish HaMitzpah's corner-based scheme for the tamid's blood count as valid, despite having no prior precedent?",
+     "answer": "Because Scripture's own hekesh (juxtaposing the Yom Kippur goat-chatat with the daily tamid-olah) forces the combination - an unprecedented blood-application scheme is acceptable when the verse itself demands it.",
      "sourceRefs": [
       {
        "sourceType": "gemara",
-       "lineId": "yoma-15a-l47",
-       "vilnaLine": 47,
-       "note": "Unresolved conclusion"
+       "lineId": "yoma-015a-l41",
+       "vilnaLine": 41,
+       "note": "Hekesh resolution"
       }
      ]
     },
     {
-     "question": "Why does R. Shimon ish HaMitzpah require both olah and chatat blood rites for the tamid?",
-     "answer": "The verse says 'as a chatat upon the olah of the tamid,' requiring both.",
+     "question": "What alternative to R. Shimon's corner-based split does the Gemara test afterward, and why does it fail?",
+     "answer": "A height-based split (below=olah, above=chatat). It fails for lack of precedent - even after two Yom Kippur inner-altar blood-sprinklings are raised as possible precedents, each is explained away as not a true height-split.",
      "sourceRefs": [
       {
        "sourceType": "gemara",
-       "lineId": "yoma-15a-l27",
-       "vilnaLine": 27,
-       "note": "R. Shimon's dual-sacrifice ruling"
+       "lineId": "yoma-015a-l44a",
+       "vilnaLine": 44,
+       "note": "Yom Kippur precedents explained away"
       }
      ]
     }
    ],
-   "finalRuling": "Unresolved (teiku equivalent): no viable implementation of R. Shimon's dual requirement is found. The question of how to execute it remains open.",
+   "finalRuling": "Resolved: R. Shimon ish HaMitzpah's corner-based scheme (northeast unchanged, southwest split west-then-south) stands as the tamid's dual olah-and-chatat implementation, because Scripture's hekesh forces an otherwise unprecedented combination. A height-based alternative is tested and rejected for lack of precedent, confirming the corner-based scheme as the one actually practiced.",
    "difficulty": "advanced",
    "alternateAngles": [],
    "glossary": [
