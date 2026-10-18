@@ -1,0 +1,48 @@
+{
+  "_note": "Fixture for the controller-shadow-integration canary (scripts/autonomy_shadow_adapter.py simulate). This is a template, not a runnable request: repoSha must be filled in by the caller with the exact current `git rev-parse HEAD` of the repo being simulated against, since a baked-in sha would go stale on the next commit. Shape-validated only; never loaded as live state and never written to by the adapter or controller.",
+  "productContractId": "yoma-product-acceptance-v2",
+  "campaignId": "mysugya-yoma-remediation",
+  "repoSha": "FILL_IN_EXACT_GIT_HEAD_SHA",
+  "commitFingerprint": "FILL_IN_EXACT_GIT_HEAD_SHA",
+  "workUnit": {
+    "unitId": "controller-shadow-integration-canary-unit",
+    "unitClass": "controller-shadow-integration",
+    "worktree": "/tmp/controller-shadow-integration-canary",
+    "baseSha": "FILL_IN_EXACT_GIT_HEAD_SHA",
+    "allowedPaths": [
+      "scripts/"
+    ],
+    "allowedCommands": [
+      "git_status",
+      "run_tests"
+    ],
+    "acceptanceComponents": [
+      "deterministic"
+    ],
+    "reviewerIdentities": [
+      "reviewer-canary"
+    ],
+    "implementerIdentity": "implementer-canary",
+    "quotaBudget": {
+      "provider": "claude",
+      "accountPoolId": "claude-coding-worker-default",
+      "maxSpendPercent": 20,
+      "remainingPercent": 50
+    }
+  },
+  "admissionEvidence": {
+    "components": [
+      {
+        "type": "quota",
+        "fingerprint": "canary-quota-evidence-0001",
+        "submittedAt": 0,
+        "provider": "claude",
+        "accountPoolId": "claude-coding-worker-default",
+        "remainingPercent": 50,
+        "thresholdPercent": 30,
+        "measuredAt": 0,
+        "outcome": "ALLOW"
+      }
+    ]
+  }
+}
