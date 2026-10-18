@@ -32900,22 +32900,22 @@ const DAF_CONTENT = {
           endVilnaLine: 25
         },
         display: {
-          title: "Can one mishna hold two views? Rav Pappa and Abaye disagree on method",
-          oneLine: "Rav Pappa resolves Yoma's internal contradiction by splitting it between two Tannaim; Abaye rejects that a single mishna can mix positions and recontextualizes the text instead.",
-          whats: "Rav Pappa and Abaye offer competing resolutions to the apparent contradiction in the mishnayot about the service order. Their disagreement hinges on whether a single mishna can incorporate two different tannaitic positions within one text. Rav Pappa says yes (different sections of Yoma reflect different Tannaim); Abaye says no (a mishna does not split its view).",
-          hint: "The machloket between Rav Pappa and Abaye is a methodological one: can a single tractate's mishnayot hold both R. Akiva and Abba Shaul's positions, or must each mishna be internally consistent?"
+          title: "Can one mishna's own risha, metzi'ta, and seifa belong to different Tannaim?",
+          oneLine: "Rav Pappa resolves the seder-hayom mishna's internal tension by assigning its own risha and seifa to Rabbanan and its metzi'ta to Abba Shaul; Abaye rejects splitting one mishna this way and instead reads the two-lamps-before-five-lamps clause as a non-sequential general instruction.",
+          whats: "The Gemara asks whether a single mishna (the seder ha-yom passage describing the Kohen Gadol's order of service) can itself combine the positions of two Tannaim. Rav Pappa proposes that the mishna's own risha (opening) and seifa (closing) follow Rabbanan while its metzi'ta (middle clause, the ketoret/lottery passage) follows Abba Shaul. Abaye will not accept that one mishna's clauses be divided between two Tannaim this way, and instead resolves the underlying tension by reading the mishna's 'first clean two lamps, then clean five lamps' clause as a general, non-sequential instruction ('אורויי בעלמא') rather than a strict order - which removes the need to split the mishna at all.",
+          hint: "Watch for whether the dispute concerns the actual halachic service order, or rather the methodology: can one mishna's own risha/metzi'ta/seifa be attributed to two different Tannaim, and if not, how else can the tension between the mishna's clauses be resolved?"
         },
         learning: {
-          learnerQuestion: "Two mishnayot in Yoma describe the service order differently. Can the same tractate simply follow different Tannaim in different chapters, or must each mishna speak with one voice?",
-          coreTension: "Rav Pappa is willing to assign the two contradictory chapters to two different Tannaim, but Abaye holds a single mishna cannot mix tannaitic positions, so the same contradiction needs a different kind of resolution.",
-          coreMove: "When Rav Pappa's chapter-splitting solution is itself shown to fail (Chapter 3 contradicts itself too), Abaye instead resolves the tension by reading one of the problematic passages as a general teaching about KG practice rather than a specific Yom Kippur sequence, avoiding the need to attribute different sections to different Tannaim at all.",
-          learningBlocker: "It is tempting to treat this as a factual dispute about service order. The real disagreement is methodological: whether an anonymous mishna's internal sections can reflect different authorities, which is what determines whether chapter-splitting is even a legitimate solution.",
+          learnerQuestion: "A single mishna in Yoma seems to combine two different service orders within its own opening, middle, and closing clauses. Can one mishna simply be split between two Tannaim, or must it speak with one voice?",
+          coreTension: "Rav Pappa is willing to split the seder-hayom mishna's own risha and seifa (Rabbanan) from its metzi'ta (Abba Shaul); Abaye holds that a single mishna cannot mix tannaitic positions this way, so the tension between the mishna's clauses needs a different kind of resolution.",
+          coreMove: "Rav Pappa defends his three-way split by reading the mishna's 'first two lamps, then five lamps' clause as a strict sequential teaching; Abaye instead treats that same clause as a general, non-sequential instruction ('אורויי בעלמא'), which removes the need to divide the mishna between two Tannaim at all.",
+          learningBlocker: "It is tempting to treat this as a factual dispute about service order. The real disagreement is methodological: whether one mishna's own risha/metzi'ta/seifa can reflect two different authorities, and that in turn hinges on whether a particular clause is read as a strict sequence or as a general instruction.",
           takeaway: {
             type: "conceptual",
-            text: "Resolving an apparent contradiction between mishnayot can require a methodological choice, not just a factual one: whether a single mishna may combine different tannaitic positions, or whether the text must instead be reread so no such split is needed."
+            text: "Resolving an apparent contradiction within a single mishna can require a methodological choice, not just a factual one: whether that mishna's own clauses may be split between two Tannaim, or whether one of its clauses must instead be reread as a general instruction so no such split is needed."
           },
-          ahaMoment: "Rav Pappa and Abaye are not disputing the facts but the methodology of Mishnah interpretation: can a tractate's sections reflect different anonymous authorities?",
-          memoryAnchor: "Rav Pappa: the two chapters can follow different Tannaim. Abaye: a mishna cannot switch positions mid-text."
+          ahaMoment: "Rav Pappa and Abaye are not disputing the facts of the service order - they disagree over whether ONE mishna's own clauses may be split between two Tannaim, and that disagreement traces back to whether the two-lamps/five-lamps teaching is a literal sequence or merely a general instruction.",
+          memoryAnchor: "Rav Pappa: risha+seifa = Rabbanan, metzi'ta = Abba Shaul (one mishna, two Tannaim). Abaye: no splitting - the two-lamps-before-five-lamps line is just a general instruction, not a sequence."
         },
         lines: [
           { id: "yoma-015a-l13", kind: "gemara", he: "רַב פָּפָּא אָמַר: לָא קַשְׁיָא,\nהָא — רַבָּנַן, הָא — אַבָּא שָׁאוּל. בְּמַאי אוֹקֵימְתָּא\nלְמַתְנִיתִין דְּהָכָא — כְּרַבָּנַן, פַּיִיס — כְּאַבָּא שָׁאוּל,",
@@ -32935,9 +32935,9 @@ const DAF_CONTENT = {
           {
             id: "step-01",
             type: "claim",
-            label: "Rav Pappa: different chapters, different Tannaim",
+            label: "Rav Pappa: one mishna, split between two Tannaim",
             speaker: "Rav Pappa",
-            text: "Chapter 1 (two lamps) follows Rabbanan; Chapter 3 (five lamps) follows Abba Shaul. Different sections of Yoma can reflect different tannaitic views.",
+            text: "The seder-hayom mishna's own risha (opening) and seifa (closing) follow Rabbanan, while its metzi'ta (middle clause, the ketoret/lottery passage) follows Abba Shaul. A single mishna can combine two tannaitic positions within its own clauses.",
             sourceRefs: [
               {
                 sourceType: "gemara",
@@ -32950,45 +32950,45 @@ const DAF_CONTENT = {
           {
             id: "step-02",
             type: "objection",
-            label: "But look at Chapter 3 - it contradicts itself too",
+            label: "The seifa pulls back to Rabbanan - the split holds",
             speaker: "Gemara",
-            text: "Chapter 3 says the KG offers the tamid last - but that contradicts Abba Shaul who has a different order. So assigning Chapter 3 to Abba Shaul doesn't work either.",
+            text: "The mishna's seifa brings the tamid first (it is slaughtered before the incense and the lamps are tended), matching Rabbanan - confirming that this one mishna's risha and seifa both follow Rabbanan while only its metzi'ta follows Abba Shaul, exactly as Rav Pappa's three-way split requires.",
             sourceRefs: [
               {
                 sourceType: "gemara",
                 lineId: "yoma-015a-l16",
                 vilnaLine: 16,
-                note: "Challenge to Rav Pappa"
+                note: "Confirms Rav Pappa's risha/seifa-Rabbanan, metzi'ta-Abba Shaul split"
               }
             ]
           },
           {
             id: "step-03",
             type: "claim",
-            label: "Abaye: a mishna cannot mix tannaitic positions",
+            label: "Abaye: one mishna cannot be split between two Tannaim",
             speaker: "Abaye",
-            text: "The opening of the mishna (two lamps) follows Rabbanan and the later lotteries section (ketoret last) follows Abba Shaul - but a single mishna cannot split its ruling across different Tannaim. Abaye proposes an alternative reading.",
+            text: "Abaye will not accept Rav Pappa's three-way split: a single mishna's risha and seifa cannot follow Rabbanan while its own metzi'ta follows Abba Shaul. The whole mishna must be attributed to one Tanna, so Abaye needs a different way to resolve the tension within its clauses.",
             sourceRefs: [
               {
                 sourceType: "gemara",
                 lineId: "yoma-015a-l21",
                 vilnaLine: 21,
-                note: "Abaye's methodological objection"
+                note: "Abaye's methodological objection to splitting one mishna"
               }
             ]
           },
           {
             id: "step-04",
             type: "resolution",
-            label: "Abaye: the lotteries mishna is about a different context",
+            label: "Abaye: the two-lamps-then-five-lamps clause is just a general instruction",
             speaker: "Abaye",
-            text: "The Chapter 1 passage about 'all seven days he sprinkles' is not about Yom Kippur specifically but is teaching that the KG must be practiced in Temple service throughout the week - a general teaching, not a Yom Kippur sequence.",
+            text: "The gemara's own text resolves the tension: the tanna teaches cleaning the two lamps before the five lamps not as a strict sequence but as 'אורויי בעלמא' - a general instruction. Since it is not a literal order, the whole mishna can remain Rabbanan's view, with no need to split it between two Tannaim at all.",
             sourceRefs: [
               {
                 sourceType: "gemara",
                 lineId: "yoma-015a-l25",
                 vilnaLine: 25,
-                note: "Abaye's recontextualization"
+                note: "Abaye reads the two-lamps/five-lamps clause as a general instruction, not Rashi's seven-day gloss"
               }
             ]
           }
@@ -33006,7 +33006,7 @@ const DAF_CONTENT = {
         misconceptions: [
           {
             misconception: "Rav Pappa and Abaye are disputing the actual halachic service order.",
-            correction: "They are disputing how to read the Mishnah's structure: whether a single mishna can hold two tannaitic positions, not what the correct order is.",
+            correction: "They are disputing how to read the mishna's structure: whether one mishna's own risha, metzi'ta, and seifa can be split between two Tannaim, not what the correct order of service is.",
             correctedByStepId: "step-03"
           }
         ],
@@ -33016,28 +33016,28 @@ const DAF_CONTENT = {
         ],
         visualizableElements: [
           {
-            item: "Two-column diagram: Rav Pappa's approach (Chapter 1 = Rabbanan, Chapter 3 = Abba Shaul) vs Abaye's approach (mishna cannot split positions)",
+            item: "Two-column diagram: Rav Pappa's approach (one mishna: risha+seifa = Rabbanan, metzi'ta = Abba Shaul) vs Abaye's approach (one mishna, one Tanna - the two-lamps/five-lamps clause is just a general instruction)",
             type: "contrast"
           },
           {
-            item: "Mishna chapter 1 vs chapter 3 content shown side by side with the contradiction highlighted",
+            item: "The seder-hayom mishna's risha, metzi'ta, and seifa shown as three clauses of ONE passage, with Rav Pappa's attribution split overlaid and Abaye's single-Tanna reading shown alongside",
             type: "timeline"
           }
         ],
         quizSeeds: [
           {
-            question: "How do Rav Pappa and Abaye each resolve the contradiction between the two Yoma mishnayot?",
-            answer: "Rav Pappa assigns the two chapters to different Tannaim. Abaye objects that a mishna cannot split its position and instead recontextualizes the problematic passage.",
+            question: "How do Rav Pappa and Abaye each resolve the tension within the seder-hayom mishna's own clauses?",
+            answer: "Rav Pappa splits the one mishna between two Tannaim: its risha and seifa follow Rabbanan while its metzi'ta follows Abba Shaul. Abaye rejects splitting one mishna this way and instead reads the two-lamps-before-five-lamps clause as a general instruction ('אורויי בעלמא'), so the whole mishna stays Rabbanan's view.",
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-15a-l13",
+                lineId: "yoma-015a-l13",
                 vilnaLine: 13,
                 note: "Rav Pappa's resolution"
               },
               {
                 sourceType: "gemara",
-                lineId: "yoma-15a-l21",
+                lineId: "yoma-015a-l21",
                 vilnaLine: 21,
                 note: "Abaye's methodological objection"
               }
@@ -33045,11 +33045,11 @@ const DAF_CONTENT = {
           },
           {
             question: "What is the methodological principle Abaye uses to reject Rav Pappa's solution?",
-            answer: "A single mishna cannot represent two different tannaitic positions within itself - it must be internally consistent.",
+            answer: "A single mishna's own risha, metzi'ta, and seifa cannot be attributed to two different Tannaim - the whole mishna must follow one authority.",
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-15a-l21",
+                lineId: "yoma-015a-l21",
                 vilnaLine: 21,
                 note: "Abaye's methodological objection"
               }

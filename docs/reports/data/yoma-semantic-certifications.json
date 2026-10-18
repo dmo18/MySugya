@@ -126970,81 +126970,85 @@
         }
       },
       "repairRef": "yoma-15a-s01-repair3-self",
-      "sourceFingerprint": "b09c0c67fa24532aad525295b6c2a1a64e6ab8959691faf0150dcb5e4047f79f",
-      "semanticFingerprint": "fd34830fd4914ba37130c34f197e64c110d9673c5b105f69fce55977bbac0e7d",
+      "sourceFingerprint": "64b36cf184528b4bd3bc8b4bee085ff4e57d5f530b3774ed45181a6d216f3956",
+      "semanticFingerprint": "8d0fcf02a53a6ca31f25f76074eed9c0eab6d97c48c7ae974aa6b3d25fd02889",
       "secondPass": {
-        "reviewId": "yoma-15a-s01-second-blind-review",
-        "reviewerContextId": "a1626174-bc41-4e4e-9f9b-aba3355299e0",
+        "reviewId": "yoma-15a-s01-isolated-second-pass-v2",
+        "reviewerContextId": "agent:rabbi:subagent:77b277c7-3911-4e3d-b1cc-4903867085b0",
         "sourceFirst": true,
         "verdict": "CONFIRMED",
-        "reviewedSourceFingerprint": "b09c0c67fa24532aad525295b6c2a1a64e6ab8959691faf0150dcb5e4047f79f",
-        "reviewedSemanticFingerprint": "fd34830fd4914ba37130c34f197e64c110d9673c5b105f69fce55977bbac0e7d",
+        "reviewedSourceFingerprint": "64b36cf184528b4bd3bc8b4bee085ff4e57d5f530b3774ed45181a6d216f3956",
+        "reviewedSemanticFingerprint": "8d0fcf02a53a6ca31f25f76074eed9c0eab6d97c48c7ae974aa6b3d25fd02889",
         "evidence": {
-          "sugya": "yoma-15a-s01",
-          "reviewVerdict": "CONFIRMED",
-          "reviewerContextId": "a1626174-bc41-4e4e-9f9b-aba3355299e0",
-          "findings": "Independent source-first review of yoma-15a-s01 (vilna lines 1-13), performed without reading any prior review record's reasoning text, using only authoritativeHebrewLines from scripts/semantic_daf_packet.py --second-pass and the raw Gemara+Rashi in modules/yoma/assets/talmuddev/15a.json. Lines 1-5 (Rabbanan's view: ketoret before lamp-trimming, proven from the 'boker boker' / ner tamid juxtaposition) and lines 6-13 (Abba Shaul's reversed order and his reply 'שאני התם דכתיב אותו') were independently re-derived. Verified that every current citation to the proof-text verse in display.whats, display.hint, learning.coreMove, learning.ahaMoment, argumentFlow step-04 (lines 12-13), misconceptions[0].correction, the quizSeeds answer, and the glossary entry for 'oto' point to Exodus 27:21 (the ner-tamid 'מערב עד בקר' verse), not Leviticus 24:3. Independently corroborated this from the raw Rashi text on line 1 ('מערב עד בקר. בנרות כתיב יערוך אותו אהרן ובניו מערב עד בקר') -- the phrase 'אהרן ובניו' (Aaron and his sons) occurs in Exodus 27:21 and not in Leviticus 24:3, which independently confirms Exodus 27:21 as the correct source without relying on any prior reviewer's stated conclusion. lineRange (1-13), sefariaRefs, and the sugya boundary (ending before Rav Pappa's risha/metzi'ta/seifa discussion at line 13) all match the source. No stale or incorrect citations, no boundary leakage into s02, no factual or attribution defects found in any field: display, learning, argumentFlow, topicTags, misconceptions, relatedSugyot, visualizableElements, quizSeeds, finalRuling, difficulty, glossary, prerequisiteKnowledge."
+          "origin": "independent-isolated-subagent-review",
+          "findings": "Independent isolated source-first review of yoma-15a-s01 (Vilna lines 1-12, sugya boundary extends conceptually to line 13 for Abba Shaul's 'oto' citation) performed in this worktree at commit 36b4c313a9e43a0a741ecaf695724524fda75d57 (branch rabbi/yoma-15a-semantic), using the authoritative Hebrew source packet from scripts/semantic_daf_packet.py --daf 15a --second-pass, without reading any prior firstPass/secondPass evidence text before forming judgment. Field-by-field check against source lines 1-12 and Rashi: (1) display.title/oneLine/whats/hint, learning.learnerQuestion/coreTension/coreMove/learningBlocker/takeaway: correctly state the Rabbanan derive from the afternoon lamp-incense verse (lines 2-5, 'ובהעלות אהרן את הנרות בין הערבים יקטירנה') that incense accompanies (not follows) the lamp-lighting, and extend this ('הכא נמי', line 11) to the morning ketoret-precedes-lamps ruling; Abba Shaul (line 12, 'ואבא שאול אמר לך שאני התם דכתיב אותו') restricts the afternoon verse via the word 'oto', blocking the extension to the morning, matching Rashi's gloss (lines 7-11) that absent this analogy the morning plain-text order is tend-then-burn (lamps before incense). (2) argumentFlow step-01 (afternoon verse quote, line 1 sefariaRef): matches lines 2-3 exactly. (3) step-02 (challenge: would lamps-then-incense apply to afternoon too): matches lines 3-5 exactly. (4) step-03 (resolution: 'at the time of' = concurrent, not sequential; 'from evening to morning' proves only lamp-lighting is an overnight-valid service): matches lines 6-11 and Rashi lines 1-5 exactly. (5) step-04 (Abba Shaul's 'oto' restriction, morning follows plain text): matches line 12 (and line 13's 'דכתיב אותו') exactly. (6) misconceptions[0] ('at the time of lighting' misread as sequential-after, corrected via Rashi's concurrent reading at step-03): accurate to Rashi lines 1-5. (7) glossary entries for ketoret and oto: both accurate and correctly scoped to this sugya's dispute. (8) quizSeeds, finalRuling ('Disputed: Rabbanan hold ketoret precedes lamps via the afternoon analogy; Abba Shaul's oto-reading blocks it'), prerequisiteKnowledge (14b dispute continuity), topicTags, relatedSugyot, visualizableElements: all consistent with source and with each other. No factual, attribution, citation, or boundary defects found. All fields CONFIRMED against source."
         }
       }
     },
     "yoma-15a-s02": {
       "sugyaId": "yoma-15a-s02",
       "daf": "15a",
-      "state": "PENDING_FINAL_AUDIT",
+      "state": "REPAIR_REQUIRED",
       "firstPass": {
-        "reviewId": "rabbi-15a-second-1791908041-yoma-15a-s02",
-        "reviewerContextId": "rabbi-15a-secondpass-ctx-independent",
+        "reviewId": "yoma-15a-s02-isolated-second-pass-rabbi-v3",
+        "reviewerContextId": "agent:rabbi:subagent:f1ed0b51-2e07-4fd7-bc5e-7df77fe9997d",
         "sourceFirst": true,
         "verdict": "REPAIR_REQUIRED",
-        "reviewedSourceFingerprint": "a216f2ee7c2a7566a51d6f1b3ecc71e07353b66587e6dc7bf06e817a883724c6",
-        "reviewedSemanticFingerprint": "a4d713fba8a8d83f4376c20262975aa4c782eda09e993dcf93ef7540692e3060",
+        "reviewedSourceFingerprint": "55b7655d234f646f8706aa86039f2a788978b6ae97a20b1625182d96b144c971",
+        "reviewedSemanticFingerprint": "1bdfa88002851c649aae6b136aaca76bc466dcd2e33ad08e22b2040fc3d3ae60",
         "evidence": {
           "origin": "independent-second-pass-rejection",
           "reviewEvidence": {
-            "reviewType": "INDEPENDENT_SECOND_PASS",
+            "origin": "isolated-second-pass",
+            "reviewerContextId": "agent:rabbi:subagent:f1ed0b51-2e07-4fd7-bc5e-7df77fe9997d",
             "sugya": "yoma-15a-s02",
+            "declaredLineRange": {
+              "startVilnaLine": 13,
+              "endVilnaLine": 25
+            },
             "verdict": "REJECTED",
-            "defect": "The core structural claim ('Rav Pappa: different chapters, different Tannaim - Chapter 1 = Rabbanan, Chapter 3 = Abba Shaul') does not match the source. Line 19 ('רישא וסיפא רבנן ומציעתא אבא שאול') means 'the opening clause (risha) and closing clause (seifa) follow Rabbanan, and the middle clause (metzi'ta) follows Abba Shaul' - a THREE-CLAUSE SPLIT OF A SINGLE MISHNAIC PASSAGE (seder ha-yom), not a two-chapter split between Chapter 1 and Chapter 3. Chapter references in the Rashi excerpt identify WHERE the risha/metzi'ta/seifa clauses are elsewhere elaborated in the tractate, not the gemara's own division of the dispute into chapters. The argumentFlow step describing 'Chapter 3 says the KG offers the tamid last... contradicts Abba Shaul' also misrepresents the actual objection, which concerns consistency between risha and seifa of the SAME passage, not a chapter-vs-chapter conflict.",
-            "repairScope": [
-              "display.title",
-              "display.oneLine",
-              "display.whats",
-              "display.hint",
-              "learning.coreTension",
-              "learning.coreMove",
-              "learning.ahaMoment",
-              "learning.memoryAnchor",
-              "argumentFlow[step-01]",
-              "argumentFlow[step-02]",
-              "misconceptions[0]",
-              "quizSeeds[0]",
-              "quizSeeds[1]"
+            "findings": [
+              {
+                "field": "argumentFlow.step-01",
+                "issue": "Misidentifies the dispute. Step-01 claims Rav Pappa's move is 'Chapter 1 (two lamps) follows Rabbanan; Chapter 3 (five lamps) follows Abba Shaul' -- different chapters/mishnayot assigned to different Tannaim. That two-chapter assignment is the PRIOR resolution already established before this sugya begins (vilna 13-15, 'הא רבנן הא אבא שאול... למתניתין דהכא כרבנן פייס כאבא שאול'). This sugya's actual content (vilna 16-23, 'אימא סיפא ... רישא וסיפא רבנן ומציעתא אבא שאול') is about whether a SINGLE mishna (the seder-hayom/order-of-the-day passage, with its own risha/metzi'ta/seifa clauses) can itself be split across the two Tannaim within one text -- not about assigning two separate chapters to two separate Tannaim."
+              },
+              {
+                "field": "argumentFlow.step-02",
+                "issue": "States 'Chapter 3 says the KG offers the tamid last.' The actual clause (vilna 16-18, 'הביאו לו את התמיד קרצו ומרק אחר שחיטה על ידו נכנס להקטיר את הקטורת ולהיטיב את הנרות') has the tamid FIRST (slaughtered), then incense, then lamps -- tamid is not last. The challenge is that this ordering ('אתאן לרבנן') pulls the seifa of the SAME mishna back to Rabbanan, conflicting with the metzi'ta's Abba Shaul assignment -- not a 'Chapter 3 vs Abba Shaul' conflict between chapters."
+              },
+              {
+                "field": "argumentFlow.step-03",
+                "issue": "Repeats the step-01 error: 'The opening of the mishna (two lamps) follows Rabbanan and the later lotteries section (ketoret last) follows Abba Shaul' describes the pre-existing two-mishna/two-chapter resolution, not Abaye's actual objection at vilna 21-23 ('בשלמא אביי לא אמר כרב פפא רישא וסיפא רבנן ומציעתא אבא שאול לא מוקים לה'), which is that Abaye does not accept splitting ONE mishna's risha+seifa from its metzi'ta across two Tannaim."
+              },
+              {
+                "field": "argumentFlow.step-04",
+                "issue": "States the resolution is about a passage on 'all seven days he tosses the blood' not referring to Yom Kippur. That is Rashi's ILLUSTRATIVE PARALLEL example glossing the concept of 'אורויי בעלמא' (a general instructional teaching, not a literal sequence) -- it is not the gemara's own text at vilna 24-26. The actual gemara text there ('תנא ברישא הטבת שתי נרות והדר הטבת חמש נרות ואביי אמר לך אורויי בעלמא הוא דקא מורי') is about the tanna teaching the cleaning of two lamps before five lamps as a general (non-sequential) instruction, which is Rav Pappa's own defense of his three-way split, not an Abaye statement about seven-day blood-tossing. Step-04 conflates a Rashi analogy with the plain gemara text and drops the real subject matter of the resolution."
+              }
+            ],
+            "summary": "The candidate conflates this sugya's actual dispute (whether ONE mishna's own risha/metzi'ta/seifa can be split across two Tannaim) with the prior sugya's two-separate-chapters resolution, contains a factual sequence error (tamid placed last rather than first in the cited clause), and in step-04 substitutes a Rashi illustrative analogy for the gemara's own plain-text resolution. These are semantic/attribution/sequence defects per the runbook's REJECTED criteria; the record requires repair and a fresh independent second pass against the repaired content.",
+            "boundaryVerdict": "No boundary leakage observed; declared vilna range 13-25 matches the sugya's actual source span.",
+            "fieldsChecked": [
+              "display",
+              "learning",
+              "argumentFlow (all 4 steps)",
+              "topicTags",
+              "conceptRefs",
+              "misconceptions",
+              "relatedSugyot",
+              "visualizableElements",
+              "quizSeeds",
+              "finalRuling",
+              "difficulty",
+              "prerequisiteKnowledge"
             ]
           }
-        }
-      },
-      "repairRef": "rabbi-15a-repair2-1791908712-yoma-15a-s02",
-      "sourceFingerprint": "a216f2ee7c2a7566a51d6f1b3ecc71e07353b66587e6dc7bf06e817a883724c6",
-      "semanticFingerprint": "90d85dea1ad70806baa7c3aa4ddf100098b3d39c202b431720607a8b4f2ead80",
-      "secondPass": {
-        "reviewId": "yoma-15a-s02-second-blind-review",
-        "reviewerContextId": "a1626174-bc41-4e4e-9f9b-aba3355299e0",
-        "sourceFirst": true,
-        "verdict": "CONFIRMED",
-        "reviewedSourceFingerprint": "a216f2ee7c2a7566a51d6f1b3ecc71e07353b66587e6dc7bf06e817a883724c6",
-        "reviewedSemanticFingerprint": "90d85dea1ad70806baa7c3aa4ddf100098b3d39c202b431720607a8b4f2ead80",
-        "evidence": {
-          "sugya": "yoma-15a-s02",
-          "reviewVerdict": "CONFIRMED",
-          "reviewerContextId": "a1626174-bc41-4e4e-9f9b-aba3355299e0",
-          "findings": "Independent source-first review of yoma-15a-s02 (vilna lines 13-26), performed without reading any prior review record's reasoning text. Re-derived from authoritativeHebrewLines: lines 13-16 state Rav Pappa's resolution that the mishna's risha and seifa follow Rabbanan while the metzi'ta (the ketoret-lottery clause) follows Abba Shaul; lines 21-26 state Abaye's objection that one mishna's clauses cannot be split between two Tannaim, and his alternative reading of the risha's two-lamps/five-lamps order as merely illustrative (אורויי בעלמא הוא דקא מורי וסדרא הא הדר), so the whole mishna remains Rabbanan's view without any split. Verified display.whats/oneLine/hint, learning.coreTension/coreMove/learningBlocker/takeaway/ahaMoment/memoryAnchor, and argumentFlow steps 01-04 (mapped to lines 13, 16, 21, 26) all correctly describe this as a dispute over whether one mishna's own three clauses (risha/metzi'ta/seifa) can be attributed to two Tannaim, not a split between tractate chapters. misconceptions[0] correctly corrects the chapter-split misreading. relatedSugyot, topicTags, quizSeeds, finalRuling ('no definitive ruling given'), difficulty, and the empty glossary (no technical terms requiring separate glosses beyond risha/metzi'ta/seifa, which are explained inline) are all consistent with the source. No boundary leakage into s01 or s03, no attribution or sequence defects found."
         }
       }
     },
     "yoma-15a-s03": {
       "sugyaId": "yoma-15a-s03",
       "daf": "15a",
-      "state": "REPAIRED_PENDING_REVIEW",
+      "state": "PENDING_FINAL_AUDIT",
       "firstPass": {
         "reviewId": "yoma-15a-s03-second-blind-review",
         "reviewerContextId": "a1626174-bc41-4e4e-9f9b-aba3355299e0",
@@ -127062,7 +127066,22 @@
           }
         }
       },
-      "repairRef": "4801de9a9fcf6f98906fe3ca268b0530a54fda71"
+      "repairRef": "4801de9a9fcf6f98906fe3ca268b0530a54fda71",
+      "sourceFingerprint": "c58158fd333a010b2b43782420293d010918515db55faf557d7e95b67d6ad528",
+      "semanticFingerprint": "6ce9fda49ba1e8f90ba0ce980a2b84342219cd68738e12f4cef9dc5e73aacc76",
+      "secondPass": {
+        "reviewId": "yoma-15a-s03-isolated-second-pass",
+        "reviewerContextId": "subagent-ad35ee90e2f025660",
+        "sourceFirst": true,
+        "verdict": "CONFIRMED",
+        "reviewedSourceFingerprint": "c58158fd333a010b2b43782420293d010918515db55faf557d7e95b67d6ad528",
+        "reviewedSemanticFingerprint": "6ce9fda49ba1e8f90ba0ce980a2b84342219cd68738e12f4cef9dc5e73aacc76",
+        "evidence": {
+          "origin": "independent-isolated-subagent-review",
+          "checkedStringSanity": "display.title matched expected post-repair text",
+          "findings": "Independent source-first review of yoma-15a-s03 (Vilna lines 27-47) performed in an isolated worktree checked out to commit 36b4c313a9e43a0a741ecaf695724524fda75d57 (branch rabbi/yoma-15a-semantic), using the authoritative Hebrew source packet from scripts/semantic_daf_packet.py --second-pass, without access to any prior review reasoning. Field-by-field check of title, oneLine, whats, hint, learnerQuestion, coreTension, coreMove, learningBlocker, takeaway, finalRuling, argumentFlow steps 01-06, misconceptions, visualizableElements, glossary, prerequisiteKnowledge, quizSeeds against source lines 27-47 confirmed: ordinary practice correctly described as two separate diagonal corner-throws (NE, then SW); R. Shimon ish HaMitzpah's modification correctly described as replacing only the SW throw with two single-wall throws (west, then south); R. Yochanan's hekesh reasoning, the rejected doubling proposal, the rejected height-based division proposal, and the two explained-away Yom Kippur precedents all match source lines accurately; sugya correctly resolves (R. Shimon's ruling stands) rather than ending in teiku. No defects found; all fields internally consistent. CONFIRMED."
+        }
+      }
     }
   }
 }
