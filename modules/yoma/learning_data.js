@@ -32897,17 +32897,17 @@ const DAF_CONTENT = {
           startLineId: "yoma-015a-l13",
           endLineId: "yoma-015a-l25",
           startVilnaLine: 13,
-          endVilnaLine: 25
+          endVilnaLine: 26
         },
         display: {
           title: "Do three separate Tamid mishnayot, across three chapters, really contradict each other?",
           oneLine: "Rav Pappa resolves an apparent contradiction among three distinct Tamid mishnayot spanning three different chapters by attributing the first chapter's mishna and the seder-hayom mishna (third chapter) to Rabbanan and only the Pais mishna (second chapter) to Abba Shaul; Abaye rejects that three-way oscillation and instead reads the first chapter's seven-day practice teaching as a general instruction, not a statement about order.",
-          whats: "The Gemara asks how three separate Tamid mishnayot - one taught in the first chapter (14a), one in the second chapter's Pais passage (25a), and one in the third chapter's seder-hayom passage (31b) - can be reconciled if the first and third follow Rabbanan (cleaning the two lamps before the incense) while the middle one, the Pais mishna, follows Abba Shaul (incense before the five lamps). Rav Pappa resolves this by assigning the first chapter's mishna (risha) and the seder-hayom mishna (seifa) to Rabbanan, with only the second chapter's Pais mishna (metzi'ta) following Abba Shaul - three distinct mishnayot, each attributed to the Tanna whose position it actually states. Abaye rejects treating halachic authority as swinging back and forth across these three separate mishnayot this way; instead he reads the first chapter's teaching - that during the seven days before Yom Kippur the Kohen Gadol practices the service - as a general instruction ('אורויי בעלמא') to practice, not a statement about sequence at all. Since that mishna makes no claim about order, there is no oscillation to explain: only the second chapter's Pais mishna (Abba Shaul) and the third chapter's seder-hayom mishna (Rabbanan) remain in play, each stating the actual order.",
+          whats: "The Gemara asks how three separate Tamid mishnayot - one taught in the first chapter (14a), one in the second chapter's Pais passage (25a), and one in the third chapter's seder-hayom passage (31b) - can be reconciled if the first and third follow Rabbanan (cleaning the two lamps before the incense) while the middle one, the Pais mishna, follows Abba Shaul (incense before the five lamps). Rav Pappa resolves this by assigning the first chapter's mishna (risha) and the seder-hayom mishna (seifa) to Rabbanan, with only the second chapter's Pais mishna (metzi'ta) following Abba Shaul - three distinct mishnayot, each attributed to the Tanna whose position it actually states. The Gemara then asks why Rav Pappa doesn't simply follow Abaye's simpler reading instead; Rav Pappa answers that under Abaye's reading, the first chapter's mishna's listing of two lamps before five lamps would have to be read as the actual order of practice, which is backward (five lamps are in fact cleaned before two). Abaye, in turn, answers that the first chapter's teaching - that during the seven days before Yom Kippur the Kohen Gadol practices the service - is merely a general instruction ('אורויי בעלמא') to practice, not a statement about sequence at all. Since that mishna makes no claim about order, there is no backward-order problem and no oscillation to explain: only the second chapter's Pais mishna (Abba Shaul) and the third chapter's seder-hayom mishna (Rabbanan) remain in play, each stating the actual order.",
           hint: "Do risha/metzi'ta/seifa refer to clauses of a single mishna, or to three separate Tamid mishnayot spread across three different chapters - and why does Rav Pappa reject Abaye's reading, if not because it forces the first chapter's mishna to teach a chronologically backward lamp-cleaning order?"
         },
         learning: {
           learnerQuestion: "Three different mishnayot in Tamid, taught across three different chapters, seem to alternate between two Tannaim on the order of cleaning the lamps and offering the incense. Can halachic authority really swing back and forth across three separate mishnayot like that?",
-          coreTension: "Rav Pappa attributes the first chapter's mishna and the third chapter's seder-hayom mishna to Rabbanan, with only the second chapter's Pais mishna following Abba Shaul; Abaye will not accept authority oscillating across three distinct mishnayot this way, so he needs a different way to account for the first chapter's mishna - one that does not require attributing an order-position to it at all.",
+          coreTension: "Rav Pappa attributes the first chapter's mishna and the third chapter's seder-hayom mishna to Rabbanan, with only the second chapter's Pais mishna following Abba Shaul; the Gemara then asks why Rav Pappa doesn't instead follow Abaye's simpler reading, and Rav Pappa answers that Abaye's reading would force the first chapter's mishna's two-lamps-before-five-lamps listing to be read as the actual order, which is backward from practice - so Abaye needs a different way to account for that mishna, one that does not require attributing an order-position to it at all.",
           coreMove: "Abaye reads the first chapter's teaching - that the Kohen Gadol practices the service for the seven days before Yom Kippur - as a general instruction ('אורויי בעלמא') to become practiced and ready, not as a statement of the service's sequence. Since that mishna therefore makes no claim about order, there is no Rabbanan-then-Abba-Shaul-then-Rabbanan oscillation to explain - only the second chapter's Pais mishna (Abba Shaul) and the third chapter's seder-hayom mishna (Rabbanan), which simply state the actual order.",
           learningBlocker: "It is tempting to treat risha/metzi'ta/seifa as the three clauses of one passage. They are actually three separate Tamid mishnayot in three different chapters: the first chapter's mishna (14a), the Pais mishna in the second chapter (25a), and the seder-hayom passage in the third chapter (31b). It is likewise tempting to think Abaye's 'general instruction' reading is unrelated to the first chapter's mishna's lamp-cleaning order; it is in fact Abaye's direct answer to Rav Pappa's own objection that, under Abaye's reading, that mishna's wording - cleaning two lamps mentioned before cleaning five lamps - implies a chronologically backward order, since five lamps are actually cleaned first in practice.",
           takeaway: {
@@ -32964,16 +32964,31 @@ const DAF_CONTENT = {
           },
           {
             id: "step-03",
-            type: "claim",
-            label: "Abaye: authority cannot oscillate across three separate mishnayot",
-            speaker: "Abaye",
-            text: "Abaye will not accept halachic authority oscillating across three separate mishnayot this way - Rabbanan in the first chapter, Abba Shaul in the second, back to Rabbanan in the third. Rav Pappa, however, objects: if we follow Abaye's reading, then the first chapter's mishna - which lists cleaning two lamps before cleaning five lamps - would have to be understood as teaching that order, which is backward from the actual order of practice (five lamps are cleaned before two).",
+            type: "question",
+            label: "Gemara asks: why doesn't Rav Pappa follow Abaye instead?",
+            speaker: "Gemara",
+            text: "Granted that Abaye does not follow Rav Pappa's reading - since Abaye already reads the mishnayot without any authority oscillating across them, that is unremarkable. But why doesn't Rav Pappa follow Abaye's simpler reading instead?",
             sourceRefs: [
               {
                 sourceType: "gemara",
                 lineId: "yoma-015a-l21",
                 vilnaLine: 21,
-                note: "Abaye's methodological objection to splitting one mishna"
+                note: "the Gemara's question: why doesn't Rav Pappa adopt Abaye's reading"
+              }
+            ]
+          },
+          {
+            id: "step-03b",
+            type: "claim",
+            label: "Rav Pappa's reason: Abaye's reading would invert the mishna's lamp order",
+            speaker: "Rav Pappa",
+            text: "Rav Pappa answers: if we followed Abaye's reading, then the first chapter's mishna - which lists cleaning two lamps before cleaning five lamps - would have to be understood as teaching that order, which is backward from the actual order of practice (five lamps are cleaned before two).",
+            sourceRefs: [
+              {
+                sourceType: "gemara",
+                lineId: "yoma-015a-l24",
+                vilnaLine: 24,
+                note: "Rav Pappa's two-lamps-before-five-lamps objection to Abaye's reading"
               }
             ]
           },
