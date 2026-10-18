@@ -32986,8 +32986,8 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-015a-l25",
-                vilnaLine: 25,
+                lineId: "yoma-015a-l26",
+                vilnaLine: 26,
                 note: "Abaye's 'orvei be'alma' answer to Rav Pappa's two-lamps-before-five-lamps objection"
               }
             ]
@@ -33048,8 +33048,8 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-015a-l25",
-                vilnaLine: 25,
+                lineId: "yoma-015a-l26",
+                vilnaLine: 26,
                 note: "Abaye's resolution"
               }
             ]

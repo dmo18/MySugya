@@ -126988,7 +126988,7 @@
     "yoma-15a-s02": {
       "sugyaId": "yoma-15a-s02",
       "daf": "15a",
-      "state": "REPAIR_REQUIRED",
+      "state": "REPAIRED_PENDING_REVIEW",
       "firstPass": {
         "reviewId": "yoma-15a-s02-isolated-second-pass-2026-10-18-v1",
         "reviewerContextId": "subagent-aa18a0b7af4c2da94",
@@ -127005,7 +127005,8 @@
             "details": "Affected fields: display.hint (frames as either/or alternatives), learning.misconceptions[1] correction (factually backward), learning.ahaMoment, learning.memoryAnchor (repeat the 'not about lamp order' claim), argumentFlow (omits Rav Pappa's line-24 reasoning about reversed chronological order). Correct content: Abaye's general-instruction answer resolves Rav Pappa's objection that his reading implies a backward (two-before-five) performance order; Abaye says the mishna's listing is a didactic sequence, not an actual-order statement, so no backward-order problem exists. This directly concerns the lamp-cleaning order claim in that mishna, not an unrelated topic."
           }
         }
-      }
+      },
+      "repairRef": "3fd85f6ee3a18295bb0c46d7bb086add9c615c7e"
     },
     "yoma-15a-s03": {
       "sugyaId": "yoma-15a-s03",
