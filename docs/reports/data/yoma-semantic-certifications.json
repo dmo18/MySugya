@@ -126988,7 +126988,7 @@
     "yoma-15a-s02": {
       "sugyaId": "yoma-15a-s02",
       "daf": "15a",
-      "state": "REPAIR_REQUIRED",
+      "state": "REPAIRED_PENDING_REVIEW",
       "firstPass": {
         "reviewId": "second-pass-yoma-15a-s02-2026-10-18",
         "reviewerContextId": "subagent-ed3e1e2e-f546-4e3f-9bf0-59df189e279d",

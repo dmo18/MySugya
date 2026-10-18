@@ -32900,22 +32900,22 @@ const DAF_CONTENT = {
           endVilnaLine: 25
         },
         display: {
-          title: "Can one mishna's own risha, metzi'ta, and seifa belong to different Tannaim?",
-          oneLine: "Rav Pappa resolves the seder-hayom mishna's internal tension by assigning its own risha and seifa to Rabbanan and its metzi'ta to Abba Shaul; Abaye rejects splitting one mishna this way and instead reads the two-lamps-before-five-lamps clause as a non-sequential general instruction.",
-          whats: "The Gemara asks whether a single mishna (the seder ha-yom passage describing the Kohen Gadol's order of service) can itself combine the positions of two Tannaim. Rav Pappa proposes that the mishna's own risha (opening) and seifa (closing) follow Rabbanan while its metzi'ta (middle clause, the ketoret/lottery passage) follows Abba Shaul. Abaye will not accept that one mishna's clauses be divided between two Tannaim this way, and instead resolves the underlying tension by reading the mishna's 'first clean two lamps, then clean five lamps' clause as a general, non-sequential instruction ('אורויי בעלמא') rather than a strict order - which removes the need to split the mishna at all.",
-          hint: "Watch for whether the dispute concerns the actual halachic service order, or rather the methodology: can one mishna's own risha/metzi'ta/seifa be attributed to two different Tannaim, and if not, how else can the tension between the mishna's clauses be resolved?"
+          title: "Do three separate Tamid mishnayot, across three chapters, really contradict each other?",
+          oneLine: "Rav Pappa resolves an apparent contradiction among three distinct Tamid mishnayot spanning three different chapters by attributing the first chapter's mishna and the seder-hayom mishna (third chapter) to Rabbanan and only the Pais mishna (second chapter) to Abba Shaul; Abaye rejects that three-way oscillation and instead reads the first chapter's seven-day practice teaching as a general instruction, not a statement about order.",
+          whats: "The Gemara asks how three separate Tamid mishnayot - one taught in the first chapter (14a), one in the second chapter's Pais passage (25a), and one in the third chapter's seder-hayom passage (31b) - can be reconciled if the first and third follow Rabbanan (cleaning the two lamps before the incense) while the middle one, the Pais mishna, follows Abba Shaul (incense before the five lamps). Rav Pappa resolves this by assigning the first chapter's mishna (risha) and the seder-hayom mishna (seifa) to Rabbanan, with only the second chapter's Pais mishna (metzi'ta) following Abba Shaul - three distinct mishnayot, each attributed to the Tanna whose position it actually states. Abaye rejects treating halachic authority as swinging back and forth across these three separate mishnayot this way; instead he reads the first chapter's teaching - that during the seven days before Yom Kippur the Kohen Gadol practices the service - as a general instruction ('אורויי בעלמא') to practice, not a statement about sequence at all. Since that mishna makes no claim about order, there is no oscillation to explain: only the second chapter's Pais mishna (Abba Shaul) and the third chapter's seder-hayom mishna (Rabbanan) remain in play, each stating the actual order.",
+          hint: "Watch for whether risha/metzi'ta/seifa refer to clauses of a single mishna, or to three separate Tamid mishnayot spread across three different chapters - and whether Abaye's resolution concerns the order of lamp-cleaning itself, or an unrelated seven-day practice teaching in the first chapter's mishna."
         },
         learning: {
-          learnerQuestion: "A single mishna in Yoma seems to combine two different service orders within its own opening, middle, and closing clauses. Can one mishna simply be split between two Tannaim, or must it speak with one voice?",
-          coreTension: "Rav Pappa is willing to split the seder-hayom mishna's own risha and seifa (Rabbanan) from its metzi'ta (Abba Shaul); Abaye holds that a single mishna cannot mix tannaitic positions this way, so the tension between the mishna's clauses needs a different kind of resolution.",
-          coreMove: "Rav Pappa defends his three-way split by reading the mishna's 'first two lamps, then five lamps' clause as a strict sequential teaching; Abaye instead treats that same clause as a general, non-sequential instruction ('אורויי בעלמא'), which removes the need to divide the mishna between two Tannaim at all.",
-          learningBlocker: "It is tempting to treat this as a factual dispute about service order. The real disagreement is methodological: whether one mishna's own risha/metzi'ta/seifa can reflect two different authorities, and that in turn hinges on whether a particular clause is read as a strict sequence or as a general instruction.",
+          learnerQuestion: "Three different mishnayot in Tamid, taught across three different chapters, seem to alternate between two Tannaim on the order of cleaning the lamps and offering the incense. Can halachic authority really swing back and forth across three separate mishnayot like that?",
+          coreTension: "Rav Pappa attributes the first chapter's mishna and the third chapter's seder-hayom mishna to Rabbanan, with only the second chapter's Pais mishna following Abba Shaul; Abaye will not accept authority oscillating across three distinct mishnayot this way, so he needs a different way to account for the first chapter's mishna - one that does not require attributing an order-position to it at all.",
+          coreMove: "Abaye reads the first chapter's teaching - that the Kohen Gadol practices the service for the seven days before Yom Kippur - as a general instruction ('אורויי בעלמא') to become practiced and ready, not as a statement of the service's sequence. Since that mishna therefore makes no claim about order, there is no Rabbanan-then-Abba-Shaul-then-Rabbanan oscillation to explain - only the second chapter's Pais mishna (Abba Shaul) and the third chapter's seder-hayom mishna (Rabbanan), which simply state the actual order.",
+          learningBlocker: "It is tempting to treat risha/metzi'ta/seifa as the three clauses of one passage. They are actually three separate Tamid mishnayot in three different chapters: the first chapter's mishna (14a), the Pais mishna in the second chapter (25a), and the seder-hayom passage in the third chapter (31b). It is likewise tempting to think Abaye's 'general instruction' reading concerns the two-lamps-before-five-lamps cleaning order itself; it actually concerns an unrelated teaching in the first chapter's mishna, that the Kohen Gadol practices the service for seven days before Yom Kippur.",
           takeaway: {
             type: "conceptual",
-            text: "Resolving an apparent contradiction within a single mishna can require a methodological choice, not just a factual one: whether that mishna's own clauses may be split between two Tannaim, or whether one of its clauses must instead be reread as a general instruction so no such split is needed."
+            text: "An apparent contradiction between separate mishnayot spread across different chapters of a tractate can be resolved either by attributing each one to the Tanna whose position it states, or - more economically - by showing that one of the supposedly conflicting teachings was never making a claim about sequence at all, but was only a general instruction."
           },
-          ahaMoment: "Rav Pappa and Abaye are not disputing the facts of the service order - they disagree over whether ONE mishna's own clauses may be split between two Tannaim, and that disagreement traces back to whether the two-lamps/five-lamps teaching is a literal sequence or merely a general instruction.",
-          memoryAnchor: "Rav Pappa: risha+seifa = Rabbanan, metzi'ta = Abba Shaul (one mishna, two Tannaim). Abaye: no splitting - the two-lamps-before-five-lamps line is just a general instruction, not a sequence."
+          ahaMoment: "Risha, metzi'ta, and seifa here are not three clauses of a single mishna - they are three separate Tamid mishnayot, taught in three different chapters (first, second/Pais, third/seder-hayom), that the Gemara reads as one continuous account. And Abaye's 'general instruction' point is not about the lamps-before-incense order at all - it is about an unrelated seven-day pre-Yom-Kippur practice teaching in the first chapter's mishna.",
+          memoryAnchor: "Risha = first chapter's mishna (14a), metzi'ta = Pais mishna (second chapter, 25a), seifa = seder-hayom mishna (third chapter, 31b). Rav Pappa: risha+seifa=Rabbanan, metzi'ta=Abba Shaul. Abaye: the first chapter's seven-day practice teaching is just a general instruction, not a sequence - so no oscillation across the three mishnayot is needed."
         },
         lines: [
           { id: "yoma-015a-l13", kind: "gemara", he: "רַב פָּפָּא אָמַר: לָא קַשְׁיָא,\nהָא — רַבָּנַן, הָא — אַבָּא שָׁאוּל. בְּמַאי אוֹקֵימְתָּא\nלְמַתְנִיתִין דְּהָכָא — כְּרַבָּנַן, פַּיִיס — כְּאַבָּא שָׁאוּל,",
@@ -32935,9 +32935,9 @@ const DAF_CONTENT = {
           {
             id: "step-01",
             type: "claim",
-            label: "Rav Pappa: one mishna, split between two Tannaim",
+            label: "Rav Pappa: three separate mishnayot, each to the Tanna it states",
             speaker: "Rav Pappa",
-            text: "The seder-hayom mishna's own risha (opening) and seifa (closing) follow Rabbanan, while its metzi'ta (middle clause, the ketoret/lottery passage) follows Abba Shaul. A single mishna can combine two tannaitic positions within its own clauses.",
+            text: "Three separate Tamid mishnayot - the first chapter's mishna (14a), the second chapter's Pais mishna (25a), and the third chapter's seder-hayom mishna (31b) - appear to alternate in authority. Rav Pappa resolves this by attributing the first chapter's mishna (risha) and the seder-hayom mishna (seifa) to Rabbanan, with only the Pais mishna (metzi'ta) following Abba Shaul.",
             sourceRefs: [
               {
                 sourceType: "gemara",
@@ -32950,9 +32950,9 @@ const DAF_CONTENT = {
           {
             id: "step-02",
             type: "objection",
-            label: "The seifa pulls back to Rabbanan - the split holds",
+            label: "The seifa confirms only the middle mishna follows Abba Shaul",
             speaker: "Gemara",
-            text: "The mishna's seifa brings the tamid first (it is slaughtered before the incense and the lamps are tended), matching Rabbanan - confirming that this one mishna's risha and seifa both follow Rabbanan while only its metzi'ta follows Abba Shaul, exactly as Rav Pappa's three-way split requires.",
+            text: "The seder-hayom mishna (seifa), taught in the third chapter, brings the tamid before the incense - matching Rabbanan - confirming that only the middle mishna, the Pais passage in the second chapter, follows Abba Shaul, while the first and third chapters' mishnayot both follow Rabbanan, exactly as Rav Pappa's attribution requires.",
             sourceRefs: [
               {
                 sourceType: "gemara",
@@ -32965,9 +32965,9 @@ const DAF_CONTENT = {
           {
             id: "step-03",
             type: "claim",
-            label: "Abaye: one mishna cannot be split between two Tannaim",
+            label: "Abaye: authority cannot oscillate across three separate mishnayot",
             speaker: "Abaye",
-            text: "Abaye will not accept Rav Pappa's three-way split: a single mishna's risha and seifa cannot follow Rabbanan while its own metzi'ta follows Abba Shaul. The whole mishna must be attributed to one Tanna, so Abaye needs a different way to resolve the tension within its clauses.",
+            text: "Abaye will not accept halachic authority oscillating across three separate mishnayot this way - Rabbanan in the first chapter, Abba Shaul in the second, back to Rabbanan in the third. He needs a different way to account for the first chapter's mishna, one that does not require attributing an order-position to it at all.",
             sourceRefs: [
               {
                 sourceType: "gemara",
@@ -32980,15 +32980,15 @@ const DAF_CONTENT = {
           {
             id: "step-04",
             type: "resolution",
-            label: "Abaye: the two-lamps-then-five-lamps clause is just a general instruction",
+            label: "Abaye: the first chapter's seven-day teaching is a general instruction",
             speaker: "Abaye",
-            text: "The gemara's own text resolves the tension: the tanna teaches cleaning the two lamps before the five lamps not as a strict sequence but as 'אורויי בעלמא' - a general instruction. Since it is not a literal order, the whole mishna can remain Rabbanan's view, with no need to split it between two Tannaim at all.",
+            text: "Abaye explains that the first chapter's mishna - that the Kohen Gadol occupies himself with the service for all seven days before Yom Kippur - is not stating an order at all; it is a general instruction ('אורויי בעלמא') so that he becomes practiced and ready for Yom Kippur. The actual order is taught elsewhere: the second chapter's Pais mishna states cleaning the five lamps (Abba Shaul), and the third chapter's seder-hayom mishna states cleaning the two lamps (Rabbanan). With the first chapter's mishna making no order-claim, there is no oscillation left to resolve.",
             sourceRefs: [
               {
                 sourceType: "gemara",
                 lineId: "yoma-015a-l25",
                 vilnaLine: 25,
-                note: "Abaye reads the two-lamps/five-lamps clause as a general instruction, not Rashi's seven-day gloss"
+                note: "Rashi: 'And Abaye says to you' refers to the first chapter's seven-day practice teaching, read as a general instruction, not to the two-lamps/five-lamps cleaning order"
               }
             ]
           }
@@ -33005,9 +33005,14 @@ const DAF_CONTENT = {
         ],
         misconceptions: [
           {
-            misconception: "Rav Pappa and Abaye are disputing the actual halachic service order.",
-            correction: "They are disputing how to read the mishna's structure: whether one mishna's own risha, metzi'ta, and seifa can be split between two Tannaim, not what the correct order of service is.",
-            correctedByStepId: "step-03"
+            misconception: "Risha, metzi'ta, and seifa are three clauses of one mishna.",
+            correction: "They are three separate Tamid mishnayot in three different chapters: the first chapter's mishna (14a) is the risha, the second chapter's Pais mishna (25a) is the metzi'ta, and the third chapter's seder-hayom mishna (31b) is the seifa.",
+            correctedByStepId: "step-01"
+          },
+          {
+            misconception: "Abaye's 'general instruction' (אורויי בעלמא) reading applies to the two-lamps-before-five-lamps cleaning order.",
+            correction: "It applies to an unrelated teaching in the first chapter's mishna - that the Kohen Gadol practices the service for seven days before Yom Kippur - not to the cleaning order itself.",
+            correctedByStepId: "step-04"
           }
         ],
         relatedSugyot: [
@@ -33016,42 +33021,36 @@ const DAF_CONTENT = {
         ],
         visualizableElements: [
           {
-            item: "Two-column diagram: Rav Pappa's approach (one mishna: risha+seifa = Rabbanan, metzi'ta = Abba Shaul) vs Abaye's approach (one mishna, one Tanna - the two-lamps/five-lamps clause is just a general instruction)",
-            type: "contrast"
+            item: "Three-row diagram: first chapter's mishna (14a, risha) -> Pais mishna (second chapter, 25a, metzi'ta) -> seder-hayom mishna (third chapter, 31b, seifa), with Rav Pappa's Rabbanan/Abba Shaul/Rabbanan attribution overlaid",
+            type: "timeline"
           },
           {
-            item: "The seder-hayom mishna's risha, metzi'ta, and seifa shown as three clauses of ONE passage, with Rav Pappa's attribution split overlaid and Abaye's single-Tanna reading shown alongside",
-            type: "timeline"
+            item: "Two-column contrast: Rav Pappa's reading (three mishnayot, authority oscillates: Rabbanan -> Abba Shaul -> Rabbanan) vs Abaye's reading (first chapter's mishna is a general instruction with no order-claim, so only the Pais mishna and seder-hayom mishna remain, no oscillation)",
+            type: "contrast"
           }
         ],
         quizSeeds: [
           {
-            question: "How do Rav Pappa and Abaye each resolve the tension within the seder-hayom mishna's own clauses?",
-            answer: "Rav Pappa splits the one mishna between two Tannaim: its risha and seifa follow Rabbanan while its metzi'ta follows Abba Shaul. Abaye rejects splitting one mishna this way and instead reads the two-lamps-before-five-lamps clause as a general instruction ('אורויי בעלמא'), so the whole mishna stays Rabbanan's view.",
+            question: "What are risha, metzi'ta, and seifa in this sugya, and how does Rav Pappa attribute each to a Tanna?",
+            answer: "They are three separate Tamid mishnayot across three chapters: the first chapter's mishna (14a, risha), the second chapter's Pais mishna (25a, metzi'ta), and the third chapter's seder-hayom mishna (31b, seifa). Rav Pappa attributes the risha and seifa to Rabbanan and the metzi'ta to Abba Shaul.",
             sourceRefs: [
               {
                 sourceType: "gemara",
                 lineId: "yoma-015a-l13",
                 vilnaLine: 13,
                 note: "Rav Pappa's resolution"
-              },
-              {
-                sourceType: "gemara",
-                lineId: "yoma-015a-l21",
-                vilnaLine: 21,
-                note: "Abaye's methodological objection"
               }
             ]
           },
           {
-            question: "What is the methodological principle Abaye uses to reject Rav Pappa's solution?",
-            answer: "A single mishna's own risha, metzi'ta, and seifa cannot be attributed to two different Tannaim - the whole mishna must follow one authority.",
+            question: "What does Abaye's 'general instruction' (אורויי בעלמא) reading actually apply to?",
+            answer: "Not to the two-lamps-before-five-lamps cleaning order, but to an unrelated teaching in the first chapter's mishna - that the Kohen Gadol practices the service for seven days before Yom Kippur. Reading that teaching as a general instruction removes it from the order-dispute altogether, so there is no oscillation across the three mishnayot to resolve.",
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-015a-l21",
-                vilnaLine: 21,
-                note: "Abaye's methodological objection"
+                lineId: "yoma-015a-l25",
+                vilnaLine: 25,
+                note: "Abaye's resolution"
               }
             ]
           }

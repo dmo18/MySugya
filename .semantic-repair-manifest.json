@@ -4,9 +4,9 @@
   "module": "yoma",
   "daf": "15a",
   "sugyaIds": [
-    "yoma-15a-s03"
+    "yoma-15a-s02"
   ],
-  "firstReviewId": "yoma-15a-first-pass",
+  "firstReviewId": "second-pass-yoma-15a-s02-2026-10-18",
   "policy": {
     "sourceFirst": true,
     "independentSecondPassRequired": true,
