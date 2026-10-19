@@ -126939,7 +126939,7 @@
     "yoma-15a-s01": {
       "sugyaId": "yoma-15a-s01",
       "daf": "15a",
-      "state": "REPAIR_REQUIRED",
+      "state": "REPAIRED_PENDING_REVIEW",
       "firstPass": {
         "reviewId": "yoma-15a-s01-final-audit-reject-2026-10-19",
         "reviewerContextId": "isolated-final-auditor-7a3e9c21",
@@ -126966,7 +126966,8 @@
             "requiredCorrection": "Re-anchor the 'oto' explanation to Exodus 27:21 (not 30:8), and keep argumentFlow step-04's sourced claim within s01's own boundary (vilna line 12 only states that Abba Shaul distinguishes the cases; the textual 'oto' proof itself belongs to line 13 / sugya s02 and must not be presented as reached within s01)."
           }
         }
-      }
+      },
+      "repairRef": "07fe5e80987b255ff7ba04b3311afa6e8889e412"
     },
     "yoma-15a-s02": {
       "sugyaId": "yoma-15a-s02",
