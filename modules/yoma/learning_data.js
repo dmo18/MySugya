@@ -32897,25 +32897,25 @@ const DAF_CONTENT = {
           startLineId: "yoma-015a-l13",
           endLineId: "yoma-015a-l25",
           startVilnaLine: 13,
-          endVilnaLine: 25
+          endVilnaLine: 27
         },
         display: {
-          title: "Can one mishna hold two views? Rav Pappa and Abaye disagree on method",
-          oneLine: "Rav Pappa resolves Yoma's internal contradiction by splitting it between two Tannaim; Abaye rejects that a single mishna can mix positions and recontextualizes the text instead.",
-          whats: "Rav Pappa and Abaye offer competing resolutions to the apparent contradiction in the mishnayot about the service order. Their disagreement hinges on whether a single mishna can incorporate two different tannaitic positions within one text. Rav Pappa says yes (different sections of Yoma reflect different Tannaim); Abaye says no (a mishna does not split its view).",
-          hint: "The machloket between Rav Pappa and Abaye is a methodological one: can a single tractate's mishnayot hold both R. Akiva and Abba Shaul's positions, or must each mishna be internally consistent?"
+          title: "Do three separate Tamid mishnayot, across three chapters, really contradict each other?",
+          oneLine: "Rav Pappa resolves an apparent contradiction among three distinct Tamid mishnayot spanning three different chapters by attributing the first chapter's mishna and the seder-hayom mishna (third chapter) to Rabbanan and only the Pais mishna (second chapter) to Abba Shaul; Abaye rejects that three-way oscillation and instead reads the first chapter's seven-day practice teaching as a general instruction, not a statement about order.",
+          whats: "The Gemara asks how three separate Tamid mishnayot - one taught in the first chapter (14a), one in the second chapter's Pais passage (25a), and one in the third chapter's seder-hayom passage (31b) - can be reconciled if the first and third follow Rabbanan (cleaning the two lamps before the incense) while the middle one, the Pais mishna, follows Abba Shaul (incense before the five lamps). Rav Pappa resolves this by assigning the first chapter's mishna (risha) and the seder-hayom mishna (seifa) to Rabbanan, with only the second chapter's Pais mishna (metzi'ta) following Abba Shaul - three distinct mishnayot, each attributed to the Tanna whose position it actually states. The Gemara then asks why Rav Pappa doesn't simply follow Abaye's simpler reading instead; Rav Pappa answers that under Abaye's reading, the first chapter's mishna's listing of two lamps before five lamps would have to be read as the actual order of practice, which is backward (five lamps are in fact cleaned before two). Abaye, in turn, answers that the first chapter's teaching - that during the seven days before Yom Kippur the Kohen Gadol practices the service - is merely a general instruction ('אורויי בעלמא') to practice, not a statement about sequence at all. Since that mishna makes no claim about order, there is no backward-order problem and no oscillation to explain: only the second chapter's Pais mishna (Abba Shaul) and the third chapter's seder-hayom mishna (Rabbanan) remain in play, each stating the actual order.",
+          hint: "Do risha/metzi'ta/seifa refer to clauses of a single mishna, or to three separate Tamid mishnayot spread across three different chapters - and why does Rav Pappa reject Abaye's reading, if not because it forces the first chapter's mishna to teach a chronologically backward lamp-cleaning order?"
         },
         learning: {
-          learnerQuestion: "Two mishnayot in Yoma describe the service order differently. Can the same tractate simply follow different Tannaim in different chapters, or must each mishna speak with one voice?",
-          coreTension: "Rav Pappa is willing to assign the two contradictory chapters to two different Tannaim, but Abaye holds a single mishna cannot mix tannaitic positions, so the same contradiction needs a different kind of resolution.",
-          coreMove: "When Rav Pappa's chapter-splitting solution is itself shown to fail (Chapter 3 contradicts itself too), Abaye instead resolves the tension by reading one of the problematic passages as a general teaching about KG practice rather than a specific Yom Kippur sequence, avoiding the need to attribute different sections to different Tannaim at all.",
-          learningBlocker: "It is tempting to treat this as a factual dispute about service order. The real disagreement is methodological: whether an anonymous mishna's internal sections can reflect different authorities, which is what determines whether chapter-splitting is even a legitimate solution.",
+          learnerQuestion: "Three different mishnayot in Tamid, taught across three different chapters, seem to alternate between two Tannaim on the order of cleaning the lamps and offering the incense. Can halachic authority really swing back and forth across three separate mishnayot like that?",
+          coreTension: "Rav Pappa attributes the first chapter's mishna and the third chapter's seder-hayom mishna to Rabbanan, with only the second chapter's Pais mishna following Abba Shaul; the Gemara then asks why Rav Pappa doesn't instead follow Abaye's simpler reading, and Rav Pappa answers that Abaye's reading would force the first chapter's mishna's two-lamps-before-five-lamps listing to be read as the actual order, which is backward from practice - so Abaye needs a different way to account for that mishna, one that does not require attributing an order-position to it at all.",
+          coreMove: "Abaye reads the first chapter's teaching - that the Kohen Gadol practices the service for the seven days before Yom Kippur - as a general instruction ('אורויי בעלמא') to become practiced and ready, not as a statement of the service's sequence. Since that mishna therefore makes no claim about order, there is no Rabbanan-then-Abba-Shaul-then-Rabbanan oscillation to explain - only the second chapter's Pais mishna (Abba Shaul) and the third chapter's seder-hayom mishna (Rabbanan), which simply state the actual order.",
+          learningBlocker: "It is tempting to treat risha/metzi'ta/seifa as the three clauses of one passage. They are actually three separate Tamid mishnayot in three different chapters: the first chapter's mishna (14a), the Pais mishna in the second chapter (25a), and the seder-hayom passage in the third chapter (31b). It is likewise tempting to think Abaye's 'general instruction' reading is unrelated to the first chapter's mishna's lamp-cleaning order; it is in fact Abaye's direct answer to Rav Pappa's own objection that, under Abaye's reading, that mishna's wording - cleaning two lamps mentioned before cleaning five lamps - implies a chronologically backward order, since five lamps are actually cleaned first in practice.",
           takeaway: {
             type: "conceptual",
-            text: "Resolving an apparent contradiction between mishnayot can require a methodological choice, not just a factual one: whether a single mishna may combine different tannaitic positions, or whether the text must instead be reread so no such split is needed."
+            text: "An apparent contradiction between separate mishnayot spread across different chapters of a tractate can be resolved either by attributing each one to the Tanna whose position it states, or - more economically - by showing that one of the supposedly conflicting teachings was never making a claim about sequence at all, but was only a general instruction."
           },
-          ahaMoment: "Rav Pappa and Abaye are not disputing the facts but the methodology of Mishnah interpretation: can a tractate's sections reflect different anonymous authorities?",
-          memoryAnchor: "Rav Pappa: the two chapters can follow different Tannaim. Abaye: a mishna cannot switch positions mid-text."
+          ahaMoment: "Risha, metzi'ta, and seifa here are not three clauses of a single mishna - they are three separate Tamid mishnayot, taught in three different chapters (first, second/Pais, third/seder-hayom), that the Gemara reads as one continuous account. And Rav Pappa's reason for not following Abaye is concrete: under Abaye's reading, the first chapter's mishna would have to be read as teaching that two lamps are cleaned before five lamps - backward from the actual order of practice. Abaye's 'general instruction' point answers exactly that objection: the mishna's listing is a general instructional sequence, not a statement of actual performance order, so no backward-order problem exists.",
+          memoryAnchor: "Risha = first chapter's mishna (14a), metzi'ta = Pais mishna (second chapter, 25a), seifa = seder-hayom mishna (third chapter, 31b). Rav Pappa: risha+seifa=Rabbanan, metzi'ta=Abba Shaul; he won't follow Abaye because Abaye's reading forces the risha mishna's two-lamps-then-five-lamps wording to mean a backward order. Abaye answers: that wording is just a general instructional sequence, not an actual-order statement - so no oscillation, and no backward order, remains to explain."
         },
         lines: [
           { id: "yoma-015a-l13", kind: "gemara", he: "רַב פָּפָּא אָמַר: לָא קַשְׁיָא,\nהָא — רַבָּנַן, הָא — אַבָּא שָׁאוּל. בְּמַאי אוֹקֵימְתָּא\nלְמַתְנִיתִין דְּהָכָא — כְּרַבָּנַן, פַּיִיס — כְּאַבָּא שָׁאוּל,",
@@ -32935,9 +32935,9 @@ const DAF_CONTENT = {
           {
             id: "step-01",
             type: "claim",
-            label: "Rav Pappa: different chapters, different Tannaim",
+            label: "Rav Pappa: three separate mishnayot, each to the Tanna it states",
             speaker: "Rav Pappa",
-            text: "Chapter 1 (two lamps) follows Rabbanan; Chapter 3 (five lamps) follows Abba Shaul. Different sections of Yoma can reflect different tannaitic views.",
+            text: "Three separate Tamid mishnayot - the first chapter's mishna (14a), the second chapter's Pais mishna (25a), and the third chapter's seder-hayom mishna (31b) - appear to alternate in authority. Rav Pappa resolves this by attributing the first chapter's mishna (risha) and the seder-hayom mishna (seifa) to Rabbanan, with only the Pais mishna (metzi'ta) following Abba Shaul.",
             sourceRefs: [
               {
                 sourceType: "gemara",
@@ -32949,46 +32949,61 @@ const DAF_CONTENT = {
           },
           {
             id: "step-02",
-            type: "objection",
-            label: "But look at Chapter 3 - it contradicts itself too",
+            type: "support",
+            label: "The seifa confirms only the middle mishna follows Abba Shaul",
             speaker: "Gemara",
-            text: "Chapter 3 says the KG offers the tamid last - but that contradicts Abba Shaul who has a different order. So assigning Chapter 3 to Abba Shaul doesn't work either.",
+            text: "The seder-hayom mishna (seifa), taught in the third chapter, brings the tamid before the incense - matching Rabbanan - confirming that only the middle mishna, the Pais passage in the second chapter, follows Abba Shaul, while the first and third chapters' mishnayot both follow Rabbanan, exactly as Rav Pappa's attribution requires.",
             sourceRefs: [
               {
                 sourceType: "gemara",
                 lineId: "yoma-015a-l16",
                 vilnaLine: 16,
-                note: "Challenge to Rav Pappa"
+                note: "Confirms Rav Pappa's risha/seifa-Rabbanan, metzi'ta-Abba Shaul split"
               }
             ]
           },
           {
             id: "step-03",
-            type: "claim",
-            label: "Abaye: a mishna cannot mix tannaitic positions",
-            speaker: "Abaye",
-            text: "The opening of the mishna (two lamps) follows Rabbanan and the later lotteries section (ketoret last) follows Abba Shaul - but a single mishna cannot split its ruling across different Tannaim. Abaye proposes an alternative reading.",
+            type: "question",
+            label: "Gemara asks: why doesn't Rav Pappa follow Abaye instead?",
+            speaker: "Gemara",
+            text: "Granted that Abaye does not follow Rav Pappa's reading - since Abaye already reads the mishnayot without any authority oscillating across them, that is unremarkable. But why doesn't Rav Pappa follow Abaye's simpler reading instead?",
             sourceRefs: [
               {
                 sourceType: "gemara",
                 lineId: "yoma-015a-l21",
                 vilnaLine: 21,
-                note: "Abaye's methodological objection"
+                note: "the Gemara's question: why doesn't Rav Pappa adopt Abaye's reading"
+              }
+            ]
+          },
+          {
+            id: "step-03b",
+            type: "claim",
+            label: "Rav Pappa's reason: Abaye's reading would invert the mishna's lamp order",
+            speaker: "Rav Pappa",
+            text: "Rav Pappa answers: if we followed Abaye's reading, then the first chapter's mishna - which lists cleaning two lamps before cleaning five lamps - would have to be understood as teaching that order, which is backward from the actual order of practice (five lamps are cleaned before two).",
+            sourceRefs: [
+              {
+                sourceType: "gemara",
+                lineId: "yoma-015a-l21",
+                vilnaLine: 24,
+                note: "Rav Pappa's objection: under Abaye's reading, the mishna teaches two-lamp removal before five-lamp removal (vilnaLine 24), but in actual Temple practice the five lamps are cleared before the two (vilnaLine 25 'אורויי בעלמא' is Abaye's own answer conceding the order is reversed relative to practice); the real order is then taught separately (vilnaLine 27 'תני ליה גופא')"
               }
             ]
           },
           {
             id: "step-04",
             type: "resolution",
-            label: "Abaye: the lotteries mishna is about a different context",
+            label: "Abaye: the lamp listing is a general instructional sequence, not an order-statement",
             speaker: "Abaye",
-            text: "The Chapter 1 passage about 'all seven days he sprinkles' is not about Yom Kippur specifically but is teaching that the KG must be practiced in Temple service throughout the week - a general teaching, not a Yom Kippur sequence.",
+            text: "Abaye answers Rav Pappa's objection directly: the first chapter's mishna's listing of two lamps before five lamps is merely a general instructional sequence ('אורויי בעלמא') - teaching that the Kohen Gadol must become practiced in the service - not a statement of actual performance order. Since that mishna therefore makes no claim about order, there is no backward-order problem and no oscillation left to resolve; only the second chapter's Pais mishna (Abba Shaul) and the third chapter's seder-hayom mishna (Rabbanan) state the actual order.",
             sourceRefs: [
               {
                 sourceType: "gemara",
                 lineId: "yoma-015a-l25",
-                vilnaLine: 25,
-                note: "Abaye's recontextualization"
+                vilnaLine: 26,
+                note: "Abaye's 'orvei be'alma' answer to Rav Pappa's two-lamps-before-five-lamps objection"
               }
             ]
           }
@@ -33005,9 +33020,14 @@ const DAF_CONTENT = {
         ],
         misconceptions: [
           {
-            misconception: "Rav Pappa and Abaye are disputing the actual halachic service order.",
-            correction: "They are disputing how to read the Mishnah's structure: whether a single mishna can hold two tannaitic positions, not what the correct order is.",
-            correctedByStepId: "step-03"
+            misconception: "Risha, metzi'ta, and seifa are three clauses of one mishna.",
+            correction: "They are three separate Tamid mishnayot in three different chapters: the first chapter's mishna (14a) is the risha, the second chapter's Pais mishna (25a) is the metzi'ta, and the third chapter's seder-hayom mishna (31b) is the seifa.",
+            correctedByStepId: "step-01"
+          },
+          {
+            misconception: "Abaye's 'general instruction' (אורויי בעלמא) reading is unrelated to the first chapter's mishna's lamp-cleaning order.",
+            correction: "It is Abaye's direct answer to Rav Pappa's objection that Abaye's reading forces the first chapter's mishna to teach cleaning two lamps before five lamps - backward from actual practice. Abaye resolves this by reading that wording as a general instructional sequence, not a statement of actual order.",
+            correctedByStepId: "step-04"
           }
         ],
         relatedSugyot: [
@@ -33016,42 +33036,36 @@ const DAF_CONTENT = {
         ],
         visualizableElements: [
           {
-            item: "Two-column diagram: Rav Pappa's approach (Chapter 1 = Rabbanan, Chapter 3 = Abba Shaul) vs Abaye's approach (mishna cannot split positions)",
-            type: "contrast"
+            item: "Three-row diagram: first chapter's mishna (14a, risha) -> Pais mishna (second chapter, 25a, metzi'ta) -> seder-hayom mishna (third chapter, 31b, seifa), with Rav Pappa's Rabbanan/Abba Shaul/Rabbanan attribution overlaid",
+            type: "timeline"
           },
           {
-            item: "Mishna chapter 1 vs chapter 3 content shown side by side with the contradiction highlighted",
-            type: "timeline"
+            item: "Two-column contrast: Rav Pappa's reading (three mishnayot, authority oscillates: Rabbanan -> Abba Shaul -> Rabbanan) vs Abaye's reading (first chapter's mishna is a general instruction with no order-claim, so only the Pais mishna and seder-hayom mishna remain, no oscillation)",
+            type: "contrast"
           }
         ],
         quizSeeds: [
           {
-            question: "How do Rav Pappa and Abaye each resolve the contradiction between the two Yoma mishnayot?",
-            answer: "Rav Pappa assigns the two chapters to different Tannaim. Abaye objects that a mishna cannot split its position and instead recontextualizes the problematic passage.",
+            question: "What are risha, metzi'ta, and seifa in this sugya, and how does Rav Pappa attribute each to a Tanna?",
+            answer: "They are three separate Tamid mishnayot across three chapters: the first chapter's mishna (14a, risha), the second chapter's Pais mishna (25a, metzi'ta), and the third chapter's seder-hayom mishna (31b, seifa). Rav Pappa attributes the risha and seifa to Rabbanan and the metzi'ta to Abba Shaul.",
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-15a-l13",
+                lineId: "yoma-015a-l13",
                 vilnaLine: 13,
                 note: "Rav Pappa's resolution"
-              },
-              {
-                sourceType: "gemara",
-                lineId: "yoma-15a-l21",
-                vilnaLine: 21,
-                note: "Abaye's methodological objection"
               }
             ]
           },
           {
-            question: "What is the methodological principle Abaye uses to reject Rav Pappa's solution?",
-            answer: "A single mishna cannot represent two different tannaitic positions within itself - it must be internally consistent.",
+            question: "What does Abaye's 'general instruction' (אורויי בעלמא) reading actually answer?",
+            answer: "Rav Pappa's objection that, under Abaye's reading, the first chapter's mishna would have to be understood as teaching cleaning two lamps before five lamps - backward from actual practice. Abaye answers that the mishna's listing is a general instructional sequence, not a statement of actual order, so no backward-order problem or oscillation across the three mishnayot remains.",
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-15a-l21",
-                vilnaLine: 21,
-                note: "Abaye's methodological objection"
+                lineId: "yoma-015a-l26",
+                vilnaLine: 26,
+                note: "Abaye's resolution"
               }
             ]
           }
@@ -33084,22 +33098,22 @@ const DAF_CONTENT = {
           endVilnaLine: 47
         },
         display: {
-          title: "Tamid as olah and chatat at once: every blood scheme the Gemara tries fails",
-          oneLine: "R. Shimon ish HaMitzpah requires the tamid's blood to satisfy both olah and chatat rules, and every proposed way to apply it is refuted by the principle that blood cannot atone twice.",
-          whats: "The Gemara investigates the basis for R. Shimon ish HaMitzpah's unique ruling that the tamid blood is sprinkled at all four altar corners - treating the tamid simultaneously as an olah and a chatat. Various proposals for how to execute this dual requirement are raised and refuted. The core problem: chatat blood goes on four horns; olah blood goes at two opposite corners. Each proposed combination fails on the principle that we cannot have blood serve two separate atonement functions at once.",
-          hint: "The tamid is an unusual sacrifice. R. Shimon says it must be treated as BOTH an olah (two-corner sprinkling) AND a chatat (four-horn application). Every attempt to satisfy both simultaneously runs into the rule: we have no precedent for blood that atones and re-atones."
+          title: "Tamid as olah and chatat at once: the hekesh forces an unprecedented combination",
+          oneLine: "R. Shimon ish HaMitzpah's corner-based scheme satisfies the tamid's dual olah-and-chatat requirement because Scripture's hekesh forces the combination; a cleaner height-based alternative is tested afterward and fails for lack of precedent.",
+          whats: "The Gemara investigates the basis for R. Shimon ish HaMitzpah's ruling that changes the tamid's blood application. The ordinary practice gives the tamid's blood two separate diagonal corner-applications: first a sprinkling at the northeast corner, then, as a separate later step, a sprinkling at the southwest corner. R. Shimon ish HaMitzpah leaves the northeast application unchanged but splits only the southwest application into two separate single-wall sprinklings (west, then south) instead of one diagonal throw. The Gemara ties this to R. Yochanan's teaching that the tamid, though an olah, must also be performed with the procedure of a chatat; a fuller combination (complete four-horn chatat plus complete two-corner olah) is tested and refuted because blood cannot be made to atone a second time, so Scripture's own hekesh is taken to force R. Shimon's otherwise unprecedented corner-based combination instead. A further height-based alternative (below=olah, above=chatat) is then tested and rejected for lack of precedent, confirming R. Shimon's corner-based scheme as the one that stands.",
+          hint: "The tamid is an unusual sacrifice: Scripture's own hekesh demands it be treated as BOTH an olah (two-corner sprinkling) AND a chatat (four-horn-style application), but a full combination of both fails since blood can't atone twice - so what forces R. Shimon's corner-based scheme through instead, after a later height-based alternative is also tried and fails for lack of precedent?"
         },
         learning: {
-          learnerQuestion: "If the verse requires the tamid to be treated as both an olah and a chatat, how can one blood service physically satisfy two different application patterns?",
-          coreTension: "Olah blood goes to two opposite corners and chatat blood goes to four horns, and R. Shimon ish HaMitzpah's ruling requires the same tamid blood to satisfy both, but no application order seems able to do both without reusing already-applied blood.",
-          coreMove: "The Gemara tests every plausible ordering and combination of the two application patterns in turn, and each one is refuted by the same underlying principle: once blood has been applied for one atonement function, it cannot be reapplied to serve a second, distinct atonement function.",
-          learningBlocker: "It is tempting to assume that combining four-horn and two-corner applications, in some order or overlap, must eventually satisfy both requirements. The recurring refutation shows the obstacle is not sequencing but the single principle that blood cannot atone twice, which blocks every configuration alike.",
+          learnerQuestion: "If the tamid is fundamentally an olah, what is the textual basis for also requiring a chatat-style application, and does R. Shimon ish HaMitzpah's already-known corner-splitting ruling actually satisfy that requirement - or would a cleaner combination work better?",
+          coreTension: "R. Yochanan teaches that a verse (juxtaposing the Yom Kippur goat-chatat with the daily tamid-olah) forces the Merciful One's own hekesh: the tamid, though an olah, must also receive a chatat-style act. R. Shimon's existing ruling - one throw at the northeast corner standing in for the olah component, two throws at the southwest standing in for the chatat component - satisfies this only because Scripture itself forces an otherwise unprecedented combination; a fuller combination (a complete four-horn chatat application plus a complete two-corner olah application) is rejected outright, since we have no precedent for blood atoning twice or for blood that is half chatat and half olah.",
+          coreMove: "After the hekesh resolves the basic difficulty (an unprecedented combination is acceptable because Scripture forces it), the Gemara tests whether a more elegant, precedented alternative exists: splitting the chatat/olah distinction by height (below vs. above) instead of by corner. It is rejected for lack of precedent, and two candidate precedents from the Yom Kippur inner-sanctum blood service are each raised and explained away as not being true height-splits, leaving R. Shimon's corner-based scheme as the one actually implemented.",
+          learningBlocker: "It is tempting to think the Gemara is searching for any workable combination and ends in failure. In fact the combination already exists and is already implemented (R. Shimon's ruling from step-01); what the Gemara does afterward is test whether a different, more precedented method could have achieved the same result, and shows that it could not - which reinforces, rather than undermines, the hekesh-based resolution.",
           takeaway: {
-            type: "open_question",
-            text: "No proposed blood-application scheme satisfies R. Shimon ish HaMitzpah's dual olah-and-chatat requirement for the tamid; the sugya ends without a viable implementation, leaving the question how his ruling can be carried out unresolved."
+            type: "resolved_ruling",
+            text: "R. Shimon ish HaMitzpah's corner-based split (northeast unchanged, southwest divided into west-then-south) stands as the implementation of the tamid's dual olah-and-chatat requirement, because Scripture's own hekesh forces an otherwise unprecedented combination. A height-based alternative (below=olah, above=chatat) is considered and rejected for lack of precedent, even after two Yom Kippur inner-altar blood-sprinklings are raised as possible precedents and explained away."
           },
-          ahaMoment: "The impossibility proof is elegant: every configuration either violates olah rules, violates chatat rules, or requires blood to atone twice - which has no precedent.",
-          memoryAnchor: "Tamid = olah + chatat simultaneously. But blood cannot atone twice. Every solution fails on exactly this principle."
+          ahaMoment: "The Gemara doesn't reject R. Shimon's ruling - it defends it. After the hekesh justifies the existing corner-based scheme as scripturally forced, the Gemara looks for a tidier, precedented alternative (splitting by height instead of by corner), fails to find one even after testing two candidate precedents from the Yom Kippur service, and so confirms that the corner-based scheme is the one that stands.",
+          memoryAnchor: "Tamid = olah forced by hekesh to also get a chatat-act. R. Shimon's corner-split already satisfies this. A height-based alternative is tried and fails for lack of precedent - the original ruling wins by default."
         },
         lines: [
           { id: "yoma-015a-l27", kind: "gemara", he: "גּוּפָא: בָּא לוֹ לְקֶרֶן מִזְרָחִית צְפוֹנִית\n— נוֹתֵן מִזְרָחִית צְפוֹנִית, מַעֲרָבִית דְּרוֹמִית — נוֹתֵן\nמַעֲרָבִית דְּרוֹמִית. וְתָנֵי עֲלַהּ: רַבִּי שִׁמְעוֹן אִישׁ הַמִּצְפָּה\nמְשַׁנֶּה בַּתָּמִיד, בָּא לוֹ לְקֶרֶן מִזְרָחִית צְפוֹנִית\n— נוֹתֵן מִזְרָחִית צְפוֹנִית, מַעֲרָבִית דְּרוֹמִית — נוֹתֵן\nמַעֲרָבָה וְאַחַר כָּךְ נוֹתֵן דָּרוֹמָה. מַאי טַעְמָא דְּרַבִּי שִׁמְעוֹן אִישׁ\nהַמִּצְפָּה?",
@@ -33137,9 +33151,9 @@ const DAF_CONTENT = {
           {
             id: "step-01",
             type: "premise",
-            label: "R. Shimon's ruling: tamid is both olah and chatat",
+            label: "Ordinary practice vs. R. Shimon's change: splitting the southwest application",
             speaker: "R. Shimon ish HaMitzpah",
-            text: "The verse 'as a chatat upon the olah of the tamid' means the tamid requires both chatat-style blood application (four horns) and olah-style (two corners). Both sets of matanot must be performed.",
+            text: "The ordinary practice: the priest comes to the northeast corner and sprinkles once there, then proceeds to the southwest corner and sprinkles once there - two separate diagonal corner-applications. R. Shimon ish HaMitzpah changes only the daily offering's southwest application: the northeast corner is sprinkled as usual, but at the southwest corner he instead sprinkles once on the west side and then separately on the south side, rather than one diagonal throw covering both.",
             sourceRefs: [
               {
                 sourceType: "gemara",
@@ -33151,76 +33165,76 @@ const DAF_CONTENT = {
           },
           {
             id: "step-02",
-            type: "objection",
-            label: "Proposal 1: four corners, then two - refuted",
-            speaker: "Gemara",
-            text: "Apply blood to four corners (chatat), then two (olah). Rejected: the final two applications would have blood already used for chatat atonement - blood cannot atone a second time.",
+            type: "premise",
+            label: "R. Yochanan's hekesh: the tamid's olah blood must also carry a chatat-act",
+            speaker: "R. Yochanan (in the name of the house of R. Yannai)",
+            text: "The verse juxtaposes the Yom Kippur goat-chatat with the daily tamid-olah, and the Merciful One says: perform a chatat-act with it. How so? Give one throw that counts as two, in the manner of olah (the northeast corner), and two throws that count as two, in the manner of chatat (the southwest corner, split west-then-south) - this is exactly R. Shimon ish HaMitzpah's already-stated ruling from step-01.",
             sourceRefs: [
               {
                 sourceType: "gemara",
                 lineId: "yoma-015a-l33",
                 vilnaLine: 33,
-                note: "First proposal and refutation"
+                note: "R. Yochanan's hekesh-based teaching"
               }
             ]
           },
           {
             id: "step-03",
             type: "objection",
-            label: "Proposal 2: two corners, then four - refuted",
+            label: "A fuller combination is proposed and refuted",
             speaker: "Gemara",
-            text: "Apply blood to two corners (olah style), then four (chatat style). Rejected by the same logic: the second round of applications is using already-used blood.",
-            sourceRefs: [
-              {
-                sourceType: "gemara",
-                lineId: "yoma-015a-l36",
-                vilnaLine: 36,
-                note: "Second proposal refuted"
-              }
-            ]
-          },
-          {
-            id: "step-04",
-            type: "objection",
-            label: "Proposal 3: four matanot covering both requirements - refuted",
-            speaker: "Gemara",
-            text: "Apply blood to four corners where two of those four also satisfy the olah requirement (the two opposite corners that olah uses are within the four). Rejected: the two olah corners are subsumed in the chatat matanot, not separate olah applications.",
+            text: "Why not instead give a complete doubled olah application (two-that-are-four) and a complete separate chatat application (four-that-are-four)? Rejected: we have no precedent for blood that atones and then atones again, and we have no precedent for blood that is half chatat and half olah.",
             sourceRefs: [
               {
                 sourceType: "gemara",
                 lineId: "yoma-015a-l39",
                 vilnaLine: 39,
-                note: "Third proposal and refutation"
+                note: "Fuller combination proposed and refuted"
+              }
+            ]
+          },
+          {
+            id: "step-04",
+            type: "conclusion",
+            label: "The hekesh forces the combination despite the lack of precedent",
+            speaker: "Gemara",
+            text: "Rather, perforce, Scripture juxtaposed them - the combination is unprecedented but scripturally forced, so R. Shimon's corner-based scheme stands. The Gemara notes a parallel: elsewhere too Scripture forces an unprecedented juxtaposition by hekesh, but there it amounts to a mere division of the gifts, not a true dual-identity problem.",
+            sourceRefs: [
+              {
+                sourceType: "gemara",
+                lineId: "yoma-015a-l41",
+                vilnaLine: 41,
+                note: "Hekesh resolution and parallel case"
               }
             ]
           },
           {
             id: "step-05",
             type: "objection",
-            label: "Proposal 4: one application does double duty - refuted",
+            label: "Alternative proposal: split by height instead of by corner - refuted",
             speaker: "Gemara",
-            text: "One application counts for both chatat and olah at the same corner. Rejected: we have no case where one blood application simultaneously fulfills two distinct halakhic functions.",
+            text: "Why not instead give one throw below, in the manner of olah, and two throws above, in the manner of chatat? Rejected: we have no precedent for blood that is half above and half below.",
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-015a-l41",
-                vilnaLine: 41,
-                note: "Fourth proposal refuted"
+                lineId: "yoma-015a-l42",
+                vilnaLine: 42,
+                note: "Height-based alternative proposed and refuted"
               }
             ]
           },
           {
             id: "step-06",
             type: "conclusion",
-            label: "The question stands: no viable configuration exists",
+            label: "Two Yom Kippur precedents are tested and explained away; R. Shimon's scheme stands",
             speaker: "Gemara",
-            text: "All proposals for satisfying R. Shimon's dual requirement fail. The sugya concludes as a genuine difficulty (teiku-style) - R. Shimon's position appears to require an impossible combination of blood rites.",
+            text: "Two candidate precedents for a height-based blood split are raised from the Yom Kippur inner-sanctum service - the bull's blood sprinkled one-above-seven-below 'like one who flogs' on the curtain, and the blood sprinkled seven times on the altar's 'pure part' - and each is explained away as not a true locational height-split (the flogging motion is continuous, not a fixed half-split; the 'pure part' refers to the object itself, not half its height). No precedent for a height-based split survives, so R. Shimon's corner-based scheme from step-01 remains the implementation that stands.",
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-015a-l47",
-                vilnaLine: 47,
-                note: "Unresolved conclusion"
+                lineId: "yoma-015a-l44a",
+                vilnaLine: 44,
+                note: "Yom Kippur precedents tested and explained away"
               }
             ]
           }
@@ -33238,13 +33252,13 @@ const DAF_CONTENT = {
         ],
         misconceptions: [
           {
-            misconception: "Four corner applications automatically cover olah's separate two-corner requirement.",
-            correction: "The Gemara shows the two olah corners are not equivalent to the four chatat corners; subsuming them does not satisfy olah as an independent application.",
+            misconception: "R. Shimon ish HaMitzpah's ruling is itself the proposal being tested and rejected by the Gemara.",
+            correction: "R. Shimon's corner-based scheme (step-01) is the ruling already in effect; R. Yochanan's hekesh (step-02) justifies it. The Gemara's subsequent proposals and refutations (steps 03-06) test whether a different, more precedented scheme could replace it - and conclude it could not.",
             correctedByStepId: "step-04"
           },
           {
-            misconception: "R. Shimon ish HaMitzpah's dual requirement is easily executable once you combine the two application patterns.",
-            correction: "Every implementation scheme tested is blocked by the same fundamental principle, that blood cannot atone twice, regardless of how the applications are ordered or combined.",
+            misconception: "The sugya ends in an unresolved teiku, leaving R. Shimon's ruling without a workable implementation.",
+            correction: "The sugya is resolved at step-04: Scripture's own hekesh forces the otherwise unprecedented corner-based combination. The later height-based alternative (steps 05-06) is a secondary exploration that fails for lack of precedent, which reinforces rather than undermines the resolution.",
             correctedByStepId: "step-06"
           }
         ],
@@ -33253,7 +33267,7 @@ const DAF_CONTENT = {
         ],
         visualizableElements: [
           {
-            item: "Four-panel sequence showing each proposed blood-application scheme and the specific principle that blocks it",
+            item: "Two-step diagram of the ordinary practice (diagonal sprinkling at northeast, then a separate diagonal sprinkling at southwest) alongside R. Shimon ish HaMitzpah's change, which leaves northeast untouched and splits only the southwest sprinkling into two single-wall throws (west, then south)",
             type: "sequence"
           },
           {
@@ -33267,31 +33281,31 @@ const DAF_CONTENT = {
         ],
         quizSeeds: [
           {
-            question: "What principle blocks every proposed way of implementing R. Shimon ish HaMitzpah's dual blood-application ruling?",
-            answer: "We have no precedent for blood that atones and then re-atones - once blood is used for one halakhic purpose, it cannot fulfill a second distinct atonement function.",
+            question: "Why does R. Shimon ish HaMitzpah's corner-based scheme for the tamid's blood count as valid, despite having no prior precedent?",
+            answer: "Because Scripture's own hekesh (juxtaposing the Yom Kippur goat-chatat with the daily tamid-olah) forces the combination - an unprecedented blood-application scheme is acceptable when the verse itself demands it.",
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-15a-l47",
-                vilnaLine: 47,
-                note: "Unresolved conclusion"
+                lineId: "yoma-015a-l41",
+                vilnaLine: 41,
+                note: "Hekesh resolution"
               }
             ]
           },
           {
-            question: "Why does R. Shimon ish HaMitzpah require both olah and chatat blood rites for the tamid?",
-            answer: "The verse says 'as a chatat upon the olah of the tamid,' requiring both.",
+            question: "What alternative to R. Shimon's corner-based split does the Gemara test afterward, and why does it fail?",
+            answer: "A height-based split (below=olah, above=chatat). It fails for lack of precedent - even after two Yom Kippur inner-altar blood-sprinklings are raised as possible precedents, each is explained away as not a true height-split.",
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-15a-l27",
-                vilnaLine: 27,
-                note: "R. Shimon's dual-sacrifice ruling"
+                lineId: "yoma-015a-l44a",
+                vilnaLine: 44,
+                note: "Yom Kippur precedents explained away"
               }
             ]
           }
         ],
-        finalRuling: "Unresolved (teiku equivalent): no viable implementation of R. Shimon's dual requirement is found. The question of how to execute it remains open.",
+        finalRuling: "Resolved: R. Shimon ish HaMitzpah's corner-based scheme (northeast unchanged, southwest split west-then-south) stands as the tamid's dual olah-and-chatat implementation, because Scripture's hekesh forces an otherwise unprecedented combination. A height-based alternative is tested and rejected for lack of precedent, confirming the corner-based scheme as the one actually practiced.",
         difficulty: "advanced",
         alternateAngles: [],
         topicTags: [
