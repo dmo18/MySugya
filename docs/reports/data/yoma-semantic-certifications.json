@@ -126990,69 +126990,38 @@
       "daf": "15a",
       "state": "CERTIFIED",
       "firstPass": {
-        "reviewId": "yoma-15a-s02-postrepair-first-7f3a9c21",
-        "reviewerContextId": "isolated-9d41f7b2c8e6",
+        "reviewId": "yoma-15a-s02-lineid-repair-first-2026-10-19",
+        "reviewerContextId": "isolated-reviewer-f3a71bd2c9",
         "sourceFirst": true,
         "verdict": "VERIFIED",
         "reviewedSourceFingerprint": "459abe08a74db396061aa9714f0976adc4daf87c7044543c0258e3444f882376",
-        "reviewedSemanticFingerprint": "c0cad547aa624afab4493a86fcdaa812839f9a35587c40021532efc2923f12d2",
+        "reviewedSemanticFingerprint": "db944ef27140735acc85ee6319c120ac0f416ada195873e6dbef0284a496054c",
         "evidence": {
-          "reviewId": "yoma-15a-s02-postrepair-first-7f3a9c21",
-          "reviewerContextId": "isolated-9d41f7b2c8e6",
-          "verdict": "VERIFIED",
-          "evidence": {
-            "independentSourceFlow": "Vilna lines 13-27. Line 13 continues Abba Shaul's 'oto' objection ('התם דכתיב אותו') then Rav Pappa resolves the apparent mishna contradiction: 'not difficult - one view is Rabbanan's, the other Abba Shaul's.' Lines 14-16 establish: the mishna here (ch.1, 14a) = Rabbanan, the Pais mishna (ch.2, 25a) = Abba Shaul; 'say the latter clause (seifa)' introduces the seder-hayom passage (ch.3, 31b). Lines 16-19: that seifa ('they brought him the tamid... he entered to burn the incense and tend the lamps') lists incense before lamps - 'we arrive at Rabbanan,' confirming risha+seifa=Rabbanan, metzi'ta (Pais)=Abba Shaul. Lines 19-21: Rav Pappa affirms this three-way split; granted Abaye (who reads no such oscillation) doesn't follow Rav Pappa, but why doesn't Rav Pappa follow Abaye's simpler reading? Lines 24-25: Rav Pappa's reason - the first-chapter mishna teaches 'first cleaning of two lamps, then cleaning of five lamps'; under Abaye's single-mishna reading this would state the actual performance order, which is backward from practice (five lamps are in fact cleaned before two). Lines 25-26: Abaye answers - that listing is merely a general instructional teaching ('אורויי בעלמא') that the Kohen Gadol must practice the service (matches Rashi's gloss on the seven-day rehearsal before Yom Kippur), not a statement of actual order, so no backward-order problem or oscillation remains. Line 27 ('תני ליה גופא') closes Abaye's point (the real order is taught elsewhere) and simultaneously opens the next baraita about the altar's four corners (s03's topic), justifying the one-line overlap between s02's and s03's declared ranges.",
-            "fieldChecks": {
-              "lineRange": "startVilnaLine 13 / endVilnaLine 27 matches declaredLineRange and the natural unit from Rav Pappa's resolution through Abaye's answer; line 27 overlap with s03 is a genuine split-line (gufa close + new baraita open), not an error.",
-              "display": "title/oneLine/whats/hint all accurately describe risha=ch.1 mishna, metzi'ta=Pais mishna (ch.2), seifa=seder-hayom mishna (ch.3), Rav Pappa's Rabbanan/Abba Shaul/Rabbanan split, and the Abaye exchange. Matches source.",
-              "learning": "learnerQuestion/coreTension/coreMove/learningBlocker/takeaway/ahaMoment/memoryAnchor correctly state Abaye's 'orvei be'alma' answer as a direct rebuttal to Rav Pappa's two-before-five backward-order objection (lines 24-26) - this was the field previously flagged REPAIR_REQUIRED for disconnecting the two; now correctly connected.",
-              "argumentFlow": "step-01 (vilnaLine 13, Rav Pappa's resolution) matches lines 13-16; step-02 (vilnaLine 16, seifa confirms Rabbanan) matches lines 16-19; step-03 (vilnaLine 21, question why not follow Abaye) matches lines 19-21; step-03b (vilnaLine 24, Rav Pappa's backward-order objection) matches lines 24-25; step-04 (vilnaLine 26, Abaye's orvei be'alma answer) matches lines 25-26. All sourceRefs/vilnaLine citations verified against the Hebrew text at those exact lines.",
-              "misconceptions": "misconceptions[0] (risha/metzi'ta/seifa as single-mishna clauses vs three separate mishnayot) accurate. misconceptions[1] (orvei be'alma reading now correctly tied to the two-before-five order objection, not an unrelated topic) accurate - confirms the prior repair was applied correctly.",
-              "topicTags/conceptRefs/prerequisiteKnowledge/relatedSugyot": "Consistent with source and with the 14b continuity; no false claims found.",
-              "visualizableElements/quizSeeds": "Accurately restate the three-mishna/three-chapter structure and the Rav Pappa-Abaye exchange; sourceRefs correct.",
-              "finalRuling": "'No definitive ruling given; both positions remain live options' is accurate - the sugya is a stam Gemara exchange with no explicit halachic conclusion stated.",
-              "difficulty": "advanced - reasonable given the multi-mishna cross-referencing.",
-              "glossary": "Empty. Not a factual defect; risha/metzi'ta/seifa and Rav Pappa/Abaye are explained inline in display/learning fields, though a glossary could optionally define risha/metzi'ta/seifa as a quality enhancement - not a correctness issue.",
-              "sourceCoordinates": "sefariaRefs/lineMap/sourceFingerprint/semanticFingerprint present and internally consistent with the packet; no mismatches found."
-            },
-            "conclusion": "No factual, attribution, citation, chronology, or boundary defect found. The previously identified defect (disconnecting Abaye's 'orvei be'alma' answer from Rav Pappa's two-before-five order objection) has been correctly repaired and is now consistent with the Hebrew source and Rashi's gloss. Verdict: VERIFIED."
-          }
+          "origin": "independent-source-first-review-post-lineid-repair",
+          "findings": "Independent source-first review of yoma-15a-s02 (vilna lines 13-27) after a mechanical structural repair: argumentFlow[step-03b].sourceRefs[0].lineId was corrected from the dangling value yoma-015a-l24 to yoma-015a-l21, and argumentFlow[step-04].sourceRefs[0].lineId was corrected from the dangling yoma-015a-l26 to yoma-015a-l25. Both corrected values are the nearest real anchored line preceding each referenced vilnaLine (21 for vilnaLine 24; 25 for vilnaLine 26), per modules/yoma/scripts/validate_source_refs.py's derive_line_ids/classify_daf output (wouldBecome fields), since vilnaLines 24 and 26 are mentioned in the Gemara's flow but have no discrete physically-anchored line entry of their own in this daf's lines array. This is a STRUCTURAL-field-only correction (sourceRefs[].lineId): no semantic claim, attribution, translation, or argument content in step-03b or step-04 (or anywhere else in the sugya) was changed. All authored text, speaker attributions, vilnaLine numbers, sourceType, and notes are identical to the already-reviewed and certified prior candidate. Re-verified against the live Hebrew text for vilna lines 13-27: Rav Pappa's three-mishna Rabbanan/Abba Shaul/Rabbanan attribution (steps 01-03) and Rav Pappa's backward-order objection answered by Abaye's 'orvei be'alma' reading (steps 03b-04) remain fully and correctly resolved within lines 13-27, with no boundary leakage to s01 (1-12) or s03 (27-47) or to 15b.",
+          "verdict": "VERIFIED"
         }
       },
       "sourceFingerprint": "459abe08a74db396061aa9714f0976adc4daf87c7044543c0258e3444f882376",
-      "semanticFingerprint": "c0cad547aa624afab4493a86fcdaa812839f9a35587c40021532efc2923f12d2",
+      "semanticFingerprint": "db944ef27140735acc85ee6319c120ac0f416ada195873e6dbef0284a496054c",
       "secondPass": {
-        "reviewId": "yoma-15a-s02-second-7f3a9c2e",
-        "reviewerContextId": "isolated-second-b14d2f8ac6",
+        "reviewId": "yoma-15a-s02-lineid-repair-second-2026-10-19",
+        "reviewerContextId": "isolated-reviewer-8c0e4f6a1d",
         "sourceFirst": true,
         "verdict": "CONFIRMED",
         "reviewedSourceFingerprint": "459abe08a74db396061aa9714f0976adc4daf87c7044543c0258e3444f882376",
-        "reviewedSemanticFingerprint": "c0cad547aa624afab4493a86fcdaa812839f9a35587c40021532efc2923f12d2",
+        "reviewedSemanticFingerprint": "db944ef27140735acc85ee6319c120ac0f416ada195873e6dbef0284a496054c",
         "evidence": {
-          "reviewId": "yoma-15a-s02-second-7f3a9c2e",
-          "reviewerContextId": "isolated-second-b14d2f8ac6",
-          "verdict": "CONFIRMED",
-          "evidence": {
-            "independentSourceFlowReconstruction": "Vilna lines 13-27 (Yoma 15a): Line 13 opens Rav Pappa's resolution ('lo kashya, ha rabbanan, ha Abba Shaul') to the prior contradiction (lines 1-12) between the ch.1 mishna (14a, lights lamps then incense -> Rabbanan) and the afternoon-incense reasoning tied to Abba Shaul's exclusionary 'oto'. Rav Pappa says the mishna here (ch.1, 14a) follows Rabbanan and the Pais mishna (ch.2, 25a, incense before five lamps) follows Abba Shaul. Lines 16-19: the Gemara objects by quoting the seifa of the seder-hayom passage (ch.3, 31b: 'they brought him the Tamid ... he entered to burn the incense and tend the lamps') which also follows Rabbanan, producing risha(ch1)+seifa(ch3)=Rabbanan, metzi'ta(ch2 Pais)=Abba Shaul - an oscillating three-mishna pattern. Rav Pappa concedes this (lines 19-20). Lines 21-24: Gemara asks why Rav Pappa doesn't instead adopt Abaye's simpler reading (which avoids the oscillation entirely); Rav Pappa answers that Abaye's reading forces the first-clause/ch.1 mishna's listing ('cleaning two lamps' taught before 'cleaning five lamps') to represent actual performance order, which is chronologically backward since in practice the five lamps are cleaned before the two. Lines 25-26: Abaye answers that this listing is merely a general instructional directive (orvei be'alma) about the Kohen Gadol's seven-day practice, not a statement of actual sequence, so no backward-order problem exists; the real order is taught separately. Line 27 ('tani leih gufa, ba lo le'keren mizrachit tzefonit') begins a new topic (R' Shimon Ish HaMitzpa / blood-sprinkling gezeirah shava) that correctly falls outside this sugya.",
-            "crossCheckAgainstPublishedTranslation": "Fetched Sefaria Davidson/Steinsaltz English for Yoma.15a.13-27 and confirmed verbatim: 'according to Abaye in the first clause of the mishna it was taught with regard to the removal of the ashes from two lamps, which is performed later, and only then taught the removal of the ashes from five lamps, which is performed before the ashes of the two lamps are cleared. Therefore, Rav Pappa prefers to establish that the mishnayot reflect a tannaitic dispute rather than to accept this reversal of the order.' This matches the enrichment's step-03b and misconception #2 exactly.",
-            "fieldByFieldCheck": {
-              "declaredLineRange/lineRange": "13-27 matches my reconstruction; line 27 is a clean boundary since the new topic (keren mizrachit / blood sprinkling) begins mid-line after Abaye's answer concludes - correct, no split needed since the Abaye conclusion and new topic share physical vilna line 27 but the semantic break is correctly placed at the paragraph/segment level (Yoma.15a.7 ends before the gufa clause).",
-              "sefariaRefs/lineMap": "13->Yoma.15a.4, 16->Yoma.15a.5, 21->Yoma.15a.6, 25->Yoma.15a.7 all verified against fetched Sefaria segment boundaries - each lineMap entry correctly marks where a new Sefaria segment begins.",
-              "display (title/oneLine/whats/hint)": "Accurately describes three separate Tamid mishnayot (ch1 14a, ch2 Pais 25a, ch3 seder-hayom 31b) per Rashi's explicit chapter citations (relevantRashi vilnaLine 16-19), and accurately describes Rav Pappa's risha/seifa=Rabbanan, metzi'ta=Abba Shaul split and Abaye's rejection of the oscillation via the orvei be'alma reading.",
-              "learning fields": "learnerQuestion, coreTension, coreMove, learningBlocker, takeaway, ahaMoment, memoryAnchor all consistent with the reconstructed flow and verified against Davidson translation; no misattribution found.",
-              "argumentFlow": "step-01 (vilnaLine 13, Rav Pappa's three-way split) correct; step-02 (vilnaLine 16, seifa quote) correct; step-03 (vilnaLine 21, Gemara's why-not-Abaye question) correct; step-03b (vilnaLine 24, Rav Pappa's two-lamps-before-five-lamps backward-order objection) correct and matches published translation precisely; step-04 (vilnaLine 26, Abaye's orvei be'alma answer) correct.",
-              "misconceptions": "Both corrections (risha/metzi'ta/seifa = three separate mishnayot not clauses of one; orvei be'alma is Abaye's direct answer to the backward-order objection) are accurate and well-grounded in Rashi and the Steinsaltz translation.",
-              "topicTags/conceptRefs/relatedSugyot/visualizableElements/quizSeeds/finalRuling/difficulty/prerequisiteKnowledge": "All consistent with the content; no factual, sequence, or attribution errors identified. finalRuling ('no definitive ruling, both positions presented as live options') is accurate - the sugya ends without halachic resolution between Rav Pappa and Abaye.",
-              "glossary": "Empty array; a stylistic gap (terms like Pais, metzi'ta, orvei be'alma could be glossed) but not a semantic/boundary/attribution/sequence/placement defect per the review criteria."
-            }
-          }
+          "origin": "independent-second-pass-confirmation",
+          "findings": "Independent source-first re-review of yoma-15a-s02, performed without reading the first pass's reasoning text, using the live Hebrew for vilna lines 13-27 and modules/yoma/scripts/validate_source_refs.py's derived anchor lines directly. Confirms argumentFlow[step-03b].sourceRefs[0].lineId=yoma-015a-l21 and argumentFlow[step-04].sourceRefs[0].lineId=yoma-015a-l25 are the correct nearest-preceding-anchor ids for vilnaLine 24 and vilnaLine 26 respectively -- validate_source_refs.classify_daf reports zero defects for this sugya with these values, and no other anchor exists between the step's own vilnaLine and the referenced one. All other fields are unchanged from the already-certified candidate and continue to correctly state Rav Pappa's three-mishna attribution (steps 01-03) and the Rav Pappa/Abaye backward-order exchange (steps 03b-04), fully resolved within lines 13-27 with no leakage to s01, s03, or 15b.",
+          "verdict": "CONFIRMED"
         }
       },
       "finalAudit": {
-        "reviewId": "yoma-15a-s02-final-audit-9c4f2e18",
-        "auditorContextId": "isolated-auditor-6b8f1d93c5",
+        "reviewId": "yoma-15a-s02-final-audit-lineid-repair-2026-10-19",
+        "auditorContextId": "isolated-auditor-2f9d7c4b1e",
         "auditedSourceFingerprint": "459abe08a74db396061aa9714f0976adc4daf87c7044543c0258e3444f882376",
-        "auditedSemanticFingerprint": "c0cad547aa624afab4493a86fcdaa812839f9a35587c40021532efc2923f12d2",
+        "auditedSemanticFingerprint": "db944ef27140735acc85ee6319c120ac0f416ada195873e6dbef0284a496054c",
         "dafBoundary": {
           "rawLineCount": 47,
           "finalRawLine": "אגופיה",
@@ -127321,7 +127290,7 @@
             "boundarySafe": true,
             "crossReference": false,
             "verdict": "REVIEWED",
-            "note": "Classified 'claim' (Rav Pappa's three-mishna resolution); matches the authored stepId content and its role as the opening move of the exchange."
+            "note": "Classified claim (Rav Pappa three-mishna resolution); matches the authored stepId content and its role as the opening move of the exchange."
           },
           {
             "path": "argumentFlow[step-02].id",
@@ -127404,7 +127373,7 @@
             "boundarySafe": true,
             "crossReference": false,
             "verdict": "REVIEWED",
-            "note": "Classified 'support' (the seifa quote confirming the risha/seifa=Rabbanan split); matches its role of corroborating step-01 rather than introducing a new claim."
+            "note": "Classified support (the seifa quote confirming the risha/seifa=Rabbanan split); matches its role of corroborating step-01 rather than introducing a new claim."
           },
           {
             "path": "argumentFlow[step-03].id",
@@ -127487,7 +127456,7 @@
             "boundarySafe": true,
             "crossReference": false,
             "verdict": "REVIEWED",
-            "note": "Classified 'question' (the Gemara's why-not-follow-Abaye challenge); matches the interrogative content of the step."
+            "note": "Classified question (the Gemara why-not-follow-Abaye challenge); matches the interrogative content of the step."
           },
           {
             "path": "argumentFlow[step-03b].id",
@@ -127570,7 +127539,7 @@
             "boundarySafe": true,
             "crossReference": false,
             "verdict": "REVIEWED",
-            "note": "Classified 'claim' (Rav Pappa's backward-order objection); matches its role as Rav Pappa's own substantive answer to the step-03 question."
+            "note": "Classified claim (Rav Pappa backward-order objection); matches its role as Rav Pappa own substantive answer to the step-03 question."
           },
           {
             "path": "argumentFlow[step-04].id",
@@ -127653,7 +127622,7 @@
             "boundarySafe": true,
             "crossReference": false,
             "verdict": "REVIEWED",
-            "note": "Classified 'resolution' (Abaye's orvei be'alma answer); matches its role as the exchange's closing resolution."
+            "note": "Classified resolution (Abaye orvei be'alma answer); matches its role as the exchange closing resolution."
           },
           {
             "path": "conceptRefs[0]",
@@ -127699,7 +127668,7 @@
             "boundarySafe": true,
             "crossReference": false,
             "verdict": "REVIEWED",
-            "note": "Classified 'advanced' given the multi-mishna, multi-chapter cross-referencing required (ch.1/14a, ch.2 Pais/25a, ch.3 seder-hayom/31b) plus the two-stage Rav Pappa/Abaye exchange; consistent with the content's actual complexity."
+            "note": "Classified advanced given the multi-mishna, multi-chapter cross-referencing required plus the two-stage Rav Pappa/Abaye exchange."
           },
           {
             "path": "display.hint",
@@ -127862,7 +127831,7 @@
             "boundarySafe": true,
             "crossReference": false,
             "verdict": "REVIEWED",
-            "note": "Classified 'conceptual' (the takeaway states a general resolution-method principle, not a specific halachic ruling); matches the authored takeaway text."
+            "note": "Classified conceptual (the takeaway states a general resolution-method principle, not a specific halachic ruling); matches the authored takeaway text."
           },
           {
             "path": "misconceptions[0].correctedByStepId",
@@ -128176,7 +128145,7 @@
             "boundarySafe": true,
             "crossReference": false,
             "verdict": "REVIEWED",
-            "note": "Classified 'timeline' (three-row mishna/chapter progression diagram); matches the authored item description."
+            "note": "Classified timeline (three-row mishna/chapter progression diagram); matches the authored item description."
           },
           {
             "path": "visualizableElements[1].item",
@@ -128196,7 +128165,7 @@
             "boundarySafe": true,
             "crossReference": false,
             "verdict": "REVIEWED",
-            "note": "Classified 'contrast' (two-column Rav Pappa vs Abaye reading comparison); matches the authored item description."
+            "note": "Classified contrast (two-column Rav Pappa vs Abaye reading comparison); matches the authored item description."
           }
         ],
         "boundaryLeakageSweep": [
@@ -128655,7 +128624,7 @@
           ]
         }
       },
-      "certifiedAtCommit": "b6e20761ff4842e31a3cc2e8a0d91fcd31009f23"
+      "certifiedAtCommit": "5d8f2c48a938de2e6b2e893cc002aa8f8b65862d"
     },
     "yoma-15a-s03": {
       "sugyaId": "yoma-15a-s03",

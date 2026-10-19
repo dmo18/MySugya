@@ -32986,7 +32986,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-015a-l24",
+                lineId: "yoma-015a-l21",
                 vilnaLine: 24,
                 note: "Rav Pappa's objection: under Abaye's reading, the mishna teaches two-lamp removal before five-lamp removal (vilnaLine 24), but in actual Temple practice the five lamps are cleared before the two (vilnaLine 25 'אורויי בעלמא' is Abaye's own answer conceding the order is reversed relative to practice); the real order is then taught separately (vilnaLine 27 'תני ליה גופא')"
               }
@@ -33001,7 +33001,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-015a-l26",
+                lineId: "yoma-015a-l25",
                 vilnaLine: 26,
                 note: "Abaye's 'orvei be'alma' answer to Rav Pappa's two-lamps-before-five-lamps objection"
               }
