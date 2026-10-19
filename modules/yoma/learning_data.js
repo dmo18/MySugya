@@ -32802,15 +32802,15 @@ const DAF_CONTENT = {
           {
             id: "step-04",
             type: "objection",
-            label: "Abba Shaul: 'oto' limits the analogy",
+            label: "Abba Shaul: the cases differ",
             speaker: "Abba Shaul",
-            text: "'Oto' - that one lamp - restricts the afternoon verse to the afternoon situation. The analogy cannot extend to the morning service. The morning order follows the plain text.",
+            text: "Abba Shaul says to you: the cases are different. The afternoon and morning services are not fully analogous, so the afternoon's order cannot dictate the morning's. (The Gemara's continuation grounds this in the word 'oto' from Exodus 27:21 -- the 'evening to morning' ner-tamid verse already quoted in the baraita at lines 6-9 -- which restricts that rule to the afternoon lamp alone; that proof text itself falls just past this sugya's boundary.)",
             sourceRefs: [
               {
                 sourceType: "gemara",
                 lineId: "yoma-015a-l12",
                 vilnaLine: 12,
-                note: "Abba Shaul's restriction"
+                note: "Abba Shaul's restriction (reason continues beyond this sugya's range)"
               }
             ]
           }
@@ -32841,7 +32841,7 @@ const DAF_CONTENT = {
             type: "contrast"
           },
           {
-            item: "Exodus 30:8 with 'oto' highlighted and two interpretive arrows showing the Rabbanan and Abba Shaul readings",
+            item: "Exodus 27:21 with 'oto' highlighted and two interpretive arrows showing the Rabbanan and Abba Shaul readings",
             type: "text"
           }
         ],
@@ -32860,13 +32860,13 @@ const DAF_CONTENT = {
           },
           {
             question: "Why does Abba Shaul reject the Rabbanan's analogy?",
-            answer: "The afternoon verse uses 'oto' (that one lamp), which limits the rule to that specific case and blocks its extension to the morning.",
+            answer: "He holds the cases are different: the morning and afternoon services are not fully analogous. The reason, continuing just past this sugya, is that the word 'oto' in Exodus 27:21 (the 'evening to morning' verse) limits that rule to its own case and blocks its extension to the morning.",
             sourceRefs: [
               {
                 sourceType: "gemara",
                 lineId: "yoma-15a-l12",
                 vilnaLine: 12,
-                note: "Abba Shaul's restriction"
+                note: "Abba Shaul's restriction (reason continues beyond this sugya's range)"
               }
             ]
           }

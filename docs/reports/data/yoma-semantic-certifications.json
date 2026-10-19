@@ -126939,49 +126939,32 @@
     "yoma-15a-s01": {
       "sugyaId": "yoma-15a-s01",
       "daf": "15a",
-      "state": "PENDING_FINAL_AUDIT",
+      "state": "REPAIR_REQUIRED",
       "firstPass": {
-        "reviewId": "yoma-15a-s01-second-r3",
-        "reviewerContextId": "24a16a1b-5c6b-4612-8bc7-59125d6b9f57",
+        "reviewId": "yoma-15a-s01-final-audit-reject-2026-10-19",
+        "reviewerContextId": "isolated-final-auditor-7a3e9c21",
         "sourceFirst": true,
         "verdict": "REPAIR_REQUIRED",
-        "reviewedSourceFingerprint": "b09c0c67fa24532aad525295b6c2a1a64e6ab8959691faf0150dcb5e4047f79f",
-        "reviewedSemanticFingerprint": "1f9170782bdf42c7340c4c26aba92368d1e5b508b07f9fe5b854d61dbc80bffe",
-        "evidence": {
-          "origin": "independent-second-pass-rejection",
-          "reviewEvidence": {
-            "sugya": "yoma-15a-s01",
-            "reviewVerdict": "REJECTED",
-            "reviewerContextId": "24a16a1b-5c6b-4612-8bc7-59125d6b9f57",
-            "findings": "The repaired enrichment repeatedly cites the 'oto' (אותו) proof-text that Abba Shaul relies on as Leviticus 24:3 ('יערך אתו אהרן'), in multiple places: argumentFlow step-04 text and sourceRef note; misconceptions[0].correction; glossary entry for 'oto'; quizSeeds answer; display.whats/hint/coreMove/ahaMoment/summary. This is incorrect. The Gemara's proof-text at vilna line 13 ('התם דכתיב אותו') is the verse underlying the baraita quoted in lines 6-9 ('מערב עד בקר'), which Sefaria's William Davidson translation explicitly identifies by citation as Exodus 27:21, not Leviticus 24:3. While both Exodus 27:21 and Leviticus 24:3 contain near-identical 'ner tamid' language (including 'אתו'/'oto'), the sourced, citation-bearing translation anchors this specific passage to Exodus 27:21.",
-            "repairScope": [
-              "summary",
-              "display.whats",
-              "display.hint",
-              "learning.coreMove",
-              "learning.ahaMoment",
-              "argumentFlow[3] (step-04) text and sourceRef",
-              "misconceptions[0].correction",
-              "quizSeeds answer referencing the oto verse",
-              "glossary entry for 'oto'"
-            ],
-            "action": "Replace every occurrence of 'Lev. 24:3' / 'Leviticus 24:3' (and the associated citation wrapper 'יערך אתו אהרן') with 'Exodus 27:21' across all listed fields. Content/logic otherwise correct; this is a citation-only correction."
-          }
-        }
-      },
-      "repairRef": "yoma-15a-s01-repair3-self",
-      "sourceFingerprint": "64b36cf184528b4bd3bc8b4bee085ff4e57d5f530b3774ed45181a6d216f3956",
-      "semanticFingerprint": "8d0fcf02a53a6ca31f25f76074eed9c0eab6d97c48c7ae974aa6b3d25fd02889",
-      "secondPass": {
-        "reviewId": "yoma-15a-s01-isolated-second-pass-v2",
-        "reviewerContextId": "agent:rabbi:subagent:77b277c7-3911-4e3d-b1cc-4903867085b0",
-        "sourceFirst": true,
-        "verdict": "CONFIRMED",
         "reviewedSourceFingerprint": "64b36cf184528b4bd3bc8b4bee085ff4e57d5f530b3774ed45181a6d216f3956",
         "reviewedSemanticFingerprint": "8d0fcf02a53a6ca31f25f76074eed9c0eab6d97c48c7ae974aa6b3d25fd02889",
         "evidence": {
-          "origin": "independent-isolated-subagent-review",
-          "findings": "Independent isolated source-first review of yoma-15a-s01 (Vilna lines 1-12, sugya boundary extends conceptually to line 13 for Abba Shaul's 'oto' citation) performed in this worktree at commit 36b4c313a9e43a0a741ecaf695724524fda75d57 (branch rabbi/yoma-15a-semantic), using the authoritative Hebrew source packet from scripts/semantic_daf_packet.py --daf 15a --second-pass, without reading any prior firstPass/secondPass evidence text before forming judgment. Field-by-field check against source lines 1-12 and Rashi: (1) display.title/oneLine/whats/hint, learning.learnerQuestion/coreTension/coreMove/learningBlocker/takeaway: correctly state the Rabbanan derive from the afternoon lamp-incense verse (lines 2-5, 'ובהעלות אהרן את הנרות בין הערבים יקטירנה') that incense accompanies (not follows) the lamp-lighting, and extend this ('הכא נמי', line 11) to the morning ketoret-precedes-lamps ruling; Abba Shaul (line 12, 'ואבא שאול אמר לך שאני התם דכתיב אותו') restricts the afternoon verse via the word 'oto', blocking the extension to the morning, matching Rashi's gloss (lines 7-11) that absent this analogy the morning plain-text order is tend-then-burn (lamps before incense). (2) argumentFlow step-01 (afternoon verse quote, line 1 sefariaRef): matches lines 2-3 exactly. (3) step-02 (challenge: would lamps-then-incense apply to afternoon too): matches lines 3-5 exactly. (4) step-03 (resolution: 'at the time of' = concurrent, not sequential; 'from evening to morning' proves only lamp-lighting is an overnight-valid service): matches lines 6-11 and Rashi lines 1-5 exactly. (5) step-04 (Abba Shaul's 'oto' restriction, morning follows plain text): matches line 12 (and line 13's 'דכתיב אותו') exactly. (6) misconceptions[0] ('at the time of lighting' misread as sequential-after, corrected via Rashi's concurrent reading at step-03): accurate to Rashi lines 1-5. (7) glossary entries for ketoret and oto: both accurate and correctly scoped to this sugya's dispute. (8) quizSeeds, finalRuling ('Disputed: Rabbanan hold ketoret precedes lamps via the afternoon analogy; Abba Shaul's oto-reading blocks it'), prerequisiteKnowledge (14b dispute continuity), topicTags, relatedSugyot, visualizableElements: all consistent with source and with each other. No factual, attribution, citation, or boundary defects found. All fields CONFIRMED against source."
+          "origin": "independent-second-pass-rejection",
+          "reviewEvidence": {
+            "stage": "final-whole-record-audit",
+            "finding": "Verse/boundary misattribution for Abba Shaul's 'oto' argument, confirmed against raw source (modules/yoma/assets/talmuddev/15a.json) and authoritative Tanach text.",
+            "details": [
+              "visualizableElements[1].item states: \"Exodus 30:8 with 'oto' highlighted...\" Exodus 30:8 (ketoret/afternoon-lamp verse, WLC: ובהעלת אהרן את הנרת בין הערבים יקטירנה קטרת תמיד) does not contain the word אותו/אתו at all. The word 'oto' that Abba Shaul relies on appears only in Exodus 27:21 (יערך אתו אהרן ובניו מערב עד בקר), the ner-tamid 'evening to morning' verse already quoted/baraita'd at vilna lines 6-9 of this very sugya.",
+              "glossary entry for 'oto' (he: אוֹתוֹ) states: \"Abba Shaul reads 'oto' in the afternoon lamp verse as restricting...\" -- this repeats the same wrong-verse attribution (the afternoon lamp verse is Exodus 30:8, which has no 'oto'; the actual 'oto' verse is Exodus 27:21).",
+              "argumentFlow step-04 cites sourceRef vilnaLine 12 for the text '\"Oto\" - that one lamp - restricts the afternoon verse...'. Vilna line 12 of the raw source reads only 'מקטר קטורת ואבא שאול אמר לך שאני' (Abba Shaul says: it is different) -- it does not contain the word אותו and does not state the 'oto' rationale at all. The word אותו first appears at vilna line 13 ('התם דכתיب אותו'), which is outside yoma-15a-s01's authorized lineRange (1-12) and belongs to sibling sugya yoma-15a-s02 (13-27). Presenting the full 'oto' rationale as reached within s01's own range, sourced to line 12, is a boundary leak: s01's own text only reaches 'Abba Shaul says it is different' and does not yet state why, per runbook absolute rule 13."
+            ],
+            "verdict": "REPAIR_REQUIRED",
+            "affectedFields": [
+              "visualizableElements[1].item",
+              "glossary (oto entry) OR dafLevel.glossary (oto entry), whichever array actually holds this entry",
+              "argumentFlow[3] (step-04).text and .sourceRefs"
+            ],
+            "requiredCorrection": "Re-anchor the 'oto' explanation to Exodus 27:21 (not 30:8), and keep argumentFlow step-04's sourced claim within s01's own boundary (vilna line 12 only states that Abba Shaul distinguishes the cases; the textual 'oto' proof itself belongs to line 13 / sugya s02 and must not be presented as reached within s01)."
+          }
         }
       }
     },
