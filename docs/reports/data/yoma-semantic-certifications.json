@@ -126939,7 +126939,7 @@
     "yoma-15a-s01": {
       "sugyaId": "yoma-15a-s01",
       "daf": "15a",
-      "state": "REPAIRED_PENDING_REVIEW",
+      "state": "CERTIFIED",
       "firstPass": {
         "reviewId": "yoma-15a-s01-final-audit-reject-2026-10-19",
         "reviewerContextId": "isolated-final-auditor-7a3e9c21",
@@ -126967,7 +126967,1586 @@
           }
         }
       },
-      "repairRef": "07fe5e80987b255ff7ba04b3311afa6e8889e412"
+      "repairRef": "07fe5e80987b255ff7ba04b3311afa6e8889e412",
+      "sourceFingerprint": "64b36cf184528b4bd3bc8b4bee085ff4e57d5f530b3774ed45181a6d216f3956",
+      "semanticFingerprint": "3d7ab7417c36ea91f626cc8dfd21da565ce92de9269640cedcfb7d36cd6e8517",
+      "secondPass": {
+        "reviewId": "yoma-15a-s01-second-pass-2026-10-19",
+        "reviewerContextId": "isolated-subagent-a20cc0319359944fd",
+        "sourceFirst": true,
+        "verdict": "CONFIRMED",
+        "reviewedSourceFingerprint": "64b36cf184528b4bd3bc8b4bee085ff4e57d5f530b3774ed45181a6d216f3956",
+        "reviewedSemanticFingerprint": "3d7ab7417c36ea91f626cc8dfd21da565ce92de9269640cedcfb7d36cd6e8517",
+        "evidence": {
+          "reviewerAgent": "isolated-subagent-a20cc0319359944fd",
+          "verdict": "CONFIRMED",
+          "independentReconstruction": "vilnaLines 1-9: baraita quoted establishing via the ner-tamid 'evening until morning' verse that the lamps' nightly oil allotment is fixed and no other service may follow lighting, hence the afternoon incense must accompany (not follow) lamp-lighting since it is read as happening 'at the time of' lighting. Lines 10-11 extend this logic to the morning by analogy ('at the time of cleaning' should mean incense accompanies cleaning). Line 12: Abba Shaul objects that the two cases differ, cutting off mid-reason. The 'oto' (אותו) word and its explanation appear only starting at vilnaLine 13, outside s01's range.",
+          "verseFinding": "Exodus 27:21 (יערך אתו אהרן ובניו מערב עד בקר) independently confirmed to contain 'אתו' (oto) and to be the same 'evening until morning' ner-tamid verse already paraphrased in the baraita at lines 1-9. The repo's own embedded, unmodified Koren/Sefaria translation at learning_data.js line 32747 (vilna_line 1 of neighboring s02 = vilnaLine 13) explicitly quotes this clause and cites it as '(Exodus 27:21)', confirming the candidate's citation is correct.",
+          "citationMatch": true,
+          "boundaryCompliance": "Candidate correctly states the 'oto' proof text 'falls just past this sugya's boundary' in both argumentFlow step-04 and the glossary entry, avoiding over-assertion into s02 territory per rule 13.",
+          "otherFieldsChecked": [
+            "display",
+            "learning",
+            "quizSeeds",
+            "misconceptions",
+            "topicTags",
+            "relatedSugyot",
+            "visualizableElements",
+            "finalRuling",
+            "difficulty",
+            "glossary",
+            "lineRange/sefariaRefs",
+            "prerequisiteKnowledge"
+          ],
+          "otherFieldsResult": "all consistent with source content for lines 1-12, correctly scoped, no boundary violations, no misattributions found"
+        }
+      },
+      "finalAudit": {
+        "reviewId": "yoma-15a-s01-final-audit-2026-10-19",
+        "auditorContextId": "lead-final-auditor-yoma15as01-2026-10-19",
+        "auditedSourceFingerprint": "64b36cf184528b4bd3bc8b4bee085ff4e57d5f530b3774ed45181a6d216f3956",
+        "auditedSemanticFingerprint": "3d7ab7417c36ea91f626cc8dfd21da565ce92de9269640cedcfb7d36cd6e8517",
+        "dafBoundary": {
+          "rawLineCount": 47,
+          "finalRawLine": "אגופיה",
+          "dafEndState": "MID_ARGUMENT"
+        },
+        "fieldInventory": [
+          {
+            "path": "lineRange",
+            "verdict": "NONFACTUAL",
+            "crossReference": false,
+            "boundarySafe": true
+          },
+          {
+            "path": "lines",
+            "verdict": "NONFACTUAL",
+            "crossReference": false,
+            "boundarySafe": true
+          },
+          {
+            "path": "dafLevel.glossary[0].en",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "15a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 1
+              }
+            ],
+            "boundarySafe": true
+          },
+          {
+            "path": "dafLevel.glossary[0].he",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "15a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 1
+              }
+            ],
+            "boundarySafe": true
+          },
+          {
+            "path": "dafLevel.glossary[0].translit",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "15a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 1
+              }
+            ],
+            "boundarySafe": true
+          },
+          {
+            "path": "dafLevel.glossary[1].en",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "15a",
+                "startVilnaLine": 12,
+                "endVilnaLine": 13
+              }
+            ],
+            "boundarySafe": true
+          },
+          {
+            "path": "dafLevel.glossary[1].he",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "15a",
+                "startVilnaLine": 12,
+                "endVilnaLine": 13
+              }
+            ],
+            "boundarySafe": true
+          },
+          {
+            "path": "dafLevel.glossary[1].translit",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "15a",
+                "startVilnaLine": 12,
+                "endVilnaLine": 13
+              }
+            ],
+            "boundarySafe": true
+          },
+          {
+            "path": "dafLevel.glossary[2].en",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "15a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 47
+              }
+            ],
+            "boundarySafe": true
+          },
+          {
+            "path": "dafLevel.glossary[2].he",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "15a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 47
+              }
+            ],
+            "boundarySafe": true
+          },
+          {
+            "path": "dafLevel.glossary[2].translit",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "15a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 47
+              }
+            ],
+            "boundarySafe": true
+          },
+          {
+            "path": "dafLevel.glossary[3].en",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "15a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 47
+              }
+            ],
+            "boundarySafe": true
+          },
+          {
+            "path": "dafLevel.glossary[3].he",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "15a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 47
+              }
+            ],
+            "boundarySafe": true
+          },
+          {
+            "path": "dafLevel.glossary[3].translit",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "15a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 47
+              }
+            ],
+            "boundarySafe": true
+          },
+          {
+            "path": "dafLevel.summary",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "15a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 47
+              }
+            ],
+            "boundarySafe": true
+          },
+          {
+            "path": "argumentFlow[step-01].id",
+            "verdict": "NONFACTUAL",
+            "crossReference": false,
+            "boundarySafe": true
+          },
+          {
+            "path": "argumentFlow[step-01].label",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "15a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 1
+              }
+            ],
+            "boundarySafe": true
+          },
+          {
+            "path": "argumentFlow[step-01].sourceRefs[0].lineId",
+            "verdict": "NONFACTUAL",
+            "crossReference": false,
+            "boundarySafe": true
+          },
+          {
+            "path": "argumentFlow[step-01].sourceRefs[0].note",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "15a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 1
+              }
+            ],
+            "boundarySafe": true
+          },
+          {
+            "path": "argumentFlow[step-01].sourceRefs[0].sourceType",
+            "verdict": "NONFACTUAL",
+            "crossReference": false,
+            "boundarySafe": true
+          },
+          {
+            "path": "argumentFlow[step-01].sourceRefs[0].vilnaLine",
+            "verdict": "NONFACTUAL",
+            "crossReference": false,
+            "boundarySafe": true
+          },
+          {
+            "path": "argumentFlow[step-01].speaker",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "15a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 1
+              }
+            ],
+            "boundarySafe": true
+          },
+          {
+            "path": "argumentFlow[step-01].text",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "15a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 1
+              }
+            ],
+            "boundarySafe": true
+          },
+          {
+            "path": "argumentFlow[step-01].type",
+            "verdict": "REVIEWED",
+            "crossReference": false,
+            "boundarySafe": true,
+            "note": "step-01.type=claim correctly classifies the discourse move: step-01 is the Rabbanan asserting their analogy; matches the raw text at its cited vilnaLine."
+          },
+          {
+            "path": "argumentFlow[step-02].id",
+            "verdict": "NONFACTUAL",
+            "crossReference": false,
+            "boundarySafe": true
+          },
+          {
+            "path": "argumentFlow[step-02].label",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "15a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 1
+              }
+            ],
+            "boundarySafe": true
+          },
+          {
+            "path": "argumentFlow[step-02].sourceRefs[0].lineId",
+            "verdict": "NONFACTUAL",
+            "crossReference": false,
+            "boundarySafe": true
+          },
+          {
+            "path": "argumentFlow[step-02].sourceRefs[0].note",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "15a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 1
+              }
+            ],
+            "boundarySafe": true
+          },
+          {
+            "path": "argumentFlow[step-02].sourceRefs[0].sourceType",
+            "verdict": "NONFACTUAL",
+            "crossReference": false,
+            "boundarySafe": true
+          },
+          {
+            "path": "argumentFlow[step-02].sourceRefs[0].vilnaLine",
+            "verdict": "NONFACTUAL",
+            "crossReference": false,
+            "boundarySafe": true
+          },
+          {
+            "path": "argumentFlow[step-02].speaker",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "15a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 1
+              }
+            ],
+            "boundarySafe": true
+          },
+          {
+            "path": "argumentFlow[step-02].text",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "15a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 1
+              }
+            ],
+            "boundarySafe": true
+          },
+          {
+            "path": "argumentFlow[step-02].type",
+            "verdict": "REVIEWED",
+            "crossReference": false,
+            "boundarySafe": true,
+            "note": "step-02.type=objection correctly classifies the discourse move: step-02 is an internal challenge to that analogy; matches the raw text at its cited vilnaLine."
+          },
+          {
+            "path": "argumentFlow[step-03].id",
+            "verdict": "NONFACTUAL",
+            "crossReference": false,
+            "boundarySafe": true
+          },
+          {
+            "path": "argumentFlow[step-03].label",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "15a",
+                "startVilnaLine": 6,
+                "endVilnaLine": 9
+              }
+            ],
+            "boundarySafe": true
+          },
+          {
+            "path": "argumentFlow[step-03].sourceRefs[0].lineId",
+            "verdict": "NONFACTUAL",
+            "crossReference": false,
+            "boundarySafe": true
+          },
+          {
+            "path": "argumentFlow[step-03].sourceRefs[0].note",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "15a",
+                "startVilnaLine": 6,
+                "endVilnaLine": 9
+              }
+            ],
+            "boundarySafe": true
+          },
+          {
+            "path": "argumentFlow[step-03].sourceRefs[0].sourceType",
+            "verdict": "NONFACTUAL",
+            "crossReference": false,
+            "boundarySafe": true
+          },
+          {
+            "path": "argumentFlow[step-03].sourceRefs[0].vilnaLine",
+            "verdict": "NONFACTUAL",
+            "crossReference": false,
+            "boundarySafe": true
+          },
+          {
+            "path": "argumentFlow[step-03].speaker",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "15a",
+                "startVilnaLine": 6,
+                "endVilnaLine": 9
+              }
+            ],
+            "boundarySafe": true
+          },
+          {
+            "path": "argumentFlow[step-03].text",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "15a",
+                "startVilnaLine": 6,
+                "endVilnaLine": 9
+              }
+            ],
+            "boundarySafe": true
+          },
+          {
+            "path": "argumentFlow[step-03].type",
+            "verdict": "REVIEWED",
+            "crossReference": false,
+            "boundarySafe": true,
+            "note": "step-03.type=resolution correctly classifies the discourse move: step-03 is the at-the-time-of resolution; matches the raw text at its cited vilnaLine."
+          },
+          {
+            "path": "argumentFlow[step-04].id",
+            "verdict": "NONFACTUAL",
+            "crossReference": false,
+            "boundarySafe": true
+          },
+          {
+            "path": "argumentFlow[step-04].label",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "15a",
+                "startVilnaLine": 12,
+                "endVilnaLine": 12
+              }
+            ],
+            "boundarySafe": true
+          },
+          {
+            "path": "argumentFlow[step-04].sourceRefs[0].lineId",
+            "verdict": "NONFACTUAL",
+            "crossReference": false,
+            "boundarySafe": true
+          },
+          {
+            "path": "argumentFlow[step-04].sourceRefs[0].note",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "15a",
+                "startVilnaLine": 12,
+                "endVilnaLine": 12
+              }
+            ],
+            "boundarySafe": true
+          },
+          {
+            "path": "argumentFlow[step-04].sourceRefs[0].sourceType",
+            "verdict": "NONFACTUAL",
+            "crossReference": false,
+            "boundarySafe": true
+          },
+          {
+            "path": "argumentFlow[step-04].sourceRefs[0].vilnaLine",
+            "verdict": "NONFACTUAL",
+            "crossReference": false,
+            "boundarySafe": true
+          },
+          {
+            "path": "argumentFlow[step-04].speaker",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "15a",
+                "startVilnaLine": 12,
+                "endVilnaLine": 12
+              }
+            ],
+            "boundarySafe": true
+          },
+          {
+            "path": "argumentFlow[step-04].text",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "15a",
+                "startVilnaLine": 12,
+                "endVilnaLine": 12
+              }
+            ],
+            "boundarySafe": true
+          },
+          {
+            "path": "argumentFlow[step-04].type",
+            "verdict": "REVIEWED",
+            "crossReference": false,
+            "boundarySafe": true,
+            "note": "step-04.type=objection correctly classifies the discourse move: step-04 is Abba Shaul's objection distinguishing the cases; matches the raw text at its cited vilnaLine."
+          },
+          {
+            "path": "conceptRefs[0]",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "15a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 1
+              }
+            ],
+            "boundarySafe": true
+          },
+          {
+            "path": "conceptRefs[1]",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "15a",
+                "startVilnaLine": 6,
+                "endVilnaLine": 6
+              }
+            ],
+            "boundarySafe": true
+          },
+          {
+            "path": "conceptRefs[2]",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "15a",
+                "startVilnaLine": 12,
+                "endVilnaLine": 12
+              }
+            ],
+            "boundarySafe": true
+          },
+          {
+            "path": "difficulty",
+            "verdict": "REVIEWED",
+            "crossReference": false,
+            "boundarySafe": true,
+            "note": "Rated 'advanced': the dispute requires tracking two amoraic readings of the same verse (Rabbanan's analogical extension vs. Abba Shaul's restrictive reading of 'oto') and recognizing a proof text whose explicit citation falls just past this sugya's own boundary -- consistent with the step-04/glossary/visualizableElements[1] content."
+          },
+          {
+            "path": "display.hint",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "15a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 12
+              }
+            ],
+            "boundarySafe": true
+          },
+          {
+            "path": "display.oneLine",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "15a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 12
+              }
+            ],
+            "boundarySafe": true
+          },
+          {
+            "path": "display.title",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "15a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 12
+              }
+            ],
+            "boundarySafe": true
+          },
+          {
+            "path": "display.whats",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "15a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 12
+              }
+            ],
+            "boundarySafe": true
+          },
+          {
+            "path": "finalRuling",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "15a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 12
+              }
+            ],
+            "boundarySafe": true
+          },
+          {
+            "path": "glossary[0].en",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "15a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 1
+              }
+            ],
+            "boundarySafe": true
+          },
+          {
+            "path": "glossary[0].he",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "15a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 1
+              }
+            ],
+            "boundarySafe": true
+          },
+          {
+            "path": "glossary[0].translit",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "15a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 1
+              }
+            ],
+            "boundarySafe": true
+          },
+          {
+            "path": "glossary[1].en",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "15a",
+                "startVilnaLine": 12,
+                "endVilnaLine": 12
+              }
+            ],
+            "boundarySafe": true
+          },
+          {
+            "path": "glossary[1].he",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "15a",
+                "startVilnaLine": 12,
+                "endVilnaLine": 12
+              }
+            ],
+            "boundarySafe": true
+          },
+          {
+            "path": "glossary[1].translit",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "15a",
+                "startVilnaLine": 12,
+                "endVilnaLine": 12
+              }
+            ],
+            "boundarySafe": true
+          },
+          {
+            "path": "learning.ahaMoment",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "15a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 12
+              }
+            ],
+            "boundarySafe": true
+          },
+          {
+            "path": "learning.coreMove",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "15a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 12
+              }
+            ],
+            "boundarySafe": true
+          },
+          {
+            "path": "learning.coreTension",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "15a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 12
+              }
+            ],
+            "boundarySafe": true
+          },
+          {
+            "path": "learning.learnerQuestion",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "15a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 12
+              }
+            ],
+            "boundarySafe": true
+          },
+          {
+            "path": "learning.learningBlocker",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "15a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 12
+              }
+            ],
+            "boundarySafe": true
+          },
+          {
+            "path": "learning.memoryAnchor",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "15a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 12
+              }
+            ],
+            "boundarySafe": true
+          },
+          {
+            "path": "learning.takeaway.text",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "15a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 12
+              }
+            ],
+            "boundarySafe": true
+          },
+          {
+            "path": "learning.takeaway.type",
+            "verdict": "REVIEWED",
+            "crossReference": false,
+            "boundarySafe": true,
+            "note": "takeaway.type=open_question correctly reflects that the dispute (does the afternoon verse generalize to the morning?) is left unresolved within this sugya's own range."
+          },
+          {
+            "path": "misconceptions[0].correctedByStepId",
+            "verdict": "NONFACTUAL",
+            "crossReference": false,
+            "boundarySafe": true
+          },
+          {
+            "path": "misconceptions[0].correction",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "15a",
+                "startVilnaLine": 6,
+                "endVilnaLine": 9
+              }
+            ],
+            "boundarySafe": true
+          },
+          {
+            "path": "misconceptions[0].misconception",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "15a",
+                "startVilnaLine": 6,
+                "endVilnaLine": 9
+              }
+            ],
+            "boundarySafe": true
+          },
+          {
+            "path": "prerequisiteKnowledge[0]",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "15a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 12
+              }
+            ],
+            "boundarySafe": true
+          },
+          {
+            "path": "prerequisiteKnowledge[1]",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "15a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 12
+              }
+            ],
+            "boundarySafe": true
+          },
+          {
+            "path": "quizSeeds[0].answer",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "15a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 1
+              }
+            ],
+            "boundarySafe": true
+          },
+          {
+            "path": "quizSeeds[0].question",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "15a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 1
+              }
+            ],
+            "boundarySafe": true
+          },
+          {
+            "path": "quizSeeds[0].sourceRefs[0].lineId",
+            "verdict": "NONFACTUAL",
+            "crossReference": false,
+            "boundarySafe": true
+          },
+          {
+            "path": "quizSeeds[0].sourceRefs[0].note",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "15a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 1
+              }
+            ],
+            "boundarySafe": true
+          },
+          {
+            "path": "quizSeeds[0].sourceRefs[0].sourceType",
+            "verdict": "NONFACTUAL",
+            "crossReference": false,
+            "boundarySafe": true
+          },
+          {
+            "path": "quizSeeds[0].sourceRefs[0].vilnaLine",
+            "verdict": "NONFACTUAL",
+            "crossReference": false,
+            "boundarySafe": true
+          },
+          {
+            "path": "quizSeeds[1].answer",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "15a",
+                "startVilnaLine": 12,
+                "endVilnaLine": 12
+              }
+            ],
+            "boundarySafe": true
+          },
+          {
+            "path": "quizSeeds[1].question",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "15a",
+                "startVilnaLine": 12,
+                "endVilnaLine": 12
+              }
+            ],
+            "boundarySafe": true
+          },
+          {
+            "path": "quizSeeds[1].sourceRefs[0].lineId",
+            "verdict": "NONFACTUAL",
+            "crossReference": false,
+            "boundarySafe": true
+          },
+          {
+            "path": "quizSeeds[1].sourceRefs[0].note",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "15a",
+                "startVilnaLine": 12,
+                "endVilnaLine": 12
+              }
+            ],
+            "boundarySafe": true
+          },
+          {
+            "path": "quizSeeds[1].sourceRefs[0].sourceType",
+            "verdict": "NONFACTUAL",
+            "crossReference": false,
+            "boundarySafe": true
+          },
+          {
+            "path": "quizSeeds[1].sourceRefs[0].vilnaLine",
+            "verdict": "NONFACTUAL",
+            "crossReference": false,
+            "boundarySafe": true
+          },
+          {
+            "path": "relatedSugyot[0]",
+            "verdict": "NONFACTUAL",
+            "crossReference": true,
+            "boundarySafe": true
+          },
+          {
+            "path": "topicTags[0]",
+            "verdict": "NONFACTUAL",
+            "crossReference": false,
+            "boundarySafe": true
+          },
+          {
+            "path": "topicTags[1]",
+            "verdict": "NONFACTUAL",
+            "crossReference": false,
+            "boundarySafe": true
+          },
+          {
+            "path": "topicTags[2]",
+            "verdict": "NONFACTUAL",
+            "crossReference": false,
+            "boundarySafe": true
+          },
+          {
+            "path": "topicTags[3]",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "15a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 12
+              }
+            ],
+            "boundarySafe": true
+          },
+          {
+            "path": "topicTags[4]",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "15a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 12
+              }
+            ],
+            "boundarySafe": true
+          },
+          {
+            "path": "topicTags[5]",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "15a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 12
+              }
+            ],
+            "boundarySafe": true
+          },
+          {
+            "path": "topicTags[6]",
+            "verdict": "NONFACTUAL",
+            "crossReference": false,
+            "boundarySafe": true
+          },
+          {
+            "path": "visualizableElements[0].item",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "15a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 12
+              }
+            ],
+            "boundarySafe": true
+          },
+          {
+            "path": "visualizableElements[0].type",
+            "verdict": "REVIEWED",
+            "crossReference": false,
+            "boundarySafe": true,
+            "note": "visualizableElements[0].type correctly labels the diagram kind (contrast), matching its item description."
+          },
+          {
+            "path": "visualizableElements[1].item",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "15a",
+                "startVilnaLine": 12,
+                "endVilnaLine": 12
+              }
+            ],
+            "boundarySafe": true
+          },
+          {
+            "path": "visualizableElements[1].type",
+            "verdict": "REVIEWED",
+            "crossReference": false,
+            "boundarySafe": true,
+            "note": "visualizableElements[1].type correctly labels the diagram kind (text), matching its item description."
+          }
+        ],
+        "boundaryLeakageSweep": [
+          {
+            "path": "dafLevel.glossary[0].en",
+            "importsNextDafConclusion": false,
+            "note": "Content describes only material attested within vilnaLines 1-12 of daf 15a (or, for dafLevel.* paths, elsewhere on daf 15a); asserts no conclusion from 15b or later daf 15a lines (13-47) as though reached within this sugya."
+          },
+          {
+            "path": "dafLevel.glossary[0].he",
+            "importsNextDafConclusion": false,
+            "note": "Content describes only material attested within vilnaLines 1-12 of daf 15a (or, for dafLevel.* paths, elsewhere on daf 15a); asserts no conclusion from 15b or later daf 15a lines (13-47) as though reached within this sugya."
+          },
+          {
+            "path": "dafLevel.glossary[0].translit",
+            "importsNextDafConclusion": false,
+            "note": "Content describes only material attested within vilnaLines 1-12 of daf 15a (or, for dafLevel.* paths, elsewhere on daf 15a); asserts no conclusion from 15b or later daf 15a lines (13-47) as though reached within this sugya."
+          },
+          {
+            "path": "dafLevel.glossary[1].en",
+            "importsNextDafConclusion": false,
+            "note": "Content describes only material attested within vilnaLines 1-12 of daf 15a (or, for dafLevel.* paths, elsewhere on daf 15a); asserts no conclusion from 15b or later daf 15a lines (13-47) as though reached within this sugya."
+          },
+          {
+            "path": "dafLevel.glossary[1].he",
+            "importsNextDafConclusion": false,
+            "note": "Content describes only material attested within vilnaLines 1-12 of daf 15a (or, for dafLevel.* paths, elsewhere on daf 15a); asserts no conclusion from 15b or later daf 15a lines (13-47) as though reached within this sugya."
+          },
+          {
+            "path": "dafLevel.glossary[1].translit",
+            "importsNextDafConclusion": false,
+            "note": "Content describes only material attested within vilnaLines 1-12 of daf 15a (or, for dafLevel.* paths, elsewhere on daf 15a); asserts no conclusion from 15b or later daf 15a lines (13-47) as though reached within this sugya."
+          },
+          {
+            "path": "dafLevel.glossary[2].en",
+            "importsNextDafConclusion": false,
+            "note": "Content describes only material attested within vilnaLines 1-12 of daf 15a (or, for dafLevel.* paths, elsewhere on daf 15a); asserts no conclusion from 15b or later daf 15a lines (13-47) as though reached within this sugya."
+          },
+          {
+            "path": "dafLevel.glossary[2].he",
+            "importsNextDafConclusion": false,
+            "note": "Content describes only material attested within vilnaLines 1-12 of daf 15a (or, for dafLevel.* paths, elsewhere on daf 15a); asserts no conclusion from 15b or later daf 15a lines (13-47) as though reached within this sugya."
+          },
+          {
+            "path": "dafLevel.glossary[2].translit",
+            "importsNextDafConclusion": false,
+            "note": "Content describes only material attested within vilnaLines 1-12 of daf 15a (or, for dafLevel.* paths, elsewhere on daf 15a); asserts no conclusion from 15b or later daf 15a lines (13-47) as though reached within this sugya."
+          },
+          {
+            "path": "dafLevel.glossary[3].en",
+            "importsNextDafConclusion": false,
+            "note": "Content describes only material attested within vilnaLines 1-12 of daf 15a (or, for dafLevel.* paths, elsewhere on daf 15a); asserts no conclusion from 15b or later daf 15a lines (13-47) as though reached within this sugya."
+          },
+          {
+            "path": "dafLevel.glossary[3].he",
+            "importsNextDafConclusion": false,
+            "note": "Content describes only material attested within vilnaLines 1-12 of daf 15a (or, for dafLevel.* paths, elsewhere on daf 15a); asserts no conclusion from 15b or later daf 15a lines (13-47) as though reached within this sugya."
+          },
+          {
+            "path": "dafLevel.glossary[3].translit",
+            "importsNextDafConclusion": false,
+            "note": "Content describes only material attested within vilnaLines 1-12 of daf 15a (or, for dafLevel.* paths, elsewhere on daf 15a); asserts no conclusion from 15b or later daf 15a lines (13-47) as though reached within this sugya."
+          },
+          {
+            "path": "dafLevel.summary",
+            "importsNextDafConclusion": false,
+            "note": "Content describes only material attested within vilnaLines 1-12 of daf 15a (or, for dafLevel.* paths, elsewhere on daf 15a); asserts no conclusion from 15b or later daf 15a lines (13-47) as though reached within this sugya."
+          },
+          {
+            "path": "argumentFlow[step-01].label",
+            "importsNextDafConclusion": false,
+            "note": "Content describes only material attested within vilnaLines 1-12 of daf 15a (or, for dafLevel.* paths, elsewhere on daf 15a); asserts no conclusion from 15b or later daf 15a lines (13-47) as though reached within this sugya."
+          },
+          {
+            "path": "argumentFlow[step-01].sourceRefs[0].note",
+            "importsNextDafConclusion": false,
+            "note": "Content describes only material attested within vilnaLines 1-12 of daf 15a (or, for dafLevel.* paths, elsewhere on daf 15a); asserts no conclusion from 15b or later daf 15a lines (13-47) as though reached within this sugya."
+          },
+          {
+            "path": "argumentFlow[step-01].speaker",
+            "importsNextDafConclusion": false,
+            "note": "Content describes only material attested within vilnaLines 1-12 of daf 15a (or, for dafLevel.* paths, elsewhere on daf 15a); asserts no conclusion from 15b or later daf 15a lines (13-47) as though reached within this sugya."
+          },
+          {
+            "path": "argumentFlow[step-01].text",
+            "importsNextDafConclusion": false,
+            "note": "Content describes only material attested within vilnaLines 1-12 of daf 15a (or, for dafLevel.* paths, elsewhere on daf 15a); asserts no conclusion from 15b or later daf 15a lines (13-47) as though reached within this sugya."
+          },
+          {
+            "path": "argumentFlow[step-01].type",
+            "importsNextDafConclusion": false,
+            "note": "Content describes only material attested within vilnaLines 1-12 of daf 15a (or, for dafLevel.* paths, elsewhere on daf 15a); asserts no conclusion from 15b or later daf 15a lines (13-47) as though reached within this sugya."
+          },
+          {
+            "path": "argumentFlow[step-02].label",
+            "importsNextDafConclusion": false,
+            "note": "Content describes only material attested within vilnaLines 1-12 of daf 15a (or, for dafLevel.* paths, elsewhere on daf 15a); asserts no conclusion from 15b or later daf 15a lines (13-47) as though reached within this sugya."
+          },
+          {
+            "path": "argumentFlow[step-02].sourceRefs[0].note",
+            "importsNextDafConclusion": false,
+            "note": "Content describes only material attested within vilnaLines 1-12 of daf 15a (or, for dafLevel.* paths, elsewhere on daf 15a); asserts no conclusion from 15b or later daf 15a lines (13-47) as though reached within this sugya."
+          },
+          {
+            "path": "argumentFlow[step-02].speaker",
+            "importsNextDafConclusion": false,
+            "note": "Content describes only material attested within vilnaLines 1-12 of daf 15a (or, for dafLevel.* paths, elsewhere on daf 15a); asserts no conclusion from 15b or later daf 15a lines (13-47) as though reached within this sugya."
+          },
+          {
+            "path": "argumentFlow[step-02].text",
+            "importsNextDafConclusion": false,
+            "note": "Content describes only material attested within vilnaLines 1-12 of daf 15a (or, for dafLevel.* paths, elsewhere on daf 15a); asserts no conclusion from 15b or later daf 15a lines (13-47) as though reached within this sugya."
+          },
+          {
+            "path": "argumentFlow[step-02].type",
+            "importsNextDafConclusion": false,
+            "note": "Content describes only material attested within vilnaLines 1-12 of daf 15a (or, for dafLevel.* paths, elsewhere on daf 15a); asserts no conclusion from 15b or later daf 15a lines (13-47) as though reached within this sugya."
+          },
+          {
+            "path": "argumentFlow[step-03].label",
+            "importsNextDafConclusion": false,
+            "note": "Content describes only material attested within vilnaLines 1-12 of daf 15a (or, for dafLevel.* paths, elsewhere on daf 15a); asserts no conclusion from 15b or later daf 15a lines (13-47) as though reached within this sugya."
+          },
+          {
+            "path": "argumentFlow[step-03].sourceRefs[0].note",
+            "importsNextDafConclusion": false,
+            "note": "Content describes only material attested within vilnaLines 1-12 of daf 15a (or, for dafLevel.* paths, elsewhere on daf 15a); asserts no conclusion from 15b or later daf 15a lines (13-47) as though reached within this sugya."
+          },
+          {
+            "path": "argumentFlow[step-03].speaker",
+            "importsNextDafConclusion": false,
+            "note": "Content describes only material attested within vilnaLines 1-12 of daf 15a (or, for dafLevel.* paths, elsewhere on daf 15a); asserts no conclusion from 15b or later daf 15a lines (13-47) as though reached within this sugya."
+          },
+          {
+            "path": "argumentFlow[step-03].text",
+            "importsNextDafConclusion": false,
+            "note": "Content describes only material attested within vilnaLines 1-12 of daf 15a (or, for dafLevel.* paths, elsewhere on daf 15a); asserts no conclusion from 15b or later daf 15a lines (13-47) as though reached within this sugya."
+          },
+          {
+            "path": "argumentFlow[step-03].type",
+            "importsNextDafConclusion": false,
+            "note": "Content describes only material attested within vilnaLines 1-12 of daf 15a (or, for dafLevel.* paths, elsewhere on daf 15a); asserts no conclusion from 15b or later daf 15a lines (13-47) as though reached within this sugya."
+          },
+          {
+            "path": "argumentFlow[step-04].label",
+            "importsNextDafConclusion": false,
+            "note": "Content describes only material attested within vilnaLines 1-12 of daf 15a (or, for dafLevel.* paths, elsewhere on daf 15a); asserts no conclusion from 15b or later daf 15a lines (13-47) as though reached within this sugya."
+          },
+          {
+            "path": "argumentFlow[step-04].sourceRefs[0].note",
+            "importsNextDafConclusion": false,
+            "note": "Explicitly marks the Exodus 27:21 'oto' citation and Abba Shaul's full reasoning as continuing just past this sugya's own vilnaLine 1-12 boundary (the word 'oto' itself appears at vilnaLine 13, start of yoma-15a-s02); does not assert that conclusion as reached within this range."
+          },
+          {
+            "path": "argumentFlow[step-04].speaker",
+            "importsNextDafConclusion": false,
+            "note": "Content describes only material attested within vilnaLines 1-12 of daf 15a (or, for dafLevel.* paths, elsewhere on daf 15a); asserts no conclusion from 15b or later daf 15a lines (13-47) as though reached within this sugya."
+          },
+          {
+            "path": "argumentFlow[step-04].text",
+            "importsNextDafConclusion": false,
+            "note": "Explicitly marks the Exodus 27:21 'oto' citation and Abba Shaul's full reasoning as continuing just past this sugya's own vilnaLine 1-12 boundary (the word 'oto' itself appears at vilnaLine 13, start of yoma-15a-s02); does not assert that conclusion as reached within this range."
+          },
+          {
+            "path": "argumentFlow[step-04].type",
+            "importsNextDafConclusion": false,
+            "note": "Content describes only material attested within vilnaLines 1-12 of daf 15a (or, for dafLevel.* paths, elsewhere on daf 15a); asserts no conclusion from 15b or later daf 15a lines (13-47) as though reached within this sugya."
+          },
+          {
+            "path": "conceptRefs[0]",
+            "importsNextDafConclusion": false,
+            "note": "Content describes only material attested within vilnaLines 1-12 of daf 15a (or, for dafLevel.* paths, elsewhere on daf 15a); asserts no conclusion from 15b or later daf 15a lines (13-47) as though reached within this sugya."
+          },
+          {
+            "path": "conceptRefs[1]",
+            "importsNextDafConclusion": false,
+            "note": "Content describes only material attested within vilnaLines 1-12 of daf 15a (or, for dafLevel.* paths, elsewhere on daf 15a); asserts no conclusion from 15b or later daf 15a lines (13-47) as though reached within this sugya."
+          },
+          {
+            "path": "conceptRefs[2]",
+            "importsNextDafConclusion": false,
+            "note": "Content describes only material attested within vilnaLines 1-12 of daf 15a (or, for dafLevel.* paths, elsewhere on daf 15a); asserts no conclusion from 15b or later daf 15a lines (13-47) as though reached within this sugya."
+          },
+          {
+            "path": "difficulty",
+            "importsNextDafConclusion": false,
+            "note": "Content describes only material attested within vilnaLines 1-12 of daf 15a (or, for dafLevel.* paths, elsewhere on daf 15a); asserts no conclusion from 15b or later daf 15a lines (13-47) as though reached within this sugya."
+          },
+          {
+            "path": "display.hint",
+            "importsNextDafConclusion": false,
+            "note": "Content describes only material attested within vilnaLines 1-12 of daf 15a (or, for dafLevel.* paths, elsewhere on daf 15a); asserts no conclusion from 15b or later daf 15a lines (13-47) as though reached within this sugya."
+          },
+          {
+            "path": "display.oneLine",
+            "importsNextDafConclusion": false,
+            "note": "Content describes only material attested within vilnaLines 1-12 of daf 15a (or, for dafLevel.* paths, elsewhere on daf 15a); asserts no conclusion from 15b or later daf 15a lines (13-47) as though reached within this sugya."
+          },
+          {
+            "path": "display.title",
+            "importsNextDafConclusion": false,
+            "note": "Content describes only material attested within vilnaLines 1-12 of daf 15a (or, for dafLevel.* paths, elsewhere on daf 15a); asserts no conclusion from 15b or later daf 15a lines (13-47) as though reached within this sugya."
+          },
+          {
+            "path": "display.whats",
+            "importsNextDafConclusion": false,
+            "note": "Content describes only material attested within vilnaLines 1-12 of daf 15a (or, for dafLevel.* paths, elsewhere on daf 15a); asserts no conclusion from 15b or later daf 15a lines (13-47) as though reached within this sugya."
+          },
+          {
+            "path": "finalRuling",
+            "importsNextDafConclusion": false,
+            "note": "Content describes only material attested within vilnaLines 1-12 of daf 15a (or, for dafLevel.* paths, elsewhere on daf 15a); asserts no conclusion from 15b or later daf 15a lines (13-47) as though reached within this sugya."
+          },
+          {
+            "path": "glossary[0].en",
+            "importsNextDafConclusion": false,
+            "note": "Content describes only material attested within vilnaLines 1-12 of daf 15a (or, for dafLevel.* paths, elsewhere on daf 15a); asserts no conclusion from 15b or later daf 15a lines (13-47) as though reached within this sugya."
+          },
+          {
+            "path": "glossary[0].he",
+            "importsNextDafConclusion": false,
+            "note": "Content describes only material attested within vilnaLines 1-12 of daf 15a (or, for dafLevel.* paths, elsewhere on daf 15a); asserts no conclusion from 15b or later daf 15a lines (13-47) as though reached within this sugya."
+          },
+          {
+            "path": "glossary[0].translit",
+            "importsNextDafConclusion": false,
+            "note": "Content describes only material attested within vilnaLines 1-12 of daf 15a (or, for dafLevel.* paths, elsewhere on daf 15a); asserts no conclusion from 15b or later daf 15a lines (13-47) as though reached within this sugya."
+          },
+          {
+            "path": "glossary[1].en",
+            "importsNextDafConclusion": false,
+            "note": "Explicitly marks the Exodus 27:21 'oto' citation and Abba Shaul's full reasoning as continuing just past this sugya's own vilnaLine 1-12 boundary (the word 'oto' itself appears at vilnaLine 13, start of yoma-15a-s02); does not assert that conclusion as reached within this range."
+          },
+          {
+            "path": "glossary[1].he",
+            "importsNextDafConclusion": false,
+            "note": "Content describes only material attested within vilnaLines 1-12 of daf 15a (or, for dafLevel.* paths, elsewhere on daf 15a); asserts no conclusion from 15b or later daf 15a lines (13-47) as though reached within this sugya."
+          },
+          {
+            "path": "glossary[1].translit",
+            "importsNextDafConclusion": false,
+            "note": "Content describes only material attested within vilnaLines 1-12 of daf 15a (or, for dafLevel.* paths, elsewhere on daf 15a); asserts no conclusion from 15b or later daf 15a lines (13-47) as though reached within this sugya."
+          },
+          {
+            "path": "learning.ahaMoment",
+            "importsNextDafConclusion": false,
+            "note": "Content describes only material attested within vilnaLines 1-12 of daf 15a (or, for dafLevel.* paths, elsewhere on daf 15a); asserts no conclusion from 15b or later daf 15a lines (13-47) as though reached within this sugya."
+          },
+          {
+            "path": "learning.coreMove",
+            "importsNextDafConclusion": false,
+            "note": "Content describes only material attested within vilnaLines 1-12 of daf 15a (or, for dafLevel.* paths, elsewhere on daf 15a); asserts no conclusion from 15b or later daf 15a lines (13-47) as though reached within this sugya."
+          },
+          {
+            "path": "learning.coreTension",
+            "importsNextDafConclusion": false,
+            "note": "Content describes only material attested within vilnaLines 1-12 of daf 15a (or, for dafLevel.* paths, elsewhere on daf 15a); asserts no conclusion from 15b or later daf 15a lines (13-47) as though reached within this sugya."
+          },
+          {
+            "path": "learning.learnerQuestion",
+            "importsNextDafConclusion": false,
+            "note": "Content describes only material attested within vilnaLines 1-12 of daf 15a (or, for dafLevel.* paths, elsewhere on daf 15a); asserts no conclusion from 15b or later daf 15a lines (13-47) as though reached within this sugya."
+          },
+          {
+            "path": "learning.learningBlocker",
+            "importsNextDafConclusion": false,
+            "note": "Content describes only material attested within vilnaLines 1-12 of daf 15a (or, for dafLevel.* paths, elsewhere on daf 15a); asserts no conclusion from 15b or later daf 15a lines (13-47) as though reached within this sugya."
+          },
+          {
+            "path": "learning.memoryAnchor",
+            "importsNextDafConclusion": false,
+            "note": "Content describes only material attested within vilnaLines 1-12 of daf 15a (or, for dafLevel.* paths, elsewhere on daf 15a); asserts no conclusion from 15b or later daf 15a lines (13-47) as though reached within this sugya."
+          },
+          {
+            "path": "learning.takeaway.text",
+            "importsNextDafConclusion": false,
+            "note": "Content describes only material attested within vilnaLines 1-12 of daf 15a (or, for dafLevel.* paths, elsewhere on daf 15a); asserts no conclusion from 15b or later daf 15a lines (13-47) as though reached within this sugya."
+          },
+          {
+            "path": "learning.takeaway.type",
+            "importsNextDafConclusion": false,
+            "note": "Content describes only material attested within vilnaLines 1-12 of daf 15a (or, for dafLevel.* paths, elsewhere on daf 15a); asserts no conclusion from 15b or later daf 15a lines (13-47) as though reached within this sugya."
+          },
+          {
+            "path": "misconceptions[0].correction",
+            "importsNextDafConclusion": false,
+            "note": "Content describes only material attested within vilnaLines 1-12 of daf 15a (or, for dafLevel.* paths, elsewhere on daf 15a); asserts no conclusion from 15b or later daf 15a lines (13-47) as though reached within this sugya."
+          },
+          {
+            "path": "misconceptions[0].misconception",
+            "importsNextDafConclusion": false,
+            "note": "Content describes only material attested within vilnaLines 1-12 of daf 15a (or, for dafLevel.* paths, elsewhere on daf 15a); asserts no conclusion from 15b or later daf 15a lines (13-47) as though reached within this sugya."
+          },
+          {
+            "path": "prerequisiteKnowledge[0]",
+            "importsNextDafConclusion": false,
+            "note": "Content describes only material attested within vilnaLines 1-12 of daf 15a (or, for dafLevel.* paths, elsewhere on daf 15a); asserts no conclusion from 15b or later daf 15a lines (13-47) as though reached within this sugya."
+          },
+          {
+            "path": "prerequisiteKnowledge[1]",
+            "importsNextDafConclusion": false,
+            "note": "Content describes only material attested within vilnaLines 1-12 of daf 15a (or, for dafLevel.* paths, elsewhere on daf 15a); asserts no conclusion from 15b or later daf 15a lines (13-47) as though reached within this sugya."
+          },
+          {
+            "path": "quizSeeds[0].answer",
+            "importsNextDafConclusion": false,
+            "note": "Content describes only material attested within vilnaLines 1-12 of daf 15a (or, for dafLevel.* paths, elsewhere on daf 15a); asserts no conclusion from 15b or later daf 15a lines (13-47) as though reached within this sugya."
+          },
+          {
+            "path": "quizSeeds[0].question",
+            "importsNextDafConclusion": false,
+            "note": "Content describes only material attested within vilnaLines 1-12 of daf 15a (or, for dafLevel.* paths, elsewhere on daf 15a); asserts no conclusion from 15b or later daf 15a lines (13-47) as though reached within this sugya."
+          },
+          {
+            "path": "quizSeeds[0].sourceRefs[0].note",
+            "importsNextDafConclusion": false,
+            "note": "Content describes only material attested within vilnaLines 1-12 of daf 15a (or, for dafLevel.* paths, elsewhere on daf 15a); asserts no conclusion from 15b or later daf 15a lines (13-47) as though reached within this sugya."
+          },
+          {
+            "path": "quizSeeds[1].answer",
+            "importsNextDafConclusion": false,
+            "note": "Explicitly marks the Exodus 27:21 'oto' citation and Abba Shaul's full reasoning as continuing just past this sugya's own vilnaLine 1-12 boundary (the word 'oto' itself appears at vilnaLine 13, start of yoma-15a-s02); does not assert that conclusion as reached within this range."
+          },
+          {
+            "path": "quizSeeds[1].question",
+            "importsNextDafConclusion": false,
+            "note": "Content describes only material attested within vilnaLines 1-12 of daf 15a (or, for dafLevel.* paths, elsewhere on daf 15a); asserts no conclusion from 15b or later daf 15a lines (13-47) as though reached within this sugya."
+          },
+          {
+            "path": "quizSeeds[1].sourceRefs[0].note",
+            "importsNextDafConclusion": false,
+            "note": "Content describes only material attested within vilnaLines 1-12 of daf 15a (or, for dafLevel.* paths, elsewhere on daf 15a); asserts no conclusion from 15b or later daf 15a lines (13-47) as though reached within this sugya."
+          },
+          {
+            "path": "topicTags[3]",
+            "importsNextDafConclusion": false,
+            "note": "Content describes only material attested within vilnaLines 1-12 of daf 15a (or, for dafLevel.* paths, elsewhere on daf 15a); asserts no conclusion from 15b or later daf 15a lines (13-47) as though reached within this sugya."
+          },
+          {
+            "path": "topicTags[4]",
+            "importsNextDafConclusion": false,
+            "note": "Content describes only material attested within vilnaLines 1-12 of daf 15a (or, for dafLevel.* paths, elsewhere on daf 15a); asserts no conclusion from 15b or later daf 15a lines (13-47) as though reached within this sugya."
+          },
+          {
+            "path": "topicTags[5]",
+            "importsNextDafConclusion": false,
+            "note": "Content describes only material attested within vilnaLines 1-12 of daf 15a (or, for dafLevel.* paths, elsewhere on daf 15a); asserts no conclusion from 15b or later daf 15a lines (13-47) as though reached within this sugya."
+          },
+          {
+            "path": "visualizableElements[0].item",
+            "importsNextDafConclusion": false,
+            "note": "Content describes only material attested within vilnaLines 1-12 of daf 15a (or, for dafLevel.* paths, elsewhere on daf 15a); asserts no conclusion from 15b or later daf 15a lines (13-47) as though reached within this sugya."
+          },
+          {
+            "path": "visualizableElements[0].type",
+            "importsNextDafConclusion": false,
+            "note": "Content describes only material attested within vilnaLines 1-12 of daf 15a (or, for dafLevel.* paths, elsewhere on daf 15a); asserts no conclusion from 15b or later daf 15a lines (13-47) as though reached within this sugya."
+          },
+          {
+            "path": "visualizableElements[1].item",
+            "importsNextDafConclusion": false,
+            "note": "Explicitly marks the Exodus 27:21 'oto' citation and Abba Shaul's full reasoning as continuing just past this sugya's own vilnaLine 1-12 boundary (the word 'oto' itself appears at vilnaLine 13, start of yoma-15a-s02); does not assert that conclusion as reached within this range."
+          },
+          {
+            "path": "visualizableElements[1].type",
+            "importsNextDafConclusion": false,
+            "note": "Content describes only material attested within vilnaLines 1-12 of daf 15a (or, for dafLevel.* paths, elsewhere on daf 15a); asserts no conclusion from 15b or later daf 15a lines (13-47) as though reached within this sugya."
+          }
+        ],
+        "staleContentSweep": {
+          "entries": [
+            {
+              "category": "stale_original_error",
+              "found": false,
+              "note": "Original defect (Exodus 30:8, which contains no 'oto') and the subsequent mistaken over-correction to Leviticus 24:3 have both been fully replaced with the verified-correct Exodus 27:21 across all 4 occurrences (argumentFlow step-04.text, visualizableElements[1].item, quizSeeds[1].answer, glossary[1].en); confirmed via grep, no remaining instances."
+            },
+            {
+              "category": "stale_speaker_or_attribution",
+              "found": false,
+              "note": "Speakers (Rabbanan/Gemara/Abba Shaul) match the raw source at each step's cited vilnaLine."
+            },
+            {
+              "category": "contradictory_speaker_attribution",
+              "found": false,
+              "note": "No field attributes this sugya's content to a different speaker than argumentFlow records."
+            },
+            {
+              "category": "old_conclusion_in_secondary_field",
+              "found": false,
+              "note": "quizSeeds, misconceptions, finalRuling, and glossary all reflect the current Exodus 27:21 citation, not either prior (incorrect) value."
+            },
+            {
+              "category": "false_closure",
+              "found": false,
+              "note": "finalRuling and takeaway.type=open_question correctly state the dispute is unresolved within this range; no field claims Abba Shaul's reasoning is completed within s01's own lines."
+            },
+            {
+              "category": "next_daf_content_leaked_backward",
+              "found": false,
+              "note": "No content from 15b is asserted as reached within this sugya; daf 15a's own later lines (13-47, part of s02 and beyond) are likewise not asserted as resolved here."
+            },
+            {
+              "category": "claim_unsupported_by_physical_daf",
+              "found": false,
+              "note": "Every SEMANTIC fieldInventory entry cites real vilnaLines on the raw 15a source (47 lines total); mechanically verified via boundarySafe checks above."
+            },
+            {
+              "category": "stale_quiz_question_or_answer",
+              "found": false,
+              "note": "quizSeeds[1].answer uses the corrected Exodus 27:21 citation."
+            },
+            {
+              "category": "stale_final_ruling",
+              "found": false,
+              "note": "finalRuling makes no verse citation and needed no correction; still accurate."
+            },
+            {
+              "category": "stale_summary",
+              "found": false,
+              "note": "dafLevel.summary makes no specific verse-number citation for 'oto' and needed no correction."
+            },
+            {
+              "category": "stale_learning_field",
+              "found": false,
+              "note": "learning.* fields make no verse-number citation and needed no correction."
+            },
+            {
+              "category": "stale_misconception",
+              "found": false,
+              "note": "misconceptions[0] concerns 'at the time of lighting' timing, unrelated to the verse-citation defect; still accurate."
+            },
+            {
+              "category": "stale_related_sugya_description",
+              "found": false,
+              "note": "relatedSugyot[0]=yoma-14b-s03 is a bare id (STRUCTURAL), carries no stale prose description."
+            },
+            {
+              "category": "stale_visualizable_element_prose",
+              "found": false,
+              "note": "visualizableElements[1].item uses the corrected Exodus 27:21 citation."
+            },
+            {
+              "category": "source_refs_no_longer_supporting_claim",
+              "found": false,
+              "note": "All sourceRefs (lineId/vilnaLine) still point at the correct, unchanged raw lines; only prose verse-number text was corrected, not source-ref coordinates."
+            },
+            {
+              "category": "reference_outside_declared_line_range",
+              "found": false,
+              "note": "All SUPPORTED entries' supportingLines fall within vilnaLines 1-12 (this sugya) or, for dafLevel.* paths, within daf 15a's full 47-line range, matching boundarySafe=true throughout."
+            }
+          ]
+        }
+      },
+      "certifiedAtCommit": "06d13e0db67ef48aa9e23f4c6516d9aaaac922c6"
     },
     "yoma-15a-s02": {
       "sugyaId": "yoma-15a-s02",
