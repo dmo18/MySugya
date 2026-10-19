@@ -109,7 +109,10 @@
     "test:worker-pipeline-integration": "python3 scripts/test_worker_pipeline_integration.py",
     "test:yoma-tail-enrichment-audit-compat": "python3 scripts/test_yoma_tail_enrichment_audit_compat.py",
     "validate:product-contract": "python3 scripts/validate_product_contract.py",
-    "test:product-contract": "python3 scripts/test_validate_product_contract.py"
+    "test:product-contract": "python3 scripts/test_validate_product_contract.py",
+    "test:autonomy-controller": "python3 scripts/test_autonomy_controller.py",
+    "check-fixture:autonomy-controller": "python3 scripts/autonomy_controller.py check-fixture scripts/fixtures/autonomy_controller_shadow_fixture.json",
+    "test:autonomy-shadow-adapter": "python3 scripts/test_autonomy_shadow_adapter.py"
   },
   "dependencies": {
     "react": "18.3.1",

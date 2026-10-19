@@ -14,3 +14,6 @@ assets/
 # tests/fixtures/modules/demotractate/MODULE.md).
 !/tests/fixtures/modules/demotractate/assets/
 !/tests/fixtures/modules/demotractate/assets/**
+
+# autonomy controller v2 local runtime state (not fixture data)
+scripts/.autonomy_controller_state.json
