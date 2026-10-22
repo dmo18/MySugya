@@ -1,9 +1,10 @@
 #!/usr/bin/env python3
 """Fetch fresh Rabbi-scoped OpenClaw quota OUTSIDE the 30-second cron trigger.
 
-Run via a model-free, operator-owned systemd timer shortly before a
+Run via OpenClaw's model-free command job shortly before a
 fixed UTC scheduled campaign tick. Never schedule a model turn here.
-Store only bounded numeric quota windows; no auth profiles or identities.
+Store only sanitized OpenAI windows and Claude CLI /usage percentages;
+no credentials or account identities.
 
 The fast cron admission gate reads this local snapshot; absent, stale,
 incomplete, errored, or improperly scoped evidence is always denied.
@@ -19,6 +20,12 @@ import sys
 import tempfile
 import time
 
+from rabbi_claude_quota import (
+    configured_worker_model,
+    fetch_usage as fetch_claude_usage,
+    sanitized_snapshot as sanitize_claude,
+    snapshot_path as claude_snapshot_path,
+)
 from rabbi_quota_gate import (
     CLOCK_SKEW_MS,
     GateDenied,
@@ -137,25 +144,32 @@ def write_private(snapshot: dict, path: Path) -> None:
 
 def main() -> int:
     try:
-        snapshot = sanitize(current_status())
+        # Both quota sources must be fresh before publishing either cache.
+        # Probe budgets fit inside the existing 110-second model-free job.
+        snapshot = sanitize(current_status(timeout_seconds=75))
+        worker_model = configured_worker_model()
+        claude = sanitize_claude(fetch_claude_usage(), worker_model=worker_model)
         write_private(snapshot, snapshot_path())
+        write_private(claude, claude_snapshot_path())
         week = next(w for w in snapshot["payload"]["usage"]["providers"][0]["windows"]
                     if w["label"] == "Week")
         print(json.dumps({
             "ok": True,
             "provider": "openai",
             "weeklyRemainingPercent": 100 - week["usedPercent"],
+            "claudeWeeklyRemainingPercent": claude["weeklyRemainingPercent"],
+            "claudeSessionRemainingPercent": claude["sessionRemainingPercent"],
             "snapshotAgeSeconds": 0,
         }, sort_keys=True))
         return 0
     except (GateDenied, OSError, ValueError) as exc:
         # Remove stale earlier snapshot so refresh failures always deny a launch.
-        path = snapshot_path()
-        if path.is_file() and not path.is_symlink():
-            try:
-                path.unlink()
-            except OSError:
-                pass
+        for path in (snapshot_path(), claude_snapshot_path()):
+            if path.is_file() and not path.is_symlink():
+                try:
+                    path.unlink()
+                except OSError:
+                    pass
         print(json.dumps({"ok": False, "reason": str(exc)}, sort_keys=True))
         return 3
 
