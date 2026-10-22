@@ -9,9 +9,11 @@ The legacy Yoma OpenClaw automation was scheduled every 5 minutes with a two-hou
 OpenClaw 2026.10.5 supports a native `trigger.script` condition on an `agentTurn` job. On each due tick it can call a deterministic local command before launching a model. This change adds:
 
 - `scripts/rabbi_cron_trigger.js`: headless condition that invokes a dedicated private-installed Python check and returns `fire:false` on all malformed/ambiguous/missing output, quota refusal, or error. It cannot launch an LLM itself.
-- `scripts/rabbi_cron_admission.py`: requires a private explicit authorization marker, checks real OpenClaw provider usage via `status --usage --agent rabbi --json`, evaluates the 35% weekly admission floor and 30% reserve, and atomically reserves a UTC-day slot in a private ledger. Default recommended authorization cap is **2 starts per UTC day**; absolute supported maximum is six.
-- `scripts/rabbi_quota_gate.py`: a separate, already-tested deterministic quota interpreter; never ask an LLM to invent quota evidence.
-- `scripts/test_rabbi_cron_admission.py` and `scripts/test_rabbi_cron_trigger.mjs`: network-free positive and denial tests.
+- `scripts/rabbi_cron_admission.py`: requires a private explicit authorization marker, reads a recently cached **Rabbi-scoped** quota snapshot without calling OpenClaw, evaluates the 35% weekly admission floor and 30% reserve, and atomically reserves a UTC-day slot in a private ledger. Default recommended authorization cap is **2 starts per UTC day**; absolute supported maximum is six.
+- `scripts/rabbi_quota_gate.py`: deterministic quota interpreter and standalone, bounded live CLI probe; never ask an LLM to invent quota evidence.
+- `scripts/rabbi_quota_refresh.py`: host-side, model-free refresh of an explicitly Rabbi-scoped quota snapshot; stores only source ID, collection time and quota-window numbers in private mode-0600 storage.
+- `ops/systemd-user/mysugya-rabbi-quota-refresh.service` and `.timer`: refresh four times daily, about three minutes ahead of the four fixed UTC cron opportunities. These are **templates**, not automatically activated in the operator's runtime.
+- `scripts/test_rabbi_cron_admission.py`, `scripts/test_rabbi_quota_refresh.py`, and `scripts/test_rabbi_cron_trigger.mjs`: network-free positive, stale-snapshot, sanitation and denial tests.
 
 ## Before installation
 
@@ -19,17 +21,19 @@ The operator has a verified, PRIVATE OpenClaw backup, including scheduler snapsh
 
 ## Install while the campaign is DISABLED
 
-Obtain three files from the reviewed commit of MySugya, and copy them together to a private runtime-controlled directory `~/.local/share/mysugya/` (they contain no secrets):
+Obtain four files from the reviewed commit of MySugya, and copy them together to a private runtime-controlled directory `~/.local/share/mysugya/` (they contain no secrets):
 
 - `scripts/rabbi_quota_gate.py`
 - `scripts/rabbi_cron_admission.py`
 - `scripts/rabbi_cron_trigger.js`
+- `scripts/rabbi_quota_refresh.py`
 
-Run `python3 -m py_compile` for both Python files, run their deterministic tests, then use OpenClaw's supported CLI:
+Run `python3 -m py_compile` for all three Python files, run their deterministic tests, then use OpenClaw's supported CLI:
 
 ```bash
 openclaw cron edit <rabbi-campaign-id> \
-  --every 6h \
+  --cron '0 2,8,14,20 * * *' \
+  --tz Etc/UTC \
   --timeout-seconds 900 \
   --fallbacks "" \
   --trigger-script "$HOME/.local/share/mysugya/rabbi_cron_trigger.js"
@@ -60,7 +64,7 @@ They were set under `agents.entries.rabbi.tools.swarm`. Inspect with **read-only
 
 These limits apply ONLY to Swarm collector children. They do **not** cap ordinary `sessions_spawn` children, any Codex-native subagents, ACP workers, external subprocesses, or workers in independent sessions. Ordinary child execution remains a known quota-risk gap. Before enabling Rabbi, choose and verify a Rabbi-scoped permission/runner policy that bounds these launch paths, or use an operator-approved global limit after explicitly assessing Jarvis impact. A 15-minute parent cron timeout is not proof that detached workers stop.
 
-The job MUST remain disabled. Confirm via `openclaw cron get <id> --json` that it is still owned by `rabbi`, is still `enabled:false`, retains `payload.kind:agentTurn`, now has `schedule.everyMs:21600000`, `payload.timeoutSeconds:900`, explicit empty `payload.fallbacks:[]`, and a nonempty `trigger.script`. A different schema or behavior means STOP and roll back the scheduler from the private snapshot.
+The job MUST remain disabled. Confirm via `openclaw cron get <id> --json` that it is still owned by `rabbi`, is still `enabled:false`, retains `payload.kind:agentTurn`, has the **fixed UTC four-times-daily cron** expression `0 2,8,14,20 * * *` with `Etc/UTC`, `payload.timeoutSeconds:900`, explicit empty `payload.fallbacks:[]`, and a nonempty `trigger.script`. A different schema or behavior means STOP and roll back the scheduler from the private snapshot.
 
 **No operator marker is created during installation.** As a result, ordinary due evaluations would refuse even if the job were accidentally enabled (manual forced `cron run` remains a separate bypass; see below). Do not create the marker merely because usage passes its quota check.
 
@@ -86,6 +90,26 @@ The gate's private ledger is `~/.local/state/mysugya/rabbi-admissions.json`, wit
 
 To diagnose without invoking Rabbi: `python3 ~/.local/share/mysugya/rabbi_cron_admission.py`. It will return `{"admitted":false}` with a reason when unapproved or quota-blocked. **Warning:** with an actual authorization marker and sufficient quota, that command reserves a daily start even though it does not run a model; normally inspect with the cheaper `python3 ~/.local/share/mysugya/rabbi_quota_gate.py` and `openclaw cron get` until fully ready. Do not use the admission script as a high-frequency monitor.
 
+## Live diagnostic findings: quota probe and sandbox (2026-10-22)
+
+The installed OpenClaw 2026.10.5 `openclaw sandbox explain --agent rabbi` reports **runtime: direct, mode: off, scope: agent**. The tool surface permits `exec`, `process` and `sessions_spawn`. Merely listing `Sandbox tool policy` allow/deny rules does not establish execution isolation when sandbox mode is off. An unsandboxed shell-capable Rabbi running under the same host user can bypass local approval/ledger files or the scheduler via OS commands. The existing job MUST remain disabled.
+
+Per-agent sandbox policy at `agents.entries.rabbi.sandbox` can isolate Rabbi without changing Jarvis. However activating Docker sandboxing can remove access to the existing host checkout, provider CLI, and native Codex execution surfaces. The default Docker sandbox has no network; do not flip the switch blindly or mount private `.openclaw` state or the host Docker socket into the sandbox. Inspect the local runtime's image, repository/workspace location, enabled per-agent GitHub identity, container access needs and Codex adapter before choosing an enforceable, working arrangement. See the official OpenClaw Codex approval/sandbox reference. Any native pre-run trigger that invokes a host-installed Python script MUST be tested again after sandboxing; its `exec` may follow the agent's sandbox policy and fail closed when host tools/paths are inaccessible.
+
+The first live `python3 ~/.local/share/mysugya/rabbi_quota_gate.py` returned `admitted:false` because its `openclaw status --usage --agent rabbi --json` subprocess was killed after **55 seconds**, not because it successfully evaluated the reported weekly quota. The first scheduled-admission implementation imposed an even shorter **18-second** subprocess timeout with a **12-second** OpenClaw status deadline. These conflicting deadlines could make the gate perpetually deny even with a valid account.
+
+The initial quota script's 55-second timeout and an earlier 18-second cron subprocess timeout caused fail-closed denials without evaluating the actual weekly quota. The upstream native trigger has a **30-second** maximum wall-clock budget (verified in the `v2026.10.5` `src/cron/trigger-script.ts`). Increasing its subprocess allowance to 100 seconds INSIDE the native trigger would be incorrect.
+
+The corrected design uses an explicit, model-free, **host-side** `rabbi_quota_refresh.py` with a 90-second OpenClaw status deadline and a 100-second subprocess timeout. It keeps sanitized `usage.updatedAt`, week/5h percent-used windows, and source ID, but no auth token, account identity or host details. A local systemd user timer refreshes the cache four times per day at **01:57, 07:57, 13:57 and 19:57 UTC**. The actual OpenClaw cron schedule, once separately authorized, is **02:00, 08:00, 14:00 and 20:00 UTC**. This deliberately avoids costly repeated polling.
+
+`rabbi_cron_admission.py` now checks only the local source-tagged, owner-private cache. The ordinary native trigger therefore never waits for a slow provider query. Each observation must still be at most **five minutes** old. Both the weekly and five-hour OpenAI quota windows are mandatory; missing, stale, malformed, duplicated, errored or below-floor quota evidence DENIES admission. If the snapshot refresh fails, it removes an earlier snapshot and fails closed. A successful refresh during low quota still records the true low number; it does not authorize a run.
+
+The two user-systemd unit templates are in `ops/systemd-user/`. Review them, copy them into the operator's private `~/.config/systemd/user/` and enable ONLY the quota-refresh timer after a manual read-only/low-quota dry run confirms schema and timing. Never run `systemctl --user start` on the *agentTurn* job here; installing the refresh timer does not authorize Rabbi. Verify schedule syntax with `systemd-analyze calendar` on the actual host. Back up old job and config before editing, and verify its enabled state remains false.
+
+**Isolation remains unproven:** Docker and its default sandbox image were not available from the current SSH shell; the user's initial `openclaw models status --agent rabbi --json` took 14.5 seconds but exposed no usable quota fields. Gateway `usage.status` RPC is cached and may be faster, but upstream `v2026.10.5` scopes that RPC by the Gateway's legacy/default auth owner rather than the requested Rabbi agent, so it is NOT automatically an acceptable substitute for `--agent rabbi` quota evidence. The OpenClaw sandbox supports Docker, Podman and SSH backends; determine availability and whether a separate restricted Unix/SSH identity can host Rabbi's tools, Git checkout and Codex adapter without affecting Jarvis before enabling a sandbox. Never flip `sandbox.mode=all` blindly.
+
+**No false sense of security:** same-Unix-user `0600` state is writable by unsandboxed Rabbi, and detached/forced launches bypass this cron gate. This is a correctness and accidental-overspend guard pending separate enforceable execution isolation, not a total quota firewall.
+
 ## Important limits (not optional)
 
 This is a bounded scheduled admission gate, **not an absolute token governor**. Native OpenClaw scheduler `--timeout-seconds` limits the parent agent turn, not necessarily every independently spawned Codex-native child or external worker. A single model call can spend quota while running. Prove subagent-level runtime/concurrency restrictions and the new Yoma source-verification process in a canary before authorizing the private marker.
@@ -94,4 +118,4 @@ This is a bounded scheduled admission gate, **not an absolute token governor**. 
 
 If a new model or Anthropic reviewer route is introduced, audit its own capacity, per-unit budget and fallback behavior before the new provider may run. An OpenAI-only gate cannot enforce Anthropic quota or Codex-native subordinate execution limits.
 
-Start conservatively: one work unit per scheduled tick, 6-hour interval, 15-minute parent timeout, maximum two daily admissions, no fallback retry to alternate providers. Increase only after evidence shows high quality and low provider burn. Keep the operator safety stop independent from the quota floor so a reset never automatically restarts previously blocked work.
+Start conservatively: one work unit per scheduled tick, four fixed UTC opportunities six hours apart, 15-minute parent timeout, maximum two daily admissions, no fallback retry to alternate providers. Increase only after evidence shows high quality and low provider burn. Keep the operator safety stop independent from the quota floor so a reset never automatically restarts previously blocked work.

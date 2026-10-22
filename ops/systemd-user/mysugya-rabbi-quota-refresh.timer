@@ -1,0 +1,12 @@
+[Unit]
+Description=Refresh Rabbi quota shortly before four UTC campaign opportunities
+
+[Timer]
+OnCalendar=*-*-* 01,07,13,19:57:00 UTC
+AccuracySec=10s
+RandomizedDelaySec=0
+Persistent=false
+Unit=mysugya-rabbi-quota-refresh.service
+
+[Install]
+WantedBy=timers.target

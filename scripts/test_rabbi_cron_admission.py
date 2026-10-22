@@ -149,5 +149,59 @@ class AdmissionTests(unittest.TestCase):
         self.deny()
 
 
+    def write_snapshot(self, used=60):
+        from rabbi_quota_refresh import sanitize
+        folder = self.dir / "private-cache"
+        folder.mkdir(mode=0o700, exist_ok=True)
+        target = folder / "quota.json"
+        target.write_text(json.dumps(sanitize(snapshot(used), now_ms=NOW)), encoding="utf-8")
+        target.chmod(0o600)
+        return target
+
+    def test_cached_quota_is_fast_and_makes_no_provider_call(self):
+        from rabbi_cron_admission import read_cached_quota
+        from unittest.mock import patch
+        path = self.write_snapshot()
+        with patch("subprocess.run", side_effect=AssertionError("model/provider query forbidden")):
+            quota = read_cached_quota(path, now_ms=NOW)
+        self.assertEqual(quota["usage"]["providers"][0]["provider"], "openai")
+
+    def test_cached_quota_missing_and_expired_denied(self):
+        from rabbi_cron_admission import read_cached_quota
+        from rabbi_quota_gate import MAX_SNAPSHOT_AGE_MS
+        with self.assertRaises(GateDenied):
+            read_cached_quota(self.dir / "absent", now_ms=NOW)
+        target = self.write_snapshot()
+        with self.assertRaises(GateDenied):
+            read_cached_quota(target, now_ms=NOW + MAX_SNAPSHOT_AGE_MS + 1)
+
+    def test_cached_quota_symlink_bad_permissions_or_invalid_source_denied(self):
+        from rabbi_cron_admission import read_cached_quota
+        target = self.write_snapshot()
+        target.chmod(0o644)
+        with self.assertRaises(GateDenied):
+            read_cached_quota(target, now_ms=NOW)
+        target.chmod(0o600)
+        d = json.loads(target.read_text())
+        d["source"] = "operator-provided-numbers"
+        target.write_text(json.dumps(d))
+        with self.assertRaises(GateDenied):
+            read_cached_quota(target, now_ms=NOW)
+        target.unlink()
+        target.symlink_to(self.dir / "nothing")
+        with self.assertRaises(GateDenied):
+            read_cached_quota(target, now_ms=NOW)
+
+    def test_cached_quota_respects_weekly_threshold_and_preserves_ledger(self):
+        from rabbi_cron_admission import read_cached_quota
+        target = self.write_snapshot(used=79)
+        with self.assertRaises(GateDenied):
+            decide(self.approval, self.ledger, lambda: read_cached_quota(target, now_ms=NOW), now_ms=NOW)
+        self.assertFalse(self.ledger.exists())
+        self.write_snapshot(used=60)
+        result = decide(self.approval, self.ledger, lambda: read_cached_quota(target, now_ms=NOW), now_ms=NOW)
+        self.assertEqual(result["dayAdmission"], 1)
+
+
 if __name__ == "__main__":
     unittest.main(verbosity=2)

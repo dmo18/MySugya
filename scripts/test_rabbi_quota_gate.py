@@ -84,6 +84,11 @@ class TestQuotaGuard(unittest.TestCase):
         self.deny(snapshot(short_used=86))
         self.check(snapshot(short_used=85))
 
+    def test_missing_short_window_is_unknown_not_healthy(self):
+        p = snapshot(week_used=40)
+        p["usage"]["providers"][0]["windows"].pop(0)
+        self.deny(p)
+
     def test_source_provider_errors_and_unknown(self):
         for val in ({"error": "Timeout"}, {"status": "unknown"}):
             p = snapshot()
@@ -101,6 +106,30 @@ class TestQuotaGuard(unittest.TestCase):
         self.assertFalse(hasattr(gate, "launch_agent"))
         self.assertFalse(hasattr(gate, "enable_cron"))
 
+
+    def test_usage_cli_receives_sufficient_deadline(self):
+        import subprocess
+        from unittest.mock import patch
+        from types import SimpleNamespace
+        from rabbi_quota_gate import current_status
+        response = SimpleNamespace(returncode=0, stdout='{"usage": {"updatedAt": 123, "providers": []}}')
+        with patch("rabbi_quota_gate.subprocess.run", return_value=response) as mocked:
+            result = current_status()
+        self.assertIn("usage", result)
+        args, kwargs = mocked.call_args
+        self.assertEqual(args[0][-2:], ["--timeout", "90000"])
+        self.assertGreater(kwargs["timeout"], 90)
+
+    def test_usage_timeout_is_fail_closed_and_sanitized(self):
+        import subprocess
+        from unittest.mock import patch
+        from rabbi_quota_gate import current_status
+        error = subprocess.TimeoutExpired(cmd=["openclaw", "status"], timeout=100)
+        with patch("rabbi_quota_gate.subprocess.run", side_effect=error):
+            with self.assertRaises(gate.GateDenied) as caught:
+                current_status()
+        self.assertIn("timed out", str(caught.exception))
+        self.assertNotIn("token", str(caught.exception).lower())
 
 if __name__ == "__main__":
     unittest.main(verbosity=2)

@@ -106,6 +106,10 @@ def evaluate(status: dict, *, provider: str = "openai", now_ms: int | None = Non
     if weekly_remaining - MAX_UNIT_HEADROOM_PERCENT < WEEKLY_RESERVE_PERCENT:
         raise GateDenied("weekly reserve would be endangered by bounded unit headroom")
     short = _window(windows, SHORT_LABELS, False)
+    # OpenAI Codex admission requires BOTH independent quota windows. If
+    # the short window disappears, its capacity is unknown, not unlimited.
+    if provider == "openai" and short is None:
+        raise GateDenied("OpenAI 5h quota window missing")
     short_remaining = None
     if short is not None:
         short_used = _number(short.get("usedPercent"), "5h usedPercent")
@@ -126,15 +130,18 @@ def evaluate(status: dict, *, provider: str = "openai", now_ms: int | None = Non
     }
 
 
-def current_status(*, timeout_seconds: int = 55) -> dict:
+def current_status(*, timeout_seconds: int = 100) -> dict:
     """Obtain fresh quota telemetry without starting any model turn."""
-    proc = subprocess.run(
-        ["openclaw", "status", "--usage", "--agent", "rabbi", "--json"],
-        capture_output=True,
-        text=True,
-        timeout=timeout_seconds,
-        check=False,
-    )
+    try:
+        proc = subprocess.run(
+            ["openclaw", "status", "--usage", "--agent", "rabbi", "--json", "--timeout", "90000"],
+            capture_output=True,
+            text=True,
+            timeout=timeout_seconds,
+            check=False,
+        )
+    except subprocess.TimeoutExpired as exc:
+        raise GateDenied("OpenClaw usage probe timed out; admission denied") from exc
     if proc.returncode != 0:
         raise GateDenied("OpenClaw provider usage query failed")
     try:

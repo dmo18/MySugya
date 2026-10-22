@@ -1,0 +1,12 @@
+[Unit]
+Description=Refresh Rabbi-scoped OpenAI quota snapshot without launching a model
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/python3 %h/.local/share/mysugya/rabbi_quota_refresh.py
+TimeoutStartSec=110
+NoNewPrivileges=true
+UMask=0077
+
+# The refresh may need access to OpenClaw's agent-scoped credentials
+# to query usage; DO NOT commit live environment variables or secret files.
