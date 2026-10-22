@@ -107,7 +107,11 @@ class TestQuotaRefresh(unittest.TestCase):
         self.assertEqual(target.read_text(), "DO_NOT_TOUCH")
 
     def test_fail_if_cache_parent_is_world_readable(self):
+        # chmod explicitly: mkdir's requested mode is masked by the process
+        # umask (often 0o077 in security-conscious operator sessions).
         self.path.parent.mkdir(mode=0o755)
+        self.path.parent.chmod(0o755)
+        self.assertEqual(self.path.parent.stat().st_mode & 0o777, 0o755)
         with self.assertRaises(GateDenied):
             refresh.write_private(refresh.sanitize(response(), now_ms=NOW), self.path)
 
