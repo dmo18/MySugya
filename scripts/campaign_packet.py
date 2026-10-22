@@ -29,6 +29,8 @@ from __future__ import annotations
 
 import argparse
 import functools
+import hashlib
+import importlib.util
 import json
 import sys
 from typing import Any, Dict, List
@@ -154,6 +156,131 @@ def _preceding_daf_raw_tail(module: str, daf: str, corpus: Dict[str, Any]) -> Di
     }
 
 
+
+
+@functools.lru_cache(maxsize=None)
+def _source_adapter(module: str):
+    """Reuse the module's existing Sefaria source adapter, not its AI enrichment.
+
+    All modules implementing source-first review must supply the same
+    load_source_daf(daf) contract as the Yoma build adapter. This operation
+    is offline; it does not fetch, modify, or regenerate any source file.
+    """
+    path = REPO / "modules" / module / "scripts" / "build_learning_data.py"
+    if not path.is_file():
+        raise ValueError(f"{module}: missing source adapter {path}")
+    spec = importlib.util.spec_from_file_location(f"_mysugya_source_{module}", path)
+    if spec is None or spec.loader is None:
+        raise ValueError(f"{module}: cannot load source adapter {path}")
+    adapter = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(adapter)
+    if not callable(getattr(adapter, "load_source_daf", None)):
+        raise ValueError(f"{module}: source adapter lacks load_source_daf(daf)")
+    return adapter
+
+
+def _js_source_string(value: str | None) -> str:
+    """Decode the exact JSON-compatible JS string escapes from source_store."""
+    if value is None:
+        return ""
+    if not isinstance(value, str):
+        raise ValueError("source text must be a string")
+    try:
+        return json.loads('"' + value + '"')
+    except json.JSONDecodeError as exc:
+        raise ValueError("invalid escaped source_store string") from exc
+
+
+def _published_source_segments(module: str, daf: str, rows, daf_segment_map):
+    """Fail closed if Sefaria source rows and enriched locator rows diverge.
+
+    Source Hebrew and English come ONLY from the already-cached source
+    store, never from authored explanations, prior certificates, or Rashi
+    helper English. The existing enriched line map supplies *declared*
+    coordinates, which reviewers must independently verify.
+    """
+    source_groups = _source_adapter(module).load_source_daf(daf)
+    if len(source_groups) != len(rows):
+        raise ValueError(
+            f"{module}/{daf}: source has {len(source_groups)} sugyot, "
+            f"locator has {len(rows)}; refuse positional guess"
+        )
+    output = []
+    for (sid, _doc, sugya), source_rows in zip(rows, source_groups):
+        locators = sugya.get("lines") or []
+        minted = _source_segment_map_for_sugya(daf_segment_map, sid)
+        if len(locators) != len(source_rows) or len(minted) != len(source_rows):
+            raise ValueError(f"{sid}: source/locator/minted segment count mismatch")
+        segments = []
+        for loc, source, mint in zip(locators, source_rows, minted):
+            vl = source.get("vilna_line")
+            ref = loc.get("sefariaRef")
+            if not isinstance(vl, int) or vl != loc.get("vilnaLine") or vl != mint["vilnaLine"]:
+                raise ValueError(f"{sid}: source and locator Vilna line mismatch")
+            if not isinstance(ref, str) or not ref or ref != mint["sefariaRef"]:
+                raise ValueError(f"{sid}: Sefaria locator mismatch")
+            hebrew = _js_source_string(source.get("he"))
+            english = _js_source_string(source.get("en"))
+            if not hebrew:
+                raise ValueError(f"{sid}: empty cached source Hebrew at {ref}")
+            segments.append({
+                "mintedLineId": mint["mintedLineId"],
+                "vilnaLine": vl,
+                "declaredSefariaRef": ref,
+                "he": hebrew,
+                "en": english,
+            })
+        output.append({
+            "sugyaId": sid,
+            "declaredLineRange": sugya.get("lineRange"),
+            "segments": segments,
+        })
+    return output
+
+
+def build_source_packet(module: str, daf: str) -> Dict[str, Any]:
+    """Minimal independent SOURCE-ONLY packet for a new or old daf.
+
+    It intentionally contains no AI-authored enrichment, Rashi helper
+    translation, certification flags, or prior reviewer reasoning. The
+    English is a corroborating, licensed edition, NOT semantic proof.
+    """
+    corpus = load_corpus(module)
+    rows = sorted(
+        ((sid, doc, sugya) for sid, (d, doc, sugya) in corpus.items() if d == daf),
+        key=lambda x: x[2].get("sugyaNumber", 0),
+    )
+    if not rows:
+        raise ValueError(f"unknown daf {module}/{daf}")
+    raw_path = raw_dir(module) / f"{daf}.json"
+    raw = json.loads(raw_path.read_text(encoding="utf-8")).get("lines") or []
+    if not raw:
+        raise ValueError(f"{module}/{daf}: no raw Vilna Hebrew")
+    daf_map = _daf_segment_map(module, daf, corpus)
+    segments = _published_source_segments(module, daf, rows, daf_map)
+    evidence = {
+        "module": module,
+        "daf": daf,
+        "rawHebrewLines": [{"l": i + 1, "he": line} for i, line in enumerate(raw)],
+        "publishedSourceBySugya": segments,
+    }
+    digest = hashlib.sha256(
+        json.dumps(evidence, ensure_ascii=False, sort_keys=True, separators=(",", ":")).encode("utf-8")
+    ).hexdigest()
+    evidence["sourceSnapshotSha256"] = digest
+    evidence["sourcePolicy"] = {
+        "primaryAuthority": "rawHebrewLines: cached Vilna lines from talmud.dev",
+        "corroboratingReference": "he/en: cached Sefaria source_store.js; check module edition and rights",
+        "coordinates": "declared only; source boundaries must be verified from the raw daf",
+        "use": "verify factual claims and attribution, not copy licensed phrasing",
+        "trust": "published English is corroboration, not a substitute for original Hebrew",
+    }
+    preceding = _preceding_daf_raw_tail(module, daf, corpus)
+    if preceding is not None:
+        evidence["precedingDafContext"] = preceding
+    return evidence
+
+
 def build_candidate_packet(module: str, daf: str) -> Dict[str, Any]:
     """Source Auditor / Independent Reviewer packet: raw source + current
     candidate only. No fingerprints, no certification state, no prior
@@ -237,10 +364,12 @@ def main() -> None:
     ap = argparse.ArgumentParser()
     ap.add_argument("--module", default="yoma")
     ap.add_argument("--daf", required=True)
-    ap.add_argument("--mode", choices=["candidate", "final-audit"], default="candidate")
+    ap.add_argument("--mode", choices=["source", "candidate", "final-audit"], default="candidate")
     ap.add_argument("--sugya", help="required for --mode final-audit")
     args = ap.parse_args()
-    if args.mode == "candidate":
+    if args.mode == "source":
+        print(json.dumps(build_source_packet(args.module, args.daf), ensure_ascii=False, separators=(",", ":")))
+    elif args.mode == "candidate":
         print(json.dumps(build_candidate_packet(args.module, args.daf), ensure_ascii=False, separators=(",", ":")))
     else:
         if not args.sugya:
