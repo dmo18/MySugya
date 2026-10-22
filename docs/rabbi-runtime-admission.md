@@ -35,6 +35,18 @@ openclaw cron edit <rabbi-campaign-id> \
   --trigger-script "$HOME/.local/share/mysugya/rabbi_cron_trigger.js"
 ```
 
+Bound Rabbi's ordinary OpenClaw subagents independently from Jarvis using the per-agent overrides below, after backing up `~/.openclaw/openclaw.json` and validating the installed schema:
+
+```bash
+openclaw config set agents.entries.rabbi.subagents.maxConcurrent 2 --strict-json
+openclaw config set agents.entries.rabbi.subagents.maxChildrenPerAgent 2 --strict-json
+openclaw config set agents.entries.rabbi.subagents.maxSpawnDepth 1 --strict-json
+openclaw config set agents.entries.rabbi.subagents.runTimeoutSeconds 600 --strict-json
+openclaw config validate
+```
+
+These limits apply to ordinary OpenClaw subagent spawns; they do NOT necessarily constrain Codex-native subagents, ACP workers or Swarm collector lanes. Explicit per-spawn timeouts or separate execution policies may still be required.
+
 The job MUST remain disabled. Confirm via `openclaw cron get <id> --json` that it is still owned by `rabbi`, is still `enabled:false`, retains `payload.kind:agentTurn`, now has `schedule.everyMs:21600000`, `payload.timeoutSeconds:900`, explicit empty `payload.fallbacks:[]`, and a nonempty `trigger.script`. A different schema or behavior means STOP and roll back the scheduler from the private snapshot.
 
 **No operator marker is created during installation.** As a result, ordinary due evaluations would refuse even if the job were accidentally enabled (manual forced `cron run` remains a separate bypass; see below). Do not create the marker merely because usage passes its quota check.
