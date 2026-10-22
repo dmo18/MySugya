@@ -28,6 +28,8 @@ const allowed = JSON.stringify({
   provider: "openai",
   dayAdmission: 1,
   weeklyRemainingPercent: 60,
+  claudeWeeklyRemainingPercent: 59,
+  claudeSessionRemainingPercent: 100,
 });
 
 let result = await evaluate({ aggregated: allowed });
@@ -36,6 +38,9 @@ assert.match(result.message, /one controller-admitted unit/);
 assert.deepEqual(result.state, { lastAdmission: "ALLOW" });
 
 for (const bad of [
+  { aggregated: JSON.stringify({ admitted: true, provider: "openai", dayAdmission: 1, weeklyRemainingPercent: 60 }) },
+  { aggregated: JSON.stringify({ admitted: true, provider: "openai", dayAdmission: 1, weeklyRemainingPercent: 60, claudeWeeklyRemainingPercent: 34, claudeSessionRemainingPercent: 100 }) },
+  { aggregated: JSON.stringify({ admitted: true, provider: "openai", dayAdmission: 1, weeklyRemainingPercent: 60, claudeWeeklyRemainingPercent: 59, claudeSessionRemainingPercent: 29 }) },
   { aggregated: "" },
   { aggregated: "not-json" },
   { aggregated: JSON.stringify({ admitted: false, reason: "quota" }) },
