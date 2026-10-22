@@ -48,8 +48,13 @@ class AdmissionTests(unittest.TestCase):
         }), encoding="utf-8")
         self.approval.chmod(0o600)
 
+    @staticmethod
+    def claude_green():
+        return {"weeklyRemainingPercent": 59, "sessionRemainingPercent": 100}
+
     def check(self, used=60, at=NOW):
-        return decide(self.approval, self.ledger, lambda: snapshot(used), now_ms=at)
+        return decide(self.approval, self.ledger, lambda: snapshot(used),
+                      claude_supplier=self.claude_green, now_ms=at)
 
     def deny(self, used=60, at=NOW):
         with self.assertRaises(GateDenied):
@@ -64,7 +69,8 @@ class AdmissionTests(unittest.TestCase):
         self.authorize(approved=False)
         called = []
         with self.assertRaises(GateDenied):
-            decide(self.approval, self.ledger, lambda: called.append(True), now_ms=NOW)
+            decide(self.approval, self.ledger, lambda: called.append(True),
+                   claude_supplier=self.claude_green, now_ms=NOW)
         self.assertFalse(called)
 
     def test_wrong_campaign_and_invalid_limit_denied(self):
@@ -129,7 +135,8 @@ class AdmissionTests(unittest.TestCase):
         def exploded():
             raise GateDenied("provider unavailable")
         with self.assertRaises(GateDenied):
-            decide(self.approval, self.ledger, exploded, now_ms=NOW)
+            decide(self.approval, self.ledger, exploded,
+                   claude_supplier=self.claude_green, now_ms=NOW)
         self.assertFalse(self.ledger.exists())
 
     def test_next_utc_day_restarts_counter_with_fresh_snapshot(self):
@@ -141,8 +148,25 @@ class AdmissionTests(unittest.TestCase):
             x["usage"]["providers"][0]["windows"][0]["resetAt"] = new_now + 100000
             x["usage"]["providers"][0]["windows"][1]["resetAt"] = new_now + 100000
             return x
-        nxt = decide(self.approval, self.ledger, fresh, now_ms=new_now)
+        nxt = decide(self.approval, self.ledger, fresh,
+                     claude_supplier=self.claude_green, now_ms=new_now)
         self.assertEqual(nxt["dayAdmission"], 1)
+
+    def test_claude_low_or_unavailable_denies_before_slot_reservation(self):
+        for weekly, session in ((34, 100), (59, 29), (None, 100), (101, 100)):
+            with self.subTest(weekly=weekly, session=session), self.assertRaises(GateDenied):
+                decide(self.approval, self.ledger, lambda: snapshot(),
+                       claude_supplier=lambda: {
+                           "weeklyRemainingPercent": weekly,
+                           "sessionRemainingPercent": session,
+                       }, now_ms=NOW)
+        self.assertFalse(self.ledger.exists())
+
+    def test_claude_missing_evidence_denies_before_slot_reservation(self):
+        with self.assertRaises(GateDenied):
+            decide(self.approval, self.ledger, lambda: snapshot(),
+                   claude_supplier=lambda: {}, now_ms=NOW)
+        self.assertFalse(self.ledger.exists())
 
     def test_private_file_rejects_unapproved_unknown_fields(self):
         d = json.loads(self.approval.read_text())
@@ -198,10 +222,12 @@ class AdmissionTests(unittest.TestCase):
         from rabbi_cron_admission import read_cached_quota
         target = self.write_snapshot(used=79)
         with self.assertRaises(GateDenied):
-            decide(self.approval, self.ledger, lambda: read_cached_quota(target, now_ms=NOW), now_ms=NOW)
+            decide(self.approval, self.ledger, lambda: read_cached_quota(target, now_ms=NOW),
+                   claude_supplier=self.claude_green, now_ms=NOW)
         self.assertFalse(self.ledger.exists())
         self.write_snapshot(used=60)
-        result = decide(self.approval, self.ledger, lambda: read_cached_quota(target, now_ms=NOW), now_ms=NOW)
+        result = decide(self.approval, self.ledger, lambda: read_cached_quota(target, now_ms=NOW),
+                   claude_supplier=self.claude_green, now_ms=NOW)
         self.assertEqual(result["dayAdmission"], 1)
 
 
