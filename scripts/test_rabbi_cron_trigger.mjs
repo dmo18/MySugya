@@ -41,6 +41,7 @@ for (const bad of [
   { aggregated: JSON.stringify({ admitted: false, reason: "quota" }) },
   { aggregated: JSON.stringify({ admitted: true, provider: "anthropic", dayAdmission: 1, weeklyRemainingPercent: 60 }) },
   { aggregated: JSON.stringify({ admitted: true, provider: "openai", dayAdmission: 7, weeklyRemainingPercent: 60 }) },
+  { aggregated: JSON.stringify({ admitted: true, provider: "openai", dayAdmission: 3, weeklyRemainingPercent: 60 }) },
   { aggregated: JSON.stringify({ admitted: true, provider: "openai", dayAdmission: 1, weeklyRemainingPercent: 21 }) },
   { aggregated: JSON.stringify({ admitted: true, provider: "openai", dayAdmission: "1", weeklyRemainingPercent: 60 }) },
   { stdout: allowed },
