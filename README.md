@@ -56,7 +56,7 @@ Production output is written to `dist/`. Deploy `dist/` as the web root. Do not 
 
 ## Autonomous Rabbi and source-first verification
 
-Rabbi is MySugya's autonomous project operator inside OpenClaw. GitHub holds its public operating instructions, not credentials or private runtime state. See [`docs/source-first-autonomous-development.md`](docs/source-first-autonomous-development.md) for the source-only comparison workflow and [`docs/openclaw-rabbi-recovery.md`](docs/openclaw-rabbi-recovery.md) for sanitized rebuilding and safety-stop recovery.
+Rabbi is MySugya's autonomous project operator inside OpenClaw. GitHub holds its public operating instructions, not credentials or private runtime state. See [`docs/source-first-autonomous-development.md`](docs/source-first-autonomous-development.md) for the source-only comparison workflow and [`docs/openclaw-rabbi-recovery.md`](docs/openclaw-rabbi-recovery.md) for sanitized rebuilding and safety-stop recovery. The [Rabbi runtime admission gate](docs/rabbi-runtime-admission.md) explains model-free quota checks, bounded scheduled starts, and the separately protected operator stop.
 
 Offline source-only daf evidence (does not certify anything or modify content):
 
