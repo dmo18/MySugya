@@ -191,90 +191,79 @@ def _js_source_string(value: str | None) -> str:
         raise ValueError("invalid escaped source_store string") from exc
 
 
-def _published_source_segments(module: str, daf: str, rows, daf_segment_map):
-    """Fail closed if Sefaria source rows and enriched locator rows diverge.
+def _published_source_segments(module: str, daf: str) -> List[Dict[str, Any]]:
+    """Read the whole daf in SOURCE order, not in the enriched sugya order.
 
-    Source Hebrew and English come ONLY from the already-cached source
-    store, never from authored explanations, prior certificates, or Rashi
-    helper English. The existing enriched line map supplies *declared*
-    coordinates, which reviewers must independently verify.
+    The first-pass source reader must not learn where a prior AI divided
+    the page into sugyot. The cached source-store's existing layout is
+    used only to enumerate the underlying Hebrew/English source segments.
+    Segment ordinals and physical starting lines are locations to audit,
+    never verified Sefaria coordinates or semantic-boundary claims.
     """
-    source_groups = _source_adapter(module).load_source_daf(daf)
-    if len(source_groups) != len(rows):
-        raise ValueError(
-            f"{module}/{daf}: source has {len(source_groups)} sugyot, "
-            f"locator has {len(rows)}; refuse positional guess"
-        )
-    output = []
-    for (sid, _doc, sugya), source_rows in zip(rows, source_groups):
-        locators = sugya.get("lines") or []
-        minted = _source_segment_map_for_sugya(daf_segment_map, sid)
-        if len(locators) != len(source_rows) or len(minted) != len(source_rows):
-            raise ValueError(f"{sid}: source/locator/minted segment count mismatch")
-        segments = []
-        for loc, source, mint in zip(locators, source_rows, minted):
+    groups = _source_adapter(module).load_source_daf(daf)
+    if not isinstance(groups, list) or not groups:
+        raise ValueError(f"{module}/{daf}: no cached source groups")
+    out = []
+    last_vilna_line = 0
+    for group in groups:
+        if not isinstance(group, list) or not group:
+            raise ValueError(f"{module}/{daf}: empty or malformed cached source group")
+        for source in group:
+            if not isinstance(source, dict):
+                raise ValueError(f"{module}/{daf}: malformed cached source segment")
             vl = source.get("vilna_line")
-            ref = loc.get("sefariaRef")
-            if not isinstance(vl, int) or vl != loc.get("vilnaLine") or vl != mint["vilnaLine"]:
-                raise ValueError(f"{sid}: source and locator Vilna line mismatch")
-            if not isinstance(ref, str) or not ref or ref != mint["sefariaRef"]:
-                raise ValueError(f"{sid}: Sefaria locator mismatch")
+            if not isinstance(vl, int) or vl < 1 or vl < last_vilna_line:
+                raise ValueError(f"{module}/{daf}: non-monotonic source line order")
+            last_vilna_line = vl
             hebrew = _js_source_string(source.get("he"))
             english = _js_source_string(source.get("en"))
             if not hebrew:
-                raise ValueError(f"{sid}: empty cached source Hebrew at {ref}")
-            segments.append({
-                "mintedLineId": mint["mintedLineId"],
-                "vilnaLine": vl,
-                "declaredSefariaRef": ref,
+                raise ValueError(f"{module}/{daf}: empty Hebrew source segment")
+            out.append({
+                "ordinal": len(out) + 1,
+                "vilnaLineStart": vl,
+                "kind": source.get("kind"),
                 "he": hebrew,
                 "en": english,
             })
-        output.append({
-            "sugyaId": sid,
-            "declaredLineRange": sugya.get("lineRange"),
-            "segments": segments,
-        })
-    return output
+    return out
 
 
 def build_source_packet(module: str, daf: str) -> Dict[str, Any]:
-    """Minimal independent SOURCE-ONLY packet for a new or old daf.
+    """Offline source-only evidence without old sugyot, certificates or AI prose.
 
-    It intentionally contains no AI-authored enrichment, Rashi helper
-    translation, certification flags, or prior reviewer reasoning. The
-    English is a corroborating, licensed edition, NOT semantic proof.
+    A reader reconstructs page meaning and boundaries from primary Hebrew
+    BEFORE a separate, later candidate packet reveals the old enrichment.
+    This is a reference for independent judgment, never automatic truth.
     """
-    corpus = load_corpus(module)
-    rows = sorted(
-        ((sid, doc, sugya) for sid, (d, doc, sugya) in corpus.items() if d == daf),
-        key=lambda x: x[2].get("sugyaNumber", 0),
-    )
-    if not rows:
-        raise ValueError(f"unknown daf {module}/{daf}")
     raw_path = raw_dir(module) / f"{daf}.json"
+    if not raw_path.is_file():
+        raise ValueError(f"{module}/{daf}: missing primary Vilna source")
     raw = json.loads(raw_path.read_text(encoding="utf-8")).get("lines") or []
     if not raw:
-        raise ValueError(f"{module}/{daf}: no raw Vilna Hebrew")
-    daf_map = _daf_segment_map(module, daf, corpus)
-    segments = _published_source_segments(module, daf, rows, daf_map)
+        raise ValueError(f"{module}/{daf}: no primary Vilna Hebrew")
+    segments = _published_source_segments(module, daf)
+    if max(s["vilnaLineStart"] for s in segments) > len(raw):
+        raise ValueError(f"{module}/{daf}: source start beyond physical daf")
     evidence = {
         "module": module,
         "daf": daf,
         "rawHebrewLines": [{"l": i + 1, "he": line} for i, line in enumerate(raw)],
-        "publishedSourceBySugya": segments,
+        "publishedSourceSegments": segments,
     }
-    digest = hashlib.sha256(
+    evidence["sourceSnapshotSha256"] = hashlib.sha256(
         json.dumps(evidence, ensure_ascii=False, sort_keys=True, separators=(",", ":")).encode("utf-8")
     ).hexdigest()
-    evidence["sourceSnapshotSha256"] = digest
     evidence["sourcePolicy"] = {
-        "primaryAuthority": "rawHebrewLines: cached Vilna lines from talmud.dev",
-        "corroboratingReference": "he/en: cached Sefaria source_store.js; check module edition and rights",
-        "coordinates": "declared only; source boundaries must be verified from the raw daf",
+        "primaryAuthority": "rawHebrewLines: cached unvoweled Vilna Hebrew via talmud.dev",
+        "corroboratingReference": "publishedSourceSegments: cached Sefaria he/en from source_store.js",
+        "coordinates": "ordinal and Vilna start are unverified hints, not verified sugya boundaries",
         "use": "verify factual claims and attribution, not copy licensed phrasing",
-        "trust": "published English is corroboration, not a substitute for original Hebrew",
+        "trust": "published English corroborates Hebrew but cannot replace primary source review",
     }
+    # Continuity context may show the previous daf's raw Hebrew, but never
+    # that daf's generated explanations or prior campaign findings.
+    corpus = load_corpus(module)
     preceding = _preceding_daf_raw_tail(module, daf, corpus)
     if preceding is not None:
         evidence["precedingDafContext"] = preceding
