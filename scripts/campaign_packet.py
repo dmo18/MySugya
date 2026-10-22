@@ -29,6 +29,8 @@ from __future__ import annotations
 
 import argparse
 import functools
+import hashlib
+import importlib.util
 import json
 import sys
 from typing import Any, Dict, List
@@ -154,6 +156,120 @@ def _preceding_daf_raw_tail(module: str, daf: str, corpus: Dict[str, Any]) -> Di
     }
 
 
+
+
+@functools.lru_cache(maxsize=None)
+def _source_adapter(module: str):
+    """Reuse the module's existing Sefaria source adapter, not its AI enrichment.
+
+    All modules implementing source-first review must supply the same
+    load_source_daf(daf) contract as the Yoma build adapter. This operation
+    is offline; it does not fetch, modify, or regenerate any source file.
+    """
+    path = REPO / "modules" / module / "scripts" / "build_learning_data.py"
+    if not path.is_file():
+        raise ValueError(f"{module}: missing source adapter {path}")
+    spec = importlib.util.spec_from_file_location(f"_mysugya_source_{module}", path)
+    if spec is None or spec.loader is None:
+        raise ValueError(f"{module}: cannot load source adapter {path}")
+    adapter = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(adapter)
+    if not callable(getattr(adapter, "load_source_daf", None)):
+        raise ValueError(f"{module}: source adapter lacks load_source_daf(daf)")
+    return adapter
+
+
+def _js_source_string(value: str | None) -> str:
+    """Decode the exact JSON-compatible JS string escapes from source_store."""
+    if value is None:
+        return ""
+    if not isinstance(value, str):
+        raise ValueError("source text must be a string")
+    try:
+        return json.loads('"' + value + '"')
+    except json.JSONDecodeError as exc:
+        raise ValueError("invalid escaped source_store string") from exc
+
+
+def _published_source_segments(module: str, daf: str) -> List[Dict[str, Any]]:
+    """Read the whole daf in SOURCE order, not in the enriched sugya order.
+
+    The first-pass source reader must not learn where a prior AI divided
+    the page into sugyot. The cached source-store's existing layout is
+    used only to enumerate the underlying Hebrew/English source segments.
+    Segment ordinals and physical starting lines are locations to audit,
+    never verified Sefaria coordinates or semantic-boundary claims.
+    """
+    groups = _source_adapter(module).load_source_daf(daf)
+    if not isinstance(groups, list) or not groups:
+        raise ValueError(f"{module}/{daf}: no cached source groups")
+    out = []
+    last_vilna_line = 0
+    for group in groups:
+        if not isinstance(group, list) or not group:
+            raise ValueError(f"{module}/{daf}: empty or malformed cached source group")
+        for source in group:
+            if not isinstance(source, dict):
+                raise ValueError(f"{module}/{daf}: malformed cached source segment")
+            vl = source.get("vilna_line")
+            if not isinstance(vl, int) or vl < 1 or vl < last_vilna_line:
+                raise ValueError(f"{module}/{daf}: non-monotonic source line order")
+            last_vilna_line = vl
+            hebrew = _js_source_string(source.get("he"))
+            english = _js_source_string(source.get("en"))
+            if not hebrew:
+                raise ValueError(f"{module}/{daf}: empty Hebrew source segment")
+            out.append({
+                "ordinal": len(out) + 1,
+                "vilnaLineStart": vl,
+                "kind": source.get("kind"),
+                "he": hebrew,
+                "en": english,
+            })
+    return out
+
+
+def build_source_packet(module: str, daf: str) -> Dict[str, Any]:
+    """Offline source-only evidence without old sugyot, certificates or AI prose.
+
+    A reader reconstructs page meaning and boundaries from primary Hebrew
+    BEFORE a separate, later candidate packet reveals the old enrichment.
+    This is a reference for independent judgment, never automatic truth.
+    """
+    raw_path = raw_dir(module) / f"{daf}.json"
+    if not raw_path.is_file():
+        raise ValueError(f"{module}/{daf}: missing primary Vilna source")
+    raw = json.loads(raw_path.read_text(encoding="utf-8")).get("lines") or []
+    if not raw:
+        raise ValueError(f"{module}/{daf}: no primary Vilna Hebrew")
+    segments = _published_source_segments(module, daf)
+    if max(s["vilnaLineStart"] for s in segments) > len(raw):
+        raise ValueError(f"{module}/{daf}: source start beyond physical daf")
+    evidence = {
+        "module": module,
+        "daf": daf,
+        "rawHebrewLines": [{"l": i + 1, "he": line} for i, line in enumerate(raw)],
+        "publishedSourceSegments": segments,
+    }
+    evidence["sourceSnapshotSha256"] = hashlib.sha256(
+        json.dumps(evidence, ensure_ascii=False, sort_keys=True, separators=(",", ":")).encode("utf-8")
+    ).hexdigest()
+    evidence["sourcePolicy"] = {
+        "primaryAuthority": "rawHebrewLines: cached unvoweled Vilna Hebrew via talmud.dev",
+        "corroboratingReference": "publishedSourceSegments: cached Sefaria he/en from source_store.js",
+        "coordinates": "ordinal and Vilna start are unverified hints, not verified sugya boundaries",
+        "use": "verify factual claims and attribution, not copy licensed phrasing",
+        "trust": "published English corroborates Hebrew but cannot replace primary source review",
+    }
+    # Continuity context may show the previous daf's raw Hebrew, but never
+    # that daf's generated explanations or prior campaign findings.
+    corpus = load_corpus(module)
+    preceding = _preceding_daf_raw_tail(module, daf, corpus)
+    if preceding is not None:
+        evidence["precedingDafContext"] = preceding
+    return evidence
+
+
 def build_candidate_packet(module: str, daf: str) -> Dict[str, Any]:
     """Source Auditor / Independent Reviewer packet: raw source + current
     candidate only. No fingerprints, no certification state, no prior
@@ -237,10 +353,12 @@ def main() -> None:
     ap = argparse.ArgumentParser()
     ap.add_argument("--module", default="yoma")
     ap.add_argument("--daf", required=True)
-    ap.add_argument("--mode", choices=["candidate", "final-audit"], default="candidate")
+    ap.add_argument("--mode", choices=["source", "candidate", "final-audit"], default="candidate")
     ap.add_argument("--sugya", help="required for --mode final-audit")
     args = ap.parse_args()
-    if args.mode == "candidate":
+    if args.mode == "source":
+        print(json.dumps(build_source_packet(args.module, args.daf), ensure_ascii=False, separators=(",", ":")))
+    elif args.mode == "candidate":
         print(json.dumps(build_candidate_packet(args.module, args.daf), ensure_ascii=False, separators=(",", ":")))
     else:
         if not args.sugya:

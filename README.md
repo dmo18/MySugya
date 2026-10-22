@@ -54,6 +54,16 @@ Production output is written to `dist/`. Deploy `dist/` as the web root. Do not 
 
 ---
 
+## Autonomous Rabbi and source-first verification
+
+Rabbi is MySugya's autonomous project operator inside OpenClaw. GitHub holds its public operating instructions, not credentials or private runtime state. See [`docs/source-first-autonomous-development.md`](docs/source-first-autonomous-development.md) for the source-only comparison workflow and [`docs/openclaw-rabbi-recovery.md`](docs/openclaw-rabbi-recovery.md) for sanitized rebuilding and safety-stop recovery.
+
+Offline source-only daf evidence (does not certify anything or modify content):
+
+```bash
+python3 scripts/campaign_packet.py --module yoma --daf 2a --mode source
+```
+
 ## Project Structure
 
 ```text

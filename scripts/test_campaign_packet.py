@@ -192,6 +192,52 @@ def test_9_final_audit_packet_has_same_source_context_as_candidate():
         assert forbidden not in blob, f"final-audit packet leaked review/certification state: {forbidden!r}"
 
 
+def test_11_source_only_packet_uses_existing_bilingual_source():
+    from campaign_packet import build_source_packet
+    packet = build_source_packet(MODULE, "2a")
+    assert packet["module"] == "yoma"
+    assert packet["daf"] == "2a"
+    assert len(packet["sourceSnapshotSha256"]) == 64
+    segments = packet["publishedSourceSegments"]
+    assert segments and segments[0]["ordinal"] == 1
+    first = segments[0]
+    assert first["he"] and "Seven days" in first["en"], first
+    assert first["vilnaLineStart"] == 1
+    blob = json.dumps(packet, ensure_ascii=False)
+    for forbidden in ("sugyot", "sugyaId", "sourceSegmentMap", "mintedLineId",
+                      "declaredLineRange", "firstPass", "secondPass", "finalAudit",
+                      "CERTIFIED", "argumentFlow", "quizSeeds", "reviewerContextId",
+                      "The KG is sequestered"):
+        assert forbidden not in blob, forbidden
+
+
+def test_12_source_only_packet_stable_and_excludes_candidate():
+    from campaign_packet import build_source_packet
+    first = build_source_packet(MODULE, "2a")
+    second = build_source_packet(MODULE, "2a")
+    assert first["sourceSnapshotSha256"] == second["sourceSnapshotSha256"]
+    assert first == second
+    corpus = load_corpus(MODULE)
+    _, _, sugya = corpus["yoma-002a-s01"]
+    assert sugya["display"]["title"] not in json.dumps(first, ensure_ascii=False)
+    # The packet is daf-wide rather than segmented by the prior AI's sugyot.
+    assert len(first["publishedSourceSegments"]) > 2
+    assert not any("sugya" in k.lower() for k in first)
+
+
+def test_13_source_only_packet_rejects_order_corruption():
+    from unittest.mock import patch
+    from campaign_packet import _published_source_segments
+    from types import SimpleNamespace
+    fake = SimpleNamespace(load_source_daf=lambda daf: [[
+        {"vilna_line": 4, "he": "alpha", "en": "one", "kind": "gemara"},
+        {"vilna_line": 3, "he": "beta", "en": "two", "kind": "gemara"},
+    ]])
+    with patch("campaign_packet._source_adapter", return_value=fake):
+        with __import__("unittest").TestCase().assertRaises(ValueError):
+            _published_source_segments(MODULE, "2a")
+
+
 def main() -> None:
     tests = [v for k, v in sorted(globals().items()) if k.startswith("test_") and callable(v)]
     for t in tests:
