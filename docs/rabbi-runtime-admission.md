@@ -35,17 +35,30 @@ openclaw cron edit <rabbi-campaign-id> \
   --trigger-script "$HOME/.local/share/mysugya/rabbi_cron_trigger.js"
 ```
 
-Bound Rabbi's ordinary OpenClaw subagents independently from Jarvis using the per-agent overrides below, after backing up `~/.openclaw/openclaw.json` and validating the installed schema:
+### IMPORTANT: Rabbi-only Swarm limits do not bound ordinary subagents
 
-```bash
-openclaw config set agents.entries.rabbi.subagents.maxConcurrent 2 --strict-json
-openclaw config set agents.entries.rabbi.subagents.maxChildrenPerAgent 2 --strict-json
-openclaw config set agents.entries.rabbi.subagents.maxSpawnDepth 1 --strict-json
-openclaw config set agents.entries.rabbi.subagents.runTimeoutSeconds 600 --strict-json
-openclaw config validate
+**Verified against OpenClaw 2026.10.5 on 2026-10-22:** these four previously suggested per-agent paths are INVALID and must not be retried:
+
+- `agents.entries.rabbi.subagents.maxConcurrent`
+- `agents.entries.rabbi.subagents.maxChildrenPerAgent`
+- `agents.entries.rabbi.subagents.maxSpawnDepth`
+- `agents.entries.rabbi.subagents.runTimeoutSeconds`
+
+The live CLI rejected each with `Config validation failed: agents.entries.rabbi.subagents: Unrecognized key`; none of those writes was saved. OpenClaw exposes ordinary subagent concurrency, child admission, nesting depth and default timeout under **`agents.defaults.subagents`**, which can affect *all* agents including Jarvis. **Do not silently move these four settings to the global defaults**: it would violate Rabbi/Jarvis isolation. Inspect the active version's `openclaw config schema --json` before any other new key is proposed.
+
+The live CLI DID accept the Rabbi-scoped Swarm limits below, and `openclaw config validate` passed:
+
+```json
+{
+  "maxConcurrent": 2,
+  "maxChildrenPerGroup": 2,
+  "maxTotalPerGroup": 4
+}
 ```
 
-These limits apply to ordinary OpenClaw subagent spawns; they do NOT necessarily constrain Codex-native subagents, ACP workers or Swarm collector lanes. Explicit per-spawn timeouts or separate execution policies may still be required.
+They were set under `agents.entries.rabbi.tools.swarm`. Inspect with **read-only** `openclaw config get agents.entries.rabbi.tools.swarm`. Verify effective behavior in a future controlled canary: a valid saved config does not establish that the active Gateway has reloaded it.
+
+These limits apply ONLY to Swarm collector children. They do **not** cap ordinary `sessions_spawn` children, any Codex-native subagents, ACP workers, external subprocesses, or workers in independent sessions. Ordinary child execution remains a known quota-risk gap. Before enabling Rabbi, choose and verify a Rabbi-scoped permission/runner policy that bounds these launch paths, or use an operator-approved global limit after explicitly assessing Jarvis impact. A 15-minute parent cron timeout is not proof that detached workers stop.
 
 The job MUST remain disabled. Confirm via `openclaw cron get <id> --json` that it is still owned by `rabbi`, is still `enabled:false`, retains `payload.kind:agentTurn`, now has `schedule.everyMs:21600000`, `payload.timeoutSeconds:900`, explicit empty `payload.fallbacks:[]`, and a nonempty `trigger.script`. A different schema or behavior means STOP and roll back the scheduler from the private snapshot.
 
