@@ -1,6 +1,6 @@
 # OpenClaw Rabbi recovery (public, sanitized)
 
-Rabbi is a dedicated OpenClaw agent and the autonomous operator of MySugya. Jarvis is a separate agent in the same OpenClaw installation. This public file describes reproducible behavior, never the machine's private identities, server topology or credentials. See `docs/source-first-autonomous-development.md`.
+Rabbi is a dedicated OpenClaw agent and the autonomous operator of MySugya. Jarvis is a separate agent in the same OpenClaw installation. This public file describes reproducible behavior, never the machine's private identities, server topology or credentials. See `docs/source-first-autonomous-development.md`. For native pre-model provider gating, private operator authorization and bounded execution, see `docs/rabbi-runtime-admission.md`.
 
 ## Rebuild boundary
 
