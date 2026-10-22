@@ -23,6 +23,7 @@ import time
 from datetime import datetime, timezone
 from typing import Callable
 
+from rabbi_claude_quota import read_cached as read_cached_claude
 from rabbi_quota_gate import GateDenied, evaluate
 
 EXPECTED_AGENT = "rabbi"
@@ -174,11 +175,23 @@ def decide(
     ledger_file: Path,
     usage_supplier: Callable[[], dict],
     *,
+    claude_supplier: Callable[[], dict] | None = None,
     now_ms: int | None = None,
 ) -> dict:
     now_ms = now_ms if now_ms is not None else int(time.time() * 1000)
     cap = read_private_approval(approval_file)
     quota = evaluate(usage_supplier(), provider="openai", now_ms=now_ms)
+    # Claude must be green before any parent-run admission is reserved.
+    claude = (claude_supplier if claude_supplier is not None else
+              (lambda: read_cached_claude(now_ms=now_ms)))()
+    if not isinstance(claude, dict):
+        raise GateDenied("Claude quota evidence missing")
+    for field, floor in (("weeklyRemainingPercent", 35), ("sessionRemainingPercent", 30)):
+        value = claude.get(field)
+        if isinstance(value, bool) or not isinstance(value, (int, float)) or not 0 <= value <= 100:
+            raise GateDenied("Claude quota evidence invalid")
+        if value < floor:
+            raise GateDenied("Claude quota below admission floor")
     slot = reserve_admission(ledger_file, max_per_day=cap, now_ms=now_ms)
     return {
         "admitted": True,
@@ -186,6 +199,8 @@ def decide(
         "dayAdmission": slot,
         "dayAdmissionLimit": cap,
         "weeklyRemainingPercent": quota["weeklyRemainingPercent"],
+        "claudeWeeklyRemainingPercent": claude["weeklyRemainingPercent"],
+        "claudeSessionRemainingPercent": claude["sessionRemainingPercent"],
     }
 
 
