@@ -81,6 +81,12 @@ class TestQuotaRefresh(unittest.TestCase):
         with self.assertRaises(GateDenied):
             refresh.sanitize(p, now_ms=NOW)
 
+    def test_missing_short_window_fails_before_cache_write(self):
+        p = response(used=30)
+        p["usage"]["providers"][0]["windows"].pop()
+        with self.assertRaises(GateDenied):
+            refresh.sanitize(p, now_ms=NOW)
+
     def test_future_expired_and_stale_quota_refused(self):
         p = response()
         p["usage"]["updatedAt"] = NOW - 500_000

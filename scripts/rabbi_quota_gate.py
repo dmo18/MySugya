@@ -106,6 +106,10 @@ def evaluate(status: dict, *, provider: str = "openai", now_ms: int | None = Non
     if weekly_remaining - MAX_UNIT_HEADROOM_PERCENT < WEEKLY_RESERVE_PERCENT:
         raise GateDenied("weekly reserve would be endangered by bounded unit headroom")
     short = _window(windows, SHORT_LABELS, False)
+    # OpenAI Codex admission requires BOTH independent quota windows. If
+    # the short window disappears, its capacity is unknown, not unlimited.
+    if provider == "openai" and short is None:
+        raise GateDenied("OpenAI 5h quota window missing")
     short_remaining = None
     if short is not None:
         short_used = _number(short.get("usedPercent"), "5h usedPercent")

@@ -91,6 +91,8 @@ def sanitize(status: dict, *, now_ms: int | None = None) -> dict:
         sanitized.append(win)
     if "Week" not in seen_labels:
         raise GateDenied("no valid weekly window")
+    if "5h" not in seen_labels:
+        raise GateDenied("no valid OpenAI 5h window")
     return {
         "schemaVersion": 1,
         "source": SNAPSHOT_SOURCE,

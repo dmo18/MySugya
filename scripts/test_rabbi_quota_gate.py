@@ -84,6 +84,11 @@ class TestQuotaGuard(unittest.TestCase):
         self.deny(snapshot(short_used=86))
         self.check(snapshot(short_used=85))
 
+    def test_missing_short_window_is_unknown_not_healthy(self):
+        p = snapshot(week_used=40)
+        p["usage"]["providers"][0]["windows"].pop(0)
+        self.deny(p)
+
     def test_source_provider_errors_and_unknown(self):
         for val in ({"error": "Timeout"}, {"status": "unknown"}):
             p = snapshot()
