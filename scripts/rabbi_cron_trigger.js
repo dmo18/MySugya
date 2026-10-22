@@ -27,7 +27,13 @@ try {
     checked.dayAdmission >= 1 &&
     checked.dayAdmission <= 2 &&
     typeof checked.weeklyRemainingPercent === "number" &&
-    checked.weeklyRemainingPercent >= 35
+    checked.weeklyRemainingPercent >= 35 &&
+    typeof checked.claudeWeeklyRemainingPercent === "number" &&
+    checked.claudeWeeklyRemainingPercent >= 35 &&
+    checked.claudeWeeklyRemainingPercent <= 100 &&
+    typeof checked.claudeSessionRemainingPercent === "number" &&
+    checked.claudeSessionRemainingPercent >= 30 &&
+    checked.claudeSessionRemainingPercent <= 100
   ) {
     return {
       fire: true,
