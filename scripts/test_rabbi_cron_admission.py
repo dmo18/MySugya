@@ -149,5 +149,26 @@ class AdmissionTests(unittest.TestCase):
         self.deny()
 
 
+    def test_usage_cli_deadline_is_longer_than_status_deadline(self):
+        from unittest.mock import patch
+        from types import SimpleNamespace
+        import rabbi_cron_admission as admission
+        response = SimpleNamespace(returncode=0, stdout='{"usage": {"updatedAt": 1, "providers": []}}')
+        with patch("rabbi_cron_admission.subprocess.run", return_value=response) as mocked:
+            result = admission.fetch_openclaw_usage()
+        self.assertIn("usage", result)
+        args, kwargs = mocked.call_args
+        self.assertEqual(args[0][-2:], ["--timeout", "90000"])
+        self.assertGreater(kwargs["timeout"], 90)
+
+    def test_usage_probe_timeout_denies_launch(self):
+        import subprocess
+        from unittest.mock import patch
+        import rabbi_cron_admission as admission
+        err = subprocess.TimeoutExpired(cmd=["openclaw", "status"], timeout=100)
+        with patch("rabbi_cron_admission.subprocess.run", side_effect=err):
+            with self.assertRaises(GateDenied):
+                admission.fetch_openclaw_usage()
+
 if __name__ == "__main__":
     unittest.main(verbosity=2)
