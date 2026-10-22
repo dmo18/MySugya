@@ -72,6 +72,8 @@ class AdmissionTests(unittest.TestCase):
         self.deny()
         self.authorize(limit=7)
         self.deny()
+        self.authorize(limit=3)
+        self.deny()
         self.authorize()
         d = json.loads(self.approval.read_text())
         d["campaignId"] = "other-campaign"

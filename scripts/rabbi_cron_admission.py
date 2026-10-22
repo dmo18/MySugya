@@ -28,7 +28,7 @@ from rabbi_quota_gate import GateDenied, evaluate
 EXPECTED_AGENT = "rabbi"
 EXPECTED_CAMPAIGN = "mysugya-yoma-remediation"
 DEFAULT_MAX_STARTS_PER_UTC_DAY = 2
-UPPER_MAX_STARTS_PER_UTC_DAY = 6
+UPPER_MAX_STARTS_PER_UTC_DAY = 2
 
 
 def state_dir() -> Path:

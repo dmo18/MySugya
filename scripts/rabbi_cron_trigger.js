@@ -25,7 +25,7 @@ try {
     typeof checked.dayAdmission === "number" &&
     Number.isInteger(checked.dayAdmission) &&
     checked.dayAdmission >= 1 &&
-    checked.dayAdmission <= 6 &&
+    checked.dayAdmission <= 2 &&
     typeof checked.weeklyRemainingPercent === "number" &&
     checked.weeklyRemainingPercent >= 35
   ) {
