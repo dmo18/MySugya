@@ -1,0 +1,10 @@
+[Unit]
+Description=Protected MySugya Rabbi dispatch (keep disabled until approved)
+
+[Service]
+Type=oneshot
+EnvironmentFile=%h/.config/mysugya/rabbi-dispatch.env
+ExecStart=/usr/bin/python3 %h/.local/share/mysugya/rabbi_host_dispatch.py --dispatch
+TimeoutStartSec=1200
+NoNewPrivileges=true
+UMask=0077

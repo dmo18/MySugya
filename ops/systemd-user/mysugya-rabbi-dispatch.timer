@@ -1,0 +1,12 @@
+[Unit]
+Description=Four candidate Rabbi starts daily, protected by private quota and owner approval
+
+[Timer]
+OnCalendar=*-*-* 02,08,14,20:00:00 UTC
+AccuracySec=10s
+RandomizedDelaySec=0
+Persistent=false
+Unit=mysugya-rabbi-dispatch.service
+
+[Install]
+WantedBy=timers.target
