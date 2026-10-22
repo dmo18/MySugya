@@ -22,6 +22,14 @@ Use the CLI commands supported by the live installed OpenClaw version. Safe init
 
 For private runtime backups, capture configuration, identities, scheduling state and critical file checksums in encrypted storage accessible only to the operator. Restore to a disposable test environment before trusting a backup. Publicly publish only a redacted PASS/FAIL recovery test and the repository SHA.
 
+## Sanitized recovery checkpoint (2026-10-22)
+
+A live OpenClaw 2026.10.5 instance has confirmed the following without launching Rabbi: valid config; Rabbi's campaign **disabled** with a six-hour schedule, 900-second parent timeout, explicit empty model fallbacks, and a configured pre-run trigger; the private operator-approval marker is absent. The three source-controlled gate scripts have verified Git blob hashes, and private configuration/job backups were created. The old hourly AI accounting job is separately disabled. Nothing here indicates a completed scholarly canary or authorizes resumption.
+
+The live config accepted Rabbi's **Swarm collector** override at `agents.entries.rabbi.tools.swarm` (two concurrent, two live children per group, four total per group). However, the four attempted `agents.entries.rabbi.subagents` concurrency/depth/timeout fields were REJECTED as unrecognized, leaving **ordinary subagent delegation not bounded by those proposed Rabbi-only limits**. The shared `agents.defaults.subagents` controls must not be changed solely for Rabbi without checking impact on Jarvis. See `docs/rabbi-runtime-admission.md` for the corrected runbook and remaining gaps.
+
+This checkpoint records configuration observations only. The scheduler gate's live execution, actual Gateway reload, quota-parser behavior, child-spawn restrictions and Codex-native worker lifetimes still require read-only inspection and a separately approved canary.
+
 ## Automation contract
 
 Once authorized and healthy, Rabbi owns implementation, scholarly work routing, tests, PR creation, authorized merge, docs, state and cost accounting. OpenClaw provides execution, credentials and scheduling, not an additional nonautonomous assistant workflow. The controller evaluates admissibility; the OpenClaw harness executes only authorized actions. Do not claim that `scripts/autonomy_controller.py` or the current `scripts/autonomy_shadow_adapter.py` executes jobs: as documented, they currently do NOT.

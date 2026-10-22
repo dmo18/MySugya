@@ -35,17 +35,30 @@ openclaw cron edit <rabbi-campaign-id> \
   --trigger-script "$HOME/.local/share/mysugya/rabbi_cron_trigger.js"
 ```
 
-Bound Rabbi's ordinary OpenClaw subagents independently from Jarvis using the per-agent overrides below, after backing up `~/.openclaw/openclaw.json` and validating the installed schema:
+### IMPORTANT: Rabbi-only Swarm limits do not bound ordinary subagents
 
-```bash
-openclaw config set agents.entries.rabbi.subagents.maxConcurrent 2 --strict-json
-openclaw config set agents.entries.rabbi.subagents.maxChildrenPerAgent 2 --strict-json
-openclaw config set agents.entries.rabbi.subagents.maxSpawnDepth 1 --strict-json
-openclaw config set agents.entries.rabbi.subagents.runTimeoutSeconds 600 --strict-json
-openclaw config validate
+**Verified against OpenClaw 2026.10.5 on 2026-10-22:** these four previously suggested per-agent paths are INVALID and must not be retried:
+
+- `agents.entries.rabbi.subagents.maxConcurrent`
+- `agents.entries.rabbi.subagents.maxChildrenPerAgent`
+- `agents.entries.rabbi.subagents.maxSpawnDepth`
+- `agents.entries.rabbi.subagents.runTimeoutSeconds`
+
+The live CLI rejected each with `Config validation failed: agents.entries.rabbi.subagents: Unrecognized key`; none of those writes was saved. OpenClaw exposes ordinary subagent concurrency, child admission, nesting depth and default timeout under **`agents.defaults.subagents`**, which can affect *all* agents including Jarvis. **Do not silently move these four settings to the global defaults**: it would violate Rabbi/Jarvis isolation. Inspect the active version's `openclaw config schema --json` before any other new key is proposed.
+
+The live CLI DID accept the Rabbi-scoped Swarm limits below, and `openclaw config validate` passed:
+
+```json
+{
+  "maxConcurrent": 2,
+  "maxChildrenPerGroup": 2,
+  "maxTotalPerGroup": 4
+}
 ```
 
-These limits apply to ordinary OpenClaw subagent spawns; they do NOT necessarily constrain Codex-native subagents, ACP workers or Swarm collector lanes. Explicit per-spawn timeouts or separate execution policies may still be required.
+They were set under `agents.entries.rabbi.tools.swarm`. Inspect with **read-only** `openclaw config get agents.entries.rabbi.tools.swarm`. Verify effective behavior in a future controlled canary: a valid saved config does not establish that the active Gateway has reloaded it.
+
+These limits apply ONLY to Swarm collector children. They do **not** cap ordinary `sessions_spawn` children, any Codex-native subagents, ACP workers, external subprocesses, or workers in independent sessions. Ordinary child execution remains a known quota-risk gap. Before enabling Rabbi, choose and verify a Rabbi-scoped permission/runner policy that bounds these launch paths, or use an operator-approved global limit after explicitly assessing Jarvis impact. A 15-minute parent cron timeout is not proof that detached workers stop.
 
 The job MUST remain disabled. Confirm via `openclaw cron get <id> --json` that it is still owned by `rabbi`, is still `enabled:false`, retains `payload.kind:agentTurn`, now has `schedule.everyMs:21600000`, `payload.timeoutSeconds:900`, explicit empty `payload.fallbacks:[]`, and a nonempty `trigger.script`. A different schema or behavior means STOP and roll back the scheduler from the private snapshot.
 
@@ -67,7 +80,9 @@ Once the existing operator-stop reason is resolved and recorded, post-merge test
 
 The gate refuses absent, malformed, symlinked, weak-permission, mismatched or unauthorized markers. Remove this file and disable the automation immediately when the operator stops the campaign. Never commit it.
 
-The gate's private ledger is `~/.local/state/mysugya/rabbi-admissions.json`, with mode `0600`; it reserves an admission slot BEFORE the model is launched. A failed model run still uses that slot. Corrupt or future-dated state blocks further admission. Zero new work until the next UTC date is an acceptable failure mode; don't reset this ledger to evade caps.
+The gate's private ledger is `~/.local/state/mysugya/rabbi-admissions.json`, with mode `0600`; it reserves an admission slot BEFORE the model is launched.
+
+**Permission boundary caveat:** `0600` protects these files from *other Unix users* but does not protect them from Rabbi if its shell tools run as the same operating-system user as the OpenClaw Gateway. A shell-capable Rabbi process could modify the approval file or admission ledger or use a forced cron command. These checks are valuable against accidental scheduler starts, but they are **NOT a tamper-resistant model-spending cap**. Before authorizing production autonomy, enforce a separate OS/sandbox identity or owner-only launch/control boundary that Rabbi cannot modify, and verify the effective `exec`, `cron`, `gateway` and `sessions_spawn` policies. A `tools.deny` entry alone cannot inspect what commands an allowed shell `exec` performs. Do not assume private paths are isolated just because the files have restrictive permissions. A failed model run still uses that slot. Corrupt or future-dated state blocks further admission. Zero new work until the next UTC date is an acceptable failure mode; don't reset this ledger to evade caps.
 
 To diagnose without invoking Rabbi: `python3 ~/.local/share/mysugya/rabbi_cron_admission.py`. It will return `{"admitted":false}` with a reason when unapproved or quota-blocked. **Warning:** with an actual authorization marker and sufficient quota, that command reserves a daily start even though it does not run a model; normally inspect with the cheaper `python3 ~/.local/share/mysugya/rabbi_quota_gate.py` and `openclaw cron get` until fully ready. Do not use the admission script as a high-frequency monitor.
 
