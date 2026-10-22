@@ -126,15 +126,18 @@ def evaluate(status: dict, *, provider: str = "openai", now_ms: int | None = Non
     }
 
 
-def current_status(*, timeout_seconds: int = 55) -> dict:
+def current_status(*, timeout_seconds: int = 100) -> dict:
     """Obtain fresh quota telemetry without starting any model turn."""
-    proc = subprocess.run(
-        ["openclaw", "status", "--usage", "--agent", "rabbi", "--json"],
-        capture_output=True,
-        text=True,
-        timeout=timeout_seconds,
-        check=False,
-    )
+    try:
+        proc = subprocess.run(
+            ["openclaw", "status", "--usage", "--agent", "rabbi", "--json", "--timeout", "90000"],
+            capture_output=True,
+            text=True,
+            timeout=timeout_seconds,
+            check=False,
+        )
+    except subprocess.TimeoutExpired as exc:
+        raise GateDenied("OpenClaw usage probe timed out; admission denied") from exc
     if proc.returncode != 0:
         raise GateDenied("OpenClaw provider usage query failed")
     try:
