@@ -192,6 +192,44 @@ def test_9_final_audit_packet_has_same_source_context_as_candidate():
         assert forbidden not in blob, f"final-audit packet leaked review/certification state: {forbidden!r}"
 
 
+def test_11_source_only_packet_uses_existing_bilingual_source():
+    from campaign_packet import build_source_packet
+    packet = build_source_packet(MODULE, "2a")
+    assert packet["module"] == "yoma"
+    assert packet["daf"] == "2a"
+    assert len(packet["sourceSnapshotSha256"]) == 64
+    segments = packet["publishedSourceBySugya"]
+    assert segments and segments[0]["sugyaId"] == "yoma-002a-s01"
+    first = segments[0]["segments"][0]
+    assert first["declaredSefariaRef"] == "Yoma.2a.1"
+    assert "Seven days" in first["en"], first["en"][:100]
+    assert first["he"] and first["mintedLineId"]
+    blob = json.dumps(packet, ensure_ascii=False)
+    for forbidden in ("firstPass", "secondPass", "finalAudit", "CERTIFIED",
+                      "argumentFlow", "quizSeeds", "reviewerContextId"):
+        assert forbidden not in blob, forbidden
+
+
+def test_12_source_only_packet_independent_of_authored_text():
+    from campaign_packet import build_source_packet
+    from semantic_certification import load_corpus
+    corpus = load_corpus(MODULE)
+    _, doc, sugya = corpus["yoma-002a-s01"]
+    original = sugya["display"]["title"]
+    try:
+        initial = build_source_packet(MODULE, "2a")["sourceSnapshotSha256"]
+        sugya["display"]["title"] = "INTENTIONALLY WRONG ENRICHMENT"
+        assert build_source_packet(MODULE, "2a")["sourceSnapshotSha256"] == initial
+    finally:
+        sugya["display"]["title"] = original
+
+
+def test_13_source_only_packet_rejects_alignment_mismatch():
+    from campaign_packet import _published_source_segments
+    with __import__("unittest").TestCase().assertRaises(ValueError):
+        _published_source_segments("yoma", "2a", [], [])
+
+
 def main() -> None:
     tests = [v for k, v in sorted(globals().items()) if k.startswith("test_") and callable(v)]
     for t in tests:
