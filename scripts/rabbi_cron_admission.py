@@ -2,7 +2,7 @@
 """Headless admission gate for the Rabbi OpenClaw scheduler condition script.
 
 NOT an agent turn. Checks an explicit PRIVATE operator approval file, the
-live OpenClaw provider quota and a private UTC-day admission counter, then
+cached, freshly refreshed OpenClaw provider quota and a private UTC-day admission counter, then
 reserves ONE launch. Exit nonzero / print admitted:false on any ambiguity.
 
 The scheduler must install scripts/rabbi_cron_trigger.js and use ordinary
@@ -18,7 +18,6 @@ import json
 import os
 from pathlib import Path
 import stat
-import subprocess
 import sys
 import time
 from datetime import datetime, timezone
@@ -30,8 +29,6 @@ EXPECTED_AGENT = "rabbi"
 EXPECTED_CAMPAIGN = "mysugya-yoma-remediation"
 DEFAULT_MAX_STARTS_PER_UTC_DAY = 2
 UPPER_MAX_STARTS_PER_UTC_DAY = 6
-MAX_STATUS_TIMEOUT_MS = 90000
-SUBPROCESS_TIMEOUT_SECONDS = 100
 
 
 def state_dir() -> Path:
@@ -71,22 +68,54 @@ def read_private_approval(path: Path) -> int:
     return limit
 
 
-def fetch_openclaw_usage() -> dict:
+def snapshot_path() -> Path:
+    return state_dir() / "rabbi-quota-snapshot.json"
+
+
+def read_cached_quota(path: Path | None = None, *, now_ms: int | None = None) -> dict:
+    """Fast, fail-closed quota read; NEVER calls OpenClaw or a provider.
+
+    The refresh worker owns acquisition of Rabbi-scoped provider evidence
+    well before cron is due. This function must fit inside the scheduler's
+    30-second native trigger evaluation budget.
+    """
+    from rabbi_quota_gate import CLOCK_SKEW_MS, MAX_SNAPSHOT_AGE_MS
+    from rabbi_quota_refresh import SNAPSHOT_SOURCE
+
+    path = snapshot_path() if path is None else path
+    now_ms = int(time.time() * 1000) if now_ms is None else now_ms
     try:
-        proc = subprocess.run(
-            ["openclaw", "status", "--usage", "--agent", EXPECTED_AGENT,
-             "--json", "--timeout", str(MAX_STATUS_TIMEOUT_MS)],
-            capture_output=True, text=True, check=False,
-            timeout=SUBPROCESS_TIMEOUT_SECONDS,
-        )
-    except (OSError, subprocess.TimeoutExpired) as exc:
-        raise GateDenied("OpenClaw usage probe unavailable") from exc
-    if proc.returncode:
-        raise GateDenied("OpenClaw usage probe failed")
+        parent = path.parent.stat()
+        item = path.lstat()
+    except (OSError, ValueError) as exc:
+        raise GateDenied("cached Rabbi quota snapshot absent") from exc
+    if parent.st_uid != os.getuid() or parent.st_mode & 0o077:
+        raise GateDenied("cached quota directory permissions unsafe")
+    if not stat.S_ISREG(item.st_mode) or item.st_uid != os.getuid() or item.st_mode & 0o077:
+        raise GateDenied("cached quota snapshot permissions unsafe")
+    if item.st_size < 10 or item.st_size > 4096:
+        raise GateDenied("cached quota snapshot size invalid")
     try:
-        return json.loads(proc.stdout)
-    except json.JSONDecodeError as exc:
-        raise GateDenied("OpenClaw usage probe emitted invalid JSON") from exc
+        with path.open("r", encoding="utf-8") as f:
+            data = json.load(f)
+    except (OSError, ValueError) as exc:
+        raise GateDenied("cached quota snapshot invalid JSON") from exc
+    if not isinstance(data, dict) or set(data) != {
+        "schemaVersion", "source", "collectedAtMs", "payload"
+    }:
+        raise GateDenied("cached quota snapshot schema mismatch")
+    if data["schemaVersion"] != 1 or data["source"] != SNAPSHOT_SOURCE:
+        raise GateDenied("cached quota snapshot source mismatch")
+    timestamp = data["collectedAtMs"]
+    if isinstance(timestamp, bool) or not isinstance(timestamp, int):
+        raise GateDenied("cached quota snapshot collection time invalid")
+    if timestamp > now_ms + CLOCK_SKEW_MS or now_ms - timestamp > MAX_SNAPSHOT_AGE_MS:
+        raise GateDenied("cached quota snapshot expired")
+    if not isinstance(data["payload"], dict):
+        raise GateDenied("cached quota snapshot payload invalid")
+    # The normal evidence evaluator separately checks provider identity,
+    # 35% floor, weekly reserve, source updatedAt and 5h capacity.
+    return data["payload"]
 
 
 def reserve_admission(path: Path, *, max_per_day: int, now_ms: int) -> int:
@@ -164,9 +193,10 @@ def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument("--approval", type=Path, default=approval_path())
     ap.add_argument("--ledger", type=Path, default=ledger_path())
+    ap.add_argument("--quota-snapshot", type=Path, default=snapshot_path())
     args = ap.parse_args()
     try:
-        result = decide(args.approval, args.ledger, fetch_openclaw_usage)
+        result = decide(args.approval, args.ledger, lambda: read_cached_quota(args.quota_snapshot))
     except (GateDenied, OSError, ValueError) as exc:
         print(json.dumps({"admitted": False, "reason": str(exc)}, sort_keys=True))
         return 3
