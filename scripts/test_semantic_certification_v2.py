@@ -873,6 +873,105 @@ def test_31_invalid_migration_manifest_is_never_active():
         _restore_worker_manifest(*ctx)
 
 
+GOOD_CONTINUITY = {"continuesFromPreviousAmud": True, "previousAmud": "41b", "startVilnaLine": 1, "endVilnaLine": 3,
+                   "justification": "the dispute on 41b continues: 42a line 1 answers the question asked there"}
+
+
+def _context_case(path_pick, cite_daf, note, start=None, continuity="default", role="auto", lines=(1, 2), extra_line=None,
+                  background_only=True):
+    """Build a 42a-s01 audit where one field cites another amud as continuation context."""
+    daf, doc, sugya = load_target()
+    doc2 = copy.deepcopy(doc)
+    sugya2 = next(s for s in doc2["sugyot"] if s["id"] == SID)
+    if start is not None:
+        sugya2["lineRange"] = dict(sugya2["lineRange"], startVilnaLine=start)
+    audit = clean_audit(MODULE, daf, doc2, sugya2)
+    if continuity == "default":
+        audit["continuity"] = dict(GOOD_CONTINUITY)
+    elif continuity is not None:
+        audit["continuity"] = continuity
+    idx = next(i for i, e in enumerate(audit["fieldInventory"]) if path_pick(e["path"]) and e["verdict"] == "SUPPORTED")
+    path = audit["fieldInventory"][idx]["path"]
+    sl = [{"daf": cite_daf, "startVilnaLine": lines[0], "endVilnaLine": lines[1]}]
+    if extra_line:
+        sl.append(extra_line)
+    entry = {"path": path, "verdict": "SUPPORTED", "boundarySafe": True, "crossReference": True, "supportingLines": sl}
+    if role == "auto":
+        entry["supportRole"] = "speaker" if path.endswith(".speaker") else "background"
+        if not path.endswith(".speaker") and background_only is not None:
+            entry["backgroundOnly"] = background_only
+    elif role is not None:
+        entry["supportRole"] = role
+    if note is not None:
+        entry["note"] = note
+    audit["fieldInventory"][idx] = entry
+    rec = build_certified(MODULE, daf, doc2, sugya2, audit)
+    return certificate_status(MODULE, daf, doc2, sugya2, rec)
+
+
+SPEAKER = lambda p: p.startswith("argumentFlow[") and p.endswith(".speaker")
+PREREQ = lambda p: p.startswith("prerequisiteKnowledge[")
+
+
+def test_32_context_crossreference_speaker_and_prerequisite_from_previous_amud():
+    """Owner-approved narrow rule: with a reviewed continuity determination, a line-1 sugya may cite the
+    immediately preceding amud for a step speaker or a background prerequisite."""
+    for pick in (SPEAKER, PREREQ):
+        state, problems = _context_case(pick, "41b", "the speaker is named on 41b where the argument begins")
+        assert state == "CERTIFIED", problems
+
+
+def test_33_context_crossreference_refused_for_other_fields():
+    """Conclusions and other local claims never get the context rule, even with a continuity determination."""
+    for pick in (lambda p: p.startswith("learning."), lambda p: p == "finalRuling" or p.startswith("display.")):
+        state, problems = _context_case(pick, "41b", "continuity note", role="background")
+        assert state != "CERTIFIED" and any("crossReference is not permitted" in p for p in problems), problems
+
+
+def test_34_context_crossreference_only_immediately_preceding_amud():
+    for d in ("41a", "42b"):
+        state, problems = _context_case(PREREQ, d, "continuity note")
+        assert state != "CERTIFIED", problems
+
+
+def test_35_context_crossreference_requires_note_role_and_continuity():
+    for note in (None, "", "   "):
+        assert _context_case(PREREQ, "41b", note)[0] != "CERTIFIED"
+    # a line-1 sugya WITHOUT an established continuity determination cannot use the rule
+    assert _context_case(PREREQ, "41b", "continuity note", continuity=None)[0] != "CERTIFIED"
+    # an irrelevant or weak justification, a false flag, or the wrong amud invalidates it
+    for bad in (dict(GOOD_CONTINUITY, justification="x"), dict(GOOD_CONTINUITY, continuesFromPreviousAmud=False),
+                dict(GOOD_CONTINUITY, previousAmud="41a"), dict(GOOD_CONTINUITY, endVilnaLine=999)):
+        assert _context_case(PREREQ, "41b", "continuity note", continuity=bad)[0] != "CERTIFIED", bad
+    # the role must be declared and must match the field kind; 'conclusion' is never a context role
+    for role in (None, "conclusion", "speaker"):
+        assert _context_case(PREREQ, "41b", "continuity note", role=role)[0] != "CERTIFIED", role
+    assert _context_case(SPEAKER, "41b", "continuity note", role="background")[0] != "CERTIFIED"
+
+
+def test_38_mixed_prerequisite_cannot_use_the_context_rule():
+    """A prerequisite that is not attested background-only (e.g. it also asserts a conclusion about this sugya)
+    cannot be supported by the previous amud alone: it must be split and the claim supported locally."""
+    for bo in (None, False, "yes"):
+        assert _context_case(PREREQ, "41b", "continuity note", background_only=bo)[0] != "CERTIFIED", bo
+
+
+def test_36_context_crossreference_requires_sugya_starting_at_line_1():
+    state, problems = _context_case(PREREQ, "41b", "continuity note", start=2)
+    assert state != "CERTIFIED", problems
+
+
+def test_37_context_crossreference_lines_must_exist_and_lie_in_the_continuity_range():
+    # outside the declared continuity lines
+    assert _context_case(PREREQ, "41b", "continuity note", lines=(5, 6))[0] != "CERTIFIED"
+    # nonexistent lines on the preceding amud
+    assert _context_case(PREREQ, "41b", "continuity note", lines=(500, 501),
+                         continuity=dict(GOOD_CONTINUITY, endVilnaLine=3))[0] != "CERTIFIED"
+    # mixed references: one context line plus a line on another amud
+    assert _context_case(PREREQ, "41b", "continuity note",
+                         extra_line={"daf": "40a", "startVilnaLine": 1, "endVilnaLine": 1})[0] != "CERTIFIED"
+
+
 def main() -> None:
     tests = [v for k, v in sorted(globals().items()) if k.startswith("test_") and callable(v)]
     for t in tests:

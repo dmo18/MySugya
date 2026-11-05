@@ -232,6 +232,90 @@ def _known_sugya_ids(module: str) -> frozenset:
 # validate_source_refs.py) are not restricted by this set at all.
 CROSS_REFERENCE_ALLOWED_SEMANTIC_TOP_KEYS = {"relatedSugyot"}
 
+# Narrow continuation-context rule (approved by the project owner, Nov 2026).
+# When a sugya's argument actually continues from the previous amud, its
+# speaker or background may be named only there. Then, and only then, two
+# kinds of claim may cite the IMMEDIATELY PRECEDING amud:
+#   - an argumentFlow step's `speaker` (supportRole "speaker"),
+#   - a `prerequisiteKnowledge` item used as background (supportRole "background").
+# Requirements (all fail closed):
+#   1. the sugya starts at line 1 (necessary, not sufficient);
+#   2. finalAudit.continuity is the auditor's explicit, reviewed determination:
+#      {"continuesFromPreviousAmud": true, "previousAmud": <the preceding amud>,
+#       "startVilnaLine": s, "endVilnaLine": e (real lines of that amud where the
+#       continued argument is found), "justification": "<at least 30 characters>"};
+#   3. every supporting line of the entry lies on that amud inside s-e;
+#   4. the entry declares the matching supportRole and a nonblank note; a background entry also attests
+#      backgroundOnly: true (an item mixing background with a local claim must be split, never waived).
+# Conclusions, rulings, summaries, quiz answers and every other local claim still
+# need support on the sugya's own lines. The validator enforces the declared roles;
+# whether a prerequisite is truly background is the auditor's reviewed judgment,
+# exactly like every other SUPPORTED verdict.
+CONTEXT_CROSS_REFERENCE_PATHS = (
+    (re.compile(r"^argumentFlow\[[^\]]+\]\.speaker$"), "speaker"),
+    (re.compile(r"^prerequisiteKnowledge\[\d+\]$"), "background"),
+)
+
+
+def previous_amud(daf: str) -> str | None:
+    m = re.fullmatch(r"(\d+)([ab])", daf or "")
+    if not m:
+        return None
+    n, side = int(m.group(1)), m.group(2)
+    if side == "b":
+        return f"{n}a"
+    return f"{n - 1}b" if n > 2 else None
+
+
+def validate_continuity(module: str, daf: str, continuity: Any) -> Tuple[Dict[str, Any] | None, list[str]]:
+    """The auditor's continuity determination, or (None, problems) if absent/invalid. Absent is not a problem
+    by itself; it only means the context rule is unavailable."""
+    if continuity is None:
+        return None, []
+    p: list[str] = []
+    prev = previous_amud(daf)
+    if not isinstance(continuity, dict):
+        return None, ["finalAudit.continuity must be an object"]
+    if continuity.get("continuesFromPreviousAmud") is not True:
+        p.append("finalAudit.continuity.continuesFromPreviousAmud must be true when present")
+    if not prev or continuity.get("previousAmud") != prev:
+        p.append(f"finalAudit.continuity.previousAmud must be the immediately preceding amud {prev!r}")
+    s, e = continuity.get("startVilnaLine"), continuity.get("endVilnaLine")
+    raw_prev = []
+    if prev:
+        rp = raw_dir(module) / f"{prev}.json"
+        raw_prev = json.loads(rp.read_text(encoding="utf-8")).get("lines") or [] if rp.exists() else []
+    if not (isinstance(s, int) and isinstance(e, int) and not isinstance(s, bool) and not isinstance(e, bool)
+            and 1 <= s <= e <= len(raw_prev)):
+        p.append("finalAudit.continuity line range must be real lines of the preceding amud")
+    j = continuity.get("justification")
+    if not isinstance(j, str) or len(j.strip()) < 30:
+        p.append("finalAudit.continuity.justification must state the continuity (at least 30 characters)")
+    return (None if p else continuity), p
+
+
+def context_cross_reference_permitted(path: str, path_class: str | None, daf: str, lr_start: Any,
+                                      entry: Dict[str, Any], continuity: Dict[str, Any] | None) -> bool:
+    """True only for the narrow continuation-context case described above."""
+    if path_class != "SEMANTIC" or continuity is None or lr_start != 1:
+        return False
+    role = next((r for pat, r in CONTEXT_CROSS_REFERENCE_PATHS if pat.match(path)), None)
+    if role is None or entry.get("supportRole") != role:
+        return False
+    note = entry.get("note")
+    if not isinstance(note, str) or not note.strip():
+        return False
+    # A background prerequisite must be attested as background ONLY: an item that mixes background with a
+    # claim about this sugya must be split (the claim then needs local support) and can never use this rule.
+    if role == "background" and entry.get("backgroundOnly") is not True:
+        return False
+    lines = entry.get("supportingLines")
+    s, e = continuity["startVilnaLine"], continuity["endVilnaLine"]
+    return isinstance(lines, list) and bool(lines) and all(
+        isinstance(i, dict) and i.get("daf") == continuity["previousAmud"]
+        and isinstance(i.get("startVilnaLine"), int) and isinstance(i.get("endVilnaLine"), int)
+        and s <= i["startVilnaLine"] <= i["endVilnaLine"] <= e for i in lines)
+
 # Fixed, mechanically-enumerated stale-content failure modes every finalAudit
 # must explicitly attest to (found: true/false) before a record can certify.
 # This is deliberately a closed checklist, not free text: the validator can
@@ -586,6 +670,9 @@ def validate_final_audit(
             raw_line_cache[target_daf] = json.loads(p.read_text(encoding="utf-8")).get("lines") or [] if p.exists() else []
         return raw_line_cache[target_daf]
 
+    continuity, continuity_problems = validate_continuity(module, daf, final_audit.get("continuity"))
+    problems.extend(continuity_problems)
+
     seen_paths: list[str] = []
     for entry in inventory:
         if not isinstance(entry, dict):
@@ -672,6 +759,7 @@ def validate_final_audit(
         cross_ref_permitted = (
             path_class == "STRUCTURAL"
             or (path_class == "SEMANTIC" and path_top_key in CROSS_REFERENCE_ALLOWED_SEMANTIC_TOP_KEYS)
+            or context_cross_reference_permitted(path, path_class, daf, lr_start, entry, continuity)
         )
         if cross_ref and not cross_ref_permitted:
             problems.append(

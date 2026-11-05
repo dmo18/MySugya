@@ -157,6 +157,34 @@ against the live raw source of the *cited* daf -- a target daf/range that
 does not actually exist still fails. Any `REPAIR_REQUIRED`/`BLOCKED` verdict
 in the inventory means the record is not ready to certify at all.
 
+### Narrow continuation-context rule (owner-approved, Nov 2026)
+
+When a sugya's argument actually continues from the previous amud, its speaker
+or background may be named only there. Then, and only then, two kinds of claim
+may cite the IMMEDIATELY PRECEDING amud as `crossReference: true` support:
+an argumentFlow step's `speaker` (`supportRole: "speaker"`) and a
+`prerequisiteKnowledge` item used as background (`supportRole: "background"`).
+
+All of these are required, and the check fails closed:
+
+- the sugya starts at line 1 (necessary, not sufficient);
+- `finalAudit.continuity` holds the auditor's explicit, reviewed determination:
+  `continuesFromPreviousAmud: true`, `previousAmud` (the preceding amud),
+  `startVilnaLine`/`endVilnaLine` (real lines of that amud where the continued
+  argument is found) and a `justification` of at least 30 characters;
+- every supporting line of the entry lies inside that range on that amud;
+- the entry declares the matching `supportRole` and a nonblank `note`; a
+  background entry also attests `backgroundOnly: true`. An item that mixes
+  background with a claim about this sugya must be split, and the claim then
+  needs support on the sugya's own lines.
+
+Conclusions, rulings, summaries, quiz answers and every other local claim still
+need support on the sugya's own lines. The validator enforces the declared roles;
+whether a prerequisite is genuinely background is the auditor's reviewed
+judgment, like every SUPPORTED verdict. See `validate_continuity` and
+`context_cross_reference_permitted` in `scripts/semantic_certification.py` and
+tests 32-37 in `scripts/test_semantic_certification_v2.py`.
+
 ### Absolute physical daf-boundary contract
 
 `finalAudit.dafBoundary` records `rawLineCount` and `finalRawLine`, both
