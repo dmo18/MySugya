@@ -182,6 +182,9 @@ def main() -> None:
             "boundaryLeakageSweep": payload.get("boundaryLeakageSweep"),
             "staleContentSweep": payload.get("staleContentSweep"),
         }
+        if payload.get("continuity") is not None:
+            # optional: the auditor's continuation-context determination (see semantic_certification)
+            final_audit["continuity"] = payload.get("continuity")
 
         problems = validate_final_audit(
             module, daf, doc, sugya, source_fp, semantic_fp, final_audit,
