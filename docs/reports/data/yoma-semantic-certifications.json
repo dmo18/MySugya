@@ -132063,6 +132063,5058 @@
         }
       },
       "certifiedAtCommit": "b6e20761ff4842e31a3cc2e8a0d91fcd31009f23"
+    },
+    "yoma-15b-s01": {
+      "sugyaId": "yoma-15b-s01",
+      "daf": "15b",
+      "state": "CERTIFIED",
+      "firstPass": {
+        "reviewId": "claude-claude-sonnet-5-yoma-15b-s01-first-3716a961ee",
+        "reviewerContextId": "llm-task-anthropic-claude-sonnet-5-yoma-15b-s01-first-3716a961ee",
+        "sourceFirst": true,
+        "verdict": "VERIFIED",
+        "reviewedSourceFingerprint": "7d626c27a82a0f04d7c78d754a70131fb37a18f0cae42bff27de8f1ff6754256",
+        "reviewedSemanticFingerprint": "840c8b90aad37e0e8d46c2e77c794ee125658289782b11a988ff7536faae9f8b",
+        "evidence": {
+          "answer": {
+            "sugyaId": "yoma-15b-s01",
+            "verdict": "VERIFIED",
+            "evidence": "The line states tohoro refers to the top of the altar itself (agufei demizbeach), proven from the verse 'u'ch'etzem hashamayim latohar' - like the very sky for purity - comparing the altar's exposed upper surface to the sky.",
+            "defects": [],
+            "dafSummaryVerdict": "VERIFIED",
+            "boundaryVerdict": "VERIFIED"
+          },
+          "run": "yoma-15b-s01-first-3716a961ee"
+        }
+      },
+      "sourceFingerprint": "7d626c27a82a0f04d7c78d754a70131fb37a18f0cae42bff27de8f1ff6754256",
+      "semanticFingerprint": "840c8b90aad37e0e8d46c2e77c794ee125658289782b11a988ff7536faae9f8b",
+      "secondPass": {
+        "reviewId": "claude-claude-sonnet-5-yoma-15b-s01-second-e8276d0762",
+        "reviewerContextId": "llm-task-anthropic-claude-sonnet-5-yoma-15b-s01-second-e8276d0762",
+        "sourceFirst": true,
+        "verdict": "CONFIRMED",
+        "reviewedSourceFingerprint": "7d626c27a82a0f04d7c78d754a70131fb37a18f0cae42bff27de8f1ff6754256",
+        "reviewedSemanticFingerprint": "840c8b90aad37e0e8d46c2e77c794ee125658289782b11a988ff7536faae9f8b",
+        "evidence": {
+          "answer": {
+            "sugyaId": "yoma-15b-s01",
+            "verdict": "CONFIRMED",
+            "evidence": "The Hebrew states that tohoro refers to the altar's own body (agufei demizbe'ach), proven from 'ukh'etzem hashamayim latohor' comparing the altar's top to the clarity of the sky, matching the enrichment's claim that Rabba bar Sheila fixes tohoro as the exposed top surface.",
+            "defects": [],
+            "dafSummaryVerdict": "CONFIRMED",
+            "boundaryVerdict": "CONFIRMED"
+          },
+          "run": "yoma-15b-s01-second-e8276d0762"
+        }
+      },
+      "finalAudit": {
+        "reviewId": "claude-claude-sonnet-5-yoma-15b-s01-final-0f3c4cb1f3",
+        "auditorContextId": "llm-task-anthropic-claude-sonnet-5-yoma-15b-s01-final-p1-0f3c4cb1f3",
+        "auditedSourceFingerprint": "7d626c27a82a0f04d7c78d754a70131fb37a18f0cae42bff27de8f1ff6754256",
+        "auditedSemanticFingerprint": "840c8b90aad37e0e8d46c2e77c794ee125658289782b11a988ff7536faae9f8b",
+        "dafBoundary": {
+          "rawLineCount": 31,
+          "finalRawLine": "דרומית",
+          "dafEndState": "MID_ARGUMENT"
+        },
+        "fieldInventory": [
+          {
+            "path": "lineRange",
+            "verdict": "NONFACTUAL",
+            "crossReference": false,
+            "boundarySafe": true
+          },
+          {
+            "path": "lines",
+            "verdict": "NONFACTUAL",
+            "crossReference": false,
+            "boundarySafe": true
+          },
+          {
+            "path": "dafLevel.glossary[0].en",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "15b",
+                "startVilnaLine": 1,
+                "endVilnaLine": 2
+              }
+            ],
+            "boundarySafe": true,
+            "note": "matches Exodus 24:10 proof for tohoro; resolved here, no dependency on later amud"
+          },
+          {
+            "path": "dafLevel.glossary[0].he",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "15b",
+                "startVilnaLine": 1,
+                "endVilnaLine": 2
+              }
+            ],
+            "boundarySafe": true,
+            "note": "cognate root לטהר appears here; lemma form used in glossary, resolved within this sugya"
+          },
+          {
+            "path": "dafLevel.glossary[0].translit",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "15b",
+                "startVilnaLine": 1,
+                "endVilnaLine": 2
+              }
+            ],
+            "boundarySafe": true,
+            "note": "transliteration of the resolved term; stands independent of next amud"
+          },
+          {
+            "path": "dafLevel.glossary[1].en",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "15b",
+                "startVilnaLine": 7,
+                "endVilnaLine": 9
+              }
+            ],
+            "boundarySafe": true,
+            "note": "yesod's absence at the southeast corner is explained; self-contained fact"
+          },
+          {
+            "path": "dafLevel.glossary[1].he",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "15b",
+                "startVilnaLine": 8,
+                "endVilnaLine": 8
+              }
+            ],
+            "boundarySafe": true,
+            "note": "יסוד appears; self-contained fact not affected by later amud"
+          },
+          {
+            "path": "dafLevel.glossary[1].translit",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "15b",
+                "startVilnaLine": 8,
+                "endVilnaLine": 8
+              }
+            ],
+            "boundarySafe": true,
+            "note": "transliteration matches; self-contained fact not affected by later amud"
+          },
+          {
+            "path": "dafLevel.glossary[2].en",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "15b",
+                "startVilnaLine": 20,
+                "endVilnaLine": 21
+              },
+              {
+                "daf": "15b",
+                "startVilnaLine": 26,
+                "endVilnaLine": 30
+              }
+            ],
+            "boundarySafe": true,
+            "note": "states both mishnaic placements accurately; the contradiction is left open here, not resolved"
+          },
+          {
+            "path": "dafLevel.glossary[2].he",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "15b",
+                "startVilnaLine": 20,
+                "endVilnaLine": 20
+              }
+            ],
+            "boundarySafe": true,
+            "note": "לשכת הטלאים appears; the term stands regardless of the later resolution"
+          },
+          {
+            "path": "dafLevel.glossary[2].translit",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "15b",
+                "startVilnaLine": 20,
+                "endVilnaLine": 20
+              }
+            ],
+            "boundarySafe": true,
+            "note": "transliteration matches; the term stands regardless of the later resolution"
+          },
+          {
+            "path": "dafLevel.summary",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "15b",
+                "startVilnaLine": 1,
+                "endVilnaLine": 2
+              },
+              {
+                "daf": "15b",
+                "startVilnaLine": 7,
+                "endVilnaLine": 9
+              },
+              {
+                "daf": "15b",
+                "startVilnaLine": 14,
+                "endVilnaLine": 19
+              },
+              {
+                "daf": "15b",
+                "startVilnaLine": 20,
+                "endVilnaLine": 30
+              }
+            ],
+            "boundarySafe": true,
+            "note": "summarizes all four steps accurately without asserting 16a's resolution"
+          },
+          {
+            "path": "argumentFlow[step-01].id",
+            "verdict": "NONFACTUAL",
+            "crossReference": false,
+            "boundarySafe": true
+          },
+          {
+            "path": "argumentFlow[step-01].label",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "15b",
+                "startVilnaLine": 1,
+                "endVilnaLine": 2
+              }
+            ],
+            "boundarySafe": true,
+            "note": "resolved within this sugya, no claim about later unresolved sugyot"
+          },
+          {
+            "path": "argumentFlow[step-01].sourceRefs[0].lineId",
+            "verdict": "NONFACTUAL",
+            "crossReference": false,
+            "boundarySafe": true
+          },
+          {
+            "path": "argumentFlow[step-01].sourceRefs[0].note",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "15b",
+                "startVilnaLine": 1,
+                "endVilnaLine": 2
+              }
+            ],
+            "boundarySafe": true,
+            "note": "resolved within this sugya, no claim about later unresolved sugyot"
+          },
+          {
+            "path": "argumentFlow[step-01].sourceRefs[0].sourceType",
+            "verdict": "NONFACTUAL",
+            "crossReference": false,
+            "boundarySafe": true
+          },
+          {
+            "path": "argumentFlow[step-01].sourceRefs[0].vilnaLine",
+            "verdict": "NONFACTUAL",
+            "crossReference": false,
+            "boundarySafe": true
+          },
+          {
+            "path": "argumentFlow[step-01].speaker",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "15b",
+                "startVilnaLine": 1,
+                "endVilnaLine": 2
+              }
+            ],
+            "boundarySafe": true,
+            "note": "speaker's resolving words are here; see continuity for the 15a lead-in"
+          },
+          {
+            "path": "argumentFlow[step-01].text",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "15b",
+                "startVilnaLine": 1,
+                "endVilnaLine": 2
+              }
+            ],
+            "boundarySafe": true,
+            "note": "resolved within this sugya, no claim about later unresolved sugyot"
+          },
+          {
+            "path": "argumentFlow[step-01].type",
+            "verdict": "REVIEWED",
+            "crossReference": false,
+            "boundarySafe": true,
+            "note": "type fits a resolution step; metadata, independent of later amud outcome"
+          },
+          {
+            "path": "conceptRefs[0]",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "15b",
+                "startVilnaLine": 1,
+                "endVilnaLine": 2
+              }
+            ],
+            "boundarySafe": true,
+            "note": "segment id matches the lines holding the resolution"
+          },
+          {
+            "path": "difficulty",
+            "verdict": "REVIEWED",
+            "crossReference": false,
+            "boundarySafe": true,
+            "note": "difficulty rating is metadata, independent of later amud outcome"
+          },
+          {
+            "path": "display.hint",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "15b",
+                "startVilnaLine": 1,
+                "endVilnaLine": 2
+              }
+            ],
+            "boundarySafe": true,
+            "note": "resolved within this sugya, no claim about later unresolved sugyot"
+          },
+          {
+            "path": "display.oneLine",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "15b",
+                "startVilnaLine": 1,
+                "endVilnaLine": 2
+              }
+            ],
+            "boundarySafe": true,
+            "note": "resolved within this sugya, no claim about later unresolved sugyot"
+          },
+          {
+            "path": "display.title",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "15b",
+                "startVilnaLine": 1,
+                "endVilnaLine": 2
+              }
+            ],
+            "boundarySafe": true,
+            "note": "resolved within this sugya, no claim about later unresolved sugyot"
+          },
+          {
+            "path": "display.whats",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "15b",
+                "startVilnaLine": 1,
+                "endVilnaLine": 2
+              }
+            ],
+            "boundarySafe": true,
+            "note": "correctly notes 15a origin of the question as background, not a forward claim"
+          },
+          {
+            "path": "finalRuling",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "15b",
+                "startVilnaLine": 1,
+                "endVilnaLine": 2
+              }
+            ],
+            "boundarySafe": true,
+            "note": "ruling is self-contained to this sugya, not dependent on later amud"
+          },
+          {
+            "path": "glossary[0].en",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "15b",
+                "startVilnaLine": 1,
+                "endVilnaLine": 1
+              }
+            ],
+            "boundarySafe": true,
+            "note": "term and gloss appear on this line"
+          },
+          {
+            "path": "glossary[0].he",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "15b",
+                "startVilnaLine": 1,
+                "endVilnaLine": 1
+              }
+            ],
+            "boundarySafe": true,
+            "note": "Hebrew term matches the line"
+          },
+          {
+            "path": "glossary[0].translit",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "15b",
+                "startVilnaLine": 1,
+                "endVilnaLine": 1
+              }
+            ],
+            "boundarySafe": true,
+            "note": "transliteration matches the term on this line"
+          },
+          {
+            "path": "learning.ahaMoment",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "15b",
+                "startVilnaLine": 1,
+                "endVilnaLine": 2
+              }
+            ],
+            "boundarySafe": true,
+            "note": "resolved within this sugya, no claim about later unresolved sugyot"
+          },
+          {
+            "path": "learning.coreMove",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "15b",
+                "startVilnaLine": 1,
+                "endVilnaLine": 2
+              }
+            ],
+            "boundarySafe": true,
+            "note": "Rabba bar Sheila's verse proof grounds tohoro in the altar's cleared top; note: resolution is complete within this sugya"
+          },
+          {
+            "path": "learning.coreTension",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "15b",
+                "startVilnaLine": 1,
+                "endVilnaLine": 2
+              }
+            ],
+            "boundarySafe": true,
+            "note": "tohoro's abstractness vs need for concrete sprinkling spot is the tension this sugya resolves"
+          },
+          {
+            "path": "learning.learnerQuestion",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "15b",
+                "startVilnaLine": 1,
+                "endVilnaLine": 2
+              }
+            ],
+            "boundarySafe": true,
+            "note": "the learner question matches what Rabba bar Sheila answers here"
+          },
+          {
+            "path": "learning.learningBlocker",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "15b",
+                "startVilnaLine": 1,
+                "endVilnaLine": 2
+              }
+            ],
+            "boundarySafe": true,
+            "note": "the blocker about mistaking purity for a sanctified zone is addressed by the verse comparison"
+          },
+          {
+            "path": "learning.memoryAnchor",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "15b",
+                "startVilnaLine": 1,
+                "endVilnaLine": 2
+              }
+            ],
+            "boundarySafe": true,
+            "note": "memory anchor matches the tohoro=altar top, sky=exposed surface equation"
+          },
+          {
+            "path": "learning.takeaway.text",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "15b",
+                "startVilnaLine": 1,
+                "endVilnaLine": 2
+              }
+            ],
+            "boundarySafe": true,
+            "note": "the derivation principle matches how the verse fixes the term's referent"
+          },
+          {
+            "path": "learning.takeaway.type",
+            "verdict": "REVIEWED",
+            "crossReference": false,
+            "boundarySafe": true,
+            "note": "fits as a metadata classification of the takeaway as a derivation principle"
+          },
+          {
+            "path": "misconceptions[0].correctedByStepId",
+            "verdict": "NONFACTUAL",
+            "crossReference": false,
+            "boundarySafe": true
+          },
+          {
+            "path": "misconceptions[0].correction",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "15b",
+                "startVilnaLine": 1,
+                "endVilnaLine": 2
+              }
+            ],
+            "boundarySafe": true,
+            "note": "correction matches Rabba bar Sheila's actual resolution"
+          },
+          {
+            "path": "misconceptions[0].misconception",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "15b",
+                "startVilnaLine": 1,
+                "endVilnaLine": 2
+              }
+            ],
+            "boundarySafe": true,
+            "note": "misconception matches the natural but wrong reading of tohoro as a sanctified zone"
+          },
+          {
+            "path": "prerequisiteKnowledge[0]",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "15b",
+                "startVilnaLine": 1,
+                "endVilnaLine": 2
+              }
+            ],
+            "boundarySafe": true,
+            "note": "prerequisite describes background assumed before the resolution, not a claim about this sugya itself"
+          },
+          {
+            "path": "quizSeeds[0].answer",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "15b",
+                "startVilnaLine": 1,
+                "endVilnaLine": 2
+              }
+            ],
+            "boundarySafe": true,
+            "note": "quiz answer matches the verse-based proof given"
+          },
+          {
+            "path": "quizSeeds[0].question",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "15b",
+                "startVilnaLine": 1,
+                "endVilnaLine": 2
+              }
+            ],
+            "boundarySafe": true,
+            "note": "quiz question matches what this sugya resolves"
+          },
+          {
+            "path": "quizSeeds[0].sourceRefs[0].lineId",
+            "verdict": "NONFACTUAL",
+            "crossReference": false,
+            "boundarySafe": true
+          },
+          {
+            "path": "quizSeeds[0].sourceRefs[0].note",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "15b",
+                "startVilnaLine": 1,
+                "endVilnaLine": 2
+              }
+            ],
+            "boundarySafe": true,
+            "note": "note describing this as the resolution of the tohoro question"
+          },
+          {
+            "path": "quizSeeds[0].sourceRefs[0].sourceType",
+            "verdict": "NONFACTUAL",
+            "crossReference": false,
+            "boundarySafe": true
+          },
+          {
+            "path": "quizSeeds[0].sourceRefs[0].vilnaLine",
+            "verdict": "NONFACTUAL",
+            "crossReference": false,
+            "boundarySafe": true
+          },
+          {
+            "path": "relatedSugyot[0]",
+            "verdict": "NONFACTUAL",
+            "crossReference": false,
+            "boundarySafe": true
+          },
+          {
+            "path": "topicTags[0]",
+            "verdict": "NONFACTUAL",
+            "crossReference": false,
+            "boundarySafe": true
+          },
+          {
+            "path": "topicTags[1]",
+            "verdict": "NONFACTUAL",
+            "crossReference": false,
+            "boundarySafe": true
+          },
+          {
+            "path": "topicTags[2]",
+            "verdict": "NONFACTUAL",
+            "crossReference": false,
+            "boundarySafe": true
+          },
+          {
+            "path": "topicTags[3]",
+            "verdict": "NONFACTUAL",
+            "crossReference": false,
+            "boundarySafe": true
+          },
+          {
+            "path": "topicTags[4]",
+            "verdict": "NONFACTUAL",
+            "crossReference": false,
+            "boundarySafe": true
+          },
+          {
+            "path": "visualizableElements[0].item",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "15b",
+                "startVilnaLine": 1,
+                "endVilnaLine": 2
+              }
+            ],
+            "boundarySafe": true,
+            "note": "visual element matches the altar-top identified via the sky verse"
+          },
+          {
+            "path": "visualizableElements[0].type",
+            "verdict": "REVIEWED",
+            "crossReference": false,
+            "boundarySafe": true,
+            "note": "fits as a metadata classification of the visual element as a place"
+          }
+        ],
+        "boundaryLeakageSweep": [
+          {
+            "path": "dafLevel.glossary[0].en",
+            "importsNextDafConclusion": false,
+            "note": "matches Exodus 24:10 proof for tohoro; resolved here, no dependency on later amud"
+          },
+          {
+            "path": "dafLevel.glossary[0].he",
+            "importsNextDafConclusion": false,
+            "note": "cognate root לטהר appears here; lemma form used in glossary, resolved within this sugya"
+          },
+          {
+            "path": "dafLevel.glossary[0].translit",
+            "importsNextDafConclusion": false,
+            "note": "transliteration of the resolved term; stands independent of next amud"
+          },
+          {
+            "path": "dafLevel.glossary[1].en",
+            "importsNextDafConclusion": false,
+            "note": "yesod's absence at the southeast corner is explained; self-contained fact"
+          },
+          {
+            "path": "dafLevel.glossary[1].he",
+            "importsNextDafConclusion": false,
+            "note": "יסוד appears; self-contained fact not affected by later amud"
+          },
+          {
+            "path": "dafLevel.glossary[1].translit",
+            "importsNextDafConclusion": false,
+            "note": "transliteration matches; self-contained fact not affected by later amud"
+          },
+          {
+            "path": "dafLevel.glossary[2].en",
+            "importsNextDafConclusion": false,
+            "note": "states both mishnaic placements accurately; the contradiction is left open here, not resolved"
+          },
+          {
+            "path": "dafLevel.glossary[2].he",
+            "importsNextDafConclusion": false,
+            "note": "לשכת הטלאים appears; the term stands regardless of the later resolution"
+          },
+          {
+            "path": "dafLevel.glossary[2].translit",
+            "importsNextDafConclusion": false,
+            "note": "transliteration matches; the term stands regardless of the later resolution"
+          },
+          {
+            "path": "dafLevel.summary",
+            "importsNextDafConclusion": false,
+            "note": "summarizes all four steps accurately without asserting 16a's resolution"
+          },
+          {
+            "path": "argumentFlow[step-01].label",
+            "importsNextDafConclusion": false,
+            "note": "resolved within this sugya, no claim about later unresolved sugyot"
+          },
+          {
+            "path": "argumentFlow[step-01].sourceRefs[0].note",
+            "importsNextDafConclusion": false,
+            "note": "resolved within this sugya, no claim about later unresolved sugyot"
+          },
+          {
+            "path": "argumentFlow[step-01].speaker",
+            "importsNextDafConclusion": false,
+            "note": "speaker's resolving words are here; see continuity for the 15a lead-in"
+          },
+          {
+            "path": "argumentFlow[step-01].text",
+            "importsNextDafConclusion": false,
+            "note": "resolved within this sugya, no claim about later unresolved sugyot"
+          },
+          {
+            "path": "argumentFlow[step-01].type",
+            "importsNextDafConclusion": false,
+            "note": "type fits a resolution step; metadata, independent of later amud outcome"
+          },
+          {
+            "path": "conceptRefs[0]",
+            "importsNextDafConclusion": false,
+            "note": "segment id matches the lines holding the resolution"
+          },
+          {
+            "path": "difficulty",
+            "importsNextDafConclusion": false,
+            "note": "difficulty rating is metadata, independent of later amud outcome"
+          },
+          {
+            "path": "display.hint",
+            "importsNextDafConclusion": false,
+            "note": "resolved within this sugya, no claim about later unresolved sugyot"
+          },
+          {
+            "path": "display.oneLine",
+            "importsNextDafConclusion": false,
+            "note": "resolved within this sugya, no claim about later unresolved sugyot"
+          },
+          {
+            "path": "display.title",
+            "importsNextDafConclusion": false,
+            "note": "resolved within this sugya, no claim about later unresolved sugyot"
+          },
+          {
+            "path": "display.whats",
+            "importsNextDafConclusion": false,
+            "note": "correctly notes 15a origin of the question as background, not a forward claim"
+          },
+          {
+            "path": "finalRuling",
+            "importsNextDafConclusion": false,
+            "note": "ruling is self-contained to this sugya, not dependent on later amud"
+          },
+          {
+            "path": "glossary[0].en",
+            "importsNextDafConclusion": false,
+            "note": "term and gloss appear on this line"
+          },
+          {
+            "path": "glossary[0].he",
+            "importsNextDafConclusion": false,
+            "note": "Hebrew term matches the line"
+          },
+          {
+            "path": "glossary[0].translit",
+            "importsNextDafConclusion": false,
+            "note": "transliteration matches the term on this line"
+          },
+          {
+            "path": "learning.ahaMoment",
+            "importsNextDafConclusion": false,
+            "note": "resolved within this sugya, no claim about later unresolved sugyot"
+          },
+          {
+            "path": "learning.coreMove",
+            "importsNextDafConclusion": false,
+            "note": "Rabba bar Sheila's verse proof grounds tohoro in the altar's cleared top; note: resolution is complete within this sugya"
+          },
+          {
+            "path": "learning.coreTension",
+            "importsNextDafConclusion": false,
+            "note": "tohoro's abstractness vs need for concrete sprinkling spot is the tension this sugya resolves"
+          },
+          {
+            "path": "learning.learnerQuestion",
+            "importsNextDafConclusion": false,
+            "note": "the learner question matches what Rabba bar Sheila answers here"
+          },
+          {
+            "path": "learning.learningBlocker",
+            "importsNextDafConclusion": false,
+            "note": "the blocker about mistaking purity for a sanctified zone is addressed by the verse comparison"
+          },
+          {
+            "path": "learning.memoryAnchor",
+            "importsNextDafConclusion": false,
+            "note": "memory anchor matches the tohoro=altar top, sky=exposed surface equation"
+          },
+          {
+            "path": "learning.takeaway.text",
+            "importsNextDafConclusion": false,
+            "note": "the derivation principle matches how the verse fixes the term's referent"
+          },
+          {
+            "path": "learning.takeaway.type",
+            "importsNextDafConclusion": false,
+            "note": "fits as a metadata classification of the takeaway as a derivation principle"
+          },
+          {
+            "path": "misconceptions[0].correction",
+            "importsNextDafConclusion": false,
+            "note": "correction matches Rabba bar Sheila's actual resolution"
+          },
+          {
+            "path": "misconceptions[0].misconception",
+            "importsNextDafConclusion": false,
+            "note": "misconception matches the natural but wrong reading of tohoro as a sanctified zone"
+          },
+          {
+            "path": "prerequisiteKnowledge[0]",
+            "importsNextDafConclusion": false,
+            "note": "prerequisite describes background assumed before the resolution, not a claim about this sugya itself"
+          },
+          {
+            "path": "quizSeeds[0].answer",
+            "importsNextDafConclusion": false,
+            "note": "quiz answer matches the verse-based proof given"
+          },
+          {
+            "path": "quizSeeds[0].question",
+            "importsNextDafConclusion": false,
+            "note": "quiz question matches what this sugya resolves"
+          },
+          {
+            "path": "quizSeeds[0].sourceRefs[0].note",
+            "importsNextDafConclusion": false,
+            "note": "note describing this as the resolution of the tohoro question"
+          },
+          {
+            "path": "visualizableElements[0].item",
+            "importsNextDafConclusion": false,
+            "note": "visual element matches the altar-top identified via the sky verse"
+          },
+          {
+            "path": "visualizableElements[0].type",
+            "importsNextDafConclusion": false,
+            "note": "fits as a metadata classification of the visual element as a place"
+          }
+        ],
+        "staleContentSweep": {
+          "entries": [
+            {
+              "category": "stale_original_error",
+              "found": false
+            },
+            {
+              "category": "stale_speaker_or_attribution",
+              "found": false
+            },
+            {
+              "category": "contradictory_speaker_attribution",
+              "found": false
+            },
+            {
+              "category": "old_conclusion_in_secondary_field",
+              "found": false
+            },
+            {
+              "category": "false_closure",
+              "found": false
+            },
+            {
+              "category": "next_daf_content_leaked_backward",
+              "found": false
+            },
+            {
+              "category": "claim_unsupported_by_physical_daf",
+              "found": false
+            },
+            {
+              "category": "stale_quiz_question_or_answer",
+              "found": false
+            },
+            {
+              "category": "stale_final_ruling",
+              "found": false
+            },
+            {
+              "category": "stale_summary",
+              "found": false
+            },
+            {
+              "category": "stale_learning_field",
+              "found": false
+            },
+            {
+              "category": "stale_misconception",
+              "found": false
+            },
+            {
+              "category": "stale_related_sugya_description",
+              "found": false
+            },
+            {
+              "category": "stale_visualizable_element_prose",
+              "found": false
+            },
+            {
+              "category": "source_refs_no_longer_supporting_claim",
+              "found": false
+            },
+            {
+              "category": "reference_outside_declared_line_range",
+              "found": false
+            }
+          ]
+        }
+      },
+      "certifiedAtCommit": "ffabd05664246a90dc9e91acbdddc0d9e7d7198d"
+    },
+    "yoma-15b-s02": {
+      "sugyaId": "yoma-15b-s02",
+      "daf": "15b",
+      "state": "CERTIFIED",
+      "firstPass": {
+        "reviewId": "claude-claude-sonnet-5-yoma-15b-s02-first-4fe9be12fe",
+        "reviewerContextId": "llm-task-anthropic-claude-sonnet-5-yoma-15b-s02-first-4fe9be12fe",
+        "sourceFirst": true,
+        "verdict": "VERIFIED",
+        "reviewedSourceFingerprint": "2db984a63d9ebef579a5bc096fba5ec446cb5765c0f8efcfd6019d79b0476f45",
+        "reviewedSemanticFingerprint": "c838b6db0c0ed609f64c9d51c68cef472b4e61662ab913e8de576892ff97df08",
+        "evidence": {
+          "answer": {
+            "sugyaId": "yoma-15b-s02",
+            "verdict": "VERIFIED",
+            "evidence": "The tamid is a burnt-offering, so olah-procedure precedes chatat-procedure; olah blood requires a yesod, absent at the southeast corner, so northeast is used instead; and since all turns go right and the animal is slaughtered north of the altar, the northeast corner is encountered first.",
+            "defects": [],
+            "dafSummaryVerdict": "VERIFIED",
+            "boundaryVerdict": "VERIFIED"
+          },
+          "run": "yoma-15b-s02-first-4fe9be12fe"
+        }
+      },
+      "sourceFingerprint": "2db984a63d9ebef579a5bc096fba5ec446cb5765c0f8efcfd6019d79b0476f45",
+      "semanticFingerprint": "c838b6db0c0ed609f64c9d51c68cef472b4e61662ab913e8de576892ff97df08",
+      "secondPass": {
+        "reviewId": "claude-claude-sonnet-5-yoma-15b-s02-second-30ec48f6ba",
+        "reviewerContextId": "llm-task-anthropic-claude-sonnet-5-yoma-15b-s02-second-30ec48f6ba",
+        "sourceFirst": true,
+        "verdict": "CONFIRMED",
+        "reviewedSourceFingerprint": "2db984a63d9ebef579a5bc096fba5ec446cb5765c0f8efcfd6019d79b0476f45",
+        "reviewedSemanticFingerprint": "c838b6db0c0ed609f64c9d51c68cef472b4e61662ab913e8de576892ff97df08",
+        "evidence": {
+          "answer": {
+            "sugyaId": "yoma-15b-s02",
+            "verdict": "CONFIRMED",
+            "evidence": "Line 2 asks why olah precedes chatat; answer: since the tamid is an olah, it takes precedence. Line 3 asks why northeast/southwest rather than southeast/northwest; answer: olah blood requires a yesod and the southeast corner lacks one. Line 4 asks why northeast then southwest rather than reverse; answer: all turns go rightward, so the priest encounters the northeast corner first.",
+            "defects": [],
+            "dafSummaryVerdict": "CONFIRMED",
+            "boundaryVerdict": "CONFIRMED"
+          },
+          "run": "yoma-15b-s02-second-30ec48f6ba"
+        }
+      },
+      "finalAudit": {
+        "reviewId": "claude-claude-sonnet-5-yoma-15b-s02-final-6bde586489",
+        "auditorContextId": "llm-task-anthropic-claude-sonnet-5-yoma-15b-s02-final-p1-6bde586489",
+        "auditedSourceFingerprint": "2db984a63d9ebef579a5bc096fba5ec446cb5765c0f8efcfd6019d79b0476f45",
+        "auditedSemanticFingerprint": "c838b6db0c0ed609f64c9d51c68cef472b4e61662ab913e8de576892ff97df08",
+        "dafBoundary": {
+          "rawLineCount": 31,
+          "finalRawLine": "דרומית",
+          "dafEndState": "MID_ARGUMENT"
+        },
+        "fieldInventory": [
+          {
+            "path": "lineRange",
+            "verdict": "NONFACTUAL",
+            "crossReference": false,
+            "boundarySafe": true
+          },
+          {
+            "path": "lines",
+            "verdict": "NONFACTUAL",
+            "crossReference": false,
+            "boundarySafe": true
+          },
+          {
+            "path": "dafLevel.glossary[0].en",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "15b",
+                "startVilnaLine": 1,
+                "endVilnaLine": 2
+              }
+            ],
+            "boundarySafe": true,
+            "note": "matches Exodus 24:10 proof for tohoro; resolved here, no dependency on later amud"
+          },
+          {
+            "path": "dafLevel.glossary[0].he",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "15b",
+                "startVilnaLine": 1,
+                "endVilnaLine": 2
+              }
+            ],
+            "boundarySafe": true,
+            "note": "cognate root לטהר appears here; lemma form used in glossary, resolved within this sugya"
+          },
+          {
+            "path": "dafLevel.glossary[0].translit",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "15b",
+                "startVilnaLine": 1,
+                "endVilnaLine": 2
+              }
+            ],
+            "boundarySafe": true,
+            "note": "transliteration of the resolved term; stands independent of next amud"
+          },
+          {
+            "path": "dafLevel.glossary[1].en",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "15b",
+                "startVilnaLine": 7,
+                "endVilnaLine": 9
+              }
+            ],
+            "boundarySafe": true,
+            "note": "yesod's absence at the southeast corner is explained; self-contained fact"
+          },
+          {
+            "path": "dafLevel.glossary[1].he",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "15b",
+                "startVilnaLine": 8,
+                "endVilnaLine": 8
+              }
+            ],
+            "boundarySafe": true,
+            "note": "יסוד appears; self-contained fact not affected by later amud"
+          },
+          {
+            "path": "dafLevel.glossary[1].translit",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "15b",
+                "startVilnaLine": 8,
+                "endVilnaLine": 8
+              }
+            ],
+            "boundarySafe": true,
+            "note": "transliteration matches; self-contained fact not affected by later amud"
+          },
+          {
+            "path": "dafLevel.glossary[2].en",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "15b",
+                "startVilnaLine": 20,
+                "endVilnaLine": 21
+              },
+              {
+                "daf": "15b",
+                "startVilnaLine": 26,
+                "endVilnaLine": 30
+              }
+            ],
+            "boundarySafe": true,
+            "note": "states both mishnaic placements accurately; the contradiction is left open here, not resolved"
+          },
+          {
+            "path": "dafLevel.glossary[2].he",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "15b",
+                "startVilnaLine": 20,
+                "endVilnaLine": 20
+              }
+            ],
+            "boundarySafe": true,
+            "note": "לשכת הטלאים appears; the term stands regardless of the later resolution"
+          },
+          {
+            "path": "dafLevel.glossary[2].translit",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "15b",
+                "startVilnaLine": 20,
+                "endVilnaLine": 20
+              }
+            ],
+            "boundarySafe": true,
+            "note": "transliteration matches; the term stands regardless of the later resolution"
+          },
+          {
+            "path": "dafLevel.summary",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "15b",
+                "startVilnaLine": 1,
+                "endVilnaLine": 2
+              },
+              {
+                "daf": "15b",
+                "startVilnaLine": 7,
+                "endVilnaLine": 9
+              },
+              {
+                "daf": "15b",
+                "startVilnaLine": 14,
+                "endVilnaLine": 19
+              },
+              {
+                "daf": "15b",
+                "startVilnaLine": 20,
+                "endVilnaLine": 30
+              }
+            ],
+            "boundarySafe": true,
+            "note": "summarizes all four steps accurately without asserting 16a's resolution"
+          },
+          {
+            "path": "argumentFlow[step-01].id",
+            "verdict": "NONFACTUAL",
+            "crossReference": false,
+            "boundarySafe": true
+          },
+          {
+            "path": "argumentFlow[step-01].label",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "15b",
+                "startVilnaLine": 2,
+                "endVilnaLine": 2
+              }
+            ],
+            "boundarySafe": true,
+            "note": "label describes the first question in lines 2-3"
+          },
+          {
+            "path": "argumentFlow[step-01].sourceRefs[0].lineId",
+            "verdict": "NONFACTUAL",
+            "crossReference": false,
+            "boundarySafe": true
+          },
+          {
+            "path": "argumentFlow[step-01].sourceRefs[0].note",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "15b",
+                "startVilnaLine": 2,
+                "endVilnaLine": 2
+              }
+            ],
+            "boundarySafe": true,
+            "note": "note matches the question about olah before chatat"
+          },
+          {
+            "path": "argumentFlow[step-01].sourceRefs[0].sourceType",
+            "verdict": "NONFACTUAL",
+            "crossReference": false,
+            "boundarySafe": true
+          },
+          {
+            "path": "argumentFlow[step-01].sourceRefs[0].vilnaLine",
+            "verdict": "NONFACTUAL",
+            "crossReference": false,
+            "boundarySafe": true
+          },
+          {
+            "path": "argumentFlow[step-01].speaker",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "15b",
+                "startVilnaLine": 2,
+                "endVilnaLine": 2
+              }
+            ],
+            "boundarySafe": true,
+            "note": "speaker is the questioner voice in lines 2-3, labeled generically as Gemara"
+          },
+          {
+            "path": "argumentFlow[step-01].text",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "15b",
+                "startVilnaLine": 2,
+                "endVilnaLine": 3
+              }
+            ],
+            "boundarySafe": true,
+            "note": "text paraphrases the question accurately"
+          },
+          {
+            "path": "argumentFlow[step-01].type",
+            "verdict": "REVIEWED",
+            "crossReference": false,
+            "boundarySafe": true,
+            "note": "type question fits the Why-phrasing of lines 2-3"
+          },
+          {
+            "path": "argumentFlow[step-02].id",
+            "verdict": "NONFACTUAL",
+            "crossReference": false,
+            "boundarySafe": true
+          },
+          {
+            "path": "argumentFlow[step-02].label",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "15b",
+                "startVilnaLine": 4,
+                "endVilnaLine": 4
+              }
+            ],
+            "boundarySafe": true,
+            "note": "label matches the resolution in line 4"
+          },
+          {
+            "path": "argumentFlow[step-02].sourceRefs[0].lineId",
+            "verdict": "NONFACTUAL",
+            "crossReference": false,
+            "boundarySafe": true
+          },
+          {
+            "path": "argumentFlow[step-02].sourceRefs[0].note",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "15b",
+                "startVilnaLine": 4,
+                "endVilnaLine": 4
+              }
+            ],
+            "boundarySafe": true,
+            "note": "note matches resolution content"
+          },
+          {
+            "path": "argumentFlow[step-02].sourceRefs[0].sourceType",
+            "verdict": "NONFACTUAL",
+            "crossReference": false,
+            "boundarySafe": true
+          },
+          {
+            "path": "argumentFlow[step-02].sourceRefs[0].vilnaLine",
+            "verdict": "NONFACTUAL",
+            "crossReference": false,
+            "boundarySafe": true
+          },
+          {
+            "path": "argumentFlow[step-02].speaker",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "15b",
+                "startVilnaLine": 4,
+                "endVilnaLine": 4
+              }
+            ],
+            "boundarySafe": true,
+            "note": "speaker is the answering voice in line 4, labeled generically as Gemara"
+          },
+          {
+            "path": "argumentFlow[step-02].text",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "15b",
+                "startVilnaLine": 4,
+                "endVilnaLine": 4
+              }
+            ],
+            "boundarySafe": true,
+            "note": "text paraphrases 'since it is an olah, it comes first' accurately"
+          },
+          {
+            "path": "argumentFlow[step-02].type",
+            "verdict": "REVIEWED",
+            "crossReference": false,
+            "boundarySafe": true,
+            "note": "type resolution fits line 4's answering structure"
+          },
+          {
+            "path": "argumentFlow[step-03].id",
+            "verdict": "NONFACTUAL",
+            "crossReference": false,
+            "boundarySafe": true
+          },
+          {
+            "path": "argumentFlow[step-03].label",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "15b",
+                "startVilnaLine": 5,
+                "endVilnaLine": 7
+              }
+            ],
+            "boundarySafe": true,
+            "note": "label matches the second question about corner order"
+          },
+          {
+            "path": "argumentFlow[step-03].sourceRefs[0].lineId",
+            "verdict": "NONFACTUAL",
+            "crossReference": false,
+            "boundarySafe": true
+          },
+          {
+            "path": "argumentFlow[step-03].sourceRefs[0].note",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "15b",
+                "startVilnaLine": 5,
+                "endVilnaLine": 6
+              }
+            ],
+            "boundarySafe": true,
+            "note": "note matches the question content"
+          },
+          {
+            "path": "argumentFlow[step-03].sourceRefs[0].sourceType",
+            "verdict": "NONFACTUAL",
+            "crossReference": false,
+            "boundarySafe": true
+          },
+          {
+            "path": "argumentFlow[step-03].sourceRefs[0].vilnaLine",
+            "verdict": "NONFACTUAL",
+            "crossReference": false,
+            "boundarySafe": true
+          },
+          {
+            "path": "argumentFlow[step-03].speaker",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "15b",
+                "startVilnaLine": 5,
+                "endVilnaLine": 7
+              }
+            ],
+            "boundarySafe": true,
+            "note": "speaker is the questioner voice, labeled generically as Gemara"
+          },
+          {
+            "path": "argumentFlow[step-03].text",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "15b",
+                "startVilnaLine": 5,
+                "endVilnaLine": 7
+              }
+            ],
+            "boundarySafe": true,
+            "note": "text paraphrases the question about corner choice accurately"
+          },
+          {
+            "path": "argumentFlow[step-03].type",
+            "verdict": "REVIEWED",
+            "crossReference": false,
+            "boundarySafe": true,
+            "note": "type question fits the Why-phrasing of lines 5-7"
+          },
+          {
+            "path": "argumentFlow[step-04].id",
+            "verdict": "NONFACTUAL",
+            "crossReference": false,
+            "boundarySafe": true
+          },
+          {
+            "path": "argumentFlow[step-04].label",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "15b",
+                "startVilnaLine": 7,
+                "endVilnaLine": 8
+              }
+            ],
+            "boundarySafe": true,
+            "note": "label matches the yesod resolution"
+          },
+          {
+            "path": "argumentFlow[step-04].sourceRefs[0].lineId",
+            "verdict": "NONFACTUAL",
+            "crossReference": false,
+            "boundarySafe": true
+          },
+          {
+            "path": "argumentFlow[step-04].sourceRefs[0].note",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "15b",
+                "startVilnaLine": 7,
+                "endVilnaLine": 9
+              }
+            ],
+            "boundarySafe": true,
+            "note": "note matches the yesod resolution content"
+          },
+          {
+            "path": "argumentFlow[step-04].sourceRefs[0].sourceType",
+            "verdict": "NONFACTUAL",
+            "crossReference": false,
+            "boundarySafe": true
+          },
+          {
+            "path": "argumentFlow[step-04].sourceRefs[0].vilnaLine",
+            "verdict": "NONFACTUAL",
+            "crossReference": false,
+            "boundarySafe": true
+          },
+          {
+            "path": "argumentFlow[step-04].speaker",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "15b",
+                "startVilnaLine": 7,
+                "endVilnaLine": 9
+              }
+            ],
+            "boundarySafe": true,
+            "note": "speaker is the answering voice, labeled generically as Gemara"
+          },
+          {
+            "path": "argumentFlow[step-04].text",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "15b",
+                "startVilnaLine": 7,
+                "endVilnaLine": 9
+              }
+            ],
+            "boundarySafe": true,
+            "note": "text paraphrases the yesod/southeast corner answer accurately"
+          },
+          {
+            "path": "argumentFlow[step-04].type",
+            "verdict": "REVIEWED",
+            "crossReference": false,
+            "boundarySafe": true,
+            "note": "type resolution fits lines 7-9's answering structure"
+          },
+          {
+            "path": "argumentFlow[step-05].id",
+            "verdict": "NONFACTUAL",
+            "crossReference": false,
+            "boundarySafe": true
+          },
+          {
+            "path": "argumentFlow[step-05].label",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "15b",
+                "startVilnaLine": 9,
+                "endVilnaLine": 11
+              }
+            ],
+            "boundarySafe": true,
+            "note": "label matches the third question about order of northeast vs southwest"
+          },
+          {
+            "path": "argumentFlow[step-05].sourceRefs[0].lineId",
+            "verdict": "NONFACTUAL",
+            "crossReference": false,
+            "boundarySafe": true
+          },
+          {
+            "path": "argumentFlow[step-05].sourceRefs[0].note",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "15b",
+                "startVilnaLine": 9,
+                "endVilnaLine": 11
+              }
+            ],
+            "boundarySafe": true,
+            "note": "note matches the third question content"
+          },
+          {
+            "path": "argumentFlow[step-05].sourceRefs[0].sourceType",
+            "verdict": "NONFACTUAL",
+            "crossReference": false,
+            "boundarySafe": true
+          },
+          {
+            "path": "argumentFlow[step-05].sourceRefs[0].vilnaLine",
+            "verdict": "NONFACTUAL",
+            "crossReference": false,
+            "boundarySafe": true
+          },
+          {
+            "path": "argumentFlow[step-05].speaker",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "15b",
+                "startVilnaLine": 9,
+                "endVilnaLine": 11
+              }
+            ],
+            "boundarySafe": true,
+            "note": "speaker is the questioner voice, labeled generically as Gemara"
+          },
+          {
+            "path": "argumentFlow[step-05].text",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "15b",
+                "startVilnaLine": 9,
+                "endVilnaLine": 11
+              }
+            ],
+            "boundarySafe": true,
+            "note": "question restated accurately; resolved later in this sugya, not dependent on next amud"
+          },
+          {
+            "path": "argumentFlow[step-05].type",
+            "verdict": "REVIEWED",
+            "crossReference": false,
+            "boundarySafe": true,
+            "note": "question type fits; metadata, no amud-dependency"
+          },
+          {
+            "path": "argumentFlow[step-06].id",
+            "verdict": "NONFACTUAL",
+            "crossReference": false,
+            "boundarySafe": true
+          },
+          {
+            "path": "argumentFlow[step-06].label",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "15b",
+                "startVilnaLine": 12,
+                "endVilnaLine": 14
+              }
+            ],
+            "boundarySafe": true,
+            "note": "resolution restated accurately, self-contained in this sugya"
+          },
+          {
+            "path": "argumentFlow[step-06].sourceRefs[0].lineId",
+            "verdict": "NONFACTUAL",
+            "crossReference": false,
+            "boundarySafe": true
+          },
+          {
+            "path": "argumentFlow[step-06].sourceRefs[0].note",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "15b",
+                "startVilnaLine": 12,
+                "endVilnaLine": 14
+              }
+            ],
+            "boundarySafe": true,
+            "note": "note accurately summarizes the resolution mechanism"
+          },
+          {
+            "path": "argumentFlow[step-06].sourceRefs[0].sourceType",
+            "verdict": "NONFACTUAL",
+            "crossReference": false,
+            "boundarySafe": true
+          },
+          {
+            "path": "argumentFlow[step-06].sourceRefs[0].vilnaLine",
+            "verdict": "NONFACTUAL",
+            "crossReference": false,
+            "boundarySafe": true
+          },
+          {
+            "path": "argumentFlow[step-06].speaker",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "15b",
+                "startVilnaLine": 12,
+                "endVilnaLine": 14
+              }
+            ],
+            "boundarySafe": true,
+            "note": "anonymous Gemara voice; attribution holds regardless of later daf"
+          },
+          {
+            "path": "argumentFlow[step-06].text",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "15b",
+                "startVilnaLine": 12,
+                "endVilnaLine": 14
+              }
+            ],
+            "boundarySafe": true,
+            "note": "text accurately paraphrases the rightward-turn resolution"
+          },
+          {
+            "path": "argumentFlow[step-06].type",
+            "verdict": "REVIEWED",
+            "crossReference": false,
+            "boundarySafe": true,
+            "note": "resolution type fits; metadata, no amud-dependency"
+          },
+          {
+            "path": "conceptRefs[0]",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "15b",
+                "startVilnaLine": 2,
+                "endVilnaLine": 5
+              }
+            ],
+            "boundarySafe": true,
+            "note": "concept ref matches the olah-first question/resolution lines"
+          },
+          {
+            "path": "conceptRefs[1]",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "15b",
+                "startVilnaLine": 5,
+                "endVilnaLine": 9
+              }
+            ],
+            "boundarySafe": true,
+            "note": "concept ref matches the northeast/southwest corner question"
+          },
+          {
+            "path": "conceptRefs[2]",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "15b",
+                "startVilnaLine": 9,
+                "endVilnaLine": 14
+              }
+            ],
+            "boundarySafe": true,
+            "note": "concept ref matches the rightward-turn question/resolution"
+          },
+          {
+            "path": "difficulty",
+            "verdict": "REVIEWED",
+            "crossReference": false,
+            "boundarySafe": true,
+            "note": "advanced difficulty reasonable given technical altar-structure reasoning"
+          },
+          {
+            "path": "display.hint",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "15b",
+                "startVilnaLine": 2,
+                "endVilnaLine": 14
+              }
+            ],
+            "boundarySafe": true,
+            "note": "hint covers all three questions resolved within this sugya"
+          },
+          {
+            "path": "display.oneLine",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "15b",
+                "startVilnaLine": 2,
+                "endVilnaLine": 14
+              }
+            ],
+            "boundarySafe": true,
+            "note": "oneLine accurately summarizes all three resolutions"
+          },
+          {
+            "path": "display.title",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "15b",
+                "startVilnaLine": 2,
+                "endVilnaLine": 14
+              }
+            ],
+            "boundarySafe": true,
+            "note": "title matches the three-questions-resolved structure of this sugya"
+          },
+          {
+            "path": "display.whats",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "15b",
+                "startVilnaLine": 2,
+                "endVilnaLine": 14
+              }
+            ],
+            "boundarySafe": true,
+            "note": "whats accurately describes all three questions and their resolutions"
+          },
+          {
+            "path": "finalRuling",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "15b",
+                "startVilnaLine": 2,
+                "endVilnaLine": 14
+              }
+            ],
+            "boundarySafe": true,
+            "note": "finalRuling correct; resolutions are internal to this sugya, not later daf"
+          },
+          {
+            "path": "glossary[0].en",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "15b",
+                "startVilnaLine": 8,
+                "endVilnaLine": 9
+              }
+            ],
+            "boundarySafe": true,
+            "note": "yesod defined correctly per its role in the olah/corner discussion"
+          },
+          {
+            "path": "glossary[0].he",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "15b",
+                "startVilnaLine": 8,
+                "endVilnaLine": 9
+              }
+            ],
+            "boundarySafe": true,
+            "note": "Hebrew term matches text"
+          },
+          {
+            "path": "glossary[0].translit",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "15b",
+                "startVilnaLine": 8,
+                "endVilnaLine": 9
+              }
+            ],
+            "boundarySafe": true,
+            "note": "transliteration matches term used in text"
+          },
+          {
+            "path": "learning.ahaMoment",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "15b",
+                "startVilnaLine": 2,
+                "endVilnaLine": 14
+              }
+            ],
+            "boundarySafe": true,
+            "note": "aha moment is a reasonable reading of the three resolutions"
+          },
+          {
+            "path": "learning.coreMove",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "15b",
+                "startVilnaLine": 2,
+                "endVilnaLine": 14
+              }
+            ],
+            "boundarySafe": true,
+            "note": "coreMove accurately restates the three technical resolutions"
+          },
+          {
+            "path": "learning.coreTension",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "15b",
+                "startVilnaLine": 2,
+                "endVilnaLine": 14
+              }
+            ],
+            "boundarySafe": true,
+            "note": "coreTension is a reasonable characterization, not reliant on later daf"
+          },
+          {
+            "path": "learning.learnerQuestion",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "15b",
+                "startVilnaLine": 2,
+                "endVilnaLine": 14
+              }
+            ],
+            "boundarySafe": true,
+            "note": "learnerQuestion accurately frames the three snags and their resolution"
+          },
+          {
+            "path": "learning.learningBlocker",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "15b",
+                "startVilnaLine": 2,
+                "endVilnaLine": 4
+              }
+            ],
+            "boundarySafe": true,
+            "note": "note: resolved on this amud, not a lingering blocker"
+          },
+          {
+            "path": "learning.memoryAnchor",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "15b",
+                "startVilnaLine": 2,
+                "endVilnaLine": 14
+              }
+            ],
+            "boundarySafe": true,
+            "note": "note: summarizes three resolved steps, not open-ended"
+          },
+          {
+            "path": "learning.takeaway.text",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "15b",
+                "startVilnaLine": 2,
+                "endVilnaLine": 14
+              }
+            ],
+            "boundarySafe": true,
+            "note": "note: generalizes resolved steps, not final across sugya"
+          },
+          {
+            "path": "learning.takeaway.type",
+            "verdict": "REVIEWED",
+            "crossReference": false,
+            "boundarySafe": true,
+            "note": "metadata type label fits a conceptual takeaway"
+          },
+          {
+            "path": "misconceptions[0].correctedByStepId",
+            "verdict": "NONFACTUAL",
+            "crossReference": false,
+            "boundarySafe": true
+          },
+          {
+            "path": "misconceptions[0].correction",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "15b",
+                "startVilnaLine": 5,
+                "endVilnaLine": 6
+              }
+            ],
+            "boundarySafe": true,
+            "note": "note: correction reflects resolution reached on this amud"
+          },
+          {
+            "path": "misconceptions[0].misconception",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "15b",
+                "startVilnaLine": 5,
+                "endVilnaLine": 6
+              }
+            ],
+            "boundarySafe": true,
+            "note": "note: misconception stated as a plausible wrong assumption"
+          },
+          {
+            "path": "prerequisiteKnowledge[0]",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "15b",
+                "startVilnaLine": 5,
+                "endVilnaLine": 6
+              }
+            ],
+            "boundarySafe": true,
+            "note": "note: prerequisite drawn from resolution on this amud"
+          },
+          {
+            "path": "prerequisiteKnowledge[1]",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "15b",
+                "startVilnaLine": 5,
+                "endVilnaLine": 6
+              }
+            ],
+            "boundarySafe": true,
+            "note": "note: prerequisite drawn from resolution on this amud"
+          },
+          {
+            "path": "quizSeeds[0].answer",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "15b",
+                "startVilnaLine": 2,
+                "endVilnaLine": 4
+              }
+            ],
+            "boundarySafe": true,
+            "note": "note: quiz answer reflects resolution on this amud"
+          },
+          {
+            "path": "quizSeeds[0].question",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "15b",
+                "startVilnaLine": 2,
+                "endVilnaLine": 4
+              }
+            ],
+            "boundarySafe": true,
+            "note": "note: quiz question matches step-01/02 content"
+          },
+          {
+            "path": "quizSeeds[0].sourceRefs[0].lineId",
+            "verdict": "NONFACTUAL",
+            "crossReference": false,
+            "boundarySafe": true
+          },
+          {
+            "path": "quizSeeds[0].sourceRefs[0].note",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "15b",
+                "startVilnaLine": 2,
+                "endVilnaLine": 4
+              }
+            ],
+            "boundarySafe": true,
+            "note": "note: sourceRef note describes resolution on this amud"
+          },
+          {
+            "path": "quizSeeds[0].sourceRefs[0].sourceType",
+            "verdict": "NONFACTUAL",
+            "crossReference": false,
+            "boundarySafe": true
+          },
+          {
+            "path": "quizSeeds[0].sourceRefs[0].vilnaLine",
+            "verdict": "NONFACTUAL",
+            "crossReference": false,
+            "boundarySafe": true
+          },
+          {
+            "path": "quizSeeds[1].answer",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "15b",
+                "startVilnaLine": 5,
+                "endVilnaLine": 8
+              }
+            ],
+            "boundarySafe": true,
+            "note": "note: quiz answer reflects resolution at step-04"
+          },
+          {
+            "path": "quizSeeds[1].question",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "15b",
+                "startVilnaLine": 5,
+                "endVilnaLine": 8
+              }
+            ],
+            "boundarySafe": true,
+            "note": "note: quiz question matches step-03/04 content"
+          },
+          {
+            "path": "quizSeeds[1].sourceRefs[0].lineId",
+            "verdict": "NONFACTUAL",
+            "crossReference": false,
+            "boundarySafe": true
+          },
+          {
+            "path": "quizSeeds[1].sourceRefs[0].note",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "15b",
+                "startVilnaLine": 5,
+                "endVilnaLine": 8
+              }
+            ],
+            "boundarySafe": true,
+            "note": "note: sourceRef note describes yesod resolution"
+          },
+          {
+            "path": "quizSeeds[1].sourceRefs[0].sourceType",
+            "verdict": "NONFACTUAL",
+            "crossReference": false,
+            "boundarySafe": true
+          },
+          {
+            "path": "quizSeeds[1].sourceRefs[0].vilnaLine",
+            "verdict": "NONFACTUAL",
+            "crossReference": false,
+            "boundarySafe": true
+          },
+          {
+            "path": "quizSeeds[2].answer",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "15b",
+                "startVilnaLine": 9,
+                "endVilnaLine": 13
+              }
+            ],
+            "boundarySafe": true,
+            "note": "note: quiz answer reflects resolution at step-06"
+          },
+          {
+            "path": "quizSeeds[2].question",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "15b",
+                "startVilnaLine": 9,
+                "endVilnaLine": 13
+              }
+            ],
+            "boundarySafe": true,
+            "note": "note: quiz question matches step-05/06 content"
+          },
+          {
+            "path": "quizSeeds[2].sourceRefs[0].lineId",
+            "verdict": "NONFACTUAL",
+            "crossReference": false,
+            "boundarySafe": true
+          },
+          {
+            "path": "quizSeeds[2].sourceRefs[0].note",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "15b",
+                "startVilnaLine": 9,
+                "endVilnaLine": 13
+              }
+            ],
+            "boundarySafe": true,
+            "note": "note: sourceRef note describes rightward-turn resolution"
+          },
+          {
+            "path": "quizSeeds[2].sourceRefs[0].sourceType",
+            "verdict": "NONFACTUAL",
+            "crossReference": false,
+            "boundarySafe": true
+          },
+          {
+            "path": "quizSeeds[2].sourceRefs[0].vilnaLine",
+            "verdict": "NONFACTUAL",
+            "crossReference": false,
+            "boundarySafe": true
+          },
+          {
+            "path": "relatedSugyot[0]",
+            "verdict": "NONFACTUAL",
+            "crossReference": false,
+            "boundarySafe": true
+          },
+          {
+            "path": "relatedSugyot[1]",
+            "verdict": "NONFACTUAL",
+            "crossReference": false,
+            "boundarySafe": true
+          },
+          {
+            "path": "topicTags[0]",
+            "verdict": "NONFACTUAL",
+            "crossReference": false,
+            "boundarySafe": true
+          },
+          {
+            "path": "topicTags[1]",
+            "verdict": "NONFACTUAL",
+            "crossReference": false,
+            "boundarySafe": true
+          },
+          {
+            "path": "topicTags[2]",
+            "verdict": "NONFACTUAL",
+            "crossReference": false,
+            "boundarySafe": true
+          },
+          {
+            "path": "topicTags[3]",
+            "verdict": "NONFACTUAL",
+            "crossReference": false,
+            "boundarySafe": true
+          },
+          {
+            "path": "topicTags[4]",
+            "verdict": "NONFACTUAL",
+            "crossReference": false,
+            "boundarySafe": true
+          },
+          {
+            "path": "topicTags[5]",
+            "verdict": "NONFACTUAL",
+            "crossReference": false,
+            "boundarySafe": true
+          },
+          {
+            "path": "topicTags[6]",
+            "verdict": "NONFACTUAL",
+            "crossReference": false,
+            "boundarySafe": true
+          },
+          {
+            "path": "visualizableElements[0].item",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "15b",
+                "startVilnaLine": 5,
+                "endVilnaLine": 13
+              }
+            ],
+            "boundarySafe": true,
+            "note": "note: diagram item matches corners discussed"
+          },
+          {
+            "path": "visualizableElements[0].type",
+            "verdict": "REVIEWED",
+            "crossReference": false,
+            "boundarySafe": true,
+            "note": "metadata type 'place' fits a spatial/altar diagram"
+          },
+          {
+            "path": "visualizableElements[1].item",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "15b",
+                "startVilnaLine": 2,
+                "endVilnaLine": 13
+              }
+            ],
+            "boundarySafe": true,
+            "note": "note: sequence item matches the three resolved steps"
+          },
+          {
+            "path": "visualizableElements[1].type",
+            "verdict": "REVIEWED",
+            "crossReference": false,
+            "boundarySafe": true,
+            "note": "metadata type 'sequence' fits a three-step panel description"
+          }
+        ],
+        "boundaryLeakageSweep": [
+          {
+            "path": "dafLevel.glossary[0].en",
+            "importsNextDafConclusion": false,
+            "note": "matches Exodus 24:10 proof for tohoro; resolved here, no dependency on later amud"
+          },
+          {
+            "path": "dafLevel.glossary[0].he",
+            "importsNextDafConclusion": false,
+            "note": "cognate root לטהר appears here; lemma form used in glossary, resolved within this sugya"
+          },
+          {
+            "path": "dafLevel.glossary[0].translit",
+            "importsNextDafConclusion": false,
+            "note": "transliteration of the resolved term; stands independent of next amud"
+          },
+          {
+            "path": "dafLevel.glossary[1].en",
+            "importsNextDafConclusion": false,
+            "note": "yesod's absence at the southeast corner is explained; self-contained fact"
+          },
+          {
+            "path": "dafLevel.glossary[1].he",
+            "importsNextDafConclusion": false,
+            "note": "יסוד appears; self-contained fact not affected by later amud"
+          },
+          {
+            "path": "dafLevel.glossary[1].translit",
+            "importsNextDafConclusion": false,
+            "note": "transliteration matches; self-contained fact not affected by later amud"
+          },
+          {
+            "path": "dafLevel.glossary[2].en",
+            "importsNextDafConclusion": false,
+            "note": "states both mishnaic placements accurately; the contradiction is left open here, not resolved"
+          },
+          {
+            "path": "dafLevel.glossary[2].he",
+            "importsNextDafConclusion": false,
+            "note": "לשכת הטלאים appears; the term stands regardless of the later resolution"
+          },
+          {
+            "path": "dafLevel.glossary[2].translit",
+            "importsNextDafConclusion": false,
+            "note": "transliteration matches; the term stands regardless of the later resolution"
+          },
+          {
+            "path": "dafLevel.summary",
+            "importsNextDafConclusion": false,
+            "note": "summarizes all four steps accurately without asserting 16a's resolution"
+          },
+          {
+            "path": "argumentFlow[step-01].label",
+            "importsNextDafConclusion": false,
+            "note": "label describes the first question in lines 2-3"
+          },
+          {
+            "path": "argumentFlow[step-01].sourceRefs[0].note",
+            "importsNextDafConclusion": false,
+            "note": "note matches the question about olah before chatat"
+          },
+          {
+            "path": "argumentFlow[step-01].speaker",
+            "importsNextDafConclusion": false,
+            "note": "speaker is the questioner voice in lines 2-3, labeled generically as Gemara"
+          },
+          {
+            "path": "argumentFlow[step-01].text",
+            "importsNextDafConclusion": false,
+            "note": "text paraphrases the question accurately"
+          },
+          {
+            "path": "argumentFlow[step-01].type",
+            "importsNextDafConclusion": false,
+            "note": "type question fits the Why-phrasing of lines 2-3"
+          },
+          {
+            "path": "argumentFlow[step-02].label",
+            "importsNextDafConclusion": false,
+            "note": "label matches the resolution in line 4"
+          },
+          {
+            "path": "argumentFlow[step-02].sourceRefs[0].note",
+            "importsNextDafConclusion": false,
+            "note": "note matches resolution content"
+          },
+          {
+            "path": "argumentFlow[step-02].speaker",
+            "importsNextDafConclusion": false,
+            "note": "speaker is the answering voice in line 4, labeled generically as Gemara"
+          },
+          {
+            "path": "argumentFlow[step-02].text",
+            "importsNextDafConclusion": false,
+            "note": "text paraphrases 'since it is an olah, it comes first' accurately"
+          },
+          {
+            "path": "argumentFlow[step-02].type",
+            "importsNextDafConclusion": false,
+            "note": "type resolution fits line 4's answering structure"
+          },
+          {
+            "path": "argumentFlow[step-03].label",
+            "importsNextDafConclusion": false,
+            "note": "label matches the second question about corner order"
+          },
+          {
+            "path": "argumentFlow[step-03].sourceRefs[0].note",
+            "importsNextDafConclusion": false,
+            "note": "note matches the question content"
+          },
+          {
+            "path": "argumentFlow[step-03].speaker",
+            "importsNextDafConclusion": false,
+            "note": "speaker is the questioner voice, labeled generically as Gemara"
+          },
+          {
+            "path": "argumentFlow[step-03].text",
+            "importsNextDafConclusion": false,
+            "note": "text paraphrases the question about corner choice accurately"
+          },
+          {
+            "path": "argumentFlow[step-03].type",
+            "importsNextDafConclusion": false,
+            "note": "type question fits the Why-phrasing of lines 5-7"
+          },
+          {
+            "path": "argumentFlow[step-04].label",
+            "importsNextDafConclusion": false,
+            "note": "label matches the yesod resolution"
+          },
+          {
+            "path": "argumentFlow[step-04].sourceRefs[0].note",
+            "importsNextDafConclusion": false,
+            "note": "note matches the yesod resolution content"
+          },
+          {
+            "path": "argumentFlow[step-04].speaker",
+            "importsNextDafConclusion": false,
+            "note": "speaker is the answering voice, labeled generically as Gemara"
+          },
+          {
+            "path": "argumentFlow[step-04].text",
+            "importsNextDafConclusion": false,
+            "note": "text paraphrases the yesod/southeast corner answer accurately"
+          },
+          {
+            "path": "argumentFlow[step-04].type",
+            "importsNextDafConclusion": false,
+            "note": "type resolution fits lines 7-9's answering structure"
+          },
+          {
+            "path": "argumentFlow[step-05].label",
+            "importsNextDafConclusion": false,
+            "note": "label matches the third question about order of northeast vs southwest"
+          },
+          {
+            "path": "argumentFlow[step-05].sourceRefs[0].note",
+            "importsNextDafConclusion": false,
+            "note": "note matches the third question content"
+          },
+          {
+            "path": "argumentFlow[step-05].speaker",
+            "importsNextDafConclusion": false,
+            "note": "speaker is the questioner voice, labeled generically as Gemara"
+          },
+          {
+            "path": "argumentFlow[step-05].text",
+            "importsNextDafConclusion": false,
+            "note": "question restated accurately; resolved later in this sugya, not dependent on next amud"
+          },
+          {
+            "path": "argumentFlow[step-05].type",
+            "importsNextDafConclusion": false,
+            "note": "question type fits; metadata, no amud-dependency"
+          },
+          {
+            "path": "argumentFlow[step-06].label",
+            "importsNextDafConclusion": false,
+            "note": "resolution restated accurately, self-contained in this sugya"
+          },
+          {
+            "path": "argumentFlow[step-06].sourceRefs[0].note",
+            "importsNextDafConclusion": false,
+            "note": "note accurately summarizes the resolution mechanism"
+          },
+          {
+            "path": "argumentFlow[step-06].speaker",
+            "importsNextDafConclusion": false,
+            "note": "anonymous Gemara voice; attribution holds regardless of later daf"
+          },
+          {
+            "path": "argumentFlow[step-06].text",
+            "importsNextDafConclusion": false,
+            "note": "text accurately paraphrases the rightward-turn resolution"
+          },
+          {
+            "path": "argumentFlow[step-06].type",
+            "importsNextDafConclusion": false,
+            "note": "resolution type fits; metadata, no amud-dependency"
+          },
+          {
+            "path": "conceptRefs[0]",
+            "importsNextDafConclusion": false,
+            "note": "concept ref matches the olah-first question/resolution lines"
+          },
+          {
+            "path": "conceptRefs[1]",
+            "importsNextDafConclusion": false,
+            "note": "concept ref matches the northeast/southwest corner question"
+          },
+          {
+            "path": "conceptRefs[2]",
+            "importsNextDafConclusion": false,
+            "note": "concept ref matches the rightward-turn question/resolution"
+          },
+          {
+            "path": "difficulty",
+            "importsNextDafConclusion": false,
+            "note": "advanced difficulty reasonable given technical altar-structure reasoning"
+          },
+          {
+            "path": "display.hint",
+            "importsNextDafConclusion": false,
+            "note": "hint covers all three questions resolved within this sugya"
+          },
+          {
+            "path": "display.oneLine",
+            "importsNextDafConclusion": false,
+            "note": "oneLine accurately summarizes all three resolutions"
+          },
+          {
+            "path": "display.title",
+            "importsNextDafConclusion": false,
+            "note": "title matches the three-questions-resolved structure of this sugya"
+          },
+          {
+            "path": "display.whats",
+            "importsNextDafConclusion": false,
+            "note": "whats accurately describes all three questions and their resolutions"
+          },
+          {
+            "path": "finalRuling",
+            "importsNextDafConclusion": false,
+            "note": "finalRuling correct; resolutions are internal to this sugya, not later daf"
+          },
+          {
+            "path": "glossary[0].en",
+            "importsNextDafConclusion": false,
+            "note": "yesod defined correctly per its role in the olah/corner discussion"
+          },
+          {
+            "path": "glossary[0].he",
+            "importsNextDafConclusion": false,
+            "note": "Hebrew term matches text"
+          },
+          {
+            "path": "glossary[0].translit",
+            "importsNextDafConclusion": false,
+            "note": "transliteration matches term used in text"
+          },
+          {
+            "path": "learning.ahaMoment",
+            "importsNextDafConclusion": false,
+            "note": "aha moment is a reasonable reading of the three resolutions"
+          },
+          {
+            "path": "learning.coreMove",
+            "importsNextDafConclusion": false,
+            "note": "coreMove accurately restates the three technical resolutions"
+          },
+          {
+            "path": "learning.coreTension",
+            "importsNextDafConclusion": false,
+            "note": "coreTension is a reasonable characterization, not reliant on later daf"
+          },
+          {
+            "path": "learning.learnerQuestion",
+            "importsNextDafConclusion": false,
+            "note": "learnerQuestion accurately frames the three snags and their resolution"
+          },
+          {
+            "path": "learning.learningBlocker",
+            "importsNextDafConclusion": false,
+            "note": "note: resolved on this amud, not a lingering blocker"
+          },
+          {
+            "path": "learning.memoryAnchor",
+            "importsNextDafConclusion": false,
+            "note": "note: summarizes three resolved steps, not open-ended"
+          },
+          {
+            "path": "learning.takeaway.text",
+            "importsNextDafConclusion": false,
+            "note": "note: generalizes resolved steps, not final across sugya"
+          },
+          {
+            "path": "learning.takeaway.type",
+            "importsNextDafConclusion": false,
+            "note": "metadata type label fits a conceptual takeaway"
+          },
+          {
+            "path": "misconceptions[0].correction",
+            "importsNextDafConclusion": false,
+            "note": "note: correction reflects resolution reached on this amud"
+          },
+          {
+            "path": "misconceptions[0].misconception",
+            "importsNextDafConclusion": false,
+            "note": "note: misconception stated as a plausible wrong assumption"
+          },
+          {
+            "path": "prerequisiteKnowledge[0]",
+            "importsNextDafConclusion": false,
+            "note": "note: prerequisite drawn from resolution on this amud"
+          },
+          {
+            "path": "prerequisiteKnowledge[1]",
+            "importsNextDafConclusion": false,
+            "note": "note: prerequisite drawn from resolution on this amud"
+          },
+          {
+            "path": "quizSeeds[0].answer",
+            "importsNextDafConclusion": false,
+            "note": "note: quiz answer reflects resolution on this amud"
+          },
+          {
+            "path": "quizSeeds[0].question",
+            "importsNextDafConclusion": false,
+            "note": "note: quiz question matches step-01/02 content"
+          },
+          {
+            "path": "quizSeeds[0].sourceRefs[0].note",
+            "importsNextDafConclusion": false,
+            "note": "note: sourceRef note describes resolution on this amud"
+          },
+          {
+            "path": "quizSeeds[1].answer",
+            "importsNextDafConclusion": false,
+            "note": "note: quiz answer reflects resolution at step-04"
+          },
+          {
+            "path": "quizSeeds[1].question",
+            "importsNextDafConclusion": false,
+            "note": "note: quiz question matches step-03/04 content"
+          },
+          {
+            "path": "quizSeeds[1].sourceRefs[0].note",
+            "importsNextDafConclusion": false,
+            "note": "note: sourceRef note describes yesod resolution"
+          },
+          {
+            "path": "quizSeeds[2].answer",
+            "importsNextDafConclusion": false,
+            "note": "note: quiz answer reflects resolution at step-06"
+          },
+          {
+            "path": "quizSeeds[2].question",
+            "importsNextDafConclusion": false,
+            "note": "note: quiz question matches step-05/06 content"
+          },
+          {
+            "path": "quizSeeds[2].sourceRefs[0].note",
+            "importsNextDafConclusion": false,
+            "note": "note: sourceRef note describes rightward-turn resolution"
+          },
+          {
+            "path": "visualizableElements[0].item",
+            "importsNextDafConclusion": false,
+            "note": "note: diagram item matches corners discussed"
+          },
+          {
+            "path": "visualizableElements[0].type",
+            "importsNextDafConclusion": false,
+            "note": "metadata type 'place' fits a spatial/altar diagram"
+          },
+          {
+            "path": "visualizableElements[1].item",
+            "importsNextDafConclusion": false,
+            "note": "note: sequence item matches the three resolved steps"
+          },
+          {
+            "path": "visualizableElements[1].type",
+            "importsNextDafConclusion": false,
+            "note": "metadata type 'sequence' fits a three-step panel description"
+          }
+        ],
+        "staleContentSweep": {
+          "entries": [
+            {
+              "category": "stale_original_error",
+              "found": false
+            },
+            {
+              "category": "stale_speaker_or_attribution",
+              "found": false
+            },
+            {
+              "category": "contradictory_speaker_attribution",
+              "found": false
+            },
+            {
+              "category": "old_conclusion_in_secondary_field",
+              "found": false
+            },
+            {
+              "category": "false_closure",
+              "found": false
+            },
+            {
+              "category": "next_daf_content_leaked_backward",
+              "found": false
+            },
+            {
+              "category": "claim_unsupported_by_physical_daf",
+              "found": false
+            },
+            {
+              "category": "stale_quiz_question_or_answer",
+              "found": false
+            },
+            {
+              "category": "stale_final_ruling",
+              "found": false
+            },
+            {
+              "category": "stale_summary",
+              "found": false
+            },
+            {
+              "category": "stale_learning_field",
+              "found": false
+            },
+            {
+              "category": "stale_misconception",
+              "found": false
+            },
+            {
+              "category": "stale_related_sugya_description",
+              "found": false
+            },
+            {
+              "category": "stale_visualizable_element_prose",
+              "found": false
+            },
+            {
+              "category": "source_refs_no_longer_supporting_claim",
+              "found": false
+            },
+            {
+              "category": "reference_outside_declared_line_range",
+              "found": false
+            }
+          ]
+        }
+      },
+      "certifiedAtCommit": "ffabd05664246a90dc9e91acbdddc0d9e7d7198d"
+    },
+    "yoma-15b-s03": {
+      "sugyaId": "yoma-15b-s03",
+      "daf": "15b",
+      "state": "CERTIFIED",
+      "firstPass": {
+        "reviewId": "claude-claude-sonnet-5-yoma-15b-s03-first-5bc0030d21",
+        "reviewerContextId": "llm-task-anthropic-claude-sonnet-5-yoma-15b-s03-first-5bc0030d21",
+        "sourceFirst": true,
+        "verdict": "VERIFIED",
+        "reviewedSourceFingerprint": "a3a4c7ebacd50a42e3c73b630c8f5e48a1d7ae40a1303a9dba506a258b2a68f1",
+        "reviewedSemanticFingerprint": "8b8271fa79d3fa2b0f4a0b7f7820ebe671ce4720c6027336254623231efebe90",
+        "evidence": {
+          "answer": {
+            "sugyaId": "yoma-15b-s03",
+            "verdict": "VERIFIED",
+            "evidence": "The Gemara questions whether the verse teaches that chatat-procedure applies to the olah, or conversely that olah-procedure applies to the New Moon chatat; it resolves via 'al olat ha-tamid ye'aseh ve-nisko' that a matter of chatat is cast upon the olah, i.e., the tamid-olah receives the chatat-style blood application.",
+            "defects": [],
+            "dafSummaryVerdict": "VERIFIED",
+            "boundaryVerdict": "VERIFIED"
+          },
+          "run": "yoma-15b-s03-first-5bc0030d21"
+        }
+      },
+      "sourceFingerprint": "a3a4c7ebacd50a42e3c73b630c8f5e48a1d7ae40a1303a9dba506a258b2a68f1",
+      "semanticFingerprint": "8b8271fa79d3fa2b0f4a0b7f7820ebe671ce4720c6027336254623231efebe90",
+      "secondPass": {
+        "reviewId": "claude-claude-sonnet-5-yoma-15b-s03-second-985eb02d01",
+        "reviewerContextId": "llm-task-anthropic-claude-sonnet-5-yoma-15b-s03-second-985eb02d01",
+        "sourceFirst": true,
+        "verdict": "CONFIRMED",
+        "reviewedSourceFingerprint": "a3a4c7ebacd50a42e3c73b630c8f5e48a1d7ae40a1303a9dba506a258b2a68f1",
+        "reviewedSemanticFingerprint": "8b8271fa79d3fa2b0f4a0b7f7820ebe671ce4720c6027336254623231efebe90",
+        "evidence": {
+          "answer": {
+            "sugyaId": "yoma-15b-s03",
+            "verdict": "CONFIRMED",
+            "evidence": "The Gemara asks whether the proof is that an olah gets chatat-style treatment, or rather a New Moon chatat gets olah-style treatment, then rejects the latter via the verse 'it shall be offered aside from the daily burnt-offering,' concluding: cast the matter of the chatat onto the olah (i.e., the tamid-olah receives the chatat procedure).",
+            "defects": [],
+            "dafSummaryVerdict": "CONFIRMED",
+            "boundaryVerdict": "CONFIRMED"
+          },
+          "run": "yoma-15b-s03-second-985eb02d01"
+        }
+      },
+      "finalAudit": {
+        "reviewId": "claude-claude-sonnet-5-yoma-15b-s03-final-10e2463231",
+        "auditorContextId": "llm-task-anthropic-claude-sonnet-5-yoma-15b-s03-final-p1-10e2463231",
+        "auditedSourceFingerprint": "a3a4c7ebacd50a42e3c73b630c8f5e48a1d7ae40a1303a9dba506a258b2a68f1",
+        "auditedSemanticFingerprint": "8b8271fa79d3fa2b0f4a0b7f7820ebe671ce4720c6027336254623231efebe90",
+        "dafBoundary": {
+          "rawLineCount": 31,
+          "finalRawLine": "דרומית",
+          "dafEndState": "MID_ARGUMENT"
+        },
+        "fieldInventory": [
+          {
+            "path": "lineRange",
+            "verdict": "NONFACTUAL",
+            "crossReference": false,
+            "boundarySafe": true
+          },
+          {
+            "path": "lines",
+            "verdict": "NONFACTUAL",
+            "crossReference": false,
+            "boundarySafe": true
+          },
+          {
+            "path": "dafLevel.glossary[0].en",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "15b",
+                "startVilnaLine": 1,
+                "endVilnaLine": 2
+              }
+            ],
+            "boundarySafe": true,
+            "note": "matches Exodus 24:10 proof for tohoro; resolved here, no dependency on later amud"
+          },
+          {
+            "path": "dafLevel.glossary[0].he",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "15b",
+                "startVilnaLine": 1,
+                "endVilnaLine": 2
+              }
+            ],
+            "boundarySafe": true,
+            "note": "cognate root לטהר appears here; lemma form used in glossary, resolved within this sugya"
+          },
+          {
+            "path": "dafLevel.glossary[0].translit",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "15b",
+                "startVilnaLine": 1,
+                "endVilnaLine": 2
+              }
+            ],
+            "boundarySafe": true,
+            "note": "transliteration of the resolved term; stands independent of next amud"
+          },
+          {
+            "path": "dafLevel.glossary[1].en",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "15b",
+                "startVilnaLine": 7,
+                "endVilnaLine": 9
+              }
+            ],
+            "boundarySafe": true,
+            "note": "yesod's absence at the southeast corner is explained; self-contained fact"
+          },
+          {
+            "path": "dafLevel.glossary[1].he",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "15b",
+                "startVilnaLine": 8,
+                "endVilnaLine": 8
+              }
+            ],
+            "boundarySafe": true,
+            "note": "יסוד appears; self-contained fact not affected by later amud"
+          },
+          {
+            "path": "dafLevel.glossary[1].translit",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "15b",
+                "startVilnaLine": 8,
+                "endVilnaLine": 8
+              }
+            ],
+            "boundarySafe": true,
+            "note": "transliteration matches; self-contained fact not affected by later amud"
+          },
+          {
+            "path": "dafLevel.glossary[2].en",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "15b",
+                "startVilnaLine": 20,
+                "endVilnaLine": 21
+              },
+              {
+                "daf": "15b",
+                "startVilnaLine": 26,
+                "endVilnaLine": 30
+              }
+            ],
+            "boundarySafe": true,
+            "note": "states both mishnaic placements accurately; the contradiction is left open here, not resolved"
+          },
+          {
+            "path": "dafLevel.glossary[2].he",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "15b",
+                "startVilnaLine": 20,
+                "endVilnaLine": 20
+              }
+            ],
+            "boundarySafe": true,
+            "note": "לשכת הטלאים appears; the term stands regardless of the later resolution"
+          },
+          {
+            "path": "dafLevel.glossary[2].translit",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "15b",
+                "startVilnaLine": 20,
+                "endVilnaLine": 20
+              }
+            ],
+            "boundarySafe": true,
+            "note": "transliteration matches; the term stands regardless of the later resolution"
+          },
+          {
+            "path": "dafLevel.summary",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "15b",
+                "startVilnaLine": 1,
+                "endVilnaLine": 2
+              },
+              {
+                "daf": "15b",
+                "startVilnaLine": 7,
+                "endVilnaLine": 9
+              },
+              {
+                "daf": "15b",
+                "startVilnaLine": 14,
+                "endVilnaLine": 19
+              },
+              {
+                "daf": "15b",
+                "startVilnaLine": 20,
+                "endVilnaLine": 30
+              }
+            ],
+            "boundarySafe": true,
+            "note": "summarizes all four steps accurately without asserting 16a's resolution"
+          },
+          {
+            "path": "argumentFlow[step-01].id",
+            "verdict": "NONFACTUAL",
+            "crossReference": false,
+            "boundarySafe": true
+          },
+          {
+            "path": "argumentFlow[step-01].label",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "15b",
+                "startVilnaLine": 14,
+                "endVilnaLine": 19
+              }
+            ],
+            "boundarySafe": true,
+            "note": "resolved within this sugya, not dependent on 16a"
+          },
+          {
+            "path": "argumentFlow[step-01].sourceRefs[0].lineId",
+            "verdict": "NONFACTUAL",
+            "crossReference": false,
+            "boundarySafe": true
+          },
+          {
+            "path": "argumentFlow[step-01].sourceRefs[0].note",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "15b",
+                "startVilnaLine": 14,
+                "endVilnaLine": 16
+              }
+            ],
+            "boundarySafe": true,
+            "note": "note describes the question only, independent of later daf"
+          },
+          {
+            "path": "argumentFlow[step-01].sourceRefs[0].sourceType",
+            "verdict": "NONFACTUAL",
+            "crossReference": false,
+            "boundarySafe": true
+          },
+          {
+            "path": "argumentFlow[step-01].sourceRefs[0].vilnaLine",
+            "verdict": "NONFACTUAL",
+            "crossReference": false,
+            "boundarySafe": true
+          },
+          {
+            "path": "argumentFlow[step-01].speaker",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "15b",
+                "startVilnaLine": 14,
+                "endVilnaLine": 16
+              }
+            ],
+            "boundarySafe": true,
+            "note": "Gemara is the anonymous speaker of this question, resolved in-sugya"
+          },
+          {
+            "path": "argumentFlow[step-01].text",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "15b",
+                "startVilnaLine": 14,
+                "endVilnaLine": 19
+              }
+            ],
+            "boundarySafe": true,
+            "note": "question and resolution both found within these lines, self-contained"
+          },
+          {
+            "path": "argumentFlow[step-01].type",
+            "verdict": "REVIEWED",
+            "crossReference": false,
+            "boundarySafe": true,
+            "note": "question-type fits the phrasing of lines 14-16, not dependent on 16a"
+          },
+          {
+            "path": "conceptRefs[0]",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "15b",
+                "startVilnaLine": 14,
+                "endVilnaLine": 19
+              }
+            ],
+            "boundarySafe": true,
+            "note": "corresponds directly to the Yoma.15b.5 segment text given"
+          },
+          {
+            "path": "difficulty",
+            "verdict": "REVIEWED",
+            "crossReference": false,
+            "boundarySafe": true,
+            "note": "advanced-reasoning label fits this verse-based proof, resolved here"
+          },
+          {
+            "path": "display.hint",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "15b",
+                "startVilnaLine": 14,
+                "endVilnaLine": 19
+              }
+            ],
+            "boundarySafe": true,
+            "note": "hint restates the question that is resolved within these lines"
+          },
+          {
+            "path": "display.oneLine",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "15b",
+                "startVilnaLine": 17,
+                "endVilnaLine": 19
+              }
+            ],
+            "boundarySafe": true,
+            "note": "conclusion drawn from the verse citation, resolved within this sugya"
+          },
+          {
+            "path": "display.title",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "15b",
+                "startVilnaLine": 14,
+                "endVilnaLine": 19
+              }
+            ],
+            "boundarySafe": true,
+            "note": "title matches the content fully resolved within this sugya"
+          },
+          {
+            "path": "display.whats",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "15b",
+                "startVilnaLine": 14,
+                "endVilnaLine": 19
+              }
+            ],
+            "boundarySafe": true,
+            "note": "whats restates question and resolution, self-contained"
+          },
+          {
+            "path": "finalRuling",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "15b",
+                "startVilnaLine": 17,
+                "endVilnaLine": 19
+              }
+            ],
+            "boundarySafe": true,
+            "note": "ruling drawn from the verse, resolved within this sugya"
+          },
+          {
+            "path": "learning.ahaMoment",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "15b",
+                "startVilnaLine": 17,
+                "endVilnaLine": 19
+              }
+            ],
+            "boundarySafe": true,
+            "note": "aha-moment matches the verse-based resolution, self-contained"
+          },
+          {
+            "path": "learning.coreMove",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "15b",
+                "startVilnaLine": 17,
+                "endVilnaLine": 19
+              }
+            ],
+            "boundarySafe": true,
+            "note": "core move matches the verse-based resolution, self-contained"
+          },
+          {
+            "path": "learning.coreTension",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "15b",
+                "startVilnaLine": 14,
+                "endVilnaLine": 16
+              }
+            ],
+            "boundarySafe": true,
+            "note": "tension matches the two alternatives posed in the question"
+          },
+          {
+            "path": "learning.learnerQuestion",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "15b",
+                "startVilnaLine": 14,
+                "endVilnaLine": 16
+              }
+            ],
+            "boundarySafe": true,
+            "note": "learner question restates the two alternatives posed"
+          },
+          {
+            "path": "learning.learningBlocker",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "15b",
+                "startVilnaLine": 14,
+                "endVilnaLine": 19
+              }
+            ],
+            "boundarySafe": true,
+            "note": "blocker matches question/resolution, resolved within this sugya"
+          },
+          {
+            "path": "learning.memoryAnchor",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "15b",
+                "startVilnaLine": 14,
+                "endVilnaLine": 19
+              }
+            ],
+            "boundarySafe": true,
+            "note": "anchor matches question/resolution, resolved within this sugya"
+          },
+          {
+            "path": "learning.takeaway.text",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "15b",
+                "startVilnaLine": 17,
+                "endVilnaLine": 19
+              }
+            ],
+            "boundarySafe": true,
+            "note": "takeaway matches the resolution, self-contained"
+          },
+          {
+            "path": "learning.takeaway.type",
+            "verdict": "REVIEWED",
+            "crossReference": false,
+            "boundarySafe": true,
+            "note": "derivation_principle type fits a verse-based proof resolved here"
+          },
+          {
+            "path": "misconceptions[0].correctedByStepId",
+            "verdict": "NONFACTUAL",
+            "crossReference": false,
+            "boundarySafe": true
+          },
+          {
+            "path": "misconceptions[0].correction",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "15b",
+                "startVilnaLine": 14,
+                "endVilnaLine": 19
+              }
+            ],
+            "boundarySafe": true,
+            "note": "correction matches the actual alternatives and resolution given"
+          },
+          {
+            "path": "misconceptions[0].misconception",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "15b",
+                "startVilnaLine": 14,
+                "endVilnaLine": 16
+              }
+            ],
+            "boundarySafe": true,
+            "note": "misconception plausibly contrasts with the procedural question posed"
+          },
+          {
+            "path": "quizSeeds[0].answer",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "15b",
+                "startVilnaLine": 14,
+                "endVilnaLine": 19
+              }
+            ],
+            "boundarySafe": true,
+            "note": "answer matches question and resolution, self-contained"
+          },
+          {
+            "path": "quizSeeds[0].question",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "15b",
+                "startVilnaLine": 14,
+                "endVilnaLine": 16
+              }
+            ],
+            "boundarySafe": true,
+            "note": "question matches the alternatives posed in these lines"
+          },
+          {
+            "path": "quizSeeds[0].sourceRefs[0].lineId",
+            "verdict": "NONFACTUAL",
+            "crossReference": false,
+            "boundarySafe": true
+          },
+          {
+            "path": "quizSeeds[0].sourceRefs[0].note",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "15b",
+                "startVilnaLine": 14,
+                "endVilnaLine": 19
+              }
+            ],
+            "boundarySafe": true,
+            "note": "note matches the directional question, self-contained"
+          },
+          {
+            "path": "quizSeeds[0].sourceRefs[0].sourceType",
+            "verdict": "NONFACTUAL",
+            "crossReference": false,
+            "boundarySafe": true
+          },
+          {
+            "path": "quizSeeds[0].sourceRefs[0].vilnaLine",
+            "verdict": "NONFACTUAL",
+            "crossReference": false,
+            "boundarySafe": true
+          },
+          {
+            "path": "relatedSugyot[0]",
+            "verdict": "NONFACTUAL",
+            "crossReference": false,
+            "boundarySafe": true
+          },
+          {
+            "path": "relatedSugyot[1]",
+            "verdict": "NONFACTUAL",
+            "crossReference": false,
+            "boundarySafe": true
+          },
+          {
+            "path": "topicTags[0]",
+            "verdict": "NONFACTUAL",
+            "crossReference": false,
+            "boundarySafe": true
+          },
+          {
+            "path": "topicTags[1]",
+            "verdict": "NONFACTUAL",
+            "crossReference": false,
+            "boundarySafe": true
+          },
+          {
+            "path": "topicTags[2]",
+            "verdict": "NONFACTUAL",
+            "crossReference": false,
+            "boundarySafe": true
+          },
+          {
+            "path": "topicTags[3]",
+            "verdict": "NONFACTUAL",
+            "crossReference": false,
+            "boundarySafe": true
+          },
+          {
+            "path": "topicTags[4]",
+            "verdict": "NONFACTUAL",
+            "crossReference": false,
+            "boundarySafe": true
+          },
+          {
+            "path": "visualizableElements[0].item",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "15b",
+                "startVilnaLine": 14,
+                "endVilnaLine": 16
+              }
+            ],
+            "boundarySafe": true,
+            "note": "visualization matches the two procedure pairings posed"
+          },
+          {
+            "path": "visualizableElements[0].type",
+            "verdict": "REVIEWED",
+            "crossReference": false,
+            "boundarySafe": true,
+            "note": "contrast type fits the two-option framing of the question"
+          }
+        ],
+        "boundaryLeakageSweep": [
+          {
+            "path": "dafLevel.glossary[0].en",
+            "importsNextDafConclusion": false,
+            "note": "matches Exodus 24:10 proof for tohoro; resolved here, no dependency on later amud"
+          },
+          {
+            "path": "dafLevel.glossary[0].he",
+            "importsNextDafConclusion": false,
+            "note": "cognate root לטהר appears here; lemma form used in glossary, resolved within this sugya"
+          },
+          {
+            "path": "dafLevel.glossary[0].translit",
+            "importsNextDafConclusion": false,
+            "note": "transliteration of the resolved term; stands independent of next amud"
+          },
+          {
+            "path": "dafLevel.glossary[1].en",
+            "importsNextDafConclusion": false,
+            "note": "yesod's absence at the southeast corner is explained; self-contained fact"
+          },
+          {
+            "path": "dafLevel.glossary[1].he",
+            "importsNextDafConclusion": false,
+            "note": "יסוד appears; self-contained fact not affected by later amud"
+          },
+          {
+            "path": "dafLevel.glossary[1].translit",
+            "importsNextDafConclusion": false,
+            "note": "transliteration matches; self-contained fact not affected by later amud"
+          },
+          {
+            "path": "dafLevel.glossary[2].en",
+            "importsNextDafConclusion": false,
+            "note": "states both mishnaic placements accurately; the contradiction is left open here, not resolved"
+          },
+          {
+            "path": "dafLevel.glossary[2].he",
+            "importsNextDafConclusion": false,
+            "note": "לשכת הטלאים appears; the term stands regardless of the later resolution"
+          },
+          {
+            "path": "dafLevel.glossary[2].translit",
+            "importsNextDafConclusion": false,
+            "note": "transliteration matches; the term stands regardless of the later resolution"
+          },
+          {
+            "path": "dafLevel.summary",
+            "importsNextDafConclusion": false,
+            "note": "summarizes all four steps accurately without asserting 16a's resolution"
+          },
+          {
+            "path": "argumentFlow[step-01].label",
+            "importsNextDafConclusion": false,
+            "note": "resolved within this sugya, not dependent on 16a"
+          },
+          {
+            "path": "argumentFlow[step-01].sourceRefs[0].note",
+            "importsNextDafConclusion": false,
+            "note": "note describes the question only, independent of later daf"
+          },
+          {
+            "path": "argumentFlow[step-01].speaker",
+            "importsNextDafConclusion": false,
+            "note": "Gemara is the anonymous speaker of this question, resolved in-sugya"
+          },
+          {
+            "path": "argumentFlow[step-01].text",
+            "importsNextDafConclusion": false,
+            "note": "question and resolution both found within these lines, self-contained"
+          },
+          {
+            "path": "argumentFlow[step-01].type",
+            "importsNextDafConclusion": false,
+            "note": "question-type fits the phrasing of lines 14-16, not dependent on 16a"
+          },
+          {
+            "path": "conceptRefs[0]",
+            "importsNextDafConclusion": false,
+            "note": "corresponds directly to the Yoma.15b.5 segment text given"
+          },
+          {
+            "path": "difficulty",
+            "importsNextDafConclusion": false,
+            "note": "advanced-reasoning label fits this verse-based proof, resolved here"
+          },
+          {
+            "path": "display.hint",
+            "importsNextDafConclusion": false,
+            "note": "hint restates the question that is resolved within these lines"
+          },
+          {
+            "path": "display.oneLine",
+            "importsNextDafConclusion": false,
+            "note": "conclusion drawn from the verse citation, resolved within this sugya"
+          },
+          {
+            "path": "display.title",
+            "importsNextDafConclusion": false,
+            "note": "title matches the content fully resolved within this sugya"
+          },
+          {
+            "path": "display.whats",
+            "importsNextDafConclusion": false,
+            "note": "whats restates question and resolution, self-contained"
+          },
+          {
+            "path": "finalRuling",
+            "importsNextDafConclusion": false,
+            "note": "ruling drawn from the verse, resolved within this sugya"
+          },
+          {
+            "path": "learning.ahaMoment",
+            "importsNextDafConclusion": false,
+            "note": "aha-moment matches the verse-based resolution, self-contained"
+          },
+          {
+            "path": "learning.coreMove",
+            "importsNextDafConclusion": false,
+            "note": "core move matches the verse-based resolution, self-contained"
+          },
+          {
+            "path": "learning.coreTension",
+            "importsNextDafConclusion": false,
+            "note": "tension matches the two alternatives posed in the question"
+          },
+          {
+            "path": "learning.learnerQuestion",
+            "importsNextDafConclusion": false,
+            "note": "learner question restates the two alternatives posed"
+          },
+          {
+            "path": "learning.learningBlocker",
+            "importsNextDafConclusion": false,
+            "note": "blocker matches question/resolution, resolved within this sugya"
+          },
+          {
+            "path": "learning.memoryAnchor",
+            "importsNextDafConclusion": false,
+            "note": "anchor matches question/resolution, resolved within this sugya"
+          },
+          {
+            "path": "learning.takeaway.text",
+            "importsNextDafConclusion": false,
+            "note": "takeaway matches the resolution, self-contained"
+          },
+          {
+            "path": "learning.takeaway.type",
+            "importsNextDafConclusion": false,
+            "note": "derivation_principle type fits a verse-based proof resolved here"
+          },
+          {
+            "path": "misconceptions[0].correction",
+            "importsNextDafConclusion": false,
+            "note": "correction matches the actual alternatives and resolution given"
+          },
+          {
+            "path": "misconceptions[0].misconception",
+            "importsNextDafConclusion": false,
+            "note": "misconception plausibly contrasts with the procedural question posed"
+          },
+          {
+            "path": "quizSeeds[0].answer",
+            "importsNextDafConclusion": false,
+            "note": "answer matches question and resolution, self-contained"
+          },
+          {
+            "path": "quizSeeds[0].question",
+            "importsNextDafConclusion": false,
+            "note": "question matches the alternatives posed in these lines"
+          },
+          {
+            "path": "quizSeeds[0].sourceRefs[0].note",
+            "importsNextDafConclusion": false,
+            "note": "note matches the directional question, self-contained"
+          },
+          {
+            "path": "visualizableElements[0].item",
+            "importsNextDafConclusion": false,
+            "note": "visualization matches the two procedure pairings posed"
+          },
+          {
+            "path": "visualizableElements[0].type",
+            "importsNextDafConclusion": false,
+            "note": "contrast type fits the two-option framing of the question"
+          }
+        ],
+        "staleContentSweep": {
+          "entries": [
+            {
+              "category": "stale_original_error",
+              "found": false
+            },
+            {
+              "category": "stale_speaker_or_attribution",
+              "found": false
+            },
+            {
+              "category": "contradictory_speaker_attribution",
+              "found": false
+            },
+            {
+              "category": "old_conclusion_in_secondary_field",
+              "found": false
+            },
+            {
+              "category": "false_closure",
+              "found": false
+            },
+            {
+              "category": "next_daf_content_leaked_backward",
+              "found": false
+            },
+            {
+              "category": "claim_unsupported_by_physical_daf",
+              "found": false
+            },
+            {
+              "category": "stale_quiz_question_or_answer",
+              "found": false
+            },
+            {
+              "category": "stale_final_ruling",
+              "found": false
+            },
+            {
+              "category": "stale_summary",
+              "found": false
+            },
+            {
+              "category": "stale_learning_field",
+              "found": false
+            },
+            {
+              "category": "stale_misconception",
+              "found": false
+            },
+            {
+              "category": "stale_related_sugya_description",
+              "found": false
+            },
+            {
+              "category": "stale_visualizable_element_prose",
+              "found": false
+            },
+            {
+              "category": "source_refs_no_longer_supporting_claim",
+              "found": false
+            },
+            {
+              "category": "reference_outside_declared_line_range",
+              "found": false
+            }
+          ]
+        }
+      },
+      "certifiedAtCommit": "ffabd05664246a90dc9e91acbdddc0d9e7d7198d"
+    },
+    "yoma-15b-s04": {
+      "sugyaId": "yoma-15b-s04",
+      "daf": "15b",
+      "state": "CERTIFIED",
+      "firstPass": {
+        "reviewId": "claude-claude-sonnet-5-yoma-15b-s04-first-900e08330a",
+        "reviewerContextId": "llm-task-anthropic-claude-sonnet-5-yoma-15b-s04-first-900e08330a",
+        "sourceFirst": true,
+        "verdict": "REPAIR_REQUIRED",
+        "reviewedSourceFingerprint": "348bc830ac7dba5f46ff049abc3ae0ba550c1d105570b08ee19ecd21b1d8a881",
+        "reviewedSemanticFingerprint": "ba3e513d496510988656591e3b277742a969e6aaa9dcdd550248da250891df67",
+        "evidence": {
+          "answer": {
+            "sugyaId": "yoma-15b-s04",
+            "verdict": "REPAIR_REQUIRED",
+            "evidence": "The Tamid mishna (15b.6) places the Chamber of the Lambs in the northwest corner of the Beit HaMoked itself, one of its four internal chambers, not in a courtyard corner merely adjacent to the Beit HaMoked; Middot (15b.7) places it in the southwest corner. The enrichment fields correctly state the contradiction is raised here and resolved later, but currentDafSummary's phrasing misdescribes the Tamid location.",
+            "defects": [
+              {
+                "field": "currentDafSummary",
+                "sourceLines": "19-24",
+                "problem": "Describes Tamid's placement as the courtyard's northwest corner 'next to' the Beit HaMoked, but the text places the Chamber of the Lambs as one of the four chambers within the Beit HaMoked's own northwest corner, not merely beside it.",
+                "requiredCorrection": "Replace the final clause with: 'and contrasts Tamid's placement of the Chamber of the Lambs in the northwest corner of the Beit HaMoked with Middot's placement of it in the southwest corner of the Beit HaMoked.'"
+              }
+            ],
+            "dafSummaryVerdict": "REPAIR_REQUIRED",
+            "boundaryVerdict": "VERIFIED"
+          },
+          "run": "yoma-15b-s04-first-900e08330a"
+        }
+      },
+      "repairRef": "ffabd05664246a90dc9e91acbdddc0d9e7d7198d",
+      "sourceFingerprint": "348bc830ac7dba5f46ff049abc3ae0ba550c1d105570b08ee19ecd21b1d8a881",
+      "semanticFingerprint": "a143d52be19f3b46a618e70690b81b49bbc4cb37017ae6c0d74e22079bff53b5",
+      "secondPass": {
+        "reviewId": "claude-claude-sonnet-5-yoma-15b-s04-second-80640ebe2c",
+        "reviewerContextId": "llm-task-anthropic-claude-sonnet-5-yoma-15b-s04-second-80640ebe2c",
+        "sourceFirst": true,
+        "verdict": "CONFIRMED",
+        "reviewedSourceFingerprint": "348bc830ac7dba5f46ff049abc3ae0ba550c1d105570b08ee19ecd21b1d8a881",
+        "reviewedSemanticFingerprint": "a143d52be19f3b46a618e70690b81b49bbc4cb37017ae6c0d74e22079bff53b5",
+        "evidence": {
+          "answer": {
+            "sugyaId": "yoma-15b-s04",
+            "verdict": "CONFIRMED",
+            "evidence": "The Tamid mishna (15b.6) places the Chamber of the Lambs in the northwest corner among four chambers of the Beit HaMoked. Middot's mishna (15b.7) describes four chambers of the Beit HaMoked, two sacred and two non-sacred, and states the southwest one was the Chamber of the Sacrificial Lambs, contradicting Tamid. The amud ends with 'דרומית' as a catchword, with resolution deferred to 16a.",
+            "defects": [],
+            "dafSummaryVerdict": "CONFIRMED",
+            "boundaryVerdict": "CONFIRMED"
+          },
+          "run": "yoma-15b-s04-second-80640ebe2c"
+        }
+      },
+      "finalAudit": {
+        "reviewId": "claude-claude-sonnet-5-yoma-15b-s04-final-0deb69c20c",
+        "auditorContextId": "llm-task-anthropic-claude-sonnet-5-yoma-15b-s04-final-p1-0deb69c20c",
+        "auditedSourceFingerprint": "348bc830ac7dba5f46ff049abc3ae0ba550c1d105570b08ee19ecd21b1d8a881",
+        "auditedSemanticFingerprint": "a143d52be19f3b46a618e70690b81b49bbc4cb37017ae6c0d74e22079bff53b5",
+        "dafBoundary": {
+          "rawLineCount": 31,
+          "finalRawLine": "דרומית",
+          "dafEndState": "MID_ARGUMENT"
+        },
+        "fieldInventory": [
+          {
+            "path": "lineRange",
+            "verdict": "NONFACTUAL",
+            "crossReference": false,
+            "boundarySafe": true
+          },
+          {
+            "path": "lines",
+            "verdict": "NONFACTUAL",
+            "crossReference": false,
+            "boundarySafe": true
+          },
+          {
+            "path": "dafLevel.glossary[0].en",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "15b",
+                "startVilnaLine": 1,
+                "endVilnaLine": 2
+              }
+            ],
+            "boundarySafe": true,
+            "note": "matches Exodus 24:10 proof for tohoro; resolved here, no dependency on later amud"
+          },
+          {
+            "path": "dafLevel.glossary[0].he",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "15b",
+                "startVilnaLine": 1,
+                "endVilnaLine": 2
+              }
+            ],
+            "boundarySafe": true,
+            "note": "cognate root לטהר appears here; lemma form used in glossary, resolved within this sugya"
+          },
+          {
+            "path": "dafLevel.glossary[0].translit",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "15b",
+                "startVilnaLine": 1,
+                "endVilnaLine": 2
+              }
+            ],
+            "boundarySafe": true,
+            "note": "transliteration of the resolved term; stands independent of next amud"
+          },
+          {
+            "path": "dafLevel.glossary[1].en",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "15b",
+                "startVilnaLine": 7,
+                "endVilnaLine": 9
+              }
+            ],
+            "boundarySafe": true,
+            "note": "yesod's absence at the southeast corner is explained; self-contained fact"
+          },
+          {
+            "path": "dafLevel.glossary[1].he",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "15b",
+                "startVilnaLine": 8,
+                "endVilnaLine": 8
+              }
+            ],
+            "boundarySafe": true,
+            "note": "יסוד appears; self-contained fact not affected by later amud"
+          },
+          {
+            "path": "dafLevel.glossary[1].translit",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "15b",
+                "startVilnaLine": 8,
+                "endVilnaLine": 8
+              }
+            ],
+            "boundarySafe": true,
+            "note": "transliteration matches; self-contained fact not affected by later amud"
+          },
+          {
+            "path": "dafLevel.glossary[2].en",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "15b",
+                "startVilnaLine": 20,
+                "endVilnaLine": 21
+              },
+              {
+                "daf": "15b",
+                "startVilnaLine": 26,
+                "endVilnaLine": 30
+              }
+            ],
+            "boundarySafe": true,
+            "note": "states both mishnaic placements accurately; the contradiction is left open here, not resolved"
+          },
+          {
+            "path": "dafLevel.glossary[2].he",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "15b",
+                "startVilnaLine": 20,
+                "endVilnaLine": 20
+              }
+            ],
+            "boundarySafe": true,
+            "note": "לשכת הטלאים appears; the term stands regardless of the later resolution"
+          },
+          {
+            "path": "dafLevel.glossary[2].translit",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "15b",
+                "startVilnaLine": 20,
+                "endVilnaLine": 20
+              }
+            ],
+            "boundarySafe": true,
+            "note": "transliteration matches; the term stands regardless of the later resolution"
+          },
+          {
+            "path": "dafLevel.summary",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "15b",
+                "startVilnaLine": 1,
+                "endVilnaLine": 2
+              },
+              {
+                "daf": "15b",
+                "startVilnaLine": 7,
+                "endVilnaLine": 9
+              },
+              {
+                "daf": "15b",
+                "startVilnaLine": 14,
+                "endVilnaLine": 19
+              },
+              {
+                "daf": "15b",
+                "startVilnaLine": 20,
+                "endVilnaLine": 30
+              }
+            ],
+            "boundarySafe": true,
+            "note": "summarizes all four steps accurately without asserting 16a's resolution"
+          },
+          {
+            "path": "argumentFlow[step-01].id",
+            "verdict": "NONFACTUAL",
+            "crossReference": false,
+            "boundarySafe": true
+          },
+          {
+            "path": "argumentFlow[step-01].label",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "15b",
+                "startVilnaLine": 19,
+                "endVilnaLine": 22
+              }
+            ],
+            "boundarySafe": true,
+            "note": "label describes Tamid's stated location only, not the later contradiction's outcome"
+          },
+          {
+            "path": "argumentFlow[step-01].sourceRefs[0].lineId",
+            "verdict": "NONFACTUAL",
+            "crossReference": false,
+            "boundarySafe": true
+          },
+          {
+            "path": "argumentFlow[step-01].sourceRefs[0].note",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "15b",
+                "startVilnaLine": 21,
+                "endVilnaLine": 22
+              }
+            ],
+            "boundarySafe": true,
+            "note": "note names Tamid's placement, not how it is resolved"
+          },
+          {
+            "path": "argumentFlow[step-01].sourceRefs[0].sourceType",
+            "verdict": "NONFACTUAL",
+            "crossReference": false,
+            "boundarySafe": true
+          },
+          {
+            "path": "argumentFlow[step-01].sourceRefs[0].vilnaLine",
+            "verdict": "NONFACTUAL",
+            "crossReference": false,
+            "boundarySafe": true
+          },
+          {
+            "path": "argumentFlow[step-01].speaker",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "15b",
+                "startVilnaLine": 19,
+                "endVilnaLine": 19
+              }
+            ],
+            "boundarySafe": true,
+            "note": "תנן התם introduces a mishna; speaker attribution doesn't assume resolution"
+          },
+          {
+            "path": "argumentFlow[step-01].text",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "15b",
+                "startVilnaLine": 19,
+                "endVilnaLine": 25
+              }
+            ],
+            "boundarySafe": true,
+            "note": "text restates Tamid's chamber layout only, no resolution implied"
+          },
+          {
+            "path": "argumentFlow[step-01].type",
+            "verdict": "REVIEWED",
+            "crossReference": false,
+            "boundarySafe": true,
+            "note": "premise fits as the opening cited mishna before the clash is raised"
+          },
+          {
+            "path": "argumentFlow[step-02].id",
+            "verdict": "NONFACTUAL",
+            "crossReference": false,
+            "boundarySafe": true
+          },
+          {
+            "path": "argumentFlow[step-02].label",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "15b",
+                "startVilnaLine": 26,
+                "endVilnaLine": 30
+              }
+            ],
+            "boundarySafe": true,
+            "note": "label states Middot's differing corner, not any resolution"
+          },
+          {
+            "path": "argumentFlow[step-02].sourceRefs[0].lineId",
+            "verdict": "NONFACTUAL",
+            "crossReference": false,
+            "boundarySafe": true
+          },
+          {
+            "path": "argumentFlow[step-02].sourceRefs[0].note",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "15b",
+                "startVilnaLine": 29,
+                "endVilnaLine": 30
+              }
+            ],
+            "boundarySafe": true,
+            "note": "note names Middot's placement only"
+          },
+          {
+            "path": "argumentFlow[step-02].sourceRefs[0].sourceType",
+            "verdict": "NONFACTUAL",
+            "crossReference": false,
+            "boundarySafe": true
+          },
+          {
+            "path": "argumentFlow[step-02].sourceRefs[0].vilnaLine",
+            "verdict": "NONFACTUAL",
+            "crossReference": false,
+            "boundarySafe": true
+          },
+          {
+            "path": "argumentFlow[step-02].speaker",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "15b",
+                "startVilnaLine": 26,
+                "endVilnaLine": 26
+              }
+            ],
+            "boundarySafe": true,
+            "note": "ורמינהו marks the Gemara's voice raising the clash, not its outcome"
+          },
+          {
+            "path": "argumentFlow[step-02].text",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "15b",
+                "startVilnaLine": 26,
+                "endVilnaLine": 30
+              }
+            ],
+            "boundarySafe": true,
+            "note": "text states the contradiction exists, doesn't resolve it"
+          },
+          {
+            "path": "argumentFlow[step-02].type",
+            "verdict": "REVIEWED",
+            "crossReference": false,
+            "boundarySafe": true,
+            "note": "contradiction fits as the clash-raising step, resolution left open"
+          },
+          {
+            "path": "argumentFlow[step-03].id",
+            "verdict": "NONFACTUAL",
+            "crossReference": false,
+            "boundarySafe": true
+          },
+          {
+            "path": "argumentFlow[step-03].label",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "15b",
+                "startVilnaLine": 29,
+                "endVilnaLine": 30
+              }
+            ],
+            "boundarySafe": true,
+            "note": "label restates the clash; no resolution assumed"
+          },
+          {
+            "path": "argumentFlow[step-03].sourceRefs[0].lineId",
+            "verdict": "NONFACTUAL",
+            "crossReference": false,
+            "boundarySafe": true
+          },
+          {
+            "path": "argumentFlow[step-03].sourceRefs[0].note",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "15b",
+                "startVilnaLine": 29,
+                "endVilnaLine": 30
+              }
+            ],
+            "boundarySafe": true,
+            "note": "note cites Middot's southwest wording only"
+          },
+          {
+            "path": "argumentFlow[step-03].sourceRefs[0].sourceType",
+            "verdict": "NONFACTUAL",
+            "crossReference": false,
+            "boundarySafe": true
+          },
+          {
+            "path": "argumentFlow[step-03].sourceRefs[0].vilnaLine",
+            "verdict": "NONFACTUAL",
+            "crossReference": false,
+            "boundarySafe": true
+          },
+          {
+            "path": "argumentFlow[step-03].speaker",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "15b",
+                "startVilnaLine": 26,
+                "endVilnaLine": 26
+              }
+            ],
+            "boundarySafe": true,
+            "note": "Gemara's voice raises the clash; no resolution assumed"
+          },
+          {
+            "path": "argumentFlow[step-03].text",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "15b",
+                "startVilnaLine": 19,
+                "endVilnaLine": 30
+              }
+            ],
+            "boundarySafe": true,
+            "note": "text names both locations and notes resolution is deferred, without stating it"
+          },
+          {
+            "path": "argumentFlow[step-03].type",
+            "verdict": "REVIEWED",
+            "crossReference": false,
+            "boundarySafe": true,
+            "note": "question fits; nothing here closes the contradiction"
+          },
+          {
+            "path": "conceptRefs[0]",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "15b",
+                "startVilnaLine": 19,
+                "endVilnaLine": 25
+              }
+            ],
+            "boundarySafe": true,
+            "note": "Yoma.15b.6 corresponds to the Tamid citation"
+          },
+          {
+            "path": "conceptRefs[1]",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "15b",
+                "startVilnaLine": 26,
+                "endVilnaLine": 30
+              }
+            ],
+            "boundarySafe": true,
+            "note": "Yoma.15b.7 corresponds to the Middot citation"
+          },
+          {
+            "path": "difficulty",
+            "verdict": "REVIEWED",
+            "crossReference": false,
+            "boundarySafe": true,
+            "note": "difficulty label is a judgment call, not contradicted by text"
+          },
+          {
+            "path": "display.hint",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "15b",
+                "startVilnaLine": 19,
+                "endVilnaLine": 30
+              }
+            ],
+            "boundarySafe": true,
+            "note": "hint poses the open contradiction without assuming its answer"
+          },
+          {
+            "path": "display.oneLine",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "15b",
+                "startVilnaLine": 19,
+                "endVilnaLine": 30
+              }
+            ],
+            "boundarySafe": true,
+            "note": "oneLine states the contradiction is left unresolved here, consistent with MID_ARGUMENT"
+          },
+          {
+            "path": "display.title",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "15b",
+                "startVilnaLine": 19,
+                "endVilnaLine": 30
+              }
+            ],
+            "boundarySafe": true,
+            "note": "title names the contradiction opening onto 16a, not its content"
+          },
+          {
+            "path": "display.whats",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "15b",
+                "startVilnaLine": 19,
+                "endVilnaLine": 30
+              }
+            ],
+            "boundarySafe": true,
+            "note": "whats restates both placements and notes continuation, not resolution"
+          },
+          {
+            "path": "finalRuling",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "15b",
+                "startVilnaLine": 19,
+                "endVilnaLine": 30
+              }
+            ],
+            "boundarySafe": true,
+            "note": "finalRuling states deferral only, not the actual resolution"
+          },
+          {
+            "path": "glossary[0].en",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "15b",
+                "startVilnaLine": 19,
+                "endVilnaLine": 23
+              },
+              {
+                "daf": "15b",
+                "startVilnaLine": 29,
+                "endVilnaLine": 30
+              }
+            ],
+            "boundarySafe": true,
+            "note": "glossary definition matches NW placement in Tamid (lines 21-22) and SW placement in Middot (lines 29-30)"
+          },
+          {
+            "path": "glossary[0].he",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "15b",
+                "startVilnaLine": 19,
+                "endVilnaLine": 20
+              }
+            ],
+            "boundarySafe": true,
+            "note": "term לשכת הטלאים appears as written"
+          },
+          {
+            "path": "glossary[0].translit",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "15b",
+                "startVilnaLine": 19,
+                "endVilnaLine": 20
+              }
+            ],
+            "boundarySafe": true,
+            "note": "transliteration matches the Hebrew term as it appears"
+          },
+          {
+            "path": "learning.ahaMoment",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "15b",
+                "startVilnaLine": 19,
+                "endVilnaLine": 30
+              }
+            ],
+            "boundarySafe": true,
+            "note": "contradiction is raised here and left open per step-03; does not assume how 16a resolves it"
+          },
+          {
+            "path": "learning.coreMove",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "15b",
+                "startVilnaLine": 19,
+                "endVilnaLine": 30
+              }
+            ],
+            "boundarySafe": true,
+            "note": "describes the raising of the contradiction without resolution; does not assume the next amud's resolution"
+          },
+          {
+            "path": "learning.coreTension",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "15b",
+                "startVilnaLine": 19,
+                "endVilnaLine": 23
+              },
+              {
+                "daf": "15b",
+                "startVilnaLine": 26,
+                "endVilnaLine": 30
+              }
+            ],
+            "boundarySafe": true,
+            "note": "both locations are stated in the text as a genuine tension; does not assume how it resolves"
+          },
+          {
+            "path": "learning.learnerQuestion",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "15b",
+                "startVilnaLine": 19,
+                "endVilnaLine": 30
+              }
+            ],
+            "boundarySafe": true,
+            "note": "question format matches the unresolved contradiction; does not assume the next amud's answer"
+          },
+          {
+            "path": "learning.learningBlocker",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "15b",
+                "startVilnaLine": 19,
+                "endVilnaLine": 30
+              }
+            ],
+            "boundarySafe": true,
+            "note": "correctly frames this as presenting conflicting locations without resolving; does not assume next amud's outcome"
+          },
+          {
+            "path": "learning.memoryAnchor",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "15b",
+                "startVilnaLine": 19,
+                "endVilnaLine": 30
+              }
+            ],
+            "boundarySafe": true,
+            "note": "memory anchor reflects the open contradiction; does not assume how 16a resolves it"
+          },
+          {
+            "path": "learning.takeaway.text",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "15b",
+                "startVilnaLine": 19,
+                "endVilnaLine": 30
+              }
+            ],
+            "boundarySafe": true,
+            "note": "states the contradiction is raised without resolution; does not assume the next amud's answer"
+          },
+          {
+            "path": "learning.takeaway.type",
+            "verdict": "REVIEWED",
+            "crossReference": false,
+            "boundarySafe": true,
+            "note": "takeaway.type 'open_question' fits since the sugya ends without resolving the contradiction"
+          },
+          {
+            "path": "misconceptions[0].correctedByStepId",
+            "verdict": "NONFACTUAL",
+            "crossReference": false,
+            "boundarySafe": true
+          },
+          {
+            "path": "misconceptions[0].correction",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "15b",
+                "startVilnaLine": 19,
+                "endVilnaLine": 30
+              }
+            ],
+            "boundarySafe": true,
+            "note": "correction about differing tractate perspectives fits the two conflicting placements; does not assume next amud's resolution"
+          },
+          {
+            "path": "misconceptions[0].misconception",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "15b",
+                "startVilnaLine": 19,
+                "endVilnaLine": 30
+              }
+            ],
+            "boundarySafe": true,
+            "note": "misconception framing matches the apparent conflict between the two mishnayot; does not assume next amud's resolution"
+          },
+          {
+            "path": "prerequisiteKnowledge[0]",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "15b",
+                "startVilnaLine": 22,
+                "endVilnaLine": 28
+              }
+            ],
+            "boundarySafe": true,
+            "note": "four chambers of Beit HaMoked are named explicitly in both citations"
+          },
+          {
+            "path": "prerequisiteKnowledge[1]",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "15b",
+                "startVilnaLine": 19,
+                "endVilnaLine": 19
+              },
+              {
+                "daf": "15b",
+                "startVilnaLine": 26,
+                "endVilnaLine": 26
+              }
+            ],
+            "boundarySafe": true,
+            "note": "citations from Tamid (תנן התם) and Middot (ורמינהו) within tractate Yoma support this background"
+          },
+          {
+            "path": "quizSeeds[0].answer",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "15b",
+                "startVilnaLine": 19,
+                "endVilnaLine": 30
+              }
+            ],
+            "boundarySafe": true,
+            "note": "answer restates the two conflicting placements; does not assume how next amud resolves it"
+          },
+          {
+            "path": "quizSeeds[0].question",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "15b",
+                "startVilnaLine": 19,
+                "endVilnaLine": 30
+              }
+            ],
+            "boundarySafe": true,
+            "note": "question matches the contradiction raised in the text"
+          },
+          {
+            "path": "quizSeeds[0].sourceRefs[0].lineId",
+            "verdict": "NONFACTUAL",
+            "crossReference": false,
+            "boundarySafe": true
+          },
+          {
+            "path": "quizSeeds[0].sourceRefs[0].note",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "15b",
+                "startVilnaLine": 26,
+                "endVilnaLine": 30
+              }
+            ],
+            "boundarySafe": true,
+            "note": "note refers to the Middot placement which differs from the Tamid placement"
+          },
+          {
+            "path": "quizSeeds[0].sourceRefs[0].sourceType",
+            "verdict": "NONFACTUAL",
+            "crossReference": false,
+            "boundarySafe": true
+          },
+          {
+            "path": "quizSeeds[0].sourceRefs[0].vilnaLine",
+            "verdict": "NONFACTUAL",
+            "crossReference": false,
+            "boundarySafe": true
+          },
+          {
+            "path": "relatedSugyot[0]",
+            "verdict": "NONFACTUAL",
+            "crossReference": false,
+            "boundarySafe": true
+          },
+          {
+            "path": "topicTags[0]",
+            "verdict": "NONFACTUAL",
+            "crossReference": false,
+            "boundarySafe": true
+          },
+          {
+            "path": "topicTags[1]",
+            "verdict": "NONFACTUAL",
+            "crossReference": false,
+            "boundarySafe": true
+          },
+          {
+            "path": "topicTags[2]",
+            "verdict": "NONFACTUAL",
+            "crossReference": false,
+            "boundarySafe": true
+          },
+          {
+            "path": "topicTags[3]",
+            "verdict": "NONFACTUAL",
+            "crossReference": false,
+            "boundarySafe": true
+          },
+          {
+            "path": "topicTags[4]",
+            "verdict": "NONFACTUAL",
+            "crossReference": false,
+            "boundarySafe": true
+          },
+          {
+            "path": "topicTags[5]",
+            "verdict": "NONFACTUAL",
+            "crossReference": false,
+            "boundarySafe": true
+          },
+          {
+            "path": "visualizableElements[0].item",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "15b",
+                "startVilnaLine": 19,
+                "endVilnaLine": 30
+              }
+            ],
+            "boundarySafe": true,
+            "note": "floor plan description matches the two stated corner locations"
+          },
+          {
+            "path": "visualizableElements[0].type",
+            "verdict": "REVIEWED",
+            "crossReference": false,
+            "boundarySafe": true,
+            "note": "type 'place' fits a physical floor-plan visualization"
+          },
+          {
+            "path": "visualizableElements[1].item",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "15b",
+                "startVilnaLine": 19,
+                "endVilnaLine": 30
+              }
+            ],
+            "boundarySafe": true,
+            "note": "side-by-side contrast matches the two differing placements stated in the text"
+          },
+          {
+            "path": "visualizableElements[1].type",
+            "verdict": "REVIEWED",
+            "crossReference": false,
+            "boundarySafe": true,
+            "note": "type 'contrast' fits a comparison between two conflicting location claims"
+          }
+        ],
+        "boundaryLeakageSweep": [
+          {
+            "path": "dafLevel.glossary[0].en",
+            "importsNextDafConclusion": false,
+            "note": "matches Exodus 24:10 proof for tohoro; resolved here, no dependency on later amud"
+          },
+          {
+            "path": "dafLevel.glossary[0].he",
+            "importsNextDafConclusion": false,
+            "note": "cognate root לטהר appears here; lemma form used in glossary, resolved within this sugya"
+          },
+          {
+            "path": "dafLevel.glossary[0].translit",
+            "importsNextDafConclusion": false,
+            "note": "transliteration of the resolved term; stands independent of next amud"
+          },
+          {
+            "path": "dafLevel.glossary[1].en",
+            "importsNextDafConclusion": false,
+            "note": "yesod's absence at the southeast corner is explained; self-contained fact"
+          },
+          {
+            "path": "dafLevel.glossary[1].he",
+            "importsNextDafConclusion": false,
+            "note": "יסוד appears; self-contained fact not affected by later amud"
+          },
+          {
+            "path": "dafLevel.glossary[1].translit",
+            "importsNextDafConclusion": false,
+            "note": "transliteration matches; self-contained fact not affected by later amud"
+          },
+          {
+            "path": "dafLevel.glossary[2].en",
+            "importsNextDafConclusion": false,
+            "note": "states both mishnaic placements accurately; the contradiction is left open here, not resolved"
+          },
+          {
+            "path": "dafLevel.glossary[2].he",
+            "importsNextDafConclusion": false,
+            "note": "לשכת הטלאים appears; the term stands regardless of the later resolution"
+          },
+          {
+            "path": "dafLevel.glossary[2].translit",
+            "importsNextDafConclusion": false,
+            "note": "transliteration matches; the term stands regardless of the later resolution"
+          },
+          {
+            "path": "dafLevel.summary",
+            "importsNextDafConclusion": false,
+            "note": "summarizes all four steps accurately without asserting 16a's resolution"
+          },
+          {
+            "path": "argumentFlow[step-01].label",
+            "importsNextDafConclusion": false,
+            "note": "label describes Tamid's stated location only, not the later contradiction's outcome"
+          },
+          {
+            "path": "argumentFlow[step-01].sourceRefs[0].note",
+            "importsNextDafConclusion": false,
+            "note": "note names Tamid's placement, not how it is resolved"
+          },
+          {
+            "path": "argumentFlow[step-01].speaker",
+            "importsNextDafConclusion": false,
+            "note": "תנן התם introduces a mishna; speaker attribution doesn't assume resolution"
+          },
+          {
+            "path": "argumentFlow[step-01].text",
+            "importsNextDafConclusion": false,
+            "note": "text restates Tamid's chamber layout only, no resolution implied"
+          },
+          {
+            "path": "argumentFlow[step-01].type",
+            "importsNextDafConclusion": false,
+            "note": "premise fits as the opening cited mishna before the clash is raised"
+          },
+          {
+            "path": "argumentFlow[step-02].label",
+            "importsNextDafConclusion": false,
+            "note": "label states Middot's differing corner, not any resolution"
+          },
+          {
+            "path": "argumentFlow[step-02].sourceRefs[0].note",
+            "importsNextDafConclusion": false,
+            "note": "note names Middot's placement only"
+          },
+          {
+            "path": "argumentFlow[step-02].speaker",
+            "importsNextDafConclusion": false,
+            "note": "ורמינהו marks the Gemara's voice raising the clash, not its outcome"
+          },
+          {
+            "path": "argumentFlow[step-02].text",
+            "importsNextDafConclusion": false,
+            "note": "text states the contradiction exists, doesn't resolve it"
+          },
+          {
+            "path": "argumentFlow[step-02].type",
+            "importsNextDafConclusion": false,
+            "note": "contradiction fits as the clash-raising step, resolution left open"
+          },
+          {
+            "path": "argumentFlow[step-03].label",
+            "importsNextDafConclusion": false,
+            "note": "label restates the clash; no resolution assumed"
+          },
+          {
+            "path": "argumentFlow[step-03].sourceRefs[0].note",
+            "importsNextDafConclusion": false,
+            "note": "note cites Middot's southwest wording only"
+          },
+          {
+            "path": "argumentFlow[step-03].speaker",
+            "importsNextDafConclusion": false,
+            "note": "Gemara's voice raises the clash; no resolution assumed"
+          },
+          {
+            "path": "argumentFlow[step-03].text",
+            "importsNextDafConclusion": false,
+            "note": "text names both locations and notes resolution is deferred, without stating it"
+          },
+          {
+            "path": "argumentFlow[step-03].type",
+            "importsNextDafConclusion": false,
+            "note": "question fits; nothing here closes the contradiction"
+          },
+          {
+            "path": "conceptRefs[0]",
+            "importsNextDafConclusion": false,
+            "note": "Yoma.15b.6 corresponds to the Tamid citation"
+          },
+          {
+            "path": "conceptRefs[1]",
+            "importsNextDafConclusion": false,
+            "note": "Yoma.15b.7 corresponds to the Middot citation"
+          },
+          {
+            "path": "difficulty",
+            "importsNextDafConclusion": false,
+            "note": "difficulty label is a judgment call, not contradicted by text"
+          },
+          {
+            "path": "display.hint",
+            "importsNextDafConclusion": false,
+            "note": "hint poses the open contradiction without assuming its answer"
+          },
+          {
+            "path": "display.oneLine",
+            "importsNextDafConclusion": false,
+            "note": "oneLine states the contradiction is left unresolved here, consistent with MID_ARGUMENT"
+          },
+          {
+            "path": "display.title",
+            "importsNextDafConclusion": false,
+            "note": "title names the contradiction opening onto 16a, not its content"
+          },
+          {
+            "path": "display.whats",
+            "importsNextDafConclusion": false,
+            "note": "whats restates both placements and notes continuation, not resolution"
+          },
+          {
+            "path": "finalRuling",
+            "importsNextDafConclusion": false,
+            "note": "finalRuling states deferral only, not the actual resolution"
+          },
+          {
+            "path": "glossary[0].en",
+            "importsNextDafConclusion": false,
+            "note": "glossary definition matches NW placement in Tamid (lines 21-22) and SW placement in Middot (lines 29-30)"
+          },
+          {
+            "path": "glossary[0].he",
+            "importsNextDafConclusion": false,
+            "note": "term לשכת הטלאים appears as written"
+          },
+          {
+            "path": "glossary[0].translit",
+            "importsNextDafConclusion": false,
+            "note": "transliteration matches the Hebrew term as it appears"
+          },
+          {
+            "path": "learning.ahaMoment",
+            "importsNextDafConclusion": false,
+            "note": "contradiction is raised here and left open per step-03; does not assume how 16a resolves it"
+          },
+          {
+            "path": "learning.coreMove",
+            "importsNextDafConclusion": false,
+            "note": "describes the raising of the contradiction without resolution; does not assume the next amud's resolution"
+          },
+          {
+            "path": "learning.coreTension",
+            "importsNextDafConclusion": false,
+            "note": "both locations are stated in the text as a genuine tension; does not assume how it resolves"
+          },
+          {
+            "path": "learning.learnerQuestion",
+            "importsNextDafConclusion": false,
+            "note": "question format matches the unresolved contradiction; does not assume the next amud's answer"
+          },
+          {
+            "path": "learning.learningBlocker",
+            "importsNextDafConclusion": false,
+            "note": "correctly frames this as presenting conflicting locations without resolving; does not assume next amud's outcome"
+          },
+          {
+            "path": "learning.memoryAnchor",
+            "importsNextDafConclusion": false,
+            "note": "memory anchor reflects the open contradiction; does not assume how 16a resolves it"
+          },
+          {
+            "path": "learning.takeaway.text",
+            "importsNextDafConclusion": false,
+            "note": "states the contradiction is raised without resolution; does not assume the next amud's answer"
+          },
+          {
+            "path": "learning.takeaway.type",
+            "importsNextDafConclusion": false,
+            "note": "takeaway.type 'open_question' fits since the sugya ends without resolving the contradiction"
+          },
+          {
+            "path": "misconceptions[0].correction",
+            "importsNextDafConclusion": false,
+            "note": "correction about differing tractate perspectives fits the two conflicting placements; does not assume next amud's resolution"
+          },
+          {
+            "path": "misconceptions[0].misconception",
+            "importsNextDafConclusion": false,
+            "note": "misconception framing matches the apparent conflict between the two mishnayot; does not assume next amud's resolution"
+          },
+          {
+            "path": "prerequisiteKnowledge[0]",
+            "importsNextDafConclusion": false,
+            "note": "four chambers of Beit HaMoked are named explicitly in both citations"
+          },
+          {
+            "path": "prerequisiteKnowledge[1]",
+            "importsNextDafConclusion": false,
+            "note": "citations from Tamid (תנן התם) and Middot (ורמינהו) within tractate Yoma support this background"
+          },
+          {
+            "path": "quizSeeds[0].answer",
+            "importsNextDafConclusion": false,
+            "note": "answer restates the two conflicting placements; does not assume how next amud resolves it"
+          },
+          {
+            "path": "quizSeeds[0].question",
+            "importsNextDafConclusion": false,
+            "note": "question matches the contradiction raised in the text"
+          },
+          {
+            "path": "quizSeeds[0].sourceRefs[0].note",
+            "importsNextDafConclusion": false,
+            "note": "note refers to the Middot placement which differs from the Tamid placement"
+          },
+          {
+            "path": "visualizableElements[0].item",
+            "importsNextDafConclusion": false,
+            "note": "floor plan description matches the two stated corner locations"
+          },
+          {
+            "path": "visualizableElements[0].type",
+            "importsNextDafConclusion": false,
+            "note": "type 'place' fits a physical floor-plan visualization"
+          },
+          {
+            "path": "visualizableElements[1].item",
+            "importsNextDafConclusion": false,
+            "note": "side-by-side contrast matches the two differing placements stated in the text"
+          },
+          {
+            "path": "visualizableElements[1].type",
+            "importsNextDafConclusion": false,
+            "note": "type 'contrast' fits a comparison between two conflicting location claims"
+          }
+        ],
+        "staleContentSweep": {
+          "entries": [
+            {
+              "category": "stale_original_error",
+              "found": false
+            },
+            {
+              "category": "stale_speaker_or_attribution",
+              "found": false
+            },
+            {
+              "category": "contradictory_speaker_attribution",
+              "found": false
+            },
+            {
+              "category": "old_conclusion_in_secondary_field",
+              "found": false
+            },
+            {
+              "category": "false_closure",
+              "found": false
+            },
+            {
+              "category": "next_daf_content_leaked_backward",
+              "found": false
+            },
+            {
+              "category": "claim_unsupported_by_physical_daf",
+              "found": false
+            },
+            {
+              "category": "stale_quiz_question_or_answer",
+              "found": false
+            },
+            {
+              "category": "stale_final_ruling",
+              "found": false
+            },
+            {
+              "category": "stale_summary",
+              "found": false
+            },
+            {
+              "category": "stale_learning_field",
+              "found": false
+            },
+            {
+              "category": "stale_misconception",
+              "found": false
+            },
+            {
+              "category": "stale_related_sugya_description",
+              "found": false
+            },
+            {
+              "category": "stale_visualizable_element_prose",
+              "found": false
+            },
+            {
+              "category": "source_refs_no_longer_supporting_claim",
+              "found": false
+            },
+            {
+              "category": "reference_outside_declared_line_range",
+              "found": false
+            }
+          ]
+        }
+      },
+      "certifiedAtCommit": "ffabd05664246a90dc9e91acbdddc0d9e7d7198d"
     }
   }
 }
