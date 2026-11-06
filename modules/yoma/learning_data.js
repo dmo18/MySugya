@@ -34289,7 +34289,7 @@ const DAF_CONTENT = {
   "15b": {
     canonicalRef: "Yoma 15b",
     daf: "15b",
-    summary: "The Gemara clarifies that the altar’s purity means its exposed top, resolves the order and placement of blood applications, determines that the tamid-olah receives the chatat-style procedure, and contrasts the Tamid mishna’s placement of the Chamber of the Lambs in the courtyard’s northwest corner next to the Beit HaMoked with Middot’s placement in the southwest.",
+    summary: "The Gemara clarifies that the altar’s purity means its exposed top, resolves the order and placement of blood applications, determines that the tamid-olah receives the chatat-style procedure, and contrasts the Tamid mishna’s placement of the Chamber of the Lambs in the northwest corner of the Temple courtyard, among four chambers that included the Beit HaMoked, with the Middot mishna’s placement of it in the southwest corner of the Beit HaMoked structure itself.",
     sugyot: [
       {
         id: "yoma-15b-s01",
@@ -34347,7 +34347,7 @@ const DAF_CONTENT = {
         ],
         requiresUnderstanding: [],
         prerequisiteKnowledge: [
-          "Background: the sugya discusses sprinkling locations on the altar, including its top."
+          "The altar's top is exposed after the incense ashes are cleared."
         ],
         misconceptions: [
           {
@@ -34385,9 +34385,9 @@ const DAF_CONTENT = {
         topicTags: [
           "altar",
           "tohoro",
-          "altar top",
-          "Rabba bar Sheila",
-          "verse proof"
+          "altar-top",
+          "rabba-bar-sheila",
+          "verse-proof"
         ],
         review: {
           content: "ai_generated",
@@ -34409,7 +34409,7 @@ const DAF_CONTENT = {
           title: "Three loose ends in R. Shimon's blood choreography, each tied off",
           oneLine: "Why olah comes before chatat, why blood is applied at the northeast rather than the southeast corner, and why the priest always turns right are each resolved with a precise technical answer.",
           whats: "Three follow-up questions about R. Shimon ish HaMitzpah's blood-sprinkling choreography are each resolved. First: why does R. Shimon put the olah requirement before the chatat requirement when approaching the altar corners? Second: why apply blood at the northeast and southwest corners rather than the southeast and northwest corners? Third: which way does the priest turn at the corners - always to the right?",
-          hint: "Each question has a clean answer: (1) olah comes first because the tamid is an olah; (2) the southeastern corner lacks a yesod, so olah blood is applied at the northeastern corner instead; (3) all turns are to the right, so the northeastern corner is encountered first."
+          hint: "Why does olah come first, why is its blood applied at the northeastern corner, and why is that corner encountered first?"
         },
         learning: {
           learnerQuestion: "R. Shimon's dual olah-and-chatat blood rite raises three practical snags: why olah goes first, why olah blood is applied at the northeastern corner, which has a yesod, instead of the southeastern corner, which lacks one, and which way the priest moves. How are these resolved?",
@@ -34599,13 +34599,13 @@ const DAF_CONTENT = {
         difficulty: "advanced",
         alternateAngles: [],
         topicTags: [
-          "yesod requirement",
+          "yesod-requirement",
           "yesod",
           "olah",
           "chatat",
-          "yesod of the mizbeach",
-          "blood service",
-          "northeast corner"
+          "yesod-of-the-mizbeach",
+          "blood-service",
+          "northeast-corner"
         ],
         review: {
           content: "ai_generated",
@@ -34627,7 +34627,7 @@ const DAF_CONTENT = {
           title: "Which way does the equation run? Reading 'chatat upon olah'",
           oneLine: "The Gemara proves that the tamid-olah receives the chatat-style blood procedure, rather than the New Moon chatat receiving the olah procedure.",
           whats: "Does the Torah apply the chatat procedure to the tamid-olah, or apply the olah procedure to the New Moon chatat? The verse about offering the chatat in addition to the tamid-olah settles which offering receives the other's procedure.",
-          hint: "The alternatives are chatat procedure on the tamid-olah or olah procedure on the New Moon chatat. The verse proves that the tamid-olah receives the chatat-style procedure."
+          hint: "Which offering does the verse prove receives the other offering's blood procedure?"
         },
         learning: {
           learnerQuestion: "Does the tamid-olah receive the chatat procedure, or does the New Moon chatat receive the olah procedure?",
@@ -34703,11 +34703,11 @@ const DAF_CONTENT = {
         difficulty: "advanced",
         alternateAngles: [],
         topicTags: [
-          "verse-based derivation",
+          "verse-based-derivation",
           "olah",
           "chatat",
-          "verse reading",
-          "procedure transfer"
+          "verse-reading",
+          "procedure-transfer"
         ],
         review: {
           content: "ai_generated",
@@ -34729,7 +34729,7 @@ const DAF_CONTENT = {
           title: "Same Temple, two floor plans: the Chamber of the Lambs contradiction opens 16a",
           oneLine: "Tractate Tamid and Tractate Middot place the Chamber of the Lambs in different corners of the Beit HaMoked, leaving a contradiction unresolved here.",
           whats: "The mishna from Tractate Tamid places the Chamber of the Lambs in one corner, while Tractate Middot's mishna places it in a different corner, with the contradiction continuing on the next page.",
-          hint: "Tractate Tamid says the Chamber of the Lambs was in one corner; Tractate Middot says it was in a different corner."
+          hint: "How can Tractate Tamid and Tractate Middot place the Chamber of the Lambs in different corners?"
         },
         learning: {
           learnerQuestion: "Tamid and Middot both describe the four-chamber Beit HaMoked, but they put the Chamber of the Lambs in different corners. How can two descriptions of the same physical room disagree?",
@@ -34848,12 +34848,12 @@ const DAF_CONTENT = {
         difficulty: "intermediate",
         alternateAngles: [],
         topicTags: [
-          "Beit HaMoked",
-          "Chamber of the Lambs",
-          "Tractate Middot",
-          "Temple layout",
+          "beit-hamoked",
+          "chamber-of-the-lambs",
+          "tractate-middot",
+          "temple-layout",
           "contradiction",
-          "contradictory mishnayot"
+          "contradictory-mishnayot"
         ],
         review: {
           content: "ai_generated",

@@ -9,7 +9,7 @@
     "yoma-15b-s03",
     "yoma-15b-s04"
   ],
-  "firstReviewId": "claude-claude-sonnet-5-yoma-15b-s01-second-b22078e35b",
+  "firstReviewId": "claude-claude-sonnet-5-yoma-15b-s01-first-3716a961ee",
   "policy": {
     "sourceFirst": true,
     "independentSecondPassRequired": true,
