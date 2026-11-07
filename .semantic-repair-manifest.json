@@ -2,14 +2,12 @@
   "schemaVersion": "1.0",
   "type": "semantic-daf-repair",
   "module": "yoma",
-  "daf": "15b",
+  "daf": "16a",
   "sugyaIds": [
-    "yoma-15b-s01",
-    "yoma-15b-s02",
-    "yoma-15b-s03",
-    "yoma-15b-s04"
+    "yoma-16a-s01",
+    "yoma-16a-s02"
   ],
-  "firstReviewId": "claude-claude-sonnet-5-yoma-15b-s01-first-3716a961ee",
+  "firstReviewId": "claude-claude-sonnet-5-yoma-16a-s01-first-01bbe4338d",
   "policy": {
     "sourceFirst": true,
     "independentSecondPassRequired": true,

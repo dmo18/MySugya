@@ -137115,6 +137115,2944 @@
         }
       },
       "certifiedAtCommit": "ffabd05664246a90dc9e91acbdddc0d9e7d7198d"
+    },
+    "yoma-16a-s01": {
+      "sugyaId": "yoma-16a-s01",
+      "daf": "16a",
+      "state": "CERTIFIED",
+      "firstPass": {
+        "reviewId": "claude-claude-sonnet-5-yoma-16a-s01-first-01bbe4338d",
+        "reviewerContextId": "llm-task-anthropic-claude-sonnet-5-yoma-16a-s01-first-01bbe4338d",
+        "sourceFirst": true,
+        "verdict": "VERIFIED",
+        "reviewedSourceFingerprint": "f5dafc456961c72dafbf66364762b87969a38f281897c1ca32b8058363e630e0",
+        "reviewedSemanticFingerprint": "7be74c8c80538b4b9bbec9090e7ccd2596c565921fd6ba38be57f29a8c407a43",
+        "evidence": {
+          "answer": {
+            "sugyaId": "yoma-16a-s01",
+            "verdict": "VERIFIED",
+            "evidence": "Rav Huna asks who taught Middot and answers R. Eliezer ben Yaakov; the cited Middot mishna lists the four Women's Courtyard chambers, stating the uses of nazirites, woodshed, and lepers plainly, but for the southwest chamber R. Eliezer ben Yaakov says he forgot its use, with Abba Shaul identifying it as Beit Shemanya for wine and oil, implying the mishna reflects his own authorship.",
+            "defects": [],
+            "dafSummaryVerdict": "VERIFIED",
+            "boundaryVerdict": "VERIFIED"
+          },
+          "run": "yoma-16a-s01-first-01bbe4338d"
+        }
+      },
+      "sourceFingerprint": "f5dafc456961c72dafbf66364762b87969a38f281897c1ca32b8058363e630e0",
+      "semanticFingerprint": "7be74c8c80538b4b9bbec9090e7ccd2596c565921fd6ba38be57f29a8c407a43",
+      "secondPass": {
+        "reviewId": "claude-claude-sonnet-5-yoma-16a-s01-second-bf0a5fdaf2",
+        "reviewerContextId": "llm-task-anthropic-claude-sonnet-5-yoma-16a-s01-second-bf0a5fdaf2",
+        "sourceFirst": true,
+        "verdict": "CONFIRMED",
+        "reviewedSourceFingerprint": "f5dafc456961c72dafbf66364762b87969a38f281897c1ca32b8058363e630e0",
+        "reviewedSemanticFingerprint": "7be74c8c80538b4b9bbec9090e7ccd2596c565921fd6ba38be57f29a8c407a43",
+        "evidence": {
+          "answer": {
+            "sugyaId": "yoma-16a-s01",
+            "verdict": "CONFIRMED",
+            "evidence": "The text states Rav Huna identifies R. Eliezer ben Yaakov as the tanna behind Middot, then cites the Middot mishna on the Women's Courtyard chambers where R. Eliezer ben Yaakov admits he forgot the function of the southwest chamber while the other three are stated plainly, and Abba Shaul names that chamber Beit Shemanya (House of Oils) - matching the enrichment's argument flow and resolution.",
+            "defects": [],
+            "dafSummaryVerdict": "CONFIRMED",
+            "boundaryVerdict": "CONFIRMED"
+          },
+          "run": "yoma-16a-s01-second-bf0a5fdaf2"
+        }
+      },
+      "finalAudit": {
+        "reviewId": "claude-claude-sonnet-5-yoma-16a-s01-final-p1f-419a2d7f31",
+        "auditorContextId": "llm-task-anthropic-claude-sonnet-5-yoma-16a-s01-final-p1f-419a2d7f31",
+        "auditedSourceFingerprint": "f5dafc456961c72dafbf66364762b87969a38f281897c1ca32b8058363e630e0",
+        "auditedSemanticFingerprint": "7be74c8c80538b4b9bbec9090e7ccd2596c565921fd6ba38be57f29a8c407a43",
+        "dafBoundary": {
+          "rawLineCount": 35,
+          "finalRawLine": "עשר",
+          "dafEndState": "MID_SENTENCE"
+        },
+        "fieldInventory": [
+          {
+            "path": "lineRange",
+            "verdict": "NONFACTUAL",
+            "crossReference": false,
+            "boundarySafe": true
+          },
+          {
+            "path": "lines",
+            "verdict": "NONFACTUAL",
+            "crossReference": false,
+            "boundarySafe": true
+          },
+          {
+            "path": "dafLevel.glossary[0].en",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "16a",
+                "startVilnaLine": 17,
+                "endVilnaLine": 20
+              }
+            ],
+            "boundarySafe": true,
+            "note": "definition of Chamber of House of Oils stated; doesn't assume how altar-measurement test on rest of amud ends"
+          },
+          {
+            "path": "dafLevel.glossary[0].he",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "16a",
+                "startVilnaLine": 20,
+                "endVilnaLine": 20
+              }
+            ],
+            "boundarySafe": true,
+            "note": "Hebrew name appears at boundary line; doesn't presume later resolution of authorship test"
+          },
+          {
+            "path": "dafLevel.glossary[0].translit",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "16a",
+                "startVilnaLine": 20,
+                "endVilnaLine": 20
+              }
+            ],
+            "boundarySafe": true,
+            "note": "transliteration matches term at boundary line; doesn't presume later resolution"
+          },
+          {
+            "path": "dafLevel.glossary[1].en",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "16a",
+                "startVilnaLine": 25,
+                "endVilnaLine": 25
+              }
+            ],
+            "boundarySafe": true,
+            "note": "soreg named in eastern-approach measurements (dafLevel field may cite beyond line 20); doesn't presume how test concludes"
+          },
+          {
+            "path": "dafLevel.glossary[1].he",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "16a",
+                "startVilnaLine": 25,
+                "endVilnaLine": 25
+              }
+            ],
+            "boundarySafe": true,
+            "note": "Hebrew term matches; doesn't presume later resolution"
+          },
+          {
+            "path": "dafLevel.glossary[1].translit",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "16a",
+                "startVilnaLine": 25,
+                "endVilnaLine": 25
+              }
+            ],
+            "boundarySafe": true,
+            "note": "transliteration matches; doesn't presume later resolution"
+          },
+          {
+            "path": "dafLevel.summary",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "16a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 34
+              }
+            ],
+            "boundarySafe": true,
+            "note": "dafLevel summary tracks both sugyot's content through line 34; doesn't assume an ending beyond the amud's actual mid-sentence stop"
+          },
+          {
+            "path": "argumentFlow[step-01].id",
+            "verdict": "NONFACTUAL",
+            "crossReference": false,
+            "boundarySafe": true
+          },
+          {
+            "path": "argumentFlow[step-01].label",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "16a",
+                "startVilnaLine": 5,
+                "endVilnaLine": 6
+              }
+            ],
+            "boundarySafe": true,
+            "note": "label matches Rav Huna's statement"
+          },
+          {
+            "path": "argumentFlow[step-01].sourceRefs[0].lineId",
+            "verdict": "NONFACTUAL",
+            "crossReference": false,
+            "boundarySafe": true
+          },
+          {
+            "path": "argumentFlow[step-01].sourceRefs[0].note",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "16a",
+                "startVilnaLine": 5,
+                "endVilnaLine": 6
+              }
+            ],
+            "boundarySafe": true,
+            "note": "note matches the attribution claim"
+          },
+          {
+            "path": "argumentFlow[step-01].sourceRefs[0].sourceType",
+            "verdict": "NONFACTUAL",
+            "crossReference": false,
+            "boundarySafe": true
+          },
+          {
+            "path": "argumentFlow[step-01].sourceRefs[0].vilnaLine",
+            "verdict": "NONFACTUAL",
+            "crossReference": false,
+            "boundarySafe": true
+          },
+          {
+            "path": "argumentFlow[step-01].speaker",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "16a",
+                "startVilnaLine": 5,
+                "endVilnaLine": 5
+              }
+            ],
+            "boundarySafe": true,
+            "note": "Rav Huna is named as speaker"
+          },
+          {
+            "path": "argumentFlow[step-01].text",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "16a",
+                "startVilnaLine": 5,
+                "endVilnaLine": 6
+              },
+              {
+                "daf": "16a",
+                "startVilnaLine": 17,
+                "endVilnaLine": 19
+              }
+            ],
+            "boundarySafe": true,
+            "note": "text reflects the authorship claim and its basis in the mishna"
+          },
+          {
+            "path": "argumentFlow[step-01].type",
+            "verdict": "REVIEWED",
+            "crossReference": false,
+            "boundarySafe": true,
+            "note": "resolution fits a settled attribution within this sugya"
+          },
+          {
+            "path": "argumentFlow[step-02].id",
+            "verdict": "NONFACTUAL",
+            "crossReference": false,
+            "boundarySafe": true
+          },
+          {
+            "path": "argumentFlow[step-02].label",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "16a",
+                "startVilnaLine": 17,
+                "endVilnaLine": 19
+              }
+            ],
+            "boundarySafe": true,
+            "note": "label matches R. Eliezer ben Yaakov's admission"
+          },
+          {
+            "path": "argumentFlow[step-02].sourceRefs[0].lineId",
+            "verdict": "NONFACTUAL",
+            "crossReference": false,
+            "boundarySafe": true
+          },
+          {
+            "path": "argumentFlow[step-02].sourceRefs[0].note",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "16a",
+                "startVilnaLine": 17,
+                "endVilnaLine": 19
+              }
+            ],
+            "boundarySafe": true,
+            "note": "note matches the admission content"
+          },
+          {
+            "path": "argumentFlow[step-02].sourceRefs[0].sourceType",
+            "verdict": "NONFACTUAL",
+            "crossReference": false,
+            "boundarySafe": true
+          },
+          {
+            "path": "argumentFlow[step-02].sourceRefs[0].vilnaLine",
+            "verdict": "NONFACTUAL",
+            "crossReference": false,
+            "boundarySafe": true
+          },
+          {
+            "path": "argumentFlow[step-02].speaker",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "16a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 4
+              }
+            ],
+            "boundarySafe": true,
+            "note": "Gemara speaks the dictum citing the mishna's own content as proof; argument continues onto 16a:20-34 testing this conclusion further, so whether 'Gemara' remains the operative voice there is not assumed here"
+          },
+          {
+            "path": "argumentFlow[step-02].text",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "16a",
+                "startVilnaLine": 10,
+                "endVilnaLine": 19
+              }
+            ],
+            "boundarySafe": true,
+            "note": "text describes the four chambers and the admission regarding the southwest one"
+          },
+          {
+            "path": "argumentFlow[step-02].type",
+            "verdict": "REVIEWED",
+            "crossReference": false,
+            "boundarySafe": true,
+            "note": "proof type fits the logical move described"
+          },
+          {
+            "path": "argumentFlow[step-03].id",
+            "verdict": "NONFACTUAL",
+            "crossReference": false,
+            "boundarySafe": true
+          },
+          {
+            "path": "argumentFlow[step-03].label",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "16a",
+                "startVilnaLine": 17,
+                "endVilnaLine": 20
+              }
+            ],
+            "boundarySafe": true,
+            "note": "label matches the concluding inference"
+          },
+          {
+            "path": "argumentFlow[step-03].sourceRefs[0].lineId",
+            "verdict": "NONFACTUAL",
+            "crossReference": false,
+            "boundarySafe": true
+          },
+          {
+            "path": "argumentFlow[step-03].sourceRefs[0].note",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "16a",
+                "startVilnaLine": 17,
+                "endVilnaLine": 20
+              }
+            ],
+            "boundarySafe": true,
+            "note": "note matches the stated basis for the conclusion"
+          },
+          {
+            "path": "argumentFlow[step-03].sourceRefs[0].sourceType",
+            "verdict": "NONFACTUAL",
+            "crossReference": false,
+            "boundarySafe": true
+          },
+          {
+            "path": "argumentFlow[step-03].sourceRefs[0].vilnaLine",
+            "verdict": "NONFACTUAL",
+            "crossReference": false,
+            "boundarySafe": true
+          },
+          {
+            "path": "argumentFlow[step-03].speaker",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "16a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 4
+              }
+            ],
+            "boundarySafe": true,
+            "note": "Gemara draws the conclusion from the proof; this resolution is further tested on the rest of the amud (lines 20-34), so its finality is not assumed"
+          },
+          {
+            "path": "argumentFlow[step-03].text",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "16a",
+                "startVilnaLine": 17,
+                "endVilnaLine": 20
+              }
+            ],
+            "boundarySafe": true,
+            "note": "text matches the stated conclusion about chamber placements"
+          },
+          {
+            "path": "argumentFlow[step-03].type",
+            "verdict": "REVIEWED",
+            "crossReference": false,
+            "boundarySafe": true,
+            "note": "conclusion type fits the resolving inference"
+          },
+          {
+            "path": "conceptRefs[0]",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "16a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 6
+              }
+            ],
+            "boundarySafe": true,
+            "note": "conceptRef corresponds to this segment's content"
+          },
+          {
+            "path": "conceptRefs[1]",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "16a",
+                "startVilnaLine": 6,
+                "endVilnaLine": 14
+              }
+            ],
+            "boundarySafe": true,
+            "note": "conceptRef corresponds to this segment's content"
+          },
+          {
+            "path": "difficulty",
+            "verdict": "REVIEWED",
+            "crossReference": false,
+            "boundarySafe": true,
+            "note": "difficulty is a reasonable metadata label for this sugya"
+          },
+          {
+            "path": "display.hint",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "16a",
+                "startVilnaLine": 5,
+                "endVilnaLine": 6
+              },
+              {
+                "daf": "16a",
+                "startVilnaLine": 17,
+                "endVilnaLine": 19
+              }
+            ],
+            "boundarySafe": true,
+            "note": "hint matches the question posed and resolved"
+          },
+          {
+            "path": "display.title",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "16a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 20
+              }
+            ],
+            "boundarySafe": true,
+            "note": "title matches the overall resolution of chamber authorship"
+          },
+          {
+            "path": "display.whats",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "16a",
+                "startVilnaLine": 5,
+                "endVilnaLine": 6
+              },
+              {
+                "daf": "16a",
+                "startVilnaLine": 10,
+                "endVilnaLine": 19
+              }
+            ],
+            "boundarySafe": true,
+            "note": "whats summary matches the chambers, the admission, and Abba Shaul's answer"
+          },
+          {
+            "path": "finalRuling",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "16a",
+                "startVilnaLine": 5,
+                "endVilnaLine": 6
+              },
+              {
+                "daf": "16a",
+                "startVilnaLine": 17,
+                "endVilnaLine": 20
+              }
+            ],
+            "boundarySafe": true,
+            "note": "finalRuling matches the stated resolution"
+          },
+          {
+            "path": "glossary[0].en",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "16a",
+                "startVilnaLine": 18,
+                "endVilnaLine": 20
+              }
+            ],
+            "boundarySafe": true,
+            "note": "names Abba Shaul's term for the chamber; resolution of its function stands within this sugya but no later ruling assumed"
+          },
+          {
+            "path": "glossary[0].he",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "16a",
+                "startVilnaLine": 19,
+                "endVilnaLine": 20
+              }
+            ],
+            "boundarySafe": true,
+            "note": "matches the Hebrew term as given; no later ruling assumed"
+          },
+          {
+            "path": "glossary[0].translit",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "16a",
+                "startVilnaLine": 19,
+                "endVilnaLine": 20
+              }
+            ],
+            "boundarySafe": true,
+            "note": "is a reasonable transliteration of the Hebrew; no later ruling assumed"
+          },
+          {
+            "path": "learning.ahaMoment",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "16a",
+                "startVilnaLine": 5,
+                "endVilnaLine": 6
+              },
+              {
+                "daf": "16a",
+                "startVilnaLine": 17,
+                "endVilnaLine": 20
+              }
+            ],
+            "boundarySafe": true,
+            "note": "states Rav Huna's identification resolving the contradiction; no further resolution from next amud assumed"
+          },
+          {
+            "path": "learning.coreMove",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "16a",
+                "startVilnaLine": 5,
+                "endVilnaLine": 6
+              },
+              {
+                "daf": "16a",
+                "startVilnaLine": 17,
+                "endVilnaLine": 20
+              }
+            ],
+            "boundarySafe": true,
+            "note": "describes Rav Huna's method of identifying the author rather than picking a winner; no later development assumed"
+          },
+          {
+            "path": "learning.coreTension",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "16a",
+                "startVilnaLine": 5,
+                "endVilnaLine": 9
+              }
+            ],
+            "boundarySafe": true,
+            "note": "states the tension of matching chamber lists to a tanna; no later ruling assumed"
+          },
+          {
+            "path": "learning.learnerQuestion",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "16a",
+                "startVilnaLine": 5,
+                "endVilnaLine": 9
+              }
+            ],
+            "boundarySafe": true,
+            "note": "poses the general question underlying Rav Huna's method; no later ruling assumed"
+          },
+          {
+            "path": "learning.learningBlocker",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "16a",
+                "startVilnaLine": 5,
+                "endVilnaLine": 9
+              },
+              {
+                "daf": "16a",
+                "startVilnaLine": 17,
+                "endVilnaLine": 20
+              }
+            ],
+            "boundarySafe": true,
+            "note": "describes a plausible blocker about mistaking the contradiction for error; no later ruling assumed"
+          },
+          {
+            "path": "learning.memoryAnchor",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "16a",
+                "startVilnaLine": 5,
+                "endVilnaLine": 6
+              },
+              {
+                "daf": "16a",
+                "startVilnaLine": 17,
+                "endVilnaLine": 20
+              }
+            ],
+            "boundarySafe": true,
+            "note": "states the memory anchor as proven within this sugya; no later ruling assumed"
+          },
+          {
+            "path": "learning.resolution",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "16a",
+                "startVilnaLine": 5,
+                "endVilnaLine": 6
+              },
+              {
+                "daf": "16a",
+                "startVilnaLine": 17,
+                "endVilnaLine": 20
+              }
+            ],
+            "boundarySafe": true,
+            "note": "states Rav Huna's resolution as given; no later ruling assumed"
+          },
+          {
+            "path": "learning.takeaway.text",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "16a",
+                "startVilnaLine": 5,
+                "endVilnaLine": 6
+              },
+              {
+                "daf": "16a",
+                "startVilnaLine": 17,
+                "endVilnaLine": 20
+              }
+            ],
+            "boundarySafe": true,
+            "note": "states the general takeaway drawn from this resolution; no later ruling assumed"
+          },
+          {
+            "path": "learning.takeaway.type",
+            "verdict": "REVIEWED",
+            "crossReference": false,
+            "boundarySafe": true,
+            "note": "fits as a logical_principle label for the takeaway; no later ruling assumed"
+          },
+          {
+            "path": "misconceptions[0].correction",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "16a",
+                "startVilnaLine": 5,
+                "endVilnaLine": 6
+              },
+              {
+                "daf": "16a",
+                "startVilnaLine": 17,
+                "endVilnaLine": 20
+              }
+            ],
+            "boundarySafe": true,
+            "note": "restates the resolution as correction; no later ruling assumed"
+          },
+          {
+            "path": "misconceptions[0].misconception",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "16a",
+                "startVilnaLine": 5,
+                "endVilnaLine": 6
+              },
+              {
+                "daf": "16a",
+                "startVilnaLine": 17,
+                "endVilnaLine": 20
+              }
+            ],
+            "boundarySafe": true,
+            "note": "states a plausible misconception about Rav Huna's statement; no later ruling assumed"
+          },
+          {
+            "path": "prerequisiteKnowledge[0]",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "16a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 20
+              }
+            ],
+            "boundarySafe": true,
+            "note": "relies on background of Middot's chamber list; no later ruling assumed"
+          },
+          {
+            "path": "prerequisiteKnowledge[1]",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "16a",
+                "startVilnaLine": 6,
+                "endVilnaLine": 9
+              }
+            ],
+            "boundarySafe": true,
+            "note": "relies on background of the four corner chambers; no later ruling assumed"
+          },
+          {
+            "path": "quizSeeds[0].answer",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "16a",
+                "startVilnaLine": 5,
+                "endVilnaLine": 6
+              },
+              {
+                "daf": "16a",
+                "startVilnaLine": 17,
+                "endVilnaLine": 20
+              }
+            ],
+            "boundarySafe": true,
+            "note": "gives the quiz answer matching Rav Huna's resolution; no later ruling assumed"
+          },
+          {
+            "path": "quizSeeds[0].question",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "16a",
+                "startVilnaLine": 5,
+                "endVilnaLine": 6
+              },
+              {
+                "daf": "16a",
+                "startVilnaLine": 17,
+                "endVilnaLine": 20
+              }
+            ],
+            "boundarySafe": true,
+            "note": "poses the quiz question matching this sugya's content; no later ruling assumed"
+          },
+          {
+            "path": "quizSeeds[1].answer",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "16a",
+                "startVilnaLine": 17,
+                "endVilnaLine": 20
+              }
+            ],
+            "boundarySafe": true,
+            "note": "gives the specific evidence (forgetting the southwest chamber, Abba Shaul's identification); no later ruling assumed"
+          },
+          {
+            "path": "quizSeeds[1].question",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "16a",
+                "startVilnaLine": 17,
+                "endVilnaLine": 20
+              }
+            ],
+            "boundarySafe": true,
+            "note": "poses the question matching that evidence; no later ruling assumed"
+          },
+          {
+            "path": "relatedSugyot[0]",
+            "verdict": "NONFACTUAL",
+            "crossReference": false,
+            "boundarySafe": true
+          },
+          {
+            "path": "relatedSugyot[1]",
+            "verdict": "NONFACTUAL",
+            "crossReference": false,
+            "boundarySafe": true
+          },
+          {
+            "path": "topicTags[0]",
+            "verdict": "NONFACTUAL",
+            "crossReference": false,
+            "boundarySafe": true
+          },
+          {
+            "path": "topicTags[1]",
+            "verdict": "NONFACTUAL",
+            "crossReference": false,
+            "boundarySafe": true
+          },
+          {
+            "path": "topicTags[2]",
+            "verdict": "NONFACTUAL",
+            "crossReference": false,
+            "boundarySafe": true
+          },
+          {
+            "path": "topicTags[3]",
+            "verdict": "NONFACTUAL",
+            "crossReference": false,
+            "boundarySafe": true
+          },
+          {
+            "path": "topicTags[4]",
+            "verdict": "NONFACTUAL",
+            "crossReference": false,
+            "boundarySafe": true
+          },
+          {
+            "path": "topicTags[5]",
+            "verdict": "NONFACTUAL",
+            "crossReference": false,
+            "boundarySafe": true
+          },
+          {
+            "path": "visualizableElements[0].item",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "16a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 20
+              }
+            ],
+            "boundarySafe": true,
+            "note": "describes floor plans used to trace the tannaitic view in this sugya; no later ruling assumed"
+          },
+          {
+            "path": "visualizableElements[0].type",
+            "verdict": "REVIEWED",
+            "crossReference": false,
+            "boundarySafe": true,
+            "note": "fits as a diagram type for floor plan visualization; no later ruling assumed"
+          }
+        ],
+        "boundaryLeakageSweep": [
+          {
+            "path": "dafLevel.glossary[0].en",
+            "importsNextDafConclusion": false,
+            "note": "definition of Chamber of House of Oils stated; doesn't assume how altar-measurement test on rest of amud ends"
+          },
+          {
+            "path": "dafLevel.glossary[0].he",
+            "importsNextDafConclusion": false,
+            "note": "Hebrew name appears at boundary line; doesn't presume later resolution of authorship test"
+          },
+          {
+            "path": "dafLevel.glossary[0].translit",
+            "importsNextDafConclusion": false,
+            "note": "transliteration matches term at boundary line; doesn't presume later resolution"
+          },
+          {
+            "path": "dafLevel.glossary[1].en",
+            "importsNextDafConclusion": false,
+            "note": "soreg named in eastern-approach measurements (dafLevel field may cite beyond line 20); doesn't presume how test concludes"
+          },
+          {
+            "path": "dafLevel.glossary[1].he",
+            "importsNextDafConclusion": false,
+            "note": "Hebrew term matches; doesn't presume later resolution"
+          },
+          {
+            "path": "dafLevel.glossary[1].translit",
+            "importsNextDafConclusion": false,
+            "note": "transliteration matches; doesn't presume later resolution"
+          },
+          {
+            "path": "dafLevel.summary",
+            "importsNextDafConclusion": false,
+            "note": "dafLevel summary tracks both sugyot's content through line 34; doesn't assume an ending beyond the amud's actual mid-sentence stop"
+          },
+          {
+            "path": "argumentFlow[step-01].label",
+            "importsNextDafConclusion": false,
+            "note": "label matches Rav Huna's statement"
+          },
+          {
+            "path": "argumentFlow[step-01].sourceRefs[0].note",
+            "importsNextDafConclusion": false,
+            "note": "note matches the attribution claim"
+          },
+          {
+            "path": "argumentFlow[step-01].speaker",
+            "importsNextDafConclusion": false,
+            "note": "Rav Huna is named as speaker"
+          },
+          {
+            "path": "argumentFlow[step-01].text",
+            "importsNextDafConclusion": false,
+            "note": "text reflects the authorship claim and its basis in the mishna"
+          },
+          {
+            "path": "argumentFlow[step-01].type",
+            "importsNextDafConclusion": false,
+            "note": "resolution fits a settled attribution within this sugya"
+          },
+          {
+            "path": "argumentFlow[step-02].label",
+            "importsNextDafConclusion": false,
+            "note": "label matches R. Eliezer ben Yaakov's admission"
+          },
+          {
+            "path": "argumentFlow[step-02].sourceRefs[0].note",
+            "importsNextDafConclusion": false,
+            "note": "note matches the admission content"
+          },
+          {
+            "path": "argumentFlow[step-02].speaker",
+            "importsNextDafConclusion": false,
+            "note": "Gemara speaks the dictum citing the mishna's own content as proof; argument continues onto 16a:20-34 testing this conclusion further, so whether 'Gemara' remains the operative voice there is not assumed here"
+          },
+          {
+            "path": "argumentFlow[step-02].text",
+            "importsNextDafConclusion": false,
+            "note": "text describes the four chambers and the admission regarding the southwest one"
+          },
+          {
+            "path": "argumentFlow[step-02].type",
+            "importsNextDafConclusion": false,
+            "note": "proof type fits the logical move described"
+          },
+          {
+            "path": "argumentFlow[step-03].label",
+            "importsNextDafConclusion": false,
+            "note": "label matches the concluding inference"
+          },
+          {
+            "path": "argumentFlow[step-03].sourceRefs[0].note",
+            "importsNextDafConclusion": false,
+            "note": "note matches the stated basis for the conclusion"
+          },
+          {
+            "path": "argumentFlow[step-03].speaker",
+            "importsNextDafConclusion": false,
+            "note": "Gemara draws the conclusion from the proof; this resolution is further tested on the rest of the amud (lines 20-34), so its finality is not assumed"
+          },
+          {
+            "path": "argumentFlow[step-03].text",
+            "importsNextDafConclusion": false,
+            "note": "text matches the stated conclusion about chamber placements"
+          },
+          {
+            "path": "argumentFlow[step-03].type",
+            "importsNextDafConclusion": false,
+            "note": "conclusion type fits the resolving inference"
+          },
+          {
+            "path": "conceptRefs[0]",
+            "importsNextDafConclusion": false,
+            "note": "conceptRef corresponds to this segment's content"
+          },
+          {
+            "path": "conceptRefs[1]",
+            "importsNextDafConclusion": false,
+            "note": "conceptRef corresponds to this segment's content"
+          },
+          {
+            "path": "difficulty",
+            "importsNextDafConclusion": false,
+            "note": "difficulty is a reasonable metadata label for this sugya"
+          },
+          {
+            "path": "display.hint",
+            "importsNextDafConclusion": false,
+            "note": "hint matches the question posed and resolved"
+          },
+          {
+            "path": "display.title",
+            "importsNextDafConclusion": false,
+            "note": "title matches the overall resolution of chamber authorship"
+          },
+          {
+            "path": "display.whats",
+            "importsNextDafConclusion": false,
+            "note": "whats summary matches the chambers, the admission, and Abba Shaul's answer"
+          },
+          {
+            "path": "finalRuling",
+            "importsNextDafConclusion": false,
+            "note": "finalRuling matches the stated resolution"
+          },
+          {
+            "path": "glossary[0].en",
+            "importsNextDafConclusion": false,
+            "note": "names Abba Shaul's term for the chamber; resolution of its function stands within this sugya but no later ruling assumed"
+          },
+          {
+            "path": "glossary[0].he",
+            "importsNextDafConclusion": false,
+            "note": "matches the Hebrew term as given; no later ruling assumed"
+          },
+          {
+            "path": "glossary[0].translit",
+            "importsNextDafConclusion": false,
+            "note": "is a reasonable transliteration of the Hebrew; no later ruling assumed"
+          },
+          {
+            "path": "learning.ahaMoment",
+            "importsNextDafConclusion": false,
+            "note": "states Rav Huna's identification resolving the contradiction; no further resolution from next amud assumed"
+          },
+          {
+            "path": "learning.coreMove",
+            "importsNextDafConclusion": false,
+            "note": "describes Rav Huna's method of identifying the author rather than picking a winner; no later development assumed"
+          },
+          {
+            "path": "learning.coreTension",
+            "importsNextDafConclusion": false,
+            "note": "states the tension of matching chamber lists to a tanna; no later ruling assumed"
+          },
+          {
+            "path": "learning.learnerQuestion",
+            "importsNextDafConclusion": false,
+            "note": "poses the general question underlying Rav Huna's method; no later ruling assumed"
+          },
+          {
+            "path": "learning.learningBlocker",
+            "importsNextDafConclusion": false,
+            "note": "describes a plausible blocker about mistaking the contradiction for error; no later ruling assumed"
+          },
+          {
+            "path": "learning.memoryAnchor",
+            "importsNextDafConclusion": false,
+            "note": "states the memory anchor as proven within this sugya; no later ruling assumed"
+          },
+          {
+            "path": "learning.resolution",
+            "importsNextDafConclusion": false,
+            "note": "states Rav Huna's resolution as given; no later ruling assumed"
+          },
+          {
+            "path": "learning.takeaway.text",
+            "importsNextDafConclusion": false,
+            "note": "states the general takeaway drawn from this resolution; no later ruling assumed"
+          },
+          {
+            "path": "learning.takeaway.type",
+            "importsNextDafConclusion": false,
+            "note": "fits as a logical_principle label for the takeaway; no later ruling assumed"
+          },
+          {
+            "path": "misconceptions[0].correction",
+            "importsNextDafConclusion": false,
+            "note": "restates the resolution as correction; no later ruling assumed"
+          },
+          {
+            "path": "misconceptions[0].misconception",
+            "importsNextDafConclusion": false,
+            "note": "states a plausible misconception about Rav Huna's statement; no later ruling assumed"
+          },
+          {
+            "path": "prerequisiteKnowledge[0]",
+            "importsNextDafConclusion": false,
+            "note": "relies on background of Middot's chamber list; no later ruling assumed"
+          },
+          {
+            "path": "prerequisiteKnowledge[1]",
+            "importsNextDafConclusion": false,
+            "note": "relies on background of the four corner chambers; no later ruling assumed"
+          },
+          {
+            "path": "quizSeeds[0].answer",
+            "importsNextDafConclusion": false,
+            "note": "gives the quiz answer matching Rav Huna's resolution; no later ruling assumed"
+          },
+          {
+            "path": "quizSeeds[0].question",
+            "importsNextDafConclusion": false,
+            "note": "poses the quiz question matching this sugya's content; no later ruling assumed"
+          },
+          {
+            "path": "quizSeeds[1].answer",
+            "importsNextDafConclusion": false,
+            "note": "gives the specific evidence (forgetting the southwest chamber, Abba Shaul's identification); no later ruling assumed"
+          },
+          {
+            "path": "quizSeeds[1].question",
+            "importsNextDafConclusion": false,
+            "note": "poses the question matching that evidence; no later ruling assumed"
+          },
+          {
+            "path": "visualizableElements[0].item",
+            "importsNextDafConclusion": false,
+            "note": "describes floor plans used to trace the tannaitic view in this sugya; no later ruling assumed"
+          },
+          {
+            "path": "visualizableElements[0].type",
+            "importsNextDafConclusion": false,
+            "note": "fits as a diagram type for floor plan visualization; no later ruling assumed"
+          }
+        ],
+        "staleContentSweep": {
+          "entries": [
+            {
+              "category": "stale_original_error",
+              "found": false
+            },
+            {
+              "category": "stale_speaker_or_attribution",
+              "found": false
+            },
+            {
+              "category": "contradictory_speaker_attribution",
+              "found": false
+            },
+            {
+              "category": "old_conclusion_in_secondary_field",
+              "found": false
+            },
+            {
+              "category": "false_closure",
+              "found": false
+            },
+            {
+              "category": "next_daf_content_leaked_backward",
+              "found": false
+            },
+            {
+              "category": "claim_unsupported_by_physical_daf",
+              "found": false
+            },
+            {
+              "category": "stale_quiz_question_or_answer",
+              "found": false
+            },
+            {
+              "category": "stale_final_ruling",
+              "found": false
+            },
+            {
+              "category": "stale_summary",
+              "found": false
+            },
+            {
+              "category": "stale_learning_field",
+              "found": false
+            },
+            {
+              "category": "stale_misconception",
+              "found": false
+            },
+            {
+              "category": "stale_related_sugya_description",
+              "found": false
+            },
+            {
+              "category": "stale_visualizable_element_prose",
+              "found": false
+            },
+            {
+              "category": "source_refs_no_longer_supporting_claim",
+              "found": false
+            },
+            {
+              "category": "reference_outside_declared_line_range",
+              "found": false
+            }
+          ]
+        }
+      },
+      "certifiedAtCommit": "9438e1b5a4c9eef317c708837425629b95e6234a"
+    },
+    "yoma-16a-s02": {
+      "sugyaId": "yoma-16a-s02",
+      "daf": "16a",
+      "state": "CERTIFIED",
+      "firstPass": {
+        "reviewId": "claude-claude-sonnet-5-yoma-16a-s02-first-a7d22b1207",
+        "reviewerContextId": "llm-task-anthropic-claude-sonnet-5-yoma-16a-s02-first-a7d22b1207",
+        "sourceFirst": true,
+        "verdict": "VERIFIED",
+        "reviewedSourceFingerprint": "d833bab35119df202af87567854c530b5366e726b30805045db4bf2b6f3a743d",
+        "reviewedSemanticFingerprint": "37505c9e1ddb650a5968e11cfbcd6589a8cb57c64581b1ace9089ad812bbe8ee",
+        "evidence": {
+          "answer": {
+            "sugyaId": "yoma-16a-s02",
+            "verdict": "VERIFIED",
+            "evidence": "The gemara sums the soreg, cheil, and stairway elevations and finds that only R. Eliezer ben Yaakov's extra step/platform (22 cubits total) explains the hidden Sanctuary entrance, since the Rabbis' count (19.5 cubits) leaves a visible half-cubit; Rav Adda bar Ahava then proposes Rabbi Yehuda's centered, 32-cubit altar as an alternative basis for the low eastern wall, without yet stating the altar's height or why it blocks the view.",
+            "defects": [],
+            "dafSummaryVerdict": "VERIFIED",
+            "boundaryVerdict": "VERIFIED"
+          },
+          "run": "yoma-16a-s02-first-a7d22b1207"
+        }
+      },
+      "sourceFingerprint": "d833bab35119df202af87567854c530b5366e726b30805045db4bf2b6f3a743d",
+      "semanticFingerprint": "37505c9e1ddb650a5968e11cfbcd6589a8cb57c64581b1ace9089ad812bbe8ee",
+      "secondPass": {
+        "reviewId": "claude-claude-sonnet-5-yoma-16a-s02-second-c0a114cf42",
+        "reviewerContextId": "llm-task-anthropic-claude-sonnet-5-yoma-16a-s02-second-c0a114cf42",
+        "sourceFirst": true,
+        "verdict": "CONFIRMED",
+        "reviewedSourceFingerprint": "d833bab35119df202af87567854c530b5366e726b30805045db4bf2b6f3a743d",
+        "reviewedSemanticFingerprint": "37505c9e1ddb650a5968e11cfbcd6589a8cb57c64581b1ace9089ad812bbe8ee",
+        "evidence": {
+          "answer": {
+            "sugyaId": "yoma-16a-s02",
+            "verdict": "CONFIRMED",
+            "evidence": "The Gemara sums the soreg/cheil, the stairways (12+15+12 steps), and R. Eliezer ben Yaakov's extra step and platform to explain why the Sanctuary entrance was hidden from the priest on the Mount of Olives, then Rav Adda bar Ahava proposes that Rabbi Yehuda's centered, thirty-two-cubit altar offers an alternative obstruction, matching the enrichment's claims.",
+            "defects": [],
+            "dafSummaryVerdict": "CONFIRMED",
+            "boundaryVerdict": "CONFIRMED"
+          },
+          "run": "yoma-16a-s02-second-c0a114cf42"
+        }
+      },
+      "finalAudit": {
+        "reviewId": "claude-claude-sonnet-5-yoma-16a-s02-final-8e3770420c",
+        "auditorContextId": "llm-task-anthropic-claude-sonnet-5-yoma-16a-s02-final-p1-8e3770420c",
+        "auditedSourceFingerprint": "d833bab35119df202af87567854c530b5366e726b30805045db4bf2b6f3a743d",
+        "auditedSemanticFingerprint": "37505c9e1ddb650a5968e11cfbcd6589a8cb57c64581b1ace9089ad812bbe8ee",
+        "dafBoundary": {
+          "rawLineCount": 35,
+          "finalRawLine": "עשר",
+          "dafEndState": "MID_SENTENCE"
+        },
+        "fieldInventory": [
+          {
+            "path": "lineRange",
+            "verdict": "NONFACTUAL",
+            "crossReference": false,
+            "boundarySafe": true
+          },
+          {
+            "path": "lines",
+            "verdict": "NONFACTUAL",
+            "crossReference": false,
+            "boundarySafe": true
+          },
+          {
+            "path": "dafLevel.glossary[0].en",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "16a",
+                "startVilnaLine": 17,
+                "endVilnaLine": 20
+              }
+            ],
+            "boundarySafe": true,
+            "note": "definition of Chamber of House of Oils stated; doesn't assume how altar-measurement test on rest of amud ends"
+          },
+          {
+            "path": "dafLevel.glossary[0].he",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "16a",
+                "startVilnaLine": 20,
+                "endVilnaLine": 20
+              }
+            ],
+            "boundarySafe": true,
+            "note": "Hebrew name appears at boundary line; doesn't presume later resolution of authorship test"
+          },
+          {
+            "path": "dafLevel.glossary[0].translit",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "16a",
+                "startVilnaLine": 20,
+                "endVilnaLine": 20
+              }
+            ],
+            "boundarySafe": true,
+            "note": "transliteration matches term at boundary line; doesn't presume later resolution"
+          },
+          {
+            "path": "dafLevel.glossary[1].en",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "16a",
+                "startVilnaLine": 25,
+                "endVilnaLine": 25
+              }
+            ],
+            "boundarySafe": true,
+            "note": "soreg named in eastern-approach measurements (dafLevel field may cite beyond line 20); doesn't presume how test concludes"
+          },
+          {
+            "path": "dafLevel.glossary[1].he",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "16a",
+                "startVilnaLine": 25,
+                "endVilnaLine": 25
+              }
+            ],
+            "boundarySafe": true,
+            "note": "Hebrew term matches; doesn't presume later resolution"
+          },
+          {
+            "path": "dafLevel.glossary[1].translit",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "16a",
+                "startVilnaLine": 25,
+                "endVilnaLine": 25
+              }
+            ],
+            "boundarySafe": true,
+            "note": "transliteration matches; doesn't presume later resolution"
+          },
+          {
+            "path": "dafLevel.summary",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "16a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 34
+              }
+            ],
+            "boundarySafe": true,
+            "note": "dafLevel summary tracks both sugyot's content through line 34; doesn't assume an ending beyond the amud's actual mid-sentence stop"
+          },
+          {
+            "path": "argumentFlow[step-01].id",
+            "verdict": "NONFACTUAL",
+            "crossReference": false,
+            "boundarySafe": true
+          },
+          {
+            "path": "argumentFlow[step-01].label",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "16a",
+                "startVilnaLine": 20,
+                "endVilnaLine": 24
+              }
+            ],
+            "boundarySafe": true,
+            "note": "note: proof's outcome (R. Eliezer confirmed) argued further below, not settled here"
+          },
+          {
+            "path": "argumentFlow[step-01].sourceRefs[0].lineId",
+            "verdict": "NONFACTUAL",
+            "crossReference": false,
+            "boundarySafe": true
+          },
+          {
+            "path": "argumentFlow[step-01].sourceRefs[0].note",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "16a",
+                "startVilnaLine": 20,
+                "endVilnaLine": 21
+              }
+            ],
+            "boundarySafe": true,
+            "note": "note: test's resolution comes later in the sugya"
+          },
+          {
+            "path": "argumentFlow[step-01].sourceRefs[0].sourceType",
+            "verdict": "NONFACTUAL",
+            "crossReference": false,
+            "boundarySafe": true
+          },
+          {
+            "path": "argumentFlow[step-01].sourceRefs[0].vilnaLine",
+            "verdict": "NONFACTUAL",
+            "crossReference": false,
+            "boundarySafe": true
+          },
+          {
+            "path": "argumentFlow[step-01].speaker",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "16a",
+                "startVilnaLine": 20,
+                "endVilnaLine": 24
+              }
+            ],
+            "boundarySafe": true,
+            "note": "note: anonymous Gemara voice opens the test, resolution pending"
+          },
+          {
+            "path": "argumentFlow[step-01].text",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "16a",
+                "startVilnaLine": 20,
+                "endVilnaLine": 24
+              }
+            ],
+            "boundarySafe": true,
+            "note": "note: describes the test's aim only, not its outcome"
+          },
+          {
+            "path": "argumentFlow[step-01].type",
+            "verdict": "REVIEWED",
+            "crossReference": false,
+            "boundarySafe": true,
+            "note": "fits as the opening proof move; outcome follows later"
+          },
+          {
+            "path": "argumentFlow[step-02].id",
+            "verdict": "NONFACTUAL",
+            "crossReference": false,
+            "boundarySafe": true
+          },
+          {
+            "path": "argumentFlow[step-02].label",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "16a",
+                "startVilnaLine": 24,
+                "endVilnaLine": 26
+              }
+            ],
+            "boundarySafe": true,
+            "note": "note: these measurements feed a conclusion not yet reached here"
+          },
+          {
+            "path": "argumentFlow[step-02].sourceRefs[0].lineId",
+            "verdict": "NONFACTUAL",
+            "crossReference": false,
+            "boundarySafe": true
+          },
+          {
+            "path": "argumentFlow[step-02].sourceRefs[0].note",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "16a",
+                "startVilnaLine": 24,
+                "endVilnaLine": 26
+              }
+            ],
+            "boundarySafe": true,
+            "note": "note: detail precedes the eventual resolution"
+          },
+          {
+            "path": "argumentFlow[step-02].sourceRefs[0].sourceType",
+            "verdict": "NONFACTUAL",
+            "crossReference": false,
+            "boundarySafe": true
+          },
+          {
+            "path": "argumentFlow[step-02].sourceRefs[0].vilnaLine",
+            "verdict": "NONFACTUAL",
+            "crossReference": false,
+            "boundarySafe": true
+          },
+          {
+            "path": "argumentFlow[step-02].speaker",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "16a",
+                "startVilnaLine": 24,
+                "endVilnaLine": 26
+              }
+            ],
+            "boundarySafe": true,
+            "note": "note: Gemara's recitation, conclusion still pending"
+          },
+          {
+            "path": "argumentFlow[step-02].text",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "16a",
+                "startVilnaLine": 24,
+                "endVilnaLine": 25
+              }
+            ],
+            "boundarySafe": true,
+            "note": "note: figures given before the final tally is drawn"
+          },
+          {
+            "path": "argumentFlow[step-02].type",
+            "verdict": "REVIEWED",
+            "crossReference": false,
+            "boundarySafe": true,
+            "note": "detail step toward an outcome not yet stated"
+          },
+          {
+            "path": "argumentFlow[step-03].id",
+            "verdict": "NONFACTUAL",
+            "crossReference": false,
+            "boundarySafe": true
+          },
+          {
+            "path": "argumentFlow[step-03].label",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "16a",
+                "startVilnaLine": 25,
+                "endVilnaLine": 28
+              }
+            ],
+            "boundarySafe": true,
+            "note": "note: counts given before their sum is applied to the proof"
+          },
+          {
+            "path": "argumentFlow[step-03].sourceRefs[0].lineId",
+            "verdict": "NONFACTUAL",
+            "crossReference": false,
+            "boundarySafe": true
+          },
+          {
+            "path": "argumentFlow[step-03].sourceRefs[0].note",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "16a",
+                "startVilnaLine": 25,
+                "endVilnaLine": 28
+              }
+            ],
+            "boundarySafe": true,
+            "note": "note: measurements cited, interpretation follows later"
+          },
+          {
+            "path": "argumentFlow[step-03].sourceRefs[0].sourceType",
+            "verdict": "NONFACTUAL",
+            "crossReference": false,
+            "boundarySafe": true
+          },
+          {
+            "path": "argumentFlow[step-03].sourceRefs[0].vilnaLine",
+            "verdict": "NONFACTUAL",
+            "crossReference": false,
+            "boundarySafe": true
+          },
+          {
+            "path": "argumentFlow[step-03].speaker",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "16a",
+                "startVilnaLine": 25,
+                "endVilnaLine": 28
+              }
+            ],
+            "boundarySafe": true,
+            "note": "note: Gemara's recitation of mishnaic stair counts"
+          },
+          {
+            "path": "argumentFlow[step-03].text",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "16a",
+                "startVilnaLine": 25,
+                "endVilnaLine": 28
+              }
+            ],
+            "boundarySafe": true,
+            "note": "note: stair counts stated; their use in the conclusion comes after"
+          },
+          {
+            "path": "argumentFlow[step-03].type",
+            "verdict": "REVIEWED",
+            "crossReference": false,
+            "boundarySafe": true,
+            "note": "detail step, conclusion not yet drawn"
+          },
+          {
+            "path": "argumentFlow[step-04].id",
+            "verdict": "NONFACTUAL",
+            "crossReference": false,
+            "boundarySafe": true
+          },
+          {
+            "path": "argumentFlow[step-04].label",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "16a",
+                "startVilnaLine": 29,
+                "endVilnaLine": 30
+              }
+            ],
+            "boundarySafe": true,
+            "note": "note: this addition is weighed against the Rabbis' view afterward"
+          },
+          {
+            "path": "argumentFlow[step-04].sourceRefs[0].lineId",
+            "verdict": "NONFACTUAL",
+            "crossReference": false,
+            "boundarySafe": true
+          },
+          {
+            "path": "argumentFlow[step-04].sourceRefs[0].note",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "16a",
+                "startVilnaLine": 29,
+                "endVilnaLine": 30
+              }
+            ],
+            "boundarySafe": true,
+            "note": "note: detail used in the argument that follows"
+          },
+          {
+            "path": "argumentFlow[step-04].sourceRefs[0].sourceType",
+            "verdict": "NONFACTUAL",
+            "crossReference": false,
+            "boundarySafe": true
+          },
+          {
+            "path": "argumentFlow[step-04].sourceRefs[0].vilnaLine",
+            "verdict": "NONFACTUAL",
+            "crossReference": false,
+            "boundarySafe": true
+          },
+          {
+            "path": "argumentFlow[step-04].speaker",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "16a",
+                "startVilnaLine": 29,
+                "endVilnaLine": 30
+              }
+            ],
+            "boundarySafe": true,
+            "note": "note: Gemara quotes the mishna's extra step before using it"
+          },
+          {
+            "path": "argumentFlow[step-04].text",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "16a",
+                "startVilnaLine": 29,
+                "endVilnaLine": 30
+              }
+            ],
+            "boundarySafe": true,
+            "note": "note: content stated, its implication argued next"
+          },
+          {
+            "path": "argumentFlow[step-04].type",
+            "verdict": "REVIEWED",
+            "crossReference": false,
+            "boundarySafe": true,
+            "note": "detail step feeding the later inference"
+          },
+          {
+            "path": "argumentFlow[step-05].id",
+            "verdict": "NONFACTUAL",
+            "crossReference": false,
+            "boundarySafe": true
+          },
+          {
+            "path": "argumentFlow[step-05].label",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "16a",
+                "startVilnaLine": 30,
+                "endVilnaLine": 31
+              }
+            ],
+            "boundarySafe": true,
+            "note": "note: this claim is then contrasted with the Rabbis' view"
+          },
+          {
+            "path": "argumentFlow[step-05].sourceRefs[0].lineId",
+            "verdict": "NONFACTUAL",
+            "crossReference": false,
+            "boundarySafe": true
+          },
+          {
+            "path": "argumentFlow[step-05].sourceRefs[0].note",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "16a",
+                "startVilnaLine": 30,
+                "endVilnaLine": 31
+              }
+            ],
+            "boundarySafe": true,
+            "note": "note: explanation given before the counter-argument"
+          },
+          {
+            "path": "argumentFlow[step-05].sourceRefs[0].sourceType",
+            "verdict": "NONFACTUAL",
+            "crossReference": false,
+            "boundarySafe": true
+          },
+          {
+            "path": "argumentFlow[step-05].sourceRefs[0].vilnaLine",
+            "verdict": "NONFACTUAL",
+            "crossReference": false,
+            "boundarySafe": true
+          },
+          {
+            "path": "argumentFlow[step-05].speaker",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "16a",
+                "startVilnaLine": 30,
+                "endVilnaLine": 31
+              }
+            ],
+            "boundarySafe": true,
+            "note": "note: Gemara's own inference, challenged afterward"
+          },
+          {
+            "path": "argumentFlow[step-05].text",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "16a",
+                "startVilnaLine": 29,
+                "endVilnaLine": 32
+              }
+            ],
+            "boundarySafe": true,
+            "note": "- elevation-hides-entrance point is stated plainly, no later resolution assumed"
+          },
+          {
+            "path": "argumentFlow[step-05].type",
+            "verdict": "REVIEWED",
+            "crossReference": false,
+            "boundarySafe": true,
+            "note": "elaboration fits as it expands step-04's stair/platform detail, not a new proof stage"
+          },
+          {
+            "path": "argumentFlow[step-06].id",
+            "verdict": "NONFACTUAL",
+            "crossReference": false,
+            "boundarySafe": true
+          },
+          {
+            "path": "argumentFlow[step-06].label",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "16a",
+                "startVilnaLine": 33,
+                "endVilnaLine": 33
+              }
+            ],
+            "boundarySafe": true,
+            "note": "- Rav Adda bar Ahava's challenge is named here, continuation on next amud not assumed"
+          },
+          {
+            "path": "argumentFlow[step-06].sourceRefs[0].lineId",
+            "verdict": "NONFACTUAL",
+            "crossReference": false,
+            "boundarySafe": true
+          },
+          {
+            "path": "argumentFlow[step-06].sourceRefs[0].note",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "16a",
+                "startVilnaLine": 33,
+                "endVilnaLine": 33
+              }
+            ],
+            "boundarySafe": true,
+            "note": "- note describes the challenge without presuming how it resolves later"
+          },
+          {
+            "path": "argumentFlow[step-06].sourceRefs[0].sourceType",
+            "verdict": "NONFACTUAL",
+            "crossReference": false,
+            "boundarySafe": true
+          },
+          {
+            "path": "argumentFlow[step-06].sourceRefs[0].vilnaLine",
+            "verdict": "NONFACTUAL",
+            "crossReference": false,
+            "boundarySafe": true
+          },
+          {
+            "path": "argumentFlow[step-06].speaker",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "16a",
+                "startVilnaLine": 33,
+                "endVilnaLine": 33
+              }
+            ],
+            "boundarySafe": true,
+            "note": "- speaker attribution matches Rav Adda bar Ahava's words here"
+          },
+          {
+            "path": "argumentFlow[step-06].text",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "16a",
+                "startVilnaLine": 33,
+                "endVilnaLine": 33
+              }
+            ],
+            "boundarySafe": true,
+            "note": "- text reflects his rejection of decisiveness, not a final resolution"
+          },
+          {
+            "path": "argumentFlow[step-06].type",
+            "verdict": "REVIEWED",
+            "crossReference": false,
+            "boundarySafe": true,
+            "note": "elaboration fits since it continues challenging rather than adding a new unit"
+          },
+          {
+            "path": "argumentFlow[step-07].id",
+            "verdict": "NONFACTUAL",
+            "crossReference": false,
+            "boundarySafe": true
+          },
+          {
+            "path": "argumentFlow[step-07].label",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "16a",
+                "startVilnaLine": 33,
+                "endVilnaLine": 34
+              }
+            ],
+            "boundarySafe": true,
+            "note": "- label matches the baraita Rav Adda bar Ahava cites"
+          },
+          {
+            "path": "argumentFlow[step-07].sourceRefs[0].lineId",
+            "verdict": "NONFACTUAL",
+            "crossReference": false,
+            "boundarySafe": true
+          },
+          {
+            "path": "argumentFlow[step-07].sourceRefs[0].note",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "16a",
+                "startVilnaLine": 33,
+                "endVilnaLine": 34
+              }
+            ],
+            "boundarySafe": true,
+            "note": "- note matches the altar explanation introduced here"
+          },
+          {
+            "path": "argumentFlow[step-07].sourceRefs[0].sourceType",
+            "verdict": "NONFACTUAL",
+            "crossReference": false,
+            "boundarySafe": true
+          },
+          {
+            "path": "argumentFlow[step-07].sourceRefs[0].vilnaLine",
+            "verdict": "NONFACTUAL",
+            "crossReference": false,
+            "boundarySafe": true
+          },
+          {
+            "path": "argumentFlow[step-07].speaker",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "16a",
+                "startVilnaLine": 33,
+                "endVilnaLine": 34
+              }
+            ],
+            "boundarySafe": true,
+            "note": "- Rav Adda bar Ahava is the one quoting Rabbi Yehuda's baraita"
+          },
+          {
+            "path": "argumentFlow[step-07].text",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "16a",
+                "startVilnaLine": 33,
+                "endVilnaLine": 34
+              }
+            ],
+            "boundarySafe": true,
+            "note": "- text correctly notes the measurement is given without its consequence, as the line is cut off"
+          },
+          {
+            "path": "argumentFlow[step-07].type",
+            "verdict": "REVIEWED",
+            "crossReference": false,
+            "boundarySafe": true,
+            "note": "detail fits as it supplies a measurement rather than elaborating further"
+          },
+          {
+            "path": "conceptRefs[0]",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "16a",
+                "startVilnaLine": 24,
+                "endVilnaLine": 25
+              }
+            ],
+            "boundarySafe": true,
+            "note": "- stairs/cheil concept is directly relevant to this sugya's reasoning"
+          },
+          {
+            "path": "conceptRefs[1]",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "16a",
+                "startVilnaLine": 29,
+                "endVilnaLine": 32
+              }
+            ],
+            "boundarySafe": true,
+            "note": "- concept of the concealed entrance is discussed here"
+          },
+          {
+            "path": "conceptRefs[2]",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "16a",
+                "startVilnaLine": 33,
+                "endVilnaLine": 34
+              }
+            ],
+            "boundarySafe": true,
+            "note": "- concept of Rav Adda bar Ahava's alternative is discussed here"
+          },
+          {
+            "path": "difficulty",
+            "verdict": "REVIEWED",
+            "crossReference": false,
+            "boundarySafe": true,
+            "note": "intermediate difficulty fits the multi-step geometric reasoning"
+          },
+          {
+            "path": "display.hint",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "16a",
+                "startVilnaLine": 20,
+                "endVilnaLine": 34
+              }
+            ],
+            "boundarySafe": true,
+            "note": "- hint names the two explanations covered in this sugya"
+          },
+          {
+            "path": "display.title",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "16a",
+                "startVilnaLine": 20,
+                "endVilnaLine": 34
+              }
+            ],
+            "boundarySafe": true,
+            "note": "- title matches the declared focus of this sugya"
+          },
+          {
+            "path": "display.whats",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "16a",
+                "startVilnaLine": 20,
+                "endVilnaLine": 34
+              }
+            ],
+            "boundarySafe": true,
+            "note": "- whats summary accurately lists the elevation components and the challenge, without presuming next-amud outcome"
+          },
+          {
+            "path": "finalRuling",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "16a",
+                "startVilnaLine": 20,
+                "endVilnaLine": 34
+              }
+            ],
+            "boundarySafe": true,
+            "note": "- ruling is phrased as unresolved dispute, consistent with the sugya ending mid-sentence"
+          },
+          {
+            "path": "glossary[0].en",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "16a",
+                "startVilnaLine": 24,
+                "endVilnaLine": 25
+              }
+            ],
+            "boundarySafe": true,
+            "note": "- soreg definition matches its role as the barrier described here"
+          },
+          {
+            "path": "glossary[0].he",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "16a",
+                "startVilnaLine": 24,
+                "endVilnaLine": 25
+              }
+            ],
+            "boundarySafe": true,
+            "note": "- Hebrew term matches the word used here"
+          },
+          {
+            "path": "glossary[0].translit",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "16a",
+                "startVilnaLine": 24,
+                "endVilnaLine": 25
+              }
+            ],
+            "boundarySafe": true,
+            "note": "- transliteration matches the Hebrew term used here"
+          },
+          {
+            "path": "learning.ahaMoment",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "16a",
+                "startVilnaLine": 29,
+                "endVilnaLine": 34
+              }
+            ],
+            "boundarySafe": true,
+            "note": "note: altar's full dimensions continue past this amud"
+          },
+          {
+            "path": "learning.coreMove",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "16a",
+                "startVilnaLine": 20,
+                "endVilnaLine": 34
+              }
+            ],
+            "boundarySafe": true,
+            "note": "note: Rav Adda's challenge stated but altar shape detail continues next daf"
+          },
+          {
+            "path": "learning.coreTension",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "16a",
+                "startVilnaLine": 20,
+                "endVilnaLine": 34
+              }
+            ],
+            "boundarySafe": true,
+            "note": "note: resolution of which tanna underlies Middot continues beyond this amud"
+          },
+          {
+            "path": "learning.learnerQuestion",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "16a",
+                "startVilnaLine": 20,
+                "endVilnaLine": 32
+              }
+            ],
+            "boundarySafe": true,
+            "note": "note: proof-testing continues into Rav Adda's challenge"
+          },
+          {
+            "path": "learning.learningBlocker",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "16a",
+                "startVilnaLine": 30,
+                "endVilnaLine": 34
+              }
+            ],
+            "boundarySafe": true,
+            "note": "note: Rav Adda's full alternative is still being unpacked as the amud ends"
+          },
+          {
+            "path": "learning.memoryAnchor",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "16a",
+                "startVilnaLine": 29,
+                "endVilnaLine": 34
+              }
+            ],
+            "boundarySafe": true,
+            "note": "note: altar measure given here is partial, continues next daf"
+          },
+          {
+            "path": "learning.resolution",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "16a",
+                "startVilnaLine": 29,
+                "endVilnaLine": 34
+              }
+            ],
+            "boundarySafe": true,
+            "note": "note: the full force of Rav Adda's alternative is not yet closed here"
+          },
+          {
+            "path": "learning.takeaway.text",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "16a",
+                "startVilnaLine": 20,
+                "endVilnaLine": 34
+              }
+            ],
+            "boundarySafe": true,
+            "note": "note: principle drawn from an argument whose altar details continue next daf"
+          },
+          {
+            "path": "learning.takeaway.type",
+            "verdict": "REVIEWED",
+            "crossReference": false,
+            "boundarySafe": true,
+            "note": "metadata label fits the step type; note: step 7 itself is not fully closed on this amud"
+          },
+          {
+            "path": "misconceptions[0].correction",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "16a",
+                "startVilnaLine": 33,
+                "endVilnaLine": 34
+              }
+            ],
+            "boundarySafe": true,
+            "note": "note: Rav Adda's correction is stated but altar's full shape still pending"
+          },
+          {
+            "path": "misconceptions[0].misconception",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "16a",
+                "startVilnaLine": 20,
+                "endVilnaLine": 32
+              }
+            ],
+            "boundarySafe": true,
+            "note": "note: this is the view being challenged, not yet fully overturned in text shown"
+          },
+          {
+            "path": "prerequisiteKnowledge[0]",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "16a",
+                "startVilnaLine": 20,
+                "endVilnaLine": 28
+              }
+            ],
+            "boundarySafe": true,
+            "note": "note: layout background stated before the later challenge unfolds"
+          },
+          {
+            "path": "prerequisiteKnowledge[1]",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "16a",
+                "startVilnaLine": 20,
+                "endVilnaLine": 32
+              }
+            ],
+            "boundarySafe": true,
+            "note": "note: authorship question is this sugya's ongoing test, not yet finally settled"
+          },
+          {
+            "path": "quizSeeds[0].answer",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "16a",
+                "startVilnaLine": 29,
+                "endVilnaLine": 32
+              }
+            ],
+            "boundarySafe": true,
+            "note": "note: measurement explanation given before the counter-challenge appears"
+          },
+          {
+            "path": "quizSeeds[0].question",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "16a",
+                "startVilnaLine": 29,
+                "endVilnaLine": 32
+              }
+            ],
+            "boundarySafe": true,
+            "note": "note: question targets content stated before Rav Adda's challenge"
+          },
+          {
+            "path": "quizSeeds[1].answer",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "16a",
+                "startVilnaLine": 33,
+                "endVilnaLine": 34
+              }
+            ],
+            "boundarySafe": true,
+            "note": "note: answer correctly withholds altar's un-stated further shape"
+          },
+          {
+            "path": "quizSeeds[1].question",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "16a",
+                "startVilnaLine": 33,
+                "endVilnaLine": 34
+              }
+            ],
+            "boundarySafe": true,
+            "note": "note: question concerns content still being developed at amud's end"
+          },
+          {
+            "path": "relatedSugyot[0]",
+            "verdict": "NONFACTUAL",
+            "crossReference": false,
+            "boundarySafe": true
+          },
+          {
+            "path": "topicTags[0]",
+            "verdict": "NONFACTUAL",
+            "crossReference": false,
+            "boundarySafe": true
+          },
+          {
+            "path": "topicTags[1]",
+            "verdict": "NONFACTUAL",
+            "crossReference": false,
+            "boundarySafe": true
+          },
+          {
+            "path": "topicTags[2]",
+            "verdict": "NONFACTUAL",
+            "crossReference": false,
+            "boundarySafe": true
+          },
+          {
+            "path": "topicTags[3]",
+            "verdict": "NONFACTUAL",
+            "crossReference": false,
+            "boundarySafe": true
+          },
+          {
+            "path": "topicTags[4]",
+            "verdict": "NONFACTUAL",
+            "crossReference": false,
+            "boundarySafe": true
+          },
+          {
+            "path": "topicTags[5]",
+            "verdict": "NONFACTUAL",
+            "crossReference": false,
+            "boundarySafe": true
+          },
+          {
+            "path": "visualizableElements[0].item",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "16a",
+                "startVilnaLine": 24,
+                "endVilnaLine": 28
+              }
+            ],
+            "boundarySafe": true,
+            "note": "note: elevation path drawn from measurements given in this amud"
+          },
+          {
+            "path": "visualizableElements[0].type",
+            "verdict": "REVIEWED",
+            "crossReference": false,
+            "boundarySafe": true,
+            "note": "metadata type fits a measurement diagram; note: profile may extend next daf"
+          },
+          {
+            "path": "visualizableElements[1].item",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "16a",
+                "startVilnaLine": 29,
+                "endVilnaLine": 34
+              }
+            ],
+            "boundarySafe": true,
+            "note": "note: contrast drawn from two views, second one still partially unstated"
+          },
+          {
+            "path": "visualizableElements[1].type",
+            "verdict": "REVIEWED",
+            "crossReference": false,
+            "boundarySafe": true,
+            "note": "metadata type fits presenting two competing models; note: second model incomplete here"
+          }
+        ],
+        "boundaryLeakageSweep": [
+          {
+            "path": "dafLevel.glossary[0].en",
+            "importsNextDafConclusion": false,
+            "note": "definition of Chamber of House of Oils stated; doesn't assume how altar-measurement test on rest of amud ends"
+          },
+          {
+            "path": "dafLevel.glossary[0].he",
+            "importsNextDafConclusion": false,
+            "note": "Hebrew name appears at boundary line; doesn't presume later resolution of authorship test"
+          },
+          {
+            "path": "dafLevel.glossary[0].translit",
+            "importsNextDafConclusion": false,
+            "note": "transliteration matches term at boundary line; doesn't presume later resolution"
+          },
+          {
+            "path": "dafLevel.glossary[1].en",
+            "importsNextDafConclusion": false,
+            "note": "soreg named in eastern-approach measurements (dafLevel field may cite beyond line 20); doesn't presume how test concludes"
+          },
+          {
+            "path": "dafLevel.glossary[1].he",
+            "importsNextDafConclusion": false,
+            "note": "Hebrew term matches; doesn't presume later resolution"
+          },
+          {
+            "path": "dafLevel.glossary[1].translit",
+            "importsNextDafConclusion": false,
+            "note": "transliteration matches; doesn't presume later resolution"
+          },
+          {
+            "path": "dafLevel.summary",
+            "importsNextDafConclusion": false,
+            "note": "dafLevel summary tracks both sugyot's content through line 34; doesn't assume an ending beyond the amud's actual mid-sentence stop"
+          },
+          {
+            "path": "argumentFlow[step-01].label",
+            "importsNextDafConclusion": false,
+            "note": "note: proof's outcome (R. Eliezer confirmed) argued further below, not settled here"
+          },
+          {
+            "path": "argumentFlow[step-01].sourceRefs[0].note",
+            "importsNextDafConclusion": false,
+            "note": "note: test's resolution comes later in the sugya"
+          },
+          {
+            "path": "argumentFlow[step-01].speaker",
+            "importsNextDafConclusion": false,
+            "note": "note: anonymous Gemara voice opens the test, resolution pending"
+          },
+          {
+            "path": "argumentFlow[step-01].text",
+            "importsNextDafConclusion": false,
+            "note": "note: describes the test's aim only, not its outcome"
+          },
+          {
+            "path": "argumentFlow[step-01].type",
+            "importsNextDafConclusion": false,
+            "note": "fits as the opening proof move; outcome follows later"
+          },
+          {
+            "path": "argumentFlow[step-02].label",
+            "importsNextDafConclusion": false,
+            "note": "note: these measurements feed a conclusion not yet reached here"
+          },
+          {
+            "path": "argumentFlow[step-02].sourceRefs[0].note",
+            "importsNextDafConclusion": false,
+            "note": "note: detail precedes the eventual resolution"
+          },
+          {
+            "path": "argumentFlow[step-02].speaker",
+            "importsNextDafConclusion": false,
+            "note": "note: Gemara's recitation, conclusion still pending"
+          },
+          {
+            "path": "argumentFlow[step-02].text",
+            "importsNextDafConclusion": false,
+            "note": "note: figures given before the final tally is drawn"
+          },
+          {
+            "path": "argumentFlow[step-02].type",
+            "importsNextDafConclusion": false,
+            "note": "detail step toward an outcome not yet stated"
+          },
+          {
+            "path": "argumentFlow[step-03].label",
+            "importsNextDafConclusion": false,
+            "note": "note: counts given before their sum is applied to the proof"
+          },
+          {
+            "path": "argumentFlow[step-03].sourceRefs[0].note",
+            "importsNextDafConclusion": false,
+            "note": "note: measurements cited, interpretation follows later"
+          },
+          {
+            "path": "argumentFlow[step-03].speaker",
+            "importsNextDafConclusion": false,
+            "note": "note: Gemara's recitation of mishnaic stair counts"
+          },
+          {
+            "path": "argumentFlow[step-03].text",
+            "importsNextDafConclusion": false,
+            "note": "note: stair counts stated; their use in the conclusion comes after"
+          },
+          {
+            "path": "argumentFlow[step-03].type",
+            "importsNextDafConclusion": false,
+            "note": "detail step, conclusion not yet drawn"
+          },
+          {
+            "path": "argumentFlow[step-04].label",
+            "importsNextDafConclusion": false,
+            "note": "note: this addition is weighed against the Rabbis' view afterward"
+          },
+          {
+            "path": "argumentFlow[step-04].sourceRefs[0].note",
+            "importsNextDafConclusion": false,
+            "note": "note: detail used in the argument that follows"
+          },
+          {
+            "path": "argumentFlow[step-04].speaker",
+            "importsNextDafConclusion": false,
+            "note": "note: Gemara quotes the mishna's extra step before using it"
+          },
+          {
+            "path": "argumentFlow[step-04].text",
+            "importsNextDafConclusion": false,
+            "note": "note: content stated, its implication argued next"
+          },
+          {
+            "path": "argumentFlow[step-04].type",
+            "importsNextDafConclusion": false,
+            "note": "detail step feeding the later inference"
+          },
+          {
+            "path": "argumentFlow[step-05].label",
+            "importsNextDafConclusion": false,
+            "note": "note: this claim is then contrasted with the Rabbis' view"
+          },
+          {
+            "path": "argumentFlow[step-05].sourceRefs[0].note",
+            "importsNextDafConclusion": false,
+            "note": "note: explanation given before the counter-argument"
+          },
+          {
+            "path": "argumentFlow[step-05].speaker",
+            "importsNextDafConclusion": false,
+            "note": "note: Gemara's own inference, challenged afterward"
+          },
+          {
+            "path": "argumentFlow[step-05].text",
+            "importsNextDafConclusion": false,
+            "note": "- elevation-hides-entrance point is stated plainly, no later resolution assumed"
+          },
+          {
+            "path": "argumentFlow[step-05].type",
+            "importsNextDafConclusion": false,
+            "note": "elaboration fits as it expands step-04's stair/platform detail, not a new proof stage"
+          },
+          {
+            "path": "argumentFlow[step-06].label",
+            "importsNextDafConclusion": false,
+            "note": "- Rav Adda bar Ahava's challenge is named here, continuation on next amud not assumed"
+          },
+          {
+            "path": "argumentFlow[step-06].sourceRefs[0].note",
+            "importsNextDafConclusion": false,
+            "note": "- note describes the challenge without presuming how it resolves later"
+          },
+          {
+            "path": "argumentFlow[step-06].speaker",
+            "importsNextDafConclusion": false,
+            "note": "- speaker attribution matches Rav Adda bar Ahava's words here"
+          },
+          {
+            "path": "argumentFlow[step-06].text",
+            "importsNextDafConclusion": false,
+            "note": "- text reflects his rejection of decisiveness, not a final resolution"
+          },
+          {
+            "path": "argumentFlow[step-06].type",
+            "importsNextDafConclusion": false,
+            "note": "elaboration fits since it continues challenging rather than adding a new unit"
+          },
+          {
+            "path": "argumentFlow[step-07].label",
+            "importsNextDafConclusion": false,
+            "note": "- label matches the baraita Rav Adda bar Ahava cites"
+          },
+          {
+            "path": "argumentFlow[step-07].sourceRefs[0].note",
+            "importsNextDafConclusion": false,
+            "note": "- note matches the altar explanation introduced here"
+          },
+          {
+            "path": "argumentFlow[step-07].speaker",
+            "importsNextDafConclusion": false,
+            "note": "- Rav Adda bar Ahava is the one quoting Rabbi Yehuda's baraita"
+          },
+          {
+            "path": "argumentFlow[step-07].text",
+            "importsNextDafConclusion": false,
+            "note": "- text correctly notes the measurement is given without its consequence, as the line is cut off"
+          },
+          {
+            "path": "argumentFlow[step-07].type",
+            "importsNextDafConclusion": false,
+            "note": "detail fits as it supplies a measurement rather than elaborating further"
+          },
+          {
+            "path": "conceptRefs[0]",
+            "importsNextDafConclusion": false,
+            "note": "- stairs/cheil concept is directly relevant to this sugya's reasoning"
+          },
+          {
+            "path": "conceptRefs[1]",
+            "importsNextDafConclusion": false,
+            "note": "- concept of the concealed entrance is discussed here"
+          },
+          {
+            "path": "conceptRefs[2]",
+            "importsNextDafConclusion": false,
+            "note": "- concept of Rav Adda bar Ahava's alternative is discussed here"
+          },
+          {
+            "path": "difficulty",
+            "importsNextDafConclusion": false,
+            "note": "intermediate difficulty fits the multi-step geometric reasoning"
+          },
+          {
+            "path": "display.hint",
+            "importsNextDafConclusion": false,
+            "note": "- hint names the two explanations covered in this sugya"
+          },
+          {
+            "path": "display.title",
+            "importsNextDafConclusion": false,
+            "note": "- title matches the declared focus of this sugya"
+          },
+          {
+            "path": "display.whats",
+            "importsNextDafConclusion": false,
+            "note": "- whats summary accurately lists the elevation components and the challenge, without presuming next-amud outcome"
+          },
+          {
+            "path": "finalRuling",
+            "importsNextDafConclusion": false,
+            "note": "- ruling is phrased as unresolved dispute, consistent with the sugya ending mid-sentence"
+          },
+          {
+            "path": "glossary[0].en",
+            "importsNextDafConclusion": false,
+            "note": "- soreg definition matches its role as the barrier described here"
+          },
+          {
+            "path": "glossary[0].he",
+            "importsNextDafConclusion": false,
+            "note": "- Hebrew term matches the word used here"
+          },
+          {
+            "path": "glossary[0].translit",
+            "importsNextDafConclusion": false,
+            "note": "- transliteration matches the Hebrew term used here"
+          },
+          {
+            "path": "learning.ahaMoment",
+            "importsNextDafConclusion": false,
+            "note": "note: altar's full dimensions continue past this amud"
+          },
+          {
+            "path": "learning.coreMove",
+            "importsNextDafConclusion": false,
+            "note": "note: Rav Adda's challenge stated but altar shape detail continues next daf"
+          },
+          {
+            "path": "learning.coreTension",
+            "importsNextDafConclusion": false,
+            "note": "note: resolution of which tanna underlies Middot continues beyond this amud"
+          },
+          {
+            "path": "learning.learnerQuestion",
+            "importsNextDafConclusion": false,
+            "note": "note: proof-testing continues into Rav Adda's challenge"
+          },
+          {
+            "path": "learning.learningBlocker",
+            "importsNextDafConclusion": false,
+            "note": "note: Rav Adda's full alternative is still being unpacked as the amud ends"
+          },
+          {
+            "path": "learning.memoryAnchor",
+            "importsNextDafConclusion": false,
+            "note": "note: altar measure given here is partial, continues next daf"
+          },
+          {
+            "path": "learning.resolution",
+            "importsNextDafConclusion": false,
+            "note": "note: the full force of Rav Adda's alternative is not yet closed here"
+          },
+          {
+            "path": "learning.takeaway.text",
+            "importsNextDafConclusion": false,
+            "note": "note: principle drawn from an argument whose altar details continue next daf"
+          },
+          {
+            "path": "learning.takeaway.type",
+            "importsNextDafConclusion": false,
+            "note": "metadata label fits the step type; note: step 7 itself is not fully closed on this amud"
+          },
+          {
+            "path": "misconceptions[0].correction",
+            "importsNextDafConclusion": false,
+            "note": "note: Rav Adda's correction is stated but altar's full shape still pending"
+          },
+          {
+            "path": "misconceptions[0].misconception",
+            "importsNextDafConclusion": false,
+            "note": "note: this is the view being challenged, not yet fully overturned in text shown"
+          },
+          {
+            "path": "prerequisiteKnowledge[0]",
+            "importsNextDafConclusion": false,
+            "note": "note: layout background stated before the later challenge unfolds"
+          },
+          {
+            "path": "prerequisiteKnowledge[1]",
+            "importsNextDafConclusion": false,
+            "note": "note: authorship question is this sugya's ongoing test, not yet finally settled"
+          },
+          {
+            "path": "quizSeeds[0].answer",
+            "importsNextDafConclusion": false,
+            "note": "note: measurement explanation given before the counter-challenge appears"
+          },
+          {
+            "path": "quizSeeds[0].question",
+            "importsNextDafConclusion": false,
+            "note": "note: question targets content stated before Rav Adda's challenge"
+          },
+          {
+            "path": "quizSeeds[1].answer",
+            "importsNextDafConclusion": false,
+            "note": "note: answer correctly withholds altar's un-stated further shape"
+          },
+          {
+            "path": "quizSeeds[1].question",
+            "importsNextDafConclusion": false,
+            "note": "note: question concerns content still being developed at amud's end"
+          },
+          {
+            "path": "visualizableElements[0].item",
+            "importsNextDafConclusion": false,
+            "note": "note: elevation path drawn from measurements given in this amud"
+          },
+          {
+            "path": "visualizableElements[0].type",
+            "importsNextDafConclusion": false,
+            "note": "metadata type fits a measurement diagram; note: profile may extend next daf"
+          },
+          {
+            "path": "visualizableElements[1].item",
+            "importsNextDafConclusion": false,
+            "note": "note: contrast drawn from two views, second one still partially unstated"
+          },
+          {
+            "path": "visualizableElements[1].type",
+            "importsNextDafConclusion": false,
+            "note": "metadata type fits presenting two competing models; note: second model incomplete here"
+          }
+        ],
+        "staleContentSweep": {
+          "entries": [
+            {
+              "category": "stale_original_error",
+              "found": false
+            },
+            {
+              "category": "stale_speaker_or_attribution",
+              "found": false
+            },
+            {
+              "category": "contradictory_speaker_attribution",
+              "found": false
+            },
+            {
+              "category": "old_conclusion_in_secondary_field",
+              "found": false
+            },
+            {
+              "category": "false_closure",
+              "found": false
+            },
+            {
+              "category": "next_daf_content_leaked_backward",
+              "found": false
+            },
+            {
+              "category": "claim_unsupported_by_physical_daf",
+              "found": false
+            },
+            {
+              "category": "stale_quiz_question_or_answer",
+              "found": false
+            },
+            {
+              "category": "stale_final_ruling",
+              "found": false
+            },
+            {
+              "category": "stale_summary",
+              "found": false
+            },
+            {
+              "category": "stale_learning_field",
+              "found": false
+            },
+            {
+              "category": "stale_misconception",
+              "found": false
+            },
+            {
+              "category": "stale_related_sugya_description",
+              "found": false
+            },
+            {
+              "category": "stale_visualizable_element_prose",
+              "found": false
+            },
+            {
+              "category": "source_refs_no_longer_supporting_claim",
+              "found": false
+            },
+            {
+              "category": "reference_outside_declared_line_range",
+              "found": false
+            }
+          ]
+        }
+      },
+      "certifiedAtCommit": "9438e1b5a4c9eef317c708837425629b95e6234a"
     }
   }
 }
