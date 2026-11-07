@@ -1,7 +1,7 @@
 {
  "daf": "16a",
  "canonicalRef": "Yoma 16a",
- "summary": "The page resolves the Yoma/Middot contradiction about the Chamber of the Lambs by identifying Middot's author. Rav Huna: Middot was authored by R. Eliezer ben Yaakov - proven by a second Middot mishna where R. Eliezer ben Yaakov admits he forgot which of the four Women's Courtyard chambers served which function. Further proof comes from Temple height measurements that match R. Eliezer ben Yaakov's positions. The Gemara then describes the golden vine (gafna shel zahav) over the Sanctuary entrance, which grew so heavy from gold donations that 300 kohanim were needed to move it, and the eastern wall height derivation from the cherubim's proportions.",
+ "summary": "The page resolves the Yoma/Middot contradiction about the Chamber of the Lambs by identifying Middot's author. Rav Huna attributes Middot to R. Eliezer ben Yaakov, supported by a mishna in which he admits that he forgot the function of the southwest chamber of the Women's Courtyard. The Gemara then tests the attribution through the measurements of the eastern approach: R. Eliezer ben Yaakov's extra step and platform explain why the Sanctuary entrance was hidden, but Rav Adda bar Ahava argues that Rabbi Yehuda's centered, thirty-two-cubit altar provides an alternative explanation.",
  "review": {
   "content": "ai_generated",
   "sourceRefs": "ai_generated"
@@ -12,7 +12,7 @@
    "id": "yoma-16a-s01",
    "lineRange": {
     "startVilnaLine": 1,
-    "endVilnaLine": 16
+    "endVilnaLine": 20
    },
    "lines": [
     {
@@ -35,21 +35,21 @@
    ],
    "display": {
     "title": "Identify the author, not the winner: resolving the Yoma/Middot contradiction",
-    "whats": "Rav Huna resolves the Yoma/Middot contradiction about the Chamber of the Lambs by identifying who authored Tractate Middot: R. Eliezer ben Yaakov. This is proved by a second Middot mishna where R. Eliezer ben Yaakov himself admits he forgot which two of the four Women's Courtyard chambers served which function.",
-    "hint": "Rav Huna's key move: if R. Eliezer ben Yaakov authored Middot, and we know his position (the Chamber of the Lambs is in the southwest corner), then the Yoma/Tamid description (northwest) represents a different authority's view. The amnesia mishna proves it's his tractate."
+    "whats": "Rav Huna resolves a contradiction about chamber placement by identifying who authored Tractate Middot: R. Eliezer ben Yaakov. This is proved by a mishna where he admits he forgot the function of the southwest chamber of the Women's Courtyard; Abba Shaul identifies it as the House of Oils.",
+    "hint": "How does Rav Huna identify R. Eliezer ben Yaakov as Middot's author, and how does the forgotten function of the southwest chamber prove it?"
    },
    "learning": {
-    "learnerQuestion": "If Yoma and Middot disagree about which corner held the Chamber of the Lambs, which tractate is wrong?",
-    "coreTension": "Two tannaitic sources place the same Temple chamber in different corners, and a contradiction between authoritative texts cannot simply be left standing.",
-    "coreMove": "Rav Huna does not pick a winner between the two texts. He identifies who wrote Middot - R. Eliezer ben Yaakov - using a second Middot mishna where that author admits he forgot which two Women's Courtyard chambers served which function, since only the tractate's own author could make that specific admission.",
-    "resolution": "Middot reflects R. Eliezer ben Yaakov's tradition (southwest corner); Yoma and Tamid reflect a different authority's tradition (northwest corner). Both are correct readings of the Temple, just from different tannaitic sources.",
+    "learnerQuestion": "If a Mishnah's chamber placements conflict with another source, how can we know which tannaitic view it reflects?",
+    "coreTension": "A Mishnah's chamber list needs to be matched to a known tanna before its placements can be understood as that tanna's view.",
+    "coreMove": "Rav Huna does not pick a winner between the two texts. He identifies who wrote Middot - R. Eliezer ben Yaakov - using a second Middot mishna where he admits that he forgot the function of the southwest chamber of the Women's Courtyard, which Abba Shaul identifies as the House of Oils.",
+    "resolution": "Rav Huna identifies R. Eliezer ben Yaakov as the author of Middot, so its chamber placements reflect his tradition, while a conflicting source reflects another tannaitic view.",
     "takeaway": {
      "type": "logical_principle",
-     "text": "An apparent contradiction between two authoritative texts can dissolve once you identify that each reflects a different author's tradition, rather than assuming one source made an error."
+     "text": "An apparent contradiction between authoritative texts can be resolved by identifying the tannaitic view represented by one of them rather than assuming that a source made an error."
     },
-    "ahaMoment": "The authorship identification resolves an architectural contradiction: two tractates can place the same chamber in different corners if they reflect different tannaitic traditions.",
-    "learningBlocker": "Learners default to treating Yoma and Middot as describing one fixed floor plan, so any disagreement between them reads as a mistake in one of the texts rather than as two distinct, equally valid traditions.",
-    "memoryAnchor": "R. Eliezer ben Yaakov authored Middot - proven by his own admission of forgetting two chambers. This establishes his corner-assignment as the Middot position, different from Yoma's."
+    "ahaMoment": "The architectural contradiction is resolved by identifying Middot's author: its chamber placement reflects R. Eliezer ben Yaakov's tradition.",
+    "learningBlocker": "Learners may treat the disagreement between Yoma and Middot as a textual error rather than recognizing that Rav Huna resolves it by identifying the tannaitic view represented by Middot.",
+    "memoryAnchor": "R. Eliezer ben Yaakov authored Middot - proven by his admission that he forgot the function of the southwest chamber, which Abba Shaul identifies as the House of Oils."
    },
    "argumentFlow": [
     {
@@ -57,7 +57,7 @@
      "type": "resolution",
      "label": "Rav Huna: Middot authored by R. Eliezer ben Yaakov",
      "speaker": "Rav Huna",
-     "text": "Tractate Middot was authored by R. Eliezer ben Yaakov. Therefore the Middot chamber placement reflects his position, and the Yoma/Tamid description reflects a different tradition.",
+     "text": "Tractate Middot was authored by R. Eliezer ben Yaakov; therefore the chamber placements in Middot's own mishnah reflect his individual view.",
      "sourceRefs": [
       {
        "sourceType": "gemara",
@@ -72,12 +72,12 @@
      "type": "proof",
      "label": "Proof: R. Eliezer ben Yaakov admits forgetting in Middot",
      "speaker": "Gemara",
-     "text": "A mishna in Middot quotes R. Eliezer ben Yaakov saying he forgot which of the four Women's Courtyard chambers served which function. This personal admission proves it is his tractate.",
+     "text": "The mishna in Middot records R. Eliezer ben Yaakov admitting that he forgot what the southwest chamber of the Women's Courtyard was used for, while the other three chambers' purposes are stated without any such admission.",
      "sourceRefs": [
       {
        "sourceType": "gemara",
-       "lineId": "yoma-016a-l06",
-       "vilnaLine": 6,
+       "lineId": "yoma-016a-l16",
+       "vilnaLine": 16,
        "note": "R. Eliezer ben Yaakov's admission of forgetting"
       }
      ]
@@ -87,24 +87,24 @@
      "type": "conclusion",
      "label": "Therefore Middot's chamber placement is R. EbY's view",
      "speaker": "Gemara",
-     "text": "Since R. Eliezer ben Yaakov authored Middot, the southwest corner placement of the Chamber of the Lambs is his position. The northwest placement in Yoma/Tamid reflects a different tannaitic view.",
+     "text": "Since R. Eliezer ben Yaakov authored Middot, the chamber placements in Middot's mishnah reflect his position, resolving the contradiction with the other source.",
      "sourceRefs": [
       {
        "sourceType": "gemara",
        "lineId": "yoma-016a-l16",
        "vilnaLine": 16,
-       "note": "Resolution: two views, different authorities"
+       "note": "Middot's author is R. Eliezer ben Yaakov, confirmed by his own admission of forgetting"
       }
      ]
     }
    ],
    "topicTags": [
-    "Tractate Middot",
-    "R. Eliezer ben Yaakov",
-    "Chamber of the Lambs",
-    "tractate authorship",
-    "Rav Huna",
-    "Beit HaMoked"
+    "tractate-middot",
+    "r-eliezer-ben-yaakov",
+    "womens-courtyard-chambers",
+    "tractate-authorship",
+    "rav-huna",
+    "beit-hamoked"
    ],
    "conceptRefs": [
     "Yoma.16a.1",
@@ -113,8 +113,8 @@
    "requiresUnderstanding": [],
    "misconceptions": [
     {
-     "misconception": "The contradiction between Yoma and Middot about the Chamber of the Lambs is a textual error.",
-     "correction": "It reflects two legitimate, distinct tannaitic traditions: Middot follows R. Eliezer ben Yaakov, while Yoma and Tamid follow a different authority."
+     "misconception": "Rav Huna is merely naming a Mishnah's author rather than using that identification to validate its chamber placements.",
+     "correction": "Rav Huna resolves the contradiction by identifying R. Eliezer ben Yaakov as Middot's author, so Middot's placement reflects his tannaitic view."
     }
    ],
    "relatedSugyot": [
@@ -123,28 +123,28 @@
    ],
    "visualizableElements": [
     {
-     "item": "Beit HaMoked floor plan with two competing chamber-location assignments: Yoma/Tamid version vs R. Eliezer ben Yaakov's Middot version",
-     "type": "contrast"
+     "item": "Floor plans of the Beit HaMoked chambers and the Women's Courtyard chambers as described in the Mishnah, used to trace which tannaitic view Middot follows",
+     "type": "diagram"
     }
    ],
    "quizSeeds": [
     {
-     "question": "How does Rav Huna resolve the contradiction between Tractates Yoma and Middot about the Chamber of the Lambs?",
-     "answer": "He identifies R. Eliezer ben Yaakov as the author of Middot. Middot reflects his tradition (southwest corner); Yoma and Tamid reflect a different tradition (northwest corner). Both are correct for their own source."
+     "question": "How does Rav Huna resolve the question of who authored Tractate Middot?",
+     "answer": "He identifies R. Eliezer ben Yaakov as the author of Middot, establishing that Middot's chamber placements reflect his tannaitic view."
     },
     {
      "question": "What specific piece of evidence proves that R. Eliezer ben Yaakov authored Tractate Middot?",
-     "answer": "A second Middot mishna in which R. Eliezer ben Yaakov himself admits he forgot which two of the four Women's Courtyard chambers served which function - an admission only the tractate's own author would make."
+     "answer": "A second Middot mishna in which R. Eliezer ben Yaakov admits that he forgot the function of the southwest chamber of the Women's Courtyard; Abba Shaul identifies it as the House of Oils."
     }
    ],
-   "finalRuling": "R. Eliezer ben Yaakov authored Tractate Middot (per Rav Huna). This resolves the Yoma/Middot contradiction by assigning the two descriptions to different tannaitic traditions.",
+   "finalRuling": "Rav Huna identifies R. Eliezer ben Yaakov as the author of Tractate Middot, so the chamber placements in Middot's mishnah reflect his tannaitic view, resolving the contradiction.",
    "difficulty": "intermediate",
    "alternateAngles": [],
    "glossary": [
     {
-     "he": "קַב וְנָקִי",
-     "translit": "kav ve-naki",
-     "en": "Small but clean - the saying about R. Eliezer ben Yaakov: his mishna corpus is small but of high quality."
+     "he": "לשכת בית שמניא",
+     "translit": "lishkat beit shemanya",
+     "en": "Chamber of the House of Oils - Abba Shaul's name for the southwest chamber whose function R. Eliezer ben Yaakov said he forgot."
     }
    ],
    "review": {
@@ -152,8 +152,8 @@
     "sourceRefs": "ai_generated"
    },
    "prerequisiteKnowledge": [
-    "The Chamber of the Lambs controversy from 15b",
-    "The four-chamber Beit HaMoked structure"
+    "The Mishnah in Middot lists several Temple chambers, each assigned to a different corner and function",
+    "The Women's Courtyard had four chambers, one in each corner"
    ]
   },
   {
@@ -161,7 +161,7 @@
    "id": "yoma-16a-s02",
    "lineRange": {
     "startVilnaLine": 20,
-    "endVilnaLine": 35
+    "endVilnaLine": 34
    },
    "lines": [
     {
@@ -208,148 +208,148 @@
     "Yoma.16a.11"
    ],
    "display": {
-    "title": "The measurements confirm it: matching the eastern wall height to R. Eliezer ben Yaakov",
-    "whats": "Further proof that Tractate Middot follows R. Eliezer ben Yaakov comes from measurements: Middot's statement about the Temple's eastern wall height matches R. Eliezer ben Yaakov's known position. The sugya also addresses the height of the Sanctuary entrance and how the Ezrat Nashim galleries were constructed.",
-    "hint": "Height measurements of the Temple can disambiguate whose tradition Middot represents. If the numbers match R. Eliezer ben Yaakov's known position from other sources, Rav Huna's attribution is confirmed."
+    "title": "Testing Middot's authorship through the eastern approach",
+    "whats": "The Gemara totals the elevations from the eastern gate toward the Sanctuary: the soreg and cheil, the stairway rising from the Women's Courtyard into the Israelites' Courtyard, the stairway between the Entrance Hall and the altar, and R. Eliezer ben Yaakov's extra step and platform. This initially explains why the Sanctuary entrance was hidden from the priest on the Mount of Olives, but Rav Adda bar Ahava argues that Rabbi Yehuda's centered, thirty-two-cubit altar could provide an alternative explanation.",
+    "hint": "Which two explanations are offered for why the lower Sanctuary entrance was hidden: R. Eliezer ben Yaakov's added elevation or Rabbi Yehuda's centered altar?"
    },
    "learning": {
-    "learnerQuestion": "Is there any evidence for Rav Huna's authorship claim beyond R. Eliezer ben Yaakov's own admission of forgetting two chambers?",
-    "coreTension": "A single admission of forgetfulness is a thin basis for attributing an entire tractate to one Tanna; the attribution needs independent corroboration.",
-    "coreMove": "The Gemara derives the eastern wall's height from a verse about the cherubim's wingspan, and shows that the resulting number matches R. Eliezer ben Yaakov's known position elsewhere - turning a textual coincidence into a second, independent proof of authorship.",
-    "resolution": "Middot's eastern wall measurement, derived from the cherubim verse, matches R. Eliezer ben Yaakov's known view, corroborating Rav Huna's attribution beyond the single forgetfulness admission.",
+    "learnerQuestion": "Do the Temple's eastern elevations independently prove that Middot follows R. Eliezer ben Yaakov?",
+    "coreTension": "The lower Sanctuary entrance was hidden from the priest on the Mount of Olives, and the Gemara tests which tannaitic Temple plan explains that obstruction.",
+    "coreMove": "The Gemara adds the soreg and cheil, the stairways, and R. Eliezer ben Yaakov's extra step and platform. His added elevation initially explains why the entrance was hidden, but Rav Adda bar Ahava challenges the attribution by invoking Rabbi Yehuda's centered, thirty-two-cubit altar as an alternative obstruction.",
+    "resolution": "The measurements first support R. Eliezer ben Yaakov's plan, because his extra step and platform hide the entrance. Rav Adda bar Ahava rejects this as decisive proof and argues that Rabbi Yehuda's centered, thirty-two-cubit altar also blocks the lower entrance.",
     "takeaway": {
-     "type": "derivation_principle",
-     "text": "A numeric detail derived from a verse (here, wall height from the cherubim's wingspan) can independently corroborate an attribution that otherwise rests on a single piece of internal evidence."
+     "type": "argument_principle",
+     "text": "A measurement-based attribution is not decisive when another tannaitic plan can explain the same architectural observation."
     },
-    "ahaMoment": "Temple measurements serve as fingerprints - matching a derived number to a known Tanna's position confirms who authored a tractate, independent of any direct admission.",
-    "learningBlocker": "Learners tend to read the golden vine and gallery material as decorative background detail and miss that the eastern wall height is doing real argumentative work: it is the second, independent proof for Rav Huna's authorship claim.",
-    "memoryAnchor": "Cherubim wingspan derives the wall height; the wall height matches R. Eliezer ben Yaakov. Two proofs now: the forgetfulness admission, and the measurement match."
+    "ahaMoment": "The added elevation explains the hidden entrance, while Rav Adda bar Ahava introduces Rabbi Yehuda's centered, thirty-two-cubit altar as an alternative before this amud ends.",
+    "learningBlocker": "It is easy to stop at the initial measurement match and miss Rav Adda bar Ahava's alternative explanation from Rabbi Yehuda.",
+    "memoryAnchor": "Extra step and platform: R. Eliezer ben Yaakov; centered thirty-two-cubit altar: Rabbi Yehuda."
    },
    "argumentFlow": [
     {
      "id": "step-01",
      "type": "proof",
-     "label": "Temple height measurements match R. EbY's view",
+     "label": "Test Middot through the eastern elevations",
      "speaker": "Gemara",
-     "text": "Middot's stated height for the eastern wall matches R. Eliezer ben Yaakov's position as expressed in other Talmudic passages - confirming Rav Huna's attribution.",
+     "text": "The Gemara tests whether the measurements of the Temple's eastern approach fit R. Eliezer ben Yaakov's plan.",
      "sourceRefs": [
       {
        "sourceType": "gemara",
        "lineId": "yoma-016a-l20",
        "vilnaLine": 20,
-       "note": "Height measurement proof"
+       "note": "Opening of the elevation test"
       }
      ]
     },
     {
      "id": "step-02",
      "type": "detail",
-     "label": "Gallery construction details in the Women's Courtyard",
+     "label": "Soreg and cheil establish the first rise",
      "speaker": "Gemara",
-     "text": "The Middot description of how the Ezrat Nashim galleries were constructed - the initial plan and subsequent addition of galleries when the crowd needed separation - also reflects R. Eliezer ben Yaakov's tradition.",
+     "text": "The calculation begins with the soreg and the ten-cubit cheil on the eastern approach.",
      "sourceRefs": [
       {
        "sourceType": "gemara",
        "lineId": "yoma-016a-l23",
        "vilnaLine": 23,
-       "note": "Women's Courtyard gallery details"
+       "note": "Soreg and cheil measurements"
       }
      ]
     },
     {
      "id": "step-03",
      "type": "detail",
-     "label": "The Sanctuary entrance height and its proof-verse",
+     "label": "Count the three stairway sets toward the Sanctuary",
      "speaker": "Gemara",
-     "text": "The height of the main entrance (Ulam) to the Sanctuary - the Gemara derives the number from a biblical verse about the cherubim. This aligns with Middot's measurements.",
+     "text": "The Gemara counts twelve steps rising through the rampart into the Women's Courtyard, fifteen steps rising from there into the Israelites' Courtyard, and twelve steps between the Entrance Hall and the altar.",
      "sourceRefs": [
       {
        "sourceType": "gemara",
        "lineId": "yoma-016a-l26",
        "vilnaLine": 26,
-       "note": "Entrance height from verse"
+       "note": "Stairway measurements"
       }
      ]
     },
     {
      "id": "step-04",
      "type": "detail",
-     "label": "The Temple's golden vine and its dimensions",
+     "label": "R. Eliezer ben Yaakov adds a step and platform",
      "speaker": "Gemara",
-     "text": "Middot also describes the golden vine decorating the entrance to the Heikhal. Its dimensions and the way priests and laypeople would donate golden grape clusters to it are described.",
+     "text": "R. Eliezer ben Yaakov adds another step and a platform above the standard stairways, increasing the elevation of the approach.",
      "sourceRefs": [
       {
        "sourceType": "gemara",
        "lineId": "yoma-016a-l29",
        "vilnaLine": 29,
-       "note": "Golden vine details"
+       "note": "Additional step and platform"
       }
      ]
     },
     {
      "id": "step-05",
      "type": "elaboration",
-     "label": "Donations to the golden vine",
+     "label": "The added elevation hides the entrance",
      "speaker": "Gemara",
-     "text": "People who donated grape clusters, leaves, or berries of gold for the vine - where were they deposited? The gate treasurer (gizbar) would store them and commission goldsmiths to attach them to the vine.",
+     "text": "With R. Eliezer ben Yaakov's added elevation, the lower Sanctuary entrance is hidden from the priest standing on the Mount of Olives.",
      "sourceRefs": [
       {
        "sourceType": "gemara",
        "lineId": "yoma-016a-l30",
        "vilnaLine": 30,
-       "note": "Golden vine donation logistics"
+       "note": "Why the entrance was hidden"
       }
      ]
     },
     {
      "id": "step-06",
      "type": "elaboration",
-     "label": "The enormous weight of the golden vine",
-     "speaker": "Gemara",
-     "text": "At one point the golden vine became so heavy (three hundred kohenim were required to move it) that the Temple had to stop adding to it.",
+     "label": "Rav Adda bar Ahava challenges the proof",
+     "speaker": "Rav Adda bar Ahava",
+     "text": "Rav Adda bar Ahava rejects the claim that the hidden entrance decisively identifies R. Eliezer ben Yaakov's plan.",
      "sourceRefs": [
       {
        "sourceType": "gemara",
        "lineId": "yoma-016a-l32",
        "vilnaLine": 32,
-       "note": "Golden vine weight anecdote"
+       "note": "Challenge to the attribution"
       }
      ]
     },
     {
      "id": "step-07",
      "type": "detail",
-     "label": "Eastern wall measurement proof",
-     "speaker": "Gemara",
-     "text": "The eastern wall's specific height measurement (given in Middot) is proven from the verse about the cherubim's wingspan, which equals the height of the entire sanctuary interior.",
+     "label": "Rabbi Yehuda's centered altar offers an alternative",
+     "speaker": "Rav Adda bar Ahava",
+     "text": "Rabbi Yehuda holds that the altar stood centered in the courtyard and measured thirty-two cubits; the statement gives that measurement without explaining its consequence.",
      "sourceRefs": [
       {
        "sourceType": "gemara",
-       "lineId": "yoma-016a-l35",
-       "vilnaLine": 35,
-       "note": "Eastern wall height derivation"
+       "lineId": "yoma-016a-l32",
+       "vilnaLine": 32,
+       "note": "Rabbi Yehuda's altar explanation"
       }
      ]
     }
    ],
    "topicTags": [
-    "Temple measurements",
-    "eastern wall",
-    "Ezrat Nashim",
-    "golden vine",
-    "R. Eliezer ben Yaakov",
-    "Tractate Middot"
+    "temple-measurements",
+    "eastern-wall",
+    "temple-steps",
+    "r-eliezer-ben-yaakov",
+    "rabbi-yehuda",
+    "altar-placement"
    ],
    "conceptRefs": [
     "Yoma.16a.5",
     "Yoma.16a.8",
-    "Yoma.16a.11"
+    "Yoma.16a.10"
    ],
    "requiresUnderstanding": [],
    "misconceptions": [
     {
-     "misconception": "The golden vine over the Heikhal entrance was a natural growth trained onto the wall.",
-     "correction": "It was an entirely artificial gold construction, built up over time from worshippers' donated gold grape clusters, leaves, and berries attached by goldsmiths."
+     "misconception": "The elevation calculation conclusively proves that Middot follows R. Eliezer ben Yaakov.",
+     "correction": "Rav Adda bar Ahava challenges that proof by showing how Rabbi Yehuda's centered, thirty-two-cubit altar can also hide the lower entrance."
     }
    ],
    "relatedSugyot": [
@@ -357,32 +357,32 @@
    ],
    "visualizableElements": [
     {
-     "item": "Temple entrance (Ulam) showing the golden vine with donation grape clusters, layered galleries of the Ezrat Nashim visible in background",
-     "type": "place"
+     "item": "Elevation profile from the eastern gate through the Women's and Israelites' courtyards to the Sanctuary entrance",
+     "type": "diagram"
     },
     {
-     "item": "Timeline of the golden vine's growth: initial installation, accumulation of donations, kohanim required to move it",
-     "type": "sequence"
+     "item": "Two obstruction models: R. Eliezer ben Yaakov's added elevation and Rabbi Yehuda's centered altar",
+     "type": "contrast"
     }
    ],
    "quizSeeds": [
     {
-     "question": "What is the second, independent proof (beyond the forgetfulness admission) that R. Eliezer ben Yaakov authored Tractate Middot?",
-     "answer": "The eastern wall height derived in Middot from the cherubim's wingspan matches R. Eliezer ben Yaakov's known position as expressed elsewhere in the Talmud."
+     "question": "Why do R. Eliezer ben Yaakov's extra step and platform matter to the eastern-wall argument?",
+     "answer": "They raise the approach enough that the lower Sanctuary entrance is hidden from the priest standing on the Mount of Olives."
     },
     {
-     "question": "How heavy did the golden vine over the Heikhal entrance eventually become, and why did the Temple stop adding to it?",
-     "answer": "It grew so massive from accumulated gold donations that three hundred kohanim were required to move it, so further additions were halted."
+     "question": "Whose view does Rav Adda bar Ahava offer as an alternative, and what feature explains the obstruction?",
+     "answer": "Rabbi Yehuda's view: the altar stands centered in the courtyard, directly aligned with the entrances, which is offered as an alternative explanation for why the lower entrance would be hidden; the altar is said to measure thirty-two cubits, with further detail about its shape not yet given."
     }
    ],
-   "finalRuling": "Confirmed: Middot's measurements align with R. Eliezer ben Yaakov's known positions, supporting Rav Huna's attribution.",
+   "finalRuling": "The elevation calculation initially supports R. Eliezer ben Yaakov, but Rav Adda bar Ahava disputes its decisiveness by offering Rabbi Yehuda's centered altar as an alternative explanation for the hidden entrance.",
    "difficulty": "intermediate",
    "alternateAngles": [],
    "glossary": [
     {
-     "he": "גֶּפֶן שֶׁל זָהָב",
-     "translit": "gafna shel zahav",
-     "en": "Golden vine - decorative gold vine over the Sanctuary entrance, built from worshippers' donations of gold grape clusters."
+     "he": "סוֹרֵג",
+     "translit": "soreg",
+     "en": "The low barrier on the eastern approach to the Temple courtyards."
     }
    ],
    "review": {
@@ -390,21 +390,21 @@
     "sourceRefs": "ai_generated"
    },
    "prerequisiteKnowledge": [
-    "Basic Temple layout: Heikhal, Ulam, Ezrat Nashim",
-    "How measurement traditions attribute a tractate to its author"
+    "Basic Temple layout from the eastern gate to the Sanctuary",
+    "The authorship question about Tractate Middot"
    ]
   }
  ],
  "glossary": [
   {
-   "he": "קַב וְנָקִי",
-   "translit": "kav ve-naki",
-   "en": "Small but clean - the saying about R. Eliezer ben Yaakov: his mishna corpus is small but of high quality."
+   "he": "לשכת בית שמניא",
+   "translit": "lishkat beit shemanya",
+   "en": "Chamber of the House of Oils - Abba Shaul's name for the southwest chamber whose function R. Eliezer ben Yaakov said he forgot."
   },
   {
-   "he": "גֶּפֶן שֶׁל זָהָב",
-   "translit": "gafna shel zahav",
-   "en": "Golden vine - decorative gold vine over the Sanctuary entrance, built from worshippers' donations of gold grape clusters."
+   "he": "סוֹרֵג",
+   "translit": "soreg",
+   "en": "The low barrier on the eastern approach to the Temple courtyards."
   }
  ],
  "rashiTranslations": [
