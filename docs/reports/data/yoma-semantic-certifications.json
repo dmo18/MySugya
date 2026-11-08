@@ -141594,6 +141594,1043 @@
         }
       },
       "certifiedAtCommit": "3e262ed3bba43e45c9b4e4f9edea3a54e8a0306d"
+    },
+    "yoma-17a-s01": {
+      "sugyaId": "yoma-17a-s01",
+      "daf": "17a",
+      "state": "CERTIFIED",
+      "firstPass": {
+        "reviewId": "claude-claude-sonnet-5-yoma-17a-s01-first-3398a76c8e",
+        "reviewerContextId": "llm-task-anthropic-claude-sonnet-5-yoma-17a-s01-first-3398a76c8e",
+        "sourceFirst": true,
+        "verdict": "VERIFIED",
+        "reviewedSourceFingerprint": "b3feef3c357568fff14628eb033519e866d3b5bab5fb2b3fa75161322fdadea5",
+        "reviewedSemanticFingerprint": "dc7012db112a3cd28b2e6ec2fb35d53eca543d6302faf47dba07e2b92292fb3c",
+        "evidence": {
+          "answer": {
+            "sugyaId": "yoma-17a-s01",
+            "verdict": "VERIFIED",
+            "evidence": "Line 1 concludes Middot follows R. Eliezer ben Yaakov. Rav Adda son of Rav Yitzchak (line 2) explains the Chamber of the Lambs stood along the middle of the west wall, appearing south to one coming from the north and north to one coming from the south. Line 3 reasons it was closer to southwest, proven from the Tamid/Middot contradiction over the showbread-preparation chamber's corner. Line 4 resolves this via Rav Huna son of Rav Yehoshua's distinction between counting by way of the right (Middot) versus the left (Tamid).",
+            "defects": [],
+            "dafSummaryVerdict": "VERIFIED",
+            "boundaryVerdict": "VERIFIED"
+          },
+          "run": "yoma-17a-s01-first-3398a76c8e"
+        }
+      },
+      "sourceFingerprint": "b3feef3c357568fff14628eb033519e866d3b5bab5fb2b3fa75161322fdadea5",
+      "semanticFingerprint": "dc7012db112a3cd28b2e6ec2fb35d53eca543d6302faf47dba07e2b92292fb3c",
+      "secondPass": {
+        "reviewId": "claude-claude-sonnet-5-yoma-17a-s01-second-564121e532",
+        "reviewerContextId": "llm-task-anthropic-claude-sonnet-5-yoma-17a-s01-second-564121e532",
+        "sourceFirst": true,
+        "verdict": "CONFIRMED",
+        "reviewedSourceFingerprint": "b3feef3c357568fff14628eb033519e866d3b5bab5fb2b3fa75161322fdadea5",
+        "reviewedSemanticFingerprint": "dc7012db112a3cd28b2e6ec2fb35d53eca543d6302faf47dba07e2b92292fb3c",
+        "evidence": {
+          "answer": {
+            "sugyaId": "yoma-17a-s01",
+            "verdict": "CONFIRMED",
+            "evidence": "The Gemara concludes Middot follows R. Eliezer ben Yaakov; Rav Adda explains the Chamber of the Lambs stood along the middle of the western wall, appearing south to one coming from the north and north to one coming from the south, reasoned to lean southwest from the parallel Tamid/Middot dispute over the showbread chamber's corner, resolved by Rav Huna b. Rav Yehoshua via rightward vs. leftward counting.",
+            "defects": [],
+            "dafSummaryVerdict": "CONFIRMED",
+            "boundaryVerdict": "CONFIRMED"
+          },
+          "run": "yoma-17a-s01-second-564121e532"
+        }
+      },
+      "finalAudit": {
+        "reviewId": "claude-claude-sonnet-5-yoma-17a-s01-final-f3ef8ad51b",
+        "auditorContextId": "llm-task-anthropic-claude-sonnet-5-yoma-17a-s01-final-p1-f3ef8ad51b",
+        "auditedSourceFingerprint": "b3feef3c357568fff14628eb033519e866d3b5bab5fb2b3fa75161322fdadea5",
+        "auditedSemanticFingerprint": "dc7012db112a3cd28b2e6ec2fb35d53eca543d6302faf47dba07e2b92292fb3c",
+        "dafBoundary": {
+          "rawLineCount": 9,
+          "finalRawLine": "אי",
+          "dafEndState": "COMPLETE"
+        },
+        "fieldInventory": [
+          {
+            "path": "lineRange",
+            "verdict": "NONFACTUAL",
+            "crossReference": false,
+            "boundarySafe": true
+          },
+          {
+            "path": "lines",
+            "verdict": "NONFACTUAL",
+            "crossReference": false,
+            "boundarySafe": true
+          },
+          {
+            "path": "dafLevel.summary",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "17a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 8
+              }
+            ],
+            "boundarySafe": true,
+            "note": "summary covers verdict, Rav Adda's view, southwest refinement, and Rav Huna's resolution all within these lines"
+          },
+          {
+            "path": "argumentFlow[step-01].id",
+            "verdict": "NONFACTUAL",
+            "crossReference": false,
+            "boundarySafe": true
+          },
+          {
+            "path": "argumentFlow[step-01].label",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "17a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 1
+              }
+            ],
+            "boundarySafe": true
+          },
+          {
+            "path": "argumentFlow[step-01].sourceRefs[0].lineId",
+            "verdict": "NONFACTUAL",
+            "crossReference": false,
+            "boundarySafe": true
+          },
+          {
+            "path": "argumentFlow[step-01].sourceRefs[0].note",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "17a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 1
+              }
+            ],
+            "boundarySafe": true
+          },
+          {
+            "path": "argumentFlow[step-01].sourceRefs[0].sourceType",
+            "verdict": "NONFACTUAL",
+            "crossReference": false,
+            "boundarySafe": true
+          },
+          {
+            "path": "argumentFlow[step-01].sourceRefs[0].vilnaLine",
+            "verdict": "NONFACTUAL",
+            "crossReference": false,
+            "boundarySafe": true
+          },
+          {
+            "path": "argumentFlow[step-01].speaker",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "17a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 1
+              }
+            ],
+            "boundarySafe": true
+          },
+          {
+            "path": "argumentFlow[step-01].text",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "17a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 1
+              }
+            ],
+            "boundarySafe": true
+          },
+          {
+            "path": "argumentFlow[step-01].type",
+            "verdict": "REVIEWED",
+            "crossReference": false,
+            "boundarySafe": true,
+            "note": "type matches gemara's final concluding verdict"
+          },
+          {
+            "path": "argumentFlow[step-02].id",
+            "verdict": "NONFACTUAL",
+            "crossReference": false,
+            "boundarySafe": true
+          },
+          {
+            "path": "argumentFlow[step-02].label",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "17a",
+                "startVilnaLine": 2,
+                "endVilnaLine": 4
+              }
+            ],
+            "boundarySafe": true,
+            "note": "matches Sefaria's english rendering of the chamber's west-wall placement"
+          },
+          {
+            "path": "argumentFlow[step-02].sourceRefs[0].lineId",
+            "verdict": "NONFACTUAL",
+            "crossReference": false,
+            "boundarySafe": true
+          },
+          {
+            "path": "argumentFlow[step-02].sourceRefs[0].note",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "17a",
+                "startVilnaLine": 2,
+                "endVilnaLine": 4
+              }
+            ],
+            "boundarySafe": true
+          },
+          {
+            "path": "argumentFlow[step-02].sourceRefs[0].sourceType",
+            "verdict": "NONFACTUAL",
+            "crossReference": false,
+            "boundarySafe": true
+          },
+          {
+            "path": "argumentFlow[step-02].sourceRefs[0].vilnaLine",
+            "verdict": "NONFACTUAL",
+            "crossReference": false,
+            "boundarySafe": true
+          },
+          {
+            "path": "argumentFlow[step-02].speaker",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "17a",
+                "startVilnaLine": 2,
+                "endVilnaLine": 2
+              }
+            ],
+            "boundarySafe": true
+          },
+          {
+            "path": "argumentFlow[step-02].text",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "17a",
+                "startVilnaLine": 2,
+                "endVilnaLine": 4
+              }
+            ],
+            "boundarySafe": true
+          },
+          {
+            "path": "argumentFlow[step-02].type",
+            "verdict": "REVIEWED",
+            "crossReference": false,
+            "boundarySafe": true,
+            "note": "type matches a proposed alternative explanation"
+          },
+          {
+            "path": "argumentFlow[step-03].id",
+            "verdict": "NONFACTUAL",
+            "crossReference": false,
+            "boundarySafe": true
+          },
+          {
+            "path": "argumentFlow[step-03].label",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "17a",
+                "startVilnaLine": 5,
+                "endVilnaLine": 5
+              }
+            ],
+            "boundarySafe": true
+          },
+          {
+            "path": "argumentFlow[step-03].sourceRefs[0].lineId",
+            "verdict": "NONFACTUAL",
+            "crossReference": false,
+            "boundarySafe": true
+          },
+          {
+            "path": "argumentFlow[step-03].sourceRefs[0].note",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "17a",
+                "startVilnaLine": 5,
+                "endVilnaLine": 6
+              }
+            ],
+            "boundarySafe": true
+          },
+          {
+            "path": "argumentFlow[step-03].sourceRefs[0].sourceType",
+            "verdict": "NONFACTUAL",
+            "crossReference": false,
+            "boundarySafe": true
+          },
+          {
+            "path": "argumentFlow[step-03].sourceRefs[0].vilnaLine",
+            "verdict": "NONFACTUAL",
+            "crossReference": false,
+            "boundarySafe": true
+          },
+          {
+            "path": "argumentFlow[step-03].speaker",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "17a",
+                "startVilnaLine": 5,
+                "endVilnaLine": 6
+              }
+            ],
+            "boundarySafe": true
+          },
+          {
+            "path": "argumentFlow[step-03].text",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "17a",
+                "startVilnaLine": 5,
+                "endVilnaLine": 6
+              }
+            ],
+            "boundarySafe": true
+          },
+          {
+            "path": "argumentFlow[step-03].type",
+            "verdict": "REVIEWED",
+            "crossReference": false,
+            "boundarySafe": true,
+            "note": "type matches a supporting clarification"
+          },
+          {
+            "path": "argumentFlow[step-04].id",
+            "verdict": "NONFACTUAL",
+            "crossReference": false,
+            "boundarySafe": true
+          },
+          {
+            "path": "argumentFlow[step-04].label",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "17a",
+                "startVilnaLine": 7,
+                "endVilnaLine": 8
+              }
+            ],
+            "boundarySafe": true
+          },
+          {
+            "path": "argumentFlow[step-04].sourceRefs[0].lineId",
+            "verdict": "NONFACTUAL",
+            "crossReference": false,
+            "boundarySafe": true
+          },
+          {
+            "path": "argumentFlow[step-04].sourceRefs[0].note",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "17a",
+                "startVilnaLine": 7,
+                "endVilnaLine": 8
+              }
+            ],
+            "boundarySafe": true
+          },
+          {
+            "path": "argumentFlow[step-04].sourceRefs[0].sourceType",
+            "verdict": "NONFACTUAL",
+            "crossReference": false,
+            "boundarySafe": true
+          },
+          {
+            "path": "argumentFlow[step-04].sourceRefs[0].vilnaLine",
+            "verdict": "NONFACTUAL",
+            "crossReference": false,
+            "boundarySafe": true
+          },
+          {
+            "path": "argumentFlow[step-04].speaker",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "17a",
+                "startVilnaLine": 7,
+                "endVilnaLine": 7
+              }
+            ],
+            "boundarySafe": true
+          },
+          {
+            "path": "argumentFlow[step-04].text",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "17a",
+                "startVilnaLine": 7,
+                "endVilnaLine": 8
+              }
+            ],
+            "boundarySafe": true
+          },
+          {
+            "path": "argumentFlow[step-04].type",
+            "verdict": "REVIEWED",
+            "crossReference": false,
+            "boundarySafe": true,
+            "note": "type matches the final resolving answer"
+          },
+          {
+            "path": "conceptRefs[0]",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "17a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 1
+              }
+            ],
+            "boundarySafe": true
+          },
+          {
+            "path": "conceptRefs[1]",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "17a",
+                "startVilnaLine": 5,
+                "endVilnaLine": 6
+              }
+            ],
+            "boundarySafe": true
+          },
+          {
+            "path": "difficulty",
+            "verdict": "REVIEWED",
+            "crossReference": false,
+            "boundarySafe": true,
+            "note": "intermediate fits a multi-step geometric/textual resolution typical of middle difficulty"
+          },
+          {
+            "path": "display.hint",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "17a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 8
+              }
+            ],
+            "boundarySafe": true
+          },
+          {
+            "path": "display.title",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "17a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 8
+              }
+            ],
+            "boundarySafe": true
+          },
+          {
+            "path": "display.whats",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "17a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 8
+              }
+            ],
+            "boundarySafe": true
+          },
+          {
+            "path": "finalRuling",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "17a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 8
+              }
+            ],
+            "boundarySafe": true
+          },
+          {
+            "path": "learning.ahaMoment",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "17a",
+                "startVilnaLine": 6,
+                "endVilnaLine": 8
+              }
+            ],
+            "boundarySafe": true
+          },
+          {
+            "path": "learning.coreMove",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "17a",
+                "startVilnaLine": 2,
+                "endVilnaLine": 6
+              }
+            ],
+            "boundarySafe": true
+          },
+          {
+            "path": "learning.coreTension",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "17a",
+                "startVilnaLine": 2,
+                "endVilnaLine": 5
+              }
+            ],
+            "boundarySafe": true
+          },
+          {
+            "path": "learning.learnerQuestion",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "17a",
+                "startVilnaLine": 2,
+                "endVilnaLine": 5
+              }
+            ],
+            "boundarySafe": true
+          },
+          {
+            "path": "learning.learningBlocker",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "17a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 8
+              }
+            ],
+            "boundarySafe": true
+          },
+          {
+            "path": "learning.memoryAnchor",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "17a",
+                "startVilnaLine": 2,
+                "endVilnaLine": 8
+              }
+            ],
+            "boundarySafe": true
+          },
+          {
+            "path": "learning.resolution",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "17a",
+                "startVilnaLine": 6,
+                "endVilnaLine": 8
+              }
+            ],
+            "boundarySafe": true
+          },
+          {
+            "path": "learning.takeaway.text",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "17a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 8
+              }
+            ],
+            "boundarySafe": true
+          },
+          {
+            "path": "learning.takeaway.type",
+            "verdict": "REVIEWED",
+            "crossReference": false,
+            "boundarySafe": true,
+            "note": "takeaway content is conceptual, not a procedural or factual-recall point"
+          },
+          {
+            "path": "prerequisiteKnowledge[0]",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "17a",
+                "startVilnaLine": 6,
+                "endVilnaLine": 8
+              }
+            ],
+            "boundarySafe": true
+          },
+          {
+            "path": "quizSeeds[0].answer",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "17a",
+                "startVilnaLine": 2,
+                "endVilnaLine": 3
+              }
+            ],
+            "boundarySafe": true
+          },
+          {
+            "path": "quizSeeds[0].question",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "17a",
+                "startVilnaLine": 2,
+                "endVilnaLine": 3
+              }
+            ],
+            "boundarySafe": true
+          },
+          {
+            "path": "quizSeeds[1].answer",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "17a",
+                "startVilnaLine": 6,
+                "endVilnaLine": 8
+              }
+            ],
+            "boundarySafe": true
+          },
+          {
+            "path": "quizSeeds[1].question",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "17a",
+                "startVilnaLine": 6,
+                "endVilnaLine": 8
+              }
+            ],
+            "boundarySafe": true
+          },
+          {
+            "path": "relatedSugyot[0]",
+            "verdict": "NONFACTUAL",
+            "crossReference": false,
+            "boundarySafe": true
+          },
+          {
+            "path": "relatedSugyot[1]",
+            "verdict": "NONFACTUAL",
+            "crossReference": false,
+            "boundarySafe": true
+          },
+          {
+            "path": "topicTags[0]",
+            "verdict": "NONFACTUAL",
+            "crossReference": false,
+            "boundarySafe": true
+          },
+          {
+            "path": "topicTags[1]",
+            "verdict": "NONFACTUAL",
+            "crossReference": false,
+            "boundarySafe": true
+          },
+          {
+            "path": "topicTags[2]",
+            "verdict": "NONFACTUAL",
+            "crossReference": false,
+            "boundarySafe": true
+          },
+          {
+            "path": "topicTags[3]",
+            "verdict": "NONFACTUAL",
+            "crossReference": false,
+            "boundarySafe": true
+          },
+          {
+            "path": "topicTags[4]",
+            "verdict": "NONFACTUAL",
+            "crossReference": false,
+            "boundarySafe": true
+          },
+          {
+            "path": "topicTags[5]",
+            "verdict": "NONFACTUAL",
+            "crossReference": false,
+            "boundarySafe": true
+          },
+          {
+            "path": "topicTags[6]",
+            "verdict": "NONFACTUAL",
+            "crossReference": false,
+            "boundarySafe": true
+          },
+          {
+            "path": "visualizableElements[0].item",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "17a",
+                "startVilnaLine": 2,
+                "endVilnaLine": 5
+              }
+            ],
+            "boundarySafe": true
+          },
+          {
+            "path": "visualizableElements[0].type",
+            "verdict": "REVIEWED",
+            "crossReference": false,
+            "boundarySafe": true,
+            "note": "visualized object is a physical location, matching Rashi's description of the chamber's placement"
+          },
+          {
+            "path": "visualizableElements[1].item",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "17a",
+                "startVilnaLine": 6,
+                "endVilnaLine": 8
+              }
+            ],
+            "boundarySafe": true
+          },
+          {
+            "path": "visualizableElements[1].type",
+            "verdict": "REVIEWED",
+            "crossReference": false,
+            "boundarySafe": true,
+            "note": "visualized object is a comparative diagram of counting orders, matching Rav Huna's right/left resolution"
+          }
+        ],
+        "boundaryLeakageSweep": [
+          {
+            "path": "dafLevel.summary",
+            "importsNextDafConclusion": false,
+            "note": "summary covers verdict, Rav Adda's view, southwest refinement, and Rav Huna's resolution all within these lines"
+          },
+          {
+            "path": "argumentFlow[step-01].label",
+            "importsNextDafConclusion": false
+          },
+          {
+            "path": "argumentFlow[step-01].sourceRefs[0].note",
+            "importsNextDafConclusion": false
+          },
+          {
+            "path": "argumentFlow[step-01].speaker",
+            "importsNextDafConclusion": false
+          },
+          {
+            "path": "argumentFlow[step-01].text",
+            "importsNextDafConclusion": false
+          },
+          {
+            "path": "argumentFlow[step-01].type",
+            "importsNextDafConclusion": false,
+            "note": "type matches gemara's final concluding verdict"
+          },
+          {
+            "path": "argumentFlow[step-02].label",
+            "importsNextDafConclusion": false,
+            "note": "matches Sefaria's english rendering of the chamber's west-wall placement"
+          },
+          {
+            "path": "argumentFlow[step-02].sourceRefs[0].note",
+            "importsNextDafConclusion": false
+          },
+          {
+            "path": "argumentFlow[step-02].speaker",
+            "importsNextDafConclusion": false
+          },
+          {
+            "path": "argumentFlow[step-02].text",
+            "importsNextDafConclusion": false
+          },
+          {
+            "path": "argumentFlow[step-02].type",
+            "importsNextDafConclusion": false,
+            "note": "type matches a proposed alternative explanation"
+          },
+          {
+            "path": "argumentFlow[step-03].label",
+            "importsNextDafConclusion": false
+          },
+          {
+            "path": "argumentFlow[step-03].sourceRefs[0].note",
+            "importsNextDafConclusion": false
+          },
+          {
+            "path": "argumentFlow[step-03].speaker",
+            "importsNextDafConclusion": false
+          },
+          {
+            "path": "argumentFlow[step-03].text",
+            "importsNextDafConclusion": false
+          },
+          {
+            "path": "argumentFlow[step-03].type",
+            "importsNextDafConclusion": false,
+            "note": "type matches a supporting clarification"
+          },
+          {
+            "path": "argumentFlow[step-04].label",
+            "importsNextDafConclusion": false
+          },
+          {
+            "path": "argumentFlow[step-04].sourceRefs[0].note",
+            "importsNextDafConclusion": false
+          },
+          {
+            "path": "argumentFlow[step-04].speaker",
+            "importsNextDafConclusion": false
+          },
+          {
+            "path": "argumentFlow[step-04].text",
+            "importsNextDafConclusion": false
+          },
+          {
+            "path": "argumentFlow[step-04].type",
+            "importsNextDafConclusion": false,
+            "note": "type matches the final resolving answer"
+          },
+          {
+            "path": "conceptRefs[0]",
+            "importsNextDafConclusion": false
+          },
+          {
+            "path": "conceptRefs[1]",
+            "importsNextDafConclusion": false
+          },
+          {
+            "path": "difficulty",
+            "importsNextDafConclusion": false,
+            "note": "intermediate fits a multi-step geometric/textual resolution typical of middle difficulty"
+          },
+          {
+            "path": "display.hint",
+            "importsNextDafConclusion": false
+          },
+          {
+            "path": "display.title",
+            "importsNextDafConclusion": false
+          },
+          {
+            "path": "display.whats",
+            "importsNextDafConclusion": false
+          },
+          {
+            "path": "finalRuling",
+            "importsNextDafConclusion": false
+          },
+          {
+            "path": "learning.ahaMoment",
+            "importsNextDafConclusion": false
+          },
+          {
+            "path": "learning.coreMove",
+            "importsNextDafConclusion": false
+          },
+          {
+            "path": "learning.coreTension",
+            "importsNextDafConclusion": false
+          },
+          {
+            "path": "learning.learnerQuestion",
+            "importsNextDafConclusion": false
+          },
+          {
+            "path": "learning.learningBlocker",
+            "importsNextDafConclusion": false
+          },
+          {
+            "path": "learning.memoryAnchor",
+            "importsNextDafConclusion": false
+          },
+          {
+            "path": "learning.resolution",
+            "importsNextDafConclusion": false
+          },
+          {
+            "path": "learning.takeaway.text",
+            "importsNextDafConclusion": false
+          },
+          {
+            "path": "learning.takeaway.type",
+            "importsNextDafConclusion": false,
+            "note": "takeaway content is conceptual, not a procedural or factual-recall point"
+          },
+          {
+            "path": "prerequisiteKnowledge[0]",
+            "importsNextDafConclusion": false
+          },
+          {
+            "path": "quizSeeds[0].answer",
+            "importsNextDafConclusion": false
+          },
+          {
+            "path": "quizSeeds[0].question",
+            "importsNextDafConclusion": false
+          },
+          {
+            "path": "quizSeeds[1].answer",
+            "importsNextDafConclusion": false
+          },
+          {
+            "path": "quizSeeds[1].question",
+            "importsNextDafConclusion": false
+          },
+          {
+            "path": "visualizableElements[0].item",
+            "importsNextDafConclusion": false
+          },
+          {
+            "path": "visualizableElements[0].type",
+            "importsNextDafConclusion": false,
+            "note": "visualized object is a physical location, matching Rashi's description of the chamber's placement"
+          },
+          {
+            "path": "visualizableElements[1].item",
+            "importsNextDafConclusion": false
+          },
+          {
+            "path": "visualizableElements[1].type",
+            "importsNextDafConclusion": false,
+            "note": "visualized object is a comparative diagram of counting orders, matching Rav Huna's right/left resolution"
+          }
+        ],
+        "staleContentSweep": {
+          "entries": [
+            {
+              "category": "stale_original_error",
+              "found": false
+            },
+            {
+              "category": "stale_speaker_or_attribution",
+              "found": false
+            },
+            {
+              "category": "contradictory_speaker_attribution",
+              "found": false
+            },
+            {
+              "category": "old_conclusion_in_secondary_field",
+              "found": false
+            },
+            {
+              "category": "false_closure",
+              "found": false
+            },
+            {
+              "category": "next_daf_content_leaked_backward",
+              "found": false
+            },
+            {
+              "category": "claim_unsupported_by_physical_daf",
+              "found": false
+            },
+            {
+              "category": "stale_quiz_question_or_answer",
+              "found": false
+            },
+            {
+              "category": "stale_final_ruling",
+              "found": false
+            },
+            {
+              "category": "stale_summary",
+              "found": false
+            },
+            {
+              "category": "stale_learning_field",
+              "found": false
+            },
+            {
+              "category": "stale_misconception",
+              "found": false
+            },
+            {
+              "category": "stale_related_sugya_description",
+              "found": false
+            },
+            {
+              "category": "stale_visualizable_element_prose",
+              "found": false
+            },
+            {
+              "category": "source_refs_no_longer_supporting_claim",
+              "found": false
+            },
+            {
+              "category": "reference_outside_declared_line_range",
+              "found": false
+            }
+          ]
+        }
+      },
+      "certifiedAtCommit": "eceb67972739901984df582c6229b64630115714"
     }
   }
 }
