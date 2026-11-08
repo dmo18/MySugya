@@ -1,7 +1,7 @@
 {
  "daf": "16b",
  "canonicalRef": "Yoma 16b",
- "summary": "The page completes the debate over whether tractate Middot follows Rabbi Yehuda (altar centered in the courtyard) or Rabbi Eliezer ben Yaakov. R. Yehuda's position: the altar's 32 cubits are arranged 10 opposite the Sanctuary entrance, 11 to the north, 11 to the south - perfectly centered. The Gemara works through the cubit calculations and shows the altar cannot be centered if Middot's total dimensions are correct. Rav Adda bar Yitzchak offers a different resolution: the Chamber of the Lambs was not in a corner but along the middle of the west wall, appearing at different corners depending on the viewer's approach direction. The Gemara concludes the southwest corner placement (Middot/R. Eliezer ben Yaakov) is most defensible.",
+ "summary": "The page tests whether tractate Middot can follow Rabbi Yehuda's view of an altar centered in the courtyard. Rabbi Yehuda describes the altar's 32 cubits as 10 opposite the Sanctuary entrance, 11 to the north, and 11 to the south. The Gemara then works through Middot's courtyard measurements and concludes that most of the altar stood to the south, refuting the centered-altar reading.",
  "review": {
   "content": "ai_generated",
   "sourceRefs": "ai_generated"
@@ -12,7 +12,7 @@
    "id": "yoma-16b-s01",
    "lineRange": {
     "startVilnaLine": 1,
-    "endVilnaLine": 21
+    "endVilnaLine": 20
    },
    "lines": [
     {
@@ -45,20 +45,20 @@
    ],
    "display": {
     "title": "The cubit count rules out R. Yehuda: the altar was not centered",
-    "whats": "The extended debate over whether Tractate Middot follows R. Yehuda or R. Eliezer ben Yaakov is resolved: Middot is NOT R. Yehuda's tractate. R. Yehuda holds the altar was centered in the courtyard, but the Temple measurements prove the altar was not centered - most of it was to the south. The Gemara then works through the precise cubit counts: the altar's 32 cubits plus the ramp, the courtyard's total dimensions, and how the various structures fit.",
+    "whats": "The dispute over whether Middot follows R. Yehuda is addressed here: he holds the altar was centered in the courtyard, but the Temple's cubit counts show it sat mostly to the south, ruling that view out. The Gemara then works through the precise measurements: the altar's dimensions, the ramp, and how the surrounding structures fit within the courtyard's width.",
     "hint": "The key is whether the altar was centered in the court (R. Yehuda) or positioned mostly to the south (Middot's implicit description). The measurements leave no room for centering, ruling out R. Yehuda as Middot's author."
    },
    "learning": {
     "learnerQuestion": "Could Tractate Middot actually follow R. Yehuda, who holds the altar stood at the exact center of the courtyard?",
-    "coreTension": "R. Yehuda's centered-altar position is a real, named tannaitic view. Before settling on R. Eliezer ben Yaakov as Middot's author, the Gemara has to rule out this alternative, not just assert it away.",
-    "coreMove": "The Gemara runs the actual cubit count: Heikhal 100 cubits from the north wall, an 11-cubit gap, the 32-cubit altar, the 16-cubit ramp, and 22 cubits to the south wall. Laid end to end, the numbers leave the altar's center well south of the courtyard's midpoint, so a perfectly centered altar is not geometrically possible.",
-    "resolution": "Middot's own measurements rule out R. Yehuda's centered-altar view, confirming that Middot follows R. Eliezer ben Yaakov, whose offset-to-the-south placement matches the cubit count.",
+    "coreTension": "R. Yehuda's centered-altar position is a real, named tannaitic view. The Gemara therefore tests that view against Middot's detailed cubit count rather than dismissing it by assertion.",
+    "coreMove": "The Gemara runs the actual cubit count: the 32-cubit ramp and altar overlap by 2 cubits, totaling 62 cubits. North of the altar, the measured spaces total 48 cubits; the remaining 25 cubits are divided between the gap near the ramp and the area occupied by the pillars. These figures place most of the altar south of the courtyard's midpoint, so a perfectly centered altar is not geometrically possible.",
+    "resolution": "Middot's own measurements rule out R. Yehuda's centered-altar view, since the ramp and altar together put most of the altar south of center.",
     "takeaway": {
      "type": "logical_principle",
      "text": "A halakhic position can be eliminated by showing that an opponent's stated numbers are geometrically incompatible with it, not just by preferring one tradition over another."
     },
     "ahaMoment": "Geometry resolves a talmudic dispute: there is not enough space north of center to accommodate R. Yehuda's centered-altar view. The numbers simply don't work.",
-    "learningBlocker": "Learners tend to skim the cubit-by-cubit count as filler detail, missing that the arithmetic itself is the refutation: it is not asserted that R. Yehuda is wrong, it is calculated.",
+    "learningBlocker": "The detailed cubit count is the proof itself: the Gemara calculates that most of the altar stood to the south rather than merely asserting that R. Yehuda's centered reading is wrong.",
     "memoryAnchor": "R. Yehuda: altar centered. Reality: altar plus ramp puts most of the altar south of center. No room left for centering. Middot is NOT R. Yehuda's."
    },
    "argumentFlow": [
@@ -67,7 +67,7 @@
      "type": "premise",
      "label": "R. Yehuda: altar centered in the courtyard",
      "speaker": "R. Yehuda",
-     "text": "R. Yehuda holds that the altar stood at the exact center of the Azara (courtyard), with equal space on all four sides.",
+     "text": "R. Yehuda describes the altar's 32 cubits as 10 cubits opposite the Sanctuary entrance, 11 cubits to the north, and 11 cubits to the south, aligning it with the Sanctuary and its walls.",
      "sourceRefs": [
       {
        "sourceType": "gemara",
@@ -82,7 +82,7 @@
      "type": "refutation",
      "label": "Measurements prove altar is mostly to the south",
      "speaker": "Gemara",
-     "text": "The courtyard is 187 cubits north-south. The altar is 32 cubits and the ramp is 16 cubits south of it. The Sanctuary (Heikhal) occupies 100 cubits from the north. All this leaves most of the altar south of center.",
+     "text": "Across the courtyard's 135-cubit width, the altar and ramp are each 32 cubits; because 2 cubits overlap at the base and ledge, they total 62 cubits. The remaining measurements leave most of the altar south of center.",
      "sourceRefs": [
       {
        "sourceType": "gemara",
@@ -97,7 +97,7 @@
      "type": "elaboration",
      "label": "The cubit-by-cubit breakdown",
      "speaker": "Gemara",
-     "text": "From north: 11 cubits (between Heikhal and altar), 32 cubits (altar), 16 cubits (ramp), 22 cubits (remaining south space). Total south section = 70 cubits. Total north section = 116 cubits (Heikhal + 11 + 5 for walls). The altar center falls at roughly cubit 48 from the south - not at the court's center.",
+     "text": "From the altar northward to the courtyard's north wall are 8 cubits to the rings, 24 cubits of rings, 4 cubits to the tables, 4 cubits to the nanasin, and 8 cubits to the wall, totaling 48 cubits. The ramp and altar are each 32 cubits long but overlap by 2 cubits, totaling 62; the remaining 25 cubits are divided between the space south of the ramp and the pillars' area. The sugya concludes that most of the altar stands south of center.",
      "sourceRefs": [
       {
        "sourceType": "gemara",
@@ -112,28 +112,13 @@
      "type": "conclusion",
      "label": "Conclusion: Middot cannot be R. Yehuda's tractate",
      "speaker": "Gemara",
-     "text": "Since Middot's measurements show the altar cannot be centered, and R. Yehuda requires centering, R. Yehuda did not author Middot. This confirms Rav Huna's attribution to R. Eliezer ben Yaakov.",
+     "text": "This sugya's cubit count shows that most of the altar stood to the south, ruling out R. Yehuda's centered-altar reading of Middot; it does not by itself identify Middot's author.",
      "sourceRefs": [
       {
        "sourceType": "gemara",
        "lineId": "yoma-016b-l18",
        "vilnaLine": 18,
-       "note": "Conclusion: Middot = R. EbY, not R. Yehuda"
-      }
-     ]
-    },
-    {
-     "id": "step-05",
-     "type": "detail",
-     "label": "R. Eliezer ben Yaakov's placement is geometrically consistent",
-     "speaker": "Gemara",
-     "text": "R. Eliezer ben Yaakov's description of the altar as offset to the south (not centered) fits with Middot's actual cubit counts. This solidifies the attribution.",
-     "sourceRefs": [
-      {
-       "sourceType": "gemara",
-       "lineId": "yoma-016b-l21",
-       "vilnaLine": 21,
-       "note": "R. EbY's offset placement confirmed"
+       "note": "Conclusion: Middot's measurements rule out R. Yehuda's centered-altar reading"
       }
      ]
     }
@@ -142,7 +127,6 @@
     "altar placement",
     "Temple measurements",
     "R. Yehuda",
-    "R. Eliezer ben Yaakov",
     "Tractate Middot",
     "courtyard geometry"
    ],
@@ -164,7 +148,7 @@
    ],
    "visualizableElements": [
     {
-     "item": "Courtyard floor plan with cubit measurements: Heikhal (N), 11 cubit gap, 32 cubit altar, 16 cubit ramp, 22 cubits to south wall. Shows altar is NOT centered.",
+     "item": "Courtyard floor plan across its 135-cubit width: 48 cubits north of the altar; the altar and its ramp together spanning 62 cubits; and 25 more cubits divided between the gap south of the ramp and the pillars' area. Shows most of the altar is south of center.",
      "type": "place"
     },
     {
@@ -175,26 +159,26 @@
    "quizSeeds": [
     {
      "question": "Why can't Tractate Middot reflect R. Yehuda's position about the altar?",
-     "answer": "R. Yehuda says the altar was centered in the courtyard. But Middot's cubit counts (Heikhal 100 cubits from north, an 11-cubit gap, the 32-cubit altar, and the 16-cubit ramp) leave the altar entirely in the south portion - it cannot be centered."
+     "answer": "R. Yehuda says the altar was centered in the courtyard, but Middot's measurements put 48 cubits between the altar and the north wall, while the ramp and altar together span 62 cubits along the south, with 25 cubits remaining. The Gemara concludes that most of the altar stands south of center."
     },
     {
-     "question": "What is the kevesh, and what halakhic requirement explains its shape?",
-     "answer": "The 16-cubit ramp leading up to the altar. It has no steps, because the Torah forbids ascending the altar by steps, so a sloped ramp was used instead to preserve dignified ascent."
+     "question": "What is the kevesh, and how does its length fit into the courtyard's cubit count?",
+     "answer": "The kevesh was the sloped walkway up to the altar, running alongside it and together with the altar totaling sixty-two cubits in length."
     }
    ],
-   "finalRuling": "Established: Tractate Middot is NOT R. Yehuda's. Rav Huna's attribution to R. Eliezer ben Yaakov stands. The altar was offset south, not centered.",
+   "finalRuling": "Established: Tractate Middot's measurements rule out R. Yehuda's view that the altar stood in the center of the courtyard; it was positioned mostly to the south.",
    "difficulty": "advanced",
    "alternateAngles": [],
    "glossary": [
     {
      "he": "כֶּבֶשׁ",
      "translit": "kevesh",
-     "en": "The ramp leading to the altar top - no steps, because the Torah forbids ascending steps to the altar. 16 cubits long."
+     "en": "The sloped ramp to the altar's top. It was 32 cubits long; together with the 32-cubit altar it spanned 62 cubits because 2 cubits overlapped at the altar's base and ledge."
     },
     {
      "he": "עֲזָרָה",
      "translit": "Azara",
-     "en": "The Israelites' courtyard - the main inner courtyard of the Temple. 187 cubits north-south by 135 east-west."
+     "en": "The Temple's main courtyard as a whole, including areas used by Israelites and priests. It measured 187 cubits east-west (length) by 135 cubits north-south (width)."
     }
    ],
    "review": {
@@ -212,12 +196,12 @@
   {
    "he": "כֶּבֶשׁ",
    "translit": "kevesh",
-   "en": "The ramp leading to the altar top - no steps, because the Torah forbids ascending steps to the altar. 16 cubits long."
+   "en": "The sloped ramp to the altar's top. It was 32 cubits long; together with the 32-cubit altar it spanned 62 cubits because 2 cubits overlapped at the altar's base and ledge."
   },
   {
    "he": "עֲזָרָה",
    "translit": "Azara",
-   "en": "The Israelites' courtyard - the main inner courtyard of the Temple. 187 cubits north-south by 135 east-west."
+   "en": "The Temple's main courtyard as a whole, including areas used by Israelites and priests. It measured 187 cubits east-west (length) by 135 cubits north-south (width)."
   }
  ],
  "rashiTranslations": [

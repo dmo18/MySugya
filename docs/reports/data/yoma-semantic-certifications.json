@@ -140053,6 +140053,1547 @@
         }
       },
       "certifiedAtCommit": "9438e1b5a4c9eef317c708837425629b95e6234a"
+    },
+    "yoma-16b-s01": {
+      "sugyaId": "yoma-16b-s01",
+      "daf": "16b",
+      "state": "CERTIFIED",
+      "firstPass": {
+        "reviewId": "claude-claude-sonnet-5-yoma-16b-s01-second-55206c0d88",
+        "reviewerContextId": "llm-task-anthropic-claude-sonnet-5-yoma-16b-s01-second-55206c0d88",
+        "sourceFirst": true,
+        "verdict": "REPAIR_REQUIRED",
+        "reviewedSourceFingerprint": "9db07a2a340bef840caae34f4ac5274274ca5c4237a1b4a30795410b6477351d",
+        "reviewedSemanticFingerprint": "0b8b657727c514e5feeb8b31a5dd604dcb4ef593ef2061d046d89e27ae78d9ad",
+        "evidence": {
+          "origin": "independent-second-pass-rejection",
+          "reviewEvidence": {
+            "answer": {
+              "sugyaId": "yoma-16b-s01",
+              "verdict": "REJECTED",
+              "evidence": "The text states מן המזרח למערב מאה ושמונים ושבע (east-west = 187) and מן הדרום לצפון מאה ושלשים וחמש (south-north = 135), but the enrichment's glossary entry for Azara reverses these axes.",
+              "defects": [
+                {
+                  "field": "glossary",
+                  "sourceLines": "3",
+                  "problem": "The glossary entry for Azara states the courtyard was '187 cubits north-south by 135 east-west,' but the gemara explicitly gives east-west as 187 cubits and south-north (width) as 135 cubits - the axes are swapped.",
+                  "requiredCorrection": "Azara: the Israelites' courtyard - the main inner courtyard of the Temple. 187 cubits east-west (length) by 135 cubits north-south (width)."
+                }
+              ],
+              "dafSummaryVerdict": "CONFIRMED",
+              "boundaryVerdict": "CONFIRMED"
+            },
+            "run": "yoma-16b-s01-second-55206c0d88"
+          }
+        }
+      },
+      "repairRef": "3e262ed3bba43e45c9b4e4f9edea3a54e8a0306d",
+      "sourceFingerprint": "9db07a2a340bef840caae34f4ac5274274ca5c4237a1b4a30795410b6477351d",
+      "semanticFingerprint": "ae859a5bed3cdc78ab6d891533ab27321aad9d1896d2213b067c90d8e6d77c43",
+      "secondPass": {
+        "reviewId": "claude-claude-sonnet-5-yoma-16b-s01-second-63310748c2",
+        "reviewerContextId": "llm-task-anthropic-claude-sonnet-5-yoma-16b-s01-second-63310748c2",
+        "sourceFirst": true,
+        "verdict": "CONFIRMED",
+        "reviewedSourceFingerprint": "9db07a2a340bef840caae34f4ac5274274ca5c4237a1b4a30795410b6477351d",
+        "reviewedSemanticFingerprint": "ae859a5bed3cdc78ab6d891533ab27321aad9d1896d2213b067c90d8e6d77c43",
+        "evidence": {
+          "answer": {
+            "sugyaId": "yoma-16b-s01",
+            "verdict": "CONFIRMED",
+            "evidence": "The text states R. Yehuda's 10/11/11 cubit layout, then tests it against Middot's courtyard count (187x135), computing ramp+altar=62, altar-to-wall=8+24+4+4+8=48, remainder=25 (total 135), concluding 'הא רובא דמזבח בדרום קאי' - most of the altar stands south, refuting a centered altar.",
+            "defects": [],
+            "dafSummaryVerdict": "CONFIRMED",
+            "boundaryVerdict": "CONFIRMED"
+          },
+          "run": "yoma-16b-s01-second-63310748c2"
+        }
+      },
+      "finalAudit": {
+        "reviewId": "claude-claude-sonnet-5-yoma-16b-s01-final-c94ccf21e5",
+        "auditorContextId": "llm-task-anthropic-claude-sonnet-5-yoma-16b-s01-final-p1-c94ccf21e5",
+        "auditedSourceFingerprint": "9db07a2a340bef840caae34f4ac5274274ca5c4237a1b4a30795410b6477351d",
+        "auditedSemanticFingerprint": "ae859a5bed3cdc78ab6d891533ab27321aad9d1896d2213b067c90d8e6d77c43",
+        "dafBoundary": {
+          "rawLineCount": 21,
+          "finalRawLine": "אלא",
+          "dafEndState": "MID_ARGUMENT"
+        },
+        "fieldInventory": [
+          {
+            "path": "lineRange",
+            "verdict": "NONFACTUAL",
+            "crossReference": false,
+            "boundarySafe": true
+          },
+          {
+            "path": "lines",
+            "verdict": "NONFACTUAL",
+            "crossReference": false,
+            "boundarySafe": true
+          },
+          {
+            "path": "dafLevel.glossary[0].en",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "16b",
+                "startVilnaLine": 13,
+                "endVilnaLine": 13
+              }
+            ],
+            "boundarySafe": true,
+            "note": "(term appears in the ramp/altar measurement line); description doesn't presume later amud developments"
+          },
+          {
+            "path": "dafLevel.glossary[0].he",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "16b",
+                "startVilnaLine": 13,
+                "endVilnaLine": 13
+              }
+            ],
+            "boundarySafe": true,
+            "note": "doesn't assume how the topic develops beyond this sugya"
+          },
+          {
+            "path": "dafLevel.glossary[0].translit",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "16b",
+                "startVilnaLine": 13,
+                "endVilnaLine": 13
+              }
+            ],
+            "boundarySafe": true,
+            "note": "doesn't assume how the topic develops beyond this sugya"
+          },
+          {
+            "path": "dafLevel.glossary[1].en",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "16b",
+                "startVilnaLine": 5,
+                "endVilnaLine": 7
+              },
+              {
+                "daf": "16b",
+                "startVilnaLine": 12,
+                "endVilnaLine": 12
+              }
+            ],
+            "boundarySafe": true,
+            "note": "(courtyard dimensions given); doesn't assume later amud developments"
+          },
+          {
+            "path": "dafLevel.glossary[1].he",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "16b",
+                "startVilnaLine": 5,
+                "endVilnaLine": 5
+              }
+            ],
+            "boundarySafe": true,
+            "note": "doesn't assume later amud developments"
+          },
+          {
+            "path": "dafLevel.glossary[1].translit",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "16b",
+                "startVilnaLine": 5,
+                "endVilnaLine": 5
+              }
+            ],
+            "boundarySafe": true,
+            "note": "doesn't assume later amud developments"
+          },
+          {
+            "path": "dafLevel.summary",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "16b",
+                "startVilnaLine": 1,
+                "endVilnaLine": 20
+              }
+            ],
+            "boundarySafe": true,
+            "note": "summary stays within this sugya's resolved conclusion, no forward assumptions"
+          },
+          {
+            "path": "argumentFlow[step-01].id",
+            "verdict": "NONFACTUAL",
+            "crossReference": false,
+            "boundarySafe": true
+          },
+          {
+            "path": "argumentFlow[step-01].label",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "16b",
+                "startVilnaLine": 1,
+                "endVilnaLine": 4
+              }
+            ],
+            "boundarySafe": true,
+            "note": "label restates the alignment described in lines 1-2 and the explicit 'mizbe'ach be'emtza azara' assumption named in line 4"
+          },
+          {
+            "path": "argumentFlow[step-01].sourceRefs[0].lineId",
+            "verdict": "NONFACTUAL",
+            "crossReference": false,
+            "boundarySafe": true
+          },
+          {
+            "path": "argumentFlow[step-01].sourceRefs[0].note",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "16b",
+                "startVilnaLine": 1,
+                "endVilnaLine": 4
+              }
+            ],
+            "boundarySafe": true,
+            "note": "note matches the alignment/centered-altar premise stated in lines 1-2 and restated in line 4"
+          },
+          {
+            "path": "argumentFlow[step-01].sourceRefs[0].sourceType",
+            "verdict": "NONFACTUAL",
+            "crossReference": false,
+            "boundarySafe": true
+          },
+          {
+            "path": "argumentFlow[step-01].sourceRefs[0].vilnaLine",
+            "verdict": "NONFACTUAL",
+            "crossReference": false,
+            "boundarySafe": true
+          },
+          {
+            "path": "argumentFlow[step-01].speaker",
+            "verdict": "SUPPORTED",
+            "crossReference": true,
+            "supportingLines": [
+              {
+                "daf": "16a",
+                "startVilnaLine": 33,
+                "endVilnaLine": 34
+              }
+            ],
+            "boundarySafe": true,
+            "note": "R. Yehuda's baraita naming him as speaker continues wordlessly into 16b:1-2, which still gives his words",
+            "supportRole": "speaker"
+          },
+          {
+            "path": "argumentFlow[step-01].text",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "16b",
+                "startVilnaLine": 1,
+                "endVilnaLine": 2
+              }
+            ],
+            "boundarySafe": true,
+            "note": "the 10/11/11 cubit division and alignment with the Sanctuary and walls are stated verbatim here"
+          },
+          {
+            "path": "argumentFlow[step-01].type",
+            "verdict": "REVIEWED",
+            "crossReference": false,
+            "boundarySafe": true,
+            "note": "premise fits: this is R. Yehuda's baraita position being tested by the Gemara, not yet refuted at this point"
+          },
+          {
+            "path": "argumentFlow[step-02].id",
+            "verdict": "NONFACTUAL",
+            "crossReference": false,
+            "boundarySafe": true
+          },
+          {
+            "path": "argumentFlow[step-02].label",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "16b",
+                "startVilnaLine": 3,
+                "endVilnaLine": 20
+              }
+            ],
+            "boundarySafe": true,
+            "note": "label matches the overall measurement-based challenge culminating in line 20's 'most of the altar stands south'"
+          },
+          {
+            "path": "argumentFlow[step-02].sourceRefs[0].lineId",
+            "verdict": "NONFACTUAL",
+            "crossReference": false,
+            "boundarySafe": true
+          },
+          {
+            "path": "argumentFlow[step-02].sourceRefs[0].note",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "16b",
+                "startVilnaLine": 3,
+                "endVilnaLine": 20
+              }
+            ],
+            "boundarySafe": true,
+            "note": "generic note fits the measurement-based refutation spanning these lines"
+          },
+          {
+            "path": "argumentFlow[step-02].sourceRefs[0].sourceType",
+            "verdict": "NONFACTUAL",
+            "crossReference": false,
+            "boundarySafe": true
+          },
+          {
+            "path": "argumentFlow[step-02].sourceRefs[0].vilnaLine",
+            "verdict": "NONFACTUAL",
+            "crossReference": false,
+            "boundarySafe": true
+          },
+          {
+            "path": "argumentFlow[step-02].speaker",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "16b",
+                "startVilnaLine": 3,
+                "endVilnaLine": 20
+              }
+            ],
+            "boundarySafe": true,
+            "note": "the stam Gemara voice poses the challenge and cites/applies the mishna; labeling it 'Gemara' fits convention here"
+          },
+          {
+            "path": "argumentFlow[step-02].text",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "16b",
+                "startVilnaLine": 5,
+                "endVilnaLine": 13
+              }
+            ],
+            "boundarySafe": true,
+            "note": "the 135-cubit width and the 62-cubit altar+ramp figure (with 2-cubit base/ledge overlap per Rashi) are grounded here, though this duplicates detail more proper to the elaboration step"
+          },
+          {
+            "path": "argumentFlow[step-02].type",
+            "verdict": "REVIEWED",
+            "crossReference": false,
+            "boundarySafe": true,
+            "note": "refutation fits: this step raises the measurement challenge to R. Yehuda's premise"
+          },
+          {
+            "path": "argumentFlow[step-03].id",
+            "verdict": "NONFACTUAL",
+            "crossReference": false,
+            "boundarySafe": true
+          },
+          {
+            "path": "argumentFlow[step-03].label",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "16b",
+                "startVilnaLine": 8,
+                "endVilnaLine": 17
+              }
+            ],
+            "boundarySafe": true,
+            "note": "label matches the itemized cubit list from altar-to-wall and the south-side remainder"
+          },
+          {
+            "path": "argumentFlow[step-03].sourceRefs[0].lineId",
+            "verdict": "NONFACTUAL",
+            "crossReference": false,
+            "boundarySafe": true
+          },
+          {
+            "path": "argumentFlow[step-03].sourceRefs[0].note",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "16b",
+                "startVilnaLine": 8,
+                "endVilnaLine": 17
+              }
+            ],
+            "boundarySafe": true,
+            "note": "note fits the detailed breakdown given here"
+          },
+          {
+            "path": "argumentFlow[step-03].sourceRefs[0].sourceType",
+            "verdict": "NONFACTUAL",
+            "crossReference": false,
+            "boundarySafe": true
+          },
+          {
+            "path": "argumentFlow[step-03].sourceRefs[0].vilnaLine",
+            "verdict": "NONFACTUAL",
+            "crossReference": false,
+            "boundarySafe": true
+          },
+          {
+            "path": "argumentFlow[step-03].speaker",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "16b",
+                "startVilnaLine": 8,
+                "endVilnaLine": 17
+              }
+            ],
+            "boundarySafe": true,
+            "note": "this mishna quotation is embedded in the Gemara's own citation ('vehatnan'); labeling it 'Gemara' is consistent with the sugya's narrating voice"
+          },
+          {
+            "path": "argumentFlow[step-03].text",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "16b",
+                "startVilnaLine": 8,
+                "endVilnaLine": 20
+              }
+            ],
+            "boundarySafe": true,
+            "note": "all cubit figures (8/24/4/4/8=48, 32+32-2=62, remainder 25) are supported; it also states line 20's conclusion, slightly anticipating the next step but not from beyond this sugya"
+          },
+          {
+            "path": "argumentFlow[step-03].type",
+            "verdict": "REVIEWED",
+            "crossReference": false,
+            "boundarySafe": true,
+            "note": "elaboration fits: this step details the cubit math used to challenge R. Yehuda's premise"
+          },
+          {
+            "path": "argumentFlow[step-04].id",
+            "verdict": "NONFACTUAL",
+            "crossReference": false,
+            "boundarySafe": true
+          },
+          {
+            "path": "argumentFlow[step-04].label",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "16b",
+                "startVilnaLine": 18,
+                "endVilnaLine": 20
+              }
+            ],
+            "boundarySafe": true,
+            "note": "label matches the repeated question (18-19) and the concluding answer in line 20 that most of the altar is southward"
+          },
+          {
+            "path": "argumentFlow[step-04].sourceRefs[0].lineId",
+            "verdict": "NONFACTUAL",
+            "crossReference": false,
+            "boundarySafe": true
+          },
+          {
+            "path": "argumentFlow[step-04].sourceRefs[0].note",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "16b",
+                "startVilnaLine": 20,
+                "endVilnaLine": 20
+              }
+            ],
+            "boundarySafe": true,
+            "note": "note matches 'but most of the altar stands to the south,' which negates the centered-altar reading"
+          },
+          {
+            "path": "argumentFlow[step-04].sourceRefs[0].sourceType",
+            "verdict": "NONFACTUAL",
+            "crossReference": false,
+            "boundarySafe": true
+          },
+          {
+            "path": "argumentFlow[step-04].sourceRefs[0].vilnaLine",
+            "verdict": "NONFACTUAL",
+            "crossReference": false,
+            "boundarySafe": true
+          },
+          {
+            "path": "argumentFlow[step-04].speaker",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "16b",
+                "startVilnaLine": 20,
+                "endVilnaLine": 20
+              }
+            ],
+            "boundarySafe": true,
+            "note": "the stam Gemara states this concluding line"
+          },
+          {
+            "path": "argumentFlow[step-04].text",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "16b",
+                "startVilnaLine": 20,
+                "endVilnaLine": 20
+              }
+            ],
+            "boundarySafe": true,
+            "note": "states the conclusion drawn from this sugya's own lines; the added caveat about not identifying Middot's author appropriately avoids assuming unresolved matters settled only on a later amud"
+          },
+          {
+            "path": "argumentFlow[step-04].type",
+            "verdict": "REVIEWED",
+            "crossReference": false,
+            "boundarySafe": true,
+            "note": "conclusion fits: line 20 closes the measurement argument against a centered altar"
+          },
+          {
+            "path": "conceptRefs[0]",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "16b",
+                "startVilnaLine": 1,
+                "endVilnaLine": 2
+              }
+            ],
+            "boundarySafe": true,
+            "note": "Yoma.16b.1 corresponds to the opening lines of this sugya describing the 10/11/11 cubit alignment"
+          },
+          {
+            "path": "conceptRefs[1]",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "16b",
+                "startVilnaLine": 5,
+                "endVilnaLine": 11
+              }
+            ],
+            "boundarySafe": true,
+            "note": "identifies the measurement refutation step; conclusion about R. Yehuda not assumed beyond this unit's own close"
+          },
+          {
+            "path": "conceptRefs[2]",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "16b",
+                "startVilnaLine": 18,
+                "endVilnaLine": 20
+              }
+            ],
+            "boundarySafe": true,
+            "note": "identifies the concluding step, already reached within this sugya's own lines"
+          },
+          {
+            "path": "difficulty",
+            "verdict": "REVIEWED",
+            "crossReference": false,
+            "boundarySafe": true,
+            "note": "difficulty rating is a judgment call on dense geometric content, fits the metadata type"
+          },
+          {
+            "path": "display.hint",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "16b",
+                "startVilnaLine": 1,
+                "endVilnaLine": 20
+              }
+            ],
+            "boundarySafe": true,
+            "note": "the hint describes the dispute and measurement-based resolution reached within this sugya's own lines"
+          },
+          {
+            "path": "display.title",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "16b",
+                "startVilnaLine": 18,
+                "endVilnaLine": 20
+              }
+            ],
+            "boundarySafe": true,
+            "note": "title reflects the conclusion drawn at the sugya's own close, not a forward-looking claim"
+          },
+          {
+            "path": "display.whats",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "16b",
+                "startVilnaLine": 1,
+                "endVilnaLine": 20
+              }
+            ],
+            "boundarySafe": true,
+            "note": "whats summarizes the dispute and full cubit breakdown contained within this sugya's own lines"
+          },
+          {
+            "path": "finalRuling",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "16b",
+                "startVilnaLine": 18,
+                "endVilnaLine": 20
+              }
+            ],
+            "boundarySafe": true,
+            "note": "the ruling is reached within this sugya's own lines, no assumption about later amud content"
+          },
+          {
+            "path": "glossary[0].en",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "16b",
+                "startVilnaLine": 9,
+                "endVilnaLine": 9
+              },
+              {
+                "daf": "16b",
+                "startVilnaLine": 13,
+                "endVilnaLine": 13
+              }
+            ],
+            "boundarySafe": true,
+            "note": "kevesh figures (32 cubits altar, 62 ramp+altar) drawn from this sugya's own lines only"
+          },
+          {
+            "path": "glossary[0].he",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "16b",
+                "startVilnaLine": 13,
+                "endVilnaLine": 13
+              }
+            ],
+            "boundarySafe": true,
+            "note": "the Hebrew term appears in this sugya's own line, independent of later amud content"
+          },
+          {
+            "path": "glossary[0].translit",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "16b",
+                "startVilnaLine": 13,
+                "endVilnaLine": 13
+              }
+            ],
+            "boundarySafe": true,
+            "note": "transliteration tied to the term's appearance in this sugya's own line"
+          },
+          {
+            "path": "glossary[1].en",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "16b",
+                "startVilnaLine": 5,
+                "endVilnaLine": 7
+              }
+            ],
+            "boundarySafe": true,
+            "note": "azara dimensions (187x135) stated in this sugya's own lines, nothing assumed beyond"
+          },
+          {
+            "path": "glossary[1].he",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "16b",
+                "startVilnaLine": 5,
+                "endVilnaLine": 5
+              }
+            ],
+            "boundarySafe": true,
+            "note": "the Hebrew term's figures appear in this sugya's own lines"
+          },
+          {
+            "path": "glossary[1].translit",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "16b",
+                "startVilnaLine": 5,
+                "endVilnaLine": 5
+              }
+            ],
+            "boundarySafe": true,
+            "note": "transliteration tied to the term's appearance in this sugya's own lines"
+          },
+          {
+            "path": "learning.ahaMoment",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "16b",
+                "startVilnaLine": 18,
+                "endVilnaLine": 20
+              }
+            ],
+            "boundarySafe": true,
+            "note": "the realization is the sugya's own stated conclusion, not dependent on later text"
+          },
+          {
+            "path": "learning.coreMove",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "16b",
+                "startVilnaLine": 9,
+                "endVilnaLine": 17
+              }
+            ],
+            "boundarySafe": true,
+            "note": "the cubit-by-cubit count is laid out fully within this sugya's own lines"
+          },
+          {
+            "path": "learning.coreTension",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "16b",
+                "startVilnaLine": 3,
+                "endVilnaLine": 4
+              },
+              {
+                "daf": "16b",
+                "startVilnaLine": 18,
+                "endVilnaLine": 19
+              }
+            ],
+            "boundarySafe": true,
+            "note": "R. Yehuda's named view is quoted twice within this sugya's own lines"
+          },
+          {
+            "path": "learning.learnerQuestion",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "16b",
+                "startVilnaLine": 3,
+                "endVilnaLine": 4
+              },
+              {
+                "daf": "16b",
+                "startVilnaLine": 18,
+                "endVilnaLine": 19
+              }
+            ],
+            "boundarySafe": true,
+            "note": "the question as framed is stated verbatim within this sugya's own lines"
+          },
+          {
+            "path": "learning.learningBlocker",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "16b",
+                "startVilnaLine": 5,
+                "endVilnaLine": 17
+              }
+            ],
+            "boundarySafe": true,
+            "note": "the detailed count functioning as proof is contained in this sugya's own lines"
+          },
+          {
+            "path": "learning.memoryAnchor",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "16b",
+                "startVilnaLine": 1,
+                "endVilnaLine": 20
+              }
+            ],
+            "boundarySafe": true,
+            "note": "the contrast is drawn entirely from this sugya's own stated view and conclusion"
+          },
+          {
+            "path": "learning.resolution",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "16b",
+                "startVilnaLine": 18,
+                "endVilnaLine": 20
+              }
+            ],
+            "boundarySafe": true,
+            "note": "the resolution is the sugya's own stated conclusion, not assuming later developments"
+          },
+          {
+            "path": "learning.takeaway.text",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "16b",
+                "startVilnaLine": 18,
+                "endVilnaLine": 20
+              }
+            ],
+            "boundarySafe": true,
+            "note": "the takeaway reflects a method completed within this sugya's own lines"
+          },
+          {
+            "path": "learning.takeaway.type",
+            "verdict": "REVIEWED",
+            "crossReference": false,
+            "boundarySafe": true,
+            "note": "fits: the whole point is a logical refutation via measurement, not a ruling -- conclusion is reached within this sugya itself"
+          },
+          {
+            "path": "misconceptions[0].correction",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "16b",
+                "startVilnaLine": 5,
+                "endVilnaLine": 20
+              }
+            ],
+            "boundarySafe": true,
+            "note": "the Gemara's refutation proceeds through a full cubit-by-cubit breakdown, not a dismissal -- self-contained in this sugya"
+          },
+          {
+            "path": "misconceptions[0].misconception",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "16b",
+                "startVilnaLine": 1,
+                "endVilnaLine": 4
+              },
+              {
+                "daf": "16b",
+                "startVilnaLine": 18,
+                "endVilnaLine": 20
+              }
+            ],
+            "boundarySafe": true,
+            "note": "contrast between R. Yehuda's claim and the detailed refutation shows it was taken seriously -- resolved here, no later dependency"
+          },
+          {
+            "path": "prerequisiteKnowledge[0]",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "16b",
+                "startVilnaLine": 3,
+                "endVilnaLine": 4
+              },
+              {
+                "daf": "16b",
+                "startVilnaLine": 18,
+                "endVilnaLine": 19
+              }
+            ],
+            "boundarySafe": true,
+            "note": "R. Yehuda's centered-altar claim is stated explicitly in this sugya's own words -- fully stated here already"
+          },
+          {
+            "path": "prerequisiteKnowledge[1]",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "16b",
+                "startVilnaLine": 5,
+                "endVilnaLine": 17
+              }
+            ],
+            "boundarySafe": true,
+            "note": "the courtyard/altar dimensions from Middot are listed in full here -- figures given complete in this sugya"
+          },
+          {
+            "path": "prerequisiteKnowledge[2]",
+            "verdict": "SUPPORTED",
+            "crossReference": true,
+            "supportingLines": [
+              {
+                "daf": "16a",
+                "startVilnaLine": 33,
+                "endVilnaLine": 34
+              }
+            ],
+            "boundarySafe": true,
+            "note": "Rav Adda's attribution of Middot to R. Yehuda is background from the prior amud, not claimed about this sugya's own content",
+            "supportRole": "background",
+            "backgroundOnly": true
+          },
+          {
+            "path": "quizSeeds[0].answer",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "16b",
+                "startVilnaLine": 9,
+                "endVilnaLine": 17
+              }
+            ],
+            "boundarySafe": true,
+            "note": "figures (48 north of altar, 62 for ramp+altar, 25 remainder) all check out against the listed measurements -- closed calculation within this sugya"
+          },
+          {
+            "path": "quizSeeds[0].question",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "16b",
+                "startVilnaLine": 18,
+                "endVilnaLine": 20
+              }
+            ],
+            "boundarySafe": true,
+            "note": "the question matches the Gemara's own refutation and conclusion stated here -- answer fully resolved in this sugya"
+          },
+          {
+            "path": "quizSeeds[1].answer",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "16b",
+                "startVilnaLine": 13,
+                "endVilnaLine": 13
+              }
+            ],
+            "boundarySafe": true,
+            "note": "the ramp-and-altar total of 62 cubits is stated directly -- figure fixed in this sugya"
+          },
+          {
+            "path": "quizSeeds[1].question",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "16b",
+                "startVilnaLine": 13,
+                "endVilnaLine": 13
+              }
+            ],
+            "boundarySafe": true,
+            "note": "question about the kevesh's role in the cubit count is answered by this sugya's own breakdown"
+          },
+          {
+            "path": "relatedSugyot[0]",
+            "verdict": "NONFACTUAL",
+            "crossReference": false,
+            "boundarySafe": true
+          },
+          {
+            "path": "relatedSugyot[1]",
+            "verdict": "NONFACTUAL",
+            "crossReference": false,
+            "boundarySafe": true
+          },
+          {
+            "path": "topicTags[0]",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "16b",
+                "startVilnaLine": 1,
+                "endVilnaLine": 20
+              }
+            ],
+            "boundarySafe": true,
+            "note": "altar placement is the sugya's central topic throughout"
+          },
+          {
+            "path": "topicTags[1]",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "16b",
+                "startVilnaLine": 5,
+                "endVilnaLine": 17
+              }
+            ],
+            "boundarySafe": true,
+            "note": "Temple measurements are listed at length here"
+          },
+          {
+            "path": "topicTags[2]",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "16b",
+                "startVilnaLine": 3,
+                "endVilnaLine": 4
+              },
+              {
+                "daf": "16b",
+                "startVilnaLine": 18,
+                "endVilnaLine": 19
+              }
+            ],
+            "boundarySafe": true,
+            "note": "R. Yehuda's view is named and argued against here"
+          },
+          {
+            "path": "topicTags[3]",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "16b",
+                "startVilnaLine": 5,
+                "endVilnaLine": 17
+              }
+            ],
+            "boundarySafe": true,
+            "note": "Tractate Middot's measurements are quoted and relied upon here"
+          },
+          {
+            "path": "topicTags[4]",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "16b",
+                "startVilnaLine": 1,
+                "endVilnaLine": 20
+              }
+            ],
+            "boundarySafe": true,
+            "note": "courtyard geometry underlies the entire refutation here"
+          },
+          {
+            "path": "visualizableElements[0].item",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "16b",
+                "startVilnaLine": 9,
+                "endVilnaLine": 17
+              }
+            ],
+            "boundarySafe": true,
+            "note": "the described floor-plan figures (48/62/25 cubits) match the listed measurements exactly"
+          },
+          {
+            "path": "visualizableElements[0].type",
+            "verdict": "REVIEWED",
+            "crossReference": false,
+            "boundarySafe": true,
+            "note": "metadata type fits a floor-plan diagram description -- figures are fixed, not dependent on next amud"
+          },
+          {
+            "path": "visualizableElements[1].item",
+            "verdict": "SUPPORTED",
+            "crossReference": false,
+            "supportingLines": [
+              {
+                "daf": "16b",
+                "startVilnaLine": 1,
+                "endVilnaLine": 20
+              }
+            ],
+            "boundarySafe": true,
+            "note": "the whole sugya is structured as R. Yehuda's claim set against the actual Middot layout"
+          },
+          {
+            "path": "visualizableElements[1].type",
+            "verdict": "REVIEWED",
+            "crossReference": false,
+            "boundarySafe": true,
+            "note": "metadata type 'contrast' fits the two-layout comparison -- comparison is complete within this sugya"
+          }
+        ],
+        "boundaryLeakageSweep": [
+          {
+            "path": "dafLevel.glossary[0].en",
+            "importsNextDafConclusion": false,
+            "note": "(term appears in the ramp/altar measurement line); description doesn't presume later amud developments"
+          },
+          {
+            "path": "dafLevel.glossary[0].he",
+            "importsNextDafConclusion": false,
+            "note": "doesn't assume how the topic develops beyond this sugya"
+          },
+          {
+            "path": "dafLevel.glossary[0].translit",
+            "importsNextDafConclusion": false,
+            "note": "doesn't assume how the topic develops beyond this sugya"
+          },
+          {
+            "path": "dafLevel.glossary[1].en",
+            "importsNextDafConclusion": false,
+            "note": "(courtyard dimensions given); doesn't assume later amud developments"
+          },
+          {
+            "path": "dafLevel.glossary[1].he",
+            "importsNextDafConclusion": false,
+            "note": "doesn't assume later amud developments"
+          },
+          {
+            "path": "dafLevel.glossary[1].translit",
+            "importsNextDafConclusion": false,
+            "note": "doesn't assume later amud developments"
+          },
+          {
+            "path": "dafLevel.summary",
+            "importsNextDafConclusion": false,
+            "note": "summary stays within this sugya's resolved conclusion, no forward assumptions"
+          },
+          {
+            "path": "argumentFlow[step-01].label",
+            "importsNextDafConclusion": false,
+            "note": "label restates the alignment described in lines 1-2 and the explicit 'mizbe'ach be'emtza azara' assumption named in line 4"
+          },
+          {
+            "path": "argumentFlow[step-01].sourceRefs[0].note",
+            "importsNextDafConclusion": false,
+            "note": "note matches the alignment/centered-altar premise stated in lines 1-2 and restated in line 4"
+          },
+          {
+            "path": "argumentFlow[step-01].speaker",
+            "importsNextDafConclusion": false,
+            "note": "R. Yehuda's baraita naming him as speaker continues wordlessly into 16b:1-2, which still gives his words"
+          },
+          {
+            "path": "argumentFlow[step-01].text",
+            "importsNextDafConclusion": false,
+            "note": "the 10/11/11 cubit division and alignment with the Sanctuary and walls are stated verbatim here"
+          },
+          {
+            "path": "argumentFlow[step-01].type",
+            "importsNextDafConclusion": false,
+            "note": "premise fits: this is R. Yehuda's baraita position being tested by the Gemara, not yet refuted at this point"
+          },
+          {
+            "path": "argumentFlow[step-02].label",
+            "importsNextDafConclusion": false,
+            "note": "label matches the overall measurement-based challenge culminating in line 20's 'most of the altar stands south'"
+          },
+          {
+            "path": "argumentFlow[step-02].sourceRefs[0].note",
+            "importsNextDafConclusion": false,
+            "note": "generic note fits the measurement-based refutation spanning these lines"
+          },
+          {
+            "path": "argumentFlow[step-02].speaker",
+            "importsNextDafConclusion": false,
+            "note": "the stam Gemara voice poses the challenge and cites/applies the mishna; labeling it 'Gemara' fits convention here"
+          },
+          {
+            "path": "argumentFlow[step-02].text",
+            "importsNextDafConclusion": false,
+            "note": "the 135-cubit width and the 62-cubit altar+ramp figure (with 2-cubit base/ledge overlap per Rashi) are grounded here, though this duplicates detail more proper to the elaboration step"
+          },
+          {
+            "path": "argumentFlow[step-02].type",
+            "importsNextDafConclusion": false,
+            "note": "refutation fits: this step raises the measurement challenge to R. Yehuda's premise"
+          },
+          {
+            "path": "argumentFlow[step-03].label",
+            "importsNextDafConclusion": false,
+            "note": "label matches the itemized cubit list from altar-to-wall and the south-side remainder"
+          },
+          {
+            "path": "argumentFlow[step-03].sourceRefs[0].note",
+            "importsNextDafConclusion": false,
+            "note": "note fits the detailed breakdown given here"
+          },
+          {
+            "path": "argumentFlow[step-03].speaker",
+            "importsNextDafConclusion": false,
+            "note": "this mishna quotation is embedded in the Gemara's own citation ('vehatnan'); labeling it 'Gemara' is consistent with the sugya's narrating voice"
+          },
+          {
+            "path": "argumentFlow[step-03].text",
+            "importsNextDafConclusion": false,
+            "note": "all cubit figures (8/24/4/4/8=48, 32+32-2=62, remainder 25) are supported; it also states line 20's conclusion, slightly anticipating the next step but not from beyond this sugya"
+          },
+          {
+            "path": "argumentFlow[step-03].type",
+            "importsNextDafConclusion": false,
+            "note": "elaboration fits: this step details the cubit math used to challenge R. Yehuda's premise"
+          },
+          {
+            "path": "argumentFlow[step-04].label",
+            "importsNextDafConclusion": false,
+            "note": "label matches the repeated question (18-19) and the concluding answer in line 20 that most of the altar is southward"
+          },
+          {
+            "path": "argumentFlow[step-04].sourceRefs[0].note",
+            "importsNextDafConclusion": false,
+            "note": "note matches 'but most of the altar stands to the south,' which negates the centered-altar reading"
+          },
+          {
+            "path": "argumentFlow[step-04].speaker",
+            "importsNextDafConclusion": false,
+            "note": "the stam Gemara states this concluding line"
+          },
+          {
+            "path": "argumentFlow[step-04].text",
+            "importsNextDafConclusion": false,
+            "note": "states the conclusion drawn from this sugya's own lines; the added caveat about not identifying Middot's author appropriately avoids assuming unresolved matters settled only on a later amud"
+          },
+          {
+            "path": "argumentFlow[step-04].type",
+            "importsNextDafConclusion": false,
+            "note": "conclusion fits: line 20 closes the measurement argument against a centered altar"
+          },
+          {
+            "path": "conceptRefs[0]",
+            "importsNextDafConclusion": false,
+            "note": "Yoma.16b.1 corresponds to the opening lines of this sugya describing the 10/11/11 cubit alignment"
+          },
+          {
+            "path": "conceptRefs[1]",
+            "importsNextDafConclusion": false,
+            "note": "identifies the measurement refutation step; conclusion about R. Yehuda not assumed beyond this unit's own close"
+          },
+          {
+            "path": "conceptRefs[2]",
+            "importsNextDafConclusion": false,
+            "note": "identifies the concluding step, already reached within this sugya's own lines"
+          },
+          {
+            "path": "difficulty",
+            "importsNextDafConclusion": false,
+            "note": "difficulty rating is a judgment call on dense geometric content, fits the metadata type"
+          },
+          {
+            "path": "display.hint",
+            "importsNextDafConclusion": false,
+            "note": "the hint describes the dispute and measurement-based resolution reached within this sugya's own lines"
+          },
+          {
+            "path": "display.title",
+            "importsNextDafConclusion": false,
+            "note": "title reflects the conclusion drawn at the sugya's own close, not a forward-looking claim"
+          },
+          {
+            "path": "display.whats",
+            "importsNextDafConclusion": false,
+            "note": "whats summarizes the dispute and full cubit breakdown contained within this sugya's own lines"
+          },
+          {
+            "path": "finalRuling",
+            "importsNextDafConclusion": false,
+            "note": "the ruling is reached within this sugya's own lines, no assumption about later amud content"
+          },
+          {
+            "path": "glossary[0].en",
+            "importsNextDafConclusion": false,
+            "note": "kevesh figures (32 cubits altar, 62 ramp+altar) drawn from this sugya's own lines only"
+          },
+          {
+            "path": "glossary[0].he",
+            "importsNextDafConclusion": false,
+            "note": "the Hebrew term appears in this sugya's own line, independent of later amud content"
+          },
+          {
+            "path": "glossary[0].translit",
+            "importsNextDafConclusion": false,
+            "note": "transliteration tied to the term's appearance in this sugya's own line"
+          },
+          {
+            "path": "glossary[1].en",
+            "importsNextDafConclusion": false,
+            "note": "azara dimensions (187x135) stated in this sugya's own lines, nothing assumed beyond"
+          },
+          {
+            "path": "glossary[1].he",
+            "importsNextDafConclusion": false,
+            "note": "the Hebrew term's figures appear in this sugya's own lines"
+          },
+          {
+            "path": "glossary[1].translit",
+            "importsNextDafConclusion": false,
+            "note": "transliteration tied to the term's appearance in this sugya's own lines"
+          },
+          {
+            "path": "learning.ahaMoment",
+            "importsNextDafConclusion": false,
+            "note": "the realization is the sugya's own stated conclusion, not dependent on later text"
+          },
+          {
+            "path": "learning.coreMove",
+            "importsNextDafConclusion": false,
+            "note": "the cubit-by-cubit count is laid out fully within this sugya's own lines"
+          },
+          {
+            "path": "learning.coreTension",
+            "importsNextDafConclusion": false,
+            "note": "R. Yehuda's named view is quoted twice within this sugya's own lines"
+          },
+          {
+            "path": "learning.learnerQuestion",
+            "importsNextDafConclusion": false,
+            "note": "the question as framed is stated verbatim within this sugya's own lines"
+          },
+          {
+            "path": "learning.learningBlocker",
+            "importsNextDafConclusion": false,
+            "note": "the detailed count functioning as proof is contained in this sugya's own lines"
+          },
+          {
+            "path": "learning.memoryAnchor",
+            "importsNextDafConclusion": false,
+            "note": "the contrast is drawn entirely from this sugya's own stated view and conclusion"
+          },
+          {
+            "path": "learning.resolution",
+            "importsNextDafConclusion": false,
+            "note": "the resolution is the sugya's own stated conclusion, not assuming later developments"
+          },
+          {
+            "path": "learning.takeaway.text",
+            "importsNextDafConclusion": false,
+            "note": "the takeaway reflects a method completed within this sugya's own lines"
+          },
+          {
+            "path": "learning.takeaway.type",
+            "importsNextDafConclusion": false,
+            "note": "fits: the whole point is a logical refutation via measurement, not a ruling -- conclusion is reached within this sugya itself"
+          },
+          {
+            "path": "misconceptions[0].correction",
+            "importsNextDafConclusion": false,
+            "note": "the Gemara's refutation proceeds through a full cubit-by-cubit breakdown, not a dismissal -- self-contained in this sugya"
+          },
+          {
+            "path": "misconceptions[0].misconception",
+            "importsNextDafConclusion": false,
+            "note": "contrast between R. Yehuda's claim and the detailed refutation shows it was taken seriously -- resolved here, no later dependency"
+          },
+          {
+            "path": "prerequisiteKnowledge[0]",
+            "importsNextDafConclusion": false,
+            "note": "R. Yehuda's centered-altar claim is stated explicitly in this sugya's own words -- fully stated here already"
+          },
+          {
+            "path": "prerequisiteKnowledge[1]",
+            "importsNextDafConclusion": false,
+            "note": "the courtyard/altar dimensions from Middot are listed in full here -- figures given complete in this sugya"
+          },
+          {
+            "path": "prerequisiteKnowledge[2]",
+            "importsNextDafConclusion": false,
+            "note": "Rav Adda's attribution of Middot to R. Yehuda is background from the prior amud, not claimed about this sugya's own content"
+          },
+          {
+            "path": "quizSeeds[0].answer",
+            "importsNextDafConclusion": false,
+            "note": "figures (48 north of altar, 62 for ramp+altar, 25 remainder) all check out against the listed measurements -- closed calculation within this sugya"
+          },
+          {
+            "path": "quizSeeds[0].question",
+            "importsNextDafConclusion": false,
+            "note": "the question matches the Gemara's own refutation and conclusion stated here -- answer fully resolved in this sugya"
+          },
+          {
+            "path": "quizSeeds[1].answer",
+            "importsNextDafConclusion": false,
+            "note": "the ramp-and-altar total of 62 cubits is stated directly -- figure fixed in this sugya"
+          },
+          {
+            "path": "quizSeeds[1].question",
+            "importsNextDafConclusion": false,
+            "note": "question about the kevesh's role in the cubit count is answered by this sugya's own breakdown"
+          },
+          {
+            "path": "topicTags[0]",
+            "importsNextDafConclusion": false,
+            "note": "altar placement is the sugya's central topic throughout"
+          },
+          {
+            "path": "topicTags[1]",
+            "importsNextDafConclusion": false,
+            "note": "Temple measurements are listed at length here"
+          },
+          {
+            "path": "topicTags[2]",
+            "importsNextDafConclusion": false,
+            "note": "R. Yehuda's view is named and argued against here"
+          },
+          {
+            "path": "topicTags[3]",
+            "importsNextDafConclusion": false,
+            "note": "Tractate Middot's measurements are quoted and relied upon here"
+          },
+          {
+            "path": "topicTags[4]",
+            "importsNextDafConclusion": false,
+            "note": "courtyard geometry underlies the entire refutation here"
+          },
+          {
+            "path": "visualizableElements[0].item",
+            "importsNextDafConclusion": false,
+            "note": "the described floor-plan figures (48/62/25 cubits) match the listed measurements exactly"
+          },
+          {
+            "path": "visualizableElements[0].type",
+            "importsNextDafConclusion": false,
+            "note": "metadata type fits a floor-plan diagram description -- figures are fixed, not dependent on next amud"
+          },
+          {
+            "path": "visualizableElements[1].item",
+            "importsNextDafConclusion": false,
+            "note": "the whole sugya is structured as R. Yehuda's claim set against the actual Middot layout"
+          },
+          {
+            "path": "visualizableElements[1].type",
+            "importsNextDafConclusion": false,
+            "note": "metadata type 'contrast' fits the two-layout comparison -- comparison is complete within this sugya"
+          }
+        ],
+        "staleContentSweep": {
+          "entries": [
+            {
+              "category": "stale_original_error",
+              "found": false
+            },
+            {
+              "category": "stale_speaker_or_attribution",
+              "found": false
+            },
+            {
+              "category": "contradictory_speaker_attribution",
+              "found": false
+            },
+            {
+              "category": "old_conclusion_in_secondary_field",
+              "found": false
+            },
+            {
+              "category": "false_closure",
+              "found": false
+            },
+            {
+              "category": "next_daf_content_leaked_backward",
+              "found": false
+            },
+            {
+              "category": "claim_unsupported_by_physical_daf",
+              "found": false
+            },
+            {
+              "category": "stale_quiz_question_or_answer",
+              "found": false
+            },
+            {
+              "category": "stale_final_ruling",
+              "found": false
+            },
+            {
+              "category": "stale_summary",
+              "found": false
+            },
+            {
+              "category": "stale_learning_field",
+              "found": false
+            },
+            {
+              "category": "stale_misconception",
+              "found": false
+            },
+            {
+              "category": "stale_related_sugya_description",
+              "found": false
+            },
+            {
+              "category": "stale_visualizable_element_prose",
+              "found": false
+            },
+            {
+              "category": "source_refs_no_longer_supporting_claim",
+              "found": false
+            },
+            {
+              "category": "reference_outside_declared_line_range",
+              "found": false
+            }
+          ]
+        },
+        "continuity": {
+          "continuesFromPreviousAmud": true,
+          "previousAmud": "16a",
+          "startVilnaLine": 33,
+          "endVilnaLine": 34,
+          "justification": "R. Yehuda's baraita naming him as speaker (16a:33-34, 'Rabbi Yehuda omer') runs on without a new attribution into the cubit breakdown opening 16b, so the speaker tag for that opening material depends on the prior amud's wording."
+        }
+      },
+      "certifiedAtCommit": "3e262ed3bba43e45c9b4e4f9edea3a54e8a0306d"
     }
   }
 }
