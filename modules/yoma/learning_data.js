@@ -34289,7 +34289,7 @@ const DAF_CONTENT = {
   "15b": {
     canonicalRef: "Yoma 15b",
     daf: "15b",
-    summary: "The Gemara clarifies that the altar’s purity means its exposed top, resolves the order and placement of blood applications, determines that the tamid-olah receives the chatat-style procedure, and contrasts the Tamid mishna’s placement of the Chamber of the Lambs in the northwest corner of the Temple courtyard, among four chambers that included the Beit HaMoked, with the Middot mishna’s placement of it in the southwest corner of the Beit HaMoked structure itself.",
+    summary: "This amud discusses the altar’s purity, the order and placement of the tamid’s blood applications, the relationship between olah- and chatat-style procedures, and the Chamber of the Lambs in the Beit HaMoked.",
     sugyot: [
       {
         id: "yoma-15b-s01",
@@ -34343,7 +34343,7 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [
-          "Yoma.15b.1"
+          "1-2"
         ],
         requiresUnderstanding: [],
         prerequisiteKnowledge: [
@@ -34549,7 +34549,7 @@ const DAF_CONTENT = {
         ],
         visualizableElements: [
           {
-            item: "Altar diagram showing the southeastern corner without a yesod and the blood applications at the northeastern and southwestern corners",
+            item: "Altar diagram showing the southeastern corner without a yesod and the blood application at the northeastern corner",
             type: "place"
           },
           {
@@ -34652,7 +34652,7 @@ const DAF_CONTENT = {
             type: "question",
             label: "Which offering receives the other's procedure?",
             speaker: "Gemara",
-            text: "Does the Torah require chatat-style blood application on the tamid-olah, or olah-style blood application on the New Moon chatat? The verse proves that the chatat procedure is applied to the tamid-olah.",
+            text: "Does the chatat procedure apply to the tamid-olah, or does the olah procedure apply to the New Moon chatat? The verse says to cast a matter of the chatat upon the olah, so the tamid-olah receives the chatat procedure.",
             sourceRefs: [
               {
                 sourceType: "gemara",
@@ -34726,7 +34726,7 @@ const DAF_CONTENT = {
           endVilnaLine: 30
         },
         display: {
-          title: "Same Temple, two floor plans: the Chamber of the Lambs contradiction opens 16a",
+          title: "Same Temple, two floor plans: the Chamber of the Lambs contradiction begins on 15b",
           oneLine: "Tractate Tamid and Tractate Middot place the Chamber of the Lambs in different corners of the Beit HaMoked, leaving a contradiction unresolved here.",
           whats: "The mishna from Tractate Tamid places the Chamber of the Lambs in one corner, while Tractate Middot's mishna places it in a different corner, with the contradiction continuing on the next page.",
           hint: "How can Tractate Tamid and Tractate Middot place the Chamber of the Lambs in different corners?"
@@ -34740,7 +34740,7 @@ const DAF_CONTENT = {
             type: "open_question",
             text: "The Chamber of the Lambs is placed in different corners by Tamid and Middot. This sugya raises the contradiction without resolving which location is correct; the discussion continues on the next daf."
           },
-          ahaMoment: "The contradiction between Tamid’s and Middot’s placements of the Chamber of the Lambs is raised here and left open for the next amud to resolve.",
+          ahaMoment: "The Tamid and Middot mishnayot give two different corners for the Chamber of the Lambs, and the question of how to reconcile them remains open as this page ends.",
           memoryAnchor: "Chamber of the Lambs: two locations, two tractates, one Temple. The contradiction launches the 16a debate."
         },
         lines: [
@@ -34774,7 +34774,7 @@ const DAF_CONTENT = {
             id: "step-02",
             type: "contradiction",
             label: "Middot places it in a different corner",
-            speaker: "Gemara",
+            speaker: "Mishna",
             text: "Tractate Middot's description of the four Beit HaMoked chambers places the Chamber of the Lambs in a different corner, creating a direct contradiction.",
             sourceRefs: [
               {
@@ -34790,13 +34790,13 @@ const DAF_CONTENT = {
             type: "question",
             label: "The two mishnayot contradict one another",
             speaker: "Gemara",
-            text: "The Tamid mishna places the Chamber of the Lambs in the northwest, while Middot places it in the southwest. The contradiction is presented here; its resolution is taken up on the next daf.",
+            text: "The Gemara points out that the two mishnayot give conflicting placements for the Chamber of the Lambs. It raises the contradiction here without resolving it.",
             sourceRefs: [
               {
                 sourceType: "gemara",
                 lineId: "yoma-015b-l30",
                 vilnaLine: 30,
-                note: "Middot's southwest placement creates the contradiction"
+                note: "The Gemara points out the contradiction between the two mishnayot's placements"
               }
             ]
           }
@@ -34807,13 +34807,12 @@ const DAF_CONTENT = {
         ],
         requiresUnderstanding: [],
         prerequisiteKnowledge: [
-          "The four-chamber structure of the Beit HaMoked",
-          "The relationship between Tractates Yoma, Tamid, and Middot"
+          "The four-chamber structure of the Beit HaMoked"
         ],
         misconceptions: [
           {
             misconception: "Tractates always agree on Temple topography since they describe the same physical structure.",
-            correction: "Different tractates may reflect different authorities with different spatial perspectives, producing genuine contradictions like the Chamber of the Lambs location.",
+            correction: "Two descriptions of the same Temple space can appear to disagree; recognizing a contradiction is the first step, not proof the sources are wrong.",
             correctedByStepId: "step-02"
           }
         ],
@@ -34844,7 +34843,7 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        finalRuling: "Contradiction noted; resolution deferred to 16a.",
+        finalRuling: "The contradiction between the two mishnayot is raised here but is not resolved within this amud.",
         difficulty: "intermediate",
         alternateAngles: [],
         topicTags: [
@@ -34863,19 +34862,9 @@ const DAF_CONTENT = {
     ],
     glossary: [
       {
-        he: "טָהֳרוֹ",
-        translit: "tohoro",
-        en: "Its purity - here meaning the top surface of the altar, compared to sky-like purity in Exodus 24:10."
-      },
-      {
-        he: "יְסוֹד",
-        translit: "yesod",
-        en: "The altar's foundation ledge. In the olah discussion, its absence at the southeast corner requires the blood application at the northeast corner instead."
-      },
-      {
-        he: "לִשְׁכַּת הַטְּלָאִים",
-        translit: "Lishkat HaTelayim",
-        en: "The chamber for sacrificial lambs. The Tamid mishna places it in the northwest corner of the courtyard area, next to the Beit HaMoked, while the Middot mishna places it in the southwest."
+        he: "לָטֹהַר",
+        translit: "latohar",
+        en: "For purity — the expression in Exodus 24:10 cited to explain tohoro as the exposed top surface of the altar."
       }
     ],
     rashiLines: [
