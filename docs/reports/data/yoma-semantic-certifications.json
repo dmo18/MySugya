@@ -148631,6 +148631,2616 @@
         }
       },
       "certifiedAtCommit": "8609986c69d190c342b9989e389ec4608ea574f0"
+    },
+    "yoma-18b-s01": {
+      "sugyaId": "yoma-18b-s01",
+      "daf": "18b",
+      "state": "CERTIFIED",
+      "firstPass": {
+        "reviewId": "ms2-first-anthropic-claude-sonnet-5-7b68aeef0587",
+        "reviewerContextId": "ms2-context-first-anthropic-claude-sonnet-5-7b68aeef0587",
+        "sourceFirst": true,
+        "verdict": "VERIFIED",
+        "reviewedSourceFingerprint": "0e3fcb18e754d40a0ed5f2da01615bc504e0ad0eefc76e58404ea02eaeaaedd7",
+        "reviewedSemanticFingerprint": "5cf2b976444453588012399f0479cdd019b55edb8af4b8fe27b612db2d058ccf",
+        "evidence": {
+          "method": "ms2 evidence ledger: every field carries a source quote verified by code",
+          "fields": 65,
+          "verdict": "no defect found"
+        }
+      },
+      "sourceFingerprint": "0e3fcb18e754d40a0ed5f2da01615bc504e0ad0eefc76e58404ea02eaeaaedd7",
+      "semanticFingerprint": "5cf2b976444453588012399f0479cdd019b55edb8af4b8fe27b612db2d058ccf",
+      "secondPass": {
+        "reviewId": "ms2-second-anthropic-claude-sonnet-5-652b45603c57",
+        "reviewerContextId": "ms2-context-second-anthropic-claude-sonnet-5-652b45603c57",
+        "sourceFirst": true,
+        "verdict": "CONFIRMED",
+        "reviewedSourceFingerprint": "0e3fcb18e754d40a0ed5f2da01615bc504e0ad0eefc76e58404ea02eaeaaedd7",
+        "reviewedSemanticFingerprint": "5cf2b976444453588012399f0479cdd019b55edb8af4b8fe27b612db2d058ccf",
+        "evidence": {
+          "method": "ms2 evidence ledger: every field carries a source quote verified by code",
+          "fields": 65,
+          "verdict": "no defect found"
+        }
+      },
+      "finalAudit": {
+        "reviewId": "ms2-final-anthropic-claude-sonnet-5-4b9561445135",
+        "auditorContextId": "ms2-context-final-anthropic-claude-sonnet-5-4b9561445135",
+        "auditedSourceFingerprint": "0e3fcb18e754d40a0ed5f2da01615bc504e0ad0eefc76e58404ea02eaeaaedd7",
+        "auditedSemanticFingerprint": "5cf2b976444453588012399f0479cdd019b55edb8af4b8fe27b612db2d058ccf",
+        "dafBoundary": {
+          "rawLineCount": 32,
+          "finalRawLine": "גמ'",
+          "dafEndState": "COMPLETE"
+        },
+        "fieldInventory": [
+          {
+            "path": "lineRange",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "lines",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "dafLevel.glossary[0].en",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "18b",
+                "endVilnaLine": 20,
+                "startVilnaLine": 17
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "dafLevel.glossary[0].he",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "18b",
+                "endVilnaLine": 20,
+                "startVilnaLine": 17
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "dafLevel.glossary[0].translit",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "18b",
+                "endVilnaLine": 20,
+                "startVilnaLine": 17
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "dafLevel.glossary[1].en",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "18b",
+                "endVilnaLine": 28,
+                "startVilnaLine": 23
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "dafLevel.glossary[1].he",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "18b",
+                "endVilnaLine": 28,
+                "startVilnaLine": 23
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "dafLevel.glossary[1].translit",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "18b",
+                "endVilnaLine": 28,
+                "startVilnaLine": 23
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "dafLevel.summary",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "18b",
+                "endVilnaLine": 7,
+                "startVilnaLine": 1
+              },
+              {
+                "daf": "18b",
+                "endVilnaLine": 31,
+                "startVilnaLine": 28
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "alternateAngles[0].angle",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "18b",
+                "endVilnaLine": 17,
+                "startVilnaLine": 11
+              },
+              {
+                "daf": "18b",
+                "endVilnaLine": 20,
+                "startVilnaLine": 17
+              },
+              {
+                "daf": "18b",
+                "endVilnaLine": 22,
+                "startVilnaLine": 20
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "alternateAngles[0].desc",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "18b",
+                "endVilnaLine": 17,
+                "startVilnaLine": 11
+              },
+              {
+                "daf": "18b",
+                "endVilnaLine": 20,
+                "startVilnaLine": 17
+              },
+              {
+                "daf": "18b",
+                "endVilnaLine": 22,
+                "startVilnaLine": 20
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-01].id",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-01].label",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "18b",
+                "endVilnaLine": 7,
+                "startVilnaLine": 1
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-01].sourceRefs[0].lineId",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-01].sourceRefs[0].note",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "18b",
+                "endVilnaLine": 7,
+                "startVilnaLine": 1
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-01].sourceRefs[0].sourceType",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-01].sourceRefs[0].vilnaLine",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-01].speaker",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "18b",
+                "endVilnaLine": 7,
+                "startVilnaLine": 1
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-01].text",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "18b",
+                "endVilnaLine": 7,
+                "startVilnaLine": 1
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-01].type",
+            "verdict": "REVIEWED",
+            "note": "The step presents the five foods as an enumerated list, matching the baraita's listing format.",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-02].id",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-02].label",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "18b",
+                "endVilnaLine": 11,
+                "startVilnaLine": 7
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-02].sourceRefs[0].lineId",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-02].sourceRefs[0].note",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "18b",
+                "endVilnaLine": 11,
+                "startVilnaLine": 7
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-02].sourceRefs[0].sourceType",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-02].sourceRefs[0].vilnaLine",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-02].speaker",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "18b",
+                "endVilnaLine": 11,
+                "startVilnaLine": 7
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-02].text",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "18b",
+                "endVilnaLine": 11,
+                "startVilnaLine": 7
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-02].type",
+            "verdict": "REVIEWED",
+            "note": "The passage is a narrative report (מעשה) of what Rav and Rav Nachman did, not a legal ruling or dispute, fitting the 'report' classification.",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-03].id",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-03].label",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "18b",
+                "endVilnaLine": 17,
+                "startVilnaLine": 11
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-03].sourceRefs[0].lineId",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-03].sourceRefs[0].note",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "18b",
+                "endVilnaLine": 17,
+                "startVilnaLine": 11
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-03].sourceRefs[0].sourceType",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-03].sourceRefs[0].vilnaLine",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-03].speaker",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "18b",
+                "endVilnaLine": 17,
+                "startVilnaLine": 11
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-03].text",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "18b",
+                "endVilnaLine": 17,
+                "startVilnaLine": 11
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-03].type",
+            "verdict": "REVIEWED",
+            "note": "The response justifies the practice by explaining why the concern about unknown family relationships does not apply to these Sages.",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-04].id",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-04].label",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "18b",
+                "endVilnaLine": 17,
+                "startVilnaLine": 11
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-04].sourceRefs[0].lineId",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-04].sourceRefs[0].note",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "18b",
+                "endVilnaLine": 17,
+                "startVilnaLine": 11
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-04].sourceRefs[0].sourceType",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-04].sourceRefs[0].vilnaLine",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-04].speaker",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "18b",
+                "endVilnaLine": 17,
+                "startVilnaLine": 11
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-04].text",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "18b",
+                "endVilnaLine": 17,
+                "startVilnaLine": 11
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-04].type",
+            "verdict": "REVIEWED",
+            "note": "The passage raises a concern about forbidden marriages between relatives whose relationship is unknown, then answers it.",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-05].id",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-05].label",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "18b",
+                "endVilnaLine": 20,
+                "startVilnaLine": 17
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-05].sourceRefs[0].lineId",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-05].sourceRefs[0].note",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "18b",
+                "endVilnaLine": 20,
+                "startVilnaLine": 17
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-05].sourceRefs[0].sourceType",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-05].sourceRefs[0].vilnaLine",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-05].speaker",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "18b",
+                "endVilnaLine": 20,
+                "startVilnaLine": 17
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-05].text",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "18b",
+                "endVilnaLine": 20,
+                "startVilnaLine": 17
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-05].type",
+            "verdict": "REVIEWED",
+            "note": "This is a stated halachic ruling by Rava cited as a challenge, correctly classified as a ruling.",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "conceptRefs[0]",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "18b",
+                "endVilnaLine": 7,
+                "startVilnaLine": 1
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "conceptRefs[1]",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "18b",
+                "endVilnaLine": 17,
+                "startVilnaLine": 11
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "difficulty",
+            "verdict": "REVIEWED",
+            "note": "The passage combines several objections, distinct answers, and an alternative explanation of the traveling marriage practice, making an advanced classification reasonable.",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "display.hint",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "18b",
+                "endVilnaLine": 11,
+                "startVilnaLine": 7
+              },
+              {
+                "daf": "18b",
+                "endVilnaLine": 17,
+                "startVilnaLine": 11
+              },
+              {
+                "daf": "18b",
+                "endVilnaLine": 20,
+                "startVilnaLine": 17
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "display.title",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "18b",
+                "endVilnaLine": 11,
+                "startVilnaLine": 7
+              },
+              {
+                "daf": "18b",
+                "endVilnaLine": 17,
+                "startVilnaLine": 11
+              },
+              {
+                "daf": "18b",
+                "endVilnaLine": 20,
+                "startVilnaLine": 17
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "display.whats",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "18b",
+                "endVilnaLine": 7,
+                "startVilnaLine": 1
+              },
+              {
+                "daf": "18b",
+                "endVilnaLine": 11,
+                "startVilnaLine": 7
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "finalRuling",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "18b",
+                "endVilnaLine": 7,
+                "startVilnaLine": 1
+              },
+              {
+                "daf": "18b",
+                "endVilnaLine": 17,
+                "startVilnaLine": 11
+              },
+              {
+                "daf": "18b",
+                "endVilnaLine": 22,
+                "startVilnaLine": 20
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "glossary[0].en",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "18b",
+                "endVilnaLine": 11,
+                "startVilnaLine": 7
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "glossary[0].he",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "18b",
+                "endVilnaLine": 11,
+                "startVilnaLine": 7
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "glossary[0].translit",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "18b",
+                "endVilnaLine": 11,
+                "startVilnaLine": 7
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "glossary[1].en",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "18b",
+                "endVilnaLine": 20,
+                "startVilnaLine": 17
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "glossary[1].he",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "18b",
+                "endVilnaLine": 20,
+                "startVilnaLine": 17
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "glossary[1].translit",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "18b",
+                "endVilnaLine": 20,
+                "startVilnaLine": 17
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "learning.ahaMoment",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "18b",
+                "endVilnaLine": 20,
+                "startVilnaLine": 17
+              },
+              {
+                "daf": "18b",
+                "endVilnaLine": 22,
+                "startVilnaLine": 20
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "learning.coreMove",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "18b",
+                "endVilnaLine": 17,
+                "startVilnaLine": 11
+              },
+              {
+                "daf": "18b",
+                "endVilnaLine": 20,
+                "startVilnaLine": 17
+              },
+              {
+                "daf": "18b",
+                "endVilnaLine": 22,
+                "startVilnaLine": 20
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "learning.coreTension",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "18b",
+                "endVilnaLine": 11,
+                "startVilnaLine": 7
+              },
+              {
+                "daf": "18b",
+                "endVilnaLine": 17,
+                "startVilnaLine": 11
+              },
+              {
+                "daf": "18b",
+                "endVilnaLine": 20,
+                "startVilnaLine": 17
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "learning.learnerQuestion",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "18b",
+                "endVilnaLine": 11,
+                "startVilnaLine": 7
+              },
+              {
+                "daf": "18b",
+                "endVilnaLine": 17,
+                "startVilnaLine": 11
+              },
+              {
+                "daf": "18b",
+                "endVilnaLine": 20,
+                "startVilnaLine": 17
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "learning.learningBlocker",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "18b",
+                "endVilnaLine": 17,
+                "startVilnaLine": 11
+              },
+              {
+                "daf": "18b",
+                "endVilnaLine": 20,
+                "startVilnaLine": 17
+              },
+              {
+                "daf": "18b",
+                "endVilnaLine": 22,
+                "startVilnaLine": 20
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "learning.memoryAnchor",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "18b",
+                "endVilnaLine": 7,
+                "startVilnaLine": 1
+              },
+              {
+                "daf": "18b",
+                "endVilnaLine": 20,
+                "startVilnaLine": 17
+              },
+              {
+                "daf": "18b",
+                "endVilnaLine": 22,
+                "startVilnaLine": 20
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "learning.resolution",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "18b",
+                "endVilnaLine": 17,
+                "startVilnaLine": 11
+              },
+              {
+                "daf": "18b",
+                "endVilnaLine": 20,
+                "startVilnaLine": 17
+              },
+              {
+                "daf": "18b",
+                "endVilnaLine": 22,
+                "startVilnaLine": 20
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "learning.takeaway.text",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "18b",
+                "endVilnaLine": 17,
+                "startVilnaLine": 11
+              },
+              {
+                "daf": "18b",
+                "endVilnaLine": 20,
+                "startVilnaLine": 17
+              },
+              {
+                "daf": "18b",
+                "endVilnaLine": 22,
+                "startVilnaLine": 20
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "learning.takeaway.type",
+            "verdict": "REVIEWED",
+            "note": "A legal-principle classification fits the passage’s discussion of marriage restrictions, identifiable offspring, and the requirement of seven clean days.",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "prerequisiteKnowledge[0]",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "18b",
+                "endVilnaLine": 7,
+                "startVilnaLine": 1
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "prerequisiteKnowledge[1]",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "18b",
+                "endVilnaLine": 17,
+                "startVilnaLine": 11
+              },
+              {
+                "daf": "18b",
+                "endVilnaLine": 20,
+                "startVilnaLine": 17
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "prerequisiteKnowledge[2]",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "18b",
+                "endVilnaLine": 17,
+                "startVilnaLine": 11
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "quizSeeds[0].answer",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "18b",
+                "endVilnaLine": 17,
+                "startVilnaLine": 11
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "quizSeeds[0].question",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "18b",
+                "endVilnaLine": 17,
+                "startVilnaLine": 11
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "quizSeeds[1].answer",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "18b",
+                "endVilnaLine": 20,
+                "startVilnaLine": 17
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "quizSeeds[1].question",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "18b",
+                "endVilnaLine": 20,
+                "startVilnaLine": 17
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "relatedSugyot[0]",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "relatedSugyot[1]",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "topicTags[0]",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "topicTags[1]",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "topicTags[2]",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "topicTags[3]",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "topicTags[4]",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "topicTags[5]",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "topicTags[6]",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "visualizableElements[0].item",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "18b",
+                "endVilnaLine": 20,
+                "startVilnaLine": 17
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "visualizableElements[0].type",
+            "verdict": "REVIEWED",
+            "note": "The passage describes an ordered sequence of advance notification by messenger, the woman’s agreement and seven clean days, and marriage after the scholar’s arrival.",
+            "boundarySafe": true,
+            "crossReference": false
+          }
+        ],
+        "boundaryLeakageSweep": [
+          {
+            "path": "dafLevel.glossary[0].en",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the cited source lines of this amud only; states no conclusion taken from the next amud."
+          },
+          {
+            "path": "dafLevel.glossary[0].he",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the cited source lines of this amud only; states no conclusion taken from the next amud."
+          },
+          {
+            "path": "dafLevel.glossary[0].translit",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the cited source lines of this amud only; states no conclusion taken from the next amud."
+          },
+          {
+            "path": "dafLevel.glossary[1].en",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the cited source lines of this amud only; states no conclusion taken from the next amud."
+          },
+          {
+            "path": "dafLevel.glossary[1].he",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the cited source lines of this amud only; states no conclusion taken from the next amud."
+          },
+          {
+            "path": "dafLevel.glossary[1].translit",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the cited source lines of this amud only; states no conclusion taken from the next amud."
+          },
+          {
+            "path": "dafLevel.summary",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the cited source lines of this amud only; states no conclusion taken from the next amud."
+          },
+          {
+            "path": "alternateAngles[0].angle",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the cited source lines of this amud only; states no conclusion taken from the next amud."
+          },
+          {
+            "path": "alternateAngles[0].desc",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the cited source lines of this amud only; states no conclusion taken from the next amud."
+          },
+          {
+            "path": "argumentFlow[step-01].label",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the cited source lines of this amud only; states no conclusion taken from the next amud."
+          },
+          {
+            "path": "argumentFlow[step-01].sourceRefs[0].note",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the cited source lines of this amud only; states no conclusion taken from the next amud."
+          },
+          {
+            "path": "argumentFlow[step-01].speaker",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the cited source lines of this amud only; states no conclusion taken from the next amud."
+          },
+          {
+            "path": "argumentFlow[step-01].text",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the cited source lines of this amud only; states no conclusion taken from the next amud."
+          },
+          {
+            "path": "argumentFlow[step-01].type",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the source of this amud only; states no conclusion taken from the next amud."
+          },
+          {
+            "path": "argumentFlow[step-02].label",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the cited source lines of this amud only; states no conclusion taken from the next amud."
+          },
+          {
+            "path": "argumentFlow[step-02].sourceRefs[0].note",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the cited source lines of this amud only; states no conclusion taken from the next amud."
+          },
+          {
+            "path": "argumentFlow[step-02].speaker",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the cited source lines of this amud only; states no conclusion taken from the next amud."
+          },
+          {
+            "path": "argumentFlow[step-02].text",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the cited source lines of this amud only; states no conclusion taken from the next amud."
+          },
+          {
+            "path": "argumentFlow[step-02].type",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the source of this amud only; states no conclusion taken from the next amud."
+          },
+          {
+            "path": "argumentFlow[step-03].label",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the cited source lines of this amud only; states no conclusion taken from the next amud."
+          },
+          {
+            "path": "argumentFlow[step-03].sourceRefs[0].note",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the cited source lines of this amud only; states no conclusion taken from the next amud."
+          },
+          {
+            "path": "argumentFlow[step-03].speaker",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the cited source lines of this amud only; states no conclusion taken from the next amud."
+          },
+          {
+            "path": "argumentFlow[step-03].text",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the cited source lines of this amud only; states no conclusion taken from the next amud."
+          },
+          {
+            "path": "argumentFlow[step-03].type",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the cited source lines of this amud only; states no conclusion taken from the next amud."
+          },
+          {
+            "path": "argumentFlow[step-04].label",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the cited source lines of this amud only; states no conclusion taken from the next amud."
+          },
+          {
+            "path": "argumentFlow[step-04].sourceRefs[0].note",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the cited source lines of this amud only; states no conclusion taken from the next amud."
+          },
+          {
+            "path": "argumentFlow[step-04].speaker",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the cited source lines of this amud only; states no conclusion taken from the next amud."
+          },
+          {
+            "path": "argumentFlow[step-04].text",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the cited source lines of this amud only; states no conclusion taken from the next amud."
+          },
+          {
+            "path": "argumentFlow[step-04].type",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the cited source lines of this amud only; states no conclusion taken from the next amud."
+          },
+          {
+            "path": "argumentFlow[step-05].label",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the cited source lines of this amud only; states no conclusion taken from the next amud."
+          },
+          {
+            "path": "argumentFlow[step-05].sourceRefs[0].note",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the cited source lines of this amud only; states no conclusion taken from the next amud."
+          },
+          {
+            "path": "argumentFlow[step-05].speaker",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the cited source lines of this amud only; states no conclusion taken from the next amud."
+          },
+          {
+            "path": "argumentFlow[step-05].text",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the cited source lines of this amud only; states no conclusion taken from the next amud."
+          },
+          {
+            "path": "argumentFlow[step-05].type",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the source of this amud only; states no conclusion taken from the next amud."
+          },
+          {
+            "path": "conceptRefs[0]",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the cited source lines of this amud only; states no conclusion taken from the next amud."
+          },
+          {
+            "path": "conceptRefs[1]",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the cited source lines of this amud only; states no conclusion taken from the next amud."
+          },
+          {
+            "path": "difficulty",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the source of this amud only; states no conclusion taken from the next amud."
+          },
+          {
+            "path": "display.hint",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the cited source lines of this amud only; states no conclusion taken from the next amud."
+          },
+          {
+            "path": "display.title",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the cited source lines of this amud only; states no conclusion taken from the next amud."
+          },
+          {
+            "path": "display.whats",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the cited source lines of this amud only; states no conclusion taken from the next amud."
+          },
+          {
+            "path": "finalRuling",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the cited source lines of this amud only; states no conclusion taken from the next amud."
+          },
+          {
+            "path": "glossary[0].en",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the cited source lines of this amud only; states no conclusion taken from the next amud."
+          },
+          {
+            "path": "glossary[0].he",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the cited source lines of this amud only; states no conclusion taken from the next amud."
+          },
+          {
+            "path": "glossary[0].translit",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the cited source lines of this amud only; states no conclusion taken from the next amud."
+          },
+          {
+            "path": "glossary[1].en",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the cited source lines of this amud only; states no conclusion taken from the next amud."
+          },
+          {
+            "path": "glossary[1].he",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the cited source lines of this amud only; states no conclusion taken from the next amud."
+          },
+          {
+            "path": "glossary[1].translit",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the cited source lines of this amud only; states no conclusion taken from the next amud."
+          },
+          {
+            "path": "learning.ahaMoment",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the cited source lines of this amud only; states no conclusion taken from the next amud."
+          },
+          {
+            "path": "learning.coreMove",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the cited source lines of this amud only; states no conclusion taken from the next amud."
+          },
+          {
+            "path": "learning.coreTension",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the cited source lines of this amud only; states no conclusion taken from the next amud."
+          },
+          {
+            "path": "learning.learnerQuestion",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the cited source lines of this amud only; states no conclusion taken from the next amud."
+          },
+          {
+            "path": "learning.learningBlocker",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the cited source lines of this amud only; states no conclusion taken from the next amud."
+          },
+          {
+            "path": "learning.memoryAnchor",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the cited source lines of this amud only; states no conclusion taken from the next amud."
+          },
+          {
+            "path": "learning.resolution",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the cited source lines of this amud only; states no conclusion taken from the next amud."
+          },
+          {
+            "path": "learning.takeaway.text",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the cited source lines of this amud only; states no conclusion taken from the next amud."
+          },
+          {
+            "path": "learning.takeaway.type",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the source of this amud only; states no conclusion taken from the next amud."
+          },
+          {
+            "path": "prerequisiteKnowledge[0]",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the cited source lines of this amud only; states no conclusion taken from the next amud."
+          },
+          {
+            "path": "prerequisiteKnowledge[1]",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the cited source lines of this amud only; states no conclusion taken from the next amud."
+          },
+          {
+            "path": "prerequisiteKnowledge[2]",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the cited source lines of this amud only; states no conclusion taken from the next amud."
+          },
+          {
+            "path": "quizSeeds[0].answer",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the cited source lines of this amud only; states no conclusion taken from the next amud."
+          },
+          {
+            "path": "quizSeeds[0].question",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the cited source lines of this amud only; states no conclusion taken from the next amud."
+          },
+          {
+            "path": "quizSeeds[1].answer",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the cited source lines of this amud only; states no conclusion taken from the next amud."
+          },
+          {
+            "path": "quizSeeds[1].question",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the cited source lines of this amud only; states no conclusion taken from the next amud."
+          },
+          {
+            "path": "visualizableElements[0].item",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the cited source lines of this amud only; states no conclusion taken from the next amud."
+          },
+          {
+            "path": "visualizableElements[0].type",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the source of this amud only; states no conclusion taken from the next amud."
+          }
+        ],
+        "staleContentSweep": {
+          "entries": [
+            {
+              "category": "stale_original_error",
+              "found": false,
+              "note": "Every field was re-checked against the source on the final text."
+            },
+            {
+              "category": "stale_speaker_or_attribution",
+              "found": false,
+              "note": "Every field was re-checked against the source on the final text."
+            },
+            {
+              "category": "contradictory_speaker_attribution",
+              "found": false,
+              "note": "Every field was re-checked against the source on the final text."
+            },
+            {
+              "category": "old_conclusion_in_secondary_field",
+              "found": false,
+              "note": "Every field was re-checked against the source on the final text."
+            },
+            {
+              "category": "false_closure",
+              "found": false,
+              "note": "Every field was re-checked against the source on the final text."
+            },
+            {
+              "category": "next_daf_content_leaked_backward",
+              "found": false,
+              "note": "Every field was re-checked against the source on the final text."
+            },
+            {
+              "category": "claim_unsupported_by_physical_daf",
+              "found": false,
+              "note": "Every field was re-checked against the source on the final text."
+            },
+            {
+              "category": "stale_quiz_question_or_answer",
+              "found": false,
+              "note": "Every field was re-checked against the source on the final text."
+            },
+            {
+              "category": "stale_final_ruling",
+              "found": false,
+              "note": "Every field was re-checked against the source on the final text."
+            },
+            {
+              "category": "stale_summary",
+              "found": false,
+              "note": "Every field was re-checked against the source on the final text."
+            },
+            {
+              "category": "stale_learning_field",
+              "found": false,
+              "note": "Every field was re-checked against the source on the final text."
+            },
+            {
+              "category": "stale_misconception",
+              "found": false,
+              "note": "Every field was re-checked against the source on the final text."
+            },
+            {
+              "category": "stale_related_sugya_description",
+              "found": false,
+              "note": "Every field was re-checked against the source on the final text."
+            },
+            {
+              "category": "stale_visualizable_element_prose",
+              "found": false,
+              "note": "Every field was re-checked against the source on the final text."
+            },
+            {
+              "category": "source_refs_no_longer_supporting_claim",
+              "found": false,
+              "note": "Every field was re-checked against the source on the final text."
+            },
+            {
+              "category": "reference_outside_declared_line_range",
+              "found": false,
+              "note": "Every field was re-checked against the source on the final text."
+            }
+          ]
+        }
+      },
+      "certifiedAtCommit": "9c56de4551389e90e289e2bcf3068616917f6387"
+    },
+    "yoma-18b-s02": {
+      "sugyaId": "yoma-18b-s02",
+      "daf": "18b",
+      "state": "CERTIFIED",
+      "firstPass": {
+        "reviewId": "ms2-first-anthropic-claude-sonnet-5-8f7392d2f95c",
+        "reviewerContextId": "ms2-context-first-anthropic-claude-sonnet-5-8f7392d2f95c",
+        "sourceFirst": true,
+        "verdict": "VERIFIED",
+        "reviewedSourceFingerprint": "26beeebcd6cfbf833938173e1b20349252437dfeb80a2c41a2468f3f9e335fee",
+        "reviewedSemanticFingerprint": "8a4e5f5e94912504a25e68bc46eeff0836863dce216e54e7784ce7bf55b36c99",
+        "evidence": {
+          "method": "ms2 evidence ledger: every field carries a source quote verified by code",
+          "fields": 44,
+          "verdict": "no defect found"
+        }
+      },
+      "sourceFingerprint": "26beeebcd6cfbf833938173e1b20349252437dfeb80a2c41a2468f3f9e335fee",
+      "semanticFingerprint": "8a4e5f5e94912504a25e68bc46eeff0836863dce216e54e7784ce7bf55b36c99",
+      "secondPass": {
+        "reviewId": "ms2-second-anthropic-claude-sonnet-5-b9d0ea0b83dc",
+        "reviewerContextId": "ms2-context-second-anthropic-claude-sonnet-5-b9d0ea0b83dc",
+        "sourceFirst": true,
+        "verdict": "CONFIRMED",
+        "reviewedSourceFingerprint": "26beeebcd6cfbf833938173e1b20349252437dfeb80a2c41a2468f3f9e335fee",
+        "reviewedSemanticFingerprint": "8a4e5f5e94912504a25e68bc46eeff0836863dce216e54e7784ce7bf55b36c99",
+        "evidence": {
+          "method": "ms2 evidence ledger: every field carries a source quote verified by code",
+          "fields": 44,
+          "verdict": "no defect found"
+        }
+      },
+      "finalAudit": {
+        "reviewId": "ms2-final-anthropic-claude-sonnet-5-25d6d724fdc0",
+        "auditorContextId": "ms2-context-final-anthropic-claude-sonnet-5-25d6d724fdc0",
+        "auditedSourceFingerprint": "26beeebcd6cfbf833938173e1b20349252437dfeb80a2c41a2468f3f9e335fee",
+        "auditedSemanticFingerprint": "8a4e5f5e94912504a25e68bc46eeff0836863dce216e54e7784ce7bf55b36c99",
+        "dafBoundary": {
+          "rawLineCount": 32,
+          "finalRawLine": "גמ'",
+          "dafEndState": "COMPLETE"
+        },
+        "fieldInventory": [
+          {
+            "path": "lineRange",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "lines",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "dafLevel.glossary[0].en",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "18b",
+                "endVilnaLine": 20,
+                "startVilnaLine": 17
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "dafLevel.glossary[0].he",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "18b",
+                "endVilnaLine": 20,
+                "startVilnaLine": 17
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "dafLevel.glossary[0].translit",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "18b",
+                "endVilnaLine": 20,
+                "startVilnaLine": 17
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "dafLevel.glossary[1].en",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "18b",
+                "endVilnaLine": 28,
+                "startVilnaLine": 23
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "dafLevel.glossary[1].he",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "18b",
+                "endVilnaLine": 28,
+                "startVilnaLine": 23
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "dafLevel.glossary[1].translit",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "18b",
+                "endVilnaLine": 28,
+                "startVilnaLine": 23
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "dafLevel.summary",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "18b",
+                "endVilnaLine": 7,
+                "startVilnaLine": 1
+              },
+              {
+                "daf": "18b",
+                "endVilnaLine": 31,
+                "startVilnaLine": 28
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-01].id",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-01].label",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "18b",
+                "endVilnaLine": 28,
+                "startVilnaLine": 23
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-01].sourceRefs[0].lineId",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-01].sourceRefs[0].note",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "18b",
+                "endVilnaLine": 28,
+                "startVilnaLine": 23
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-01].sourceRefs[0].sourceType",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-01].sourceRefs[0].vilnaLine",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-01].speaker",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "18b",
+                "endVilnaLine": 28,
+                "startVilnaLine": 23
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-01].text",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "18b",
+                "endVilnaLine": 28,
+                "startVilnaLine": 23
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-01].type",
+            "verdict": "REVIEWED",
+            "note": "The step describes the mishna's narrative of the oath administered to the High Priest, which is a ruling/procedural instruction (an adjuration establishing binding practice).",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-02].id",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-02].label",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "18b",
+                "endVilnaLine": 31,
+                "startVilnaLine": 28
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-02].sourceRefs[0].lineId",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-02].sourceRefs[0].note",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "18b",
+                "endVilnaLine": 31,
+                "startVilnaLine": 28
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-02].sourceRefs[0].sourceType",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-02].sourceRefs[0].vilnaLine",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-02].speaker",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "18b",
+                "endVilnaLine": 31,
+                "startVilnaLine": 28
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-02].text",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "18b",
+                "endVilnaLine": 31,
+                "startVilnaLine": 28
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "argumentFlow[step-02].type",
+            "verdict": "REVIEWED",
+            "note": "This describes the Mishna's description of practices for keeping the High Priest awake, which is a ruling/halakhic description.",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "conceptRefs[0]",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "18b",
+                "endVilnaLine": 28,
+                "startVilnaLine": 23
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "conceptRefs[1]",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "18b",
+                "endVilnaLine": 31,
+                "startVilnaLine": 28
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "difficulty",
+            "verdict": "REVIEWED",
+            "note": "The passage gives straightforward procedural instructions without an extended argument, making an introductory difficulty classification reasonable.",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "display.hint",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "18b",
+                "endVilnaLine": 31,
+                "startVilnaLine": 28
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "display.title",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "18b",
+                "endVilnaLine": 31,
+                "startVilnaLine": 28
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "display.whats",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "18b",
+                "endVilnaLine": 28,
+                "startVilnaLine": 23
+              },
+              {
+                "daf": "18b",
+                "endVilnaLine": 31,
+                "startVilnaLine": 28
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "finalRuling",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "18b",
+                "endVilnaLine": 31,
+                "startVilnaLine": 28
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "glossary[0].en",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "18b",
+                "endVilnaLine": 28,
+                "startVilnaLine": 23
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "glossary[0].he",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "18b",
+                "endVilnaLine": 28,
+                "startVilnaLine": 23
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "glossary[0].translit",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "18b",
+                "endVilnaLine": 28,
+                "startVilnaLine": 23
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "learning.ahaMoment",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "18b",
+                "endVilnaLine": 31,
+                "startVilnaLine": 28
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "learning.coreMove",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "18b",
+                "endVilnaLine": 31,
+                "startVilnaLine": 28
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "learning.coreTension",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "18b",
+                "endVilnaLine": 31,
+                "startVilnaLine": 28
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "learning.learnerQuestion",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "18b",
+                "endVilnaLine": 31,
+                "startVilnaLine": 28
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "learning.learningBlocker",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "18b",
+                "endVilnaLine": 31,
+                "startVilnaLine": 28
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "learning.memoryAnchor",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "18b",
+                "endVilnaLine": 28,
+                "startVilnaLine": 23
+              },
+              {
+                "daf": "18b",
+                "endVilnaLine": 31,
+                "startVilnaLine": 28
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "learning.resolution",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "18b",
+                "endVilnaLine": 31,
+                "startVilnaLine": 28
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "learning.takeaway.text",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "18b",
+                "endVilnaLine": 31,
+                "startVilnaLine": 28
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "learning.takeaway.type",
+            "verdict": "REVIEWED",
+            "note": "A conceptual classification fits the passage's organization of teaching and reading activities according to the High Priest's abilities.",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "prerequisiteKnowledge[0]",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "18b",
+                "endVilnaLine": 28,
+                "startVilnaLine": 23
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "prerequisiteKnowledge[1]",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "18b",
+                "endVilnaLine": 31,
+                "startVilnaLine": 28
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "quizSeeds[0].answer",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "18b",
+                "endVilnaLine": 31,
+                "startVilnaLine": 28
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "quizSeeds[0].question",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "18b",
+                "endVilnaLine": 31,
+                "startVilnaLine": 28
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "quizSeeds[1].answer",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "18b",
+                "endVilnaLine": 31,
+                "startVilnaLine": 28
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "quizSeeds[1].question",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "18b",
+                "endVilnaLine": 31,
+                "startVilnaLine": 28
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "relatedSugyot[0]",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "relatedSugyot[1]",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "topicTags[0]",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "topicTags[1]",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "topicTags[2]",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "topicTags[3]",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "topicTags[4]",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "topicTags[5]",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "topicTags[6]",
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "visualizableElements[0].item",
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "18b",
+                "endVilnaLine": 28,
+                "startVilnaLine": 23
+              },
+              {
+                "daf": "18b",
+                "endVilnaLine": 31,
+                "startVilnaLine": 28
+              }
+            ],
+            "boundarySafe": true,
+            "crossReference": false
+          },
+          {
+            "path": "visualizableElements[0].type",
+            "verdict": "REVIEWED",
+            "note": "The field lists the Avtinas oath/departure followed by the night's teaching/reading activities as an ordered sequence of events, matching the mishna's chronological presentation.",
+            "boundarySafe": true,
+            "crossReference": false
+          }
+        ],
+        "boundaryLeakageSweep": [
+          {
+            "path": "dafLevel.glossary[0].en",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the cited source lines of this amud only; states no conclusion taken from the next amud."
+          },
+          {
+            "path": "dafLevel.glossary[0].he",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the cited source lines of this amud only; states no conclusion taken from the next amud."
+          },
+          {
+            "path": "dafLevel.glossary[0].translit",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the cited source lines of this amud only; states no conclusion taken from the next amud."
+          },
+          {
+            "path": "dafLevel.glossary[1].en",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the cited source lines of this amud only; states no conclusion taken from the next amud."
+          },
+          {
+            "path": "dafLevel.glossary[1].he",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the cited source lines of this amud only; states no conclusion taken from the next amud."
+          },
+          {
+            "path": "dafLevel.glossary[1].translit",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the cited source lines of this amud only; states no conclusion taken from the next amud."
+          },
+          {
+            "path": "dafLevel.summary",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the cited source lines of this amud only; states no conclusion taken from the next amud."
+          },
+          {
+            "path": "argumentFlow[step-01].label",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the cited source lines of this amud only; states no conclusion taken from the next amud."
+          },
+          {
+            "path": "argumentFlow[step-01].sourceRefs[0].note",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the cited source lines of this amud only; states no conclusion taken from the next amud."
+          },
+          {
+            "path": "argumentFlow[step-01].speaker",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the cited source lines of this amud only; states no conclusion taken from the next amud."
+          },
+          {
+            "path": "argumentFlow[step-01].text",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the cited source lines of this amud only; states no conclusion taken from the next amud."
+          },
+          {
+            "path": "argumentFlow[step-01].type",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the source of this amud only; states no conclusion taken from the next amud."
+          },
+          {
+            "path": "argumentFlow[step-02].label",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the cited source lines of this amud only; states no conclusion taken from the next amud."
+          },
+          {
+            "path": "argumentFlow[step-02].sourceRefs[0].note",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the cited source lines of this amud only; states no conclusion taken from the next amud."
+          },
+          {
+            "path": "argumentFlow[step-02].speaker",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the cited source lines of this amud only; states no conclusion taken from the next amud."
+          },
+          {
+            "path": "argumentFlow[step-02].text",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the cited source lines of this amud only; states no conclusion taken from the next amud."
+          },
+          {
+            "path": "argumentFlow[step-02].type",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the source of this amud only; states no conclusion taken from the next amud."
+          },
+          {
+            "path": "conceptRefs[0]",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the cited source lines of this amud only; states no conclusion taken from the next amud."
+          },
+          {
+            "path": "conceptRefs[1]",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the cited source lines of this amud only; states no conclusion taken from the next amud."
+          },
+          {
+            "path": "difficulty",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the source of this amud only; states no conclusion taken from the next amud."
+          },
+          {
+            "path": "display.hint",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the cited source lines of this amud only; states no conclusion taken from the next amud."
+          },
+          {
+            "path": "display.title",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the cited source lines of this amud only; states no conclusion taken from the next amud."
+          },
+          {
+            "path": "display.whats",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the cited source lines of this amud only; states no conclusion taken from the next amud."
+          },
+          {
+            "path": "finalRuling",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the cited source lines of this amud only; states no conclusion taken from the next amud."
+          },
+          {
+            "path": "glossary[0].en",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the cited source lines of this amud only; states no conclusion taken from the next amud."
+          },
+          {
+            "path": "glossary[0].he",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the cited source lines of this amud only; states no conclusion taken from the next amud."
+          },
+          {
+            "path": "glossary[0].translit",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the cited source lines of this amud only; states no conclusion taken from the next amud."
+          },
+          {
+            "path": "learning.ahaMoment",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the cited source lines of this amud only; states no conclusion taken from the next amud."
+          },
+          {
+            "path": "learning.coreMove",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the cited source lines of this amud only; states no conclusion taken from the next amud."
+          },
+          {
+            "path": "learning.coreTension",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the cited source lines of this amud only; states no conclusion taken from the next amud."
+          },
+          {
+            "path": "learning.learnerQuestion",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the cited source lines of this amud only; states no conclusion taken from the next amud."
+          },
+          {
+            "path": "learning.learningBlocker",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the cited source lines of this amud only; states no conclusion taken from the next amud."
+          },
+          {
+            "path": "learning.memoryAnchor",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the cited source lines of this amud only; states no conclusion taken from the next amud."
+          },
+          {
+            "path": "learning.resolution",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the cited source lines of this amud only; states no conclusion taken from the next amud."
+          },
+          {
+            "path": "learning.takeaway.text",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the cited source lines of this amud only; states no conclusion taken from the next amud."
+          },
+          {
+            "path": "learning.takeaway.type",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the source of this amud only; states no conclusion taken from the next amud."
+          },
+          {
+            "path": "prerequisiteKnowledge[0]",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the cited source lines of this amud only; states no conclusion taken from the next amud."
+          },
+          {
+            "path": "prerequisiteKnowledge[1]",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the cited source lines of this amud only; states no conclusion taken from the next amud."
+          },
+          {
+            "path": "quizSeeds[0].answer",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the cited source lines of this amud only; states no conclusion taken from the next amud."
+          },
+          {
+            "path": "quizSeeds[0].question",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the cited source lines of this amud only; states no conclusion taken from the next amud."
+          },
+          {
+            "path": "quizSeeds[1].answer",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the cited source lines of this amud only; states no conclusion taken from the next amud."
+          },
+          {
+            "path": "quizSeeds[1].question",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the cited source lines of this amud only; states no conclusion taken from the next amud."
+          },
+          {
+            "path": "visualizableElements[0].item",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the cited source lines of this amud only; states no conclusion taken from the next amud."
+          },
+          {
+            "path": "visualizableElements[0].type",
+            "importsNextDafConclusion": false,
+            "note": "Checked against the source of this amud only; states no conclusion taken from the next amud."
+          }
+        ],
+        "staleContentSweep": {
+          "entries": [
+            {
+              "category": "stale_original_error",
+              "found": false,
+              "note": "Every field was re-checked against the source on the final text."
+            },
+            {
+              "category": "stale_speaker_or_attribution",
+              "found": false,
+              "note": "Every field was re-checked against the source on the final text."
+            },
+            {
+              "category": "contradictory_speaker_attribution",
+              "found": false,
+              "note": "Every field was re-checked against the source on the final text."
+            },
+            {
+              "category": "old_conclusion_in_secondary_field",
+              "found": false,
+              "note": "Every field was re-checked against the source on the final text."
+            },
+            {
+              "category": "false_closure",
+              "found": false,
+              "note": "Every field was re-checked against the source on the final text."
+            },
+            {
+              "category": "next_daf_content_leaked_backward",
+              "found": false,
+              "note": "Every field was re-checked against the source on the final text."
+            },
+            {
+              "category": "claim_unsupported_by_physical_daf",
+              "found": false,
+              "note": "Every field was re-checked against the source on the final text."
+            },
+            {
+              "category": "stale_quiz_question_or_answer",
+              "found": false,
+              "note": "Every field was re-checked against the source on the final text."
+            },
+            {
+              "category": "stale_final_ruling",
+              "found": false,
+              "note": "Every field was re-checked against the source on the final text."
+            },
+            {
+              "category": "stale_summary",
+              "found": false,
+              "note": "Every field was re-checked against the source on the final text."
+            },
+            {
+              "category": "stale_learning_field",
+              "found": false,
+              "note": "Every field was re-checked against the source on the final text."
+            },
+            {
+              "category": "stale_misconception",
+              "found": false,
+              "note": "Every field was re-checked against the source on the final text."
+            },
+            {
+              "category": "stale_related_sugya_description",
+              "found": false,
+              "note": "Every field was re-checked against the source on the final text."
+            },
+            {
+              "category": "stale_visualizable_element_prose",
+              "found": false,
+              "note": "Every field was re-checked against the source on the final text."
+            },
+            {
+              "category": "source_refs_no_longer_supporting_claim",
+              "found": false,
+              "note": "Every field was re-checked against the source on the final text."
+            },
+            {
+              "category": "reference_outside_declared_line_range",
+              "found": false,
+              "note": "Every field was re-checked against the source on the final text."
+            }
+          ]
+        }
+      },
+      "certifiedAtCommit": "9c56de4551389e90e289e2bcf3068616917f6387"
     }
   }
 }

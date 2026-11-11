@@ -1,7 +1,7 @@
 {
  "daf": "18b",
  "canonicalRef": "Yoma 18b",
- "summary": "The five foods that cause seminal emission are completed: garlic, cress, purslane, eggs, arugula. The arugula (gargir) digression: it brightens eyes. Rav Huna says eat it or rub it on the eyes. Then a startling report: Rav and Rav Nachman, when traveling, would publicly announce 'who wants to be my wife for today?' The Gemara explains why this was halakhically permissible: public announcement, proper kiddushin, willing women, and scholars' children are identifiable. After this temporary marriage ends, the woman needs seven clean days before remarrying. The mishna then describes the KG's final handoff to the Beit Avtinas family and the all-night vigil keeping him awake through methods ranging from Torah study to young priests snapping their fingers to startle him.",
+ "summary": "The amud lists cress, purslane, eggs, and arugula; a digression notes that arugula brightens the eyes, and Rav Huna says one who finds it should eat it or pass it over the eyes. Rav Giddel said in the name of Rav that a guest should not eat eggs, because they lead to a seminal emission, nor sleep in the host's garment. Rav and Rav Naḥman, when traveling, would announce, \"Who will be married to me for the day?\" The concern that children of different wives might unknowingly marry relatives is answered by the Sages' publicity. A further concern is that a woman who accepts a proposal needs seven clean days; messengers announced the proposal before the sages arrived. Alternatively, women were designated only for seclusion, without consummation. The mishna then describes the High Priest's handoff to the priestly elders, his ascent to the House of Avtinas, the oath administered to him, and the Torah and biblical readings used to keep him occupied through the night.",
  "review": {
   "content": "ai_generated",
   "sourceRefs": "ai_generated"
@@ -12,7 +12,7 @@
    "id": "yoma-18b-s01",
    "lineRange": {
     "startVilnaLine": 1,
-    "endVilnaLine": 20
+    "endVilnaLine": 22
    },
    "lines": [
     {
@@ -44,22 +44,22 @@
     "Yoma.18b.5"
    ],
    "display": {
-    "title": "Open and formal, not secret: the legal basis for Rav's traveling marriages",
+    "title": "Public announcements and the Gemara’s answers to objections about traveling marriages",
     "whats": "The five emission-causing foods are completed: garlic, cress, purslane, eggs, arugula. The arugula (gargir) digression notes it brightens eyes. Then a startling report: Rav and Rav Nachman, when traveling, would publicly announce 'who wants to be my wife for today?' and marry temporarily. The Gemara explains this controversial practice and its legal basis.",
-    "hint": "The traveling marriage practice attributed to Rav and Rav Nachman seems shocking but the Gemara explains it was a rabbinic tool to permit relations in transit without violating Torah law - using local women who were legal marriage partners (Jews) and formalizing a proper temporary kiddushin."
+    "hint": "How does the Gemara address concerns about Rav and Rav Naḥman seeking wives for a day while traveling?"
    },
    "learning": {
     "learnerQuestion": "How could Rav and Rav Nachman publicly announce for a 'wife for the day' while traveling without this being a forbidden, casual sexual arrangement?",
     "coreTension": "A report this blunt looks at first glance like scandalous behavior from leading Amoraim, so the sugya has to show what specific halakhic structure separates it from forbidden relations.",
-    "coreMove": "The Gemara isolates the features that make the practice valid: the announcement was public rather than secret, a proper kiddushin was performed, the woman consented freely, and because scholars are publicly recognized, any resulting children would be identifiable rather than at risk of an undetected forbidden union.",
-    "resolution": "The practice was halakhically valid because it satisfied formal kiddushin requirements under conditions (publicity, scholarly recognition) that closed off the mamzerut concern; the woman then required seven clean days before remarrying.",
+    "coreMove": "The Gemara raises two objections to the scholars’ announcements: the danger that unknown relatives might marry and the requirement of seven clean days. It answers with the scholars’ public recognition, advance notification, and an alternative of seclusion without consummation.",
+    "resolution": "The concern about unknown relatives is answered by the scholars’ public recognition. The seven-clean-days concern is answered by advance notification before arrival, or alternatively by designation for seclusion without consummation.",
     "takeaway": {
      "type": "legal_principle",
-     "text": "An act that looks scandalous on its surface can be halakhically valid if it satisfies every formal requirement of the relevant legal category; the Gemara evaluates the structure of an act, not how it appears."
+     "text": "The Gemara tests the traveling scholars’ practice against the risks of unknown relatives marrying and unnoticed menstrual bleeding, then gives a specific answer to each concern and an alternative account involving seclusion."
     },
-    "ahaMoment": "What reads as scandalous on first hearing turns out to be a fully structured legal act: open, consensual, formally married, for a defined period. The visibility is exactly what removes the danger.",
-    "learningBlocker": "Learners often react to the surface shock of 'wife for the day' and assume the Gemara is describing something improper, instead of tracking the specific legal conditions (public announcement, valid kiddushin, scholarly identifiability) that the sugya says make it permitted.",
-    "memoryAnchor": "Five foods done: garlic, cress, purslane, eggs, arugula. Rav's traveling marriages: publicly announced, proper kiddushin, women fully willing, children identified."
+    "ahaMoment": "The Gemara gives two answers to the seven-clean-days objection: advance notice allowed the woman to wait seven days, or the scholars only designated women for seclusion without consummation.",
+    "learningBlocker": "Learners may treat the announcement as the whole account instead of tracking the Gemara’s objections and answers: scholarly identifiability, advance notification for seven clean days, and the alternative of seclusion without consummation.",
+    "memoryAnchor": "Five foods: garlic, cress, purslane, eggs, arugula. Traveling scholars: public recognition, advance notice and seven clean days, or seclusion without consummation."
    },
    "argumentFlow": [
     {
@@ -67,7 +67,7 @@
      "type": "list",
      "label": "Five emission-causing foods completed",
      "speaker": "Gemara",
-     "text": "The five foods are: garlic, cress (shalhin), purslane (halalglogot), eggs, arugula (gargir). Arugula also brightens the eyes and can be rubbed on them.",
+     "text": "The five foods are: garlic, cress (shachalayim), purslane (chalglogot), eggs, arugula (gargir). Arugula also brightens the eyes and can be rubbed on them. Rav Pappa says arugula is most effective when it grows on the border of the field.",
      "sourceRefs": [
       {
        "sourceType": "gemara",
@@ -80,9 +80,9 @@
     {
      "id": "step-02",
      "type": "report",
-     "label": "Rav and Rav Nachman announce for daily wives",
-     "speaker": "Gemara",
-     "text": "When Rav traveled to Darshish (or similar places), he would publicly announce: 'Who wishes to be my wife for the day?' Similarly Rav Nachman when traveling announced for a temporary marriage.",
+     "label": "Rav Giddel said in the name of Rav: a guest should not eat eggs or sleep in his host's garment; Rav and Rav Nachman announce for daily wives",
+     "speaker": "Rav Giddel (citing Rav)",
+     "text": "When Rav traveled to Darshish, he would publicly announce: 'Who will be married to me for the day?' Similarly, Rav Nachman made this announcement when traveling to Shekhantziv.",
      "sourceRefs": [
       {
        "sourceType": "gemara",
@@ -95,9 +95,9 @@
     {
      "id": "step-03",
      "type": "justification",
-     "label": "Why this is permitted: open announcement + proper kiddushin",
+     "label": "Concern about unwitting forbidden unions",
      "speaker": "Gemara",
-     "text": "The practice was permissible because: (1) it was announced publicly, not clandestinely; (2) proper kiddushin (formal betrothal/marriage) was performed; (3) the women consented fully; (4) scholars (rabbanan) are publicly known, so their children would be identified and not suspected of mamzerut.",
+     "text": "Rabbi Eliezer ben Ya’akov objects that marrying in different places could lead children who are unaware of their relationship to marry each other. The Gemara answers that the Sages generate publicity, so their children’s identities would be known.",
      "sourceRefs": [
       {
        "sourceType": "gemara",
@@ -112,7 +112,7 @@
      "type": "concern",
      "label": "What about children from such unions?",
      "speaker": "Gemara",
-     "text": "A concern is raised: children from such temporary marriages might not know their father and could inadvertently marry relatives (forbidden unions). The Gemara responds: scholars are well-known; their children are identified.",
+     "text": "A concern is raised that children from the different marriages might be unaware of their relationship and could marry each other, leading to forbidden unions. The Gemara responds that the Sages are well known, so their children are identified.",
      "sourceRefs": [
       {
        "sourceType": "gemara",
@@ -125,77 +125,72 @@
     {
      "id": "step-05",
      "type": "ruling",
-     "label": "Such a woman needs seven clean days before remarrying",
-     "speaker": "Gemara",
-     "text": "After such a temporary marriage ends (the scholar leaves), the woman must wait seven clean days (shiva nekiyim) before she can marry another man. This is because desire may have caused her to see blood.",
+     "label": "A woman who accepts a marriage proposal needs seven clean days",
+     "speaker": "Rava",
+     "text": "Rava ruled that any woman who is proposed marriage and agrees must wait seven clean days before marrying, because anticipatory desire may have caused her to not notice menstrual bleeding.",
      "sourceRefs": [
       {
        "sourceType": "gemara",
        "lineId": "yoma-018b-l20",
        "vilnaLine": 20,
-       "note": "Required wait before the woman can remarry"
+       "note": "Required wait of seven clean days after a woman agrees to a marriage proposal, in case anticipatory desire caused her not to notice menstrual bleeding"
       }
      ]
     }
    ],
    "topicTags": [
-    "emission-causing foods",
+    "emission-causing-foods",
     "arugula",
-    "temporary marriage",
-    "Rav",
-    "Rav Nachman",
+    "temporary-marriage",
+    "rav",
+    "rav-nachman",
     "kiddushin",
-    "traveling rabbis"
+    "traveling-rabbis"
    ],
    "conceptRefs": [
     "Yoma.18b.1",
     "Yoma.18b.3"
    ],
    "requiresUnderstanding": [],
-   "misconceptions": [
-    {
-     "misconception": "Rav and Rav Nachman's 'wife for the day' was an informal or casual arrangement, closer to concubinage than marriage.",
-     "correction": "It was formal kiddushin, requiring the same legal betrothal as any marriage. The arrangement was temporary in duration, not in legal validity."
-    }
-   ],
+   "misconceptions": [],
    "relatedSugyot": [
     "yoma-18a-s03",
     "yoma-18b-s02"
    ],
    "visualizableElements": [
     {
-     "item": "Rav arrives in town - public announcement - woman accepts - proper kiddushin performed - they live together for the visit - Rav departs - woman counts seven clean days - she can remarry",
+     "item": "A messenger announces the scholar’s proposal before his arrival - a woman agrees - she waits seven clean days - the scholar arrives and marries her",
      "type": "sequence"
     }
    ],
    "quizSeeds": [
     {
-     "question": "What three factors made Rav and Rav Nachman's traveling marriages halakhically valid rather than forbidden relations?",
-     "answer": "The announcement was made publicly rather than secretly; proper kiddushin was performed; and because scholars are publicly recognized, their children would be identifiable, removing the mamzerut concern."
+     "question": "Why was there no concern that the children of Rav and Rav Nachman’s marriages might unknowingly marry their relatives?",
+     "answer": "The Sages were well known and generated publicity, so the identity of their children would also be known, removing the concern that relatives might unknowingly marry."
     },
     {
-     "question": "Why does the woman need to wait seven clean days after the traveling scholar departs, even though no menstrual period necessarily occurred?",
-     "answer": "Desire itself can cause blood to appear (dam teshuka). Since this possibility cannot be ruled out, she counts seven clean days as a precaution before she may marry another man."
+     "question": "Why does a woman who agrees to marry the traveling scholar need to wait seven clean days before marrying him?",
+     "answer": "Anticipatory desire might cause bleeding that she does not notice. Therefore, once she agrees to the proposal, she counts seven clean days before marrying the arriving scholar."
     }
    ],
-   "finalRuling": "Five emission-causing foods: complete. Traveling marriage practice: described as halakhically valid under specific conditions (public announcement, proper kiddushin, consenting willing women, scholar's public recognition).",
+   "finalRuling": "Five emission-causing foods are listed. Rav and Rav Naḥman announced that they sought a wife for the day; the Gemara answers concerns about unknown relatives and seven clean days, then offers an alternative of seclusion without consummation.",
    "difficulty": "advanced",
    "alternateAngles": [
     {
-     "angle": "Critical historical reading",
-     "desc": "Some later authorities are uncomfortable with the traveling-marriage reports and read them as non-literal. The Gemara presents them straightforwardly as historical practice."
+     "angle": "The Gemara’s resolutions",
+     "desc": "The Gemara answers that the Sages were well known. It further explains that messengers informed the women before the Sages arrived, or alternatively that women were designated only for seclusion without consummation, since an unmarried man's desire is more acute than that of one who has ready access to a wife, just as one who lacks bread in his basket feels hunger more acutely than one who has it."
     }
    ],
    "glossary": [
     {
-     "he": "קִדּוּשִׁין",
-     "translit": "kiddushin",
-     "en": "Formal betrothal/marriage. Even temporary marriages require proper kiddushin."
+     "he": "מַאן הָוְיָא לְיוֹמָא",
+     "translit": "man havya le-yoma",
+     "en": "A wife for the day of the scholar’s visit."
     },
     {
      "he": "שִׁבְעָה נְקִיִּים",
      "translit": "shiva nekiyim",
-     "en": "Seven clean days - counted after any blood-sighting before the woman may be with another man."
+     "en": "Seven clean days - observed after a woman agrees to a marriage proposal because anticipatory desire may have caused unnoticed menstrual bleeding."
     }
    ],
    "review": {
@@ -204,7 +199,7 @@
    },
    "prerequisiteKnowledge": [
     "The five emission-causing foods from 18a",
-    "Kiddushin and marriage law basics",
+    "The concerns of unknown family relationships and seven clean days after agreement to a marriage proposal",
     "The mamzerut concern"
    ]
   },
@@ -213,7 +208,7 @@
    "id": "yoma-18b-s02",
    "lineRange": {
     "startVilnaLine": 23,
-    "endVilnaLine": 28
+    "endVilnaLine": 31
    },
    "lines": [
     {
@@ -230,30 +225,30 @@
     "Yoma.18b.7"
    ],
    "display": {
-    "title": "From Torah study to finger-snapping: the escalating all-night vigil",
-    "whats": "The KG is formally handed to the Beit Avtinas family (the hereditary keepers of the incense formula) to be kept awake on the eve of Yom Kippur through the night. Various methods are used to prevent him from sleeping: dancing, music, and keeping him engaged. A Kohen Gadol who is a Torah scholar delivers a dvar Torah; if not a scholar, others learn before him. If he showed signs of wanting to sleep, young priests snap their fingers on the floor to wake him.",
-    "hint": "Sleep on the eve of Yom Kippur creates a halakhic risk: if the KG has a nocturnal emission (tum'at keri) he cannot perform the service. Keeping him awake is therefore a practical halakhic necessity, not just a custom."
+    "title": "Teaching and reading: the High Priest’s all-night vigil",
+    "whats": "The elders of the court pass the KG to the elders of the priesthood, who take him to the House of Avtinas and administer an oath that he will not alter their instructions. Throughout the night he is kept occupied: if he is a scholar, he teaches Torah; otherwise scholars teach before him. If accustomed to reading Scripture, he reads; otherwise they read Job, Ezra, and Chronicles before him. Zekharya ben Kevutal says he often read Daniel before him.",
+    "hint": "How did they keep the High Priest occupied through the night so that he would not fall asleep?"
    },
    "learning": {
-    "learnerQuestion": "Why does the mishna devote so much detail to keeping the KG awake all night before Yom Kippur, escalating from Torah study to young priests snapping their fingers at him?",
-    "coreTension": "If the KG falls asleep and has a nocturnal emission, he becomes ritually impure and cannot perform the next day's service, so the elders need an escalating, reliable system rather than a single fragile safeguard.",
-    "coreMove": "The mishna lays out a graded response: first engage the KG in something absorbing on its own terms (a Torah lesson, delivered by him if he is a scholar or to him if he is not), and only escalate to physically jarring measures like finger-snapping once drowsiness actually appears.",
-    "resolution": "The vigil runs in stages, from constructive engagement (Torah study) to direct physical intervention (finger-snapping), continuing until the time arrives to begin the morning service.",
+    "learnerQuestion": "How does the mishna keep the KG occupied throughout the night when his ability to teach or read varies?",
+    "coreTension": "The KG must be kept occupied throughout the night, but his abilities differ: he may teach or be taught, and he may read Scripture or have it read before him.",
+    "coreMove": "The mishna offers teaching and reading according to the KG’s abilities: he teaches if he is a scholar, otherwise scholars teach before him; he reads if accustomed to it, otherwise others read before him.",
+    "resolution": "The vigil is adapted to the High Priest: if he is a scholar, he teaches Torah; otherwise scholars teach before him. If he is accustomed to read Scripture, he reads; otherwise others read before him.",
     "takeaway": {
      "type": "conceptual",
-     "text": "A procedure built to prevent a single failure point often layers escalating safeguards rather than relying on one method, moving from the least intrusive intervention to the most direct only as needed."
+     "text": "A person can be kept engaged through activities suited to his abilities: teaching if he is a scholar, or listening and reading when appropriate."
     },
-    "ahaMoment": "The all-night vigil is functional halakha disguised as ceremony: sleep risks emission, emission disqualifies the KG, so every measure to keep him awake is a precautionary safeguard, not pageantry.",
-    "learningBlocker": "Learners tend to read the finger-snapping detail as colorful folklore and miss that it sits at the end of a deliberate escalation ladder, used only once gentler engagement (Torah study) has failed to keep the KG alert.",
-    "memoryAnchor": "Beit Avtinas: KG sworn in, then kept awake. Method escalates: Torah first, then finger-snapping. All to prevent tum'at keri."
+    "ahaMoment": "The vigil adapts to the KG: a scholar teaches, while others are taught; a practiced reader reads, while others are read to, keeping him occupied throughout the night.",
+    "learningBlocker": "Learners may miss how the mishna tailors the vigil to the KG: he either teaches or is taught, and either reads Scripture or is read to.",
+    "memoryAnchor": "Beit Avtinas: the High Priest is sworn not to change the instructed service, and the elders depart in tears. At night, teaching or biblical reading is used to keep him awake."
    },
    "argumentFlow": [
     {
      "id": "step-01",
      "type": "ruling",
-     "label": "KG handed to Beit Avtinas for the eve of Yom Kippur",
+     "label": "High Priest handed to the priestly elders and taken up to Beit Avtinas",
      "speaker": "Mishna",
-     "text": "The elders hand the KG to the priestly elders, who escort him to the Beit Avtinas chamber. They adjure him (make him swear) that he will not deviate from their instructions regarding the incense service. Then they leave him.",
+     "text": "The elders hand the KG to the priestly elders, who escort him to the Beit Avtinas chamber. They adjure him there, saying: \"My Master, High Priest, we are agents of the court, and you are our agent and the agent of the court.\" They adjure him (make him swear) in the name of Him who housed His name in this House that he will not deviate from their instructions regarding the incense service or any other service he performs alone. Then he parts from them weeping, and they part from him weeping.",
      "sourceRefs": [
       {
        "sourceType": "gemara",
@@ -268,7 +263,7 @@
      "type": "ruling",
      "label": "KG is kept awake all night",
      "speaker": "Mishna",
-     "text": "They keep the KG awake throughout the night. If he is a Torah scholar, he gives a dvar Torah. If he is not a scholar but is able to learn, others learn before him. If he begins to doze, young priests snap their fingers on the floor to startle him awake.",
+     "text": "They keep the KG occupied throughout the night. If he is a Torah scholar, he teaches Torah; if not, Torah scholars teach before him. If he is accustomed to reading Scripture, he reads; otherwise, they read before him from Job, Ezra, and Chronicles. Zekharya ben Kevutal says he often read before him from Daniel.",
      "sourceRefs": [
       {
        "sourceType": "gemara",
@@ -280,53 +275,48 @@
     }
    ],
    "topicTags": [
-    "KG vigil",
-    "Beit Avtinas",
-    "tum'at keri prevention",
-    "Yom Kippur eve",
-    "sleep prevention",
+    "kg-vigil",
+    "beit-avtinas",
+    "tum-at-keri-prevention",
+    "yom-kippur-eve",
+    "sleep-prevention",
     "oath",
-    "young priests"
+    "young-priests"
    ],
    "conceptRefs": [
     "Yoma.18b.6",
     "Yoma.18b.7"
    ],
    "requiresUnderstanding": [],
-   "misconceptions": [
-    {
-     "misconception": "Keeping the KG awake all night before Yom Kippur is a ceremonial tradition of honor.",
-     "correction": "It is a practical halakhic precaution: sleep risks a nocturnal seminal emission, which would render the KG ritually impure and unable to perform the next day's service."
-    }
-   ],
+   "misconceptions": [],
    "relatedSugyot": [
     "yoma-18b-s01",
     "yoma-19a-s01"
    ],
    "visualizableElements": [
     {
-     "item": "Eve of Yom Kippur at Beit Avtinas: oath administered, elders depart, KG alone with young priests. If scholar: gives shiur all night. If not: hears Torah. If sleepy: priests snap fingers on floor to wake him.",
+     "item": "At the House of Avtinas, the priestly elders administer an oath and depart. At night, the High Priest teaches Torah or is taught; he reads Scripture or others read Job, Ezra, and Chronicles before him.",
      "type": "sequence"
     }
    ],
    "quizSeeds": [
     {
-     "question": "Why was the High Priest kept awake all night on the eve of Yom Kippur?",
-     "answer": "To prevent a seminal emission from sleep (tum'at keri), which would make him ritually impure and unable to perform the Yom Kippur service the next day."
+     "question": "Why was the High Priest kept occupied all night to prevent him from sleeping?",
+     "answer": "To prevent the High Priest from sleeping during the night."
     },
     {
-     "question": "In what order were the methods for keeping the High Priest awake applied, from least to most direct?",
-     "answer": "First, constructive engagement: he delivered a Torah lesson if he was a scholar, or others taught Torah before him if he was not. Only once he showed actual signs of dozing did young priests snap their fingers on the floor to startle him."
+     "question": "How were teaching and biblical reading adapted to the High Priest’s abilities?",
+     "answer": "If he was a scholar, he taught Torah; if not, scholars taught before him. If accustomed to read Scripture, he read; otherwise others read before him."
     }
    ],
-   "finalRuling": "The all-night vigil is mandatory: the KG must stay awake until dawn to avoid tum'at keri. The Beit Avtinas chamber is where this takes place.",
+   "finalRuling": "They keep the KG occupied throughout the night: he teaches Torah or scholars teach before him, and he reads Scripture or others read before him.",
    "difficulty": "intro",
    "alternateAngles": [],
    "glossary": [
     {
      "he": "בֵּית אַבְטִינָס",
      "translit": "Beit Avtinas",
-     "en": "The hereditary priestly family responsible for the incense formula, and also the location/chamber where the KG stayed on the eve of Yom Kippur."
+     "en": "The place to which the elders of the priesthood took the High Priest before administering the oath."
     }
    ],
    "review": {
@@ -334,26 +324,21 @@
     "sourceRefs": "ai_generated"
    },
    "prerequisiteKnowledge": [
-    "Tum'at keri and its consequences for the Yom Kippur service",
-    "The KG's seven-day preparation period"
+    "The High Priest’s oath at the House of Avtinas",
+    "Teaching Torah and reading Scripture as ways to prevent sleep"
    ]
   }
  ],
  "glossary": [
   {
-   "he": "קִדּוּשִׁין",
-   "translit": "kiddushin",
-   "en": "Formal betrothal/marriage. Even temporary marriages require proper kiddushin."
-  },
-  {
    "he": "שִׁבְעָה נְקִיִּים",
    "translit": "shiva nekiyim",
-   "en": "Seven clean days - counted after any blood-sighting before the woman may be with another man."
+   "en": "Seven clean days - required after a woman accepts a marriage proposal because anticipatory desire may cause unnoticed bleeding."
   },
   {
    "he": "בֵּית אַבְטִינָס",
    "translit": "Beit Avtinas",
-   "en": "The hereditary priestly family responsible for the incense formula, and also the location/chamber where the KG stayed on the eve of Yom Kippur."
+   "en": "The House of Avtinas, to which the priestly elders took the High Priest and where they administered him an oath."
   }
  ],
  "rashiTranslations": [
