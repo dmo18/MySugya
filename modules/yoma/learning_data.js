@@ -38917,7 +38917,7 @@ const DAF_CONTENT = {
   "17b": {
     canonicalRef: "Yoma 17b",
     daf: "17b",
-    summary: "The page has two parts. First: confirmation that the Chamber of the Lambs sat in the southwest corner of the Beit HaMoked, resolving Rav Adda's proposal. A brief objection about 'all turns must be to the right' is answered: that rule applies only during Temple service, not to theoretical spatial counting. Second topic: the High Priest sacrifices first and takes first. The Shewbread distribution debate between R. Yehuda and the Rabbanan focuses on how many loaves the KG receives (4 or 5) and whether that varies with the priestly shift configurations. Abaye and Rava offer competing readings of the mishna's consistency.",
+    summary: "The page has two parts. First, it confirms that the Chamber of the Lambs was in the southwest, resolving the contradiction concerning the location of the chamber where the shewbread was prepared. The objection that all turns must be to the right is answered: that rule applies during Temple service, not to a mere reckoning. Second, the High Priest may choose first which offering to sacrifice and which portion to eat. A baraita says he takes one of the two Shavuot loaves and four or five shewbread loaves; Rabbi Yehuda HaNasi says he always takes five. Abaye resolves the baraita's apparent inconsistency by explaining that the Rabbis concede that it is inappropriate to give the High Priest a piece of a loaf.",
     sugyot: [
       {
         id: "yoma-17b-s01",
@@ -38928,16 +38928,16 @@ const DAF_CONTENT = {
           startLineId: "yoma-017b-l01",
           endLineId: "yoma-017b-l06",
           startVilnaLine: 1,
-          endVilnaLine: 6
+          endVilnaLine: 8
         },
         display: {
           title: "Operational rule, not descriptive rule: why 'turn right' does not govern the chamber's corner",
-          whats: "Confirmation that the Chamber of the Lambs sat in the southwest corner of the Beit HaMoked, definitively resolving the long Yoma/Middot debate. A brief objection based on the rule 'all turns must be to the right' (during service) is deflected: that rule applies to priestly movement during service, not to theoretical spatial counting in descriptions of Temple layout.",
-          hint: "The 'always right' rule (kol piyot) is a practical halacha about how priests move in the Temple, not a logical requirement for how scholars count or describe chamber locations. The two contexts are different."
+          whats: "Confirmation that the Chamber of the Lambs was in the southwest. A brief objection based on the rule that all turns must be to the right is answered: that rule applies during Temple service, while here the leftward description is only a reckoning and no priest actually followed that route.",
+          hint: "Why does the rule that all turns must be to the right not prevent a tanna from describing the chambers via the left?"
         },
         learning: {
           learnerQuestion: "If priests are required to always turn right during service, shouldn't that same rule dictate the order in which the Talmud lists Temple chambers?",
-          coreTension: "The kol piyot ('all turns to the right') rule, if applied to chamber-listing order, would force the count to place the Chamber of the Lambs in the NW rather than the just-reached SW verdict, threatening to undo the conclusion.",
+          coreTension: "How can one tanna envision the chambers via the left when the rule requires all turns to be made only to the right?",
           coreMove: "The Gemara distinguishes two different things 'turning right' could mean: an operational halakha governing how a kohen physically moves during the Temple service, versus a literary convention for how a tanna sequences chamber locations in a description. Since kol piyot only governs the former, it cannot be imported to constrain or contradict the latter.",
           resolution: "The SW corner placement stands confirmed; kol piyot does not apply to descriptive chamber-counting, only to actual priestly movement during service.",
           takeaway: {
@@ -38962,7 +38962,7 @@ const DAF_CONTENT = {
             type: "verdict",
             label: "SW corner confirmed for Chamber of the Lambs",
             speaker: "Gemara",
-            text: "Final determination: the Chamber of the Lambs was in the southwest corner of the Beit HaMoked complex. This resolves the contradiction between Yoma/Tamid and Middot by attributing them to different counting directions.",
+            text: "Final determination: the Chamber of the Lambs was in the southwest corner. If it were in the northwest, the Chamber of the Seals would interpose between it and the shewbread chamber, so Rav Huna's resolution would fail.",
             sourceRefs: [
               {
                 sourceType: "gemara",
@@ -38975,9 +38975,9 @@ const DAF_CONTENT = {
           {
             id: "step-02",
             type: "objection",
-            label: "Objection: 'all turns to the right' implies NW not SW",
+            label: "Objection: How may the chambers be described via the left?",
             speaker: "Gemara",
-            text: "The Talmud teaches that all priestly turns during service are to the right (clockwise). If the Tamid describes the priest moving right from the south, the first chamber encountered is NW - contradicting the SW verdict.",
+            text: "The Gemara objects that all turns should be made only to the right, whereas one tanna's reckoning describes the chambers via the left.",
             sourceRefs: [
               {
                 sourceType: "gemara",
@@ -39009,7 +39009,7 @@ const DAF_CONTENT = {
         ],
         requiresUnderstanding: [],
         prerequisiteKnowledge: [
-          "The Chamber of the Lambs debate from 15b-17a",
+          "The dispute over whether the Chamber of the Lambs was in the southwest or northwest",
           "The 'all turns to the right' rule in Temple service"
         ],
         misconceptions: [
@@ -39023,13 +39023,13 @@ const DAF_CONTENT = {
         ],
         visualizableElements: [
           {
-            item: "Beit HaMoked floor plan with Chamber of Lambs confirmed at SW corner; arrow showing rightward (clockwise) priestly movement path during service",
+            item: "Diagram showing the Chamber of the Lambs in the southwest and contrasting rightward turns during Temple service with a leftward descriptive reckoning",
             type: "place"
           }
         ],
         quizSeeds: [
           {
-            question: "Why doesn't kol piyot ('all turns to the right') force the Chamber of the Lambs into the NW corner instead of the agreed SW corner?",
+            question: "Why may a tanna enumerate the chambers leftward despite the rule that all turns must be to the right?",
             answer: "Kol piyot is an operational halakha governing how kohanim physically move during Temple service; it does not govern the order in which a tanna lists or describes chamber locations in a text."
           },
           {
@@ -39041,12 +39041,12 @@ const DAF_CONTENT = {
         difficulty: "intermediate",
         alternateAngles: [],
         topicTags: [
-          "Chamber of the Lambs",
-          "Beit HaMoked",
-          "all turns right",
-          "priestly movement",
-          "Temple layout",
-          "Tractate Middot"
+          "chamber-of-the-lambs",
+          "beit-hamoked",
+          "all-turns-right",
+          "priestly-movement",
+          "temple-layout",
+          "tractate-middot"
         ],
         review: {
           content: "ai_generated",
@@ -39062,25 +39062,25 @@ const DAF_CONTENT = {
           startLineId: "yoma-017b-l09",
           endLineId: "yoma-017b-l25",
           startVilnaLine: 9,
-          endVilnaLine: 25
+          endVilnaLine: 24
         },
         display: {
           title: "First portion, not a guaranteed half: the KG's Shewbread privilege",
-          whats: "Two topics. First: the High Priest sacrifices before all other kohanim and takes the first portion - this is his privilege as KG. Second: a dispute between R. Yehuda and the Rabbanan about how the Shewbread loaves are distributed. Do two loaves go to the KG alone, or does he share the same half-for-half distribution as everyone else?",
-          hint: "The KG's first-portion right is well established. The Shewbread dispute centers on whether the two Shavuot loaves (the halot from the communal wheat offering) change the distribution - sometimes there are extra loaves to distribute alongside the regular Shewbread."
+          whats: "Two topics. First: the High Priest may choose which offering to sacrifice and which sin-offering or guilt-offering to eat. Second: the baraita gives him one of the two Shavuot loaves and four or five Shewbread loaves. Rabbi Yehuda HaNasi says he always takes five, while the Rabbanan say he takes less than half.",
+          hint: "How can the baraita say that the High Priest takes one of the two Shavuot loaves, yet only four or five of the twelve shewbread loaves?"
         },
         learning: {
           learnerQuestion: "If the High Priest's privilege is to take the first portion, why would he ever receive less than half the Shewbread loaves?",
-          coreTension: "The KG's 'first and best' privilege seems to entitle him to a full half of the twelve Shewbread loaves, yet the Rabbanan hold his portion is sometimes only four or five loaves, and the count itself shifts from week to week.",
-          coreMove: "R. Yehuda reads the KG's privilege as a fixed half-share (six loaves) regardless of how many shifts are present. The Rabbanan instead make his portion proportional to whichever shifts actually share the distribution that week, so an extra mishmar staying through Shabbat shrinks the whole pool, including the KG's share, without violating his first-portion right - he still goes first, just from a smaller pool. Abaye then resolves the mishna's internal inconsistency by reading its opening and middle clauses as Rabbanan and its closing clause, on the Shavuot loaves, as R. Yehuda.",
-          resolution: "The dispute remains formally open between R. Yehuda and the Rabbanan. Abaye's reading treats the mishna itself as a composite text combining both positions in different clauses.",
+          coreTension: "The KG's privilege seems to entitle him to half of the loaves, yet the Rabbanan hold that his portion of the Shewbread is only four or five loaves, less than half.",
+          coreMove: "The Gemara tests the baraita's clauses against the dispute. One of two Shavuot loaves appears to follow Rabbi Yehuda HaNasi's half-share rule; four or five Shewbread loaves appears to follow the Rabbanan, who give less than half; and the final clause explicitly gives Rabbi's ruling of five. Abaye instead assigns the first and middle clauses to the Rabbanan: although their share would be less than one Shavuot loaf, they concede that it is inappropriate to give the KG a piece, so he receives a whole loaf.",
+          resolution: "The dispute remains between Rabbi Yehuda HaNasi, who says the KG always takes five, and the Rabbanan, who give him less than half. Abaye reads the first and middle clauses of the baraita as Rabbanan, with their concession that the KG receives a whole Shavuot loaf.",
           takeaway: {
             type: "legal_principle",
-            text: "A privilege to take 'the first portion' fixes priority of order, not a guaranteed fraction of the total - so the size of that portion can still shrink when the pool being divided changes."
+            text: "A privilege to take 'the first portion' does not itself guarantee half of the total: the Rabbanan give the KG less than half of the Shewbread, while Rabbi Yehuda HaNasi says he always takes five."
           },
-          ahaMoment: "The KG's first-portion right is about priority of order, not a guaranteed fraction: when extra mishmarot share the distribution, the whole pool shrinks, and the Rabbanan let the KG's portion shrink with it rather than treating 'first' as 'half no matter what.'",
-          learningBlocker: "Learners assume 'takes the first portion' must mean 'gets a fixed biggest share,' so a four-or-five-loaf KG portion looks like the Rabbanan are shorting the High Priest, when the real driver is that the size of the whole pool being divided changes from week to week depending on which shifts are present.",
-          memoryAnchor: "KG goes first, takes first - but 'first' fixes order, not amount. R. Yehuda: fixed half (six). Rabbanan: proportional (four or five) depending on which shifts share that week."
+          ahaMoment: "Although the Rabbanan give the KG less than half, they concede that he takes one whole Shavuot loaf, since it is inappropriate to give the High Priest a piece of a loaf.",
+          learningBlocker: "Learners may assume that 'takes the first portion' means the KG must receive half. The baraita instead records the Rabbanan's less-than-half position, while granting him one whole Shavuot loaf because giving him a piece would be inappropriate.",
+          memoryAnchor: "KG chooses first and takes first. Rabbi Yehuda HaNasi: always five Shewbread loaves. Rabbanan: less than half, four or five; but one whole Shavuot loaf, because a piece is inappropriate."
         },
         lines: [
           { id: "yoma-017b-l09", kind: "gemara", he: "שֶׁכֹּהֵן גָּדוֹל מַקְרִיב חֵלֶק בָּרֹאשׁ וְנוֹטֵל חֵלֶק\nבָּרֹאשׁ. תָּנוּ רַבָּנַן: כֵּיצַד מַקְרִיב חֵלֶק בָּרֹאשׁ?\nאוֹמֵר: עוֹלָה זוֹ אֲנִי מַקְרִיב, מִנְחָה זוֹ אֲנִי\nמַקְרִיב.",
@@ -39105,7 +39105,7 @@ const DAF_CONTENT = {
             type: "ruling",
             label: "Mishna: KG sacrifices first and takes first",
             speaker: "Mishna",
-            text: "The High Priest's privilege: he offers his sacrifice before any other kohen, and he takes the first portion from all Temple distributions.",
+            text: "The High Priest's privilege: he may choose first which burnt-offering or meal-offering to sacrifice and which sin-offering or guilt-offering to eat.",
             sourceRefs: [
               {
                 sourceType: "gemara",
@@ -39119,8 +39119,8 @@ const DAF_CONTENT = {
             id: "step-02",
             type: "elaboration",
             label: "Shewbread loaf count varies: 4 or 5",
-            speaker: "Gemara",
-            text: "Depending on the week, the KG receives either four or five Shewbread loaves. When there is a delayed or early mishmar (watch shift), more loaves accumulate, changing the count.",
+            speaker: "Baraita",
+            text: "The KG receives either four or five of the twelve Shewbread loaves.",
             sourceRefs: [
               {
                 sourceType: "gemara",
@@ -39133,9 +39133,9 @@ const DAF_CONTENT = {
           {
             id: "step-03",
             type: "dispute",
-            label: "R. Yehuda vs Rabbanan on KG's loaf portion",
-            speaker: "R. Yehuda / Rabbanan",
-            text: "R. Yehuda: the KG takes exactly half (six of twelve). Rabbanan: the KG takes proportionally from the distribution - less than half, because the two shifts must each get their due.",
+            label: "Rabbi Yehuda HaNasi vs Rabbanan on KG's loaf portion",
+            speaker: "Rabbi Yehuda HaNasi / Rabbanan",
+            text: "Rabbi Yehuda HaNasi: the KG always takes five of the twelve Shewbread loaves, based on “for Aaron and his sons,” which gives half to Aaron and half to his sons. Rabbanan: the KG takes less than half, namely four or five loaves.",
             sourceRefs: [
               {
                 sourceType: "gemara",
@@ -39150,28 +39150,13 @@ const DAF_CONTENT = {
             type: "elaboration",
             label: "How are the two Shavuot loaves handled?",
             speaker: "Gemara",
-            text: "The two loaves of Shavuot (halot ha-todah) are added to the Shewbread distribution on the Shabbat following Shavuot. The question is whether the KG takes one of the two special Shavuot loaves or whether those are split differently.",
+            text: "The baraita says the KG takes one of the two Shavuot loaves, four or five of the Shewbread loaves, while Rabbi Yehuda HaNasi says he always takes five. The Gemara asks whether its first and last clauses follow Rabbi while its middle clause follows the Rabbanan.",
             sourceRefs: [
               {
                 sourceType: "gemara",
                 lineId: "yoma-017b-l23",
                 vilnaLine: 23,
                 note: "Shavuot loaves in distribution"
-              }
-            ]
-          },
-          {
-            id: "step-05",
-            type: "resolution",
-            label: "Abaye: the mishna follows both Rabbanan and R. Yehuda in different clauses",
-            speaker: "Abaye",
-            text: "Abaye resolves the internal mishna tension: the opening clause follows Rabbanan (proportional distribution), while the ending clause (involving the two Shavuot loaves) follows R. Yehuda. The mishna mixes both positions.",
-            sourceRefs: [
-              {
-                sourceType: "gemara",
-                lineId: "yoma-017b-l25",
-                vilnaLine: 25,
-                note: "Abaye's mixed-mishna resolution"
               }
             ]
           }
@@ -39182,14 +39167,14 @@ const DAF_CONTENT = {
         ],
         requiresUnderstanding: [],
         prerequisiteKnowledge: [
-          "The Shewbread system (12 loaves, two shifts)",
+          "The Shewbread system (12 loaves)",
           "The KG's first-distribution privilege",
           "The Shavuot communal loaves"
         ],
         misconceptions: [
           {
-            misconception: "The KG always receives exactly half of the twelve Shewbread loaves (six).",
-            correction: "Per the Rabbanan, his portion is proportional to the pool actually being divided that week, which can be four or five loaves depending on how many priestly shifts are sharing the distribution."
+            misconception: "The KG receives exactly half of the twelve Shewbread loaves.",
+            correction: "Per the Rabbanan, the KG takes less than half of the Shewbread—four or five loaves. They nevertheless give him one whole Shavuot loaf because it is inappropriate to give the High Priest a piece."
           }
         ],
         relatedSugyot: [
@@ -39198,35 +39183,35 @@ const DAF_CONTENT = {
         ],
         visualizableElements: [
           {
-            item: "Shabbat Shewbread distribution: 12 loaves -> outgoing shift (6) + incoming shift (6). KG takes from outgoing shift first. With Shavuot loaves: 14 total, varied splits.",
-            type: "sequence"
+            item: "Shewbread distribution: 12 loaves, of which the KG takes four or five. From the two Shavuot loaves, he takes one whole loaf.",
+            type: "comparison"
           },
           {
-            item: "R. Yehuda: KG takes half (6). Rabbanan: KG takes proportional portion (4 or 5 depending on week). Two columns showing the math for each position.",
+            item: "Rabbi Yehuda HaNasi: the KG always takes five of the twelve Shewbread loaves. Rabbanan: the KG takes four or five. Two columns comparing the positions.",
             type: "contrast"
           }
         ],
         quizSeeds: [
           {
-            question: "What is the dispute between R. Yehuda and the Rabbanan about the KG's Shewbread portion?",
-            answer: "R. Yehuda holds the KG always takes a fixed half of the twelve loaves (six). The Rabbanan hold his portion is proportional to the pool actually being divided that week, which can be four or five loaves."
+            question: "What is the dispute between Rabbi Yehuda HaNasi and the Rabbanan about the KG's Shewbread portion?",
+            answer: "Rabbi Yehuda HaNasi holds that the KG always takes five of the twelve Shewbread loaves. The Rabbanan hold that he takes four or five loaves."
           },
           {
-            question: "How does Abaye resolve the apparent inconsistency within the mishna's own wording about the KG's portion?",
-            answer: "He reads the mishna as combining two positions: its opening and middle clauses follow the Rabbanan's proportional view, while its closing clause, dealing with the Shavuot loaves, follows R. Yehuda."
+            question: "How does Abaye resolve the apparent inconsistency within the baraita's own wording about the KG's portion?",
+            answer: "He reads the baraita's opening and middle clauses as following the Rabbanan. They concede that the KG takes one whole Shavuot loaf because it is inappropriate to give him a piece; the closing clause follows Rabbi Yehuda HaNasi."
           }
         ],
-        finalRuling: "Disputed: R. Yehuda (KG takes half = six) vs Rabbanan (KG takes proportionally, 4 or 5). Abaye holds the mishna incorporates both positions in different clauses.",
+        finalRuling: "Disputed: Rabbi Yehuda HaNasi says the KG always takes five Shewbread loaves, while the Rabbanan hold that he takes less than half. Abaye reads the first and middle clauses of the baraita as Rabbanan, who concede that the KG receives a whole Shavuot loaf because giving him a piece is inappropriate.",
         difficulty: "advanced",
         alternateAngles: [],
         topicTags: [
-          "KG rights",
-          "Shewbread",
-          "R. Yehuda",
-          "Rabbanan",
-          "Abaye",
-          "priestly distribution",
-          "Shavuot loaves"
+          "kg-rights",
+          "shewbread",
+          "r-yehuda",
+          "rabbanan",
+          "abaye",
+          "priestly-distribution",
+          "shavuot-loaves"
         ],
         review: {
           content: "ai_generated",
@@ -39238,7 +39223,7 @@ const DAF_CONTENT = {
       {
         he: "חַלּוֹת",
         translit: "chalot",
-        en: "The two leavened loaves of Shavuot (Leviticus 23:17). Distributed among kohanim; affect the Shewbread count when Shavuot falls near Shabbat."
+        en: "The two loaves offered on the festival of Shavuot, one of which the High Priest may take."
       }
     ],
     rashiLines: [
