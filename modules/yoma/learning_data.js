@@ -2243,7 +2243,7 @@ const DAF_CONTENT = {
   "2b": {
     canonicalRef: "Yoma 2b",
     daf: "2b",
-    summary: "2b continues the Gemara's analysis of the gezerah shavah that sources the seven-day separation rule. Before accepting that 'tzivah' in the milu'im verse links to the heifer's 'tzivah,' the Gemara systematically disqualifies two other 'tzivah' candidates: the one in the Yom Kippur passage (it appears after the service, not before) and the 'tzavoto' form in the offerings verse (different conjugation). A challenge from Rabbi Yishmael's school - that different verb forms can form a gezerah shavah - is answered by the rule that identical forms take priority when available. The Gemara then narrows 'le-chaper' (to atone) to exclude general offerings (daily, no fixed time), Festivals (three times a year), any single Festival (a seven-day service, not a one-day service), and Shemini Atzeret (preceded by sanctified days). A kal va-chomer is proposed and rejected by both Rav Mesharshiyya and Rav Ashi.",
+    summary: "2b continues the Gemara's analysis of the gezerah shavah that sources the seven-day separation rule. Before accepting that 'tzivah' in the milu'im verse links to the heifer's 'tzivah,' the Gemara systematically disqualifies two other 'tzivah' candidates: the one in the Yom Kippur passage (it appears after the service, not before) and the 'tzavoto' form in the offerings verse (different conjugation). A challenge from Rabbi Yishmael's school - that different verb forms can form a gezerah shavah - is answered by the rule that identical forms take priority when available. The Gemara then narrows 'le-chaper' (to atone) to exclude general offerings (daily, no fixed time), Festivals (three times a year), and a single Festival (raising, then setting aside, the question of whether it would be Passover, with which the Torah opens, or Sukkot, which has the most offerings) - excluded since it is a seven-day service, not a one-day service - and Shemini Atzeret (preceded by sanctified days). A kal va-chomer is proposed and rejected by both Rav Mesharshiyya and Rav Ashi.",
     sugyot: [
       {
         id: "yoma-002b-s01",
@@ -2254,7 +2254,7 @@ const DAF_CONTENT = {
           startLineId: "yoma-002b-l01",
           endLineId: "yoma-002b-l04",
           startVilnaLine: 1,
-          endVilnaLine: 4
+          endVilnaLine: 6
         },
         display: {
           title: "Why not use Yom Kippur's 'tzivah'? Before vs. after performance",
@@ -2369,18 +2369,7 @@ const DAF_CONTENT = {
         relatedSugyot: [
           "yoma-002b-s02"
         ],
-        visualizableElements: [
-          {
-            item: "Timeline showing 'tzivah' in YK passage (after service) vs. 'tzivah' in inauguration (before service) - same word, opposite positions",
-            role: "contrast",
-            priority: 1
-          },
-          {
-            item: "Table comparing two 'tzivah' candidates: YK (post-facto) and 'tzavoto' (different form) - both disqualified for different reasons",
-            role: "sequence",
-            priority: 2
-          }
-        ],
+        visualizableElements: [],
         quizSeeds: [
           {
             question: "Why does the Gemara reject using Yom Kippur's 'tzivah' for the gezerah shavah?",
@@ -2428,20 +2417,20 @@ const DAF_CONTENT = {
           startLineId: "yoma-002b-l07",
           endLineId: "yoma-002b-l09",
           startVilnaLine: 7,
-          endVilnaLine: 9
+          endVilnaLine: 11
         },
         display: {
           title: "Challenge from Rabbi Yishmael's school: can different verb forms link?",
           oneLine: "The school of Rabbi Yishmael derived a gezerah shavah from 'veshav' and 'uva' - two different verbs. Doesn't that mean 'tzavoto' can link to 'tzivah'? Answer: only when no identical form is available.",
-          shortSummary: "Rabbi Yishmael's school linked 've-shav' (returning) to 'u-va' (coming) in leprous-house laws - two different verb roots. If they can form a gezerah shavah, why can't 'tzavoto' link to 'tzivah'? The Gemara answers: different forms are only used when no identical form exists. Since 'tzivah' is available in the heifer passage, that identical form takes precedence.",
-          whats: "The school of Rabbi Yishmael derived a halakha from 've-shav' (and he returned) linked to 'u-va' (and he came) - two completely different verbs. If that works, why can't 'tzivah' link to 'tzavoto'? The answer introduces a hierarchy rule: you must use the closest available match. When 'tzivah' is available in the heifer passage, you have to use that exact form. Rabbi Yishmael's school used different verbs only because no identical form was available in the leprous-house context.",
+          shortSummary: "Rabbi Yishmael's school linked 've-shav' (returning) to 'u-va' (coming) in leprous-house laws - two different verb roots. If they can form a gezerah shavah, why can't 'tzavoto' link to 'tzivah'? The Gemara answers: different forms are only used when no identical form exists; where an identical form is available, that identical form takes precedence.",
+          whats: "The school of Rabbi Yishmael derived a halakha from 've-shav' (and he returned) linked to 'u-va' (and he came) - two completely different verbs. If that works, why can't 'tzivah' link to 'tzavoto'? The answer introduces a hierarchy rule: an identical form takes precedence over one that is merely similar, which is used only when no identical form is available.",
           hint: "What does this rule reveal about how the Sages thought a gezerah shavah derives its authority?"
         },
         learning: {
           learnerQuestion: "If Rabbi Yishmael's school used two completely different verbs in a gezerah shavah, why is 'tzavoto' disqualified for being slightly different from 'tzivah'?",
           coreTension: "The school of Rabbi Yishmael's precedent seems to show that different forms can link; but that precedent also contains its own limiting principle.",
           coreMove: "The hierarchy rule: identical forms take priority over similar forms. The Yishmael precedent applies only in the absence of an identical match.",
-          resolution: "Different forms are acceptable only where identical forms do not exist. The availability of 'tzivah' in the heifer passage mandates using it, not the near-match 'tzavoto.'",
+          resolution: "Different forms are acceptable only where identical forms do not exist; where an identical form is available, we derive from that identical form rather than from one that is merely similar.",
           takeaway: {
             type: "derivation_principle",
             text: "Among available verbal analogy candidates, identical forms always take priority over similar forms. A near-match is only used when no exact match exists."
@@ -2451,7 +2440,7 @@ const DAF_CONTENT = {
             category: "hermeneutical",
             notes: "The Gemara establishes a preference ordering for gezerah shavah candidates."
           },
-          ahaMoment: "Rabbi Yishmael's school's own precedent is what generates the limiting rule. The challenge defeats itself: their methodology already contains a priority principle that explains why 'tzavoto' cannot work here.",
+          ahaMoment: "The limiting rule isn't specific to this case - it's the Gemara's own general principle that identical verbal forms take priority over merely similar ones for a gezerah shavah, which is why 'tzavoto' cannot be derived from 'tzivah' once an identical-form derivation is available.",
           learningBlocker: "Students may take the Yishmael precedent as a blanket permission for near-matches. The Gemara shows it is the exception, not the rule.",
           memoryAnchor: "Different verb roots can pair in a gezerah shavah - but only as a last resort. 'Tzavoto' fails here not because it is too different, but because 'tzivah' is available. The fallback rule only activates when the exact match is absent."
         },
@@ -2469,7 +2458,7 @@ const DAF_CONTENT = {
             type: "challenge",
             label: "Yishmael school's precedent",
             speaker: "Gemara",
-            text: "What practical difference is there? The school of Rabbi Yishmael derived a gezerah shavah from 've-shav' (Lev. 14:39) and 'u-va' (Lev. 14:44) - two completely different roots. Clearly different forms can link.",
+            text: "What practical difference is there? The school of Rabbi Yishmael derived a gezerah shavah between 've-shav' (Lev. 14:39) and 'u-va' (Lev. 14:44) - two completely different roots - to establish that both returning and coming occur only after seven days. Clearly different forms can link.",
             sourceRefs: [
               {
                 sourceType: "gemara",
@@ -2502,7 +2491,7 @@ const DAF_CONTENT = {
         misconceptions: [
           {
             misconception: "R. Yishmael's school's precedent shows that different verb forms can always be linked.",
-            correction: "Their precedent applies only when no identical form is available - it is the exception, not the rule. The availability of 'tzivah' mandates using it over any near-match.",
+            correction: "Their precedent applies only when no identical form is available - it is the exception, not the rule.",
             correctedByStepId: "step-02"
           }
         ],
@@ -2511,14 +2500,9 @@ const DAF_CONTENT = {
         ],
         visualizableElements: [
           {
-            item: "Hierarchy diagram: identical verbal form (priority) -> similar form (fallback) -> different roots (last resort only)",
-            role: "sequence",
+            item: "Two-tier rule: identical verbal form (priority) vs. similar/comparable form (used only when no identical form exists)",
+            role: "comparison",
             priority: 1
-          },
-          {
-            item: "R. Yishmael's leprous-house precedent: 've-shav' and 'u-va' - different roots that successfully link, showing the fallback rule in action",
-            role: "anchor",
-            priority: 2
           }
         ],
         quizSeeds: [
@@ -2535,7 +2519,7 @@ const DAF_CONTENT = {
           },
           {
             question: "How does the Gemara answer R. Yishmael's school's challenge?",
-            answer: "The R. Yishmael precedent applies only when no identical form is available. Since 'tzivah' is available in the heifer passage, that identical form must be used. Different forms are a fallback, not a first choice.",
+            answer: "The R. Yishmael precedent applies only when no identical form is available. Different forms are a fallback, not a first choice; where an identical form exists, it takes precedence.",
             sourceRefs: [
               {
                 sourceType: "gemara",
@@ -2568,7 +2552,7 @@ const DAF_CONTENT = {
           startLineId: "yoma-002b-l11",
           endLineId: "yoma-002b-l16",
           startVilnaLine: 11,
-          endVilnaLine: 16
+          endVilnaLine: 19
         },
         display: {
           title: "Does 'to atone' include general offerings or Festivals?",
@@ -2583,7 +2567,7 @@ const DAF_CONTENT = {
           coreMove: "Daily offerings are excluded by 'fixed time'; Festivals are excluded by 'once a year.' The criteria are distinct because the failure modes differ.",
           resolution: "The inauguration was a unique, once-a-year event with a fixed annual date - general atonement offerings fail on the first count (no fixed date), Festivals collectively fail on the second (three times a year, not once). Which specific candidate or candidates share both features is narrowed further in the sugyot that follow.",
           takeaway: {
-            type: "legal_principle",
+            type: "methodological_principle",
             text: "When deriving rules by analogy, every feature of the source case must be matched. The inauguration was both time-fixed and once-a-year; daily offerings fail on the first, Festivals on the second."
           },
           reasoningPattern: {
@@ -2591,7 +2575,7 @@ const DAF_CONTENT = {
             category: "hermeneutical",
             notes: "The Gemara excludes candidates one at a time by showing which feature of the inauguration each candidate lacks."
           },
-          ahaMoment: "The Gemara could have used 'once a year' to exclude daily offerings too, but it uses 'fixed time' instead - a broader and more immediate criterion. This suggests the Gemara is building the argument in the most efficient order.",
+          ahaMoment: "The 'fixed time' criterion alone would not exclude Festivals, since they too occur at set times each year; the Gemara must add a further criterion - occurring only once a year - to exclude the thrice-yearly Festivals.",
           learningBlocker: "Students may wonder why the practical objection fails. The Gemara takes it seriously enough to rebut it before invoking the principle.",
           memoryAnchor: "Daily offerings: no annual date, excluded by 'fixed time.' Festivals: three times a year, excluded by 'once a year.' Two deficiencies, two different criteria. The Gemara uses the most precise tool available for each case."
         },
@@ -2610,7 +2594,7 @@ const DAF_CONTENT = {
           {
             id: "step-01",
             type: "proposal",
-            label: "le-chaper = all atonement offerings",
+            label: "le-chaper = Yom Kippur's actions (baseline reading); challenged as = atonement of offerings generally",
             speaker: "Gemara",
             text: "'To atone' could refer to any atonement offering - requiring separation before all such service.",
             sourceRefs: [
@@ -2618,7 +2602,7 @@ const DAF_CONTENT = {
                 sourceType: "gemara",
                 lineId: "yoma-002b-l11",
                 vilnaLine: 11,
-                note: "Proposal: all atonement offerings"
+                note: "Proposal: atonement of offerings"
               },
               {
                 sourceType: "gemara",
@@ -2645,10 +2629,10 @@ const DAF_CONTENT = {
           },
           {
             id: "step-03",
-            type: "rejection",
+            type: "proposal",
             label: "Require the whole beit av",
-            speaker: "Gemara",
-            text: "We could require the entire beit av to separate - they rotate by family and we know the schedule.",
+            speaker: "The Sages",
+            text: "The Sages reply: Why not? We do know the schedule - each of the twenty-four priestly watches has set weeks of service, and the patrilineal families within a watch have set days within that week, so we could require the entire designated beit av to be sequestered.",
             sourceRefs: [
               {
                 sourceType: "gemara",
@@ -2684,7 +2668,7 @@ const DAF_CONTENT = {
             type: "proposal",
             label: "le-chaper = Festival service",
             speaker: "Gemara",
-            text: "And say 'to atone' refers to Festival service, which does have a fixed time.",
+            text: "And say 'to atone' refers to Festival service, which recurs at a fixed time each year, like the inauguration.",
             sourceRefs: [
               {
                 sourceType: "gemara",
@@ -2783,7 +2767,7 @@ const DAF_CONTENT = {
           startLineId: "yoma-002b-l19",
           endLineId: "yoma-002b-l22",
           startVilnaLine: 19,
-          endVilnaLine: 22
+          endVilnaLine: 23
         },
         display: {
           title: "Excluding a single Festival: seven-for-one cannot become seven-for-seven",
@@ -2796,7 +2780,7 @@ const DAF_CONTENT = {
           learnerQuestion: "What's wrong with requiring separation before just one Festival, say Passover?",
           coreTension: "A Festival occurs only once a year, matching that criterion - but the structural shape of Festival service is fundamentally different from Yom Kippur.",
           coreMove: "The analogy requires not just temporal frequency but structural matching: seven days of preparation for a single-day service.",
-          resolution: "Festival service spans seven days; the inauguration's eight-day sequence culminated in one day of service, so a single Festival cannot match that structural model. Shemini Atzeret shares this same seven-for-one shape and is excluded only later, on a different ground (the sanctity of its preceding days).",
+          resolution: "Festival service spans seven days, while the inauguration's sequence culminated in one day of service; a single Festival cannot match that one-day structural model, so sequestering for a seven-day service is not derived from sequestering for a one-day service.",
           takeaway: {
             type: "derivation_principle",
             text: "A gezerah shavah or hekkesh must match not only the temporal frequency of the source case but its structural shape. Preparation for a seven-day service is categorically different from preparation for a one-day service."
@@ -2924,14 +2908,14 @@ const DAF_CONTENT = {
           startLineId: "yoma-002b-l23",
           endLineId: "yoma-002b-l28",
           startVilnaLine: 23,
-          endVilnaLine: 28
+          endVilnaLine: 29
         },
         display: {
           title: "Shemini Atzeret excluded; kal va-chomer rejected by Rav Mesharshiyya and Rav Ashi",
           oneLine: "Shemini Atzeret is excluded because it is preceded by seven holy days, while the inauguration was preceded by ordinary days. The resulting kal va-chomer is rejected by Rav Mesharshiyya ('like this day') and Rav Ashi (the primary Festival itself needs no separation).",
           shortSummary: "Shemini Atzeret looks like the ideal candidate: single day, preceded by seven days. But those preceding days are the holy days of Sukkot - not ordinary weekdays like the inauguration's run-up. A kal va-chomer (surely what's more holy needs more preparation) is proposed and doubly rejected: Rav Mesharshiyya invokes 'like this day' (precisely like the inauguration); Rav Ashi adds that since the primary Festival (Sukkot) needs no separation, its appendage certainly cannot be stricter.",
           whats: "Shemini Atzeret looks like the perfect candidate: seven days of preparation (Sukkot) for one culminating day of service. The Gemara excludes it on the grounds that Yom Kippur and the milu'im were both preceded by ordinary, unconsecrated days. Shemini Atzeret is preceded by seven holy days of Sukkot - a fundamentally different situation. A kal va-chomer is then proposed: if a less-sanctified lead-up still requires separation, surely a more-sanctified one does too. Rav Mesharshiyya shuts this down: the verse says 'like this day' - exactly as the milu'im, no more. Rav Ashi adds a practical clincher: Sukkot itself (the primary Festival) requires no separation, so its appendage certainly cannot be stricter.",
-          hint: "Rav Ashi's argument works even for those who hold Shemini Atzeret is fully independent. What does that tell us about how he is reasoning?"
+          hint: "The amud's discussion of Rav Ashi's argument breaks off mid-sentence at 'that applies only to the matter of' - what might the continuation address?"
         },
         learning: {
           learnerQuestion: "Shemini Atzeret is preceded by seven days just like the inauguration was. Why isn't it the perfect case to derive from?",
@@ -2947,7 +2931,7 @@ const DAF_CONTENT = {
             category: "logical",
             notes: "Classic case where a textual constraint takes precedence over an a-fortiori argument."
           },
-          ahaMoment: "Rav Ashi's argument is elegant: he sidesteps the dispute about whether Shemini Atzeret is independent or an extension. Either way, Sukkot needs no separation - and that makes Shemini Atzeret's claim to require separation untenable on any reading.",
+          ahaMoment: "Rav Ashi's argument addresses the dispute over whether Shemini Atzeret is independent or an extension of Sukkot, applying even to the independent view - though the amud breaks off mid-sentence before specifying the exact scope of that qualification.",
           learningBlocker: "Students may find the kal va-chomer compelling and wonder why 'like this day' overrides it. The Gemara is applying a rule that explicit verse-based limitations trump inference.",
           memoryAnchor: "Two independent rejections of the kal va-chomer: Rav Mesharshiya reads the verse's 'kazeh' (like this day), not 'hazeh' (this day), as limiting the rule to a case exactly like the inauguration - more sanctity does not extend it. Separately, Rav Ashi argues the primary Festival itself needs no separation, so its appendage cannot be stricter - the less cannot be stricter than the more."
         },
@@ -3046,23 +3030,12 @@ const DAF_CONTENT = {
         misconceptions: [
           {
             misconception: "Rav Ashi's argument assumes Shemini Atzeret is not an independent holiday.",
-            correction: "Rav Ashi explicitly works even for those who hold Shemini Atzeret is fully independent. Either way, Sukkot (the primary Festival) needs no separation, so its appendage cannot be stricter.",
+            correction: "Rav Ashi's argument explicitly applies even for those who hold Shemini Atzeret is a fully independent Festival - though the text cuts off at 'הני מילי לענין' before stating the precise scope of that qualification.",
             correctedByStepId: "step-05"
           }
         ],
         relatedSugyot: [],
-        visualizableElements: [
-          {
-            item: "Three-case comparison: inauguration (ordinary days -> 1 service day), Yom Kippur (ordinary days -> 1 service day), Shemini Atzeret (7 holy days of Sukkot -> 1 service day) - the third does not match",
-            role: "contrast",
-            priority: 1
-          },
-          {
-            item: "Rav Ashi's argument: Sukkot (7 days, no separation required) -> Shemini Atzeret cannot be stricter than its primary",
-            role: "aha",
-            priority: 2
-          }
-        ],
+        visualizableElements: [],
         quizSeeds: [
           {
             question: "Why is Shemini Atzeret excluded from the gezerah shavah, despite being a single-day service preceded by seven days?",
@@ -3106,17 +3079,17 @@ const DAF_CONTENT = {
       {
         he: "גְּזֵרָה שָׁוָה",
         translit: "Gezerah Shavah",
-        en: "Verbal analogy: a Talmudic derivation that transfers rules between two passages sharing an identical or near-identical word or phrase. Must be received by tradition, and identical forms take priority over similar ones when both are available."
+        en: "Verbal analogy: a Talmudic derivation that transfers rules between two passages sharing an identical or near-identical word or phrase. Identical forms take priority over similar ones when both are available."
       },
       {
         he: "קַל וָחֹמֶר",
         translit: "Kal Va-Chomer",
-        en: "A fortiori argument: if a less stringent case requires X, then a more stringent case certainly does. One of the Thirteen Principles of R. Yishmael, but can be overridden by an explicit textual limitation."
+        en: "A fortiori argument: if a less stringent case requires X, then a more stringent case certainly does; this can be overridden by an explicit textual limitation."
       },
       {
         he: "שְׁמִינִי עֲצֶרֶת",
         translit: "Shemini Atzeret",
-        en: "The one-day holiday immediately after Sukkot. Debate exists whether it is an independent holiday or the closing day of Sukkot - but either way, being preceded by the seven holy days of Sukkot disqualifies it from the gezerah shavah comparison."
+        en: "The one-day holiday immediately after Sukkot. Debate exists whether it is an independent holiday or the closing day of Sukkot. Being preceded by the seven holy days of Sukkot disqualifies it from the gezerah shavah comparison; alternatively, Rav Ashi reasons that a secondary element (the Eighth Day) cannot be more stringent than the primary festival (Sukkot) to which it is attached, which does not require sequestering."
       },
       {
         he: "מִשְׁמָר / בֵּית אָב",
