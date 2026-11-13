@@ -1,7 +1,7 @@
 {
  "daf": "4a",
  "canonicalRef": "Yoma 4a",
- "summary": "4a opens by completing the Sinai derivation: the seven days of the mishna reflect R. Yehuda ben Beteira's concern about a wife's niddah status. R. Yochanan presses his advantage: inauguration included sprinkling, so if you derive from inauguration the sprinkling is explained. But if you derive from Sinai, there was no sprinkling at Sinai at all. Reish Lakish counters that inauguration had blood, not water - but R. Yochanan invokes R. Chiyya's principle (water replaced blood) to bridge the gap. RL has no equivalent bridge for Sinai and concedes: the sprinkling is just a maaleh. A baraita then supports R. Yochanan: bezot (with this) in Leviticus 16:3 points to the inauguration context, where Aaron withdrew seven days and Moses taught him the service. The feminine form bezot is not explained by the bull and ram (both masculine), so it teaches two things: the offerings and the sequestering. A second verse extends the obligation to all future High Priests. A baraita for Reish Lakish establishes that Moses entered the cloud at Sinai for six days before being called - a sanctification process. R. Yosi HaGalili dates this after the Ten Commandments; R. Akiva says it began on Rosh Chodesh Sivan, before the Commandments. The daf ends mid-verse.",
+ "summary": "The daf opens explaining that the priest is sequestered from his house to avoid impurity from his wife, then has Rabbi Yochanan argue that deriving sequestering from the inauguration explains the sprinkling of purification water (since blood was sprinkled there too, water now replacing blood), while Reish Lakish's derivation from Sinai has no sprinkling to explain and he calls it merely a stringency. The mishna's ruling is cited: seven days before Yom Kippur the High Priest is removed from his house to the Chamber of Parhedrin, and the priest who burns the heifer is likewise removed to the chamber by the bira's northeast corner, with purification water sprinkled on both throughout the seven days. Two baraitot follow: one supports Rabbi Yochanan, deriving from the word 'bezot' that Aaron's seven-day withdrawal and training before the inauguration models the High Priest's sequestering before Yom Kippur for all generations, and reading the verse's 'la'asot'/'lechaper' split as referring respectively to the heifer-burning and the Yom Kippur service; the other supports Reish Lakish, describing Moses' six days in the cloud at Sinai before being called, dated by Rabbi Yosei HaGelili after the Ten Commandments and by Rabbi Akiva to the New Moon of Sivan before them.",
  "review": {
   "learning": "ai_generated",
   "concepts": "ai_generated",
@@ -14,7 +14,7 @@
    "id": "yoma-004a-s01",
    "lineRange": {
     "startVilnaLine": 1,
-    "endVilnaLine": 6
+    "endVilnaLine": 9
    },
    "lines": [
     {
@@ -32,16 +32,16 @@
    ],
    "display": {
     "title": "R. Yochanan Challenges Reish Lakish on Sprinkling; RL Concedes",
-    "oneLine": "R. Yochanan: if you derive from Sinai, there was no sprinkling at Sinai - so why do we sprinkle? RL counters that inauguration had blood not water. R. Yochanan invokes R. Chiyya ('water replaced blood'), leaving RL with no way to answer for Sinai's total absence of sprinkling.",
+    "oneLine": "R. Yochanan: if you derive from Sinai, there was no sprinkling at Sinai - so why do we sprinkle? RL counters that inauguration had blood not water. R. Yochanan invokes R. Chiyya ('water replaced blood'), then presses RL on sprinkling at Sinai; RL answers that it is merely a higher standard the Sages established, not a requirement.",
     "shortSummary": "The debate over the source of seven-day sequestering (inauguration vs. Sinai) hits a critical asymmetry: the inauguration included sprinkling, so R. Yochanan's derivation naturally accounts for today's practice. Reish Lakish's Sinai source had no sprinkling at all, so he cannot derive that practice from his source. A principle from R. Chiyya ('water replaced blood') resolves R. Yochanan's blood-vs-water problem, but RL has no analogous principle for 'no sprinkling vs. sprinkling.' He is left with no way to derive the sprinkling practice from Sinai - his concession, that it is a maaleh, opens the next passage.",
-    "whats": "R. Yochanan presses Reish Lakish: if the seven-day separation derives from Sinai, there was no sprinkling at Sinai - so why do we sprinkle the sequestered priest today? RL counters that the inauguration derivation has its own problem: inauguration sprinkling was with blood, but today we use water. R. Yochanan invokes R. Chiyya's principle that water replaced blood as equivalent ritual media, bridging the medium shift cleanly. RL has no parallel bridge for Sinai (which had no sprinkling in any medium) - the exchange leaves him with nothing left to derive the sprinkling from, and his concession that it is a maaleh (a higher standard the Sages voluntarily adopted, not derivable from his source) opens the next passage.",
+    "whats": "R. Yochanan presses Reish Lakish: if the seven-day separation derives from Sinai, there was no sprinkling at Sinai - so why do we sprinkle the sequestered priest today? RL counters that the inauguration derivation has its own problem: inauguration sprinkling was with blood, but today we use water. R. Yochanan invokes the principle that water replaced blood as equivalent ritual media, bridging the medium shift cleanly. RL has no parallel bridge for Sinai (which had no sprinkling in any medium) - the exchange leaves him with nothing left to derive the sprinkling from, and his concession is that it is a maaleh, a higher standard the Sages voluntarily adopted, not derivable from his source.",
     "hint": "R. Chiyya's 'water replaced blood' resolves R. Yochanan's problem cleanly but leaves RL with no equivalent. What does this tell us about how halacha handles changes in ritual medium vs. complete absence of a practice?"
    },
    "learning": {
     "learnerQuestion": "Both R. Yochanan and RL seem to have problems with sprinkling - why does RL end up conceding while R. Yochanan does not?",
     "coreTension": "R. Yochanan's inauguration source had sprinkling (with blood); today we sprinkle with water. RL's Sinai source had no sprinkling at all. One is a medium-change problem; the other is a presence-vs-absence problem.",
     "coreMove": "R. Chiyya's principle ('water replaced blood') resolves medium substitution but cannot conjure a practice that was never present. The asymmetry is fatal to RL's position on sprinkling.",
-    "resolution": "R. Yochanan's argument leaves Reish Lakish with no way to derive the sprinkling practice from Sinai. His concession that it is a maaleh, and that his underlying sequestering derivation from Sinai remains live, opens the next passage.",
+    "resolution": "R. Yochanan's argument leaves Reish Lakish with no way to derive the sprinkling practice from Sinai. Reish Lakish concedes that it is merely a maaleh, a higher standard adopted by the Sages, not something derived from his Sinai source.",
     "takeaway": {
      "type": "logical_principle",
      "text": "Having the right bridging principle in reserve determines who wins a derivational argument. R. Yochanan wins not by generating a new argument but by citing R. Chiyya's established principle."
@@ -52,31 +52,16 @@
      "notes": "Pre-existing principles (like R. Chiyya's water-for-blood rule) can be the decisive factor in debates. The side that can cite an established bridge wins; the side with no bridge must concede."
     },
     "ahaMoment": "The argument is perfectly symmetrical - each side attacks the other's source on sprinkling - until R. Chiyya's principle breaks the tie. Having an existing resource available is the difference between winning and conceding.",
-    "learningBlocker": "Students may think RL's concession means his position is fully rejected. He only concedes the sprinkling; his Sinai derivation for sequestering itself continues and will be supported by a baraita in the next sugya.",
+    "learningBlocker": "Students may think RL's concession means his position is fully rejected. He only concedes that the sprinkling cannot be derived from his Sinai source and calls it a maaleh; he does not concede that the sequestering itself is not derived from Sinai.",
     "memoryAnchor": "Two opponents, each attacking the other's source: 'No sprinkling at Sinai!' vs. 'Blood at inauguration, not water!' - R. Chiyya's principle saves one side, leaves the other to say 'it's just a maaleh.'"
    },
    "argumentFlow": [
     {
-     "id": "step-01",
-     "type": "qualification",
-     "label": "Sequestering reason: niddah concern",
-     "speaker": "Gemara",
-     "text": "The brief phrase 'about the ritual impurity of his home' grounds the seven-day sequestering in a concrete concern: if his wife becomes a niddah during intercourse, he incurs seven days of impurity and cannot serve on Yom Kippur.",
-     "sourceRefs": [
-      {
-       "sourceType": "gemara",
-       "lineId": "yoma-004a-l01a",
-       "vilnaLine": 1,
-       "note": "Opening phrase completing 3b's discussion"
-      }
-     ]
-    },
-    {
      "id": "step-02",
      "type": "question",
-     "label": "R. Yochanan: if from Sinai, where was sprinkling at Sinai?",
+     "label": "The mishna's seven days (vs. Sinai's six) is explained as Rabbi Yehuda ben Beteira's concern for the impurity of the priest's home (his wife); R. Yochanan then asks Reish Lakish: if from Sinai, where was sprinkling at Sinai?",
      "speaker": "R. Yochanan",
-     "text": "My inauguration derivation explains sprinkling: inauguration included sprinkling, so the current practice follows naturally. But if you derive from Sinai, there was no sprinkling at Sinai - so what is the source for today's sprinkling practice?",
+     "text": "My inauguration derivation explains sprinkling: the baraita teaches that one sprinkles upon him for all seven days the purification water mixed with ashes from all the previous red heifer sin-offerings that were safeguarded there in the Temple, since inauguration included sprinkling too. But if you derive from Sinai, there was no sprinkling at Sinai - so what is the source for today's sprinkling practice?",
      "sourceRefs": [
       {
        "sourceType": "gemara",
@@ -165,7 +150,7 @@
    "misconceptions": [
     {
      "misconception": "Reish Lakish's concession means his Sinai derivation for sequestering is rejected.",
-     "correction": "The exchange only leaves Reish Lakish unable to derive the sprinkling from Sinai; his core position - that the seven-day sequestering derives from Sinai - remains live and will be supported by a baraita in the next sugya.",
+     "correction": "The exchange only leaves Reish Lakish unable to derive the sprinkling from Sinai; he concedes that it is merely a maaleh. His core position - that the seven-day sequestering derives from Sinai - is not addressed by this concession.",
      "correctedByStepId": "step-05"
     },
     {
@@ -219,7 +204,7 @@
      ]
     }
    ],
-   "finalRuling": "No final ruling between inauguration and Sinai as the sequestering source is reached here. Reish Lakish is left with no way to derive the sprinkling from Sinai - his own Sinai derivation for the sequestering itself continues into the next sugya. Practically, the sprinkling of both the KG and heifer priest throughout all seven days is an undisputed practice.",
+   "finalRuling": "No final ruling between inauguration and Sinai as the sequestering source is reached here. Reish Lakish is left with no way to derive the sprinkling from Sinai; he concedes it is merely a maaleh. Practically, the sprinkling of both the KG and heifer priest throughout all seven days is an undisputed practice.",
    "difficulty": "intermediate",
    "alternateAngles": [],
    "topicTags": [
@@ -241,7 +226,7 @@
    "id": "yoma-004a-s02",
    "lineRange": {
     "startVilnaLine": 9,
-    "endVilnaLine": 42
+    "endVilnaLine": 41
    },
    "lines": [
     {
@@ -282,17 +267,17 @@
     }
    ],
    "display": {
-    "title": "RL Concedes on Sprinkling; Baraitot for Both Opinions; Bezot's Double Meaning; Moses in the Cloud",
-    "oneLine": "Reish Lakish concedes the sprinkling practice is a maaleh, not derivable from Sinai. A baraita for R. Yochanan: bezot points to inauguration; Aaron withdrew seven, Moses trained him; two Oral Torah scholars (not Sadducees) do the same annually. Bezot is feminine - derives both offerings and sequestering. Second verse extends to all generations. A baraita for RL: Moses in the cloud, sanctified to receive Torah. R. Yosi HaGalili: after Ten Commandments. R. Akiva: from Rosh Chodesh Sivan.",
-    "shortSummary": "The passage opens with Reish Lakish's concession, closing the prior sugya's exchange: the sprinkling practice cannot be derived from Sinai and is a maaleh. Both the inauguration and Sinai positions then receive explicit baraita support. For R. Yochanan: the word bezot in Leviticus 16:3 ('with this Aaron will come') is grammatically feminine, but bull and ram (the nearby offerings) are both masculine - so the feminine signals it teaches something beyond the offerings: the inauguration context, where Aaron withdrew seven days and Moses taught him. Two Torah scholars transmit the service to the KG each year, explicitly excluding Sadducees whose incense procedure differed. A second verse ('as done this day') extends the obligation to all future generations. For Reish Lakish: a baraita confirms Moses was covered in cloud for six days at Sinai - a sanctification before receiving Torah. R. Yosi HaGalili says this was after the Ten Commandments; R. Akiva says it was before.",
-    "whats": "The passage opens by closing the prior sugya's exchange: pressed that Sinai had no sprinkling in any medium, Reish Lakish concedes the sprinkling practice is a maaleh, not derivable from his source. The Gemara then presents two baraitot, one supporting each position in the running dispute over the source of seven-day sequestering. The baraita for R. Yochanan derives everything from the word bezot ('with this') in Leviticus 16:3. The word is grammatically feminine, yet bull and ram (the following offerings) are both masculine nouns. This mismatch signals that bezot refers to something else - the inauguration context. In that context, Aaron withdrew for seven days and Moses trained him daily in the service. By parallel, two Torah scholars who follow Oral Torah tradition (explicitly not Sadducees, who followed a different incense procedure) transmit the Yom Kippur service to the KG each year. The feminine bezot therefore teaches two things at once: the specific offerings AND the seven-day sequestering requirement. A second verse is then needed: one might think the obligation only applied to Aaron's inaugural Yom Kippur. The verse 'as done this day, so God commanded to do, to make atonement' - come and hear, the verse itself - extends it to all future generations. A baraita for Reish Lakish: Moses ascended in the cloud, was covered by cloud, and was sanctified in cloud before receiving Torah. R. Yosi HaGalili places this after the Ten Commandments (the start of the forty-day Torah-receiving period); R. Akiva places it before the Commandments, beginning from Rosh Chodesh Sivan.",
-    "hint": "Why does the baraita specify that the two scholars who train the KG must be 'students of Moses' and explicitly not Sadducees? What specific dispute required this exclusion?"
+    "title": "Baraitot for Both Opinions; Bezot's Double Meaning; Moses in the Cloud",
+    "oneLine": "A baraita supports Rabbi Yochanan: the word 'bezot' in Leviticus 16:3 refers to the inauguration, where Aaron withdrew seven days and served one day while Moses trained him; likewise in every generation the High Priest withdraws seven days and serves one day, trained by two Torah scholars (not Sadducees), and the feminine 'bezot' teaches both the offerings and the sequestering, extended to all generations by a second verse. A baraita supports Reish Lakish: Moses ascended and was sanctified in the cloud at Sinai to receive the Torah, with Rabbi Yosei HaGelili dating this after the Ten Commandments and Rabbi Akiva dating it to the New Moon of Sivan.",
+    "shortSummary": "The passage presents baraitot supporting both positions in the dispute. For R. Yochanan: the word bezot in Leviticus 16:3 ('with this Aaron will come') is grammatically feminine, but bull and ram (the nearby offerings) are both masculine - so the feminine signals it teaches something beyond the offerings: the inauguration context, where Aaron withdrew seven days and served one day, and Moses taught him. Two Torah scholars transmit the service to the KG each year, who also serves one day, explicitly excluding Sadducees who are not students of Moses. A second verse ('as done this day') extends the obligation to all future generations. For Reish Lakish: a baraita confirms Moses was covered in cloud for six days at Sinai - a sanctification before receiving Torah. R. Yosi HaGalili says this was after the Ten Commandments; R. Akiva says it was before.",
+    "whats": "The Gemara presents two baraitot, one supporting each position in the running dispute over the source of seven-day sequestering. The baraita for R. Yochanan derives everything from the word bezot ('with this') in Leviticus 16:3. The word is grammatically feminine, yet bull and ram (the following offerings) are both masculine nouns. This mismatch signals that bezot refers to something else - the inauguration context. In that context, Aaron withdrew for seven days, served one day, and Moses trained him daily in the service all seven days. By parallel, two Torah scholars who are students of Moses (explicitly not Sadducees, who are not students of Moses) transmit the Yom Kippur service to the KG each year, who likewise withdraws seven days and serves one day. The feminine bezot therefore teaches two things at once: the specific offerings AND the seven-day sequestering requirement. A second verse is then needed: one might think the obligation only applied to Aaron's inaugural Yom Kippur, or alternatively that only the first High Priest required sequestering while subsequent High Priests did not. The verse 'as done this day, so God commanded to do, to make atonement' extends it to all future generations. A baraita for Reish Lakish: Moses ascended in the cloud, was covered by cloud, and was sanctified in cloud before receiving Torah. R. Yosi HaGalili places this after the Ten Commandments (the start of the forty-day Torah-receiving period); R. Akiva places it before the Commandments, from Rosh Chodesh Sivan.",
+    "hint": "Why does the baraita specify that the two scholars who train the High Priest must be 'students of Moses' and explicitly exclude Sadducees from this role?"
    },
    "learning": {
     "learnerQuestion": "Why does the Gemara use the feminine form of 'bezot' to derive a completely separate law about sequestering? Isn't it reading too much into a grammatical form?",
     "coreTension": "Bezot is the word that introduces the specific offerings ('with this [bezot] Aaron will come...'). If bezot means the offerings, the feminine form is grammatically arbitrary. But if it is grammatically significant, it must be pointing to something feminine - the inauguration context (a feminine reading of the surrounding passage).",
-    "coreMove": "The Sages identify that 'bezeh' (masculine) or 'be'elleh' (plural) would have sufficed to introduce the bull and ram. The choice of the feminine bezot is therefore deliberate surplus, signaling that the word refers to the inauguration context - from which two teachings emerge.",
-    "resolution": "Bezot refers to the inauguration (a reading supported by the surrounding passage). From inauguration: (1) the specific offerings Aaron brings; (2) the seven-day sequestering practice. The grammatical mismatch is the signal that both teachings are packed into one word.",
+    "coreMove": "Bezeh or be'elleh would have sufficed to refer only to the offerings. The feminine bezot is surplus, teaching two things: the offerings, and the sequestering practice.",
+    "resolution": "Bezot refers to the inauguration (a reading supported by the surrounding passage). The verse itself specifies the offerings Aaron brings; the inauguration supplies the model for the seven-day sequestering practice. The grammatical mismatch is the signal that both teachings are packed into one word.",
     "takeaway": {
      "type": "derivation_principle",
      "text": "When a word's grammatical gender does not match its immediate syntactic context, the Gemara reads the mismatch as a signal: the word is carrying extra content that a gender-matched form would not carry."
@@ -309,16 +294,16 @@
    "argumentFlow": [
     {
      "id": "step-01",
-     "type": "answer",
-     "label": "Reish Lakish concedes: sprinkling is a maaleh",
-     "speaker": "Reish Lakish",
-     "text": "Pressed that Sinai had no sprinkling in any medium, Reish Lakish concedes: the Sages merely adopted sprinkling as a higher standard (maaleh). It is not derived from the Sinai source - it is a rabbinic enhancement, real and observed, but without derivational grounding from his source.",
+     "type": "proof",
+     "label": "Baraita supports R. Yochanan: bezot alludes to the inauguration",
+     "speaker": "Baraita",
+     "text": "A baraita is cited in support of R. Yochanan: the word bezot ('with this') in Leviticus 16:3 refers to what is stated 'in the matter,' namely the inauguration. There, Aaron withdrew for seven days and served one day, and Moses transmitted the service to him all seven days in order to train him.",
      "sourceRefs": [
       {
        "sourceType": "gemara",
        "lineId": "yoma-004a-l09",
        "vilnaLine": 9,
-       "note": "RL's concession: maaleh be'alma, concluding the exchange from the prior sugya"
+       "note": "Baraita cited in support of R. Yochanan's view, linking bezot to the inauguration narrative (segment 4)"
       }
      ]
     },
@@ -327,7 +312,7 @@
      "type": "proof",
      "label": "Baraita for R. Yochanan: bezot points to inauguration context",
      "speaker": "Baraita",
-     "text": "'With this (bezot) Aaron will come into the Sanctuary' - bezot refers to 'what is stated in the matter': the inauguration. In the inauguration, Aaron withdrew seven days and Moses transmitted the service to him all seven days to train him.",
+     "text": "'With this (bezot) Aaron will come into the Sanctuary' - bezot refers to 'what is stated in the matter': the inauguration. In the inauguration, Aaron withdrew seven days and served one day, and Moses transmitted the service to him all seven days to train him.",
      "sourceRefs": [
       {
        "sourceType": "gemara",
@@ -342,7 +327,7 @@
      "type": "proof",
      "label": "Two Torah scholars (not Sadducees) transmit to the KG annually",
      "speaker": "Baraita",
-     "text": "Just as Moses transmitted the service to Aaron during the inauguration, so two Torah scholars who are 'students of Moses' - explicitly not Sadducees - transmit the Yom Kippur service procedure to the KG throughout his seven-day sequestering.",
+     "text": "Just as Moses transmitted the service to Aaron during the inauguration, so too in every generation the High Priest withdraws seven days and serves one day, and two Torah scholars who are 'students of Moses' - explicitly not Sadducees - transmit the Yom Kippur service procedure to him throughout his seven-day sequestering.",
      "sourceRefs": [
       {
        "sourceType": "gemara",
@@ -357,7 +342,7 @@
      "type": "proof",
      "label": "All mishna practices derive from here; water-for-blood applies",
      "speaker": "Baraita",
-     "text": "From here: seven days before YK the KG is removed to the Parhedrin chamber; the heifer priest is also sequestered; both are sprinkled all seven days from all preserved heifer ashes. Water replaced blood (R. Chiyya), so sprinkling coheres.",
+     "text": "From here: seven days before Yom Kippur the Kohen Gadol is removed to the Chamber of Parhedrin; the heifer-burning priest is likewise sequestered, to the chamber before the bira at its northeast corner. Both are sprinkled all seven days from the ashes of all the preserved red heifer sin-offerings. If the inauguration used blood and here water, the answer is: water replaced blood. And the verse 'as has been done... to do... to make atonement' teaches: 'to do' refers to the actions of the heifer, 'to make atonement' to the actions of Yom Kippur.",
      "sourceRefs": [
       {
        "sourceType": "gemara",
@@ -408,7 +393,7 @@
      "type": "answer",
      "label": "Second verse extends obligation to all generations",
      "speaker": "Gemara",
-     "text": "One might think: only Aaron's first Yom Kippur requires this preparation (since inauguration was Aaron's one-time consecration). The verse 'as done this day, so God commanded to do, to make atonement for you' extends the requirement forward to all generations and all future High Priests.",
+     "text": "One might think: only Aaron's first Yom Kippur requires this preparation (since inauguration was Aaron's one-time consecration); or alternatively, that only the first High Priest requires sequestering while subsequent High Priests do not. The verse 'as done this day, so God commanded to do, to make atonement for you' extends the requirement forward to all generations and all future High Priests.",
      "sourceRefs": [
       {
        "sourceType": "gemara",
@@ -426,7 +411,7 @@
     },
     {
      "id": "step-08",
-     "type": "proof",
+     "type": "case",
      "label": "Baraita for RL: Moses in cloud, covered, sanctified; R. Yosi HaGalili's dating",
      "speaker": "Baraita",
      "text": "Moses ascended in the cloud, was covered by cloud, and was sanctified through cloud to receive Torah for Israel in holiness. This is from 'the glory of God rested on Mount Sinai.' R. Yosi HaGalili: this was after the Ten Commandments, at the start of the forty-day Torah-receiving period.",
@@ -441,10 +426,10 @@
     },
     {
      "id": "step-09",
-     "type": "objection",
+     "type": "distinction",
      "label": "R. Akiva: cloud was from Rosh Chodesh Sivan, before the Ten Commandments",
      "speaker": "R. Akiva",
-     "text": "The cloud covered Sinai from Rosh Chodesh Sivan - six days before the revelation of the Ten Commandments. Moses' cloud-entry was preparation for receiving the Commandments, not a subsequent event. The daf ends here mid-verse.",
+     "text": "Rabbi Akiva holds that 'the glory of the Lord abode' refers to the Divine Presence resting from the New Moon of Sivan, six days before the revelation of the Ten Commandments.",
      "sourceRefs": [
       {
        "sourceType": "gemara",
@@ -497,8 +482,8 @@
      "correctedByStepId": "step-02"
     },
     {
-     "misconception": "The R. Yosi HaGalili vs. R. Akiva dispute about when the cloud appeared is a tangential detail.",
-     "correction": "The timing of Moses' cloud-entry directly affects how RL's Sinai derivation functions. If it was after the Ten Commandments (RYGH), it is a pre-service sanctification. R. Akiva's view, which will be continued on 4b, reshapes the character of the Sinai preparation.",
+     "misconception": "One might mistakenly think that Rabbi Yosei HaGelili and Rabbi Akiva agree about when the cloud of God's glory came upon Mount Sinai.",
+     "correction": "Rabbi Yosei HaGelili holds that Moses was covered in the cloud for six days after the Ten Commandments were given, which matches Reish Lakish's view that sequestering comes from Sinai. Rabbi Akiva instead says the cloud came from the New Moon of Sivan, before the Ten Commandments.",
      "correctedByStepId": "step-09"
     }
    ],
@@ -531,7 +516,7 @@
    "quizSeeds": [
     {
      "question": "Why does the baraita specify that the two scholars who train the Kohen Gadol must be 'students of Moses' and not Sadducees?",
-     "answer": "The Sadducees followed a different procedure for the Yom Kippur incense offering - they prepared the incense before entering the Holy of Holies rather than inside it. By requiring transmitters who follow Oral Torah tradition, the Sages ensured the KG learned and performed the correct procedure.",
+     "answer": "The Sadducees are excluded because they are not considered students of Moses - that is, they do not follow the Oral Torah tradition transmitted from Moses. The two scholars who train the High Priest must be transmitters of that tradition.",
      "sourceRefs": [
       {
        "sourceType": "gemara",
@@ -542,7 +527,7 @@
     },
     {
      "question": "How does the Gemara derive two separate teachings from the single word bezot?",
-     "answer": "Bezot is grammatically feminine, but bull and ram (the offerings it introduces) are both masculine nouns. If bezot only meant the offerings, the verse would use the masculine bezeh or plural be'elleh. The unexpected feminine form signals it refers to the inauguration context (a feminine reading), and from that context two things emerge: the required offerings AND the seven-day sequestering.",
+     "answer": "Bezot is grammatically feminine, but bull and ram (the offerings it introduces) are both masculine nouns. If bezot only meant the offerings, the verse would use the masculine bezeh or plural be'elleh. The unexpected feminine form signals an additional reference to the inauguration, from which two things are learned: the offerings, stated directly in the verse, and the seven-day sequestering, derived from the inauguration's model.",
      "sourceRefs": [
       {
        "sourceType": "gemara",
@@ -552,7 +537,7 @@
      ]
     }
    ],
-   "finalRuling": "No final ruling between inauguration and Sinai is reached on this daf. Both positions receive baraita support. The practical halakha of seven-day sequestering with two Oral Torah scholar-guides (excluding Sadducees) is established by R. Yochanan's baraita and is undisputed in practice. The dispute about the source (and its implications) continues on 4b.",
+   "finalRuling": "No final ruling between inauguration and Sinai is reached on this daf. Both positions receive baraita support. The dispute about the source (and its implications) continues on 4b.",
    "difficulty": "advanced",
    "alternateAngles": [
     "The 'exclusion of Sadducees' language in the baraita is not merely polemical - it defines who is qualified to transmit authoritative YK practice. Only those who stand in the Oral Torah chain can be trusted to teach the procedure correctly."
@@ -581,12 +566,12 @@
   {
    "he": "בְּזֹאת",
    "translit": "Bezot",
-   "en": "With this (feminine form). The unexpected feminine form in 'With this Aaron will come into the Sanctuary' signals the word is carrying extra content - pointing not just to the offerings but to the entire inauguration context, from which two teachings emerge."
+   "en": "With this (feminine form). The unexpected feminine form in 'With this Aaron will come into the Sanctuary' signals two teachings: the offerings are stated directly in the verse, while the seven-day sequestering is learned from the inauguration."
   },
   {
    "he": "צַדּוּקִין",
    "translit": "Tzedukim",
-   "en": "Sadducees. The sect that rejected Oral Torah interpretation and performed the Yom Kippur incense offering differently (preparing it before entering the Holy of Holies). The baraita explicitly excludes them from the role of transmitting the YK service to the Kohen Gadol."
+   "en": "Sadducees. The sect excluded from transmitting the Yom Kippur service to the Kohen Gadol during his seven days of sequestering; the baraita specifies that this role belongs only to two Torah scholars from among the students of Moses, to the exclusion of Sadducees."
   },
   {
    "he": "מַעֲלָה בְּעָלְמָא",
