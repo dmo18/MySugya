@@ -48,7 +48,7 @@
      "notes": "Classic Talmudic rejection pattern: 'ein la'davar sof' terminates rules that cannot self-limit."
     },
     "ahaMoment": "The Sages' retort 'if so, there is no end to the matter' implies that any rule requiring a backup for every contingency has no natural limit.",
-    "learningBlocker": "Students often think the Sages are being dismissive. In fact, the source records only their terse objection that there would be no end to the matter.",
+    "learningBlocker": "The source records the Sages' objection to Rabbi Yehuda tersely: if that concern is valid, there is no end to the matter, since the replacement wife could also die.",
     "memoryAnchor": "The Sages respond to Rabbi Yehuda's backup-wife proposal only by objecting that it would create a chain with no end."
    },
    "argumentFlow": [
@@ -87,7 +87,7 @@
      "type": "rejection",
      "label": "Infinite regress",
      "speaker": "Chachamim",
-     "text": "If so, there is no end to the matter - you would need a backup for the backup, and so on indefinitely.",
+     "text": "If so, that this is a concern, there is no end to the matter - what if the designated replacement wife herself dies?",
      "sourceRefs": [
       {
        "sourceType": "mishnah",
@@ -215,7 +215,7 @@
     },
     "ahaMoment": "The Gemara's opening move is to establish that two laws share the same feature (seven-day separation) before proving they share the same source.",
     "learningBlocker": "The parah adumah seems like a tangent; it is actually the argument in embryo.",
-    "memoryAnchor": "The parah kohen's seven-day separation (Lishkat Beit HaEven, northeast) parallels the Kohen Gadol's (Lishkat Parhedrin) - the Gemara puts both cases on the table as parallel halakhot."
+    "memoryAnchor": "The parah kohen's seven-day separation (Lishkat Beit HaEven, northeast) parallels the Kohen Gadol's seven-day separation before Yom Kippur - the Gemara puts both cases on the table as parallel halakhot."
    },
    "argumentFlow": [
     {
@@ -238,7 +238,7 @@
      "type": "answer",
      "label": "Why 'Stone House'?",
      "speaker": "Gemara",
-     "text": "The chamber was called the Stone House because all the actions associated with the heifer were performed using dung, stone, and earth vessels.",
+     "text": "The chamber was called the Stone House because all the actions associated with the heifer were performed using dung, stone, and earth vessels - vessels that cannot become ritually impure.",
      "sourceRefs": [
       {
        "sourceType": "gemara",
@@ -391,7 +391,7 @@
      "type": "resolution",
      "label": "Secondary safeguard: impurity-proof vessels",
      "speaker": "Gemara",
-     "text": "Lest this demonstration breed contempt for purity norms, the Sages required vessels that cannot become tamei at all.",
+     "text": "Lest people see the tvul yom perform the ritual and come to treat it with contempt, performing it in impurity themselves, the Sages required vessels that cannot become tamei at all.",
      "sourceRefs": [
       {
        "sourceType": "gemara",
@@ -436,8 +436,8 @@
      "priority": 1
     },
     {
-     "item": "Stone vessels that visually signal: we take purity seriously despite the provocative act",
-     "role": "aha",
+     "item": "Dung, stone, and earth vessels, which cannot become ritually impure, so that people would not come to treat the ritual with contempt",
+     "role": "The Sages instituted that the vessels used for the red heifer ritual be made of dung, stone, or earth, since these materials cannot become ritually impure, lest people treat the ritual with contempt.",
      "priority": 2
     }
    ],
@@ -455,7 +455,7 @@
     },
     {
      "question": "Why did the Sages then require stone and earth vessels for the parah ritual?",
-     "answer": "Lest people see the tvul yom performing the ritual and conclude that purity doesn't matter for the parah - using vessels that cannot become tamei countered that impression.",
+     "answer": "Lest people treat the ritual with contempt and come to perform it in impurity, having seen a tvul yom perform it - using vessels that cannot become tamei countered that impression.",
      "sourceRefs": [
       {
        "sourceType": "gemara",
@@ -465,7 +465,7 @@
      ]
     }
    ],
-   "finalRuling": "A tvul yom is valid for burning the parah adumah; vessels must be impervious to tumah.",
+   "finalRuling": "Background established by the mishna: a tvul yom (priest who immersed that day) is valid to burn the parah adumah, which is why the Sages required dung, stone, and earth vessels that cannot contract impurity.",
    "difficulty": "intermediate",
    "alternateAngles": [],
    "review": {
@@ -507,7 +507,7 @@
     "hint": "The chamber's location is a 'distinctive indicator' - of what exactly, and why does that matter?"
    },
    "learning": {
-    "learnerQuestion": "Why did the location of the priest's sequestration chamber need to reflect the ritual requirements of the heifer ceremony?",
+    "learnerQuestion": "What is different about the northeast corner that led the Sages to house the priest performing the red heifer ritual specifically there?",
     "coreTension": "Two independent Torah requirements point to two different directions (north and east); the Sages found a single physical location that satisfies both simultaneously.",
     "coreMove": "Multi-requirement convergence: when two halakhic orientations must be respected, select the intersection point and make it the site - then the site itself serves as a mnemonic.",
     "resolution": "Northeast corner = north (the parah's chatat classification) + east (facing the Tent of Meeting). The location is a symbolic heikher, not a literal fulfillment of either requirement on its own.",
@@ -530,7 +530,7 @@
      "type": "question",
      "label": "Why northeast?",
      "speaker": "Gemara",
-     "text": "What is distinctive about the northeast corner that led the Sages to place the parah chamber there, so that the ritual would have a distinguishing marker and the administering priest would be vigilant in performing it?",
+     "text": "What is distinctive about the northeast corner that led the Sages to place the parah chamber there?",
      "sourceRefs": [
       {
        "sourceType": "gemara",
@@ -555,7 +555,7 @@
     },
     {
      "id": "step-03",
-     "type": "resolution",
+     "type": "answer",
      "label": "Location as distinctive indicator",
      "speaker": "Gemara",
      "text": "The Sages placed the chamber in the northeast so the location itself serves as a heikher - a built-in orientation cue to keep the priest alert to both requirements.",
@@ -601,8 +601,8 @@
    ],
    "quizSeeds": [
     {
-     "question": "Why does the Gemara associate the parah adumah with the 'north' side of the altar in determining the chamber's location?",
-     "answer": "Because the parah is classified as a chatat (sin-offering), and chatat offerings are associated with the north side of the altar. This association is symbolic, reflected in the chamber's northeast placement rather than in an actual altar requirement.",
+     "question": "Why is the red heifer ritual linked to the north side, leading the Sages to locate its chamber in the northeast?",
+     "answer": "Because the parah is classified as a chatat (sin-offering), and chatat offerings require the slaughter and sprinkling of blood to be performed north of the altar.",
      "sourceRefs": [
       {
        "sourceType": "gemara",
@@ -612,8 +612,8 @@
      ]
     },
     {
-     "question": "What does 'heikher' mean in the context of the Stone House chamber's location?",
-     "answer": "A distinctive indicator - the chamber's location at the northeast encodes the ritual's dual directional requirements, keeping the priest alert.",
+     "question": "What does 'heikher' mean in the context of the northeast chamber used for the red heifer ritual?",
+     "answer": "A distinctive indicator (heikher) - the northeast location made the priest vigilant in performing the ritual properly.",
      "sourceRefs": [
       {
        "sourceType": "gemara",
@@ -661,7 +661,7 @@
     "title": "What does 'bira' mean? Rabbi Yohanan vs. Reish Lakish",
     "oneLine": "Rabbi Yohanan says 'bira' was a specific named spot on the Temple Mount; Reish Lakish says it means the entire Temple complex, citing David's prayer in Chronicles.",
     "shortSummary": "A brief lexical debate about the word 'bira' from the Para mishna. Rabbi Yohanan holds it was a specific named location on the Temple Mount. Reish Lakish holds it means the whole Temple, citing David's description of the future Temple as 'the bira I have prepared.'",
-    "whats": "The Gemara pauses to clarify the word 'bira' from the Para mishna, which spoke of the chamber as 'facing the bira.' Rabbi Yohanan: it was a specific location on the Temple Mount with that name, used as a geographic landmark. Reish Lakish: 'bira' means the entire Temple compound, citing David's prayer in Chronicles where he calls the future Temple 'the bira I have prepared.' The dispute is left as an open definitional question, with no stated practical consequence.",
+    "whats": "The Gemara pauses to clarify the word 'bira.' Rabbi Yohanan: it was a specific location on the Temple Mount with that name. Reish Lakish: 'bira' means the entire Temple compound, citing David's prayer in Chronicles where he calls the future Temple 'the bira I have prepared.'",
     "hint": "This looks like a minor geography dispute. Is 'bira' a landmark's proper name, or a general term for the whole Temple?"
    },
    "learning": {
@@ -702,7 +702,7 @@
      "type": "proposal",
      "label": "Rabbi Yohanan: specific named place",
      "speaker": "Rabbi Yohanan (via Rabba bar bar Chana)",
-     "text": "There was a specific place on the Temple Mount called 'bira', and the Chamber of the Stone House was adjacent to it.",
+     "text": "There was a specific place on the Temple Mount called 'bira'.",
      "sourceRefs": [
       {
        "sourceType": "gemara",
@@ -735,7 +735,7 @@
     {
      "id": "person.reish_lakish",
      "label": "Reish Lakish",
-     "scope": "global"
+     "scope": "local"
     },
     {
      "id": "place.temple_mount",
@@ -833,13 +833,13 @@
     "title": "Source for the seven-day separation: gezerah shavah from Leviticus 8",
     "oneLine": "Leviticus 8:34 is the source for both seven-day rules: 'to do' is split off for the parah, 'to atone' for Yom Kippur - and a gezerah shavah on 'tzivah/tzivah' then ties the milu'im verse to the heifer statute in Numbers.",
     "shortSummary": "The Gemara finally asks where the seven-day separation rule comes from. The answer comes from Leviticus 8:34 (the milu'im inauguration passage): 'as He commanded to do, to atone.' 'To do' is read as the parah adumah; 'to atone' is read as Yom Kippur. The whole verse cannot refer to the heifer alone, since a heifer cannot atone. A gezerah shavah on 'tzivah' (Lev 8:34 and Num 19:2) then ties the milu'im verse's 'to do' to the heifer statute, importing its sequestration requirement. The daf ends with a further objection to this derivation left unanswered.",
-    "whats": "The Gemara finally asks: where does the Torah mandate the seven-day separation at all? The answer comes through Leviticus 8:34 (the milu'im passage): 'as He commanded to do, to atone.' Read carefully, 'to do' refers to the parah adumah and 'to atone' refers to Yom Kippur - the verse teaches both laws together. Granted, the whole verse cannot refer to the heifer alone, since 'to atone' is written and a parah is not an object of atonement - but why can't it all refer to Yom Kippur alone? The Gemara answers with a gezerah shavah on 'tzivah/tzivah' (Lev 8:34 and Num 19:2): just as the heifer statute requires sequestration, so does the milu'im verse's 'to do,' pointing it at the heifer. The daf's own text then opens one more objection to this derivation ('ve'eima') and breaks off before answering it.",
+    "whats": "The Gemara finally asks: where does the Torah mandate the seven-day separation at all? The answer comes through Leviticus 8:34 (the Tabernacle inauguration verse): 'as He commanded to do, to atone.' Read carefully, 'to do' refers to the parah adumah and 'to atone' refers to Yom Kippur - the verse teaches both laws together. Granted, the whole verse cannot refer to the heifer alone, since 'to atone' is written and a parah is not an object of atonement - but why can't it all refer to Yom Kippur alone? The Gemara answers with a gezerah shavah on 'commanded/commanded' (Lev 8:34 and Num 19:2): just as the heifer verse there refers to the heifer, so too the word 'commanded' here, in the inauguration verse, refers to the heifer; and just as here, at the inauguration, there is sequestration before the service, so too there, regarding the heifer, sequestration is required before the ritual.",
     "hint": "The gezerah shavah does double duty here: it is what identifies the milu'im verse's 'to do' with the heifer, and it is what rules out reading the whole verse as Yom Kippur alone. Why can't the split reading of the verse do that second job by itself?"
    },
    "learning": {
     "learnerQuestion": "How can one verse in Leviticus 8 be the source for both the Kohen Gadol's seven-day separation and the parah adumah priest's seven-day separation?",
-    "coreTension": "The verse seems to describe one thing (the milu'im inauguration). Making it the source for two separate laws requires proving neither phrase can apply to only one law alone, then using a word analogy to formally connect the second law.",
-    "coreMove": "Elimination + gezerah shavah: first prove the verse must split between two laws (by showing each phrase fits only one), then formally link the second law to the verse via a shared word.",
+    "coreTension": "The verse seems to describe one thing (the milu'im inauguration). Making it the source for two separate laws requires first ruling out that the verse is about the heifer alone, since \"to atone\" doesn't fit the heifer; when a Yom-Kippur-only reading is then proposed, a word analogy is used to formally connect the heifer to the verse as well.",
+    "coreMove": "Elimination + gezerah shavah: first rule out reading the verse as about the heifer alone (since \"to atone\" doesn't fit the heifer), then, when a Yom-Kippur-only reading is proposed instead, use a shared word to formally link the verse to the heifer as well.",
     "resolution": "Leviticus 8:34 is the anchor: 'to do' (parah) + 'to atone' (Yom Kippur). The gezerah shavah ('tzivah'/'tzivah' with Num 19:2) is what identifies 'to do' with the heifer and imports the sequestration rule to it - but the Gemara's own text then raises one further objection ('ve'eima', line 39) and breaks off before resolving it, so the derivation is not settled on this daf.",
     "takeaway": {
      "type": "derivation_principle",
@@ -860,7 +860,7 @@
      "type": "answer",
      "label": "Source for the seven-day rule?",
      "speaker": "Rav Minyomi bar Chilkiya (via chain: Rabbi Machseya bar Idi, Rabbi Yochanan)",
-     "text": "From where in the Torah are both sequestration requirements derived? Rav Minyomi bar Chilkiya said that Rabbi Machseya bar Idi said that Rabbi Yochanan said they are derived from the verse about Aaron and his sons' inauguration.",
+     "text": "From where in the Torah are both sequestration requirements derived? Rav Minyomi bar Chilkiya said that Rabbi Machseya bar Idi said that Rabbi Yochanan said they are derived from the verse about Aaron and his sons, who remained in the Tabernacle for seven days before performing the service on the eighth day of their inauguration.",
      "sourceRefs": [
       {
        "sourceType": "gemara",
@@ -920,8 +920,8 @@
     },
     {
      "id": "concept.miluyim",
-     "label": "Milu'im (Tabernacle inauguration)",
-     "scope": "global"
+     "label": "Tabernacle inauguration",
+     "scope": "The verse about the days of inauguration is read as applying beyond that time, extending to future generations, not as limited to that occasion alone."
     },
     {
      "id": "concept.parah_adumah",
