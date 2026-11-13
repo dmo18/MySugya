@@ -15,12 +15,12 @@
       "daf": "2a",
       "state": "CERTIFIED",
       "firstPass": {
-        "reviewId": "ms2-first-anthropic-claude-sonnet-5-4e8c10de5631",
-        "reviewerContextId": "ms2-context-first-anthropic-claude-sonnet-5-4e8c10de5631",
+        "reviewId": "ms2-first-anthropic-claude-sonnet-5-af7b2d7003d5",
+        "reviewerContextId": "ms2-context-first-anthropic-claude-sonnet-5-af7b2d7003d5",
         "sourceFirst": true,
         "verdict": "VERIFIED",
         "reviewedSourceFingerprint": "d9dc8a3a173b99ecd074a82675f3a0a25201105fea976fa5cb80fb309f3888d3",
-        "reviewedSemanticFingerprint": "3b8b5cbb980fcf44aad6760530947363fbc492ff4b41a64173a37546803921d9",
+        "reviewedSemanticFingerprint": "a622431139c7c79e1b176cb51be9f38ee91568f32a537c681f5b3af254175f73",
         "evidence": {
           "method": "ms2 evidence ledger: every field carries a source quote verified by code",
           "fields": 63,
@@ -28,14 +28,14 @@
         }
       },
       "sourceFingerprint": "d9dc8a3a173b99ecd074a82675f3a0a25201105fea976fa5cb80fb309f3888d3",
-      "semanticFingerprint": "3b8b5cbb980fcf44aad6760530947363fbc492ff4b41a64173a37546803921d9",
+      "semanticFingerprint": "a622431139c7c79e1b176cb51be9f38ee91568f32a537c681f5b3af254175f73",
       "secondPass": {
-        "reviewId": "ms2-second-anthropic-claude-sonnet-5-f390819a4f36",
-        "reviewerContextId": "ms2-context-second-anthropic-claude-sonnet-5-f390819a4f36",
+        "reviewId": "ms2-second-anthropic-claude-sonnet-5-0bcb734b76a7",
+        "reviewerContextId": "ms2-context-second-anthropic-claude-sonnet-5-0bcb734b76a7",
         "sourceFirst": true,
         "verdict": "CONFIRMED",
         "reviewedSourceFingerprint": "d9dc8a3a173b99ecd074a82675f3a0a25201105fea976fa5cb80fb309f3888d3",
-        "reviewedSemanticFingerprint": "3b8b5cbb980fcf44aad6760530947363fbc492ff4b41a64173a37546803921d9",
+        "reviewedSemanticFingerprint": "a622431139c7c79e1b176cb51be9f38ee91568f32a537c681f5b3af254175f73",
         "evidence": {
           "method": "ms2 evidence ledger: every field carries a source quote verified by code",
           "fields": 63,
@@ -43,10 +43,10 @@
         }
       },
       "finalAudit": {
-        "reviewId": "ms2-final-anthropic-claude-sonnet-5-b093ffcded38",
-        "auditorContextId": "ms2-context-final-anthropic-claude-sonnet-5-b093ffcded38",
+        "reviewId": "ms2-final-anthropic-claude-sonnet-5-694d92d476a2",
+        "auditorContextId": "ms2-context-final-anthropic-claude-sonnet-5-694d92d476a2",
         "auditedSourceFingerprint": "d9dc8a3a173b99ecd074a82675f3a0a25201105fea976fa5cb80fb309f3888d3",
-        "auditedSemanticFingerprint": "3b8b5cbb980fcf44aad6760530947363fbc492ff4b41a64173a37546803921d9",
+        "auditedSemanticFingerprint": "a622431139c7c79e1b176cb51be9f38ee91568f32a537c681f5b3af254175f73",
         "dafBoundary": {
           "rawLineCount": 39,
           "finalRawLine": "ואימא",
@@ -130,11 +130,6 @@
                 "daf": "2a",
                 "endVilnaLine": 14,
                 "startVilnaLine": 8
-              },
-              {
-                "daf": "2a",
-                "endVilnaLine": 38,
-                "startVilnaLine": 34
               }
             ],
             "boundarySafe": true,
@@ -146,8 +141,8 @@
             "supportingLines": [
               {
                 "daf": "2a",
-                "endVilnaLine": 14,
-                "startVilnaLine": 8
+                "endVilnaLine": 17,
+                "startVilnaLine": 14
               }
             ],
             "boundarySafe": true,
@@ -276,18 +271,18 @@
             "supportingLines": [
               {
                 "daf": "2a",
-                "endVilnaLine": 14,
-                "startVilnaLine": 8
+                "endVilnaLine": 4,
+                "startVilnaLine": 1
+              },
+              {
+                "daf": "2a",
+                "endVilnaLine": 7,
+                "startVilnaLine": 4
               },
               {
                 "daf": "2a",
                 "endVilnaLine": 17,
                 "startVilnaLine": 14
-              },
-              {
-                "daf": "2a",
-                "endVilnaLine": 24,
-                "startVilnaLine": 20
               }
             ],
             "boundarySafe": true,
@@ -385,7 +380,7 @@
           {
             "path": "argumentFlow[step-01].type",
             "verdict": "REVIEWED",
-            "note": "This is a mishnaic ruling describing a recurring procedure, fitting a case/halakha category.",
+            "note": "The mishnah's opening statement sets up a case/scenario of removing the High Priest, which fits the classification 'case'.",
             "boundarySafe": true,
             "crossReference": false
           },
@@ -468,7 +463,7 @@
           {
             "path": "argumentFlow[step-02].type",
             "verdict": "REVIEWED",
-            "note": "Rabbi Yehuda's statement is a proposed extension of the backup rule to the wife, fitting 'proposal'.",
+            "note": "Rabbi Yehuda is making a proposal extending the mishnah's rule to a backup wife, which matches 'proposal'.",
             "boundarySafe": true,
             "crossReference": false
           },
@@ -551,7 +546,7 @@
           {
             "path": "argumentFlow[step-03].type",
             "verdict": "REVIEWED",
-            "note": "This is the Sages' rejection of Rabbi Yehuda's proposal, fitting 'rejection'.",
+            "note": "The Rabbis' statement rejects Rabbi Yehuda's reasoning by showing it leads to an absurd infinite regress.",
             "boundarySafe": true,
             "crossReference": false
           },
@@ -622,7 +617,7 @@
           {
             "path": "difficulty",
             "verdict": "REVIEWED",
-            "note": "This is the opening mishna of the tractate, a natural intro-level passage.",
+            "note": "intro difficulty is a neutral classification tag with no factual claim to check",
             "boundarySafe": true,
             "crossReference": false
           },
@@ -630,6 +625,11 @@
             "path": "display.hint",
             "verdict": "SUPPORTED",
             "supportingLines": [
+              {
+                "daf": "2a",
+                "endVilnaLine": 4,
+                "startVilnaLine": 1
+              },
               {
                 "daf": "2a",
                 "endVilnaLine": 7,
@@ -692,11 +692,6 @@
             "path": "display.whats",
             "verdict": "SUPPORTED",
             "supportingLines": [
-              {
-                "daf": "2a",
-                "endVilnaLine": 4,
-                "startVilnaLine": 1
-              },
               {
                 "daf": "2a",
                 "endVilnaLine": 7,
@@ -769,6 +764,11 @@
             "supportingLines": [
               {
                 "daf": "2a",
+                "endVilnaLine": 4,
+                "startVilnaLine": 1
+              },
+              {
+                "daf": "2a",
                 "endVilnaLine": 7,
                 "startVilnaLine": 4
               }
@@ -805,7 +805,7 @@
           {
             "path": "learning.reasoningPattern.category",
             "verdict": "REVIEWED",
-            "note": "The Sages' rejection is a formal logical move (reductio to infinite regress), fitting a 'logical' category.",
+            "note": "the Sages' objection is a logical infinite-regress argument, fitting a 'logical' category",
             "boundarySafe": true,
             "crossReference": false
           },
@@ -857,7 +857,7 @@
           {
             "path": "learning.takeaway.type",
             "verdict": "REVIEWED",
-            "note": "The takeaway states a general logical/halachic principle derived from the sugya rather than a specific fact, matching 'logical_principle'.",
+            "note": "the takeaway is a general logical principle (infinite regress blocks a rule), matching type logical_principle",
             "boundarySafe": true,
             "crossReference": false
           },
@@ -1259,7 +1259,7 @@
           {
             "path": "difficulty",
             "importsNextDafConclusion": false,
-            "note": "Checked against the source of this amud only; states no conclusion taken from the next amud."
+            "note": "Checked against the cited source lines of this amud only; states no conclusion taken from the next amud."
           },
           {
             "path": "display.hint",
@@ -1477,19 +1477,19 @@
           ]
         }
       },
-      "certifiedAtCommit": "9c56de4551389e90e289e2bcf3068616917f6387"
+      "certifiedAtCommit": "540da912dbfc9ccc04a4844099d0f1f8ff91b081"
     },
     "yoma-002a-s02": {
       "sugyaId": "yoma-002a-s02",
       "daf": "2a",
       "state": "CERTIFIED",
       "firstPass": {
-        "reviewId": "ms2-first-anthropic-claude-sonnet-5-81d0bd7716da",
-        "reviewerContextId": "ms2-context-first-anthropic-claude-sonnet-5-81d0bd7716da",
+        "reviewId": "ms2-first-anthropic-claude-sonnet-5-d24ee61c5b89",
+        "reviewerContextId": "ms2-context-first-anthropic-claude-sonnet-5-d24ee61c5b89",
         "sourceFirst": true,
         "verdict": "VERIFIED",
         "reviewedSourceFingerprint": "7d10aba46e159ee6318448b96999bf39ea72a73db02a271b45bd5c54ab377bed",
-        "reviewedSemanticFingerprint": "25fee6988b9d7509e8be5a6e76618cba9cc3d35ff1d2a1d6bdf48a209e062e4b",
+        "reviewedSemanticFingerprint": "f37f24ccc7c2401a3b7f5da55af341862f6251a4e5396feda75b75196661e097",
         "evidence": {
           "method": "ms2 evidence ledger: every field carries a source quote verified by code",
           "fields": 54,
@@ -1497,14 +1497,14 @@
         }
       },
       "sourceFingerprint": "7d10aba46e159ee6318448b96999bf39ea72a73db02a271b45bd5c54ab377bed",
-      "semanticFingerprint": "25fee6988b9d7509e8be5a6e76618cba9cc3d35ff1d2a1d6bdf48a209e062e4b",
+      "semanticFingerprint": "f37f24ccc7c2401a3b7f5da55af341862f6251a4e5396feda75b75196661e097",
       "secondPass": {
-        "reviewId": "ms2-second-anthropic-claude-sonnet-5-57508dbfa192",
-        "reviewerContextId": "ms2-context-second-anthropic-claude-sonnet-5-57508dbfa192",
+        "reviewId": "ms2-second-anthropic-claude-sonnet-5-f70638097286",
+        "reviewerContextId": "ms2-context-second-anthropic-claude-sonnet-5-f70638097286",
         "sourceFirst": true,
         "verdict": "CONFIRMED",
         "reviewedSourceFingerprint": "7d10aba46e159ee6318448b96999bf39ea72a73db02a271b45bd5c54ab377bed",
-        "reviewedSemanticFingerprint": "25fee6988b9d7509e8be5a6e76618cba9cc3d35ff1d2a1d6bdf48a209e062e4b",
+        "reviewedSemanticFingerprint": "f37f24ccc7c2401a3b7f5da55af341862f6251a4e5396feda75b75196661e097",
         "evidence": {
           "method": "ms2 evidence ledger: every field carries a source quote verified by code",
           "fields": 54,
@@ -1512,10 +1512,10 @@
         }
       },
       "finalAudit": {
-        "reviewId": "ms2-final-anthropic-claude-sonnet-5-77bfa2cd0166",
-        "auditorContextId": "ms2-context-final-anthropic-claude-sonnet-5-77bfa2cd0166",
+        "reviewId": "ms2-final-anthropic-claude-sonnet-5-a270e17eaec6",
+        "auditorContextId": "ms2-context-final-anthropic-claude-sonnet-5-a270e17eaec6",
         "auditedSourceFingerprint": "7d10aba46e159ee6318448b96999bf39ea72a73db02a271b45bd5c54ab377bed",
-        "auditedSemanticFingerprint": "25fee6988b9d7509e8be5a6e76618cba9cc3d35ff1d2a1d6bdf48a209e062e4b",
+        "auditedSemanticFingerprint": "f37f24ccc7c2401a3b7f5da55af341862f6251a4e5396feda75b75196661e097",
         "dafBoundary": {
           "rawLineCount": 39,
           "finalRawLine": "ואימא",
@@ -1599,11 +1599,6 @@
                 "daf": "2a",
                 "endVilnaLine": 14,
                 "startVilnaLine": 8
-              },
-              {
-                "daf": "2a",
-                "endVilnaLine": 38,
-                "startVilnaLine": 34
               }
             ],
             "boundarySafe": true,
@@ -1615,8 +1610,8 @@
             "supportingLines": [
               {
                 "daf": "2a",
-                "endVilnaLine": 14,
-                "startVilnaLine": 8
+                "endVilnaLine": 17,
+                "startVilnaLine": 14
               }
             ],
             "boundarySafe": true,
@@ -1745,18 +1740,18 @@
             "supportingLines": [
               {
                 "daf": "2a",
-                "endVilnaLine": 14,
-                "startVilnaLine": 8
+                "endVilnaLine": 4,
+                "startVilnaLine": 1
+              },
+              {
+                "daf": "2a",
+                "endVilnaLine": 7,
+                "startVilnaLine": 4
               },
               {
                 "daf": "2a",
                 "endVilnaLine": 17,
                 "startVilnaLine": 14
-              },
-              {
-                "daf": "2a",
-                "endVilnaLine": 24,
-                "startVilnaLine": 20
               }
             ],
             "boundarySafe": true,
@@ -1841,7 +1836,7 @@
           {
             "path": "argumentFlow[step-01].type",
             "verdict": "REVIEWED",
-            "note": "The step introduces the parallel mishna case of the heifer-priest's sequestration, fitting a 'case' classification.",
+            "note": "The Gemara introduces the parah adumah separation as a parallel case to the Kohen Gadol's situation.",
             "boundarySafe": true,
             "crossReference": false
           },
@@ -1924,7 +1919,7 @@
           {
             "path": "argumentFlow[step-02].type",
             "verdict": "REVIEWED",
-            "note": "The text answers the question of why the chamber is called the Stone House, which fits an 'answer' type.",
+            "note": "The Gemara poses the question 'why was it called' and immediately answers it with the explanation about the vessels, fitting the 'answer' classification.",
             "boundarySafe": true,
             "crossReference": false
           },
@@ -1963,7 +1958,7 @@
           {
             "path": "difficulty",
             "verdict": "REVIEWED",
-            "note": "This is the opening gemara segment of the sugya, citing a mishna to introduce the comparison before any derivation begins.",
+            "note": "This is an opening background mishna citation, fitting an introductory difficulty level.",
             "boundarySafe": true,
             "crossReference": false
           },
@@ -2126,7 +2121,7 @@
           {
             "path": "learning.reasoningPattern.category",
             "verdict": "REVIEWED",
-            "note": "Citing the parallel parah mishna before any derivation is a structural move, consistent with how segment 3 presents it.",
+            "note": "The field classifies the move as structural, which fits since segment [3] presents the parah adumah's separation mishna as a parallel structure to the Kohen Gadol's separation.",
             "boundarySafe": true,
             "crossReference": false
           },
@@ -2178,7 +2173,7 @@
           {
             "path": "learning.takeaway.type",
             "verdict": "REVIEWED",
-            "note": "The takeaway states a generalizable principle about how the Gemara uses parallel citations, fitting 'logical_principle'.",
+            "note": "Classifying the takeaway as a logical_principle fits, since it generalizes a recurring Gemara pattern of introducing parallels before linking them.",
             "boundarySafe": true,
             "crossReference": false
           },
@@ -2722,19 +2717,19 @@
           ]
         }
       },
-      "certifiedAtCommit": "9c56de4551389e90e289e2bcf3068616917f6387"
+      "certifiedAtCommit": "540da912dbfc9ccc04a4844099d0f1f8ff91b081"
     },
     "yoma-002a-s03": {
       "sugyaId": "yoma-002a-s03",
       "daf": "2a",
       "state": "CERTIFIED",
       "firstPass": {
-        "reviewId": "ms2-first-anthropic-claude-sonnet-5-0ae7e3f52051",
-        "reviewerContextId": "ms2-context-first-anthropic-claude-sonnet-5-0ae7e3f52051",
+        "reviewId": "ms2-first-anthropic-claude-sonnet-5-1d1d1f722081",
+        "reviewerContextId": "ms2-context-first-anthropic-claude-sonnet-5-1d1d1f722081",
         "sourceFirst": true,
         "verdict": "VERIFIED",
         "reviewedSourceFingerprint": "33246ef4f7da29655ed2ca3453d8343f3211328e3215eac8ba1b20e95a1e0564",
-        "reviewedSemanticFingerprint": "c8b938e79af2f61734f2a176db806a515717d2dd856a8924b7b2c36febcf8979",
+        "reviewedSemanticFingerprint": "2e3b0dc1278344bb8acc53c2fe694039ea72fcca17a845adcfa9deb2ac34f154",
         "evidence": {
           "method": "ms2 evidence ledger: every field carries a source quote verified by code",
           "fields": 64,
@@ -2742,14 +2737,14 @@
         }
       },
       "sourceFingerprint": "33246ef4f7da29655ed2ca3453d8343f3211328e3215eac8ba1b20e95a1e0564",
-      "semanticFingerprint": "c8b938e79af2f61734f2a176db806a515717d2dd856a8924b7b2c36febcf8979",
+      "semanticFingerprint": "2e3b0dc1278344bb8acc53c2fe694039ea72fcca17a845adcfa9deb2ac34f154",
       "secondPass": {
-        "reviewId": "ms2-second-anthropic-claude-sonnet-5-35ea37a9a6fe",
-        "reviewerContextId": "ms2-context-second-anthropic-claude-sonnet-5-35ea37a9a6fe",
+        "reviewId": "ms2-second-anthropic-claude-sonnet-5-e54472a08bdc",
+        "reviewerContextId": "ms2-context-second-anthropic-claude-sonnet-5-e54472a08bdc",
         "sourceFirst": true,
         "verdict": "CONFIRMED",
         "reviewedSourceFingerprint": "33246ef4f7da29655ed2ca3453d8343f3211328e3215eac8ba1b20e95a1e0564",
-        "reviewedSemanticFingerprint": "c8b938e79af2f61734f2a176db806a515717d2dd856a8924b7b2c36febcf8979",
+        "reviewedSemanticFingerprint": "2e3b0dc1278344bb8acc53c2fe694039ea72fcca17a845adcfa9deb2ac34f154",
         "evidence": {
           "method": "ms2 evidence ledger: every field carries a source quote verified by code",
           "fields": 64,
@@ -2757,10 +2752,10 @@
         }
       },
       "finalAudit": {
-        "reviewId": "ms2-final-anthropic-claude-sonnet-5-00e964f44eb4",
-        "auditorContextId": "ms2-context-final-anthropic-claude-sonnet-5-00e964f44eb4",
+        "reviewId": "ms2-final-anthropic-claude-sonnet-5-a15daba092b7",
+        "auditorContextId": "ms2-context-final-anthropic-claude-sonnet-5-a15daba092b7",
         "auditedSourceFingerprint": "33246ef4f7da29655ed2ca3453d8343f3211328e3215eac8ba1b20e95a1e0564",
-        "auditedSemanticFingerprint": "c8b938e79af2f61734f2a176db806a515717d2dd856a8924b7b2c36febcf8979",
+        "auditedSemanticFingerprint": "2e3b0dc1278344bb8acc53c2fe694039ea72fcca17a845adcfa9deb2ac34f154",
         "dafBoundary": {
           "rawLineCount": 39,
           "finalRawLine": "ואימא",
@@ -2844,11 +2839,6 @@
                 "daf": "2a",
                 "endVilnaLine": 14,
                 "startVilnaLine": 8
-              },
-              {
-                "daf": "2a",
-                "endVilnaLine": 38,
-                "startVilnaLine": 34
               }
             ],
             "boundarySafe": true,
@@ -2860,8 +2850,8 @@
             "supportingLines": [
               {
                 "daf": "2a",
-                "endVilnaLine": 14,
-                "startVilnaLine": 8
+                "endVilnaLine": 17,
+                "startVilnaLine": 14
               }
             ],
             "boundarySafe": true,
@@ -2990,18 +2980,18 @@
             "supportingLines": [
               {
                 "daf": "2a",
-                "endVilnaLine": 14,
-                "startVilnaLine": 8
+                "endVilnaLine": 4,
+                "startVilnaLine": 1
+              },
+              {
+                "daf": "2a",
+                "endVilnaLine": 7,
+                "startVilnaLine": 4
               },
               {
                 "daf": "2a",
                 "endVilnaLine": 17,
                 "startVilnaLine": 14
-              },
-              {
-                "daf": "2a",
-                "endVilnaLine": 24,
-                "startVilnaLine": 20
               }
             ],
             "boundarySafe": true,
@@ -3073,7 +3063,7 @@
           {
             "path": "argumentFlow[step-01].type",
             "verdict": "REVIEWED",
-            "note": "The Gemara asks מַאי טַעְמָא, a question about the reason for the stringency, which is answered in the same segment.",
+            "note": "Segment 4 opens with the Gemara's question מַאי טַעְמָא, matching type question.",
             "boundarySafe": true,
             "crossReference": false
           },
@@ -3143,7 +3133,7 @@
           {
             "path": "argumentFlow[step-02].type",
             "verdict": "REVIEWED",
-            "note": "This content directly answers the Gemara's preceding question about the reason for the stringency.",
+            "note": "This restates the mishna's answer to the Gemara's question, fitting type answer.",
             "boundarySafe": true,
             "crossReference": false
           },
@@ -3213,7 +3203,7 @@
           {
             "path": "argumentFlow[step-03].type",
             "verdict": "REVIEWED",
-            "note": "The Sages' institution of impurity-proof vessels is a resolution/remedy addressing the concern of contempt arising from the public impurity display.",
+            "note": "The Sages' instituting impurity-proof vessels in response to the tvul-yom stringency is a resolution/remedy, not a question or proof-text citation.",
             "boundarySafe": true,
             "crossReference": false
           },
@@ -3316,7 +3306,7 @@
           {
             "path": "difficulty",
             "verdict": "REVIEWED",
-            "note": "The sugya involves a named sectarian dispute and a technical halachic concept (tvul yom), fitting an intermediate difficulty level.",
+            "note": "The sugya involves layered reasoning (mishna citation, Sadducean polemic, secondary safeguard), fitting an intermediate difficulty level.",
             "boundarySafe": true,
             "crossReference": false
           },
@@ -3324,11 +3314,6 @@
             "path": "display.hint",
             "verdict": "SUPPORTED",
             "supportingLines": [
-              {
-                "daf": "2a",
-                "endVilnaLine": 17,
-                "startVilnaLine": 14
-              },
               {
                 "daf": "2a",
                 "endVilnaLine": 20,
@@ -3382,11 +3367,6 @@
                 "daf": "2a",
                 "endVilnaLine": 17,
                 "startVilnaLine": 14
-              },
-              {
-                "daf": "2a",
-                "endVilnaLine": 20,
-                "startVilnaLine": 18
               }
             ],
             "boundarySafe": true,
@@ -3414,6 +3394,11 @@
             "path": "finalRuling",
             "verdict": "SUPPORTED",
             "supportingLines": [
+              {
+                "daf": "2a",
+                "endVilnaLine": 17,
+                "startVilnaLine": 14
+              },
               {
                 "daf": "2a",
                 "endVilnaLine": 20,
@@ -3529,7 +3514,7 @@
           {
             "path": "learning.reasoningPattern.category",
             "verdict": "REVIEWED",
-            "note": "The move is a procedural fix (institute special vessels) to neutralize a risk created by an earlier procedural act, matching segment 5's content.",
+            "note": "The sugya describes a stepwise cause-and-effect procedure (deliberate impurity, then vessel stringency), fitting a procedural reasoning pattern.",
             "boundarySafe": true,
             "crossReference": false
           },
@@ -3543,6 +3528,11 @@
             "path": "learning.reasoningPattern.notes",
             "verdict": "SUPPORTED",
             "supportingLines": [
+              {
+                "daf": "2a",
+                "endVilnaLine": 17,
+                "startVilnaLine": 14
+              },
               {
                 "daf": "2a",
                 "endVilnaLine": 20,
@@ -3591,7 +3581,7 @@
           {
             "path": "learning.takeaway.type",
             "verdict": "REVIEWED",
-            "note": "The takeaway states a general legal/procedural principle drawn from the sugya's halachic reasoning, consistent with segment 5.",
+            "note": "The takeaway states a general legal principle derivable from the sugya's reasoning, consistent with a legal_principle classification.",
             "boundarySafe": true,
             "crossReference": false
           },
@@ -4249,19 +4239,19 @@
           ]
         }
       },
-      "certifiedAtCommit": "9c56de4551389e90e289e2bcf3068616917f6387"
+      "certifiedAtCommit": "540da912dbfc9ccc04a4844099d0f1f8ff91b081"
     },
     "yoma-002a-s04": {
       "sugyaId": "yoma-002a-s04",
       "daf": "2a",
       "state": "CERTIFIED",
       "firstPass": {
-        "reviewId": "ms2-first-anthropic-claude-sonnet-5-2d3863bf83fb",
-        "reviewerContextId": "ms2-context-first-anthropic-claude-sonnet-5-2d3863bf83fb",
+        "reviewId": "ms2-first-anthropic-claude-sonnet-5-6846e2f58521",
+        "reviewerContextId": "ms2-context-first-anthropic-claude-sonnet-5-6846e2f58521",
         "sourceFirst": true,
         "verdict": "VERIFIED",
         "reviewedSourceFingerprint": "c228502c00f948bbbff06a6fd75d017579aab017738525189063e7507cde791f",
-        "reviewedSemanticFingerprint": "129d567082098ac7bff71aade2f7f66add7b3dff57f8d29ef4faa1dfeee7ec4c",
+        "reviewedSemanticFingerprint": "9002f8e467db24c4ade6c6273a2c3ae8afc5d8a89c1f6549267d8ddacee3183a",
         "evidence": {
           "method": "ms2 evidence ledger: every field carries a source quote verified by code",
           "fields": 60,
@@ -4269,14 +4259,14 @@
         }
       },
       "sourceFingerprint": "c228502c00f948bbbff06a6fd75d017579aab017738525189063e7507cde791f",
-      "semanticFingerprint": "129d567082098ac7bff71aade2f7f66add7b3dff57f8d29ef4faa1dfeee7ec4c",
+      "semanticFingerprint": "9002f8e467db24c4ade6c6273a2c3ae8afc5d8a89c1f6549267d8ddacee3183a",
       "secondPass": {
-        "reviewId": "ms2-second-anthropic-claude-sonnet-5-bf1a2648e50a",
-        "reviewerContextId": "ms2-context-second-anthropic-claude-sonnet-5-bf1a2648e50a",
+        "reviewId": "ms2-second-anthropic-claude-sonnet-5-da5ba36b6983",
+        "reviewerContextId": "ms2-context-second-anthropic-claude-sonnet-5-da5ba36b6983",
         "sourceFirst": true,
         "verdict": "CONFIRMED",
         "reviewedSourceFingerprint": "c228502c00f948bbbff06a6fd75d017579aab017738525189063e7507cde791f",
-        "reviewedSemanticFingerprint": "129d567082098ac7bff71aade2f7f66add7b3dff57f8d29ef4faa1dfeee7ec4c",
+        "reviewedSemanticFingerprint": "9002f8e467db24c4ade6c6273a2c3ae8afc5d8a89c1f6549267d8ddacee3183a",
         "evidence": {
           "method": "ms2 evidence ledger: every field carries a source quote verified by code",
           "fields": 60,
@@ -4284,10 +4274,10 @@
         }
       },
       "finalAudit": {
-        "reviewId": "ms2-final-anthropic-claude-sonnet-5-a45178092155",
-        "auditorContextId": "ms2-context-final-anthropic-claude-sonnet-5-a45178092155",
+        "reviewId": "ms2-final-anthropic-claude-sonnet-5-c152873ffb7d",
+        "auditorContextId": "ms2-context-final-anthropic-claude-sonnet-5-c152873ffb7d",
         "auditedSourceFingerprint": "c228502c00f948bbbff06a6fd75d017579aab017738525189063e7507cde791f",
-        "auditedSemanticFingerprint": "129d567082098ac7bff71aade2f7f66add7b3dff57f8d29ef4faa1dfeee7ec4c",
+        "auditedSemanticFingerprint": "9002f8e467db24c4ade6c6273a2c3ae8afc5d8a89c1f6549267d8ddacee3183a",
         "dafBoundary": {
           "rawLineCount": 39,
           "finalRawLine": "ואימא",
@@ -4371,11 +4361,6 @@
                 "daf": "2a",
                 "endVilnaLine": 14,
                 "startVilnaLine": 8
-              },
-              {
-                "daf": "2a",
-                "endVilnaLine": 38,
-                "startVilnaLine": 34
               }
             ],
             "boundarySafe": true,
@@ -4387,8 +4372,8 @@
             "supportingLines": [
               {
                 "daf": "2a",
-                "endVilnaLine": 14,
-                "startVilnaLine": 8
+                "endVilnaLine": 17,
+                "startVilnaLine": 14
               }
             ],
             "boundarySafe": true,
@@ -4517,18 +4502,18 @@
             "supportingLines": [
               {
                 "daf": "2a",
-                "endVilnaLine": 14,
-                "startVilnaLine": 8
+                "endVilnaLine": 4,
+                "startVilnaLine": 1
+              },
+              {
+                "daf": "2a",
+                "endVilnaLine": 7,
+                "startVilnaLine": 4
               },
               {
                 "daf": "2a",
                 "endVilnaLine": 17,
                 "startVilnaLine": 14
-              },
-              {
-                "daf": "2a",
-                "endVilnaLine": 24,
-                "startVilnaLine": 20
               }
             ],
             "boundarySafe": true,
@@ -4600,7 +4585,7 @@
           {
             "path": "argumentFlow[step-01].type",
             "verdict": "REVIEWED",
-            "note": "The sentence asks what is distinctive about the chamber's location, which is a question.",
+            "note": "The text opens with מַאי שְׁנָא, a question, matching the type classification.",
             "boundarySafe": true,
             "crossReference": false
           },
@@ -4670,7 +4655,7 @@
           {
             "path": "argumentFlow[step-02].type",
             "verdict": "REVIEWED",
-            "note": "This segment gives the answer explaining the north/east combination.",
+            "note": "This is the Gemara's answer explaining the reasons for north and east.",
             "boundarySafe": true,
             "crossReference": false
           },
@@ -4740,7 +4725,7 @@
           {
             "path": "argumentFlow[step-03].type",
             "verdict": "REVIEWED",
-            "note": "This step concludes the Sages' institution of the chamber location, functioning as the resolution of the question.",
+            "note": "This resolves the question of why the northeast corner was chosen, functioning as the Gemara's answer.",
             "boundarySafe": true,
             "crossReference": false
           },
@@ -4811,7 +4796,7 @@
           {
             "path": "difficulty",
             "verdict": "REVIEWED",
-            "note": "This segment introduces a basic clarifying question and answer about the chamber's location, fitting an introductory difficulty level.",
+            "note": "This is an introductory sugya explaining the basic reason for the chamber's location, fitting an 'intro' difficulty level.",
             "boundarySafe": true,
             "crossReference": false
           },
@@ -4974,7 +4959,7 @@
           {
             "path": "learning.reasoningPattern.category",
             "verdict": "REVIEWED",
-            "note": "The resolution combines two independent directional requirements (north and east) via their spatial intersection, fitting a spatial reasoning pattern.",
+            "note": "The resolution relies on combining two spatial/directional requirements into one physical location.",
             "boundarySafe": true,
             "crossReference": false
           },
@@ -5026,7 +5011,7 @@
           {
             "path": "learning.takeaway.type",
             "verdict": "REVIEWED",
-            "note": "The sugya derives the chamber's placement from halakhic directional requirements (chatat/north, Tent of Meeting/east), which is a legal-principle classification.",
+            "note": "The chamber's placement as a heikher is a legal/halakhic principle about using location as an indicator.",
             "boundarySafe": true,
             "crossReference": false
           },
@@ -5638,19 +5623,19 @@
           ]
         }
       },
-      "certifiedAtCommit": "9c56de4551389e90e289e2bcf3068616917f6387"
+      "certifiedAtCommit": "540da912dbfc9ccc04a4844099d0f1f8ff91b081"
     },
     "yoma-002a-s05": {
       "sugyaId": "yoma-002a-s05",
       "daf": "2a",
       "state": "CERTIFIED",
       "firstPass": {
-        "reviewId": "ms2-first-anthropic-claude-sonnet-5-f8bbcbaa0428",
-        "reviewerContextId": "ms2-context-first-anthropic-claude-sonnet-5-f8bbcbaa0428",
+        "reviewId": "ms2-first-anthropic-claude-sonnet-5-a7fbcd300f88",
+        "reviewerContextId": "ms2-context-first-anthropic-claude-sonnet-5-a7fbcd300f88",
         "sourceFirst": true,
         "verdict": "VERIFIED",
         "reviewedSourceFingerprint": "17b8e27f28ca8a91691b00fff1a80f84d0edcc0913bccdf4f8106c940f85394a",
-        "reviewedSemanticFingerprint": "c26caeb6f84149df27b928f5da157a9218feb034c0e4618f97d306b20258010e",
+        "reviewedSemanticFingerprint": "e384c2dc3c67d0b03404750f925a2bbae7b17a5d41d341b3956aaddaf636b4f1",
         "evidence": {
           "method": "ms2 evidence ledger: every field carries a source quote verified by code",
           "fields": 60,
@@ -5658,14 +5643,14 @@
         }
       },
       "sourceFingerprint": "17b8e27f28ca8a91691b00fff1a80f84d0edcc0913bccdf4f8106c940f85394a",
-      "semanticFingerprint": "c26caeb6f84149df27b928f5da157a9218feb034c0e4618f97d306b20258010e",
+      "semanticFingerprint": "e384c2dc3c67d0b03404750f925a2bbae7b17a5d41d341b3956aaddaf636b4f1",
       "secondPass": {
-        "reviewId": "ms2-second-anthropic-claude-sonnet-5-7f3f270c925e",
-        "reviewerContextId": "ms2-context-second-anthropic-claude-sonnet-5-7f3f270c925e",
+        "reviewId": "ms2-second-anthropic-claude-sonnet-5-4f3f81a0f902",
+        "reviewerContextId": "ms2-context-second-anthropic-claude-sonnet-5-4f3f81a0f902",
         "sourceFirst": true,
         "verdict": "CONFIRMED",
         "reviewedSourceFingerprint": "17b8e27f28ca8a91691b00fff1a80f84d0edcc0913bccdf4f8106c940f85394a",
-        "reviewedSemanticFingerprint": "c26caeb6f84149df27b928f5da157a9218feb034c0e4618f97d306b20258010e",
+        "reviewedSemanticFingerprint": "e384c2dc3c67d0b03404750f925a2bbae7b17a5d41d341b3956aaddaf636b4f1",
         "evidence": {
           "method": "ms2 evidence ledger: every field carries a source quote verified by code",
           "fields": 60,
@@ -5673,14 +5658,14 @@
         }
       },
       "finalAudit": {
-        "reviewId": "ms2-final-anthropic-claude-sonnet-5-52c4ce342c7d",
-        "auditorContextId": "ms2-context-final-anthropic-claude-sonnet-5-52c4ce342c7d",
+        "reviewId": "ms2-final-anthropic-claude-sonnet-5-058b36edf099",
+        "auditorContextId": "ms2-context-final-anthropic-claude-sonnet-5-058b36edf099",
         "auditedSourceFingerprint": "17b8e27f28ca8a91691b00fff1a80f84d0edcc0913bccdf4f8106c940f85394a",
-        "auditedSemanticFingerprint": "c26caeb6f84149df27b928f5da157a9218feb034c0e4618f97d306b20258010e",
+        "auditedSemanticFingerprint": "e384c2dc3c67d0b03404750f925a2bbae7b17a5d41d341b3956aaddaf636b4f1",
         "dafBoundary": {
           "rawLineCount": 39,
           "finalRawLine": "ואימא",
-          "dafEndState": "MID_QUESTION"
+          "dafEndState": "MID_PROOF"
         },
         "fieldInventory": [
           {
@@ -5760,11 +5745,6 @@
                 "daf": "2a",
                 "endVilnaLine": 14,
                 "startVilnaLine": 8
-              },
-              {
-                "daf": "2a",
-                "endVilnaLine": 38,
-                "startVilnaLine": 34
               }
             ],
             "boundarySafe": true,
@@ -5776,8 +5756,8 @@
             "supportingLines": [
               {
                 "daf": "2a",
-                "endVilnaLine": 14,
-                "startVilnaLine": 8
+                "endVilnaLine": 17,
+                "startVilnaLine": 14
               }
             ],
             "boundarySafe": true,
@@ -5906,18 +5886,18 @@
             "supportingLines": [
               {
                 "daf": "2a",
-                "endVilnaLine": 14,
-                "startVilnaLine": 8
+                "endVilnaLine": 4,
+                "startVilnaLine": 1
+              },
+              {
+                "daf": "2a",
+                "endVilnaLine": 7,
+                "startVilnaLine": 4
               },
               {
                 "daf": "2a",
                 "endVilnaLine": 17,
                 "startVilnaLine": 14
-              },
-              {
-                "daf": "2a",
-                "endVilnaLine": 24,
-                "startVilnaLine": 20
               }
             ],
             "boundarySafe": true,
@@ -5989,7 +5969,7 @@
           {
             "path": "argumentFlow[step-01].type",
             "verdict": "REVIEWED",
-            "note": "The Gemara poses a question about the meaning of a term, which is a standard question step.",
+            "note": "The passage opens with 'Mai bira' which is a question seeking a definition.",
             "boundarySafe": true,
             "crossReference": false
           },
@@ -6059,7 +6039,7 @@
           {
             "path": "argumentFlow[step-02].type",
             "verdict": "REVIEWED",
-            "note": "Rabbi Yohanan offers a definition identifying a specific place, presented as one view among two possibilities, fitting a proposal.",
+            "note": "Rabbi Yohanan offers a definition/statement identifying the term, presented as one view opposed to Reish Lakish's, fitting a proposal.",
             "boundarySafe": true,
             "crossReference": false
           },
@@ -6129,7 +6109,7 @@
           {
             "path": "argumentFlow[step-03].type",
             "verdict": "REVIEWED",
-            "note": "Reish Lakish's statement presents an alternative proposal that the whole Temple is called bira.",
+            "note": "Reish Lakish offers a second, contrasting proposal for the meaning of bira.",
             "boundarySafe": true,
             "crossReference": false
           },
@@ -6232,7 +6212,7 @@
           {
             "path": "difficulty",
             "verdict": "REVIEWED",
-            "note": "This segment is a basic terminological clarification appropriate for an introductory difficulty level.",
+            "note": "This is a basic terminological dispute suitable for an introductory level of the sugya.",
             "boundarySafe": true,
             "crossReference": false
           },
@@ -6382,7 +6362,7 @@
           {
             "path": "learning.reasoningPattern.category",
             "verdict": "REVIEWED",
-            "note": "The dispute turns on word definition, fitting a lexical reasoning category.",
+            "note": "The dispute concerns the meaning of the word 'bira', a lexical question about a term used in the mishna.",
             "boundarySafe": true,
             "crossReference": false
           },
@@ -6434,7 +6414,7 @@
           {
             "path": "learning.takeaway.type",
             "verdict": "REVIEWED",
-            "note": "The field explains a general interpretive principle rather than a specific factual datum, fitting 'conceptual'.",
+            "note": "The field states a general principle about reading terms, which is a conceptual takeaway rather than a specific halachic ruling.",
             "boundarySafe": true,
             "crossReference": false
           },
@@ -7021,19 +7001,19 @@
           ]
         }
       },
-      "certifiedAtCommit": "9c56de4551389e90e289e2bcf3068616917f6387"
+      "certifiedAtCommit": "540da912dbfc9ccc04a4844099d0f1f8ff91b081"
     },
     "yoma-002a-s06": {
       "sugyaId": "yoma-002a-s06",
       "daf": "2a",
       "state": "CERTIFIED",
       "firstPass": {
-        "reviewId": "ms2-first-anthropic-claude-sonnet-5-8ac44673a7dc",
-        "reviewerContextId": "ms2-context-first-anthropic-claude-sonnet-5-8ac44673a7dc",
+        "reviewId": "ms2-first-anthropic-claude-sonnet-5-21863092d993",
+        "reviewerContextId": "ms2-context-first-anthropic-claude-sonnet-5-21863092d993",
         "sourceFirst": true,
         "verdict": "VERIFIED",
         "reviewedSourceFingerprint": "a4abf78a1200c6891588b0c7206a5e3a2e52db368fbcf718ed97b3740a7a8d3a",
-        "reviewedSemanticFingerprint": "c5941f1d3d661c46c459846db3b204c74f2a528a422c224ab016d2ee5975f4c7",
+        "reviewedSemanticFingerprint": "8a662e0b44970732e2c13daaf7a3e1d2dfad0893ba6454bd85e1ba5dd77252ba",
         "evidence": {
           "method": "ms2 evidence ledger: every field carries a source quote verified by code",
           "fields": 70,
@@ -7041,14 +7021,14 @@
         }
       },
       "sourceFingerprint": "a4abf78a1200c6891588b0c7206a5e3a2e52db368fbcf718ed97b3740a7a8d3a",
-      "semanticFingerprint": "c5941f1d3d661c46c459846db3b204c74f2a528a422c224ab016d2ee5975f4c7",
+      "semanticFingerprint": "8a662e0b44970732e2c13daaf7a3e1d2dfad0893ba6454bd85e1ba5dd77252ba",
       "secondPass": {
-        "reviewId": "ms2-second-anthropic-claude-sonnet-5-9676f6b1f877",
-        "reviewerContextId": "ms2-context-second-anthropic-claude-sonnet-5-9676f6b1f877",
+        "reviewId": "ms2-second-anthropic-claude-sonnet-5-c6f57c38a671",
+        "reviewerContextId": "ms2-context-second-anthropic-claude-sonnet-5-c6f57c38a671",
         "sourceFirst": true,
         "verdict": "CONFIRMED",
         "reviewedSourceFingerprint": "a4abf78a1200c6891588b0c7206a5e3a2e52db368fbcf718ed97b3740a7a8d3a",
-        "reviewedSemanticFingerprint": "c5941f1d3d661c46c459846db3b204c74f2a528a422c224ab016d2ee5975f4c7",
+        "reviewedSemanticFingerprint": "8a662e0b44970732e2c13daaf7a3e1d2dfad0893ba6454bd85e1ba5dd77252ba",
         "evidence": {
           "method": "ms2 evidence ledger: every field carries a source quote verified by code",
           "fields": 70,
@@ -7056,10 +7036,10 @@
         }
       },
       "finalAudit": {
-        "reviewId": "ms2-final-anthropic-claude-sonnet-5-e2e2f4c8fcc6",
-        "auditorContextId": "ms2-context-final-anthropic-claude-sonnet-5-e2e2f4c8fcc6",
+        "reviewId": "ms2-final-anthropic-claude-sonnet-5-478cd0f7f408",
+        "auditorContextId": "ms2-context-final-anthropic-claude-sonnet-5-478cd0f7f408",
         "auditedSourceFingerprint": "a4abf78a1200c6891588b0c7206a5e3a2e52db368fbcf718ed97b3740a7a8d3a",
-        "auditedSemanticFingerprint": "c5941f1d3d661c46c459846db3b204c74f2a528a422c224ab016d2ee5975f4c7",
+        "auditedSemanticFingerprint": "8a662e0b44970732e2c13daaf7a3e1d2dfad0893ba6454bd85e1ba5dd77252ba",
         "dafBoundary": {
           "rawLineCount": 39,
           "finalRawLine": "ואימא",
@@ -7143,11 +7123,6 @@
                 "daf": "2a",
                 "endVilnaLine": 14,
                 "startVilnaLine": 8
-              },
-              {
-                "daf": "2a",
-                "endVilnaLine": 38,
-                "startVilnaLine": 34
               }
             ],
             "boundarySafe": true,
@@ -7159,8 +7134,8 @@
             "supportingLines": [
               {
                 "daf": "2a",
-                "endVilnaLine": 14,
-                "startVilnaLine": 8
+                "endVilnaLine": 17,
+                "startVilnaLine": 14
               }
             ],
             "boundarySafe": true,
@@ -7289,18 +7264,18 @@
             "supportingLines": [
               {
                 "daf": "2a",
-                "endVilnaLine": 14,
-                "startVilnaLine": 8
+                "endVilnaLine": 4,
+                "startVilnaLine": 1
+              },
+              {
+                "daf": "2a",
+                "endVilnaLine": 7,
+                "startVilnaLine": 4
               },
               {
                 "daf": "2a",
                 "endVilnaLine": 17,
                 "startVilnaLine": 14
-              },
-              {
-                "daf": "2a",
-                "endVilnaLine": 24,
-                "startVilnaLine": 20
               }
             ],
             "boundarySafe": true,
@@ -7372,7 +7347,7 @@
           {
             "path": "argumentFlow[step-01].type",
             "verdict": "REVIEWED",
-            "note": "The statement responds to the Gemara's question of where the halakhot are derived from, fitting the classification of an answer.",
+            "note": "Rabbi Yochanan's statement directly answers the Gemara's question of where these halakhot are derived from, making it an answer step.",
             "boundarySafe": true,
             "crossReference": false
           },
@@ -7442,7 +7417,7 @@
           {
             "path": "argumentFlow[step-02].type",
             "verdict": "REVIEWED",
-            "note": "It derives the two future sequestration halakhot from a split reading of the verse, functioning as a textual proof.",
+            "note": "This step derives/proves the split meaning of the verse into parah and Yom Kippur components, fitting a proof step.",
             "boundarySafe": true,
             "crossReference": false
           },
@@ -7512,7 +7487,7 @@
           {
             "path": "argumentFlow[step-03].type",
             "verdict": "REVIEWED",
-            "note": "The Gemara here raises an objection to limiting the verse to the heifer and proposes it's all about Yom Kippur, challenging the prior derivation - fits challenge.",
+            "note": "This segment raises a difficulty against the prior derivation, functioning as a challenge.",
             "boundarySafe": true,
             "crossReference": false
           },
@@ -7582,7 +7557,7 @@
           {
             "path": "argumentFlow[step-04].type",
             "verdict": "REVIEWED",
-            "note": "אָמְרִי (\"the Sages say in response\") directly answers the challenge raised in segment 9, functioning as the answer.",
+            "note": "This resolves the challenge of step-03 by supplying the derivation for the heifer's sequestration, functioning as an answer.",
             "boundarySafe": true,
             "crossReference": false
           },
@@ -7685,7 +7660,7 @@
           {
             "path": "difficulty",
             "verdict": "REVIEWED",
-            "note": "The sugya requires a multi-step chain (split-reading of the verse by elimination, then a gezerah shavah tying two separate verses), consistent with an advanced classification.",
+            "note": "The sugya's two-stage hermeneutical derivation (elimination argument plus gezerah shavah across verses) is multi-step reasoning fitting an advanced classification.",
             "boundarySafe": true,
             "crossReference": false
           },
@@ -7697,6 +7672,11 @@
                 "daf": "2a",
                 "endVilnaLine": 34,
                 "startVilnaLine": 32
+              },
+              {
+                "daf": "2a",
+                "endVilnaLine": 38,
+                "startVilnaLine": 34
               }
             ],
             "boundarySafe": true,
@@ -7790,11 +7770,6 @@
                 "daf": "2a",
                 "endVilnaLine": 34,
                 "startVilnaLine": 32
-              },
-              {
-                "daf": "2a",
-                "endVilnaLine": 38,
-                "startVilnaLine": 34
               }
             ],
             "boundarySafe": true,
@@ -7824,8 +7799,8 @@
             "supportingLines": [
               {
                 "daf": "2a",
-                "endVilnaLine": 31,
-                "startVilnaLine": 27
+                "endVilnaLine": 34,
+                "startVilnaLine": 32
               },
               {
                 "daf": "2a",
@@ -7883,7 +7858,7 @@
           {
             "path": "learning.reasoningPattern.category",
             "verdict": "REVIEWED",
-            "note": "The derivation proceeds via gezerah shavah, a classic hermeneutical technique, as shown in segment [10].",
+            "note": "The derivation relies on a gezerah shavah, a classic hermeneutical technique, so categorizing it as hermeneutical fits the source.",
             "boundarySafe": true,
             "crossReference": false
           },
@@ -7917,11 +7892,6 @@
             "supportingLines": [
               {
                 "daf": "2a",
-                "endVilnaLine": 31,
-                "startVilnaLine": 27
-              },
-              {
-                "daf": "2a",
                 "endVilnaLine": 38,
                 "startVilnaLine": 34
               }
@@ -7945,7 +7915,7 @@
           {
             "path": "learning.takeaway.type",
             "verdict": "REVIEWED",
-            "note": "Correctly classifies the gezerah shavah mechanism as a derivation principle.",
+            "note": "The passage derives the heifer-sequestration law via a formal hermeneutical device (gezerah shavah), which fits a 'derivation_principle' classification.",
             "boundarySafe": true,
             "crossReference": false
           },
@@ -7979,8 +7949,8 @@
             "supportingLines": [
               {
                 "daf": "2a",
-                "endVilnaLine": 38,
-                "startVilnaLine": 34
+                "endVilnaLine": 31,
+                "startVilnaLine": 27
               }
             ],
             "boundarySafe": true,
@@ -8687,7 +8657,7 @@
           ]
         }
       },
-      "certifiedAtCommit": "9c56de4551389e90e289e2bcf3068616917f6387"
+      "certifiedAtCommit": "540da912dbfc9ccc04a4844099d0f1f8ff91b081"
     },
     "yoma-002b-s01": {
       "sugyaId": "yoma-002b-s01",
