@@ -2,15 +2,12 @@
   "schemaVersion": "1.0",
   "type": "semantic-daf-repair",
   "module": "yoma",
-  "daf": "2b",
+  "daf": "4a",
   "sugyaIds": [
-    "yoma-002b-s01",
-    "yoma-002b-s02",
-    "yoma-002b-s03",
-    "yoma-002b-s04",
-    "yoma-002b-s05"
+    "yoma-004a-s01",
+    "yoma-004a-s02"
   ],
-  "firstReviewId": "ms2-first-anthropic-claude-sonnet-5-67588e7dfc4d",
+  "firstReviewId": "ms2-first-anthropic-claude-sonnet-5-c9d3447a418a",
   "policy": {
     "sourceFirst": true,
     "independentSecondPassRequired": true,
