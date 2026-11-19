@@ -3187,7 +3187,7 @@
     "yoma-002a-s04": {
       "sugyaId": "yoma-002a-s04",
       "daf": "2a",
-      "state": "PENDING_FINAL_AUDIT",
+      "state": "CERTIFIED",
       "firstPass": {
         "reviewId": "rv3-second6-2a-fable",
         "reviewerContextId": "rv3-ctx-second6-2a-aa1cfd2ef081989bc",
@@ -3273,7 +3273,1383 @@
             "Step types question/answer/answer fit; takeaway type legal_principle is within schema enum and fits a rabbinic enactment; topicTags are lowercase ASCII slugs, no duplicates, each describes the sugya; visualizableElements carries item only (item 12 clean); requiresUnderstanding empty; prerequisiteKnowledge is prose attributed to Rashi."
           ]
         }
-      }
+      },
+      "finalAudit": {
+        "reviewId": "rv3-final-2a-fable",
+        "auditorContextId": "rv3-ctx-final-2a-cc5c212a",
+        "auditedSourceFingerprint": "c228502c00f948bbbff06a6fd75d017579aab017738525189063e7507cde791f",
+        "auditedSemanticFingerprint": "6edb52caf13f54ae26242d262c1d8a323bb6bf6c0f1e991fd40b8e686e1468dc",
+        "dafBoundary": {
+          "rawLineCount": 39,
+          "finalRawLine": "ואימא",
+          "dafEndState": "MID_QUESTION",
+          "note": "Line 38 completes the gezerah shavah answer; line 39 is the single word 've'eima', the opening of a new challenge whose content is entirely on 2b."
+        },
+        "fieldInventory": [
+          {
+            "path": "lineRange",
+            "crossReference": false,
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "note": "Declared range 20-24 checked against the raw page."
+          },
+          {
+            "path": "lines",
+            "crossReference": false,
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "note": "Line-map segment starts checked against the raw page."
+          },
+          {
+            "path": "dafLevel.glossary[0].en",
+            "crossReference": false,
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "2a",
+                "startVilnaLine": 2,
+                "endVilnaLine": 3
+              }
+            ],
+            "boundarySafe": true,
+            "note": "Lines 2-3: separated from his house to the Parhedrin chamber seven days before Yom Kippur; Hebrew Rashi: 'kakh shemah'. Passes all 12 nothing-beyond-the-page checklist items."
+          },
+          {
+            "path": "dafLevel.glossary[0].he",
+            "crossReference": false,
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "2a",
+                "startVilnaLine": 3,
+                "endVilnaLine": 3
+              }
+            ],
+            "boundarySafe": true,
+            "note": "The term appears on line 3. Passes all 12 nothing-beyond-the-page checklist items."
+          },
+          {
+            "path": "dafLevel.glossary[0].translit",
+            "crossReference": false,
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "2a",
+                "startVilnaLine": 3,
+                "endVilnaLine": 3
+              }
+            ],
+            "boundarySafe": true,
+            "note": "The term appears on line 3. Passes all 12 nothing-beyond-the-page checklist items."
+          },
+          {
+            "path": "dafLevel.glossary[1].en",
+            "crossReference": false,
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "2a",
+                "startVilnaLine": 8,
+                "endVilnaLine": 9
+              },
+              {
+                "daf": "2a",
+                "startVilnaLine": 12,
+                "endVilnaLine": 14
+              },
+              {
+                "daf": "2a",
+                "startVilnaLine": 18,
+                "endVilnaLine": 19
+              }
+            ],
+            "boundarySafe": true,
+            "note": "Seven-day separation of the kohen who burns the parah (8-9; Rashi: parah adumah); all its acts in dung, stone and earth vessels (12-14), which do not receive impurity (18-19). Passes all 12 nothing-beyond-the-page checklist items."
+          },
+          {
+            "path": "dafLevel.glossary[1].he",
+            "crossReference": false,
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "2a",
+                "startVilnaLine": 8,
+                "endVilnaLine": 9
+              }
+            ],
+            "boundarySafe": true,
+            "note": "The parah is named on lines 8-9; Hebrew Rashi there: 'parah adumah'. Passes all 12 nothing-beyond-the-page checklist items."
+          },
+          {
+            "path": "dafLevel.glossary[1].translit",
+            "crossReference": false,
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "2a",
+                "startVilnaLine": 8,
+                "endVilnaLine": 9
+              }
+            ],
+            "boundarySafe": true,
+            "note": "The parah is named on lines 8-9; Hebrew Rashi there: 'parah adumah'. Passes all 12 nothing-beyond-the-page checklist items."
+          },
+          {
+            "path": "dafLevel.glossary[2].en",
+            "crossReference": false,
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "2a",
+                "startVilnaLine": 14,
+                "endVilnaLine": 17
+              }
+            ],
+            "boundarySafe": true,
+            "note": "Lines 14-17 nearly verbatim. Passes all 12 nothing-beyond-the-page checklist items."
+          },
+          {
+            "path": "dafLevel.glossary[2].he",
+            "crossReference": false,
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "2a",
+                "startVilnaLine": 14,
+                "endVilnaLine": 14
+              }
+            ],
+            "boundarySafe": true,
+            "note": "The term appears on line 14. Passes all 12 nothing-beyond-the-page checklist items."
+          },
+          {
+            "path": "dafLevel.glossary[2].translit",
+            "crossReference": false,
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "2a",
+                "startVilnaLine": 14,
+                "endVilnaLine": 14
+              }
+            ],
+            "boundarySafe": true,
+            "note": "The term appears on line 14. Passes all 12 nothing-beyond-the-page checklist items."
+          },
+          {
+            "path": "dafLevel.glossary[3].en",
+            "crossReference": false,
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "2a",
+                "startVilnaLine": 34,
+                "endVilnaLine": 38
+              }
+            ],
+            "boundarySafe": true,
+            "note": "Restates lines 34-38 with both verses as worded on the page. Passes all 12 nothing-beyond-the-page checklist items."
+          },
+          {
+            "path": "dafLevel.glossary[3].he",
+            "crossReference": false,
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "2a",
+                "startVilnaLine": 35,
+                "endVilnaLine": 38
+              }
+            ],
+            "boundarySafe": true,
+            "note": "Headword for the 'yalif tzivah tzivah' derivation of lines 35-38 (advisory: the page's own wording is 'yalif', the headword is the accepted name of that method). Passes all 12 nothing-beyond-the-page checklist items."
+          },
+          {
+            "path": "dafLevel.glossary[3].translit",
+            "crossReference": false,
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "2a",
+                "startVilnaLine": 35,
+                "endVilnaLine": 38
+              }
+            ],
+            "boundarySafe": true,
+            "note": "Headword for the 'yalif tzivah tzivah' derivation of lines 35-38 (advisory: the page's own wording is 'yalif', the headword is the accepted name of that method). Passes all 12 nothing-beyond-the-page checklist items."
+          },
+          {
+            "path": "dafLevel.glossary[4].en",
+            "crossReference": false,
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "2a",
+                "startVilnaLine": 29,
+                "endVilnaLine": 30
+              }
+            ],
+            "boundarySafe": true,
+            "note": "Worded as Rashi's explanation; Hebrew Rashi on 'kaasher asah' (lines 29-30): at the milu'im they were commanded to separate from their homes seven days, and on the eighth they served. Passes all 12 nothing-beyond-the-page checklist items."
+          },
+          {
+            "path": "dafLevel.glossary[4].he",
+            "crossReference": false,
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "2a",
+                "startVilnaLine": 29,
+                "endVilnaLine": 30
+              }
+            ],
+            "boundarySafe": true,
+            "note": "The term is Rashi's on the verse of lines 29-30 ('bamilu'im'). Passes all 12 nothing-beyond-the-page checklist items."
+          },
+          {
+            "path": "dafLevel.glossary[4].translit",
+            "crossReference": false,
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "2a",
+                "startVilnaLine": 29,
+                "endVilnaLine": 30
+              }
+            ],
+            "boundarySafe": true,
+            "note": "The term is Rashi's on the verse of lines 29-30 ('bamilu'im'). Passes all 12 nothing-beyond-the-page checklist items."
+          },
+          {
+            "path": "dafLevel.summary",
+            "crossReference": false,
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "2a",
+                "startVilnaLine": 1,
+                "endVilnaLine": 39
+              }
+            ],
+            "boundarySafe": true,
+            "note": "Checked sentence by sentence against lines 1-39 and the Hebrew Rashi; the name explanation is correctly given to the Gemara, the milu'im to Rashi, and the last sentence reports only that 've'eima' (39) opens a challenge. Passes all 12 nothing-beyond-the-page checklist items."
+          },
+          {
+            "path": "argumentFlow[step-01].id",
+            "crossReference": false,
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true
+          },
+          {
+            "path": "argumentFlow[step-01].label",
+            "crossReference": false,
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "2a",
+                "startVilnaLine": 20,
+                "endVilnaLine": 20
+              }
+            ],
+            "boundarySafe": true,
+            "note": "Checked against the Hebrew of 2a line(s) 20 and the Hebrew Rashi on them. Passes all 12 nothing-beyond-the-page checklist items."
+          },
+          {
+            "path": "argumentFlow[step-01].sourceRefs[0].lineId",
+            "crossReference": false,
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true
+          },
+          {
+            "path": "argumentFlow[step-01].sourceRefs[0].sourceType",
+            "crossReference": false,
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true
+          },
+          {
+            "path": "argumentFlow[step-01].sourceRefs[0].vilnaLine",
+            "crossReference": false,
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true
+          },
+          {
+            "path": "argumentFlow[step-01].speaker",
+            "crossReference": false,
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "2a",
+                "startVilnaLine": 20,
+                "endVilnaLine": 20
+              }
+            ],
+            "boundarySafe": true,
+            "note": "Checked against the Hebrew of 2a line(s) 20 and the Hebrew Rashi on them. Passes all 12 nothing-beyond-the-page checklist items."
+          },
+          {
+            "path": "argumentFlow[step-01].text",
+            "crossReference": false,
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "2a",
+                "startVilnaLine": 20,
+                "endVilnaLine": 20
+              }
+            ],
+            "boundarySafe": true,
+            "note": "Checked against the Hebrew of 2a line(s) 20 and the Hebrew Rashi on them. Passes all 12 nothing-beyond-the-page checklist items."
+          },
+          {
+            "path": "argumentFlow[step-01].type",
+            "crossReference": false,
+            "verdict": "REVIEWED",
+            "boundarySafe": true,
+            "note": "'Mai shena tzafonah mizrachah' (20) is a question."
+          },
+          {
+            "path": "argumentFlow[step-02].id",
+            "crossReference": false,
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true
+          },
+          {
+            "path": "argumentFlow[step-02].label",
+            "crossReference": false,
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "2a",
+                "startVilnaLine": 20,
+                "endVilnaLine": 23
+              }
+            ],
+            "boundarySafe": true,
+            "note": "Checked against the Hebrew of 2a line(s) 20-23 and the Hebrew Rashi on them. Passes all 12 nothing-beyond-the-page checklist items."
+          },
+          {
+            "path": "argumentFlow[step-02].sourceRefs[0].lineId",
+            "crossReference": false,
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true
+          },
+          {
+            "path": "argumentFlow[step-02].sourceRefs[0].sourceType",
+            "crossReference": false,
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true
+          },
+          {
+            "path": "argumentFlow[step-02].sourceRefs[0].vilnaLine",
+            "crossReference": false,
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true
+          },
+          {
+            "path": "argumentFlow[step-02].speaker",
+            "crossReference": false,
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "2a",
+                "startVilnaLine": 20,
+                "endVilnaLine": 23
+              }
+            ],
+            "boundarySafe": true,
+            "note": "Checked against the Hebrew of 2a line(s) 20-23 and the Hebrew Rashi on them. Passes all 12 nothing-beyond-the-page checklist items."
+          },
+          {
+            "path": "argumentFlow[step-02].text",
+            "crossReference": false,
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "2a",
+                "startVilnaLine": 20,
+                "endVilnaLine": 23
+              }
+            ],
+            "boundarySafe": true,
+            "note": "Lines 20-23; east is worded as Rashi's explanation (Hebrew Rashi: the Heichal entrance is in the eastern wall; 'te'unah mizrach'). Passes all 12 nothing-beyond-the-page checklist items."
+          },
+          {
+            "path": "argumentFlow[step-02].type",
+            "crossReference": false,
+            "verdict": "REVIEWED",
+            "boundarySafe": true,
+            "note": "'Keivan dechatat hi ... takinu lah rabbanan' (20-23) is the answer."
+          },
+          {
+            "path": "argumentFlow[step-03].id",
+            "crossReference": false,
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true
+          },
+          {
+            "path": "argumentFlow[step-03].label",
+            "crossReference": false,
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "2a",
+                "startVilnaLine": 23,
+                "endVilnaLine": 24
+              }
+            ],
+            "boundarySafe": true,
+            "note": "Checked against the Hebrew of 2a line(s) 23-24 and the Hebrew Rashi on them. Passes all 12 nothing-beyond-the-page checklist items."
+          },
+          {
+            "path": "argumentFlow[step-03].sourceRefs[0].lineId",
+            "crossReference": false,
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true
+          },
+          {
+            "path": "argumentFlow[step-03].sourceRefs[0].sourceType",
+            "crossReference": false,
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true
+          },
+          {
+            "path": "argumentFlow[step-03].sourceRefs[0].vilnaLine",
+            "crossReference": false,
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true
+          },
+          {
+            "path": "argumentFlow[step-03].speaker",
+            "crossReference": false,
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "2a",
+                "startVilnaLine": 23,
+                "endVilnaLine": 24
+              }
+            ],
+            "boundarySafe": true,
+            "note": "Checked against the Hebrew of 2a line(s) 23-24 and the Hebrew Rashi on them. Passes all 12 nothing-beyond-the-page checklist items."
+          },
+          {
+            "path": "argumentFlow[step-03].text",
+            "crossReference": false,
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "2a",
+                "startVilnaLine": 23,
+                "endVilnaLine": 24
+              }
+            ],
+            "boundarySafe": true,
+            "note": "Lines 23-24; Hebrew Rashi: 'lada'at shehufrash sham kedei lehatil alav avodat parah ... veyasim lev lihyot zariz bemaaseha', worded as Rashi. Passes all 12 nothing-beyond-the-page checklist items."
+          },
+          {
+            "path": "argumentFlow[step-03].type",
+            "crossReference": false,
+            "verdict": "REVIEWED",
+            "boundarySafe": true,
+            "note": "'Ki heikhi delehevei lah hekeira' (23-24) is the purpose clause of the same answer."
+          },
+          {
+            "path": "conceptRefs[concept.heikher].id",
+            "crossReference": false,
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true
+          },
+          {
+            "path": "conceptRefs[concept.heikher].label",
+            "crossReference": false,
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "2a",
+                "startVilnaLine": 23,
+                "endVilnaLine": 24
+              }
+            ],
+            "boundarySafe": true,
+            "note": "Checked against the Hebrew of 2a line(s) 23-24 and the Hebrew Rashi on them. Passes all 12 nothing-beyond-the-page checklist items."
+          },
+          {
+            "path": "conceptRefs[concept.heikher].scope",
+            "crossReference": false,
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "2a",
+                "startVilnaLine": 23,
+                "endVilnaLine": 24
+              }
+            ],
+            "boundarySafe": true,
+            "note": "Checked against the Hebrew of 2a line(s) 23-24 and the Hebrew Rashi on them. Passes all 12 nothing-beyond-the-page checklist items."
+          },
+          {
+            "path": "conceptRefs[place.ohel_moed].id",
+            "crossReference": false,
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true
+          },
+          {
+            "path": "conceptRefs[place.ohel_moed].label",
+            "crossReference": false,
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "2a",
+                "startVilnaLine": 22,
+                "endVilnaLine": 22
+              }
+            ],
+            "boundarySafe": true,
+            "note": "Checked against the Hebrew of 2a line(s) 22 and the Hebrew Rashi on them. Passes all 12 nothing-beyond-the-page checklist items."
+          },
+          {
+            "path": "conceptRefs[place.ohel_moed].scope",
+            "crossReference": false,
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "2a",
+                "startVilnaLine": 22,
+                "endVilnaLine": 22
+              }
+            ],
+            "boundarySafe": true,
+            "note": "Checked against the Hebrew of 2a line(s) 22 and the Hebrew Rashi on them. Passes all 12 nothing-beyond-the-page checklist items."
+          },
+          {
+            "path": "difficulty",
+            "crossReference": false,
+            "verdict": "REVIEWED",
+            "boundarySafe": true,
+            "note": "One question and one answer (20-24)."
+          },
+          {
+            "path": "display.hint",
+            "crossReference": false,
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "2a",
+                "startVilnaLine": 20,
+                "endVilnaLine": 24
+              }
+            ],
+            "boundarySafe": true,
+            "note": "Checked against the Hebrew of 2a line(s) 20-24 and the Hebrew Rashi on them. Passes all 12 nothing-beyond-the-page checklist items."
+          },
+          {
+            "path": "display.oneLine",
+            "crossReference": false,
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "2a",
+                "startVilnaLine": 20,
+                "endVilnaLine": 24
+              }
+            ],
+            "boundarySafe": true,
+            "note": "Checked against the Hebrew of 2a line(s) 20-24 and the Hebrew Rashi on them. Passes all 12 nothing-beyond-the-page checklist items."
+          },
+          {
+            "path": "display.shortSummary",
+            "crossReference": false,
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "2a",
+                "startVilnaLine": 20,
+                "endVilnaLine": 24
+              }
+            ],
+            "boundarySafe": true,
+            "note": "Checked against the Hebrew of 2a line(s) 20-24 and the Hebrew Rashi on them. Passes all 12 nothing-beyond-the-page checklist items."
+          },
+          {
+            "path": "display.title",
+            "crossReference": false,
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "2a",
+                "startVilnaLine": 20,
+                "endVilnaLine": 24
+              }
+            ],
+            "boundarySafe": true,
+            "note": "Checked against the Hebrew of 2a line(s) 20-24 and the Hebrew Rashi on them. Passes all 12 nothing-beyond-the-page checklist items."
+          },
+          {
+            "path": "display.whats",
+            "crossReference": false,
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "2a",
+                "startVilnaLine": 20,
+                "endVilnaLine": 24
+              }
+            ],
+            "boundarySafe": true,
+            "note": "Checked against the Hebrew of 2a line(s) 20-24 and the Hebrew Rashi on them. Passes all 12 nothing-beyond-the-page checklist items."
+          },
+          {
+            "path": "finalRuling",
+            "crossReference": false,
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "2a",
+                "startVilnaLine": 20,
+                "endVilnaLine": 24
+              }
+            ],
+            "boundarySafe": true,
+            "note": "Lines 20-24 state the Sages' institution ('takinu lah rabbanan') with no dispute. Passes all 12 nothing-beyond-the-page checklist items."
+          },
+          {
+            "path": "learning.ahaMoment",
+            "crossReference": false,
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "2a",
+                "startVilnaLine": 23,
+                "endVilnaLine": 24
+              }
+            ],
+            "boundarySafe": true,
+            "note": "Checked against the Hebrew of 2a line(s) 23-24 and the Hebrew Rashi on them. Passes all 12 nothing-beyond-the-page checklist items."
+          },
+          {
+            "path": "learning.coreMove",
+            "crossReference": false,
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "2a",
+                "startVilnaLine": 20,
+                "endVilnaLine": 24
+              }
+            ],
+            "boundarySafe": true,
+            "note": "Checked against the Hebrew of 2a line(s) 20-24 and the Hebrew Rashi on them. Passes all 12 nothing-beyond-the-page checklist items."
+          },
+          {
+            "path": "learning.coreTension",
+            "crossReference": false,
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "2a",
+                "startVilnaLine": 20,
+                "endVilnaLine": 24
+              }
+            ],
+            "boundarySafe": true,
+            "note": "Checked against the Hebrew of 2a line(s) 20-24 and the Hebrew Rashi on them. Passes all 12 nothing-beyond-the-page checklist items."
+          },
+          {
+            "path": "learning.learnerQuestion",
+            "crossReference": false,
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "2a",
+                "startVilnaLine": 20,
+                "endVilnaLine": 24
+              }
+            ],
+            "boundarySafe": true,
+            "note": "Checked against the Hebrew of 2a line(s) 20-24 and the Hebrew Rashi on them. Passes all 12 nothing-beyond-the-page checklist items."
+          },
+          {
+            "path": "learning.learningBlocker",
+            "crossReference": false,
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "2a",
+                "startVilnaLine": 20,
+                "endVilnaLine": 21
+              }
+            ],
+            "boundarySafe": true,
+            "note": "Hebrew Rashi on 'vechatat te'unah tzafon' (line 21): altar chataot are slaughtered in the north, 'velo shezo te'unah tzafon', it is slaughtered on Har haMishchah; worded as Rashi. Passes all 12 nothing-beyond-the-page checklist items."
+          },
+          {
+            "path": "learning.memoryAnchor",
+            "crossReference": false,
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "2a",
+                "startVilnaLine": 20,
+                "endVilnaLine": 24
+              }
+            ],
+            "boundarySafe": true,
+            "note": "Checked against the Hebrew of 2a line(s) 20-24 and the Hebrew Rashi on them. Passes all 12 nothing-beyond-the-page checklist items."
+          },
+          {
+            "path": "learning.reasoningPattern.category",
+            "crossReference": false,
+            "verdict": "REVIEWED",
+            "boundarySafe": true,
+            "note": "The passage is about a location and its directions (20-24)."
+          },
+          {
+            "path": "learning.reasoningPattern.id",
+            "crossReference": false,
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true
+          },
+          {
+            "path": "learning.reasoningPattern.notes",
+            "crossReference": false,
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "2a",
+                "startVilnaLine": 20,
+                "endVilnaLine": 24
+              }
+            ],
+            "boundarySafe": true,
+            "note": "Checked against the Hebrew of 2a line(s) 20-24 and the Hebrew Rashi on them. Passes all 12 nothing-beyond-the-page checklist items."
+          },
+          {
+            "path": "learning.resolution",
+            "crossReference": false,
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "2a",
+                "startVilnaLine": 20,
+                "endVilnaLine": 24
+              }
+            ],
+            "boundarySafe": true,
+            "note": "Checked against the Hebrew of 2a line(s) 20-24 and the Hebrew Rashi on them. Passes all 12 nothing-beyond-the-page checklist items."
+          },
+          {
+            "path": "learning.takeaway.text",
+            "crossReference": false,
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "2a",
+                "startVilnaLine": 20,
+                "endVilnaLine": 24
+              }
+            ],
+            "boundarySafe": true,
+            "note": "Checked against the Hebrew of 2a line(s) 20-24 and the Hebrew Rashi on them. Passes all 12 nothing-beyond-the-page checklist items."
+          },
+          {
+            "path": "learning.takeaway.type",
+            "crossReference": false,
+            "verdict": "REVIEWED",
+            "boundarySafe": true,
+            "note": "The takeaway restates the Sages' institution of lines 22-24."
+          },
+          {
+            "path": "misconceptions[0].correctedByStepId",
+            "crossReference": false,
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true
+          },
+          {
+            "path": "misconceptions[0].correction",
+            "crossReference": false,
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "2a",
+                "startVilnaLine": 20,
+                "endVilnaLine": 24
+              }
+            ],
+            "boundarySafe": true,
+            "note": "Checked against the Hebrew of 2a line(s) 20-24 and the Hebrew Rashi on them. Passes all 12 nothing-beyond-the-page checklist items."
+          },
+          {
+            "path": "misconceptions[0].misconception",
+            "crossReference": false,
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "2a",
+                "startVilnaLine": 20,
+                "endVilnaLine": 24
+              }
+            ],
+            "boundarySafe": true,
+            "note": "Checked against the Hebrew of 2a line(s) 20-24 and the Hebrew Rashi on them. Passes all 12 nothing-beyond-the-page checklist items."
+          },
+          {
+            "path": "prerequisiteKnowledge[0]",
+            "crossReference": false,
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "2a",
+                "startVilnaLine": 21,
+                "endVilnaLine": 21
+              }
+            ],
+            "boundarySafe": true,
+            "note": "Hebrew Rashi on line 21, worded as Rashi. Passes all 12 nothing-beyond-the-page checklist items."
+          },
+          {
+            "path": "prerequisiteKnowledge[1]",
+            "crossReference": false,
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "2a",
+                "startVilnaLine": 21,
+                "endVilnaLine": 22
+              }
+            ],
+            "boundarySafe": true,
+            "note": "Hebrew Rashi on 'ukhtiv' (lines 21-22): 'pitcho shel heichal shehu bekotel mizrachi', worded as Rashi. Passes all 12 nothing-beyond-the-page checklist items."
+          },
+          {
+            "path": "quizSeeds[0].answer",
+            "crossReference": false,
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "2a",
+                "startVilnaLine": 20,
+                "endVilnaLine": 21
+              }
+            ],
+            "boundarySafe": true,
+            "note": "Checked against the Hebrew of 2a line(s) 20-21 and the Hebrew Rashi on them. Passes all 12 nothing-beyond-the-page checklist items."
+          },
+          {
+            "path": "quizSeeds[0].question",
+            "crossReference": false,
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "2a",
+                "startVilnaLine": 20,
+                "endVilnaLine": 21
+              }
+            ],
+            "boundarySafe": true,
+            "note": "Checked against the Hebrew of 2a line(s) 20-21 and the Hebrew Rashi on them. Passes all 12 nothing-beyond-the-page checklist items."
+          },
+          {
+            "path": "quizSeeds[0].sourceRefs[0].lineId",
+            "crossReference": false,
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true
+          },
+          {
+            "path": "quizSeeds[0].sourceRefs[0].sourceType",
+            "crossReference": false,
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true
+          },
+          {
+            "path": "quizSeeds[0].sourceRefs[0].vilnaLine",
+            "crossReference": false,
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true
+          },
+          {
+            "path": "quizSeeds[1].answer",
+            "crossReference": false,
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "2a",
+                "startVilnaLine": 23,
+                "endVilnaLine": 24
+              }
+            ],
+            "boundarySafe": true,
+            "note": "Checked against the Hebrew of 2a line(s) 23-24 and the Hebrew Rashi on them. Passes all 12 nothing-beyond-the-page checklist items."
+          },
+          {
+            "path": "quizSeeds[1].question",
+            "crossReference": false,
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "2a",
+                "startVilnaLine": 23,
+                "endVilnaLine": 24
+              }
+            ],
+            "boundarySafe": true,
+            "note": "Checked against the Hebrew of 2a line(s) 23-24 and the Hebrew Rashi on them. Passes all 12 nothing-beyond-the-page checklist items."
+          },
+          {
+            "path": "quizSeeds[1].sourceRefs[0].lineId",
+            "crossReference": false,
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true
+          },
+          {
+            "path": "quizSeeds[1].sourceRefs[0].sourceType",
+            "crossReference": false,
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true
+          },
+          {
+            "path": "quizSeeds[1].sourceRefs[0].vilnaLine",
+            "crossReference": false,
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true
+          },
+          {
+            "path": "relatedSugyot[0]",
+            "crossReference": false,
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true
+          },
+          {
+            "path": "relatedSugyot[1]",
+            "crossReference": false,
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true
+          },
+          {
+            "path": "topicTags[0]",
+            "crossReference": false,
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "note": "Slug describes something the sugya's lines say (item 11 checked)."
+          },
+          {
+            "path": "topicTags[1]",
+            "crossReference": false,
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "note": "Slug describes something the sugya's lines say (item 11 checked)."
+          },
+          {
+            "path": "topicTags[2]",
+            "crossReference": false,
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "note": "Slug describes something the sugya's lines say (item 11 checked)."
+          },
+          {
+            "path": "topicTags[3]",
+            "crossReference": false,
+            "verdict": "NONFACTUAL",
+            "boundarySafe": true,
+            "note": "Slug describes something the sugya's lines say (item 11 checked)."
+          },
+          {
+            "path": "visualizableElements[0].item",
+            "crossReference": false,
+            "verdict": "SUPPORTED",
+            "supportingLines": [
+              {
+                "daf": "2a",
+                "startVilnaLine": 20,
+                "endVilnaLine": 23
+              }
+            ],
+            "boundarySafe": true,
+            "note": "Checked against the Hebrew of 2a line(s) 20-23 and the Hebrew Rashi on them. Passes all 12 nothing-beyond-the-page checklist items."
+          }
+        ],
+        "boundaryLeakageSweep": [
+          {
+            "path": "dafLevel.glossary[0].en",
+            "importsNextDafConclusion": false,
+            "note": "Glossary entry for a term from lines 1-19, units closed well before line 39; nothing from 2b is involved."
+          },
+          {
+            "path": "dafLevel.glossary[0].he",
+            "importsNextDafConclusion": false,
+            "note": "Glossary entry for a term from lines 1-19, units closed well before line 39; nothing from 2b is involved."
+          },
+          {
+            "path": "dafLevel.glossary[0].translit",
+            "importsNextDafConclusion": false,
+            "note": "Glossary entry for a term from lines 1-19, units closed well before line 39; nothing from 2b is involved."
+          },
+          {
+            "path": "dafLevel.glossary[1].en",
+            "importsNextDafConclusion": false,
+            "note": "Glossary entry for a term from lines 1-19, units closed well before line 39; nothing from 2b is involved."
+          },
+          {
+            "path": "dafLevel.glossary[1].he",
+            "importsNextDafConclusion": false,
+            "note": "Glossary entry for a term from lines 1-19, units closed well before line 39; nothing from 2b is involved."
+          },
+          {
+            "path": "dafLevel.glossary[1].translit",
+            "importsNextDafConclusion": false,
+            "note": "Glossary entry for a term from lines 1-19, units closed well before line 39; nothing from 2b is involved."
+          },
+          {
+            "path": "dafLevel.glossary[2].en",
+            "importsNextDafConclusion": false,
+            "note": "Glossary entry for a term from lines 1-19, units closed well before line 39; nothing from 2b is involved."
+          },
+          {
+            "path": "dafLevel.glossary[2].he",
+            "importsNextDafConclusion": false,
+            "note": "Glossary entry for a term from lines 1-19, units closed well before line 39; nothing from 2b is involved."
+          },
+          {
+            "path": "dafLevel.glossary[2].translit",
+            "importsNextDafConclusion": false,
+            "note": "Glossary entry for a term from lines 1-19, units closed well before line 39; nothing from 2b is involved."
+          },
+          {
+            "path": "dafLevel.glossary[3].en",
+            "importsNextDafConclusion": false,
+            "note": "Restates lines 28-38 and Rashi on them as they stand on 2a; says nothing about how the challenge opened on line 39 is answered."
+          },
+          {
+            "path": "dafLevel.glossary[3].he",
+            "importsNextDafConclusion": false,
+            "note": "Restates lines 28-38 and Rashi on them as they stand on 2a; says nothing about how the challenge opened on line 39 is answered."
+          },
+          {
+            "path": "dafLevel.glossary[3].translit",
+            "importsNextDafConclusion": false,
+            "note": "Restates lines 28-38 and Rashi on them as they stand on 2a; says nothing about how the challenge opened on line 39 is answered."
+          },
+          {
+            "path": "dafLevel.glossary[4].en",
+            "importsNextDafConclusion": false,
+            "note": "Restates lines 28-38 and Rashi on them as they stand on 2a; says nothing about how the challenge opened on line 39 is answered."
+          },
+          {
+            "path": "dafLevel.glossary[4].he",
+            "importsNextDafConclusion": false,
+            "note": "Restates lines 28-38 and Rashi on them as they stand on 2a; says nothing about how the challenge opened on line 39 is answered."
+          },
+          {
+            "path": "dafLevel.glossary[4].translit",
+            "importsNextDafConclusion": false,
+            "note": "Restates lines 28-38 and Rashi on them as they stand on 2a; says nothing about how the challenge opened on line 39 is answered."
+          },
+          {
+            "path": "dafLevel.summary",
+            "importsNextDafConclusion": false,
+            "note": "Reports the gezerah shavah answer of lines 34-38 and says only that a further challenge ('ve'eima', line 39) begins and continues; no 2b content or outcome."
+          },
+          {
+            "path": "argumentFlow[step-01].label",
+            "importsNextDafConclusion": false,
+            "note": "Concerns only lines 20-24, a unit that closes on 2a before the open word on line 39; it neither depends on nor states anything from 2b."
+          },
+          {
+            "path": "argumentFlow[step-01].speaker",
+            "importsNextDafConclusion": false,
+            "note": "Concerns only lines 20-24, a unit that closes on 2a before the open word on line 39; it neither depends on nor states anything from 2b."
+          },
+          {
+            "path": "argumentFlow[step-01].text",
+            "importsNextDafConclusion": false,
+            "note": "Concerns only lines 20-24, a unit that closes on 2a before the open word on line 39; it neither depends on nor states anything from 2b."
+          },
+          {
+            "path": "argumentFlow[step-01].type",
+            "importsNextDafConclusion": false,
+            "note": "Concerns only lines 20-24, a unit that closes on 2a before the open word on line 39; it neither depends on nor states anything from 2b."
+          },
+          {
+            "path": "argumentFlow[step-02].label",
+            "importsNextDafConclusion": false,
+            "note": "Concerns only lines 20-24, a unit that closes on 2a before the open word on line 39; it neither depends on nor states anything from 2b."
+          },
+          {
+            "path": "argumentFlow[step-02].speaker",
+            "importsNextDafConclusion": false,
+            "note": "Concerns only lines 20-24, a unit that closes on 2a before the open word on line 39; it neither depends on nor states anything from 2b."
+          },
+          {
+            "path": "argumentFlow[step-02].text",
+            "importsNextDafConclusion": false,
+            "note": "Concerns only lines 20-24, a unit that closes on 2a before the open word on line 39; it neither depends on nor states anything from 2b."
+          },
+          {
+            "path": "argumentFlow[step-02].type",
+            "importsNextDafConclusion": false,
+            "note": "Concerns only lines 20-24, a unit that closes on 2a before the open word on line 39; it neither depends on nor states anything from 2b."
+          },
+          {
+            "path": "argumentFlow[step-03].label",
+            "importsNextDafConclusion": false,
+            "note": "Concerns only lines 20-24, a unit that closes on 2a before the open word on line 39; it neither depends on nor states anything from 2b."
+          },
+          {
+            "path": "argumentFlow[step-03].speaker",
+            "importsNextDafConclusion": false,
+            "note": "Concerns only lines 20-24, a unit that closes on 2a before the open word on line 39; it neither depends on nor states anything from 2b."
+          },
+          {
+            "path": "argumentFlow[step-03].text",
+            "importsNextDafConclusion": false,
+            "note": "Concerns only lines 20-24, a unit that closes on 2a before the open word on line 39; it neither depends on nor states anything from 2b."
+          },
+          {
+            "path": "argumentFlow[step-03].type",
+            "importsNextDafConclusion": false,
+            "note": "Concerns only lines 20-24, a unit that closes on 2a before the open word on line 39; it neither depends on nor states anything from 2b."
+          },
+          {
+            "path": "conceptRefs[concept.heikher].label",
+            "importsNextDafConclusion": false,
+            "note": "Concerns only lines 20-24, a unit that closes on 2a before the open word on line 39; it neither depends on nor states anything from 2b."
+          },
+          {
+            "path": "conceptRefs[concept.heikher].scope",
+            "importsNextDafConclusion": false,
+            "note": "Concerns only lines 20-24, a unit that closes on 2a before the open word on line 39; it neither depends on nor states anything from 2b."
+          },
+          {
+            "path": "conceptRefs[place.ohel_moed].label",
+            "importsNextDafConclusion": false,
+            "note": "Concerns only lines 20-24, a unit that closes on 2a before the open word on line 39; it neither depends on nor states anything from 2b."
+          },
+          {
+            "path": "conceptRefs[place.ohel_moed].scope",
+            "importsNextDafConclusion": false,
+            "note": "Concerns only lines 20-24, a unit that closes on 2a before the open word on line 39; it neither depends on nor states anything from 2b."
+          },
+          {
+            "path": "difficulty",
+            "importsNextDafConclusion": false,
+            "note": "Concerns only lines 20-24, a unit that closes on 2a before the open word on line 39; it neither depends on nor states anything from 2b."
+          },
+          {
+            "path": "display.hint",
+            "importsNextDafConclusion": false,
+            "note": "Concerns only lines 20-24, a unit that closes on 2a before the open word on line 39; it neither depends on nor states anything from 2b."
+          },
+          {
+            "path": "display.oneLine",
+            "importsNextDafConclusion": false,
+            "note": "Concerns only lines 20-24, a unit that closes on 2a before the open word on line 39; it neither depends on nor states anything from 2b."
+          },
+          {
+            "path": "display.shortSummary",
+            "importsNextDafConclusion": false,
+            "note": "Concerns only lines 20-24, a unit that closes on 2a before the open word on line 39; it neither depends on nor states anything from 2b."
+          },
+          {
+            "path": "display.title",
+            "importsNextDafConclusion": false,
+            "note": "Concerns only lines 20-24, a unit that closes on 2a before the open word on line 39; it neither depends on nor states anything from 2b."
+          },
+          {
+            "path": "display.whats",
+            "importsNextDafConclusion": false,
+            "note": "Concerns only lines 20-24, a unit that closes on 2a before the open word on line 39; it neither depends on nor states anything from 2b."
+          },
+          {
+            "path": "finalRuling",
+            "importsNextDafConclusion": false,
+            "note": "Concerns only lines 20-24, a unit that closes on 2a before the open word on line 39; it neither depends on nor states anything from 2b."
+          },
+          {
+            "path": "learning.ahaMoment",
+            "importsNextDafConclusion": false,
+            "note": "Concerns only lines 20-24, a unit that closes on 2a before the open word on line 39; it neither depends on nor states anything from 2b."
+          },
+          {
+            "path": "learning.coreMove",
+            "importsNextDafConclusion": false,
+            "note": "Concerns only lines 20-24, a unit that closes on 2a before the open word on line 39; it neither depends on nor states anything from 2b."
+          },
+          {
+            "path": "learning.coreTension",
+            "importsNextDafConclusion": false,
+            "note": "Concerns only lines 20-24, a unit that closes on 2a before the open word on line 39; it neither depends on nor states anything from 2b."
+          },
+          {
+            "path": "learning.learnerQuestion",
+            "importsNextDafConclusion": false,
+            "note": "Concerns only lines 20-24, a unit that closes on 2a before the open word on line 39; it neither depends on nor states anything from 2b."
+          },
+          {
+            "path": "learning.learningBlocker",
+            "importsNextDafConclusion": false,
+            "note": "Concerns only lines 20-24, a unit that closes on 2a before the open word on line 39; it neither depends on nor states anything from 2b."
+          },
+          {
+            "path": "learning.memoryAnchor",
+            "importsNextDafConclusion": false,
+            "note": "Concerns only lines 20-24, a unit that closes on 2a before the open word on line 39; it neither depends on nor states anything from 2b."
+          },
+          {
+            "path": "learning.reasoningPattern.category",
+            "importsNextDafConclusion": false,
+            "note": "Concerns only lines 20-24, a unit that closes on 2a before the open word on line 39; it neither depends on nor states anything from 2b."
+          },
+          {
+            "path": "learning.reasoningPattern.notes",
+            "importsNextDafConclusion": false,
+            "note": "Concerns only lines 20-24, a unit that closes on 2a before the open word on line 39; it neither depends on nor states anything from 2b."
+          },
+          {
+            "path": "learning.resolution",
+            "importsNextDafConclusion": false,
+            "note": "Concerns only lines 20-24, a unit that closes on 2a before the open word on line 39; it neither depends on nor states anything from 2b."
+          },
+          {
+            "path": "learning.takeaway.text",
+            "importsNextDafConclusion": false,
+            "note": "Concerns only lines 20-24, a unit that closes on 2a before the open word on line 39; it neither depends on nor states anything from 2b."
+          },
+          {
+            "path": "learning.takeaway.type",
+            "importsNextDafConclusion": false,
+            "note": "Concerns only lines 20-24, a unit that closes on 2a before the open word on line 39; it neither depends on nor states anything from 2b."
+          },
+          {
+            "path": "misconceptions[0].correction",
+            "importsNextDafConclusion": false,
+            "note": "Concerns only lines 20-24, a unit that closes on 2a before the open word on line 39; it neither depends on nor states anything from 2b."
+          },
+          {
+            "path": "misconceptions[0].misconception",
+            "importsNextDafConclusion": false,
+            "note": "Concerns only lines 20-24, a unit that closes on 2a before the open word on line 39; it neither depends on nor states anything from 2b."
+          },
+          {
+            "path": "prerequisiteKnowledge[0]",
+            "importsNextDafConclusion": false,
+            "note": "Concerns only lines 20-24, a unit that closes on 2a before the open word on line 39; it neither depends on nor states anything from 2b."
+          },
+          {
+            "path": "prerequisiteKnowledge[1]",
+            "importsNextDafConclusion": false,
+            "note": "Concerns only lines 20-24, a unit that closes on 2a before the open word on line 39; it neither depends on nor states anything from 2b."
+          },
+          {
+            "path": "quizSeeds[0].answer",
+            "importsNextDafConclusion": false,
+            "note": "Concerns only lines 20-24, a unit that closes on 2a before the open word on line 39; it neither depends on nor states anything from 2b."
+          },
+          {
+            "path": "quizSeeds[0].question",
+            "importsNextDafConclusion": false,
+            "note": "Concerns only lines 20-24, a unit that closes on 2a before the open word on line 39; it neither depends on nor states anything from 2b."
+          },
+          {
+            "path": "quizSeeds[1].answer",
+            "importsNextDafConclusion": false,
+            "note": "Concerns only lines 20-24, a unit that closes on 2a before the open word on line 39; it neither depends on nor states anything from 2b."
+          },
+          {
+            "path": "quizSeeds[1].question",
+            "importsNextDafConclusion": false,
+            "note": "Concerns only lines 20-24, a unit that closes on 2a before the open word on line 39; it neither depends on nor states anything from 2b."
+          },
+          {
+            "path": "visualizableElements[0].item",
+            "importsNextDafConclusion": false,
+            "note": "Concerns only lines 20-24, a unit that closes on 2a before the open word on line 39; it neither depends on nor states anything from 2b."
+          }
+        ],
+        "staleContentSweep": {
+          "entries": [
+            {
+              "category": "stale_original_error",
+              "found": false,
+              "note": "Checked across every field of this record and the shared daf-level fields; none found."
+            },
+            {
+              "category": "stale_speaker_or_attribution",
+              "found": false,
+              "note": "Checked across every field of this record and the shared daf-level fields; none found."
+            },
+            {
+              "category": "contradictory_speaker_attribution",
+              "found": false,
+              "note": "Checked across every field of this record and the shared daf-level fields; none found."
+            },
+            {
+              "category": "old_conclusion_in_secondary_field",
+              "found": false,
+              "note": "Checked across every field of this record and the shared daf-level fields; none found."
+            },
+            {
+              "category": "false_closure",
+              "found": false,
+              "note": "Checked across every field of this record and the shared daf-level fields; none found."
+            },
+            {
+              "category": "next_daf_content_leaked_backward",
+              "found": false,
+              "note": "Checked across every field of this record and the shared daf-level fields; none found."
+            },
+            {
+              "category": "claim_unsupported_by_physical_daf",
+              "found": false,
+              "note": "Checked across every field of this record and the shared daf-level fields; none found."
+            },
+            {
+              "category": "stale_quiz_question_or_answer",
+              "found": false,
+              "note": "Checked across every field of this record and the shared daf-level fields; none found."
+            },
+            {
+              "category": "stale_final_ruling",
+              "found": false,
+              "note": "Checked across every field of this record and the shared daf-level fields; none found."
+            },
+            {
+              "category": "stale_summary",
+              "found": false,
+              "note": "Checked across every field of this record and the shared daf-level fields; none found."
+            },
+            {
+              "category": "stale_learning_field",
+              "found": false,
+              "note": "Checked across every field of this record and the shared daf-level fields; none found."
+            },
+            {
+              "category": "stale_misconception",
+              "found": false,
+              "note": "Checked across every field of this record and the shared daf-level fields; none found."
+            },
+            {
+              "category": "stale_related_sugya_description",
+              "found": false,
+              "note": "Checked across every field of this record and the shared daf-level fields; none found."
+            },
+            {
+              "category": "stale_visualizable_element_prose",
+              "found": false,
+              "note": "Checked across every field of this record and the shared daf-level fields; none found."
+            },
+            {
+              "category": "source_refs_no_longer_supporting_claim",
+              "found": false,
+              "note": "Checked across every field of this record and the shared daf-level fields; none found."
+            },
+            {
+              "category": "reference_outside_declared_line_range",
+              "found": false,
+              "note": "Checked across every field of this record and the shared daf-level fields; none found."
+            }
+          ]
+        }
+      },
+      "certifiedAtCommit": "37ca5b7b82c1bfdffb4292e611b1a5b690030f17"
     },
     "yoma-002a-s05": {
       "sugyaId": "yoma-002a-s05",
