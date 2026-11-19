@@ -47,33 +47,110 @@
     "yoma-002a-s02": {
       "sugyaId": "yoma-002a-s02",
       "daf": "2a",
-      "state": "REPAIRED_PENDING_REVIEW",
+      "state": "REPAIR_REQUIRED",
       "firstPass": {
-        "reviewId": "rv3-first-2a-opus",
-        "reviewerContextId": "rv3-ctx-first-2a-a5ddd34e9e6829ec4",
+        "reviewId": "rv3-second-2a-fable",
+        "reviewerContextId": "rv3-ctx-second-2a-ab5c8740be29194cd",
         "sourceFirst": true,
         "verdict": "REPAIR_REQUIRED",
         "reviewedSourceFingerprint": "7d10aba46e159ee6318448b96999bf39ea72a73db02a271b45bd5c54ab377bed",
-        "reviewedSemanticFingerprint": "f37f24ccc7c2401a3b7f5da55af341862f6251a4e5396feda75b75196661e097",
+        "reviewedSemanticFingerprint": "9a434b22ebfea4f1be92294f40c0250e5cf043ab69f2eb5e60b547a43b46e50c",
         "evidence": {
-          "method": "rv3 source-first whole-daf first pass: Hebrew read in full before any enrichment; every semantic field checked against the Hebrew",
-          "fullEvidenceFile": "docs/reports/data/semantic-yoma-2a-rv3-first-pass.json",
-          "fieldsChecked": 79,
-          "verdict": "REPAIR_REQUIRED",
-          "defectCount": 4,
-          "defectsBySeverity": {
-            "minor wording": 3,
-            "contract violation": 1
-          },
-          "defectPaths": [
-            "learning.resolution",
-            "visualizableElements[0].item",
-            "quizSeeds[1].question",
-            "finalRuling"
-          ]
+          "origin": "independent-second-pass-rejection",
+          "reviewEvidence": {
+            "method": "rv3 independent source-first second pass in an isolated context; first-pass reasoning not shown",
+            "fullEvidenceFile": "docs/reports/data/semantic-yoma-2a-rv3-second-pass-1.json",
+            "fieldsChecked": 65,
+            "verdict": "REJECTED",
+            "defects": [
+              {
+                "fieldPath": "display.whats (final sentence)",
+                "sourceLines": [
+                  8,
+                  14,
+                  27,
+                  38
+                ],
+                "candidateSays": "'This parallel isn't coincidental; it is the key to the Gemara's later derivation.'",
+                "sourceSupports": "Lines 8-14 only cite the Parah mishnah (tnan hatam) and explain the chamber name. The Gemara gives no reason for citing it. The claim rests on lines 27-38, outside this sugya's range.",
+                "severity": "major"
+              },
+              {
+                "fieldPath": "learning.ahaMoment",
+                "sourceLines": [
+                  8,
+                  14,
+                  27,
+                  39
+                ],
+                "candidateSays": "'...before proving they share the same source.'",
+                "sourceSupports": "Out of range (27-38), and overstated: the derivation is still under challenge when 2a ends at line 39 ('ve'eima'), so 'proving' asserts an established result the daf does not reach.",
+                "severity": "major"
+              },
+              {
+                "fieldPath": "learning.reasoningPattern.notes",
+                "sourceLines": [
+                  35,
+                  38
+                ],
+                "candidateSays": "'priming the gezerah shavah derivation'",
+                "sourceSupports": "The gezerah shavah is at lines 35-38, outside range 8-14.",
+                "severity": "major"
+              },
+              {
+                "fieldPath": "learning.takeaway.text",
+                "sourceLines": [
+                  8,
+                  14
+                ],
+                "candidateSays": "'When the Gemara introduces a parallel case early, it usually returns to link them formally. The parallel is the argument.'",
+                "sourceSupports": "No support in lines 8-14; a generalization resting on lines 27-38. In 27-38 the parallel is the subject of the derivation, not its argument.",
+                "severity": "major"
+              },
+              {
+                "fieldPath": "learning.learningBlocker",
+                "sourceLines": [
+                  8,
+                  14
+                ],
+                "candidateSays": "'it is actually the argument in embryo'",
+                "sourceSupports": "Same unsupported out-of-range claim.",
+                "severity": "major"
+              },
+              {
+                "fieldPath": "learning.coreMove",
+                "sourceLines": [
+                  8,
+                  14,
+                  27
+                ],
+                "candidateSays": "'Juxtapose the two cases before sourcing either, so the reader ... is primed for the derivation.'",
+                "sourceSupports": "Purpose attributed to the Gemara that lines 8-14 do not state; depends on line 27 onward.",
+                "severity": "moderate"
+              },
+              {
+                "fieldPath": "display.hint; learning.learnerQuestion",
+                "sourceLines": [
+                  8,
+                  14
+                ],
+                "candidateSays": "Ask why the Gemara introduces the parah case before sourcing the Kohen Gadol's law.",
+                "sourceSupports": "The answer is not stated in lines 8-14 (nor anywhere on 2a explicitly); the question can only be answered from outside the range.",
+                "severity": "moderate"
+              },
+              {
+                "fieldPath": "display.oneLine; display.whats (opening clause)",
+                "sourceLines": [
+                  27
+                ],
+                "candidateSays": "'Before sourcing the KG's seven-day rule' / 'Before asking where the seven-day rule comes from'",
+                "sourceSupports": "Sequence claim depends on line 27, outside range. Lesser item; fix together with the above.",
+                "severity": "minor"
+              }
+            ]
+          }
         }
-      },
-      "repairRef": "828998b0b7457da159fa7cedd2933da639769039"
+      }
     },
     "yoma-002a-s03": {
       "sugyaId": "yoma-002a-s03",
@@ -131,39 +208,44 @@
     "yoma-002a-s04": {
       "sugyaId": "yoma-002a-s04",
       "daf": "2a",
-      "state": "REPAIRED_PENDING_REVIEW",
+      "state": "REPAIR_REQUIRED",
       "firstPass": {
-        "reviewId": "rv3-first-2a-opus",
-        "reviewerContextId": "rv3-ctx-first-2a-a5ddd34e9e6829ec4",
+        "reviewId": "rv3-second-2a-fable",
+        "reviewerContextId": "rv3-ctx-second-2a-ab5c8740be29194cd",
         "sourceFirst": true,
         "verdict": "REPAIR_REQUIRED",
         "reviewedSourceFingerprint": "c228502c00f948bbbff06a6fd75d017579aab017738525189063e7507cde791f",
-        "reviewedSemanticFingerprint": "9002f8e467db24c4ade6c6273a2c3ae8afc5d8a89c1f6549267d8ddacee3183a",
+        "reviewedSemanticFingerprint": "73edbcf4097a43efac05a78e8febba9a16577f050b5ef100deafa68e08236d15",
         "evidence": {
-          "method": "rv3 source-first whole-daf first pass: Hebrew read in full before any enrichment; every semantic field checked against the Hebrew",
-          "fullEvidenceFile": "docs/reports/data/semantic-yoma-2a-rv3-first-pass.json",
-          "fieldsChecked": 92,
-          "verdict": "REPAIR_REQUIRED",
-          "defectCount": 9,
-          "defectsBySeverity": {
-            "wrong meaning": 6,
-            "wrong placement": 2,
-            "minor wording": 1
-          },
-          "defectPaths": [
-            "argumentFlow[step-02].text",
-            "argumentFlow[step-02].sourceRefs[0].vilnaLine",
-            "learning.coreTension",
-            "learning.coreMove",
-            "learning.reasoningPattern.notes",
-            "misconceptions[0].correction",
-            "finalRuling",
-            "learning.memoryAnchor",
-            "quizSeeds[0].sourceRefs[0].vilnaLine"
-          ]
+          "origin": "independent-second-pass-rejection",
+          "reviewEvidence": {
+            "method": "rv3 independent source-first second pass in an isolated context; first-pass reasoning not shown",
+            "fullEvidenceFile": "docs/reports/data/semantic-yoma-2a-rv3-second-pass-1.json",
+            "fieldsChecked": 78,
+            "verdict": "REJECTED",
+            "defects": [
+              {
+                "fieldPath": "quizSeeds[0].answer",
+                "sourceLines": [
+                  21
+                ],
+                "candidateSays": "'chatat offerings require the slaughter and sprinkling of blood to be performed north of the altar'",
+                "sourceSupports": "Line 21 says only 'chatat te'una tzafona'; Rashi (packet lines 31-32) says slaughtered in the north. 'Sprinkling of blood north of the altar' is not in the source and is not the law of a chatat (blood is applied on the altar's horns).",
+                "severity": "major"
+              },
+              {
+                "fieldPath": "display.whats",
+                "sourceLines": [
+                  22
+                ],
+                "candidateSays": "Quotes the verse as 'before the opening of the Tent of Meeting'",
+                "sourceSupports": "Line 22 reads 'el nochach pnei ohel moed' = toward the front/face of the Tent of Meeting (Num 19:4). The quoted wording is a different phrase; step-02 of the same record renders it correctly.",
+                "severity": "moderate"
+              }
+            ]
+          }
         }
-      },
-      "repairRef": "828998b0b7457da159fa7cedd2933da639769039"
+      }
     },
     "yoma-002a-s05": {
       "sugyaId": "yoma-002a-s05",
@@ -199,44 +281,36 @@
     "yoma-002a-s06": {
       "sugyaId": "yoma-002a-s06",
       "daf": "2a",
-      "state": "REPAIRED_PENDING_REVIEW",
+      "state": "REPAIR_REQUIRED",
       "firstPass": {
-        "reviewId": "rv3-first-2a-opus",
-        "reviewerContextId": "rv3-ctx-first-2a-a5ddd34e9e6829ec4",
+        "reviewId": "rv3-second-2a-fable",
+        "reviewerContextId": "rv3-ctx-second-2a-ab5c8740be29194cd",
         "sourceFirst": true,
         "verdict": "REPAIR_REQUIRED",
         "reviewedSourceFingerprint": "a4abf78a1200c6891588b0c7206a5e3a2e52db368fbcf718ed97b3740a7a8d3a",
-        "reviewedSemanticFingerprint": "8a662e0b44970732e2c13daaf7a3e1d2dfad0893ba6454bd85e1ba5dd77252ba",
+        "reviewedSemanticFingerprint": "46f36fa7b0f04affe4abfbdb884f2520efe96a099924ad4080c5fab3107c2646",
         "evidence": {
-          "method": "rv3 source-first whole-daf first pass: Hebrew read in full before any enrichment; every semantic field checked against the Hebrew",
-          "fullEvidenceFile": "docs/reports/data/semantic-yoma-2a-rv3-first-pass.json",
-          "fieldsChecked": 110,
-          "verdict": "REPAIR_REQUIRED",
-          "defectCount": 13,
-          "defectsBySeverity": {
-            "contract violation": 3,
-            "minor wording": 2,
-            "wrong placement": 5,
-            "wrong meaning": 3
-          },
-          "defectPaths": [
-            "display.hint",
-            "display.oneLine",
-            "display.shortSummary",
-            "display.whats",
-            "argumentFlow[step-03].text",
-            "argumentFlow[step-02].sourceRefs[0].vilnaLine",
-            "quizSeeds[0].sourceRefs[0].vilnaLine",
-            "learning.resolution",
-            "learning.memoryAnchor",
-            "misconceptions[0]",
-            "learning.learningBlocker",
-            "finalRuling",
-            "conceptRefs[concept.miluyim].scope"
-          ]
+          "origin": "independent-second-pass-rejection",
+          "reviewEvidence": {
+            "method": "rv3 independent source-first second pass in an isolated context; first-pass reasoning not shown",
+            "fullEvidenceFile": "docs/reports/data/semantic-yoma-2a-rv3-second-pass-1.json",
+            "fieldsChecked": 96,
+            "verdict": "REJECTED",
+            "defects": [
+              {
+                "fieldPath": "display.shortSummary; display.whats; argumentFlow[1].text; quizSeeds[0].answer",
+                "sourceLines": [
+                  29,
+                  30
+                ],
+                "candidateSays": "Quote Lev 8:34 as 'as He commanded to do, to atone' / 'As the Lord commanded to do, to atone'",
+                "sourceSupports": "Lines 29-30: 'ka'asher asa bayom hazeh tziva Hashem la'asot lechaper aleichem' = 'As was done this day, the Lord commanded to do, to atone for you'. 'Ka'asher' governs 'asa bayom hazeh', not 'tziva'. The quotation silently drops words and fuses the clause into a different sentence. The derash on 'to do'/'to atone' is unaffected. Low severity but a proof-text misquotation inside quotation marks.",
+                "severity": "minor"
+              }
+            ]
+          }
         }
-      },
-      "repairRef": "828998b0b7457da159fa7cedd2933da639769039"
+      }
     },
     "yoma-002b-s01": {
       "sugyaId": "yoma-002b-s01",

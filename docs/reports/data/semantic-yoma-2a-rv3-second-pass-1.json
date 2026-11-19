@@ -1,0 +1,272 @@
+{
+ "reviewId": "rv3-second-2a-fable",
+ "reviewMode": "second-pass",
+ "module": "yoma",
+ "daf": "2a",
+ "independence": "Packet instructions and independenceRule read first; all 39 Hebrew lines read and reconstruction written before opening currentDafSummary or sugyot. No first-pass evidence, certification registry, semantic-* report data, git history, repair manifest, or other scratchpad material was read. Rashi used only as carried inside the packet (relevantRashi).",
+ "sourceFlowReconstruction": [
+  {
+   "lines": "1-7",
+   "content": "Mishnah. Seven days before Yom Kippur the Kohen Gadol is separated from his house to the Parhedrin chamber, and another kohen is prepared in his place lest a disqualification befall him. R. Yehuda: another wife is prepared too, lest his wife die, since it says \"he shall atone for himself and for his house\" and \"his house\" is his wife. They said to him: if so, there is no end to the matter. No ruling is stated."
+  },
+  {
+   "lines": "8-14",
+   "content": "Gemara opens \"tnan hatam\": seven days before the burning of the parah the kohen who burns it was separated from his house to the chamber on the face of the Bira, north-east, called the Chamber of the Stone House. Why that name? Because all its (the parah's) acts were with dung, stone, and earth vessels."
+  },
+  {
+   "lines": "14-20",
+   "content": "What is the reason? Since a tevul yom is fit for the parah, as we learned (detnan): they would make the kohen who burns the parah tamei and immerse him, to remove [the view] from the heart of the Sadducees, who said it was done by those whose sun had set. So the Rabbis instituted dung, stone, and earth vessels, which do not receive tumah, so that people not treat it lightly."
+  },
+  {
+   "lines": "20-24",
+   "content": "Why north-east? Since it is a chatat and a chatat requires the north, and it is written of it \"toward the front of the Tent of Meeting\", the Rabbis instituted a chamber north-east so that it have a distinguishing sign (hekeira)."
+  },
+  {
+   "lines": "24-27",
+   "content": "What is Bira? Rabba bar bar Chana in the name of R. Yochanan: a place on the Temple Mount named Bira. Reish Lakish: the whole Temple is called Bira, as it says \"the Bira which I have prepared\". No resolution."
+  },
+  {
+   "lines": "27-38",
+   "content": "Mena hanei milei? R. Minyomi bar Chilkiya, in the name of R. Machseya bar Idi, in the name of R. Yochanan: \"As was done this day, the Lord commanded to do, to atone for you\": \"to do\" is the acts of the parah, \"to atone\" is the acts of Yom Kippur. Challenge: granted the whole verse cannot be about the parah, since \"to atone\" is written and the parah is not a matter of atonement; but say the whole verse is about Yom Kippur? Answer (amri): learn tziva-tziva; here \"tziva Hashem la'asot\", there \"zot chukat haTorah asher tziva Hashem lemor\"; as there parah so here parah, and as here separation so there separation."
+  },
+  {
+   "lines": "39",
+   "content": "\"Ve'eima\" - a further objection begins and is cut off by the physical end of 2a. The derivation is therefore still under challenge at the end of the daf; nothing about its outcome may be stated as reached here."
+  }
+ ],
+ "openAtEndOfDaf": "The challenge beginning \"ve'eima\" (line 39) is unanswered on 2a. The Mishnah dispute and the Bira dispute are not ruled on.",
+ "dafSummaryVerdict": "REPAIR_REQUIRED",
+ "dafSummaryEvidence": "Every content statement was checked against lines 1-39 and matches in substance, speakers, order, and the open ending (line 39 correctly described as a challenge that continues). One defect: the proof text is quoted as \"as the Lord commanded to do, to atone for you\", which is not the wording of lines 29-30 (see s06 defect). Fix the quotation; nothing else in the summary needs change.",
+ "boundaryVerdict": "VERIFIED",
+ "boundaryVerdictPerSugya": {
+  "yoma-002a-s01": "VERIFIED: 1-7 is exactly the Mishnah.",
+  "yoma-002a-s02": "VERIFIED: 8-14, citation of Parah mishnah and chamber name; line 14 shared with s03 because the name explanation ends and \"mai taama\" begins mid-line.",
+  "yoma-002a-s03": "VERIFIED: 14-20, \"mai taama\" through \"lizalzelu bah\" at start of line 20.",
+  "yoma-002a-s04": "VERIFIED: 20-24, \"mai shena tzafona mizracha\" through \"hekeira\" at start of line 24.",
+  "yoma-002a-s05": "VERIFIED: 24-27, \"mai Bira\" through the verse at start of line 27.",
+  "yoma-002a-s06": "VERIFIED: 27-38, \"mena hanei milei\" through the gezerah shavah. Line 39 (\"ve'eima\") is owned by no sugya, per the accepted convention; no s06 field states its content beyond saying the discussion continues."
+ },
+ "perSugya": [
+  {
+   "sugyaId": "yoma-002a-s01",
+   "verdict": "CONFIRMED",
+   "fieldsChecked": 82,
+   "evidence": "Separation, Parhedrin, backup kohen: lines 2-4. R. Yehuda, backup wife, verse and \"beito zo ishto\": lines 4-7 (verse is Lev 16:6). Sages: \"im ken ein ladavar sof\": line 7. \"The replacement wife could also die\" is the plain sense and is in Rashi (packet Rashi 10-12). \"Tamei\" as an example of pesul is from Rashi 8. Misconception is accurate: the Mishnah records no objection to the derashah. sourceRefs point to lines 1, 4, 6, 7, all in range.",
+   "advisories": [
+    "finalRuling states the outcome per the Sages (majority); the Mishnah itself records the dispute without a ruling. Accepted as halachic bottom line, not a later-daf conclusion.",
+    "prerequisiteKnowledge states the marriage requirement as a flat fact; on this daf it is R. Yehuda's derashah (not disputed in the Mishnah)."
+   ],
+   "defects": []
+  },
+  {
+   "sugyaId": "yoma-002a-s02",
+   "verdict": "REJECTED",
+   "fieldsChecked": 65,
+   "evidence": "Factual content matches lines 8-14: seven days, kohen who burns the parah, chamber on the face of the Bira north-east, Stone House name, dung/stone/earth vessels. finalRuling restates the Parah mishnah accurately. Rejected because several learning/display fields assert the Gemara's purpose and a later proof that lines 8-14 do not contain.",
+   "defects": [
+    {
+     "fieldPath": "display.whats (final sentence)",
+     "sourceLines": [
+      8,
+      14,
+      27,
+      38
+     ],
+     "candidateSays": "'This parallel isn't coincidental; it is the key to the Gemara's later derivation.'",
+     "sourceSupports": "Lines 8-14 only cite the Parah mishnah (tnan hatam) and explain the chamber name. The Gemara gives no reason for citing it. The claim rests on lines 27-38, outside this sugya's range.",
+     "severity": "major"
+    },
+    {
+     "fieldPath": "learning.ahaMoment",
+     "sourceLines": [
+      8,
+      14,
+      27,
+      39
+     ],
+     "candidateSays": "'...before proving they share the same source.'",
+     "sourceSupports": "Out of range (27-38), and overstated: the derivation is still under challenge when 2a ends at line 39 ('ve'eima'), so 'proving' asserts an established result the daf does not reach.",
+     "severity": "major"
+    },
+    {
+     "fieldPath": "learning.reasoningPattern.notes",
+     "sourceLines": [
+      35,
+      38
+     ],
+     "candidateSays": "'priming the gezerah shavah derivation'",
+     "sourceSupports": "The gezerah shavah is at lines 35-38, outside range 8-14.",
+     "severity": "major"
+    },
+    {
+     "fieldPath": "learning.takeaway.text",
+     "sourceLines": [
+      8,
+      14
+     ],
+     "candidateSays": "'When the Gemara introduces a parallel case early, it usually returns to link them formally. The parallel is the argument.'",
+     "sourceSupports": "No support in lines 8-14; a generalization resting on lines 27-38. In 27-38 the parallel is the subject of the derivation, not its argument.",
+     "severity": "major"
+    },
+    {
+     "fieldPath": "learning.learningBlocker",
+     "sourceLines": [
+      8,
+      14
+     ],
+     "candidateSays": "'it is actually the argument in embryo'",
+     "sourceSupports": "Same unsupported out-of-range claim.",
+     "severity": "major"
+    },
+    {
+     "fieldPath": "learning.coreMove",
+     "sourceLines": [
+      8,
+      14,
+      27
+     ],
+     "candidateSays": "'Juxtapose the two cases before sourcing either, so the reader ... is primed for the derivation.'",
+     "sourceSupports": "Purpose attributed to the Gemara that lines 8-14 do not state; depends on line 27 onward.",
+     "severity": "moderate"
+    },
+    {
+     "fieldPath": "display.hint; learning.learnerQuestion",
+     "sourceLines": [
+      8,
+      14
+     ],
+     "candidateSays": "Ask why the Gemara introduces the parah case before sourcing the Kohen Gadol's law.",
+     "sourceSupports": "The answer is not stated in lines 8-14 (nor anywhere on 2a explicitly); the question can only be answered from outside the range.",
+     "severity": "moderate"
+    },
+    {
+     "fieldPath": "display.oneLine; display.whats (opening clause)",
+     "sourceLines": [
+      27
+     ],
+     "candidateSays": "'Before sourcing the KG's seven-day rule' / 'Before asking where the seven-day rule comes from'",
+     "sourceSupports": "Sequence claim depends on line 27, outside range. Lesser item; fix together with the above.",
+     "severity": "minor"
+    }
+   ]
+  },
+  {
+   "sugyaId": "yoma-002a-s03",
+   "verdict": "CONFIRMED",
+   "fieldsChecked": 82,
+   "evidence": "\"Mai taama\": line 14. Tevul yom fit for parah: line 14. Detnan, making the kohen tamei and immersing him, against the Sadducees who said \"bime'orvei hashemesh\": lines 15-17. Rabbis instituted the three vessel types that do not receive tumah so that it not be treated lightly: lines 18-20. Misconception correctly separates the immersion (anti-Sadducee) from the vessels (anti-laxity). finalRuling matches lines 14 and 18-19.",
+   "advisories": [
+    "\"publicly\" (coreTension, step-02 label, quizSeeds[0].answer, topicTag public-demonstration) is an inference from \"lehotzi milibban shel Tzedukin\"; the word is not in the source. Not treated as a defect."
+   ],
+   "defects": []
+  },
+  {
+   "sugyaId": "yoma-002a-s04",
+   "verdict": "REJECTED",
+   "fieldsChecked": 78,
+   "evidence": "Question \"mai shena tzafona mizracha\": line 20. Chatat, chatat requires north: line 21. Verse \"el nochach pnei ohel moed\" (Num 19:4): line 22. Rabbis instituted a north-east chamber for a hekeira: lines 22-24. \"Not a literal fulfillment\" and \"keeps the kohen alert\" are supported by packet Rashi 33-42. Two defects remain.",
+   "defects": [
+    {
+     "fieldPath": "quizSeeds[0].answer",
+     "sourceLines": [
+      21
+     ],
+     "candidateSays": "'chatat offerings require the slaughter and sprinkling of blood to be performed north of the altar'",
+     "sourceSupports": "Line 21 says only 'chatat te'una tzafona'; Rashi (packet lines 31-32) says slaughtered in the north. 'Sprinkling of blood north of the altar' is not in the source and is not the law of a chatat (blood is applied on the altar's horns).",
+     "severity": "major"
+    },
+    {
+     "fieldPath": "display.whats",
+     "sourceLines": [
+      22
+     ],
+     "candidateSays": "Quotes the verse as 'before the opening of the Tent of Meeting'",
+     "sourceSupports": "Line 22 reads 'el nochach pnei ohel moed' = toward the front/face of the Tent of Meeting (Num 19:4). The quoted wording is a different phrase; step-02 of the same record renders it correctly.",
+     "severity": "moderate"
+    }
+   ]
+  },
+  {
+   "sugyaId": "yoma-002a-s05",
+   "verdict": "CONFIRMED",
+   "fieldsChecked": 78,
+   "evidence": "\"Mai Bira\": line 24. Rabba bar bar Chana in the name of R. Yochanan, a place on the Temple Mount named Bira: lines 24-26. Reish Lakish, the whole Temple, with \"haBira asher hachinoti\" (I Chron 29:19, David speaking, per Rashi 43-45): lines 26-27. No resolution in the source; resolution field and empty finalRuling agree with that.",
+   "advisories": [
+    "Spelling varies between Yohanan and Yochanan; style only."
+   ],
+   "defects": []
+  },
+  {
+   "sugyaId": "yoma-002a-s06",
+   "verdict": "REJECTED",
+   "fieldsChecked": 96,
+   "evidence": "Question and chain of tradents: lines 27-29. \"To do\" = parah, \"to atone\" = Yom Kippur: lines 30-31. Challenge conceding the parah-only reading fails and proposing a Yom-Kippur-only reading: lines 32-34. Tziva-tziva with Num 19:2, both directions of the analogy: lines 34-38. Milu'im context from Rashi 47-52. Every field stops at line 38 and says only that the discussion continues; no 2b conclusion is stated and finalRuling is empty. Logic, speakers, asymmetry claim, and source coordinates all check. Single defect: the proof text is misquoted.",
+   "advisories": [
+    "Tradent is written \"Rav Minyomi\"; the source has R' (Rabbi) Minyomi. Style-level."
+   ],
+   "defects": [
+    {
+     "fieldPath": "display.shortSummary; display.whats; argumentFlow[1].text; quizSeeds[0].answer",
+     "sourceLines": [
+      29,
+      30
+     ],
+     "candidateSays": "Quote Lev 8:34 as 'as He commanded to do, to atone' / 'As the Lord commanded to do, to atone'",
+     "sourceSupports": "Lines 29-30: 'ka'asher asa bayom hazeh tziva Hashem la'asot lechaper aleichem' = 'As was done this day, the Lord commanded to do, to atone for you'. 'Ka'asher' governs 'asa bayom hazeh', not 'tziva'. The quotation silently drops words and fuses the clause into a different sentence. The derash on 'to do'/'to atone' is unaffected. Low severity but a proof-text misquotation inside quotation marks.",
+     "severity": "minor"
+    }
+   ]
+  }
+ ],
+ "repairScope": {
+  "dafSummary": [
+   "Correct the Lev 8:34 quotation."
+  ],
+  "yoma-002a-s02": [
+   "display.whats (final sentence)",
+   "learning.ahaMoment",
+   "learning.reasoningPattern.notes",
+   "learning.takeaway.text",
+   "learning.learningBlocker",
+   "learning.coreMove",
+   "display.hint; learning.learnerQuestion",
+   "display.oneLine; display.whats (opening clause)"
+  ],
+  "yoma-002a-s04": [
+   "quizSeeds[0].answer",
+   "display.whats"
+  ],
+  "yoma-002a-s06": [
+   "display.shortSummary; display.whats; argumentFlow[1].text; quizSeeds[0].answer"
+  ],
+  "note": "Because the daf summary needs a change, the repair scope is the whole daf (all sugyot) under the holistic rule."
+ },
+ "blocked": [],
+ "fingerprintsReviewed": {
+  "yoma-002a-s01": {
+   "sourceFingerprint": "d9dc8a3a173b99ecd074a82675f3a0a25201105fea976fa5cb80fb309f3888d3",
+   "semanticFingerprint": "0606cbb916867dbb17b78903e70d5cf712ccdfb42006b2cd011c00ed907f29c8"
+  },
+  "yoma-002a-s02": {
+   "sourceFingerprint": "7d10aba46e159ee6318448b96999bf39ea72a73db02a271b45bd5c54ab377bed",
+   "semanticFingerprint": "9a434b22ebfea4f1be92294f40c0250e5cf043ab69f2eb5e60b547a43b46e50c"
+  },
+  "yoma-002a-s03": {
+   "sourceFingerprint": "33246ef4f7da29655ed2ca3453d8343f3211328e3215eac8ba1b20e95a1e0564",
+   "semanticFingerprint": "936d039494b87536fbd00fc6ab3d3ae0b582294bbb64f46b6f64cfc0f3c6c0e8"
+  },
+  "yoma-002a-s04": {
+   "sourceFingerprint": "c228502c00f948bbbff06a6fd75d017579aab017738525189063e7507cde791f",
+   "semanticFingerprint": "73edbcf4097a43efac05a78e8febba9a16577f050b5ef100deafa68e08236d15"
+  },
+  "yoma-002a-s05": {
+   "sourceFingerprint": "17b8e27f28ca8a91691b00fff1a80f84d0edcc0913bccdf4f8106c940f85394a",
+   "semanticFingerprint": "7e27a2322fcd4c79cda9eb94f74be2f541eff13d1cd8431570584c01a968086e"
+  },
+  "yoma-002a-s06": {
+   "sourceFingerprint": "a4abf78a1200c6891588b0c7206a5e3a2e52db368fbcf718ed97b3740a7a8d3a",
+   "semanticFingerprint": "46f36fa7b0f04affe4abfbdb884f2520efe96a099924ad4080c5fab3107c2646"
+  }
+ },
+ "completenessStatement": "All 39 authoritative Hebrew lines were read before the candidate. The daf summary, all six boundaries, and every leaf field of every sugya in the packet (display, learning incl. takeaway and reasoningPattern, argumentFlow incl. speakers and sourceRefs, conceptRefs, requiresUnderstanding, misconceptions, relatedSugyot, visualizableElements, quizSeeds incl. sourceRefs, finalRuling, difficulty, alternateAngles, topicTags, prerequisiteKnowledge, lineRange) were checked against the Hebrew. No glossary field is present in the packet. Authoring contracts checked: hints are questions; finalRuling independent of hint and empty for s05/s06; requiresUnderstanding empty; topicTags lowercase ASCII slugs without duplicates; visualizableElements all carry item; no concepts field. Whether visualizableElements role/priority values are fabricated cannot be judged from the source. Verdicts: 3 CONFIRMED (s01, s03, s05), 3 REJECTED (s02, s04, s06), 0 BLOCKED."
+}
