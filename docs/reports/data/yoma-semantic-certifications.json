@@ -13,41 +13,72 @@
     "yoma-002a-s01": {
       "sugyaId": "yoma-002a-s01",
       "daf": "2a",
-      "state": "REPAIRED_PENDING_REVIEW",
+      "state": "REPAIR_REQUIRED",
       "firstPass": {
-        "reviewId": "rv3-first-2a-opus",
-        "reviewerContextId": "rv3-ctx-first-2a-a5ddd34e9e6829ec4",
+        "reviewId": "rv3-second4-2a-fable",
+        "reviewerContextId": "rv3-ctx-second4-2a-a67724d9658328d38",
         "sourceFirst": true,
         "verdict": "REPAIR_REQUIRED",
         "reviewedSourceFingerprint": "d9dc8a3a173b99ecd074a82675f3a0a25201105fea976fa5cb80fb309f3888d3",
-        "reviewedSemanticFingerprint": "a622431139c7c79e1b176cb51be9f38ee91568f32a537c681f5b3af254175f73",
+        "reviewedSemanticFingerprint": "32850048d242301f13366a7764d576a20248e41ab490830ed4eda87317e5d43d",
         "evidence": {
-          "method": "rv3 source-first whole-daf first pass: Hebrew read in full before any enrichment; every semantic field checked against the Hebrew",
-          "fullEvidenceFile": "docs/reports/data/semantic-yoma-2a-rv3-first-pass.json",
-          "fieldsChecked": 96,
-          "verdict": "REPAIR_REQUIRED",
-          "defectCount": 6,
-          "defectsBySeverity": {
-            "wrong placement": 4,
-            "wrong meaning": 1,
-            "minor wording": 1
-          },
-          "defectPaths": [
-            "display.hint",
-            "misconceptions[0]",
-            "argumentFlow[step-01].text",
-            "argumentFlow[step-03].sourceRefs[0].vilnaLine",
-            "quizSeeds[2].sourceRefs[0].vilnaLine",
-            "quizSeeds[1].sourceRefs[0].vilnaLine"
-          ]
+          "origin": "independent-second-pass-rejection",
+          "reviewEvidence": {
+            "method": "rv3 independent source-first second pass (round 4) in an isolated context",
+            "fullEvidenceFile": "docs/reports/data/semantic-yoma-2a-rv3-second-pass-4.json",
+            "fieldsChecked": [
+              "display.title",
+              "display.oneLine",
+              "display.shortSummary",
+              "display.whats",
+              "display.hint",
+              "learning.learnerQuestion",
+              "learning.coreTension",
+              "learning.coreMove",
+              "learning.resolution",
+              "learning.takeaway",
+              "learning.reasoningPattern",
+              "learning.ahaMoment",
+              "learning.learningBlocker",
+              "learning.memoryAnchor",
+              "argumentFlow (all steps, speakers, types, sourceRefs)",
+              "conceptRefs",
+              "requiresUnderstanding",
+              "misconceptions",
+              "relatedSugyot",
+              "visualizableElements",
+              "quizSeeds (questions, answers, sourceRefs)",
+              "finalRuling",
+              "difficulty",
+              "alternateAngles",
+              "topicTags",
+              "prerequisiteKnowledge",
+              "lineRange",
+              "lineMap"
+            ],
+            "verdict": "REJECTED",
+            "defects": [
+              {
+                "field": "learning.takeaway.text",
+                "lines": "1-7",
+                "says": "'Halachic preparation for contingencies is bounded by the practical ability to terminate the chain. A rule that generates infinite new obligations cannot stand.'",
+                "sourceSupports": "Only that 'they said to him: if so there is no end to the matter' (L7), as one side of an undecided dispute. No general halachic principle is stated, and the same Mishnah (L3-4) does prepare a backup kohen although that chain is equally open-ended, so the generalization is not derivable from these lines."
+              },
+              {
+                "field": "learning.reasoningPattern.notes",
+                "lines": "7",
+                "says": "'Classic Talmudic rejection pattern: ein la'davar sof terminates rules that cannot self-limit.'",
+                "sourceSupports": "Nothing on the page characterizes the retort as a classic pattern or as a rule that terminates rules; unsupported descriptive claim about the Talmud at large."
+              }
+            ]
+          }
         }
-      },
-      "repairRef": "f60ed6365420a7da9298c5245fdeaa22ef9e9b45"
+      }
     },
     "yoma-002a-s02": {
       "sugyaId": "yoma-002a-s02",
       "daf": "2a",
-      "state": "REPAIRED_PENDING_REVIEW",
+      "state": "PENDING_FINAL_AUDIT",
       "firstPass": {
         "reviewId": "rv3-second2-2a-fable",
         "reviewerContextId": "rv3-ctx-second2-2a-a2763c3e95db526fb",
@@ -119,32 +150,20 @@
           }
         }
       },
-      "repairRef": "f60ed6365420a7da9298c5245fdeaa22ef9e9b45"
-    },
-    "yoma-002a-s03": {
-      "sugyaId": "yoma-002a-s03",
-      "daf": "2a",
-      "state": "REPAIRED_PENDING_REVIEW",
-      "firstPass": {
-        "reviewId": "rv3-first-2a-opus",
-        "reviewerContextId": "rv3-ctx-first-2a-a5ddd34e9e6829ec4",
+      "repairRef": "f60ed6365420a7da9298c5245fdeaa22ef9e9b45",
+      "sourceFingerprint": "7d10aba46e159ee6318448b96999bf39ea72a73db02a271b45bd5c54ab377bed",
+      "semanticFingerprint": "c3b0dde8313bd596fa6bf7b56735c81c2b021fbe2b2b12d9ee0f17c6c61c8c37",
+      "secondPass": {
+        "reviewId": "rv3-second4-2a-fable",
+        "reviewerContextId": "rv3-ctx-second4-2a-a67724d9658328d38",
         "sourceFirst": true,
-        "verdict": "REPAIR_REQUIRED",
-        "reviewedSourceFingerprint": "33246ef4f7da29655ed2ca3453d8343f3211328e3215eac8ba1b20e95a1e0564",
-        "reviewedSemanticFingerprint": "2e3b0dc1278344bb8acc53c2fe694039ea72fcca17a845adcfa9deb2ac34f154",
+        "verdict": "CONFIRMED",
+        "reviewedSourceFingerprint": "7d10aba46e159ee6318448b96999bf39ea72a73db02a271b45bd5c54ab377bed",
+        "reviewedSemanticFingerprint": "c3b0dde8313bd596fa6bf7b56735c81c2b021fbe2b2b12d9ee0f17c6c61c8c37",
         "evidence": {
-          "method": "rv3 source-first whole-daf first pass: Hebrew read in full before any enrichment; every semantic field checked against the Hebrew",
-          "fullEvidenceFile": "docs/reports/data/semantic-yoma-2a-rv3-first-pass.json",
-          "fieldsChecked": 97,
-          "verdict": "REPAIR_REQUIRED",
-          "defectCount": 24,
-          "defectsBySeverity": {
-            "wrong meaning": 19,
-            "wrong placement": 2,
-            "minor wording": 1,
-            "contract violation": 2
-          },
-          "defectPaths": [
+          "method": "rv3 independent source-first second pass (round 4) in an isolated context",
+          "fullEvidenceFile": "docs/reports/data/semantic-yoma-2a-rv3-second-pass-4.json",
+          "fieldsChecked": [
             "display.title",
             "display.oneLine",
             "display.shortSummary",
@@ -154,30 +173,94 @@
             "learning.coreTension",
             "learning.coreMove",
             "learning.resolution",
-            "learning.takeaway.text",
-            "learning.reasoningPattern.notes",
+            "learning.takeaway",
+            "learning.reasoningPattern",
             "learning.ahaMoment",
+            "learning.learningBlocker",
             "learning.memoryAnchor",
-            "argumentFlow[step-01].text",
-            "argumentFlow[step-02].text",
-            "argumentFlow[step-02].sourceRefs[0].vilnaLine",
-            "argumentFlow[step-03].text",
-            "misconceptions[0]",
-            "visualizableElements[0].item",
-            "visualizableElements[1]",
-            "quizSeeds[1]",
-            "quizSeeds[0].sourceRefs[0].vilnaLine",
+            "argumentFlow (all steps, speakers, types, sourceRefs)",
+            "conceptRefs",
+            "requiresUnderstanding",
+            "misconceptions",
+            "relatedSugyot",
+            "visualizableElements",
+            "quizSeeds (questions, answers, sourceRefs)",
             "finalRuling",
-            "prerequisiteKnowledge[1]"
-          ]
+            "difficulty",
+            "alternateAngles",
+            "topicTags",
+            "prerequisiteKnowledge",
+            "lineRange",
+            "lineMap"
+          ],
+          "verdict": "CONFIRMED",
+          "evidence": "L8-14: 'tenan hatam' citation of the seven-day separation of the kohen who burns the parah to the chamber al penei habira, north-east, called Lishkat Beit HaEven; the name question and answer (all its acts in dung, stone, earth vessels) are the Gemara's own words and are attributed to the Gemara. finalRuling restates the cited Mishnah. sourceRefs lines 8 and 13 fall in range."
         }
-      },
-      "repairRef": "f60ed6365420a7da9298c5245fdeaa22ef9e9b45"
+      }
+    },
+    "yoma-002a-s03": {
+      "sugyaId": "yoma-002a-s03",
+      "daf": "2a",
+      "state": "REPAIR_REQUIRED",
+      "firstPass": {
+        "reviewId": "rv3-second4-2a-fable",
+        "reviewerContextId": "rv3-ctx-second4-2a-a67724d9658328d38",
+        "sourceFirst": true,
+        "verdict": "REPAIR_REQUIRED",
+        "reviewedSourceFingerprint": "33246ef4f7da29655ed2ca3453d8343f3211328e3215eac8ba1b20e95a1e0564",
+        "reviewedSemanticFingerprint": "7595e25910c225798671edf08c9040a858f219514fec2638c6ed7145c25935d2",
+        "evidence": {
+          "origin": "independent-second-pass-rejection",
+          "reviewEvidence": {
+            "method": "rv3 independent source-first second pass (round 4) in an isolated context",
+            "fullEvidenceFile": "docs/reports/data/semantic-yoma-2a-rv3-second-pass-4.json",
+            "fieldsChecked": [
+              "display.title",
+              "display.oneLine",
+              "display.shortSummary",
+              "display.whats",
+              "display.hint",
+              "learning.learnerQuestion",
+              "learning.coreTension",
+              "learning.coreMove",
+              "learning.resolution",
+              "learning.takeaway",
+              "learning.reasoningPattern",
+              "learning.ahaMoment",
+              "learning.learningBlocker",
+              "learning.memoryAnchor",
+              "argumentFlow (all steps, speakers, types, sourceRefs)",
+              "conceptRefs",
+              "requiresUnderstanding",
+              "misconceptions",
+              "relatedSugyot",
+              "visualizableElements",
+              "quizSeeds (questions, answers, sourceRefs)",
+              "finalRuling",
+              "difficulty",
+              "alternateAngles",
+              "topicTags",
+              "prerequisiteKnowledge",
+              "lineRange",
+              "lineMap"
+            ],
+            "verdict": "REJECTED",
+            "defects": [
+              {
+                "field": "learning.coreTension; argumentFlow[step-02].label; quizSeeds[0].answer; topicTags['public-demonstration']",
+                "lines": "15-17",
+                "says": "The leniency was 'demonstrated publicly' / 'Sages prove it publicly' / 'To publicly demonstrate against the Sadducean rule'.",
+                "sourceSupports": "'metamin hayu ... umatbilin oto lehotzi milibban shel tzedukin' only. Neither the Gemara nor Rashi on 2a says the act was public or who witnessed it; 'publicly' is an added fact repeated in four fields."
+              }
+            ]
+          }
+        }
+      }
     },
     "yoma-002a-s04": {
       "sugyaId": "yoma-002a-s04",
       "daf": "2a",
-      "state": "REPAIRED_PENDING_REVIEW",
+      "state": "PENDING_FINAL_AUDIT",
       "firstPass": {
         "reviewId": "rv3-second-2a-fable",
         "reviewerContextId": "rv3-ctx-second-2a-ab5c8740be29194cd",
@@ -215,43 +298,123 @@
           }
         }
       },
-      "repairRef": "f60ed6365420a7da9298c5245fdeaa22ef9e9b45"
+      "repairRef": "f60ed6365420a7da9298c5245fdeaa22ef9e9b45",
+      "sourceFingerprint": "c228502c00f948bbbff06a6fd75d017579aab017738525189063e7507cde791f",
+      "semanticFingerprint": "76e42c2f20e28547169fd55437a104529cc3ef3ec0fcce66e0470e0a61d85bba",
+      "secondPass": {
+        "reviewId": "rv3-second4-2a-fable",
+        "reviewerContextId": "rv3-ctx-second4-2a-a67724d9658328d38",
+        "sourceFirst": true,
+        "verdict": "CONFIRMED",
+        "reviewedSourceFingerprint": "c228502c00f948bbbff06a6fd75d017579aab017738525189063e7507cde791f",
+        "reviewedSemanticFingerprint": "76e42c2f20e28547169fd55437a104529cc3ef3ec0fcce66e0470e0a61d85bba",
+        "evidence": {
+          "method": "rv3 independent source-first second pass (round 4) in an isolated context",
+          "fullEvidenceFile": "docs/reports/data/semantic-yoma-2a-rv3-second-pass-4.json",
+          "fieldsChecked": [
+            "display.title",
+            "display.oneLine",
+            "display.shortSummary",
+            "display.whats",
+            "display.hint",
+            "learning.learnerQuestion",
+            "learning.coreTension",
+            "learning.coreMove",
+            "learning.resolution",
+            "learning.takeaway",
+            "learning.reasoningPattern",
+            "learning.ahaMoment",
+            "learning.learningBlocker",
+            "learning.memoryAnchor",
+            "argumentFlow (all steps, speakers, types, sourceRefs)",
+            "conceptRefs",
+            "requiresUnderstanding",
+            "misconceptions",
+            "relatedSugyot",
+            "visualizableElements",
+            "quizSeeds (questions, answers, sourceRefs)",
+            "finalRuling",
+            "difficulty",
+            "alternateAngles",
+            "topicTags",
+            "prerequisiteKnowledge",
+            "lineRange",
+            "lineMap"
+          ],
+          "verdict": "CONFIRMED",
+          "evidence": "L20-24: mai shena tzefona mizracha; chatat requires north; 'el nokhach penei ohel moed'; Rabbis instituted a north-east chamber for heikera. Details beyond the Gemara (corner of the azara, chatat slaughtered in north but the parah itself not, east via the Heichal entrance in the eastern wall, the kohen made attentive and careful) are all in Rashi 15-16 and 29-43 on 2a."
+        }
+      }
     },
     "yoma-002a-s05": {
       "sugyaId": "yoma-002a-s05",
       "daf": "2a",
-      "state": "REPAIRED_PENDING_REVIEW",
+      "state": "REPAIR_REQUIRED",
       "firstPass": {
-        "reviewId": "rv3-first-2a-opus",
-        "reviewerContextId": "rv3-ctx-first-2a-a5ddd34e9e6829ec4",
+        "reviewId": "rv3-second4-2a-fable",
+        "reviewerContextId": "rv3-ctx-second4-2a-a67724d9658328d38",
         "sourceFirst": true,
         "verdict": "REPAIR_REQUIRED",
         "reviewedSourceFingerprint": "17b8e27f28ca8a91691b00fff1a80f84d0edcc0913bccdf4f8106c940f85394a",
-        "reviewedSemanticFingerprint": "e384c2dc3c67d0b03404750f925a2bbae7b17a5d41d341b3956aaddaf636b4f1",
+        "reviewedSemanticFingerprint": "6b884d5f5cd38d07b227a227e45e4a40d8ec6ffa5282c949a749c573c26061c7",
         "evidence": {
-          "method": "rv3 source-first whole-daf first pass: Hebrew read in full before any enrichment; every semantic field checked against the Hebrew",
-          "fullEvidenceFile": "docs/reports/data/semantic-yoma-2a-rv3-first-pass.json",
-          "fieldsChecked": 91,
-          "verdict": "REPAIR_REQUIRED",
-          "defectCount": 4,
-          "defectsBySeverity": {
-            "wrong meaning": 2,
-            "wrong placement": 2
-          },
-          "defectPaths": [
-            "misconceptions[0]",
-            "learning.learningBlocker",
-            "argumentFlow[step-03].sourceRefs[0].vilnaLine",
-            "quizSeeds[1].sourceRefs[0].vilnaLine"
-          ]
+          "origin": "independent-second-pass-rejection",
+          "reviewEvidence": {
+            "method": "rv3 independent source-first second pass (round 4) in an isolated context",
+            "fullEvidenceFile": "docs/reports/data/semantic-yoma-2a-rv3-second-pass-4.json",
+            "fieldsChecked": [
+              "display.title",
+              "display.oneLine",
+              "display.shortSummary",
+              "display.whats",
+              "display.hint",
+              "learning.learnerQuestion",
+              "learning.coreTension",
+              "learning.coreMove",
+              "learning.resolution",
+              "learning.takeaway",
+              "learning.reasoningPattern",
+              "learning.ahaMoment",
+              "learning.learningBlocker",
+              "learning.memoryAnchor",
+              "argumentFlow (all steps, speakers, types, sourceRefs)",
+              "conceptRefs",
+              "requiresUnderstanding",
+              "misconceptions",
+              "relatedSugyot",
+              "visualizableElements",
+              "quizSeeds (questions, answers, sourceRefs)",
+              "finalRuling",
+              "difficulty",
+              "alternateAngles",
+              "topicTags",
+              "prerequisiteKnowledge",
+              "lineRange",
+              "lineMap"
+            ],
+            "verdict": "REJECTED",
+            "defects": [
+              {
+                "field": "learning.coreTension; learning.memoryAnchor; learning.takeaway.text; learning.reasoningPattern.notes",
+                "lines": "25-27",
+                "says": "Reish Lakish treats 'bira' as a 'common noun' / 'category' / 'generic category'; 'Classic dispute between specific toponym vs. generic category in Mishnaic geography'.",
+                "sourceSupports": "Reish Lakish says 'kol hamikdash kulo karui bira': the whole Temple is called Bira. That is still the name of one specific referent, not a common noun or a category; the page supports only specific place on the Temple Mount versus the entire Mikdash. 'Classic' has no basis on the page."
+              },
+              {
+                "field": "prerequisiteKnowledge[0]",
+                "lines": "27",
+                "says": "'I Chronicles 29:19 is part of David's final speech bequeathing the Temple project to Solomon.'",
+                "sourceSupports": "The page gives only the words 'habira asher hakhinoti'; Rashi says only that David says the verse in Chronicles. The verse is from David's prayer to God (as display.whats itself says: 'David's prayer'), not a speech of bequest; unsupported and internally inconsistent."
+              }
+            ]
+          }
         }
-      },
-      "repairRef": "f60ed6365420a7da9298c5245fdeaa22ef9e9b45"
+      }
     },
     "yoma-002a-s06": {
       "sugyaId": "yoma-002a-s06",
       "daf": "2a",
-      "state": "REPAIRED_PENDING_REVIEW",
+      "state": "PENDING_FINAL_AUDIT",
       "firstPass": {
         "reviewId": "rv3-second-2a-fable",
         "reviewerContextId": "rv3-ctx-second-2a-ab5c8740be29194cd",
@@ -281,7 +444,53 @@
           }
         }
       },
-      "repairRef": "f60ed6365420a7da9298c5245fdeaa22ef9e9b45"
+      "repairRef": "f60ed6365420a7da9298c5245fdeaa22ef9e9b45",
+      "sourceFingerprint": "a4abf78a1200c6891588b0c7206a5e3a2e52db368fbcf718ed97b3740a7a8d3a",
+      "semanticFingerprint": "65b7c6b3ac9f490d1a3d19d687f1f706f526f6e17540bb627fd440181b13a630",
+      "secondPass": {
+        "reviewId": "rv3-second4-2a-fable",
+        "reviewerContextId": "rv3-ctx-second4-2a-a67724d9658328d38",
+        "sourceFirst": true,
+        "verdict": "CONFIRMED",
+        "reviewedSourceFingerprint": "a4abf78a1200c6891588b0c7206a5e3a2e52db368fbcf718ed97b3740a7a8d3a",
+        "reviewedSemanticFingerprint": "65b7c6b3ac9f490d1a3d19d687f1f706f526f6e17540bb627fd440181b13a630",
+        "evidence": {
+          "method": "rv3 independent source-first second pass (round 4) in an isolated context",
+          "fullEvidenceFile": "docs/reports/data/semantic-yoma-2a-rv3-second-pass-4.json",
+          "fieldsChecked": [
+            "display.title",
+            "display.oneLine",
+            "display.shortSummary",
+            "display.whats",
+            "display.hint",
+            "learning.learnerQuestion",
+            "learning.coreTension",
+            "learning.coreMove",
+            "learning.resolution",
+            "learning.takeaway",
+            "learning.reasoningPattern",
+            "learning.ahaMoment",
+            "learning.learningBlocker",
+            "learning.memoryAnchor",
+            "argumentFlow (all steps, speakers, types, sourceRefs)",
+            "conceptRefs",
+            "requiresUnderstanding",
+            "misconceptions",
+            "relatedSugyot",
+            "visualizableElements",
+            "quizSeeds (questions, answers, sourceRefs)",
+            "finalRuling",
+            "difficulty",
+            "alternateAngles",
+            "topicTags",
+            "prerequisiteKnowledge",
+            "lineRange",
+            "lineMap"
+          ],
+          "verdict": "CONFIRMED",
+          "evidence": "L27-38: mena hanei milei; three-link chain to R. Yochanan; verse quoted as worded (Lev 8:34); la'asot = parah, lekhaper = Yom Kippur; bishlama concession and 'say all of it is Yom Kippur'; tziva-tziva with 'zot chukat hatorah asher tziva Hashem lemor' (Num 19:2); 'as there parah so here parah, as here separation so there separation'. Inauguration context is Rashi 47-55. Every field stops at L38 and says only that the discussion continues; no 2b content. finalRuling empty."
+        }
+      }
     },
     "yoma-002b-s01": {
       "sugyaId": "yoma-002b-s01",

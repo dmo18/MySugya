@@ -1,0 +1,103 @@
+{
+ "reviewId": "rv3-second3-2a-fable",
+ "reviewMode": "INDEPENDENT_SECOND_PASS",
+ "module": "yoma",
+ "daf": "2a",
+ "scopeOfVerdict": "yoma-002a-s02 only; whole daf (Vilna lines 1-39) read first",
+ "sourceFlowReconstruction": [
+  {
+   "lines": "1-7",
+   "layer": "Mishnah (Yoma)",
+   "content": "Seven days before Yom Kippur the Kohen Gadol is separated from his house to the Parhedrin chamber; a substitute kohen is prepared lest a disqualification occur. R. Yehuda: another wife too, lest his wife die, from 'vekhiper baado uvead beito' (beito = his wife). They said to him: if so there is no end."
+  },
+  {
+   "lines": "8-11",
+   "layer": "Gemara citing Mishnah Parah ('tenan hatam')",
+   "content": "Seven days before the burning of the parah they would separate the kohen who burns the parah from his house to the chamber on the face of the Bira, north-east, and it was called Lishkat Beit HaEven. The quoted Mishnah ends at 'hayeta nikret' (line 11)."
+  },
+  {
+   "lines": "12-14 (through the word 'adama')",
+   "layer": "Gemara's own words",
+   "content": "'And why was it called Lishkat Beit HaEven? Because all her acts (maaseha = the parah's rites, per Rashi) are in dung vessels, stone vessels and earth vessels.' Not said in these lines: why such vessels are required (that begins at 'mai taama', line 14, s03), tevul yom, the Sadducees, why north-east, what Bira is, any verse or derivation, and any explicit statement of why the Parah Mishnah is cited. No sprinkling and no purpose of the separation is mentioned."
+  },
+  {
+   "lines": "14-20",
+   "layer": "Gemara",
+   "content": "Mai taama: since a tevul yom is fit for the parah, as taught: they would make the burning kohen impure and immerse him, to counter the Sadducees who said it was done by those whose sun had set; the Sages instituted vessels that do not receive impurity so that it not be treated lightly."
+  },
+  {
+   "lines": "20-24",
+   "layer": "Gemara",
+   "content": "Why north-east: it is a chatat, chatat requires north, and it is written 'el nokhach pnei ohel moed'; the Sages instituted a north-east chamber as a recognizable sign."
+  },
+  {
+   "lines": "24-27",
+   "layer": "Gemara",
+   "content": "What is Bira: Rabba bar bar Chana in R. Yochanan's name: a place on the Temple Mount named Bira. Resh Lakish: the whole Temple is called Bira, 'habira asher hakhinoti'."
+  },
+  {
+   "lines": "27-38",
+   "layer": "Gemara",
+   "content": "Mena hanei milei: R. Minyomi bar Chilkiya / R. Machseya bar Idi / R. Yochanan: 'kaasher asa bayom haze tziva H laasot lekhaper aleikhem': laasot = acts of parah, lekhaper = acts of Yom Kippur. The whole verse cannot be parah (lekhaper; parah is not for atonement). Perhaps all Yom Kippur? Gezera shava tziva-tziva with 'zot chukat hatorah asher tziva': as there parah so here parah, as here separation so there separation."
+  },
+  {
+   "lines": "39",
+   "layer": "Gemara",
+   "content": "'Ve-eima' - a new challenge begins and the daf ends; unresolved on 2a."
+  }
+ ],
+ "perSugya": [
+  {
+   "sugyaId": "yoma-002a-s02",
+   "verdict": "CONFIRMED",
+   "fieldsChecked": [
+    "lineRange",
+    "display.title",
+    "display.oneLine",
+    "display.shortSummary",
+    "display.whats",
+    "display.hint",
+    "learning.learnerQuestion",
+    "learning.coreTension",
+    "learning.coreMove",
+    "learning.resolution",
+    "learning.takeaway.type",
+    "learning.takeaway.text",
+    "learning.reasoningPattern.id/category/notes",
+    "learning.ahaMoment",
+    "learning.learningBlocker",
+    "learning.memoryAnchor",
+    "argumentFlow[step-01] type/label/speaker/text/sourceRefs",
+    "argumentFlow[step-02] type/label/speaker/text/sourceRefs",
+    "conceptRefs",
+    "requiresUnderstanding",
+    "misconceptions[0]",
+    "relatedSugyot",
+    "visualizableElements[0]",
+    "quizSeeds[0]",
+    "quizSeeds[1]",
+    "finalRuling",
+    "difficulty",
+    "alternateAngles",
+    "topicTags",
+    "prerequisiteKnowledge"
+   ],
+   "evidence": [
+    "Lines 8-11 support every factual element: seven days before the burning, the kohen who burns the parah, from his house, chamber 'al pnei habira tzafona mizracha', called Lishkat Beit HaEven. All fields render these without added quantities, names or reasons.",
+    "Lines 12-14 support the name explanation exactly: three vessel types (dung, stone, earth) for all the parah's acts; correctly attributed to the Gemara, not to the Parah Mishnah, and the chamber's name clause is correctly kept inside the Mishnah citation.",
+    "No field imports material from s03-s06 (no tevul yom, Sadducees, susceptibility to impurity, chatat/north, Bira dispute, verse derivation) and nothing from 2b. The 'why these vessels' question is not answered here.",
+    "The 'parallel' framing (also separated seven days from his home) rests on the 'tenan hatam' juxtaposition of two Mishnayot with identical wording (shivat yamim / mafrishin / mibeito le-lishkat) and claims no derivation or purpose beyond that.",
+    "sourceRefs: lineId yoma-002a-l08 is the segment spanning Vilna 8-14; vilnaLine 8 and 13 are contained and point at the citation and the name explanation respectively.",
+    "Contracts: hint is a complete question; finalRuling is independent of the hint and states the cited Mishnah's rule; requiresUnderstanding empty; topicTags lowercase hyphen slugs with no duplicates; visualizableElements has item; no 'concepts' field."
+   ],
+   "defects": []
+  }
+ ],
+ "advisories": [
+  "OUTSIDE VERDICT, non-defect note on s02 argumentFlow step-01: the 'Just as the Kohen Gadol ... also' connective is editorial framing of the juxtaposition; the Gemara's words are only 'tenan hatam' plus the Mishnah. Judged a supported paraphrase, not an attribution defect.",
+  "OUTSIDE VERDICT: s02 visualizableElements carries role 'anchor' and priority 1; I could not verify from source whether these are authored judgments or filler (contract forbids fabricating them).",
+  "OUTSIDE VERDICT: declared ranges of adjacent sugyot share boundary lines (14, 20, 24, 27) because transitions fall mid-line; s06 declared end is line 38 while line 39 ('ve-eima') is owned by no sugya. I did not review the enrichment of s01, s03-s06 or the daf summary."
+ ],
+ "forbiddenMaterialSeen": "None. Read only the runbook sections, the packet, shared/schema_map.js sourceRefs line, line-id counts from modules/yoma/learning_data.js, and filenames in docs/reports.",
+ "completeness": "All 39 authoritative Hebrew lines were read and reconstructed before the s02 enrichment was opened; every semantic field present on s02 was checked against Vilna lines 8-14. Verdict covers s02 only; no daf-summary, boundary, or other-sugya verdict is given."
+}
