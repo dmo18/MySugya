@@ -13,7 +13,7 @@
     "yoma-002a-s01": {
       "sugyaId": "yoma-002a-s01",
       "daf": "2a",
-      "state": "REPAIR_REQUIRED",
+      "state": "REPAIRED_PENDING_REVIEW",
       "firstPass": {
         "reviewId": "rv3-second4-2a-fable",
         "reviewerContextId": "rv3-ctx-second4-2a-a67724d9658328d38",
@@ -73,12 +73,13 @@
             ]
           }
         }
-      }
+      },
+      "repairRef": "c694673e8e3f75caf33bfa6bbe029103614caabb"
     },
     "yoma-002a-s02": {
       "sugyaId": "yoma-002a-s02",
       "daf": "2a",
-      "state": "PENDING_FINAL_AUDIT",
+      "state": "REPAIRED_PENDING_REVIEW",
       "firstPass": {
         "reviewId": "rv3-second2-2a-fable",
         "reviewerContextId": "rv3-ctx-second2-2a-a2763c3e95db526fb",
@@ -150,58 +151,12 @@
           }
         }
       },
-      "repairRef": "f60ed6365420a7da9298c5245fdeaa22ef9e9b45",
-      "sourceFingerprint": "7d10aba46e159ee6318448b96999bf39ea72a73db02a271b45bd5c54ab377bed",
-      "semanticFingerprint": "c3b0dde8313bd596fa6bf7b56735c81c2b021fbe2b2b12d9ee0f17c6c61c8c37",
-      "secondPass": {
-        "reviewId": "rv3-second4-2a-fable",
-        "reviewerContextId": "rv3-ctx-second4-2a-a67724d9658328d38",
-        "sourceFirst": true,
-        "verdict": "CONFIRMED",
-        "reviewedSourceFingerprint": "7d10aba46e159ee6318448b96999bf39ea72a73db02a271b45bd5c54ab377bed",
-        "reviewedSemanticFingerprint": "c3b0dde8313bd596fa6bf7b56735c81c2b021fbe2b2b12d9ee0f17c6c61c8c37",
-        "evidence": {
-          "method": "rv3 independent source-first second pass (round 4) in an isolated context",
-          "fullEvidenceFile": "docs/reports/data/semantic-yoma-2a-rv3-second-pass-4.json",
-          "fieldsChecked": [
-            "display.title",
-            "display.oneLine",
-            "display.shortSummary",
-            "display.whats",
-            "display.hint",
-            "learning.learnerQuestion",
-            "learning.coreTension",
-            "learning.coreMove",
-            "learning.resolution",
-            "learning.takeaway",
-            "learning.reasoningPattern",
-            "learning.ahaMoment",
-            "learning.learningBlocker",
-            "learning.memoryAnchor",
-            "argumentFlow (all steps, speakers, types, sourceRefs)",
-            "conceptRefs",
-            "requiresUnderstanding",
-            "misconceptions",
-            "relatedSugyot",
-            "visualizableElements",
-            "quizSeeds (questions, answers, sourceRefs)",
-            "finalRuling",
-            "difficulty",
-            "alternateAngles",
-            "topicTags",
-            "prerequisiteKnowledge",
-            "lineRange",
-            "lineMap"
-          ],
-          "verdict": "CONFIRMED",
-          "evidence": "L8-14: 'tenan hatam' citation of the seven-day separation of the kohen who burns the parah to the chamber al penei habira, north-east, called Lishkat Beit HaEven; the name question and answer (all its acts in dung, stone, earth vessels) are the Gemara's own words and are attributed to the Gemara. finalRuling restates the cited Mishnah. sourceRefs lines 8 and 13 fall in range."
-        }
-      }
+      "repairRef": "c694673e8e3f75caf33bfa6bbe029103614caabb"
     },
     "yoma-002a-s03": {
       "sugyaId": "yoma-002a-s03",
       "daf": "2a",
-      "state": "REPAIR_REQUIRED",
+      "state": "REPAIRED_PENDING_REVIEW",
       "firstPass": {
         "reviewId": "rv3-second4-2a-fable",
         "reviewerContextId": "rv3-ctx-second4-2a-a67724d9658328d38",
@@ -255,12 +210,13 @@
             ]
           }
         }
-      }
+      },
+      "repairRef": "c694673e8e3f75caf33bfa6bbe029103614caabb"
     },
     "yoma-002a-s04": {
       "sugyaId": "yoma-002a-s04",
       "daf": "2a",
-      "state": "PENDING_FINAL_AUDIT",
+      "state": "REPAIRED_PENDING_REVIEW",
       "firstPass": {
         "reviewId": "rv3-second-2a-fable",
         "reviewerContextId": "rv3-ctx-second-2a-ab5c8740be29194cd",
@@ -298,58 +254,12 @@
           }
         }
       },
-      "repairRef": "f60ed6365420a7da9298c5245fdeaa22ef9e9b45",
-      "sourceFingerprint": "c228502c00f948bbbff06a6fd75d017579aab017738525189063e7507cde791f",
-      "semanticFingerprint": "76e42c2f20e28547169fd55437a104529cc3ef3ec0fcce66e0470e0a61d85bba",
-      "secondPass": {
-        "reviewId": "rv3-second4-2a-fable",
-        "reviewerContextId": "rv3-ctx-second4-2a-a67724d9658328d38",
-        "sourceFirst": true,
-        "verdict": "CONFIRMED",
-        "reviewedSourceFingerprint": "c228502c00f948bbbff06a6fd75d017579aab017738525189063e7507cde791f",
-        "reviewedSemanticFingerprint": "76e42c2f20e28547169fd55437a104529cc3ef3ec0fcce66e0470e0a61d85bba",
-        "evidence": {
-          "method": "rv3 independent source-first second pass (round 4) in an isolated context",
-          "fullEvidenceFile": "docs/reports/data/semantic-yoma-2a-rv3-second-pass-4.json",
-          "fieldsChecked": [
-            "display.title",
-            "display.oneLine",
-            "display.shortSummary",
-            "display.whats",
-            "display.hint",
-            "learning.learnerQuestion",
-            "learning.coreTension",
-            "learning.coreMove",
-            "learning.resolution",
-            "learning.takeaway",
-            "learning.reasoningPattern",
-            "learning.ahaMoment",
-            "learning.learningBlocker",
-            "learning.memoryAnchor",
-            "argumentFlow (all steps, speakers, types, sourceRefs)",
-            "conceptRefs",
-            "requiresUnderstanding",
-            "misconceptions",
-            "relatedSugyot",
-            "visualizableElements",
-            "quizSeeds (questions, answers, sourceRefs)",
-            "finalRuling",
-            "difficulty",
-            "alternateAngles",
-            "topicTags",
-            "prerequisiteKnowledge",
-            "lineRange",
-            "lineMap"
-          ],
-          "verdict": "CONFIRMED",
-          "evidence": "L20-24: mai shena tzefona mizracha; chatat requires north; 'el nokhach penei ohel moed'; Rabbis instituted a north-east chamber for heikera. Details beyond the Gemara (corner of the azara, chatat slaughtered in north but the parah itself not, east via the Heichal entrance in the eastern wall, the kohen made attentive and careful) are all in Rashi 15-16 and 29-43 on 2a."
-        }
-      }
+      "repairRef": "c694673e8e3f75caf33bfa6bbe029103614caabb"
     },
     "yoma-002a-s05": {
       "sugyaId": "yoma-002a-s05",
       "daf": "2a",
-      "state": "REPAIR_REQUIRED",
+      "state": "REPAIRED_PENDING_REVIEW",
       "firstPass": {
         "reviewId": "rv3-second4-2a-fable",
         "reviewerContextId": "rv3-ctx-second4-2a-a67724d9658328d38",
@@ -409,12 +319,13 @@
             ]
           }
         }
-      }
+      },
+      "repairRef": "c694673e8e3f75caf33bfa6bbe029103614caabb"
     },
     "yoma-002a-s06": {
       "sugyaId": "yoma-002a-s06",
       "daf": "2a",
-      "state": "PENDING_FINAL_AUDIT",
+      "state": "REPAIRED_PENDING_REVIEW",
       "firstPass": {
         "reviewId": "rv3-second-2a-fable",
         "reviewerContextId": "rv3-ctx-second-2a-ab5c8740be29194cd",
@@ -444,53 +355,7 @@
           }
         }
       },
-      "repairRef": "f60ed6365420a7da9298c5245fdeaa22ef9e9b45",
-      "sourceFingerprint": "a4abf78a1200c6891588b0c7206a5e3a2e52db368fbcf718ed97b3740a7a8d3a",
-      "semanticFingerprint": "65b7c6b3ac9f490d1a3d19d687f1f706f526f6e17540bb627fd440181b13a630",
-      "secondPass": {
-        "reviewId": "rv3-second4-2a-fable",
-        "reviewerContextId": "rv3-ctx-second4-2a-a67724d9658328d38",
-        "sourceFirst": true,
-        "verdict": "CONFIRMED",
-        "reviewedSourceFingerprint": "a4abf78a1200c6891588b0c7206a5e3a2e52db368fbcf718ed97b3740a7a8d3a",
-        "reviewedSemanticFingerprint": "65b7c6b3ac9f490d1a3d19d687f1f706f526f6e17540bb627fd440181b13a630",
-        "evidence": {
-          "method": "rv3 independent source-first second pass (round 4) in an isolated context",
-          "fullEvidenceFile": "docs/reports/data/semantic-yoma-2a-rv3-second-pass-4.json",
-          "fieldsChecked": [
-            "display.title",
-            "display.oneLine",
-            "display.shortSummary",
-            "display.whats",
-            "display.hint",
-            "learning.learnerQuestion",
-            "learning.coreTension",
-            "learning.coreMove",
-            "learning.resolution",
-            "learning.takeaway",
-            "learning.reasoningPattern",
-            "learning.ahaMoment",
-            "learning.learningBlocker",
-            "learning.memoryAnchor",
-            "argumentFlow (all steps, speakers, types, sourceRefs)",
-            "conceptRefs",
-            "requiresUnderstanding",
-            "misconceptions",
-            "relatedSugyot",
-            "visualizableElements",
-            "quizSeeds (questions, answers, sourceRefs)",
-            "finalRuling",
-            "difficulty",
-            "alternateAngles",
-            "topicTags",
-            "prerequisiteKnowledge",
-            "lineRange",
-            "lineMap"
-          ],
-          "verdict": "CONFIRMED",
-          "evidence": "L27-38: mena hanei milei; three-link chain to R. Yochanan; verse quoted as worded (Lev 8:34); la'asot = parah, lekhaper = Yom Kippur; bishlama concession and 'say all of it is Yom Kippur'; tziva-tziva with 'zot chukat hatorah asher tziva Hashem lemor' (Num 19:2); 'as there parah so here parah, as here separation so there separation'. Inauguration context is Rashi 47-55. Every field stops at L38 and says only that the discussion continues; no 2b content. finalRuling empty."
-        }
-      }
+      "repairRef": "c694673e8e3f75caf33bfa6bbe029103614caabb"
     },
     "yoma-002b-s01": {
       "sugyaId": "yoma-002b-s01",
