@@ -1,0 +1,110 @@
+{
+ "reviewId": "rv3-second5-2a-fable",
+ "module": "yoma",
+ "daf": "2a",
+ "reviewMode": "INDEPENDENT_SECOND_PASS",
+ "standard": "docs/reports/semantic-nothing-beyond-the-page.md (12-item checklist)",
+ "sourceFlowReconstruction": [
+  "L1-7 Mishnah: seven days before Yom Kippur the Kohen Gadol is separated from his house to the Parhedrin chamber; another kohen is prepared in his stead lest a disqualification befall him. R. Yehuda: another wife is also prepared lest his wife die, as it says 'vekhiper ba'ado uve'ad beito', beito zo ishto. They said to him: if so, there is no end to the matter.",
+  "L8-11 Gemara cites 'tenan hatam': seven days before the burning of the parah they would separate the kohen who burns it from his house to the chamber on the face of the Bira, north-east; it was called Lishkat Beit HaEven.",
+  "L12-14: why that name? because all its acts (Rashi: the parah's) were with dung, stone and earth vessels.",
+  "L14-20: mai ta'ama? since a tevul yom is fit for the parah, as taught (ditnan): they would make the kohen who burns the parah tamei and immerse him, to remove from the hearts of the Sadducees, who said it was done by me'orvei shemesh; the Rabbis instituted dung/stone/earth vessels, which do not receive tumah, so that it not be treated lightly.",
+  "L20-24: why north-east? since it is a chatat and a chatat requires north, and of it is written 'el nokhach penei ohel moed', the Rabbis instituted a north-east chamber so that it have a heker.",
+  "L24-27: mai bira? Rabba bar bar Chana in the name of R. Yochanan: a place on the Temple Mount named Bira. Reish Lakish: the whole Mikdash is called Bira, as it says 'habira asher hakhinoti'. No decision.",
+  "L27-31: mena hanei milei? R. Minyomi bar Chilkiya - R. Machseya bar Idi - R. Yochanan: 'ka'asher asah bayom hazeh tzivah Hashem la'asot lekhaper aleikhem': la'asot = acts of the parah, lekhaper = acts of Yom Kippur.",
+  "L32-34: granted the whole verse cannot be about the parah (lekhaper is written and the parah is not for atonement), but say the whole verse is about Yom Kippur?",
+  "L34-38: amri: yalif tzivah tzivah; here 'tzivah Hashem la'asot', there 'zot chukat hatorah asher tzivah Hashem lemor'; as there parah so here parah; as here perisha so there perisha.",
+  "L39: 've'eima' - a further challenge begins; the page ends with nothing after it. The derivation is therefore still open at the physical end of 2a."
+ ],
+ "dafSummaryVerdict": "VERIFIED",
+ "glossaryVerdict": "REPAIR_REQUIRED",
+ "dafLevelDefects": [
+  {
+   "fieldPath": "glossary[3] (Gezerah Shavah).en",
+   "checklistItem": 3,
+   "lineIds": [
+    "yoma-002a-l34 (vilna 34-38)"
+   ],
+   "fieldSays": "When the same word or phrase appears in two Torah passages, the rules of one passage carry over to the other.",
+   "sourceSupports": "The page has one instance only: 'yalif tzivah tzivah', linking 'tzivah Hashem la'asot' to 'asher tzivah Hashem lemor' (there parah so here parah; here perisha so there perisha). The term gezerah shavah, 'or phrase', and a general carry-over rule are not on the daf or in its Rashi. A daf-level field may rest only on lines of this daf; the entry restates a single case as a general rule of how the Talmud works."
+  },
+  {
+   "fieldPath": "glossary[2] (Tvul Yom).en",
+   "checklistItem": 2,
+   "lineIds": [
+    "yoma-002a-l14 (vilna 14-20)"
+   ],
+   "fieldSays": "Because a tvul yom is fit for the Red Heifer, they would deliberately make the kohen who burns it tamei and immerse him, to refute the Sadducees...",
+   "sourceSupports": "On the page 'keivan ditvul yom kasher bapara' is the reason for the vessel enactment (answer to mai ta'ama), and the Mishnah 'metam'in hayu' is cited (ditnan) as support that a tevul yom is fit; the only purpose stated for making him tamei is 'lehotzi milibban shel tzedukin'. The entry moves the page's reason to a different clause. Confidence: moderate (lower severity than the first)."
+  }
+ ],
+ "boundaryVerdict": {
+  "overall": "VERIFIED",
+  "yoma-002a-s01": "VERIFIED (1-7 Mishnah)",
+  "yoma-002a-s02": "VERIFIED (8-14, ends mid-line 14 at 'adama')",
+  "yoma-002a-s03": "VERIFIED (14-20, 'mai ta'ama' to 'lizalzelu bah')",
+  "yoma-002a-s04": "VERIFIED (20-24, 'mai shena' to 'heikera')",
+  "yoma-002a-s05": "VERIFIED (24-27, 'mai bira' to 'hakhinoti')",
+  "yoma-002a-s06": "VERIFIED (27-38; line 39 've'eima' owned by no sugya, accepted convention)"
+ },
+ "perSugya": [
+  {
+   "sugyaId": "yoma-002a-s01",
+   "verdict": "CONFIRMED",
+   "fieldsChecked": "display.{title,oneLine,shortSummary,whats,hint}; learning.{learnerQuestion,coreTension,coreMove,resolution,takeaway.type,takeaway.text,reasoningPattern.{id,category,notes},ahaMoment,learningBlocker,memoryAnchor}; argumentFlow[*].{type,label,speaker,text,sourceRefs}; conceptRefs; requiresUnderstanding; misconceptions[*].{misconception,correction,correctedByStepId}; relatedSugyot; visualizableElements; quizSeeds[*].{question,answer,sourceRefs}; finalRuling; difficulty; alternateAngles; topicTags; prerequisiteKnowledge; lineRange; lineMap",
+   "defects": [],
+   "evidence": "L1-7. Rule, backup kohen, R. Yehuda's 'af isha acheret' with verse and 'beito zo ishto', and 'im ken ein ladavar sof' all match. Rashi glosses (keri or other tumah; 'shema gam zo tamut') match Hebrew Rashi 8, 11-12 and are worded as Rashi. finalRuling is the Mishnah's undisputed anonymous rule and does not decide the wife dispute. Step types case/proposal/rejection fit. hint is a question; tags are slugs."
+  },
+  {
+   "sugyaId": "yoma-002a-s02",
+   "verdict": "CONFIRMED",
+   "fieldsChecked": "display.{title,oneLine,shortSummary,whats,hint}; learning.{learnerQuestion,coreTension,coreMove,resolution,takeaway.type,takeaway.text,reasoningPattern.{id,category,notes},ahaMoment,learningBlocker,memoryAnchor}; argumentFlow[*].{type,label,speaker,text,sourceRefs}; conceptRefs; requiresUnderstanding; misconceptions[*].{misconception,correction,correctedByStepId}; relatedSugyot; visualizableElements; quizSeeds[*].{question,answer,sourceRefs}; finalRuling; difficulty; alternateAngles; topicTags; prerequisiteKnowledge; lineRange; lineMap",
+   "defects": [],
+   "evidence": "L8-14. Cited Mishnah (seven days before the burning, kohen ha-soref, chamber al penei habira tzefona mizracha, Lishkat Beit HaEven) and the name explanation (dung, stone, earth vessels) match. 'the parah's acts' follows Rashi 16-17 ('shel para'). No reason for the vessels is imported from s03. finalRuling restates the cited Mishnah's rule. References to the Kohen Gadol's Mishnah are the comparison implied by 'tenan hatam', not an out-of-range claim."
+  },
+  {
+   "sugyaId": "yoma-002a-s03",
+   "verdict": "CONFIRMED",
+   "fieldsChecked": "display.{title,oneLine,shortSummary,whats,hint}; learning.{learnerQuestion,coreTension,coreMove,resolution,takeaway.type,takeaway.text,reasoningPattern.{id,category,notes},ahaMoment,learningBlocker,memoryAnchor}; argumentFlow[*].{type,label,speaker,text,sourceRefs}; conceptRefs; requiresUnderstanding; misconceptions[*].{misconception,correction,correctedByStepId}; relatedSugyot; visualizableElements; quizSeeds[*].{question,answer,sourceRefs}; finalRuling; difficulty; alternateAngles; topicTags; prerequisiteKnowledge; lineRange; lineMap",
+   "defects": [],
+   "evidence": "L14-20. Question, 'tevul yom kasher bapara', ditnan proof (made tamei and immersed, against the Sadducees' me'orvei shemesh), 'tikkinu rabbanan' vessels that do not receive tumah, 'delo lizalzelu bah' all match, in the page's causal order. Misconception correction correctly separates the anti-Sadducee purpose (immersion) from the vessel reason. 'stringency'/'leniency' framing is supported by Rashi 26-29 (ma'alot). finalRuling states only what the lines state as fact."
+  },
+  {
+   "sugyaId": "yoma-002a-s04",
+   "verdict": "CONFIRMED",
+   "fieldsChecked": "display.{title,oneLine,shortSummary,whats,hint}; learning.{learnerQuestion,coreTension,coreMove,resolution,takeaway.type,takeaway.text,reasoningPattern.{id,category,notes},ahaMoment,learningBlocker,memoryAnchor}; argumentFlow[*].{type,label,speaker,text,sourceRefs}; conceptRefs; requiresUnderstanding; misconceptions[*].{misconception,correction,correctedByStepId}; relatedSugyot; visualizableElements; quizSeeds[*].{question,answer,sourceRefs}; finalRuling; difficulty; alternateAngles; topicTags; prerequisiteKnowledge; lineRange; lineMap",
+   "defects": [],
+   "evidence": "L20-24. 'mai shena tzefona mizracha', chatat requires north, 'el nokhach penei ohel moed', 'tikkinu rabbanan', 'heikera' match. East, sprinkling toward the Heikhal entrance, slaughter on Har HaMishcha, and the purpose of the sign are all worded as Rashi and match Hebrew Rashi 30-42."
+  },
+  {
+   "sugyaId": "yoma-002a-s05",
+   "verdict": "CONFIRMED",
+   "fieldsChecked": "display.{title,oneLine,shortSummary,whats,hint}; learning.{learnerQuestion,coreTension,coreMove,resolution,takeaway.type,takeaway.text,reasoningPattern.{id,category,notes},ahaMoment,learningBlocker,memoryAnchor}; argumentFlow[*].{type,label,speaker,text,sourceRefs}; conceptRefs; requiresUnderstanding; misconceptions[*].{misconception,correction,correctedByStepId}; relatedSugyot; visualizableElements; quizSeeds[*].{question,answer,sourceRefs}; finalRuling; difficulty; alternateAngles; topicTags; prerequisiteKnowledge; lineRange; lineMap",
+   "defects": [],
+   "evidence": "L24-27. Rabba bar bar Chana in the name of R. Yochanan (a place on the Temple Mount named Bira) versus Reish Lakish (whole Mikdash, 'habira asher hakhinoti'). David/Chronicles is worded as Rashi (Rashi 43-46). Dispute left undecided; finalRuling empty; takeaway type open_question fits."
+  },
+  {
+   "sugyaId": "yoma-002a-s06",
+   "verdict": "CONFIRMED",
+   "fieldsChecked": "display.{title,oneLine,shortSummary,whats,hint}; learning.{learnerQuestion,coreTension,coreMove,resolution,takeaway.type,takeaway.text,reasoningPattern.{id,category,notes},ahaMoment,learningBlocker,memoryAnchor}; argumentFlow[*].{type,label,speaker,text,sourceRefs}; conceptRefs; requiresUnderstanding; misconceptions[*].{misconception,correction,correctedByStepId}; relatedSugyot; visualizableElements; quizSeeds[*].{question,answer,sourceRefs}; finalRuling; difficulty; alternateAngles; topicTags; prerequisiteKnowledge; lineRange; lineMap",
+   "defects": [],
+   "evidence": "L27-38. Tradent chain, verse wording, la'asot=parah / lekhaper=Yom Kippur, the bishlama concession and 've'eima kuleih kra beYom HaKippurim', 'yalif tzivah tzivah' with both verses, and both halves of the analogy match. Record does not use proves/establishes, says the discussion continues, and leaves finalRuling empty; no outcome from 2b is stated. Line 39 unowned per accepted convention."
+  }
+ ],
+ "advisories": [
+  "Daf summary and s06 display.oneLine/shortSummary/whats, learning.resolution/takeaway/memoryAnchor, misconceptions[0].correction call the verse 'the inauguration verse' or gloss 'here' as 'the inauguration' without a Rashi tag (the identification is Rashi 47-48 'bamilu'im'; s06 coreTension and prerequisiteKnowledge do tag it). Judged a verse identification / accepted rendering of 'kan', not an item 6 violation; tagging it would be safer.",
+  "Glossary Milu'im and s06 prerequisiteKnowledge say 'Moses separated Aaron and his sons' / 'of Aaron and his sons'; Hebrew Rashi says only 'shetzivah otam lifrosh mibeitam' with no names. The packet's English Rashi carries the names, so not rejected.",
+  "'deliberately' (made tamei) in summary, glossary and s03 is not a word on the page ('metam'in hayu'); judged entailed by the causative verb plus stated purpose.",
+  "s01 display.oneLine 'sequestered in the Parhedrin chamber with a backup priest' can be misread as the backup kohen being sequestered with him.",
+  "s04 learningBlocker 'the north is reflected only in the chamber's placement' and misconceptions[0].correction 'not as the fulfillment of a directional requirement' go slightly past Rashi's 'velo shezo te'una tzafon'.",
+  "s06 quizSeeds[1].question 'Why can't Leviticus 8:34 refer only to Yom Kippur?' and memoryAnchor 'licenses' phrase the answer firmly although 've'eima' (L39) opens a further challenge; the answer text itself is worded as the Gemara's answer, so item 10 not triggered.",
+  "s06 ahaMoment / quizSeeds[0] 'nothing in the verse's wording rules out' is an editorial inference from the Gemara's question.",
+  "Spelling varies between Yohanan and Yochanan within s05 (style only)."
+ ],
+ "contractChecks": "All display.hint values are questions; no finalRuling copies a hint; requiresUnderstanding empty everywhere; topicTags are lowercase hyphen slugs without duplicates; visualizableElements carry only item; no concepts field in the packet enrichment.",
+ "repairScope": [
+  "glossary Gezerah Shavah entry",
+  "glossary Tvul Yom entry (second sentence)"
+ ],
+ "completeness": "Read all 39 authoritative Hebrew lines and wrote the flow reconstruction before opening the summary or any sugya. Then checked the daf summary, all 5 glossary entries, and every semantic field of all 6 sugyot against their own line ranges and the Hebrew Rashi in modules/yoma/assets/talmuddev/2a.json. No forbidden material (prior reviews, certification registry, git history, repair manifest, STATUS.md, other scratchpad dirs) was read. The packet exposes effectiveCertificationState REPAIRED_PENDING_REVIEW per sugya, a state label only, not reasoning."
+}

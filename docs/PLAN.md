@@ -1,6 +1,6 @@
 # Plan
 
-Written: 2026-11-19 at VERSION 15.600. Status: approved by owner redirect, running.
+Written: 2026-11-19 at VERSION 15.600. Status: paused after daf 2a by owner decision. See `docs/STATUS.md`.
 
 Owner answers that shape this plan:
 

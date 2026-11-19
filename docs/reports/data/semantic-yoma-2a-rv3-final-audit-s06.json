@@ -1,0 +1,1565 @@
+{
+ "dafBoundary": {
+  "rawLineCount": 39,
+  "finalRawLine": "ואימא",
+  "dafEndState": "MID_QUESTION",
+  "note": "Line 38 completes the gezerah shavah answer; line 39 is the single word 've'eima', the opening of a new challenge whose content is entirely on 2b."
+ },
+ "fieldInventory": [
+  {
+   "path": "lineRange",
+   "crossReference": false,
+   "verdict": "NONFACTUAL",
+   "boundarySafe": true,
+   "note": "Declared range 27-38 checked against the raw page."
+  },
+  {
+   "path": "lines",
+   "crossReference": false,
+   "verdict": "NONFACTUAL",
+   "boundarySafe": true,
+   "note": "Line-map segment starts checked against the raw page. The segment for line 39 ('ve'eima') lies outside lineRange 27-38 under the accepted final-raw-line convention; no field rests on it."
+  },
+  {
+   "path": "dafLevel.glossary[0].en",
+   "crossReference": false,
+   "verdict": "SUPPORTED",
+   "supportingLines": [
+    {
+     "daf": "2a",
+     "startVilnaLine": 2,
+     "endVilnaLine": 3
+    }
+   ],
+   "boundarySafe": true,
+   "note": "Lines 2-3: separated from his house to the Parhedrin chamber seven days before Yom Kippur; Hebrew Rashi: 'kakh shemah'. Passes all 12 nothing-beyond-the-page checklist items."
+  },
+  {
+   "path": "dafLevel.glossary[0].he",
+   "crossReference": false,
+   "verdict": "SUPPORTED",
+   "supportingLines": [
+    {
+     "daf": "2a",
+     "startVilnaLine": 3,
+     "endVilnaLine": 3
+    }
+   ],
+   "boundarySafe": true,
+   "note": "The term appears on line 3. Passes all 12 nothing-beyond-the-page checklist items."
+  },
+  {
+   "path": "dafLevel.glossary[0].translit",
+   "crossReference": false,
+   "verdict": "SUPPORTED",
+   "supportingLines": [
+    {
+     "daf": "2a",
+     "startVilnaLine": 3,
+     "endVilnaLine": 3
+    }
+   ],
+   "boundarySafe": true,
+   "note": "The term appears on line 3. Passes all 12 nothing-beyond-the-page checklist items."
+  },
+  {
+   "path": "dafLevel.glossary[1].en",
+   "crossReference": false,
+   "verdict": "SUPPORTED",
+   "supportingLines": [
+    {
+     "daf": "2a",
+     "startVilnaLine": 8,
+     "endVilnaLine": 9
+    },
+    {
+     "daf": "2a",
+     "startVilnaLine": 12,
+     "endVilnaLine": 14
+    },
+    {
+     "daf": "2a",
+     "startVilnaLine": 18,
+     "endVilnaLine": 19
+    }
+   ],
+   "boundarySafe": true,
+   "note": "Seven-day separation of the kohen who burns the parah (8-9; Rashi: parah adumah); all its acts in dung, stone and earth vessels (12-14), which do not receive impurity (18-19). Passes all 12 nothing-beyond-the-page checklist items."
+  },
+  {
+   "path": "dafLevel.glossary[1].he",
+   "crossReference": false,
+   "verdict": "SUPPORTED",
+   "supportingLines": [
+    {
+     "daf": "2a",
+     "startVilnaLine": 8,
+     "endVilnaLine": 9
+    }
+   ],
+   "boundarySafe": true,
+   "note": "The parah is named on lines 8-9; Hebrew Rashi there: 'parah adumah'. Passes all 12 nothing-beyond-the-page checklist items."
+  },
+  {
+   "path": "dafLevel.glossary[1].translit",
+   "crossReference": false,
+   "verdict": "SUPPORTED",
+   "supportingLines": [
+    {
+     "daf": "2a",
+     "startVilnaLine": 8,
+     "endVilnaLine": 9
+    }
+   ],
+   "boundarySafe": true,
+   "note": "The parah is named on lines 8-9; Hebrew Rashi there: 'parah adumah'. Passes all 12 nothing-beyond-the-page checklist items."
+  },
+  {
+   "path": "dafLevel.glossary[2].en",
+   "crossReference": false,
+   "verdict": "SUPPORTED",
+   "supportingLines": [
+    {
+     "daf": "2a",
+     "startVilnaLine": 14,
+     "endVilnaLine": 17
+    }
+   ],
+   "boundarySafe": true,
+   "note": "Lines 14-17 nearly verbatim. Passes all 12 nothing-beyond-the-page checklist items."
+  },
+  {
+   "path": "dafLevel.glossary[2].he",
+   "crossReference": false,
+   "verdict": "SUPPORTED",
+   "supportingLines": [
+    {
+     "daf": "2a",
+     "startVilnaLine": 14,
+     "endVilnaLine": 14
+    }
+   ],
+   "boundarySafe": true,
+   "note": "The term appears on line 14. Passes all 12 nothing-beyond-the-page checklist items."
+  },
+  {
+   "path": "dafLevel.glossary[2].translit",
+   "crossReference": false,
+   "verdict": "SUPPORTED",
+   "supportingLines": [
+    {
+     "daf": "2a",
+     "startVilnaLine": 14,
+     "endVilnaLine": 14
+    }
+   ],
+   "boundarySafe": true,
+   "note": "The term appears on line 14. Passes all 12 nothing-beyond-the-page checklist items."
+  },
+  {
+   "path": "dafLevel.glossary[3].en",
+   "crossReference": false,
+   "verdict": "SUPPORTED",
+   "supportingLines": [
+    {
+     "daf": "2a",
+     "startVilnaLine": 34,
+     "endVilnaLine": 38
+    }
+   ],
+   "boundarySafe": true,
+   "note": "Restates lines 34-38 with both verses as worded on the page. Passes all 12 nothing-beyond-the-page checklist items."
+  },
+  {
+   "path": "dafLevel.glossary[3].he",
+   "crossReference": false,
+   "verdict": "SUPPORTED",
+   "supportingLines": [
+    {
+     "daf": "2a",
+     "startVilnaLine": 35,
+     "endVilnaLine": 38
+    }
+   ],
+   "boundarySafe": true,
+   "note": "Headword for the 'yalif tzivah tzivah' derivation of lines 35-38 (advisory: the page's own wording is 'yalif', the headword is the accepted name of that method). Passes all 12 nothing-beyond-the-page checklist items."
+  },
+  {
+   "path": "dafLevel.glossary[3].translit",
+   "crossReference": false,
+   "verdict": "SUPPORTED",
+   "supportingLines": [
+    {
+     "daf": "2a",
+     "startVilnaLine": 35,
+     "endVilnaLine": 38
+    }
+   ],
+   "boundarySafe": true,
+   "note": "Headword for the 'yalif tzivah tzivah' derivation of lines 35-38 (advisory: the page's own wording is 'yalif', the headword is the accepted name of that method). Passes all 12 nothing-beyond-the-page checklist items."
+  },
+  {
+   "path": "dafLevel.glossary[4].en",
+   "crossReference": false,
+   "verdict": "SUPPORTED",
+   "supportingLines": [
+    {
+     "daf": "2a",
+     "startVilnaLine": 29,
+     "endVilnaLine": 30
+    }
+   ],
+   "boundarySafe": true,
+   "note": "Worded as Rashi's explanation; Hebrew Rashi on 'kaasher asah' (lines 29-30): at the milu'im they were commanded to separate from their homes seven days, and on the eighth they served. Passes all 12 nothing-beyond-the-page checklist items."
+  },
+  {
+   "path": "dafLevel.glossary[4].he",
+   "crossReference": false,
+   "verdict": "SUPPORTED",
+   "supportingLines": [
+    {
+     "daf": "2a",
+     "startVilnaLine": 29,
+     "endVilnaLine": 30
+    }
+   ],
+   "boundarySafe": true,
+   "note": "The term is Rashi's on the verse of lines 29-30 ('bamilu'im'). Passes all 12 nothing-beyond-the-page checklist items."
+  },
+  {
+   "path": "dafLevel.glossary[4].translit",
+   "crossReference": false,
+   "verdict": "SUPPORTED",
+   "supportingLines": [
+    {
+     "daf": "2a",
+     "startVilnaLine": 29,
+     "endVilnaLine": 30
+    }
+   ],
+   "boundarySafe": true,
+   "note": "The term is Rashi's on the verse of lines 29-30 ('bamilu'im'). Passes all 12 nothing-beyond-the-page checklist items."
+  },
+  {
+   "path": "dafLevel.summary",
+   "crossReference": false,
+   "verdict": "SUPPORTED",
+   "supportingLines": [
+    {
+     "daf": "2a",
+     "startVilnaLine": 1,
+     "endVilnaLine": 39
+    }
+   ],
+   "boundarySafe": true,
+   "note": "Checked sentence by sentence against lines 1-39 and the Hebrew Rashi; the name explanation is correctly given to the Gemara, the milu'im to Rashi, and the last sentence reports only that 've'eima' (39) opens a challenge. Passes all 12 nothing-beyond-the-page checklist items."
+  },
+  {
+   "path": "argumentFlow[step-01].id",
+   "crossReference": false,
+   "verdict": "NONFACTUAL",
+   "boundarySafe": true
+  },
+  {
+   "path": "argumentFlow[step-01].label",
+   "crossReference": false,
+   "verdict": "SUPPORTED",
+   "supportingLines": [
+    {
+     "daf": "2a",
+     "startVilnaLine": 27,
+     "endVilnaLine": 27
+    }
+   ],
+   "boundarySafe": true,
+   "note": "Checked against the Hebrew of 2a line(s) 27 and the Hebrew Rashi on them. Passes all 12 nothing-beyond-the-page checklist items."
+  },
+  {
+   "path": "argumentFlow[step-01].sourceRefs[0].lineId",
+   "crossReference": false,
+   "verdict": "NONFACTUAL",
+   "boundarySafe": true
+  },
+  {
+   "path": "argumentFlow[step-01].sourceRefs[0].sourceType",
+   "crossReference": false,
+   "verdict": "NONFACTUAL",
+   "boundarySafe": true
+  },
+  {
+   "path": "argumentFlow[step-01].sourceRefs[0].vilnaLine",
+   "crossReference": false,
+   "verdict": "NONFACTUAL",
+   "boundarySafe": true
+  },
+  {
+   "path": "argumentFlow[step-01].speaker",
+   "crossReference": false,
+   "verdict": "SUPPORTED",
+   "supportingLines": [
+    {
+     "daf": "2a",
+     "startVilnaLine": 27,
+     "endVilnaLine": 27
+    }
+   ],
+   "boundarySafe": true,
+   "note": "Checked against the Hebrew of 2a line(s) 27 and the Hebrew Rashi on them. Passes all 12 nothing-beyond-the-page checklist items."
+  },
+  {
+   "path": "argumentFlow[step-01].text",
+   "crossReference": false,
+   "verdict": "SUPPORTED",
+   "supportingLines": [
+    {
+     "daf": "2a",
+     "startVilnaLine": 27,
+     "endVilnaLine": 27
+    }
+   ],
+   "boundarySafe": true,
+   "note": "Checked against the Hebrew of 2a line(s) 27 and the Hebrew Rashi on them. Passes all 12 nothing-beyond-the-page checklist items."
+  },
+  {
+   "path": "argumentFlow[step-01].type",
+   "crossReference": false,
+   "verdict": "REVIEWED",
+   "boundarySafe": true,
+   "note": "'Mena hanei milei' (27) is a question."
+  },
+  {
+   "path": "argumentFlow[step-02].id",
+   "crossReference": false,
+   "verdict": "NONFACTUAL",
+   "boundarySafe": true
+  },
+  {
+   "path": "argumentFlow[step-02].label",
+   "crossReference": false,
+   "verdict": "SUPPORTED",
+   "supportingLines": [
+    {
+     "daf": "2a",
+     "startVilnaLine": 29,
+     "endVilnaLine": 31
+    }
+   ],
+   "boundarySafe": true,
+   "note": "Checked against the Hebrew of 2a line(s) 29-31 and the Hebrew Rashi on them. Passes all 12 nothing-beyond-the-page checklist items."
+  },
+  {
+   "path": "argumentFlow[step-02].sourceRefs[0].lineId",
+   "crossReference": false,
+   "verdict": "NONFACTUAL",
+   "boundarySafe": true
+  },
+  {
+   "path": "argumentFlow[step-02].sourceRefs[0].sourceType",
+   "crossReference": false,
+   "verdict": "NONFACTUAL",
+   "boundarySafe": true
+  },
+  {
+   "path": "argumentFlow[step-02].sourceRefs[0].vilnaLine",
+   "crossReference": false,
+   "verdict": "NONFACTUAL",
+   "boundarySafe": true
+  },
+  {
+   "path": "argumentFlow[step-02].speaker",
+   "crossReference": false,
+   "verdict": "SUPPORTED",
+   "supportingLines": [
+    {
+     "daf": "2a",
+     "startVilnaLine": 28,
+     "endVilnaLine": 29
+    }
+   ],
+   "boundarySafe": true,
+   "note": "Checked against the Hebrew of 2a line(s) 28-29 and the Hebrew Rashi on them. Passes all 12 nothing-beyond-the-page checklist items."
+  },
+  {
+   "path": "argumentFlow[step-02].text",
+   "crossReference": false,
+   "verdict": "SUPPORTED",
+   "supportingLines": [
+    {
+     "daf": "2a",
+     "startVilnaLine": 29,
+     "endVilnaLine": 31
+    }
+   ],
+   "boundarySafe": true,
+   "note": "Checked against the Hebrew of 2a line(s) 29-31 and the Hebrew Rashi on them. Passes all 12 nothing-beyond-the-page checklist items."
+  },
+  {
+   "path": "argumentFlow[step-02].type",
+   "crossReference": false,
+   "verdict": "REVIEWED",
+   "boundarySafe": true,
+   "note": "'Amar kra' with the verse and its reading (29-31) adduces the proof-text; the type names the move and does not say it stands unchallenged."
+  },
+  {
+   "path": "argumentFlow[step-03].id",
+   "crossReference": false,
+   "verdict": "NONFACTUAL",
+   "boundarySafe": true
+  },
+  {
+   "path": "argumentFlow[step-03].label",
+   "crossReference": false,
+   "verdict": "SUPPORTED",
+   "supportingLines": [
+    {
+     "daf": "2a",
+     "startVilnaLine": 32,
+     "endVilnaLine": 34
+    }
+   ],
+   "boundarySafe": true,
+   "note": "Checked against the Hebrew of 2a line(s) 32-34 and the Hebrew Rashi on them. Passes all 12 nothing-beyond-the-page checklist items."
+  },
+  {
+   "path": "argumentFlow[step-03].sourceRefs[0].lineId",
+   "crossReference": false,
+   "verdict": "NONFACTUAL",
+   "boundarySafe": true
+  },
+  {
+   "path": "argumentFlow[step-03].sourceRefs[0].sourceType",
+   "crossReference": false,
+   "verdict": "NONFACTUAL",
+   "boundarySafe": true
+  },
+  {
+   "path": "argumentFlow[step-03].sourceRefs[0].vilnaLine",
+   "crossReference": false,
+   "verdict": "NONFACTUAL",
+   "boundarySafe": true
+  },
+  {
+   "path": "argumentFlow[step-03].speaker",
+   "crossReference": false,
+   "verdict": "SUPPORTED",
+   "supportingLines": [
+    {
+     "daf": "2a",
+     "startVilnaLine": 32,
+     "endVilnaLine": 34
+    }
+   ],
+   "boundarySafe": true,
+   "note": "Checked against the Hebrew of 2a line(s) 32-34 and the Hebrew Rashi on them. Passes all 12 nothing-beyond-the-page checklist items."
+  },
+  {
+   "path": "argumentFlow[step-03].text",
+   "crossReference": false,
+   "verdict": "SUPPORTED",
+   "supportingLines": [
+    {
+     "daf": "2a",
+     "startVilnaLine": 32,
+     "endVilnaLine": 34
+    }
+   ],
+   "boundarySafe": true,
+   "note": "Checked against the Hebrew of 2a line(s) 32-34 and the Hebrew Rashi on them. Passes all 12 nothing-beyond-the-page checklist items."
+  },
+  {
+   "path": "argumentFlow[step-03].type",
+   "crossReference": false,
+   "verdict": "REVIEWED",
+   "boundarySafe": true,
+   "note": "'Bishlama ... ela eima kulei kra beyom hakippurim ketiv' (32-34) is a challenge."
+  },
+  {
+   "path": "argumentFlow[step-04].id",
+   "crossReference": false,
+   "verdict": "NONFACTUAL",
+   "boundarySafe": true
+  },
+  {
+   "path": "argumentFlow[step-04].label",
+   "crossReference": false,
+   "verdict": "SUPPORTED",
+   "supportingLines": [
+    {
+     "daf": "2a",
+     "startVilnaLine": 34,
+     "endVilnaLine": 38
+    }
+   ],
+   "boundarySafe": true,
+   "note": "Checked against the Hebrew of 2a line(s) 34-38 and the Hebrew Rashi on them. Passes all 12 nothing-beyond-the-page checklist items."
+  },
+  {
+   "path": "argumentFlow[step-04].sourceRefs[0].lineId",
+   "crossReference": false,
+   "verdict": "NONFACTUAL",
+   "boundarySafe": true
+  },
+  {
+   "path": "argumentFlow[step-04].sourceRefs[0].sourceType",
+   "crossReference": false,
+   "verdict": "NONFACTUAL",
+   "boundarySafe": true
+  },
+  {
+   "path": "argumentFlow[step-04].sourceRefs[0].vilnaLine",
+   "crossReference": false,
+   "verdict": "NONFACTUAL",
+   "boundarySafe": true
+  },
+  {
+   "path": "argumentFlow[step-04].speaker",
+   "crossReference": false,
+   "verdict": "SUPPORTED",
+   "supportingLines": [
+    {
+     "daf": "2a",
+     "startVilnaLine": 34,
+     "endVilnaLine": 38
+    }
+   ],
+   "boundarySafe": true,
+   "note": "Checked against the Hebrew of 2a line(s) 34-38 and the Hebrew Rashi on them. Passes all 12 nothing-beyond-the-page checklist items."
+  },
+  {
+   "path": "argumentFlow[step-04].text",
+   "crossReference": false,
+   "verdict": "SUPPORTED",
+   "supportingLines": [
+    {
+     "daf": "2a",
+     "startVilnaLine": 34,
+     "endVilnaLine": 38
+    }
+   ],
+   "boundarySafe": true,
+   "note": "Lines 34-38. Advisory only: 'heifer/sequestration' here against 'parah/separation' elsewhere in the record. Passes all 12 nothing-beyond-the-page checklist items."
+  },
+  {
+   "path": "argumentFlow[step-04].type",
+   "crossReference": false,
+   "verdict": "REVIEWED",
+   "boundarySafe": true,
+   "note": "'Amrei yalif tzivah tzivah' (34-38) answers that challenge; 'answer', not a final resolution, since line 39 opens a further challenge."
+  },
+  {
+   "path": "conceptRefs[concept.gezerah_shavah].id",
+   "crossReference": false,
+   "verdict": "NONFACTUAL",
+   "boundarySafe": true
+  },
+  {
+   "path": "conceptRefs[concept.gezerah_shavah].label",
+   "crossReference": false,
+   "verdict": "SUPPORTED",
+   "supportingLines": [
+    {
+     "daf": "2a",
+     "startVilnaLine": 35,
+     "endVilnaLine": 38
+    }
+   ],
+   "boundarySafe": true,
+   "note": "Checked against the Hebrew of 2a line(s) 35-38 and the Hebrew Rashi on them. Passes all 12 nothing-beyond-the-page checklist items."
+  },
+  {
+   "path": "conceptRefs[concept.gezerah_shavah].scope",
+   "crossReference": false,
+   "verdict": "SUPPORTED",
+   "supportingLines": [
+    {
+     "daf": "2a",
+     "startVilnaLine": 35,
+     "endVilnaLine": 38
+    }
+   ],
+   "boundarySafe": true,
+   "note": "Checked against the Hebrew of 2a line(s) 35-38 and the Hebrew Rashi on them. Passes all 12 nothing-beyond-the-page checklist items."
+  },
+  {
+   "path": "conceptRefs[concept.miluyim].id",
+   "crossReference": false,
+   "verdict": "NONFACTUAL",
+   "boundarySafe": true
+  },
+  {
+   "path": "conceptRefs[concept.miluyim].label",
+   "crossReference": false,
+   "verdict": "SUPPORTED",
+   "supportingLines": [
+    {
+     "daf": "2a",
+     "startVilnaLine": 29,
+     "endVilnaLine": 30
+    }
+   ],
+   "boundarySafe": true,
+   "note": "Checked against the Hebrew of 2a line(s) 29-30 and the Hebrew Rashi on them. Passes all 12 nothing-beyond-the-page checklist items."
+  },
+  {
+   "path": "conceptRefs[concept.miluyim].scope",
+   "crossReference": false,
+   "verdict": "SUPPORTED",
+   "supportingLines": [
+    {
+     "daf": "2a",
+     "startVilnaLine": 29,
+     "endVilnaLine": 30
+    }
+   ],
+   "boundarySafe": true,
+   "note": "Checked against the Hebrew of 2a line(s) 29-30 and the Hebrew Rashi on them. Passes all 12 nothing-beyond-the-page checklist items."
+  },
+  {
+   "path": "conceptRefs[concept.parah_adumah].id",
+   "crossReference": false,
+   "verdict": "NONFACTUAL",
+   "boundarySafe": true
+  },
+  {
+   "path": "conceptRefs[concept.parah_adumah].label",
+   "crossReference": false,
+   "verdict": "SUPPORTED",
+   "supportingLines": [
+    {
+     "daf": "2a",
+     "startVilnaLine": 31,
+     "endVilnaLine": 31
+    }
+   ],
+   "boundarySafe": true,
+   "note": "Checked against the Hebrew of 2a line(s) 31 and the Hebrew Rashi on them. Passes all 12 nothing-beyond-the-page checklist items."
+  },
+  {
+   "path": "conceptRefs[concept.parah_adumah].scope",
+   "crossReference": false,
+   "verdict": "SUPPORTED",
+   "supportingLines": [
+    {
+     "daf": "2a",
+     "startVilnaLine": 31,
+     "endVilnaLine": 31
+    }
+   ],
+   "boundarySafe": true,
+   "note": "Checked against the Hebrew of 2a line(s) 31 and the Hebrew Rashi on them. Passes all 12 nothing-beyond-the-page checklist items."
+  },
+  {
+   "path": "difficulty",
+   "crossReference": false,
+   "verdict": "REVIEWED",
+   "boundarySafe": true,
+   "note": "A derivation, a challenge and a gezerah shavah (27-38)."
+  },
+  {
+   "path": "display.hint",
+   "crossReference": false,
+   "verdict": "SUPPORTED",
+   "supportingLines": [
+    {
+     "daf": "2a",
+     "startVilnaLine": 32,
+     "endVilnaLine": 38
+    }
+   ],
+   "boundarySafe": true,
+   "note": "Checked against the Hebrew of 2a line(s) 32-38 and the Hebrew Rashi on them. Passes all 12 nothing-beyond-the-page checklist items."
+  },
+  {
+   "path": "display.oneLine",
+   "crossReference": false,
+   "verdict": "SUPPORTED",
+   "supportingLines": [
+    {
+     "daf": "2a",
+     "startVilnaLine": 27,
+     "endVilnaLine": 38
+    }
+   ],
+   "boundarySafe": true,
+   "note": "Content checked against lines 27-38 and the Hebrew Rashi. The closing 'continues on the next amud' states no outcome (allowed by item 9); it reflects 've'eima' on line 39, which by the accepted convention is owned by no lineRange. Passes all 12 nothing-beyond-the-page checklist items."
+  },
+  {
+   "path": "display.shortSummary",
+   "crossReference": false,
+   "verdict": "SUPPORTED",
+   "supportingLines": [
+    {
+     "daf": "2a",
+     "startVilnaLine": 27,
+     "endVilnaLine": 38
+    }
+   ],
+   "boundarySafe": true,
+   "note": "Content checked against lines 27-38 and the Hebrew Rashi. The closing 'continues on the next amud' states no outcome (allowed by item 9); it reflects 've'eima' on line 39, which by the accepted convention is owned by no lineRange. Passes all 12 nothing-beyond-the-page checklist items."
+  },
+  {
+   "path": "display.title",
+   "crossReference": false,
+   "verdict": "SUPPORTED",
+   "supportingLines": [
+    {
+     "daf": "2a",
+     "startVilnaLine": 27,
+     "endVilnaLine": 38
+    }
+   ],
+   "boundarySafe": true,
+   "note": "Checked against the Hebrew of 2a line(s) 27-38 and the Hebrew Rashi on them. Passes all 12 nothing-beyond-the-page checklist items."
+  },
+  {
+   "path": "display.whats",
+   "crossReference": false,
+   "verdict": "SUPPORTED",
+   "supportingLines": [
+    {
+     "daf": "2a",
+     "startVilnaLine": 27,
+     "endVilnaLine": 38
+    }
+   ],
+   "boundarySafe": true,
+   "note": "Content checked against lines 27-38 and the Hebrew Rashi. The closing 'continues on the next amud' states no outcome (allowed by item 9); it reflects 've'eima' on line 39, which by the accepted convention is owned by no lineRange. Passes all 12 nothing-beyond-the-page checklist items."
+  },
+  {
+   "path": "learning.ahaMoment",
+   "crossReference": false,
+   "verdict": "SUPPORTED",
+   "supportingLines": [
+    {
+     "daf": "2a",
+     "startVilnaLine": 32,
+     "endVilnaLine": 38
+    }
+   ],
+   "boundarySafe": true,
+   "note": "Checked against the Hebrew of 2a line(s) 32-38 and the Hebrew Rashi on them. Passes all 12 nothing-beyond-the-page checklist items."
+  },
+  {
+   "path": "learning.coreMove",
+   "crossReference": false,
+   "verdict": "SUPPORTED",
+   "supportingLines": [
+    {
+     "daf": "2a",
+     "startVilnaLine": 32,
+     "endVilnaLine": 38
+    }
+   ],
+   "boundarySafe": true,
+   "note": "Checked against the Hebrew of 2a line(s) 32-38 and the Hebrew Rashi on them. Passes all 12 nothing-beyond-the-page checklist items."
+  },
+  {
+   "path": "learning.coreTension",
+   "crossReference": false,
+   "verdict": "SUPPORTED",
+   "supportingLines": [
+    {
+     "daf": "2a",
+     "startVilnaLine": 27,
+     "endVilnaLine": 38
+    }
+   ],
+   "boundarySafe": true,
+   "note": "Checked against the Hebrew of 2a line(s) 27-38 and the Hebrew Rashi on them. Passes all 12 nothing-beyond-the-page checklist items."
+  },
+  {
+   "path": "learning.learnerQuestion",
+   "crossReference": false,
+   "verdict": "SUPPORTED",
+   "supportingLines": [
+    {
+     "daf": "2a",
+     "startVilnaLine": 27,
+     "endVilnaLine": 38
+    }
+   ],
+   "boundarySafe": true,
+   "note": "Lines 29-31 and 38; Hebrew Rashi on 'mena hanei milei': separation is needed for Yom Kippur and for the parah. Passes all 12 nothing-beyond-the-page checklist items."
+  },
+  {
+   "path": "learning.learningBlocker",
+   "crossReference": false,
+   "verdict": "SUPPORTED",
+   "supportingLines": [
+    {
+     "daf": "2a",
+     "startVilnaLine": 32,
+     "endVilnaLine": 38
+    }
+   ],
+   "boundarySafe": true,
+   "note": "Factual content on lines 32-38. Advisory only: 'students often read' is the field's framing, not a claim about the page. Passes all 12 nothing-beyond-the-page checklist items."
+  },
+  {
+   "path": "learning.memoryAnchor",
+   "crossReference": false,
+   "verdict": "SUPPORTED",
+   "supportingLines": [
+    {
+     "daf": "2a",
+     "startVilnaLine": 35,
+     "endVilnaLine": 38
+    }
+   ],
+   "boundarySafe": true,
+   "note": "Checked against the Hebrew of 2a line(s) 35-38 and the Hebrew Rashi on them. Passes all 12 nothing-beyond-the-page checklist items."
+  },
+  {
+   "path": "learning.reasoningPattern.category",
+   "crossReference": false,
+   "verdict": "REVIEWED",
+   "boundarySafe": true,
+   "note": "Scriptural derivation by a split reading and a gezerah shavah (29-38)."
+  },
+  {
+   "path": "learning.reasoningPattern.id",
+   "crossReference": false,
+   "verdict": "NONFACTUAL",
+   "boundarySafe": true
+  },
+  {
+   "path": "learning.reasoningPattern.notes",
+   "crossReference": false,
+   "verdict": "SUPPORTED",
+   "supportingLines": [
+    {
+     "daf": "2a",
+     "startVilnaLine": 32,
+     "endVilnaLine": 38
+    }
+   ],
+   "boundarySafe": true,
+   "note": "Checked against the Hebrew of 2a line(s) 32-38 and the Hebrew Rashi on them. Passes all 12 nothing-beyond-the-page checklist items."
+  },
+  {
+   "path": "learning.resolution",
+   "crossReference": false,
+   "verdict": "SUPPORTED",
+   "supportingLines": [
+    {
+     "daf": "2a",
+     "startVilnaLine": 27,
+     "endVilnaLine": 38
+    }
+   ],
+   "boundarySafe": true,
+   "note": "Content checked against lines 27-38 and the Hebrew Rashi. The closing 'continues on the next amud' states no outcome (allowed by item 9); it reflects 've'eima' on line 39, which by the accepted convention is owned by no lineRange. Passes all 12 nothing-beyond-the-page checklist items."
+  },
+  {
+   "path": "learning.takeaway.text",
+   "crossReference": false,
+   "verdict": "SUPPORTED",
+   "supportingLines": [
+    {
+     "daf": "2a",
+     "startVilnaLine": 35,
+     "endVilnaLine": 38
+    }
+   ],
+   "boundarySafe": true,
+   "note": "Checked against the Hebrew of 2a line(s) 35-38 and the Hebrew Rashi on them. Passes all 12 nothing-beyond-the-page checklist items."
+  },
+  {
+   "path": "learning.takeaway.type",
+   "crossReference": false,
+   "verdict": "REVIEWED",
+   "boundarySafe": true,
+   "note": "The takeaway restates what the gezerah shavah does on lines 35-38."
+  },
+  {
+   "path": "misconceptions[0].correctedByStepId",
+   "crossReference": false,
+   "verdict": "NONFACTUAL",
+   "boundarySafe": true
+  },
+  {
+   "path": "misconceptions[0].correction",
+   "crossReference": false,
+   "verdict": "SUPPORTED",
+   "supportingLines": [
+    {
+     "daf": "2a",
+     "startVilnaLine": 31,
+     "endVilnaLine": 38
+    }
+   ],
+   "boundarySafe": true,
+   "note": "Checked against the Hebrew of 2a line(s) 31-38 and the Hebrew Rashi on them. Passes all 12 nothing-beyond-the-page checklist items."
+  },
+  {
+   "path": "misconceptions[0].misconception",
+   "crossReference": false,
+   "verdict": "SUPPORTED",
+   "supportingLines": [
+    {
+     "daf": "2a",
+     "startVilnaLine": 31,
+     "endVilnaLine": 38
+    }
+   ],
+   "boundarySafe": true,
+   "note": "Checked against the Hebrew of 2a line(s) 31-38 and the Hebrew Rashi on them. Passes all 12 nothing-beyond-the-page checklist items."
+  },
+  {
+   "path": "prerequisiteKnowledge[0]",
+   "crossReference": false,
+   "verdict": "SUPPORTED",
+   "supportingLines": [
+    {
+     "daf": "2a",
+     "startVilnaLine": 29,
+     "endVilnaLine": 30
+    }
+   ],
+   "boundarySafe": true,
+   "note": "Checked against the Hebrew of 2a line(s) 29-30 and the Hebrew Rashi on them. Passes all 12 nothing-beyond-the-page checklist items."
+  },
+  {
+   "path": "prerequisiteKnowledge[1]",
+   "crossReference": false,
+   "verdict": "SUPPORTED",
+   "supportingLines": [
+    {
+     "daf": "2a",
+     "startVilnaLine": 36,
+     "endVilnaLine": 37
+    }
+   ],
+   "boundarySafe": true,
+   "note": "Checked against the Hebrew of 2a line(s) 36-37 and the Hebrew Rashi on them. Passes all 12 nothing-beyond-the-page checklist items."
+  },
+  {
+   "path": "quizSeeds[0].answer",
+   "crossReference": false,
+   "verdict": "SUPPORTED",
+   "supportingLines": [
+    {
+     "daf": "2a",
+     "startVilnaLine": 29,
+     "endVilnaLine": 38
+    }
+   ],
+   "boundarySafe": true,
+   "note": "Checked against the Hebrew of 2a line(s) 29-38 and the Hebrew Rashi on them. Passes all 12 nothing-beyond-the-page checklist items."
+  },
+  {
+   "path": "quizSeeds[0].question",
+   "crossReference": false,
+   "verdict": "SUPPORTED",
+   "supportingLines": [
+    {
+     "daf": "2a",
+     "startVilnaLine": 29,
+     "endVilnaLine": 38
+    }
+   ],
+   "boundarySafe": true,
+   "note": "Checked against the Hebrew of 2a line(s) 29-38 and the Hebrew Rashi on them. Passes all 12 nothing-beyond-the-page checklist items."
+  },
+  {
+   "path": "quizSeeds[0].sourceRefs[0].lineId",
+   "crossReference": false,
+   "verdict": "NONFACTUAL",
+   "boundarySafe": true
+  },
+  {
+   "path": "quizSeeds[0].sourceRefs[0].sourceType",
+   "crossReference": false,
+   "verdict": "NONFACTUAL",
+   "boundarySafe": true
+  },
+  {
+   "path": "quizSeeds[0].sourceRefs[0].vilnaLine",
+   "crossReference": false,
+   "verdict": "NONFACTUAL",
+   "boundarySafe": true
+  },
+  {
+   "path": "quizSeeds[1].answer",
+   "crossReference": false,
+   "verdict": "SUPPORTED",
+   "supportingLines": [
+    {
+     "daf": "2a",
+     "startVilnaLine": 33,
+     "endVilnaLine": 38
+    }
+   ],
+   "boundarySafe": true,
+   "note": "Checked against the Hebrew of 2a line(s) 33-38 and the Hebrew Rashi on them. Passes all 12 nothing-beyond-the-page checklist items."
+  },
+  {
+   "path": "quizSeeds[1].question",
+   "crossReference": false,
+   "verdict": "SUPPORTED",
+   "supportingLines": [
+    {
+     "daf": "2a",
+     "startVilnaLine": 33,
+     "endVilnaLine": 38
+    }
+   ],
+   "boundarySafe": true,
+   "note": "Checked against the Hebrew of 2a line(s) 33-38 and the Hebrew Rashi on them. Passes all 12 nothing-beyond-the-page checklist items."
+  },
+  {
+   "path": "quizSeeds[1].sourceRefs[0].lineId",
+   "crossReference": false,
+   "verdict": "NONFACTUAL",
+   "boundarySafe": true
+  },
+  {
+   "path": "quizSeeds[1].sourceRefs[0].sourceType",
+   "crossReference": false,
+   "verdict": "NONFACTUAL",
+   "boundarySafe": true
+  },
+  {
+   "path": "quizSeeds[1].sourceRefs[0].vilnaLine",
+   "crossReference": false,
+   "verdict": "NONFACTUAL",
+   "boundarySafe": true
+  },
+  {
+   "path": "quizSeeds[2].answer",
+   "crossReference": false,
+   "verdict": "SUPPORTED",
+   "supportingLines": [
+    {
+     "daf": "2a",
+     "startVilnaLine": 35,
+     "endVilnaLine": 37
+    }
+   ],
+   "boundarySafe": true,
+   "note": "Checked against the Hebrew of 2a line(s) 35-37 and the Hebrew Rashi on them. Passes all 12 nothing-beyond-the-page checklist items."
+  },
+  {
+   "path": "quizSeeds[2].question",
+   "crossReference": false,
+   "verdict": "SUPPORTED",
+   "supportingLines": [
+    {
+     "daf": "2a",
+     "startVilnaLine": 35,
+     "endVilnaLine": 37
+    }
+   ],
+   "boundarySafe": true,
+   "note": "Checked against the Hebrew of 2a line(s) 35-37 and the Hebrew Rashi on them. Passes all 12 nothing-beyond-the-page checklist items."
+  },
+  {
+   "path": "quizSeeds[2].sourceRefs[0].lineId",
+   "crossReference": false,
+   "verdict": "NONFACTUAL",
+   "boundarySafe": true
+  },
+  {
+   "path": "quizSeeds[2].sourceRefs[0].sourceType",
+   "crossReference": false,
+   "verdict": "NONFACTUAL",
+   "boundarySafe": true
+  },
+  {
+   "path": "quizSeeds[2].sourceRefs[0].vilnaLine",
+   "crossReference": false,
+   "verdict": "NONFACTUAL",
+   "boundarySafe": true
+  },
+  {
+   "path": "relatedSugyot[0]",
+   "crossReference": false,
+   "verdict": "NONFACTUAL",
+   "boundarySafe": true
+  },
+  {
+   "path": "topicTags[0]",
+   "crossReference": false,
+   "verdict": "NONFACTUAL",
+   "boundarySafe": true,
+   "note": "Slug describes something the sugya's lines say (item 11 checked)."
+  },
+  {
+   "path": "topicTags[1]",
+   "crossReference": false,
+   "verdict": "NONFACTUAL",
+   "boundarySafe": true,
+   "note": "Slug describes something the sugya's lines say (item 11 checked)."
+  },
+  {
+   "path": "topicTags[2]",
+   "crossReference": false,
+   "verdict": "NONFACTUAL",
+   "boundarySafe": true,
+   "note": "Slug describes something the sugya's lines say (item 11 checked)."
+  },
+  {
+   "path": "topicTags[3]",
+   "crossReference": false,
+   "verdict": "NONFACTUAL",
+   "boundarySafe": true,
+   "note": "Slug describes something the sugya's lines say (item 11 checked)."
+  },
+  {
+   "path": "topicTags[4]",
+   "crossReference": false,
+   "verdict": "NONFACTUAL",
+   "boundarySafe": true,
+   "note": "Slug describes something the sugya's lines say (item 11 checked)."
+  },
+  {
+   "path": "visualizableElements[0].item",
+   "crossReference": false,
+   "verdict": "SUPPORTED",
+   "supportingLines": [
+    {
+     "daf": "2a",
+     "startVilnaLine": 29,
+     "endVilnaLine": 31
+    }
+   ],
+   "boundarySafe": true,
+   "note": "Checked against the Hebrew of 2a line(s) 29-31 and the Hebrew Rashi on them. Passes all 12 nothing-beyond-the-page checklist items."
+  },
+  {
+   "path": "visualizableElements[1].item",
+   "crossReference": false,
+   "verdict": "SUPPORTED",
+   "supportingLines": [
+    {
+     "daf": "2a",
+     "startVilnaLine": 35,
+     "endVilnaLine": 37
+    }
+   ],
+   "boundarySafe": true,
+   "note": "Checked against the Hebrew of 2a line(s) 35-37 and the Hebrew Rashi on them. Passes all 12 nothing-beyond-the-page checklist items."
+  }
+ ],
+ "boundaryLeakageSweep": [
+  {
+   "path": "dafLevel.glossary[0].en",
+   "importsNextDafConclusion": false,
+   "note": "Glossary entry for a term from lines 1-19, units closed well before line 39; nothing from 2b is involved."
+  },
+  {
+   "path": "dafLevel.glossary[0].he",
+   "importsNextDafConclusion": false,
+   "note": "Glossary entry for a term from lines 1-19, units closed well before line 39; nothing from 2b is involved."
+  },
+  {
+   "path": "dafLevel.glossary[0].translit",
+   "importsNextDafConclusion": false,
+   "note": "Glossary entry for a term from lines 1-19, units closed well before line 39; nothing from 2b is involved."
+  },
+  {
+   "path": "dafLevel.glossary[1].en",
+   "importsNextDafConclusion": false,
+   "note": "Glossary entry for a term from lines 1-19, units closed well before line 39; nothing from 2b is involved."
+  },
+  {
+   "path": "dafLevel.glossary[1].he",
+   "importsNextDafConclusion": false,
+   "note": "Glossary entry for a term from lines 1-19, units closed well before line 39; nothing from 2b is involved."
+  },
+  {
+   "path": "dafLevel.glossary[1].translit",
+   "importsNextDafConclusion": false,
+   "note": "Glossary entry for a term from lines 1-19, units closed well before line 39; nothing from 2b is involved."
+  },
+  {
+   "path": "dafLevel.glossary[2].en",
+   "importsNextDafConclusion": false,
+   "note": "Glossary entry for a term from lines 1-19, units closed well before line 39; nothing from 2b is involved."
+  },
+  {
+   "path": "dafLevel.glossary[2].he",
+   "importsNextDafConclusion": false,
+   "note": "Glossary entry for a term from lines 1-19, units closed well before line 39; nothing from 2b is involved."
+  },
+  {
+   "path": "dafLevel.glossary[2].translit",
+   "importsNextDafConclusion": false,
+   "note": "Glossary entry for a term from lines 1-19, units closed well before line 39; nothing from 2b is involved."
+  },
+  {
+   "path": "dafLevel.glossary[3].en",
+   "importsNextDafConclusion": false,
+   "note": "Restates lines 28-38 and Rashi on them as they stand on 2a; says nothing about how the challenge opened on line 39 is answered."
+  },
+  {
+   "path": "dafLevel.glossary[3].he",
+   "importsNextDafConclusion": false,
+   "note": "Restates lines 28-38 and Rashi on them as they stand on 2a; says nothing about how the challenge opened on line 39 is answered."
+  },
+  {
+   "path": "dafLevel.glossary[3].translit",
+   "importsNextDafConclusion": false,
+   "note": "Restates lines 28-38 and Rashi on them as they stand on 2a; says nothing about how the challenge opened on line 39 is answered."
+  },
+  {
+   "path": "dafLevel.glossary[4].en",
+   "importsNextDafConclusion": false,
+   "note": "Restates lines 28-38 and Rashi on them as they stand on 2a; says nothing about how the challenge opened on line 39 is answered."
+  },
+  {
+   "path": "dafLevel.glossary[4].he",
+   "importsNextDafConclusion": false,
+   "note": "Restates lines 28-38 and Rashi on them as they stand on 2a; says nothing about how the challenge opened on line 39 is answered."
+  },
+  {
+   "path": "dafLevel.glossary[4].translit",
+   "importsNextDafConclusion": false,
+   "note": "Restates lines 28-38 and Rashi on them as they stand on 2a; says nothing about how the challenge opened on line 39 is answered."
+  },
+  {
+   "path": "dafLevel.summary",
+   "importsNextDafConclusion": false,
+   "note": "Reports the gezerah shavah answer of lines 34-38 and says only that a further challenge ('ve'eima', line 39) begins and continues; no 2b content or outcome."
+  },
+  {
+   "path": "argumentFlow[step-01].label",
+   "importsNextDafConclusion": false,
+   "note": "States only what lines 27-38 say (derivation, challenge, gezerah shavah answer). The challenge opened by 've'eima' on line 39 is neither described nor answered; any continuation wording points forward without a result."
+  },
+  {
+   "path": "argumentFlow[step-01].speaker",
+   "importsNextDafConclusion": false,
+   "note": "States only what lines 27-38 say (derivation, challenge, gezerah shavah answer). The challenge opened by 've'eima' on line 39 is neither described nor answered; any continuation wording points forward without a result."
+  },
+  {
+   "path": "argumentFlow[step-01].text",
+   "importsNextDafConclusion": false,
+   "note": "States only what lines 27-38 say (derivation, challenge, gezerah shavah answer). The challenge opened by 've'eima' on line 39 is neither described nor answered; any continuation wording points forward without a result."
+  },
+  {
+   "path": "argumentFlow[step-01].type",
+   "importsNextDafConclusion": false,
+   "note": "States only what lines 27-38 say (derivation, challenge, gezerah shavah answer). The challenge opened by 've'eima' on line 39 is neither described nor answered; any continuation wording points forward without a result."
+  },
+  {
+   "path": "argumentFlow[step-02].label",
+   "importsNextDafConclusion": false,
+   "note": "States only what lines 27-38 say (derivation, challenge, gezerah shavah answer). The challenge opened by 've'eima' on line 39 is neither described nor answered; any continuation wording points forward without a result."
+  },
+  {
+   "path": "argumentFlow[step-02].speaker",
+   "importsNextDafConclusion": false,
+   "note": "States only what lines 27-38 say (derivation, challenge, gezerah shavah answer). The challenge opened by 've'eima' on line 39 is neither described nor answered; any continuation wording points forward without a result."
+  },
+  {
+   "path": "argumentFlow[step-02].text",
+   "importsNextDafConclusion": false,
+   "note": "States only what lines 27-38 say (derivation, challenge, gezerah shavah answer). The challenge opened by 've'eima' on line 39 is neither described nor answered; any continuation wording points forward without a result."
+  },
+  {
+   "path": "argumentFlow[step-02].type",
+   "importsNextDafConclusion": false,
+   "note": "States only what lines 27-38 say (derivation, challenge, gezerah shavah answer). The challenge opened by 've'eima' on line 39 is neither described nor answered; any continuation wording points forward without a result."
+  },
+  {
+   "path": "argumentFlow[step-03].label",
+   "importsNextDafConclusion": false,
+   "note": "States only what lines 27-38 say (derivation, challenge, gezerah shavah answer). The challenge opened by 've'eima' on line 39 is neither described nor answered; any continuation wording points forward without a result."
+  },
+  {
+   "path": "argumentFlow[step-03].speaker",
+   "importsNextDafConclusion": false,
+   "note": "States only what lines 27-38 say (derivation, challenge, gezerah shavah answer). The challenge opened by 've'eima' on line 39 is neither described nor answered; any continuation wording points forward without a result."
+  },
+  {
+   "path": "argumentFlow[step-03].text",
+   "importsNextDafConclusion": false,
+   "note": "States only what lines 27-38 say (derivation, challenge, gezerah shavah answer). The challenge opened by 've'eima' on line 39 is neither described nor answered; any continuation wording points forward without a result."
+  },
+  {
+   "path": "argumentFlow[step-03].type",
+   "importsNextDafConclusion": false,
+   "note": "States only what lines 27-38 say (derivation, challenge, gezerah shavah answer). The challenge opened by 've'eima' on line 39 is neither described nor answered; any continuation wording points forward without a result."
+  },
+  {
+   "path": "argumentFlow[step-04].label",
+   "importsNextDafConclusion": false,
+   "note": "States only what lines 27-38 say (derivation, challenge, gezerah shavah answer). The challenge opened by 've'eima' on line 39 is neither described nor answered; any continuation wording points forward without a result."
+  },
+  {
+   "path": "argumentFlow[step-04].speaker",
+   "importsNextDafConclusion": false,
+   "note": "States only what lines 27-38 say (derivation, challenge, gezerah shavah answer). The challenge opened by 've'eima' on line 39 is neither described nor answered; any continuation wording points forward without a result."
+  },
+  {
+   "path": "argumentFlow[step-04].text",
+   "importsNextDafConclusion": false,
+   "note": "States only what lines 27-38 say (derivation, challenge, gezerah shavah answer). The challenge opened by 've'eima' on line 39 is neither described nor answered; any continuation wording points forward without a result."
+  },
+  {
+   "path": "argumentFlow[step-04].type",
+   "importsNextDafConclusion": false,
+   "note": "States only what lines 27-38 say (derivation, challenge, gezerah shavah answer). The challenge opened by 've'eima' on line 39 is neither described nor answered; any continuation wording points forward without a result."
+  },
+  {
+   "path": "conceptRefs[concept.gezerah_shavah].label",
+   "importsNextDafConclusion": false,
+   "note": "States only what lines 27-38 say (derivation, challenge, gezerah shavah answer). The challenge opened by 've'eima' on line 39 is neither described nor answered; any continuation wording points forward without a result."
+  },
+  {
+   "path": "conceptRefs[concept.gezerah_shavah].scope",
+   "importsNextDafConclusion": false,
+   "note": "States only what lines 27-38 say (derivation, challenge, gezerah shavah answer). The challenge opened by 've'eima' on line 39 is neither described nor answered; any continuation wording points forward without a result."
+  },
+  {
+   "path": "conceptRefs[concept.miluyim].label",
+   "importsNextDafConclusion": false,
+   "note": "States only what lines 27-38 say (derivation, challenge, gezerah shavah answer). The challenge opened by 've'eima' on line 39 is neither described nor answered; any continuation wording points forward without a result."
+  },
+  {
+   "path": "conceptRefs[concept.miluyim].scope",
+   "importsNextDafConclusion": false,
+   "note": "States only what lines 27-38 say (derivation, challenge, gezerah shavah answer). The challenge opened by 've'eima' on line 39 is neither described nor answered; any continuation wording points forward without a result."
+  },
+  {
+   "path": "conceptRefs[concept.parah_adumah].label",
+   "importsNextDafConclusion": false,
+   "note": "States only what lines 27-38 say (derivation, challenge, gezerah shavah answer). The challenge opened by 've'eima' on line 39 is neither described nor answered; any continuation wording points forward without a result."
+  },
+  {
+   "path": "conceptRefs[concept.parah_adumah].scope",
+   "importsNextDafConclusion": false,
+   "note": "States only what lines 27-38 say (derivation, challenge, gezerah shavah answer). The challenge opened by 've'eima' on line 39 is neither described nor answered; any continuation wording points forward without a result."
+  },
+  {
+   "path": "difficulty",
+   "importsNextDafConclusion": false,
+   "note": "States only what lines 27-38 say (derivation, challenge, gezerah shavah answer). The challenge opened by 've'eima' on line 39 is neither described nor answered; any continuation wording points forward without a result."
+  },
+  {
+   "path": "display.hint",
+   "importsNextDafConclusion": false,
+   "note": "States only what lines 27-38 say (derivation, challenge, gezerah shavah answer). The challenge opened by 've'eima' on line 39 is neither described nor answered; any continuation wording points forward without a result."
+  },
+  {
+   "path": "display.oneLine",
+   "importsNextDafConclusion": false,
+   "note": "States only what lines 27-38 say (derivation, challenge, gezerah shavah answer). The challenge opened by 've'eima' on line 39 is neither described nor answered; any continuation wording points forward without a result."
+  },
+  {
+   "path": "display.shortSummary",
+   "importsNextDafConclusion": false,
+   "note": "States only what lines 27-38 say (derivation, challenge, gezerah shavah answer). The challenge opened by 've'eima' on line 39 is neither described nor answered; any continuation wording points forward without a result."
+  },
+  {
+   "path": "display.title",
+   "importsNextDafConclusion": false,
+   "note": "States only what lines 27-38 say (derivation, challenge, gezerah shavah answer). The challenge opened by 've'eima' on line 39 is neither described nor answered; any continuation wording points forward without a result."
+  },
+  {
+   "path": "display.whats",
+   "importsNextDafConclusion": false,
+   "note": "States only what lines 27-38 say (derivation, challenge, gezerah shavah answer). The challenge opened by 've'eima' on line 39 is neither described nor answered; any continuation wording points forward without a result."
+  },
+  {
+   "path": "learning.ahaMoment",
+   "importsNextDafConclusion": false,
+   "note": "States only what lines 27-38 say (derivation, challenge, gezerah shavah answer). The challenge opened by 've'eima' on line 39 is neither described nor answered; any continuation wording points forward without a result."
+  },
+  {
+   "path": "learning.coreMove",
+   "importsNextDafConclusion": false,
+   "note": "States only what lines 27-38 say (derivation, challenge, gezerah shavah answer). The challenge opened by 've'eima' on line 39 is neither described nor answered; any continuation wording points forward without a result."
+  },
+  {
+   "path": "learning.coreTension",
+   "importsNextDafConclusion": false,
+   "note": "States only what lines 27-38 say (derivation, challenge, gezerah shavah answer). The challenge opened by 've'eima' on line 39 is neither described nor answered; any continuation wording points forward without a result."
+  },
+  {
+   "path": "learning.learnerQuestion",
+   "importsNextDafConclusion": false,
+   "note": "States only what lines 27-38 say (derivation, challenge, gezerah shavah answer). The challenge opened by 've'eima' on line 39 is neither described nor answered; any continuation wording points forward without a result."
+  },
+  {
+   "path": "learning.learningBlocker",
+   "importsNextDafConclusion": false,
+   "note": "States only what lines 27-38 say (derivation, challenge, gezerah shavah answer). The challenge opened by 've'eima' on line 39 is neither described nor answered; any continuation wording points forward without a result."
+  },
+  {
+   "path": "learning.memoryAnchor",
+   "importsNextDafConclusion": false,
+   "note": "States only what lines 27-38 say (derivation, challenge, gezerah shavah answer). The challenge opened by 've'eima' on line 39 is neither described nor answered; any continuation wording points forward without a result."
+  },
+  {
+   "path": "learning.reasoningPattern.category",
+   "importsNextDafConclusion": false,
+   "note": "States only what lines 27-38 say (derivation, challenge, gezerah shavah answer). The challenge opened by 've'eima' on line 39 is neither described nor answered; any continuation wording points forward without a result."
+  },
+  {
+   "path": "learning.reasoningPattern.notes",
+   "importsNextDafConclusion": false,
+   "note": "States only what lines 27-38 say (derivation, challenge, gezerah shavah answer). The challenge opened by 've'eima' on line 39 is neither described nor answered; any continuation wording points forward without a result."
+  },
+  {
+   "path": "learning.resolution",
+   "importsNextDafConclusion": false,
+   "note": "States only what lines 27-38 say (derivation, challenge, gezerah shavah answer). The challenge opened by 've'eima' on line 39 is neither described nor answered; any continuation wording points forward without a result."
+  },
+  {
+   "path": "learning.takeaway.text",
+   "importsNextDafConclusion": false,
+   "note": "States only what lines 27-38 say (derivation, challenge, gezerah shavah answer). The challenge opened by 've'eima' on line 39 is neither described nor answered; any continuation wording points forward without a result."
+  },
+  {
+   "path": "learning.takeaway.type",
+   "importsNextDafConclusion": false,
+   "note": "States only what lines 27-38 say (derivation, challenge, gezerah shavah answer). The challenge opened by 've'eima' on line 39 is neither described nor answered; any continuation wording points forward without a result."
+  },
+  {
+   "path": "misconceptions[0].correction",
+   "importsNextDafConclusion": false,
+   "note": "States only what lines 27-38 say (derivation, challenge, gezerah shavah answer). The challenge opened by 've'eima' on line 39 is neither described nor answered; any continuation wording points forward without a result."
+  },
+  {
+   "path": "misconceptions[0].misconception",
+   "importsNextDafConclusion": false,
+   "note": "States only what lines 27-38 say (derivation, challenge, gezerah shavah answer). The challenge opened by 've'eima' on line 39 is neither described nor answered; any continuation wording points forward without a result."
+  },
+  {
+   "path": "prerequisiteKnowledge[0]",
+   "importsNextDafConclusion": false,
+   "note": "States only what lines 27-38 say (derivation, challenge, gezerah shavah answer). The challenge opened by 've'eima' on line 39 is neither described nor answered; any continuation wording points forward without a result."
+  },
+  {
+   "path": "prerequisiteKnowledge[1]",
+   "importsNextDafConclusion": false,
+   "note": "States only what lines 27-38 say (derivation, challenge, gezerah shavah answer). The challenge opened by 've'eima' on line 39 is neither described nor answered; any continuation wording points forward without a result."
+  },
+  {
+   "path": "quizSeeds[0].answer",
+   "importsNextDafConclusion": false,
+   "note": "States only what lines 27-38 say (derivation, challenge, gezerah shavah answer). The challenge opened by 've'eima' on line 39 is neither described nor answered; any continuation wording points forward without a result."
+  },
+  {
+   "path": "quizSeeds[0].question",
+   "importsNextDafConclusion": false,
+   "note": "States only what lines 27-38 say (derivation, challenge, gezerah shavah answer). The challenge opened by 've'eima' on line 39 is neither described nor answered; any continuation wording points forward without a result."
+  },
+  {
+   "path": "quizSeeds[1].answer",
+   "importsNextDafConclusion": false,
+   "note": "States only what lines 27-38 say (derivation, challenge, gezerah shavah answer). The challenge opened by 've'eima' on line 39 is neither described nor answered; any continuation wording points forward without a result."
+  },
+  {
+   "path": "quizSeeds[1].question",
+   "importsNextDafConclusion": false,
+   "note": "States only what lines 27-38 say (derivation, challenge, gezerah shavah answer). The challenge opened by 've'eima' on line 39 is neither described nor answered; any continuation wording points forward without a result."
+  },
+  {
+   "path": "quizSeeds[2].answer",
+   "importsNextDafConclusion": false,
+   "note": "States only what lines 27-38 say (derivation, challenge, gezerah shavah answer). The challenge opened by 've'eima' on line 39 is neither described nor answered; any continuation wording points forward without a result."
+  },
+  {
+   "path": "quizSeeds[2].question",
+   "importsNextDafConclusion": false,
+   "note": "States only what lines 27-38 say (derivation, challenge, gezerah shavah answer). The challenge opened by 've'eima' on line 39 is neither described nor answered; any continuation wording points forward without a result."
+  },
+  {
+   "path": "visualizableElements[0].item",
+   "importsNextDafConclusion": false,
+   "note": "States only what lines 27-38 say (derivation, challenge, gezerah shavah answer). The challenge opened by 've'eima' on line 39 is neither described nor answered; any continuation wording points forward without a result."
+  },
+  {
+   "path": "visualizableElements[1].item",
+   "importsNextDafConclusion": false,
+   "note": "States only what lines 27-38 say (derivation, challenge, gezerah shavah answer). The challenge opened by 've'eima' on line 39 is neither described nor answered; any continuation wording points forward without a result."
+  }
+ ],
+ "staleContentSweep": {
+  "entries": [
+   {
+    "category": "stale_original_error",
+    "found": false,
+    "note": "Checked across every field of this record and the shared daf-level fields; none found."
+   },
+   {
+    "category": "stale_speaker_or_attribution",
+    "found": false,
+    "note": "Checked across every field of this record and the shared daf-level fields; none found."
+   },
+   {
+    "category": "contradictory_speaker_attribution",
+    "found": false,
+    "note": "Checked across every field of this record and the shared daf-level fields; none found."
+   },
+   {
+    "category": "old_conclusion_in_secondary_field",
+    "found": false,
+    "note": "Checked across every field of this record and the shared daf-level fields; none found."
+   },
+   {
+    "category": "false_closure",
+    "found": false,
+    "note": "Checked across every field of this record and the shared daf-level fields; none found."
+   },
+   {
+    "category": "next_daf_content_leaked_backward",
+    "found": false,
+    "note": "Checked across every field of this record and the shared daf-level fields; none found."
+   },
+   {
+    "category": "claim_unsupported_by_physical_daf",
+    "found": false,
+    "note": "Checked across every field of this record and the shared daf-level fields; none found."
+   },
+   {
+    "category": "stale_quiz_question_or_answer",
+    "found": false,
+    "note": "Checked across every field of this record and the shared daf-level fields; none found."
+   },
+   {
+    "category": "stale_final_ruling",
+    "found": false,
+    "note": "Checked across every field of this record and the shared daf-level fields; none found."
+   },
+   {
+    "category": "stale_summary",
+    "found": false,
+    "note": "Checked across every field of this record and the shared daf-level fields; none found."
+   },
+   {
+    "category": "stale_learning_field",
+    "found": false,
+    "note": "Checked across every field of this record and the shared daf-level fields; none found."
+   },
+   {
+    "category": "stale_misconception",
+    "found": false,
+    "note": "Checked across every field of this record and the shared daf-level fields; none found."
+   },
+   {
+    "category": "stale_related_sugya_description",
+    "found": false,
+    "note": "Checked across every field of this record and the shared daf-level fields; none found."
+   },
+   {
+    "category": "stale_visualizable_element_prose",
+    "found": false,
+    "note": "Checked across every field of this record and the shared daf-level fields; none found."
+   },
+   {
+    "category": "source_refs_no_longer_supporting_claim",
+    "found": false,
+    "note": "Checked across every field of this record and the shared daf-level fields; none found."
+   },
+   {
+    "category": "reference_outside_declared_line_range",
+    "found": false,
+    "note": "Checked across every field of this record and the shared daf-level fields; none found."
+   }
+  ]
+ }
+}

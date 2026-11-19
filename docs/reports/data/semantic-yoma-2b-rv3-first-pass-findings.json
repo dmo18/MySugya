@@ -1,0 +1,1343 @@
+{
+ "reviewId": "rv3-first-2b-opus",
+ "reviewMode": "FIRST_PASS",
+ "module": "yoma",
+ "daf": "2b",
+ "sourceFirst": true,
+ "method": "Read all 30 authoritativeHebrewLines of 2b (and raw 2a lines 35-39 for context only, and raw 3a line 1 to confirm the break) before reading currentDafSummary or any enrichment. Relevant Rashi used only as commentary. Every enrichment leaf of every sugya and the daf-level summary and glossary were then compared against the reconstruction.",
+ "independentSourceFlow": [
+  {
+   "lines": "2a:35-39 (context only, raw)",
+   "move": "On 2a the Gemara answered that the milu'im verse links to the red heifer by 'tzivah'-'tzivah' (what here is separation, there too separation) and ended with 've-eima' (and say...). 2b physically starts by restating that challenge."
+  },
+  {
+   "lines": "2b:1-2",
+   "speaker": "Gemara (anonymous)",
+   "move": "Challenge: say instead the 'tzivah' of Yom Kippur, as written 'va-ya'as ka'asher tzivah Hashem et Moshe' (Lev 16:34)."
+  },
+  {
+   "lines": "2b:2-4",
+   "speaker": "Gemara",
+   "move": "Answer: we derive a 'tzivah' that precedes the act from a 'tzivah' that precedes the act; we do not derive a 'tzivah' after the act from one before the act."
+  },
+  {
+   "lines": "2b:4-6",
+   "speaker": "Gemara",
+   "move": "Challenge: say the 'tzivah' of the offerings, 'b'yom tzavoto et bnei Yisrael' (Lev 7:38). Answer: we derive 'tzivah' from 'tzivah', not 'tzavoto' from 'tzivah'. (Rashi: the proposal would require every kohen serving communal offerings to separate.)"
+  },
+  {
+   "lines": "2b:7-9",
+   "speaker": "Gemara, citing a baraita of the school of R. Yishmael",
+   "move": "Objection: what difference does it make? The school of R. Yishmael taught 've-shav ha-kohen', 'u-va ha-kohen' - this is returning, this is coming (two different verbs paired). (Rashi: as returning entails removing, scraping, plastering, so does coming.)"
+  },
+  {
+   "lines": "2b:9-11",
+   "speaker": "Gemara",
+   "move": "Answer: that applies where there is nothing more similar; where there is something more similar, we learn from the more similar one."
+  },
+  {
+   "lines": "2b:11-12",
+   "speaker": "Gemara",
+   "move": "Recalls 'le-chaper - these are the acts of Yom Kippur' and challenges: say the atonement of offerings (Rashi: individual offerings, 'and the kohen shall atone for him')."
+  },
+  {
+   "lines": "2b:12-13",
+   "speaker": "Gemara",
+   "move": "Reply: do we know which kohen will be chosen (Rashi: by lot) who would need separation?"
+  },
+  {
+   "lines": "2b:13-14",
+   "speaker": "'amrei' (they say)",
+   "move": "Counter: why not? Let the entire beit av of the watch separate (Rashi: each family has its own day in the week)."
+  },
+  {
+   "lines": "2b:14-16",
+   "speaker": "Gemara",
+   "move": "Answer: we derive a matter with a fixed time from a matter with a fixed time, excluding offerings which occur every day. (Rashi: the milu'im's fixed time, 1 Nisan, Ex 40.)"
+  },
+  {
+   "lines": "2b:16-19",
+   "speaker": "Gemara",
+   "move": "Challenge: say the Festivals. Answer: we derive a matter practiced once a year from a matter practiced once a year, excluding Festivals which are not once a year."
+  },
+  {
+   "lines": "2b:19-22",
+   "speaker": "Gemara",
+   "move": "Challenge: say one Festival; and if you object that we do not know which - Passover, since Scripture opens with it, or Sukkot, since its commandments are many (Rashi: sukkah, lulav, willow, water libation) - [that objection is not decisive]. Rather: we derive separation of seven for one day from separation of seven for one day, not separation of seven for seven from seven for one."
+  },
+  {
+   "lines": "2b:23-26",
+   "speaker": "Gemara",
+   "move": "Challenge: say Shemini [Atzeret], which is seven for one day. Answer: we derive a matter with no sanctity preceding it from one with no sanctity preceding it, not a matter preceded by sanctity."
+  },
+  {
+   "lines": "2b:26-27",
+   "speaker": "Gemara",
+   "move": "Challenge: is it not a kal va-chomer? If a matter without preceding sanctity requires separation, all the more so one with preceding sanctity."
+  },
+  {
+   "lines": "2b:27",
+   "speaker": "Rav Mesharshiyya",
+   "move": "'hazeh' (this) is written - [meaning] 'kazeh' (like this): only a case like the milu'im. (Raw reads 'לא הזה כתיב כזה'; Rashi: 'this' is written, 'like this' - only what matches its pattern.)"
+  },
+  {
+   "lines": "2b:28-30",
+   "speaker": "Rav Ashi",
+   "move": "Is there anything whose primary Festival does not require separation while its subsidiary does? And even according to the one who says Shemini is a Festival in its own right, that applies regarding 'PZR' ... - sentence breaks off; the mnemonic ('KShB') and the contrast ('but regarding compensation...') continue on 3a."
+  },
+  {
+   "lines": "end of 2b",
+   "move": "Open at the end of 2b: Rav Ashi's qualification of the independent-Festival view is incomplete (MID_SENTENCE). The next challenge (Atzeret/Shavuot) and R. Abba's answer are on 3a and are not reached here."
+  }
+ ],
+ "boundaryVerdict": {
+  "verdict": "VERIFIED",
+  "perSugya": [
+   {
+    "sugyaId": "yoma-002b-s01",
+    "range": "1-6",
+    "verdict": "VERIFIED",
+    "note": "Two 'tzivah' alternatives (YK, offerings) with answers; ends at line 6 'ואין דנין צותו מצוה'."
+   },
+   {
+    "sugyaId": "yoma-002b-s02",
+    "range": "7-11",
+    "verdict": "VERIFIED",
+    "note": "R. Yishmael objection and 'more similar' answer; ends mid-line 11 at 'ילפינן'."
+   },
+   {
+    "sugyaId": "yoma-002b-s03",
+    "range": "11-19",
+    "verdict": "VERIFIED",
+    "note": "Starts mid-line 11 at 'לכפר'; offerings and Festivals excluded; ends mid-line 19 at 'נינהו'."
+   },
+   {
+    "sugyaId": "yoma-002b-s04",
+    "range": "19-23",
+    "verdict": "VERIFIED",
+    "note": "Starts mid-line 19 'ואימא רגל אחד'; seven-for-one answer; ends mid-line 23."
+   },
+   {
+    "sugyaId": "yoma-002b-s05",
+    "range": "23-29",
+    "verdict": "VERIFIED",
+    "note": "Shemini Atzeret, kal va-chomer, Rav Mesharshiyya, Rav Ashi. Line 30 ('פז\"ר') is owned by no sugya, per the accepted trailing-line convention; no current s05 field rests a claim on line 30."
+   }
+  ],
+  "dafEnd": {
+   "rawLineCount": 30,
+   "finalRawLine": "פז\"ר",
+   "dafEndState": "MID_SENTENCE"
+  }
+ },
+ "dafSummaryVerdict": {
+  "verdict": "REPAIR_REQUIRED",
+  "reasons": [
+   "Says Sukkot 'has the most offerings'; source (line 22) says its commandments are many (Rashi: sukkah, lulav, willow, water libation).",
+   "Says R. Yishmael's school showed 'different verb forms' pair; source pairs two different verbs.",
+   "Says 'identical forms take priority'; source says the more similar candidate takes priority.",
+   "Does not state that the daf ends mid-sentence in Rav Ashi's qualification (no next-daf conclusion is imported, so this is an omission, repaired in the same pass)."
+  ]
+ },
+ "dafGlossaryVerdict": {
+  "verdict": "REPAIR_REQUIRED",
+  "entries": [
+   {
+    "index": 0,
+    "term": "Gezerah Shavah",
+    "verdict": "REPAIR_REQUIRED"
+   },
+   {
+    "index": 1,
+    "term": "Kal Va-Chomer",
+    "verdict": "SUPPORTED",
+    "lines": "2b:26-27"
+   },
+   {
+    "index": 2,
+    "term": "Shemini Atzeret",
+    "verdict": "SUPPORTED",
+    "lines": "2b:23-29"
+   },
+   {
+    "index": 3,
+    "term": "Mishmar / Beit Av",
+    "verdict": "REPAIR_REQUIRED"
+   }
+  ]
+ },
+ "perSugya": [
+  {
+   "sugyaId": "yoma-002b-s01",
+   "verdict": "REPAIR_REQUIRED",
+   "lineRange": {
+    "startVilnaLine": 1,
+    "endVilnaLine": 6
+   },
+   "fieldsChecked": [
+    "sugyaNumber",
+    "id",
+    "lineRange.startVilnaLine",
+    "lineRange.endVilnaLine",
+    "display.title",
+    "display.oneLine",
+    "display.shortSummary",
+    "display.whats",
+    "display.hint",
+    "learning.learnerQuestion",
+    "learning.coreTension",
+    "learning.coreMove",
+    "learning.resolution",
+    "learning.takeaway.type",
+    "learning.takeaway.text",
+    "learning.reasoningPattern.id",
+    "learning.reasoningPattern.category",
+    "learning.reasoningPattern.notes",
+    "learning.ahaMoment",
+    "learning.learningBlocker",
+    "learning.memoryAnchor",
+    "argumentFlow[0].id",
+    "argumentFlow[0].type",
+    "argumentFlow[0].label",
+    "argumentFlow[0].speaker",
+    "argumentFlow[0].text",
+    "argumentFlow[0].sourceRefs[0].sourceType",
+    "argumentFlow[0].sourceRefs[0].lineId",
+    "argumentFlow[0].sourceRefs[0].vilnaLine",
+    "argumentFlow[0].sourceRefs[0].note",
+    "argumentFlow[1].id",
+    "argumentFlow[1].type",
+    "argumentFlow[1].label",
+    "argumentFlow[1].speaker",
+    "argumentFlow[1].text",
+    "argumentFlow[1].sourceRefs[0].sourceType",
+    "argumentFlow[1].sourceRefs[0].lineId",
+    "argumentFlow[1].sourceRefs[0].vilnaLine",
+    "argumentFlow[1].sourceRefs[0].note",
+    "argumentFlow[1].sourceRefs[1].sourceType",
+    "argumentFlow[1].sourceRefs[1].lineId",
+    "argumentFlow[1].sourceRefs[1].vilnaLine",
+    "argumentFlow[1].sourceRefs[1].note",
+    "argumentFlow[2].id",
+    "argumentFlow[2].type",
+    "argumentFlow[2].label",
+    "argumentFlow[2].speaker",
+    "argumentFlow[2].text",
+    "argumentFlow[2].sourceRefs[0].sourceType",
+    "argumentFlow[2].sourceRefs[0].lineId",
+    "argumentFlow[2].sourceRefs[0].vilnaLine",
+    "argumentFlow[2].sourceRefs[0].note",
+    "argumentFlow[3].id",
+    "argumentFlow[3].type",
+    "argumentFlow[3].label",
+    "argumentFlow[3].speaker",
+    "argumentFlow[3].text",
+    "argumentFlow[3].sourceRefs[0].sourceType",
+    "argumentFlow[3].sourceRefs[0].lineId",
+    "argumentFlow[3].sourceRefs[0].vilnaLine",
+    "argumentFlow[3].sourceRefs[0].note",
+    "conceptRefs",
+    "requiresUnderstanding",
+    "misconceptions[0].misconception",
+    "misconceptions[0].correction",
+    "misconceptions[0].correctedByStepId",
+    "relatedSugyot[0]",
+    "visualizableElements",
+    "quizSeeds[0].question",
+    "quizSeeds[0].answer",
+    "quizSeeds[0].sourceRefs[0].sourceType",
+    "quizSeeds[0].sourceRefs[0].lineId",
+    "quizSeeds[0].sourceRefs[0].vilnaLine",
+    "quizSeeds[1].question",
+    "quizSeeds[1].answer",
+    "quizSeeds[1].sourceRefs[0].sourceType",
+    "quizSeeds[1].sourceRefs[0].lineId",
+    "quizSeeds[1].sourceRefs[0].vilnaLine",
+    "finalRuling",
+    "difficulty",
+    "alternateAngles",
+    "topicTags[0]",
+    "topicTags[1]",
+    "topicTags[2]",
+    "topicTags[3]",
+    "topicTags[4]"
+   ],
+   "defectCount": 15
+  },
+  {
+   "sugyaId": "yoma-002b-s02",
+   "verdict": "REPAIR_REQUIRED",
+   "lineRange": {
+    "startVilnaLine": 7,
+    "endVilnaLine": 11
+   },
+   "fieldsChecked": [
+    "sugyaNumber",
+    "id",
+    "lineRange.startVilnaLine",
+    "lineRange.endVilnaLine",
+    "display.title",
+    "display.oneLine",
+    "display.shortSummary",
+    "display.whats",
+    "display.hint",
+    "learning.learnerQuestion",
+    "learning.coreTension",
+    "learning.coreMove",
+    "learning.resolution",
+    "learning.takeaway.type",
+    "learning.takeaway.text",
+    "learning.reasoningPattern.id",
+    "learning.reasoningPattern.category",
+    "learning.reasoningPattern.notes",
+    "learning.ahaMoment",
+    "learning.learningBlocker",
+    "learning.memoryAnchor",
+    "argumentFlow[0].id",
+    "argumentFlow[0].type",
+    "argumentFlow[0].label",
+    "argumentFlow[0].speaker",
+    "argumentFlow[0].text",
+    "argumentFlow[0].sourceRefs[0].sourceType",
+    "argumentFlow[0].sourceRefs[0].lineId",
+    "argumentFlow[0].sourceRefs[0].vilnaLine",
+    "argumentFlow[0].sourceRefs[0].note",
+    "argumentFlow[1].id",
+    "argumentFlow[1].type",
+    "argumentFlow[1].label",
+    "argumentFlow[1].speaker",
+    "argumentFlow[1].text",
+    "argumentFlow[1].sourceRefs[0].sourceType",
+    "argumentFlow[1].sourceRefs[0].lineId",
+    "argumentFlow[1].sourceRefs[0].vilnaLine",
+    "argumentFlow[1].sourceRefs[0].note",
+    "conceptRefs",
+    "requiresUnderstanding[0]",
+    "misconceptions[0].misconception",
+    "misconceptions[0].correction",
+    "misconceptions[0].correctedByStepId",
+    "relatedSugyot[0]",
+    "visualizableElements[0].item",
+    "visualizableElements[0].role",
+    "visualizableElements[0].priority",
+    "quizSeeds[0].question",
+    "quizSeeds[0].answer",
+    "quizSeeds[0].sourceRefs[0].sourceType",
+    "quizSeeds[0].sourceRefs[0].lineId",
+    "quizSeeds[0].sourceRefs[0].vilnaLine",
+    "quizSeeds[1].question",
+    "quizSeeds[1].answer",
+    "quizSeeds[1].sourceRefs[0].sourceType",
+    "quizSeeds[1].sourceRefs[0].lineId",
+    "quizSeeds[1].sourceRefs[0].vilnaLine",
+    "finalRuling",
+    "difficulty",
+    "alternateAngles",
+    "topicTags[0]",
+    "topicTags[1]",
+    "topicTags[2]",
+    "topicTags[3]",
+    "topicTags[4]"
+   ],
+   "defectCount": 16
+  },
+  {
+   "sugyaId": "yoma-002b-s03",
+   "verdict": "REPAIR_REQUIRED",
+   "lineRange": {
+    "startVilnaLine": 11,
+    "endVilnaLine": 19
+   },
+   "fieldsChecked": [
+    "sugyaNumber",
+    "id",
+    "lineRange.startVilnaLine",
+    "lineRange.endVilnaLine",
+    "display.title",
+    "display.oneLine",
+    "display.shortSummary",
+    "display.whats",
+    "display.hint",
+    "learning.learnerQuestion",
+    "learning.coreTension",
+    "learning.coreMove",
+    "learning.resolution",
+    "learning.takeaway.type",
+    "learning.takeaway.text",
+    "learning.reasoningPattern.id",
+    "learning.reasoningPattern.category",
+    "learning.reasoningPattern.notes",
+    "learning.ahaMoment",
+    "learning.learningBlocker",
+    "learning.memoryAnchor",
+    "argumentFlow[0].id",
+    "argumentFlow[0].type",
+    "argumentFlow[0].label",
+    "argumentFlow[0].speaker",
+    "argumentFlow[0].text",
+    "argumentFlow[0].sourceRefs[0].sourceType",
+    "argumentFlow[0].sourceRefs[0].lineId",
+    "argumentFlow[0].sourceRefs[0].vilnaLine",
+    "argumentFlow[0].sourceRefs[0].note",
+    "argumentFlow[0].sourceRefs[1].sourceType",
+    "argumentFlow[0].sourceRefs[1].lineId",
+    "argumentFlow[0].sourceRefs[1].vilnaLine",
+    "argumentFlow[0].sourceRefs[1].note",
+    "argumentFlow[1].id",
+    "argumentFlow[1].type",
+    "argumentFlow[1].label",
+    "argumentFlow[1].speaker",
+    "argumentFlow[1].text",
+    "argumentFlow[1].sourceRefs[0].sourceType",
+    "argumentFlow[1].sourceRefs[0].lineId",
+    "argumentFlow[1].sourceRefs[0].vilnaLine",
+    "argumentFlow[1].sourceRefs[0].note",
+    "argumentFlow[2].id",
+    "argumentFlow[2].type",
+    "argumentFlow[2].label",
+    "argumentFlow[2].speaker",
+    "argumentFlow[2].text",
+    "argumentFlow[2].sourceRefs[0].sourceType",
+    "argumentFlow[2].sourceRefs[0].lineId",
+    "argumentFlow[2].sourceRefs[0].vilnaLine",
+    "argumentFlow[2].sourceRefs[0].note",
+    "argumentFlow[3].id",
+    "argumentFlow[3].type",
+    "argumentFlow[3].label",
+    "argumentFlow[3].speaker",
+    "argumentFlow[3].text",
+    "argumentFlow[3].sourceRefs[0].sourceType",
+    "argumentFlow[3].sourceRefs[0].lineId",
+    "argumentFlow[3].sourceRefs[0].vilnaLine",
+    "argumentFlow[3].sourceRefs[0].note",
+    "argumentFlow[3].sourceRefs[1].sourceType",
+    "argumentFlow[3].sourceRefs[1].lineId",
+    "argumentFlow[3].sourceRefs[1].vilnaLine",
+    "argumentFlow[3].sourceRefs[1].note",
+    "argumentFlow[4].id",
+    "argumentFlow[4].type",
+    "argumentFlow[4].label",
+    "argumentFlow[4].speaker",
+    "argumentFlow[4].text",
+    "argumentFlow[4].sourceRefs[0].sourceType",
+    "argumentFlow[4].sourceRefs[0].lineId",
+    "argumentFlow[4].sourceRefs[0].vilnaLine",
+    "argumentFlow[4].sourceRefs[0].note",
+    "argumentFlow[5].id",
+    "argumentFlow[5].type",
+    "argumentFlow[5].label",
+    "argumentFlow[5].speaker",
+    "argumentFlow[5].text",
+    "argumentFlow[5].sourceRefs[0].sourceType",
+    "argumentFlow[5].sourceRefs[0].lineId",
+    "argumentFlow[5].sourceRefs[0].vilnaLine",
+    "argumentFlow[5].sourceRefs[0].note",
+    "conceptRefs",
+    "requiresUnderstanding[0]",
+    "misconceptions[0].misconception",
+    "misconceptions[0].correction",
+    "misconceptions[0].correctedByStepId",
+    "relatedSugyot[0]",
+    "visualizableElements[0].item",
+    "visualizableElements[0].role",
+    "visualizableElements[0].priority",
+    "visualizableElements[1].item",
+    "visualizableElements[1].role",
+    "visualizableElements[1].priority",
+    "quizSeeds[0].question",
+    "quizSeeds[0].answer",
+    "quizSeeds[0].sourceRefs[0].sourceType",
+    "quizSeeds[0].sourceRefs[0].lineId",
+    "quizSeeds[0].sourceRefs[0].vilnaLine",
+    "quizSeeds[1].question",
+    "quizSeeds[1].answer",
+    "quizSeeds[1].sourceRefs[0].sourceType",
+    "quizSeeds[1].sourceRefs[0].lineId",
+    "quizSeeds[1].sourceRefs[0].vilnaLine",
+    "finalRuling",
+    "difficulty",
+    "alternateAngles",
+    "topicTags[0]",
+    "topicTags[1]",
+    "topicTags[2]",
+    "topicTags[3]",
+    "topicTags[4]"
+   ],
+   "defectCount": 8
+  },
+  {
+   "sugyaId": "yoma-002b-s04",
+   "verdict": "REPAIR_REQUIRED",
+   "lineRange": {
+    "startVilnaLine": 19,
+    "endVilnaLine": 23
+   },
+   "fieldsChecked": [
+    "sugyaNumber",
+    "id",
+    "lineRange.startVilnaLine",
+    "lineRange.endVilnaLine",
+    "display.title",
+    "display.oneLine",
+    "display.shortSummary",
+    "display.whats",
+    "display.hint",
+    "learning.learnerQuestion",
+    "learning.coreTension",
+    "learning.coreMove",
+    "learning.resolution",
+    "learning.takeaway.type",
+    "learning.takeaway.text",
+    "learning.reasoningPattern.id",
+    "learning.reasoningPattern.category",
+    "learning.reasoningPattern.notes",
+    "learning.ahaMoment",
+    "learning.learningBlocker",
+    "learning.memoryAnchor",
+    "argumentFlow[0].id",
+    "argumentFlow[0].type",
+    "argumentFlow[0].label",
+    "argumentFlow[0].speaker",
+    "argumentFlow[0].text",
+    "argumentFlow[0].sourceRefs[0].sourceType",
+    "argumentFlow[0].sourceRefs[0].lineId",
+    "argumentFlow[0].sourceRefs[0].vilnaLine",
+    "argumentFlow[0].sourceRefs[0].note",
+    "argumentFlow[0].sourceRefs[1].sourceType",
+    "argumentFlow[0].sourceRefs[1].lineId",
+    "argumentFlow[0].sourceRefs[1].vilnaLine",
+    "argumentFlow[0].sourceRefs[1].note",
+    "argumentFlow[1].id",
+    "argumentFlow[1].type",
+    "argumentFlow[1].label",
+    "argumentFlow[1].speaker",
+    "argumentFlow[1].text",
+    "argumentFlow[1].sourceRefs[0].sourceType",
+    "argumentFlow[1].sourceRefs[0].lineId",
+    "argumentFlow[1].sourceRefs[0].vilnaLine",
+    "argumentFlow[1].sourceRefs[0].note",
+    "conceptRefs",
+    "requiresUnderstanding[0]",
+    "misconceptions[0].misconception",
+    "misconceptions[0].correction",
+    "misconceptions[0].correctedByStepId",
+    "relatedSugyot[0]",
+    "visualizableElements[0].item",
+    "visualizableElements[0].role",
+    "visualizableElements[0].priority",
+    "quizSeeds[0].question",
+    "quizSeeds[0].answer",
+    "quizSeeds[0].sourceRefs[0].sourceType",
+    "quizSeeds[0].sourceRefs[0].lineId",
+    "quizSeeds[0].sourceRefs[0].vilnaLine",
+    "quizSeeds[1].question",
+    "quizSeeds[1].answer",
+    "quizSeeds[1].sourceRefs[0].sourceType",
+    "quizSeeds[1].sourceRefs[0].lineId",
+    "quizSeeds[1].sourceRefs[0].vilnaLine",
+    "finalRuling",
+    "difficulty",
+    "alternateAngles",
+    "topicTags[0]",
+    "topicTags[1]",
+    "topicTags[2]",
+    "topicTags[3]",
+    "topicTags[4]"
+   ],
+   "defectCount": 6
+  },
+  {
+   "sugyaId": "yoma-002b-s05",
+   "verdict": "REPAIR_REQUIRED",
+   "lineRange": {
+    "startVilnaLine": 23,
+    "endVilnaLine": 29
+   },
+   "fieldsChecked": [
+    "sugyaNumber",
+    "id",
+    "lineRange.startVilnaLine",
+    "lineRange.endVilnaLine",
+    "display.title",
+    "display.oneLine",
+    "display.shortSummary",
+    "display.whats",
+    "display.hint",
+    "learning.learnerQuestion",
+    "learning.coreTension",
+    "learning.coreMove",
+    "learning.resolution",
+    "learning.takeaway.type",
+    "learning.takeaway.text",
+    "learning.reasoningPattern.id",
+    "learning.reasoningPattern.category",
+    "learning.reasoningPattern.notes",
+    "learning.ahaMoment",
+    "learning.learningBlocker",
+    "learning.memoryAnchor",
+    "argumentFlow[0].id",
+    "argumentFlow[0].type",
+    "argumentFlow[0].label",
+    "argumentFlow[0].speaker",
+    "argumentFlow[0].text",
+    "argumentFlow[0].sourceRefs[0].sourceType",
+    "argumentFlow[0].sourceRefs[0].lineId",
+    "argumentFlow[0].sourceRefs[0].vilnaLine",
+    "argumentFlow[0].sourceRefs[0].note",
+    "argumentFlow[1].id",
+    "argumentFlow[1].type",
+    "argumentFlow[1].label",
+    "argumentFlow[1].speaker",
+    "argumentFlow[1].text",
+    "argumentFlow[1].sourceRefs[0].sourceType",
+    "argumentFlow[1].sourceRefs[0].lineId",
+    "argumentFlow[1].sourceRefs[0].vilnaLine",
+    "argumentFlow[1].sourceRefs[0].note",
+    "argumentFlow[2].id",
+    "argumentFlow[2].type",
+    "argumentFlow[2].label",
+    "argumentFlow[2].speaker",
+    "argumentFlow[2].text",
+    "argumentFlow[2].sourceRefs[0].sourceType",
+    "argumentFlow[2].sourceRefs[0].lineId",
+    "argumentFlow[2].sourceRefs[0].vilnaLine",
+    "argumentFlow[2].sourceRefs[0].note",
+    "argumentFlow[3].id",
+    "argumentFlow[3].type",
+    "argumentFlow[3].label",
+    "argumentFlow[3].speaker",
+    "argumentFlow[3].text",
+    "argumentFlow[3].sourceRefs[0].sourceType",
+    "argumentFlow[3].sourceRefs[0].lineId",
+    "argumentFlow[3].sourceRefs[0].vilnaLine",
+    "argumentFlow[3].sourceRefs[0].note",
+    "argumentFlow[4].id",
+    "argumentFlow[4].type",
+    "argumentFlow[4].label",
+    "argumentFlow[4].speaker",
+    "argumentFlow[4].text",
+    "argumentFlow[4].sourceRefs[0].sourceType",
+    "argumentFlow[4].sourceRefs[0].lineId",
+    "argumentFlow[4].sourceRefs[0].vilnaLine",
+    "argumentFlow[4].sourceRefs[0].note",
+    "conceptRefs",
+    "requiresUnderstanding[0]",
+    "misconceptions[0].misconception",
+    "misconceptions[0].correction",
+    "misconceptions[0].correctedByStepId",
+    "relatedSugyot",
+    "visualizableElements",
+    "quizSeeds[0].question",
+    "quizSeeds[0].answer",
+    "quizSeeds[0].sourceRefs[0].sourceType",
+    "quizSeeds[0].sourceRefs[0].lineId",
+    "quizSeeds[0].sourceRefs[0].vilnaLine",
+    "quizSeeds[1].question",
+    "quizSeeds[1].answer",
+    "quizSeeds[1].sourceRefs[0].sourceType",
+    "quizSeeds[1].sourceRefs[0].lineId",
+    "quizSeeds[1].sourceRefs[0].vilnaLine",
+    "finalRuling",
+    "difficulty",
+    "alternateAngles",
+    "topicTags[0]",
+    "topicTags[1]",
+    "topicTags[2]",
+    "topicTags[3]",
+    "topicTags[4]"
+   ],
+   "defectCount": 6
+  }
+ ],
+ "repairScope": "Holistic repair of the daf: dafLevel.summary, dafLevel.glossary[0].en, dafLevel.glossary[3].en, and every path listed in `defects` for all five sugyot. Because the shared daf summary changes, every sugya on the daf is a target (--all-sugyot). No lineRange, lineMap, sefariaRefs, rashiTranslations or raw source change is proposed.",
+ "defects": [
+  {
+   "sugyaId": "yoma-002b-s01",
+   "path": "display.shortSummary",
+   "sourceLines": "2b:1-6",
+   "severity": "wrong meaning",
+   "currentClaim": "Two alternative 'tzivah' candidates are disqualified: Yom Kippur's 'tzivah' follows the service instead of preceding it (post-facto cannot link to pre-facto), and the offerings passage uses 'tzavoto' which is a different verb form than 'tzivah.'",
+   "sourceSupports": "Lines 2-4 and 6 state a choice among competing candidates ('danin X ve-ein danin Y'), and lines 9-11 (next sugya) make explicit that this is a preference for the more similar candidate, not an absolute bar: where nothing more similar exists, even different words are paired. The field's '(post-facto cannot link to pre-facto)' states an absolute rule the source does not state.",
+   "proposedReplacement": "Two alternative candidates are set aside: Yom Kippur's 'tzivah' is recorded after the service, so the pre-performance 'tzivah' of the milu'im is paired with the pre-performance 'tzivah' of the heifer instead; and the offerings verse uses 'tzavoto', a different form, while the Gemara pairs 'tzivah' with 'tzivah'."
+  },
+  {
+   "sugyaId": "yoma-002b-s01",
+   "path": "display.whats",
+   "sourceLines": "2b:1-6",
+   "severity": "wrong meaning",
+   "currentClaim": "The Gemara has established that 'tzivah' in the milu'im verse links to the parah adumah. But why not link it instead to 'tzivah' in the Yom Kippur passage (Leviticus 16:34), and derive only the Yom Kippur seven-day rule? Answer: that 'tzivah' appears after the Yom Kippur service was performed, while the milu'im 'tzivah' appears before. A gezerah shavah must connect functionally parallel contexts. Similarly, the offerings passage uses 'tzavoto' (a different conjugation), which cannot pair with 'tzivah.'",
+   "sourceSupports": "Lines 2-4 and 6 state a choice among competing candidates ('danin X ve-ein danin Y'), and lines 9-11 (next sugya) make explicit that this is a preference for the more similar candidate, not an absolute bar: where nothing more similar exists, even different words are paired. 'A gezerah shavah must connect functionally parallel contexts' and 'cannot pair' are absolute claims not made on the page.",
+   "proposedReplacement": "Continuing from 2a, where the milu'im 'tzivah' was paired with the 'tzivah' of the red heifer, the Gemara asks: why not pair it instead with the 'tzivah' of the Yom Kippur passage ('and he did as the Lord commanded Moses', Leviticus 16:34), so that the whole verse speaks of Yom Kippur? Answer: we derive a 'tzivah' stated before the act from a 'tzivah' stated before the act, and do not derive a 'tzivah' recorded after the act from one stated before it. It then asks: why not pair it with 'tzavoto' of the offerings verse ('on the day he commanded the children of Israel')? Answer: we derive 'tzivah' from 'tzivah', not 'tzavoto' from 'tzivah'."
+  },
+  {
+   "sugyaId": "yoma-002b-s01",
+   "path": "display.hint",
+   "sourceLines": "2b:1-6",
+   "severity": "contract violation",
+   "currentClaim": "The before/after distinction seems subtle. Why does the position of 'tzivah' relative to the service matter for a gezerah shavah?",
+   "sourceSupports": "The sugya's lines state which pairing is preferred but give no reason why the position of the command matters; the hint asks a question its own lines do not answer.",
+   "proposedReplacement": "Why does the Gemara pair the milu'im 'tzivah' with the heifer's 'tzivah' rather than with the 'tzivah' of the Yom Kippur passage or the 'tzavoto' of the offerings verse?"
+  },
+  {
+   "sugyaId": "yoma-002b-s01",
+   "path": "learning.learnerQuestion",
+   "sourceLines": "2b:1-6",
+   "severity": "minor wording",
+   "currentClaim": "The Torah mentions 'tzivah' near both Yom Kippur and offerings. Why can't we derive the separation rule from those contexts instead?",
+   "sourceSupports": "Line 5 quotes 'b'yom tzavoto' - the offerings verse does not use the word 'tzivah' but the form 'tzavoto'.",
+   "proposedReplacement": "The Torah uses 'tzivah' in the Yom Kippur passage and the related form 'tzavoto' in the offerings verse. Why isn't the separation rule derived from either of those instead?"
+  },
+  {
+   "sugyaId": "yoma-002b-s01",
+   "path": "learning.coreMove",
+   "sourceLines": "2b:1-6",
+   "severity": "wrong meaning",
+   "currentClaim": "A gezerah shavah requires not only the same word but also the same functional position - here, a command that precedes performance.",
+   "sourceSupports": "Lines 2-4 and 6 state a choice among competing candidates ('danin X ve-ein danin Y'), and lines 9-11 (next sugya) make explicit that this is a preference for the more similar candidate, not an absolute bar: where nothing more similar exists, even different words are paired.",
+   "proposedReplacement": "Among competing candidates, the Gemara chooses the pairing that matches in both word and position: a command stated before the act is paired with a command stated before the act, and 'tzivah' with 'tzivah' rather than 'tzavoto'."
+  },
+  {
+   "sugyaId": "yoma-002b-s01",
+   "path": "learning.resolution",
+   "sourceLines": "2b:1-6",
+   "severity": "wrong meaning",
+   "currentClaim": "Yom Kippur's 'tzivah' is post-facto and cannot link to the pre-performance 'tzivah' of the inauguration. The 'tzavoto' form is a different verb form entirely.",
+   "sourceSupports": "Lines 2-4 and 6 state a choice among competing candidates ('danin X ve-ein danin Y'), and lines 9-11 (next sugya) make explicit that this is a preference for the more similar candidate, not an absolute bar: where nothing more similar exists, even different words are paired.",
+   "proposedReplacement": "The milu'im 'tzivah' and the heifer's 'tzivah' both precede the act, so they are paired with each other rather than with Yom Kippur's 'tzivah', which is recorded after the act ('and he did as the Lord commanded Moses'). Likewise 'tzivah' is paired with 'tzivah', not with the 'tzavoto' of the offerings verse."
+  },
+  {
+   "sugyaId": "yoma-002b-s01",
+   "path": "learning.takeaway.text",
+   "sourceLines": "2b:1-6",
+   "severity": "wrong meaning",
+   "currentClaim": "A gezerah shavah requires not just the same word but also equivalent functional context. A command placed after an act cannot link to a command placed before an act.",
+   "sourceSupports": "Lines 2-4 and 6 state a choice among competing candidates ('danin X ve-ein danin Y'), and lines 9-11 (next sugya) make explicit that this is a preference for the more similar candidate, not an absolute bar: where nothing more similar exists, even different words are paired.",
+   "proposedReplacement": "When several verses share a word, the Gemara pairs the candidates that are most alike: a 'tzivah' stated before the act with a 'tzivah' stated before the act, not with one recorded after the act; and 'tzivah' with 'tzivah' rather than with 'tzavoto'."
+  },
+  {
+   "sugyaId": "yoma-002b-s01",
+   "path": "learning.ahaMoment",
+   "sourceLines": "2b:1-6",
+   "severity": "minor wording",
+   "currentClaim": "The Gemara isn't just collecting identical words - it's requiring that the analogy be structurally coherent. 'Tzivah' after the fact and 'tzivah' before the fact aren't the same legal speech-act.",
+   "sourceSupports": "Lines 2-4 and 6 state a choice among competing candidates ('danin X ve-ein danin Y'), and lines 9-11 (next sugya) make explicit that this is a preference for the more similar candidate, not an absolute bar: where nothing more similar exists, even different words are paired. The source says nothing about different 'legal speech-acts'.",
+   "proposedReplacement": "The Gemara is not just collecting identical words - it chooses the closest match. A 'tzivah' recorded after the act and a 'tzivah' stated before the act are the same word, yet the Gemara pairs before with before."
+  },
+  {
+   "sugyaId": "yoma-002b-s01",
+   "path": "learning.memoryAnchor",
+   "sourceLines": "2b:1-4",
+   "severity": "wrong meaning",
+   "currentClaim": "Yom Kippur's 'tzivah' appears in 'and he did as the Lord commanded' - the command is recalled after the fact. You cannot derive a before-the-service rule from a command recorded after the service.",
+   "sourceSupports": "Lines 2-4 and 6 state a choice among competing candidates ('danin X ve-ein danin Y'), and lines 9-11 (next sugya) make explicit that this is a preference for the more similar candidate, not an absolute bar: where nothing more similar exists, even different words are paired. 'You cannot derive' is an absolute claim.",
+   "proposedReplacement": "Yom Kippur's 'tzivah' appears in 'and he did as the Lord commanded Moses' - the command is recalled after the act. The milu'im and the heifer both state the command before the act, so before is paired with before."
+  },
+  {
+   "sugyaId": "yoma-002b-s01",
+   "path": "misconceptions[0].correction",
+   "sourceLines": "2b:1-4",
+   "severity": "wrong meaning",
+   "currentClaim": "The word must appear in a functionally equivalent position - before performance, not after. Position and context are criteria alongside word identity.",
+   "sourceSupports": "Lines 2-4 and 6 state a choice among competing candidates ('danin X ve-ein danin Y'), and lines 9-11 (next sugya) make explicit that this is a preference for the more similar candidate, not an absolute bar: where nothing more similar exists, even different words are paired.",
+   "proposedReplacement": "Where several verses share the word, the Gemara prefers the one that also matches in position: a 'tzivah' that precedes the act is derived from a 'tzivah' that precedes the act, not from one recorded after the act."
+  },
+  {
+   "sugyaId": "yoma-002b-s01",
+   "path": "argumentFlow[1].sourceRefs",
+   "sourceLines": "2b:2-4",
+   "severity": "wrong placement",
+   "currentClaim": [
+    {
+     "sourceType": "gemara",
+     "lineId": "yoma-002b-l01",
+     "vilnaLine": 1,
+     "note": "Rejection: before vs. after"
+    },
+    {
+     "sourceType": "gemara",
+     "lineId": "yoma-002b-l04",
+     "vilnaLine": 4,
+     "note": "The determinative 'tzivah after performance' contrast"
+    }
+   ],
+   "sourceSupports": "Line 1 holds the proposal; the before/after rejection runs from the end of line 2 ('דנין צוה') through line 4.",
+   "proposedReplacement": [
+    {
+     "sourceType": "gemara",
+     "lineId": "yoma-002b-l02",
+     "vilnaLine": 2,
+     "note": "Rejection: before vs. after begins ('danin tzivah')"
+    },
+    {
+     "sourceType": "gemara",
+     "lineId": "yoma-002b-l04",
+     "vilnaLine": 4,
+     "note": "The determinative 'tzivah after performance' contrast"
+    }
+   ]
+  },
+  {
+   "sugyaId": "yoma-002b-s01",
+   "path": "argumentFlow[3].sourceRefs",
+   "sourceLines": "2b:6",
+   "severity": "wrong placement",
+   "currentClaim": [
+    {
+     "sourceType": "gemara",
+     "lineId": "yoma-002b-l04",
+     "vilnaLine": 4,
+     "note": "Rejection: different forms"
+    }
+   ],
+   "sourceSupports": "Line 4-5 holds the tzavoto proposal; the rejection 'דנין צוה מצוה ואין דנין צותו מצוה' is on line 6.",
+   "proposedReplacement": [
+    {
+     "sourceType": "gemara",
+     "lineId": "yoma-002b-l06",
+     "vilnaLine": 6,
+     "note": "Rejection: tzivah from tzivah, not tzavoto"
+    }
+   ]
+  },
+  {
+   "sugyaId": "yoma-002b-s01",
+   "path": "quizSeeds[0].answer",
+   "sourceLines": "2b:1-4",
+   "severity": "wrong meaning",
+   "currentClaim": "That 'tzivah' appears after the Yom Kippur service was performed ('and he did as the Lord commanded'), while the milu'im 'tzivah' precedes performance. A gezerah shavah must connect functionally parallel contexts.",
+   "sourceSupports": "Lines 2-4 and 6 state a choice among competing candidates ('danin X ve-ein danin Y'), and lines 9-11 (next sugya) make explicit that this is a preference for the more similar candidate, not an absolute bar: where nothing more similar exists, even different words are paired.",
+   "proposedReplacement": "That 'tzivah' is recorded after the Yom Kippur service was performed ('and he did as the Lord commanded Moses'), while the milu'im 'tzivah' precedes performance. The Gemara derives a 'tzivah' stated before the act from a 'tzivah' stated before the act, not one recorded after the act from one stated before it."
+  },
+  {
+   "sugyaId": "yoma-002b-s01",
+   "path": "quizSeeds[0].sourceRefs",
+   "sourceLines": "2b:1-4",
+   "severity": "wrong placement",
+   "currentClaim": [
+    {
+     "sourceType": "gemara",
+     "lineId": "yoma-002b-l01",
+     "vilnaLine": 1
+    }
+   ],
+   "sourceSupports": "The answer rests on lines 1-4 (proposal line 1-2, rejection lines 2-4), not line 1 alone.",
+   "proposedReplacement": [
+    {
+     "sourceType": "gemara",
+     "lineId": "yoma-002b-l01",
+     "vilnaLine": 1
+    },
+    {
+     "sourceType": "gemara",
+     "lineId": "yoma-002b-l02",
+     "vilnaLine": 2
+    },
+    {
+     "sourceType": "gemara",
+     "lineId": "yoma-002b-l04",
+     "vilnaLine": 4
+    }
+   ]
+  },
+  {
+   "sugyaId": "yoma-002b-s01",
+   "path": "quizSeeds[1].sourceRefs",
+   "sourceLines": "2b:4-6",
+   "severity": "wrong placement",
+   "currentClaim": [
+    {
+     "sourceType": "gemara",
+     "lineId": "yoma-002b-l04",
+     "vilnaLine": 4
+    }
+   ],
+   "sourceSupports": "The tzavoto proposal is lines 4-6 and its rejection is on line 6.",
+   "proposedReplacement": [
+    {
+     "sourceType": "gemara",
+     "lineId": "yoma-002b-l04",
+     "vilnaLine": 4
+    },
+    {
+     "sourceType": "gemara",
+     "lineId": "yoma-002b-l06",
+     "vilnaLine": 6
+    }
+   ]
+  },
+  {
+   "sugyaId": "yoma-002b-s02",
+   "path": "display.title",
+   "sourceLines": "2b:7-9",
+   "severity": "minor wording",
+   "currentClaim": "Challenge from Rabbi Yishmael's school: can different verb forms link?",
+   "sourceSupports": "Lines 8-9: shivah and bi'ah are two different verbs, not different forms of one verb.",
+   "proposedReplacement": "Challenge from Rabbi Yishmael's school: can two different verbs be linked?"
+  },
+  {
+   "sugyaId": "yoma-002b-s02",
+   "path": "display.oneLine",
+   "sourceLines": "2b:7-11",
+   "severity": "minor wording",
+   "currentClaim": "The school of Rabbi Yishmael derived a gezerah shavah from 'veshav' and 'uva' - two different verbs. Doesn't that mean 'tzavoto' can link to 'tzivah'? Answer: only when no identical form is available.",
+   "sourceSupports": "Lines 9-11: 'הני מילי היכא דליכא דדמי ליה אבל היכא דאיכא דדמי ליה מדדמי ליה ילפינן' - that applies where there is nothing more similar; where there is something more similar, we learn from the more similar one. The principle is comparative similarity, not 'identical form'.",
+   "proposedReplacement": "The school of Rabbi Yishmael linked 've-shav' and 'u-va' - two different verbs. Doesn't that mean 'tzavoto' can link to 'tzivah'? Answer: that applies only where nothing more similar is available."
+  },
+  {
+   "sugyaId": "yoma-002b-s02",
+   "path": "display.shortSummary",
+   "sourceLines": "2b:7-11",
+   "severity": "minor wording",
+   "currentClaim": "Rabbi Yishmael's school linked 've-shav' (returning) to 'u-va' (coming) in leprous-house laws - two different verb roots. If they can form a gezerah shavah, why can't 'tzavoto' link to 'tzivah'? The Gemara answers: different forms are only used when no identical form exists; where an identical form is available, that identical form takes precedence.",
+   "sourceSupports": "Lines 9-11: 'הני מילי היכא דליכא דדמי ליה אבל היכא דאיכא דדמי ליה מדדמי ליה ילפינן' - that applies where there is nothing more similar; where there is something more similar, we learn from the more similar one. The principle is comparative similarity, not 'identical form'.",
+   "proposedReplacement": "Rabbi Yishmael's school linked 've-shav' (returning) to 'u-va' (coming) in the laws of a leprous house - two different verbs. If they can form a gezerah shavah, why can't 'tzavoto' link to 'tzivah'? The Gemara answers: that applies only where there is nothing more similar; where something more similar is available, we learn from the more similar one."
+  },
+  {
+   "sugyaId": "yoma-002b-s02",
+   "path": "display.whats",
+   "sourceLines": "2b:7-11",
+   "severity": "minor wording",
+   "currentClaim": "The school of Rabbi Yishmael derived a halakha from 've-shav' (and he returned) linked to 'u-va' (and he came) - two completely different verbs. If that works, why can't 'tzivah' link to 'tzavoto'? The answer introduces a hierarchy rule: an identical form takes precedence over one that is merely similar, which is used only when no identical form is available.",
+   "sourceSupports": "Lines 9-11: 'הני מילי היכא דליכא דדמי ליה אבל היכא דאיכא דדמי ליה מדדמי ליה ילפינן' - that applies where there is nothing more similar; where there is something more similar, we learn from the more similar one. The principle is comparative similarity, not 'identical form'.",
+   "proposedReplacement": "What difference does the choice of 'tzivah' over 'tzavoto' make? The school of Rabbi Yishmael linked 've-shav' (and he shall return) to 'u-va' (and he shall come) - two different verbs. If that works, why can't 'tzivah' link to 'tzavoto'? The answer: that applies where there is nothing more similar; where there is something more similar, we learn from the more similar one."
+  },
+  {
+   "sugyaId": "yoma-002b-s02",
+   "path": "display.hint",
+   "sourceLines": "2b:7-11",
+   "severity": "contract violation",
+   "currentClaim": "What does this rule reveal about how the Sages thought a gezerah shavah derives its authority?",
+   "sourceSupports": "Lines 7-11 do not address how a gezerah shavah 'derives its authority'; the hint asks a question its own lines do not answer.",
+   "proposedReplacement": "If the school of Rabbi Yishmael paired two entirely different verbs, why does the Gemara still decline to pair 'tzivah' with 'tzavoto'?"
+  },
+  {
+   "sugyaId": "yoma-002b-s02",
+   "path": "learning.coreMove",
+   "sourceLines": "2b:9-11",
+   "severity": "minor wording",
+   "currentClaim": "The hierarchy rule: identical forms take priority over similar forms. The Yishmael precedent applies only in the absence of an identical match.",
+   "sourceSupports": "Lines 9-11: 'הני מילי היכא דליכא דדמי ליה אבל היכא דאיכא דדמי ליה מדדמי ליה ילפינן' - that applies where there is nothing more similar; where there is something more similar, we learn from the more similar one. The principle is comparative similarity, not 'identical form'.",
+   "proposedReplacement": "The priority rule: the more similar candidate takes precedence. The Yishmael precedent applies only where nothing more similar is available."
+  },
+  {
+   "sugyaId": "yoma-002b-s02",
+   "path": "learning.resolution",
+   "sourceLines": "2b:9-11",
+   "severity": "minor wording",
+   "currentClaim": "Different forms are acceptable only where identical forms do not exist; where an identical form is available, we derive from that identical form rather than from one that is merely similar.",
+   "sourceSupports": "Lines 9-11: 'הני מילי היכא דליכא דדמי ליה אבל היכא דאיכא דדמי ליה מדדמי ליה ילפינן' - that applies where there is nothing more similar; where there is something more similar, we learn from the more similar one. The principle is comparative similarity, not 'identical form'.",
+   "proposedReplacement": "Pairing different words is acceptable only where nothing more similar exists; where a more similar candidate is available ('tzivah' with 'tzivah'), we derive from that one."
+  },
+  {
+   "sugyaId": "yoma-002b-s02",
+   "path": "learning.takeaway.text",
+   "sourceLines": "2b:9-11",
+   "severity": "wrong meaning",
+   "currentClaim": "Among available verbal analogy candidates, identical forms always take priority over similar forms. A near-match is only used when no exact match exists.",
+   "sourceSupports": "Lines 9-11: 'הני מילי היכא דליכא דדמי ליה אבל היכא דאיכא דדמי ליה מדדמי ליה ילפינן' - that applies where there is nothing more similar; where there is something more similar, we learn from the more similar one. The principle is comparative similarity, not 'identical form'. 'Identical forms always take priority' restates the principle more narrowly and more absolutely than the page does.",
+   "proposedReplacement": "Among available verbal-analogy candidates, the more similar one takes priority. A less similar pairing, even of different words, is used only when nothing more similar exists."
+  },
+  {
+   "sugyaId": "yoma-002b-s02",
+   "path": "learning.ahaMoment",
+   "sourceLines": "2b:9-11",
+   "severity": "wrong meaning",
+   "currentClaim": "The limiting rule isn't specific to this case - it's the Gemara's own general principle that identical verbal forms take priority over merely similar ones for a gezerah shavah, which is why 'tzavoto' cannot be derived from 'tzivah' once an identical-form derivation is available.",
+   "sourceSupports": "Lines 9-11: 'הני מילי היכא דליכא דדמי ליה אבל היכא דאיכא דדמי ליה מדדמי ליה ילפינן' - that applies where there is nothing more similar; where there is something more similar, we learn from the more similar one. The principle is comparative similarity, not 'identical form'.",
+   "proposedReplacement": "The limiting rule is general: where there is something more similar, we learn from the more similar one. That is why 'tzavoto' is set aside here - not because different words can never be paired, but because 'tzivah' is available."
+  },
+  {
+   "sugyaId": "yoma-002b-s02",
+   "path": "learning.memoryAnchor",
+   "sourceLines": "2b:9-11",
+   "severity": "minor wording",
+   "currentClaim": "Different verb roots can pair in a gezerah shavah - but only as a last resort. 'Tzavoto' fails here not because it is too different, but because 'tzivah' is available. The fallback rule only activates when the exact match is absent.",
+   "sourceSupports": "Lines 9-11: 'הני מילי היכא דליכא דדמי ליה אבל היכא דאיכא דדמי ליה מדדמי ליה ילפינן' - that applies where there is nothing more similar; where there is something more similar, we learn from the more similar one. The principle is comparative similarity, not 'identical form'.",
+   "proposedReplacement": "Different verbs can pair in a gezerah shavah - but only when nothing more similar exists. 'Tzavoto' fails here not because it is too different, but because 'tzivah' is available."
+  },
+  {
+   "sugyaId": "yoma-002b-s02",
+   "path": "argumentFlow[0].text",
+   "sourceLines": "2b:7-9",
+   "severity": "wrong meaning",
+   "currentClaim": "What practical difference is there? The school of Rabbi Yishmael derived a gezerah shavah between 've-shav' (Lev. 14:39) and 'u-va' (Lev. 14:44) - two completely different roots - to establish that both returning and coming occur only after seven days. Clearly different forms can link.",
+   "sourceSupports": "Lines 7-9 cite only 'ושב הכהן ובא הכהן זו היא שיבה זו היא ביאה'. Nothing on the page (or in Rashi, which says: as returning means removing, scraping and plastering, so does coming) says the derivation establishes that both occur only after seven days. That content is fabricated for this page.",
+   "proposedReplacement": "What difference does it make? The school of Rabbi Yishmael taught that 've-shav ha-kohen' (Lev. 14:39) and 'u-va ha-kohen' (Lev. 14:44) are linked: 'this is returning, this is coming' - two different verbs. If entirely different words can be paired, why not 'tzavoto' with 'tzivah'?"
+  },
+  {
+   "sugyaId": "yoma-002b-s02",
+   "path": "argumentFlow[1].text",
+   "sourceLines": "2b:9-11",
+   "severity": "minor wording",
+   "currentClaim": "That rule (using different forms) applies only where no identical form is available. Where an identical form is available, we derive from the identical form.",
+   "sourceSupports": "Lines 9-11: 'הני מילי היכא דליכא דדמי ליה אבל היכא דאיכא דדמי ליה מדדמי ליה ילפינן' - that applies where there is nothing more similar; where there is something more similar, we learn from the more similar one. The principle is comparative similarity, not 'identical form'.",
+   "proposedReplacement": "That applies only where there is nothing more similar. Where there is something more similar, we learn from the more similar one."
+  },
+  {
+   "sugyaId": "yoma-002b-s02",
+   "path": "argumentFlow[1].label",
+   "sourceLines": "2b:9-11",
+   "severity": "minor wording",
+   "currentClaim": "Priority of identical forms",
+   "sourceSupports": "Lines 9-11: 'הני מילי היכא דליכא דדמי ליה אבל היכא דאיכא דדמי ליה מדדמי ליה ילפינן' - that applies where there is nothing more similar; where there is something more similar, we learn from the more similar one. The principle is comparative similarity, not 'identical form'.",
+   "proposedReplacement": "Priority of the more similar candidate"
+  },
+  {
+   "sugyaId": "yoma-002b-s02",
+   "path": "misconceptions[0].correction",
+   "sourceLines": "2b:9-11",
+   "severity": "minor wording",
+   "currentClaim": "Their precedent applies only when no identical form is available - it is the exception, not the rule.",
+   "sourceSupports": "Lines 9-11: 'הני מילי היכא דליכא דדמי ליה אבל היכא דאיכא דדמי ליה מדדמי ליה ילפינן' - that applies where there is nothing more similar; where there is something more similar, we learn from the more similar one. The principle is comparative similarity, not 'identical form'.",
+   "proposedReplacement": "Their precedent applies only when nothing more similar is available - it is the fallback, not the rule."
+  },
+  {
+   "sugyaId": "yoma-002b-s02",
+   "path": "visualizableElements[0].item",
+   "sourceLines": "2b:9-11",
+   "severity": "minor wording",
+   "currentClaim": "Two-tier rule: identical verbal form (priority) vs. similar/comparable form (used only when no identical form exists)",
+   "sourceSupports": "Lines 9-11: 'הני מילי היכא דליכא דדמי ליה אבל היכא דאיכא דדמי ליה מדדמי ליה ילפינן' - that applies where there is nothing more similar; where there is something more similar, we learn from the more similar one. The principle is comparative similarity, not 'identical form'.",
+   "proposedReplacement": "Two-tier rule: the more similar candidate (priority) vs. a less similar or different word (used only when nothing more similar exists)"
+  },
+  {
+   "sugyaId": "yoma-002b-s02",
+   "path": "quizSeeds[1].answer",
+   "sourceLines": "2b:9-11",
+   "severity": "minor wording",
+   "currentClaim": "The R. Yishmael precedent applies only when no identical form is available. Different forms are a fallback, not a first choice; where an identical form exists, it takes precedence.",
+   "sourceSupports": "Lines 9-11: 'הני מילי היכא דליכא דדמי ליה אבל היכא דאיכא דדמי ליה מדדמי ליה ילפינן' - that applies where there is nothing more similar; where there is something more similar, we learn from the more similar one. The principle is comparative similarity, not 'identical form'.",
+   "proposedReplacement": "The R. Yishmael precedent applies only where nothing more similar is available. Where something more similar exists - here 'tzivah' itself - we learn from it."
+  },
+  {
+   "sugyaId": "yoma-002b-s03",
+   "path": "argumentFlow[2].text",
+   "sourceLines": "2b:13-14",
+   "severity": "minor wording",
+   "currentClaim": "The Sages reply: Why not? We do know the schedule - each of the twenty-four priestly watches has set weeks of service, and the patrilineal families within a watch have set days within that week, so we could require the entire designated beit av to be sequestered.",
+   "sourceSupports": "Lines 13-14: 'אלמה לא ניבעי ליה פרישה לכוליה משמרת בית אב'. Rashi: the beit av of the watch is divided among the days of the week, each serving its own day, so the whole family could separate seven days before its day. The 'twenty-four watches' and 'set weeks' detail is on neither the page nor its Rashi.",
+   "proposedReplacement": "They answer: why not? Let the entire patrilineal family (beit av) of the watch be required to separate - each family serves on its own day of the week, so the whole family could separate for seven days before its day."
+  },
+  {
+   "sugyaId": "yoma-002b-s03",
+   "path": "argumentFlow[2].sourceRefs",
+   "sourceLines": "2b:13-14",
+   "severity": "wrong placement",
+   "currentClaim": [
+    {
+     "sourceType": "gemara",
+     "lineId": "yoma-002b-l12",
+     "vilnaLine": 12,
+     "note": "Rebuttal: require beit av"
+    }
+   ],
+   "sourceSupports": "The rebuttal begins at the end of line 13 ('אמרי אלמה') and runs into line 14.",
+   "proposedReplacement": [
+    {
+     "sourceType": "gemara",
+     "lineId": "yoma-002b-l13",
+     "vilnaLine": 13,
+     "note": "Rebuttal: require beit av"
+    },
+    {
+     "sourceType": "gemara",
+     "lineId": "yoma-002b-l14",
+     "vilnaLine": 14,
+     "note": "'the whole mishmar beit av'"
+    }
+   ]
+  },
+  {
+   "sugyaId": "yoma-002b-s03",
+   "path": "argumentFlow[3].sourceRefs",
+   "sourceLines": "2b:14-16",
+   "severity": "wrong placement",
+   "currentClaim": [
+    {
+     "sourceType": "gemara",
+     "lineId": "yoma-002b-l12",
+     "vilnaLine": 12,
+     "note": "Fixed-time principle"
+    },
+    {
+     "sourceType": "gemara",
+     "lineId": "yoma-002b-l16",
+     "vilnaLine": 16,
+     "note": "The exclusion's determinative clause, 'offerings occur every day'"
+    }
+   ],
+   "sourceSupports": "The fixed-time principle 'דנין דבר שקבוע לו זמן' begins on line 14 and the exclusion ends on line 16; line 12 is the practical objection.",
+   "proposedReplacement": [
+    {
+     "sourceType": "gemara",
+     "lineId": "yoma-002b-l14",
+     "vilnaLine": 14,
+     "note": "Fixed-time principle"
+    },
+    {
+     "sourceType": "gemara",
+     "lineId": "yoma-002b-l16",
+     "vilnaLine": 16,
+     "note": "The exclusion's determinative clause, 'offerings occur every day'"
+    }
+   ]
+  },
+  {
+   "sugyaId": "yoma-002b-s03",
+   "path": "argumentFlow[4].text",
+   "sourceLines": "2b:16",
+   "severity": "minor wording",
+   "currentClaim": "And say 'to atone' refers to Festival service, which recurs at a fixed time each year, like the inauguration.",
+   "sourceSupports": "Line 16 proposes 'רגלים'. The inauguration did not recur (Rashi: it happened only once); the point is that Festivals, like the inauguration, have a fixed time.",
+   "proposedReplacement": "And say 'to atone' refers to the Festivals, which, like the inauguration, have a fixed time."
+  },
+  {
+   "sugyaId": "yoma-002b-s03",
+   "path": "argumentFlow[5].sourceRefs",
+   "sourceLines": "2b:16-19",
+   "severity": "wrong placement",
+   "currentClaim": [
+    {
+     "sourceType": "gemara",
+     "lineId": "yoma-002b-l16",
+     "vilnaLine": 16,
+     "note": "Once-a-year principle"
+    }
+   ],
+   "sourceSupports": "The once-a-year principle and Festival exclusion are on lines 16-19 ('דנין דבר שנוהג פעם אחת בשנה' starts line 16 end and continues to line 19).",
+   "proposedReplacement": [
+    {
+     "sourceType": "gemara",
+     "lineId": "yoma-002b-l17",
+     "vilnaLine": 17,
+     "note": "Once-a-year principle"
+    },
+    {
+     "sourceType": "gemara",
+     "lineId": "yoma-002b-l19",
+     "vilnaLine": 19,
+     "note": "Festivals are not once a year"
+    }
+   ]
+  },
+  {
+   "sugyaId": "yoma-002b-s03",
+   "path": "quizSeeds[0].answer",
+   "sourceLines": "2b:14-16",
+   "severity": "wrong meaning",
+   "currentClaim": "Daily atonement offerings have no fixed annual time, while the inauguration was a time-fixed event. The Gemara derives a time-fixed matter (inauguration) from another time-fixed matter (Yom Kippur) only.",
+   "sourceSupports": "Lines 14-16: Yom Kippur (fixed time) is derived from the inauguration (fixed time). The current answer reverses the direction, saying the inauguration is derived from Yom Kippur.",
+   "proposedReplacement": "Offerings are brought every day, so they have no fixed time, while the inauguration had a fixed time. The Gemara derives a matter with a fixed time (Yom Kippur) only from a matter with a fixed time (the inauguration)."
+  },
+  {
+   "sugyaId": "yoma-002b-s03",
+   "path": "quizSeeds[0].sourceRefs",
+   "sourceLines": "2b:14-16",
+   "severity": "wrong placement",
+   "currentClaim": [
+    {
+     "sourceType": "gemara",
+     "lineId": "yoma-002b-l12",
+     "vilnaLine": 12
+    }
+   ],
+   "sourceSupports": "The answer rests on lines 14-16, not line 12.",
+   "proposedReplacement": [
+    {
+     "sourceType": "gemara",
+     "lineId": "yoma-002b-l14",
+     "vilnaLine": 14
+    },
+    {
+     "sourceType": "gemara",
+     "lineId": "yoma-002b-l16",
+     "vilnaLine": 16
+    }
+   ]
+  },
+  {
+   "sugyaId": "yoma-002b-s03",
+   "path": "visualizableElements[1].item",
+   "sourceLines": "2b:13-14",
+   "severity": "minor wording",
+   "currentClaim": "Beit av rotation schedule: each priestly family knows its service week in advance, refuting the practical objection",
+   "sourceSupports": "Rashi on line 13-14: the beit av has its own day in the week, not its own week.",
+   "proposedReplacement": "Beit av rotation: each patrilineal family serves on its own day of the week, so the whole family could separate in advance - the rebuttal of the practical objection"
+  },
+  {
+   "sugyaId": "yoma-002b-s04",
+   "path": "display.shortSummary",
+   "sourceLines": "2b:19-23",
+   "severity": "wrong meaning",
+   "currentClaim": "What if one Festival qualifies - perhaps Passover (listed first in the Torah) or Sukkot (most offerings)? The Gemara cuts this off with a structural principle: the inauguration involved seven days of preparation for one culminating day. But Festival service itself spans seven days. You cannot derive a 'seven days for one day' rule and apply it to a 'seven days for seven days' situation.",
+   "sourceSupports": "Lines 21-22: 'הואיל ומרובה מצותו' - because its commandments are more numerous. Rashi: sukkah, lulav, willow-branch, water libation. The source does not say Sukkot has the most offerings.",
+   "proposedReplacement": "What if one Festival qualifies - perhaps Passover (with which Scripture opens) or Sukkot (which has more commandments)? The Gemara cuts this off: the inauguration involved seven days of separation for one day. But a Festival itself lasts seven days. We do not derive separation of seven for seven from separation of seven for one."
+  },
+  {
+   "sugyaId": "yoma-002b-s04",
+   "path": "display.whats",
+   "sourceLines": "2b:19-23",
+   "severity": "wrong meaning",
+   "currentClaim": "What if one Festival qualifies - perhaps Passover (listed first in the Torah) or Sukkot (most offerings)? The Gemara cuts this off with a structural principle: the milu'im involved seven days of preparation for a single culminating day of service. Yom Kippur matches that exactly. But the Festivals themselves span seven days - you cannot derive a 'seven for one' rule and apply it to a 'seven for seven' situation.",
+   "sourceSupports": "Lines 21-22: 'הואיל ומרובה מצותו' - because its commandments are more numerous. Rashi: sukkah, lulav, willow-branch, water libation. The source does not say Sukkot has the most offerings.",
+   "proposedReplacement": "What if one Festival qualifies - perhaps Passover (with which Scripture opens) or Sukkot (which has more commandments)? The Gemara answers with a principle: the milu'im involved seven days of separation for a single day. Yom Kippur matches that exactly. But a Festival itself lasts seven days - we do not derive separation of seven for seven from separation of seven for one."
+  },
+  {
+   "sugyaId": "yoma-002b-s04",
+   "path": "learning.takeaway.text",
+   "sourceLines": "2b:22-23",
+   "severity": "minor wording",
+   "currentClaim": "A gezerah shavah or hekkesh must match not only the temporal frequency of the source case but its structural shape. Preparation for a seven-day service is categorically different from preparation for a one-day service.",
+   "sourceSupports": "Lines 22-23 compare only the shape of the separation (seven for one vs. seven for seven); 'hekkesh' and a rule for every gezerah shavah are not mentioned.",
+   "proposedReplacement": "In choosing what Yom Kippur is derived from, the Gemara matches the shape of the separation as well: seven days of separation for a one-day service, not seven days for a seven-day Festival."
+  },
+  {
+   "sugyaId": "yoma-002b-s04",
+   "path": "argumentFlow[1].text",
+   "sourceLines": "2b:22-23",
+   "severity": "minor wording",
+   "currentClaim": "We derive sequestering seven days for a one-day service from sequestering seven days for a one-day service - the inauguration's model requires an exact match. A Festival's own service spans seven days, not one, so it cannot be derived from this model.",
+   "sourceSupports": "Lines 22-23 state the derivation rule; 'requires an exact match' is an added generalization.",
+   "proposedReplacement": "We derive separation of seven days for one day from separation of seven days for one day; we do not derive separation of seven for seven from separation of seven for one. A Festival lasts seven days, so it is not derived from this model."
+  },
+  {
+   "sugyaId": "yoma-002b-s04",
+   "path": "visualizableElements[0].item",
+   "sourceLines": "2b:22-23",
+   "severity": "wrong placement",
+   "currentClaim": "Structural comparison: inauguration (7 days ordinary prep + 1 culminating service day) vs. Festival (7 days of continuous service) - the shapes do not match",
+   "sourceSupports": "'Ordinary' preceding days is the criterion of lines 24-26 (next sugya); this sugya's lines contrast only seven-for-one with seven-for-seven.",
+   "proposedReplacement": "Structural comparison: inauguration (7 days of separation for 1 culminating day) vs. Festival (7 days of Festival service) - seven-for-one versus seven-for-seven"
+  },
+  {
+   "sugyaId": "yoma-002b-s04",
+   "path": "quizSeeds[1].sourceRefs",
+   "sourceLines": "2b:22-23",
+   "severity": "wrong placement",
+   "currentClaim": [
+    {
+     "sourceType": "gemara",
+     "lineId": "yoma-002b-l19",
+     "vilnaLine": 19
+    }
+   ],
+   "sourceSupports": "'פרישת שבעה ליום אחד' appears on lines 22-23, not line 19.",
+   "proposedReplacement": [
+    {
+     "sourceType": "gemara",
+     "lineId": "yoma-002b-l22",
+     "vilnaLine": 22
+    },
+    {
+     "sourceType": "gemara",
+     "lineId": "yoma-002b-l23",
+     "vilnaLine": 23
+    }
+   ]
+  },
+  {
+   "sugyaId": "yoma-002b-s05",
+   "path": "display.hint",
+   "sourceLines": "2b:23-29",
+   "severity": "contract violation",
+   "currentClaim": "The amud's discussion of Rav Ashi's argument breaks off mid-sentence at 'that applies only to the matter of' - what might the continuation address?",
+   "sourceSupports": "The hint asks the learner to speculate about the continuation on 3a; the sugya's own lines cannot answer it. It also inserts 'only' into 'הני מילי לענין'.",
+   "proposedReplacement": "If the seven days before Shemini Atzeret are holy, why doesn't a kal va-chomer require separation before it?"
+  },
+  {
+   "sugyaId": "yoma-002b-s05",
+   "path": "display.whats",
+   "sourceLines": "2b:28",
+   "severity": "minor wording",
+   "currentClaim": "Shemini Atzeret looks like the perfect candidate: seven days of preparation (Sukkot) for one culminating day of service. The Gemara excludes it on the grounds that Yom Kippur and the milu'im were both preceded by ordinary, unconsecrated days. Shemini Atzeret is preceded by seven holy days of Sukkot - a fundamentally different situation. A kal va-chomer is then proposed: if a less-sanctified lead-up still requires separation, surely a more-sanctified one does too. Rav Mesharshiyya shuts this down: the verse says 'like this day' - exactly as the milu'im, no more. Rav Ashi adds a practical clincher: Sukkot itself (the primary Festival) requires no separation, so its appendage certainly cannot be stricter.",
+   "sourceSupports": "Line 28: Rav Ashi's argument is a logical one (primary vs. secondary), not a 'practical' one.",
+   "proposedReplacement": "Shemini Atzeret looks like the perfect candidate: seven days of separation for one day of service. The Gemara excludes it on the grounds that Yom Kippur and the milu'im were not preceded by holy days, while Shemini Atzeret is preceded by the seven holy days of Sukkot. A kal va-chomer is then proposed: if a case without preceding sanctity requires separation, surely one with preceding sanctity does too. Rav Mesharshiyya answers that the verse writes 'this' ('as he did on this day'), meaning 'like this' - only a case like the milu'im. Rav Ashi adds a further argument: Sukkot itself (the primary Festival) requires no separation, so its appended day cannot require it."
+  },
+  {
+   "sugyaId": "yoma-002b-s05",
+   "path": "learning.memoryAnchor",
+   "sourceLines": "2b:27",
+   "severity": "wrong meaning",
+   "currentClaim": "Two independent rejections of the kal va-chomer: Rav Mesharshiya reads the verse's 'kazeh' (like this day), not 'hazeh' (this day), as limiting the rule to a case exactly like the inauguration - more sanctity does not extend it. Separately, Rav Ashi argues the primary Festival itself needs no separation, so its appendage cannot be stricter - the less cannot be stricter than the more.",
+   "sourceSupports": "Line 27: Rav Mesharshiyya says the verse writes 'הזה' (this), read as 'כזה' (like this). The verse (as quoted on 2a, 'כאשר עשה ביום הזה') says 'hazeh'; the field states the opposite, that the verse's word is 'kazeh' and not 'hazeh'.",
+   "proposedReplacement": "Two independent answers to the kal va-chomer: Rav Mesharshiyya notes the verse writes 'hazeh' ('as he did on this day'), read as 'kazeh' - like this - limiting the rule to a case like the inauguration, so more sanctity does not extend it. Separately, Rav Ashi argues that the primary Festival itself needs no separation, so its appended day cannot require it."
+  },
+  {
+   "sugyaId": "yoma-002b-s05",
+   "path": "argumentFlow[3].text",
+   "sourceLines": "2b:27",
+   "severity": "minor wording",
+   "currentClaim": "The verse says 'as the Lord commanded to do on this day' - separation is required only for a case like the inauguration exactly, not for any case with more sanctity.",
+   "sourceSupports": "Line 27 says 'הזה כתיב כזה'. The verse is 'as he did on this day, the Lord commanded to do'; the current text garbles it as 'as the Lord commanded to do on this day'.",
+   "proposedReplacement": "Rav Mesharshiyya: the verse writes 'this' ('as he did on this day'), meaning 'like this' - separation is required only for a case like the inauguration, not for any case with more sanctity."
+  },
+  {
+   "sugyaId": "yoma-002b-s05",
+   "path": "argumentFlow[3].sourceRefs",
+   "sourceLines": "2b:27",
+   "severity": "wrong placement",
+   "currentClaim": [
+    {
+     "sourceType": "gemara",
+     "lineId": "yoma-002b-l26",
+     "vilnaLine": 26,
+     "note": "Rav Mesharshiyya: kazeh hayom"
+    }
+   ],
+   "sourceSupports": "Rav Mesharshiyya's statement is on line 27, not 26; the note 'kazeh hayom' is not the wording on the page.",
+   "proposedReplacement": [
+    {
+     "sourceType": "gemara",
+     "lineId": "yoma-002b-l27",
+     "vilnaLine": 27,
+     "note": "Rav Mesharshiyya: 'hazeh' read as 'kazeh'"
+    }
+   ]
+  },
+  {
+   "sugyaId": "yoma-002b-s05",
+   "path": "misconceptions[0].correction",
+   "sourceLines": "2b:28-29",
+   "severity": "minor wording",
+   "currentClaim": "Rav Ashi's argument explicitly applies even for those who hold Shemini Atzeret is a fully independent Festival - though the text cuts off at 'הני מילי לענין' before stating the precise scope of that qualification.",
+   "sourceSupports": "Line 29: 'even according to the one who says Shemini is a Festival in its own right, that applies regarding...' - the view limits its independence to certain matters, so 'fully independent' overstates it. The list of matters begins only on line 30 and continues on 3a.",
+   "proposedReplacement": "Rav Ashi's argument explicitly applies even according to the view that Shemini Atzeret is a Festival in its own right: he begins to limit that independence to certain matters ('that applies regarding...'), and the sentence continues beyond this sugya's lines onto 3a."
+  },
+  {
+   "sugyaId": "dafLevel",
+   "path": "dafLevel.summary",
+   "sourceLines": "2b:1-29",
+   "severity": "wrong meaning",
+   "currentClaim": "2b continues the Gemara's analysis of the gezerah shavah that sources the seven-day separation rule. Before accepting that 'tzivah' in the milu'im verse links to the heifer's 'tzivah,' the Gemara systematically disqualifies two other 'tzivah' candidates: the one in the Yom Kippur passage (it appears after the service, not before) and the 'tzavoto' form in the offerings verse (different conjugation). A challenge from Rabbi Yishmael's school - that different verb forms can form a gezerah shavah - is answered by the rule that identical forms take priority when available. The Gemara then narrows 'le-chaper' (to atone) to exclude general offerings (daily, no fixed time), Festivals (three times a year), and a single Festival (raising, then setting aside, the question of whether it would be Passover, with which the Torah opens, or Sukkot, which has the most offerings) - excluded since it is a seven-day service, not a one-day service - and Shemini Atzeret (preceded by sanctified days). A kal va-chomer is proposed and rejected by both Rav Mesharshiyya and Rav Ashi.",
+   "sourceSupports": "Lines 21-22: 'הואיל ומרובה מצותו' - because its commandments are more numerous. Rashi: sukkah, lulav, willow-branch, water libation. The source does not say Sukkot has the most offerings. Lines 8-9: R. Yishmael's school paired two different verbs, not 'different verb forms'. Lines 9-11: the answer is that the more similar candidate takes priority, not 'identical forms'. The summary also omits that the daf ends mid-sentence in Rav Ashi's qualification.",
+   "proposedReplacement": "2b continues the Gemara's defense of the gezerah shavah begun on 2a that sources the seven-day separation from the milu'im. The Gemara considers two other candidates for 'tzivah': the 'tzivah' of the Yom Kippur passage, set aside because it is recorded after the service while the milu'im and heifer commands precede it, and the 'tzavoto' of the offerings verse, set aside because we pair 'tzivah' with 'tzivah'. A challenge from the school of Rabbi Yishmael, which paired two different verbs ('returning' and 'coming'), is answered: that applies only where nothing more similar exists. The Gemara then asks whether 'le-chaper' (to atone) might mean the atonement of offerings; after asking how one would know which kohen will serve, and answering that the whole beit av could separate, it excludes offerings because they occur every day and lack a fixed time. Festivals are excluded because they do not occur once a year; a single Festival (Passover, with which Scripture opens, or Sukkot, which has more commandments) is excluded because its separation would be seven for seven days, not seven for one day; and Shemini Atzeret is excluded because holy days precede it. A kal va-chomer is answered by Rav Mesharshiyya ('this' read as 'like this') and by Rav Ashi (the primary Festival needs no separation, so its appended day cannot). The daf ends mid-sentence as Rav Ashi begins to qualify the view that Shemini Atzeret is a Festival in its own right; the qualification continues on 3a."
+  },
+  {
+   "sugyaId": "dafLevel",
+   "path": "dafLevel.glossary[0].en",
+   "sourceLines": "2b:9-11",
+   "severity": "minor wording",
+   "currentClaim": "Verbal analogy: a Talmudic derivation that transfers rules between two passages sharing an identical or near-identical word or phrase. Identical forms take priority over similar ones when both are available.",
+   "sourceSupports": "Lines 9-11: 'הני מילי היכא דליכא דדמי ליה אבל היכא דאיכא דדמי ליה מדדמי ליה ילפינן' - that applies where there is nothing more similar; where there is something more similar, we learn from the more similar one. The principle is comparative similarity, not 'identical form'.",
+   "proposedReplacement": "Verbal analogy: a Talmudic derivation that transfers rules between two passages sharing a word or phrase. Where several candidates exist, the more similar one takes priority; a less similar pairing is used only when nothing more similar exists."
+  },
+  {
+   "sugyaId": "dafLevel",
+   "path": "dafLevel.glossary[3].en",
+   "sourceLines": "2b:12-14",
+   "severity": "minor wording",
+   "currentClaim": "The Temple priestly rotation: 24 teams (mishmarot) each serving one week at a time, subdivided by family units (batei av) serving specific days. The Gemara notes this schedule could theoretically allow advance identification of which kohen needs to separate.",
+   "sourceSupports": "Lines 12-14 and Rashi: it is not known in advance which kohen will be chosen (by lot); the beit av of the watch serves on its own day of the week. '24 teams each serving one week' is not on this daf or its Rashi.",
+   "proposedReplacement": "The Temple priestly rotation: each watch (mishmar) is divided into patrilineal families (batei av), each serving on its own day of the week. The Gemara suggests the whole beit av could be required to separate, since it is not known in advance which individual kohen will be chosen to serve."
+  }
+ ],
+ "nonDefectObservations": [
+  "Raw 2b line 1 repeats 'ואימא' that already ends raw 2a, and raw 3a line 1 repeats 'פז\"ר' that ends 2b: catchword overlap in the talmuddev cache. Not used to support any claim; not escalated.",
+  "Raw line 27 reads 'לא הזה כתיב כזה'; Rashi glosses 'הזה כתיב - כאשר עשה ביום הזה. כזה - ...'. The meaning ('this' written, read as 'like this') is unaffected; not escalated as a source defect.",
+  "s01 display.whats states the 2a pairing as background; acceptable as continuation framing; the proposed replacement labels it explicitly as continuing from 2a.",
+  "No field on 2b imports the 3a conclusion (the PZR/KShB list, the tashlumin point, or the Atzeret/R. Abba exchange). All five finalRuling values are empty, correctly: the sugyot are analytical derivation discussion with no halachic bottom line stated on 2b.",
+  "topicTags on all five sugyot are lowercase hyphenated ASCII slugs with no duplicates; requiresUnderstanding values all resolve to real 2b sugya ids; relatedSugyot resolve; no prerequisiteKnowledge field present; conceptRefs empty; alternateAngles empty; difficulty values (intermediate x4, advanced for s05) are reasonable; argumentFlow step types match the moves; reasoningPattern categories are reasonable; learning.takeaway.type values are reasonable. No 'concepts' field present."
+ ],
+ "blocked": [],
+ "completenessStatement": "Every semantic field on 2b was checked against the Hebrew source, including fields that did not look suspicious: the daf summary, all four daf-level glossary entries, and every enumerated leaf of all five sugyot (display.*, learning.* including takeaway and reasoningPattern, every argumentFlow step's id/type/label/speaker/text/sourceRefs, every misconception, every quizSeed question/answer/sourceRefs, topicTags, requiresUnderstanding, relatedSugyot, visualizableElements, conceptRefs, alternateAngles, finalRuling, difficulty, lineRange). The full leaf list per sugya is in perSugya[].fieldsChecked. Fields not listed in `defects` were found supported by the sugya's own lines (or, for daf-level fields, by lines on 2b). No BLOCKED item. This first pass is not certification."
+}

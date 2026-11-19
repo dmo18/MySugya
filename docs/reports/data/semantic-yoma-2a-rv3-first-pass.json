@@ -1,0 +1,3986 @@
+{
+ "reviewId": "rv3-first-2a-opus",
+ "reviewMode": "FIRST_PASS",
+ "module": "yoma",
+ "daf": "2a",
+ "authorityStatement": "Only the talmuddev Hebrew lines 1-39 were treated as authority. Existing certificates, review labels, and agreement between fields were not used as evidence. Rashi was consulted only as commentary on lines 1-27.",
+ "independentSourceFlowReconstruction": {
+  "dafEndState": "MID_QUESTION",
+  "finalRawLine": {
+   "vilnaLine": 39,
+   "he": "ואימא"
+  },
+  "rawLineCount": 39,
+  "sections": [
+   {
+    "lines": "1-7",
+    "unit": "Mishnah",
+    "content": "Seven days before Yom Kippur they separate (mafrishin) the Kohen Gadol from his house to the Chamber of Parhedrin, and they prepare another kohen in his place lest a disqualification (pesul) befall him (lines 1-4). Rabbi Yehuda: they also prepare another wife for him lest his wife die, as it says 'and he shall atone for himself and for his house' (Lev 16), 'his house' is his wife (lines 4-7). They (the Sages) said to him: if so, there is no end to the matter (line 7). No reply by Rabbi Yehuda appears on this daf."
+   },
+   {
+    "lines": "8-14",
+    "unit": "Gemara: Mishnah Parah 3:1 cited",
+    "content": "'Tenan hatam': seven days before the burning of the parah they would separate the kohen who burns it from his house to the chamber facing the Bira, to the northeast, called the Chamber of the Stone House (lines 8-11). Why so called? Because all its acts were done with dung vessels, stone vessels and earth vessels (lines 12-14)."
+   },
+   {
+    "lines": "14-20",
+    "unit": "Gemara: reason for the vessels",
+    "content": "Question: what is the reason (for those vessels)? Answer: since a tevul yom is fit for the parah (line 14), as taught: they would make the kohen who burns the parah tamei and immerse him, to refute the Sadducees who said it was done only by those whose sun had set (me'orvei shemesh) (lines 15-17); the Rabbis instituted dung, stone and earth vessels that do not receive impurity, so that people would not treat it lightly (lines 18-20). The stated cause is the tevul yom leniency; the Mishnah about deliberate impurity is cited as its proof."
+   },
+   {
+    "lines": "20-24",
+    "unit": "Gemara: why northeast",
+    "content": "Why northeast specifically? Since it is a chatat, and a chatat requires the north, and of it is written 'toward the front of the Tent of Meeting' (Num 19:4), the Rabbis instituted a northeast chamber so that it would have a distinguishing sign (heikher) (lines 20-24). Rashi: the parah itself is not slaughtered in the north (it was on the Mount of Olives); the location is a sign, not a fulfillment of a directional requirement."
+   },
+   {
+    "lines": "24-27",
+    "unit": "Gemara: meaning of Bira",
+    "content": "What is Bira? Rabba bar bar Chana citing Rabbi Yochanan: a place on the Temple Mount named Bira (lines 24-26). Reish Lakish: the whole Mikdash is called Bira, as it says 'the Bira which I prepared' (I Chr 29:19) (lines 26-27). No resolution."
+   },
+   {
+    "lines": "27-38",
+    "unit": "Gemara: source for the separations",
+    "content": "Menah hanei milei (source for the separation of the Kohen Gadol and of the parah kohen)? Rabbi Manyomi bar Chilkiya citing Rabbi Machsiya bar Idi citing Rabbi Yochanan: 'As was done this day, the Lord commanded to do, to atone for you' (Lev 8:34): 'to do' = acts of the parah, 'to atone' = acts of Yom Kippur (lines 27-31). Challenge: granted the whole verse cannot be set on the parah, since 'to atone' is written and the parah is not a matter of atonement; but say the whole verse is about Yom Kippur (lines 32-34). Answer (amrei): he derives tzivah-tzivah: here 'the Lord commanded to do', there 'this is the statute of the Torah which the Lord commanded' (Num 19:2); as there it is the parah, so here the parah; and as here there is separation, so there separation (lines 34-38). The challenge concedes the Yom Kippur half."
+   },
+   {
+    "lines": "39",
+    "unit": "Open continuation",
+    "content": "'Ve'eima' - the Gemara begins a further challenge; its content is not on 2a and continues on 2b. Nothing on 2a resolves it. By coordinator decision line 39 stays outside every sugya lineRange (s06 ends at 38); it is described only in dafLevel.summary."
+   }
+  ]
+ },
+ "boundaryVerdict": "VERIFIED",
+ "boundaryVerdicts": {
+  "yoma-002a-s01": {
+   "declared": [
+    1,
+    7
+   ],
+   "verdict": "VERIFIED",
+   "note": "Entire Mishnah, ends with 'ein ladavar sof' on line 7."
+  },
+  "yoma-002a-s02": {
+   "declared": [
+    8,
+    14
+   ],
+   "verdict": "VERIFIED",
+   "note": "Parah Mishnah citation through the name explanation ending 'adamah' on line 14; shared line 14 is a sentence split."
+  },
+  "yoma-002a-s03": {
+   "declared": [
+    14,
+    20
+   ],
+   "verdict": "VERIFIED",
+   "note": "'Mai taama' (line 14) through 'lo lizalzelu bah' (line 20)."
+  },
+  "yoma-002a-s04": {
+   "declared": [
+    20,
+    24
+   ],
+   "verdict": "VERIFIED",
+   "note": "'Mai shna tzafona mizracha' (line 20) through 'heichira' (line 24)."
+  },
+  "yoma-002a-s05": {
+   "declared": [
+    24,
+    27
+   ],
+   "verdict": "VERIFIED",
+   "note": "'Mai bira' (line 24) through 'habira asher hachinoti' (line 27)."
+  },
+  "yoma-002a-s06": {
+   "declared": [
+    27,
+    38
+   ],
+   "verdict": "VERIFIED",
+   "note": "Coordinator decision (fallback): lineRange stays 27-38. Line 27 ('menah hanei milei') through line 38 ('af lehalan perisha') is the full derivation and its defense. Line 39 ('ve'eima') opens a further challenge that continues on 2b; it is left outside every sugya range (a systemic Yoma convention, 136 of 173 daf leave trailing lines unowned). The open challenge is therefore stated only in dafLevel.summary, which may cite any line on the daf; s06 fields may say only that the discussion continues on the next amud, without its content or outcome. Every s06 claim that rested on line 39 is repaired below."
+  }
+ },
+ "dafSummaryVerdict": "REPAIR_REQUIRED",
+ "dafGlossaryVerdict": {
+  "verdict": "VERIFIED",
+  "note": "All five glossary entries (Parhedrin, Parah Adumah, Tvul Yom, Gezerah Shavah, Milu'im) checked against lines 1-38; each is consistent with the source and with Rashi, and none imports 2b content. The Milu'im entry describes Rabbi Yochanan's derivation as the template, which is how 2a presents it."
+ },
+ "perSugya": [
+  {
+   "sugyaId": "yoma-002a-s01",
+   "verdict": "REPAIR_REQUIRED",
+   "boundaryVerdict": {
+    "declared": [
+     1,
+     7
+    ],
+    "verdict": "VERIFIED",
+    "note": "Entire Mishnah, ends with 'ein ladavar sof' on line 7."
+   },
+   "defectCount": 6,
+   "fieldsChecked": 96,
+   "fieldInventoryFirstPass": [
+    {
+     "path": "lineRange",
+     "class": "STRUCTURAL",
+     "firstPassVerdict": "NONFACTUAL"
+    },
+    {
+     "path": "lines",
+     "class": "STRUCTURAL",
+     "firstPassVerdict": "NONFACTUAL"
+    },
+    {
+     "path": "dafLevel.glossary[0].en",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "dafLevel.glossary[0].he",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "dafLevel.glossary[0].translit",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "dafLevel.glossary[1].en",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "dafLevel.glossary[1].he",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "dafLevel.glossary[1].translit",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "dafLevel.glossary[2].en",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "dafLevel.glossary[2].he",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "dafLevel.glossary[2].translit",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "dafLevel.glossary[3].en",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "dafLevel.glossary[3].he",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "dafLevel.glossary[3].translit",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "dafLevel.glossary[4].en",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "dafLevel.glossary[4].he",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "dafLevel.glossary[4].translit",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "dafLevel.summary",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "REPAIR_REQUIRED"
+    },
+    {
+     "path": "alternateAngles[0]",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "argumentFlow[step-01].id",
+     "class": "STRUCTURAL",
+     "firstPassVerdict": "NONFACTUAL"
+    },
+    {
+     "path": "argumentFlow[step-01].label",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "argumentFlow[step-01].sourceRefs[0].lineId",
+     "class": "STRUCTURAL",
+     "firstPassVerdict": "NONFACTUAL"
+    },
+    {
+     "path": "argumentFlow[step-01].sourceRefs[0].note",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "argumentFlow[step-01].sourceRefs[0].sourceType",
+     "class": "STRUCTURAL",
+     "firstPassVerdict": "NONFACTUAL"
+    },
+    {
+     "path": "argumentFlow[step-01].sourceRefs[0].vilnaLine",
+     "class": "STRUCTURAL",
+     "firstPassVerdict": "NONFACTUAL"
+    },
+    {
+     "path": "argumentFlow[step-01].speaker",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "argumentFlow[step-01].text",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "REPAIR_REQUIRED"
+    },
+    {
+     "path": "argumentFlow[step-01].type",
+     "class": "METADATA",
+     "firstPassVerdict": "REVIEWED"
+    },
+    {
+     "path": "argumentFlow[step-02].id",
+     "class": "STRUCTURAL",
+     "firstPassVerdict": "NONFACTUAL"
+    },
+    {
+     "path": "argumentFlow[step-02].label",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "argumentFlow[step-02].sourceRefs[0].lineId",
+     "class": "STRUCTURAL",
+     "firstPassVerdict": "NONFACTUAL"
+    },
+    {
+     "path": "argumentFlow[step-02].sourceRefs[0].note",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "argumentFlow[step-02].sourceRefs[0].sourceType",
+     "class": "STRUCTURAL",
+     "firstPassVerdict": "NONFACTUAL"
+    },
+    {
+     "path": "argumentFlow[step-02].sourceRefs[0].vilnaLine",
+     "class": "STRUCTURAL",
+     "firstPassVerdict": "NONFACTUAL"
+    },
+    {
+     "path": "argumentFlow[step-02].speaker",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "argumentFlow[step-02].text",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "argumentFlow[step-02].type",
+     "class": "METADATA",
+     "firstPassVerdict": "REVIEWED"
+    },
+    {
+     "path": "argumentFlow[step-03].id",
+     "class": "STRUCTURAL",
+     "firstPassVerdict": "NONFACTUAL"
+    },
+    {
+     "path": "argumentFlow[step-03].label",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "argumentFlow[step-03].sourceRefs[0].lineId",
+     "class": "STRUCTURAL",
+     "firstPassVerdict": "NONFACTUAL"
+    },
+    {
+     "path": "argumentFlow[step-03].sourceRefs[0].note",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "argumentFlow[step-03].sourceRefs[0].sourceType",
+     "class": "STRUCTURAL",
+     "firstPassVerdict": "NONFACTUAL"
+    },
+    {
+     "path": "argumentFlow[step-03].sourceRefs[0].vilnaLine",
+     "class": "STRUCTURAL",
+     "firstPassVerdict": "REPAIR_REQUIRED"
+    },
+    {
+     "path": "argumentFlow[step-03].speaker",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "argumentFlow[step-03].text",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "argumentFlow[step-03].type",
+     "class": "METADATA",
+     "firstPassVerdict": "REVIEWED"
+    },
+    {
+     "path": "conceptRefs[person.kohen_gadol].id",
+     "class": "STRUCTURAL",
+     "firstPassVerdict": "NONFACTUAL"
+    },
+    {
+     "path": "conceptRefs[person.kohen_gadol].label",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "conceptRefs[person.kohen_gadol].scope",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "conceptRefs[person.rabbi_yehuda].id",
+     "class": "STRUCTURAL",
+     "firstPassVerdict": "NONFACTUAL"
+    },
+    {
+     "path": "conceptRefs[person.rabbi_yehuda].label",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "conceptRefs[person.rabbi_yehuda].scope",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "difficulty",
+     "class": "METADATA",
+     "firstPassVerdict": "REVIEWED"
+    },
+    {
+     "path": "display.hint",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "REPAIR_REQUIRED"
+    },
+    {
+     "path": "display.oneLine",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "display.shortSummary",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "display.title",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "display.whats",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "finalRuling",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "learning.ahaMoment",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "learning.coreMove",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "learning.coreTension",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "learning.learnerQuestion",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "learning.learningBlocker",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "learning.memoryAnchor",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "learning.reasoningPattern.category",
+     "class": "METADATA",
+     "firstPassVerdict": "REVIEWED"
+    },
+    {
+     "path": "learning.reasoningPattern.id",
+     "class": "STRUCTURAL",
+     "firstPassVerdict": "NONFACTUAL"
+    },
+    {
+     "path": "learning.reasoningPattern.notes",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "learning.resolution",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "learning.takeaway.text",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "learning.takeaway.type",
+     "class": "METADATA",
+     "firstPassVerdict": "REVIEWED"
+    },
+    {
+     "path": "misconceptions[0].correctedByStepId",
+     "class": "STRUCTURAL",
+     "firstPassVerdict": "REPAIR_REQUIRED"
+    },
+    {
+     "path": "misconceptions[0].correction",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "REPAIR_REQUIRED"
+    },
+    {
+     "path": "misconceptions[0].misconception",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "REPAIR_REQUIRED"
+    },
+    {
+     "path": "prerequisiteKnowledge[0]",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "quizSeeds[0].answer",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "quizSeeds[0].question",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "quizSeeds[0].sourceRefs[0].lineId",
+     "class": "STRUCTURAL",
+     "firstPassVerdict": "NONFACTUAL"
+    },
+    {
+     "path": "quizSeeds[0].sourceRefs[0].sourceType",
+     "class": "STRUCTURAL",
+     "firstPassVerdict": "NONFACTUAL"
+    },
+    {
+     "path": "quizSeeds[0].sourceRefs[0].vilnaLine",
+     "class": "STRUCTURAL",
+     "firstPassVerdict": "NONFACTUAL"
+    },
+    {
+     "path": "quizSeeds[1].answer",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "quizSeeds[1].question",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "quizSeeds[1].sourceRefs[0].lineId",
+     "class": "STRUCTURAL",
+     "firstPassVerdict": "NONFACTUAL"
+    },
+    {
+     "path": "quizSeeds[1].sourceRefs[0].sourceType",
+     "class": "STRUCTURAL",
+     "firstPassVerdict": "NONFACTUAL"
+    },
+    {
+     "path": "quizSeeds[1].sourceRefs[0].vilnaLine",
+     "class": "STRUCTURAL",
+     "firstPassVerdict": "REPAIR_REQUIRED"
+    },
+    {
+     "path": "quizSeeds[2].answer",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "quizSeeds[2].question",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "quizSeeds[2].sourceRefs[0].lineId",
+     "class": "STRUCTURAL",
+     "firstPassVerdict": "NONFACTUAL"
+    },
+    {
+     "path": "quizSeeds[2].sourceRefs[0].sourceType",
+     "class": "STRUCTURAL",
+     "firstPassVerdict": "NONFACTUAL"
+    },
+    {
+     "path": "quizSeeds[2].sourceRefs[0].vilnaLine",
+     "class": "STRUCTURAL",
+     "firstPassVerdict": "REPAIR_REQUIRED"
+    },
+    {
+     "path": "relatedSugyot[0]",
+     "class": "STRUCTURAL",
+     "firstPassVerdict": "NONFACTUAL"
+    },
+    {
+     "path": "topicTags[0]",
+     "class": "STRUCTURAL",
+     "firstPassVerdict": "NONFACTUAL"
+    },
+    {
+     "path": "topicTags[1]",
+     "class": "STRUCTURAL",
+     "firstPassVerdict": "NONFACTUAL"
+    },
+    {
+     "path": "topicTags[2]",
+     "class": "STRUCTURAL",
+     "firstPassVerdict": "NONFACTUAL"
+    },
+    {
+     "path": "topicTags[3]",
+     "class": "STRUCTURAL",
+     "firstPassVerdict": "NONFACTUAL"
+    },
+    {
+     "path": "topicTags[4]",
+     "class": "STRUCTURAL",
+     "firstPassVerdict": "NONFACTUAL"
+    }
+   ]
+  },
+  {
+   "sugyaId": "yoma-002a-s02",
+   "verdict": "REPAIR_REQUIRED",
+   "boundaryVerdict": {
+    "declared": [
+     8,
+     14
+    ],
+    "verdict": "VERIFIED",
+    "note": "Parah Mishnah citation through the name explanation ending 'adamah' on line 14; shared line 14 is a sentence split."
+   },
+   "defectCount": 4,
+   "fieldsChecked": 79,
+   "fieldInventoryFirstPass": [
+    {
+     "path": "lineRange",
+     "class": "STRUCTURAL",
+     "firstPassVerdict": "NONFACTUAL"
+    },
+    {
+     "path": "lines",
+     "class": "STRUCTURAL",
+     "firstPassVerdict": "NONFACTUAL"
+    },
+    {
+     "path": "dafLevel.glossary[0].en",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "dafLevel.glossary[0].he",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "dafLevel.glossary[0].translit",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "dafLevel.glossary[1].en",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "dafLevel.glossary[1].he",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "dafLevel.glossary[1].translit",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "dafLevel.glossary[2].en",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "dafLevel.glossary[2].he",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "dafLevel.glossary[2].translit",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "dafLevel.glossary[3].en",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "dafLevel.glossary[3].he",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "dafLevel.glossary[3].translit",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "dafLevel.glossary[4].en",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "dafLevel.glossary[4].he",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "dafLevel.glossary[4].translit",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "dafLevel.summary",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "REPAIR_REQUIRED"
+    },
+    {
+     "path": "argumentFlow[step-01].id",
+     "class": "STRUCTURAL",
+     "firstPassVerdict": "NONFACTUAL"
+    },
+    {
+     "path": "argumentFlow[step-01].label",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "argumentFlow[step-01].sourceRefs[0].lineId",
+     "class": "STRUCTURAL",
+     "firstPassVerdict": "NONFACTUAL"
+    },
+    {
+     "path": "argumentFlow[step-01].sourceRefs[0].note",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "argumentFlow[step-01].sourceRefs[0].sourceType",
+     "class": "STRUCTURAL",
+     "firstPassVerdict": "NONFACTUAL"
+    },
+    {
+     "path": "argumentFlow[step-01].sourceRefs[0].vilnaLine",
+     "class": "STRUCTURAL",
+     "firstPassVerdict": "NONFACTUAL"
+    },
+    {
+     "path": "argumentFlow[step-01].speaker",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "argumentFlow[step-01].text",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "argumentFlow[step-01].type",
+     "class": "METADATA",
+     "firstPassVerdict": "REVIEWED"
+    },
+    {
+     "path": "argumentFlow[step-02].id",
+     "class": "STRUCTURAL",
+     "firstPassVerdict": "NONFACTUAL"
+    },
+    {
+     "path": "argumentFlow[step-02].label",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "argumentFlow[step-02].sourceRefs[0].lineId",
+     "class": "STRUCTURAL",
+     "firstPassVerdict": "NONFACTUAL"
+    },
+    {
+     "path": "argumentFlow[step-02].sourceRefs[0].note",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "argumentFlow[step-02].sourceRefs[0].sourceType",
+     "class": "STRUCTURAL",
+     "firstPassVerdict": "NONFACTUAL"
+    },
+    {
+     "path": "argumentFlow[step-02].sourceRefs[0].vilnaLine",
+     "class": "STRUCTURAL",
+     "firstPassVerdict": "NONFACTUAL"
+    },
+    {
+     "path": "argumentFlow[step-02].speaker",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "argumentFlow[step-02].text",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "argumentFlow[step-02].type",
+     "class": "METADATA",
+     "firstPassVerdict": "REVIEWED"
+    },
+    {
+     "path": "conceptRefs[concept.parah_adumah].id",
+     "class": "STRUCTURAL",
+     "firstPassVerdict": "NONFACTUAL"
+    },
+    {
+     "path": "conceptRefs[concept.parah_adumah].label",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "conceptRefs[concept.parah_adumah].scope",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "difficulty",
+     "class": "METADATA",
+     "firstPassVerdict": "REVIEWED"
+    },
+    {
+     "path": "display.hint",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "display.oneLine",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "display.shortSummary",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "display.title",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "display.whats",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "finalRuling",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "REPAIR_REQUIRED"
+    },
+    {
+     "path": "learning.ahaMoment",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "learning.coreMove",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "learning.coreTension",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "learning.learnerQuestion",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "learning.learningBlocker",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "learning.memoryAnchor",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "learning.reasoningPattern.category",
+     "class": "METADATA",
+     "firstPassVerdict": "REVIEWED"
+    },
+    {
+     "path": "learning.reasoningPattern.id",
+     "class": "STRUCTURAL",
+     "firstPassVerdict": "NONFACTUAL"
+    },
+    {
+     "path": "learning.reasoningPattern.notes",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "learning.resolution",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "REPAIR_REQUIRED"
+    },
+    {
+     "path": "learning.takeaway.text",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "learning.takeaway.type",
+     "class": "METADATA",
+     "firstPassVerdict": "REVIEWED"
+    },
+    {
+     "path": "misconceptions[0].correctedByStepId",
+     "class": "STRUCTURAL",
+     "firstPassVerdict": "NONFACTUAL"
+    },
+    {
+     "path": "misconceptions[0].correction",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "misconceptions[0].misconception",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "quizSeeds[0].answer",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "quizSeeds[0].question",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "quizSeeds[0].sourceRefs[0].lineId",
+     "class": "STRUCTURAL",
+     "firstPassVerdict": "NONFACTUAL"
+    },
+    {
+     "path": "quizSeeds[0].sourceRefs[0].sourceType",
+     "class": "STRUCTURAL",
+     "firstPassVerdict": "NONFACTUAL"
+    },
+    {
+     "path": "quizSeeds[0].sourceRefs[0].vilnaLine",
+     "class": "STRUCTURAL",
+     "firstPassVerdict": "NONFACTUAL"
+    },
+    {
+     "path": "quizSeeds[1].answer",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "quizSeeds[1].question",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "REPAIR_REQUIRED"
+    },
+    {
+     "path": "quizSeeds[1].sourceRefs[0].lineId",
+     "class": "STRUCTURAL",
+     "firstPassVerdict": "NONFACTUAL"
+    },
+    {
+     "path": "quizSeeds[1].sourceRefs[0].sourceType",
+     "class": "STRUCTURAL",
+     "firstPassVerdict": "NONFACTUAL"
+    },
+    {
+     "path": "quizSeeds[1].sourceRefs[0].vilnaLine",
+     "class": "STRUCTURAL",
+     "firstPassVerdict": "NONFACTUAL"
+    },
+    {
+     "path": "relatedSugyot[0]",
+     "class": "STRUCTURAL",
+     "firstPassVerdict": "NONFACTUAL"
+    },
+    {
+     "path": "topicTags[0]",
+     "class": "STRUCTURAL",
+     "firstPassVerdict": "NONFACTUAL"
+    },
+    {
+     "path": "topicTags[1]",
+     "class": "STRUCTURAL",
+     "firstPassVerdict": "NONFACTUAL"
+    },
+    {
+     "path": "topicTags[2]",
+     "class": "STRUCTURAL",
+     "firstPassVerdict": "NONFACTUAL"
+    },
+    {
+     "path": "topicTags[3]",
+     "class": "STRUCTURAL",
+     "firstPassVerdict": "NONFACTUAL"
+    },
+    {
+     "path": "visualizableElements[0].item",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "REPAIR_REQUIRED"
+    },
+    {
+     "path": "visualizableElements[0].priority",
+     "class": "STRUCTURAL",
+     "firstPassVerdict": "NONFACTUAL"
+    },
+    {
+     "path": "visualizableElements[0].role",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    }
+   ]
+  },
+  {
+   "sugyaId": "yoma-002a-s03",
+   "verdict": "REPAIR_REQUIRED",
+   "boundaryVerdict": {
+    "declared": [
+     14,
+     20
+    ],
+    "verdict": "VERIFIED",
+    "note": "'Mai taama' (line 14) through 'lo lizalzelu bah' (line 20)."
+   },
+   "defectCount": 24,
+   "fieldsChecked": 97,
+   "fieldInventoryFirstPass": [
+    {
+     "path": "lineRange",
+     "class": "STRUCTURAL",
+     "firstPassVerdict": "NONFACTUAL"
+    },
+    {
+     "path": "lines",
+     "class": "STRUCTURAL",
+     "firstPassVerdict": "NONFACTUAL"
+    },
+    {
+     "path": "dafLevel.glossary[0].en",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "dafLevel.glossary[0].he",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "dafLevel.glossary[0].translit",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "dafLevel.glossary[1].en",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "dafLevel.glossary[1].he",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "dafLevel.glossary[1].translit",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "dafLevel.glossary[2].en",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "dafLevel.glossary[2].he",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "dafLevel.glossary[2].translit",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "dafLevel.glossary[3].en",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "dafLevel.glossary[3].he",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "dafLevel.glossary[3].translit",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "dafLevel.glossary[4].en",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "dafLevel.glossary[4].he",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "dafLevel.glossary[4].translit",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "dafLevel.summary",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "REPAIR_REQUIRED"
+    },
+    {
+     "path": "argumentFlow[step-01].id",
+     "class": "STRUCTURAL",
+     "firstPassVerdict": "NONFACTUAL"
+    },
+    {
+     "path": "argumentFlow[step-01].label",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "argumentFlow[step-01].sourceRefs[0].lineId",
+     "class": "STRUCTURAL",
+     "firstPassVerdict": "NONFACTUAL"
+    },
+    {
+     "path": "argumentFlow[step-01].sourceRefs[0].sourceType",
+     "class": "STRUCTURAL",
+     "firstPassVerdict": "NONFACTUAL"
+    },
+    {
+     "path": "argumentFlow[step-01].sourceRefs[0].vilnaLine",
+     "class": "STRUCTURAL",
+     "firstPassVerdict": "NONFACTUAL"
+    },
+    {
+     "path": "argumentFlow[step-01].speaker",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "argumentFlow[step-01].text",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "REPAIR_REQUIRED"
+    },
+    {
+     "path": "argumentFlow[step-01].type",
+     "class": "METADATA",
+     "firstPassVerdict": "REVIEWED"
+    },
+    {
+     "path": "argumentFlow[step-02].id",
+     "class": "STRUCTURAL",
+     "firstPassVerdict": "NONFACTUAL"
+    },
+    {
+     "path": "argumentFlow[step-02].label",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "argumentFlow[step-02].sourceRefs[0].lineId",
+     "class": "STRUCTURAL",
+     "firstPassVerdict": "NONFACTUAL"
+    },
+    {
+     "path": "argumentFlow[step-02].sourceRefs[0].sourceType",
+     "class": "STRUCTURAL",
+     "firstPassVerdict": "NONFACTUAL"
+    },
+    {
+     "path": "argumentFlow[step-02].sourceRefs[0].vilnaLine",
+     "class": "STRUCTURAL",
+     "firstPassVerdict": "REPAIR_REQUIRED"
+    },
+    {
+     "path": "argumentFlow[step-02].speaker",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "argumentFlow[step-02].text",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "REPAIR_REQUIRED"
+    },
+    {
+     "path": "argumentFlow[step-02].type",
+     "class": "METADATA",
+     "firstPassVerdict": "REVIEWED"
+    },
+    {
+     "path": "argumentFlow[step-03].id",
+     "class": "STRUCTURAL",
+     "firstPassVerdict": "NONFACTUAL"
+    },
+    {
+     "path": "argumentFlow[step-03].label",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "argumentFlow[step-03].sourceRefs[0].lineId",
+     "class": "STRUCTURAL",
+     "firstPassVerdict": "NONFACTUAL"
+    },
+    {
+     "path": "argumentFlow[step-03].sourceRefs[0].sourceType",
+     "class": "STRUCTURAL",
+     "firstPassVerdict": "NONFACTUAL"
+    },
+    {
+     "path": "argumentFlow[step-03].sourceRefs[0].vilnaLine",
+     "class": "STRUCTURAL",
+     "firstPassVerdict": "NONFACTUAL"
+    },
+    {
+     "path": "argumentFlow[step-03].speaker",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "argumentFlow[step-03].text",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "REPAIR_REQUIRED"
+    },
+    {
+     "path": "argumentFlow[step-03].type",
+     "class": "METADATA",
+     "firstPassVerdict": "REVIEWED"
+    },
+    {
+     "path": "conceptRefs[concept.tvul_yom].id",
+     "class": "STRUCTURAL",
+     "firstPassVerdict": "NONFACTUAL"
+    },
+    {
+     "path": "conceptRefs[concept.tvul_yom].label",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "conceptRefs[concept.tvul_yom].scope",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "conceptRefs[group.sadducees].id",
+     "class": "STRUCTURAL",
+     "firstPassVerdict": "NONFACTUAL"
+    },
+    {
+     "path": "conceptRefs[group.sadducees].label",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "conceptRefs[group.sadducees].scope",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "conceptRefs[concept.haarev_shemesh].id",
+     "class": "STRUCTURAL",
+     "firstPassVerdict": "NONFACTUAL"
+    },
+    {
+     "path": "conceptRefs[concept.haarev_shemesh].label",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "conceptRefs[concept.haarev_shemesh].scope",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "difficulty",
+     "class": "METADATA",
+     "firstPassVerdict": "REVIEWED"
+    },
+    {
+     "path": "display.hint",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "REPAIR_REQUIRED"
+    },
+    {
+     "path": "display.oneLine",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "REPAIR_REQUIRED"
+    },
+    {
+     "path": "display.shortSummary",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "REPAIR_REQUIRED"
+    },
+    {
+     "path": "display.title",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "REPAIR_REQUIRED"
+    },
+    {
+     "path": "display.whats",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "REPAIR_REQUIRED"
+    },
+    {
+     "path": "finalRuling",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "REPAIR_REQUIRED"
+    },
+    {
+     "path": "learning.ahaMoment",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "REPAIR_REQUIRED"
+    },
+    {
+     "path": "learning.coreMove",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "REPAIR_REQUIRED"
+    },
+    {
+     "path": "learning.coreTension",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "REPAIR_REQUIRED"
+    },
+    {
+     "path": "learning.learnerQuestion",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "REPAIR_REQUIRED"
+    },
+    {
+     "path": "learning.learningBlocker",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "learning.memoryAnchor",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "REPAIR_REQUIRED"
+    },
+    {
+     "path": "learning.reasoningPattern.category",
+     "class": "METADATA",
+     "firstPassVerdict": "REVIEWED"
+    },
+    {
+     "path": "learning.reasoningPattern.id",
+     "class": "STRUCTURAL",
+     "firstPassVerdict": "NONFACTUAL"
+    },
+    {
+     "path": "learning.reasoningPattern.notes",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "REPAIR_REQUIRED"
+    },
+    {
+     "path": "learning.resolution",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "REPAIR_REQUIRED"
+    },
+    {
+     "path": "learning.takeaway.text",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "REPAIR_REQUIRED"
+    },
+    {
+     "path": "learning.takeaway.type",
+     "class": "METADATA",
+     "firstPassVerdict": "REVIEWED"
+    },
+    {
+     "path": "misconceptions[0].correctedByStepId",
+     "class": "STRUCTURAL",
+     "firstPassVerdict": "REPAIR_REQUIRED"
+    },
+    {
+     "path": "misconceptions[0].correction",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "REPAIR_REQUIRED"
+    },
+    {
+     "path": "misconceptions[0].misconception",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "REPAIR_REQUIRED"
+    },
+    {
+     "path": "prerequisiteKnowledge[0]",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "prerequisiteKnowledge[1]",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "REPAIR_REQUIRED"
+    },
+    {
+     "path": "quizSeeds[0].answer",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "quizSeeds[0].question",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "quizSeeds[0].sourceRefs[0].lineId",
+     "class": "STRUCTURAL",
+     "firstPassVerdict": "NONFACTUAL"
+    },
+    {
+     "path": "quizSeeds[0].sourceRefs[0].sourceType",
+     "class": "STRUCTURAL",
+     "firstPassVerdict": "NONFACTUAL"
+    },
+    {
+     "path": "quizSeeds[0].sourceRefs[0].vilnaLine",
+     "class": "STRUCTURAL",
+     "firstPassVerdict": "REPAIR_REQUIRED"
+    },
+    {
+     "path": "quizSeeds[1].answer",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "REPAIR_REQUIRED"
+    },
+    {
+     "path": "quizSeeds[1].question",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "REPAIR_REQUIRED"
+    },
+    {
+     "path": "quizSeeds[1].sourceRefs[0].lineId",
+     "class": "STRUCTURAL",
+     "firstPassVerdict": "REPAIR_REQUIRED"
+    },
+    {
+     "path": "quizSeeds[1].sourceRefs[0].sourceType",
+     "class": "STRUCTURAL",
+     "firstPassVerdict": "REPAIR_REQUIRED"
+    },
+    {
+     "path": "quizSeeds[1].sourceRefs[0].vilnaLine",
+     "class": "STRUCTURAL",
+     "firstPassVerdict": "REPAIR_REQUIRED"
+    },
+    {
+     "path": "relatedSugyot[0]",
+     "class": "STRUCTURAL",
+     "firstPassVerdict": "NONFACTUAL"
+    },
+    {
+     "path": "topicTags[0]",
+     "class": "STRUCTURAL",
+     "firstPassVerdict": "NONFACTUAL"
+    },
+    {
+     "path": "topicTags[1]",
+     "class": "STRUCTURAL",
+     "firstPassVerdict": "NONFACTUAL"
+    },
+    {
+     "path": "topicTags[2]",
+     "class": "STRUCTURAL",
+     "firstPassVerdict": "NONFACTUAL"
+    },
+    {
+     "path": "topicTags[3]",
+     "class": "STRUCTURAL",
+     "firstPassVerdict": "NONFACTUAL"
+    },
+    {
+     "path": "topicTags[4]",
+     "class": "STRUCTURAL",
+     "firstPassVerdict": "NONFACTUAL"
+    },
+    {
+     "path": "visualizableElements[0].item",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "REPAIR_REQUIRED"
+    },
+    {
+     "path": "visualizableElements[0].priority",
+     "class": "STRUCTURAL",
+     "firstPassVerdict": "NONFACTUAL"
+    },
+    {
+     "path": "visualizableElements[0].role",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "visualizableElements[1].item",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "REPAIR_REQUIRED"
+    },
+    {
+     "path": "visualizableElements[1].priority",
+     "class": "STRUCTURAL",
+     "firstPassVerdict": "REPAIR_REQUIRED"
+    },
+    {
+     "path": "visualizableElements[1].role",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "REPAIR_REQUIRED"
+    }
+   ]
+  },
+  {
+   "sugyaId": "yoma-002a-s04",
+   "verdict": "REPAIR_REQUIRED",
+   "boundaryVerdict": {
+    "declared": [
+     20,
+     24
+    ],
+    "verdict": "VERIFIED",
+    "note": "'Mai shna tzafona mizracha' (line 20) through 'heichira' (line 24)."
+   },
+   "defectCount": 9,
+   "fieldsChecked": 92,
+   "fieldInventoryFirstPass": [
+    {
+     "path": "lineRange",
+     "class": "STRUCTURAL",
+     "firstPassVerdict": "NONFACTUAL"
+    },
+    {
+     "path": "lines",
+     "class": "STRUCTURAL",
+     "firstPassVerdict": "NONFACTUAL"
+    },
+    {
+     "path": "dafLevel.glossary[0].en",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "dafLevel.glossary[0].he",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "dafLevel.glossary[0].translit",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "dafLevel.glossary[1].en",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "dafLevel.glossary[1].he",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "dafLevel.glossary[1].translit",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "dafLevel.glossary[2].en",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "dafLevel.glossary[2].he",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "dafLevel.glossary[2].translit",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "dafLevel.glossary[3].en",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "dafLevel.glossary[3].he",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "dafLevel.glossary[3].translit",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "dafLevel.glossary[4].en",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "dafLevel.glossary[4].he",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "dafLevel.glossary[4].translit",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "dafLevel.summary",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "REPAIR_REQUIRED"
+    },
+    {
+     "path": "argumentFlow[step-01].id",
+     "class": "STRUCTURAL",
+     "firstPassVerdict": "NONFACTUAL"
+    },
+    {
+     "path": "argumentFlow[step-01].label",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "argumentFlow[step-01].sourceRefs[0].lineId",
+     "class": "STRUCTURAL",
+     "firstPassVerdict": "NONFACTUAL"
+    },
+    {
+     "path": "argumentFlow[step-01].sourceRefs[0].sourceType",
+     "class": "STRUCTURAL",
+     "firstPassVerdict": "NONFACTUAL"
+    },
+    {
+     "path": "argumentFlow[step-01].sourceRefs[0].vilnaLine",
+     "class": "STRUCTURAL",
+     "firstPassVerdict": "NONFACTUAL"
+    },
+    {
+     "path": "argumentFlow[step-01].speaker",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "argumentFlow[step-01].text",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "argumentFlow[step-01].type",
+     "class": "METADATA",
+     "firstPassVerdict": "REVIEWED"
+    },
+    {
+     "path": "argumentFlow[step-02].id",
+     "class": "STRUCTURAL",
+     "firstPassVerdict": "NONFACTUAL"
+    },
+    {
+     "path": "argumentFlow[step-02].label",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "argumentFlow[step-02].sourceRefs[0].lineId",
+     "class": "STRUCTURAL",
+     "firstPassVerdict": "NONFACTUAL"
+    },
+    {
+     "path": "argumentFlow[step-02].sourceRefs[0].sourceType",
+     "class": "STRUCTURAL",
+     "firstPassVerdict": "NONFACTUAL"
+    },
+    {
+     "path": "argumentFlow[step-02].sourceRefs[0].vilnaLine",
+     "class": "STRUCTURAL",
+     "firstPassVerdict": "REPAIR_REQUIRED"
+    },
+    {
+     "path": "argumentFlow[step-02].speaker",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "argumentFlow[step-02].text",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "REPAIR_REQUIRED"
+    },
+    {
+     "path": "argumentFlow[step-02].type",
+     "class": "METADATA",
+     "firstPassVerdict": "REVIEWED"
+    },
+    {
+     "path": "argumentFlow[step-03].id",
+     "class": "STRUCTURAL",
+     "firstPassVerdict": "NONFACTUAL"
+    },
+    {
+     "path": "argumentFlow[step-03].label",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "argumentFlow[step-03].sourceRefs[0].lineId",
+     "class": "STRUCTURAL",
+     "firstPassVerdict": "NONFACTUAL"
+    },
+    {
+     "path": "argumentFlow[step-03].sourceRefs[0].sourceType",
+     "class": "STRUCTURAL",
+     "firstPassVerdict": "NONFACTUAL"
+    },
+    {
+     "path": "argumentFlow[step-03].sourceRefs[0].vilnaLine",
+     "class": "STRUCTURAL",
+     "firstPassVerdict": "NONFACTUAL"
+    },
+    {
+     "path": "argumentFlow[step-03].speaker",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "argumentFlow[step-03].text",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "argumentFlow[step-03].type",
+     "class": "METADATA",
+     "firstPassVerdict": "REVIEWED"
+    },
+    {
+     "path": "conceptRefs[concept.heikher].id",
+     "class": "STRUCTURAL",
+     "firstPassVerdict": "NONFACTUAL"
+    },
+    {
+     "path": "conceptRefs[concept.heikher].label",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "conceptRefs[concept.heikher].scope",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "conceptRefs[place.ohel_moed].id",
+     "class": "STRUCTURAL",
+     "firstPassVerdict": "NONFACTUAL"
+    },
+    {
+     "path": "conceptRefs[place.ohel_moed].label",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "conceptRefs[place.ohel_moed].scope",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "difficulty",
+     "class": "METADATA",
+     "firstPassVerdict": "REVIEWED"
+    },
+    {
+     "path": "display.hint",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "display.oneLine",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "display.shortSummary",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "display.title",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "display.whats",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "finalRuling",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "REPAIR_REQUIRED"
+    },
+    {
+     "path": "learning.ahaMoment",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "learning.coreMove",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "REPAIR_REQUIRED"
+    },
+    {
+     "path": "learning.coreTension",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "REPAIR_REQUIRED"
+    },
+    {
+     "path": "learning.learnerQuestion",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "learning.learningBlocker",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "learning.memoryAnchor",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "REPAIR_REQUIRED"
+    },
+    {
+     "path": "learning.reasoningPattern.category",
+     "class": "METADATA",
+     "firstPassVerdict": "REVIEWED"
+    },
+    {
+     "path": "learning.reasoningPattern.id",
+     "class": "STRUCTURAL",
+     "firstPassVerdict": "NONFACTUAL"
+    },
+    {
+     "path": "learning.reasoningPattern.notes",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "REPAIR_REQUIRED"
+    },
+    {
+     "path": "learning.resolution",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "learning.takeaway.text",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "learning.takeaway.type",
+     "class": "METADATA",
+     "firstPassVerdict": "REVIEWED"
+    },
+    {
+     "path": "misconceptions[0].correctedByStepId",
+     "class": "STRUCTURAL",
+     "firstPassVerdict": "NONFACTUAL"
+    },
+    {
+     "path": "misconceptions[0].correction",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "REPAIR_REQUIRED"
+    },
+    {
+     "path": "misconceptions[0].misconception",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "prerequisiteKnowledge[0]",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "prerequisiteKnowledge[1]",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "quizSeeds[0].answer",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "quizSeeds[0].question",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "quizSeeds[0].sourceRefs[0].lineId",
+     "class": "STRUCTURAL",
+     "firstPassVerdict": "NONFACTUAL"
+    },
+    {
+     "path": "quizSeeds[0].sourceRefs[0].sourceType",
+     "class": "STRUCTURAL",
+     "firstPassVerdict": "NONFACTUAL"
+    },
+    {
+     "path": "quizSeeds[0].sourceRefs[0].vilnaLine",
+     "class": "STRUCTURAL",
+     "firstPassVerdict": "REPAIR_REQUIRED"
+    },
+    {
+     "path": "quizSeeds[1].answer",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "quizSeeds[1].question",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "quizSeeds[1].sourceRefs[0].lineId",
+     "class": "STRUCTURAL",
+     "firstPassVerdict": "NONFACTUAL"
+    },
+    {
+     "path": "quizSeeds[1].sourceRefs[0].sourceType",
+     "class": "STRUCTURAL",
+     "firstPassVerdict": "NONFACTUAL"
+    },
+    {
+     "path": "quizSeeds[1].sourceRefs[0].vilnaLine",
+     "class": "STRUCTURAL",
+     "firstPassVerdict": "NONFACTUAL"
+    },
+    {
+     "path": "relatedSugyot[0]",
+     "class": "STRUCTURAL",
+     "firstPassVerdict": "NONFACTUAL"
+    },
+    {
+     "path": "relatedSugyot[1]",
+     "class": "STRUCTURAL",
+     "firstPassVerdict": "NONFACTUAL"
+    },
+    {
+     "path": "topicTags[0]",
+     "class": "STRUCTURAL",
+     "firstPassVerdict": "NONFACTUAL"
+    },
+    {
+     "path": "topicTags[1]",
+     "class": "STRUCTURAL",
+     "firstPassVerdict": "NONFACTUAL"
+    },
+    {
+     "path": "topicTags[2]",
+     "class": "STRUCTURAL",
+     "firstPassVerdict": "NONFACTUAL"
+    },
+    {
+     "path": "topicTags[3]",
+     "class": "STRUCTURAL",
+     "firstPassVerdict": "NONFACTUAL"
+    },
+    {
+     "path": "topicTags[4]",
+     "class": "STRUCTURAL",
+     "firstPassVerdict": "NONFACTUAL"
+    },
+    {
+     "path": "visualizableElements[0].item",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "visualizableElements[0].priority",
+     "class": "STRUCTURAL",
+     "firstPassVerdict": "NONFACTUAL"
+    },
+    {
+     "path": "visualizableElements[0].role",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    }
+   ]
+  },
+  {
+   "sugyaId": "yoma-002a-s05",
+   "verdict": "REPAIR_REQUIRED",
+   "boundaryVerdict": {
+    "declared": [
+     24,
+     27
+    ],
+    "verdict": "VERIFIED",
+    "note": "'Mai bira' (line 24) through 'habira asher hachinoti' (line 27)."
+   },
+   "defectCount": 4,
+   "fieldsChecked": 91,
+   "fieldInventoryFirstPass": [
+    {
+     "path": "lineRange",
+     "class": "STRUCTURAL",
+     "firstPassVerdict": "NONFACTUAL"
+    },
+    {
+     "path": "lines",
+     "class": "STRUCTURAL",
+     "firstPassVerdict": "NONFACTUAL"
+    },
+    {
+     "path": "dafLevel.glossary[0].en",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "dafLevel.glossary[0].he",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "dafLevel.glossary[0].translit",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "dafLevel.glossary[1].en",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "dafLevel.glossary[1].he",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "dafLevel.glossary[1].translit",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "dafLevel.glossary[2].en",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "dafLevel.glossary[2].he",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "dafLevel.glossary[2].translit",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "dafLevel.glossary[3].en",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "dafLevel.glossary[3].he",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "dafLevel.glossary[3].translit",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "dafLevel.glossary[4].en",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "dafLevel.glossary[4].he",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "dafLevel.glossary[4].translit",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "dafLevel.summary",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "REPAIR_REQUIRED"
+    },
+    {
+     "path": "argumentFlow[step-01].id",
+     "class": "STRUCTURAL",
+     "firstPassVerdict": "NONFACTUAL"
+    },
+    {
+     "path": "argumentFlow[step-01].label",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "argumentFlow[step-01].sourceRefs[0].lineId",
+     "class": "STRUCTURAL",
+     "firstPassVerdict": "NONFACTUAL"
+    },
+    {
+     "path": "argumentFlow[step-01].sourceRefs[0].sourceType",
+     "class": "STRUCTURAL",
+     "firstPassVerdict": "NONFACTUAL"
+    },
+    {
+     "path": "argumentFlow[step-01].sourceRefs[0].vilnaLine",
+     "class": "STRUCTURAL",
+     "firstPassVerdict": "NONFACTUAL"
+    },
+    {
+     "path": "argumentFlow[step-01].speaker",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "argumentFlow[step-01].text",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "argumentFlow[step-01].type",
+     "class": "METADATA",
+     "firstPassVerdict": "REVIEWED"
+    },
+    {
+     "path": "argumentFlow[step-02].id",
+     "class": "STRUCTURAL",
+     "firstPassVerdict": "NONFACTUAL"
+    },
+    {
+     "path": "argumentFlow[step-02].label",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "argumentFlow[step-02].sourceRefs[0].lineId",
+     "class": "STRUCTURAL",
+     "firstPassVerdict": "NONFACTUAL"
+    },
+    {
+     "path": "argumentFlow[step-02].sourceRefs[0].sourceType",
+     "class": "STRUCTURAL",
+     "firstPassVerdict": "NONFACTUAL"
+    },
+    {
+     "path": "argumentFlow[step-02].sourceRefs[0].vilnaLine",
+     "class": "STRUCTURAL",
+     "firstPassVerdict": "NONFACTUAL"
+    },
+    {
+     "path": "argumentFlow[step-02].speaker",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "argumentFlow[step-02].text",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "argumentFlow[step-02].type",
+     "class": "METADATA",
+     "firstPassVerdict": "REVIEWED"
+    },
+    {
+     "path": "argumentFlow[step-03].id",
+     "class": "STRUCTURAL",
+     "firstPassVerdict": "NONFACTUAL"
+    },
+    {
+     "path": "argumentFlow[step-03].label",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "argumentFlow[step-03].sourceRefs[0].lineId",
+     "class": "STRUCTURAL",
+     "firstPassVerdict": "NONFACTUAL"
+    },
+    {
+     "path": "argumentFlow[step-03].sourceRefs[0].sourceType",
+     "class": "STRUCTURAL",
+     "firstPassVerdict": "NONFACTUAL"
+    },
+    {
+     "path": "argumentFlow[step-03].sourceRefs[0].vilnaLine",
+     "class": "STRUCTURAL",
+     "firstPassVerdict": "REPAIR_REQUIRED"
+    },
+    {
+     "path": "argumentFlow[step-03].speaker",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "argumentFlow[step-03].text",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "argumentFlow[step-03].type",
+     "class": "METADATA",
+     "firstPassVerdict": "REVIEWED"
+    },
+    {
+     "path": "conceptRefs[person.rabbi_yochanan].id",
+     "class": "STRUCTURAL",
+     "firstPassVerdict": "NONFACTUAL"
+    },
+    {
+     "path": "conceptRefs[person.rabbi_yochanan].label",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "conceptRefs[person.rabbi_yochanan].scope",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "conceptRefs[person.reish_lakish].id",
+     "class": "STRUCTURAL",
+     "firstPassVerdict": "NONFACTUAL"
+    },
+    {
+     "path": "conceptRefs[person.reish_lakish].label",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "conceptRefs[person.reish_lakish].scope",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "conceptRefs[place.temple_mount].id",
+     "class": "STRUCTURAL",
+     "firstPassVerdict": "NONFACTUAL"
+    },
+    {
+     "path": "conceptRefs[place.temple_mount].label",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "conceptRefs[place.temple_mount].scope",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "difficulty",
+     "class": "METADATA",
+     "firstPassVerdict": "REVIEWED"
+    },
+    {
+     "path": "display.hint",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "display.oneLine",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "display.shortSummary",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "display.title",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "display.whats",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "learning.ahaMoment",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "learning.coreMove",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "learning.coreTension",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "learning.learnerQuestion",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "learning.learningBlocker",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "REPAIR_REQUIRED"
+    },
+    {
+     "path": "learning.memoryAnchor",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "learning.reasoningPattern.category",
+     "class": "METADATA",
+     "firstPassVerdict": "REVIEWED"
+    },
+    {
+     "path": "learning.reasoningPattern.id",
+     "class": "STRUCTURAL",
+     "firstPassVerdict": "NONFACTUAL"
+    },
+    {
+     "path": "learning.reasoningPattern.notes",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "learning.resolution",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "learning.takeaway.text",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "learning.takeaway.type",
+     "class": "METADATA",
+     "firstPassVerdict": "REVIEWED"
+    },
+    {
+     "path": "misconceptions[0].correctedByStepId",
+     "class": "STRUCTURAL",
+     "firstPassVerdict": "REPAIR_REQUIRED"
+    },
+    {
+     "path": "misconceptions[0].correction",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "REPAIR_REQUIRED"
+    },
+    {
+     "path": "misconceptions[0].misconception",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "REPAIR_REQUIRED"
+    },
+    {
+     "path": "prerequisiteKnowledge[0]",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "quizSeeds[0].answer",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "quizSeeds[0].question",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "quizSeeds[0].sourceRefs[0].lineId",
+     "class": "STRUCTURAL",
+     "firstPassVerdict": "NONFACTUAL"
+    },
+    {
+     "path": "quizSeeds[0].sourceRefs[0].sourceType",
+     "class": "STRUCTURAL",
+     "firstPassVerdict": "NONFACTUAL"
+    },
+    {
+     "path": "quizSeeds[0].sourceRefs[0].vilnaLine",
+     "class": "STRUCTURAL",
+     "firstPassVerdict": "NONFACTUAL"
+    },
+    {
+     "path": "quizSeeds[1].answer",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "quizSeeds[1].question",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "quizSeeds[1].sourceRefs[0].lineId",
+     "class": "STRUCTURAL",
+     "firstPassVerdict": "NONFACTUAL"
+    },
+    {
+     "path": "quizSeeds[1].sourceRefs[0].sourceType",
+     "class": "STRUCTURAL",
+     "firstPassVerdict": "NONFACTUAL"
+    },
+    {
+     "path": "quizSeeds[1].sourceRefs[0].vilnaLine",
+     "class": "STRUCTURAL",
+     "firstPassVerdict": "REPAIR_REQUIRED"
+    },
+    {
+     "path": "relatedSugyot[0]",
+     "class": "STRUCTURAL",
+     "firstPassVerdict": "NONFACTUAL"
+    },
+    {
+     "path": "topicTags[0]",
+     "class": "STRUCTURAL",
+     "firstPassVerdict": "NONFACTUAL"
+    },
+    {
+     "path": "topicTags[1]",
+     "class": "STRUCTURAL",
+     "firstPassVerdict": "NONFACTUAL"
+    },
+    {
+     "path": "topicTags[2]",
+     "class": "STRUCTURAL",
+     "firstPassVerdict": "NONFACTUAL"
+    },
+    {
+     "path": "topicTags[3]",
+     "class": "STRUCTURAL",
+     "firstPassVerdict": "NONFACTUAL"
+    },
+    {
+     "path": "visualizableElements[0].item",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "visualizableElements[0].priority",
+     "class": "STRUCTURAL",
+     "firstPassVerdict": "NONFACTUAL"
+    },
+    {
+     "path": "visualizableElements[0].role",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    }
+   ]
+  },
+  {
+   "sugyaId": "yoma-002a-s06",
+   "verdict": "REPAIR_REQUIRED",
+   "boundaryVerdict": {
+    "declared": [
+     27,
+     38
+    ],
+    "verdict": "VERIFIED",
+    "note": "Coordinator decision (fallback): lineRange stays 27-38. Line 27 ('menah hanei milei') through line 38 ('af lehalan perisha') is the full derivation and its defense. Line 39 ('ve'eima') opens a further challenge that continues on 2b; it is left outside every sugya range (a systemic Yoma convention, 136 of 173 daf leave trailing lines unowned). The open challenge is therefore stated only in dafLevel.summary, which may cite any line on the daf; s06 fields may say only that the discussion continues on the next amud, without its content or outcome. Every s06 claim that rested on line 39 is repaired below."
+   },
+   "defectCount": 13,
+   "fieldsChecked": 110,
+   "fieldInventoryFirstPass": [
+    {
+     "path": "lineRange",
+     "class": "STRUCTURAL",
+     "firstPassVerdict": "NONFACTUAL"
+    },
+    {
+     "path": "lines",
+     "class": "STRUCTURAL",
+     "firstPassVerdict": "NONFACTUAL"
+    },
+    {
+     "path": "dafLevel.glossary[0].en",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "dafLevel.glossary[0].he",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "dafLevel.glossary[0].translit",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "dafLevel.glossary[1].en",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "dafLevel.glossary[1].he",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "dafLevel.glossary[1].translit",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "dafLevel.glossary[2].en",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "dafLevel.glossary[2].he",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "dafLevel.glossary[2].translit",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "dafLevel.glossary[3].en",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "dafLevel.glossary[3].he",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "dafLevel.glossary[3].translit",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "dafLevel.glossary[4].en",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "dafLevel.glossary[4].he",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "dafLevel.glossary[4].translit",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "dafLevel.summary",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "REPAIR_REQUIRED"
+    },
+    {
+     "path": "argumentFlow[step-01].id",
+     "class": "STRUCTURAL",
+     "firstPassVerdict": "NONFACTUAL"
+    },
+    {
+     "path": "argumentFlow[step-01].label",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "argumentFlow[step-01].sourceRefs[0].lineId",
+     "class": "STRUCTURAL",
+     "firstPassVerdict": "NONFACTUAL"
+    },
+    {
+     "path": "argumentFlow[step-01].sourceRefs[0].sourceType",
+     "class": "STRUCTURAL",
+     "firstPassVerdict": "NONFACTUAL"
+    },
+    {
+     "path": "argumentFlow[step-01].sourceRefs[0].vilnaLine",
+     "class": "STRUCTURAL",
+     "firstPassVerdict": "NONFACTUAL"
+    },
+    {
+     "path": "argumentFlow[step-01].speaker",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "argumentFlow[step-01].text",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "argumentFlow[step-01].type",
+     "class": "METADATA",
+     "firstPassVerdict": "REVIEWED"
+    },
+    {
+     "path": "argumentFlow[step-02].id",
+     "class": "STRUCTURAL",
+     "firstPassVerdict": "NONFACTUAL"
+    },
+    {
+     "path": "argumentFlow[step-02].label",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "argumentFlow[step-02].sourceRefs[0].lineId",
+     "class": "STRUCTURAL",
+     "firstPassVerdict": "NONFACTUAL"
+    },
+    {
+     "path": "argumentFlow[step-02].sourceRefs[0].sourceType",
+     "class": "STRUCTURAL",
+     "firstPassVerdict": "NONFACTUAL"
+    },
+    {
+     "path": "argumentFlow[step-02].sourceRefs[0].vilnaLine",
+     "class": "STRUCTURAL",
+     "firstPassVerdict": "REPAIR_REQUIRED"
+    },
+    {
+     "path": "argumentFlow[step-02].speaker",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "argumentFlow[step-02].text",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "argumentFlow[step-02].type",
+     "class": "METADATA",
+     "firstPassVerdict": "REVIEWED"
+    },
+    {
+     "path": "argumentFlow[step-03].id",
+     "class": "STRUCTURAL",
+     "firstPassVerdict": "NONFACTUAL"
+    },
+    {
+     "path": "argumentFlow[step-03].label",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "argumentFlow[step-03].sourceRefs[0].lineId",
+     "class": "STRUCTURAL",
+     "firstPassVerdict": "NONFACTUAL"
+    },
+    {
+     "path": "argumentFlow[step-03].sourceRefs[0].sourceType",
+     "class": "STRUCTURAL",
+     "firstPassVerdict": "NONFACTUAL"
+    },
+    {
+     "path": "argumentFlow[step-03].sourceRefs[0].vilnaLine",
+     "class": "STRUCTURAL",
+     "firstPassVerdict": "NONFACTUAL"
+    },
+    {
+     "path": "argumentFlow[step-03].speaker",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "argumentFlow[step-03].text",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "REPAIR_REQUIRED"
+    },
+    {
+     "path": "argumentFlow[step-03].type",
+     "class": "METADATA",
+     "firstPassVerdict": "REVIEWED"
+    },
+    {
+     "path": "argumentFlow[step-04].id",
+     "class": "STRUCTURAL",
+     "firstPassVerdict": "NONFACTUAL"
+    },
+    {
+     "path": "argumentFlow[step-04].label",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "argumentFlow[step-04].sourceRefs[0].lineId",
+     "class": "STRUCTURAL",
+     "firstPassVerdict": "NONFACTUAL"
+    },
+    {
+     "path": "argumentFlow[step-04].sourceRefs[0].sourceType",
+     "class": "STRUCTURAL",
+     "firstPassVerdict": "NONFACTUAL"
+    },
+    {
+     "path": "argumentFlow[step-04].sourceRefs[0].vilnaLine",
+     "class": "STRUCTURAL",
+     "firstPassVerdict": "NONFACTUAL"
+    },
+    {
+     "path": "argumentFlow[step-04].speaker",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "argumentFlow[step-04].text",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "argumentFlow[step-04].type",
+     "class": "METADATA",
+     "firstPassVerdict": "REVIEWED"
+    },
+    {
+     "path": "conceptRefs[concept.gezerah_shavah].id",
+     "class": "STRUCTURAL",
+     "firstPassVerdict": "NONFACTUAL"
+    },
+    {
+     "path": "conceptRefs[concept.gezerah_shavah].label",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "conceptRefs[concept.gezerah_shavah].scope",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "conceptRefs[concept.miluyim].id",
+     "class": "STRUCTURAL",
+     "firstPassVerdict": "NONFACTUAL"
+    },
+    {
+     "path": "conceptRefs[concept.miluyim].label",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "conceptRefs[concept.miluyim].scope",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "REPAIR_REQUIRED"
+    },
+    {
+     "path": "conceptRefs[concept.parah_adumah].id",
+     "class": "STRUCTURAL",
+     "firstPassVerdict": "NONFACTUAL"
+    },
+    {
+     "path": "conceptRefs[concept.parah_adumah].label",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "conceptRefs[concept.parah_adumah].scope",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "difficulty",
+     "class": "METADATA",
+     "firstPassVerdict": "REVIEWED"
+    },
+    {
+     "path": "display.hint",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "REPAIR_REQUIRED"
+    },
+    {
+     "path": "display.oneLine",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "REPAIR_REQUIRED"
+    },
+    {
+     "path": "display.shortSummary",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "REPAIR_REQUIRED"
+    },
+    {
+     "path": "display.title",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "display.whats",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "REPAIR_REQUIRED"
+    },
+    {
+     "path": "finalRuling",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "REPAIR_REQUIRED"
+    },
+    {
+     "path": "learning.ahaMoment",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "learning.coreMove",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "learning.coreTension",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "learning.learnerQuestion",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "learning.learningBlocker",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "REPAIR_REQUIRED"
+    },
+    {
+     "path": "learning.memoryAnchor",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "REPAIR_REQUIRED"
+    },
+    {
+     "path": "learning.reasoningPattern.category",
+     "class": "METADATA",
+     "firstPassVerdict": "REVIEWED"
+    },
+    {
+     "path": "learning.reasoningPattern.id",
+     "class": "STRUCTURAL",
+     "firstPassVerdict": "NONFACTUAL"
+    },
+    {
+     "path": "learning.reasoningPattern.notes",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "learning.resolution",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "REPAIR_REQUIRED"
+    },
+    {
+     "path": "learning.takeaway.text",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "learning.takeaway.type",
+     "class": "METADATA",
+     "firstPassVerdict": "REVIEWED"
+    },
+    {
+     "path": "misconceptions[0].correctedByStepId",
+     "class": "STRUCTURAL",
+     "firstPassVerdict": "REPAIR_REQUIRED"
+    },
+    {
+     "path": "misconceptions[0].correction",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "REPAIR_REQUIRED"
+    },
+    {
+     "path": "misconceptions[0].misconception",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "REPAIR_REQUIRED"
+    },
+    {
+     "path": "prerequisiteKnowledge[0]",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "prerequisiteKnowledge[1]",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "quizSeeds[0].answer",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "quizSeeds[0].question",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "quizSeeds[0].sourceRefs[0].lineId",
+     "class": "STRUCTURAL",
+     "firstPassVerdict": "NONFACTUAL"
+    },
+    {
+     "path": "quizSeeds[0].sourceRefs[0].sourceType",
+     "class": "STRUCTURAL",
+     "firstPassVerdict": "NONFACTUAL"
+    },
+    {
+     "path": "quizSeeds[0].sourceRefs[0].vilnaLine",
+     "class": "STRUCTURAL",
+     "firstPassVerdict": "REPAIR_REQUIRED"
+    },
+    {
+     "path": "quizSeeds[1].answer",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "quizSeeds[1].question",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "quizSeeds[1].sourceRefs[0].lineId",
+     "class": "STRUCTURAL",
+     "firstPassVerdict": "NONFACTUAL"
+    },
+    {
+     "path": "quizSeeds[1].sourceRefs[0].sourceType",
+     "class": "STRUCTURAL",
+     "firstPassVerdict": "NONFACTUAL"
+    },
+    {
+     "path": "quizSeeds[1].sourceRefs[0].vilnaLine",
+     "class": "STRUCTURAL",
+     "firstPassVerdict": "NONFACTUAL"
+    },
+    {
+     "path": "quizSeeds[2].answer",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "quizSeeds[2].question",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "quizSeeds[2].sourceRefs[0].lineId",
+     "class": "STRUCTURAL",
+     "firstPassVerdict": "NONFACTUAL"
+    },
+    {
+     "path": "quizSeeds[2].sourceRefs[0].sourceType",
+     "class": "STRUCTURAL",
+     "firstPassVerdict": "NONFACTUAL"
+    },
+    {
+     "path": "quizSeeds[2].sourceRefs[0].vilnaLine",
+     "class": "STRUCTURAL",
+     "firstPassVerdict": "NONFACTUAL"
+    },
+    {
+     "path": "relatedSugyot[0]",
+     "class": "STRUCTURAL",
+     "firstPassVerdict": "NONFACTUAL"
+    },
+    {
+     "path": "topicTags[0]",
+     "class": "STRUCTURAL",
+     "firstPassVerdict": "NONFACTUAL"
+    },
+    {
+     "path": "topicTags[1]",
+     "class": "STRUCTURAL",
+     "firstPassVerdict": "NONFACTUAL"
+    },
+    {
+     "path": "topicTags[2]",
+     "class": "STRUCTURAL",
+     "firstPassVerdict": "NONFACTUAL"
+    },
+    {
+     "path": "topicTags[3]",
+     "class": "STRUCTURAL",
+     "firstPassVerdict": "NONFACTUAL"
+    },
+    {
+     "path": "topicTags[4]",
+     "class": "STRUCTURAL",
+     "firstPassVerdict": "NONFACTUAL"
+    },
+    {
+     "path": "visualizableElements[0].item",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "visualizableElements[0].priority",
+     "class": "STRUCTURAL",
+     "firstPassVerdict": "NONFACTUAL"
+    },
+    {
+     "path": "visualizableElements[0].role",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "visualizableElements[1].item",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    },
+    {
+     "path": "visualizableElements[1].priority",
+     "class": "STRUCTURAL",
+     "firstPassVerdict": "NONFACTUAL"
+    },
+    {
+     "path": "visualizableElements[1].role",
+     "class": "SEMANTIC",
+     "firstPassVerdict": "SUPPORTED"
+    }
+   ]
+  }
+ ],
+ "defects": [
+  {
+   "sugyaId": "DAF-LEVEL (all sugyot)",
+   "path": "dafLevel.summary",
+   "sourceLines": [
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    39
+   ],
+   "severity": "wrong meaning",
+   "currentClaim": "Says the Sages required impurity-proof vessels 'to prevent that provocation from breeding contempt', i.e. that the cause was the deliberate impurity act; omits the Parah Mishnah's seven-day separation and the Stone House naming; presents the derivation as complete without noting the open 've'eima' challenge at line 39.",
+   "sourceSupports": "Line 14: the stated reason is 'keivan d'tevul yom kasher b'parah' (the tevul yom leniency); lines 15-17 are cited as proof of that leniency; lines 18-20 the vessels prevent the parah being treated lightly. Lines 8-14 cite the parah kohen's separation and the chamber name. Line 39 begins an unresolved challenge.",
+   "proposedReplacement": "Tractate Yoma opens with the Mishnah's rule that seven days before Yom Kippur the Kohen Gadol is separated from his home to the Chamber of Parhedrin, and another kohen is prepared in case he becomes disqualified; Rabbi Yehuda wants another wife prepared too, lest his wife die, since 'his house' in the verse means his wife, but the Sages answer that if so there is no end to the matter. The Gemara cites the parallel Mishnah in Parah: the kohen who burns the parah adumah is likewise separated seven days beforehand, to the Chamber of the Stone House facing the Bira to the northeast, so called because all its service used dung, stone, and earth vessels. The reason for those vessels is that a tevul yom is fit for the parah (the kohen was even deliberately made tamei and immersed, to refute the Sadducees who required sunset), so the Sages required vessels that cannot become impure, so that people would not treat the parah lightly. The chamber is in the northeast as a distinguishing sign: the parah is a chatat, and a chatat requires the north, and its verse speaks of facing the Tent of Meeting. Rabbi Yochanan explains 'Bira' as a specific place on the Temple Mount, and Reish Lakish as the whole Temple. Finally, Rabbi Yochanan derives both separations from the inauguration verse 'as the Lord commanded to do, to atone for you': 'to do' is the parah and 'to atone' is Yom Kippur. When the Gemara asks why the whole verse should not refer to Yom Kippur, it answers with a verbal analogy on 'tzivah' linking the verse to the parah statute. The daf ends as the Gemara begins a further challenge ('ve'eima'), which continues on the next daf."
+  },
+  {
+   "sugyaId": "yoma-002a-s01",
+   "path": "display.hint",
+   "sourceLines": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "severity": "wrong placement",
+   "currentClaim": "'Why seven days specifically? And what makes the Sages' response to Rabbi Yehuda more than just 'don't be absurd'?'",
+   "sourceSupports": "Nothing in lines 1-7 addresses why the number is seven (the inauguration source appears only at lines 27-38, and the seven-day count there comes from Rashi/the verse context). The second question presupposes the Sages' reply is more than a bare objection, contradicting misconceptions[0].correction.",
+   "proposedReplacement": "If the Mishnah prepares a backup Kohen Gadol, why do the Sages refuse to prepare a backup wife?"
+  },
+  {
+   "sugyaId": "yoma-002a-s01",
+   "path": "misconceptions[0]",
+   "sourceLines": [
+    6,
+    7
+   ],
+   "severity": "wrong meaning",
+   "currentClaim": "Misconception is Rabbi Yehuda's actual tannaitic view; correction calls the Sages' retort 'dismissive rather than a reasoned concession', which is incoherent and contradicts learning.coreMove (a formal rejection).",
+   "sourceSupports": "Line 7: 'amru lo im ken ein ladavar sof' is a reasoned objection (no end). The Sages do not dispute the derashah 'beito zo ishto' on this daf.",
+   "proposedReplacement": {
+    "misconception": "The Sages reject Rabbi Yehuda because they deny that 'his house' in the verse means his wife.",
+    "correction": "The Sages do not dispute that derashah in the Mishnah. Their only stated objection is that if one prepares for the wife's death, there is no end to the matter.",
+    "correctedByStepId": "step-03"
+   }
+  },
+  {
+   "sugyaId": "yoma-002a-s01",
+   "path": "argumentFlow[step-01].text",
+   "sourceLines": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "severity": "minor wording",
+   "currentClaim": "'...the Sages remove the Kohen Gadol ... to the Chamber of Parhedrin, a room in the Temple designated specifically for him during that period...'",
+   "sourceSupports": "The Mishnah says only 'mafrishin' (they separate) him to the Lishkat Parhedrin; 'designated specifically for him during that period' is not stated on 2a.",
+   "proposedReplacement": "Seven days before Yom Kippur the Kohen Gadol is separated from his house to the Chamber of Parhedrin, and another kohen is prepared in his place in case a disqualification befalls him."
+  },
+  {
+   "sugyaId": "yoma-002a-s01",
+   "path": "argumentFlow[step-03].sourceRefs[0].vilnaLine",
+   "sourceLines": [
+    7
+   ],
+   "severity": "wrong placement",
+   "currentClaim": "6",
+   "sourceSupports": "The Sages' words 'amru lo im ken ein ladavar sof' are on line 7; line 6 is Rabbi Yehuda's verse.",
+   "proposedReplacement": 7
+  },
+  {
+   "sugyaId": "yoma-002a-s01",
+   "path": "quizSeeds[2].sourceRefs[0].vilnaLine",
+   "sourceLines": [
+    7
+   ],
+   "severity": "wrong placement",
+   "currentClaim": "6",
+   "sourceSupports": "The Sages' objection is on line 7.",
+   "proposedReplacement": 7
+  },
+  {
+   "sugyaId": "yoma-002a-s01",
+   "path": "quizSeeds[1].sourceRefs[0].vilnaLine",
+   "sourceLines": [
+    6
+   ],
+   "severity": "wrong placement",
+   "currentClaim": "4",
+   "sourceSupports": "The question asks for Rabbi Yehuda's proof; the verse and 'beito zo ishto' are on lines 6-7, not line 4.",
+   "proposedReplacement": 6
+  },
+  {
+   "sugyaId": "yoma-002a-s02",
+   "path": "learning.resolution",
+   "sourceLines": [
+    8,
+    9,
+    10,
+    11
+   ],
+   "severity": "minor wording",
+   "currentClaim": "'...since segment [3] cites the mishna ... paralleling the High Priest's sequestering in segment [1]. The Gemara is setting up its pieces.'",
+   "sourceSupports": "Supported in substance, but learner prose cites internal Sefaria segment numbers that are not source references a learner can use.",
+   "proposedReplacement": "The parah case is not a digression: the Gemara cites the Mishnah in Parah, which also separates the kohen who burns the parah from his house for seven days, as a parallel to the Kohen Gadol's separation in this Mishnah."
+  },
+  {
+   "sugyaId": "yoma-002a-s02",
+   "path": "visualizableElements[0].item",
+   "sourceLines": [
+    10,
+    11
+   ],
+   "severity": "minor wording",
+   "currentClaim": "'Northeast corner of Temple Mount with the Stone House chamber'",
+   "sourceSupports": "Lines 10-11: the chamber was 'al pnei habira tzafona mizracha' (facing the Bira, to the northeast); 'corner of the Temple Mount' is not stated, and the meaning of Bira is itself disputed at lines 24-27.",
+   "proposedReplacement": "The Chamber of the Stone House, facing the Bira to the northeast"
+  },
+  {
+   "sugyaId": "yoma-002a-s02",
+   "path": "quizSeeds[1].question",
+   "sourceLines": [
+    8,
+    9
+   ],
+   "severity": "minor wording",
+   "currentClaim": "'What second seven-day separation before a Temple service rule...'",
+   "sourceSupports": "The parah burning is a sacred service but not performed in the Temple courtyard (Rashi on line 20: Mount of Olives).",
+   "proposedReplacement": "What second seven-day separation rule does the Gemara cite from the Mishnah in Parah, and how does it parallel the Kohen Gadol's separation?"
+  },
+  {
+   "sugyaId": "yoma-002a-s02",
+   "path": "finalRuling",
+   "sourceLines": [
+    8,
+    9,
+    10,
+    11
+   ],
+   "severity": "contract violation",
+   "currentClaim": "Mixes the ruling with the etymology of the chamber name ('named for its dung, stone, and earth vessels').",
+   "sourceSupports": "The halachic content of lines 8-11 is the separation rule; the name explanation (lines 12-14) is not a ruling.",
+   "proposedReplacement": "The kohen who burns the parah adumah is separated from his house seven days beforehand to the chamber facing the Bira to the northeast, the Chamber of the Stone House."
+  },
+  {
+   "sugyaId": "yoma-002a-s03",
+   "path": "display.title",
+   "sourceLines": [
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20
+   ],
+   "severity": "wrong meaning",
+   "currentClaim": "'Why stone vessels? Countering the Sadducees on tvul yom'",
+   "sourceSupports": "The vessels counterbalance the tevul yom leniency; it is the immersion practice, not the vessels, that counters the Sadducees.",
+   "proposedReplacement": "Why dung, stone, and earth vessels? Balancing the tvul yom leniency"
+  },
+  {
+   "sugyaId": "yoma-002a-s03",
+   "path": "display.oneLine",
+   "sourceLines": [
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20
+   ],
+   "severity": "wrong meaning",
+   "currentClaim": "The vessels prevent 'the provocation from breeding contempt'.",
+   "sourceSupports": "Line 14: the reason for the vessels is 'keivan d'tevul yom kasher b'parah' (because a tevul yom is fit). Lines 15-17 cite the Mishnah (they made the kohen tamei and immersed him to refute the Sadducees) as proof of that leniency. Lines 18-20: therefore the Rabbis instituted vessels that do not receive impurity 'kei heichi d'lo lizalzelu bah'. Rashi: because a tevul yom is fit, people might think the parah needs little purity, so the Sages added stringencies. The source does not say the vessels repair a problem created by the deliberate impurity act, and does not say people would perform it in impurity.",
+   "proposedReplacement": "Because a tvul yom is fit to burn the parah, as shown by the practice of deliberately making the kohen tamei and immersing him to refute the Sadducees, the Sages required vessels that cannot become tamei, so that people would not treat the parah lightly."
+  },
+  {
+   "sugyaId": "yoma-002a-s03",
+   "path": "display.shortSummary",
+   "sourceLines": [
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20
+   ],
+   "severity": "wrong meaning",
+   "currentClaim": "'The stone vessels were a response to a secondary problem the Sages themselves created...'",
+   "sourceSupports": "Line 14: the reason for the vessels is 'keivan d'tevul yom kasher b'parah' (because a tevul yom is fit). Lines 15-17 cite the Mishnah (they made the kohen tamei and immersed him to refute the Sadducees) as proof of that leniency. Lines 18-20: therefore the Rabbis instituted vessels that do not receive impurity 'kei heichi d'lo lizalzelu bah'. Rashi: because a tevul yom is fit, people might think the parah needs little purity, so the Sages added stringencies. The source does not say the vessels repair a problem created by the deliberate impurity act, and does not say people would perform it in impurity.",
+   "proposedReplacement": "The Gemara explains why the parah's service used only dung, stone, and earth vessels. A tvul yom is fit to perform the parah, as the Mishnah in Parah shows: the kohen was deliberately made tamei and immersed, to refute the Sadducees, who held that it could be done only by one whose sun had set. Because of that leniency, the Sages instituted vessels that cannot receive impurity, so that people would not come to treat the parah lightly."
+  },
+  {
+   "sugyaId": "yoma-002a-s03",
+   "path": "display.whats",
+   "sourceLines": [
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20
+   ],
+   "severity": "wrong meaning",
+   "currentClaim": "'But this provocation created a risk... The Sages countered that by insisting on vessels...'",
+   "sourceSupports": "Line 14: the reason for the vessels is 'keivan d'tevul yom kasher b'parah' (because a tevul yom is fit). Lines 15-17 cite the Mishnah (they made the kohen tamei and immersed him to refute the Sadducees) as proof of that leniency. Lines 18-20: therefore the Rabbis instituted vessels that do not receive impurity 'kei heichi d'lo lizalzelu bah'. Rashi: because a tevul yom is fit, people might think the parah needs little purity, so the Sages added stringencies. The source does not say the vessels repair a problem created by the deliberate impurity act, and does not say people would perform it in impurity.",
+   "proposedReplacement": "Why were all the parah's acts done with dung, stone, and earth vessels? Because a tvul yom, one who immersed today and whose sun has not yet set, is fit to perform the parah. The Mishnah in Parah proves it: they would deliberately make the kohen who burns the parah tamei and immerse him, to refute the Sadducees, who said it was done only by those whose sun had set. Since the parah is lenient in this respect, the Sages instituted vessels that cannot receive impurity at all, so that people would not treat the parah lightly."
+  },
+  {
+   "sugyaId": "yoma-002a-s03",
+   "path": "display.hint",
+   "sourceLines": [
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20
+   ],
+   "severity": "wrong meaning",
+   "currentClaim": "'The Sages created a problem by making the priest tamei on purpose, then had to solve it. Why was the provocation worth it?' (also a statement-plus-question, and asks something the source does not discuss)",
+   "sourceSupports": "Line 14: the reason for the vessels is 'keivan d'tevul yom kasher b'parah' (because a tevul yom is fit). Lines 15-17 cite the Mishnah (they made the kohen tamei and immersed him to refute the Sadducees) as proof of that leniency. Lines 18-20: therefore the Rabbis instituted vessels that do not receive impurity 'kei heichi d'lo lizalzelu bah'. Rashi: because a tevul yom is fit, people might think the parah needs little purity, so the Sages added stringencies. The source does not say the vessels repair a problem created by the deliberate impurity act, and does not say people would perform it in impurity.",
+   "proposedReplacement": "If a tvul yom is fit to burn the parah, why did the Sages respond by requiring vessels that cannot become impure at all?"
+  },
+  {
+   "sugyaId": "yoma-002a-s03",
+   "path": "learning.learnerQuestion",
+   "sourceLines": [
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20
+   ],
+   "severity": "wrong meaning",
+   "currentClaim": "'...And why did that force them to use stone vessels?' (makes the impurity act the cause)",
+   "sourceSupports": "Line 14: the reason for the vessels is 'keivan d'tevul yom kasher b'parah' (because a tevul yom is fit). Lines 15-17 cite the Mishnah (they made the kohen tamei and immersed him to refute the Sadducees) as proof of that leniency. Lines 18-20: therefore the Rabbis instituted vessels that do not receive impurity 'kei heichi d'lo lizalzelu bah'. Rashi: because a tevul yom is fit, people might think the parah needs little purity, so the Sages added stringencies. The source does not say the vessels repair a problem created by the deliberate impurity act, and does not say people would perform it in impurity.",
+   "proposedReplacement": "If a tvul yom is fit to perform the parah, why did the Sages insist that its vessels be made only of materials that cannot become impure?"
+  },
+  {
+   "sugyaId": "yoma-002a-s03",
+   "path": "learning.coreTension",
+   "sourceLines": [
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20
+   ],
+   "severity": "wrong meaning",
+   "currentClaim": "Tension framed as the public rejection of the Sadducees risking respect.",
+   "sourceSupports": "Line 14: the reason for the vessels is 'keivan d'tevul yom kasher b'parah' (because a tevul yom is fit). Lines 15-17 cite the Mishnah (they made the kohen tamei and immersed him to refute the Sadducees) as proof of that leniency. Lines 18-20: therefore the Rabbis instituted vessels that do not receive impurity 'kei heichi d'lo lizalzelu bah'. Rashi: because a tevul yom is fit, people might think the parah needs little purity, so the Sages added stringencies. The source does not say the vessels repair a problem created by the deliberate impurity act, and does not say people would perform it in impurity.",
+   "proposedReplacement": "The halacha is lenient in allowing a tvul yom to perform the parah, a leniency even demonstrated publicly against the Sadducees; yet a lenient purity standard risks people treating the parah's purity lightly."
+  },
+  {
+   "sugyaId": "yoma-002a-s03",
+   "path": "learning.coreMove",
+   "sourceLines": [
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20
+   ],
+   "severity": "wrong meaning",
+   "currentClaim": "'Counter the Sadducean misconception with a deliberate public act, then neutralize the secondary risk that act creates...'",
+   "sourceSupports": "Line 14: the reason for the vessels is 'keivan d'tevul yom kasher b'parah' (because a tevul yom is fit). Lines 15-17 cite the Mishnah (they made the kohen tamei and immersed him to refute the Sadducees) as proof of that leniency. Lines 18-20: therefore the Rabbis instituted vessels that do not receive impurity 'kei heichi d'lo lizalzelu bah'. Rashi: because a tevul yom is fit, people might think the parah needs little purity, so the Sages added stringencies. The source does not say the vessels repair a problem created by the deliberate impurity act, and does not say people would perform it in impurity.",
+   "proposedReplacement": "The Gemara explains a rabbinic stringency, vessels that cannot become impure, as a counterweight to a leniency, that a tvul yom is fit for the parah, citing the Mishnah about deliberately immersing the kohen as proof of that leniency."
+  },
+  {
+   "sugyaId": "yoma-002a-s03",
+   "path": "learning.resolution",
+   "sourceLines": [
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20
+   ],
+   "severity": "wrong meaning",
+   "currentClaim": "'...the impurity-proof vessels prevented that demonstration from being read as permission to be lax'",
+   "sourceSupports": "Line 14: the reason for the vessels is 'keivan d'tevul yom kasher b'parah' (because a tevul yom is fit). Lines 15-17 cite the Mishnah (they made the kohen tamei and immersed him to refute the Sadducees) as proof of that leniency. Lines 18-20: therefore the Rabbis instituted vessels that do not receive impurity 'kei heichi d'lo lizalzelu bah'. Rashi: because a tevul yom is fit, people might think the parah needs little purity, so the Sages added stringencies. The source does not say the vessels repair a problem created by the deliberate impurity act, and does not say people would perform it in impurity.",
+   "proposedReplacement": "Because a tvul yom is fit for the parah, the Sages instituted dung, stone, and earth vessels that cannot receive impurity, so that people would not treat the parah lightly."
+  },
+  {
+   "sugyaId": "yoma-002a-s03",
+   "path": "learning.takeaway.text",
+   "sourceLines": [
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20
+   ],
+   "severity": "wrong meaning",
+   "currentClaim": "'A public halachic demonstration can create a secondary perception problem; the remedy ... baked into the demonstration itself.'",
+   "sourceSupports": "Line 14: the reason for the vessels is 'keivan d'tevul yom kasher b'parah' (because a tevul yom is fit). Lines 15-17 cite the Mishnah (they made the kohen tamei and immersed him to refute the Sadducees) as proof of that leniency. Lines 18-20: therefore the Rabbis instituted vessels that do not receive impurity 'kei heichi d'lo lizalzelu bah'. Rashi: because a tevul yom is fit, people might think the parah needs little purity, so the Sages added stringencies. The source does not say the vessels repair a problem created by the deliberate impurity act, and does not say people would perform it in impurity.",
+   "proposedReplacement": "Where the halacha permits a leniency in a sensitive rite, the Sages may add a compensating stringency so that the leniency does not lead people to treat the rite lightly."
+  },
+  {
+   "sugyaId": "yoma-002a-s03",
+   "path": "learning.reasoningPattern.notes",
+   "sourceLines": [
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20
+   ],
+   "severity": "wrong meaning",
+   "currentClaim": "'Deliberate act creates a secondary risk; secondary safeguard is built in to neutralize it.'",
+   "sourceSupports": "Line 14: the reason for the vessels is 'keivan d'tevul yom kasher b'parah' (because a tevul yom is fit). Lines 15-17 cite the Mishnah (they made the kohen tamei and immersed him to refute the Sadducees) as proof of that leniency. Lines 18-20: therefore the Rabbis instituted vessels that do not receive impurity 'kei heichi d'lo lizalzelu bah'. Rashi: because a tevul yom is fit, people might think the parah needs little purity, so the Sages added stringencies. The source does not say the vessels repair a problem created by the deliberate impurity act, and does not say people would perform it in impurity.",
+   "proposedReplacement": "A rabbinic safeguard is justified as a counterweight to a halachic leniency: since a tvul yom is fit, vessels that cannot become impure keep people from disregarding the parah's purity."
+  },
+  {
+   "sugyaId": "yoma-002a-s03",
+   "path": "learning.ahaMoment",
+   "sourceLines": [
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20
+   ],
+   "severity": "wrong meaning",
+   "currentClaim": "'...they are the fix for a perception problem the Sages deliberately created.'",
+   "sourceSupports": "Line 14: the reason for the vessels is 'keivan d'tevul yom kasher b'parah' (because a tevul yom is fit). Lines 15-17 cite the Mishnah (they made the kohen tamei and immersed him to refute the Sadducees) as proof of that leniency. Lines 18-20: therefore the Rabbis instituted vessels that do not receive impurity 'kei heichi d'lo lizalzelu bah'. Rashi: because a tevul yom is fit, people might think the parah needs little purity, so the Sages added stringencies. The source does not say the vessels repair a problem created by the deliberate impurity act, and does not say people would perform it in impurity.",
+   "proposedReplacement": "The dung, stone, and earth vessels do not show that the parah is stricter by nature; the Gemara explains them as a response to its leniency, since a tvul yom is fit to perform it."
+  },
+  {
+   "sugyaId": "yoma-002a-s03",
+   "path": "learning.memoryAnchor",
+   "sourceLines": [
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20
+   ],
+   "severity": "wrong meaning",
+   "currentClaim": "'Because that provocation could read as purity doesn't matter here...'",
+   "sourceSupports": "Line 14: the reason for the vessels is 'keivan d'tevul yom kasher b'parah' (because a tevul yom is fit). Lines 15-17 cite the Mishnah (they made the kohen tamei and immersed him to refute the Sadducees) as proof of that leniency. Lines 18-20: therefore the Rabbis instituted vessels that do not receive impurity 'kei heichi d'lo lizalzelu bah'. Rashi: because a tevul yom is fit, people might think the parah needs little purity, so the Sages added stringencies. The source does not say the vessels repair a problem created by the deliberate impurity act, and does not say people would perform it in impurity.",
+   "proposedReplacement": "Tvul yom is fit for the parah (the kohen was even made tamei and immersed to refute the Sadducees, who required sunset), so the Sages required vessels that cannot become impure, lest people treat the parah lightly."
+  },
+  {
+   "sugyaId": "yoma-002a-s03",
+   "path": "argumentFlow[step-01].text",
+   "sourceLines": [
+    14
+   ],
+   "severity": "wrong meaning",
+   "currentClaim": "Question step already contains the answer and asks 'why they were so strict about purity for the parah' generally.",
+   "sourceSupports": "Line 14 'mai taama' asks the reason for the dung, stone, and earth vessels just cited.",
+   "proposedReplacement": "What is the reason all the parah's acts were done with dung, stone, and earth vessels?"
+  },
+  {
+   "sugyaId": "yoma-002a-s03",
+   "path": "argumentFlow[step-02].text",
+   "sourceLines": [
+    14,
+    15,
+    16,
+    17
+   ],
+   "severity": "wrong meaning",
+   "currentClaim": "Frames the immersion as the Sages' act 'since a tvul yom is fit' and then as the cause of the vessels.",
+   "sourceSupports": "Line 14: the reason for the vessels is 'keivan d'tevul yom kasher b'parah' (because a tevul yom is fit). Lines 15-17 cite the Mishnah (they made the kohen tamei and immersed him to refute the Sadducees) as proof of that leniency. Lines 18-20: therefore the Rabbis instituted vessels that do not receive impurity 'kei heichi d'lo lizalzelu bah'. Rashi: because a tevul yom is fit, people might think the parah needs little purity, so the Sages added stringencies. The source does not say the vessels repair a problem created by the deliberate impurity act, and does not say people would perform it in impurity.",
+   "proposedReplacement": "Because a tvul yom is fit to perform the parah. Proof: the Mishnah teaches that they would make the kohen who burns the parah tamei and immerse him, to refute the Sadducees, who said it was performed only by those whose sun had set."
+  },
+  {
+   "sugyaId": "yoma-002a-s03",
+   "path": "argumentFlow[step-02].sourceRefs[0].vilnaLine",
+   "sourceLines": [
+    15
+   ],
+   "severity": "wrong placement",
+   "currentClaim": "14",
+   "sourceSupports": "The cited Mishnah about making the kohen tamei begins on line 15.",
+   "proposedReplacement": 15
+  },
+  {
+   "sugyaId": "yoma-002a-s03",
+   "path": "argumentFlow[step-03].text",
+   "sourceLines": [
+    18,
+    19,
+    20
+   ],
+   "severity": "wrong meaning",
+   "currentClaim": "'Lest people see the tvul yom perform the ritual and come to treat it with contempt, performing it in impurity themselves...'",
+   "sourceSupports": "Lines 18-20: vessels that do not receive impurity 'so that they not treat it lightly'; 'performing it in impurity themselves' is not stated.",
+   "proposedReplacement": "Therefore the Sages instituted dung, stone, and earth vessels, which do not receive impurity, so that people would not treat the parah lightly."
+  },
+  {
+   "sugyaId": "yoma-002a-s03",
+   "path": "misconceptions[0]",
+   "sourceLines": [
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20
+   ],
+   "severity": "wrong meaning",
+   "currentClaim": "Correction: vessels are 'a safeguard against the secondary risk created by the Sages' deliberate provocation'.",
+   "sourceSupports": "Line 14: the reason for the vessels is 'keivan d'tevul yom kasher b'parah' (because a tevul yom is fit). Lines 15-17 cite the Mishnah (they made the kohen tamei and immersed him to refute the Sadducees) as proof of that leniency. Lines 18-20: therefore the Rabbis instituted vessels that do not receive impurity 'kei heichi d'lo lizalzelu bah'. Rashi: because a tevul yom is fit, people might think the parah needs little purity, so the Sages added stringencies. The source does not say the vessels repair a problem created by the deliberate impurity act, and does not say people would perform it in impurity.",
+   "proposedReplacement": {
+    "misconception": "The vessels that cannot become impure were instituted to refute the Sadducees.",
+    "correction": "The deliberate immersion of the kohen refuted the Sadducees. The vessels were instituted because a tvul yom is fit for the parah, so that people would not treat it lightly.",
+    "correctedByStepId": "step-03"
+   }
+  },
+  {
+   "sugyaId": "yoma-002a-s03",
+   "path": "visualizableElements[0].item",
+   "sourceLines": [
+    15,
+    16
+   ],
+   "severity": "minor wording",
+   "currentClaim": "'Priest immersed in mikveh mid-day, still dripping, approaching the heifer pyre'",
+   "sourceSupports": "'Still dripping' and 'mid-day' are invented details; the source says only that he was made tamei and immersed.",
+   "proposedReplacement": "The kohen, made tamei and then immersed that day (a tvul yom), burning the parah"
+  },
+  {
+   "sugyaId": "yoma-002a-s03",
+   "path": "visualizableElements[1]",
+   "sourceLines": [
+    18,
+    19
+   ],
+   "severity": "contract violation",
+   "currentClaim": "'role' holds a full prose sentence, which is not a role value and is a fabricated role.",
+   "sourceSupports": "Contract: visualizableElements use {item, type?, label?, role?, priority?}; never fabricate role.",
+   "proposedReplacement": {
+    "item": "Dung, stone, and earth vessels, which cannot receive impurity",
+    "priority": 2
+   }
+  },
+  {
+   "sugyaId": "yoma-002a-s03",
+   "path": "quizSeeds[1]",
+   "sourceLines": [
+    14,
+    18,
+    19,
+    20
+   ],
+   "severity": "wrong meaning",
+   "currentClaim": "Answer: 'Lest people treat the ritual with contempt and come to perform it in impurity, having seen a tvul yom perform it...'",
+   "sourceSupports": "Line 14: the reason for the vessels is 'keivan d'tevul yom kasher b'parah' (because a tevul yom is fit). Lines 15-17 cite the Mishnah (they made the kohen tamei and immersed him to refute the Sadducees) as proof of that leniency. Lines 18-20: therefore the Rabbis instituted vessels that do not receive impurity 'kei heichi d'lo lizalzelu bah'. Rashi: because a tevul yom is fit, people might think the parah needs little purity, so the Sages added stringencies. The source does not say the vessels repair a problem created by the deliberate impurity act, and does not say people would perform it in impurity.",
+   "proposedReplacement": {
+    "question": "Why did the Sages require dung, stone, and earth vessels for the parah?",
+    "answer": "Because a tvul yom is fit for the parah, the Sages required vessels that cannot receive impurity, so that people would not treat the parah lightly.",
+    "sourceRefs": [
+     {
+      "sourceType": "gemara",
+      "lineId": "yoma-002a-l18",
+      "vilnaLine": 18
+     }
+    ]
+   }
+  },
+  {
+   "sugyaId": "yoma-002a-s03",
+   "path": "quizSeeds[0].sourceRefs[0].vilnaLine",
+   "sourceLines": [
+    15
+   ],
+   "severity": "wrong placement",
+   "currentClaim": "14",
+   "sourceSupports": "The deliberate impurity and the Sadducees are on lines 15-17.",
+   "proposedReplacement": 15
+  },
+  {
+   "sugyaId": "yoma-002a-s03",
+   "path": "finalRuling",
+   "sourceLines": [
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20
+   ],
+   "severity": "contract violation",
+   "currentClaim": "'Background established by the mishna: ... which is why the Sages required...' (labels itself background and embeds reasoning).",
+   "sourceSupports": "Lines 14-20 give two halachic points: a tvul yom is fit for the parah; the Sages required impurity-proof vessels.",
+   "proposedReplacement": "A tvul yom is fit to perform the parah adumah, and the Sages required that its service use dung, stone, and earth vessels, which cannot receive impurity."
+  },
+  {
+   "sugyaId": "yoma-002a-s03",
+   "path": "prerequisiteKnowledge[1]",
+   "sourceLines": [
+    16,
+    17
+   ],
+   "severity": "wrong meaning",
+   "currentClaim": "'Sadducean position: a tvul yom is unfit for holy service until sunset.'",
+   "sourceSupports": "The dispute in line 17 concerns the parah specifically ('bim'orvei hashemesh haytah na'aseit'); a tvul yom being unfit for ordinary Temple service is not a Sadducean distinctive.",
+   "proposedReplacement": "Sadducean position: the parah adumah could be performed only by a kohen whose sun had set after immersion, not by a tvul yom."
+  },
+  {
+   "sugyaId": "yoma-002a-s04",
+   "path": "argumentFlow[step-02].text",
+   "sourceLines": [
+    20,
+    21,
+    22,
+    23,
+    24
+   ],
+   "severity": "wrong meaning",
+   "currentClaim": "'The parah is a chatat, so its service requires the north side... Northeast is the intersection of both requirements.'",
+   "sourceSupports": "Lines 20-24: 'since it is a chatat, and a chatat requires the north, and it is written of it toward the front of the Tent of Meeting, the Rabbis instituted a northeast chamber so that it would have a heikher'. The location is a rabbinic sign. Rashi on these lines: this does not mean the parah itself must be in the north; it was slaughtered on the Mount of Olives. Nothing says the parah's service requires the north or that the chamber fulfills two requirements.",
+   "proposedReplacement": "Because the parah is a chatat, and a chatat requires the north, and of the parah it is written 'toward the front of the Tent of Meeting' (Numbers 19:4), which points east, the Sages instituted a chamber to the northeast."
+  },
+  {
+   "sugyaId": "yoma-002a-s04",
+   "path": "argumentFlow[step-02].sourceRefs[0].vilnaLine",
+   "sourceLines": [
+    21
+   ],
+   "severity": "wrong placement",
+   "currentClaim": "20",
+   "sourceSupports": "The chatat reason and the verse are on lines 21-22.",
+   "proposedReplacement": 21
+  },
+  {
+   "sugyaId": "yoma-002a-s04",
+   "path": "learning.coreTension",
+   "sourceLines": [
+    20,
+    21,
+    22,
+    23,
+    24
+   ],
+   "severity": "wrong meaning",
+   "currentClaim": "'Two independent Torah requirements point to two different directions; the Sages found a single physical location that satisfies both.'",
+   "sourceSupports": "Lines 20-24: 'since it is a chatat, and a chatat requires the north, and it is written of it toward the front of the Tent of Meeting, the Rabbis instituted a northeast chamber so that it would have a heikher'. The location is a rabbinic sign. Rashi on these lines: this does not mean the parah itself must be in the north; it was slaughtered on the Mount of Olives. Nothing says the parah's service requires the north or that the chamber fulfills two requirements.",
+   "proposedReplacement": "The parah's chatat status points north and its verse 'toward the front of the Tent of Meeting' points east, yet neither requires its chamber to be in any place; the Sages chose the northeast to give it a distinguishing sign."
+  },
+  {
+   "sugyaId": "yoma-002a-s04",
+   "path": "learning.coreMove",
+   "sourceLines": [
+    20,
+    21,
+    22,
+    23,
+    24
+   ],
+   "severity": "wrong meaning",
+   "currentClaim": "'Multi-requirement convergence: when two halakhic orientations must be respected, select the intersection point...'",
+   "sourceSupports": "Lines 20-24: 'since it is a chatat, and a chatat requires the north, and it is written of it toward the front of the Tent of Meeting, the Rabbis instituted a northeast chamber so that it would have a heikher'. The location is a rabbinic sign. Rashi on these lines: this does not mean the parah itself must be in the north; it was slaughtered on the Mount of Olives. Nothing says the parah's service requires the north or that the chamber fulfills two requirements.",
+   "proposedReplacement": "The Sages placed the chamber at the northeast so that its location carries a recognizable sign (heikher) of two scriptural features of the parah: it is a chatat (north) and its verse faces the Tent of Meeting (east)."
+  },
+  {
+   "sugyaId": "yoma-002a-s04",
+   "path": "learning.reasoningPattern.notes",
+   "sourceLines": [
+    20,
+    21,
+    22,
+    23,
+    24
+   ],
+   "severity": "wrong meaning",
+   "currentClaim": "'Two independent directional requirements satisfied simultaneously by their geometric intersection.'",
+   "sourceSupports": "Lines 20-24: 'since it is a chatat, and a chatat requires the north, and it is written of it toward the front of the Tent of Meeting, the Rabbis instituted a northeast chamber so that it would have a heikher'. The location is a rabbinic sign. Rashi on these lines: this does not mean the parah itself must be in the north; it was slaughtered on the Mount of Olives. Nothing says the parah's service requires the north or that the chamber fulfills two requirements.",
+   "proposedReplacement": "Two scriptural features of the parah, its chatat status (north) and facing the Tent of Meeting (east), are signaled together by one rabbinically chosen location, not literally fulfilled by it."
+  },
+  {
+   "sugyaId": "yoma-002a-s04",
+   "path": "misconceptions[0].correction",
+   "sourceLines": [
+    20,
+    21,
+    22,
+    23,
+    24
+   ],
+   "severity": "wrong meaning",
+   "currentClaim": "'It is the precise intersection of two independent halakhic directional requirements...'",
+   "sourceSupports": "Lines 20-24: 'since it is a chatat, and a chatat requires the north, and it is written of it toward the front of the Tent of Meeting, the Rabbis instituted a northeast chamber so that it would have a heikher'. The location is a rabbinic sign. Rashi on these lines: this does not mean the parah itself must be in the north; it was slaughtered on the Mount of Olives. Nothing says the parah's service requires the north or that the chamber fulfills two requirements.",
+   "proposedReplacement": "The Gemara explains the northeast as a rabbinic choice: the parah is a chatat, a chatat requires the north, and its verse speaks of facing the Tent of Meeting; the location serves as a distinguishing sign (heikher), not as the fulfillment of a directional requirement."
+  },
+  {
+   "sugyaId": "yoma-002a-s04",
+   "path": "finalRuling",
+   "sourceLines": [
+    20,
+    21,
+    22,
+    23,
+    24
+   ],
+   "severity": "wrong meaning",
+   "currentClaim": "'...because the parah adumah is a chatat (north side required) and must face the Tent of Meeting entrance (east).'",
+   "sourceSupports": "Lines 20-24: 'since it is a chatat, and a chatat requires the north, and it is written of it toward the front of the Tent of Meeting, the Rabbis instituted a northeast chamber so that it would have a heikher'. The location is a rabbinic sign. Rashi on these lines: this does not mean the parah itself must be in the north; it was slaughtered on the Mount of Olives. Nothing says the parah's service requires the north or that the chamber fulfills two requirements.",
+   "proposedReplacement": "The Sages instituted that the parah kohen's chamber be to the northeast as a distinguishing sign, since the parah is a chatat, and a chatat requires the north, and its verse speaks of facing the Tent of Meeting."
+  },
+  {
+   "sugyaId": "yoma-002a-s04",
+   "path": "learning.memoryAnchor",
+   "sourceLines": [
+    20,
+    21,
+    22,
+    23,
+    24
+   ],
+   "severity": "minor wording",
+   "currentClaim": "'...the two associations the Gemara names at lines 20-23 - nothing on this daf ties it to Yom Kippur's own service.' (reviewer meta text in learner prose)",
+   "sourceSupports": "Content supported, meta commentary is not learner content.",
+   "proposedReplacement": "Northeast chamber: north for the parah's chatat status, east for facing the Tent of Meeting; a distinguishing sign (heikher) instituted by the Sages."
+  },
+  {
+   "sugyaId": "yoma-002a-s04",
+   "path": "quizSeeds[0].sourceRefs[0].vilnaLine",
+   "sourceLines": [
+    21
+   ],
+   "severity": "wrong placement",
+   "currentClaim": "20",
+   "sourceSupports": "'Chatat hi v'chatat te'unah tzafon' is on line 21.",
+   "proposedReplacement": 21
+  },
+  {
+   "sugyaId": "yoma-002a-s05",
+   "path": "misconceptions[0]",
+   "sourceLines": [
+    24,
+    25,
+    26,
+    27
+   ],
+   "severity": "wrong meaning",
+   "currentClaim": "Correction asserts 'It is a methodological dispute about how to read Mishnaic geographic terms'.",
+   "sourceSupports": "Lines 24-27 give two definitions of one word; no methodological claim is made or implied in the source.",
+   "proposedReplacement": {
+    "misconception": "Both Amoraim agree that 'bira' refers to the whole Temple and differ only about the proof verse.",
+    "correction": "Rabbi Yochanan, quoted by Rabba bar bar Chana, says Bira was a specific place on the Temple Mount; Reish Lakish says the whole Mikdash is called Bira, citing 'the Bira which I prepared'.",
+    "correctedByStepId": "step-03"
+   }
+  },
+  {
+   "sugyaId": "yoma-002a-s05",
+   "path": "learning.learningBlocker",
+   "sourceLines": [
+    24,
+    25,
+    26,
+    27
+   ],
+   "severity": "wrong meaning",
+   "currentClaim": "'...it is actually a methodological dispute about how to read Mishnaic geographic terms.'",
+   "sourceSupports": "Unsupported characterization; the source records a definitional dispute about this one word.",
+   "proposedReplacement": "Students may assume both Amoraim are defining the same kind of thing; Rabbi Yochanan names one specific place on the Temple Mount, while Reish Lakish applies the word to the entire Mikdash."
+  },
+  {
+   "sugyaId": "yoma-002a-s05",
+   "path": "argumentFlow[step-03].sourceRefs[0].vilnaLine",
+   "sourceLines": [
+    26
+   ],
+   "severity": "wrong placement",
+   "currentClaim": "25",
+   "sourceSupports": "Reish Lakish's statement begins on line 26; line 25 is Rabbi Yochanan's.",
+   "proposedReplacement": 26
+  },
+  {
+   "sugyaId": "yoma-002a-s05",
+   "path": "quizSeeds[1].sourceRefs[0].vilnaLine",
+   "sourceLines": [
+    27
+   ],
+   "severity": "wrong placement",
+   "currentClaim": "25",
+   "sourceSupports": "Reish Lakish's proof verse is on line 27.",
+   "proposedReplacement": 27
+  },
+  {
+   "sugyaId": "yoma-002a-s06",
+   "path": "display.hint",
+   "sourceLines": [
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38
+   ],
+   "severity": "contract violation",
+   "currentClaim": "Two declarative sentences asserting the answer, then a question: a descriptive paragraph rather than a question.",
+   "sourceSupports": "Contract: display.hint is a question. Content basis: lines 32-34 concede the parah-only reading fails and ask about a Yom-Kippur-only reading; lines 34-38 answer with tzivah-tzivah.",
+   "proposedReplacement": "Once 'to atone' rules out reading the whole verse as the parah alone, what does the Gemara use to rule out reading the whole verse as Yom Kippur alone?"
+  },
+  {
+   "sugyaId": "yoma-002a-s06",
+   "path": "display.oneLine",
+   "sourceLines": [
+    27,
+    28,
+    29,
+    30,
+    31,
+    34,
+    35,
+    36,
+    37,
+    38
+   ],
+   "severity": "minor wording",
+   "currentClaim": "States flatly that Lev 8:34 'is the source for both seven-day rules' with no indication that the daf ends opening a further challenge.",
+   "sourceSupports": "Lines 27-31: the derivation is Rabbi Yochanan's (via Rabbi Manyomi bar Chilkiya and Rabbi Machsiya bar Idi); lines 34-38 defend it. The flat 'is the source' presents it as closed, but the discussion continues on the next amud; per the boundary decision the sugya may say only that, without the next amud's content.",
+   "proposedReplacement": "Rabbi Yochanan derives both seven-day separations from Leviticus 8:34: 'to do' for the parah, 'to atone' for Yom Kippur; a gezerah shavah on 'tzivah' ties the inauguration verse to the parah statute, and the discussion continues on the next amud."
+  },
+  {
+   "sugyaId": "yoma-002a-s06",
+   "path": "display.shortSummary",
+   "sourceLines": [
+    34,
+    35,
+    36,
+    37,
+    38
+   ],
+   "severity": "wrong placement",
+   "currentClaim": "'...ties the milu'im verse's to do to the heifer statute, importing its sequestration requirement. The daf ends with a further objection to this derivation left unanswered.' ('its' reads as the heifer statute's requirement, reversing the direction; and the last sentence rests on line 39, outside the sugya range)",
+   "sourceSupports": "Line 38: 'as here (inauguration) there is separation, so there (parah) separation': separation flows from the inauguration to the parah. The further objection is on line 39, outside lines 27-38; under the boundary decision s06 may only say the discussion continues on the next amud.",
+   "proposedReplacement": "The Gemara asks where the seven-day separation comes from. Rabbi Yochanan answers from Leviticus 8:34 (the inauguration passage): 'as He commanded to do, to atone.' 'To do' is read as the parah adumah; 'to atone' is read as Yom Kippur. The whole verse cannot refer to the parah alone, since a parah does not atone. When the Gemara asks why the whole verse should not refer to Yom Kippur, it answers with a gezerah shavah on 'tzivah' (Lev 8:34 and Num 19:2): as there it is the parah, so here it is the parah, and as the inauguration had separation, so the parah requires separation. The discussion continues on the next amud."
+  },
+  {
+   "sugyaId": "yoma-002a-s06",
+   "path": "display.whats",
+   "sourceLines": [
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38
+   ],
+   "severity": "minor wording",
+   "currentClaim": "Says 'The Gemara finally asks' and 'The answer comes through' without attribution, and ends as if the derivation were closed.",
+   "sourceSupports": "Lines 27-29: the answer is Rabbi Yochanan's via a chain of tradents; the discussion continues on the next amud, which s06 may say without stating its content.",
+   "proposedReplacement": "The Gemara asks: where does the Torah mandate the seven-day separation at all? Rabbi Yochanan answers from Leviticus 8:34 (the Tabernacle inauguration verse): 'as He commanded to do, to atone.' 'To do' refers to the parah adumah and 'to atone' refers to Yom Kippur. Granted, the whole verse cannot refer to the parah alone, since 'to atone' is written and a parah is not a matter of atonement; but why can't it all refer to Yom Kippur? The Gemara answers with a gezerah shavah on 'commanded/commanded' (Lev 8:34 and Num 19:2): just as the parah verse there refers to the parah, so too 'commanded' here, in the inauguration verse, refers to the parah; and just as here, at the inauguration, there is separation before the service, so too there, regarding the parah, separation is required. The discussion continues on the next amud."
+  },
+  {
+   "sugyaId": "yoma-002a-s06",
+   "path": "argumentFlow[step-03].text",
+   "sourceLines": [
+    32,
+    33,
+    34
+   ],
+   "severity": "wrong meaning",
+   "currentClaim": "Adds a reason not in the source: 'since the atonement rites of Yom Kippur resemble those performed during the days of the inauguration'.",
+   "sourceSupports": "Lines 32-34: 'bishlama... ela eima kulei kra b'Yom HaKippurim ktiv' with no stated reason.",
+   "proposedReplacement": "Granted, the whole verse cannot be set on the parah, since 'to atone' is written and the parah is not a matter of atonement. But say the whole verse is written about Yom Kippur? Then the parah kohen's separation would have no source here."
+  },
+  {
+   "sugyaId": "yoma-002a-s06",
+   "path": "argumentFlow[step-02].sourceRefs[0].vilnaLine",
+   "sourceLines": [
+    29
+   ],
+   "severity": "wrong placement",
+   "currentClaim": "27",
+   "sourceSupports": "The verse and its split ('la'asot... l'chaper') are on lines 29-31; line 27 is only 'menah hanei milei'.",
+   "proposedReplacement": 29
+  },
+  {
+   "sugyaId": "yoma-002a-s06",
+   "path": "quizSeeds[0].sourceRefs[0].vilnaLine",
+   "sourceLines": [
+    29
+   ],
+   "severity": "wrong placement",
+   "currentClaim": "27",
+   "sourceSupports": "The verse and split are on lines 29-31.",
+   "proposedReplacement": 29
+  },
+  {
+   "sugyaId": "yoma-002a-s06",
+   "path": "learning.resolution",
+   "sourceLines": [
+    29,
+    30,
+    31,
+    34,
+    35,
+    36,
+    37,
+    38
+   ],
+   "severity": "wrong placement",
+   "currentClaim": "'...but the Gemara's own text then raises one further objection ('ve'eima', line 39) and breaks off before resolving it, so the derivation is not settled on this daf.'",
+   "sourceSupports": "Line 39 is outside s06 (27-38) by the boundary decision; s06 may say only that the discussion continues on the next amud.",
+   "proposedReplacement": "Leviticus 8:34 is the anchor: 'to do' (parah) and 'to atone' (Yom Kippur). The gezerah shavah ('tzivah'/'tzivah' with Num 19:2) identifies 'to do' with the parah and carries the inauguration's separation over to it. The discussion continues on the next amud."
+  },
+  {
+   "sugyaId": "yoma-002a-s06",
+   "path": "learning.memoryAnchor",
+   "sourceLines": [
+    34,
+    35,
+    36,
+    37,
+    38
+   ],
+   "severity": "wrong placement",
+   "currentClaim": "'...but the daf raises one more objection to this derivation ('ve'eima') and stops before answering it.'",
+   "sourceSupports": "Rests on line 39, outside lines 27-38.",
+   "proposedReplacement": "'Tzivah' in the parah statute (Num 19:2); 'tzivah' in the inauguration verse (Lev 8:34). The shared word licenses reading 'to do' as the parah and carrying the inauguration's separation over to it."
+  },
+  {
+   "sugyaId": "yoma-002a-s06",
+   "path": "misconceptions[0]",
+   "sourceLines": [
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38
+   ],
+   "severity": "wrong meaning",
+   "currentClaim": "Misconception 'The gezerah shavah is the entire derivation' is effectively affirmed by its own correction ('the split reading ... proves nothing on its own; the gezerah shavah is what actually...'); incoherent, and wrong: the challenge concedes that 'to atone' is Yom Kippur.",
+   "sourceSupports": "Lines 32-34 'bishlama' concede the verse cannot be all parah, i.e. 'to atone' (Yom Kippur) stands; lines 34-38 the gezerah shavah answers only the parah question.",
+   "proposedReplacement": {
+    "misconception": "The gezerah shavah replaces Rabbi Yochanan's reading, so 'to atone' no longer teaches the Yom Kippur separation.",
+    "correction": "The Gemara's challenge concedes that 'to atone' refers to Yom Kippur. The gezerah shavah on 'tzivah' answers only the question about the parah, establishing that 'to do' refers to the parah and that its kohen is separated as at the inauguration.",
+    "correctedByStepId": "step-04"
+   }
+  },
+  {
+   "sugyaId": "yoma-002a-s06",
+   "path": "learning.learningBlocker",
+   "sourceLines": [
+    29,
+    30,
+    31,
+    32,
+    33,
+    34
+   ],
+   "severity": "wrong meaning",
+   "currentClaim": "'...the split reading (line 30-31) ... by itself it proves nothing...'",
+   "sourceSupports": "The split is Rabbi Yochanan's derivation; the challenge accepts its Yom Kippur half and questions only the parah half.",
+   "proposedReplacement": "Students often read the challenge (lines 32-34) as rejecting Rabbi Yochanan's whole reading. It concedes that the verse cannot be entirely about the parah and asks only why it should not be entirely about Yom Kippur; the gezerah shavah on 'tzivah' answers that by tying 'to do' to the parah."
+  },
+  {
+   "sugyaId": "yoma-002a-s06",
+   "path": "finalRuling",
+   "sourceLines": [
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38
+   ],
+   "severity": "contract violation",
+   "currentClaim": "Holds a description of a derivation plus a note about an objection at the end of the daf (line 39, outside the sugya range).",
+   "sourceSupports": "Contract: finalRuling is the halachic bottom line and is empty when the sugya is purely analytical. Lines 27-38 are a scriptural derivation, not a ruling.",
+   "proposedReplacement": ""
+  },
+  {
+   "sugyaId": "yoma-002a-s06",
+   "path": "conceptRefs[concept.miluyim].scope",
+   "sourceLines": [
+    27,
+    28,
+    29,
+    30,
+    31
+   ],
+   "severity": "contract violation",
+   "currentClaim": "'scope' holds an interpretive prose sentence instead of a scope value (siblings use 'global'/'local').",
+   "sourceSupports": "scope is a classification slot, not a claim field.",
+   "proposedReplacement": "global"
+  }
+ ],
+ "defectCountsBySeverity": {
+  "wrong meaning": 32,
+  "wrong placement": 15,
+  "minor wording": 8,
+  "contract violation": 6
+ },
+ "repairScope": "Daf summary changes (no source coordinates change), so per runbook the repair manifest should use --all-sugyot. Affected fields are exactly the paths listed in defects; all other paths were checked and are SUPPORTED/REVIEWED/NONFACTUAL as recorded in each fieldInventoryFirstPass. rashiTranslations and raw he/en are not repair targets.",
+ "blockedEscalations": [],
+ "rawSourceEscalation": "None. No evidence that the raw Hebrew of 2a is defective.",
+ "notes": [
+  "The removed 'concepts' field is not present in any sugya and was not touched; the daf-level review.concepts label is review metadata and was ignored.",
+  "conceptRefs is a reserved field; only the prose-in-scope anomaly in s06 is reported.",
+  "visualizableElements role/priority values other than s03[1].role could not be shown fabricated or genuine from the source; they were left as is."
+ ],
+ "completenessStatement": "Every semantic field of every sugya on 2a was checked against the Hebrew source, including fields that did not look suspicious, plus the daf summary and all daf glossary entries. Field paths checked per sugya (machine-enumerated by enumerate_semantic_paths, which includes the shared dafLevel summary and glossary paths in each count): yoma-002a-s01=96, yoma-002a-s02=79, yoma-002a-s03=97, yoma-002a-s04=92, yoma-002a-s05=91, yoma-002a-s06=110."
+}
