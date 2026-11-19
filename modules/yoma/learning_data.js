@@ -395,7 +395,7 @@ const DAF_CONTENT = {
   "2a": {
     canonicalRef: "Yoma 2a",
     daf: "2a",
-    summary: "Tractate Yoma opens with the Mishnah's rule that seven days before Yom Kippur the Kohen Gadol is separated from his home to the Chamber of Parhedrin, and another kohen is prepared in case he becomes disqualified; Rabbi Yehuda wants another wife prepared too, lest his wife die, since 'his house' in the verse means his wife, but the Sages answer that if so there is no end to the matter. The Gemara cites the parallel Mishnah in Parah: the kohen who burns the parah adumah is likewise separated seven days beforehand, to the Chamber of the Stone House facing the Bira to the northeast, so called because all its service used dung, stone, and earth vessels. The reason for those vessels is that a tevul yom is fit for the parah (the kohen was even deliberately made tamei and immersed, to refute the Sadducees who required sunset), so the Sages required vessels that cannot become impure, so that people would not treat the parah lightly. The chamber is in the northeast as a distinguishing sign: the parah is a chatat, and a chatat requires the north, and its verse speaks of facing the Tent of Meeting. Rabbi Yochanan explains 'Bira' as a specific place on the Temple Mount, and Reish Lakish as the whole Temple. Finally, Rabbi Yochanan derives both separations from the inauguration verse 'as was done this day, the Lord commanded to do, to atone for you': 'to do' is the parah and 'to atone' is Yom Kippur. When the Gemara asks why the whole verse should not refer to Yom Kippur, it answers with a verbal analogy on 'tzivah' linking the verse to the parah statute. The daf ends as the Gemara begins a further challenge ('ve'eima'), which continues on the next daf.",
+    summary: "Tractate Yoma opens with the Mishnah's rule that seven days before Yom Kippur the Kohen Gadol is separated from his home to the Chamber of Parhedrin, and another kohen is prepared in case he becomes disqualified; Rabbi Yehuda wants another wife prepared too, lest his wife die, since 'his house' in the verse means his wife, but the Sages answer that if so there is no end to the matter. The Gemara cites the parallel Mishnah in Parah: the kohen who burns the parah adumah is likewise separated seven days beforehand, to the chamber facing the Bira to the northeast, called the Chamber of the Stone House; the Gemara explains the name: all the parah's acts were done with dung, stone, and earth vessels. The reason for those vessels is that a tevul yom is fit for the parah (the kohen was even deliberately made tamei and immersed, to refute the Sadducees who required sunset), so the Sages required vessels that cannot become impure, so that people would not treat the parah lightly. The chamber is in the northeast as a distinguishing sign: the parah is a chatat, and a chatat requires the north, and its verse speaks of facing the Tent of Meeting. Rabbi Yochanan explains 'Bira' as a specific place on the Temple Mount, and Reish Lakish as the whole Temple. Finally, Rabbi Yochanan derives both separations from the inauguration verse 'as was done this day, the Lord commanded to do, to atone for you': 'to do' is the parah and 'to atone' is Yom Kippur. When the Gemara asks why the whole verse should not refer to Yom Kippur, it answers with a verbal analogy on 'tzivah' linking the verse to the parah statute. The daf ends as the Gemara begins a further challenge ('ve'eima'), which continues on the next daf.",
     sugyot: [
       {
         id: "yoma-002a-s01",
@@ -1413,7 +1413,7 @@ const DAF_CONTENT = {
       {
         he: "פַּרְהֶדְרִין",
         translit: "Parhedrin",
-        en: "The private chamber in the Temple where the Kohen Gadol lived during the seven days before Yom Kippur, separated from his home in case a disqualification should prevent him from serving."
+        en: "The name of the chamber to which the Kohen Gadol is separated from his home for the seven days before Yom Kippur."
       },
       {
         he: "פָּרָה אֲדֻמָּה",
@@ -1423,12 +1423,12 @@ const DAF_CONTENT = {
       {
         he: "טְבוּל יוֹם",
         translit: "Tvul Yom",
-        en: "A person who immersed in a mikveh today but hasn't yet reached sunset. The Sages deliberately assigned such a person (tvul yom) to burn the Red Heifer, in order to publicly reject the Sadducees' stated position that the ritual required waiting until sunset."
+        en: "A person who immersed today and whose sun has not yet set. Because a tvul yom is fit for the Red Heifer, they would deliberately make the kohen who burns it tamei and immerse him, to refute the Sadducees, who said it was performed only by those whose sun had set."
       },
       {
         he: "גְּזֵרָה שָׁוָה",
         translit: "Gezerah Shavah",
-        en: "Verbal analogy. When the same word or phrase appears in two Torah passages, the rules of one passage carry over to the other. One of the thirteen principles of biblical interpretation."
+        en: "Verbal analogy. When the same word or phrase appears in two Torah passages, the rules of one passage carry over to the other."
       },
       {
         he: "מִלּוּאִים",
