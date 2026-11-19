@@ -1548,7 +1548,7 @@
     "yoma-002a-s02": {
       "sugyaId": "yoma-002a-s02",
       "daf": "2a",
-      "state": "PENDING_FINAL_AUDIT",
+      "state": "REPAIRED_PENDING_REVIEW",
       "firstPass": {
         "reviewId": "rv3-second2-2a-fable",
         "reviewerContextId": "rv3-ctx-second2-2a-a2763c3e95db526fb",
@@ -1620,24 +1620,7 @@
           }
         }
       },
-      "repairRef": "13df4d119610605ca09ecdcb0f48e83f39780b9c",
-      "sourceFingerprint": "7d10aba46e159ee6318448b96999bf39ea72a73db02a271b45bd5c54ab377bed",
-      "semanticFingerprint": "bdf130a39e6a036698cab8fa44e89e696919bcde00e7070678db7e32dc613721",
-      "secondPass": {
-        "reviewId": "rv3-second6-2a-fable",
-        "reviewerContextId": "rv3-ctx-second6-2a-aa1cfd2ef081989bc",
-        "sourceFirst": true,
-        "verdict": "CONFIRMED",
-        "reviewedSourceFingerprint": "7d10aba46e159ee6318448b96999bf39ea72a73db02a271b45bd5c54ab377bed",
-        "reviewedSemanticFingerprint": "bdf130a39e6a036698cab8fa44e89e696919bcde00e7070678db7e32dc613721",
-        "evidence": {
-          "method": "rv3 independent source-first second pass (round 6) in an isolated context, judged by docs/reports/semantic-nothing-beyond-the-page.md",
-          "fullEvidenceFile": "docs/reports/data/semantic-yoma-2a-rv3-second-pass-6.json",
-          "fieldsChecked": "display.{title,oneLine,shortSummary,whats,hint}; learning.{learnerQuestion,coreTension,coreMove,resolution,takeaway.type/text,reasoningPattern.id/category/notes,ahaMoment,learningBlocker,memoryAnchor}; argumentFlow[*].{type,label,speaker,text,sourceRefs}; conceptRefs; requiresUnderstanding; misconceptions[*]; relatedSugyot; visualizableElements; quizSeeds[*].{question,answer,sourceRefs}; finalRuling; difficulty; alternateAngles; topicTags; prerequisiteKnowledge; lineRange/lineMap",
-          "verdict": "CONFIRMED",
-          "evidence": "Cited Mishnah and name-explanation match L8-14; 'the parah's acts' matches Rashi 'של פרה'. Name explanation correctly attributed to the Gemara. No reason for the vessels is imported from s03."
-        }
-      }
+      "repairRef": "7b28570d1c87c84ca85320fe4c431ab8a522df3a"
     },
     "yoma-002a-s03": {
       "sugyaId": "yoma-002a-s03",

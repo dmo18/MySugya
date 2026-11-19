@@ -579,29 +579,29 @@ const DAF_CONTENT = {
           endVilnaLine: 14
         },
         display: {
-          title: "Gemara: The parah adumah parallel and the Stone House chamber",
-          oneLine: "The Gemara cites a Mishnah taught elsewhere: the kohen who burns the parah adumah was also separated from his home for seven days, to the Stone House chamber facing the Bira to the northeast, and explains that all the parah's acts were done with dung, stone, and earth vessels.",
-          shortSummary: "The Gemara opens by drawing a parallel to the red heifer priest, who was also separated for seven days and housed in the northeast Stone House chamber. The Gemara explains the chamber's name: all the parah's acts were done with dung vessels, stone vessels, and earth vessels.",
+          title: "Gemara: The parah kohen's separation and the Stone House chamber",
+          oneLine: "The Gemara cites a Mishnah taught elsewhere: the kohen who burns the parah adumah was separated from his home for seven days, to the Stone House chamber facing the Bira to the northeast, and explains that all the parah's acts were done with dung, stone, and earth vessels.",
+          shortSummary: "The Gemara cites a Mishnah taught elsewhere: the kohen who burns the parah was separated from his home for seven days, to the Stone House chamber facing the Bira to the northeast. The Gemara explains the chamber's name: all the parah's acts were done with dung vessels, stone vessels, and earth vessels.",
           whats: "The Gemara cites a Mishnah taught elsewhere: seven days before the burning of the parah adumah, the kohen who burns it was separated from his home to the chamber facing the Bira to the northeast, called the Chamber of the Stone House. The Gemara then explains the name: all the parah's acts were done with dung vessels, stone vessels, and earth vessels.",
-          hint: "Which other kohen does the Mishnah cited by the Gemara separate from his home for seven days, and why was his chamber called the Stone House?"
+          hint: "Which kohen does the Mishnah cited by the Gemara separate from his home for seven days, and why was his chamber called the Stone House?"
         },
         learning: {
-          learnerQuestion: "Which other kohen is separated from his home for seven days, and where was he housed?",
-          coreTension: "The Gemara turns from the Kohen Gadol to the parah adumah; the link is that the parah kohen is also separated from his home for seven days.",
-          coreMove: "The Gemara sets a parallel Mishnah beside this one: the kohen who burns the parah, like the Kohen Gadol, is separated from his home for seven days.",
-          resolution: "The Gemara cites a Mishnah taught elsewhere, which also separates the kohen who burns the parah from his house for seven days, alongside the Kohen Gadol's separation in this Mishnah.",
+          learnerQuestion: "Which kohen does the cited Mishnah separate from his home for seven days, and where was he housed?",
+          coreTension: "The cited Mishnah names the chamber the Stone House, yet the Gemara explains that all the parah's acts were done with dung, stone, and earth vessels.",
+          coreMove: "The Gemara cites a Mishnah taught elsewhere about the kohen who burns the parah and explains his chamber's name.",
+          resolution: "The Gemara cites a Mishnah taught elsewhere, which separates the kohen who burns the parah from his house for seven days.",
           takeaway: {
             type: "conceptual",
-            text: "Two separate laws share one feature: the Kohen Gadol before Yom Kippur and the kohen who burns the parah are both separated from their homes for seven days."
+            text: "Seven days before the burning of the parah, the kohen who burns it is separated from his house to the Chamber of the Stone House, so called because all the parah's acts were done with dung, stone, and earth vessels."
           },
           reasoningPattern: {
-            id: "comparison",
-            category: "structural",
-            notes: "The parah adumah case is cited as a parallel to the Kohen Gadol case: both kohanim are separated from their homes seven days beforehand."
+            id: "definition",
+            category: "lexical",
+            notes: "The Gemara cites a Mishnah about the parah kohen's seven-day separation and explains the name of his chamber from the vessels used for the parah's acts."
           },
-          ahaMoment: "The cited Mishnah describes the same kind of seven-day separation from home, this time for the kohen who burns the parah, and the Gemara explains that his chamber's name comes from the parah's vessels.",
+          ahaMoment: "The cited Mishnah separates the kohen who burns the parah from his home for seven days, and the Gemara explains that his chamber's name comes from the parah's vessels.",
           learningBlocker: "The name Stone House can mislead: the Gemara explains that it comes from the vessels used for all the parah's acts, which were dung, stone, and earth vessels, not stone alone.",
-          memoryAnchor: "The parah kohen's seven-day separation (Lishkat Beit HaEven, northeast) parallels the Kohen Gadol's seven-day separation before Yom Kippur - the Gemara puts both cases on the table as parallel halakhot."
+          memoryAnchor: "The parah kohen: separated seven days, to Lishkat Beit HaEven, northeast; named for the dung, stone, and earth vessels of the parah's acts."
         },
         lines: [
           { id: "yoma-002a-l08", kind: "gemara", he: "<big><strong>גְּמָ׳</strong></big> תְּנַן הָתָם: שִׁבְעַת יָמִים קוֹדֶם שְׂרֵיפַת\nהַפָּרָה הָיוּ מַפְרִישִׁין כֹּהֵן הַשּׂוֹרֵף אֶת הַפָּרָה\nמִבֵּיתוֹ לַלִּשְׁכָּה שֶׁעַל פְּנֵי הַבִּירָה צָפוֹנָה\nמִזְרָחָה, וְלִשְׁכַּת בֵּית הָאֶבֶן הָיְתָה נִקְרֵאת.\nוְלָמָּה נִקְרָא שְׁמָהּ לִשְׁכַּת בֵּית הָאֶבֶן — שֶׁכׇּל\nמַעֲשֶׂיהָ בִּכְלֵי גְלָלִים, בִּכְלֵי אֲבָנִים, וּבִכְלֵי\nאֲדָמָה.",
@@ -612,7 +612,7 @@ const DAF_CONTENT = {
           {
             id: "step-01",
             type: "case",
-            label: "Parallel case introduced",
+            label: "Mishnah about the parah kohen cited",
             speaker: "Gemara",
             text: "The Gemara cites a Mishnah taught elsewhere: seven days before the burning of the parah, they would separate the kohen who burns the parah from his house to the chamber facing the Bira, to the northeast, which was called the Chamber of the Stone House.",
             sourceRefs: [
@@ -651,9 +651,9 @@ const DAF_CONTENT = {
         prerequisiteKnowledge: [],
         misconceptions: [
           {
-            misconception: "The parah adumah case is a digression before the main topic.",
-            correction: "The cited Mishnah describes a parallel case: a kohen separated from his home seven days before the burning of the parah.",
-            correctedByStepId: "step-01"
+            misconception: "The chamber was called the Stone House because the parah's acts were done with stone vessels only.",
+            correction: "The Gemara says all the parah's acts were done with dung vessels, stone vessels, and earth vessels.",
+            correctedByStepId: "step-02"
           }
         ],
         relatedSugyot: [
@@ -677,8 +677,8 @@ const DAF_CONTENT = {
             ]
           },
           {
-            question: "What second seven-day separation rule does the Gemara cite from a Mishnah taught elsewhere, and how does it parallel the Kohen Gadol's separation?",
-            answer: "The kohen who burns the parah adumah is also separated seven days beforehand, to a chamber called Lishkat Beit HaEven, facing the Bira to the northeast.",
+            question: "What seven-day separation rule does the Gemara cite from a Mishnah taught elsewhere?",
+            answer: "The kohen who burns the parah adumah is separated seven days beforehand, to a chamber called Lishkat Beit HaEven, facing the Bira to the northeast.",
             sourceRefs: [
               {
                 sourceType: "gemara",
