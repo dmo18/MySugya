@@ -47,111 +47,78 @@
     "yoma-002a-s02": {
       "sugyaId": "yoma-002a-s02",
       "daf": "2a",
-      "state": "REPAIRED_PENDING_REVIEW",
+      "state": "REPAIR_REQUIRED",
       "firstPass": {
-        "reviewId": "rv3-second-2a-fable",
-        "reviewerContextId": "rv3-ctx-second-2a-ab5c8740be29194cd",
+        "reviewId": "rv3-second2-2a-fable",
+        "reviewerContextId": "rv3-ctx-second2-2a-a2763c3e95db526fb",
         "sourceFirst": true,
         "verdict": "REPAIR_REQUIRED",
         "reviewedSourceFingerprint": "7d10aba46e159ee6318448b96999bf39ea72a73db02a271b45bd5c54ab377bed",
-        "reviewedSemanticFingerprint": "9a434b22ebfea4f1be92294f40c0250e5cf043ab69f2eb5e60b547a43b46e50c",
+        "reviewedSemanticFingerprint": "5d8b6b3aa47948e1a9731acd334c06971dae6d4fb8c64ba21af71aa0b0d614ed",
         "evidence": {
           "origin": "independent-second-pass-rejection",
           "reviewEvidence": {
-            "method": "rv3 independent source-first second pass in an isolated context; first-pass reasoning not shown",
-            "fullEvidenceFile": "docs/reports/data/semantic-yoma-2a-rv3-second-pass-1.json",
-            "fieldsChecked": 65,
+            "method": "rv3 independent source-first second pass (round 2) in an isolated context",
+            "fullEvidenceFile": "docs/reports/data/semantic-yoma-2a-rv3-second-pass-2.json",
+            "fieldsChecked": [
+              "lineRange",
+              "display.title",
+              "display.oneLine",
+              "display.shortSummary",
+              "display.whats",
+              "display.hint",
+              "learning.learnerQuestion",
+              "learning.coreTension",
+              "learning.coreMove",
+              "learning.resolution",
+              "learning.takeaway",
+              "learning.reasoningPattern",
+              "learning.ahaMoment",
+              "learning.learningBlocker",
+              "learning.memoryAnchor",
+              "argumentFlow[*] (type,label,speaker,text,sourceRefs)",
+              "conceptRefs",
+              "requiresUnderstanding",
+              "misconceptions[*]",
+              "relatedSugyot",
+              "visualizableElements",
+              "quizSeeds[*] (question,answer,sourceRefs)",
+              "finalRuling",
+              "difficulty",
+              "alternateAngles",
+              "topicTags",
+              "prerequisiteKnowledge"
+            ],
             "verdict": "REJECTED",
             "defects": [
               {
-                "fieldPath": "display.whats (final sentence)",
-                "sourceLines": [
-                  8,
-                  14,
-                  27,
-                  38
-                ],
-                "candidateSays": "'This parallel isn't coincidental; it is the key to the Gemara's later derivation.'",
-                "sourceSupports": "Lines 8-14 only cite the Parah mishnah (tnan hatam) and explain the chamber name. The Gemara gives no reason for citing it. The claim rests on lines 27-38, outside this sugya's range.",
-                "severity": "major"
+                "fieldPath": "learning.learningBlocker",
+                "sourceLines": "L11-14",
+                "says": "'the Mishnah explains that it comes from the vessels used in all the chamber's service'",
+                "sourceSupports": "The Mishnah in Parah ends at 'veLishkat Beit HaEven hayetah nikret' (L11). 'Velamah nikra shemah...' (L12-14) is the Gemara's own question and answer (the module's own source layer for Yoma.2a.3 reads 'The Gemara explains: And why was it called...'; argumentFlow step-02 of this same sugya also assigns it to the Gemara). Attribution defect. In addition 'the chamber's service' misidentifies 'ma'aseha': Rashi (he lines 16-17) 'shekol ma'aseha - shel parah'."
               },
               {
                 "fieldPath": "learning.ahaMoment",
-                "sourceLines": [
-                  8,
-                  14,
-                  27,
-                  39
-                ],
-                "candidateSays": "'...before proving they share the same source.'",
-                "sourceSupports": "Out of range (27-38), and overstated: the derivation is still under challenge when 2a ends at line 39 ('ve'eima'), so 'proving' asserts an established result the daf does not reach.",
-                "severity": "major"
+                "sourceLines": "L11-14",
+                "says": "'The Mishnah in Parah describes the same kind of seven-day separation ... and names his chamber for its vessels'",
+                "sourceSupports": "The Mishnah only gives the name; the explanation by the vessels is the Gemara's (L12-14). Same attribution defect."
               },
               {
-                "fieldPath": "learning.reasoningPattern.notes",
-                "sourceLines": [
-                  35,
-                  38
-                ],
-                "candidateSays": "'priming the gezerah shavah derivation'",
-                "sourceSupports": "The gezerah shavah is at lines 35-38, outside range 8-14.",
-                "severity": "major"
+                "fieldPath": "display.shortSummary / display.whats / quizSeeds[0].answer",
+                "sourceLines": "L12-14",
+                "says": "vessels used 'in its service' with 'its' = the chamber",
+                "sourceSupports": "Rashi: the acts are those of the parah. Lesser referent imprecision; fix together with the above so the record is consistent with step-02 ('actions associated with the heifer') and with s03."
               },
               {
-                "fieldPath": "learning.takeaway.text",
-                "sourceLines": [
-                  8,
-                  14
-                ],
-                "candidateSays": "'When the Gemara introduces a parallel case early, it usually returns to link them formally. The parallel is the argument.'",
-                "sourceSupports": "No support in lines 8-14; a generalization resting on lines 27-38. In 27-38 the parallel is the subject of the derivation, not its argument.",
-                "severity": "major"
-              },
-              {
-                "fieldPath": "learning.learningBlocker",
-                "sourceLines": [
-                  8,
-                  14
-                ],
-                "candidateSays": "'it is actually the argument in embryo'",
-                "sourceSupports": "Same unsupported out-of-range claim.",
-                "severity": "major"
-              },
-              {
-                "fieldPath": "learning.coreMove",
-                "sourceLines": [
-                  8,
-                  14,
-                  27
-                ],
-                "candidateSays": "'Juxtapose the two cases before sourcing either, so the reader ... is primed for the derivation.'",
-                "sourceSupports": "Purpose attributed to the Gemara that lines 8-14 do not state; depends on line 27 onward.",
-                "severity": "moderate"
-              },
-              {
-                "fieldPath": "display.hint; learning.learnerQuestion",
-                "sourceLines": [
-                  8,
-                  14
-                ],
-                "candidateSays": "Ask why the Gemara introduces the parah case before sourcing the Kohen Gadol's law.",
-                "sourceSupports": "The answer is not stated in lines 8-14 (nor anywhere on 2a explicitly); the question can only be answered from outside the range.",
-                "severity": "moderate"
-              },
-              {
-                "fieldPath": "display.oneLine; display.whats (opening clause)",
-                "sourceLines": [
-                  27
-                ],
-                "candidateSays": "'Before sourcing the KG's seven-day rule' / 'Before asking where the seven-day rule comes from'",
-                "sourceSupports": "Sequence claim depends on line 27, outside range. Lesser item; fix together with the above.",
-                "severity": "minor"
+                "fieldPath": "argumentFlow[1].text (step-02)",
+                "sourceLines": "L18-19 (outside range 8-14)",
+                "says": "'vessels that cannot become ritually impure'",
+                "sourceSupports": "That statement is made by the Gemara only at L18-19 ('dela likablu tumah'), which belongs to s03. Rashi's Hebrew on L12-14 does not say it. Advisory placement note: either drop the clause or mark it as explained in the next sugya."
               }
             ]
           }
         }
-      },
-      "repairRef": "02c9d26a3e626973be20ce69cc5268c0a46a9cc2"
+      }
     },
     "yoma-002a-s03": {
       "sugyaId": "yoma-002a-s03",
