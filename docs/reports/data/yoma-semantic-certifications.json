@@ -13,7 +13,7 @@
     "yoma-002a-s01": {
       "sugyaId": "yoma-002a-s01",
       "daf": "2a",
-      "state": "REPAIRED_PENDING_REVIEW",
+      "state": "PENDING_FINAL_AUDIT",
       "firstPass": {
         "reviewId": "rv3-second4-2a-fable",
         "reviewerContextId": "rv3-ctx-second4-2a-a67724d9658328d38",
@@ -74,12 +74,29 @@
           }
         }
       },
-      "repairRef": "13df4d119610605ca09ecdcb0f48e83f39780b9c"
+      "repairRef": "13df4d119610605ca09ecdcb0f48e83f39780b9c",
+      "sourceFingerprint": "d9dc8a3a173b99ecd074a82675f3a0a25201105fea976fa5cb80fb309f3888d3",
+      "semanticFingerprint": "cba52fb303abeba44f3e1c39ecde62d64ef321b568d30349d6f64f2175b4494f",
+      "secondPass": {
+        "reviewId": "rv3-second6-2a-fable",
+        "reviewerContextId": "rv3-ctx-second6-2a-aa1cfd2ef081989bc",
+        "sourceFirst": true,
+        "verdict": "CONFIRMED",
+        "reviewedSourceFingerprint": "d9dc8a3a173b99ecd074a82675f3a0a25201105fea976fa5cb80fb309f3888d3",
+        "reviewedSemanticFingerprint": "cba52fb303abeba44f3e1c39ecde62d64ef321b568d30349d6f64f2175b4494f",
+        "evidence": {
+          "method": "rv3 independent source-first second pass (round 6) in an isolated context, judged by docs/reports/semantic-nothing-beyond-the-page.md",
+          "fullEvidenceFile": "docs/reports/data/semantic-yoma-2a-rv3-second-pass-6.json",
+          "fieldsChecked": "display.{title,oneLine,shortSummary,whats,hint}; learning.{learnerQuestion,coreTension,coreMove,resolution,takeaway.type/text,reasoningPattern.id/category/notes,ahaMoment,learningBlocker,memoryAnchor}; argumentFlow[*].{type,label,speaker,text,sourceRefs}; conceptRefs; requiresUnderstanding; misconceptions[*]; relatedSugyot; visualizableElements; quizSeeds[*].{question,answer,sourceRefs}; finalRuling; difficulty; alternateAngles; topicTags; prerequisiteKnowledge; lineRange/lineMap",
+          "verdict": "CONFIRMED",
+          "evidence": "Every clause matches L1-7. Rashi-worded details (seminal emission or other impurity; second wife too might die) match Hebrew Rashi 'קרי או שאר טומאה' and 'שמא גם זו תמות'. finalRuling states only the undisputed anonymous rule, not the R. Yehuda dispute. Types case/proposal/rejection fit the moves. Hint is a question; tags are slugs."
+        }
+      }
     },
     "yoma-002a-s02": {
       "sugyaId": "yoma-002a-s02",
       "daf": "2a",
-      "state": "REPAIRED_PENDING_REVIEW",
+      "state": "PENDING_FINAL_AUDIT",
       "firstPass": {
         "reviewId": "rv3-second2-2a-fable",
         "reviewerContextId": "rv3-ctx-second2-2a-a2763c3e95db526fb",
@@ -151,12 +168,29 @@
           }
         }
       },
-      "repairRef": "13df4d119610605ca09ecdcb0f48e83f39780b9c"
+      "repairRef": "13df4d119610605ca09ecdcb0f48e83f39780b9c",
+      "sourceFingerprint": "7d10aba46e159ee6318448b96999bf39ea72a73db02a271b45bd5c54ab377bed",
+      "semanticFingerprint": "bdf130a39e6a036698cab8fa44e89e696919bcde00e7070678db7e32dc613721",
+      "secondPass": {
+        "reviewId": "rv3-second6-2a-fable",
+        "reviewerContextId": "rv3-ctx-second6-2a-aa1cfd2ef081989bc",
+        "sourceFirst": true,
+        "verdict": "CONFIRMED",
+        "reviewedSourceFingerprint": "7d10aba46e159ee6318448b96999bf39ea72a73db02a271b45bd5c54ab377bed",
+        "reviewedSemanticFingerprint": "bdf130a39e6a036698cab8fa44e89e696919bcde00e7070678db7e32dc613721",
+        "evidence": {
+          "method": "rv3 independent source-first second pass (round 6) in an isolated context, judged by docs/reports/semantic-nothing-beyond-the-page.md",
+          "fullEvidenceFile": "docs/reports/data/semantic-yoma-2a-rv3-second-pass-6.json",
+          "fieldsChecked": "display.{title,oneLine,shortSummary,whats,hint}; learning.{learnerQuestion,coreTension,coreMove,resolution,takeaway.type/text,reasoningPattern.id/category/notes,ahaMoment,learningBlocker,memoryAnchor}; argumentFlow[*].{type,label,speaker,text,sourceRefs}; conceptRefs; requiresUnderstanding; misconceptions[*]; relatedSugyot; visualizableElements; quizSeeds[*].{question,answer,sourceRefs}; finalRuling; difficulty; alternateAngles; topicTags; prerequisiteKnowledge; lineRange/lineMap",
+          "verdict": "CONFIRMED",
+          "evidence": "Cited Mishnah and name-explanation match L8-14; 'the parah's acts' matches Rashi 'של פרה'. Name explanation correctly attributed to the Gemara. No reason for the vessels is imported from s03."
+        }
+      }
     },
     "yoma-002a-s03": {
       "sugyaId": "yoma-002a-s03",
       "daf": "2a",
-      "state": "REPAIRED_PENDING_REVIEW",
+      "state": "PENDING_FINAL_AUDIT",
       "firstPass": {
         "reviewId": "rv3-second4-2a-fable",
         "reviewerContextId": "rv3-ctx-second4-2a-a67724d9658328d38",
@@ -211,55 +245,65 @@
           }
         }
       },
-      "repairRef": "13df4d119610605ca09ecdcb0f48e83f39780b9c"
+      "repairRef": "13df4d119610605ca09ecdcb0f48e83f39780b9c",
+      "sourceFingerprint": "33246ef4f7da29655ed2ca3453d8343f3211328e3215eac8ba1b20e95a1e0564",
+      "semanticFingerprint": "d00d55de390a292b3d140c862a2e394cd375aabbaae6e598997bcde79b6459f1",
+      "secondPass": {
+        "reviewId": "rv3-second6-2a-fable",
+        "reviewerContextId": "rv3-ctx-second6-2a-aa1cfd2ef081989bc",
+        "sourceFirst": true,
+        "verdict": "CONFIRMED",
+        "reviewedSourceFingerprint": "33246ef4f7da29655ed2ca3453d8343f3211328e3215eac8ba1b20e95a1e0564",
+        "reviewedSemanticFingerprint": "d00d55de390a292b3d140c862a2e394cd375aabbaae6e598997bcde79b6459f1",
+        "evidence": {
+          "method": "rv3 independent source-first second pass (round 6) in an isolated context, judged by docs/reports/semantic-nothing-beyond-the-page.md",
+          "fullEvidenceFile": "docs/reports/data/semantic-yoma-2a-rv3-second-pass-6.json",
+          "fieldsChecked": "display.{title,oneLine,shortSummary,whats,hint}; learning.{learnerQuestion,coreTension,coreMove,resolution,takeaway.type/text,reasoningPattern.id/category/notes,ahaMoment,learningBlocker,memoryAnchor}; argumentFlow[*].{type,label,speaker,text,sourceRefs}; conceptRefs; requiresUnderstanding; misconceptions[*]; relatedSugyot; visualizableElements; quizSeeds[*].{question,answer,sourceRefs}; finalRuling; difficulty; alternateAngles; topicTags; prerequisiteKnowledge; lineRange/lineMap",
+          "verdict": "CONFIRMED",
+          "evidence": "Question, tevul-yom reason, ditnan proof with Sadducees/me'orvei shemesh, rabbinic vessels 'dela likablu tumah', 'ki heikhi dela lizalzelu bah' all on L14-20. Misconception correctly separates the anti-Sadducee act (immersion) from the purpose of the vessels."
+        }
+      }
     },
     "yoma-002a-s04": {
       "sugyaId": "yoma-002a-s04",
       "daf": "2a",
       "state": "REPAIRED_PENDING_REVIEW",
       "firstPass": {
-        "reviewId": "rv3-second-2a-fable",
-        "reviewerContextId": "rv3-ctx-second-2a-ab5c8740be29194cd",
+        "reviewId": "rv3-second6-2a-fable",
+        "reviewerContextId": "rv3-ctx-second6-2a-aa1cfd2ef081989bc",
         "sourceFirst": true,
         "verdict": "REPAIR_REQUIRED",
         "reviewedSourceFingerprint": "c228502c00f948bbbff06a6fd75d017579aab017738525189063e7507cde791f",
-        "reviewedSemanticFingerprint": "73edbcf4097a43efac05a78e8febba9a16577f050b5ef100deafa68e08236d15",
+        "reviewedSemanticFingerprint": "f434cd0787a56e4ecd9f76c60f73ffcd5dda5bc65f3435c9fb1c77f0dc586be3",
         "evidence": {
           "origin": "independent-second-pass-rejection",
           "reviewEvidence": {
-            "method": "rv3 independent source-first second pass in an isolated context; first-pass reasoning not shown",
-            "fullEvidenceFile": "docs/reports/data/semantic-yoma-2a-rv3-second-pass-1.json",
-            "fieldsChecked": 78,
+            "method": "rv3 independent source-first second pass (round 6) in an isolated context, judged by docs/reports/semantic-nothing-beyond-the-page.md",
+            "fullEvidenceFile": "docs/reports/data/semantic-yoma-2a-rv3-second-pass-6.json",
+            "fieldsChecked": "display.{title,oneLine,shortSummary,whats,hint}; learning.{learnerQuestion,coreTension,coreMove,resolution,takeaway.type/text,reasoningPattern.id/category/notes,ahaMoment,learningBlocker,memoryAnchor}; argumentFlow[*].{type,label,speaker,text,sourceRefs}; conceptRefs; requiresUnderstanding; misconceptions[*]; relatedSugyot; visualizableElements; quizSeeds[*].{question,answer,sourceRefs}; finalRuling; difficulty; alternateAngles; topicTags; prerequisiteKnowledge; lineRange/lineMap",
             "verdict": "REJECTED",
             "defects": [
               {
-                "fieldPath": "quizSeeds[0].answer",
-                "sourceLines": [
-                  21
+                "fieldPath": "learning.coreMove",
+                "checklistItem": 8,
+                "lineIds": [
+                  "yoma-002a-l20 (vilna 22-24)"
                 ],
-                "candidateSays": "'chatat offerings require the slaughter and sprinkling of blood to be performed north of the altar'",
-                "sourceSupports": "Line 21 says only 'chatat te'una tzafona'; Rashi (packet lines 31-32) says slaughtered in the north. 'Sprinkling of blood north of the altar' is not in the source and is not the law of a chatat (blood is applied on the altar's horns).",
-                "severity": "major"
-              },
-              {
-                "fieldPath": "display.whats",
-                "sourceLines": [
-                  22
-                ],
-                "candidateSays": "Quotes the verse as 'before the opening of the Tent of Meeting'",
-                "sourceSupports": "Line 22 reads 'el nochach pnei ohel moed' = toward the front/face of the Tent of Meeting (Num 19:4). The quoted wording is a different phrase; step-02 of the same record renders it correctly.",
-                "severity": "moderate"
+                "fieldSays": "the Sages chose it 'so that the chamber would have a distinguishing sign'",
+                "sourceSupports": "'תקינו לה רבנן לשכה צפונה מזרחה כי היכי דלהוי לה היכירא': both 'לה' continue the parah as subject (as in L18 'תקינו לה רבנן כלי גללים'); Rashi explains the hekera as making known that the kohen was separated for the parah service called chatat. The source does not say the chamber has the sign; the chamber's location IS the sign, for the parah. Resolving the pronoun to 'the chamber' points it at the wrong subject. Every other field in the record keeps the neutral 'it'.",
+                "suggestedRepair": "'...so that it would have a distinguishing sign' (or 'so that the parah would have').",
+                "reviewerConfidence": "moderate-high (about 80 percent) on the referent; narrow, single-clause defect."
               }
             ]
           }
         }
       },
-      "repairRef": "13df4d119610605ca09ecdcb0f48e83f39780b9c"
+      "repairRef": "95e12950a9c09b34a69aaba47c02ccecc37c258e"
     },
     "yoma-002a-s05": {
       "sugyaId": "yoma-002a-s05",
       "daf": "2a",
-      "state": "REPAIRED_PENDING_REVIEW",
+      "state": "PENDING_FINAL_AUDIT",
       "firstPass": {
         "reviewId": "rv3-second4-2a-fable",
         "reviewerContextId": "rv3-ctx-second4-2a-a67724d9658328d38",
@@ -320,12 +364,29 @@
           }
         }
       },
-      "repairRef": "13df4d119610605ca09ecdcb0f48e83f39780b9c"
+      "repairRef": "13df4d119610605ca09ecdcb0f48e83f39780b9c",
+      "sourceFingerprint": "17b8e27f28ca8a91691b00fff1a80f84d0edcc0913bccdf4f8106c940f85394a",
+      "semanticFingerprint": "30372034d1c850dedb9a712b908ec2af016aa2bedf1a7451dd3b1659a57d7d52",
+      "secondPass": {
+        "reviewId": "rv3-second6-2a-fable",
+        "reviewerContextId": "rv3-ctx-second6-2a-aa1cfd2ef081989bc",
+        "sourceFirst": true,
+        "verdict": "CONFIRMED",
+        "reviewedSourceFingerprint": "17b8e27f28ca8a91691b00fff1a80f84d0edcc0913bccdf4f8106c940f85394a",
+        "reviewedSemanticFingerprint": "30372034d1c850dedb9a712b908ec2af016aa2bedf1a7451dd3b1659a57d7d52",
+        "evidence": {
+          "method": "rv3 independent source-first second pass (round 6) in an isolated context, judged by docs/reports/semantic-nothing-beyond-the-page.md",
+          "fullEvidenceFile": "docs/reports/data/semantic-yoma-2a-rv3-second-pass-6.json",
+          "fieldsChecked": "display.{title,oneLine,shortSummary,whats,hint}; learning.{learnerQuestion,coreTension,coreMove,resolution,takeaway.type/text,reasoningPattern.id/category/notes,ahaMoment,learningBlocker,memoryAnchor}; argumentFlow[*].{type,label,speaker,text,sourceRefs}; conceptRefs; requiresUnderstanding; misconceptions[*]; relatedSugyot; visualizableElements; quizSeeds[*].{question,answer,sourceRefs}; finalRuling; difficulty; alternateAngles; topicTags; prerequisiteKnowledge; lineRange/lineMap",
+          "verdict": "CONFIRMED",
+          "evidence": "Question, R. Yochanan via Rabba bar bar Chana (a place on the Temple Mount named Bira), Reish Lakish (whole Mikdash, verse 'haBira asher hakhinoti'), Rashi (David, Chronicles) all match L24-27. No decision stated; finalRuling empty; takeaway open_question."
+        }
+      }
     },
     "yoma-002a-s06": {
       "sugyaId": "yoma-002a-s06",
       "daf": "2a",
-      "state": "REPAIRED_PENDING_REVIEW",
+      "state": "PENDING_FINAL_AUDIT",
       "firstPass": {
         "reviewId": "rv3-second-2a-fable",
         "reviewerContextId": "rv3-ctx-second-2a-ab5c8740be29194cd",
@@ -355,7 +416,24 @@
           }
         }
       },
-      "repairRef": "13df4d119610605ca09ecdcb0f48e83f39780b9c"
+      "repairRef": "13df4d119610605ca09ecdcb0f48e83f39780b9c",
+      "sourceFingerprint": "a4abf78a1200c6891588b0c7206a5e3a2e52db368fbcf718ed97b3740a7a8d3a",
+      "semanticFingerprint": "30a0c0cb783f6f8b5349bc25dbe7929d4f41219478128cbd7a4b722c2d5b8054",
+      "secondPass": {
+        "reviewId": "rv3-second6-2a-fable",
+        "reviewerContextId": "rv3-ctx-second6-2a-aa1cfd2ef081989bc",
+        "sourceFirst": true,
+        "verdict": "CONFIRMED",
+        "reviewedSourceFingerprint": "a4abf78a1200c6891588b0c7206a5e3a2e52db368fbcf718ed97b3740a7a8d3a",
+        "reviewedSemanticFingerprint": "30a0c0cb783f6f8b5349bc25dbe7929d4f41219478128cbd7a4b722c2d5b8054",
+        "evidence": {
+          "method": "rv3 independent source-first second pass (round 6) in an isolated context, judged by docs/reports/semantic-nothing-beyond-the-page.md",
+          "fullEvidenceFile": "docs/reports/data/semantic-yoma-2a-rv3-second-pass-6.json",
+          "fieldsChecked": "display.{title,oneLine,shortSummary,whats,hint}; learning.{learnerQuestion,coreTension,coreMove,resolution,takeaway.type/text,reasoningPattern.id/category/notes,ahaMoment,learningBlocker,memoryAnchor}; argumentFlow[*].{type,label,speaker,text,sourceRefs}; conceptRefs; requiresUnderstanding; misconceptions[*]; relatedSugyot; visualizableElements; quizSeeds[*].{question,answer,sourceRefs}; finalRuling; difficulty; alternateAngles; topicTags; prerequisiteKnowledge; lineRange/lineMap",
+          "verdict": "CONFIRMED",
+          "evidence": "Chain of tradents, verse wording, la'asot/lekhaper split, the bishlama concession and 'eima' challenge, and both halves of tzivah-tzivah match L27-38. Milu'im always worded as Rashi and matches Hebrew Rashi. No 'proves/establishes' wording; finalRuling empty; record says only that the discussion continues on the next amud and states no outcome."
+        }
+      }
     },
     "yoma-002b-s01": {
       "sugyaId": "yoma-002b-s01",
