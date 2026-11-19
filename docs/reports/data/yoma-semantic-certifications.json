@@ -42,12 +42,12 @@
           ]
         }
       },
-      "repairRef": "828998b0b7457da159fa7cedd2933da639769039"
+      "repairRef": "02c9d26a3e626973be20ce69cc5268c0a46a9cc2"
     },
     "yoma-002a-s02": {
       "sugyaId": "yoma-002a-s02",
       "daf": "2a",
-      "state": "REPAIR_REQUIRED",
+      "state": "REPAIRED_PENDING_REVIEW",
       "firstPass": {
         "reviewId": "rv3-second-2a-fable",
         "reviewerContextId": "rv3-ctx-second-2a-ab5c8740be29194cd",
@@ -150,7 +150,8 @@
             ]
           }
         }
-      }
+      },
+      "repairRef": "02c9d26a3e626973be20ce69cc5268c0a46a9cc2"
     },
     "yoma-002a-s03": {
       "sugyaId": "yoma-002a-s03",
@@ -203,12 +204,12 @@
           ]
         }
       },
-      "repairRef": "828998b0b7457da159fa7cedd2933da639769039"
+      "repairRef": "02c9d26a3e626973be20ce69cc5268c0a46a9cc2"
     },
     "yoma-002a-s04": {
       "sugyaId": "yoma-002a-s04",
       "daf": "2a",
-      "state": "REPAIR_REQUIRED",
+      "state": "REPAIRED_PENDING_REVIEW",
       "firstPass": {
         "reviewId": "rv3-second-2a-fable",
         "reviewerContextId": "rv3-ctx-second-2a-ab5c8740be29194cd",
@@ -245,7 +246,8 @@
             ]
           }
         }
-      }
+      },
+      "repairRef": "02c9d26a3e626973be20ce69cc5268c0a46a9cc2"
     },
     "yoma-002a-s05": {
       "sugyaId": "yoma-002a-s05",
@@ -276,12 +278,12 @@
           ]
         }
       },
-      "repairRef": "828998b0b7457da159fa7cedd2933da639769039"
+      "repairRef": "02c9d26a3e626973be20ce69cc5268c0a46a9cc2"
     },
     "yoma-002a-s06": {
       "sugyaId": "yoma-002a-s06",
       "daf": "2a",
-      "state": "REPAIR_REQUIRED",
+      "state": "REPAIRED_PENDING_REVIEW",
       "firstPass": {
         "reviewId": "rv3-second-2a-fable",
         "reviewerContextId": "rv3-ctx-second-2a-ab5c8740be29194cd",
@@ -310,7 +312,8 @@
             ]
           }
         }
-      }
+      },
+      "repairRef": "02c9d26a3e626973be20ce69cc5268c0a46a9cc2"
     },
     "yoma-002b-s01": {
       "sugyaId": "yoma-002b-s01",

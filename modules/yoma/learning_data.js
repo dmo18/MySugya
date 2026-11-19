@@ -395,7 +395,7 @@ const DAF_CONTENT = {
   "2a": {
     canonicalRef: "Yoma 2a",
     daf: "2a",
-    summary: "Tractate Yoma opens with the Mishnah's rule that seven days before Yom Kippur the Kohen Gadol is separated from his home to the Chamber of Parhedrin, and another kohen is prepared in case he becomes disqualified; Rabbi Yehuda wants another wife prepared too, lest his wife die, since 'his house' in the verse means his wife, but the Sages answer that if so there is no end to the matter. The Gemara cites the parallel Mishnah in Parah: the kohen who burns the parah adumah is likewise separated seven days beforehand, to the Chamber of the Stone House facing the Bira to the northeast, so called because all its service used dung, stone, and earth vessels. The reason for those vessels is that a tevul yom is fit for the parah (the kohen was even deliberately made tamei and immersed, to refute the Sadducees who required sunset), so the Sages required vessels that cannot become impure, so that people would not treat the parah lightly. The chamber is in the northeast as a distinguishing sign: the parah is a chatat, and a chatat requires the north, and its verse speaks of facing the Tent of Meeting. Rabbi Yochanan explains 'Bira' as a specific place on the Temple Mount, and Reish Lakish as the whole Temple. Finally, Rabbi Yochanan derives both separations from the inauguration verse 'as the Lord commanded to do, to atone for you': 'to do' is the parah and 'to atone' is Yom Kippur. When the Gemara asks why the whole verse should not refer to Yom Kippur, it answers with a verbal analogy on 'tzivah' linking the verse to the parah statute. The daf ends as the Gemara begins a further challenge ('ve'eima'), which continues on the next daf.",
+    summary: "Tractate Yoma opens with the Mishnah's rule that seven days before Yom Kippur the Kohen Gadol is separated from his home to the Chamber of Parhedrin, and another kohen is prepared in case he becomes disqualified; Rabbi Yehuda wants another wife prepared too, lest his wife die, since 'his house' in the verse means his wife, but the Sages answer that if so there is no end to the matter. The Gemara cites the parallel Mishnah in Parah: the kohen who burns the parah adumah is likewise separated seven days beforehand, to the Chamber of the Stone House facing the Bira to the northeast, so called because all its service used dung, stone, and earth vessels. The reason for those vessels is that a tevul yom is fit for the parah (the kohen was even deliberately made tamei and immersed, to refute the Sadducees who required sunset), so the Sages required vessels that cannot become impure, so that people would not treat the parah lightly. The chamber is in the northeast as a distinguishing sign: the parah is a chatat, and a chatat requires the north, and its verse speaks of facing the Tent of Meeting. Rabbi Yochanan explains 'Bira' as a specific place on the Temple Mount, and Reish Lakish as the whole Temple. Finally, Rabbi Yochanan derives both separations from the inauguration verse 'as was done this day, the Lord commanded to do, to atone for you': 'to do' is the parah and 'to atone' is Yom Kippur. When the Gemara asks why the whole verse should not refer to Yom Kippur, it answers with a verbal analogy on 'tzivah' linking the verse to the parah statute. The daf ends as the Gemara begins a further challenge ('ve'eima'), which continues on the next daf.",
     sugyot: [
       {
         id: "yoma-002a-s01",
@@ -582,27 +582,27 @@ const DAF_CONTENT = {
         },
         display: {
           title: "Gemara: The parah adumah parallel and the Stone House chamber",
-          oneLine: "Before sourcing the KG's seven-day rule, the Gemara notes that the parah adumah priest was also sequestered for seven days in the northeast Stone House, using only dung, stone, and earth vessels.",
+          oneLine: "The Gemara cites the Mishnah in Parah: the kohen who burns the parah adumah was also separated from his home for seven days, to the Stone House chamber facing the Bira to the northeast, whose service used only dung, stone, and earth vessels.",
           shortSummary: "The Gemara opens by drawing a parallel to the red heifer priest, who was also separated for seven days and housed in the northeast Stone House chamber. The chamber's name comes from the requirement to use only stone, dung, and earth vessels in its service.",
-          whats: "Before asking where the seven-day rule comes from, the Gemara notes that the parah adumah priest was also separated from his home for seven days and housed in the northeast Stone House chamber. The chamber got its name from the requirement to use only stone, dung, and earth vessels in its service. This parallel isn't coincidental; it is the key to the Gemara's later derivation.",
-          hint: "Why does the Gemara introduce the parah adumah case right here, before sourcing the law for the Kohen Gadol?"
+          whats: "The Gemara cites a Mishnah taught elsewhere, in Parah: seven days before the burning of the parah adumah, the kohen who burns it was separated from his home to the chamber facing the Bira to the northeast, called the Chamber of the Stone House. The chamber got its name because all its service was done with dung vessels, stone vessels, and earth vessels.",
+          hint: "Which other kohen does the Mishnah in Parah separate from his home for seven days, and why was his chamber called the Stone House?"
         },
         learning: {
-          learnerQuestion: "Why does the Gemara open the tractate by jumping to the parah adumah before even asking where the KG's seven-day rule comes from?",
-          coreTension: "The parah adumah case looks like a detour, but the Gemara needs it on the table because its seven-day separation parallels the Kohen Gadol's, which is the subject of the mishna.",
-          coreMove: "Juxtapose the two cases before sourcing either, so the reader sees their structural identity and is primed for the derivation.",
+          learnerQuestion: "Which other kohen is separated from his home for seven days, and where was he housed?",
+          coreTension: "The Gemara turns from the Kohen Gadol to the parah adumah; the link is that the parah kohen is also separated from his home for seven days.",
+          coreMove: "The Gemara sets a parallel Mishnah beside this one: the kohen who burns the parah, like the Kohen Gadol, is separated from his home for seven days.",
           resolution: "The parah case is not a digression: the Gemara cites the Mishnah in Parah, which also separates the kohen who burns the parah from his house for seven days, as a parallel to the Kohen Gadol's separation in this Mishnah.",
           takeaway: {
-            type: "logical_principle",
-            text: "When the Gemara introduces a parallel case early, it usually returns to link them formally. The parallel is the argument."
+            type: "conceptual",
+            text: "Two separate laws share one feature: the Kohen Gadol before Yom Kippur and the kohen who burns the parah are both separated from their homes for seven days."
           },
           reasoningPattern: {
             id: "comparison",
             category: "structural",
-            notes: "The parah adumah is introduced as a structural twin to the KG case, priming the gezerah shavah derivation."
+            notes: "The parah adumah case is cited as a parallel to the Kohen Gadol case: both kohanim are separated from their homes seven days beforehand."
           },
-          ahaMoment: "The Gemara's opening move is to establish that two laws share the same feature (seven-day separation) before proving they share the same source.",
-          learningBlocker: "The parah adumah seems like a tangent; it is actually the argument in embryo.",
+          ahaMoment: "The Mishnah in Parah describes the same kind of seven-day separation from home, this time for the kohen who burns the parah, and names his chamber for its vessels.",
+          learningBlocker: "The name Stone House can mislead: the Mishnah explains that it comes from the vessels used in all the chamber's service, which were dung, stone, and earth vessels, not stone alone.",
           memoryAnchor: "The parah kohen's seven-day separation (Lishkat Beit HaEven, northeast) parallels the Kohen Gadol's seven-day separation before Yom Kippur - the Gemara puts both cases on the table as parallel halakhot."
         },
         lines: [
@@ -654,7 +654,7 @@ const DAF_CONTENT = {
         misconceptions: [
           {
             misconception: "The parah adumah case is a digression before the main topic.",
-            correction: "It is the structural setup presenting the parallel mishna about the parah kohen's separation alongside the Kohen Gadol's.",
+            correction: "The cited Mishnah in Parah describes a parallel case: a kohen separated from his home seven days before the burning of the parah.",
             correctedByStepId: "step-01"
           }
         ],
@@ -895,7 +895,7 @@ const DAF_CONTENT = {
           title: "Why was the chamber placed in the northeast?",
           oneLine: "The Stone House chamber was in the northeast: the parah adumah is classified as a chatat (associated with the north) and the ceremony faces the Tent of Meeting entrance (east) - northeast marks both, serving as a distinguishing indicator.",
           shortSummary: "The Sages chose the northeast corner of the Temple courtyard for the parah adumah chamber because the parah is classified as a chatat, associated with the altar's north side, and the ceremony must be performed facing the Tent of Meeting entrance, which faces east. The corner functions as a heikher, a distinguishing marker combining both associations.",
-          whats: "Why northeast? The parah adumah is classified as a chatat, which is associated with the north side of the altar, and its ceremony must be performed 'before the opening of the Tent of Meeting,' which faces east. The Sages placed the sequestration chamber at the corner that evokes both associations, so the location itself serves as a heikher, a distinguishing marker of the ritual's classification.",
+          whats: "Why northeast? The parah adumah is classified as a chatat, which is associated with the north side of the altar, and its verse says 'toward the front of the Tent of Meeting' (Numbers 19:4), which points east. The Sages placed the sequestration chamber at the corner that evokes both associations, so the location itself serves as a heikher, a distinguishing marker of the ritual's classification.",
           hint: "The chamber's location is a 'distinctive indicator' - of what exactly, and why does that matter?"
         },
         learning: {
@@ -1003,7 +1003,7 @@ const DAF_CONTENT = {
         quizSeeds: [
           {
             question: "Why is the red heifer ritual linked to the north side, leading the Sages to locate its chamber in the northeast?",
-            answer: "Because the parah is classified as a chatat (sin-offering), and chatat offerings require the slaughter and sprinkling of blood to be performed north of the altar.",
+            answer: "Because the parah is classified as a chatat (sin-offering), and a chatat requires the north: chatat offerings are slaughtered in the northern part of the Temple courtyard.",
             sourceRefs: [
               {
                 sourceType: "gemara",
@@ -1218,8 +1218,8 @@ const DAF_CONTENT = {
         display: {
           title: "Source for the seven-day separation: gezerah shavah from Leviticus 8",
           oneLine: "Rabbi Yochanan derives both seven-day separations from Leviticus 8:34: 'to do' for the parah, 'to atone' for Yom Kippur; a gezerah shavah on 'tzivah' ties the inauguration verse to the parah statute, and the discussion continues on the next amud.",
-          shortSummary: "The Gemara asks where the seven-day separation comes from. Rabbi Yochanan answers from Leviticus 8:34 (the inauguration passage): 'as He commanded to do, to atone.' 'To do' is read as the parah adumah; 'to atone' is read as Yom Kippur. The whole verse cannot refer to the parah alone, since a parah does not atone. When the Gemara asks why the whole verse should not refer to Yom Kippur, it answers with a gezerah shavah on 'tzivah' (Lev 8:34 and Num 19:2): as there it is the parah, so here it is the parah, and as the inauguration had separation, so the parah requires separation. The discussion continues on the next amud.",
-          whats: "The Gemara asks: where does the Torah mandate the seven-day separation at all? Rabbi Yochanan answers from Leviticus 8:34 (the Tabernacle inauguration verse): 'as He commanded to do, to atone.' 'To do' refers to the parah adumah and 'to atone' refers to Yom Kippur. Granted, the whole verse cannot refer to the parah alone, since 'to atone' is written and a parah is not a matter of atonement; but why can't it all refer to Yom Kippur? The Gemara answers with a gezerah shavah on 'commanded/commanded' (Lev 8:34 and Num 19:2): just as the parah verse there refers to the parah, so too 'commanded' here, in the inauguration verse, refers to the parah; and just as here, at the inauguration, there is separation before the service, so too there, regarding the parah, separation is required. The discussion continues on the next amud.",
+          shortSummary: "The Gemara asks where the seven-day separation comes from. Rabbi Yochanan answers from Leviticus 8:34 (the inauguration passage): 'as was done this day, the Lord commanded to do, to atone for you.' 'To do' is read as the parah adumah; 'to atone' is read as Yom Kippur. The whole verse cannot refer to the parah alone, since a parah does not atone. When the Gemara asks why the whole verse should not refer to Yom Kippur, it answers with a gezerah shavah on 'tzivah' (Lev 8:34 and Num 19:2): as there it is the parah, so here it is the parah, and as the inauguration had separation, so the parah requires separation. The discussion continues on the next amud.",
+          whats: "The Gemara asks: where does the Torah mandate the seven-day separation at all? Rabbi Yochanan answers from Leviticus 8:34 (the Tabernacle inauguration verse): 'as was done this day, the Lord commanded to do, to atone for you.' 'To do' refers to the parah adumah and 'to atone' refers to Yom Kippur. Granted, the whole verse cannot refer to the parah alone, since 'to atone' is written and a parah is not a matter of atonement; but why can't it all refer to Yom Kippur? The Gemara answers with a gezerah shavah on 'commanded/commanded' (Lev 8:34 and Num 19:2): just as the parah verse there refers to the parah, so too 'commanded' here, in the inauguration verse, refers to the parah; and just as here, at the inauguration, there is separation before the service, so too there, regarding the parah, separation is required. The discussion continues on the next amud.",
           hint: "Once 'to atone' rules out reading the whole verse as the parah alone, what does the Gemara use to rule out reading the whole verse as Yom Kippur alone?"
         },
         learning: {
@@ -1274,7 +1274,7 @@ const DAF_CONTENT = {
             type: "proof",
             label: "Leviticus 8:34 split",
             speaker: "Rabbi Yohanan (via chain)",
-            text: "'As the Lord commanded to do, to atone': 'to do' = parah actions; 'to atone' = Yom Kippur. The milu'im verse teaches both future sequestrations.",
+            text: "'As was done this day, the Lord commanded to do, to atone for you': 'to do' = parah actions; 'to atone' = Yom Kippur. The milu'im verse teaches both future sequestrations.",
             sourceRefs: [
               {
                 sourceType: "gemara",
@@ -1359,7 +1359,7 @@ const DAF_CONTENT = {
         quizSeeds: [
           {
             question: "Which verse is the source for both seven-day sequestration rules, and how does one verse teach two laws?",
-            answer: "Leviticus 8:34: 'as the Lord commanded to do, to atone.' 'To do' refers to the parah adumah; 'to atone' refers to Yom Kippur. Only the parah-alone reading is textually excluded (a parah cannot atone); the Gemara itself raises the possibility that the whole verse describes Yom Kippur alone, and that is ruled out only by the gezerah shavah that follows, not by 'to do' on its own.",
+            answer: "Leviticus 8:34: 'as was done this day, the Lord commanded to do, to atone for you.' 'To do' refers to the parah adumah; 'to atone' refers to Yom Kippur. Only the parah-alone reading is textually excluded (a parah cannot atone); the Gemara itself raises the possibility that the whole verse describes Yom Kippur alone, and that is ruled out only by the gezerah shavah that follows, not by 'to do' on its own.",
             sourceRefs: [
               {
                 sourceType: "gemara",
@@ -1433,7 +1433,7 @@ const DAF_CONTENT = {
       {
         he: "מִלּוּאִים",
         translit: "Milu'im",
-        en: "The seven-day inauguration ceremony for the Mishkan priesthood. Aaron and his sons remained in the Tabernacle seven days before beginning service on the eighth day. This is the template from which the seven-day separation rule is derived."
+        en: "The seven-day inauguration ceremony for the Mishkan priesthood. Aaron and his sons remained in the Tabernacle seven days before beginning service on the eighth day. Rabbi Yochanan derives the seven-day separation from this inauguration."
       }
     ],
     rashiLines: [
