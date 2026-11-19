@@ -1548,7 +1548,7 @@
     "yoma-002a-s02": {
       "sugyaId": "yoma-002a-s02",
       "daf": "2a",
-      "state": "REPAIRED_PENDING_REVIEW",
+      "state": "PENDING_FINAL_AUDIT",
       "firstPass": {
         "reviewId": "rv3-second2-2a-fable",
         "reviewerContextId": "rv3-ctx-second2-2a-a2763c3e95db526fb",
@@ -1620,7 +1620,66 @@
           }
         }
       },
-      "repairRef": "7b28570d1c87c84ca85320fe4c431ab8a522df3a"
+      "repairRef": "7b28570d1c87c84ca85320fe4c431ab8a522df3a",
+      "sourceFingerprint": "7d10aba46e159ee6318448b96999bf39ea72a73db02a271b45bd5c54ab377bed",
+      "semanticFingerprint": "b546308ccf447cede64ac21faf8175b6e103830a65a149defd227275221aa551",
+      "secondPass": {
+        "reviewId": "rv3-second8-2a-fable",
+        "reviewerContextId": "rv3-ctx-second8-2a-ac8e711631e80e042",
+        "sourceFirst": true,
+        "verdict": "CONFIRMED",
+        "reviewedSourceFingerprint": "7d10aba46e159ee6318448b96999bf39ea72a73db02a271b45bd5c54ab377bed",
+        "reviewedSemanticFingerprint": "b546308ccf447cede64ac21faf8175b6e103830a65a149defd227275221aa551",
+        "evidence": {
+          "method": "rv3 independent source-first second pass (round 8, s02 scope, whole daf read) in an isolated context, judged by docs/reports/semantic-nothing-beyond-the-page.md",
+          "fullEvidenceFile": "docs/reports/data/semantic-yoma-2a-rv3-second-pass-8.json",
+          "fieldsChecked": [
+            "lineRange",
+            "display.title",
+            "display.oneLine",
+            "display.shortSummary",
+            "display.whats",
+            "display.hint",
+            "learning.learnerQuestion",
+            "learning.coreTension",
+            "learning.coreMove",
+            "learning.resolution",
+            "learning.takeaway.type",
+            "learning.takeaway.text",
+            "learning.reasoningPattern.id",
+            "learning.reasoningPattern.category",
+            "learning.reasoningPattern.notes",
+            "learning.ahaMoment",
+            "learning.learningBlocker",
+            "learning.memoryAnchor",
+            "argumentFlow[step-01].type/label/speaker/text/sourceRefs",
+            "argumentFlow[step-02].type/label/speaker/text/sourceRefs",
+            "conceptRefs",
+            "requiresUnderstanding",
+            "misconceptions[0].misconception/correction/correctedByStepId",
+            "relatedSugyot",
+            "visualizableElements",
+            "quizSeeds[0]",
+            "quizSeeds[1]",
+            "finalRuling",
+            "difficulty",
+            "alternateAngles",
+            "topicTags",
+            "prerequisiteKnowledge"
+          ],
+          "verdict": "CONFIRMED",
+          "evidence": [
+            "Every sentence in display.* and learning.* reduces to two source statements: (a) lines 8-11, the cited Mishnah (tnan hatam) - seven days before the burning, the burning kohen separated from his house to the chamber facing the Birah north-east, called Lishkat Beit HaEven; (b) lines 12-14, the name explained by 'kol maaseha' in dung, stone and earth vessels.",
+            "No field mentions impurity, tevul yom, Sadducees, the reason for the vessels, the reason for north-east, the meaning of Birah, the verse derivation, or a comparison to the Kohen Gadol (items 2, 9 clean). No 'north-east corner of the azarah' (Rashi) is asserted as Gemara (item 6 clean).",
+            "Referent: 'all the parah's acts' matches maaseha as Rashi reads it ('shel parah') and as the standard's own item 8 example requires.",
+            "Layering: Mishnah content attributed to the cited Mishnah, name explanation to the Gemara, speaker 'Gemara' on both steps (item 6 clean). Order of vessels (dung, stone, earth) matches the page (item 7 clean).",
+            "No evaluative labels, no generalization beyond this case, no 'proves/must' language (items 3, 5, 10 clean).",
+            "Metadata: step-01 'case' (source presented), step-02 'answer' to 'why was it called'; takeaway 'conceptual'; reasoningPattern definition; tags parah-adumah, stone-house-chamber, temple-geography, seven-day-separation each correspond to content of lines 8-14 (item 11 clean). visualizableElements has item only, no role/priority (item 12 clean).",
+            "Contracts: display.hint is a complete question; misconception is a specific learner error (stone vessels only) with a source correction pointing at existing step-02; requiresUnderstanding empty; topicTags lowercase hyphen slugs without duplicates; finalRuling is not a copy of the hint and restates only the undisputed cited Mishnah.",
+            "sourceRefs point at lineId yoma-002a-l08 with vilnaLines 8 and 13, both inside the range and matching the content cited."
+          ]
+        }
+      }
     },
     "yoma-002a-s03": {
       "sugyaId": "yoma-002a-s03",
