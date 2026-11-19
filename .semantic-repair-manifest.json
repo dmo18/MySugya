@@ -11,7 +11,7 @@
     "yoma-002a-s05",
     "yoma-002a-s06"
   ],
-  "firstReviewId": "ms2-first-anthropic-claude-sonnet-5-af7b2d7003d5",
+  "firstReviewId": "rv3-first-2a-opus",
   "policy": {
     "sourceFirst": true,
     "independentSecondPassRequired": true,
