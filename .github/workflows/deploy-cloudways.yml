@@ -5,6 +5,11 @@ on:
     branches: [main]
   workflow_dispatch:
 
+# One publish at a time: the last step force-pushes a branch.
+concurrency:
+  group: cloudways
+  cancel-in-progress: false
+
 jobs:
   deploy:
     runs-on: ubuntu-latest

@@ -28,7 +28,8 @@ Updated: 2026-11-19. Version: 15.601.
 |---|---|
 | Work on a branch and merge by pull request | Merging to `main` publishes the live site |
 | Did not enable `githooks/pre-commit` yet | It came with the repo; owner approves first |
-| No version bump for audit docs | Docs only, no product change |
+| Lint config lives in `scripts/` | Project pipeline does not allow new root files |
+| 2a topic 6 keeps its line range (ends at line 38) | 136 daf leave trailing lines unowned; a one-daf change would break that convention. Claims resting on line 39 are removed instead |
 
 ## Known issues
 
@@ -48,5 +49,9 @@ Source check against live Sefaria on 2026-11-19:
 ## Open security findings
 
 - Critical or high: none found.
-- Medium: Cloudways workflow publishes on every merge with no
-  tests and a force push.
+- Resolved: Cloudways publish now runs tests first and cannot
+  overlap with another publish run. Its force push remains.
+- Info: ESLint 9 is marked deprecated by npm. Plan a move to
+  ESLint 10 later.
+- Security review of Milestone 1 (fresh reviewer): PASS, no
+  critical or high findings.
