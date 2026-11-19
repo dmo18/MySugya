@@ -582,9 +582,9 @@ const DAF_CONTENT = {
         },
         display: {
           title: "Gemara: The parah adumah parallel and the Stone House chamber",
-          oneLine: "The Gemara cites the Mishnah in Parah: the kohen who burns the parah adumah was also separated from his home for seven days, to the Stone House chamber facing the Bira to the northeast, whose service used only dung, stone, and earth vessels.",
-          shortSummary: "The Gemara opens by drawing a parallel to the red heifer priest, who was also separated for seven days and housed in the northeast Stone House chamber. The chamber's name comes from the requirement to use only stone, dung, and earth vessels in its service.",
-          whats: "The Gemara cites a Mishnah taught elsewhere, in Parah: seven days before the burning of the parah adumah, the kohen who burns it was separated from his home to the chamber facing the Bira to the northeast, called the Chamber of the Stone House. The chamber got its name because all its service was done with dung vessels, stone vessels, and earth vessels.",
+          oneLine: "The Gemara cites the Mishnah in Parah: the kohen who burns the parah adumah was also separated from his home for seven days, to the Stone House chamber facing the Bira to the northeast, and explains that all the parah's acts were done with dung, stone, and earth vessels.",
+          shortSummary: "The Gemara opens by drawing a parallel to the red heifer priest, who was also separated for seven days and housed in the northeast Stone House chamber. The Gemara explains the chamber's name: all the parah's acts were done with dung vessels, stone vessels, and earth vessels.",
+          whats: "The Gemara cites a Mishnah taught elsewhere, in Parah: seven days before the burning of the parah adumah, the kohen who burns it was separated from his home to the chamber facing the Bira to the northeast, called the Chamber of the Stone House. The Gemara then explains the name: all the parah's acts were done with dung vessels, stone vessels, and earth vessels.",
           hint: "Which other kohen does the Mishnah in Parah separate from his home for seven days, and why was his chamber called the Stone House?"
         },
         learning: {
@@ -601,8 +601,8 @@ const DAF_CONTENT = {
             category: "structural",
             notes: "The parah adumah case is cited as a parallel to the Kohen Gadol case: both kohanim are separated from their homes seven days beforehand."
           },
-          ahaMoment: "The Mishnah in Parah describes the same kind of seven-day separation from home, this time for the kohen who burns the parah, and names his chamber for its vessels.",
-          learningBlocker: "The name Stone House can mislead: the Mishnah explains that it comes from the vessels used in all the chamber's service, which were dung, stone, and earth vessels, not stone alone.",
+          ahaMoment: "The Mishnah in Parah describes the same kind of seven-day separation from home, this time for the kohen who burns the parah, and the Gemara explains that his chamber's name comes from the parah's vessels.",
+          learningBlocker: "The name Stone House can mislead: the Gemara explains that it comes from the vessels used for all the parah's acts, which were dung, stone, and earth vessels, not stone alone.",
           memoryAnchor: "The parah kohen's seven-day separation (Lishkat Beit HaEven, northeast) parallels the Kohen Gadol's seven-day separation before Yom Kippur - the Gemara puts both cases on the table as parallel halakhot."
         },
         lines: [
@@ -631,7 +631,7 @@ const DAF_CONTENT = {
             type: "answer",
             label: "Why 'Stone House'?",
             speaker: "Gemara",
-            text: "The chamber was called the Stone House because all the actions associated with the heifer were performed using dung, stone, and earth vessels - vessels that cannot become ritually impure.",
+            text: "The chamber was called the Stone House because all the acts of the parah were done with dung vessels, stone vessels, and earth vessels.",
             sourceRefs: [
               {
                 sourceType: "gemara",
@@ -671,7 +671,7 @@ const DAF_CONTENT = {
         quizSeeds: [
           {
             question: "Where did the parah adumah's Stone House chamber get its name from?",
-            answer: "From the requirement to use only dung, stone, and earth vessels in its service.",
+            answer: "From the fact that all the parah's acts were done with dung, stone, and earth vessels.",
             sourceRefs: [
               {
                 sourceType: "gemara",

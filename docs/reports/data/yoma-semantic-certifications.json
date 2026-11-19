@@ -13,7 +13,7 @@
     "yoma-002a-s01": {
       "sugyaId": "yoma-002a-s01",
       "daf": "2a",
-      "state": "REPAIRED_PENDING_REVIEW",
+      "state": "PENDING_FINAL_AUDIT",
       "firstPass": {
         "reviewId": "rv3-first-2a-opus",
         "reviewerContextId": "rv3-ctx-first-2a-a5ddd34e9e6829ec4",
@@ -42,12 +42,57 @@
           ]
         }
       },
-      "repairRef": "02c9d26a3e626973be20ce69cc5268c0a46a9cc2"
+      "repairRef": "02c9d26a3e626973be20ce69cc5268c0a46a9cc2",
+      "sourceFingerprint": "d9dc8a3a173b99ecd074a82675f3a0a25201105fea976fa5cb80fb309f3888d3",
+      "semanticFingerprint": "1b6f3be5b9ca4240883d13ff245c49b033d522bb01bbea66429fc7229c3e8232",
+      "secondPass": {
+        "reviewId": "rv3-second2-2a-fable",
+        "reviewerContextId": "rv3-ctx-second2-2a-a2763c3e95db526fb",
+        "sourceFirst": true,
+        "verdict": "CONFIRMED",
+        "reviewedSourceFingerprint": "d9dc8a3a173b99ecd074a82675f3a0a25201105fea976fa5cb80fb309f3888d3",
+        "reviewedSemanticFingerprint": "1b6f3be5b9ca4240883d13ff245c49b033d522bb01bbea66429fc7229c3e8232",
+        "evidence": {
+          "method": "rv3 independent source-first second pass (round 2) in an isolated context; first-pass reasoning not shown",
+          "fullEvidenceFile": "docs/reports/data/semantic-yoma-2a-rv3-second-pass-2.json",
+          "fieldsChecked": [
+            "lineRange",
+            "display.title",
+            "display.oneLine",
+            "display.shortSummary",
+            "display.whats",
+            "display.hint",
+            "learning.learnerQuestion",
+            "learning.coreTension",
+            "learning.coreMove",
+            "learning.resolution",
+            "learning.takeaway",
+            "learning.reasoningPattern",
+            "learning.ahaMoment",
+            "learning.learningBlocker",
+            "learning.memoryAnchor",
+            "argumentFlow[*] (type,label,speaker,text,sourceRefs)",
+            "conceptRefs",
+            "requiresUnderstanding",
+            "misconceptions[*]",
+            "relatedSugyot",
+            "visualizableElements",
+            "quizSeeds[*] (question,answer,sourceRefs)",
+            "finalRuling",
+            "difficulty",
+            "alternateAngles",
+            "topicTags",
+            "prerequisiteKnowledge"
+          ],
+          "verdict": "CONFIRMED",
+          "evidence": "L1-4 support separation, Parhedrin, backup kohen 'shema ye'era bo pesul'. L4-7 support R. Yehuda's backup wife, the reason 'shema tamut ishto', the verse Lev 16:6 and 'beito zo ishto', and the Sages' 'im ken ein ladavar sof'. 'Replacement wife could also die' and 'tamei' are Rashi's glosses (Rashi lines 8, 11-12) and are consistent. Misconception is accurate: the Mishnah records no dispute over the derashah. finalRuling states the tanna kamma's rule and the Sages' rejection, both on L3-7; not a copy of the hint. sourceRefs l01/l04 with vilnaLine 1,4,6,7 are inside the range. Tags are slugs; requiresUnderstanding empty; hint is a question."
+        }
+      }
     },
     "yoma-002a-s02": {
       "sugyaId": "yoma-002a-s02",
       "daf": "2a",
-      "state": "REPAIR_REQUIRED",
+      "state": "REPAIRED_PENDING_REVIEW",
       "firstPass": {
         "reviewId": "rv3-second2-2a-fable",
         "reviewerContextId": "rv3-ctx-second2-2a-a2763c3e95db526fb",
@@ -118,12 +163,13 @@
             ]
           }
         }
-      }
+      },
+      "repairRef": "98daed0c6bb5b0f87d99ab1b9eaf97160d0d0cb2"
     },
     "yoma-002a-s03": {
       "sugyaId": "yoma-002a-s03",
       "daf": "2a",
-      "state": "REPAIRED_PENDING_REVIEW",
+      "state": "PENDING_FINAL_AUDIT",
       "firstPass": {
         "reviewId": "rv3-first-2a-opus",
         "reviewerContextId": "rv3-ctx-first-2a-a5ddd34e9e6829ec4",
@@ -171,12 +217,57 @@
           ]
         }
       },
-      "repairRef": "02c9d26a3e626973be20ce69cc5268c0a46a9cc2"
+      "repairRef": "02c9d26a3e626973be20ce69cc5268c0a46a9cc2",
+      "sourceFingerprint": "33246ef4f7da29655ed2ca3453d8343f3211328e3215eac8ba1b20e95a1e0564",
+      "semanticFingerprint": "a5bba6c796cd34c6b630c5531fda0a7a69a6bbf54279b3f5b3170f19afae5015",
+      "secondPass": {
+        "reviewId": "rv3-second2-2a-fable",
+        "reviewerContextId": "rv3-ctx-second2-2a-a2763c3e95db526fb",
+        "sourceFirst": true,
+        "verdict": "CONFIRMED",
+        "reviewedSourceFingerprint": "33246ef4f7da29655ed2ca3453d8343f3211328e3215eac8ba1b20e95a1e0564",
+        "reviewedSemanticFingerprint": "a5bba6c796cd34c6b630c5531fda0a7a69a6bbf54279b3f5b3170f19afae5015",
+        "evidence": {
+          "method": "rv3 independent source-first second pass (round 2) in an isolated context; first-pass reasoning not shown",
+          "fullEvidenceFile": "docs/reports/data/semantic-yoma-2a-rv3-second-pass-2.json",
+          "fieldsChecked": [
+            "lineRange",
+            "display.title",
+            "display.oneLine",
+            "display.shortSummary",
+            "display.whats",
+            "display.hint",
+            "learning.learnerQuestion",
+            "learning.coreTension",
+            "learning.coreMove",
+            "learning.resolution",
+            "learning.takeaway",
+            "learning.reasoningPattern",
+            "learning.ahaMoment",
+            "learning.learningBlocker",
+            "learning.memoryAnchor",
+            "argumentFlow[*] (type,label,speaker,text,sourceRefs)",
+            "conceptRefs",
+            "requiresUnderstanding",
+            "misconceptions[*]",
+            "relatedSugyot",
+            "visualizableElements",
+            "quizSeeds[*] (question,answer,sourceRefs)",
+            "finalRuling",
+            "difficulty",
+            "alternateAngles",
+            "topicTags",
+            "prerequisiteKnowledge"
+          ],
+          "verdict": "CONFIRMED",
+          "evidence": "L14 question; L14-17 'keivan ditvul yom kasher befarah, ditnan metam'in hayu hakohen... umatbilin oto lehotzi milibban shel Tzeddukin shehayu omrim bime'orvei hashemesh hayetah na'aseit'; L18-20 'takinu lah rabbanan... dela likablu tumah ki heikhi dela lizalzelu bah'. All fields follow this order and causality; the misconception correctly separates the immersion (anti-Sadducee) from the vessels (anti-laxity). sourceRefs l14/l18 inside range. 'publicly'/'deliberately' are glosses of 'lehotzi milibban', not contradicted. finalRuling is independent of the hint."
+        }
+      }
     },
     "yoma-002a-s04": {
       "sugyaId": "yoma-002a-s04",
       "daf": "2a",
-      "state": "REPAIRED_PENDING_REVIEW",
+      "state": "PENDING_FINAL_AUDIT",
       "firstPass": {
         "reviewId": "rv3-second-2a-fable",
         "reviewerContextId": "rv3-ctx-second-2a-ab5c8740be29194cd",
@@ -214,12 +305,57 @@
           }
         }
       },
-      "repairRef": "02c9d26a3e626973be20ce69cc5268c0a46a9cc2"
+      "repairRef": "02c9d26a3e626973be20ce69cc5268c0a46a9cc2",
+      "sourceFingerprint": "c228502c00f948bbbff06a6fd75d017579aab017738525189063e7507cde791f",
+      "semanticFingerprint": "01fa7a72e073b1f0d744a1ac4e121182e613203a75e0fd173da1baceddf9cda0",
+      "secondPass": {
+        "reviewId": "rv3-second2-2a-fable",
+        "reviewerContextId": "rv3-ctx-second2-2a-a2763c3e95db526fb",
+        "sourceFirst": true,
+        "verdict": "CONFIRMED",
+        "reviewedSourceFingerprint": "c228502c00f948bbbff06a6fd75d017579aab017738525189063e7507cde791f",
+        "reviewedSemanticFingerprint": "01fa7a72e073b1f0d744a1ac4e121182e613203a75e0fd173da1baceddf9cda0",
+        "evidence": {
+          "method": "rv3 independent source-first second pass (round 2) in an isolated context; first-pass reasoning not shown",
+          "fullEvidenceFile": "docs/reports/data/semantic-yoma-2a-rv3-second-pass-2.json",
+          "fieldsChecked": [
+            "lineRange",
+            "display.title",
+            "display.oneLine",
+            "display.shortSummary",
+            "display.whats",
+            "display.hint",
+            "learning.learnerQuestion",
+            "learning.coreTension",
+            "learning.coreMove",
+            "learning.resolution",
+            "learning.takeaway",
+            "learning.reasoningPattern",
+            "learning.ahaMoment",
+            "learning.learningBlocker",
+            "learning.memoryAnchor",
+            "argumentFlow[*] (type,label,speaker,text,sourceRefs)",
+            "conceptRefs",
+            "requiresUnderstanding",
+            "misconceptions[*]",
+            "relatedSugyot",
+            "visualizableElements",
+            "quizSeeds[*] (question,answer,sourceRefs)",
+            "finalRuling",
+            "difficulty",
+            "alternateAngles",
+            "topicTags",
+            "prerequisiteKnowledge"
+          ],
+          "verdict": "CONFIRMED",
+          "evidence": "L20-24: 'mai shena tzefonah mizrachah; keivan dechatat hi vechatat te'unah tzefonah, ukhtiv bah el nokhach penei ohel mo'ed, takinu lah rabbanan lishkah tzefonah mizrachah ki heikhi delehevei lah hekeira'. Verse quote matches Num 19:4. 'East' and the priest's vigilance come from Rashi (he lines 37-42: 'shehu bekotel mizrachi', 'veyasim lev lihyot zariz'), used as clarification. 'Corner of the courtyard' is Rashi (he line 15-16). sourceRefs l20 with vilnaLine 20,21,23 inside range."
+        }
+      }
     },
     "yoma-002a-s05": {
       "sugyaId": "yoma-002a-s05",
       "daf": "2a",
-      "state": "REPAIRED_PENDING_REVIEW",
+      "state": "PENDING_FINAL_AUDIT",
       "firstPass": {
         "reviewId": "rv3-first-2a-opus",
         "reviewerContextId": "rv3-ctx-first-2a-a5ddd34e9e6829ec4",
@@ -245,12 +381,57 @@
           ]
         }
       },
-      "repairRef": "02c9d26a3e626973be20ce69cc5268c0a46a9cc2"
+      "repairRef": "02c9d26a3e626973be20ce69cc5268c0a46a9cc2",
+      "sourceFingerprint": "17b8e27f28ca8a91691b00fff1a80f84d0edcc0913bccdf4f8106c940f85394a",
+      "semanticFingerprint": "768c28b76743d4be42b0ac25050eda3d66940b0a73c82df79bfccb9544307e79",
+      "secondPass": {
+        "reviewId": "rv3-second2-2a-fable",
+        "reviewerContextId": "rv3-ctx-second2-2a-a2763c3e95db526fb",
+        "sourceFirst": true,
+        "verdict": "CONFIRMED",
+        "reviewedSourceFingerprint": "17b8e27f28ca8a91691b00fff1a80f84d0edcc0913bccdf4f8106c940f85394a",
+        "reviewedSemanticFingerprint": "768c28b76743d4be42b0ac25050eda3d66940b0a73c82df79bfccb9544307e79",
+        "evidence": {
+          "method": "rv3 independent source-first second pass (round 2) in an isolated context; first-pass reasoning not shown",
+          "fullEvidenceFile": "docs/reports/data/semantic-yoma-2a-rv3-second-pass-2.json",
+          "fieldsChecked": [
+            "lineRange",
+            "display.title",
+            "display.oneLine",
+            "display.shortSummary",
+            "display.whats",
+            "display.hint",
+            "learning.learnerQuestion",
+            "learning.coreTension",
+            "learning.coreMove",
+            "learning.resolution",
+            "learning.takeaway",
+            "learning.reasoningPattern",
+            "learning.ahaMoment",
+            "learning.learningBlocker",
+            "learning.memoryAnchor",
+            "argumentFlow[*] (type,label,speaker,text,sourceRefs)",
+            "conceptRefs",
+            "requiresUnderstanding",
+            "misconceptions[*]",
+            "relatedSugyot",
+            "visualizableElements",
+            "quizSeeds[*] (question,answer,sourceRefs)",
+            "finalRuling",
+            "difficulty",
+            "alternateAngles",
+            "topicTags",
+            "prerequisiteKnowledge"
+          ],
+          "verdict": "CONFIRMED",
+          "evidence": "L24-27: question 'mai Bira'; Rabba bar bar Chana citing R. Yochanan 'makom hayah behar habayit uVira shemo'; Reish Lakish 'kol hamikdash kulo karui Bira, shene'emar haBira asher hakhinoti' (I Chr 29:19; Rashi: David speaking). Speakers and chain correct; resolution correctly says unresolved; finalRuling empty. Non-defect notes: Yohanan/Yochanan spelling varies; 'category/common noun' framing is interpretive; prerequisiteKnowledge calls I Chr 29:19 a 'speech' where it is David's prayer."
+        }
+      }
     },
     "yoma-002a-s06": {
       "sugyaId": "yoma-002a-s06",
       "daf": "2a",
-      "state": "REPAIRED_PENDING_REVIEW",
+      "state": "PENDING_FINAL_AUDIT",
       "firstPass": {
         "reviewId": "rv3-second-2a-fable",
         "reviewerContextId": "rv3-ctx-second-2a-ab5c8740be29194cd",
@@ -280,7 +461,52 @@
           }
         }
       },
-      "repairRef": "02c9d26a3e626973be20ce69cc5268c0a46a9cc2"
+      "repairRef": "02c9d26a3e626973be20ce69cc5268c0a46a9cc2",
+      "sourceFingerprint": "a4abf78a1200c6891588b0c7206a5e3a2e52db368fbcf718ed97b3740a7a8d3a",
+      "semanticFingerprint": "5c03eff4e5c9bf1735fcb8efe947b9ff54cc607fb16feb2cc576f6ae7c79b0f4",
+      "secondPass": {
+        "reviewId": "rv3-second2-2a-fable",
+        "reviewerContextId": "rv3-ctx-second2-2a-a2763c3e95db526fb",
+        "sourceFirst": true,
+        "verdict": "CONFIRMED",
+        "reviewedSourceFingerprint": "a4abf78a1200c6891588b0c7206a5e3a2e52db368fbcf718ed97b3740a7a8d3a",
+        "reviewedSemanticFingerprint": "5c03eff4e5c9bf1735fcb8efe947b9ff54cc607fb16feb2cc576f6ae7c79b0f4",
+        "evidence": {
+          "method": "rv3 independent source-first second pass (round 2) in an isolated context; first-pass reasoning not shown",
+          "fullEvidenceFile": "docs/reports/data/semantic-yoma-2a-rv3-second-pass-2.json",
+          "fieldsChecked": [
+            "lineRange",
+            "display.title",
+            "display.oneLine",
+            "display.shortSummary",
+            "display.whats",
+            "display.hint",
+            "learning.learnerQuestion",
+            "learning.coreTension",
+            "learning.coreMove",
+            "learning.resolution",
+            "learning.takeaway",
+            "learning.reasoningPattern",
+            "learning.ahaMoment",
+            "learning.learningBlocker",
+            "learning.memoryAnchor",
+            "argumentFlow[*] (type,label,speaker,text,sourceRefs)",
+            "conceptRefs",
+            "requiresUnderstanding",
+            "misconceptions[*]",
+            "relatedSugyot",
+            "visualizableElements",
+            "quizSeeds[*] (question,answer,sourceRefs)",
+            "finalRuling",
+            "difficulty",
+            "alternateAngles",
+            "topicTags",
+            "prerequisiteKnowledge"
+          ],
+          "verdict": "CONFIRMED",
+          "evidence": "L27-31: chain R. Minyomi bar Chilkiya - R. Machseya bar Idi - R. Yochanan, verse wording matches L29-30 (Lev 8:34), 'la'asot elu ma'asei parah, lekhaper elu ma'asei Yom haKippurim'. L32-34: concession that the whole verse cannot be the parah because 'lekhaper' is written, and the challenge 've'eima kuleih kera beYom haKippurim'. L34-38: 'yalif tzivah tzivah' with Num 19:2 'zot chukat haTorah asher tzivah Hashem lemor', 'mah lehalan parah af kan parah, umah kan perishah af lehalan perishah' - direction of both limbs is reproduced correctly in whats, step-04 and quiz. Milu'im context is Rashi (lines 47-52). Display and resolution say the discussion continues on the next amud; no 2b content is imported; finalRuling empty. Observation: quizSeeds[1] and reasoningPattern.notes use 'must/proves' for the tzivah answer, which on 2a is the stated answer but is under challenge at L39; acceptable because the record flags the continuation and states nothing from 2b."
+        }
+      }
     },
     "yoma-002b-s01": {
       "sugyaId": "yoma-002b-s01",
