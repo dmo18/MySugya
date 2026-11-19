@@ -24,6 +24,15 @@ jobs:
       - name: Build production site
         run: npm run build
 
+      # Safety gate: never publish a build that fails the test suite.
+      # npm test rebuilds dist/ itself, so the publish step below still
+      # copies a freshly built, tested dist/.
+      - name: Verify deployable HTML
+        run: npm run check:deploy-html
+
+      - name: Run smoke test
+        run: npm test
+
       - name: Push production files to cloudways branch
         run: |
           git config user.email "github-actions[bot]@users.noreply.github.com"

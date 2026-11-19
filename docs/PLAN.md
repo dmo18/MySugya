@@ -1,10 +1,10 @@
 # Plan
 
-Written: 2026-11-19 at VERSION 15.600. Status: waiting for approval.
+Written: 2026-11-19 at VERSION 15.600. Status: approved by owner redirect, running.
 
 Owner answers that shape this plan:
 
-- Scope: safety fixes first, then certify the next 5 daf.
+- Scope: safety fixes first, then re-validate every daf from 2a.
 - PR #663 (old 18b attempt): ignore it, redo 18b fresh.
 - Merging: automatic when every gate passes (merging publishes).
 
@@ -43,14 +43,37 @@ Milestone 1 ends with a security review by a fresh Opus subagent,
 a version bump through `scripts/sync_version.py`, one pull request,
 and an automatic merge.
 
-## Milestone 2: Certify daf 18b (pilot)
+## Owner redirect (2026-11-19)
 
-## Milestone 3: Certify daf 19a, 19b, 20a, 20b
+"Assume nothing is certified. Assume existing data is fake and needs
+validation for all daf. Start at the beginning."
 
-Tasks 3 to 7 are one daf each (18b: 2 topics, the rest: 3 each,
-14 topics in total). Each daf follows
-`docs/claude-semantic-campaign-runbook.md` and
-`docs/semantic-self-heal.md` exactly:
+So: the 95 existing certificates are NOT trusted. Every daf from 2a
+to 88a gets a full fresh review, in order. The old 18b-first plan
+is replaced by the milestones below.
+
+## Milestone 2: Source text check, all 173 daf
+
+### Task 3. Compare stored source text with live Sefaria
+
+- Run every source gate (`validate:yoma`, `audit:order:yoma`,
+  `validate:en:yoma`, `validate:daftext:yoma`, `validate:rashi:yoma`,
+  `validate:literal:yoma`, `validate:schema:yoma`) against the live
+  Sefaria service and record exact results per daf.
+- Changes nothing. Any mismatch is reported, not auto-fixed.
+- Model: main session (commands only).
+
+## Milestone 3: Daf 2a (pilot)
+
+## Milestone 4: Daf 2b, 3a, 3b, 4a, 4b
+
+Tasks 4 to 9 are one daf each. After Milestone 4 the measured cost
+per daf is reported and the remaining 167 daf continue in batches
+under a new cap the owner approves.
+
+Each daf follows `docs/claude-semantic-campaign-runbook.md` and
+`docs/semantic-self-heal.md` exactly, and ignores any existing
+certificate:
 
 1. First pass and repair. A fresh Opus subagent reads the Hebrew
    source first, rebuilds the page flow, checks every field of every
@@ -61,29 +84,28 @@ Tasks 3 to 7 are one daf each (18b: 2 topics, the rest: 3 each,
    the first pass reasoning. Verdict per topic: CONFIRMED, REJECTED,
    or BLOCKED.
 3. Final whole-record audit. Another fresh Fable subagent.
-4. State changes only through `scripts/semantic_review_state.py`.
-   No hand-written fingerprints.
+4. State changes only through `scripts/semantic_review_state.py`,
+   starting again from `first` even when the record already reads
+   CERTIFIED. No hand-written fingerprints. Review ids from this
+   run start with `rv3-` so fresh work is distinguishable.
 5. All gates in the runbook section "Mandatory gates before PR
    completion", then one pull request per daf, merged in order.
-   After each merge, re-read live state before the next daf.
 
 - Files per daf: `modules/yoma/assets/learning/yoma/<daf>.learning.json`,
   `modules/yoma/learning_data.js` (generated),
   `docs/reports/data/yoma-semantic-certifications.json`,
   `.semantic-repair-manifest.json`, `VERSION` and synced files.
-- Accept: every topic on the daf reads CERTIFIED in
-  `validate_semantic_certification.py --report`, the ratchet passes,
-  and every other gate is green.
+- Accept: every topic on the daf carries a fresh `rv3-` certificate,
+  reads CERTIFIED in `validate_semantic_certification.py --report`,
+  the ratchet passes, and every other gate is green.
 - Stop rules: a topic that cannot be resolved from the source is
   marked BLOCKED and reported, never guessed. A REJECTED verdict
   sends the record back to repair one time. A second rejection on
   the same daf stops that daf and reports it.
-- If live state shows someone else already certified a daf, skip it
-  and take the next one in the queue.
 
 ## Run cap
 
-- Tasks: 7 planned, limit 9.
+- Tasks: 9 planned, limit 11.
 - Delegated tokens: limit 3,500,000.
 - Five failed attempts in total stops the run.
 
