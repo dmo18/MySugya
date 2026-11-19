@@ -8,7 +8,7 @@ Updated: 2026-11-19. Version: 15.600.
 
 ## In progress
 
-- Waiting for the owner to choose the next piece of work.
+- Plan written (`docs/PLAN.md`), waiting for approval.
 
 ## Next (proposed, not approved)
 
